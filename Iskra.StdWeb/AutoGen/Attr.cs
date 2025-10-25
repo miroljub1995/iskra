@@ -10,18 +10,18 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string? __res_3692;
-            string? __res_3693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "namespaceURI");
-            if (__res_3693 is null)
+            string? __res_5700;
+            string? __res_5701 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "namespaceURI");
+            if (__res_5701 is null)
             {
-                __res_3692 = null;
+                __res_5700 = null;
             }
             else
             {
-                string __notNullable_3694 = (string)__res_3693;
-                __res_3692 = __notNullable_3694;
+                string __notNullable_5702 = (string)__res_5701;
+                __res_5700 = __notNullable_5702;
             }
-            return __res_3692;
+            return __res_5700;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string? __res_3695;
-            string? __res_3696 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "prefix");
-            if (__res_3696 is null)
+            string? __res_5703;
+            string? __res_5704 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "prefix");
+            if (__res_5704 is null)
             {
-                __res_3695 = null;
+                __res_5703 = null;
             }
             else
             {
-                string __notNullable_3697 = (string)__res_3696;
-                __res_3695 = __notNullable_3697;
+                string __notNullable_5705 = (string)__res_5704;
+                __res_5703 = __notNullable_5705;
             }
-            return __res_3695;
+            return __res_5703;
         }
     }
 
@@ -48,10 +48,10 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_3698;
-            string __res_3699 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "localName");
-            __res_3698 = __res_3699;
-            return __res_3698;
+            string __res_5706;
+            string __res_5707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "localName");
+            __res_5706 = __res_5707;
+            return __res_5706;
         }
     }
 
@@ -59,10 +59,10 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_3700;
-            string __res_3701 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3700 = __res_3701;
-            return __res_3700;
+            string __res_5708;
+            string __res_5709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5708 = __res_5709;
+            return __res_5708;
         }
     }
 
@@ -70,16 +70,16 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_3702;
-            string __res_3703 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_3702 = __res_3703;
-            return __res_3702;
+            string __res_5710;
+            string __res_5711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_5710 = __res_5711;
+            return __res_5710;
         }
         set
         {
-            string __marshalledValue_3704;
-            __marshalledValue_3704 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_3704);
+            string __marshalledValue_5712;
+            __marshalledValue_5712 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_5712);
         }
     }
 
@@ -87,18 +87,18 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_3705;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3706 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerElement");
-            if (__res_3706 is null)
+            global::Iskra.StdWeb.Element? __res_5713;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerElement");
+            if (__res_5714 is null)
             {
-                __res_3705 = null;
+                __res_5713 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3707 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3706;
-                __res_3705 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_3707);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5715 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5714;
+                __res_5713 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5715);
             }
-            return __res_3705;
+            return __res_5713;
         }
     }
 
@@ -106,10 +106,10 @@ public partial class Attr(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            bool __res_3708;
-            bool __res_3709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "specified");
-            __res_3708 = __res_3709;
-            return __res_3708;
+            bool __res_5716;
+            bool __res_5717 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "specified");
+            __res_5716 = __res_5717;
+            return __res_5716;
         }
     }
 }

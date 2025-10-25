@@ -10,16 +10,16 @@ public partial class HTMLPreElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            int __res_6046;
-            double __res_6047 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_6046 = Convert.ToInt32(__res_6047);
-            return __res_6046;
+            int __res_8774;
+            double __res_8775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_8774 = Convert.ToInt32(__res_8775);
+            return __res_8774;
         }
         set
         {
-            double __marshalledValue_6048;
-            __marshalledValue_6048 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_6048);
+            double __marshalledValue_8776;
+            __marshalledValue_8776 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_8776);
         }
     }
 }

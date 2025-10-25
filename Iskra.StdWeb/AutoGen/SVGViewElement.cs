@@ -6,7 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class SVGViewElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
+    public global::Iskra.StdWeb.SVGAnimatedRect ViewBox
+    {
+        get
+        {
+            global::Iskra.StdWeb.SVGAnimatedRect __res_1328;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "viewBox");
+            __res_1328 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedRect>(__res_1329);
+            return __res_1328;
+        }
+    }
 
+    public global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio PreserveAspectRatio
+    {
+        get
+        {
+            global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio __res_1330;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preserveAspectRatio");
+            __res_1330 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio>(__res_1331);
+            return __res_1330;
+        }
+    }
 }
 
 #nullable disable

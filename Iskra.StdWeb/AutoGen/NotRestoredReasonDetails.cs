@@ -10,10 +10,10 @@ public partial class NotRestoredReasonDetails(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_7852;
-            string __res_7853 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
-            __res_7852 = __res_7853;
-            return __res_7852;
+            string __res_11736;
+            string __res_11737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
+            __res_11736 = __res_11737;
+            return __res_11736;
         }
     }
 }

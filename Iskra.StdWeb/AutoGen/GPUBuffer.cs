@@ -10,10 +10,10 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            ulong __res_794;
-            double __res_795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_794 = Convert.ToUInt64(__res_795);
-            return __res_794;
+            ulong __res_1499;
+            double __res_1500 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_1499 = Convert.ToUInt64(__res_1500);
+            return __res_1499;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_796;
-            double __res_797 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
-            __res_796 = Convert.ToUInt32(__res_797);
-            return __res_796;
+            uint __res_1501;
+            double __res_1502 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
+            __res_1501 = Convert.ToUInt32(__res_1502);
+            return __res_1501;
         }
     }
 
@@ -32,10 +32,27 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.GPUBufferMapState __res_798;
-            string __res_799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mapState");
-            __res_798 = global::Iskra.StdWeb.GPUBufferMapState.Create(__res_799);
-            return __res_798;
+            global::Iskra.StdWeb.GPUBufferMapState __res_1503;
+            string __res_1504 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mapState");
+            __res_1503 = global::Iskra.StdWeb.GPUBufferMapState.Create(__res_1504);
+            return __res_1503;
+        }
+    }
+
+    public string Label
+    {
+        get
+        {
+            string __res_1505;
+            string __res_1506 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1505 = __res_1506;
+            return __res_1505;
+        }
+        set
+        {
+            string __marshalledValue_1507;
+            __marshalledValue_1507 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1507);
         }
     }
 }

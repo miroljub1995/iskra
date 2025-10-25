@@ -10,10 +10,10 @@ public partial class RTCIceCandidatePair(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.RTCIceCandidate __res_2108;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2109 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "local");
-            __res_2108 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCIceCandidate>(__res_2109);
-            return __res_2108;
+            global::Iskra.StdWeb.RTCIceCandidate __res_3124;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "local");
+            __res_3124 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCIceCandidate>(__res_3125);
+            return __res_3124;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class RTCIceCandidatePair(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.RTCIceCandidate __res_2110;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2111 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "remote");
-            __res_2110 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCIceCandidate>(__res_2111);
-            return __res_2110;
+            global::Iskra.StdWeb.RTCIceCandidate __res_3126;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3127 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "remote");
+            __res_3126 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCIceCandidate>(__res_3127);
+            return __res_3126;
         }
     }
 }

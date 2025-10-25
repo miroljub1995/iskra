@@ -10,18 +10,18 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.VideoPixelFormat? __res_2805;
-            string? __res_2806 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "format");
-            if (__res_2806 is null)
+            global::Iskra.StdWeb.VideoPixelFormat? __res_3829;
+            string? __res_3830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "format");
+            if (__res_3830 is null)
             {
-                __res_2805 = null;
+                __res_3829 = null;
             }
             else
             {
-                string __notNullable_2807 = (string)__res_2806;
-                __res_2805 = global::Iskra.StdWeb.VideoPixelFormat.Create(__notNullable_2807);
+                string __notNullable_3831 = (string)__res_3830;
+                __res_3829 = global::Iskra.StdWeb.VideoPixelFormat.Create(__notNullable_3831);
             }
-            return __res_2805;
+            return __res_3829;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_2808;
-            double __res_2809 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedWidth");
-            __res_2808 = Convert.ToUInt32(__res_2809);
-            return __res_2808;
+            uint __res_3832;
+            double __res_3833 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedWidth");
+            __res_3832 = Convert.ToUInt32(__res_3833);
+            return __res_3832;
         }
     }
 
@@ -40,10 +40,10 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_2810;
-            double __res_2811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedHeight");
-            __res_2810 = Convert.ToUInt32(__res_2811);
-            return __res_2810;
+            uint __res_3834;
+            double __res_3835 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedHeight");
+            __res_3834 = Convert.ToUInt32(__res_3835);
+            return __res_3834;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.DOMRectReadOnly? __res_2812;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2813 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "codedRect");
-            if (__res_2813 is null)
+            global::Iskra.StdWeb.DOMRectReadOnly? __res_3836;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3837 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "codedRect");
+            if (__res_3837 is null)
             {
-                __res_2812 = null;
+                __res_3836 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2814 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2813;
-                __res_2812 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__notNullable_2814);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3838 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3837;
+                __res_3836 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__notNullable_3838);
             }
-            return __res_2812;
+            return __res_3836;
         }
     }
 
@@ -70,18 +70,18 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.DOMRectReadOnly? __res_2815;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2816 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "visibleRect");
-            if (__res_2816 is null)
+            global::Iskra.StdWeb.DOMRectReadOnly? __res_3839;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3840 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "visibleRect");
+            if (__res_3840 is null)
             {
-                __res_2815 = null;
+                __res_3839 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2817 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2816;
-                __res_2815 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__notNullable_2817);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3841 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3840;
+                __res_3839 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__notNullable_3841);
             }
-            return __res_2815;
+            return __res_3839;
         }
     }
 
@@ -89,10 +89,10 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            double __res_2818;
-            double __res_2819 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rotation");
-            __res_2818 = __res_2819;
-            return __res_2818;
+            double __res_3842;
+            double __res_3843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rotation");
+            __res_3842 = __res_3843;
+            return __res_3842;
         }
     }
 
@@ -100,10 +100,10 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_2820;
-            bool __res_2821 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "flip");
-            __res_2820 = __res_2821;
-            return __res_2820;
+            bool __res_3844;
+            bool __res_3845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "flip");
+            __res_3844 = __res_3845;
+            return __res_3844;
         }
     }
 
@@ -111,10 +111,10 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_2822;
-            double __res_2823 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayWidth");
-            __res_2822 = Convert.ToUInt32(__res_2823);
-            return __res_2822;
+            uint __res_3846;
+            double __res_3847 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayWidth");
+            __res_3846 = Convert.ToUInt32(__res_3847);
+            return __res_3846;
         }
     }
 
@@ -122,10 +122,10 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_2824;
-            double __res_2825 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayHeight");
-            __res_2824 = Convert.ToUInt32(__res_2825);
-            return __res_2824;
+            uint __res_3848;
+            double __res_3849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayHeight");
+            __res_3848 = Convert.ToUInt32(__res_3849);
+            return __res_3848;
         }
     }
 
@@ -133,18 +133,18 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            ulong? __res_2826;
-            double? __res_2827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
-            if (__res_2827 is null)
+            ulong? __res_3850;
+            double? __res_3851 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
+            if (__res_3851 is null)
             {
-                __res_2826 = null;
+                __res_3850 = null;
             }
             else
             {
-                double __notNullable_2828 = (double)__res_2827;
-                __res_2826 = Convert.ToUInt64(__notNullable_2828);
+                double __notNullable_3852 = (double)__res_3851;
+                __res_3850 = Convert.ToUInt64(__notNullable_3852);
             }
-            return __res_2826;
+            return __res_3850;
         }
     }
 
@@ -152,10 +152,10 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            long __res_2829;
-            double __res_2830 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_2829 = Convert.ToInt64(__res_2830);
-            return __res_2829;
+            long __res_3853;
+            double __res_3854 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_3853 = Convert.ToInt64(__res_3854);
+            return __res_3853;
         }
     }
 
@@ -163,10 +163,10 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.VideoColorSpace __res_2831;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2832 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
-            __res_2831 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoColorSpace>(__res_2832);
-            return __res_2831;
+            global::Iskra.StdWeb.VideoColorSpace __res_3855;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3856 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
+            __res_3855 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoColorSpace>(__res_3856);
+            return __res_3855;
         }
     }
 }

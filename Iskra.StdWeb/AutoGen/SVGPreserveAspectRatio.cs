@@ -10,16 +10,16 @@ public partial class SVGPreserveAspectRatio(global::System.Runtime.InteropServic
     {
         get
         {
-            ushort __res_421;
-            double __res_422 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "align");
-            __res_421 = Convert.ToUInt16(__res_422);
-            return __res_421;
+            ushort __res_1091;
+            double __res_1092 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "align");
+            __res_1091 = Convert.ToUInt16(__res_1092);
+            return __res_1091;
         }
         set
         {
-            double __marshalledValue_423;
-            __marshalledValue_423 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "align", __marshalledValue_423);
+            double __marshalledValue_1093;
+            __marshalledValue_1093 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "align", __marshalledValue_1093);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class SVGPreserveAspectRatio(global::System.Runtime.InteropServic
     {
         get
         {
-            ushort __res_424;
-            double __res_425 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "meetOrSlice");
-            __res_424 = Convert.ToUInt16(__res_425);
-            return __res_424;
+            ushort __res_1094;
+            double __res_1095 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "meetOrSlice");
+            __res_1094 = Convert.ToUInt16(__res_1095);
+            return __res_1094;
         }
         set
         {
-            double __marshalledValue_426;
-            __marshalledValue_426 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "meetOrSlice", __marshalledValue_426);
+            double __marshalledValue_1096;
+            __marshalledValue_1096 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "meetOrSlice", __marshalledValue_1096);
         }
     }
 }

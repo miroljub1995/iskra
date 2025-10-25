@@ -10,32 +10,32 @@ public partial class WebTransportSendStream(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.WebTransportSendGroup? __res_2387;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2388 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup");
-            if (__res_2388 is null)
+            global::Iskra.StdWeb.WebTransportSendGroup? __res_3403;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3404 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup");
+            if (__res_3404 is null)
             {
-                __res_2387 = null;
+                __res_3403 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2389 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2388;
-                __res_2387 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebTransportSendGroup>(__notNullable_2389);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3405 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3404;
+                __res_3403 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebTransportSendGroup>(__notNullable_3405);
             }
-            return __res_2387;
+            return __res_3403;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2390;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3406;
             if (value is null)
             {
-                __marshalledValue_2390 = null;
+                __marshalledValue_3406 = null;
             }
             else
             {
-                global::Iskra.StdWeb.WebTransportSendGroup __notNullable_2391 = (global::Iskra.StdWeb.WebTransportSendGroup)value;
-                __marshalledValue_2390 = __notNullable_2391.JSObject;
+                global::Iskra.StdWeb.WebTransportSendGroup __notNullable_3407 = (global::Iskra.StdWeb.WebTransportSendGroup)value;
+                __marshalledValue_3406 = __notNullable_3407.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup", __marshalledValue_2390);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup", __marshalledValue_3406);
         }
     }
 
@@ -43,16 +43,16 @@ public partial class WebTransportSendStream(global::System.Runtime.InteropServic
     {
         get
         {
-            long __res_2392;
-            double __res_2393 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sendOrder");
-            __res_2392 = Convert.ToInt64(__res_2393);
-            return __res_2392;
+            long __res_3408;
+            double __res_3409 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sendOrder");
+            __res_3408 = Convert.ToInt64(__res_3409);
+            return __res_3408;
         }
         set
         {
-            double __marshalledValue_2394;
-            __marshalledValue_2394 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "sendOrder", __marshalledValue_2394);
+            double __marshalledValue_3410;
+            __marshalledValue_3410 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "sendOrder", __marshalledValue_3410);
         }
     }
 }

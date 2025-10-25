@@ -6,7 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class GPUTextureView(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public string Label
+    {
+        get
+        {
+            string __res_1527;
+            string __res_1528 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1527 = __res_1528;
+            return __res_1527;
+        }
+        set
+        {
+            string __marshalledValue_1529;
+            __marshalledValue_1529 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1529);
+        }
+    }
 }
 
 #nullable disable

@@ -6,7 +6,60 @@ namespace Iskra.StdWeb;
 
 public partial class TextDecoderStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public string Encoding
+    {
+        get
+        {
+            string __res_1921;
+            string __res_1922 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
+            __res_1921 = __res_1922;
+            return __res_1921;
+        }
+    }
 
+    public bool Fatal
+    {
+        get
+        {
+            bool __res_1923;
+            bool __res_1924 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "fatal");
+            __res_1923 = __res_1924;
+            return __res_1923;
+        }
+    }
+
+    public bool IgnoreBOM
+    {
+        get
+        {
+            bool __res_1925;
+            bool __res_1926 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreBOM");
+            __res_1925 = __res_1926;
+            return __res_1925;
+        }
+    }
+
+    public global::Iskra.StdWeb.ReadableStream Readable
+    {
+        get
+        {
+            global::Iskra.StdWeb.ReadableStream __res_1927;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1928 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            __res_1927 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_1928);
+            return __res_1927;
+        }
+    }
+
+    public global::Iskra.StdWeb.WritableStream Writable
+    {
+        get
+        {
+            global::Iskra.StdWeb.WritableStream __res_1929;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1930 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            __res_1929 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_1930);
+            return __res_1929;
+        }
+    }
 }
 
 #nullable disable

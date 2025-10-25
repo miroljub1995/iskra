@@ -38,6 +38,8 @@ public class GenericMarshallerGenerator(
                             [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("unwrapPromiseValue", "iskra")]
                             private static partial global::System.Runtime.InteropServices.JavaScript.JSObject UnwrapPromiseValue(global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> task);
 
+                        {{GenerateArrayLikeElementClass().IndentLines(4)}}
+
                         {{GenerateFrozenArrayClass().IndentLines(4)}}
 
                         {{GenerateSequenceClass().IndentLines(4)}}
@@ -71,6 +73,7 @@ public class GenericMarshallerGenerator(
         var name = input switch
         {
             FrozenArrayTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.FrozenArray",
+            ObservableArrayTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.ArrayLikeElement",
             SequenceTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Sequence",
             PromiseTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Promise",
             UnionTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Union",
@@ -184,6 +187,104 @@ public class GenericMarshallerGenerator(
         }
 
         return true;
+    }
+
+    private string GenerateArrayLikeElementClass()
+    {
+        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+        var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
+        var setPropertyValueGenerator = provider.GetRequiredService<SetPropertyValueGenerator>();
+
+        List<IDLTypeDescription> generatedElementTypes = [];
+
+        List<string> interfaceParts = [];
+        List<string> bodyParts = [];
+        foreach (var marshaller in _marshallers)
+        {
+            IDLTypeDescription elementType;
+            if (marshaller.Key is FrozenArrayTypeDescription frozenArray)
+            {
+                elementType = frozenArray.IdlType.Single();
+            }
+            else if (marshaller.Key is ObservableArrayTypeDescription observableArray)
+            {
+                elementType = observableArray.IdlType.Single();
+            }
+            else if (marshaller.Key is SequenceTypeDescription sequence)
+            {
+                elementType = sequence.IdlType.Single();
+            }
+            else
+            {
+                continue;
+            }
+
+            if (generatedElementTypes.Any(x => AreEqual(x, elementType)))
+            {
+                continue;
+            }
+
+            generatedElementTypes.Add(elementType);
+
+            var elementVar = generatorContext.GetNextVariableName("element");
+
+            var getElementContent = getPropertyValueGenerator.Generate(
+                inputVar: "array",
+                type: elementType,
+                propertyNameVar: "index",
+                outputVar: elementVar
+            );
+
+            var setElementContent = setPropertyValueGenerator.Generate(
+                inputVar: "array",
+                valueVar: "value",
+                type: elementType,
+                propertyNameVar: "index"
+            );
+
+            // var toManaged = GenerateToManaged(marshaller.Key);
+            // var toJS = GenerateToJS(marshaller.Key);
+
+            var elementTypeDesc = toTypeDeclarationGenerator.Generate(elementType);
+
+            var interfacePart = $"global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<{elementTypeDesc}>";
+            interfaceParts.Add(interfacePart);
+
+            var bodyPart = $$"""
+                             static {{elementTypeDesc}} {{interfacePart}}.Get(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index)
+                             {
+                                 {{elementTypeDesc}} {{elementVar}};
+                             {{getElementContent.IndentLines(4)}}
+                                 return {{elementVar}};
+                             }
+
+                             static void {{interfacePart}}.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, {{elementTypeDesc}} value)
+                             {
+                             {{setElementContent.IndentLines(4)}}
+                             }
+                             """;
+
+            bodyParts.Add(bodyPart);
+        }
+
+        var interfaces = string.Join(",\n", interfaceParts);
+        var body = string.Join("\n\n", bodyParts);
+
+        var inheritance = interfaceParts.Count > 0
+            ? $$"""
+                :
+                {{interfaces.IndentLines(4)}}
+                """
+            : string.Empty;
+
+        var content = $$"""
+                        public class ArrayLikeElement{{inheritance}}
+                        {
+                        {{body.IndentLines(4)}}
+                        }
+                        """;
+
+        return content;
     }
 
     private string GenerateFrozenArrayClass()
@@ -579,7 +680,8 @@ public class GenericMarshallerGenerator(
 
         if (input is PromiseTypeDescription promise)
         {
-            var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+            var toTypeDeclarationGenerator =
+                provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
 
             var elementType = promise.IdlType.Single();
             var wrapperObjectVar = generatorContext.GetNextVariableName("wrapperObject");
@@ -587,7 +689,7 @@ public class GenericMarshallerGenerator(
             var taskVar = generatorContext.GetNextVariableName("task");
             var awaitedValueVar = generatorContext.GetNextVariableName("awaitedValue");
             var setValueFunctionName = generatorContext.GetNextVariableName("WrapTask");
-            
+
             var elementTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType, true);
             var taskTypeDeclaration = toTypeDeclarationGenerator.Generate(input, true);
 
@@ -606,7 +708,7 @@ public class GenericMarshallerGenerator(
                          {{setValueContent.IndentLines(4)}}
                          return {{wrapperObjectVar}};
                      }
-                     
+
                      global::System.Runtime.InteropServices.JavaScript.JSObject {{resVar}} = global::{{genSettings.Namespace}}.GenericMarshaller.UnwrapPromiseValue({{setValueFunctionName}}(input));
                      return {{resVar}};
                      """;

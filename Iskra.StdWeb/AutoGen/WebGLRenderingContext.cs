@@ -6,7 +6,84 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLRenderingContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> Canvas
+    {
+        get
+        {
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_1651;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1652;
+            __propObject_1652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "canvas");
+            __res_1651 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1652);
+            return __res_1651;
+        }
+    }
 
+    public int DrawingBufferWidth
+    {
+        get
+        {
+            int __res_1653;
+            double __res_1654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferWidth");
+            __res_1653 = Convert.ToInt32(__res_1654);
+            return __res_1653;
+        }
+    }
+
+    public int DrawingBufferHeight
+    {
+        get
+        {
+            int __res_1655;
+            double __res_1656 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferHeight");
+            __res_1655 = Convert.ToInt32(__res_1656);
+            return __res_1655;
+        }
+    }
+
+    public uint DrawingBufferFormat
+    {
+        get
+        {
+            uint __res_1657;
+            double __res_1658 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferFormat");
+            __res_1657 = Convert.ToUInt32(__res_1658);
+            return __res_1657;
+        }
+    }
+
+    public global::Iskra.StdWeb.PredefinedColorSpace DrawingBufferColorSpace
+    {
+        get
+        {
+            global::Iskra.StdWeb.PredefinedColorSpace __res_1659;
+            string __res_1660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "drawingBufferColorSpace");
+            __res_1659 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1660);
+            return __res_1659;
+        }
+        set
+        {
+            string __marshalledValue_1661;
+            __marshalledValue_1661 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "drawingBufferColorSpace", __marshalledValue_1661);
+        }
+    }
+
+    public global::Iskra.StdWeb.PredefinedColorSpace UnpackColorSpace
+    {
+        get
+        {
+            global::Iskra.StdWeb.PredefinedColorSpace __res_1662;
+            string __res_1663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unpackColorSpace");
+            __res_1662 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1663);
+            return __res_1662;
+        }
+        set
+        {
+            string __marshalledValue_1664;
+            __marshalledValue_1664 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unpackColorSpace", __marshalledValue_1664);
+        }
+    }
 }
 
 #nullable disable

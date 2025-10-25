@@ -6,7 +6,38 @@ namespace Iskra.StdWeb;
 
 public partial class TextEncoderStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public string Encoding
+    {
+        get
+        {
+            string __res_1931;
+            string __res_1932 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
+            __res_1931 = __res_1932;
+            return __res_1931;
+        }
+    }
 
+    public global::Iskra.StdWeb.ReadableStream Readable
+    {
+        get
+        {
+            global::Iskra.StdWeb.ReadableStream __res_1933;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1934 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            __res_1933 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_1934);
+            return __res_1933;
+        }
+    }
+
+    public global::Iskra.StdWeb.WritableStream Writable
+    {
+        get
+        {
+            global::Iskra.StdWeb.WritableStream __res_1935;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1936 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            __res_1935 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_1936);
+            return __res_1935;
+        }
+    }
 }
 
 #nullable disable

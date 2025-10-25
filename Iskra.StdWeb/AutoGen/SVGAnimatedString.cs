@@ -10,11 +10,11 @@ public partial class SVGAnimatedString(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union> __res_350;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_351;
-            __propObject_351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "baseVal");
-            __res_350 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_351);
-            return __res_350;
+            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union> __res_902;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_903;
+            __propObject_903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "baseVal");
+            __res_902 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_903);
+            return __res_902;
         }
         set
         {
@@ -26,10 +26,10 @@ public partial class SVGAnimatedString(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_352;
-            string __res_353 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animVal");
-            __res_352 = __res_353;
-            return __res_352;
+            string __res_904;
+            string __res_905 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animVal");
+            __res_904 = __res_905;
+            return __res_904;
         }
     }
 }

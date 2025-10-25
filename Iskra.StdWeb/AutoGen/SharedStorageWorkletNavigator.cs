@@ -6,7 +6,16 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorageWorkletNavigator(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.StdWeb.LockManager Locks
+    {
+        get
+        {
+            global::Iskra.StdWeb.LockManager __res_6603;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6604 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
+            __res_6603 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LockManager>(__res_6604);
+            return __res_6603;
+        }
+    }
 }
 
 #nullable disable

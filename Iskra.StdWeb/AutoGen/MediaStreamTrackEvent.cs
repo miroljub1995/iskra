@@ -10,10 +10,10 @@ public partial class MediaStreamTrackEvent(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.MediaStreamTrack __res_4226;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            __res_4226 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_4227);
-            return __res_4226;
+            global::Iskra.StdWeb.MediaStreamTrack __res_6269;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6270 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            __res_6269 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_6270);
+            return __res_6269;
         }
     }
 }

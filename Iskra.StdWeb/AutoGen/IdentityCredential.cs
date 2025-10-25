@@ -10,10 +10,10 @@ public partial class IdentityCredential(global::System.Runtime.InteropServices.J
     {
         get
         {
-            object? __res_2497;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2498 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "token");
+            object? __res_3513;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3514 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "token");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_2497;
+            return __res_3513;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class IdentityCredential(global::System.Runtime.InteropServices.J
     {
         get
         {
-            bool __res_2499;
-            bool __res_2500 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isAutoSelected");
-            __res_2499 = __res_2500;
-            return __res_2499;
+            bool __res_3515;
+            bool __res_3516 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isAutoSelected");
+            __res_3515 = __res_3516;
+            return __res_3515;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class IdentityCredential(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_2501;
-            string __res_2502 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "configURL");
-            __res_2501 = __res_2502;
-            return __res_2501;
+            string __res_3517;
+            string __res_3518 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "configURL");
+            __res_3517 = __res_3518;
+            return __res_3517;
         }
     }
 }

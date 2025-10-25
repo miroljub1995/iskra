@@ -10,16 +10,16 @@ public partial class MediaList(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_8419;
-            string __res_8420 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mediaText");
-            __res_8419 = __res_8420;
-            return __res_8419;
+            string __res_12589;
+            string __res_12590 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mediaText");
+            __res_12589 = __res_12590;
+            return __res_12589;
         }
         set
         {
-            string __marshalledValue_8421;
-            __marshalledValue_8421 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "mediaText", __marshalledValue_8421);
+            string __marshalledValue_12591;
+            __marshalledValue_12591 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "mediaText", __marshalledValue_12591);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class MediaList(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_8422;
-            double __res_8423 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_8422 = Convert.ToUInt32(__res_8423);
-            return __res_8422;
+            uint __res_12592;
+            double __res_12593 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_12592 = Convert.ToUInt32(__res_12593);
+            return __res_12592;
         }
     }
 }

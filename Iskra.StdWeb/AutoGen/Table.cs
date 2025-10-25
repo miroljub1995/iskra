@@ -10,10 +10,10 @@ public partial class Table(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            object? __res_5231;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5232 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
+            object? __res_7289;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7290 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "length");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_5231;
+            return __res_7289;
         }
     }
 }

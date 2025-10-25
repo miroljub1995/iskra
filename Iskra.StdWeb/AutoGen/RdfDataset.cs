@@ -10,10 +10,10 @@ public partial class RdfDataset(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.RdfGraph __res_5692;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "defaultGraph");
-            __res_5692 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RdfGraph>(__res_5693);
-            return __res_5692;
+            global::Iskra.StdWeb.RdfGraph __res_7755;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "defaultGraph");
+            __res_7755 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RdfGraph>(__res_7756);
+            return __res_7755;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_1594;
-            double __res_1595 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "textureWidth");
-            __res_1594 = Convert.ToUInt32(__res_1595);
-            return __res_1594;
+            uint __res_2605;
+            double __res_2606 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "textureWidth");
+            __res_2605 = Convert.ToUInt32(__res_2606);
+            return __res_2605;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_1596;
-            double __res_1597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "textureHeight");
-            __res_1596 = Convert.ToUInt32(__res_1597);
-            return __res_1596;
+            uint __res_2607;
+            double __res_2608 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "textureHeight");
+            __res_2607 = Convert.ToUInt32(__res_2608);
+            return __res_2607;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_1598;
-            double __res_1599 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "textureArrayLength");
-            __res_1598 = Convert.ToUInt32(__res_1599);
-            return __res_1598;
+            uint __res_2609;
+            double __res_2610 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "textureArrayLength");
+            __res_2609 = Convert.ToUInt32(__res_2610);
+            return __res_2609;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            bool __res_1600;
-            bool __res_1601 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreDepthValues");
-            __res_1600 = __res_1601;
-            return __res_1600;
+            bool __res_2611;
+            bool __res_2612 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreDepthValues");
+            __res_2611 = __res_2612;
+            return __res_2611;
         }
     }
 
@@ -54,32 +54,32 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            float? __res_1602;
-            double? __res_1603 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation");
-            if (__res_1603 is null)
+            float? __res_2613;
+            double? __res_2614 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation");
+            if (__res_2614 is null)
             {
-                __res_1602 = null;
+                __res_2613 = null;
             }
             else
             {
-                double __notNullable_1604 = (double)__res_1603;
-                __res_1602 = Convert.ToSingle(__notNullable_1604);
+                double __notNullable_2615 = (double)__res_2614;
+                __res_2613 = Convert.ToSingle(__notNullable_2615);
             }
-            return __res_1602;
+            return __res_2613;
         }
         set
         {
-            double? __marshalledValue_1605;
+            double? __marshalledValue_2616;
             if (value is null)
             {
-                __marshalledValue_1605 = null;
+                __marshalledValue_2616 = null;
             }
             else
             {
-                float __notNullable_1606 = (float)value;
-                __marshalledValue_1605 = Convert.ToDouble(__notNullable_1606);
+                float __notNullable_2617 = (float)value;
+                __marshalledValue_2616 = Convert.ToDouble(__notNullable_2617);
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation", __marshalledValue_1605);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation", __marshalledValue_2616);
         }
     }
 
@@ -87,32 +87,32 @@ public partial class XRProjectionLayer(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.XRRigidTransform? __res_1607;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1608 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "deltaPose");
-            if (__res_1608 is null)
+            global::Iskra.StdWeb.XRRigidTransform? __res_2618;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "deltaPose");
+            if (__res_2619 is null)
             {
-                __res_1607 = null;
+                __res_2618 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1609 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1608;
-                __res_1607 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__notNullable_1609);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2620 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2619;
+                __res_2618 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__notNullable_2620);
             }
-            return __res_1607;
+            return __res_2618;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_1610;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2621;
             if (value is null)
             {
-                __marshalledValue_1610 = null;
+                __marshalledValue_2621 = null;
             }
             else
             {
-                global::Iskra.StdWeb.XRRigidTransform __notNullable_1611 = (global::Iskra.StdWeb.XRRigidTransform)value;
-                __marshalledValue_1610 = __notNullable_1611.JSObject;
+                global::Iskra.StdWeb.XRRigidTransform __notNullable_2622 = (global::Iskra.StdWeb.XRRigidTransform)value;
+                __marshalledValue_2621 = __notNullable_2622.JSObject;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "deltaPose", __marshalledValue_1610);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "deltaPose", __marshalledValue_2621);
         }
     }
 }

@@ -10,18 +10,18 @@ public partial class SubmitEvent(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.HTMLElement? __res_7338;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "submitter");
-            if (__res_7339 is null)
+            global::Iskra.StdWeb.HTMLElement? __res_10161;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "submitter");
+            if (__res_10162 is null)
             {
-                __res_7338 = null;
+                __res_10161 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7340 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7339;
-                __res_7338 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLElement>(__notNullable_7340);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10163 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10162;
+                __res_10161 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLElement>(__notNullable_10163);
             }
-            return __res_7338;
+            return __res_10161;
         }
     }
 }

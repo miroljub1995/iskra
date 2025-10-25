@@ -10,10 +10,10 @@ public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.RTCErrorDetailType __res_2206;
-            string __res_2207 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorDetail");
-            __res_2206 = global::Iskra.StdWeb.RTCErrorDetailType.Create(__res_2207);
-            return __res_2206;
+            global::Iskra.StdWeb.RTCErrorDetailType __res_3222;
+            string __res_3223 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorDetail");
+            __res_3222 = global::Iskra.StdWeb.RTCErrorDetailType.Create(__res_3223);
+            return __res_3222;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            int? __res_2208;
-            double? __res_2209 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sdpLineNumber");
-            if (__res_2209 is null)
+            int? __res_3224;
+            double? __res_3225 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sdpLineNumber");
+            if (__res_3225 is null)
             {
-                __res_2208 = null;
+                __res_3224 = null;
             }
             else
             {
-                double __notNullable_2210 = (double)__res_2209;
-                __res_2208 = Convert.ToInt32(__notNullable_2210);
+                double __notNullable_3226 = (double)__res_3225;
+                __res_3224 = Convert.ToInt32(__notNullable_3226);
             }
-            return __res_2208;
+            return __res_3224;
         }
     }
 
@@ -40,18 +40,18 @@ public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            int? __res_2211;
-            double? __res_2212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sctpCauseCode");
-            if (__res_2212 is null)
+            int? __res_3227;
+            double? __res_3228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sctpCauseCode");
+            if (__res_3228 is null)
             {
-                __res_2211 = null;
+                __res_3227 = null;
             }
             else
             {
-                double __notNullable_2213 = (double)__res_2212;
-                __res_2211 = Convert.ToInt32(__notNullable_2213);
+                double __notNullable_3229 = (double)__res_3228;
+                __res_3227 = Convert.ToInt32(__notNullable_3229);
             }
-            return __res_2211;
+            return __res_3227;
         }
     }
 
@@ -59,18 +59,18 @@ public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            uint? __res_2214;
-            double? __res_2215 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "receivedAlert");
-            if (__res_2215 is null)
+            uint? __res_3230;
+            double? __res_3231 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "receivedAlert");
+            if (__res_3231 is null)
             {
-                __res_2214 = null;
+                __res_3230 = null;
             }
             else
             {
-                double __notNullable_2216 = (double)__res_2215;
-                __res_2214 = Convert.ToUInt32(__notNullable_2216);
+                double __notNullable_3232 = (double)__res_3231;
+                __res_3230 = Convert.ToUInt32(__notNullable_3232);
             }
-            return __res_2214;
+            return __res_3230;
         }
     }
 
@@ -78,18 +78,18 @@ public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            uint? __res_2217;
-            double? __res_2218 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sentAlert");
-            if (__res_2218 is null)
+            uint? __res_3233;
+            double? __res_3234 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sentAlert");
+            if (__res_3234 is null)
             {
-                __res_2217 = null;
+                __res_3233 = null;
             }
             else
             {
-                double __notNullable_2219 = (double)__res_2218;
-                __res_2217 = Convert.ToUInt32(__notNullable_2219);
+                double __notNullable_3235 = (double)__res_3234;
+                __res_3233 = Convert.ToUInt32(__notNullable_3235);
             }
-            return __res_2217;
+            return __res_3233;
         }
     }
 
@@ -97,18 +97,18 @@ public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            int? __res_2220;
-            double? __res_2221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "httpRequestStatusCode");
-            if (__res_2221 is null)
+            int? __res_3236;
+            double? __res_3237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "httpRequestStatusCode");
+            if (__res_3237 is null)
             {
-                __res_2220 = null;
+                __res_3236 = null;
             }
             else
             {
-                double __notNullable_2222 = (double)__res_2221;
-                __res_2220 = Convert.ToInt32(__notNullable_2222);
+                double __notNullable_3238 = (double)__res_3237;
+                __res_3236 = Convert.ToInt32(__notNullable_3238);
             }
-            return __res_2220;
+            return __res_3236;
         }
     }
 }

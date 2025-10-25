@@ -21,6 +21,11 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             return MapFrozenArrayToManagedType(frozenArrayTypeDescription, marshalled);
         }
 
+        if (input is ObservableArrayTypeDescription observableArrayTypeDescription)
+        {
+            return MapObservableArrayToManagedType(observableArrayTypeDescription, marshalled);
+        }
+
         if (input is PromiseTypeDescription promiseTypeDescription)
         {
             return MapPromiseToManagedType(promiseTypeDescription, marshalled);
@@ -56,7 +61,6 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
         return MakeNullableIfNeeded(mapped, input.Nullable || input.IdlType == "any");
     }
 
-
     private string MapFrozenArrayToManagedType(FrozenArrayTypeDescription input, bool marshalled)
     {
         var elementType = input.IdlType.Single();
@@ -71,6 +75,24 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
 
         return MakeNullableIfNeeded(
             $"global::Iskra.JSCore.Generics.FrozenArray<{elementManagedType}, {marshaller}>",
+            input.Nullable
+        );
+    }
+
+    private string MapObservableArrayToManagedType(ObservableArrayTypeDescription input, bool marshalled)
+    {
+        var elementType = input.IdlType.Single();
+        var elementManagedType = Generate(elementType);
+
+        if (marshalled)
+        {
+            return MakeNullableIfNeeded($"{elementManagedType}[]", input.Nullable);
+        }
+
+        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input with { Nullable = false });
+
+        return MakeNullableIfNeeded(
+            $"global::Iskra.JSCore.Generics.ObservableArray<{elementManagedType}, {marshaller}>",
             input.Nullable
         );
     }

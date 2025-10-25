@@ -10,10 +10,10 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_205;
-            string __res_206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
-            __res_205 = __res_206;
-            return __res_205;
+            string __res_207;
+            string __res_208 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
+            __res_207 = __res_208;
+            return __res_207;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.WriterTone __res_207;
-            string __res_208 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tone");
-            __res_207 = global::Iskra.StdWeb.WriterTone.Create(__res_208);
-            return __res_207;
+            global::Iskra.StdWeb.WriterTone __res_209;
+            string __res_210 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tone");
+            __res_209 = global::Iskra.StdWeb.WriterTone.Create(__res_210);
+            return __res_209;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.WriterFormat __res_209;
-            string __res_210 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
-            __res_209 = global::Iskra.StdWeb.WriterFormat.Create(__res_210);
-            return __res_209;
+            global::Iskra.StdWeb.WriterFormat __res_211;
+            string __res_212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
+            __res_211 = global::Iskra.StdWeb.WriterFormat.Create(__res_212);
+            return __res_211;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.WriterLength __res_211;
-            string __res_212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "length");
-            __res_211 = global::Iskra.StdWeb.WriterLength.Create(__res_212);
-            return __res_211;
+            global::Iskra.StdWeb.WriterLength __res_213;
+            string __res_214 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "length");
+            __res_213 = global::Iskra.StdWeb.WriterLength.Create(__res_214);
+            return __res_213;
         }
     }
 
@@ -54,26 +54,9 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_213;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_214;
-            __propObject_214 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
-            if (__propObject_214 is null)
-            {
-                return null;
-            }
-
-            __res_213 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_214);
-            return __res_213;
-        }
-    }
-
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedContextLanguages
-    {
-        get
-        {
             global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_215;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_216;
-            __propObject_216 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
+            __propObject_216 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
             if (__propObject_216 is null)
             {
                 return null;
@@ -84,22 +67,39 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
         }
     }
 
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedContextLanguages
+    {
+        get
+        {
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_217;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_218;
+            __propObject_218 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
+            if (__propObject_218 is null)
+            {
+                return null;
+            }
+
+            __res_217 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_218);
+            return __res_217;
+        }
+    }
+
     public string? OutputLanguage
     {
         get
         {
-            string? __res_217;
-            string? __res_218 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
-            if (__res_218 is null)
+            string? __res_219;
+            string? __res_220 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
+            if (__res_220 is null)
             {
-                __res_217 = null;
+                __res_219 = null;
             }
             else
             {
-                string __notNullable_219 = (string)__res_218;
-                __res_217 = __notNullable_219;
+                string __notNullable_221 = (string)__res_220;
+                __res_219 = __notNullable_221;
             }
-            return __res_217;
+            return __res_219;
         }
     }
 
@@ -107,10 +107,10 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            double __res_220;
-            double __res_221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_220 = __res_221;
-            return __res_220;
+            double __res_222;
+            double __res_223 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_222 = __res_223;
+            return __res_222;
         }
     }
 }

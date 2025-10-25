@@ -10,10 +10,29 @@ public partial class ProcessingInstruction(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_3717;
-            string __res_3718 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
-            __res_3717 = __res_3718;
-            return __res_3717;
+            string __res_5734;
+            string __res_5735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_5734 = __res_5735;
+            return __res_5734;
+        }
+    }
+
+    public global::Iskra.StdWeb.CSSStyleSheet? Sheet
+    {
+        get
+        {
+            global::Iskra.StdWeb.CSSStyleSheet? __res_5736;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sheet");
+            if (__res_5737 is null)
+            {
+                __res_5736 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5738 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5737;
+                __res_5736 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_5738);
+            }
+            return __res_5736;
         }
     }
 }

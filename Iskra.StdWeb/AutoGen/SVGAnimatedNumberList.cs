@@ -10,10 +10,10 @@ public partial class SVGAnimatedNumberList(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.SVGNumberList __res_358;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
-            __res_358 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGNumberList>(__res_359);
-            return __res_358;
+            global::Iskra.StdWeb.SVGNumberList __res_910;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_911 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            __res_910 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGNumberList>(__res_911);
+            return __res_910;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGAnimatedNumberList(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.SVGNumberList __res_360;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
-            __res_360 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGNumberList>(__res_361);
-            return __res_360;
+            global::Iskra.StdWeb.SVGNumberList __res_912;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_913 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            __res_912 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGNumberList>(__res_913);
+            return __res_912;
         }
     }
 }

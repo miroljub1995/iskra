@@ -6,7 +6,17 @@ namespace Iskra.StdWeb;
 
 public partial class ReadableStreamBYOBReader(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.JSCore.Promise Closed
+    {
+        get
+        {
+            global::Iskra.JSCore.Promise __res_1795;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1796;
+            __propObject_1796 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
+            __res_1795 = new global::Iskra.JSCore.Promise(__propObject_1796);
+            return __res_1795;
+        }
+    }
 }
 
 #nullable disable

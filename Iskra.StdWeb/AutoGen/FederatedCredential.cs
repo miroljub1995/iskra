@@ -10,10 +10,10 @@ public partial class FederatedCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_2733;
-            string __res_2734 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "provider");
-            __res_2733 = __res_2734;
-            return __res_2733;
+            string __res_3753;
+            string __res_3754 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "provider");
+            __res_3753 = __res_3754;
+            return __res_3753;
         }
     }
 
@@ -21,18 +21,40 @@ public partial class FederatedCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            string? __res_2735;
-            string? __res_2736 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "protocol");
-            if (__res_2736 is null)
+            string? __res_3755;
+            string? __res_3756 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "protocol");
+            if (__res_3756 is null)
             {
-                __res_2735 = null;
+                __res_3755 = null;
             }
             else
             {
-                string __notNullable_2737 = (string)__res_2736;
-                __res_2735 = __notNullable_2737;
+                string __notNullable_3757 = (string)__res_3756;
+                __res_3755 = __notNullable_3757;
             }
-            return __res_2735;
+            return __res_3755;
+        }
+    }
+
+    public string Name
+    {
+        get
+        {
+            string __res_3758;
+            string __res_3759 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3758 = __res_3759;
+            return __res_3758;
+        }
+    }
+
+    public string IconURL
+    {
+        get
+        {
+            string __res_3760;
+            string __res_3761 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iconURL");
+            __res_3760 = __res_3761;
+            return __res_3760;
         }
     }
 }

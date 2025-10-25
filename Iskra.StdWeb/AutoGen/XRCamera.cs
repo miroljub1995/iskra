@@ -10,10 +10,10 @@ public partial class XRCamera(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            uint __res_2493;
-            double __res_2494 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_2493 = Convert.ToUInt32(__res_2494);
-            return __res_2493;
+            uint __res_3509;
+            double __res_3510 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_3509 = Convert.ToUInt32(__res_3510);
+            return __res_3509;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRCamera(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            uint __res_2495;
-            double __res_2496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_2495 = Convert.ToUInt32(__res_2496);
-            return __res_2495;
+            uint __res_3511;
+            double __res_3512 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_3511 = Convert.ToUInt32(__res_3512);
+            return __res_3511;
         }
     }
 }

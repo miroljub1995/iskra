@@ -10,16 +10,16 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_3710;
-            string __res_3711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_3710 = __res_3711;
-            return __res_3710;
+            string __res_5718;
+            string __res_5719 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_5718 = __res_5719;
+            return __res_5718;
         }
         set
         {
-            string __marshalledValue_3712;
-            __marshalledValue_3712 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_3712);
+            string __marshalledValue_5720;
+            __marshalledValue_5720 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_5720);
         }
     }
 
@@ -27,10 +27,48 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_3713;
-            double __res_3714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3713 = Convert.ToUInt32(__res_3714);
-            return __res_3713;
+            uint __res_5721;
+            double __res_5722 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5721 = Convert.ToUInt32(__res_5722);
+            return __res_5721;
+        }
+    }
+
+    public global::Iskra.StdWeb.Element? PreviousElementSibling
+    {
+        get
+        {
+            global::Iskra.StdWeb.Element? __res_5723;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5724 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousElementSibling");
+            if (__res_5724 is null)
+            {
+                __res_5723 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5725 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5724;
+                __res_5723 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5725);
+            }
+            return __res_5723;
+        }
+    }
+
+    public global::Iskra.StdWeb.Element? NextElementSibling
+    {
+        get
+        {
+            global::Iskra.StdWeb.Element? __res_5726;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5727 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextElementSibling");
+            if (__res_5727 is null)
+            {
+                __res_5726 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5728 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5727;
+                __res_5726 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5728);
+            }
+            return __res_5726;
         }
     }
 }

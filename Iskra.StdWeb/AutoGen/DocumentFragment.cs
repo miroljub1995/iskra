@@ -6,7 +6,65 @@ namespace Iskra.StdWeb;
 
 public partial class DocumentFragment(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Node(obj)
 {
+    public global::Iskra.StdWeb.HTMLCollection Children
+    {
+        get
+        {
+            global::Iskra.StdWeb.HTMLCollection __res_5311;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5312 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
+            __res_5311 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5312);
+            return __res_5311;
+        }
+    }
 
+    public global::Iskra.StdWeb.Element? FirstElementChild
+    {
+        get
+        {
+            global::Iskra.StdWeb.Element? __res_5313;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5314 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstElementChild");
+            if (__res_5314 is null)
+            {
+                __res_5313 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5315 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5314;
+                __res_5313 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5315);
+            }
+            return __res_5313;
+        }
+    }
+
+    public global::Iskra.StdWeb.Element? LastElementChild
+    {
+        get
+        {
+            global::Iskra.StdWeb.Element? __res_5316;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5317 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastElementChild");
+            if (__res_5317 is null)
+            {
+                __res_5316 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5318 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5317;
+                __res_5316 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5318);
+            }
+            return __res_5316;
+        }
+    }
+
+    public uint ChildElementCount
+    {
+        get
+        {
+            uint __res_5319;
+            double __res_5320 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "childElementCount");
+            __res_5319 = Convert.ToUInt32(__res_5320);
+            return __res_5319;
+        }
+    }
 }
 
 #nullable disable

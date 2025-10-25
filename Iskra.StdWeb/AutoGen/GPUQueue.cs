@@ -6,7 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class GPUQueue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public string Label
+    {
+        get
+        {
+            string __res_1588;
+            string __res_1589 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1588 = __res_1589;
+            return __res_1588;
+        }
+        set
+        {
+            string __marshalledValue_1590;
+            __marshalledValue_1590 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1590);
+        }
+    }
 }
 
 #nullable disable

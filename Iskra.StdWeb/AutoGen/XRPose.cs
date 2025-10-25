@@ -10,10 +10,10 @@ public partial class XRPose(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.XRRigidTransform __res_4715;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            __res_4715 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__res_4716);
-            return __res_4715;
+            global::Iskra.StdWeb.XRRigidTransform __res_6766;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6767 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            __res_6766 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__res_6767);
+            return __res_6766;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class XRPose(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.DOMPointReadOnly? __res_4717;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4718 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
-            if (__res_4718 is null)
+            global::Iskra.StdWeb.DOMPointReadOnly? __res_6768;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6769 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
+            if (__res_6769 is null)
             {
-                __res_4717 = null;
+                __res_6768 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4719 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4718;
-                __res_4717 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__notNullable_4719);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6770 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6769;
+                __res_6768 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__notNullable_6770);
             }
-            return __res_4717;
+            return __res_6768;
         }
     }
 
@@ -40,18 +40,18 @@ public partial class XRPose(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.DOMPointReadOnly? __res_4720;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4721 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
-            if (__res_4721 is null)
+            global::Iskra.StdWeb.DOMPointReadOnly? __res_6771;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6772 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
+            if (__res_6772 is null)
             {
-                __res_4720 = null;
+                __res_6771 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4722 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4721;
-                __res_4720 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__notNullable_4722);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6773 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6772;
+                __res_6771 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__notNullable_6773);
             }
-            return __res_4720;
+            return __res_6771;
         }
     }
 
@@ -59,10 +59,10 @@ public partial class XRPose(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            bool __res_4723;
-            bool __res_4724 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "emulatedPosition");
-            __res_4723 = __res_4724;
-            return __res_4723;
+            bool __res_6774;
+            bool __res_6775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "emulatedPosition");
+            __res_6774 = __res_6775;
+            return __res_6774;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class TimeRanges(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_6665;
-            double __res_6666 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6665 = Convert.ToUInt32(__res_6666);
-            return __res_6665;
+            uint __res_9437;
+            double __res_9438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_9437 = Convert.ToUInt32(__res_9438);
+            return __res_9437;
         }
     }
 }

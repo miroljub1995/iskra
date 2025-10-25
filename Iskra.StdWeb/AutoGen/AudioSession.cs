@@ -10,16 +10,16 @@ public partial class AudioSession(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.AudioSessionType __res_9523;
-            string __res_9524 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_9523 = global::Iskra.StdWeb.AudioSessionType.Create(__res_9524);
-            return __res_9523;
+            global::Iskra.StdWeb.AudioSessionType __res_14233;
+            string __res_14234 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_14233 = global::Iskra.StdWeb.AudioSessionType.Create(__res_14234);
+            return __res_14233;
         }
         set
         {
-            string __marshalledValue_9525;
-            __marshalledValue_9525 = value.ToString();
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_9525);
+            string __marshalledValue_14235;
+            __marshalledValue_14235 = value.ToString();
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_14235);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class AudioSession(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.AudioSessionState __res_9526;
-            string __res_9527 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_9526 = global::Iskra.StdWeb.AudioSessionState.Create(__res_9527);
-            return __res_9526;
+            global::Iskra.StdWeb.AudioSessionState __res_14236;
+            string __res_14237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_14236 = global::Iskra.StdWeb.AudioSessionState.Create(__res_14237);
+            return __res_14236;
         }
     }
 
@@ -38,32 +38,32 @@ public partial class AudioSession(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_9528;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9529 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
-            if (__res_9529 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_14238;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_14239 is null)
             {
-                __res_9528 = null;
+                __res_14238 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9530 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9529;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14240 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14239;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_9528;
+            return __res_14238;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9531;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14241;
             if (value is null)
             {
-                __marshalledValue_9531 = null;
+                __marshalledValue_14241 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9532 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_14242 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_9531);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_14241);
         }
     }
 }

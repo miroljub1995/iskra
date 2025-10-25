@@ -10,16 +10,16 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_8171;
-            string __res_8172 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_8171 = __res_8172;
-            return __res_8171;
+            string __res_12322;
+            string __res_12323 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_12322 = __res_12323;
+            return __res_12322;
         }
         set
         {
-            string __marshalledValue_8173;
-            __marshalledValue_8173 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_8173);
+            string __marshalledValue_12324;
+            __marshalledValue_12324 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_12324);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_8174;
-            string __res_8175 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrolling");
-            __res_8174 = __res_8175;
-            return __res_8174;
+            string __res_12325;
+            string __res_12326 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrolling");
+            __res_12325 = __res_12326;
+            return __res_12325;
         }
         set
         {
-            string __marshalledValue_8176;
-            __marshalledValue_8176 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scrolling", __marshalledValue_8176);
+            string __marshalledValue_12327;
+            __marshalledValue_12327 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scrolling", __marshalledValue_12327);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_8177;
-            string __res_8178 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_8177 = __res_8178;
-            return __res_8177;
+            string __res_12328;
+            string __res_12329 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_12328 = __res_12329;
+            return __res_12328;
         }
         set
         {
-            string __marshalledValue_8179;
-            __marshalledValue_8179 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_8179);
+            string __marshalledValue_12330;
+            __marshalledValue_12330 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_12330);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_8180;
-            string __res_8181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "frameBorder");
-            __res_8180 = __res_8181;
-            return __res_8180;
+            string __res_12331;
+            string __res_12332 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "frameBorder");
+            __res_12331 = __res_12332;
+            return __res_12331;
         }
         set
         {
-            string __marshalledValue_8182;
-            __marshalledValue_8182 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "frameBorder", __marshalledValue_8182);
+            string __marshalledValue_12333;
+            __marshalledValue_12333 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "frameBorder", __marshalledValue_12333);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_8183;
-            string __res_8184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "longDesc");
-            __res_8183 = __res_8184;
-            return __res_8183;
+            string __res_12334;
+            string __res_12335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "longDesc");
+            __res_12334 = __res_12335;
+            return __res_12334;
         }
         set
         {
-            string __marshalledValue_8185;
-            __marshalledValue_8185 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "longDesc", __marshalledValue_8185);
+            string __marshalledValue_12336;
+            __marshalledValue_12336 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "longDesc", __marshalledValue_12336);
         }
     }
 
@@ -95,16 +95,16 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_8186;
-            bool __res_8187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noResize");
-            __res_8186 = __res_8187;
-            return __res_8186;
+            bool __res_12337;
+            bool __res_12338 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noResize");
+            __res_12337 = __res_12338;
+            return __res_12337;
         }
         set
         {
-            bool __marshalledValue_8188;
-            __marshalledValue_8188 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "noResize", __marshalledValue_8188);
+            bool __marshalledValue_12339;
+            __marshalledValue_12339 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "noResize", __marshalledValue_12339);
         }
     }
 
@@ -112,18 +112,18 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.Document? __res_8189;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8190 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentDocument");
-            if (__res_8190 is null)
+            global::Iskra.StdWeb.Document? __res_12340;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12341 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentDocument");
+            if (__res_12341 is null)
             {
-                __res_8189 = null;
+                __res_12340 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8191 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8190;
-                __res_8189 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Document>(__notNullable_8191);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12342 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12341;
+                __res_12340 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Document>(__notNullable_12342);
             }
-            return __res_8189;
+            return __res_12340;
         }
     }
 
@@ -131,18 +131,18 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.Window? __res_8192;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentWindow");
-            if (__res_8193 is null)
+            global::Iskra.StdWeb.Window? __res_12343;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12344 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentWindow");
+            if (__res_12344 is null)
             {
-                __res_8192 = null;
+                __res_12343 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8194 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8193;
-                __res_8192 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_8194);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12345 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12344;
+                __res_12343 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_12345);
             }
-            return __res_8192;
+            return __res_12343;
         }
     }
 
@@ -150,16 +150,16 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_8195;
-            string __res_8196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginHeight");
-            __res_8195 = __res_8196;
-            return __res_8195;
+            string __res_12346;
+            string __res_12347 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginHeight");
+            __res_12346 = __res_12347;
+            return __res_12346;
         }
         set
         {
-            string __marshalledValue_8197;
-            __marshalledValue_8197 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginHeight", __marshalledValue_8197);
+            string __marshalledValue_12348;
+            __marshalledValue_12348 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginHeight", __marshalledValue_12348);
         }
     }
 
@@ -167,16 +167,16 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_8198;
-            string __res_8199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginWidth");
-            __res_8198 = __res_8199;
-            return __res_8198;
+            string __res_12349;
+            string __res_12350 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginWidth");
+            __res_12349 = __res_12350;
+            return __res_12349;
         }
         set
         {
-            string __marshalledValue_8200;
-            __marshalledValue_8200 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginWidth", __marshalledValue_8200);
+            string __marshalledValue_12351;
+            __marshalledValue_12351 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginWidth", __marshalledValue_12351);
         }
     }
 }

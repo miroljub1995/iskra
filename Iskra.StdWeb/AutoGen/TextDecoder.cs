@@ -6,7 +6,38 @@ namespace Iskra.StdWeb;
 
 public partial class TextDecoder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public string Encoding
+    {
+        get
+        {
+            string __res_1913;
+            string __res_1914 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
+            __res_1913 = __res_1914;
+            return __res_1913;
+        }
+    }
 
+    public bool Fatal
+    {
+        get
+        {
+            bool __res_1915;
+            bool __res_1916 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "fatal");
+            __res_1915 = __res_1916;
+            return __res_1915;
+        }
+    }
+
+    public bool IgnoreBOM
+    {
+        get
+        {
+            bool __res_1917;
+            bool __res_1918 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreBOM");
+            __res_1917 = __res_1918;
+            return __res_1917;
+        }
+    }
 }
 
 #nullable disable

@@ -10,10 +10,10 @@ public partial class FormDataEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.FormData __res_7341;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7342 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "formData");
-            __res_7341 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FormData>(__res_7342);
-            return __res_7341;
+            global::Iskra.StdWeb.FormData __res_10164;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "formData");
+            __res_10164 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FormData>(__res_10165);
+            return __res_10164;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class XRLayerEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.XRLayer __res_1716;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1717 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layer");
-            __res_1716 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRLayer>(__res_1717);
-            return __res_1716;
+            global::Iskra.StdWeb.XRLayer __res_2727;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2728 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layer");
+            __res_2727 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRLayer>(__res_2728);
+            return __res_2727;
         }
     }
 }

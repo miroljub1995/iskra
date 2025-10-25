@@ -10,10 +10,10 @@ public partial class StereoPannerNode(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_9490;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9491 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pan");
-            __res_9490 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_9491);
-            return __res_9490;
+            global::Iskra.StdWeb.AudioParam __res_13660;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13661 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pan");
+            __res_13660 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13661);
+            return __res_13660;
         }
     }
 }

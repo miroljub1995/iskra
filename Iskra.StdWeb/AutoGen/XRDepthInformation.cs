@@ -10,10 +10,10 @@ public partial class XRDepthInformation(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1115;
-            double __res_1116 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_1115 = Convert.ToUInt32(__res_1116);
-            return __res_1115;
+            uint __res_1948;
+            double __res_1949 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_1948 = Convert.ToUInt32(__res_1949);
+            return __res_1948;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRDepthInformation(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1117;
-            double __res_1118 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_1117 = Convert.ToUInt32(__res_1118);
-            return __res_1117;
+            uint __res_1950;
+            double __res_1951 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_1950 = Convert.ToUInt32(__res_1951);
+            return __res_1950;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class XRDepthInformation(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.XRRigidTransform __res_1119;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1120 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "normDepthBufferFromNormView");
-            __res_1119 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__res_1120);
-            return __res_1119;
+            global::Iskra.StdWeb.XRRigidTransform __res_1952;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1953 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "normDepthBufferFromNormView");
+            __res_1952 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__res_1953);
+            return __res_1952;
         }
     }
 
@@ -43,10 +43,32 @@ public partial class XRDepthInformation(global::System.Runtime.InteropServices.J
     {
         get
         {
-            float __res_1121;
-            double __res_1122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rawValueToMeters");
-            __res_1121 = Convert.ToSingle(__res_1122);
-            return __res_1121;
+            float __res_1954;
+            double __res_1955 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rawValueToMeters");
+            __res_1954 = Convert.ToSingle(__res_1955);
+            return __res_1954;
+        }
+    }
+
+    public global::Iskra.JSCore.Float32Array ProjectionMatrix
+    {
+        get
+        {
+            global::Iskra.JSCore.Float32Array __res_1956;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1957 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "projectionMatrix");
+            __res_1956 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_1957);
+            return __res_1956;
+        }
+    }
+
+    public global::Iskra.StdWeb.XRRigidTransform Transform
+    {
+        get
+        {
+            global::Iskra.StdWeb.XRRigidTransform __res_1958;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1959 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            __res_1958 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__res_1959);
+            return __res_1958;
         }
     }
 }

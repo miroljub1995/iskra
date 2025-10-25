@@ -10,10 +10,29 @@ public partial class Text(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_3715;
-            string __res_3716 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wholeText");
-            __res_3715 = __res_3716;
-            return __res_3715;
+            string __res_5729;
+            string __res_5730 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wholeText");
+            __res_5729 = __res_5730;
+            return __res_5729;
+        }
+    }
+
+    public global::Iskra.StdWeb.HTMLSlotElement? AssignedSlot
+    {
+        get
+        {
+            global::Iskra.StdWeb.HTMLSlotElement? __res_5731;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "assignedSlot");
+            if (__res_5732 is null)
+            {
+                __res_5731 = null;
+            }
+            else
+            {
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5733 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5732;
+                __res_5731 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLSlotElement>(__notNullable_5733);
+            }
+            return __res_5731;
         }
     }
 }

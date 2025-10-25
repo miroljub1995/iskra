@@ -10,10 +10,10 @@ public partial class ByteLengthQueuingStrategy(global::System.Runtime.InteropSer
     {
         get
         {
-            double __res_1040;
-            double __res_1041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
-            __res_1040 = __res_1041;
-            return __res_1040;
+            double __res_1826;
+            double __res_1827 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
+            __res_1826 = __res_1827;
+            return __res_1826;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ByteLengthQueuingStrategy(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.Function __res_1042;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
+            global::Iskra.StdWeb.Function __res_1828;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1829 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Function } not supported.");
-            return __res_1042;
+            return __res_1828;
         }
     }
 }

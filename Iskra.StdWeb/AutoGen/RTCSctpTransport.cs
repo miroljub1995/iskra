@@ -10,10 +10,10 @@ public partial class RTCSctpTransport(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.RTCDtlsTransport __res_2120;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2121 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transport");
-            __res_2120 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCDtlsTransport>(__res_2121);
-            return __res_2120;
+            global::Iskra.StdWeb.RTCDtlsTransport __res_3136;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3137 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transport");
+            __res_3136 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCDtlsTransport>(__res_3137);
+            return __res_3136;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class RTCSctpTransport(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.RTCSctpTransportState __res_2122;
-            string __res_2123 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_2122 = global::Iskra.StdWeb.RTCSctpTransportState.Create(__res_2123);
-            return __res_2122;
+            global::Iskra.StdWeb.RTCSctpTransportState __res_3138;
+            string __res_3139 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_3138 = global::Iskra.StdWeb.RTCSctpTransportState.Create(__res_3139);
+            return __res_3138;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class RTCSctpTransport(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_2124;
-            double __res_2125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxMessageSize");
-            __res_2124 = __res_2125;
-            return __res_2124;
+            double __res_3140;
+            double __res_3141 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxMessageSize");
+            __res_3140 = __res_3141;
+            return __res_3140;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class RTCSctpTransport(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            ushort? __res_2126;
-            double? __res_2127 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "maxChannels");
-            if (__res_2127 is null)
+            ushort? __res_3142;
+            double? __res_3143 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "maxChannels");
+            if (__res_3143 is null)
             {
-                __res_2126 = null;
+                __res_3142 = null;
             }
             else
             {
-                double __notNullable_2128 = (double)__res_2127;
-                __res_2126 = Convert.ToUInt16(__notNullable_2128);
+                double __notNullable_3144 = (double)__res_3143;
+                __res_3142 = Convert.ToUInt16(__notNullable_3144);
             }
-            return __res_2126;
+            return __res_3142;
         }
     }
 
@@ -62,32 +62,32 @@ public partial class RTCSctpTransport(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2129;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2130 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
-            if (__res_2130 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3145;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_3146 is null)
             {
-                __res_2129 = null;
+                __res_3145 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2131 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2130;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3147 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3146;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_2129;
+            return __res_3145;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2132;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3148;
             if (value is null)
             {
-                __marshalledValue_2132 = null;
+                __marshalledValue_3148 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2133 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3149 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_2132);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_3148);
         }
     }
 }

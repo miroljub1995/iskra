@@ -10,16 +10,16 @@ public partial class SVGScriptElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_571;
-            string __res_572 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_571 = __res_572;
-            return __res_571;
+            string __res_1265;
+            string __res_1266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1265 = __res_1266;
+            return __res_1265;
         }
         set
         {
-            string __marshalledValue_573;
-            __marshalledValue_573 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_573);
+            string __marshalledValue_1267;
+            __marshalledValue_1267 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1267);
         }
     }
 
@@ -27,32 +27,43 @@ public partial class SVGScriptElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_574;
-            string? __res_575 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
-            if (__res_575 is null)
+            string? __res_1268;
+            string? __res_1269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
+            if (__res_1269 is null)
             {
-                __res_574 = null;
+                __res_1268 = null;
             }
             else
             {
-                string __notNullable_576 = (string)__res_575;
-                __res_574 = __notNullable_576;
+                string __notNullable_1270 = (string)__res_1269;
+                __res_1268 = __notNullable_1270;
             }
-            return __res_574;
+            return __res_1268;
         }
         set
         {
-            string? __marshalledValue_577;
+            string? __marshalledValue_1271;
             if (value is null)
             {
-                __marshalledValue_577 = null;
+                __marshalledValue_1271 = null;
             }
             else
             {
-                string __notNullable_578 = (string)value;
-                __marshalledValue_577 = __notNullable_578;
+                string __notNullable_1272 = (string)value;
+                __marshalledValue_1271 = __notNullable_1272;
             }
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_577);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_1271);
+        }
+    }
+
+    public global::Iskra.StdWeb.SVGAnimatedString Href
+    {
+        get
+        {
+            global::Iskra.StdWeb.SVGAnimatedString __res_1273;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1274 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
+            __res_1273 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1274);
+            return __res_1273;
         }
     }
 }

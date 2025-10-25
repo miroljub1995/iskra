@@ -10,16 +10,16 @@ public partial class HTMLDivElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_6082;
-            string __res_6083 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_6082 = __res_6083;
-            return __res_6082;
+            string __res_8810;
+            string __res_8811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_8810 = __res_8811;
+            return __res_8810;
         }
         set
         {
-            string __marshalledValue_6084;
-            __marshalledValue_6084 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_6084);
+            string __marshalledValue_8812;
+            __marshalledValue_8812 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_8812);
         }
     }
 }

@@ -6,7 +6,16 @@ namespace Iskra.StdWeb;
 
 public partial class SVGMPathElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
 {
-
+    public global::Iskra.StdWeb.SVGAnimatedString Href
+    {
+        get
+        {
+            global::Iskra.StdWeb.SVGAnimatedString __res_1694;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1695 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
+            __res_1694 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1695);
+            return __res_1694;
+        }
+    }
 }
 
 #nullable disable

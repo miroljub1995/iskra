@@ -10,10 +10,10 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_2225;
-            bool __res_2226 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasOrientation");
-            __res_2225 = __res_2226;
-            return __res_2225;
+            bool __res_3241;
+            bool __res_3242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasOrientation");
+            __res_3241 = __res_3242;
+            return __res_3241;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_2227;
-            bool __res_2228 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasPosition");
-            __res_2227 = __res_2228;
-            return __res_2227;
+            bool __res_3243;
+            bool __res_3244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasPosition");
+            __res_3243 = __res_3244;
+            return __res_3243;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.JSCore.Float32Array? __res_2229;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2230 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "position");
-            if (__res_2230 is null)
+            global::Iskra.JSCore.Float32Array? __res_3245;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3246 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "position");
+            if (__res_3246 is null)
             {
-                __res_2229 = null;
+                __res_3245 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2231 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2230;
-                __res_2229 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2231);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3247 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3246;
+                __res_3245 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_3247);
             }
-            return __res_2229;
+            return __res_3245;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.JSCore.Float32Array? __res_2232;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2233 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
-            if (__res_2233 is null)
+            global::Iskra.JSCore.Float32Array? __res_3248;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3249 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
+            if (__res_3249 is null)
             {
-                __res_2232 = null;
+                __res_3248 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2234 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2233;
-                __res_2232 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2234);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3250 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3249;
+                __res_3248 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_3250);
             }
-            return __res_2232;
+            return __res_3248;
         }
     }
 
@@ -70,18 +70,18 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.JSCore.Float32Array? __res_2235;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2236 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearAcceleration");
-            if (__res_2236 is null)
+            global::Iskra.JSCore.Float32Array? __res_3251;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3252 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearAcceleration");
+            if (__res_3252 is null)
             {
-                __res_2235 = null;
+                __res_3251 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2237 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2236;
-                __res_2235 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2237);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3253 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3252;
+                __res_3251 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_3253);
             }
-            return __res_2235;
+            return __res_3251;
         }
     }
 
@@ -89,18 +89,18 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.JSCore.Float32Array? __res_2238;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2239 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
-            if (__res_2239 is null)
+            global::Iskra.JSCore.Float32Array? __res_3254;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3255 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
+            if (__res_3255 is null)
             {
-                __res_2238 = null;
+                __res_3254 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2240 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2239;
-                __res_2238 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2240);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3256 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3255;
+                __res_3254 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_3256);
             }
-            return __res_2238;
+            return __res_3254;
         }
     }
 
@@ -108,18 +108,18 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.JSCore.Float32Array? __res_2241;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
-            if (__res_2242 is null)
+            global::Iskra.JSCore.Float32Array? __res_3257;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3258 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
+            if (__res_3258 is null)
             {
-                __res_2241 = null;
+                __res_3257 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2243 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2242;
-                __res_2241 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2243);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3259 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3258;
+                __res_3257 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_3259);
             }
-            return __res_2241;
+            return __res_3257;
         }
     }
 
@@ -127,18 +127,18 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.JSCore.Float32Array? __res_2244;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularAcceleration");
-            if (__res_2245 is null)
+            global::Iskra.JSCore.Float32Array? __res_3260;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularAcceleration");
+            if (__res_3261 is null)
             {
-                __res_2244 = null;
+                __res_3260 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2246 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2245;
-                __res_2244 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_2246);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3262 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3261;
+                __res_3260 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_3262);
             }
-            return __res_2244;
+            return __res_3260;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class PerformanceMark(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            object? __res_3772;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
+            object? __res_5792;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_3772;
+            return __res_5792;
         }
     }
 }

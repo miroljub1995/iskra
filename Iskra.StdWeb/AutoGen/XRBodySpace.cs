@@ -10,10 +10,10 @@ public partial class XRBodySpace(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.XRBodyJoint __res_4857;
-            string __res_4858 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "jointName");
-            __res_4857 = global::Iskra.StdWeb.XRBodyJoint.Create(__res_4858);
-            return __res_4857;
+            global::Iskra.StdWeb.XRBodyJoint __res_6908;
+            string __res_6909 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "jointName");
+            __res_6908 = global::Iskra.StdWeb.XRBodyJoint.Create(__res_6909);
+            return __res_6908;
         }
     }
 }

@@ -10,18 +10,18 @@ public partial class MIDIMessageEvent(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Uint8Array? __res_8693;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_8694 is null)
+            global::Iskra.JSCore.Uint8Array? __res_12863;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12864 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_12864 is null)
             {
-                __res_8693 = null;
+                __res_12863 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8695 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8694;
-                __res_8693 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Uint8Array>(__notNullable_8695);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12865 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12864;
+                __res_12863 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Uint8Array>(__notNullable_12865);
             }
-            return __res_8693;
+            return __res_12863;
         }
     }
 }

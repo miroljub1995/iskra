@@ -10,10 +10,10 @@ public partial class DOMRectList(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            uint __res_3884;
-            double __res_3885 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3884 = Convert.ToUInt32(__res_3885);
-            return __res_3884;
+            uint __res_5904;
+            double __res_5905 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5904 = Convert.ToUInt32(__res_5905);
+            return __res_5904;
         }
     }
 }

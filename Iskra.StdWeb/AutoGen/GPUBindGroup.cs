@@ -6,7 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class GPUBindGroup(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public string Label
+    {
+        get
+        {
+            string __res_1539;
+            string __res_1540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1539 = __res_1540;
+            return __res_1539;
+        }
+        set
+        {
+            string __marshalledValue_1541;
+            __marshalledValue_1541 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1541);
+        }
+    }
 }
 
 #nullable disable

@@ -10,10 +10,10 @@ public partial class CharacterBoundsUpdateEvent(global::System.Runtime.InteropSe
     {
         get
         {
-            uint __res_9593;
-            double __res_9594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
-            __res_9593 = Convert.ToUInt32(__res_9594);
-            return __res_9593;
+            uint __res_14303;
+            double __res_14304 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
+            __res_14303 = Convert.ToUInt32(__res_14304);
+            return __res_14303;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CharacterBoundsUpdateEvent(global::System.Runtime.InteropSe
     {
         get
         {
-            uint __res_9595;
-            double __res_9596 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
-            __res_9595 = Convert.ToUInt32(__res_9596);
-            return __res_9595;
+            uint __res_14305;
+            double __res_14306 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
+            __res_14305 = Convert.ToUInt32(__res_14306);
+            return __res_14305;
         }
     }
 }

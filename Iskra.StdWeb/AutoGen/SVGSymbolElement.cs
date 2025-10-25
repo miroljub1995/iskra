@@ -6,7 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class SVGSymbolElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGGraphicsElement(obj)
 {
+    public global::Iskra.StdWeb.SVGAnimatedRect ViewBox
+    {
+        get
+        {
+            global::Iskra.StdWeb.SVGAnimatedRect __res_1040;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1041 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "viewBox");
+            __res_1040 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedRect>(__res_1041);
+            return __res_1040;
+        }
+    }
 
+    public global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio PreserveAspectRatio
+    {
+        get
+        {
+            global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio __res_1042;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1043 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preserveAspectRatio");
+            __res_1042 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio>(__res_1043);
+            return __res_1042;
+        }
+    }
 }
 
 #nullable disable

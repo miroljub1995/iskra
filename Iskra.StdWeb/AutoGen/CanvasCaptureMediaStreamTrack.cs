@@ -10,10 +10,10 @@ public partial class CanvasCaptureMediaStreamTrack(global::System.Runtime.Intero
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCanvasElement __res_1772;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
-            __res_1772 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCanvasElement>(__res_1773);
-            return __res_1772;
+            global::Iskra.StdWeb.HTMLCanvasElement __res_2783;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
+            __res_2783 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCanvasElement>(__res_2784);
+            return __res_2783;
         }
     }
 }

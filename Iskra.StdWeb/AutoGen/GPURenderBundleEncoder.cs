@@ -6,7 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class GPURenderBundleEncoder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public string Label
+    {
+        get
+        {
+            string __res_1585;
+            string __res_1586 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1585 = __res_1586;
+            return __res_1585;
+        }
+        set
+        {
+            string __marshalledValue_1587;
+            __marshalledValue_1587 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1587);
+        }
+    }
 }
 
 #nullable disable

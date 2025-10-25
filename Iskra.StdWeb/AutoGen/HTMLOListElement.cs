@@ -10,16 +10,16 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_6052;
-            bool __res_6053 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reversed");
-            __res_6052 = __res_6053;
-            return __res_6052;
+            bool __res_8780;
+            bool __res_8781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reversed");
+            __res_8780 = __res_8781;
+            return __res_8780;
         }
         set
         {
-            bool __marshalledValue_6054;
-            __marshalledValue_6054 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "reversed", __marshalledValue_6054);
+            bool __marshalledValue_8782;
+            __marshalledValue_8782 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "reversed", __marshalledValue_8782);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            int __res_6055;
-            double __res_6056 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "start");
-            __res_6055 = Convert.ToInt32(__res_6056);
-            return __res_6055;
+            int __res_8783;
+            double __res_8784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "start");
+            __res_8783 = Convert.ToInt32(__res_8784);
+            return __res_8783;
         }
         set
         {
-            double __marshalledValue_6057;
-            __marshalledValue_6057 = Convert.ToDouble(value);
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "start", __marshalledValue_6057);
+            double __marshalledValue_8785;
+            __marshalledValue_8785 = Convert.ToDouble(value);
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "start", __marshalledValue_8785);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_6058;
-            string __res_6059 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_6058 = __res_6059;
-            return __res_6058;
+            string __res_8786;
+            string __res_8787 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_8786 = __res_8787;
+            return __res_8786;
         }
         set
         {
-            string __marshalledValue_6060;
-            __marshalledValue_6060 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_6060);
+            string __marshalledValue_8788;
+            __marshalledValue_8788 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8788);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_6061;
-            bool __res_6062 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            __res_6061 = __res_6062;
-            return __res_6061;
+            bool __res_8789;
+            bool __res_8790 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
+            __res_8789 = __res_8790;
+            return __res_8789;
         }
         set
         {
-            bool __marshalledValue_6063;
-            __marshalledValue_6063 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_6063);
+            bool __marshalledValue_8791;
+            __marshalledValue_8791 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_8791);
         }
     }
 }

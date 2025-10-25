@@ -10,18 +10,18 @@ public partial class ScrollTimeline(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_262;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_263 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
-            if (__res_263 is null)
+            global::Iskra.StdWeb.Element? __res_264;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_265 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_265 is null)
             {
-                __res_262 = null;
+                __res_264 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_264 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_263;
-                __res_262 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_264);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_266 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_265;
+                __res_264 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_266);
             }
-            return __res_262;
+            return __res_264;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class ScrollTimeline(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.ScrollAxis __res_265;
-            string __res_266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axis");
-            __res_265 = global::Iskra.StdWeb.ScrollAxis.Create(__res_266);
-            return __res_265;
+            global::Iskra.StdWeb.ScrollAxis __res_267;
+            string __res_268 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axis");
+            __res_267 = global::Iskra.StdWeb.ScrollAxis.Create(__res_268);
+            return __res_267;
         }
     }
 }

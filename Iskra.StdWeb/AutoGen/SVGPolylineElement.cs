@@ -6,7 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class SVGPolylineElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGGeometryElement(obj)
 {
+    public global::Iskra.StdWeb.SVGPointList Points
+    {
+        get
+        {
+            global::Iskra.StdWeb.SVGPointList __res_1139;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1140 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "points");
+            __res_1139 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPointList>(__res_1140);
+            return __res_1139;
+        }
+    }
 
+    public global::Iskra.StdWeb.SVGPointList AnimatedPoints
+    {
+        get
+        {
+            global::Iskra.StdWeb.SVGPointList __res_1141;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1142 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animatedPoints");
+            __res_1141 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPointList>(__res_1142);
+            return __res_1141;
+        }
+    }
 }
 
 #nullable disable

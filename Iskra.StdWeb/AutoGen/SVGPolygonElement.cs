@@ -6,7 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class SVGPolygonElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGGeometryElement(obj)
 {
+    public global::Iskra.StdWeb.SVGPointList Points
+    {
+        get
+        {
+            global::Iskra.StdWeb.SVGPointList __res_1143;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1144 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "points");
+            __res_1143 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPointList>(__res_1144);
+            return __res_1143;
+        }
+    }
 
+    public global::Iskra.StdWeb.SVGPointList AnimatedPoints
+    {
+        get
+        {
+            global::Iskra.StdWeb.SVGPointList __res_1145;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1146 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animatedPoints");
+            __res_1145 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPointList>(__res_1146);
+            return __res_1145;
+        }
+    }
 }
 
 #nullable disable

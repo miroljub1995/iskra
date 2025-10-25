@@ -10,18 +10,18 @@ public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Window? __res_891;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_892 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
-            if (__res_892 is null)
+            global::Iskra.StdWeb.Window? __res_1667;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
+            if (__res_1668 is null)
             {
-                __res_891 = null;
+                __res_1667 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_893 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_892;
-                __res_891 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_893);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1669 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1668;
+                __res_1667 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_1669);
             }
-            return __res_891;
+            return __res_1667;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            int __res_894;
-            double __res_895 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
-            __res_894 = Convert.ToInt32(__res_895);
-            return __res_894;
+            int __res_1670;
+            double __res_1671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
+            __res_1670 = Convert.ToInt32(__res_1671);
+            return __res_1670;
         }
     }
 }

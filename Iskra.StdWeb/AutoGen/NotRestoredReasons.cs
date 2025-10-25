@@ -10,18 +10,18 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string? __res_7854;
-            string? __res_7855 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "src");
-            if (__res_7855 is null)
+            string? __res_11738;
+            string? __res_11739 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "src");
+            if (__res_11739 is null)
             {
-                __res_7854 = null;
+                __res_11738 = null;
             }
             else
             {
-                string __notNullable_7856 = (string)__res_7855;
-                __res_7854 = __notNullable_7856;
+                string __notNullable_11740 = (string)__res_11739;
+                __res_11738 = __notNullable_11740;
             }
-            return __res_7854;
+            return __res_11738;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string? __res_7857;
-            string? __res_7858 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
-            if (__res_7858 is null)
+            string? __res_11741;
+            string? __res_11742 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
+            if (__res_11742 is null)
             {
-                __res_7857 = null;
+                __res_11741 = null;
             }
             else
             {
-                string __notNullable_7859 = (string)__res_7858;
-                __res_7857 = __notNullable_7859;
+                string __notNullable_11743 = (string)__res_11742;
+                __res_11741 = __notNullable_11743;
             }
-            return __res_7857;
+            return __res_11741;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string? __res_7860;
-            string? __res_7861 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_7861 is null)
+            string? __res_11744;
+            string? __res_11745 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
+            if (__res_11745 is null)
             {
-                __res_7860 = null;
+                __res_11744 = null;
             }
             else
             {
-                string __notNullable_7862 = (string)__res_7861;
-                __res_7860 = __notNullable_7862;
+                string __notNullable_11746 = (string)__res_11745;
+                __res_11744 = __notNullable_11746;
             }
-            return __res_7860;
+            return __res_11744;
         }
     }
 
@@ -67,18 +67,18 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string? __res_7863;
-            string? __res_7864 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_7864 is null)
+            string? __res_11747;
+            string? __res_11748 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_11748 is null)
             {
-                __res_7863 = null;
+                __res_11747 = null;
             }
             else
             {
-                string __notNullable_7865 = (string)__res_7864;
-                __res_7863 = __notNullable_7865;
+                string __notNullable_11749 = (string)__res_11748;
+                __res_11747 = __notNullable_11749;
             }
-            return __res_7863;
+            return __res_11747;
         }
     }
 
@@ -86,16 +86,16 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_7866;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7867;
-            __propObject_7867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "reasons");
-            if (__propObject_7867 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_11750;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_11751;
+            __propObject_11751 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "reasons");
+            if (__propObject_11751 is null)
             {
                 return null;
             }
 
-            __res_7866 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7867);
-            return __res_7866;
+            __res_11750 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_11751);
+            return __res_11750;
         }
     }
 
@@ -103,16 +103,16 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_7868;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7869;
-            __propObject_7869 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "children");
-            if (__propObject_7869 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_11752;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_11753;
+            __propObject_11753 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "children");
+            if (__propObject_11753 is null)
             {
                 return null;
             }
 
-            __res_7868 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_7869);
-            return __res_7868;
+            __res_11752 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_11753);
+            return __res_11752;
         }
     }
 }

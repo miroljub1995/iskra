@@ -10,10 +10,10 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_188;
-            string __res_189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
-            __res_188 = __res_189;
-            return __res_188;
+            string __res_190;
+            string __res_191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
+            __res_190 = __res_191;
+            return __res_190;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.SummarizerType __res_190;
-            string __res_191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_190 = global::Iskra.StdWeb.SummarizerType.Create(__res_191);
-            return __res_190;
+            global::Iskra.StdWeb.SummarizerType __res_192;
+            string __res_193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_192 = global::Iskra.StdWeb.SummarizerType.Create(__res_193);
+            return __res_192;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.SummarizerFormat __res_192;
-            string __res_193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
-            __res_192 = global::Iskra.StdWeb.SummarizerFormat.Create(__res_193);
-            return __res_192;
+            global::Iskra.StdWeb.SummarizerFormat __res_194;
+            string __res_195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
+            __res_194 = global::Iskra.StdWeb.SummarizerFormat.Create(__res_195);
+            return __res_194;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.SummarizerLength __res_194;
-            string __res_195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "length");
-            __res_194 = global::Iskra.StdWeb.SummarizerLength.Create(__res_195);
-            return __res_194;
+            global::Iskra.StdWeb.SummarizerLength __res_196;
+            string __res_197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "length");
+            __res_196 = global::Iskra.StdWeb.SummarizerLength.Create(__res_197);
+            return __res_196;
         }
     }
 
@@ -54,26 +54,9 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_196;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_197;
-            __propObject_197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
-            if (__propObject_197 is null)
-            {
-                return null;
-            }
-
-            __res_196 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_197);
-            return __res_196;
-        }
-    }
-
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedContextLanguages
-    {
-        get
-        {
             global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_198;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_199;
-            __propObject_199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
+            __propObject_199 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
             if (__propObject_199 is null)
             {
                 return null;
@@ -84,22 +67,39 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? ExpectedContextLanguages
+    {
+        get
+        {
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>? __res_200;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_201;
+            __propObject_201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
+            if (__propObject_201 is null)
+            {
+                return null;
+            }
+
+            __res_200 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.FrozenArray>(__propObject_201);
+            return __res_200;
+        }
+    }
+
     public string? OutputLanguage
     {
         get
         {
-            string? __res_200;
-            string? __res_201 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
-            if (__res_201 is null)
+            string? __res_202;
+            string? __res_203 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
+            if (__res_203 is null)
             {
-                __res_200 = null;
+                __res_202 = null;
             }
             else
             {
-                string __notNullable_202 = (string)__res_201;
-                __res_200 = __notNullable_202;
+                string __notNullable_204 = (string)__res_203;
+                __res_202 = __notNullable_204;
             }
-            return __res_200;
+            return __res_202;
         }
     }
 
@@ -107,10 +107,10 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            double __res_203;
-            double __res_204 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_203 = __res_204;
-            return __res_203;
+            double __res_205;
+            double __res_206 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_205 = __res_206;
+            return __res_205;
         }
     }
 }

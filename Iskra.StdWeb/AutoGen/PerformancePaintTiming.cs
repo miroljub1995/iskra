@@ -6,7 +6,35 @@ namespace Iskra.StdWeb;
 
 public partial class PerformancePaintTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
+    public double PaintTime
+    {
+        get
+        {
+            double __res_6128;
+            double __res_6129 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "paintTime");
+            __res_6128 = __res_6129;
+            return __res_6128;
+        }
+    }
 
+    public double? PresentationTime
+    {
+        get
+        {
+            double? __res_6130;
+            double? __res_6131 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "presentationTime");
+            if (__res_6131 is null)
+            {
+                __res_6130 = null;
+            }
+            else
+            {
+                double __notNullable_6132 = (double)__res_6131;
+                __res_6130 = __notNullable_6132;
+            }
+            return __res_6130;
+        }
+    }
 }
 
 #nullable disable

@@ -39,6 +39,16 @@ public class GetPropertyValueGenerator(
             );
         }
 
+        if (type is ObservableArrayTypeDescription observableArrayTypeDescription)
+        {
+            return GenerateForObservableArray(
+                inputVar: inputVar,
+                type: observableArrayTypeDescription,
+                propertyNameVar: propertyNameVar,
+                outputVar: outputVar
+            );
+        }
+
         if (type is PromiseTypeDescription promiseTypeDescription)
         {
             return GenerateForPromise(
@@ -179,6 +189,47 @@ public class GetPropertyValueGenerator(
     private string GenerateForFrozenArray(
         string inputVar,
         FrozenArrayTypeDescription type,
+        string propertyNameVar,
+        string outputVar
+    )
+    {
+        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+
+        var constructor = toTypeDeclarationGenerator.Generate(type with { Nullable = false });
+
+        var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
+
+        var getPropertyVar = generatorContext.GetNextVariableName("propObject");
+
+        var getPropertyContent = $$"""
+                                   {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
+
+        if (type.Nullable)
+        {
+            return $$"""
+                     global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                     {{getPropertyContent}}
+                     if ({{getPropertyVar}} is null)
+                     {
+                         return null;
+                     }
+
+                     {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     """;
+        }
+
+        return $$"""
+                 global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                 {{getPropertyContent}}
+                 {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                 """;
+    }
+
+    private string GenerateForObservableArray(
+        string inputVar,
+        ObservableArrayTypeDescription type,
         string propertyNameVar,
         string outputVar
     )

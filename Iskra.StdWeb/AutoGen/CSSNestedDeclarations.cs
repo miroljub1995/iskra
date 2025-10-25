@@ -10,10 +10,10 @@ public partial class CSSNestedDeclarations(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleProperties __res_2871;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2872 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_2871 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_2872);
-            return __res_2871;
+            global::Iskra.StdWeb.CSSStyleProperties __res_3895;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3896 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_3895 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_3896);
+            return __res_3895;
         }
     }
 }

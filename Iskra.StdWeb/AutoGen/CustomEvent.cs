@@ -10,10 +10,10 @@ public partial class CustomEvent(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            object? __res_3345;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3346 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
+            object? __res_4499;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4500 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detail");
             throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = any } not supported.");
-            return __res_3345;
+            return __res_4499;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class PaymentMethodChangeEvent(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_8613;
-            string __res_8614 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
-            __res_8613 = __res_8614;
-            return __res_8613;
+            string __res_12783;
+            string __res_12784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
+            __res_12783 = __res_12784;
+            return __res_12783;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class PaymentMethodChangeEvent(global::System.Runtime.InteropServ
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8615;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8616 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "methodDetails");
-            if (__res_8616 is null)
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12785;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12786 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "methodDetails");
+            if (__res_12786 is null)
             {
-                __res_8615 = null;
+                __res_12785 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8617 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8616;
-                __res_8615 = __notNullable_8617;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12787 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12786;
+                __res_12785 = __notNullable_12787;
             }
-            return __res_8615;
+            return __res_12785;
         }
     }
 }

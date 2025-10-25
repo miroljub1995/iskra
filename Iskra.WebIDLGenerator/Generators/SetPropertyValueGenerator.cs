@@ -39,6 +39,16 @@ public class SetPropertyValueGenerator(
             );
         }
 
+        if (type is ObservableArrayTypeDescription observableArrayTypeDescription)
+        {
+            return GenerateForObservableArray(
+                inputVar: inputVar,
+                valueVar: valueVar,
+                type: observableArrayTypeDescription,
+                propertyNameVar: propertyNameVar
+            );
+        }
+
         if (type is PromiseTypeDescription promiseTypeDescription)
         {
             return GenerateForPromise(
@@ -174,6 +184,45 @@ public class SetPropertyValueGenerator(
         string inputVar,
         string valueVar,
         FrozenArrayTypeDescription type,
+        string propertyNameVar
+    )
+    {
+        var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
+
+        var setPropertyVar = generatorContext.GetNextVariableName("propObject");
+
+        var setPropertyContent = $$"""
+                                   Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
+                                   """;
+
+        if (type.Nullable)
+        {
+            return $$"""
+                     global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}};
+                     if ({{valueVar}} is null)
+                     {
+                         {{setPropertyVar}} = null;
+                     }
+                     else
+                     {
+                         {{setPropertyVar}} = {{valueVar}}.JSObject;
+                     }
+
+                     {{setPropertyContent}}
+                     """;
+        }
+
+        return $$"""
+                 global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}} = {{valueVar}}.JSObject;
+                 {{setPropertyContent}}
+                 """;
+    }
+
+    private string GenerateForObservableArray(
+        string inputVar,
+        string valueVar,
+        ObservableArrayTypeDescription type,
         string propertyNameVar
     )
     {

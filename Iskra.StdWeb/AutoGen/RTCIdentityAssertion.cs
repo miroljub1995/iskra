@@ -10,16 +10,16 @@ public partial class RTCIdentityAssertion(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_4542;
-            string __res_4543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "idp");
-            __res_4542 = __res_4543;
-            return __res_4542;
+            string __res_6587;
+            string __res_6588 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "idp");
+            __res_6587 = __res_6588;
+            return __res_6587;
         }
         set
         {
-            string __marshalledValue_4544;
-            __marshalledValue_4544 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "idp", __marshalledValue_4544);
+            string __marshalledValue_6589;
+            __marshalledValue_6589 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "idp", __marshalledValue_6589);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class RTCIdentityAssertion(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_4545;
-            string __res_4546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4545 = __res_4546;
-            return __res_4545;
+            string __res_6590;
+            string __res_6591 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6590 = __res_6591;
+            return __res_6590;
         }
         set
         {
-            string __marshalledValue_4547;
-            __marshalledValue_4547 = value;
-            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_4547);
+            string __marshalledValue_6592;
+            __marshalledValue_6592 = value;
+            Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_6592);
         }
     }
 }
