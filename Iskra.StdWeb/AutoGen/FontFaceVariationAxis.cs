@@ -10,10 +10,10 @@ public partial class FontFaceVariationAxis(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_3306;
-            string __res_3307 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3306 = __res_3307;
-            return __res_3306;
+            string __res_3347;
+            string __res_3348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3347 = __res_3348;
+            return __res_3347;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class FontFaceVariationAxis(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_3308;
-            string __res_3309 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axisTag");
-            __res_3308 = __res_3309;
-            return __res_3308;
+            string __res_3349;
+            string __res_3350 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axisTag");
+            __res_3349 = __res_3350;
+            return __res_3349;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class FontFaceVariationAxis(global::System.Runtime.InteropService
     {
         get
         {
-            double __res_3310;
-            double __res_3311 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minimumValue");
-            __res_3310 = __res_3311;
-            return __res_3310;
+            double __res_3351;
+            double __res_3352 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minimumValue");
+            __res_3351 = __res_3352;
+            return __res_3351;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class FontFaceVariationAxis(global::System.Runtime.InteropService
     {
         get
         {
-            double __res_3312;
-            double __res_3313 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maximumValue");
-            __res_3312 = __res_3313;
-            return __res_3312;
+            double __res_3353;
+            double __res_3354 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maximumValue");
+            __res_3353 = __res_3354;
+            return __res_3353;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class FontFaceVariationAxis(global::System.Runtime.InteropService
     {
         get
         {
-            double __res_3314;
-            double __res_3315 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultValue");
-            __res_3314 = __res_3315;
-            return __res_3314;
+            double __res_3355;
+            double __res_3356 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultValue");
+            __res_3355 = __res_3356;
+            return __res_3355;
         }
     }
 }

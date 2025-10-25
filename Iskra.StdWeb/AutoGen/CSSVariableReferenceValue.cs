@@ -11,7 +11,7 @@ public partial class CSSVariableReferenceValue(global::System.Runtime.InteropSer
         get
         {
             string __res_33;
-            string __res_34 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "variable");
+            string __res_34 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "variable");
             __res_33 = __res_34;
             return __res_33;
         }
@@ -28,7 +28,7 @@ public partial class CSSVariableReferenceValue(global::System.Runtime.InteropSer
         get
         {
             global::Iskra.StdWeb.CSSUnparsedValue? __res_36;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_37 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fallback");
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_37 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fallback");
             if (__res_37 is null)
             {
                 __res_36 = null;

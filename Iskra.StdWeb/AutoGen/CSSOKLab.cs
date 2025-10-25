@@ -10,15 +10,16 @@ public partial class CSSOKLab(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_158;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_159;
-            __propObject_159 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "l");
-            __res_158 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_159);
-            return __res_158;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_184;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_185;
+            __propObject_185 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "l");
+            __res_184 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_185);
+            return __res_184;
         }
         set
         {
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "l", value.JSObject);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_186 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "l", __propObject_186);
         }
     }
 
@@ -26,15 +27,16 @@ public partial class CSSOKLab(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_160;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_161;
-            __propObject_161 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "a");
-            __res_160 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_161);
-            return __res_160;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_187;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_188;
+            __propObject_188 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "a");
+            __res_187 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_188);
+            return __res_187;
         }
         set
         {
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "a", value.JSObject);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_189 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "a", __propObject_189);
         }
     }
 
@@ -42,15 +44,16 @@ public partial class CSSOKLab(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_162;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_163;
-            __propObject_163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "b");
-            __res_162 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_163);
-            return __res_162;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_190;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_191;
+            __propObject_191 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "b");
+            __res_190 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_191);
+            return __res_190;
         }
         set
         {
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "b", value.JSObject);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_192 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "b", __propObject_192);
         }
     }
 
@@ -58,15 +61,16 @@ public partial class CSSOKLab(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_164;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_165;
-            __propObject_165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "alpha");
-            __res_164 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_165);
-            return __res_164;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_193;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_194;
+            __propObject_194 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "alpha");
+            __res_193 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_194);
+            return __res_193;
         }
         set
         {
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "alpha", value.JSObject);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_195 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "alpha", __propObject_195);
         }
     }
 }

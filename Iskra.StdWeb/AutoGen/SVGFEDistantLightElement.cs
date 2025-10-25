@@ -10,10 +10,10 @@ public partial class SVGFEDistantLightElement(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedNumber __res_2163;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2164 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "azimuth");
-            __res_2163 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_2164);
-            return __res_2163;
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_2200;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2201 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "azimuth");
+            __res_2200 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_2201);
+            return __res_2200;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGFEDistantLightElement(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedNumber __res_2165;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2166 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elevation");
-            __res_2165 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_2166);
-            return __res_2165;
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_2202;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2203 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elevation");
+            __res_2202 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_2203);
+            return __res_2202;
         }
     }
 }

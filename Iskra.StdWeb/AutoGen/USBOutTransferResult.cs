@@ -10,10 +10,10 @@ public partial class USBOutTransferResult(global::System.Runtime.InteropServices
     {
         get
         {
-            uint __res_7634;
-            double __res_7635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bytesWritten");
-            __res_7634 = Convert.ToUInt32(__res_7635);
-            return __res_7634;
+            uint __res_7682;
+            double __res_7683 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bytesWritten");
+            __res_7682 = Convert.ToUInt32(__res_7683);
+            return __res_7682;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class USBOutTransferResult(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.USBTransferStatus __res_7636;
-            string __res_7637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "status");
-            __res_7636 = global::Iskra.StdWeb.USBTransferStatus.Create(__res_7637);
-            return __res_7636;
+            global::Iskra.StdWeb.USBTransferStatus __res_7684;
+            string __res_7685 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "status");
+            __res_7684 = global::Iskra.StdWeb.USBTransferStatus.Create(__res_7685);
+            return __res_7684;
         }
     }
 }

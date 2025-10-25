@@ -10,10 +10,10 @@ public partial class SVGStopElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedNumber __res_1243;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1244 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
-            __res_1243 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_1244);
-            return __res_1243;
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_1280;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1281 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
+            __res_1280 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_1281);
+            return __res_1280;
         }
     }
 }

@@ -10,16 +10,16 @@ public partial class CSSSkew(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.CSSNumericValue __res_100;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ax");
-            __res_100 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_101);
-            return __res_100;
+            global::Iskra.StdWeb.CSSNumericValue __res_106;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_107 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ax");
+            __res_106 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_107);
+            return __res_106;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_102;
-            __marshalledValue_102 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ax", __marshalledValue_102);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_108;
+            __marshalledValue_108 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ax", __marshalledValue_108);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class CSSSkew(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.CSSNumericValue __res_103;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_104 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ay");
-            __res_103 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_104);
-            return __res_103;
+            global::Iskra.StdWeb.CSSNumericValue __res_109;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_110 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ay");
+            __res_109 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_110);
+            return __res_109;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_105;
-            __marshalledValue_105 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ay", __marshalledValue_105);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_111;
+            __marshalledValue_111 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ay", __marshalledValue_111);
         }
     }
 }

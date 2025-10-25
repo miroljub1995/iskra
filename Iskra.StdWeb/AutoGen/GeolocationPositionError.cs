@@ -10,10 +10,10 @@ public partial class GeolocationPositionError(global::System.Runtime.InteropServ
     {
         get
         {
-            ushort __res_1856;
-            double __res_1857 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            __res_1856 = Convert.ToUInt16(__res_1857);
-            return __res_1856;
+            ushort __res_1893;
+            double __res_1894 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
+            __res_1893 = Convert.ToUInt16(__res_1894);
+            return __res_1893;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GeolocationPositionError(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_1858;
-            string __res_1859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_1858 = __res_1859;
-            return __res_1858;
+            string __res_1895;
+            string __res_1896 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_1895 = __res_1896;
+            return __res_1895;
         }
     }
 }

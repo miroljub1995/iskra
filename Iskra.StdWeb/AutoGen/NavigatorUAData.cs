@@ -10,11 +10,11 @@ public partial class NavigatorUAData(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3926;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3927;
-            __propObject_3927 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "brands");
-            __res_3926 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3927);
-            return __res_3926;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3967;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3968;
+            __propObject_3968 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "brands");
+            __res_3967 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3968);
+            return __res_3967;
         }
     }
 
@@ -22,10 +22,10 @@ public partial class NavigatorUAData(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_3928;
-            bool __res_3929 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
-            __res_3928 = __res_3929;
-            return __res_3928;
+            bool __res_3969;
+            bool __res_3970 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
+            __res_3969 = __res_3970;
+            return __res_3969;
         }
     }
 
@@ -33,10 +33,10 @@ public partial class NavigatorUAData(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_3930;
-            string __res_3931 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
-            __res_3930 = __res_3931;
-            return __res_3930;
+            string __res_3971;
+            string __res_3972 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
+            __res_3971 = __res_3972;
+            return __res_3971;
         }
     }
 }

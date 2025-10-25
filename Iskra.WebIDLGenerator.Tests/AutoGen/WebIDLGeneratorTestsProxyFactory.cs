@@ -25,6 +25,7 @@ public static class WebIDLGeneratorTestsProxyFactory
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestStaticProperties", obj => new TestStaticProperties(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestArrayProperties", obj => new TestArrayProperties(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestFrozenArrayProperties", obj => new TestFrozenArrayProperties(obj) );
+        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestAnyProperties", obj => new TestAnyProperties(obj) );
     }
 }
 

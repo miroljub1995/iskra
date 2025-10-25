@@ -11,7 +11,7 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.XRSpace __res_6;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "planeSpace");
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "planeSpace");
             __res_6 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_7);
             return __res_6;
         }
@@ -23,7 +23,7 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
         {
             global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9;
-            __propObject_9 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "polygon");
+            __propObject_9 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "polygon");
             __res_8 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9);
             return __res_8;
         }
@@ -34,7 +34,7 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             global::Iskra.StdWeb.XRPlaneOrientation? __res_10;
-            string? __res_11 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "orientation");
+            string? __res_11 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "orientation");
             if (__res_11 is null)
             {
                 __res_10 = null;
@@ -53,7 +53,7 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             double __res_13;
-            double __res_14 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
+            double __res_14 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
             __res_13 = __res_14;
             return __res_13;
         }
@@ -64,7 +64,7 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
         get
         {
             string? __res_15;
-            string? __res_16 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
+            string? __res_16 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
             if (__res_16 is null)
             {
                 __res_15 = null;

@@ -10,15 +10,16 @@ public partial class SVGAnimatedString(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union> __res_902;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_903;
-            __propObject_903 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "baseVal");
-            __res_902 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_903);
-            return __res_902;
+            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union> __res_938;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_939;
+            __propObject_939 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "baseVal");
+            __res_938 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_939);
+            return __res_938;
         }
         set
         {
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "baseVal", value.JSObject);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_940 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "baseVal", __propObject_940);
         }
     }
 
@@ -26,10 +27,10 @@ public partial class SVGAnimatedString(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_904;
-            string __res_905 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animVal");
-            __res_904 = __res_905;
-            return __res_904;
+            string __res_941;
+            string __res_942 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animVal");
+            __res_941 = __res_942;
+            return __res_941;
         }
     }
 }

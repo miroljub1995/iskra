@@ -10,27 +10,27 @@ public partial class AbortSignal(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_4503;
-            bool __res_4504 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "aborted");
-            __res_4503 = __res_4504;
-            return __res_4503;
+            bool __res_4546;
+            bool __res_4547 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "aborted");
+            __res_4546 = __res_4547;
+            return __res_4546;
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Reason
+    public global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Reason
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_4505;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_4506;
-            __propObject_4506 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "reason");
-            if (__propObject_4506 is null)
+            global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_4548;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_4549;
+            __propObject_4549 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "reason");
+            if (__propObject_4549 is null)
             {
                 return null;
             }
 
-            __res_4505 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_4506);
-            return __res_4505;
+            __res_4548 = new global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_4549);
+            return __res_4548;
         }
     }
 
@@ -38,32 +38,32 @@ public partial class AbortSignal(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4507;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4508 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
-            if (__res_4508 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4550;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4551 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
+            if (__res_4551 is null)
             {
-                __res_4507 = null;
+                __res_4550 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4509 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4508;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4552 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4551;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_4507;
+            return __res_4550;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4510;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4553;
             if (value is null)
             {
-                __marshalledValue_4510 = null;
+                __marshalledValue_4553 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4511 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4554 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onabort", __marshalledValue_4510);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onabort", __marshalledValue_4553);
         }
     }
 }

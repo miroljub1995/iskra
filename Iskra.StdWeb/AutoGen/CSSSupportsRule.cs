@@ -10,10 +10,10 @@ public partial class CSSSupportsRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_5842;
-            bool __res_5843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
-            __res_5842 = __res_5843;
-            return __res_5842;
+            bool __res_5888;
+            bool __res_5889 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
+            __res_5888 = __res_5889;
+            return __res_5888;
         }
     }
 }

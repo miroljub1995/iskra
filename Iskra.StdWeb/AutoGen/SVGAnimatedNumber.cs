@@ -10,16 +10,16 @@ public partial class SVGAnimatedNumber(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            float __res_889;
-            double __res_890 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
-            __res_889 = Convert.ToSingle(__res_890);
-            return __res_889;
+            float __res_925;
+            double __res_926 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
+            __res_925 = Convert.ToSingle(__res_926);
+            return __res_925;
         }
         set
         {
-            double __marshalledValue_891;
-            __marshalledValue_891 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "baseVal", __marshalledValue_891);
+            double __marshalledValue_927;
+            __marshalledValue_927 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "baseVal", __marshalledValue_927);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class SVGAnimatedNumber(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            float __res_892;
-            double __res_893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
-            __res_892 = Convert.ToSingle(__res_893);
-            return __res_892;
+            float __res_928;
+            double __res_929 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
+            __res_928 = Convert.ToSingle(__res_929);
+            return __res_928;
         }
     }
 }

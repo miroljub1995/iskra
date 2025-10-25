@@ -11,7 +11,7 @@ public partial class CSSMathInvert(global::System.Runtime.InteropServices.JavaSc
         get
         {
             global::Iskra.StdWeb.CSSNumericValue __res_55;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_56 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_56 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
             __res_55 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_56);
             return __res_55;
         }

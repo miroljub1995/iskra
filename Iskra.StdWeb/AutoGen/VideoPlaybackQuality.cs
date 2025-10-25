@@ -10,10 +10,10 @@ public partial class VideoPlaybackQuality(global::System.Runtime.InteropServices
     {
         get
         {
-            double __res_1628;
-            double __res_1629 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "creationTime");
-            __res_1628 = __res_1629;
-            return __res_1628;
+            double __res_1665;
+            double __res_1666 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "creationTime");
+            __res_1665 = __res_1666;
+            return __res_1665;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class VideoPlaybackQuality(global::System.Runtime.InteropServices
     {
         get
         {
-            uint __res_1630;
-            double __res_1631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "droppedVideoFrames");
-            __res_1630 = Convert.ToUInt32(__res_1631);
-            return __res_1630;
+            uint __res_1667;
+            double __res_1668 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "droppedVideoFrames");
+            __res_1667 = Convert.ToUInt32(__res_1668);
+            return __res_1667;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class VideoPlaybackQuality(global::System.Runtime.InteropServices
     {
         get
         {
-            uint __res_1632;
-            double __res_1633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "totalVideoFrames");
-            __res_1632 = Convert.ToUInt32(__res_1633);
-            return __res_1632;
+            uint __res_1669;
+            double __res_1670 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "totalVideoFrames");
+            __res_1669 = Convert.ToUInt32(__res_1670);
+            return __res_1669;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class VideoPlaybackQuality(global::System.Runtime.InteropServices
     {
         get
         {
-            uint __res_1634;
-            double __res_1635 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "corruptedVideoFrames");
-            __res_1634 = Convert.ToUInt32(__res_1635);
-            return __res_1634;
+            uint __res_1671;
+            double __res_1672 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "corruptedVideoFrames");
+            __res_1671 = Convert.ToUInt32(__res_1672);
+            return __res_1671;
         }
     }
 }

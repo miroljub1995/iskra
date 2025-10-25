@@ -10,15 +10,16 @@ public partial class CSSPerspective(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_112;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_113;
-            __propObject_113 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "length");
-            __res_112 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_113);
-            return __res_112;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_118;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_119;
+            __propObject_119 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "length");
+            __res_118 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_119);
+            return __res_118;
         }
         set
         {
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "length", value.JSObject);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_120 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "length", __propObject_120);
         }
     }
 }

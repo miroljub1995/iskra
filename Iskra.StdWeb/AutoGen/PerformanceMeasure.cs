@@ -6,20 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceMeasure(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Detail
+    public global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Detail
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_5794;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_5795;
-            __propObject_5795 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "detail");
-            if (__propObject_5795 is null)
+            global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_5840;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_5841;
+            __propObject_5841 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "detail");
+            if (__propObject_5841 is null)
             {
                 return null;
             }
 
-            __res_5794 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_5795);
-            return __res_5794;
+            __res_5840 = new global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_5841);
+            return __res_5840;
         }
     }
 }

@@ -10,16 +10,16 @@ public partial class HTMLFontElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_12347;
-            string __res_12348 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "color");
-            __res_12347 = __res_12348;
-            return __res_12347;
+            string __res_12408;
+            string __res_12409 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "color");
+            __res_12408 = __res_12409;
+            return __res_12408;
         }
         set
         {
-            string __marshalledValue_12349;
-            __marshalledValue_12349 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "color", __marshalledValue_12349);
+            string __marshalledValue_12410;
+            __marshalledValue_12410 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "color", __marshalledValue_12410);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLFontElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_12350;
-            string __res_12351 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "face");
-            __res_12350 = __res_12351;
-            return __res_12350;
+            string __res_12411;
+            string __res_12412 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "face");
+            __res_12411 = __res_12412;
+            return __res_12411;
         }
         set
         {
-            string __marshalledValue_12352;
-            __marshalledValue_12352 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "face", __marshalledValue_12352);
+            string __marshalledValue_12413;
+            __marshalledValue_12413 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "face", __marshalledValue_12413);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLFontElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_12353;
-            string __res_12354 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size");
-            __res_12353 = __res_12354;
-            return __res_12353;
+            string __res_12414;
+            string __res_12415 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size");
+            __res_12414 = __res_12415;
+            return __res_12414;
         }
         set
         {
-            string __marshalledValue_12355;
-            __marshalledValue_12355 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_12355);
+            string __marshalledValue_12416;
+            __marshalledValue_12416 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_12416);
         }
     }
 }

@@ -10,16 +10,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_12780;
-            string __res_12781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_12780 = __res_12781;
-            return __res_12780;
+            string __res_12843;
+            string __res_12844 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_12843 = __res_12844;
+            return __res_12843;
         }
         set
         {
-            string __marshalledValue_12782;
-            __marshalledValue_12782 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_12782);
+            string __marshalledValue_12845;
+            __marshalledValue_12845 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_12845);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_12783;
-            string __res_12784 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "system");
-            __res_12783 = __res_12784;
-            return __res_12783;
+            string __res_12846;
+            string __res_12847 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "system");
+            __res_12846 = __res_12847;
+            return __res_12846;
         }
         set
         {
-            string __marshalledValue_12785;
-            __marshalledValue_12785 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "system", __marshalledValue_12785);
+            string __marshalledValue_12848;
+            __marshalledValue_12848 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "system", __marshalledValue_12848);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_12786;
-            string __res_12787 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "symbols");
-            __res_12786 = __res_12787;
-            return __res_12786;
+            string __res_12849;
+            string __res_12850 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "symbols");
+            __res_12849 = __res_12850;
+            return __res_12849;
         }
         set
         {
-            string __marshalledValue_12788;
-            __marshalledValue_12788 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "symbols", __marshalledValue_12788);
+            string __marshalledValue_12851;
+            __marshalledValue_12851 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "symbols", __marshalledValue_12851);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_12789;
-            string __res_12790 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "additiveSymbols");
-            __res_12789 = __res_12790;
-            return __res_12789;
+            string __res_12852;
+            string __res_12853 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "additiveSymbols");
+            __res_12852 = __res_12853;
+            return __res_12852;
         }
         set
         {
-            string __marshalledValue_12791;
-            __marshalledValue_12791 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "additiveSymbols", __marshalledValue_12791);
+            string __marshalledValue_12854;
+            __marshalledValue_12854 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "additiveSymbols", __marshalledValue_12854);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_12792;
-            string __res_12793 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "negative");
-            __res_12792 = __res_12793;
-            return __res_12792;
+            string __res_12855;
+            string __res_12856 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "negative");
+            __res_12855 = __res_12856;
+            return __res_12855;
         }
         set
         {
-            string __marshalledValue_12794;
-            __marshalledValue_12794 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "negative", __marshalledValue_12794);
+            string __marshalledValue_12857;
+            __marshalledValue_12857 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "negative", __marshalledValue_12857);
         }
     }
 
@@ -95,16 +95,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_12795;
-            string __res_12796 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "prefix");
-            __res_12795 = __res_12796;
-            return __res_12795;
+            string __res_12858;
+            string __res_12859 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "prefix");
+            __res_12858 = __res_12859;
+            return __res_12858;
         }
         set
         {
-            string __marshalledValue_12797;
-            __marshalledValue_12797 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "prefix", __marshalledValue_12797);
+            string __marshalledValue_12860;
+            __marshalledValue_12860 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "prefix", __marshalledValue_12860);
         }
     }
 
@@ -112,16 +112,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_12798;
-            string __res_12799 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "suffix");
-            __res_12798 = __res_12799;
-            return __res_12798;
+            string __res_12861;
+            string __res_12862 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "suffix");
+            __res_12861 = __res_12862;
+            return __res_12861;
         }
         set
         {
-            string __marshalledValue_12800;
-            __marshalledValue_12800 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "suffix", __marshalledValue_12800);
+            string __marshalledValue_12863;
+            __marshalledValue_12863 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "suffix", __marshalledValue_12863);
         }
     }
 
@@ -129,16 +129,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_12801;
-            string __res_12802 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "range");
-            __res_12801 = __res_12802;
-            return __res_12801;
+            string __res_12864;
+            string __res_12865 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "range");
+            __res_12864 = __res_12865;
+            return __res_12864;
         }
         set
         {
-            string __marshalledValue_12803;
-            __marshalledValue_12803 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "range", __marshalledValue_12803);
+            string __marshalledValue_12866;
+            __marshalledValue_12866 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "range", __marshalledValue_12866);
         }
     }
 
@@ -146,16 +146,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_12804;
-            string __res_12805 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pad");
-            __res_12804 = __res_12805;
-            return __res_12804;
+            string __res_12867;
+            string __res_12868 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pad");
+            __res_12867 = __res_12868;
+            return __res_12867;
         }
         set
         {
-            string __marshalledValue_12806;
-            __marshalledValue_12806 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pad", __marshalledValue_12806);
+            string __marshalledValue_12869;
+            __marshalledValue_12869 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pad", __marshalledValue_12869);
         }
     }
 
@@ -163,16 +163,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_12807;
-            string __res_12808 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "speakAs");
-            __res_12807 = __res_12808;
-            return __res_12807;
+            string __res_12870;
+            string __res_12871 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "speakAs");
+            __res_12870 = __res_12871;
+            return __res_12870;
         }
         set
         {
-            string __marshalledValue_12809;
-            __marshalledValue_12809 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "speakAs", __marshalledValue_12809);
+            string __marshalledValue_12872;
+            __marshalledValue_12872 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "speakAs", __marshalledValue_12872);
         }
     }
 
@@ -180,16 +180,16 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_12810;
-            string __res_12811 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fallback");
-            __res_12810 = __res_12811;
-            return __res_12810;
+            string __res_12873;
+            string __res_12874 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fallback");
+            __res_12873 = __res_12874;
+            return __res_12873;
         }
         set
         {
-            string __marshalledValue_12812;
-            __marshalledValue_12812 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fallback", __marshalledValue_12812);
+            string __marshalledValue_12875;
+            __marshalledValue_12875 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fallback", __marshalledValue_12875);
         }
     }
 }

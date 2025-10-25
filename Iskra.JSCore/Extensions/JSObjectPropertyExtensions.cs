@@ -1,3 +1,4 @@
+using System.Numerics;
 using System.Runtime.InteropServices.JavaScript;
 
 namespace Iskra.JSCore.Extensions;
@@ -13,6 +14,21 @@ public static partial class JSObjectPropertyExtensions
     private static partial JSObject GetConstructorProxy_Bridge(JSObject obj, string constructorName);
 
     #endregion
+
+    // #region BigInt Get
+    //
+    // public static object GetPropertyAsBigIntV2(this JSObject obj, string propertyName) =>
+    //     GetPropertyAsObjectV2AsNullable_Bridge(obj, propertyName) ??
+    //     throw new Exception($"Property {propertyName} is null or undefined.");
+    //
+    // public static object? GetPropertyAsBigIntV2AsNullable(this JSObject obj, string propertyName) =>
+    //     GetPropertyAsBigIntV2AsNullable_Bridge(obj, propertyName);
+    //
+    // [JSImport("globalThis.Reflect.get")]
+    // [return: JSMarshalAs<JSType.BigInt>]
+    // private static partial BigInteger? GetPropertyAsBigIntV2AsNullable_Bridge(JSObject obj, string propertyName);
+    //
+    // #endregion
 
     #region Boolean Get
 
@@ -110,16 +126,20 @@ public static partial class JSObjectPropertyExtensions
 
     #endregion
 
-    // public static object GetPropertyAsObjectV2(this JSObject obj, string propertyName) =>
-    //     GetPropertyAsObjectV2AsNullable_Bridge(obj, propertyName) ??
-    //     throw new Exception($"Property {propertyName} is null or undefined.");
-    //
-    // public static object? GetPropertyAsObjectV2AsNullable(this JSObject obj, string propertyName) =>
-    //     GetPropertyAsObjectV2AsNullable_Bridge(obj, propertyName);
+    #region Managed Object Get
 
-    // [JSImport("globalThis.Reflect.get")]
-    // [return: JSMarshalAs<JSType.Any>]
-    // private static partial object? GetPropertyAsObjectV2AsNullable_Bridge(JSObject obj, string propertyName);
+    public static object GetPropertyAsObjectV2(this JSObject obj, string propertyName) =>
+        GetPropertyAsObjectV2AsNullable_Bridge(obj, propertyName) ??
+        throw new Exception($"Property {propertyName} is null or undefined.");
+
+    public static object? GetPropertyAsObjectV2AsNullable(this JSObject obj, string propertyName) =>
+        GetPropertyAsObjectV2AsNullable_Bridge(obj, propertyName);
+
+    [JSImport("globalThis.Reflect.get")]
+    [return: JSMarshalAs<JSType.Any>]
+    private static partial object? GetPropertyAsObjectV2AsNullable_Bridge(JSObject obj, string propertyName);
+
+    #endregion
 
     #region Union Get
 
@@ -243,16 +263,19 @@ public static partial class JSObjectPropertyExtensions
 
     #endregion
 
-    // public static void SetPropertyAsObjectV2AsNullable(this JSObject obj, string propertyName, object? value) =>
-    //     SetPropertyAsObjectV2AsNullable_Bridge(obj, propertyName, value);
-    //
-    // public static void SetPropertyAsObjectV2(this JSObject obj, string propertyName, object value) =>
-    //     SetPropertyAsObjectV2AsNullable_Bridge(obj, propertyName, value);
-    //
-    // [JSImport("globalThis.Reflect.set")]
-    // private static partial void
-    //     SetPropertyAsObjectV2AsNullable_Bridge(JSObject obj, string propertyName,
-    //         [JSMarshalAs<JSType.Any>] object? value);
+    #region Managed Object Set
+
+    public static void SetPropertyAsObjectV2AsNullable(this JSObject obj, string propertyName, object? value) =>
+        SetPropertyAsObjectV2AsNullable_Bridge(obj, propertyName, value);
+
+    public static void SetPropertyAsObjectV2(this JSObject obj, string propertyName, object value) =>
+        SetPropertyAsObjectV2AsNullable_Bridge(obj, propertyName, value);
+
+    [JSImport("globalThis.Reflect.set")]
+    private static partial void SetPropertyAsObjectV2AsNullable_Bridge(JSObject obj, string propertyName,
+        [JSMarshalAs<JSType.Any>] object? value);
+
+    #endregion
 
     #region Union Set
 
@@ -260,6 +283,12 @@ public static partial class JSObjectPropertyExtensions
         SetPropertyAsUnionV2AsNullable_Bridge(obj, propertyName, value);
 
     public static void SetPropertyAsUnionAsNullable(this JSObject obj, int propertyIndex, JSObject? value) =>
+        SetPropertyAsUnionV2AsNullable_Bridge(obj, propertyIndex, value);
+    
+    public static void SetPropertyAsUnion(this JSObject obj, string propertyName, JSObject value) =>
+        SetPropertyAsUnionV2AsNullable_Bridge(obj, propertyName, value);
+
+    public static void SetPropertyAsUnion(this JSObject obj, int propertyIndex, JSObject value) =>
         SetPropertyAsUnionV2AsNullable_Bridge(obj, propertyIndex, value);
 
     [JSImport("setPropertyAsUnion", "iskra")]

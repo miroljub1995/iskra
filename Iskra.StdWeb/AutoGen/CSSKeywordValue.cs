@@ -11,7 +11,7 @@ public partial class CSSKeywordValue(global::System.Runtime.InteropServices.Java
         get
         {
             string __res_39;
-            string __res_40 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            string __res_40 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
             __res_39 = __res_40;
             return __res_39;
         }

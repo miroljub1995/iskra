@@ -10,16 +10,16 @@ public partial class WebGLObject(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1636;
-            string __res_1637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1636 = __res_1637;
-            return __res_1636;
+            string __res_1673;
+            string __res_1674 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1673 = __res_1674;
+            return __res_1673;
         }
         set
         {
-            string __marshalledValue_1638;
-            __marshalledValue_1638 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1638);
+            string __marshalledValue_1675;
+            __marshalledValue_1675 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1675);
         }
     }
 }

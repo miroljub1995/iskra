@@ -11,7 +11,7 @@ public partial class ContentIndexEvent(global::System.Runtime.InteropServices.Ja
         get
         {
             string __res_27;
-            string __res_28 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            string __res_28 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
             __res_27 = __res_28;
             return __res_27;
         }

@@ -11,7 +11,7 @@ public partial class CSSFunctionDescriptors(global::System.Runtime.InteropServic
         get
         {
             string __res_22;
-            string __res_23 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
+            string __res_23 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
             __res_22 = __res_23;
             return __res_22;
         }

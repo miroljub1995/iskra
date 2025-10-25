@@ -11,7 +11,7 @@ public partial class StylePropertyMapReadOnly(global::System.Runtime.InteropServ
         get
         {
             uint __res_29;
-            double __res_30 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            double __res_30 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
             __res_29 = Convert.ToUInt32(__res_30);
             return __res_29;
         }

@@ -10,10 +10,10 @@ public partial class CSSViewTransitionRule(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_12566;
-            string __res_12567 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigation");
-            __res_12566 = __res_12567;
-            return __res_12566;
+            string __res_12629;
+            string __res_12630 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigation");
+            __res_12629 = __res_12630;
+            return __res_12629;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class CSSViewTransitionRule(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_12568;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12569;
-            __propObject_12569 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
-            __res_12568 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_12569);
-            return __res_12568;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_12631;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12632;
+            __propObject_12632 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
+            __res_12631 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_12632);
+            return __res_12631;
         }
     }
 }

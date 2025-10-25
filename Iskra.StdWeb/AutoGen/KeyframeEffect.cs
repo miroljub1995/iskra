@@ -10,32 +10,32 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_2538;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2539 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
-            if (__res_2539 is null)
+            global::Iskra.StdWeb.Element? __res_2577;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2578 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
+            if (__res_2578 is null)
             {
-                __res_2538 = null;
+                __res_2577 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2540 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2539;
-                __res_2538 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_2540);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2579 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2578;
+                __res_2577 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_2579);
             }
-            return __res_2538;
+            return __res_2577;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2541;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2580;
             if (value is null)
             {
-                __marshalledValue_2541 = null;
+                __marshalledValue_2580 = null;
             }
             else
             {
-                global::Iskra.StdWeb.Element __notNullable_2542 = (global::Iskra.StdWeb.Element)value;
-                __marshalledValue_2541 = __notNullable_2542.JSObject;
+                global::Iskra.StdWeb.Element __notNullable_2581 = (global::Iskra.StdWeb.Element)value;
+                __marshalledValue_2580 = __notNullable_2581.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "target", __marshalledValue_2541);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "target", __marshalledValue_2580);
         }
     }
 
@@ -43,32 +43,32 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string? __res_2543;
-            string? __res_2544 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "pseudoElement");
-            if (__res_2544 is null)
+            string? __res_2582;
+            string? __res_2583 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "pseudoElement");
+            if (__res_2583 is null)
             {
-                __res_2543 = null;
+                __res_2582 = null;
             }
             else
             {
-                string __notNullable_2545 = (string)__res_2544;
-                __res_2543 = __notNullable_2545;
+                string __notNullable_2584 = (string)__res_2583;
+                __res_2582 = __notNullable_2584;
             }
-            return __res_2543;
+            return __res_2582;
         }
         set
         {
-            string? __marshalledValue_2546;
+            string? __marshalledValue_2585;
             if (value is null)
             {
-                __marshalledValue_2546 = null;
+                __marshalledValue_2585 = null;
             }
             else
             {
-                string __notNullable_2547 = (string)value;
-                __marshalledValue_2546 = __notNullable_2547;
+                string __notNullable_2586 = (string)value;
+                __marshalledValue_2585 = __notNullable_2586;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "pseudoElement", __marshalledValue_2546);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "pseudoElement", __marshalledValue_2585);
         }
     }
 
@@ -76,16 +76,16 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.CompositeOperation __res_2548;
-            string __res_2549 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "composite");
-            __res_2548 = global::Iskra.StdWeb.CompositeOperation.Create(__res_2549);
-            return __res_2548;
+            global::Iskra.StdWeb.CompositeOperation __res_2587;
+            string __res_2588 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "composite");
+            __res_2587 = global::Iskra.StdWeb.CompositeOperation.Create(__res_2588);
+            return __res_2587;
         }
         set
         {
-            string __marshalledValue_2550;
-            __marshalledValue_2550 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "composite", __marshalledValue_2550);
+            string __marshalledValue_2589;
+            __marshalledValue_2589 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "composite", __marshalledValue_2589);
         }
     }
 
@@ -93,16 +93,16 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.IterationCompositeOperation __res_2551;
-            string __res_2552 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iterationComposite");
-            __res_2551 = global::Iskra.StdWeb.IterationCompositeOperation.Create(__res_2552);
-            return __res_2551;
+            global::Iskra.StdWeb.IterationCompositeOperation __res_2590;
+            string __res_2591 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iterationComposite");
+            __res_2590 = global::Iskra.StdWeb.IterationCompositeOperation.Create(__res_2591);
+            return __res_2590;
         }
         set
         {
-            string __marshalledValue_2553;
-            __marshalledValue_2553 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "iterationComposite", __marshalledValue_2553);
+            string __marshalledValue_2592;
+            __marshalledValue_2592 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "iterationComposite", __marshalledValue_2592);
         }
     }
 }

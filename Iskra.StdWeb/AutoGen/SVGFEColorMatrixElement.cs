@@ -10,10 +10,10 @@ public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedString __res_2043;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2044 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            __res_2043 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_2044);
-            return __res_2043;
+            global::Iskra.StdWeb.SVGAnimatedString __res_2080;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2081 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            __res_2080 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_2081);
+            return __res_2080;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_2045;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2046 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
-            __res_2045 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_2046);
-            return __res_2045;
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_2082;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2083 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "type");
+            __res_2082 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_2083);
+            return __res_2082;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedNumberList __res_2047;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2048 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
-            __res_2047 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumberList>(__res_2048);
-            return __res_2047;
+            global::Iskra.StdWeb.SVGAnimatedNumberList __res_2084;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2085 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            __res_2084 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumberList>(__res_2085);
+            return __res_2084;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_2049;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2050 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            __res_2049 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2050);
-            return __res_2049;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_2086;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2087 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            __res_2086 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2087);
+            return __res_2086;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_2051;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2052 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            __res_2051 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2052);
-            return __res_2051;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_2088;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2089 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            __res_2088 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2089);
+            return __res_2088;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_2053;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2054 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
-            __res_2053 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2054);
-            return __res_2053;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_2090;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2091 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
+            __res_2090 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2091);
+            return __res_2090;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_2055;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2056 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
-            __res_2055 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2056);
-            return __res_2055;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_2092;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2093 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
+            __res_2092 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2093);
+            return __res_2092;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedString __res_2057;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2058 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "result");
-            __res_2057 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_2058);
-            return __res_2057;
+            global::Iskra.StdWeb.SVGAnimatedString __res_2094;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2095 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "result");
+            __res_2094 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_2095);
+            return __res_2094;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class SpeechRecognitionEvent(global::System.Runtime.InteropServic
     {
         get
         {
-            uint __res_6480;
-            double __res_6481 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultIndex");
-            __res_6480 = Convert.ToUInt32(__res_6481);
-            return __res_6480;
+            uint __res_6527;
+            double __res_6528 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultIndex");
+            __res_6527 = Convert.ToUInt32(__res_6528);
+            return __res_6527;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SpeechRecognitionEvent(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.SpeechRecognitionResultList __res_6482;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6483 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
-            __res_6482 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechRecognitionResultList>(__res_6483);
-            return __res_6482;
+            global::Iskra.StdWeb.SpeechRecognitionResultList __res_6529;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6530 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
+            __res_6529 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechRecognitionResultList>(__res_6530);
+            return __res_6529;
         }
     }
 }

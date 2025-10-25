@@ -10,18 +10,18 @@ public partial class HTMLLegendElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.HTMLFormElement? __res_10126;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10127 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_10127 is null)
+            global::Iskra.StdWeb.HTMLFormElement? __res_10182;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10183 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_10183 is null)
             {
-                __res_10126 = null;
+                __res_10182 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10128 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10127;
-                __res_10126 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_10128);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10184 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10183;
+                __res_10182 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_10184);
             }
-            return __res_10126;
+            return __res_10182;
         }
     }
 
@@ -29,16 +29,16 @@ public partial class HTMLLegendElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_10129;
-            string __res_10130 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_10129 = __res_10130;
-            return __res_10129;
+            string __res_10185;
+            string __res_10186 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_10185 = __res_10186;
+            return __res_10185;
         }
         set
         {
-            string __marshalledValue_10131;
-            __marshalledValue_10131 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_10131);
+            string __marshalledValue_10187;
+            __marshalledValue_10187 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_10187);
         }
     }
 }

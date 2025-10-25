@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? OnErrorEventHandlerNonNull(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Event, string, global::Iskra.StdWeb.GenericMarshaller.Union> @event, string source, uint lineno, uint colno, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? error);
+public delegate global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? OnErrorEventHandlerNonNull(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Event, string, global::Iskra.StdWeb.GenericMarshaller.Union> @event, string source, uint lineno, uint colno, global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? error);
 
 #nullable disable

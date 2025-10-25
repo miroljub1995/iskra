@@ -10,10 +10,10 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            ushort __res_1077;
-            double __res_1078 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            __res_1077 = Convert.ToUInt16(__res_1078);
-            return __res_1077;
+            ushort __res_1114;
+            double __res_1115 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            __res_1114 = Convert.ToUInt16(__res_1115);
+            return __res_1114;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.DOMMatrix __res_1079;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1080 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            __res_1079 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMMatrix>(__res_1080);
-            return __res_1079;
+            global::Iskra.StdWeb.DOMMatrix __res_1116;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1117 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            __res_1116 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMMatrix>(__res_1117);
+            return __res_1116;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            float __res_1081;
-            double __res_1082 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
-            __res_1081 = Convert.ToSingle(__res_1082);
-            return __res_1081;
+            float __res_1118;
+            double __res_1119 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
+            __res_1118 = Convert.ToSingle(__res_1119);
+            return __res_1118;
         }
     }
 }

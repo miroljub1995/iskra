@@ -1,0 +1,37 @@
+{
+  "spec": {
+    "title": "HTML Standard",
+    "url": "https://html.spec.whatwg.org/multipage/"
+  },
+  "idlparsed": {
+    "idlNames": {
+      "TestAnyProperties": {
+        "fragment": "",
+        "type": "interface",
+        "name": "TestAnyProperties",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "attribute",
+            "name": "anyValue",
+            "idlType": {
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "any"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": ""
+      }
+    }
+  }
+}
+

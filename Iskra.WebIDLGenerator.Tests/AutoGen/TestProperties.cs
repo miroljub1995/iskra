@@ -11,7 +11,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             bool __res_44;
-            bool __res_45 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolProperty");
+            bool __res_45 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolProperty");
             __res_44 = __res_45;
             return __res_44;
         }
@@ -28,7 +28,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             bool __res_47;
-            bool __res_48 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolPropertyReadOnly");
+            bool __res_48 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "boolPropertyReadOnly");
             __res_47 = __res_48;
             return __res_47;
         }
@@ -39,7 +39,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             bool? __res_49;
-            bool? __res_50 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyNullable");
+            bool? __res_50 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyNullable");
             if (__res_50 is null)
             {
                 __res_49 = null;
@@ -72,7 +72,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             bool? __res_54;
-            bool? __res_55 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsNull");
+            bool? __res_55 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsNull");
             if (__res_55 is null)
             {
                 __res_54 = null;
@@ -91,7 +91,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             bool? __res_57;
-            bool? __res_58 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsTrue");
+            bool? __res_58 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsTrue");
             if (__res_58 is null)
             {
                 __res_57 = null;
@@ -110,7 +110,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             bool? __res_60;
-            bool? __res_61 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsFalse");
+            bool? __res_61 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "boolPropertyReadOnlyNullableAsFalse");
             if (__res_61 is null)
             {
                 __res_60 = null;
@@ -129,7 +129,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             byte __res_63;
-            double __res_64 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "byteProperty");
+            double __res_64 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "byteProperty");
             __res_63 = Convert.ToByte(__res_64);
             return __res_63;
         }
@@ -146,7 +146,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             byte __res_66;
-            double __res_67 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bytePropertyReadOnly");
+            double __res_67 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bytePropertyReadOnly");
             __res_66 = Convert.ToByte(__res_67);
             return __res_66;
         }
@@ -157,7 +157,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             byte? __res_68;
-            double? __res_69 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "bytePropertyNullable");
+            double? __res_69 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "bytePropertyNullable");
             if (__res_69 is null)
             {
                 __res_68 = null;
@@ -190,7 +190,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             byte? __res_73;
-            double? __res_74 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "bytePropertyReadOnlyNullableAsNull");
+            double? __res_74 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "bytePropertyReadOnlyNullableAsNull");
             if (__res_74 is null)
             {
                 __res_73 = null;
@@ -209,7 +209,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             byte? __res_76;
-            double? __res_77 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "bytePropertyReadOnlyNullableAsNotNull");
+            double? __res_77 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "bytePropertyReadOnlyNullableAsNotNull");
             if (__res_77 is null)
             {
                 __res_76 = null;
@@ -228,7 +228,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             sbyte __res_79;
-            double __res_80 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "signedByteProperty");
+            double __res_80 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "signedByteProperty");
             __res_79 = Convert.ToSByte(__res_80);
             return __res_79;
         }
@@ -245,7 +245,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             sbyte __res_82;
-            double __res_83 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "signedBytePropertyReadOnly");
+            double __res_83 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "signedBytePropertyReadOnly");
             __res_82 = Convert.ToSByte(__res_83);
             return __res_82;
         }
@@ -256,7 +256,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             sbyte? __res_84;
-            double? __res_85 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "signedBytePropertyNullable");
+            double? __res_85 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "signedBytePropertyNullable");
             if (__res_85 is null)
             {
                 __res_84 = null;
@@ -289,7 +289,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             sbyte? __res_89;
-            double? __res_90 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "signedBytePropertyReadOnlyNullableAsNull");
+            double? __res_90 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "signedBytePropertyReadOnlyNullableAsNull");
             if (__res_90 is null)
             {
                 __res_89 = null;
@@ -308,7 +308,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             sbyte? __res_92;
-            double? __res_93 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "signedBytePropertyReadOnlyNullableAsNotNull");
+            double? __res_93 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "signedBytePropertyReadOnlyNullableAsNotNull");
             if (__res_93 is null)
             {
                 __res_92 = null;
@@ -327,7 +327,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             short __res_95;
-            double __res_96 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shortProperty");
+            double __res_96 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shortProperty");
             __res_95 = Convert.ToInt16(__res_96);
             return __res_95;
         }
@@ -344,7 +344,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             short __res_98;
-            double __res_99 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shortPropertyReadOnly");
+            double __res_99 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shortPropertyReadOnly");
             __res_98 = Convert.ToInt16(__res_99);
             return __res_98;
         }
@@ -355,7 +355,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             short? __res_100;
-            double? __res_101 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "shortPropertyNullable");
+            double? __res_101 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "shortPropertyNullable");
             if (__res_101 is null)
             {
                 __res_100 = null;
@@ -388,7 +388,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             short? __res_105;
-            double? __res_106 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "shortPropertyReadOnlyNullableAsNull");
+            double? __res_106 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "shortPropertyReadOnlyNullableAsNull");
             if (__res_106 is null)
             {
                 __res_105 = null;
@@ -407,7 +407,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             short? __res_108;
-            double? __res_109 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "shortPropertyReadOnlyNullableAsNotNull");
+            double? __res_109 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "shortPropertyReadOnlyNullableAsNotNull");
             if (__res_109 is null)
             {
                 __res_108 = null;
@@ -426,7 +426,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             ushort __res_111;
-            double __res_112 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedShortProperty");
+            double __res_112 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedShortProperty");
             __res_111 = Convert.ToUInt16(__res_112);
             return __res_111;
         }
@@ -443,7 +443,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             ushort __res_114;
-            double __res_115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedShortPropertyReadOnly");
+            double __res_115 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedShortPropertyReadOnly");
             __res_114 = Convert.ToUInt16(__res_115);
             return __res_114;
         }
@@ -454,7 +454,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             ushort? __res_116;
-            double? __res_117 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedShortPropertyNullable");
+            double? __res_117 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedShortPropertyNullable");
             if (__res_117 is null)
             {
                 __res_116 = null;
@@ -487,7 +487,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             ushort? __res_121;
-            double? __res_122 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedShortPropertyReadOnlyNullableAsNull");
+            double? __res_122 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedShortPropertyReadOnlyNullableAsNull");
             if (__res_122 is null)
             {
                 __res_121 = null;
@@ -506,7 +506,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             ushort? __res_124;
-            double? __res_125 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedShortPropertyReadOnlyNullableAsNotNull");
+            double? __res_125 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedShortPropertyReadOnlyNullableAsNotNull");
             if (__res_125 is null)
             {
                 __res_124 = null;
@@ -525,7 +525,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             int __res_127;
-            double __res_128 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int32Property");
+            double __res_128 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int32Property");
             __res_127 = Convert.ToInt32(__res_128);
             return __res_127;
         }
@@ -542,7 +542,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             int __res_130;
-            double __res_131 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int32PropertyReadOnly");
+            double __res_131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int32PropertyReadOnly");
             __res_130 = Convert.ToInt32(__res_131);
             return __res_130;
         }
@@ -553,7 +553,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             int? __res_132;
-            double? __res_133 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int32PropertyNullable");
+            double? __res_133 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int32PropertyNullable");
             if (__res_133 is null)
             {
                 __res_132 = null;
@@ -586,7 +586,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             int? __res_137;
-            double? __res_138 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int32PropertyReadOnlyNullableAsNull");
+            double? __res_138 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int32PropertyReadOnlyNullableAsNull");
             if (__res_138 is null)
             {
                 __res_137 = null;
@@ -605,7 +605,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             int? __res_140;
-            double? __res_141 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int32PropertyReadOnlyNullableAsNotNull");
+            double? __res_141 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int32PropertyReadOnlyNullableAsNotNull");
             if (__res_141 is null)
             {
                 __res_140 = null;
@@ -624,7 +624,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             uint __res_143;
-            double __res_144 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt32Property");
+            double __res_144 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt32Property");
             __res_143 = Convert.ToUInt32(__res_144);
             return __res_143;
         }
@@ -641,7 +641,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             uint __res_146;
-            double __res_147 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt32PropertyReadOnly");
+            double __res_147 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt32PropertyReadOnly");
             __res_146 = Convert.ToUInt32(__res_147);
             return __res_146;
         }
@@ -652,7 +652,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             uint? __res_148;
-            double? __res_149 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt32PropertyNullable");
+            double? __res_149 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt32PropertyNullable");
             if (__res_149 is null)
             {
                 __res_148 = null;
@@ -685,7 +685,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             uint? __res_153;
-            double? __res_154 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt32PropertyReadOnlyNullableAsNull");
+            double? __res_154 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt32PropertyReadOnlyNullableAsNull");
             if (__res_154 is null)
             {
                 __res_153 = null;
@@ -704,7 +704,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             uint? __res_156;
-            double? __res_157 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt32PropertyReadOnlyNullableAsNotNull");
+            double? __res_157 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt32PropertyReadOnlyNullableAsNotNull");
             if (__res_157 is null)
             {
                 __res_156 = null;
@@ -723,7 +723,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             long __res_159;
-            double __res_160 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int64Property");
+            double __res_160 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int64Property");
             __res_159 = Convert.ToInt64(__res_160);
             return __res_159;
         }
@@ -740,7 +740,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             long __res_162;
-            double __res_163 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int64PropertyReadOnly");
+            double __res_163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "int64PropertyReadOnly");
             __res_162 = Convert.ToInt64(__res_163);
             return __res_162;
         }
@@ -751,7 +751,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             long? __res_164;
-            double? __res_165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int64PropertyNullable");
+            double? __res_165 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int64PropertyNullable");
             if (__res_165 is null)
             {
                 __res_164 = null;
@@ -784,7 +784,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             long? __res_169;
-            double? __res_170 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int64PropertyReadOnlyNullableAsNull");
+            double? __res_170 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int64PropertyReadOnlyNullableAsNull");
             if (__res_170 is null)
             {
                 __res_169 = null;
@@ -803,7 +803,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             long? __res_172;
-            double? __res_173 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int64PropertyReadOnlyNullableAsNotNull");
+            double? __res_173 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "int64PropertyReadOnlyNullableAsNotNull");
             if (__res_173 is null)
             {
                 __res_172 = null;
@@ -822,7 +822,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             ulong __res_175;
-            double __res_176 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt64Property");
+            double __res_176 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt64Property");
             __res_175 = Convert.ToUInt64(__res_176);
             return __res_175;
         }
@@ -839,7 +839,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             ulong __res_178;
-            double __res_179 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt64PropertyReadOnly");
+            double __res_179 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unsignedInt64PropertyReadOnly");
             __res_178 = Convert.ToUInt64(__res_179);
             return __res_178;
         }
@@ -850,7 +850,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             ulong? __res_180;
-            double? __res_181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt64PropertyNullable");
+            double? __res_181 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt64PropertyNullable");
             if (__res_181 is null)
             {
                 __res_180 = null;
@@ -883,7 +883,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             ulong? __res_185;
-            double? __res_186 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt64PropertyReadOnlyNullableAsNull");
+            double? __res_186 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt64PropertyReadOnlyNullableAsNull");
             if (__res_186 is null)
             {
                 __res_185 = null;
@@ -902,7 +902,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             ulong? __res_188;
-            double? __res_189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt64PropertyReadOnlyNullableAsNotNull");
+            double? __res_189 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unsignedInt64PropertyReadOnlyNullableAsNotNull");
             if (__res_189 is null)
             {
                 __res_188 = null;
@@ -921,7 +921,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             float __res_191;
-            double __res_192 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "floatProperty");
+            double __res_192 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "floatProperty");
             __res_191 = Convert.ToSingle(__res_192);
             return __res_191;
         }
@@ -938,7 +938,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             float __res_194;
-            double __res_195 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "floatPropertyReadOnly");
+            double __res_195 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "floatPropertyReadOnly");
             __res_194 = Convert.ToSingle(__res_195);
             return __res_194;
         }
@@ -949,7 +949,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             float? __res_196;
-            double? __res_197 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "floatPropertyNullable");
+            double? __res_197 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "floatPropertyNullable");
             if (__res_197 is null)
             {
                 __res_196 = null;
@@ -982,7 +982,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             float? __res_201;
-            double? __res_202 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "floatPropertyReadOnlyNullableAsNull");
+            double? __res_202 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "floatPropertyReadOnlyNullableAsNull");
             if (__res_202 is null)
             {
                 __res_201 = null;
@@ -1001,7 +1001,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             float? __res_204;
-            double? __res_205 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "floatPropertyReadOnlyNullableAsNotNull");
+            double? __res_205 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "floatPropertyReadOnlyNullableAsNotNull");
             if (__res_205 is null)
             {
                 __res_204 = null;
@@ -1020,7 +1020,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             float __res_207;
-            double __res_208 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedFloatProperty");
+            double __res_208 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedFloatProperty");
             __res_207 = Convert.ToSingle(__res_208);
             return __res_207;
         }
@@ -1037,7 +1037,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             float __res_210;
-            double __res_211 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedFloatPropertyReadOnly");
+            double __res_211 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedFloatPropertyReadOnly");
             __res_210 = Convert.ToSingle(__res_211);
             return __res_210;
         }
@@ -1048,7 +1048,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             float? __res_212;
-            double? __res_213 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedFloatPropertyNullable");
+            double? __res_213 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedFloatPropertyNullable");
             if (__res_213 is null)
             {
                 __res_212 = null;
@@ -1081,7 +1081,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             float? __res_217;
-            double? __res_218 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedFloatPropertyReadOnlyNullableAsNull");
+            double? __res_218 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedFloatPropertyReadOnlyNullableAsNull");
             if (__res_218 is null)
             {
                 __res_217 = null;
@@ -1100,7 +1100,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             float? __res_220;
-            double? __res_221 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedFloatPropertyReadOnlyNullableAsNotNull");
+            double? __res_221 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedFloatPropertyReadOnlyNullableAsNotNull");
             if (__res_221 is null)
             {
                 __res_220 = null;
@@ -1119,7 +1119,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             double __res_223;
-            double __res_224 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "doubleProperty");
+            double __res_224 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "doubleProperty");
             __res_223 = __res_224;
             return __res_223;
         }
@@ -1136,7 +1136,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             double __res_226;
-            double __res_227 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "doublePropertyReadOnly");
+            double __res_227 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "doublePropertyReadOnly");
             __res_226 = __res_227;
             return __res_226;
         }
@@ -1147,7 +1147,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             double? __res_228;
-            double? __res_229 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyNullable");
+            double? __res_229 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyNullable");
             if (__res_229 is null)
             {
                 __res_228 = null;
@@ -1180,7 +1180,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             double? __res_233;
-            double? __res_234 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyReadOnlyNullableAsNull");
+            double? __res_234 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyReadOnlyNullableAsNull");
             if (__res_234 is null)
             {
                 __res_233 = null;
@@ -1199,7 +1199,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             double? __res_236;
-            double? __res_237 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyReadOnlyNullableAsNotNull");
+            double? __res_237 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "doublePropertyReadOnlyNullableAsNotNull");
             if (__res_237 is null)
             {
                 __res_236 = null;
@@ -1218,7 +1218,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             double __res_239;
-            double __res_240 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedDoubleProperty");
+            double __res_240 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedDoubleProperty");
             __res_239 = __res_240;
             return __res_239;
         }
@@ -1235,7 +1235,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             double __res_242;
-            double __res_243 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedDoublePropertyReadOnly");
+            double __res_243 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unrestrictedDoublePropertyReadOnly");
             __res_242 = __res_243;
             return __res_242;
         }
@@ -1246,7 +1246,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             double? __res_244;
-            double? __res_245 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedDoublePropertyNullable");
+            double? __res_245 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedDoublePropertyNullable");
             if (__res_245 is null)
             {
                 __res_244 = null;
@@ -1279,7 +1279,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             double? __res_249;
-            double? __res_250 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedDoublePropertyReadOnlyNullableAsNull");
+            double? __res_250 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedDoublePropertyReadOnlyNullableAsNull");
             if (__res_250 is null)
             {
                 __res_249 = null;
@@ -1298,7 +1298,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             double? __res_252;
-            double? __res_253 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedDoublePropertyReadOnlyNullableAsNotNull");
+            double? __res_253 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "unrestrictedDoublePropertyReadOnlyNullableAsNotNull");
             if (__res_253 is null)
             {
                 __res_252 = null;
@@ -1317,7 +1317,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             string __res_255;
-            string __res_256 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringProperty");
+            string __res_256 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringProperty");
             __res_255 = __res_256;
             return __res_255;
         }
@@ -1334,7 +1334,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             string __res_258;
-            string __res_259 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringPropertyReadOnly");
+            string __res_259 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringPropertyReadOnly");
             __res_258 = __res_259;
             return __res_258;
         }
@@ -1345,7 +1345,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             string? __res_260;
-            string? __res_261 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyNullable");
+            string? __res_261 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyNullable");
             if (__res_261 is null)
             {
                 __res_260 = null;
@@ -1378,7 +1378,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             string? __res_265;
-            string? __res_266 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsNull");
+            string? __res_266 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsNull");
             if (__res_266 is null)
             {
                 __res_265 = null;
@@ -1397,7 +1397,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             string? __res_268;
-            string? __res_269 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsNotNull");
+            string? __res_269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsNotNull");
             if (__res_269 is null)
             {
                 __res_268 = null;
@@ -1416,7 +1416,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             string? __res_271;
-            string? __res_272 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsEmpty");
+            string? __res_272 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stringPropertyReadOnlyNullableAsEmpty");
             if (__res_272 is null)
             {
                 __res_271 = null;
@@ -1435,7 +1435,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_274;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_275 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectProperty");
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_275 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectProperty");
             __res_274 = __res_275;
             return __res_274;
         }
@@ -1452,7 +1452,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_277;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_278 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectPropertyReadOnly");
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_278 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectPropertyReadOnly");
             __res_277 = __res_278;
             return __res_277;
         }
@@ -1463,7 +1463,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject? __res_279;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_280 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "objectPropertyNullable");
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_280 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "objectPropertyNullable");
             if (__res_280 is null)
             {
                 __res_279 = null;
@@ -1496,7 +1496,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject? __res_284;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_285 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "objectPropertyReadOnlyNullableAsNull");
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "objectPropertyReadOnlyNullableAsNull");
             if (__res_285 is null)
             {
                 __res_284 = null;
@@ -1515,7 +1515,7 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject? __res_287;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_288 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "objectPropertyReadOnlyNullableAsNotNull");
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_288 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "objectPropertyReadOnlyNullableAsNotNull");
             if (__res_288 is null)
             {
                 __res_287 = null;

@@ -11,7 +11,7 @@ public partial class CSSTransformValue(global::System.Runtime.InteropServices.Ja
         get
         {
             uint __res_69;
-            double __res_70 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            double __res_70 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
             __res_69 = Convert.ToUInt32(__res_70);
             return __res_69;
         }
@@ -22,7 +22,7 @@ public partial class CSSTransformValue(global::System.Runtime.InteropServices.Ja
         get
         {
             bool __res_71;
-            bool __res_72 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
+            bool __res_72 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
             __res_71 = __res_72;
             return __res_71;
         }

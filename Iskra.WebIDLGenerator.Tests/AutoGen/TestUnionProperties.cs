@@ -12,13 +12,14 @@ public partial class TestUnionProperties(global::System.Runtime.InteropServices.
         {
             global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union> __res_290;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_291;
-            __propObject_291 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "value");
+            __propObject_291 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "value");
             __res_290 = new global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>(__propObject_291);
             return __res_290;
         }
         set
         {
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "value", value.JSObject);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_292 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "value", __propObject_292);
         }
     }
 }

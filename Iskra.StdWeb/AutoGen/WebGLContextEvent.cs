@@ -10,10 +10,10 @@ public partial class WebGLContextEvent(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_1665;
-            string __res_1666 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "statusMessage");
-            __res_1665 = __res_1666;
-            return __res_1665;
+            string __res_1702;
+            string __res_1703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "statusMessage");
+            __res_1702 = __res_1703;
+            return __res_1702;
         }
     }
 }

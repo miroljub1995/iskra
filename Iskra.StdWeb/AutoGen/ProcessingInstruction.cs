@@ -10,10 +10,10 @@ public partial class ProcessingInstruction(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_5734;
-            string __res_5735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
-            __res_5734 = __res_5735;
-            return __res_5734;
+            string __res_5780;
+            string __res_5781 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_5780 = __res_5781;
+            return __res_5780;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class ProcessingInstruction(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleSheet? __res_5736;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5737 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sheet");
-            if (__res_5737 is null)
+            global::Iskra.StdWeb.CSSStyleSheet? __res_5782;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5783 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sheet");
+            if (__res_5783 is null)
             {
-                __res_5736 = null;
+                __res_5782 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5738 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5737;
-                __res_5736 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_5738);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5784 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5783;
+                __res_5782 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_5784);
             }
-            return __res_5736;
+            return __res_5782;
         }
     }
 }

@@ -10,16 +10,16 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.PanningModelType __res_13609;
-            string __res_13610 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "panningModel");
-            __res_13609 = global::Iskra.StdWeb.PanningModelType.Create(__res_13610);
-            return __res_13609;
+            global::Iskra.StdWeb.PanningModelType __res_13672;
+            string __res_13673 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "panningModel");
+            __res_13672 = global::Iskra.StdWeb.PanningModelType.Create(__res_13673);
+            return __res_13672;
         }
         set
         {
-            string __marshalledValue_13611;
-            __marshalledValue_13611 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "panningModel", __marshalledValue_13611);
+            string __marshalledValue_13674;
+            __marshalledValue_13674 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "panningModel", __marshalledValue_13674);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_13612;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13613 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionX");
-            __res_13612 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13613);
-            return __res_13612;
+            global::Iskra.StdWeb.AudioParam __res_13675;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13676 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionX");
+            __res_13675 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13676);
+            return __res_13675;
         }
     }
 
@@ -38,10 +38,10 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_13614;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13615 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionY");
-            __res_13614 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13615);
-            return __res_13614;
+            global::Iskra.StdWeb.AudioParam __res_13677;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13678 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionY");
+            __res_13677 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13678);
+            return __res_13677;
         }
     }
 
@@ -49,10 +49,10 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_13616;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13617 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionZ");
-            __res_13616 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13617);
-            return __res_13616;
+            global::Iskra.StdWeb.AudioParam __res_13679;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13680 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionZ");
+            __res_13679 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13680);
+            return __res_13679;
         }
     }
 
@@ -60,10 +60,10 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_13618;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13619 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationX");
-            __res_13618 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13619);
-            return __res_13618;
+            global::Iskra.StdWeb.AudioParam __res_13681;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13682 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationX");
+            __res_13681 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13682);
+            return __res_13681;
         }
     }
 
@@ -71,10 +71,10 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_13620;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13621 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationY");
-            __res_13620 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13621);
-            return __res_13620;
+            global::Iskra.StdWeb.AudioParam __res_13683;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13684 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationY");
+            __res_13683 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13684);
+            return __res_13683;
         }
     }
 
@@ -82,10 +82,10 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_13622;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13623 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationZ");
-            __res_13622 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13623);
-            return __res_13622;
+            global::Iskra.StdWeb.AudioParam __res_13685;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13686 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientationZ");
+            __res_13685 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13686);
+            return __res_13685;
         }
     }
 
@@ -93,16 +93,16 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.DistanceModelType __res_13624;
-            string __res_13625 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "distanceModel");
-            __res_13624 = global::Iskra.StdWeb.DistanceModelType.Create(__res_13625);
-            return __res_13624;
+            global::Iskra.StdWeb.DistanceModelType __res_13687;
+            string __res_13688 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "distanceModel");
+            __res_13687 = global::Iskra.StdWeb.DistanceModelType.Create(__res_13688);
+            return __res_13687;
         }
         set
         {
-            string __marshalledValue_13626;
-            __marshalledValue_13626 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "distanceModel", __marshalledValue_13626);
+            string __marshalledValue_13689;
+            __marshalledValue_13689 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "distanceModel", __marshalledValue_13689);
         }
     }
 
@@ -110,16 +110,16 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            double __res_13627;
-            double __res_13628 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "refDistance");
-            __res_13627 = __res_13628;
-            return __res_13627;
+            double __res_13690;
+            double __res_13691 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "refDistance");
+            __res_13690 = __res_13691;
+            return __res_13690;
         }
         set
         {
-            double __marshalledValue_13629;
-            __marshalledValue_13629 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "refDistance", __marshalledValue_13629);
+            double __marshalledValue_13692;
+            __marshalledValue_13692 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "refDistance", __marshalledValue_13692);
         }
     }
 
@@ -127,16 +127,16 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            double __res_13630;
-            double __res_13631 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDistance");
-            __res_13630 = __res_13631;
-            return __res_13630;
+            double __res_13693;
+            double __res_13694 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDistance");
+            __res_13693 = __res_13694;
+            return __res_13693;
         }
         set
         {
-            double __marshalledValue_13632;
-            __marshalledValue_13632 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxDistance", __marshalledValue_13632);
+            double __marshalledValue_13695;
+            __marshalledValue_13695 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxDistance", __marshalledValue_13695);
         }
     }
 
@@ -144,16 +144,16 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            double __res_13633;
-            double __res_13634 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rolloffFactor");
-            __res_13633 = __res_13634;
-            return __res_13633;
+            double __res_13696;
+            double __res_13697 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rolloffFactor");
+            __res_13696 = __res_13697;
+            return __res_13696;
         }
         set
         {
-            double __marshalledValue_13635;
-            __marshalledValue_13635 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "rolloffFactor", __marshalledValue_13635);
+            double __marshalledValue_13698;
+            __marshalledValue_13698 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "rolloffFactor", __marshalledValue_13698);
         }
     }
 
@@ -161,16 +161,16 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            double __res_13636;
-            double __res_13637 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneInnerAngle");
-            __res_13636 = __res_13637;
-            return __res_13636;
+            double __res_13699;
+            double __res_13700 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneInnerAngle");
+            __res_13699 = __res_13700;
+            return __res_13699;
         }
         set
         {
-            double __marshalledValue_13638;
-            __marshalledValue_13638 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneInnerAngle", __marshalledValue_13638);
+            double __marshalledValue_13701;
+            __marshalledValue_13701 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneInnerAngle", __marshalledValue_13701);
         }
     }
 
@@ -178,16 +178,16 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            double __res_13639;
-            double __res_13640 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneOuterAngle");
-            __res_13639 = __res_13640;
-            return __res_13639;
+            double __res_13702;
+            double __res_13703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneOuterAngle");
+            __res_13702 = __res_13703;
+            return __res_13702;
         }
         set
         {
-            double __marshalledValue_13641;
-            __marshalledValue_13641 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneOuterAngle", __marshalledValue_13641);
+            double __marshalledValue_13704;
+            __marshalledValue_13704 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneOuterAngle", __marshalledValue_13704);
         }
     }
 
@@ -195,16 +195,16 @@ public partial class PannerNode(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            double __res_13642;
-            double __res_13643 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneOuterGain");
-            __res_13642 = __res_13643;
-            return __res_13642;
+            double __res_13705;
+            double __res_13706 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "coneOuterGain");
+            __res_13705 = __res_13706;
+            return __res_13705;
         }
         set
         {
-            double __marshalledValue_13644;
-            __marshalledValue_13644 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneOuterGain", __marshalledValue_13644);
+            double __marshalledValue_13707;
+            __marshalledValue_13707 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "coneOuterGain", __marshalledValue_13707);
         }
     }
 }

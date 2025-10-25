@@ -11,7 +11,7 @@ public partial class SnapEvent(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.Node? __res_0;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "snapTargetBlock");
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "snapTargetBlock");
             if (__res_1 is null)
             {
                 __res_0 = null;
@@ -30,7 +30,7 @@ public partial class SnapEvent(global::System.Runtime.InteropServices.JavaScript
         get
         {
             global::Iskra.StdWeb.Node? __res_3;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "snapTargetInline");
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "snapTargetInline");
             if (__res_4 is null)
             {
                 __res_3 = null;

@@ -10,16 +10,16 @@ public partial class HTMLMenuElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_8791;
-            bool __res_8792 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            __res_8791 = __res_8792;
-            return __res_8791;
+            bool __res_8845;
+            bool __res_8846 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
+            __res_8845 = __res_8846;
+            return __res_8845;
         }
         set
         {
-            bool __marshalledValue_8793;
-            __marshalledValue_8793 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_8793);
+            bool __marshalledValue_8847;
+            __marshalledValue_8847 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_8847);
         }
     }
 }

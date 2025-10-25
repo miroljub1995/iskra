@@ -26,11 +26,13 @@ public partial class IDLTypeDescriptionMarshaller(
         {
             // No marshalling
             if (singleTypeDescription.IdlType is
+                BuiltinTypes.BigInt or
                 BuiltinTypes.Boolean or
                 BuiltinTypes.String or
                 BuiltinTypes.Double or
                 BuiltinTypes.UnrestrictedDouble or
-                BuiltinTypes.Object
+                BuiltinTypes.Object or
+                BuiltinTypes.ManagedObject
                )
             {
                 return $$"""
@@ -147,11 +149,13 @@ public partial class IDLTypeDescriptionMarshaller(
         {
             // No marshalling
             if (singleTypeDescription.IdlType is
+                BuiltinTypes.BigInt or
                 BuiltinTypes.Boolean or
                 BuiltinTypes.String or
                 BuiltinTypes.Double or
                 BuiltinTypes.UnrestrictedDouble or
-                BuiltinTypes.Object
+                BuiltinTypes.Object or
+                BuiltinTypes.ManagedObject
                )
             {
                 return $$"""

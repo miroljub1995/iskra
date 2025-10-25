@@ -10,10 +10,10 @@ public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            uint __res_9295;
-            double __res_9296 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_9295 = Convert.ToUInt32(__res_9296);
-            return __res_9295;
+            uint __res_9351;
+            double __res_9352 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_9351 = Convert.ToUInt32(__res_9352);
+            return __res_9351;
         }
     }
 
@@ -21,32 +21,32 @@ public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_9297;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9298 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_9298 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_9353;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9354 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_9354 is null)
             {
-                __res_9297 = null;
+                __res_9353 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9299 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9298;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9355 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9354;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_9297;
+            return __res_9353;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9300;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9356;
             if (value is null)
             {
-                __marshalledValue_9300 = null;
+                __marshalledValue_9356 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9301 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9357 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_9300);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_9356);
         }
     }
 
@@ -54,32 +54,32 @@ public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_9302;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9303 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack");
-            if (__res_9303 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_9358;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9359 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack");
+            if (__res_9359 is null)
             {
-                __res_9302 = null;
+                __res_9358 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9304 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9303;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9360 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9359;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_9302;
+            return __res_9358;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9305;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9361;
             if (value is null)
             {
-                __marshalledValue_9305 = null;
+                __marshalledValue_9361 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9306 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9362 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack", __marshalledValue_9305);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack", __marshalledValue_9361);
         }
     }
 
@@ -87,32 +87,32 @@ public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_9307;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9308 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack");
-            if (__res_9308 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_9363;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9364 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack");
+            if (__res_9364 is null)
             {
-                __res_9307 = null;
+                __res_9363 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9309 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9308;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9365 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9364;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_9307;
+            return __res_9363;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9310;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9366;
             if (value is null)
             {
-                __marshalledValue_9310 = null;
+                __marshalledValue_9366 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9311 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9367 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack", __marshalledValue_9310);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack", __marshalledValue_9366);
         }
     }
 }

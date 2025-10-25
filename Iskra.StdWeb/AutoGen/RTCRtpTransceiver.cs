@@ -10,18 +10,18 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string? __res_3064;
-            string? __res_3065 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mid");
-            if (__res_3065 is null)
+            string? __res_3105;
+            string? __res_3106 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mid");
+            if (__res_3106 is null)
             {
-                __res_3064 = null;
+                __res_3105 = null;
             }
             else
             {
-                string __notNullable_3066 = (string)__res_3065;
-                __res_3064 = __notNullable_3066;
+                string __notNullable_3107 = (string)__res_3106;
+                __res_3105 = __notNullable_3107;
             }
-            return __res_3064;
+            return __res_3105;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCRtpSender __res_3067;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3068 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sender");
-            __res_3067 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpSender>(__res_3068);
-            return __res_3067;
+            global::Iskra.StdWeb.RTCRtpSender __res_3108;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3109 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sender");
+            __res_3108 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpSender>(__res_3109);
+            return __res_3108;
         }
     }
 
@@ -40,10 +40,10 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCRtpReceiver __res_3069;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3070 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
-            __res_3069 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpReceiver>(__res_3070);
-            return __res_3069;
+            global::Iskra.StdWeb.RTCRtpReceiver __res_3110;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3111 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
+            __res_3110 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpReceiver>(__res_3111);
+            return __res_3110;
         }
     }
 
@@ -51,16 +51,16 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCRtpTransceiverDirection __res_3071;
-            string __res_3072 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
-            __res_3071 = global::Iskra.StdWeb.RTCRtpTransceiverDirection.Create(__res_3072);
-            return __res_3071;
+            global::Iskra.StdWeb.RTCRtpTransceiverDirection __res_3112;
+            string __res_3113 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
+            __res_3112 = global::Iskra.StdWeb.RTCRtpTransceiverDirection.Create(__res_3113);
+            return __res_3112;
         }
         set
         {
-            string __marshalledValue_3073;
-            __marshalledValue_3073 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "direction", __marshalledValue_3073);
+            string __marshalledValue_3114;
+            __marshalledValue_3114 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "direction", __marshalledValue_3114);
         }
     }
 
@@ -68,18 +68,18 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCRtpTransceiverDirection? __res_3074;
-            string? __res_3075 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "currentDirection");
-            if (__res_3075 is null)
+            global::Iskra.StdWeb.RTCRtpTransceiverDirection? __res_3115;
+            string? __res_3116 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "currentDirection");
+            if (__res_3116 is null)
             {
-                __res_3074 = null;
+                __res_3115 = null;
             }
             else
             {
-                string __notNullable_3076 = (string)__res_3075;
-                __res_3074 = global::Iskra.StdWeb.RTCRtpTransceiverDirection.Create(__notNullable_3076);
+                string __notNullable_3117 = (string)__res_3116;
+                __res_3115 = global::Iskra.StdWeb.RTCRtpTransceiverDirection.Create(__notNullable_3117);
             }
-            return __res_3074;
+            return __res_3115;
         }
     }
 }

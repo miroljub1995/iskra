@@ -10,10 +10,10 @@ public partial class DocumentFragment(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCollection __res_5311;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5312 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
-            __res_5311 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5312);
-            return __res_5311;
+            global::Iskra.StdWeb.HTMLCollection __res_5354;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5355 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
+            __res_5354 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5355);
+            return __res_5354;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class DocumentFragment(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_5313;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5314 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstElementChild");
-            if (__res_5314 is null)
+            global::Iskra.StdWeb.Element? __res_5356;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5357 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstElementChild");
+            if (__res_5357 is null)
             {
-                __res_5313 = null;
+                __res_5356 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5315 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5314;
-                __res_5313 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5315);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5358 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5357;
+                __res_5356 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5358);
             }
-            return __res_5313;
+            return __res_5356;
         }
     }
 
@@ -40,18 +40,18 @@ public partial class DocumentFragment(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_5316;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5317 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastElementChild");
-            if (__res_5317 is null)
+            global::Iskra.StdWeb.Element? __res_5359;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5360 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastElementChild");
+            if (__res_5360 is null)
             {
-                __res_5316 = null;
+                __res_5359 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5318 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5317;
-                __res_5316 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5318);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5361 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5360;
+                __res_5359 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5361);
             }
-            return __res_5316;
+            return __res_5359;
         }
     }
 
@@ -59,10 +59,10 @@ public partial class DocumentFragment(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_5319;
-            double __res_5320 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "childElementCount");
-            __res_5319 = Convert.ToUInt32(__res_5320);
-            return __res_5319;
+            uint __res_5362;
+            double __res_5363 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "childElementCount");
+            __res_5362 = Convert.ToUInt32(__res_5363);
+            return __res_5362;
         }
     }
 }

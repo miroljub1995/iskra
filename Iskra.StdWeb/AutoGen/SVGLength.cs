@@ -10,10 +10,10 @@ public partial class SVGLength(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            ushort __res_840;
-            double __res_841 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
-            __res_840 = Convert.ToUInt16(__res_841);
-            return __res_840;
+            ushort __res_876;
+            double __res_877 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
+            __res_876 = Convert.ToUInt16(__res_877);
+            return __res_876;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class SVGLength(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            float __res_842;
-            double __res_843 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_842 = Convert.ToSingle(__res_843);
-            return __res_842;
+            float __res_878;
+            double __res_879 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_878 = Convert.ToSingle(__res_879);
+            return __res_878;
         }
         set
         {
-            double __marshalledValue_844;
-            __marshalledValue_844 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_844);
+            double __marshalledValue_880;
+            __marshalledValue_880 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_880);
         }
     }
 
@@ -38,16 +38,16 @@ public partial class SVGLength(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            float __res_845;
-            double __res_846 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits");
-            __res_845 = Convert.ToSingle(__res_846);
-            return __res_845;
+            float __res_881;
+            double __res_882 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits");
+            __res_881 = Convert.ToSingle(__res_882);
+            return __res_881;
         }
         set
         {
-            double __marshalledValue_847;
-            __marshalledValue_847 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits", __marshalledValue_847);
+            double __marshalledValue_883;
+            __marshalledValue_883 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits", __marshalledValue_883);
         }
     }
 
@@ -55,16 +55,16 @@ public partial class SVGLength(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_848;
-            string __res_849 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueAsString");
-            __res_848 = __res_849;
-            return __res_848;
+            string __res_884;
+            string __res_885 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueAsString");
+            __res_884 = __res_885;
+            return __res_884;
         }
         set
         {
-            string __marshalledValue_850;
-            __marshalledValue_850 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueAsString", __marshalledValue_850);
+            string __marshalledValue_886;
+            __marshalledValue_886 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueAsString", __marshalledValue_886);
         }
     }
 }

@@ -6,20 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Result
+    public global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Result
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_12991;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_12992;
-            __propObject_12992 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "result");
-            if (__propObject_12992 is null)
+            global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13054;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13055;
+            __propObject_13055 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "result");
+            if (__propObject_13055 is null)
             {
                 return null;
             }
 
-            __res_12991 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_12992);
-            return __res_12991;
+            __res_13054 = new global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13055);
+            return __res_13054;
         }
     }
 
@@ -27,18 +27,18 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.DOMException? __res_12993;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12994 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "error");
-            if (__res_12994 is null)
+            global::Iskra.StdWeb.DOMException? __res_13056;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13057 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "error");
+            if (__res_13057 is null)
             {
-                __res_12993 = null;
+                __res_13056 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12995 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12994;
-                __res_12993 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__notNullable_12995);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13058 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13057;
+                __res_13056 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__notNullable_13058);
             }
-            return __res_12993;
+            return __res_13056;
         }
     }
 
@@ -46,16 +46,16 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_12996;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_12997;
-            __propObject_12997 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "source");
-            if (__propObject_12997 is null)
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13059;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13060;
+            __propObject_13060 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "source");
+            if (__propObject_13060 is null)
             {
                 return null;
             }
 
-            __res_12996 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_12997);
-            return __res_12996;
+            __res_13059 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13060);
+            return __res_13059;
         }
     }
 
@@ -63,18 +63,18 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.IDBTransaction? __res_12998;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12999 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transaction");
-            if (__res_12999 is null)
+            global::Iskra.StdWeb.IDBTransaction? __res_13061;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13062 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transaction");
+            if (__res_13062 is null)
             {
-                __res_12998 = null;
+                __res_13061 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13000 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12999;
-                __res_12998 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBTransaction>(__notNullable_13000);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13063 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13062;
+                __res_13061 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBTransaction>(__notNullable_13063);
             }
-            return __res_12998;
+            return __res_13061;
         }
     }
 
@@ -82,10 +82,10 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.IDBRequestReadyState __res_13001;
-            string __res_13002 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "readyState");
-            __res_13001 = global::Iskra.StdWeb.IDBRequestReadyState.Create(__res_13002);
-            return __res_13001;
+            global::Iskra.StdWeb.IDBRequestReadyState __res_13064;
+            string __res_13065 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "readyState");
+            __res_13064 = global::Iskra.StdWeb.IDBRequestReadyState.Create(__res_13065);
+            return __res_13064;
         }
     }
 
@@ -93,32 +93,32 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13003;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13004 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsuccess");
-            if (__res_13004 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_13066;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13067 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsuccess");
+            if (__res_13067 is null)
             {
-                __res_13003 = null;
+                __res_13066 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13005 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13004;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13068 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13067;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_13003;
+            return __res_13066;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13006;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13069;
             if (value is null)
             {
-                __marshalledValue_13006 = null;
+                __marshalledValue_13069 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13007 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13070 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsuccess", __marshalledValue_13006);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsuccess", __marshalledValue_13069);
         }
     }
 
@@ -126,32 +126,32 @@ public partial class IDBRequest(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13008;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13009 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_13009 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_13071;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13072 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_13072 is null)
             {
-                __res_13008 = null;
+                __res_13071 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13010 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13009;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13073 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13072;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_13008;
+            return __res_13071;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13011;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13074;
             if (value is null)
             {
-                __marshalledValue_13011 = null;
+                __marshalledValue_13074 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13012 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13075 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_13011);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_13074);
         }
     }
 }

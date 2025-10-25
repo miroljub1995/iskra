@@ -10,10 +10,10 @@ public partial class ClipboardItem(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.PresentationStyle __res_2779;
-            string __res_2780 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "presentationStyle");
-            __res_2779 = global::Iskra.StdWeb.PresentationStyle.Create(__res_2780);
-            return __res_2779;
+            global::Iskra.StdWeb.PresentationStyle __res_2818;
+            string __res_2819 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "presentationStyle");
+            __res_2818 = global::Iskra.StdWeb.PresentationStyle.Create(__res_2819);
+            return __res_2818;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class ClipboardItem(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_2781;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2782;
-            __propObject_2782 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
-            __res_2781 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_2782);
-            return __res_2781;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_2820;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2821;
+            __propObject_2821 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
+            __res_2820 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_2821);
+            return __res_2820;
         }
     }
 }

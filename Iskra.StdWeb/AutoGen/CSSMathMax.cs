@@ -11,7 +11,7 @@ public partial class CSSMathMax(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.CSSNumericArray __res_59;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_60 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_60 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
             __res_59 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericArray>(__res_60);
             return __res_59;
         }

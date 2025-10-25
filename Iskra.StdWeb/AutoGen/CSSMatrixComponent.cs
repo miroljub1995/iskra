@@ -10,16 +10,16 @@ public partial class CSSMatrixComponent(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.DOMMatrix __res_114;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_115 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            __res_114 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMMatrix>(__res_115);
-            return __res_114;
+            global::Iskra.StdWeb.DOMMatrix __res_121;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_122 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            __res_121 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMMatrix>(__res_122);
+            return __res_121;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_116;
-            __marshalledValue_116 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "matrix", __marshalledValue_116);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_123;
+            __marshalledValue_123 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "matrix", __marshalledValue_123);
         }
     }
 }

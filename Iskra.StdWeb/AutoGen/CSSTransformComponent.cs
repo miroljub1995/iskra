@@ -11,7 +11,7 @@ public partial class CSSTransformComponent(global::System.Runtime.InteropService
         get
         {
             bool __res_73;
-            bool __res_74 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
+            bool __res_74 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
             __res_73 = __res_74;
             return __res_73;
         }

@@ -10,10 +10,10 @@ public partial class SVGTransformList(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_1083;
-            double __res_1084 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_1083 = Convert.ToUInt32(__res_1084);
-            return __res_1083;
+            uint __res_1120;
+            double __res_1121 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_1120 = Convert.ToUInt32(__res_1121);
+            return __res_1120;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGTransformList(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_1085;
-            double __res_1086 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_1085 = Convert.ToUInt32(__res_1086);
-            return __res_1085;
+            uint __res_1122;
+            double __res_1123 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_1122 = Convert.ToUInt32(__res_1123);
+            return __res_1122;
         }
     }
 }

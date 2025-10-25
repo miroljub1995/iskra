@@ -12,7 +12,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         {
             global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise> __res_17;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_18;
-            __propObject_18 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promisePropertyLong");
+            __propObject_18 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promisePropertyLong");
             __res_17 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_18);
             return __res_17;
         }
@@ -29,7 +29,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         {
             global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise> __res_20;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_21;
-            __propObject_21 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promisePropertyLongReadOnly");
+            __propObject_21 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promisePropertyLongReadOnly");
             __res_20 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_21);
             return __res_20;
         }
@@ -41,7 +41,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         {
             global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>? __res_22;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_23;
-            __propObject_23 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "promisePropertyLongNullable");
+            __propObject_23 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "promisePropertyLongNullable");
             if (__propObject_23 is null)
             {
                 return null;
@@ -72,7 +72,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         {
             global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>? __res_25;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_26;
-            __propObject_26 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "promisePropertyLongReadOnlyNullableAsNull");
+            __propObject_26 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "promisePropertyLongReadOnlyNullableAsNull");
             if (__propObject_26 is null)
             {
                 return null;
@@ -89,7 +89,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         {
             global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>? __res_27;
             global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_28;
-            __propObject_28 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "promisePropertyLongReadOnlyNullableAsNotNull");
+            __propObject_28 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "promisePropertyLongReadOnlyNullableAsNotNull");
             if (__propObject_28 is null)
             {
                 return null;
@@ -106,7 +106,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         {
             global::Iskra.JSCore.Generics.Promise<string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise> __res_29;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_30;
-            __propObject_30 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promisePropertyString");
+            __propObject_30 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promisePropertyString");
             __res_29 = new global::Iskra.JSCore.Generics.Promise<string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_30);
             return __res_29;
         }
@@ -123,7 +123,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         {
             global::Iskra.JSCore.Generics.Promise<string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise> __res_32;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_33;
-            __propObject_33 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promisePropertyStringReadOnly");
+            __propObject_33 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promisePropertyStringReadOnly");
             __res_32 = new global::Iskra.JSCore.Generics.Promise<string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_33);
             return __res_32;
         }
@@ -135,7 +135,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         {
             global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise> __res_34;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_35;
-            __propObject_35 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promisePropertyLongDelayed");
+            __propObject_35 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promisePropertyLongDelayed");
             __res_34 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_35);
             return __res_34;
         }
@@ -147,7 +147,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         {
             global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise> __res_36;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_37;
-            __propObject_37 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "testTaskToPromise");
+            __propObject_37 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "testTaskToPromise");
             __res_36 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_37);
             return __res_36;
         }
@@ -163,7 +163,7 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
         get
         {
             int? __res_39;
-            double? __res_40 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "testTaskToPromiseValue");
+            double? __res_40 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "testTaskToPromiseValue");
             if (__res_40 is null)
             {
                 __res_39 = null;

@@ -11,7 +11,7 @@ public partial class CSSMathMin(global::System.Runtime.InteropServices.JavaScrip
         get
         {
             global::Iskra.StdWeb.CSSNumericArray __res_57;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_58 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_58 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
             __res_57 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericArray>(__res_58);
             return __res_57;
         }

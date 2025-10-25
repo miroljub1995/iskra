@@ -10,10 +10,10 @@ public partial class ChapterInformation(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_1354;
-            string __res_1355 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
-            __res_1354 = __res_1355;
-            return __res_1354;
+            string __res_1391;
+            string __res_1392 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
+            __res_1391 = __res_1392;
+            return __res_1391;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ChapterInformation(global::System.Runtime.InteropServices.J
     {
         get
         {
-            double __res_1356;
-            double __res_1357 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_1356 = __res_1357;
-            return __res_1356;
+            double __res_1393;
+            double __res_1394 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_1393 = __res_1394;
+            return __res_1393;
         }
     }
 
@@ -32,11 +32,11 @@ public partial class ChapterInformation(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_1358;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1359;
-            __propObject_1359 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "artwork");
-            __res_1358 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1359);
-            return __res_1358;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_1395;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1396;
+            __propObject_1396 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "artwork");
+            __res_1395 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1396);
+            return __res_1395;
         }
     }
 }

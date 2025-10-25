@@ -10,10 +10,10 @@ public partial class TrustedTypePolicy(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_1982;
-            string __res_1983 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_1982 = __res_1983;
-            return __res_1982;
+            string __res_2019;
+            string __res_2020 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2019 = __res_2020;
+            return __res_2019;
         }
     }
 }

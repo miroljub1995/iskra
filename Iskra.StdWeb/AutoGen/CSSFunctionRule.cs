@@ -11,7 +11,7 @@ public partial class CSSFunctionRule(global::System.Runtime.InteropServices.Java
         get
         {
             string __res_18;
-            string __res_19 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            string __res_19 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
             __res_18 = __res_19;
             return __res_18;
         }
@@ -22,7 +22,7 @@ public partial class CSSFunctionRule(global::System.Runtime.InteropServices.Java
         get
         {
             string __res_20;
-            string __res_21 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnType");
+            string __res_21 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnType");
             __res_20 = __res_21;
             return __res_20;
         }

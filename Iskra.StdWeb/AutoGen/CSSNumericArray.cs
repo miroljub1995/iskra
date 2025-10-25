@@ -11,7 +11,7 @@ public partial class CSSNumericArray(global::System.Runtime.InteropServices.Java
         get
         {
             uint __res_67;
-            double __res_68 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            double __res_68 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
             __res_67 = Convert.ToUInt32(__res_68);
             return __res_67;
         }

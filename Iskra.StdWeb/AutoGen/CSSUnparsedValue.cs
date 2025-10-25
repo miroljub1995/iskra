@@ -11,7 +11,7 @@ public partial class CSSUnparsedValue(global::System.Runtime.InteropServices.Jav
         get
         {
             uint __res_31;
-            double __res_32 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            double __res_32 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
             __res_31 = Convert.ToUInt32(__res_32);
             return __res_31;
         }

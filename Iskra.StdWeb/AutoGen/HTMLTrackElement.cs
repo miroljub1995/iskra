@@ -10,16 +10,16 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_9180;
-            string __res_9181 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_9180 = __res_9181;
-            return __res_9180;
+            string __res_9235;
+            string __res_9236 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_9235 = __res_9236;
+            return __res_9235;
         }
         set
         {
-            string __marshalledValue_9182;
-            __marshalledValue_9182 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "kind", __marshalledValue_9182);
+            string __marshalledValue_9237;
+            __marshalledValue_9237 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "kind", __marshalledValue_9237);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_9183;
-            string __res_9184 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_9183 = __res_9184;
-            return __res_9183;
+            string __res_9238;
+            string __res_9239 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_9238 = __res_9239;
+            return __res_9238;
         }
         set
         {
-            string __marshalledValue_9185;
-            __marshalledValue_9185 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_9185);
+            string __marshalledValue_9240;
+            __marshalledValue_9240 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_9240);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_9186;
-            string __res_9187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "srclang");
-            __res_9186 = __res_9187;
-            return __res_9186;
+            string __res_9241;
+            string __res_9242 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "srclang");
+            __res_9241 = __res_9242;
+            return __res_9241;
         }
         set
         {
-            string __marshalledValue_9188;
-            __marshalledValue_9188 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "srclang", __marshalledValue_9188);
+            string __marshalledValue_9243;
+            __marshalledValue_9243 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "srclang", __marshalledValue_9243);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_9189;
-            string __res_9190 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_9189 = __res_9190;
-            return __res_9189;
+            string __res_9244;
+            string __res_9245 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_9244 = __res_9245;
+            return __res_9244;
         }
         set
         {
-            string __marshalledValue_9191;
-            __marshalledValue_9191 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_9191);
+            string __marshalledValue_9246;
+            __marshalledValue_9246 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_9246);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9192;
-            bool __res_9193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "default");
-            __res_9192 = __res_9193;
-            return __res_9192;
+            bool __res_9247;
+            bool __res_9248 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "default");
+            __res_9247 = __res_9248;
+            return __res_9247;
         }
         set
         {
-            bool __marshalledValue_9194;
-            __marshalledValue_9194 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "default", __marshalledValue_9194);
+            bool __marshalledValue_9249;
+            __marshalledValue_9249 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "default", __marshalledValue_9249);
         }
     }
 
@@ -95,10 +95,10 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            ushort __res_9195;
-            double __res_9196 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
-            __res_9195 = Convert.ToUInt16(__res_9196);
-            return __res_9195;
+            ushort __res_9250;
+            double __res_9251 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
+            __res_9250 = Convert.ToUInt16(__res_9251);
+            return __res_9250;
         }
     }
 
@@ -106,10 +106,10 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.TextTrack __res_9197;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9198 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            __res_9197 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrack>(__res_9198);
-            return __res_9197;
+            global::Iskra.StdWeb.TextTrack __res_9252;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9253 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            __res_9252 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrack>(__res_9253);
+            return __res_9252;
         }
     }
 }

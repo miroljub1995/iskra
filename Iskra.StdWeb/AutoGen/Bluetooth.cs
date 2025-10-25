@@ -10,32 +10,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3932;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3933 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged");
-            if (__res_3933 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3973;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3974 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged");
+            if (__res_3974 is null)
             {
-                __res_3932 = null;
+                __res_3973 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3934 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3933;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3975 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3974;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3932;
+            return __res_3973;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3935;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3976;
             if (value is null)
             {
-                __marshalledValue_3935 = null;
+                __marshalledValue_3976 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3936 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3977 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged", __marshalledValue_3935);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged", __marshalledValue_3976);
         }
     }
 
@@ -43,18 +43,18 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothDevice? __res_3937;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3938 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "referringDevice");
-            if (__res_3938 is null)
+            global::Iskra.StdWeb.BluetoothDevice? __res_3978;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3979 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "referringDevice");
+            if (__res_3979 is null)
             {
-                __res_3937 = null;
+                __res_3978 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3939 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3938;
-                __res_3937 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__notNullable_3939);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3980 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3979;
+                __res_3978 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__notNullable_3980);
             }
-            return __res_3937;
+            return __res_3978;
         }
     }
 
@@ -62,32 +62,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3940;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3941 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onadvertisementreceived");
-            if (__res_3941 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3981;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3982 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onadvertisementreceived");
+            if (__res_3982 is null)
             {
-                __res_3940 = null;
+                __res_3981 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3942 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3941;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3983 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3982;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3940;
+            return __res_3981;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3943;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3984;
             if (value is null)
             {
-                __marshalledValue_3943 = null;
+                __marshalledValue_3984 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3944 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3985 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onadvertisementreceived", __marshalledValue_3943);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onadvertisementreceived", __marshalledValue_3984);
         }
     }
 
@@ -95,32 +95,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3945;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3946 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongattserverdisconnected");
-            if (__res_3946 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3986;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongattserverdisconnected");
+            if (__res_3987 is null)
             {
-                __res_3945 = null;
+                __res_3986 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3947 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3946;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3988 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3987;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3945;
+            return __res_3986;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3948;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3989;
             if (value is null)
             {
-                __marshalledValue_3948 = null;
+                __marshalledValue_3989 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3949 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3990 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongattserverdisconnected", __marshalledValue_3948);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongattserverdisconnected", __marshalledValue_3989);
         }
     }
 
@@ -128,32 +128,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3950;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3951 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged");
-            if (__res_3951 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3991;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3992 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged");
+            if (__res_3992 is null)
             {
-                __res_3950 = null;
+                __res_3991 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3952 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3951;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3993 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3992;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3950;
+            return __res_3991;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3953;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3994;
             if (value is null)
             {
-                __marshalledValue_3953 = null;
+                __marshalledValue_3994 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3954 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3995 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged", __marshalledValue_3953);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged", __marshalledValue_3994);
         }
     }
 
@@ -161,32 +161,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3955;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3956 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceadded");
-            if (__res_3956 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3996;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3997 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceadded");
+            if (__res_3997 is null)
             {
-                __res_3955 = null;
+                __res_3996 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3957 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3956;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3998 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3997;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3955;
+            return __res_3996;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3958;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3999;
             if (value is null)
             {
-                __marshalledValue_3958 = null;
+                __marshalledValue_3999 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3959 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4000 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceadded", __marshalledValue_3958);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceadded", __marshalledValue_3999);
         }
     }
 
@@ -194,32 +194,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3960;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3961 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onservicechanged");
-            if (__res_3961 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4001;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4002 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onservicechanged");
+            if (__res_4002 is null)
             {
-                __res_3960 = null;
+                __res_4001 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3962 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3961;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4003 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4002;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3960;
+            return __res_4001;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3963;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4004;
             if (value is null)
             {
-                __marshalledValue_3963 = null;
+                __marshalledValue_4004 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3964 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4005 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onservicechanged", __marshalledValue_3963);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onservicechanged", __marshalledValue_4004);
         }
     }
 
@@ -227,32 +227,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3965;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3966 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceremoved");
-            if (__res_3966 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4006;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4007 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceremoved");
+            if (__res_4007 is null)
             {
-                __res_3965 = null;
+                __res_4006 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3967 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3966;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4008 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4007;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3965;
+            return __res_4006;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3968;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4009;
             if (value is null)
             {
-                __marshalledValue_3968 = null;
+                __marshalledValue_4009 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3969 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4010 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceremoved", __marshalledValue_3968);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceremoved", __marshalledValue_4009);
         }
     }
 }

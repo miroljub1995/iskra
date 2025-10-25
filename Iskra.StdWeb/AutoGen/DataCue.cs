@@ -6,24 +6,34 @@ namespace Iskra.StdWeb;
 
 public partial class DataCue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): TextTrackCue(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Value
+    public global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Value
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_6030;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6031;
-            __propObject_6031 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "value");
-            if (__propObject_6031 is null)
+            global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_6076;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6077;
+            __propObject_6077 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "value");
+            if (__propObject_6077 is null)
             {
                 return null;
             }
 
-            __res_6030 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6031);
-            return __res_6030;
+            __res_6076 = new global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6077);
+            return __res_6076;
         }
         set
         {
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "value", value.JSObject);
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6078;
+            if (value is null)
+            {
+                __propObject_6078 = null;
+            }
+            else
+            {
+                __propObject_6078 = value.JSObject;
+            }
+
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "value", __propObject_6078);
         }
     }
 
@@ -31,10 +41,10 @@ public partial class DataCue(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            string __res_6032;
-            string __res_6033 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_6032 = __res_6033;
-            return __res_6032;
+            string __res_6079;
+            string __res_6080 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_6079 = __res_6080;
+            return __res_6079;
         }
     }
 }

@@ -10,16 +10,16 @@ public partial class SVGPathSegment(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_3428;
-            string __res_3429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_3428 = __res_3429;
-            return __res_3428;
+            string __res_3469;
+            string __res_3470 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_3469 = __res_3470;
+            return __res_3469;
         }
         set
         {
-            string __marshalledValue_3430;
-            __marshalledValue_3430 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_3430);
+            string __marshalledValue_3471;
+            __marshalledValue_3471 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_3471);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class SVGPathSegment(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3431;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3432;
-            __propObject_3432 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
-            __res_3431 = new global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3432);
-            return __res_3431;
+            global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3472;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3473;
+            __propObject_3473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            __res_3472 = new global::Iskra.JSCore.Generics.FrozenArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3473);
+            return __res_3472;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3433 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "values", __propObject_3433);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3474 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "values", __propObject_3474);
         }
     }
 }

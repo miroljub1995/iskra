@@ -10,16 +10,16 @@ public partial class CSSKeyframeRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_4357;
-            string __res_4358 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
-            __res_4357 = __res_4358;
-            return __res_4357;
+            string __res_4400;
+            string __res_4401 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
+            __res_4400 = __res_4401;
+            return __res_4400;
         }
         set
         {
-            string __marshalledValue_4359;
-            __marshalledValue_4359 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_4359);
+            string __marshalledValue_4402;
+            __marshalledValue_4402 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_4402);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSKeyframeRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleProperties __res_4360;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4361 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_4360 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_4361);
-            return __res_4360;
+            global::Iskra.StdWeb.CSSStyleProperties __res_4403;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4404 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_4403 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_4404);
+            return __res_4403;
         }
     }
 }

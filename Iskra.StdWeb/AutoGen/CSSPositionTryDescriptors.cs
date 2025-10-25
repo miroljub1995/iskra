@@ -10,16 +10,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3533;
-            string __res_3534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin");
-            __res_3533 = __res_3534;
-            return __res_3533;
+            string __res_3574;
+            string __res_3575 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin");
+            __res_3574 = __res_3575;
+            return __res_3574;
         }
         set
         {
-            string __marshalledValue_3535;
-            __marshalledValue_3535 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin", __marshalledValue_3535);
+            string __marshalledValue_3576;
+            __marshalledValue_3576 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin", __marshalledValue_3576);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3536;
-            string __res_3537 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginTop");
-            __res_3536 = __res_3537;
-            return __res_3536;
+            string __res_3577;
+            string __res_3578 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginTop");
+            __res_3577 = __res_3578;
+            return __res_3577;
         }
         set
         {
-            string __marshalledValue_3538;
-            __marshalledValue_3538 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginTop", __marshalledValue_3538);
+            string __marshalledValue_3579;
+            __marshalledValue_3579 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginTop", __marshalledValue_3579);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3539;
-            string __res_3540 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginRight");
-            __res_3539 = __res_3540;
-            return __res_3539;
+            string __res_3580;
+            string __res_3581 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginRight");
+            __res_3580 = __res_3581;
+            return __res_3580;
         }
         set
         {
-            string __marshalledValue_3541;
-            __marshalledValue_3541 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginRight", __marshalledValue_3541);
+            string __marshalledValue_3582;
+            __marshalledValue_3582 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginRight", __marshalledValue_3582);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3542;
-            string __res_3543 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBottom");
-            __res_3542 = __res_3543;
-            return __res_3542;
+            string __res_3583;
+            string __res_3584 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBottom");
+            __res_3583 = __res_3584;
+            return __res_3583;
         }
         set
         {
-            string __marshalledValue_3544;
-            __marshalledValue_3544 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBottom", __marshalledValue_3544);
+            string __marshalledValue_3585;
+            __marshalledValue_3585 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBottom", __marshalledValue_3585);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3545;
-            string __res_3546 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginLeft");
-            __res_3545 = __res_3546;
-            return __res_3545;
+            string __res_3586;
+            string __res_3587 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginLeft");
+            __res_3586 = __res_3587;
+            return __res_3586;
         }
         set
         {
-            string __marshalledValue_3547;
-            __marshalledValue_3547 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginLeft", __marshalledValue_3547);
+            string __marshalledValue_3588;
+            __marshalledValue_3588 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginLeft", __marshalledValue_3588);
         }
     }
 
@@ -95,16 +95,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3548;
-            string __res_3549 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBlock");
-            __res_3548 = __res_3549;
-            return __res_3548;
+            string __res_3589;
+            string __res_3590 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBlock");
+            __res_3589 = __res_3590;
+            return __res_3589;
         }
         set
         {
-            string __marshalledValue_3550;
-            __marshalledValue_3550 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBlock", __marshalledValue_3550);
+            string __marshalledValue_3591;
+            __marshalledValue_3591 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBlock", __marshalledValue_3591);
         }
     }
 
@@ -112,16 +112,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3551;
-            string __res_3552 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBlockStart");
-            __res_3551 = __res_3552;
-            return __res_3551;
+            string __res_3592;
+            string __res_3593 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBlockStart");
+            __res_3592 = __res_3593;
+            return __res_3592;
         }
         set
         {
-            string __marshalledValue_3553;
-            __marshalledValue_3553 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBlockStart", __marshalledValue_3553);
+            string __marshalledValue_3594;
+            __marshalledValue_3594 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBlockStart", __marshalledValue_3594);
         }
     }
 
@@ -129,16 +129,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3554;
-            string __res_3555 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBlockEnd");
-            __res_3554 = __res_3555;
-            return __res_3554;
+            string __res_3595;
+            string __res_3596 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginBlockEnd");
+            __res_3595 = __res_3596;
+            return __res_3595;
         }
         set
         {
-            string __marshalledValue_3556;
-            __marshalledValue_3556 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBlockEnd", __marshalledValue_3556);
+            string __marshalledValue_3597;
+            __marshalledValue_3597 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginBlockEnd", __marshalledValue_3597);
         }
     }
 
@@ -146,16 +146,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3557;
-            string __res_3558 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginInline");
-            __res_3557 = __res_3558;
-            return __res_3557;
+            string __res_3598;
+            string __res_3599 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginInline");
+            __res_3598 = __res_3599;
+            return __res_3598;
         }
         set
         {
-            string __marshalledValue_3559;
-            __marshalledValue_3559 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginInline", __marshalledValue_3559);
+            string __marshalledValue_3600;
+            __marshalledValue_3600 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginInline", __marshalledValue_3600);
         }
     }
 
@@ -163,16 +163,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3560;
-            string __res_3561 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginInlineStart");
-            __res_3560 = __res_3561;
-            return __res_3560;
+            string __res_3601;
+            string __res_3602 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginInlineStart");
+            __res_3601 = __res_3602;
+            return __res_3601;
         }
         set
         {
-            string __marshalledValue_3562;
-            __marshalledValue_3562 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginInlineStart", __marshalledValue_3562);
+            string __marshalledValue_3603;
+            __marshalledValue_3603 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginInlineStart", __marshalledValue_3603);
         }
     }
 
@@ -180,16 +180,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3563;
-            string __res_3564 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginInlineEnd");
-            __res_3563 = __res_3564;
-            return __res_3563;
+            string __res_3604;
+            string __res_3605 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "marginInlineEnd");
+            __res_3604 = __res_3605;
+            return __res_3604;
         }
         set
         {
-            string __marshalledValue_3565;
-            __marshalledValue_3565 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginInlineEnd", __marshalledValue_3565);
+            string __marshalledValue_3606;
+            __marshalledValue_3606 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "marginInlineEnd", __marshalledValue_3606);
         }
     }
 
@@ -197,16 +197,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3566;
-            string __res_3567 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-top");
-            __res_3566 = __res_3567;
-            return __res_3566;
+            string __res_3607;
+            string __res_3608 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-top");
+            __res_3607 = __res_3608;
+            return __res_3607;
         }
         set
         {
-            string __marshalledValue_3568;
-            __marshalledValue_3568 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-top", __marshalledValue_3568);
+            string __marshalledValue_3609;
+            __marshalledValue_3609 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-top", __marshalledValue_3609);
         }
     }
 
@@ -214,16 +214,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3569;
-            string __res_3570 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-right");
-            __res_3569 = __res_3570;
-            return __res_3569;
+            string __res_3610;
+            string __res_3611 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-right");
+            __res_3610 = __res_3611;
+            return __res_3610;
         }
         set
         {
-            string __marshalledValue_3571;
-            __marshalledValue_3571 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-right", __marshalledValue_3571);
+            string __marshalledValue_3612;
+            __marshalledValue_3612 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-right", __marshalledValue_3612);
         }
     }
 
@@ -231,16 +231,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3572;
-            string __res_3573 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-bottom");
-            __res_3572 = __res_3573;
-            return __res_3572;
+            string __res_3613;
+            string __res_3614 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-bottom");
+            __res_3613 = __res_3614;
+            return __res_3613;
         }
         set
         {
-            string __marshalledValue_3574;
-            __marshalledValue_3574 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-bottom", __marshalledValue_3574);
+            string __marshalledValue_3615;
+            __marshalledValue_3615 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-bottom", __marshalledValue_3615);
         }
     }
 
@@ -248,16 +248,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3575;
-            string __res_3576 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-left");
-            __res_3575 = __res_3576;
-            return __res_3575;
+            string __res_3616;
+            string __res_3617 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-left");
+            __res_3616 = __res_3617;
+            return __res_3616;
         }
         set
         {
-            string __marshalledValue_3577;
-            __marshalledValue_3577 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-left", __marshalledValue_3577);
+            string __marshalledValue_3618;
+            __marshalledValue_3618 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-left", __marshalledValue_3618);
         }
     }
 
@@ -265,16 +265,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3578;
-            string __res_3579 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-block");
-            __res_3578 = __res_3579;
-            return __res_3578;
+            string __res_3619;
+            string __res_3620 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-block");
+            __res_3619 = __res_3620;
+            return __res_3619;
         }
         set
         {
-            string __marshalledValue_3580;
-            __marshalledValue_3580 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-block", __marshalledValue_3580);
+            string __marshalledValue_3621;
+            __marshalledValue_3621 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-block", __marshalledValue_3621);
         }
     }
 
@@ -282,16 +282,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3581;
-            string __res_3582 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-block-start");
-            __res_3581 = __res_3582;
-            return __res_3581;
+            string __res_3622;
+            string __res_3623 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-block-start");
+            __res_3622 = __res_3623;
+            return __res_3622;
         }
         set
         {
-            string __marshalledValue_3583;
-            __marshalledValue_3583 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-block-start", __marshalledValue_3583);
+            string __marshalledValue_3624;
+            __marshalledValue_3624 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-block-start", __marshalledValue_3624);
         }
     }
 
@@ -299,16 +299,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3584;
-            string __res_3585 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-block-end");
-            __res_3584 = __res_3585;
-            return __res_3584;
+            string __res_3625;
+            string __res_3626 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-block-end");
+            __res_3625 = __res_3626;
+            return __res_3625;
         }
         set
         {
-            string __marshalledValue_3586;
-            __marshalledValue_3586 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-block-end", __marshalledValue_3586);
+            string __marshalledValue_3627;
+            __marshalledValue_3627 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-block-end", __marshalledValue_3627);
         }
     }
 
@@ -316,16 +316,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3587;
-            string __res_3588 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-inline");
-            __res_3587 = __res_3588;
-            return __res_3587;
+            string __res_3628;
+            string __res_3629 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-inline");
+            __res_3628 = __res_3629;
+            return __res_3628;
         }
         set
         {
-            string __marshalledValue_3589;
-            __marshalledValue_3589 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-inline", __marshalledValue_3589);
+            string __marshalledValue_3630;
+            __marshalledValue_3630 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-inline", __marshalledValue_3630);
         }
     }
 
@@ -333,16 +333,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3590;
-            string __res_3591 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-inline-start");
-            __res_3590 = __res_3591;
-            return __res_3590;
+            string __res_3631;
+            string __res_3632 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-inline-start");
+            __res_3631 = __res_3632;
+            return __res_3631;
         }
         set
         {
-            string __marshalledValue_3592;
-            __marshalledValue_3592 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-inline-start", __marshalledValue_3592);
+            string __marshalledValue_3633;
+            __marshalledValue_3633 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-inline-start", __marshalledValue_3633);
         }
     }
 
@@ -350,16 +350,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3593;
-            string __res_3594 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-inline-end");
-            __res_3593 = __res_3594;
-            return __res_3593;
+            string __res_3634;
+            string __res_3635 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "margin-inline-end");
+            __res_3634 = __res_3635;
+            return __res_3634;
         }
         set
         {
-            string __marshalledValue_3595;
-            __marshalledValue_3595 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-inline-end", __marshalledValue_3595);
+            string __marshalledValue_3636;
+            __marshalledValue_3636 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "margin-inline-end", __marshalledValue_3636);
         }
     }
 
@@ -367,16 +367,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3596;
-            string __res_3597 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset");
-            __res_3596 = __res_3597;
-            return __res_3596;
+            string __res_3637;
+            string __res_3638 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset");
+            __res_3637 = __res_3638;
+            return __res_3637;
         }
         set
         {
-            string __marshalledValue_3598;
-            __marshalledValue_3598 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset", __marshalledValue_3598);
+            string __marshalledValue_3639;
+            __marshalledValue_3639 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset", __marshalledValue_3639);
         }
     }
 
@@ -384,16 +384,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3599;
-            string __res_3600 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetBlock");
-            __res_3599 = __res_3600;
-            return __res_3599;
+            string __res_3640;
+            string __res_3641 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetBlock");
+            __res_3640 = __res_3641;
+            return __res_3640;
         }
         set
         {
-            string __marshalledValue_3601;
-            __marshalledValue_3601 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetBlock", __marshalledValue_3601);
+            string __marshalledValue_3642;
+            __marshalledValue_3642 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetBlock", __marshalledValue_3642);
         }
     }
 
@@ -401,16 +401,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3602;
-            string __res_3603 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetBlockStart");
-            __res_3602 = __res_3603;
-            return __res_3602;
+            string __res_3643;
+            string __res_3644 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetBlockStart");
+            __res_3643 = __res_3644;
+            return __res_3643;
         }
         set
         {
-            string __marshalledValue_3604;
-            __marshalledValue_3604 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetBlockStart", __marshalledValue_3604);
+            string __marshalledValue_3645;
+            __marshalledValue_3645 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetBlockStart", __marshalledValue_3645);
         }
     }
 
@@ -418,16 +418,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3605;
-            string __res_3606 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetBlockEnd");
-            __res_3605 = __res_3606;
-            return __res_3605;
+            string __res_3646;
+            string __res_3647 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetBlockEnd");
+            __res_3646 = __res_3647;
+            return __res_3646;
         }
         set
         {
-            string __marshalledValue_3607;
-            __marshalledValue_3607 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetBlockEnd", __marshalledValue_3607);
+            string __marshalledValue_3648;
+            __marshalledValue_3648 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetBlockEnd", __marshalledValue_3648);
         }
     }
 
@@ -435,16 +435,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3608;
-            string __res_3609 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetInline");
-            __res_3608 = __res_3609;
-            return __res_3608;
+            string __res_3649;
+            string __res_3650 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetInline");
+            __res_3649 = __res_3650;
+            return __res_3649;
         }
         set
         {
-            string __marshalledValue_3610;
-            __marshalledValue_3610 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetInline", __marshalledValue_3610);
+            string __marshalledValue_3651;
+            __marshalledValue_3651 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetInline", __marshalledValue_3651);
         }
     }
 
@@ -452,16 +452,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3611;
-            string __res_3612 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetInlineStart");
-            __res_3611 = __res_3612;
-            return __res_3611;
+            string __res_3652;
+            string __res_3653 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetInlineStart");
+            __res_3652 = __res_3653;
+            return __res_3652;
         }
         set
         {
-            string __marshalledValue_3613;
-            __marshalledValue_3613 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetInlineStart", __marshalledValue_3613);
+            string __marshalledValue_3654;
+            __marshalledValue_3654 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetInlineStart", __marshalledValue_3654);
         }
     }
 
@@ -469,16 +469,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3614;
-            string __res_3615 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetInlineEnd");
-            __res_3614 = __res_3615;
-            return __res_3614;
+            string __res_3655;
+            string __res_3656 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "insetInlineEnd");
+            __res_3655 = __res_3656;
+            return __res_3655;
         }
         set
         {
-            string __marshalledValue_3616;
-            __marshalledValue_3616 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetInlineEnd", __marshalledValue_3616);
+            string __marshalledValue_3657;
+            __marshalledValue_3657 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "insetInlineEnd", __marshalledValue_3657);
         }
     }
 
@@ -486,16 +486,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3617;
-            string __res_3618 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "top");
-            __res_3617 = __res_3618;
-            return __res_3617;
+            string __res_3658;
+            string __res_3659 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "top");
+            __res_3658 = __res_3659;
+            return __res_3658;
         }
         set
         {
-            string __marshalledValue_3619;
-            __marshalledValue_3619 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "top", __marshalledValue_3619);
+            string __marshalledValue_3660;
+            __marshalledValue_3660 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "top", __marshalledValue_3660);
         }
     }
 
@@ -503,16 +503,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3620;
-            string __res_3621 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "left");
-            __res_3620 = __res_3621;
-            return __res_3620;
+            string __res_3661;
+            string __res_3662 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "left");
+            __res_3661 = __res_3662;
+            return __res_3661;
         }
         set
         {
-            string __marshalledValue_3622;
-            __marshalledValue_3622 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "left", __marshalledValue_3622);
+            string __marshalledValue_3663;
+            __marshalledValue_3663 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "left", __marshalledValue_3663);
         }
     }
 
@@ -520,16 +520,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3623;
-            string __res_3624 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "right");
-            __res_3623 = __res_3624;
-            return __res_3623;
+            string __res_3664;
+            string __res_3665 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "right");
+            __res_3664 = __res_3665;
+            return __res_3664;
         }
         set
         {
-            string __marshalledValue_3625;
-            __marshalledValue_3625 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "right", __marshalledValue_3625);
+            string __marshalledValue_3666;
+            __marshalledValue_3666 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "right", __marshalledValue_3666);
         }
     }
 
@@ -537,16 +537,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3626;
-            string __res_3627 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "bottom");
-            __res_3626 = __res_3627;
-            return __res_3626;
+            string __res_3667;
+            string __res_3668 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "bottom");
+            __res_3667 = __res_3668;
+            return __res_3667;
         }
         set
         {
-            string __marshalledValue_3628;
-            __marshalledValue_3628 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bottom", __marshalledValue_3628);
+            string __marshalledValue_3669;
+            __marshalledValue_3669 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bottom", __marshalledValue_3669);
         }
     }
 
@@ -554,16 +554,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3629;
-            string __res_3630 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-block");
-            __res_3629 = __res_3630;
-            return __res_3629;
+            string __res_3670;
+            string __res_3671 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-block");
+            __res_3670 = __res_3671;
+            return __res_3670;
         }
         set
         {
-            string __marshalledValue_3631;
-            __marshalledValue_3631 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-block", __marshalledValue_3631);
+            string __marshalledValue_3672;
+            __marshalledValue_3672 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-block", __marshalledValue_3672);
         }
     }
 
@@ -571,16 +571,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3632;
-            string __res_3633 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-block-start");
-            __res_3632 = __res_3633;
-            return __res_3632;
+            string __res_3673;
+            string __res_3674 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-block-start");
+            __res_3673 = __res_3674;
+            return __res_3673;
         }
         set
         {
-            string __marshalledValue_3634;
-            __marshalledValue_3634 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-block-start", __marshalledValue_3634);
+            string __marshalledValue_3675;
+            __marshalledValue_3675 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-block-start", __marshalledValue_3675);
         }
     }
 
@@ -588,16 +588,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3635;
-            string __res_3636 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-block-end");
-            __res_3635 = __res_3636;
-            return __res_3635;
+            string __res_3676;
+            string __res_3677 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-block-end");
+            __res_3676 = __res_3677;
+            return __res_3676;
         }
         set
         {
-            string __marshalledValue_3637;
-            __marshalledValue_3637 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-block-end", __marshalledValue_3637);
+            string __marshalledValue_3678;
+            __marshalledValue_3678 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-block-end", __marshalledValue_3678);
         }
     }
 
@@ -605,16 +605,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3638;
-            string __res_3639 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-inline");
-            __res_3638 = __res_3639;
-            return __res_3638;
+            string __res_3679;
+            string __res_3680 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-inline");
+            __res_3679 = __res_3680;
+            return __res_3679;
         }
         set
         {
-            string __marshalledValue_3640;
-            __marshalledValue_3640 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-inline", __marshalledValue_3640);
+            string __marshalledValue_3681;
+            __marshalledValue_3681 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-inline", __marshalledValue_3681);
         }
     }
 
@@ -622,16 +622,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3641;
-            string __res_3642 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-inline-start");
-            __res_3641 = __res_3642;
-            return __res_3641;
+            string __res_3682;
+            string __res_3683 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-inline-start");
+            __res_3682 = __res_3683;
+            return __res_3682;
         }
         set
         {
-            string __marshalledValue_3643;
-            __marshalledValue_3643 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-inline-start", __marshalledValue_3643);
+            string __marshalledValue_3684;
+            __marshalledValue_3684 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-inline-start", __marshalledValue_3684);
         }
     }
 
@@ -639,16 +639,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3644;
-            string __res_3645 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-inline-end");
-            __res_3644 = __res_3645;
-            return __res_3644;
+            string __res_3685;
+            string __res_3686 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inset-inline-end");
+            __res_3685 = __res_3686;
+            return __res_3685;
         }
         set
         {
-            string __marshalledValue_3646;
-            __marshalledValue_3646 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-inline-end", __marshalledValue_3646);
+            string __marshalledValue_3687;
+            __marshalledValue_3687 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inset-inline-end", __marshalledValue_3687);
         }
     }
 
@@ -656,16 +656,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3647;
-            string __res_3648 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
-            __res_3647 = __res_3648;
-            return __res_3647;
+            string __res_3688;
+            string __res_3689 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
+            __res_3688 = __res_3689;
+            return __res_3688;
         }
         set
         {
-            string __marshalledValue_3649;
-            __marshalledValue_3649 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_3649);
+            string __marshalledValue_3690;
+            __marshalledValue_3690 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_3690);
         }
     }
 
@@ -673,16 +673,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3650;
-            string __res_3651 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minWidth");
-            __res_3650 = __res_3651;
-            return __res_3650;
+            string __res_3691;
+            string __res_3692 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minWidth");
+            __res_3691 = __res_3692;
+            return __res_3691;
         }
         set
         {
-            string __marshalledValue_3652;
-            __marshalledValue_3652 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "minWidth", __marshalledValue_3652);
+            string __marshalledValue_3693;
+            __marshalledValue_3693 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "minWidth", __marshalledValue_3693);
         }
     }
 
@@ -690,16 +690,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3653;
-            string __res_3654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxWidth");
-            __res_3653 = __res_3654;
-            return __res_3653;
+            string __res_3694;
+            string __res_3695 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxWidth");
+            __res_3694 = __res_3695;
+            return __res_3694;
         }
         set
         {
-            string __marshalledValue_3655;
-            __marshalledValue_3655 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "maxWidth", __marshalledValue_3655);
+            string __marshalledValue_3696;
+            __marshalledValue_3696 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "maxWidth", __marshalledValue_3696);
         }
     }
 
@@ -707,16 +707,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3656;
-            string __res_3657 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
-            __res_3656 = __res_3657;
-            return __res_3656;
+            string __res_3697;
+            string __res_3698 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
+            __res_3697 = __res_3698;
+            return __res_3697;
         }
         set
         {
-            string __marshalledValue_3658;
-            __marshalledValue_3658 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_3658);
+            string __marshalledValue_3699;
+            __marshalledValue_3699 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_3699);
         }
     }
 
@@ -724,16 +724,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3659;
-            string __res_3660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minHeight");
-            __res_3659 = __res_3660;
-            return __res_3659;
+            string __res_3700;
+            string __res_3701 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minHeight");
+            __res_3700 = __res_3701;
+            return __res_3700;
         }
         set
         {
-            string __marshalledValue_3661;
-            __marshalledValue_3661 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "minHeight", __marshalledValue_3661);
+            string __marshalledValue_3702;
+            __marshalledValue_3702 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "minHeight", __marshalledValue_3702);
         }
     }
 
@@ -741,16 +741,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3662;
-            string __res_3663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxHeight");
-            __res_3662 = __res_3663;
-            return __res_3662;
+            string __res_3703;
+            string __res_3704 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxHeight");
+            __res_3703 = __res_3704;
+            return __res_3703;
         }
         set
         {
-            string __marshalledValue_3664;
-            __marshalledValue_3664 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "maxHeight", __marshalledValue_3664);
+            string __marshalledValue_3705;
+            __marshalledValue_3705 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "maxHeight", __marshalledValue_3705);
         }
     }
 
@@ -758,16 +758,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3665;
-            string __res_3666 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "blockSize");
-            __res_3665 = __res_3666;
-            return __res_3665;
+            string __res_3706;
+            string __res_3707 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "blockSize");
+            __res_3706 = __res_3707;
+            return __res_3706;
         }
         set
         {
-            string __marshalledValue_3667;
-            __marshalledValue_3667 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "blockSize", __marshalledValue_3667);
+            string __marshalledValue_3708;
+            __marshalledValue_3708 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "blockSize", __marshalledValue_3708);
         }
     }
 
@@ -775,16 +775,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3668;
-            string __res_3669 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minBlockSize");
-            __res_3668 = __res_3669;
-            return __res_3668;
+            string __res_3709;
+            string __res_3710 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minBlockSize");
+            __res_3709 = __res_3710;
+            return __res_3709;
         }
         set
         {
-            string __marshalledValue_3670;
-            __marshalledValue_3670 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "minBlockSize", __marshalledValue_3670);
+            string __marshalledValue_3711;
+            __marshalledValue_3711 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "minBlockSize", __marshalledValue_3711);
         }
     }
 
@@ -792,16 +792,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3671;
-            string __res_3672 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxBlockSize");
-            __res_3671 = __res_3672;
-            return __res_3671;
+            string __res_3712;
+            string __res_3713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxBlockSize");
+            __res_3712 = __res_3713;
+            return __res_3712;
         }
         set
         {
-            string __marshalledValue_3673;
-            __marshalledValue_3673 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "maxBlockSize", __marshalledValue_3673);
+            string __marshalledValue_3714;
+            __marshalledValue_3714 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "maxBlockSize", __marshalledValue_3714);
         }
     }
 
@@ -809,16 +809,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3674;
-            string __res_3675 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inlineSize");
-            __res_3674 = __res_3675;
-            return __res_3674;
+            string __res_3715;
+            string __res_3716 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inlineSize");
+            __res_3715 = __res_3716;
+            return __res_3715;
         }
         set
         {
-            string __marshalledValue_3676;
-            __marshalledValue_3676 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inlineSize", __marshalledValue_3676);
+            string __marshalledValue_3717;
+            __marshalledValue_3717 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inlineSize", __marshalledValue_3717);
         }
     }
 
@@ -826,16 +826,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3677;
-            string __res_3678 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minInlineSize");
-            __res_3677 = __res_3678;
-            return __res_3677;
+            string __res_3718;
+            string __res_3719 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "minInlineSize");
+            __res_3718 = __res_3719;
+            return __res_3718;
         }
         set
         {
-            string __marshalledValue_3679;
-            __marshalledValue_3679 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "minInlineSize", __marshalledValue_3679);
+            string __marshalledValue_3720;
+            __marshalledValue_3720 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "minInlineSize", __marshalledValue_3720);
         }
     }
 
@@ -843,16 +843,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3680;
-            string __res_3681 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxInlineSize");
-            __res_3680 = __res_3681;
-            return __res_3680;
+            string __res_3721;
+            string __res_3722 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "maxInlineSize");
+            __res_3721 = __res_3722;
+            return __res_3721;
         }
         set
         {
-            string __marshalledValue_3682;
-            __marshalledValue_3682 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "maxInlineSize", __marshalledValue_3682);
+            string __marshalledValue_3723;
+            __marshalledValue_3723 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "maxInlineSize", __marshalledValue_3723);
         }
     }
 
@@ -860,16 +860,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3683;
-            string __res_3684 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-width");
-            __res_3683 = __res_3684;
-            return __res_3683;
+            string __res_3724;
+            string __res_3725 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-width");
+            __res_3724 = __res_3725;
+            return __res_3724;
         }
         set
         {
-            string __marshalledValue_3685;
-            __marshalledValue_3685 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "min-width", __marshalledValue_3685);
+            string __marshalledValue_3726;
+            __marshalledValue_3726 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "min-width", __marshalledValue_3726);
         }
     }
 
@@ -877,16 +877,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3686;
-            string __res_3687 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-width");
-            __res_3686 = __res_3687;
-            return __res_3686;
+            string __res_3727;
+            string __res_3728 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-width");
+            __res_3727 = __res_3728;
+            return __res_3727;
         }
         set
         {
-            string __marshalledValue_3688;
-            __marshalledValue_3688 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "max-width", __marshalledValue_3688);
+            string __marshalledValue_3729;
+            __marshalledValue_3729 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "max-width", __marshalledValue_3729);
         }
     }
 
@@ -894,16 +894,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3689;
-            string __res_3690 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-height");
-            __res_3689 = __res_3690;
-            return __res_3689;
+            string __res_3730;
+            string __res_3731 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-height");
+            __res_3730 = __res_3731;
+            return __res_3730;
         }
         set
         {
-            string __marshalledValue_3691;
-            __marshalledValue_3691 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "min-height", __marshalledValue_3691);
+            string __marshalledValue_3732;
+            __marshalledValue_3732 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "min-height", __marshalledValue_3732);
         }
     }
 
@@ -911,16 +911,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3692;
-            string __res_3693 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-height");
-            __res_3692 = __res_3693;
-            return __res_3692;
+            string __res_3733;
+            string __res_3734 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-height");
+            __res_3733 = __res_3734;
+            return __res_3733;
         }
         set
         {
-            string __marshalledValue_3694;
-            __marshalledValue_3694 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "max-height", __marshalledValue_3694);
+            string __marshalledValue_3735;
+            __marshalledValue_3735 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "max-height", __marshalledValue_3735);
         }
     }
 
@@ -928,16 +928,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3695;
-            string __res_3696 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "block-size");
-            __res_3695 = __res_3696;
-            return __res_3695;
+            string __res_3736;
+            string __res_3737 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "block-size");
+            __res_3736 = __res_3737;
+            return __res_3736;
         }
         set
         {
-            string __marshalledValue_3697;
-            __marshalledValue_3697 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "block-size", __marshalledValue_3697);
+            string __marshalledValue_3738;
+            __marshalledValue_3738 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "block-size", __marshalledValue_3738);
         }
     }
 
@@ -945,16 +945,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3698;
-            string __res_3699 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-block-size");
-            __res_3698 = __res_3699;
-            return __res_3698;
+            string __res_3739;
+            string __res_3740 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-block-size");
+            __res_3739 = __res_3740;
+            return __res_3739;
         }
         set
         {
-            string __marshalledValue_3700;
-            __marshalledValue_3700 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "min-block-size", __marshalledValue_3700);
+            string __marshalledValue_3741;
+            __marshalledValue_3741 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "min-block-size", __marshalledValue_3741);
         }
     }
 
@@ -962,16 +962,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3701;
-            string __res_3702 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-block-size");
-            __res_3701 = __res_3702;
-            return __res_3701;
+            string __res_3742;
+            string __res_3743 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-block-size");
+            __res_3742 = __res_3743;
+            return __res_3742;
         }
         set
         {
-            string __marshalledValue_3703;
-            __marshalledValue_3703 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "max-block-size", __marshalledValue_3703);
+            string __marshalledValue_3744;
+            __marshalledValue_3744 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "max-block-size", __marshalledValue_3744);
         }
     }
 
@@ -979,16 +979,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3704;
-            string __res_3705 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inline-size");
-            __res_3704 = __res_3705;
-            return __res_3704;
+            string __res_3745;
+            string __res_3746 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inline-size");
+            __res_3745 = __res_3746;
+            return __res_3745;
         }
         set
         {
-            string __marshalledValue_3706;
-            __marshalledValue_3706 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inline-size", __marshalledValue_3706);
+            string __marshalledValue_3747;
+            __marshalledValue_3747 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "inline-size", __marshalledValue_3747);
         }
     }
 
@@ -996,16 +996,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3707;
-            string __res_3708 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-inline-size");
-            __res_3707 = __res_3708;
-            return __res_3707;
+            string __res_3748;
+            string __res_3749 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "min-inline-size");
+            __res_3748 = __res_3749;
+            return __res_3748;
         }
         set
         {
-            string __marshalledValue_3709;
-            __marshalledValue_3709 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "min-inline-size", __marshalledValue_3709);
+            string __marshalledValue_3750;
+            __marshalledValue_3750 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "min-inline-size", __marshalledValue_3750);
         }
     }
 
@@ -1013,16 +1013,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3710;
-            string __res_3711 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-inline-size");
-            __res_3710 = __res_3711;
-            return __res_3710;
+            string __res_3751;
+            string __res_3752 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "max-inline-size");
+            __res_3751 = __res_3752;
+            return __res_3751;
         }
         set
         {
-            string __marshalledValue_3712;
-            __marshalledValue_3712 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "max-inline-size", __marshalledValue_3712);
+            string __marshalledValue_3753;
+            __marshalledValue_3753 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "max-inline-size", __marshalledValue_3753);
         }
     }
 
@@ -1030,16 +1030,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3713;
-            string __res_3714 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "placeSelf");
-            __res_3713 = __res_3714;
-            return __res_3713;
+            string __res_3754;
+            string __res_3755 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "placeSelf");
+            __res_3754 = __res_3755;
+            return __res_3754;
         }
         set
         {
-            string __marshalledValue_3715;
-            __marshalledValue_3715 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "placeSelf", __marshalledValue_3715);
+            string __marshalledValue_3756;
+            __marshalledValue_3756 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "placeSelf", __marshalledValue_3756);
         }
     }
 
@@ -1047,16 +1047,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3716;
-            string __res_3717 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "alignSelf");
-            __res_3716 = __res_3717;
-            return __res_3716;
+            string __res_3757;
+            string __res_3758 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "alignSelf");
+            __res_3757 = __res_3758;
+            return __res_3757;
         }
         set
         {
-            string __marshalledValue_3718;
-            __marshalledValue_3718 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "alignSelf", __marshalledValue_3718);
+            string __marshalledValue_3759;
+            __marshalledValue_3759 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "alignSelf", __marshalledValue_3759);
         }
     }
 
@@ -1064,16 +1064,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3719;
-            string __res_3720 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "justifySelf");
-            __res_3719 = __res_3720;
-            return __res_3719;
+            string __res_3760;
+            string __res_3761 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "justifySelf");
+            __res_3760 = __res_3761;
+            return __res_3760;
         }
         set
         {
-            string __marshalledValue_3721;
-            __marshalledValue_3721 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "justifySelf", __marshalledValue_3721);
+            string __marshalledValue_3762;
+            __marshalledValue_3762 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "justifySelf", __marshalledValue_3762);
         }
     }
 
@@ -1081,16 +1081,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3722;
-            string __res_3723 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "place-self");
-            __res_3722 = __res_3723;
-            return __res_3722;
+            string __res_3763;
+            string __res_3764 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "place-self");
+            __res_3763 = __res_3764;
+            return __res_3763;
         }
         set
         {
-            string __marshalledValue_3724;
-            __marshalledValue_3724 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "place-self", __marshalledValue_3724);
+            string __marshalledValue_3765;
+            __marshalledValue_3765 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "place-self", __marshalledValue_3765);
         }
     }
 
@@ -1098,16 +1098,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3725;
-            string __res_3726 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align-self");
-            __res_3725 = __res_3726;
-            return __res_3725;
+            string __res_3766;
+            string __res_3767 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align-self");
+            __res_3766 = __res_3767;
+            return __res_3766;
         }
         set
         {
-            string __marshalledValue_3727;
-            __marshalledValue_3727 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align-self", __marshalledValue_3727);
+            string __marshalledValue_3768;
+            __marshalledValue_3768 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align-self", __marshalledValue_3768);
         }
     }
 
@@ -1115,16 +1115,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3728;
-            string __res_3729 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "justify-self");
-            __res_3728 = __res_3729;
-            return __res_3728;
+            string __res_3769;
+            string __res_3770 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "justify-self");
+            __res_3769 = __res_3770;
+            return __res_3769;
         }
         set
         {
-            string __marshalledValue_3730;
-            __marshalledValue_3730 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "justify-self", __marshalledValue_3730);
+            string __marshalledValue_3771;
+            __marshalledValue_3771 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "justify-self", __marshalledValue_3771);
         }
     }
 
@@ -1132,16 +1132,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3731;
-            string __res_3732 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "positionAnchor");
-            __res_3731 = __res_3732;
-            return __res_3731;
+            string __res_3772;
+            string __res_3773 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "positionAnchor");
+            __res_3772 = __res_3773;
+            return __res_3772;
         }
         set
         {
-            string __marshalledValue_3733;
-            __marshalledValue_3733 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "positionAnchor", __marshalledValue_3733);
+            string __marshalledValue_3774;
+            __marshalledValue_3774 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "positionAnchor", __marshalledValue_3774);
         }
     }
 
@@ -1149,16 +1149,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3734;
-            string __res_3735 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "position-anchor");
-            __res_3734 = __res_3735;
-            return __res_3734;
+            string __res_3775;
+            string __res_3776 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "position-anchor");
+            __res_3775 = __res_3776;
+            return __res_3775;
         }
         set
         {
-            string __marshalledValue_3736;
-            __marshalledValue_3736 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "position-anchor", __marshalledValue_3736);
+            string __marshalledValue_3777;
+            __marshalledValue_3777 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "position-anchor", __marshalledValue_3777);
         }
     }
 
@@ -1166,16 +1166,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3737;
-            string __res_3738 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "positionArea");
-            __res_3737 = __res_3738;
-            return __res_3737;
+            string __res_3778;
+            string __res_3779 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "positionArea");
+            __res_3778 = __res_3779;
+            return __res_3778;
         }
         set
         {
-            string __marshalledValue_3739;
-            __marshalledValue_3739 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "positionArea", __marshalledValue_3739);
+            string __marshalledValue_3780;
+            __marshalledValue_3780 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "positionArea", __marshalledValue_3780);
         }
     }
 
@@ -1183,16 +1183,16 @@ public partial class CSSPositionTryDescriptors(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_3740;
-            string __res_3741 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "position-area");
-            __res_3740 = __res_3741;
-            return __res_3740;
+            string __res_3781;
+            string __res_3782 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "position-area");
+            __res_3781 = __res_3782;
+            return __res_3781;
         }
         set
         {
-            string __marshalledValue_3742;
-            __marshalledValue_3742 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "position-area", __marshalledValue_3742);
+            string __marshalledValue_3783;
+            __marshalledValue_3783 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "position-area", __marshalledValue_3783);
         }
     }
 }

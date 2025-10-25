@@ -11,7 +11,7 @@ public partial class TestEnumProperties(global::System.Runtime.InteropServices.J
         get
         {
             global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum __res_0;
-            string __res_1 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            string __res_1 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
             __res_0 = global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum.Create(__res_1);
             return __res_0;
         }
@@ -28,7 +28,7 @@ public partial class TestEnumProperties(global::System.Runtime.InteropServices.J
         get
         {
             global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? __res_3;
-            string? __res_4 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "valueNullable");
+            string? __res_4 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "valueNullable");
             if (__res_4 is null)
             {
                 __res_3 = null;
@@ -61,7 +61,7 @@ public partial class TestEnumProperties(global::System.Runtime.InteropServices.J
         get
         {
             global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? __res_8;
-            string? __res_9 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "valueNullableReadonlyAsNotNull");
+            string? __res_9 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "valueNullableReadonlyAsNotNull");
             if (__res_9 is null)
             {
                 __res_8 = null;
@@ -80,7 +80,7 @@ public partial class TestEnumProperties(global::System.Runtime.InteropServices.J
         get
         {
             global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? __res_11;
-            string? __res_12 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "valueNullableReadonlyAsNull");
+            string? __res_12 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "valueNullableReadonlyAsNull");
             if (__res_12 is null)
             {
                 __res_11 = null;
@@ -99,7 +99,7 @@ public partial class TestEnumProperties(global::System.Runtime.InteropServices.J
         get
         {
             global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? __res_14;
-            string? __res_15 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "valueInvalid");
+            string? __res_15 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "valueInvalid");
             if (__res_15 is null)
             {
                 __res_14 = null;

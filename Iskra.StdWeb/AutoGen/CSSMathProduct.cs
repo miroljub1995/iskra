@@ -11,7 +11,7 @@ public partial class CSSMathProduct(global::System.Runtime.InteropServices.JavaS
         get
         {
             global::Iskra.StdWeb.CSSNumericArray __res_51;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_52 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_52 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
             __res_51 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericArray>(__res_52);
             return __res_51;
         }

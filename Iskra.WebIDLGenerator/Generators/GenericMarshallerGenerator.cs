@@ -532,6 +532,16 @@ public class GenericMarshallerGenerator(
                                  }
                                  """;
         }
+        else if (input is SingleTypeDescription { IdlType: BuiltinTypes.ManagedObject })
+        {
+            typeCheckContent = $$"""
+                                 if ({{typeVar}} != 8)
+                                 {
+                                     value = default;
+                                     return false;
+                                 }
+                                 """;
+        }
         else
         {
             typeCheckContent = $$"""

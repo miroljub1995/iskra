@@ -10,10 +10,10 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
     {
         get
         {
-            double __res_2867;
-            double __res_2868 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
-            __res_2867 = __res_2868;
-            return __res_2867;
+            double __res_2906;
+            double __res_2907 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
+            __res_2906 = __res_2907;
+            return __res_2906;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
     {
         get
         {
-            double __res_2869;
-            double __res_2870 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
-            __res_2869 = __res_2870;
-            return __res_2869;
+            double __res_2908;
+            double __res_2909 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
+            __res_2908 = __res_2909;
+            return __res_2908;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
     {
         get
         {
-            uint __res_2871;
-            double __res_2872 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_2871 = Convert.ToUInt32(__res_2872);
-            return __res_2871;
+            uint __res_2910;
+            double __res_2911 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_2910 = Convert.ToUInt32(__res_2911);
+            return __res_2910;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_2873;
-            string __res_2874 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_2873 = __res_2874;
-            return __res_2873;
+            string __res_2912;
+            string __res_2913 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_2912 = __res_2913;
+            return __res_2912;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_2875;
-            string __res_2876 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_2875 = __res_2876;
-            return __res_2875;
+            string __res_2914;
+            string __res_2915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_2914 = __res_2915;
+            return __res_2914;
         }
     }
 
@@ -65,18 +65,18 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_2877;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2878 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
-            if (__res_2878 is null)
+            global::Iskra.StdWeb.Element? __res_2916;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2917 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
+            if (__res_2917 is null)
             {
-                __res_2877 = null;
+                __res_2916 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2879 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2878;
-                __res_2877 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_2879);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2918 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2917;
+                __res_2916 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_2918);
             }
-            return __res_2877;
+            return __res_2916;
         }
     }
 
@@ -84,10 +84,10 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
     {
         get
         {
-            double __res_2880;
-            double __res_2881 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "paintTime");
-            __res_2880 = __res_2881;
-            return __res_2880;
+            double __res_2919;
+            double __res_2920 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "paintTime");
+            __res_2919 = __res_2920;
+            return __res_2919;
         }
     }
 
@@ -95,18 +95,18 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
     {
         get
         {
-            double? __res_2882;
-            double? __res_2883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "presentationTime");
-            if (__res_2883 is null)
+            double? __res_2921;
+            double? __res_2922 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "presentationTime");
+            if (__res_2922 is null)
             {
-                __res_2882 = null;
+                __res_2921 = null;
             }
             else
             {
-                double __notNullable_2884 = (double)__res_2883;
-                __res_2882 = __notNullable_2884;
+                double __notNullable_2923 = (double)__res_2922;
+                __res_2921 = __notNullable_2923;
             }
-            return __res_2882;
+            return __res_2921;
         }
     }
 }

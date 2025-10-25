@@ -10,16 +10,16 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_3897;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_3898;
-            __propObject_3898 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "root");
-            if (__propObject_3898 is null)
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_3938;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_3939;
+            __propObject_3939 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "root");
+            if (__propObject_3939 is null)
             {
                 return null;
             }
 
-            __res_3897 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_3898);
-            return __res_3897;
+            __res_3938 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_3939);
+            return __res_3938;
         }
     }
 
@@ -27,10 +27,10 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_3899;
-            string __res_3900 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rootMargin");
-            __res_3899 = __res_3900;
-            return __res_3899;
+            string __res_3940;
+            string __res_3941 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rootMargin");
+            __res_3940 = __res_3941;
+            return __res_3940;
         }
     }
 
@@ -38,10 +38,10 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_3901;
-            string __res_3902 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollMargin");
-            __res_3901 = __res_3902;
-            return __res_3901;
+            string __res_3942;
+            string __res_3943 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollMargin");
+            __res_3942 = __res_3943;
+            return __res_3942;
         }
     }
 
@@ -49,11 +49,11 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3903;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3904;
-            __propObject_3904 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "thresholds");
-            __res_3903 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3904);
-            return __res_3903;
+            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3944;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3945;
+            __propObject_3945 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "thresholds");
+            __res_3944 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3945);
+            return __res_3944;
         }
     }
 
@@ -61,10 +61,10 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
     {
         get
         {
-            int __res_3905;
-            double __res_3906 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "delay");
-            __res_3905 = Convert.ToInt32(__res_3906);
-            return __res_3905;
+            int __res_3946;
+            double __res_3947 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "delay");
+            __res_3946 = Convert.ToInt32(__res_3947);
+            return __res_3946;
         }
     }
 
@@ -72,10 +72,10 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
     {
         get
         {
-            bool __res_3907;
-            bool __res_3908 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trackVisibility");
-            __res_3907 = __res_3908;
-            return __res_3907;
+            bool __res_3948;
+            bool __res_3949 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trackVisibility");
+            __res_3948 = __res_3949;
+            return __res_3948;
         }
     }
 }

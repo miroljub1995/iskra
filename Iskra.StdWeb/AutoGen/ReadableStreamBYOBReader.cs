@@ -10,11 +10,11 @@ public partial class ReadableStreamBYOBReader(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_1795;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1796;
-            __propObject_1796 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
-            __res_1795 = new global::Iskra.JSCore.Promise(__propObject_1796);
-            return __res_1795;
+            global::Iskra.JSCore.Promise __res_1832;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1833;
+            __propObject_1833 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
+            __res_1832 = new global::Iskra.JSCore.Promise(__propObject_1833);
+            return __res_1832;
         }
     }
 }

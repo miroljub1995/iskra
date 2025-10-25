@@ -10,18 +10,18 @@ public partial class QuotaExceededError(global::System.Runtime.InteropServices.J
     {
         get
         {
-            double? __res_5844;
-            double? __res_5845 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "quota");
-            if (__res_5845 is null)
+            double? __res_5890;
+            double? __res_5891 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "quota");
+            if (__res_5891 is null)
             {
-                __res_5844 = null;
+                __res_5890 = null;
             }
             else
             {
-                double __notNullable_5846 = (double)__res_5845;
-                __res_5844 = __notNullable_5846;
+                double __notNullable_5892 = (double)__res_5891;
+                __res_5890 = __notNullable_5892;
             }
-            return __res_5844;
+            return __res_5890;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class QuotaExceededError(global::System.Runtime.InteropServices.J
     {
         get
         {
-            double? __res_5847;
-            double? __res_5848 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "requested");
-            if (__res_5848 is null)
+            double? __res_5893;
+            double? __res_5894 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "requested");
+            if (__res_5894 is null)
             {
-                __res_5847 = null;
+                __res_5893 = null;
             }
             else
             {
-                double __notNullable_5849 = (double)__res_5848;
-                __res_5847 = __notNullable_5849;
+                double __notNullable_5895 = (double)__res_5894;
+                __res_5893 = __notNullable_5895;
             }
-            return __res_5847;
+            return __res_5893;
         }
     }
 }

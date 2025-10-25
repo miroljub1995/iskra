@@ -10,10 +10,10 @@ public partial class AudioEncoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.CodecState __res_3780;
-            string __res_3781 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_3780 = global::Iskra.StdWeb.CodecState.Create(__res_3781);
-            return __res_3780;
+            global::Iskra.StdWeb.CodecState __res_3821;
+            string __res_3822 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_3821 = global::Iskra.StdWeb.CodecState.Create(__res_3822);
+            return __res_3821;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AudioEncoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_3782;
-            double __res_3783 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "encodeQueueSize");
-            __res_3782 = Convert.ToUInt32(__res_3783);
-            return __res_3782;
+            uint __res_3823;
+            double __res_3824 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "encodeQueueSize");
+            __res_3823 = Convert.ToUInt32(__res_3824);
+            return __res_3823;
         }
     }
 
@@ -32,32 +32,32 @@ public partial class AudioEncoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3784;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3785 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue");
-            if (__res_3785 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3825;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3826 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue");
+            if (__res_3826 is null)
             {
-                __res_3784 = null;
+                __res_3825 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3786 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3785;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3827 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3826;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3784;
+            return __res_3825;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3787;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3828;
             if (value is null)
             {
-                __marshalledValue_3787 = null;
+                __marshalledValue_3828 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3788 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3829 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue", __marshalledValue_3787);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue", __marshalledValue_3828);
         }
     }
 }

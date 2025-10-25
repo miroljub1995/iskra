@@ -7,9 +7,6 @@ namespace Iskra.JSCore;
 public static partial class GenericMarshaller
 {
     [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
-    private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructArray(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string constructorName, int length);
-
-    [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
     private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string constructorName);
 
     [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("wrapPromiseValue", "iskra")]
@@ -18,12 +15,7 @@ public static partial class GenericMarshaller
     [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("unwrapPromiseValue", "iskra")]
     private static partial global::System.Runtime.InteropServices.JavaScript.JSObject UnwrapPromiseValue(global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> task);
 
-    public class FrozenArray
-    {
-
-    }
-
-    public class Sequence
+    public class ArrayLikeElement
     {
 
     }

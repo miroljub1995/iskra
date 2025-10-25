@@ -10,10 +10,10 @@ public partial class WebTransportError(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.WebTransportErrorSource __res_3415;
-            string __res_3416 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "source");
-            __res_3415 = global::Iskra.StdWeb.WebTransportErrorSource.Create(__res_3416);
-            return __res_3415;
+            global::Iskra.StdWeb.WebTransportErrorSource __res_3456;
+            string __res_3457 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "source");
+            __res_3456 = global::Iskra.StdWeb.WebTransportErrorSource.Create(__res_3457);
+            return __res_3456;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class WebTransportError(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint? __res_3417;
-            double? __res_3418 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "streamErrorCode");
-            if (__res_3418 is null)
+            uint? __res_3458;
+            double? __res_3459 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "streamErrorCode");
+            if (__res_3459 is null)
             {
-                __res_3417 = null;
+                __res_3458 = null;
             }
             else
             {
-                double __notNullable_3419 = (double)__res_3418;
-                __res_3417 = Convert.ToUInt32(__notNullable_3419);
+                double __notNullable_3460 = (double)__res_3459;
+                __res_3458 = Convert.ToUInt32(__notNullable_3460);
             }
-            return __res_3417;
+            return __res_3458;
         }
     }
 }

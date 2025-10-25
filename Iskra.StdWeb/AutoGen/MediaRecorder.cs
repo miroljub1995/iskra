@@ -10,10 +10,10 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.MediaStream __res_6294;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6295 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stream");
-            __res_6294 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStream>(__res_6295);
-            return __res_6294;
+            global::Iskra.StdWeb.MediaStream __res_6341;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6342 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stream");
+            __res_6341 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStream>(__res_6342);
+            return __res_6341;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_6296;
-            string __res_6297 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mimeType");
-            __res_6296 = __res_6297;
-            return __res_6296;
+            string __res_6343;
+            string __res_6344 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mimeType");
+            __res_6343 = __res_6344;
+            return __res_6343;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.RecordingState __res_6298;
-            string __res_6299 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_6298 = global::Iskra.StdWeb.RecordingState.Create(__res_6299);
-            return __res_6298;
+            global::Iskra.StdWeb.RecordingState __res_6345;
+            string __res_6346 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_6345 = global::Iskra.StdWeb.RecordingState.Create(__res_6346);
+            return __res_6345;
         }
     }
 
@@ -43,32 +43,32 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6300;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6301 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstart");
-            if (__res_6301 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6347;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstart");
+            if (__res_6348 is null)
             {
-                __res_6300 = null;
+                __res_6347 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6302 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6301;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6349 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6348;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_6300;
+            return __res_6347;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6303;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6350;
             if (value is null)
             {
-                __marshalledValue_6303 = null;
+                __marshalledValue_6350 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6304 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6351 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstart", __marshalledValue_6303);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstart", __marshalledValue_6350);
         }
     }
 
@@ -76,32 +76,32 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6305;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6306 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstop");
-            if (__res_6306 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6352;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6353 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstop");
+            if (__res_6353 is null)
             {
-                __res_6305 = null;
+                __res_6352 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6307 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6306;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6354 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6353;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_6305;
+            return __res_6352;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6308;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6355;
             if (value is null)
             {
-                __marshalledValue_6308 = null;
+                __marshalledValue_6355 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6309 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6356 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstop", __marshalledValue_6308);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstop", __marshalledValue_6355);
         }
     }
 
@@ -109,32 +109,32 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6310;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6311 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondataavailable");
-            if (__res_6311 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6357;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6358 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondataavailable");
+            if (__res_6358 is null)
             {
-                __res_6310 = null;
+                __res_6357 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6312 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6311;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6359 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6358;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_6310;
+            return __res_6357;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6313;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6360;
             if (value is null)
             {
-                __marshalledValue_6313 = null;
+                __marshalledValue_6360 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6314 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6361 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondataavailable", __marshalledValue_6313);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondataavailable", __marshalledValue_6360);
         }
     }
 
@@ -142,32 +142,32 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6315;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6316 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onpause");
-            if (__res_6316 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6362;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6363 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onpause");
+            if (__res_6363 is null)
             {
-                __res_6315 = null;
+                __res_6362 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6317 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6316;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6364 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6363;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_6315;
+            return __res_6362;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6318;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6365;
             if (value is null)
             {
-                __marshalledValue_6318 = null;
+                __marshalledValue_6365 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6319 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6366 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onpause", __marshalledValue_6318);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onpause", __marshalledValue_6365);
         }
     }
 
@@ -175,32 +175,32 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6320;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6321 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresume");
-            if (__res_6321 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6367;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6368 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresume");
+            if (__res_6368 is null)
             {
-                __res_6320 = null;
+                __res_6367 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6322 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6321;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6369 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6368;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_6320;
+            return __res_6367;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6323;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6370;
             if (value is null)
             {
-                __marshalledValue_6323 = null;
+                __marshalledValue_6370 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6324 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6371 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onresume", __marshalledValue_6323);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onresume", __marshalledValue_6370);
         }
     }
 
@@ -208,32 +208,32 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6325;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6326 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_6326 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6372;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6373 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_6373 is null)
             {
-                __res_6325 = null;
+                __res_6372 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6327 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6326;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6374 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6373;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_6325;
+            return __res_6372;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6328;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6375;
             if (value is null)
             {
-                __marshalledValue_6328 = null;
+                __marshalledValue_6375 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6329 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6376 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_6328);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_6375);
         }
     }
 
@@ -241,10 +241,10 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_6330;
-            double __res_6331 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "videoBitsPerSecond");
-            __res_6330 = Convert.ToUInt32(__res_6331);
-            return __res_6330;
+            uint __res_6377;
+            double __res_6378 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "videoBitsPerSecond");
+            __res_6377 = Convert.ToUInt32(__res_6378);
+            return __res_6377;
         }
     }
 
@@ -252,10 +252,10 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_6332;
-            double __res_6333 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "audioBitsPerSecond");
-            __res_6332 = Convert.ToUInt32(__res_6333);
-            return __res_6332;
+            uint __res_6379;
+            double __res_6380 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "audioBitsPerSecond");
+            __res_6379 = Convert.ToUInt32(__res_6380);
+            return __res_6379;
         }
     }
 
@@ -263,10 +263,10 @@ public partial class MediaRecorder(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.BitrateMode __res_6334;
-            string __res_6335 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "audioBitrateMode");
-            __res_6334 = global::Iskra.StdWeb.BitrateMode.Create(__res_6335);
-            return __res_6334;
+            global::Iskra.StdWeb.BitrateMode __res_6381;
+            string __res_6382 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "audioBitrateMode");
+            __res_6381 = global::Iskra.StdWeb.BitrateMode.Create(__res_6382);
+            return __res_6381;
         }
     }
 }

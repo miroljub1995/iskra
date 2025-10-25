@@ -10,11 +10,11 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_1651;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1652;
-            __propObject_1652 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "canvas");
-            __res_1651 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1652);
-            return __res_1651;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_1688;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1689;
+            __propObject_1689 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "canvas");
+            __res_1688 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1689);
+            return __res_1688;
         }
     }
 
@@ -22,10 +22,10 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            int __res_1653;
-            double __res_1654 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferWidth");
-            __res_1653 = Convert.ToInt32(__res_1654);
-            return __res_1653;
+            int __res_1690;
+            double __res_1691 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferWidth");
+            __res_1690 = Convert.ToInt32(__res_1691);
+            return __res_1690;
         }
     }
 
@@ -33,10 +33,10 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            int __res_1655;
-            double __res_1656 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferHeight");
-            __res_1655 = Convert.ToInt32(__res_1656);
-            return __res_1655;
+            int __res_1692;
+            double __res_1693 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferHeight");
+            __res_1692 = Convert.ToInt32(__res_1693);
+            return __res_1692;
         }
     }
 
@@ -44,10 +44,10 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            uint __res_1657;
-            double __res_1658 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferFormat");
-            __res_1657 = Convert.ToUInt32(__res_1658);
-            return __res_1657;
+            uint __res_1694;
+            double __res_1695 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferFormat");
+            __res_1694 = Convert.ToUInt32(__res_1695);
+            return __res_1694;
         }
     }
 
@@ -55,16 +55,16 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.PredefinedColorSpace __res_1659;
-            string __res_1660 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "drawingBufferColorSpace");
-            __res_1659 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1660);
-            return __res_1659;
+            global::Iskra.StdWeb.PredefinedColorSpace __res_1696;
+            string __res_1697 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "drawingBufferColorSpace");
+            __res_1696 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1697);
+            return __res_1696;
         }
         set
         {
-            string __marshalledValue_1661;
-            __marshalledValue_1661 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "drawingBufferColorSpace", __marshalledValue_1661);
+            string __marshalledValue_1698;
+            __marshalledValue_1698 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "drawingBufferColorSpace", __marshalledValue_1698);
         }
     }
 
@@ -72,16 +72,16 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.PredefinedColorSpace __res_1662;
-            string __res_1663 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unpackColorSpace");
-            __res_1662 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1663);
-            return __res_1662;
+            global::Iskra.StdWeb.PredefinedColorSpace __res_1699;
+            string __res_1700 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unpackColorSpace");
+            __res_1699 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1700);
+            return __res_1699;
         }
         set
         {
-            string __marshalledValue_1664;
-            __marshalledValue_1664 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unpackColorSpace", __marshalledValue_1664);
+            string __marshalledValue_1701;
+            __marshalledValue_1701 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unpackColorSpace", __marshalledValue_1701);
         }
     }
 }

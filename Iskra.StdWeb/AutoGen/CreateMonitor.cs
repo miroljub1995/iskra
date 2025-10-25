@@ -10,32 +10,32 @@ public partial class CreateMonitor(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_241;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_242 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondownloadprogress");
-            if (__res_242 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_277;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_278 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondownloadprogress");
+            if (__res_278 is null)
             {
-                __res_241 = null;
+                __res_277 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_243 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_242;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_279 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_278;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_241;
+            return __res_277;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_244;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_280;
             if (value is null)
             {
-                __marshalledValue_244 = null;
+                __marshalledValue_280 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_245 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_281 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondownloadprogress", __marshalledValue_244);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondownloadprogress", __marshalledValue_280);
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.WritableStream __res_248;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_249 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            __res_248 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_249);
-            return __res_248;
+            global::Iskra.StdWeb.WritableStream __res_284;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            __res_284 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_285);
+            return __res_284;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.
     {
         get
         {
-            bool __res_250;
-            bool __res_251 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
-            __res_250 = __res_251;
-            return __res_250;
+            bool __res_286;
+            bool __res_287 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            __res_286 = __res_287;
+            return __res_286;
         }
         set
         {
-            bool __marshalledValue_252;
-            __marshalledValue_252 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_252);
+            bool __marshalledValue_288;
+            __marshalledValue_288 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_288);
         }
     }
 
@@ -38,10 +38,10 @@ public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.MediaStreamTrack __res_253;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_254 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            __res_253 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_254);
-            return __res_253;
+            global::Iskra.StdWeb.MediaStreamTrack __res_289;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_290 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            __res_289 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_290);
+            return __res_289;
         }
     }
 }

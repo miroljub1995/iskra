@@ -11,7 +11,7 @@ public partial class CSSUnitValue(global::System.Runtime.InteropServices.JavaScr
         get
         {
             double __res_42;
-            double __res_43 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            double __res_43 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
             __res_42 = __res_43;
             return __res_42;
         }
@@ -28,7 +28,7 @@ public partial class CSSUnitValue(global::System.Runtime.InteropServices.JavaScr
         get
         {
             string __res_45;
-            string __res_46 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unit");
+            string __res_46 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unit");
             __res_45 = __res_46;
             return __res_45;
         }

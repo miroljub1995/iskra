@@ -10,18 +10,18 @@ public partial class ReadableByteStreamController(global::System.Runtime.Interop
     {
         get
         {
-            global::Iskra.StdWeb.ReadableStreamBYOBRequest? __res_1800;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1801 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "byobRequest");
-            if (__res_1801 is null)
+            global::Iskra.StdWeb.ReadableStreamBYOBRequest? __res_1837;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1838 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "byobRequest");
+            if (__res_1838 is null)
             {
-                __res_1800 = null;
+                __res_1837 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1802 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1801;
-                __res_1800 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStreamBYOBRequest>(__notNullable_1802);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1839 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1838;
+                __res_1837 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStreamBYOBRequest>(__notNullable_1839);
             }
-            return __res_1800;
+            return __res_1837;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class ReadableByteStreamController(global::System.Runtime.Interop
     {
         get
         {
-            double? __res_1803;
-            double? __res_1804 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_1804 is null)
+            double? __res_1840;
+            double? __res_1841 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_1841 is null)
             {
-                __res_1803 = null;
+                __res_1840 = null;
             }
             else
             {
-                double __notNullable_1805 = (double)__res_1804;
-                __res_1803 = __notNullable_1805;
+                double __notNullable_1842 = (double)__res_1841;
+                __res_1840 = __notNullable_1842;
             }
-            return __res_1803;
+            return __res_1840;
         }
     }
 }

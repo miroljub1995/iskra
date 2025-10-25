@@ -101,7 +101,20 @@ public class GetPropertyValueGenerator(
         string getPropertyContent;
         IDLTypeDescription inputType;
 
-        if (type.IdlType is BuiltinTypes.Boolean)
+        if (type.IdlType is BuiltinTypes.BigInt)
+        {
+            inputType = new SingleTypeDescription
+            {
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.BigInt,
+                Nullable = type.Nullable,
+            };
+
+            getPropertyContent = $$"""
+                                   bool{{nullableTypeSuffix}} {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
+        }
+        else if (type.IdlType is BuiltinTypes.Boolean)
         {
             inputType = new SingleTypeDescription
             {
@@ -111,7 +124,7 @@ public class GetPropertyValueGenerator(
             };
 
             getPropertyContent = $$"""
-                                   bool{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   bool{{nullableTypeSuffix}} {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
         }
         else if (type.IdlType is BuiltinTypes.String)
@@ -124,7 +137,7 @@ public class GetPropertyValueGenerator(
             };
 
             getPropertyContent = $$"""
-                                   string{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   string{{nullableTypeSuffix}} {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
         }
         else if (type.IdlType is
@@ -150,7 +163,20 @@ public class GetPropertyValueGenerator(
             };
 
             getPropertyContent = $$"""
-                                   double{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   double{{nullableTypeSuffix}} {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
+        }
+        else if (type.IdlType is BuiltinTypes.ManagedObject)
+        {
+            inputType = new SingleTypeDescription
+            {
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.ManagedObject,
+                Nullable = type.Nullable,
+            };
+
+            getPropertyContent = $$"""
+                                   object{{nullableTypeSuffix}} {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
         }
         else if (descriptors.TryGet(type.IdlType, out var descriptor) && descriptor.RootType is EnumType)
@@ -163,7 +189,7 @@ public class GetPropertyValueGenerator(
             };
 
             getPropertyContent = $$"""
-                                   string{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   string{{nullableTypeSuffix}} {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
         }
         else
@@ -176,7 +202,7 @@ public class GetPropertyValueGenerator(
             };
 
             getPropertyContent = $$"""
-                                   global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
         }
 
@@ -203,7 +229,7 @@ public class GetPropertyValueGenerator(
         var getPropertyVar = generatorContext.GetNextVariableName("propObject");
 
         var getPropertyContent = $$"""
-                                   {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
 
         if (type.Nullable)
@@ -244,7 +270,7 @@ public class GetPropertyValueGenerator(
         var getPropertyVar = generatorContext.GetNextVariableName("propObject");
 
         var getPropertyContent = $$"""
-                                   {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
 
         if (type.Nullable)
@@ -285,7 +311,7 @@ public class GetPropertyValueGenerator(
         var getPropertyVar = generatorContext.GetNextVariableName("propObject");
 
         var getPropertyContent = $$"""
-                                   {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
 
         if (type.Nullable)
@@ -326,7 +352,7 @@ public class GetPropertyValueGenerator(
         var getPropertyVar = generatorContext.GetNextVariableName("propObject");
 
         var getPropertyContent = $$"""
-                                   {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
 
         if (type.Nullable)
@@ -368,7 +394,7 @@ public class GetPropertyValueGenerator(
         var getPropertyVar = generatorContext.GetNextVariableName("propObject");
 
         var getPropertyContent = $$"""
-                                   {{getPropertyVar}} = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
 
         if (type.Nullable)

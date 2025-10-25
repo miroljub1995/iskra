@@ -10,10 +10,10 @@ public partial class SVGForeignObjectElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1186;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1187 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            __res_1186 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1187);
-            return __res_1186;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1223;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1224 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            __res_1223 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1224);
+            return __res_1223;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGForeignObjectElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1188;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1189 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            __res_1188 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1189);
-            return __res_1188;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1225;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1226 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            __res_1225 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1226);
+            return __res_1225;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SVGForeignObjectElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1190;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1191 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
-            __res_1190 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1191);
-            return __res_1190;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1227;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1228 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
+            __res_1227 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1228);
+            return __res_1227;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class SVGForeignObjectElement(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1192;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1193 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
-            __res_1192 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1193);
-            return __res_1192;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1229;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1230 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
+            __res_1229 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1230);
+            return __res_1229;
         }
     }
 }

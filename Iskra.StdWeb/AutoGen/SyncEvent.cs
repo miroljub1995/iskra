@@ -10,10 +10,10 @@ public partial class SyncEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_12813;
-            string __res_12814 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tag");
-            __res_12813 = __res_12814;
-            return __res_12813;
+            string __res_12876;
+            string __res_12877 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tag");
+            __res_12876 = __res_12877;
+            return __res_12876;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SyncEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool __res_12815;
-            bool __res_12816 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lastChance");
-            __res_12815 = __res_12816;
-            return __res_12815;
+            bool __res_12878;
+            bool __res_12879 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lastChance");
+            __res_12878 = __res_12879;
+            return __res_12878;
         }
     }
 }

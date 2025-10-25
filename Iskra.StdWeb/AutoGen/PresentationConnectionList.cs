@@ -10,11 +10,11 @@ public partial class PresentationConnectionList(global::System.Runtime.InteropSe
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3493;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3494;
-            __propObject_3494 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connections");
-            __res_3493 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3494);
-            return __res_3493;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3534;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3535;
+            __propObject_3535 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connections");
+            __res_3534 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3535);
+            return __res_3534;
         }
     }
 
@@ -22,32 +22,32 @@ public partial class PresentationConnectionList(global::System.Runtime.InteropSe
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3495;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3496 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable");
-            if (__res_3496 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3536;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3537 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable");
+            if (__res_3537 is null)
             {
-                __res_3495 = null;
+                __res_3536 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3497 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3496;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3538 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3537;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3495;
+            return __res_3536;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3498;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3539;
             if (value is null)
             {
-                __marshalledValue_3498 = null;
+                __marshalledValue_3539 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3499 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3540 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable", __marshalledValue_3498);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable", __marshalledValue_3539);
         }
     }
 }

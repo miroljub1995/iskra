@@ -10,10 +10,10 @@ public partial class ProgressEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_1772;
-            bool __res_1773 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lengthComputable");
-            __res_1772 = __res_1773;
-            return __res_1772;
+            bool __res_1809;
+            bool __res_1810 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lengthComputable");
+            __res_1809 = __res_1810;
+            return __res_1809;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ProgressEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            double __res_1774;
-            double __res_1775 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loaded");
-            __res_1774 = __res_1775;
-            return __res_1774;
+            double __res_1811;
+            double __res_1812 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loaded");
+            __res_1811 = __res_1812;
+            return __res_1811;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class ProgressEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            double __res_1776;
-            double __res_1777 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "total");
-            __res_1776 = __res_1777;
-            return __res_1776;
+            double __res_1813;
+            double __res_1814 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "total");
+            __res_1813 = __res_1814;
+            return __res_1813;
         }
     }
 }

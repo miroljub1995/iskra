@@ -10,10 +10,10 @@ public partial class MimeTypeArray(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_11882;
-            double __res_11883 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_11882 = Convert.ToUInt32(__res_11883);
-            return __res_11882;
+            uint __res_11943;
+            double __res_11944 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_11943 = Convert.ToUInt32(__res_11944);
+            return __res_11943;
         }
     }
 }

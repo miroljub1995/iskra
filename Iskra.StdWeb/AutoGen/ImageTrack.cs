@@ -10,10 +10,10 @@ public partial class ImageTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_3886;
-            bool __res_3887 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animated");
-            __res_3886 = __res_3887;
-            return __res_3886;
+            bool __res_3927;
+            bool __res_3928 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animated");
+            __res_3927 = __res_3928;
+            return __res_3927;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ImageTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_3888;
-            double __res_3889 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "frameCount");
-            __res_3888 = Convert.ToUInt32(__res_3889);
-            return __res_3888;
+            uint __res_3929;
+            double __res_3930 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "frameCount");
+            __res_3929 = Convert.ToUInt32(__res_3930);
+            return __res_3929;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class ImageTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            float __res_3890;
-            double __res_3891 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "repetitionCount");
-            __res_3890 = Convert.ToSingle(__res_3891);
-            return __res_3890;
+            float __res_3931;
+            double __res_3932 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "repetitionCount");
+            __res_3931 = Convert.ToSingle(__res_3932);
+            return __res_3931;
         }
     }
 
@@ -43,16 +43,16 @@ public partial class ImageTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_3892;
-            bool __res_3893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
-            __res_3892 = __res_3893;
-            return __res_3892;
+            bool __res_3933;
+            bool __res_3934 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
+            __res_3933 = __res_3934;
+            return __res_3933;
         }
         set
         {
-            bool __marshalledValue_3894;
-            __marshalledValue_3894 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_3894);
+            bool __marshalledValue_3935;
+            __marshalledValue_3935 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_3935);
         }
     }
 }

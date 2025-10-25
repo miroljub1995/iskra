@@ -10,10 +10,10 @@ public partial class TaskPriorityChangeEvent(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.TaskPriority __res_1939;
-            string __res_1940 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "previousPriority");
-            __res_1939 = global::Iskra.StdWeb.TaskPriority.Create(__res_1940);
-            return __res_1939;
+            global::Iskra.StdWeb.TaskPriority __res_1976;
+            string __res_1977 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "previousPriority");
+            __res_1976 = global::Iskra.StdWeb.TaskPriority.Create(__res_1977);
+            return __res_1976;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class SVGLengthList(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_866;
-            double __res_867 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_866 = Convert.ToUInt32(__res_867);
-            return __res_866;
+            uint __res_902;
+            double __res_903 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_902 = Convert.ToUInt32(__res_903);
+            return __res_902;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGLengthList(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_868;
-            double __res_869 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_868 = Convert.ToUInt32(__res_869);
-            return __res_868;
+            uint __res_904;
+            double __res_905 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_904 = Convert.ToUInt32(__res_905);
+            return __res_904;
         }
     }
 }

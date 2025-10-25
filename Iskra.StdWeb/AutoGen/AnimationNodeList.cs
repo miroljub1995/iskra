@@ -10,10 +10,10 @@ public partial class AnimationNodeList(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_7858;
-            double __res_7859 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_7858 = Convert.ToUInt32(__res_7859);
-            return __res_7858;
+            uint __res_7907;
+            double __res_7908 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_7907 = Convert.ToUInt32(__res_7908);
+            return __res_7907;
         }
     }
 }

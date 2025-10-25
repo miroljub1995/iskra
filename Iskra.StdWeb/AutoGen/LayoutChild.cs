@@ -10,10 +10,10 @@ public partial class LayoutChild(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.StylePropertyMapReadOnly __res_13164;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13165 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
-            __res_13164 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StylePropertyMapReadOnly>(__res_13165);
-            return __res_13164;
+            global::Iskra.StdWeb.StylePropertyMapReadOnly __res_13227;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13228 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
+            __res_13227 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StylePropertyMapReadOnly>(__res_13228);
+            return __res_13227;
         }
     }
 }

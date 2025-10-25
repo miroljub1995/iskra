@@ -10,16 +10,16 @@ public partial class GPURenderPassEncoder(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_1579;
-            string __res_1580 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1579 = __res_1580;
-            return __res_1579;
+            string __res_1616;
+            string __res_1617 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1616 = __res_1617;
+            return __res_1616;
         }
         set
         {
-            string __marshalledValue_1581;
-            __marshalledValue_1581 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1581);
+            string __marshalledValue_1618;
+            __marshalledValue_1618 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1618);
         }
     }
 }

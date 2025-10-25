@@ -11,7 +11,7 @@ public partial class CSSTranslate(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.CSSNumericValue __res_76;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_77 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_77 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
             __res_76 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_77);
             return __res_76;
         }
@@ -28,7 +28,7 @@ public partial class CSSTranslate(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.CSSNumericValue __res_79;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_80 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_80 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
             __res_79 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_80);
             return __res_79;
         }
@@ -45,7 +45,7 @@ public partial class CSSTranslate(global::System.Runtime.InteropServices.JavaScr
         get
         {
             global::Iskra.StdWeb.CSSNumericValue __res_82;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_83 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "z");
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_83 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "z");
             __res_82 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_83);
             return __res_82;
         }

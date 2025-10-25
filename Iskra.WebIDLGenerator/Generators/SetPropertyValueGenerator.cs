@@ -68,11 +68,12 @@ public class SetPropertyValueGenerator(
             );
         }
 
-        if (type is UnionTypeDescription)
+        if (type is UnionTypeDescription unionTypeDescription)
         {
             return GenerateForUnion(
                 inputVar: inputVar,
                 valueVar: valueVar,
+                type: unionTypeDescription,
                 propertyNameVar: propertyNameVar
             );
         }
@@ -92,7 +93,6 @@ public class SetPropertyValueGenerator(
     )
     {
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
-        var nullableTypeSuffix = type.Nullable ? "?" : "";
 
         var marshalledVar = generatorContext.GetNextVariableName("marshalledValue");
 
@@ -150,6 +150,19 @@ public class SetPropertyValueGenerator(
 
             setPropertyContent = $$"""
                                    global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
+                                   """;
+        }
+        else if (type.IdlType is BuiltinTypes.ManagedObject)
+        {
+            marshalledType = new SingleTypeDescription
+            {
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.ManagedObject,
+                Nullable = type.Nullable,
+            };
+
+            setPropertyContent = $$"""
+                                   global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
                                    """;
         }
         else if (descriptors.TryGet(type.IdlType, out var descriptor) && descriptor.RootType is EnumType)
@@ -347,11 +360,39 @@ public class SetPropertyValueGenerator(
     private string GenerateForUnion(
         string inputVar,
         string valueVar,
+        UnionTypeDescription type,
         string propertyNameVar
     )
     {
+        var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
+
+        var setPropertyVar = generatorContext.GetNextVariableName("propObject");
+        
+        var setPropertyContent = $$"""
+                                   global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
+                                   """;
+
+        if (type.Nullable)
+        {
+            return $$"""
+                     global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}};
+                     if ({{valueVar}} is null)
+                     {
+                         {{setPropertyVar}} = null;
+                     }
+                     else
+                     {
+                         {{setPropertyVar}} = {{valueVar}}.JSObject;
+                     }
+
+                     {{setPropertyContent}}
+                     """;
+        }
+
         return $$"""
-                 global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable({{inputVar}}, {{propertyNameVar}}, {{valueVar}}.JSObject);
+                 global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}} = {{valueVar}}.JSObject;
+                 {{setPropertyContent}}
                  """;
     }
 }

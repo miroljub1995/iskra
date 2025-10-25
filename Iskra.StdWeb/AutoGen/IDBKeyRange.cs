@@ -6,37 +6,37 @@ namespace Iskra.StdWeb;
 
 public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Lower
+    public global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Lower
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13076;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13077;
-            __propObject_13077 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "lower");
-            if (__propObject_13077 is null)
+            global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13139;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13140;
+            __propObject_13140 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "lower");
+            if (__propObject_13140 is null)
             {
                 return null;
             }
 
-            __res_13076 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13077);
-            return __res_13076;
+            __res_13139 = new global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13140);
+            return __res_13139;
         }
     }
 
-    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Upper
+    public global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Upper
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13078;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13079;
-            __propObject_13079 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "upper");
-            if (__propObject_13079 is null)
+            global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13141;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13142;
+            __propObject_13142 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "upper");
+            if (__propObject_13142 is null)
             {
                 return null;
             }
 
-            __res_13078 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13079);
-            return __res_13078;
+            __res_13141 = new global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13142);
+            return __res_13141;
         }
     }
 
@@ -44,10 +44,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_13080;
-            bool __res_13081 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
-            __res_13080 = __res_13081;
-            return __res_13080;
+            bool __res_13143;
+            bool __res_13144 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
+            __res_13143 = __res_13144;
+            return __res_13143;
         }
     }
 
@@ -55,10 +55,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_13082;
-            bool __res_13083 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
-            __res_13082 = __res_13083;
-            return __res_13082;
+            bool __res_13145;
+            bool __res_13146 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
+            __res_13145 = __res_13146;
+            return __res_13145;
         }
     }
 }

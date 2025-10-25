@@ -10,10 +10,10 @@ public partial class WorkletAnimation(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_6959;
-            string __res_6960 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animatorName");
-            __res_6959 = __res_6960;
-            return __res_6959;
+            string __res_7006;
+            string __res_7007 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animatorName");
+            __res_7006 = __res_7007;
+            return __res_7006;
         }
     }
 }

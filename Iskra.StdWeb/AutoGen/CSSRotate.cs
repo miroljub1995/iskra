@@ -12,13 +12,14 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
         {
             global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_85;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_86;
-            __propObject_86 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "x");
+            __propObject_86 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "x");
             __res_85 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_86);
             return __res_85;
         }
         set
         {
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "x", value.JSObject);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_87 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "x", __propObject_87);
         }
     }
 
@@ -26,15 +27,16 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_87;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_88;
-            __propObject_88 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "y");
-            __res_87 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_88);
-            return __res_87;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_88;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_89;
+            __propObject_89 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "y");
+            __res_88 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_89);
+            return __res_88;
         }
         set
         {
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "y", value.JSObject);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_90 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "y", __propObject_90);
         }
     }
 
@@ -42,15 +44,16 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_89;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_90;
-            __propObject_90 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "z");
-            __res_89 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_90);
-            return __res_89;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_91;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_92;
+            __propObject_92 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "z");
+            __res_91 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_92);
+            return __res_91;
         }
         set
         {
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "z", value.JSObject);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_93 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "z", __propObject_93);
         }
     }
 
@@ -58,16 +61,16 @@ public partial class CSSRotate(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.CSSNumericValue __res_91;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_92 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "angle");
-            __res_91 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_92);
-            return __res_91;
+            global::Iskra.StdWeb.CSSNumericValue __res_94;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_95 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "angle");
+            __res_94 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_95);
+            return __res_94;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_93;
-            __marshalledValue_93 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "angle", __marshalledValue_93);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_96;
+            __marshalledValue_96 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "angle", __marshalledValue_96);
         }
     }
 }

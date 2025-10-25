@@ -10,10 +10,10 @@ public partial class BlobEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Blob __res_6336;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6337 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_6336 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Blob>(__res_6337);
-            return __res_6336;
+            global::Iskra.StdWeb.Blob __res_6383;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6384 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_6383 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Blob>(__res_6384);
+            return __res_6383;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class BlobEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            double __res_6338;
-            double __res_6339 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timecode");
-            __res_6338 = __res_6339;
-            return __res_6338;
+            double __res_6385;
+            double __res_6386 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timecode");
+            __res_6385 = __res_6386;
+            return __res_6385;
         }
     }
 }

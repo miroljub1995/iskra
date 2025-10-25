@@ -10,16 +10,16 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_9434;
-            string __res_9435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_9434 = __res_9435;
-            return __res_9434;
+            string __res_9490;
+            string __res_9491 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_9490 = __res_9491;
+            return __res_9490;
         }
         set
         {
-            string __marshalledValue_9436;
-            __marshalledValue_9436 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9436);
+            string __marshalledValue_9492;
+            __marshalledValue_9492 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9492);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCollection __res_9437;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9438 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
-            __res_9437 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_9438);
-            return __res_9437;
+            global::Iskra.StdWeb.HTMLCollection __res_9493;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9494 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
+            __res_9493 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_9494);
+            return __res_9493;
         }
     }
 }

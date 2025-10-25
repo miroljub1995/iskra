@@ -10,18 +10,18 @@ public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Window? __res_1667;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1668 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
-            if (__res_1668 is null)
+            global::Iskra.StdWeb.Window? __res_1704;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1705 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
+            if (__res_1705 is null)
             {
-                __res_1667 = null;
+                __res_1704 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1669 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1668;
-                __res_1667 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_1669);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1706 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1705;
+                __res_1704 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_1706);
             }
-            return __res_1667;
+            return __res_1704;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            int __res_1670;
-            double __res_1671 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
-            __res_1670 = Convert.ToInt32(__res_1671);
-            return __res_1670;
+            int __res_1707;
+            double __res_1708 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
+            __res_1707 = Convert.ToInt32(__res_1708);
+            return __res_1707;
         }
     }
 }

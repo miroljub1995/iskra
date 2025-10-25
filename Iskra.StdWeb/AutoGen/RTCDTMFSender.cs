@@ -10,32 +10,32 @@ public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3211;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3212 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange");
-            if (__res_3212 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3252;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3253 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange");
+            if (__res_3253 is null)
             {
-                __res_3211 = null;
+                __res_3252 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3213 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3212;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3254 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3253;
                 throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
             }
-            return __res_3211;
+            return __res_3252;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3214;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3255;
             if (value is null)
             {
-                __marshalledValue_3214 = null;
+                __marshalledValue_3255 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3215 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3256 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
                 throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange", __marshalledValue_3214);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange", __marshalledValue_3255);
         }
     }
 
@@ -43,10 +43,10 @@ public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_3216;
-            bool __res_3217 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
-            __res_3216 = __res_3217;
-            return __res_3216;
+            bool __res_3257;
+            bool __res_3258 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
+            __res_3257 = __res_3258;
+            return __res_3257;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_3218;
-            string __res_3219 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "toneBuffer");
-            __res_3218 = __res_3219;
-            return __res_3218;
+            string __res_3259;
+            string __res_3260 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "toneBuffer");
+            __res_3259 = __res_3260;
+            return __res_3259;
         }
     }
 }

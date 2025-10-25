@@ -6,20 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class PopStateEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? State
+    public global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? State
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_11706;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_11707;
-            __propObject_11707 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "state");
-            if (__propObject_11707 is null)
+            global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_11767;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_11768;
+            __propObject_11768 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "state");
+            if (__propObject_11768 is null)
             {
                 return null;
             }
 
-            __res_11706 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_11707);
-            return __res_11706;
+            __res_11767 = new global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_11768);
+            return __res_11767;
         }
     }
 
@@ -27,10 +27,10 @@ public partial class PopStateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_11708;
-            bool __res_11709 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
-            __res_11708 = __res_11709;
-            return __res_11708;
+            bool __res_11769;
+            bool __res_11770 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
+            __res_11769 = __res_11770;
+            return __res_11769;
         }
     }
 }

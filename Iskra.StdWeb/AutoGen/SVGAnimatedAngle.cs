@@ -10,10 +10,10 @@ public partial class SVGAnimatedAngle(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.SVGAngle __res_898;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
-            __res_898 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAngle>(__res_899);
-            return __res_898;
+            global::Iskra.StdWeb.SVGAngle __res_934;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_935 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            __res_934 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAngle>(__res_935);
+            return __res_934;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGAnimatedAngle(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.SVGAngle __res_900;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_901 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
-            __res_900 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAngle>(__res_901);
-            return __res_900;
+            global::Iskra.StdWeb.SVGAngle __res_936;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_937 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            __res_936 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAngle>(__res_937);
+            return __res_936;
         }
     }
 }

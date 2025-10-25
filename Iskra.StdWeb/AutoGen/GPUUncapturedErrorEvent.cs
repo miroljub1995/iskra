@@ -10,10 +10,10 @@ public partial class GPUUncapturedErrorEvent(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.GPUError __res_1606;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1607 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
-            __res_1606 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUError>(__res_1607);
-            return __res_1606;
+            global::Iskra.StdWeb.GPUError __res_1643;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1644 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            __res_1643 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUError>(__res_1644);
+            return __res_1643;
         }
     }
 }

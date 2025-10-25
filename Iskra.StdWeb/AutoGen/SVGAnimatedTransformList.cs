@@ -10,10 +10,10 @@ public partial class SVGAnimatedTransformList(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.SVGTransformList __res_1087;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1088 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
-            __res_1087 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGTransformList>(__res_1088);
-            return __res_1087;
+            global::Iskra.StdWeb.SVGTransformList __res_1124;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1125 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            __res_1124 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGTransformList>(__res_1125);
+            return __res_1124;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGAnimatedTransformList(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.SVGTransformList __res_1089;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1090 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
-            __res_1089 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGTransformList>(__res_1090);
-            return __res_1089;
+            global::Iskra.StdWeb.SVGTransformList __res_1126;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1127 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            __res_1126 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGTransformList>(__res_1127);
+            return __res_1126;
         }
     }
 }

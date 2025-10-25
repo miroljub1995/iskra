@@ -2,8 +2,12 @@ using System.Runtime.InteropServices.JavaScript;
 
 namespace Iskra.JSCore;
 
-public static class JSCoreShims
+public static partial class JSCoreShims
 {
+    [JSImport("globalThis.Reflect.set")]
+    private static partial void
+        InitManagedTypeConstructor(JSObject module, string name, [JSMarshalAs<JSType.Any>] object value);
+
     private static int _isInitialized;
 
     public static async Task InitializeAsync()
@@ -14,6 +18,8 @@ public static class JSCoreShims
         }
 
         const string moduleContent = """
+                                     let managedTypeConstructor = null;
+
                                      export const getSelf = (obj) => obj;
                                      export const construct = (obj, constructorName, ...args) => new obj[constructorName](...args);
                                      export const isGlobalConstructor = (constructorName, target) => globalThis[constructorName] === target.constructor;
@@ -46,8 +52,6 @@ public static class JSCoreShims
                                              return null;
                                          }
                                          
-                                         // TODO: handle manged object
-                                         
                                          if (typeof value === 'boolean') {
                                              return { type: 1, value, };
                                          }
@@ -73,6 +77,10 @@ public static class JSCoreShims
                                          }
                                          
                                          if (typeof value === 'object') {
+                                             if (value.constructor === managedTypeConstructor) {
+                                                 return { type: 8, value, };
+                                             }
+
                                              return { type: 7, value, };
                                          }
                                          
@@ -124,10 +132,18 @@ public static class JSCoreShims
 
                                      export const wrapPromiseValue = (obj) => obj.then(x => ({ value: x }));
                                      export const unwrapPromiseValue = (obj) => obj.then(x => x.value);
+
+                                     export default {
+                                       set initManagedTypeConstructor(v) {
+                                         managedTypeConstructor = v.constructor;
+                                       }
+                                     };
                                      """;
 
         var encoded = Uri.EscapeDataString(moduleContent);
         var dataUrl = $"data:text/javascript,{encoded}";
-        await JSHost.ImportAsync("iskra", dataUrl);
+        var module = await JSHost.ImportAsync("iskra", dataUrl);
+        var defaultExport = module.GetPropertyAsJSObject("default") ?? throw new Exception("Default export is null");
+        InitManagedTypeConstructor(defaultExport, "initManagedTypeConstructor", new object());
     }
 }

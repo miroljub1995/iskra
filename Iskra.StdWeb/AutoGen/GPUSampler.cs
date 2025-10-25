@@ -10,16 +10,16 @@ public partial class GPUSampler(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_1533;
-            string __res_1534 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1533 = __res_1534;
-            return __res_1533;
+            string __res_1570;
+            string __res_1571 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1570 = __res_1571;
+            return __res_1570;
         }
         set
         {
-            string __marshalledValue_1535;
-            __marshalledValue_1535 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1535);
+            string __marshalledValue_1572;
+            __marshalledValue_1572 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1572);
         }
     }
 }

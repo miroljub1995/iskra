@@ -10,10 +10,10 @@ public partial class MimeType(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_11892;
-            string __res_11893 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_11892 = __res_11893;
-            return __res_11892;
+            string __res_11953;
+            string __res_11954 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_11953 = __res_11954;
+            return __res_11953;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MimeType(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_11894;
-            string __res_11895 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
-            __res_11894 = __res_11895;
-            return __res_11894;
+            string __res_11955;
+            string __res_11956 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
+            __res_11955 = __res_11956;
+            return __res_11955;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class MimeType(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_11896;
-            string __res_11897 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "suffixes");
-            __res_11896 = __res_11897;
-            return __res_11896;
+            string __res_11957;
+            string __res_11958 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "suffixes");
+            __res_11957 = __res_11958;
+            return __res_11957;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class MimeType(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.Plugin __res_11898;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11899 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "enabledPlugin");
-            __res_11898 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Plugin>(__res_11899);
-            return __res_11898;
+            global::Iskra.StdWeb.Plugin __res_11959;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11960 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "enabledPlugin");
+            __res_11959 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Plugin>(__res_11960);
+            return __res_11959;
         }
     }
 }

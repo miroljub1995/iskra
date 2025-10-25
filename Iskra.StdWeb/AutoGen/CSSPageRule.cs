@@ -10,16 +10,16 @@ public partial class CSSPageRule(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_12690;
-            string __res_12691 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
-            __res_12690 = __res_12691;
-            return __res_12690;
+            string __res_12753;
+            string __res_12754 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
+            __res_12753 = __res_12754;
+            return __res_12753;
         }
         set
         {
-            string __marshalledValue_12692;
-            __marshalledValue_12692 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_12692);
+            string __marshalledValue_12755;
+            __marshalledValue_12755 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_12755);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSPageRule(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.CSSPageDescriptors __res_12693;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12694 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_12693 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPageDescriptors>(__res_12694);
-            return __res_12693;
+            global::Iskra.StdWeb.CSSPageDescriptors __res_12756;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12757 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_12756 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPageDescriptors>(__res_12757);
+            return __res_12756;
         }
     }
 }

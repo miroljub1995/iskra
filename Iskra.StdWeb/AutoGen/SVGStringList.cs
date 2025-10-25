@@ -10,10 +10,10 @@ public partial class SVGStringList(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_870;
-            double __res_871 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_870 = Convert.ToUInt32(__res_871);
-            return __res_870;
+            uint __res_906;
+            double __res_907 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_906 = Convert.ToUInt32(__res_907);
+            return __res_906;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGStringList(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_872;
-            double __res_873 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_872 = Convert.ToUInt32(__res_873);
-            return __res_872;
+            uint __res_908;
+            double __res_909 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_908 = Convert.ToUInt32(__res_909);
+            return __res_908;
         }
     }
 }

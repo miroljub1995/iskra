@@ -10,10 +10,10 @@ public partial class SVGTextPathElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1161;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1162 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
-            __res_1161 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1162);
-            return __res_1161;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1198;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1199 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
+            __res_1198 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1199);
+            return __res_1198;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGTextPathElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1163;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1164 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "method");
-            __res_1163 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1164);
-            return __res_1163;
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1200;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1201 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "method");
+            __res_1200 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1201);
+            return __res_1200;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SVGTextPathElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1165;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1166 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spacing");
-            __res_1165 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1166);
-            return __res_1165;
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1202;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1203 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spacing");
+            __res_1202 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1203);
+            return __res_1202;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class SVGTextPathElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedString __res_1167;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1168 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
-            __res_1167 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1168);
-            return __res_1167;
+            global::Iskra.StdWeb.SVGAnimatedString __res_1204;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1205 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
+            __res_1204 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1205);
+            return __res_1204;
         }
     }
 }

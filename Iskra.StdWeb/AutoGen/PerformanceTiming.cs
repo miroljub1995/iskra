@@ -10,10 +10,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2402;
-            double __res_2403 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "navigationStart");
-            __res_2402 = Convert.ToUInt64(__res_2403);
-            return __res_2402;
+            ulong __res_2439;
+            double __res_2440 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "navigationStart");
+            __res_2439 = Convert.ToUInt64(__res_2440);
+            return __res_2439;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2404;
-            double __res_2405 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventStart");
-            __res_2404 = Convert.ToUInt64(__res_2405);
-            return __res_2404;
+            ulong __res_2441;
+            double __res_2442 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventStart");
+            __res_2441 = Convert.ToUInt64(__res_2442);
+            return __res_2441;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2406;
-            double __res_2407 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventEnd");
-            __res_2406 = Convert.ToUInt64(__res_2407);
-            return __res_2406;
+            ulong __res_2443;
+            double __res_2444 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventEnd");
+            __res_2443 = Convert.ToUInt64(__res_2444);
+            return __res_2443;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2408;
-            double __res_2409 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectStart");
-            __res_2408 = Convert.ToUInt64(__res_2409);
-            return __res_2408;
+            ulong __res_2445;
+            double __res_2446 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectStart");
+            __res_2445 = Convert.ToUInt64(__res_2446);
+            return __res_2445;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2410;
-            double __res_2411 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectEnd");
-            __res_2410 = Convert.ToUInt64(__res_2411);
-            return __res_2410;
+            ulong __res_2447;
+            double __res_2448 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectEnd");
+            __res_2447 = Convert.ToUInt64(__res_2448);
+            return __res_2447;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2412;
-            double __res_2413 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fetchStart");
-            __res_2412 = Convert.ToUInt64(__res_2413);
-            return __res_2412;
+            ulong __res_2449;
+            double __res_2450 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fetchStart");
+            __res_2449 = Convert.ToUInt64(__res_2450);
+            return __res_2449;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2414;
-            double __res_2415 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domainLookupStart");
-            __res_2414 = Convert.ToUInt64(__res_2415);
-            return __res_2414;
+            ulong __res_2451;
+            double __res_2452 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domainLookupStart");
+            __res_2451 = Convert.ToUInt64(__res_2452);
+            return __res_2451;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2416;
-            double __res_2417 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domainLookupEnd");
-            __res_2416 = Convert.ToUInt64(__res_2417);
-            return __res_2416;
+            ulong __res_2453;
+            double __res_2454 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domainLookupEnd");
+            __res_2453 = Convert.ToUInt64(__res_2454);
+            return __res_2453;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2418;
-            double __res_2419 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "connectStart");
-            __res_2418 = Convert.ToUInt64(__res_2419);
-            return __res_2418;
+            ulong __res_2455;
+            double __res_2456 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "connectStart");
+            __res_2455 = Convert.ToUInt64(__res_2456);
+            return __res_2455;
         }
     }
 
@@ -109,10 +109,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2420;
-            double __res_2421 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "connectEnd");
-            __res_2420 = Convert.ToUInt64(__res_2421);
-            return __res_2420;
+            ulong __res_2457;
+            double __res_2458 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "connectEnd");
+            __res_2457 = Convert.ToUInt64(__res_2458);
+            return __res_2457;
         }
     }
 
@@ -120,10 +120,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2422;
-            double __res_2423 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "secureConnectionStart");
-            __res_2422 = Convert.ToUInt64(__res_2423);
-            return __res_2422;
+            ulong __res_2459;
+            double __res_2460 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "secureConnectionStart");
+            __res_2459 = Convert.ToUInt64(__res_2460);
+            return __res_2459;
         }
     }
 
@@ -131,10 +131,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2424;
-            double __res_2425 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "requestStart");
-            __res_2424 = Convert.ToUInt64(__res_2425);
-            return __res_2424;
+            ulong __res_2461;
+            double __res_2462 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "requestStart");
+            __res_2461 = Convert.ToUInt64(__res_2462);
+            return __res_2461;
         }
     }
 
@@ -142,10 +142,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2426;
-            double __res_2427 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseStart");
-            __res_2426 = Convert.ToUInt64(__res_2427);
-            return __res_2426;
+            ulong __res_2463;
+            double __res_2464 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseStart");
+            __res_2463 = Convert.ToUInt64(__res_2464);
+            return __res_2463;
         }
     }
 
@@ -153,10 +153,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2428;
-            double __res_2429 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseEnd");
-            __res_2428 = Convert.ToUInt64(__res_2429);
-            return __res_2428;
+            ulong __res_2465;
+            double __res_2466 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseEnd");
+            __res_2465 = Convert.ToUInt64(__res_2466);
+            return __res_2465;
         }
     }
 
@@ -164,10 +164,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2430;
-            double __res_2431 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domLoading");
-            __res_2430 = Convert.ToUInt64(__res_2431);
-            return __res_2430;
+            ulong __res_2467;
+            double __res_2468 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domLoading");
+            __res_2467 = Convert.ToUInt64(__res_2468);
+            return __res_2467;
         }
     }
 
@@ -175,10 +175,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2432;
-            double __res_2433 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domInteractive");
-            __res_2432 = Convert.ToUInt64(__res_2433);
-            return __res_2432;
+            ulong __res_2469;
+            double __res_2470 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domInteractive");
+            __res_2469 = Convert.ToUInt64(__res_2470);
+            return __res_2469;
         }
     }
 
@@ -186,10 +186,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2434;
-            double __res_2435 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventStart");
-            __res_2434 = Convert.ToUInt64(__res_2435);
-            return __res_2434;
+            ulong __res_2471;
+            double __res_2472 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventStart");
+            __res_2471 = Convert.ToUInt64(__res_2472);
+            return __res_2471;
         }
     }
 
@@ -197,10 +197,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2436;
-            double __res_2437 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventEnd");
-            __res_2436 = Convert.ToUInt64(__res_2437);
-            return __res_2436;
+            ulong __res_2473;
+            double __res_2474 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventEnd");
+            __res_2473 = Convert.ToUInt64(__res_2474);
+            return __res_2473;
         }
     }
 
@@ -208,10 +208,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2438;
-            double __res_2439 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domComplete");
-            __res_2438 = Convert.ToUInt64(__res_2439);
-            return __res_2438;
+            ulong __res_2475;
+            double __res_2476 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domComplete");
+            __res_2475 = Convert.ToUInt64(__res_2476);
+            return __res_2475;
         }
     }
 
@@ -219,10 +219,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2440;
-            double __res_2441 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventStart");
-            __res_2440 = Convert.ToUInt64(__res_2441);
-            return __res_2440;
+            ulong __res_2477;
+            double __res_2478 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventStart");
+            __res_2477 = Convert.ToUInt64(__res_2478);
+            return __res_2477;
         }
     }
 
@@ -230,10 +230,10 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong __res_2442;
-            double __res_2443 = Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventEnd");
-            __res_2442 = Convert.ToUInt64(__res_2443);
-            return __res_2442;
+            ulong __res_2479;
+            double __res_2480 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventEnd");
+            __res_2479 = Convert.ToUInt64(__res_2480);
+            return __res_2479;
         }
     }
 }
