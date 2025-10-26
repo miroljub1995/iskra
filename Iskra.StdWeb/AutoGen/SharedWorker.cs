@@ -10,10 +10,10 @@ public partial class SharedWorker(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.MessagePort __res_12132;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12133 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
-            __res_12132 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_12133);
-            return __res_12132;
+            global::Iskra.StdWeb.MessagePort __res_12479;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12480 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            __res_12479 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_12480);
+            return __res_12479;
         }
     }
 
@@ -21,32 +21,32 @@ public partial class SharedWorker(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_12134;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12135 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_12135 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_12481;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12482 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_12482 is null)
             {
-                __res_12134 = null;
+                __res_12481 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12136 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12135;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12483 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12482;
+                __res_12481 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_12483);
             }
-            return __res_12134;
+            return __res_12481;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_12137;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_12484;
             if (value is null)
             {
-                __marshalledValue_12137 = null;
+                __marshalledValue_12484 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_12138 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_12485 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_12484 = __notNullable_12485.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_12137);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_12484);
         }
     }
 }

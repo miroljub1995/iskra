@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void IdleRequestCallback(global::Iskra.StdWeb.IdleDeadline deadline);
+public delegate void IdleRequestCallbackManaged(global::Iskra.StdWeb.IdleDeadline deadline);
+
+public partial class IdleRequestCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator IdleRequestCallback(IdleRequestCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2127) =>
+        {
+            using (__args_2127)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.IdleDeadline __arg_2129;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2130 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2127, 0);
+                __arg_2129 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IdleDeadline>(__res_2130);
+
+                input(__arg_2129);
+            }
+        };
+
+        return new global::Iskra.StdWeb.IdleRequestCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator IdleRequestCallbackManaged(IdleRequestCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

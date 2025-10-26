@@ -10,18 +10,18 @@ public partial class DragEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.DataTransfer? __res_10824;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10825 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "dataTransfer");
-            if (__res_10825 is null)
+            global::Iskra.StdWeb.DataTransfer? __res_11141;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_11142 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "dataTransfer");
+            if (__res_11142 is null)
             {
-                __res_10824 = null;
+                __res_11141 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10826 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10825;
-                __res_10824 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransfer>(__notNullable_10826);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_11143 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_11142;
+                __res_11141 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransfer>(__notNullable_11143);
             }
-            return __res_10824;
+            return __res_11141;
         }
     }
 }

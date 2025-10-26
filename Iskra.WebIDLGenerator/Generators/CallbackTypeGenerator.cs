@@ -1,15 +1,24 @@
+using Iskra.StdWebGenerator.GeneratorContexts;
+using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class CallbackTypeGenerator(
-    GenSettings genSettings,
-    IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator,
-    ArgumentsToDeclarationGenerator argumentsToDeclarationGenerator
+    IServiceProvider provider,
+    GeneratorContext generatorContext,
+    GenSettings genSettings
 )
 {
     public string Generate(CallbackType input)
     {
+        var descriptionToTypeDeclarationGenerator =
+            provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+
+        var argumentsToDeclarationGenerator =
+            provider.GetRequiredService<ArgumentsToDeclarationGenerator>();
+
         var returnType = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
         var args = argumentsToDeclarationGenerator.Generate(input.Arguments);
 
@@ -20,11 +29,114 @@ public class CallbackTypeGenerator(
 
                         #nullable enable
 
-                        public delegate {{returnType}} {{input.Name}}({{args}});
+                        public delegate {{returnType}} {{input.Name}}Managed({{args}});
+
+                        public partial class {{input.Name}}(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+                        {
+                            public static implicit operator {{input.Name}}({{input.Name}}Managed input)
+                            {
+                        {{GetConvertToJS(input).IndentLines(8)}}
+                            }
+                            
+                            public static implicit operator {{input.Name}}Managed({{input.Name}} input)
+                            {
+                                throw new NotImplementedException();
+                            }
+                        }
 
                         #nullable disable
                         """;
 
         return content;
+    }
+
+    private string GetConvertToJS(CallbackType input)
+    {
+        var descriptionToTypeDeclarationGenerator =
+            provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+        var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
+
+        var argsVar = generatorContext.GetNextVariableName("args");
+        var lengthVar = generatorContext.GetNextVariableName("length");
+
+        List<string> managedArgVars = [];
+        List<string> argStatements = [];
+
+        for (var i = 0; i < input.Arguments.Count; i++)
+        {
+            var arg = input.Arguments[i];
+
+            var managedArgVar = generatorContext.GetNextVariableName("arg");
+            managedArgVars.Add(managedArgVar);
+
+            var argType = descriptionToTypeDeclarationGenerator.Generate(arg.IdlType);
+
+            if (i != input.Arguments.Count - 1 || !arg.Variadic)
+            {
+                var getArgument = getPropertyValueGenerator.Generate(
+                    inputVar: argsVar,
+                    type: arg.IdlType,
+                    propertyNameVar: $"{i}",
+                    outputVar: managedArgVar
+                );
+
+                argStatements.Add(
+                    $$"""
+                      // Argument {{i + 1}}
+                      {{argType}} {{managedArgVar}};
+                      {{getArgument}}
+                      """
+                );
+            }
+            else
+            {
+                var paramsLengthVar = generatorContext.GetNextVariableName("paramsLength");
+                var loopVar = generatorContext.GetNextVariableName("i");
+                var paramsItem = generatorContext.GetNextVariableName("paramsItem");
+
+                var getParamsItem = getPropertyValueGenerator.Generate(
+                    inputVar: argsVar,
+                    type: arg.IdlType,
+                    propertyNameVar: $"{i} + {loopVar}",
+                    outputVar: paramsItem
+                );
+
+                argStatements.Add(
+                    $$"""
+                      // Argument {{i + 1}}
+                      int {{lengthVar}} = global::System.Convert.ToInt32(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2({{argsVar}}, "length"));
+                      int {{paramsLengthVar}} = {{lengthVar}} - {{i}};
+                      {{argType}}[] {{managedArgVar}} = new {{argType}}[{{paramsLengthVar}}];
+                      for (int {{loopVar}} = 0; {{loopVar}} < {{paramsLengthVar}}; {{loopVar}}++)
+                      {
+                          {{argType}} {{paramsItem}};
+
+                      {{getParamsItem.IndentLines(4)}}
+
+                          {{managedArgVar}}[{{loopVar}}] = {{paramsItem}};
+                      }
+                      """
+                );
+            }
+        }
+
+        var returnType = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
+
+        var argStatementsStr = string.Join("\n\n", argStatements);
+        var managedArgsList = string.Join(", ", managedArgVars);
+
+        return $$"""
+                 Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = ({{argsVar}}) =>
+                 {
+                     using ({{argsVar}})
+                     {
+                 {{argStatementsStr.IndentLines(8)}}
+
+                         input({{managedArgsList}});
+                     }
+                 };
+
+                 return new global::{{genSettings.Namespace}}.{{input.Name}}(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+                 """;
     }
 }

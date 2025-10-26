@@ -10,18 +10,18 @@ public partial class RTCPeerConnectionIceErrorEvent(global::System.Runtime.Inter
     {
         get
         {
-            string? __res_3066;
-            string? __res_3067 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
-            if (__res_3067 is null)
+            string? __res_3189;
+            string? __res_3190 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
+            if (__res_3190 is null)
             {
-                __res_3066 = null;
+                __res_3189 = null;
             }
             else
             {
-                string __notNullable_3068 = (string)__res_3067;
-                __res_3066 = __notNullable_3068;
+                string __notNullable_3191 = (string)__res_3190;
+                __res_3189 = __notNullable_3191;
             }
-            return __res_3066;
+            return __res_3189;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class RTCPeerConnectionIceErrorEvent(global::System.Runtime.Inter
     {
         get
         {
-            ushort? __res_3069;
-            double? __res_3070 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
-            if (__res_3070 is null)
+            ushort? __res_3192;
+            double? __res_3193 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
+            if (__res_3193 is null)
             {
-                __res_3069 = null;
+                __res_3192 = null;
             }
             else
             {
-                double __notNullable_3071 = (double)__res_3070;
-                __res_3069 = Convert.ToUInt16(__notNullable_3071);
+                double __notNullable_3194 = (double)__res_3193;
+                __res_3192 = Convert.ToUInt16(__notNullable_3194);
             }
-            return __res_3069;
+            return __res_3192;
         }
     }
 
@@ -48,10 +48,10 @@ public partial class RTCPeerConnectionIceErrorEvent(global::System.Runtime.Inter
     {
         get
         {
-            string __res_3072;
-            string __res_3073 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_3072 = __res_3073;
-            return __res_3072;
+            string __res_3195;
+            string __res_3196 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_3195 = __res_3196;
+            return __res_3195;
         }
     }
 
@@ -59,10 +59,10 @@ public partial class RTCPeerConnectionIceErrorEvent(global::System.Runtime.Inter
     {
         get
         {
-            ushort __res_3074;
-            double __res_3075 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "errorCode");
-            __res_3074 = Convert.ToUInt16(__res_3075);
-            return __res_3074;
+            ushort __res_3197;
+            double __res_3198 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "errorCode");
+            __res_3197 = Convert.ToUInt16(__res_3198);
+            return __res_3197;
         }
     }
 
@@ -70,10 +70,10 @@ public partial class RTCPeerConnectionIceErrorEvent(global::System.Runtime.Inter
     {
         get
         {
-            string __res_3076;
-            string __res_3077 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorText");
-            __res_3076 = __res_3077;
-            return __res_3076;
+            string __res_3199;
+            string __res_3200 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorText");
+            __res_3199 = __res_3200;
+            return __res_3199;
         }
     }
 }

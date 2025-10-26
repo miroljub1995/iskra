@@ -4,6 +4,38 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void IntersectionObserverCallback(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IntersectionObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> entries, global::Iskra.StdWeb.IntersectionObserver observer);
+public delegate void IntersectionObserverCallbackManaged(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IntersectionObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> entries, global::Iskra.StdWeb.IntersectionObserver observer);
+
+public partial class IntersectionObserverCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator IntersectionObserverCallback(IntersectionObserverCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4085) =>
+        {
+            using (__args_4085)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IntersectionObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_4087;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4088;
+                __propObject_4088 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4085, 0);
+                __arg_4087 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IntersectionObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_4088);
+
+                // Argument 2
+                global::Iskra.StdWeb.IntersectionObserver __arg_4089;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4090 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4085, 1);
+                __arg_4089 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IntersectionObserver>(__res_4090);
+
+                input(__arg_4087, __arg_4089);
+            }
+        };
+
+        return new global::Iskra.StdWeb.IntersectionObserverCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator IntersectionObserverCallbackManaged(IntersectionObserverCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

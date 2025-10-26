@@ -4,6 +4,38 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void PressureUpdateCallback(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> changes, global::Iskra.StdWeb.PressureObserver observer);
+public delegate void PressureUpdateCallbackManaged(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> changes, global::Iskra.StdWeb.PressureObserver observer);
+
+public partial class PressureUpdateCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator PressureUpdateCallback(PressureUpdateCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6345) =>
+        {
+            using (__args_6345)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_6347;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6348;
+                __propObject_6348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6345, 0);
+                __arg_6347 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6348);
+
+                // Argument 2
+                global::Iskra.StdWeb.PressureObserver __arg_6349;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6350 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6345, 1);
+                __arg_6349 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PressureObserver>(__res_6350);
+
+                input(__arg_6347, __arg_6349);
+            }
+        };
+
+        return new global::Iskra.StdWeb.PressureUpdateCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator PressureUpdateCallbackManaged(PressureUpdateCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

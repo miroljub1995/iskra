@@ -10,10 +10,10 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.AnimationNodeList __res_7899;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7900 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
-            __res_7899 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationNodeList>(__res_7900);
-            return __res_7899;
+            global::Iskra.StdWeb.AnimationNodeList __res_8196;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8197 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
+            __res_8196 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationNodeList>(__res_8197);
+            return __res_8196;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.AnimationEffect? __res_7901;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7902 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
-            if (__res_7902 is null)
+            global::Iskra.StdWeb.AnimationEffect? __res_8198;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8199 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstChild");
+            if (__res_8199 is null)
             {
-                __res_7901 = null;
+                __res_8198 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7903 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7902;
-                __res_7901 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_7903);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8200 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8199;
+                __res_8198 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_8200);
             }
-            return __res_7901;
+            return __res_8198;
         }
     }
 
@@ -40,18 +40,18 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.AnimationEffect? __res_7904;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7905 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
-            if (__res_7905 is null)
+            global::Iskra.StdWeb.AnimationEffect? __res_8201;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8202 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastChild");
+            if (__res_8202 is null)
             {
-                __res_7904 = null;
+                __res_8201 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7906 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7905;
-                __res_7904 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_7906);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8203 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8202;
+                __res_8201 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_8203);
             }
-            return __res_7904;
+            return __res_8201;
         }
     }
 }

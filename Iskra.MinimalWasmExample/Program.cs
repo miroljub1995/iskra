@@ -1,4 +1,5 @@
 ﻿using System.Runtime.InteropServices.JavaScript;
+using Iskra.JSCore;
 using Iskra.StdWeb;
 
 namespace Iskra.MinimalWasmExample;
@@ -7,7 +8,7 @@ public static class Program
 {
     static async Task Main(string[] args)
     {
-        var w = WrapperFactory.GetWrapper<Window>(JSHost.GlobalThis);
+        var w = JSObjectProxyFactory.GetProxy<Window>(JSHost.GlobalThis);
         w.Console.Log("this is from console", w, w.Document);
 
         var opt = new ElementGetHTMLOptions()

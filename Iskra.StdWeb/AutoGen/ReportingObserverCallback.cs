@@ -4,6 +4,38 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void ReportingObserverCallback(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Report, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> reports, global::Iskra.StdWeb.ReportingObserver observer);
+public delegate void ReportingObserverCallbackManaged(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Report, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> reports, global::Iskra.StdWeb.ReportingObserver observer);
+
+public partial class ReportingObserverCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator ReportingObserverCallback(ReportingObserverCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6006) =>
+        {
+            using (__args_6006)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Report, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_6008;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6009;
+                __propObject_6009 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6006, 0);
+                __arg_6008 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Report, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6009);
+
+                // Argument 2
+                global::Iskra.StdWeb.ReportingObserver __arg_6010;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6011 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6006, 1);
+                __arg_6010 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReportingObserver>(__res_6011);
+
+                input(__arg_6008, __arg_6010);
+            }
+        };
+
+        return new global::Iskra.StdWeb.ReportingObserverCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator ReportingObserverCallbackManaged(ReportingObserverCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

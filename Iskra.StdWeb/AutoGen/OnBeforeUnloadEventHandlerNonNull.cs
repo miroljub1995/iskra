@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate string? OnBeforeUnloadEventHandlerNonNull(global::Iskra.StdWeb.Event @event);
+public delegate string? OnBeforeUnloadEventHandlerNonNullManaged(global::Iskra.StdWeb.Event @event);
+
+public partial class OnBeforeUnloadEventHandlerNonNull(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator OnBeforeUnloadEventHandlerNonNull(OnBeforeUnloadEventHandlerNonNullManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12160) =>
+        {
+            using (__args_12160)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.Event __arg_12162;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_12163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_12160, 0);
+                __arg_12162 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(__res_12163);
+
+                input(__arg_12162);
+            }
+        };
+
+        return new global::Iskra.StdWeb.OnBeforeUnloadEventHandlerNonNull(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator OnBeforeUnloadEventHandlerNonNullManaged(OnBeforeUnloadEventHandlerNonNull input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

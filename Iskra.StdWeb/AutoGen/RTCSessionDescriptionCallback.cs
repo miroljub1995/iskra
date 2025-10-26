@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void RTCSessionDescriptionCallback(global::Iskra.StdWeb.RTCSessionDescriptionInit description);
+public delegate void RTCSessionDescriptionCallbackManaged(global::Iskra.StdWeb.RTCSessionDescriptionInit description);
+
+public partial class RTCSessionDescriptionCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator RTCSessionDescriptionCallback(RTCSessionDescriptionCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3128) =>
+        {
+            using (__args_3128)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.RTCSessionDescriptionInit __arg_3130;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3128, 0);
+                __arg_3130 = new global::Iskra.StdWeb.RTCSessionDescriptionInit(__res_3131);
+
+                input(__arg_3130);
+            }
+        };
+
+        return new global::Iskra.StdWeb.RTCSessionDescriptionCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator RTCSessionDescriptionCallbackManaged(RTCSessionDescriptionCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

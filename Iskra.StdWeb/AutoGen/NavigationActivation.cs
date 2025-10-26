@@ -10,18 +10,18 @@ public partial class NavigationActivation(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.NavigationHistoryEntry? __res_11720;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_11721 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "from");
-            if (__res_11721 is null)
+            global::Iskra.StdWeb.NavigationHistoryEntry? __res_12037;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12038 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "from");
+            if (__res_12038 is null)
             {
-                __res_11720 = null;
+                __res_12037 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_11722 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_11721;
-                __res_11720 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__notNullable_11722);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12039 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12038;
+                __res_12037 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__notNullable_12039);
             }
-            return __res_11720;
+            return __res_12037;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class NavigationActivation(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.NavigationHistoryEntry __res_11723;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11724 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "entry");
-            __res_11723 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_11724);
-            return __res_11723;
+            global::Iskra.StdWeb.NavigationHistoryEntry __res_12040;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12041 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "entry");
+            __res_12040 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_12041);
+            return __res_12040;
         }
     }
 
@@ -40,10 +40,10 @@ public partial class NavigationActivation(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.NavigationType __res_11725;
-            string __res_11726 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigationType");
-            __res_11725 = global::Iskra.StdWeb.NavigationType.Create(__res_11726);
-            return __res_11725;
+            global::Iskra.StdWeb.NavigationType __res_12042;
+            string __res_12043 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigationType");
+            __res_12042 = global::Iskra.StdWeb.NavigationType.Create(__res_12043);
+            return __res_12042;
         }
     }
 }

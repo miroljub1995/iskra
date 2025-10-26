@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void FileSystemEntryCallback(global::Iskra.StdWeb.FileSystemEntry entry);
+public delegate void FileSystemEntryCallbackManaged(global::Iskra.StdWeb.FileSystemEntry entry);
+
+public partial class FileSystemEntryCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator FileSystemEntryCallback(FileSystemEntryCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2598) =>
+        {
+            using (__args_2598)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.FileSystemEntry __arg_2600;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2601 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2598, 0);
+                __arg_2600 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileSystemEntry>(__res_2601);
+
+                input(__arg_2600);
+            }
+        };
+
+        return new global::Iskra.StdWeb.FileSystemEntryCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator FileSystemEntryCallbackManaged(FileSystemEntryCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

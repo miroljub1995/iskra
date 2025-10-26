@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void NotificationPermissionCallback(global::Iskra.StdWeb.NotificationPermission permission);
+public delegate void NotificationPermissionCallbackManaged(global::Iskra.StdWeb.NotificationPermission permission);
+
+public partial class NotificationPermissionCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator NotificationPermissionCallback(NotificationPermissionCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7173) =>
+        {
+            using (__args_7173)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.NotificationPermission __arg_7175;
+                string __res_7176 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_7173, 0);
+                __arg_7175 = global::Iskra.StdWeb.NotificationPermission.Create(__res_7176);
+
+                input(__arg_7175);
+            }
+        };
+
+        return new global::Iskra.StdWeb.NotificationPermissionCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator NotificationPermissionCallbackManaged(NotificationPermissionCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

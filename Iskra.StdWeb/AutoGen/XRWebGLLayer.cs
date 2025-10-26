@@ -10,10 +10,10 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            bool __res_6845;
-            bool __res_6846 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "antialias");
-            __res_6845 = __res_6846;
-            return __res_6845;
+            bool __res_7070;
+            bool __res_7071 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "antialias");
+            __res_7070 = __res_7071;
+            return __res_7070;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            bool __res_6847;
-            bool __res_6848 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreDepthValues");
-            __res_6847 = __res_6848;
-            return __res_6847;
+            bool __res_7072;
+            bool __res_7073 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreDepthValues");
+            __res_7072 = __res_7073;
+            return __res_7072;
         }
     }
 
@@ -32,32 +32,32 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            float? __res_6849;
-            double? __res_6850 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation");
-            if (__res_6850 is null)
+            float? __res_7074;
+            double? __res_7075 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation");
+            if (__res_7075 is null)
             {
-                __res_6849 = null;
+                __res_7074 = null;
             }
             else
             {
-                double __notNullable_6851 = (double)__res_6850;
-                __res_6849 = Convert.ToSingle(__notNullable_6851);
+                double __notNullable_7076 = (double)__res_7075;
+                __res_7074 = Convert.ToSingle(__notNullable_7076);
             }
-            return __res_6849;
+            return __res_7074;
         }
         set
         {
-            double? __marshalledValue_6852;
+            double? __marshalledValue_7077;
             if (value is null)
             {
-                __marshalledValue_6852 = null;
+                __marshalledValue_7077 = null;
             }
             else
             {
-                float __notNullable_6853 = (float)value;
-                __marshalledValue_6852 = Convert.ToDouble(__notNullable_6853);
+                float __notNullable_7078 = (float)value;
+                __marshalledValue_7077 = Convert.ToDouble(__notNullable_7078);
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation", __marshalledValue_6852);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation", __marshalledValue_7077);
         }
     }
 
@@ -65,18 +65,18 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.WebGLFramebuffer? __res_6854;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6855 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "framebuffer");
-            if (__res_6855 is null)
+            global::Iskra.StdWeb.WebGLFramebuffer? __res_7079;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7080 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "framebuffer");
+            if (__res_7080 is null)
             {
-                __res_6854 = null;
+                __res_7079 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6856 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6855;
-                __res_6854 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLFramebuffer>(__notNullable_6856);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7081 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7080;
+                __res_7079 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLFramebuffer>(__notNullable_7081);
             }
-            return __res_6854;
+            return __res_7079;
         }
     }
 
@@ -84,10 +84,10 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_6857;
-            double __res_6858 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "framebufferWidth");
-            __res_6857 = Convert.ToUInt32(__res_6858);
-            return __res_6857;
+            uint __res_7082;
+            double __res_7083 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "framebufferWidth");
+            __res_7082 = Convert.ToUInt32(__res_7083);
+            return __res_7082;
         }
     }
 
@@ -95,10 +95,10 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_6859;
-            double __res_6860 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "framebufferHeight");
-            __res_6859 = Convert.ToUInt32(__res_6860);
-            return __res_6859;
+            uint __res_7084;
+            double __res_7085 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "framebufferHeight");
+            __res_7084 = Convert.ToUInt32(__res_7085);
+            return __res_7084;
         }
     }
 }

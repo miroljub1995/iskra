@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void DecodeErrorCallback(global::Iskra.StdWeb.DOMException error);
+public delegate void DecodeErrorCallbackManaged(global::Iskra.StdWeb.DOMException error);
+
+public partial class DecodeErrorCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator DecodeErrorCallback(DecodeErrorCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_13827) =>
+        {
+            using (__args_13827)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.DOMException __arg_13829;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_13830 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_13827, 0);
+                __arg_13829 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_13830);
+
+                input(__arg_13829);
+            }
+        };
+
+        return new global::Iskra.StdWeb.DecodeErrorCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator DecodeErrorCallbackManaged(DecodeErrorCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

@@ -10,10 +10,10 @@ public partial class MediaQueryListEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_2848;
-            string __res_2849 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
-            __res_2848 = __res_2849;
-            return __res_2848;
+            string __res_2963;
+            string __res_2964 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_2963 = __res_2964;
+            return __res_2963;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MediaQueryListEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            bool __res_2850;
-            bool __res_2851 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
-            __res_2850 = __res_2851;
-            return __res_2850;
+            bool __res_2965;
+            bool __res_2966 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
+            __res_2965 = __res_2966;
+            return __res_2965;
         }
     }
 }

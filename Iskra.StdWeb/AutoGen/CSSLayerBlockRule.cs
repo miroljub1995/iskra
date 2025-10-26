@@ -10,10 +10,10 @@ public partial class CSSLayerBlockRule(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_4145;
-            string __res_4146 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4145 = __res_4146;
-            return __res_4145;
+            string __res_4298;
+            string __res_4299 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4298 = __res_4299;
+            return __res_4298;
         }
     }
 }

@@ -10,18 +10,18 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.HTMLFormElement? __res_9741;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9742 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_9742 is null)
+            global::Iskra.StdWeb.HTMLFormElement? __res_10047;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10048 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_10048 is null)
             {
-                __res_9741 = null;
+                __res_10047 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9743 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9742;
-                __res_9741 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_9743);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10049 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10048;
+                __res_10047 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_10049);
             }
-            return __res_9741;
+            return __res_10047;
         }
     }
 
@@ -29,16 +29,16 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_9744;
-            string __res_9745 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "htmlFor");
-            __res_9744 = __res_9745;
-            return __res_9744;
+            string __res_10050;
+            string __res_10051 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "htmlFor");
+            __res_10050 = __res_10051;
+            return __res_10050;
         }
         set
         {
-            string __marshalledValue_9746;
-            __marshalledValue_9746 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "htmlFor", __marshalledValue_9746);
+            string __marshalledValue_10052;
+            __marshalledValue_10052 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "htmlFor", __marshalledValue_10052);
         }
     }
 
@@ -46,18 +46,18 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.HTMLElement? __res_9747;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9748 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "control");
-            if (__res_9748 is null)
+            global::Iskra.StdWeb.HTMLElement? __res_10053;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10054 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "control");
+            if (__res_10054 is null)
             {
-                __res_9747 = null;
+                __res_10053 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9749 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9748;
-                __res_9747 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLElement>(__notNullable_9749);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10055 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10054;
+                __res_10053 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLElement>(__notNullable_10055);
             }
-            return __res_9747;
+            return __res_10053;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.ShadowRootMode __res_5364;
-            string __res_5365 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
-            __res_5364 = global::Iskra.StdWeb.ShadowRootMode.Create(__res_5365);
-            return __res_5364;
+            global::Iskra.StdWeb.ShadowRootMode __res_5528;
+            string __res_5529 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
+            __res_5528 = global::Iskra.StdWeb.ShadowRootMode.Create(__res_5529);
+            return __res_5528;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_5366;
-            bool __res_5367 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "delegatesFocus");
-            __res_5366 = __res_5367;
-            return __res_5366;
+            bool __res_5530;
+            bool __res_5531 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "delegatesFocus");
+            __res_5530 = __res_5531;
+            return __res_5530;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.SlotAssignmentMode __res_5368;
-            string __res_5369 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "slotAssignment");
-            __res_5368 = global::Iskra.StdWeb.SlotAssignmentMode.Create(__res_5369);
-            return __res_5368;
+            global::Iskra.StdWeb.SlotAssignmentMode __res_5532;
+            string __res_5533 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "slotAssignment");
+            __res_5532 = global::Iskra.StdWeb.SlotAssignmentMode.Create(__res_5533);
+            return __res_5532;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_5370;
-            bool __res_5371 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "clonable");
-            __res_5370 = __res_5371;
-            return __res_5370;
+            bool __res_5534;
+            bool __res_5535 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "clonable");
+            __res_5534 = __res_5535;
+            return __res_5534;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_5372;
-            bool __res_5373 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "serializable");
-            __res_5372 = __res_5373;
-            return __res_5372;
+            bool __res_5536;
+            bool __res_5537 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "serializable");
+            __res_5536 = __res_5537;
+            return __res_5536;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.Element __res_5374;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5375 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "host");
-            __res_5374 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_5375);
-            return __res_5374;
+            global::Iskra.StdWeb.Element __res_5538;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5539 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "host");
+            __res_5538 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_5539);
+            return __res_5538;
         }
     }
 
@@ -76,32 +76,32 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_5376;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5377 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange");
-            if (__res_5377 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_5540;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5541 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange");
+            if (__res_5541 is null)
             {
-                __res_5376 = null;
+                __res_5540 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5378 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5377;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5542 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5541;
+                __res_5540 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_5542);
             }
-            return __res_5376;
+            return __res_5540;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5379;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5543;
             if (value is null)
             {
-                __marshalledValue_5379 = null;
+                __marshalledValue_5543 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5380 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5544 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_5543 = __notNullable_5544.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange", __marshalledValue_5379);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onslotchange", __marshalledValue_5543);
         }
     }
 
@@ -109,16 +109,16 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> __res_5381;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5382;
-            __propObject_5382 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "innerHTML");
-            __res_5381 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_5382);
-            return __res_5381;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> __res_5545;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5546;
+            __propObject_5546 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "innerHTML");
+            __res_5545 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_5546);
+            return __res_5545;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5383 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "innerHTML", __propObject_5383);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5547 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "innerHTML", __propObject_5547);
         }
     }
 
@@ -126,18 +126,18 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_5384;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5385 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "pointerLockElement");
-            if (__res_5385 is null)
+            global::Iskra.StdWeb.Element? __res_5548;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5549 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "pointerLockElement");
+            if (__res_5549 is null)
             {
-                __res_5384 = null;
+                __res_5548 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5386 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5385;
-                __res_5384 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5386);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5550 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5549;
+                __res_5548 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5550);
             }
-            return __res_5384;
+            return __res_5548;
         }
     }
 
@@ -145,18 +145,18 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_5387;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5388 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fullscreenElement");
-            if (__res_5388 is null)
+            global::Iskra.StdWeb.Element? __res_5551;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5552 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fullscreenElement");
+            if (__res_5552 is null)
             {
-                __res_5387 = null;
+                __res_5551 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5389 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5388;
-                __res_5387 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5389);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5553 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5552;
+                __res_5551 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5553);
             }
-            return __res_5387;
+            return __res_5551;
         }
     }
 
@@ -164,18 +164,18 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_5390;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5391 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "pictureInPictureElement");
-            if (__res_5391 is null)
+            global::Iskra.StdWeb.Element? __res_5554;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5555 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "pictureInPictureElement");
+            if (__res_5555 is null)
             {
-                __res_5390 = null;
+                __res_5554 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5392 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5391;
-                __res_5390 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5392);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5556 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5555;
+                __res_5554 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5556);
             }
-            return __res_5390;
+            return __res_5554;
         }
     }
 
@@ -183,18 +183,18 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.CustomElementRegistry? __res_5393;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5394 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "customElementRegistry");
-            if (__res_5394 is null)
+            global::Iskra.StdWeb.CustomElementRegistry? __res_5557;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5558 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "customElementRegistry");
+            if (__res_5558 is null)
             {
-                __res_5393 = null;
+                __res_5557 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5395 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5394;
-                __res_5393 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CustomElementRegistry>(__notNullable_5395);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5559 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5558;
+                __res_5557 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CustomElementRegistry>(__notNullable_5559);
             }
-            return __res_5393;
+            return __res_5557;
         }
     }
 
@@ -202,18 +202,18 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_5396;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5397 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activeElement");
-            if (__res_5397 is null)
+            global::Iskra.StdWeb.Element? __res_5560;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5561 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activeElement");
+            if (__res_5561 is null)
             {
-                __res_5396 = null;
+                __res_5560 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5398 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5397;
-                __res_5396 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5398);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5562 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5561;
+                __res_5560 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5562);
             }
-            return __res_5396;
+            return __res_5560;
         }
     }
 
@@ -221,10 +221,10 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.StyleSheetList __res_5399;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5400 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleSheets");
-            __res_5399 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StyleSheetList>(__res_5400);
-            return __res_5399;
+            global::Iskra.StdWeb.StyleSheetList __res_5563;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5564 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleSheets");
+            __res_5563 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StyleSheetList>(__res_5564);
+            return __res_5563;
         }
     }
 
@@ -232,16 +232,16 @@ public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.StdWeb.CSSStyleSheet, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_5401;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5402;
-            __propObject_5402 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "adoptedStyleSheets");
-            __res_5401 = new global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.StdWeb.CSSStyleSheet, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5402);
-            return __res_5401;
+            global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.StdWeb.CSSStyleSheet, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_5565;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5566;
+            __propObject_5566 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "adoptedStyleSheets");
+            __res_5565 = new global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.StdWeb.CSSStyleSheet, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5566);
+            return __res_5565;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5403 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "adoptedStyleSheets", __propObject_5403);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5567 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "adoptedStyleSheets", __propObject_5567);
         }
     }
 }

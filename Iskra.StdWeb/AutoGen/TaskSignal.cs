@@ -10,10 +10,10 @@ public partial class TaskSignal(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.TaskPriority __res_1978;
-            string __res_1979 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "priority");
-            __res_1978 = global::Iskra.StdWeb.TaskPriority.Create(__res_1979);
-            return __res_1978;
+            global::Iskra.StdWeb.TaskPriority __res_2046;
+            string __res_2047 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "priority");
+            __res_2046 = global::Iskra.StdWeb.TaskPriority.Create(__res_2047);
+            return __res_2046;
         }
     }
 
@@ -21,32 +21,32 @@ public partial class TaskSignal(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_1980;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1981 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange");
-            if (__res_1981 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_2048;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2049 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange");
+            if (__res_2049 is null)
             {
-                __res_1980 = null;
+                __res_2048 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1982 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1981;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2050 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2049;
+                __res_2048 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2050);
             }
-            return __res_1980;
+            return __res_2048;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_1983;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2051;
             if (value is null)
             {
-                __marshalledValue_1983 = null;
+                __marshalledValue_2051 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_1984 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2052 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_2051 = __notNullable_2052.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange", __marshalledValue_1983);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange", __marshalledValue_2051);
         }
     }
 }

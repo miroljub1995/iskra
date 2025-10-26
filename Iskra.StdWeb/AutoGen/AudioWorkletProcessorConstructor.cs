@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.StdWeb.AudioWorkletProcessor AudioWorkletProcessorConstructor(global::System.Runtime.InteropServices.JavaScript.JSObject options);
+public delegate global::Iskra.StdWeb.AudioWorkletProcessor AudioWorkletProcessorConstructorManaged(global::System.Runtime.InteropServices.JavaScript.JSObject options);
+
+public partial class AudioWorkletProcessorConstructor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator AudioWorkletProcessorConstructor(AudioWorkletProcessorConstructorManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_14084) =>
+        {
+            using (__args_14084)
+            {
+                // Argument 1
+                global::System.Runtime.InteropServices.JavaScript.JSObject __arg_14086;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_14087 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14084, 0);
+                __arg_14086 = __res_14087;
+
+                input(__arg_14086);
+            }
+        };
+
+        return new global::Iskra.StdWeb.AudioWorkletProcessorConstructor(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator AudioWorkletProcessorConstructorManaged(AudioWorkletProcessorConstructor input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

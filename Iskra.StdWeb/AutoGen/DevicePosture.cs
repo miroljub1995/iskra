@@ -10,10 +10,10 @@ public partial class DevicePosture(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.DevicePostureType __res_7503;
-            string __res_7504 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_7503 = global::Iskra.StdWeb.DevicePostureType.Create(__res_7504);
-            return __res_7503;
+            global::Iskra.StdWeb.DevicePostureType __res_7748;
+            string __res_7749 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_7748 = global::Iskra.StdWeb.DevicePostureType.Create(__res_7749);
+            return __res_7748;
         }
     }
 
@@ -21,32 +21,32 @@ public partial class DevicePosture(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7505;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7506 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_7506 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7750;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7751 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_7751 is null)
             {
-                __res_7505 = null;
+                __res_7750 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7507 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7506;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7752 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7751;
+                __res_7750 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7752);
             }
-            return __res_7505;
+            return __res_7750;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7508;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7753;
             if (value is null)
             {
-                __marshalledValue_7508 = null;
+                __marshalledValue_7753 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7509 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7754 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7753 = __notNullable_7754.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_7508);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_7753);
         }
     }
 }

@@ -4,6 +4,45 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void Visitor(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value, ulong index);
+public delegate void VisitorManaged(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value, ulong index);
+
+public partial class Visitor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator Visitor(VisitorManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7916) =>
+        {
+            using (__args_7916)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_7918;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7919;
+                __propObject_7919 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_7916, 0);
+                if (__propObject_7919 is null)
+                {
+                    __arg_7918 = null;
+                }
+                else
+                {
+                    __arg_7918 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7919);
+                }
+
+                // Argument 2
+                ulong __arg_7920;
+                double __res_7921 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_7916, 1);
+                __arg_7920 = Convert.ToUInt64(__res_7921);
+
+                input(__arg_7918, __arg_7920);
+            }
+        };
+
+        return new global::Iskra.StdWeb.Visitor(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator VisitorManaged(Visitor input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

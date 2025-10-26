@@ -4,6 +4,37 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void XRFrameRequestCallback(double time, global::Iskra.StdWeb.XRFrame frame);
+public delegate void XRFrameRequestCallbackManaged(double time, global::Iskra.StdWeb.XRFrame frame);
+
+public partial class XRFrameRequestCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator XRFrameRequestCallback(XRFrameRequestCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6979) =>
+        {
+            using (__args_6979)
+            {
+                // Argument 1
+                double __arg_6981;
+                double __res_6982 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_6979, 0);
+                __arg_6981 = __res_6982;
+
+                // Argument 2
+                global::Iskra.StdWeb.XRFrame __arg_6983;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6984 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6979, 1);
+                __arg_6983 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(__res_6984);
+
+                input(__arg_6981, __arg_6983);
+            }
+        };
+
+        return new global::Iskra.StdWeb.XRFrameRequestCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator XRFrameRequestCallbackManaged(XRFrameRequestCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

@@ -10,18 +10,18 @@ public partial class DeviceOrientationEvent(global::System.Runtime.InteropServic
     {
         get
         {
-            double? __res_4194;
-            double? __res_4195 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
-            if (__res_4195 is null)
+            double? __res_4347;
+            double? __res_4348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
+            if (__res_4348 is null)
             {
-                __res_4194 = null;
+                __res_4347 = null;
             }
             else
             {
-                double __notNullable_4196 = (double)__res_4195;
-                __res_4194 = __notNullable_4196;
+                double __notNullable_4349 = (double)__res_4348;
+                __res_4347 = __notNullable_4349;
             }
-            return __res_4194;
+            return __res_4347;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class DeviceOrientationEvent(global::System.Runtime.InteropServic
     {
         get
         {
-            double? __res_4197;
-            double? __res_4198 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
-            if (__res_4198 is null)
+            double? __res_4350;
+            double? __res_4351 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
+            if (__res_4351 is null)
             {
-                __res_4197 = null;
+                __res_4350 = null;
             }
             else
             {
-                double __notNullable_4199 = (double)__res_4198;
-                __res_4197 = __notNullable_4199;
+                double __notNullable_4352 = (double)__res_4351;
+                __res_4350 = __notNullable_4352;
             }
-            return __res_4197;
+            return __res_4350;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class DeviceOrientationEvent(global::System.Runtime.InteropServic
     {
         get
         {
-            double? __res_4200;
-            double? __res_4201 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
-            if (__res_4201 is null)
+            double? __res_4353;
+            double? __res_4354 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
+            if (__res_4354 is null)
             {
-                __res_4200 = null;
+                __res_4353 = null;
             }
             else
             {
-                double __notNullable_4202 = (double)__res_4201;
-                __res_4200 = __notNullable_4202;
+                double __notNullable_4355 = (double)__res_4354;
+                __res_4353 = __notNullable_4355;
             }
-            return __res_4200;
+            return __res_4353;
         }
     }
 
@@ -67,10 +67,10 @@ public partial class DeviceOrientationEvent(global::System.Runtime.InteropServic
     {
         get
         {
-            bool __res_4203;
-            bool __res_4204 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "absolute");
-            __res_4203 = __res_4204;
-            return __res_4203;
+            bool __res_4356;
+            bool __res_4357 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "absolute");
+            __res_4356 = __res_4357;
+            return __res_4356;
         }
     }
 }

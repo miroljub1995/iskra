@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void MediaSessionActionHandler(global::Iskra.StdWeb.MediaSessionActionDetails details);
+public delegate void MediaSessionActionHandlerManaged(global::Iskra.StdWeb.MediaSessionActionDetails details);
+
+public partial class MediaSessionActionHandler(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator MediaSessionActionHandler(MediaSessionActionHandlerManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1373) =>
+        {
+            using (__args_1373)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.MediaSessionActionDetails __arg_1375;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1376 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1373, 0);
+                __arg_1375 = new global::Iskra.StdWeb.MediaSessionActionDetails(__res_1376);
+
+                input(__arg_1375);
+            }
+        };
+
+        return new global::Iskra.StdWeb.MediaSessionActionHandler(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator MediaSessionActionHandlerManaged(MediaSessionActionHandler input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

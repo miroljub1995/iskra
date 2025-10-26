@@ -10,10 +10,10 @@ public partial class SVGMPathElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedString __res_1731;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1732 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
-            __res_1731 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1732);
-            return __res_1731;
+            global::Iskra.StdWeb.SVGAnimatedString __res_1739;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1740 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
+            __res_1739 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1740);
+            return __res_1739;
         }
     }
 }

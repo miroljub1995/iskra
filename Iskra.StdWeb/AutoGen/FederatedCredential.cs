@@ -10,10 +10,10 @@ public partial class FederatedCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_3794;
-            string __res_3795 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "provider");
-            __res_3794 = __res_3795;
-            return __res_3794;
+            string __res_3917;
+            string __res_3918 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "provider");
+            __res_3917 = __res_3918;
+            return __res_3917;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class FederatedCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            string? __res_3796;
-            string? __res_3797 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "protocol");
-            if (__res_3797 is null)
+            string? __res_3919;
+            string? __res_3920 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "protocol");
+            if (__res_3920 is null)
             {
-                __res_3796 = null;
+                __res_3919 = null;
             }
             else
             {
-                string __notNullable_3798 = (string)__res_3797;
-                __res_3796 = __notNullable_3798;
+                string __notNullable_3921 = (string)__res_3920;
+                __res_3919 = __notNullable_3921;
             }
-            return __res_3796;
+            return __res_3919;
         }
     }
 
@@ -40,10 +40,10 @@ public partial class FederatedCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_3799;
-            string __res_3800 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3799 = __res_3800;
-            return __res_3799;
+            string __res_3922;
+            string __res_3923 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3922 = __res_3923;
+            return __res_3922;
         }
     }
 
@@ -51,10 +51,10 @@ public partial class FederatedCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_3801;
-            string __res_3802 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iconURL");
-            __res_3801 = __res_3802;
-            return __res_3801;
+            string __res_3924;
+            string __res_3925 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iconURL");
+            __res_3924 = __res_3925;
+            return __res_3924;
         }
     }
 }

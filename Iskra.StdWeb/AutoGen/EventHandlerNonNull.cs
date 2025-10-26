@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? EventHandlerNonNull(global::Iskra.StdWeb.Event @event);
+public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? EventHandlerNonNullManaged(global::Iskra.StdWeb.Event @event);
+
+public partial class EventHandlerNonNull(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator EventHandlerNonNull(EventHandlerNonNullManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12144) =>
+        {
+            using (__args_12144)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.Event __arg_12146;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_12147 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_12144, 0);
+                __arg_12146 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(__res_12147);
+
+                input(__arg_12146);
+            }
+        };
+
+        return new global::Iskra.StdWeb.EventHandlerNonNull(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator EventHandlerNonNullManaged(EventHandlerNonNull input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

@@ -10,10 +10,10 @@ public partial class AudioSinkInfo(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.AudioSinkType __res_13513;
-            string __res_13514 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_13513 = global::Iskra.StdWeb.AudioSinkType.Create(__res_13514);
-            return __res_13513;
+            global::Iskra.StdWeb.AudioSinkType __res_13870;
+            string __res_13871 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_13870 = global::Iskra.StdWeb.AudioSinkType.Create(__res_13871);
+            return __res_13870;
         }
     }
 }

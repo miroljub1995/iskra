@@ -4,6 +4,37 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void VideoFrameRequestCallback(double now, global::Iskra.StdWeb.VideoFrameCallbackMetadata metadata);
+public delegate void VideoFrameRequestCallbackManaged(double now, global::Iskra.StdWeb.VideoFrameCallbackMetadata metadata);
+
+public partial class VideoFrameRequestCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator VideoFrameRequestCallback(VideoFrameRequestCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6616) =>
+        {
+            using (__args_6616)
+            {
+                // Argument 1
+                double __arg_6618;
+                double __res_6619 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_6616, 0);
+                __arg_6618 = __res_6619;
+
+                // Argument 2
+                global::Iskra.StdWeb.VideoFrameCallbackMetadata __arg_6620;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6621 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6616, 1);
+                __arg_6620 = new global::Iskra.StdWeb.VideoFrameCallbackMetadata(__res_6621);
+
+                input(__arg_6618, __arg_6620);
+            }
+        };
+
+        return new global::Iskra.StdWeb.VideoFrameRequestCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator VideoFrameRequestCallbackManaged(VideoFrameRequestCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

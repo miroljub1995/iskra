@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? LaunchConsumer(global::Iskra.StdWeb.LaunchParams @params);
+public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? LaunchConsumerManaged(global::Iskra.StdWeb.LaunchParams @params);
+
+public partial class LaunchConsumer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator LaunchConsumer(LaunchConsumerManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7583) =>
+        {
+            using (__args_7583)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.LaunchParams __arg_7585;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_7586 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7583, 0);
+                __arg_7585 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LaunchParams>(__res_7586);
+
+                input(__arg_7585);
+            }
+        };
+
+        return new global::Iskra.StdWeb.LaunchConsumer(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator LaunchConsumerManaged(LaunchConsumer input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

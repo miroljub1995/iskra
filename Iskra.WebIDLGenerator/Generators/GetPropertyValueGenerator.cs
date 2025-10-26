@@ -239,10 +239,12 @@ public class GetPropertyValueGenerator(
                      {{getPropertyContent}}
                      if ({{getPropertyVar}} is null)
                      {
-                         return null;
+                         {{outputVar}} = null;
                      }
-
-                     {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     else
+                     {
+                         {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     }
                      """;
         }
 
@@ -280,10 +282,12 @@ public class GetPropertyValueGenerator(
                      {{getPropertyContent}}
                      if ({{getPropertyVar}} is null)
                      {
-                         return null;
+                         {{outputVar}} = null;
                      }
-
-                     {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     else
+                     {
+                         {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     }
                      """;
         }
 
@@ -321,10 +325,12 @@ public class GetPropertyValueGenerator(
                      {{getPropertyContent}}
                      if ({{getPropertyVar}} is null)
                      {
-                         return null;
+                         {{outputVar}} = null;
                      }
-
-                     {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     else
+                     {
+                         {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     }
                      """;
         }
 
@@ -362,10 +368,12 @@ public class GetPropertyValueGenerator(
                      {{getPropertyContent}}
                      if ({{getPropertyVar}} is null)
                      {
-                         return null;
+                         {{outputVar}} = null;
                      }
-
-                     {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     else
+                     {
+                         {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     }
                      """;
         }
 
@@ -404,10 +412,12 @@ public class GetPropertyValueGenerator(
                      {{getPropertyContent}}
                      if ({{getPropertyVar}} is null)
                      {
-                         return null;
+                         {{outputVar}} = null;
                      }
-
-                     {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     else
+                     {
+                         {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     }
                      """;
         }
 

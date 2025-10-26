@@ -1,6 +1,7 @@
 import {TestProperties} from "./Tests/TestProperties.js";
 import {TestAnyProperties} from "./Tests/TestAnyProperties.js";
 import {TestArrayProperties} from "./Tests/TestArrayProperties.js";
+import {TestCallbackProperties} from "./Tests/TestCallbackProperties.js";
 import {TestDictionaryProperties} from "./Tests/TestDictionaryProperties.js";
 import {TestEnumProperties} from "./Tests/TestEnumProperties.js";
 import {TestFrozenArrayProperties} from "./Tests/TestFrozenArrayProperties.js";
@@ -22,6 +23,9 @@ globalThis.tests = {
     },
     get testArrayProperties() {
         return new TestArrayProperties();
+    },
+    get testCallbackProperties() {
+        return new TestCallbackProperties();
     },
     get testDictionaryProperties() {
         return new TestDictionaryProperties();

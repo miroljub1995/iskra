@@ -10,10 +10,10 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.ContentIndex __res_7058;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7059 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "index");
-            __res_7058 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContentIndex>(__res_7059);
-            return __res_7058;
+            global::Iskra.StdWeb.ContentIndex __res_7293;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7294 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "index");
+            __res_7293 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContentIndex>(__res_7294);
+            return __res_7293;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.PeriodicSyncManager __res_7060;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7061 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "periodicSync");
-            __res_7060 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PeriodicSyncManager>(__res_7061);
-            return __res_7060;
+            global::Iskra.StdWeb.PeriodicSyncManager __res_7295;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7296 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "periodicSync");
+            __res_7295 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PeriodicSyncManager>(__res_7296);
+            return __res_7295;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.PaymentManager __res_7062;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7063 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "paymentManager");
-            __res_7062 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PaymentManager>(__res_7063);
-            return __res_7062;
+            global::Iskra.StdWeb.PaymentManager __res_7297;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7298 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "paymentManager");
+            __res_7297 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PaymentManager>(__res_7298);
+            return __res_7297;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.CookieStoreManager __res_7064;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7065 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cookies");
-            __res_7064 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CookieStoreManager>(__res_7065);
-            return __res_7064;
+            global::Iskra.StdWeb.CookieStoreManager __res_7299;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7300 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cookies");
+            __res_7299 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CookieStoreManager>(__res_7300);
+            return __res_7299;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.BackgroundFetchManager __res_7066;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7067 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "backgroundFetch");
-            __res_7066 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BackgroundFetchManager>(__res_7067);
-            return __res_7066;
+            global::Iskra.StdWeb.BackgroundFetchManager __res_7301;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7302 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "backgroundFetch");
+            __res_7301 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BackgroundFetchManager>(__res_7302);
+            return __res_7301;
         }
     }
 
@@ -65,18 +65,18 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.ServiceWorker? __res_7068;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7069 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "installing");
-            if (__res_7069 is null)
+            global::Iskra.StdWeb.ServiceWorker? __res_7303;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7304 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "installing");
+            if (__res_7304 is null)
             {
-                __res_7068 = null;
+                __res_7303 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7070 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7069;
-                __res_7068 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorker>(__notNullable_7070);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7305 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7304;
+                __res_7303 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorker>(__notNullable_7305);
             }
-            return __res_7068;
+            return __res_7303;
         }
     }
 
@@ -84,18 +84,18 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.ServiceWorker? __res_7071;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7072 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "waiting");
-            if (__res_7072 is null)
+            global::Iskra.StdWeb.ServiceWorker? __res_7306;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7307 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "waiting");
+            if (__res_7307 is null)
             {
-                __res_7071 = null;
+                __res_7306 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7073 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7072;
-                __res_7071 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorker>(__notNullable_7073);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7308 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7307;
+                __res_7306 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorker>(__notNullable_7308);
             }
-            return __res_7071;
+            return __res_7306;
         }
     }
 
@@ -103,18 +103,18 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.ServiceWorker? __res_7074;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7075 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "active");
-            if (__res_7075 is null)
+            global::Iskra.StdWeb.ServiceWorker? __res_7309;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7310 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "active");
+            if (__res_7310 is null)
             {
-                __res_7074 = null;
+                __res_7309 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7076 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7075;
-                __res_7074 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorker>(__notNullable_7076);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7311 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7310;
+                __res_7309 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorker>(__notNullable_7311);
             }
-            return __res_7074;
+            return __res_7309;
         }
     }
 
@@ -122,10 +122,10 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.NavigationPreloadManager __res_7077;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7078 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationPreload");
-            __res_7077 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationPreloadManager>(__res_7078);
-            return __res_7077;
+            global::Iskra.StdWeb.NavigationPreloadManager __res_7312;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7313 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigationPreload");
+            __res_7312 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationPreloadManager>(__res_7313);
+            return __res_7312;
         }
     }
 
@@ -133,10 +133,10 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_7079;
-            string __res_7080 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scope");
-            __res_7079 = __res_7080;
-            return __res_7079;
+            string __res_7314;
+            string __res_7315 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scope");
+            __res_7314 = __res_7315;
+            return __res_7314;
         }
     }
 
@@ -144,10 +144,10 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.ServiceWorkerUpdateViaCache __res_7081;
-            string __res_7082 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "updateViaCache");
-            __res_7081 = global::Iskra.StdWeb.ServiceWorkerUpdateViaCache.Create(__res_7082);
-            return __res_7081;
+            global::Iskra.StdWeb.ServiceWorkerUpdateViaCache __res_7316;
+            string __res_7317 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "updateViaCache");
+            __res_7316 = global::Iskra.StdWeb.ServiceWorkerUpdateViaCache.Create(__res_7317);
+            return __res_7316;
         }
     }
 
@@ -155,32 +155,32 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7083;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7084 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onupdatefound");
-            if (__res_7084 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7318;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7319 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onupdatefound");
+            if (__res_7319 is null)
             {
-                __res_7083 = null;
+                __res_7318 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7085 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7084;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7320 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7319;
+                __res_7318 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7320);
             }
-            return __res_7083;
+            return __res_7318;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7086;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7321;
             if (value is null)
             {
-                __marshalledValue_7086 = null;
+                __marshalledValue_7321 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7087 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7322 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7321 = __notNullable_7322.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onupdatefound", __marshalledValue_7086);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onupdatefound", __marshalledValue_7321);
         }
     }
 
@@ -188,10 +188,10 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.SyncManager __res_7088;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7089 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sync");
-            __res_7088 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SyncManager>(__res_7089);
-            return __res_7088;
+            global::Iskra.StdWeb.SyncManager __res_7323;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7324 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sync");
+            __res_7323 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SyncManager>(__res_7324);
+            return __res_7323;
         }
     }
 
@@ -199,10 +199,10 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.PushManager __res_7090;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7091 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pushManager");
-            __res_7090 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushManager>(__res_7091);
-            return __res_7090;
+            global::Iskra.StdWeb.PushManager __res_7325;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7326 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pushManager");
+            __res_7325 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushManager>(__res_7326);
+            return __res_7325;
         }
     }
 }

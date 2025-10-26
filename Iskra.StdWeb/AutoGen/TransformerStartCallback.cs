@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? TransformerStartCallback(global::Iskra.StdWeb.TransformStreamDefaultController controller);
+public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? TransformerStartCallbackManaged(global::Iskra.StdWeb.TransformStreamDefaultController controller);
+
+public partial class TransformerStartCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator TransformerStartCallback(TransformerStartCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1896) =>
+        {
+            using (__args_1896)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.TransformStreamDefaultController __arg_1898;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1899 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1896, 0);
+                __arg_1898 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TransformStreamDefaultController>(__res_1899);
+
+                input(__arg_1898);
+            }
+        };
+
+        return new global::Iskra.StdWeb.TransformerStartCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator TransformerStartCallbackManaged(TransformerStartCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

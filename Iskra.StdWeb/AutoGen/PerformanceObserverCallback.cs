@@ -4,6 +4,42 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void PerformanceObserverCallback(global::Iskra.StdWeb.PerformanceObserverEntryList entries, global::Iskra.StdWeb.PerformanceObserver observer, global::Iskra.StdWeb.PerformanceObserverCallbackOptions options);
+public delegate void PerformanceObserverCallbackManaged(global::Iskra.StdWeb.PerformanceObserverEntryList entries, global::Iskra.StdWeb.PerformanceObserver observer, global::Iskra.StdWeb.PerformanceObserverCallbackOptions options);
+
+public partial class PerformanceObserverCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator PerformanceObserverCallback(PerformanceObserverCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6441) =>
+        {
+            using (__args_6441)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.PerformanceObserverEntryList __arg_6443;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6444 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6441, 0);
+                __arg_6443 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PerformanceObserverEntryList>(__res_6444);
+
+                // Argument 2
+                global::Iskra.StdWeb.PerformanceObserver __arg_6445;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6446 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6441, 1);
+                __arg_6445 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PerformanceObserver>(__res_6446);
+
+                // Argument 3
+                global::Iskra.StdWeb.PerformanceObserverCallbackOptions __arg_6447;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6448 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6441, 2);
+                __arg_6447 = new global::Iskra.StdWeb.PerformanceObserverCallbackOptions(__res_6448);
+
+                input(__arg_6443, __arg_6445, __arg_6447);
+            }
+        };
+
+        return new global::Iskra.StdWeb.PerformanceObserverCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator PerformanceObserverCallbackManaged(PerformanceObserverCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

@@ -10,10 +10,10 @@ public partial class DocumentPictureInPicture(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.Window __res_291;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_292 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "window");
-            __res_291 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__res_292);
-            return __res_291;
+            global::Iskra.StdWeb.Window __res_295;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_296 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "window");
+            __res_295 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__res_296);
+            return __res_295;
         }
     }
 
@@ -21,32 +21,32 @@ public partial class DocumentPictureInPicture(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_293;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_294 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onenter");
-            if (__res_294 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_297;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_298 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onenter");
+            if (__res_298 is null)
             {
-                __res_293 = null;
+                __res_297 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_295 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_294;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_299 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_298;
+                __res_297 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_299);
             }
-            return __res_293;
+            return __res_297;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_296;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_300;
             if (value is null)
             {
-                __marshalledValue_296 = null;
+                __marshalledValue_300 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_297 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_301 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_300 = __notNullable_301.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onenter", __marshalledValue_296);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onenter", __marshalledValue_300);
         }
     }
 }

@@ -10,32 +10,32 @@ public partial class CaptureController(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6962;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6963 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncapturedmousechange");
-            if (__res_6963 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7191;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7192 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncapturedmousechange");
+            if (__res_7192 is null)
             {
-                __res_6962 = null;
+                __res_7191 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6964 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6963;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7193 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7192;
+                __res_7191 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7193);
             }
-            return __res_6962;
+            return __res_7191;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6965;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7194;
             if (value is null)
             {
-                __marshalledValue_6965 = null;
+                __marshalledValue_7194 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6966 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7195 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7194 = __notNullable_7195.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncapturedmousechange", __marshalledValue_6965);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncapturedmousechange", __marshalledValue_7194);
         }
     }
 
@@ -43,18 +43,18 @@ public partial class CaptureController(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            int? __res_6967;
-            double? __res_6968 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "zoomLevel");
-            if (__res_6968 is null)
+            int? __res_7196;
+            double? __res_7197 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "zoomLevel");
+            if (__res_7197 is null)
             {
-                __res_6967 = null;
+                __res_7196 = null;
             }
             else
             {
-                double __notNullable_6969 = (double)__res_6968;
-                __res_6967 = Convert.ToInt32(__notNullable_6969);
+                double __notNullable_7198 = (double)__res_7197;
+                __res_7196 = Convert.ToInt32(__notNullable_7198);
             }
-            return __res_6967;
+            return __res_7196;
         }
     }
 
@@ -62,32 +62,32 @@ public partial class CaptureController(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6970;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6971 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onzoomlevelchange");
-            if (__res_6971 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7199;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7200 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onzoomlevelchange");
+            if (__res_7200 is null)
             {
-                __res_6970 = null;
+                __res_7199 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6972 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6971;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7201 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7200;
+                __res_7199 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7201);
             }
-            return __res_6970;
+            return __res_7199;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6973;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7202;
             if (value is null)
             {
-                __marshalledValue_6973 = null;
+                __marshalledValue_7202 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6974 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7203 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7202 = __notNullable_7203.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onzoomlevelchange", __marshalledValue_6973);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onzoomlevelchange", __marshalledValue_7202);
         }
     }
 }

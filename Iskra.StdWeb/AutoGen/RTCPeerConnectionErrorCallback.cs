@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void RTCPeerConnectionErrorCallback(global::Iskra.StdWeb.DOMException error);
+public delegate void RTCPeerConnectionErrorCallbackManaged(global::Iskra.StdWeb.DOMException error);
+
+public partial class RTCPeerConnectionErrorCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator RTCPeerConnectionErrorCallback(RTCPeerConnectionErrorCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3124) =>
+        {
+            using (__args_3124)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.DOMException __arg_3126;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3127 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3124, 0);
+                __arg_3126 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_3127);
+
+                input(__arg_3126);
+            }
+        };
+
+        return new global::Iskra.StdWeb.RTCPeerConnectionErrorCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator RTCPeerConnectionErrorCallbackManaged(RTCPeerConnectionErrorCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

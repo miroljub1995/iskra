@@ -4,6 +4,42 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertionResult, global::Iskra.StdWeb.GenericMarshaller.Promise> GenerateAssertionCallback(string contents, string origin, global::Iskra.StdWeb.RTCIdentityProviderOptions options);
+public delegate global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertionResult, global::Iskra.StdWeb.GenericMarshaller.Promise> GenerateAssertionCallbackManaged(string contents, string origin, global::Iskra.StdWeb.RTCIdentityProviderOptions options);
+
+public partial class GenerateAssertionCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator GenerateAssertionCallback(GenerateAssertionCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6832) =>
+        {
+            using (__args_6832)
+            {
+                // Argument 1
+                string __arg_6834;
+                string __res_6835 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_6832, 0);
+                __arg_6834 = __res_6835;
+
+                // Argument 2
+                string __arg_6836;
+                string __res_6837 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_6832, 1);
+                __arg_6836 = __res_6837;
+
+                // Argument 3
+                global::Iskra.StdWeb.RTCIdentityProviderOptions __arg_6838;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6839 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6832, 2);
+                __arg_6838 = new global::Iskra.StdWeb.RTCIdentityProviderOptions(__res_6839);
+
+                input(__arg_6834, __arg_6836, __arg_6838);
+            }
+        };
+
+        return new global::Iskra.StdWeb.GenerateAssertionCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator GenerateAssertionCallbackManaged(GenerateAssertionCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

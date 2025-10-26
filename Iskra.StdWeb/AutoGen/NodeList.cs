@@ -10,10 +10,10 @@ public partial class NodeList(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            uint __res_4555;
-            double __res_4556 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_4555 = Convert.ToUInt32(__res_4556);
-            return __res_4555;
+            uint __res_4713;
+            double __res_4714 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_4713 = Convert.ToUInt32(__res_4714);
+            return __res_4713;
         }
     }
 }

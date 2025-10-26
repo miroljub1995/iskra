@@ -4,6 +4,29 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Promise NavigationInterceptHandler();
+public delegate global::Iskra.JSCore.Promise NavigationInterceptHandlerManaged();
+
+public partial class NavigationInterceptHandler(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator NavigationInterceptHandler(NavigationInterceptHandlerManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12069) =>
+        {
+            using (__args_12069)
+            {
+
+
+                input();
+            }
+        };
+
+        return new global::Iskra.StdWeb.NavigationInterceptHandler(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator NavigationInterceptHandlerManaged(NavigationInterceptHandler input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

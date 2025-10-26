@@ -10,32 +10,32 @@ public partial class Keyboard(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4160;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange");
-            if (__res_4161 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4313;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4314 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange");
+            if (__res_4314 is null)
             {
-                __res_4160 = null;
+                __res_4313 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4162 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4161;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4315 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4314;
+                __res_4313 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4315);
             }
-            return __res_4160;
+            return __res_4313;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4163;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4316;
             if (value is null)
             {
-                __marshalledValue_4163 = null;
+                __marshalledValue_4316 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4164 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4317 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4316 = __notNullable_4317.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange", __marshalledValue_4163);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange", __marshalledValue_4316);
         }
     }
 }

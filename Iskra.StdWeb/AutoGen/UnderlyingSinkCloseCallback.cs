@@ -4,6 +4,29 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Promise UnderlyingSinkCloseCallback();
+public delegate global::Iskra.JSCore.Promise UnderlyingSinkCloseCallbackManaged();
+
+public partial class UnderlyingSinkCloseCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator UnderlyingSinkCloseCallback(UnderlyingSinkCloseCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1877) =>
+        {
+            using (__args_1877)
+            {
+
+
+                input();
+            }
+        };
+
+        return new global::Iskra.StdWeb.UnderlyingSinkCloseCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator UnderlyingSinkCloseCallbackManaged(UnderlyingSinkCloseCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

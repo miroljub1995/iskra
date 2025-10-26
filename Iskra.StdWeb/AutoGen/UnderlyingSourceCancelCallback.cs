@@ -4,6 +4,40 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Promise UnderlyingSourceCancelCallback(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason);
+public delegate global::Iskra.JSCore.Promise UnderlyingSourceCancelCallbackManaged(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason);
+
+public partial class UnderlyingSourceCancelCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator UnderlyingSourceCancelCallback(UnderlyingSourceCancelCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1846) =>
+        {
+            using (__args_1846)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_1848;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1849;
+                __propObject_1849 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_1846, 0);
+                if (__propObject_1849 is null)
+                {
+                    __arg_1848 = null;
+                }
+                else
+                {
+                    __arg_1848 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1849);
+                }
+
+                input(__arg_1848);
+            }
+        };
+
+        return new global::Iskra.StdWeb.UnderlyingSourceCancelCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator UnderlyingSourceCancelCallbackManaged(UnderlyingSourceCancelCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

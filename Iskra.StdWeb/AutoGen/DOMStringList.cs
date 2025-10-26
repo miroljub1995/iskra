@@ -10,10 +10,10 @@ public partial class DOMStringList(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_7942;
-            double __res_7943 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_7942 = Convert.ToUInt32(__res_7943);
-            return __res_7942;
+            uint __res_8248;
+            double __res_8249 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_8248 = Convert.ToUInt32(__res_8249);
+            return __res_8248;
         }
     }
 }

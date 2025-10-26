@@ -4,6 +4,29 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise> ViewTransitionUpdateCallback();
+public delegate global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise> ViewTransitionUpdateCallbackManaged();
+
+public partial class ViewTransitionUpdateCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator ViewTransitionUpdateCallback(ViewTransitionUpdateCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12980) =>
+        {
+            using (__args_12980)
+            {
+
+
+                input();
+            }
+        };
+
+        return new global::Iskra.StdWeb.ViewTransitionUpdateCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator ViewTransitionUpdateCallbackManaged(ViewTransitionUpdateCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

@@ -44,10 +44,12 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
             __propObject_23 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "promisePropertyLongNullable");
             if (__propObject_23 is null)
             {
-                return null;
+                __res_22 = null;
             }
-
-            __res_22 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_23);
+            else
+            {
+                __res_22 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_23);
+            }
             return __res_22;
         }
         set
@@ -75,10 +77,12 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
             __propObject_26 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "promisePropertyLongReadOnlyNullableAsNull");
             if (__propObject_26 is null)
             {
-                return null;
+                __res_25 = null;
             }
-
-            __res_25 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_26);
+            else
+            {
+                __res_25 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_26);
+            }
             return __res_25;
         }
     }
@@ -92,10 +96,12 @@ public partial class TestPromiseProperties(global::System.Runtime.InteropService
             __propObject_28 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "promisePropertyLongReadOnlyNullableAsNotNull");
             if (__propObject_28 is null)
             {
-                return null;
+                __res_27 = null;
             }
-
-            __res_27 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_28);
+            else
+            {
+                __res_27 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Promise>(__propObject_28);
+            }
             return __res_27;
         }
     }

@@ -10,16 +10,16 @@ public partial class SVGStyleElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_1099;
-            string __res_1100 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1099 = __res_1100;
-            return __res_1099;
+            string __res_1103;
+            string __res_1104 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1103 = __res_1104;
+            return __res_1103;
         }
         set
         {
-            string __marshalledValue_1101;
-            __marshalledValue_1101 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1101);
+            string __marshalledValue_1105;
+            __marshalledValue_1105 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1105);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class SVGStyleElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_1102;
-            string __res_1103 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
-            __res_1102 = __res_1103;
-            return __res_1102;
+            string __res_1106;
+            string __res_1107 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_1106 = __res_1107;
+            return __res_1106;
         }
         set
         {
-            string __marshalledValue_1104;
-            __marshalledValue_1104 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_1104);
+            string __marshalledValue_1108;
+            __marshalledValue_1108 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_1108);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class SVGStyleElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_1105;
-            string __res_1106 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
-            __res_1105 = __res_1106;
-            return __res_1105;
+            string __res_1109;
+            string __res_1110 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
+            __res_1109 = __res_1110;
+            return __res_1109;
         }
         set
         {
-            string __marshalledValue_1107;
-            __marshalledValue_1107 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "title", __marshalledValue_1107);
+            string __marshalledValue_1111;
+            __marshalledValue_1111 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "title", __marshalledValue_1111);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class SVGStyleElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_1108;
-            bool __res_1109 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_1108 = __res_1109;
-            return __res_1108;
+            bool __res_1112;
+            bool __res_1113 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_1112 = __res_1113;
+            return __res_1112;
         }
         set
         {
-            bool __marshalledValue_1110;
-            __marshalledValue_1110 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_1110);
+            bool __marshalledValue_1114;
+            __marshalledValue_1114 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_1114);
         }
     }
 
@@ -78,18 +78,18 @@ public partial class SVGStyleElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleSheet? __res_1111;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1112 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sheet");
-            if (__res_1112 is null)
+            global::Iskra.StdWeb.CSSStyleSheet? __res_1115;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1116 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sheet");
+            if (__res_1116 is null)
             {
-                __res_1111 = null;
+                __res_1115 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1113 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1112;
-                __res_1111 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_1113);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1117 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1116;
+                __res_1115 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_1117);
             }
-            return __res_1111;
+            return __res_1115;
         }
     }
 }

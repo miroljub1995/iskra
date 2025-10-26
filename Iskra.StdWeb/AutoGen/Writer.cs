@@ -59,10 +59,12 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
             __propObject_252 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
             if (__propObject_252 is null)
             {
-                return null;
+                __res_251 = null;
             }
-
-            __res_251 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_252);
+            else
+            {
+                __res_251 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_252);
+            }
             return __res_251;
         }
     }
@@ -76,10 +78,12 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
             __propObject_254 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
             if (__propObject_254 is null)
             {
-                return null;
+                __res_253 = null;
             }
-
-            __res_253 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_254);
+            else
+            {
+                __res_253 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_254);
+            }
             return __res_253;
         }
     }

@@ -10,16 +10,16 @@ public partial class HTMLDetailsElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_10215;
-            string __res_10216 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_10215 = __res_10216;
-            return __res_10215;
+            string __res_10521;
+            string __res_10522 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_10521 = __res_10522;
+            return __res_10521;
         }
         set
         {
-            string __marshalledValue_10217;
-            __marshalledValue_10217 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10217);
+            string __marshalledValue_10523;
+            __marshalledValue_10523 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10523);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLDetailsElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            bool __res_10218;
-            bool __res_10219 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
-            __res_10218 = __res_10219;
-            return __res_10218;
+            bool __res_10524;
+            bool __res_10525 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
+            __res_10524 = __res_10525;
+            return __res_10524;
         }
         set
         {
-            bool __marshalledValue_10220;
-            __marshalledValue_10220 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_10220);
+            bool __marshalledValue_10526;
+            __marshalledValue_10526 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_10526);
         }
     }
 }

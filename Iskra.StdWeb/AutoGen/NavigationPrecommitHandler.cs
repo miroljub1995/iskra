@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Promise NavigationPrecommitHandler(global::Iskra.StdWeb.NavigationPrecommitController controller);
+public delegate global::Iskra.JSCore.Promise NavigationPrecommitHandlerManaged(global::Iskra.StdWeb.NavigationPrecommitController controller);
+
+public partial class NavigationPrecommitHandler(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator NavigationPrecommitHandler(NavigationPrecommitHandlerManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12071) =>
+        {
+            using (__args_12071)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.NavigationPrecommitController __arg_12073;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_12074 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_12071, 0);
+                __arg_12073 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationPrecommitController>(__res_12074);
+
+                input(__arg_12073);
+            }
+        };
+
+        return new global::Iskra.StdWeb.NavigationPrecommitHandler(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator NavigationPrecommitHandlerManaged(NavigationPrecommitHandler input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

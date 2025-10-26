@@ -118,6 +118,13 @@ public partial class IDLTypeDescriptionMarshaller(
                              """;
                 }
 
+                if (descriptor.RootType is CallbackType)
+                {
+                    return $$"""
+                             {{outputVar}} = new global::{{descriptor.Namespace}}.{{descriptor.Name}}({{inputVar}});
+                             """;
+                }
+
                 if (descriptor.RootType is CallbackInterfaceType)
                 {
                     return $$"""
@@ -198,6 +205,13 @@ public partial class IDLTypeDescriptionMarshaller(
                 }
 
                 if (descriptor.RootType is InterfaceType)
+                {
+                    return $$"""
+                             {{outputVar}} = {{inputVar}}.JSObject;
+                             """;
+                }
+
+                if (descriptor.RootType is CallbackType)
                 {
                     return $$"""
                              {{outputVar}} = {{inputVar}}.JSObject;

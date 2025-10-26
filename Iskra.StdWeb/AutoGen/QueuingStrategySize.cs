@@ -4,6 +4,40 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate double QueuingStrategySize(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? chunk);
+public delegate double QueuingStrategySizeManaged(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? chunk);
+
+public partial class QueuingStrategySize(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator QueuingStrategySize(QueuingStrategySizeManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1917) =>
+        {
+            using (__args_1917)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_1919;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1920;
+                __propObject_1920 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_1917, 0);
+                if (__propObject_1920 is null)
+                {
+                    __arg_1919 = null;
+                }
+                else
+                {
+                    __arg_1919 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1920);
+                }
+
+                input(__arg_1919);
+            }
+        };
+
+        return new global::Iskra.StdWeb.QueuingStrategySize(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator QueuingStrategySizeManaged(QueuingStrategySize input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

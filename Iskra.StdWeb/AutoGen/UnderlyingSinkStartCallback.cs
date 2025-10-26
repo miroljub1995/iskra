@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? UnderlyingSinkStartCallback(global::Iskra.StdWeb.WritableStreamDefaultController controller);
+public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? UnderlyingSinkStartCallbackManaged(global::Iskra.StdWeb.WritableStreamDefaultController controller);
+
+public partial class UnderlyingSinkStartCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator UnderlyingSinkStartCallback(UnderlyingSinkStartCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1867) =>
+        {
+            using (__args_1867)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.WritableStreamDefaultController __arg_1869;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1870 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1867, 0);
+                __arg_1869 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStreamDefaultController>(__res_1870);
+
+                input(__arg_1869);
+            }
+        };
+
+        return new global::Iskra.StdWeb.UnderlyingSinkStartCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator UnderlyingSinkStartCallbackManaged(UnderlyingSinkStartCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

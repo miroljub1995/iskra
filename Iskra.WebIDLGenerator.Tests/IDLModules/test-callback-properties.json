@@ -1,0 +1,171 @@
+{
+  "spec": {
+    "title": "HTML Standard",
+    "url": "https://html.spec.whatwg.org/multipage/"
+  },
+  "idlparsed": {
+    "idlNames": {
+      "TestCallbackPropertiesCallback": {
+        "fragment": "",
+        "type": "callback",
+        "name": "TestCallbackPropertiesCallback",
+        "arguments": [
+          {
+            "name": "value",
+            "idlType": {
+              "type": "argument-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "default": null,
+            "optional": false,
+            "variadic": false,
+            "extAttrs": []
+          }
+        ],
+        "idlType": {
+          "type": "return-type",
+          "extAttrs": [],
+          "generic": "",
+          "nullable": false,
+          "union": false,
+          "idlType": "undefined"
+        },
+        "extAttrs": []
+      },
+      "TestCallbackPropertiesVariadicCallback": {
+        "fragment": "",
+        "type": "callback",
+        "name": "TestCallbackPropertiesVariadicCallback",
+        "arguments": [
+          {
+            "name": "param1",
+            "idlType": {
+              "type": "argument-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long long"
+            },
+            "default": null,
+            "optional": false,
+            "variadic": false,
+            "extAttrs": []
+          },
+          {
+            "name": "values",
+            "idlType": {
+              "type": "argument-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "default": null,
+            "optional": false,
+            "variadic": true,
+            "extAttrs": []
+          }
+        ],
+        "idlType": {
+          "type": "return-type",
+          "extAttrs": [],
+          "generic": "",
+          "nullable": false,
+          "union": false,
+          "idlType": "undefined"
+        },
+        "extAttrs": []
+      },
+      "TestCallbackProperties": {
+        "fragment": "",
+        "type": "interface",
+        "name": "TestCallbackProperties",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "attribute",
+            "name": "voidCallback",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "TestCallbackPropertiesCallback"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "callVoidCallbackOnSet",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "variadicCallback",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "TestCallbackPropertiesVariadicCallback"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "callVariadicCallbackOnSet",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "sequence",
+              "nullable": false,
+              "union": false,
+              "idlType": [
+                {
+                  "type": "attribute-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "long"
+                }
+              ]
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          }
+        ],
+        "partial": false,
+        "extAttrs": []
+      }
+    }
+  }
+}
+

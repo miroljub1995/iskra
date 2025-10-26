@@ -10,10 +10,10 @@ public partial class RTCErrorEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.RTCError __res_3280;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3281 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
-            __res_3280 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCError>(__res_3281);
-            return __res_3280;
+            global::Iskra.StdWeb.RTCError __res_3403;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3404 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "error");
+            __res_3403 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCError>(__res_3404);
+            return __res_3403;
         }
     }
 }

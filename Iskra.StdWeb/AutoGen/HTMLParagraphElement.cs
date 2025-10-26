@@ -10,16 +10,16 @@ public partial class HTMLParagraphElement(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_8803;
-            string __res_8804 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_8803 = __res_8804;
-            return __res_8803;
+            string __res_9109;
+            string __res_9110 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_9109 = __res_9110;
+            return __res_9109;
         }
         set
         {
-            string __marshalledValue_8805;
-            __marshalledValue_8805 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_8805);
+            string __marshalledValue_9111;
+            __marshalledValue_9111 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9111);
         }
     }
 }

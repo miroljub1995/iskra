@@ -4,6 +4,38 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void ResizeObserverCallback(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> entries, global::Iskra.StdWeb.ResizeObserver observer);
+public delegate void ResizeObserverCallbackManaged(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> entries, global::Iskra.StdWeb.ResizeObserver observer);
+
+public partial class ResizeObserverCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator ResizeObserverCallback(ResizeObserverCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7611) =>
+        {
+            using (__args_7611)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_7613;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7614;
+                __propObject_7614 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7611, 0);
+                __arg_7613 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7614);
+
+                // Argument 2
+                global::Iskra.StdWeb.ResizeObserver __arg_7615;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_7616 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7611, 1);
+                __arg_7615 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ResizeObserver>(__res_7616);
+
+                input(__arg_7613, __arg_7615);
+            }
+        };
+
+        return new global::Iskra.StdWeb.ResizeObserverCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator ResizeObserverCallbackManaged(ResizeObserverCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

@@ -4,6 +4,45 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate bool Predicate(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value, ulong index);
+public delegate bool PredicateManaged(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value, ulong index);
+
+public partial class Predicate(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator Predicate(PredicateManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7896) =>
+        {
+            using (__args_7896)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_7898;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7899;
+                __propObject_7899 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_7896, 0);
+                if (__propObject_7899 is null)
+                {
+                    __arg_7898 = null;
+                }
+                else
+                {
+                    __arg_7898 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7899);
+                }
+
+                // Argument 2
+                ulong __arg_7900;
+                double __res_7901 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_7896, 1);
+                __arg_7900 = Convert.ToUInt64(__res_7901);
+
+                input(__arg_7898, __arg_7900);
+            }
+        };
+
+        return new global::Iskra.StdWeb.Predicate(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator PredicateManaged(Predicate input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

@@ -4,6 +4,40 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void ObservableInspectorAbortHandler(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value);
+public delegate void ObservableInspectorAbortHandlerManaged(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value);
+
+public partial class ObservableInspectorAbortHandler(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator ObservableInspectorAbortHandler(ObservableInspectorAbortHandlerManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7892) =>
+        {
+            using (__args_7892)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_7894;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7895;
+                __propObject_7895 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_7892, 0);
+                if (__propObject_7895 is null)
+                {
+                    __arg_7894 = null;
+                }
+                else
+                {
+                    __arg_7894 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7895);
+                }
+
+                input(__arg_7894);
+            }
+        };
+
+        return new global::Iskra.StdWeb.ObservableInspectorAbortHandler(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator ObservableInspectorAbortHandlerManaged(ObservableInspectorAbortHandler input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

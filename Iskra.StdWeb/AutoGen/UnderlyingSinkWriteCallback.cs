@@ -4,6 +4,45 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Promise UnderlyingSinkWriteCallback(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? chunk, global::Iskra.StdWeb.WritableStreamDefaultController controller);
+public delegate global::Iskra.JSCore.Promise UnderlyingSinkWriteCallbackManaged(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? chunk, global::Iskra.StdWeb.WritableStreamDefaultController controller);
+
+public partial class UnderlyingSinkWriteCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator UnderlyingSinkWriteCallback(UnderlyingSinkWriteCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1871) =>
+        {
+            using (__args_1871)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_1873;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1874;
+                __propObject_1874 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_1871, 0);
+                if (__propObject_1874 is null)
+                {
+                    __arg_1873 = null;
+                }
+                else
+                {
+                    __arg_1873 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1874);
+                }
+
+                // Argument 2
+                global::Iskra.StdWeb.WritableStreamDefaultController __arg_1875;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1876 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1871, 1);
+                __arg_1875 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStreamDefaultController>(__res_1876);
+
+                input(__arg_1873, __arg_1875);
+            }
+        };
+
+        return new global::Iskra.StdWeb.UnderlyingSinkWriteCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator UnderlyingSinkWriteCallbackManaged(UnderlyingSinkWriteCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

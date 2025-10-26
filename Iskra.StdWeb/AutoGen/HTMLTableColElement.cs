@@ -10,16 +10,16 @@ public partial class HTMLTableColElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            uint __res_9608;
-            double __res_9609 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "span");
-            __res_9608 = Convert.ToUInt32(__res_9609);
-            return __res_9608;
+            uint __res_9914;
+            double __res_9915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "span");
+            __res_9914 = Convert.ToUInt32(__res_9915);
+            return __res_9914;
         }
         set
         {
-            double __marshalledValue_9610;
-            __marshalledValue_9610 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "span", __marshalledValue_9610);
+            double __marshalledValue_9916;
+            __marshalledValue_9916 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "span", __marshalledValue_9916);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLTableColElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_9611;
-            string __res_9612 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_9611 = __res_9612;
-            return __res_9611;
+            string __res_9917;
+            string __res_9918 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_9917 = __res_9918;
+            return __res_9917;
         }
         set
         {
-            string __marshalledValue_9613;
-            __marshalledValue_9613 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9613);
+            string __marshalledValue_9919;
+            __marshalledValue_9919 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9919);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLTableColElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_9614;
-            string __res_9615 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ch");
-            __res_9614 = __res_9615;
-            return __res_9614;
+            string __res_9920;
+            string __res_9921 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ch");
+            __res_9920 = __res_9921;
+            return __res_9920;
         }
         set
         {
-            string __marshalledValue_9616;
-            __marshalledValue_9616 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ch", __marshalledValue_9616);
+            string __marshalledValue_9922;
+            __marshalledValue_9922 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ch", __marshalledValue_9922);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLTableColElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_9617;
-            string __res_9618 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "chOff");
-            __res_9617 = __res_9618;
-            return __res_9617;
+            string __res_9923;
+            string __res_9924 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "chOff");
+            __res_9923 = __res_9924;
+            return __res_9923;
         }
         set
         {
-            string __marshalledValue_9619;
-            __marshalledValue_9619 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "chOff", __marshalledValue_9619);
+            string __marshalledValue_9925;
+            __marshalledValue_9925 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "chOff", __marshalledValue_9925);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class HTMLTableColElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_9620;
-            string __res_9621 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vAlign");
-            __res_9620 = __res_9621;
-            return __res_9620;
+            string __res_9926;
+            string __res_9927 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vAlign");
+            __res_9926 = __res_9927;
+            return __res_9926;
         }
         set
         {
-            string __marshalledValue_9622;
-            __marshalledValue_9622 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "vAlign", __marshalledValue_9622);
+            string __marshalledValue_9928;
+            __marshalledValue_9928 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "vAlign", __marshalledValue_9928);
         }
     }
 
@@ -95,16 +95,16 @@ public partial class HTMLTableColElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_9623;
-            string __res_9624 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
-            __res_9623 = __res_9624;
-            return __res_9623;
+            string __res_9929;
+            string __res_9930 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
+            __res_9929 = __res_9930;
+            return __res_9929;
         }
         set
         {
-            string __marshalledValue_9625;
-            __marshalledValue_9625 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_9625);
+            string __marshalledValue_9931;
+            __marshalledValue_9931 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_9931);
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class PresentationConnectionCloseEvent(global::System.Runtime.Int
     {
         get
         {
-            global::Iskra.StdWeb.PresentationConnectionCloseReason __res_3528;
-            string __res_3529 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
-            __res_3528 = global::Iskra.StdWeb.PresentationConnectionCloseReason.Create(__res_3529);
-            return __res_3528;
+            global::Iskra.StdWeb.PresentationConnectionCloseReason __res_3651;
+            string __res_3652 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
+            __res_3651 = global::Iskra.StdWeb.PresentationConnectionCloseReason.Create(__res_3652);
+            return __res_3651;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PresentationConnectionCloseEvent(global::System.Runtime.Int
     {
         get
         {
-            string __res_3530;
-            string __res_3531 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_3530 = __res_3531;
-            return __res_3530;
+            string __res_3653;
+            string __res_3654 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_3653 = __res_3654;
+            return __res_3653;
         }
     }
 }

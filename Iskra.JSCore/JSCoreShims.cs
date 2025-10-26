@@ -155,6 +155,9 @@ public static partial class JSCoreShims
                                          managedTypeConstructor = v.constructor;
                                        }
                                      };
+
+                                     // Functions
+                                     export const wrapAsVoidFunction = (cb) => (...args) => cb(args);
                                      """;
 
         var encoded = Uri.EscapeDataString(moduleContent);

@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void RemotePlaybackAvailabilityCallback(bool available);
+public delegate void RemotePlaybackAvailabilityCallbackManaged(bool available);
+
+public partial class RemotePlaybackAvailabilityCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator RemotePlaybackAvailabilityCallback(RemotePlaybackAvailabilityCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_8083) =>
+        {
+            using (__args_8083)
+            {
+                // Argument 1
+                bool __arg_8085;
+                bool __res_8086 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(__args_8083, 0);
+                __arg_8085 = __res_8086;
+
+                input(__arg_8085);
+            }
+        };
+
+        return new global::Iskra.StdWeb.RemotePlaybackAvailabilityCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator RemotePlaybackAvailabilityCallbackManaged(RemotePlaybackAvailabilityCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

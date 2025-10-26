@@ -10,16 +10,16 @@ public partial class GPUCommandBuffer(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_1607;
-            string __res_1608 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1607 = __res_1608;
-            return __res_1607;
+            string __res_1615;
+            string __res_1616 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1615 = __res_1616;
+            return __res_1615;
         }
         set
         {
-            string __marshalledValue_1609;
-            __marshalledValue_1609 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1609);
+            string __marshalledValue_1617;
+            __marshalledValue_1617 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1617);
         }
     }
 }

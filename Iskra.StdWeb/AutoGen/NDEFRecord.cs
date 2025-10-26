@@ -10,10 +10,10 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_7300;
-            string __res_7301 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "recordType");
-            __res_7300 = __res_7301;
-            return __res_7300;
+            string __res_7535;
+            string __res_7536 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "recordType");
+            __res_7535 = __res_7536;
+            return __res_7535;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string? __res_7302;
-            string? __res_7303 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mediaType");
-            if (__res_7303 is null)
+            string? __res_7537;
+            string? __res_7538 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mediaType");
+            if (__res_7538 is null)
             {
-                __res_7302 = null;
+                __res_7537 = null;
             }
             else
             {
-                string __notNullable_7304 = (string)__res_7303;
-                __res_7302 = __notNullable_7304;
+                string __notNullable_7539 = (string)__res_7538;
+                __res_7537 = __notNullable_7539;
             }
-            return __res_7302;
+            return __res_7537;
         }
     }
 
@@ -40,18 +40,18 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string? __res_7305;
-            string? __res_7306 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
-            if (__res_7306 is null)
+            string? __res_7540;
+            string? __res_7541 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
+            if (__res_7541 is null)
             {
-                __res_7305 = null;
+                __res_7540 = null;
             }
             else
             {
-                string __notNullable_7307 = (string)__res_7306;
-                __res_7305 = __notNullable_7307;
+                string __notNullable_7542 = (string)__res_7541;
+                __res_7540 = __notNullable_7542;
             }
-            return __res_7305;
+            return __res_7540;
         }
     }
 
@@ -59,18 +59,18 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.JSCore.DataView? __res_7308;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7309 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_7309 is null)
+            global::Iskra.JSCore.DataView? __res_7543;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7544 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
+            if (__res_7544 is null)
             {
-                __res_7308 = null;
+                __res_7543 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7310 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7309;
-                __res_7308 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_7310);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7545 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7544;
+                __res_7543 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_7545);
             }
-            return __res_7308;
+            return __res_7543;
         }
     }
 
@@ -78,18 +78,18 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string? __res_7311;
-            string? __res_7312 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "encoding");
-            if (__res_7312 is null)
+            string? __res_7546;
+            string? __res_7547 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "encoding");
+            if (__res_7547 is null)
             {
-                __res_7311 = null;
+                __res_7546 = null;
             }
             else
             {
-                string __notNullable_7313 = (string)__res_7312;
-                __res_7311 = __notNullable_7313;
+                string __notNullable_7548 = (string)__res_7547;
+                __res_7546 = __notNullable_7548;
             }
-            return __res_7311;
+            return __res_7546;
         }
     }
 
@@ -97,18 +97,18 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string? __res_7314;
-            string? __res_7315 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "lang");
-            if (__res_7315 is null)
+            string? __res_7549;
+            string? __res_7550 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "lang");
+            if (__res_7550 is null)
             {
-                __res_7314 = null;
+                __res_7549 = null;
             }
             else
             {
-                string __notNullable_7316 = (string)__res_7315;
-                __res_7314 = __notNullable_7316;
+                string __notNullable_7551 = (string)__res_7550;
+                __res_7549 = __notNullable_7551;
             }
-            return __res_7314;
+            return __res_7549;
         }
     }
 }

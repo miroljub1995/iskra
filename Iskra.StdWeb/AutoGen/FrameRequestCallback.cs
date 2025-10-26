@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void FrameRequestCallback(double time);
+public delegate void FrameRequestCallbackManaged(double time);
+
+public partial class FrameRequestCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator FrameRequestCallback(FrameRequestCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12318) =>
+        {
+            using (__args_12318)
+            {
+                // Argument 1
+                double __arg_12320;
+                double __res_12321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_12318, 0);
+                __arg_12320 = __res_12321;
+
+                input(__arg_12320);
+            }
+        };
+
+        return new global::Iskra.StdWeb.FrameRequestCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator FrameRequestCallbackManaged(FrameRequestCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

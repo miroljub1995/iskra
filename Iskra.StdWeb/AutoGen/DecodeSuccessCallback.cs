@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void DecodeSuccessCallback(global::Iskra.StdWeb.AudioBuffer decodedData);
+public delegate void DecodeSuccessCallbackManaged(global::Iskra.StdWeb.AudioBuffer decodedData);
+
+public partial class DecodeSuccessCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator DecodeSuccessCallback(DecodeSuccessCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_13831) =>
+        {
+            using (__args_13831)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.AudioBuffer __arg_13833;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_13834 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_13831, 0);
+                __arg_13833 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(__res_13834);
+
+                input(__arg_13833);
+            }
+        };
+
+        return new global::Iskra.StdWeb.DecodeSuccessCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator DecodeSuccessCallbackManaged(DecodeSuccessCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

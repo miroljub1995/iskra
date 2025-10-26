@@ -59,10 +59,12 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
             __propObject_269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
             if (__propObject_269 is null)
             {
-                return null;
+                __res_268 = null;
             }
-
-            __res_268 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_269);
+            else
+            {
+                __res_268 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_269);
+            }
             return __res_268;
         }
     }
@@ -76,10 +78,12 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
             __propObject_271 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
             if (__propObject_271 is null)
             {
-                return null;
+                __res_270 = null;
             }
-
-            __res_270 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_271);
+            else
+            {
+                __res_270 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_271);
+            }
             return __res_270;
         }
     }

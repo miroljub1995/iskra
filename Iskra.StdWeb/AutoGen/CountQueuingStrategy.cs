@@ -10,10 +10,10 @@ public partial class CountQueuingStrategy(global::System.Runtime.InteropServices
     {
         get
         {
-            double __res_1867;
-            double __res_1868 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
-            __res_1867 = __res_1868;
-            return __res_1867;
+            double __res_1925;
+            double __res_1926 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
+            __res_1925 = __res_1926;
+            return __res_1925;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CountQueuingStrategy(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.Function __res_1869;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1870 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Function } not supported.");
-            return __res_1869;
+            global::Iskra.StdWeb.Function __res_1927;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1928 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
+            __res_1927 = new global::Iskra.StdWeb.Function(__res_1928);
+            return __res_1927;
         }
     }
 }

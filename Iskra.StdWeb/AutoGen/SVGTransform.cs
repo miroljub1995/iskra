@@ -10,10 +10,10 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            ushort __res_1114;
-            double __res_1115 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            __res_1114 = Convert.ToUInt16(__res_1115);
-            return __res_1114;
+            ushort __res_1118;
+            double __res_1119 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
+            __res_1118 = Convert.ToUInt16(__res_1119);
+            return __res_1118;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.DOMMatrix __res_1116;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1117 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            __res_1116 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMMatrix>(__res_1117);
-            return __res_1116;
+            global::Iskra.StdWeb.DOMMatrix __res_1120;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1121 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
+            __res_1120 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMMatrix>(__res_1121);
+            return __res_1120;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            float __res_1118;
-            double __res_1119 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
-            __res_1118 = Convert.ToSingle(__res_1119);
-            return __res_1118;
+            float __res_1122;
+            double __res_1123 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
+            __res_1122 = Convert.ToSingle(__res_1123);
+            return __res_1122;
         }
     }
 }

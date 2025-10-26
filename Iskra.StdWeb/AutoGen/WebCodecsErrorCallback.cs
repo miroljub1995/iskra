@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void WebCodecsErrorCallback(global::Iskra.StdWeb.DOMException error);
+public delegate void WebCodecsErrorCallbackManaged(global::Iskra.StdWeb.DOMException error);
+
+public partial class WebCodecsErrorCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator WebCodecsErrorCallback(WebCodecsErrorCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3982) =>
+        {
+            using (__args_3982)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.DOMException __arg_3984;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3985 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3982, 0);
+                __arg_3984 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_3985);
+
+                input(__arg_3984);
+            }
+        };
+
+        return new global::Iskra.StdWeb.WebCodecsErrorCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator WebCodecsErrorCallbackManaged(WebCodecsErrorCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

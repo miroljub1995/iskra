@@ -10,10 +10,10 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothDevice __res_4056;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4057 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            __res_4056 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__res_4057);
-            return __res_4056;
+            global::Iskra.StdWeb.BluetoothDevice __res_4209;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4210 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            __res_4209 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__res_4210);
+            return __res_4209;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_4058;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4059;
-            __propObject_4059 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "uuids");
-            __res_4058 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_4059);
-            return __res_4058;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_4211;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4212;
+            __propObject_4212 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "uuids");
+            __res_4211 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_4212);
+            return __res_4211;
         }
     }
 
@@ -33,18 +33,18 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            string? __res_4060;
-            string? __res_4061 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_4061 is null)
+            string? __res_4213;
+            string? __res_4214 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
+            if (__res_4214 is null)
             {
-                __res_4060 = null;
+                __res_4213 = null;
             }
             else
             {
-                string __notNullable_4062 = (string)__res_4061;
-                __res_4060 = __notNullable_4062;
+                string __notNullable_4215 = (string)__res_4214;
+                __res_4213 = __notNullable_4215;
             }
-            return __res_4060;
+            return __res_4213;
         }
     }
 
@@ -52,18 +52,18 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            ushort? __res_4063;
-            double? __res_4064 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "appearance");
-            if (__res_4064 is null)
+            ushort? __res_4216;
+            double? __res_4217 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "appearance");
+            if (__res_4217 is null)
             {
-                __res_4063 = null;
+                __res_4216 = null;
             }
             else
             {
-                double __notNullable_4065 = (double)__res_4064;
-                __res_4063 = Convert.ToUInt16(__notNullable_4065);
+                double __notNullable_4218 = (double)__res_4217;
+                __res_4216 = Convert.ToUInt16(__notNullable_4218);
             }
-            return __res_4063;
+            return __res_4216;
         }
     }
 
@@ -71,18 +71,18 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            sbyte? __res_4066;
-            double? __res_4067 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "txPower");
-            if (__res_4067 is null)
+            sbyte? __res_4219;
+            double? __res_4220 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "txPower");
+            if (__res_4220 is null)
             {
-                __res_4066 = null;
+                __res_4219 = null;
             }
             else
             {
-                double __notNullable_4068 = (double)__res_4067;
-                __res_4066 = Convert.ToSByte(__notNullable_4068);
+                double __notNullable_4221 = (double)__res_4220;
+                __res_4219 = Convert.ToSByte(__notNullable_4221);
             }
-            return __res_4066;
+            return __res_4219;
         }
     }
 
@@ -90,18 +90,18 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            sbyte? __res_4069;
-            double? __res_4070 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "rssi");
-            if (__res_4070 is null)
+            sbyte? __res_4222;
+            double? __res_4223 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "rssi");
+            if (__res_4223 is null)
             {
-                __res_4069 = null;
+                __res_4222 = null;
             }
             else
             {
-                double __notNullable_4071 = (double)__res_4070;
-                __res_4069 = Convert.ToSByte(__notNullable_4071);
+                double __notNullable_4224 = (double)__res_4223;
+                __res_4222 = Convert.ToSByte(__notNullable_4224);
             }
-            return __res_4069;
+            return __res_4222;
         }
     }
 
@@ -109,10 +109,10 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothManufacturerDataMap __res_4072;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4073 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "manufacturerData");
-            __res_4072 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothManufacturerDataMap>(__res_4073);
-            return __res_4072;
+            global::Iskra.StdWeb.BluetoothManufacturerDataMap __res_4225;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4226 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "manufacturerData");
+            __res_4225 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothManufacturerDataMap>(__res_4226);
+            return __res_4225;
         }
     }
 
@@ -120,10 +120,10 @@ public partial class BluetoothAdvertisingEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothServiceDataMap __res_4074;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4075 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceData");
-            __res_4074 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothServiceDataMap>(__res_4075);
-            return __res_4074;
+            global::Iskra.StdWeb.BluetoothServiceDataMap __res_4227;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4228 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceData");
+            __res_4227 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothServiceDataMap>(__res_4228);
+            return __res_4227;
         }
     }
 }

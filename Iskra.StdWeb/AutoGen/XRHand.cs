@@ -10,10 +10,10 @@ public partial class XRHand(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            uint __res_6207;
-            double __res_6208 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_6207 = Convert.ToUInt32(__res_6208);
-            return __res_6207;
+            uint __res_6392;
+            double __res_6393 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_6392 = Convert.ToUInt32(__res_6393);
+            return __res_6392;
         }
     }
 }

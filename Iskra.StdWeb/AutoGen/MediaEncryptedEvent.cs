@@ -10,10 +10,10 @@ public partial class MediaEncryptedEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_7884;
-            string __res_7885 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "initDataType");
-            __res_7884 = __res_7885;
-            return __res_7884;
+            string __res_8181;
+            string __res_8182 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "initDataType");
+            __res_8181 = __res_8182;
+            return __res_8181;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class MediaEncryptedEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer? __res_7886;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7887 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "initData");
-            if (__res_7887 is null)
+            global::Iskra.JSCore.ArrayBuffer? __res_8183;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8184 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "initData");
+            if (__res_8184 is null)
             {
-                __res_7886 = null;
+                __res_8183 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7888 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7887;
-                __res_7886 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__notNullable_7888);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8185 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8184;
+                __res_8183 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__notNullable_8185);
             }
-            return __res_7886;
+            return __res_8183;
         }
     }
 }

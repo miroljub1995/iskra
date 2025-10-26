@@ -10,18 +10,18 @@ public partial class KeyFrameRequestEvent(global::System.Runtime.InteropServices
     {
         get
         {
-            string? __res_1947;
-            string? __res_1948 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "rid");
-            if (__res_1948 is null)
+            string? __res_2013;
+            string? __res_2014 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "rid");
+            if (__res_2014 is null)
             {
-                __res_1947 = null;
+                __res_2013 = null;
             }
             else
             {
-                string __notNullable_1949 = (string)__res_1948;
-                __res_1947 = __notNullable_1949;
+                string __notNullable_2015 = (string)__res_2014;
+                __res_2013 = __notNullable_2015;
             }
-            return __res_1947;
+            return __res_2013;
         }
     }
 }

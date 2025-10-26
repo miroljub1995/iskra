@@ -10,10 +10,10 @@ public partial class TextDecoder(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1950;
-            string __res_1951 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
-            __res_1950 = __res_1951;
-            return __res_1950;
+            string __res_2016;
+            string __res_2017 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
+            __res_2016 = __res_2017;
+            return __res_2016;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TextDecoder(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_1952;
-            bool __res_1953 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "fatal");
-            __res_1952 = __res_1953;
-            return __res_1952;
+            bool __res_2018;
+            bool __res_2019 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "fatal");
+            __res_2018 = __res_2019;
+            return __res_2018;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class TextDecoder(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_1954;
-            bool __res_1955 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreBOM");
-            __res_1954 = __res_1955;
-            return __res_1954;
+            bool __res_2020;
+            bool __res_2021 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreBOM");
+            __res_2020 = __res_2021;
+            return __res_2020;
         }
     }
 }

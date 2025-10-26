@@ -10,16 +10,16 @@ public partial class GPUPipelineLayout(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_1579;
-            string __res_1580 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1579 = __res_1580;
-            return __res_1579;
+            string __res_1587;
+            string __res_1588 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1587 = __res_1588;
+            return __res_1587;
         }
         set
         {
-            string __marshalledValue_1581;
-            __marshalledValue_1581 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1581);
+            string __marshalledValue_1589;
+            __marshalledValue_1589 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1589);
         }
     }
 }

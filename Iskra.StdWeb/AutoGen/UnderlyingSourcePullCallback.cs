@@ -4,6 +4,33 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Promise UnderlyingSourcePullCallback(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union> controller);
+public delegate global::Iskra.JSCore.Promise UnderlyingSourcePullCallbackManaged(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union> controller);
+
+public partial class UnderlyingSourcePullCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator UnderlyingSourcePullCallback(UnderlyingSourcePullCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1842) =>
+        {
+            using (__args_1842)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union> __arg_1844;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1845;
+                __propObject_1845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(__args_1842, 0);
+                __arg_1844 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1845);
+
+                input(__arg_1844);
+            }
+        };
+
+        return new global::Iskra.StdWeb.UnderlyingSourcePullCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator UnderlyingSourcePullCallbackManaged(UnderlyingSourcePullCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

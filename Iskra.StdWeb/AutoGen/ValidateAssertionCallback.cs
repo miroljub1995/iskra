@@ -4,6 +4,37 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityValidationResult, global::Iskra.StdWeb.GenericMarshaller.Promise> ValidateAssertionCallback(string assertion, string origin);
+public delegate global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityValidationResult, global::Iskra.StdWeb.GenericMarshaller.Promise> ValidateAssertionCallbackManaged(string assertion, string origin);
+
+public partial class ValidateAssertionCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator ValidateAssertionCallback(ValidateAssertionCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6840) =>
+        {
+            using (__args_6840)
+            {
+                // Argument 1
+                string __arg_6842;
+                string __res_6843 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_6840, 0);
+                __arg_6842 = __res_6843;
+
+                // Argument 2
+                string __arg_6844;
+                string __res_6845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_6840, 1);
+                __arg_6844 = __res_6845;
+
+                input(__arg_6842, __arg_6844);
+            }
+        };
+
+        return new global::Iskra.StdWeb.ValidateAssertionCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator ValidateAssertionCallbackManaged(ValidateAssertionCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

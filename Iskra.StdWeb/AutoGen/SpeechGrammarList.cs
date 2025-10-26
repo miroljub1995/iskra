@@ -10,10 +10,10 @@ public partial class SpeechGrammarList(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_6537;
-            double __res_6538 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6537 = Convert.ToUInt32(__res_6538);
-            return __res_6537;
+            uint __res_6736;
+            double __res_6737 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6736 = Convert.ToUInt32(__res_6737);
+            return __res_6736;
         }
     }
 }

@@ -4,6 +4,37 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void EncodedAudioChunkOutputCallback(global::Iskra.StdWeb.EncodedAudioChunk output, global::Iskra.StdWeb.EncodedAudioChunkMetadata metadata);
+public delegate void EncodedAudioChunkOutputCallbackManaged(global::Iskra.StdWeb.EncodedAudioChunk output, global::Iskra.StdWeb.EncodedAudioChunkMetadata metadata);
+
+public partial class EncodedAudioChunkOutputCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator EncodedAudioChunkOutputCallback(EncodedAudioChunkOutputCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3961) =>
+        {
+            using (__args_3961)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.EncodedAudioChunk __arg_3963;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3964 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3961, 0);
+                __arg_3963 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EncodedAudioChunk>(__res_3964);
+
+                // Argument 2
+                global::Iskra.StdWeb.EncodedAudioChunkMetadata __arg_3965;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3966 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3961, 1);
+                __arg_3965 = new global::Iskra.StdWeb.EncodedAudioChunkMetadata(__res_3966);
+
+                input(__arg_3963, __arg_3965);
+            }
+        };
+
+        return new global::Iskra.StdWeb.EncodedAudioChunkOutputCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator EncodedAudioChunkOutputCallbackManaged(EncodedAudioChunkOutputCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

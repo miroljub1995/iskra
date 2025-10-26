@@ -10,32 +10,32 @@ public partial class AudioScheduledSourceNode(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13559;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13560 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
-            if (__res_13560 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_13916;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13917 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
+            if (__res_13917 is null)
             {
-                __res_13559 = null;
+                __res_13916 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13561 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13560;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13918 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13917;
+                __res_13916 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13918);
             }
-            return __res_13559;
+            return __res_13916;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13562;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13919;
             if (value is null)
             {
-                __marshalledValue_13562 = null;
+                __marshalledValue_13919 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13563 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13920 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_13919 = __notNullable_13920.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_13562);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_13919);
         }
     }
 }

@@ -4,6 +4,40 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise> LockGrantedCallback(global::Iskra.StdWeb.Lock? @lock);
+public delegate global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise> LockGrantedCallbackManaged(global::Iskra.StdWeb.Lock? @lock);
+
+public partial class LockGrantedCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator LockGrantedCallback(LockGrantedCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4387) =>
+        {
+            using (__args_4387)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.Lock? __arg_4389;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4390 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(__args_4387, 0);
+                if (__res_4390 is null)
+                {
+                    __arg_4389 = null;
+                }
+                else
+                {
+                    global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4391 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4390;
+                    __arg_4389 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Lock>(__notNullable_4391);
+                }
+
+                input(__arg_4389);
+            }
+        };
+
+        return new global::Iskra.StdWeb.LockGrantedCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator LockGrantedCallbackManaged(LockGrantedCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

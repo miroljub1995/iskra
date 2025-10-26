@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void PositionCallback(global::Iskra.StdWeb.GeolocationPosition position);
+public delegate void PositionCallbackManaged(global::Iskra.StdWeb.GeolocationPosition position);
+
+public partial class PositionCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator PositionCallback(PositionCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1929) =>
+        {
+            using (__args_1929)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.GeolocationPosition __arg_1931;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1932 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1929, 0);
+                __arg_1931 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPosition>(__res_1932);
+
+                input(__arg_1931);
+            }
+        };
+
+        return new global::Iskra.StdWeb.PositionCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator PositionCallbackManaged(PositionCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

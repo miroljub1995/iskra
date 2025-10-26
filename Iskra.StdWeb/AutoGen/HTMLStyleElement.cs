@@ -10,16 +10,16 @@ public partial class HTMLStyleElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_8658;
-            bool __res_8659 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_8658 = __res_8659;
-            return __res_8658;
+            bool __res_8964;
+            bool __res_8965 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_8964 = __res_8965;
+            return __res_8964;
         }
         set
         {
-            bool __marshalledValue_8660;
-            __marshalledValue_8660 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_8660);
+            bool __marshalledValue_8966;
+            __marshalledValue_8966 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_8966);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLStyleElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_8661;
-            string __res_8662 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
-            __res_8661 = __res_8662;
-            return __res_8661;
+            string __res_8967;
+            string __res_8968 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_8967 = __res_8968;
+            return __res_8967;
         }
         set
         {
-            string __marshalledValue_8663;
-            __marshalledValue_8663 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_8663);
+            string __marshalledValue_8969;
+            __marshalledValue_8969 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_8969);
         }
     }
 
@@ -44,10 +44,10 @@ public partial class HTMLStyleElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.DOMTokenList __res_8664;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8665 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "blocking");
-            __res_8664 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_8665);
-            return __res_8664;
+            global::Iskra.StdWeb.DOMTokenList __res_8970;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8971 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "blocking");
+            __res_8970 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_8971);
+            return __res_8970;
         }
     }
 
@@ -55,16 +55,16 @@ public partial class HTMLStyleElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_8666;
-            string __res_8667 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_8666 = __res_8667;
-            return __res_8666;
+            string __res_8972;
+            string __res_8973 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_8972 = __res_8973;
+            return __res_8972;
         }
         set
         {
-            string __marshalledValue_8668;
-            __marshalledValue_8668 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8668);
+            string __marshalledValue_8974;
+            __marshalledValue_8974 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_8974);
         }
     }
 
@@ -72,18 +72,18 @@ public partial class HTMLStyleElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleSheet? __res_8669;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8670 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sheet");
-            if (__res_8670 is null)
+            global::Iskra.StdWeb.CSSStyleSheet? __res_8975;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8976 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sheet");
+            if (__res_8976 is null)
             {
-                __res_8669 = null;
+                __res_8975 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8671 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8670;
-                __res_8669 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_8671);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8977 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8976;
+                __res_8975 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_8977);
             }
-            return __res_8669;
+            return __res_8975;
         }
     }
 }

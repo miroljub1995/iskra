@@ -10,10 +10,10 @@ public partial class PaymentMethodChangeEvent(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_12838;
-            string __res_12839 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
-            __res_12838 = __res_12839;
-            return __res_12838;
+            string __res_13187;
+            string __res_13188 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
+            __res_13187 = __res_13188;
+            return __res_13187;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class PaymentMethodChangeEvent(global::System.Runtime.InteropServ
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12840;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12841 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "methodDetails");
-            if (__res_12841 is null)
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13189;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13190 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "methodDetails");
+            if (__res_13190 is null)
             {
-                __res_12840 = null;
+                __res_13189 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12842 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12841;
-                __res_12840 = __notNullable_12842;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13191 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13190;
+                __res_13189 = __notNullable_13191;
             }
-            return __res_12840;
+            return __res_13189;
         }
     }
 }

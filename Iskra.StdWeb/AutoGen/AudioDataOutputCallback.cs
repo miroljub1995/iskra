@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void AudioDataOutputCallback(global::Iskra.StdWeb.AudioData output);
+public delegate void AudioDataOutputCallbackManaged(global::Iskra.StdWeb.AudioData output);
+
+public partial class AudioDataOutputCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator AudioDataOutputCallback(AudioDataOutputCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3935) =>
+        {
+            using (__args_3935)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.AudioData __arg_3937;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3938 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3935, 0);
+                __arg_3937 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioData>(__res_3938);
+
+                input(__arg_3937);
+            }
+        };
+
+        return new global::Iskra.StdWeb.AudioDataOutputCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator AudioDataOutputCallbackManaged(AudioDataOutputCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

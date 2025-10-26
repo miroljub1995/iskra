@@ -4,6 +4,38 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void MutationCallback(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> mutations, global::Iskra.StdWeb.MutationObserver observer);
+public delegate void MutationCallbackManaged(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> mutations, global::Iskra.StdWeb.MutationObserver observer);
+
+public partial class MutationCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator MutationCallback(MutationCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4717) =>
+        {
+            using (__args_4717)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_4719;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4720;
+                __propObject_4720 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4717, 0);
+                __arg_4719 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_4720);
+
+                // Argument 2
+                global::Iskra.StdWeb.MutationObserver __arg_4721;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4722 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4717, 1);
+                __arg_4721 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MutationObserver>(__res_4722);
+
+                input(__arg_4719, __arg_4721);
+            }
+        };
+
+        return new global::Iskra.StdWeb.MutationCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator MutationCallbackManaged(MutationCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

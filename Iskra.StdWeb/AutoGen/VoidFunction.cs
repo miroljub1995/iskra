@@ -4,6 +4,29 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void VoidFunction();
+public delegate void VoidFunctionManaged();
+
+public partial class VoidFunction(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator VoidFunction(VoidFunctionManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6079) =>
+        {
+            using (__args_6079)
+            {
+
+
+                input();
+            }
+        };
+
+        return new global::Iskra.StdWeb.VoidFunction(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator VoidFunctionManaged(VoidFunction input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

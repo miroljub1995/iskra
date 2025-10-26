@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void CreateMonitorCallback(global::Iskra.StdWeb.CreateMonitor monitor);
+public delegate void CreateMonitorCallbackManaged(global::Iskra.StdWeb.CreateMonitor monitor);
+
+public partial class CreateMonitorCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator CreateMonitorCallback(CreateMonitorCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_282) =>
+        {
+            using (__args_282)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.CreateMonitor __arg_284;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_282, 0);
+                __arg_284 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CreateMonitor>(__res_285);
+
+                input(__arg_284);
+            }
+        };
+
+        return new global::Iskra.StdWeb.CreateMonitorCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator CreateMonitorCallbackManaged(CreateMonitorCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

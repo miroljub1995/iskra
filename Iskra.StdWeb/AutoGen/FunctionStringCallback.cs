@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void FunctionStringCallback(string data);
+public delegate void FunctionStringCallbackManaged(string data);
+
+public partial class FunctionStringCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator FunctionStringCallback(FunctionStringCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_11137) =>
+        {
+            using (__args_11137)
+            {
+                // Argument 1
+                string __arg_11139;
+                string __res_11140 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_11137, 0);
+                __arg_11139 = __res_11140;
+
+                input(__arg_11139);
+            }
+        };
+
+        return new global::Iskra.StdWeb.FunctionStringCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator FunctionStringCallbackManaged(FunctionStringCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

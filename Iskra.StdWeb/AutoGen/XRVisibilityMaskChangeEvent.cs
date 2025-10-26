@@ -10,10 +10,10 @@ public partial class XRVisibilityMaskChangeEvent(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.XRSession __res_6878;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6879 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
-            __res_6878 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_6879);
-            return __res_6878;
+            global::Iskra.StdWeb.XRSession __res_7103;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7104 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            __res_7103 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_7104);
+            return __res_7103;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRVisibilityMaskChangeEvent(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.XREye __res_6880;
-            string __res_6881 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "eye");
-            __res_6880 = global::Iskra.StdWeb.XREye.Create(__res_6881);
-            return __res_6880;
+            global::Iskra.StdWeb.XREye __res_7105;
+            string __res_7106 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "eye");
+            __res_7105 = global::Iskra.StdWeb.XREye.Create(__res_7106);
+            return __res_7105;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class XRVisibilityMaskChangeEvent(global::System.Runtime.InteropS
     {
         get
         {
-            uint __res_6882;
-            double __res_6883 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_6882 = Convert.ToUInt32(__res_6883);
-            return __res_6882;
+            uint __res_7107;
+            double __res_7108 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_7107 = Convert.ToUInt32(__res_7108);
+            return __res_7107;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class XRVisibilityMaskChangeEvent(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.JSCore.Float32Array __res_6884;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6885 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertices");
-            __res_6884 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_6885);
-            return __res_6884;
+            global::Iskra.JSCore.Float32Array __res_7109;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7110 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertices");
+            __res_7109 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_7110);
+            return __res_7109;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class XRVisibilityMaskChangeEvent(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.JSCore.Uint32Array __res_6886;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6887 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
-            __res_6886 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Uint32Array>(__res_6887);
-            return __res_6886;
+            global::Iskra.JSCore.Uint32Array __res_7111;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7112 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
+            __res_7111 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Uint32Array>(__res_7112);
+            return __res_7111;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class GeolocationPosition(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.GeolocationCoordinates __res_1871;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1872 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "coords");
-            __res_1871 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationCoordinates>(__res_1872);
-            return __res_1871;
+            global::Iskra.StdWeb.GeolocationCoordinates __res_1937;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1938 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "coords");
+            __res_1937 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationCoordinates>(__res_1938);
+            return __res_1937;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GeolocationPosition(global::System.Runtime.InteropServices.
     {
         get
         {
-            ulong __res_1873;
-            double __res_1874 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_1873 = Convert.ToUInt64(__res_1874);
-            return __res_1873;
+            ulong __res_1939;
+            double __res_1940 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_1939 = Convert.ToUInt64(__res_1940);
+            return __res_1939;
         }
     }
 }

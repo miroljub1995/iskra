@@ -10,16 +10,16 @@ public partial class GPUCommandEncoder(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_1610;
-            string __res_1611 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1610 = __res_1611;
-            return __res_1610;
+            string __res_1618;
+            string __res_1619 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1618 = __res_1619;
+            return __res_1618;
         }
         set
         {
-            string __marshalledValue_1612;
-            __marshalledValue_1612 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1612);
+            string __marshalledValue_1620;
+            __marshalledValue_1620 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1620);
         }
     }
 }

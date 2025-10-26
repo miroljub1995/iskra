@@ -10,10 +10,10 @@ public partial class WindowControlsOverlay(global::System.Runtime.InteropService
     {
         get
         {
-            bool __res_4165;
-            bool __res_4166 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
-            __res_4165 = __res_4166;
-            return __res_4165;
+            bool __res_4318;
+            bool __res_4319 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
+            __res_4318 = __res_4319;
+            return __res_4318;
         }
     }
 
@@ -21,32 +21,32 @@ public partial class WindowControlsOverlay(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4167;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4168 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
-            if (__res_4168 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4320;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
+            if (__res_4321 is null)
             {
-                __res_4167 = null;
+                __res_4320 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4169 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4168;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } not supported.");
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4322 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4321;
+                __res_4320 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4322);
             }
-            return __res_4167;
+            return __res_4320;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4170;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4323;
             if (value is null)
             {
-                __marshalledValue_4170 = null;
+                __marshalledValue_4323 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4171 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = EventHandlerNonNull } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4324 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4323 = __notNullable_4324.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_4170);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_4323);
         }
     }
 }

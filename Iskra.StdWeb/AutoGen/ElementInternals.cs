@@ -10,18 +10,18 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.ShadowRoot? __res_10510;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10511 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shadowRoot");
-            if (__res_10511 is null)
+            global::Iskra.StdWeb.ShadowRoot? __res_10823;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10824 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shadowRoot");
+            if (__res_10824 is null)
             {
-                __res_10510 = null;
+                __res_10823 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10512 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10511;
-                __res_10510 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ShadowRoot>(__notNullable_10512);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10825 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10824;
+                __res_10823 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ShadowRoot>(__notNullable_10825);
             }
-            return __res_10510;
+            return __res_10823;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.HTMLFormElement? __res_10513;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10514 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_10514 is null)
+            global::Iskra.StdWeb.HTMLFormElement? __res_10826;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10827 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_10827 is null)
             {
-                __res_10513 = null;
+                __res_10826 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10515 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10514;
-                __res_10513 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_10515);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10828 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10827;
+                __res_10826 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_10828);
             }
-            return __res_10513;
+            return __res_10826;
         }
     }
 
@@ -48,10 +48,10 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_10516;
-            bool __res_10517 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
-            __res_10516 = __res_10517;
-            return __res_10516;
+            bool __res_10829;
+            bool __res_10830 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            __res_10829 = __res_10830;
+            return __res_10829;
         }
     }
 
@@ -59,10 +59,10 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.ValidityState __res_10518;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10519 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            __res_10518 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_10519);
-            return __res_10518;
+            global::Iskra.StdWeb.ValidityState __res_10831;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10832 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
+            __res_10831 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_10832);
+            return __res_10831;
         }
     }
 
@@ -70,10 +70,10 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_10520;
-            string __res_10521 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
-            __res_10520 = __res_10521;
-            return __res_10520;
+            string __res_10833;
+            string __res_10834 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
+            __res_10833 = __res_10834;
+            return __res_10833;
         }
     }
 
@@ -81,10 +81,10 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.NodeList __res_10522;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10523 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            __res_10522 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_10523);
-            return __res_10522;
+            global::Iskra.StdWeb.NodeList __res_10835;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10836 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
+            __res_10835 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_10836);
+            return __res_10835;
         }
     }
 
@@ -92,10 +92,10 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.CustomStateSet __res_10524;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10525 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "states");
-            __res_10524 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CustomStateSet>(__res_10525);
-            return __res_10524;
+            global::Iskra.StdWeb.CustomStateSet __res_10837;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10838 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "states");
+            __res_10837 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CustomStateSet>(__res_10838);
+            return __res_10837;
         }
     }
 
@@ -103,32 +103,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10526;
-            string? __res_10527 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "role");
-            if (__res_10527 is null)
+            string? __res_10839;
+            string? __res_10840 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "role");
+            if (__res_10840 is null)
             {
-                __res_10526 = null;
+                __res_10839 = null;
             }
             else
             {
-                string __notNullable_10528 = (string)__res_10527;
-                __res_10526 = __notNullable_10528;
+                string __notNullable_10841 = (string)__res_10840;
+                __res_10839 = __notNullable_10841;
             }
-            return __res_10526;
+            return __res_10839;
         }
         set
         {
-            string? __marshalledValue_10529;
+            string? __marshalledValue_10842;
             if (value is null)
             {
-                __marshalledValue_10529 = null;
+                __marshalledValue_10842 = null;
             }
             else
             {
-                string __notNullable_10530 = (string)value;
-                __marshalledValue_10529 = __notNullable_10530;
+                string __notNullable_10843 = (string)value;
+                __marshalledValue_10842 = __notNullable_10843;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "role", __marshalledValue_10529);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "role", __marshalledValue_10842);
         }
     }
 
@@ -136,32 +136,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_10531;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10532 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaActiveDescendantElement");
-            if (__res_10532 is null)
+            global::Iskra.StdWeb.Element? __res_10844;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaActiveDescendantElement");
+            if (__res_10845 is null)
             {
-                __res_10531 = null;
+                __res_10844 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10533 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10532;
-                __res_10531 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_10533);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10846 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10845;
+                __res_10844 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_10846);
             }
-            return __res_10531;
+            return __res_10844;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10534;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10847;
             if (value is null)
             {
-                __marshalledValue_10534 = null;
+                __marshalledValue_10847 = null;
             }
             else
             {
-                global::Iskra.StdWeb.Element __notNullable_10535 = (global::Iskra.StdWeb.Element)value;
-                __marshalledValue_10534 = __notNullable_10535.JSObject;
+                global::Iskra.StdWeb.Element __notNullable_10848 = (global::Iskra.StdWeb.Element)value;
+                __marshalledValue_10847 = __notNullable_10848.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaActiveDescendantElement", __marshalledValue_10534);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaActiveDescendantElement", __marshalledValue_10847);
         }
     }
 
@@ -169,32 +169,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10536;
-            string? __res_10537 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaAtomic");
-            if (__res_10537 is null)
+            string? __res_10849;
+            string? __res_10850 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaAtomic");
+            if (__res_10850 is null)
             {
-                __res_10536 = null;
+                __res_10849 = null;
             }
             else
             {
-                string __notNullable_10538 = (string)__res_10537;
-                __res_10536 = __notNullable_10538;
+                string __notNullable_10851 = (string)__res_10850;
+                __res_10849 = __notNullable_10851;
             }
-            return __res_10536;
+            return __res_10849;
         }
         set
         {
-            string? __marshalledValue_10539;
+            string? __marshalledValue_10852;
             if (value is null)
             {
-                __marshalledValue_10539 = null;
+                __marshalledValue_10852 = null;
             }
             else
             {
-                string __notNullable_10540 = (string)value;
-                __marshalledValue_10539 = __notNullable_10540;
+                string __notNullable_10853 = (string)value;
+                __marshalledValue_10852 = __notNullable_10853;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaAtomic", __marshalledValue_10539);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaAtomic", __marshalledValue_10852);
         }
     }
 
@@ -202,32 +202,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10541;
-            string? __res_10542 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaAutoComplete");
-            if (__res_10542 is null)
+            string? __res_10854;
+            string? __res_10855 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaAutoComplete");
+            if (__res_10855 is null)
             {
-                __res_10541 = null;
+                __res_10854 = null;
             }
             else
             {
-                string __notNullable_10543 = (string)__res_10542;
-                __res_10541 = __notNullable_10543;
+                string __notNullable_10856 = (string)__res_10855;
+                __res_10854 = __notNullable_10856;
             }
-            return __res_10541;
+            return __res_10854;
         }
         set
         {
-            string? __marshalledValue_10544;
+            string? __marshalledValue_10857;
             if (value is null)
             {
-                __marshalledValue_10544 = null;
+                __marshalledValue_10857 = null;
             }
             else
             {
-                string __notNullable_10545 = (string)value;
-                __marshalledValue_10544 = __notNullable_10545;
+                string __notNullable_10858 = (string)value;
+                __marshalledValue_10857 = __notNullable_10858;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaAutoComplete", __marshalledValue_10544);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaAutoComplete", __marshalledValue_10857);
         }
     }
 
@@ -235,32 +235,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10546;
-            string? __res_10547 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleLabel");
-            if (__res_10547 is null)
+            string? __res_10859;
+            string? __res_10860 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleLabel");
+            if (__res_10860 is null)
             {
-                __res_10546 = null;
+                __res_10859 = null;
             }
             else
             {
-                string __notNullable_10548 = (string)__res_10547;
-                __res_10546 = __notNullable_10548;
+                string __notNullable_10861 = (string)__res_10860;
+                __res_10859 = __notNullable_10861;
             }
-            return __res_10546;
+            return __res_10859;
         }
         set
         {
-            string? __marshalledValue_10549;
+            string? __marshalledValue_10862;
             if (value is null)
             {
-                __marshalledValue_10549 = null;
+                __marshalledValue_10862 = null;
             }
             else
             {
-                string __notNullable_10550 = (string)value;
-                __marshalledValue_10549 = __notNullable_10550;
+                string __notNullable_10863 = (string)value;
+                __marshalledValue_10862 = __notNullable_10863;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleLabel", __marshalledValue_10549);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleLabel", __marshalledValue_10862);
         }
     }
 
@@ -268,32 +268,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10551;
-            string? __res_10552 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleRoleDescription");
-            if (__res_10552 is null)
+            string? __res_10864;
+            string? __res_10865 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleRoleDescription");
+            if (__res_10865 is null)
             {
-                __res_10551 = null;
+                __res_10864 = null;
             }
             else
             {
-                string __notNullable_10553 = (string)__res_10552;
-                __res_10551 = __notNullable_10553;
+                string __notNullable_10866 = (string)__res_10865;
+                __res_10864 = __notNullable_10866;
             }
-            return __res_10551;
+            return __res_10864;
         }
         set
         {
-            string? __marshalledValue_10554;
+            string? __marshalledValue_10867;
             if (value is null)
             {
-                __marshalledValue_10554 = null;
+                __marshalledValue_10867 = null;
             }
             else
             {
-                string __notNullable_10555 = (string)value;
-                __marshalledValue_10554 = __notNullable_10555;
+                string __notNullable_10868 = (string)value;
+                __marshalledValue_10867 = __notNullable_10868;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleRoleDescription", __marshalledValue_10554);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBrailleRoleDescription", __marshalledValue_10867);
         }
     }
 
@@ -301,32 +301,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10556;
-            string? __res_10557 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaBusy");
-            if (__res_10557 is null)
+            string? __res_10869;
+            string? __res_10870 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaBusy");
+            if (__res_10870 is null)
             {
-                __res_10556 = null;
+                __res_10869 = null;
             }
             else
             {
-                string __notNullable_10558 = (string)__res_10557;
-                __res_10556 = __notNullable_10558;
+                string __notNullable_10871 = (string)__res_10870;
+                __res_10869 = __notNullable_10871;
             }
-            return __res_10556;
+            return __res_10869;
         }
         set
         {
-            string? __marshalledValue_10559;
+            string? __marshalledValue_10872;
             if (value is null)
             {
-                __marshalledValue_10559 = null;
+                __marshalledValue_10872 = null;
             }
             else
             {
-                string __notNullable_10560 = (string)value;
-                __marshalledValue_10559 = __notNullable_10560;
+                string __notNullable_10873 = (string)value;
+                __marshalledValue_10872 = __notNullable_10873;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBusy", __marshalledValue_10559);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaBusy", __marshalledValue_10872);
         }
     }
 
@@ -334,32 +334,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10561;
-            string? __res_10562 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaChecked");
-            if (__res_10562 is null)
+            string? __res_10874;
+            string? __res_10875 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaChecked");
+            if (__res_10875 is null)
             {
-                __res_10561 = null;
+                __res_10874 = null;
             }
             else
             {
-                string __notNullable_10563 = (string)__res_10562;
-                __res_10561 = __notNullable_10563;
+                string __notNullable_10876 = (string)__res_10875;
+                __res_10874 = __notNullable_10876;
             }
-            return __res_10561;
+            return __res_10874;
         }
         set
         {
-            string? __marshalledValue_10564;
+            string? __marshalledValue_10877;
             if (value is null)
             {
-                __marshalledValue_10564 = null;
+                __marshalledValue_10877 = null;
             }
             else
             {
-                string __notNullable_10565 = (string)value;
-                __marshalledValue_10564 = __notNullable_10565;
+                string __notNullable_10878 = (string)value;
+                __marshalledValue_10877 = __notNullable_10878;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaChecked", __marshalledValue_10564);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaChecked", __marshalledValue_10877);
         }
     }
 
@@ -367,32 +367,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10566;
-            string? __res_10567 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaColCount");
-            if (__res_10567 is null)
+            string? __res_10879;
+            string? __res_10880 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaColCount");
+            if (__res_10880 is null)
             {
-                __res_10566 = null;
+                __res_10879 = null;
             }
             else
             {
-                string __notNullable_10568 = (string)__res_10567;
-                __res_10566 = __notNullable_10568;
+                string __notNullable_10881 = (string)__res_10880;
+                __res_10879 = __notNullable_10881;
             }
-            return __res_10566;
+            return __res_10879;
         }
         set
         {
-            string? __marshalledValue_10569;
+            string? __marshalledValue_10882;
             if (value is null)
             {
-                __marshalledValue_10569 = null;
+                __marshalledValue_10882 = null;
             }
             else
             {
-                string __notNullable_10570 = (string)value;
-                __marshalledValue_10569 = __notNullable_10570;
+                string __notNullable_10883 = (string)value;
+                __marshalledValue_10882 = __notNullable_10883;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColCount", __marshalledValue_10569);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColCount", __marshalledValue_10882);
         }
     }
 
@@ -400,32 +400,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10571;
-            string? __res_10572 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaColIndex");
-            if (__res_10572 is null)
+            string? __res_10884;
+            string? __res_10885 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaColIndex");
+            if (__res_10885 is null)
             {
-                __res_10571 = null;
+                __res_10884 = null;
             }
             else
             {
-                string __notNullable_10573 = (string)__res_10572;
-                __res_10571 = __notNullable_10573;
+                string __notNullable_10886 = (string)__res_10885;
+                __res_10884 = __notNullable_10886;
             }
-            return __res_10571;
+            return __res_10884;
         }
         set
         {
-            string? __marshalledValue_10574;
+            string? __marshalledValue_10887;
             if (value is null)
             {
-                __marshalledValue_10574 = null;
+                __marshalledValue_10887 = null;
             }
             else
             {
-                string __notNullable_10575 = (string)value;
-                __marshalledValue_10574 = __notNullable_10575;
+                string __notNullable_10888 = (string)value;
+                __marshalledValue_10887 = __notNullable_10888;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColIndex", __marshalledValue_10574);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColIndex", __marshalledValue_10887);
         }
     }
 
@@ -433,32 +433,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10576;
-            string? __res_10577 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaColIndexText");
-            if (__res_10577 is null)
+            string? __res_10889;
+            string? __res_10890 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaColIndexText");
+            if (__res_10890 is null)
             {
-                __res_10576 = null;
+                __res_10889 = null;
             }
             else
             {
-                string __notNullable_10578 = (string)__res_10577;
-                __res_10576 = __notNullable_10578;
+                string __notNullable_10891 = (string)__res_10890;
+                __res_10889 = __notNullable_10891;
             }
-            return __res_10576;
+            return __res_10889;
         }
         set
         {
-            string? __marshalledValue_10579;
+            string? __marshalledValue_10892;
             if (value is null)
             {
-                __marshalledValue_10579 = null;
+                __marshalledValue_10892 = null;
             }
             else
             {
-                string __notNullable_10580 = (string)value;
-                __marshalledValue_10579 = __notNullable_10580;
+                string __notNullable_10893 = (string)value;
+                __marshalledValue_10892 = __notNullable_10893;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColIndexText", __marshalledValue_10579);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColIndexText", __marshalledValue_10892);
         }
     }
 
@@ -466,32 +466,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10581;
-            string? __res_10582 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaColSpan");
-            if (__res_10582 is null)
+            string? __res_10894;
+            string? __res_10895 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaColSpan");
+            if (__res_10895 is null)
             {
-                __res_10581 = null;
+                __res_10894 = null;
             }
             else
             {
-                string __notNullable_10583 = (string)__res_10582;
-                __res_10581 = __notNullable_10583;
+                string __notNullable_10896 = (string)__res_10895;
+                __res_10894 = __notNullable_10896;
             }
-            return __res_10581;
+            return __res_10894;
         }
         set
         {
-            string? __marshalledValue_10584;
+            string? __marshalledValue_10897;
             if (value is null)
             {
-                __marshalledValue_10584 = null;
+                __marshalledValue_10897 = null;
             }
             else
             {
-                string __notNullable_10585 = (string)value;
-                __marshalledValue_10584 = __notNullable_10585;
+                string __notNullable_10898 = (string)value;
+                __marshalledValue_10897 = __notNullable_10898;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColSpan", __marshalledValue_10584);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaColSpan", __marshalledValue_10897);
         }
     }
 
@@ -499,30 +499,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10586;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10587;
-            __propObject_10587 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaControlsElements");
-            if (__propObject_10587 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10899;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10900;
+            __propObject_10900 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaControlsElements");
+            if (__propObject_10900 is null)
             {
-                return null;
-            }
-
-            __res_10586 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10587);
-            return __res_10586;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10588;
-            if (value is null)
-            {
-                __propObject_10588 = null;
+                __res_10899 = null;
             }
             else
             {
-                __propObject_10588 = value.JSObject;
+                __res_10899 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10900);
+            }
+            return __res_10899;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10901;
+            if (value is null)
+            {
+                __propObject_10901 = null;
+            }
+            else
+            {
+                __propObject_10901 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaControlsElements", __propObject_10588);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaControlsElements", __propObject_10901);
         }
     }
 
@@ -530,32 +532,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10589;
-            string? __res_10590 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaCurrent");
-            if (__res_10590 is null)
+            string? __res_10902;
+            string? __res_10903 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaCurrent");
+            if (__res_10903 is null)
             {
-                __res_10589 = null;
+                __res_10902 = null;
             }
             else
             {
-                string __notNullable_10591 = (string)__res_10590;
-                __res_10589 = __notNullable_10591;
+                string __notNullable_10904 = (string)__res_10903;
+                __res_10902 = __notNullable_10904;
             }
-            return __res_10589;
+            return __res_10902;
         }
         set
         {
-            string? __marshalledValue_10592;
+            string? __marshalledValue_10905;
             if (value is null)
             {
-                __marshalledValue_10592 = null;
+                __marshalledValue_10905 = null;
             }
             else
             {
-                string __notNullable_10593 = (string)value;
-                __marshalledValue_10592 = __notNullable_10593;
+                string __notNullable_10906 = (string)value;
+                __marshalledValue_10905 = __notNullable_10906;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaCurrent", __marshalledValue_10592);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaCurrent", __marshalledValue_10905);
         }
     }
 
@@ -563,30 +565,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10594;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10595;
-            __propObject_10595 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDescribedByElements");
-            if (__propObject_10595 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10907;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10908;
+            __propObject_10908 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDescribedByElements");
+            if (__propObject_10908 is null)
             {
-                return null;
-            }
-
-            __res_10594 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10595);
-            return __res_10594;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10596;
-            if (value is null)
-            {
-                __propObject_10596 = null;
+                __res_10907 = null;
             }
             else
             {
-                __propObject_10596 = value.JSObject;
+                __res_10907 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10908);
+            }
+            return __res_10907;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10909;
+            if (value is null)
+            {
+                __propObject_10909 = null;
+            }
+            else
+            {
+                __propObject_10909 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDescribedByElements", __propObject_10596);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDescribedByElements", __propObject_10909);
         }
     }
 
@@ -594,32 +598,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10597;
-            string? __res_10598 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaDescription");
-            if (__res_10598 is null)
+            string? __res_10910;
+            string? __res_10911 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaDescription");
+            if (__res_10911 is null)
             {
-                __res_10597 = null;
+                __res_10910 = null;
             }
             else
             {
-                string __notNullable_10599 = (string)__res_10598;
-                __res_10597 = __notNullable_10599;
+                string __notNullable_10912 = (string)__res_10911;
+                __res_10910 = __notNullable_10912;
             }
-            return __res_10597;
+            return __res_10910;
         }
         set
         {
-            string? __marshalledValue_10600;
+            string? __marshalledValue_10913;
             if (value is null)
             {
-                __marshalledValue_10600 = null;
+                __marshalledValue_10913 = null;
             }
             else
             {
-                string __notNullable_10601 = (string)value;
-                __marshalledValue_10600 = __notNullable_10601;
+                string __notNullable_10914 = (string)value;
+                __marshalledValue_10913 = __notNullable_10914;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaDescription", __marshalledValue_10600);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaDescription", __marshalledValue_10913);
         }
     }
 
@@ -627,30 +631,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10602;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10603;
-            __propObject_10603 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDetailsElements");
-            if (__propObject_10603 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10915;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10916;
+            __propObject_10916 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDetailsElements");
+            if (__propObject_10916 is null)
             {
-                return null;
-            }
-
-            __res_10602 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10603);
-            return __res_10602;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10604;
-            if (value is null)
-            {
-                __propObject_10604 = null;
+                __res_10915 = null;
             }
             else
             {
-                __propObject_10604 = value.JSObject;
+                __res_10915 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10916);
+            }
+            return __res_10915;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10917;
+            if (value is null)
+            {
+                __propObject_10917 = null;
+            }
+            else
+            {
+                __propObject_10917 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDetailsElements", __propObject_10604);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaDetailsElements", __propObject_10917);
         }
     }
 
@@ -658,32 +664,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10605;
-            string? __res_10606 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaDisabled");
-            if (__res_10606 is null)
+            string? __res_10918;
+            string? __res_10919 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaDisabled");
+            if (__res_10919 is null)
             {
-                __res_10605 = null;
+                __res_10918 = null;
             }
             else
             {
-                string __notNullable_10607 = (string)__res_10606;
-                __res_10605 = __notNullable_10607;
+                string __notNullable_10920 = (string)__res_10919;
+                __res_10918 = __notNullable_10920;
             }
-            return __res_10605;
+            return __res_10918;
         }
         set
         {
-            string? __marshalledValue_10608;
+            string? __marshalledValue_10921;
             if (value is null)
             {
-                __marshalledValue_10608 = null;
+                __marshalledValue_10921 = null;
             }
             else
             {
-                string __notNullable_10609 = (string)value;
-                __marshalledValue_10608 = __notNullable_10609;
+                string __notNullable_10922 = (string)value;
+                __marshalledValue_10921 = __notNullable_10922;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaDisabled", __marshalledValue_10608);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaDisabled", __marshalledValue_10921);
         }
     }
 
@@ -691,30 +697,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10610;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10611;
-            __propObject_10611 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaErrorMessageElements");
-            if (__propObject_10611 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10923;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10924;
+            __propObject_10924 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaErrorMessageElements");
+            if (__propObject_10924 is null)
             {
-                return null;
-            }
-
-            __res_10610 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10611);
-            return __res_10610;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10612;
-            if (value is null)
-            {
-                __propObject_10612 = null;
+                __res_10923 = null;
             }
             else
             {
-                __propObject_10612 = value.JSObject;
+                __res_10923 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10924);
+            }
+            return __res_10923;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10925;
+            if (value is null)
+            {
+                __propObject_10925 = null;
+            }
+            else
+            {
+                __propObject_10925 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaErrorMessageElements", __propObject_10612);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaErrorMessageElements", __propObject_10925);
         }
     }
 
@@ -722,32 +730,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10613;
-            string? __res_10614 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaExpanded");
-            if (__res_10614 is null)
+            string? __res_10926;
+            string? __res_10927 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaExpanded");
+            if (__res_10927 is null)
             {
-                __res_10613 = null;
+                __res_10926 = null;
             }
             else
             {
-                string __notNullable_10615 = (string)__res_10614;
-                __res_10613 = __notNullable_10615;
+                string __notNullable_10928 = (string)__res_10927;
+                __res_10926 = __notNullable_10928;
             }
-            return __res_10613;
+            return __res_10926;
         }
         set
         {
-            string? __marshalledValue_10616;
+            string? __marshalledValue_10929;
             if (value is null)
             {
-                __marshalledValue_10616 = null;
+                __marshalledValue_10929 = null;
             }
             else
             {
-                string __notNullable_10617 = (string)value;
-                __marshalledValue_10616 = __notNullable_10617;
+                string __notNullable_10930 = (string)value;
+                __marshalledValue_10929 = __notNullable_10930;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaExpanded", __marshalledValue_10616);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaExpanded", __marshalledValue_10929);
         }
     }
 
@@ -755,30 +763,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10618;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10619;
-            __propObject_10619 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaFlowToElements");
-            if (__propObject_10619 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10931;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10932;
+            __propObject_10932 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaFlowToElements");
+            if (__propObject_10932 is null)
             {
-                return null;
-            }
-
-            __res_10618 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10619);
-            return __res_10618;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10620;
-            if (value is null)
-            {
-                __propObject_10620 = null;
+                __res_10931 = null;
             }
             else
             {
-                __propObject_10620 = value.JSObject;
+                __res_10931 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10932);
+            }
+            return __res_10931;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10933;
+            if (value is null)
+            {
+                __propObject_10933 = null;
+            }
+            else
+            {
+                __propObject_10933 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaFlowToElements", __propObject_10620);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaFlowToElements", __propObject_10933);
         }
     }
 
@@ -786,32 +796,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10621;
-            string? __res_10622 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaHasPopup");
-            if (__res_10622 is null)
+            string? __res_10934;
+            string? __res_10935 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaHasPopup");
+            if (__res_10935 is null)
             {
-                __res_10621 = null;
+                __res_10934 = null;
             }
             else
             {
-                string __notNullable_10623 = (string)__res_10622;
-                __res_10621 = __notNullable_10623;
+                string __notNullable_10936 = (string)__res_10935;
+                __res_10934 = __notNullable_10936;
             }
-            return __res_10621;
+            return __res_10934;
         }
         set
         {
-            string? __marshalledValue_10624;
+            string? __marshalledValue_10937;
             if (value is null)
             {
-                __marshalledValue_10624 = null;
+                __marshalledValue_10937 = null;
             }
             else
             {
-                string __notNullable_10625 = (string)value;
-                __marshalledValue_10624 = __notNullable_10625;
+                string __notNullable_10938 = (string)value;
+                __marshalledValue_10937 = __notNullable_10938;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaHasPopup", __marshalledValue_10624);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaHasPopup", __marshalledValue_10937);
         }
     }
 
@@ -819,32 +829,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10626;
-            string? __res_10627 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaHidden");
-            if (__res_10627 is null)
+            string? __res_10939;
+            string? __res_10940 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaHidden");
+            if (__res_10940 is null)
             {
-                __res_10626 = null;
+                __res_10939 = null;
             }
             else
             {
-                string __notNullable_10628 = (string)__res_10627;
-                __res_10626 = __notNullable_10628;
+                string __notNullable_10941 = (string)__res_10940;
+                __res_10939 = __notNullable_10941;
             }
-            return __res_10626;
+            return __res_10939;
         }
         set
         {
-            string? __marshalledValue_10629;
+            string? __marshalledValue_10942;
             if (value is null)
             {
-                __marshalledValue_10629 = null;
+                __marshalledValue_10942 = null;
             }
             else
             {
-                string __notNullable_10630 = (string)value;
-                __marshalledValue_10629 = __notNullable_10630;
+                string __notNullable_10943 = (string)value;
+                __marshalledValue_10942 = __notNullable_10943;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaHidden", __marshalledValue_10629);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaHidden", __marshalledValue_10942);
         }
     }
 
@@ -852,32 +862,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10631;
-            string? __res_10632 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaInvalid");
-            if (__res_10632 is null)
+            string? __res_10944;
+            string? __res_10945 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaInvalid");
+            if (__res_10945 is null)
             {
-                __res_10631 = null;
+                __res_10944 = null;
             }
             else
             {
-                string __notNullable_10633 = (string)__res_10632;
-                __res_10631 = __notNullable_10633;
+                string __notNullable_10946 = (string)__res_10945;
+                __res_10944 = __notNullable_10946;
             }
-            return __res_10631;
+            return __res_10944;
         }
         set
         {
-            string? __marshalledValue_10634;
+            string? __marshalledValue_10947;
             if (value is null)
             {
-                __marshalledValue_10634 = null;
+                __marshalledValue_10947 = null;
             }
             else
             {
-                string __notNullable_10635 = (string)value;
-                __marshalledValue_10634 = __notNullable_10635;
+                string __notNullable_10948 = (string)value;
+                __marshalledValue_10947 = __notNullable_10948;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaInvalid", __marshalledValue_10634);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaInvalid", __marshalledValue_10947);
         }
     }
 
@@ -885,32 +895,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10636;
-            string? __res_10637 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaKeyShortcuts");
-            if (__res_10637 is null)
+            string? __res_10949;
+            string? __res_10950 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaKeyShortcuts");
+            if (__res_10950 is null)
             {
-                __res_10636 = null;
+                __res_10949 = null;
             }
             else
             {
-                string __notNullable_10638 = (string)__res_10637;
-                __res_10636 = __notNullable_10638;
+                string __notNullable_10951 = (string)__res_10950;
+                __res_10949 = __notNullable_10951;
             }
-            return __res_10636;
+            return __res_10949;
         }
         set
         {
-            string? __marshalledValue_10639;
+            string? __marshalledValue_10952;
             if (value is null)
             {
-                __marshalledValue_10639 = null;
+                __marshalledValue_10952 = null;
             }
             else
             {
-                string __notNullable_10640 = (string)value;
-                __marshalledValue_10639 = __notNullable_10640;
+                string __notNullable_10953 = (string)value;
+                __marshalledValue_10952 = __notNullable_10953;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaKeyShortcuts", __marshalledValue_10639);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaKeyShortcuts", __marshalledValue_10952);
         }
     }
 
@@ -918,32 +928,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10641;
-            string? __res_10642 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaLabel");
-            if (__res_10642 is null)
+            string? __res_10954;
+            string? __res_10955 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaLabel");
+            if (__res_10955 is null)
             {
-                __res_10641 = null;
+                __res_10954 = null;
             }
             else
             {
-                string __notNullable_10643 = (string)__res_10642;
-                __res_10641 = __notNullable_10643;
+                string __notNullable_10956 = (string)__res_10955;
+                __res_10954 = __notNullable_10956;
             }
-            return __res_10641;
+            return __res_10954;
         }
         set
         {
-            string? __marshalledValue_10644;
+            string? __marshalledValue_10957;
             if (value is null)
             {
-                __marshalledValue_10644 = null;
+                __marshalledValue_10957 = null;
             }
             else
             {
-                string __notNullable_10645 = (string)value;
-                __marshalledValue_10644 = __notNullable_10645;
+                string __notNullable_10958 = (string)value;
+                __marshalledValue_10957 = __notNullable_10958;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLabel", __marshalledValue_10644);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLabel", __marshalledValue_10957);
         }
     }
 
@@ -951,30 +961,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10646;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10647;
-            __propObject_10647 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaLabelledByElements");
-            if (__propObject_10647 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10959;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10960;
+            __propObject_10960 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaLabelledByElements");
+            if (__propObject_10960 is null)
             {
-                return null;
-            }
-
-            __res_10646 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10647);
-            return __res_10646;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10648;
-            if (value is null)
-            {
-                __propObject_10648 = null;
+                __res_10959 = null;
             }
             else
             {
-                __propObject_10648 = value.JSObject;
+                __res_10959 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10960);
+            }
+            return __res_10959;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10961;
+            if (value is null)
+            {
+                __propObject_10961 = null;
+            }
+            else
+            {
+                __propObject_10961 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaLabelledByElements", __propObject_10648);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaLabelledByElements", __propObject_10961);
         }
     }
 
@@ -982,32 +994,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10649;
-            string? __res_10650 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaLevel");
-            if (__res_10650 is null)
+            string? __res_10962;
+            string? __res_10963 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaLevel");
+            if (__res_10963 is null)
             {
-                __res_10649 = null;
+                __res_10962 = null;
             }
             else
             {
-                string __notNullable_10651 = (string)__res_10650;
-                __res_10649 = __notNullable_10651;
+                string __notNullable_10964 = (string)__res_10963;
+                __res_10962 = __notNullable_10964;
             }
-            return __res_10649;
+            return __res_10962;
         }
         set
         {
-            string? __marshalledValue_10652;
+            string? __marshalledValue_10965;
             if (value is null)
             {
-                __marshalledValue_10652 = null;
+                __marshalledValue_10965 = null;
             }
             else
             {
-                string __notNullable_10653 = (string)value;
-                __marshalledValue_10652 = __notNullable_10653;
+                string __notNullable_10966 = (string)value;
+                __marshalledValue_10965 = __notNullable_10966;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLevel", __marshalledValue_10652);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLevel", __marshalledValue_10965);
         }
     }
 
@@ -1015,32 +1027,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10654;
-            string? __res_10655 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaLive");
-            if (__res_10655 is null)
+            string? __res_10967;
+            string? __res_10968 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaLive");
+            if (__res_10968 is null)
             {
-                __res_10654 = null;
+                __res_10967 = null;
             }
             else
             {
-                string __notNullable_10656 = (string)__res_10655;
-                __res_10654 = __notNullable_10656;
+                string __notNullable_10969 = (string)__res_10968;
+                __res_10967 = __notNullable_10969;
             }
-            return __res_10654;
+            return __res_10967;
         }
         set
         {
-            string? __marshalledValue_10657;
+            string? __marshalledValue_10970;
             if (value is null)
             {
-                __marshalledValue_10657 = null;
+                __marshalledValue_10970 = null;
             }
             else
             {
-                string __notNullable_10658 = (string)value;
-                __marshalledValue_10657 = __notNullable_10658;
+                string __notNullable_10971 = (string)value;
+                __marshalledValue_10970 = __notNullable_10971;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLive", __marshalledValue_10657);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaLive", __marshalledValue_10970);
         }
     }
 
@@ -1048,32 +1060,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10659;
-            string? __res_10660 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaModal");
-            if (__res_10660 is null)
+            string? __res_10972;
+            string? __res_10973 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaModal");
+            if (__res_10973 is null)
             {
-                __res_10659 = null;
+                __res_10972 = null;
             }
             else
             {
-                string __notNullable_10661 = (string)__res_10660;
-                __res_10659 = __notNullable_10661;
+                string __notNullable_10974 = (string)__res_10973;
+                __res_10972 = __notNullable_10974;
             }
-            return __res_10659;
+            return __res_10972;
         }
         set
         {
-            string? __marshalledValue_10662;
+            string? __marshalledValue_10975;
             if (value is null)
             {
-                __marshalledValue_10662 = null;
+                __marshalledValue_10975 = null;
             }
             else
             {
-                string __notNullable_10663 = (string)value;
-                __marshalledValue_10662 = __notNullable_10663;
+                string __notNullable_10976 = (string)value;
+                __marshalledValue_10975 = __notNullable_10976;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaModal", __marshalledValue_10662);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaModal", __marshalledValue_10975);
         }
     }
 
@@ -1081,32 +1093,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10664;
-            string? __res_10665 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaMultiLine");
-            if (__res_10665 is null)
+            string? __res_10977;
+            string? __res_10978 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaMultiLine");
+            if (__res_10978 is null)
             {
-                __res_10664 = null;
+                __res_10977 = null;
             }
             else
             {
-                string __notNullable_10666 = (string)__res_10665;
-                __res_10664 = __notNullable_10666;
+                string __notNullable_10979 = (string)__res_10978;
+                __res_10977 = __notNullable_10979;
             }
-            return __res_10664;
+            return __res_10977;
         }
         set
         {
-            string? __marshalledValue_10667;
+            string? __marshalledValue_10980;
             if (value is null)
             {
-                __marshalledValue_10667 = null;
+                __marshalledValue_10980 = null;
             }
             else
             {
-                string __notNullable_10668 = (string)value;
-                __marshalledValue_10667 = __notNullable_10668;
+                string __notNullable_10981 = (string)value;
+                __marshalledValue_10980 = __notNullable_10981;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaMultiLine", __marshalledValue_10667);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaMultiLine", __marshalledValue_10980);
         }
     }
 
@@ -1114,32 +1126,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10669;
-            string? __res_10670 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaMultiSelectable");
-            if (__res_10670 is null)
+            string? __res_10982;
+            string? __res_10983 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaMultiSelectable");
+            if (__res_10983 is null)
             {
-                __res_10669 = null;
+                __res_10982 = null;
             }
             else
             {
-                string __notNullable_10671 = (string)__res_10670;
-                __res_10669 = __notNullable_10671;
+                string __notNullable_10984 = (string)__res_10983;
+                __res_10982 = __notNullable_10984;
             }
-            return __res_10669;
+            return __res_10982;
         }
         set
         {
-            string? __marshalledValue_10672;
+            string? __marshalledValue_10985;
             if (value is null)
             {
-                __marshalledValue_10672 = null;
+                __marshalledValue_10985 = null;
             }
             else
             {
-                string __notNullable_10673 = (string)value;
-                __marshalledValue_10672 = __notNullable_10673;
+                string __notNullable_10986 = (string)value;
+                __marshalledValue_10985 = __notNullable_10986;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaMultiSelectable", __marshalledValue_10672);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaMultiSelectable", __marshalledValue_10985);
         }
     }
 
@@ -1147,32 +1159,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10674;
-            string? __res_10675 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaOrientation");
-            if (__res_10675 is null)
+            string? __res_10987;
+            string? __res_10988 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaOrientation");
+            if (__res_10988 is null)
             {
-                __res_10674 = null;
+                __res_10987 = null;
             }
             else
             {
-                string __notNullable_10676 = (string)__res_10675;
-                __res_10674 = __notNullable_10676;
+                string __notNullable_10989 = (string)__res_10988;
+                __res_10987 = __notNullable_10989;
             }
-            return __res_10674;
+            return __res_10987;
         }
         set
         {
-            string? __marshalledValue_10677;
+            string? __marshalledValue_10990;
             if (value is null)
             {
-                __marshalledValue_10677 = null;
+                __marshalledValue_10990 = null;
             }
             else
             {
-                string __notNullable_10678 = (string)value;
-                __marshalledValue_10677 = __notNullable_10678;
+                string __notNullable_10991 = (string)value;
+                __marshalledValue_10990 = __notNullable_10991;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaOrientation", __marshalledValue_10677);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaOrientation", __marshalledValue_10990);
         }
     }
 
@@ -1180,30 +1192,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10679;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10680;
-            __propObject_10680 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaOwnsElements");
-            if (__propObject_10680 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_10992;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10993;
+            __propObject_10993 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ariaOwnsElements");
+            if (__propObject_10993 is null)
             {
-                return null;
-            }
-
-            __res_10679 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10680);
-            return __res_10679;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10681;
-            if (value is null)
-            {
-                __propObject_10681 = null;
+                __res_10992 = null;
             }
             else
             {
-                __propObject_10681 = value.JSObject;
+                __res_10992 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10993);
+            }
+            return __res_10992;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10994;
+            if (value is null)
+            {
+                __propObject_10994 = null;
+            }
+            else
+            {
+                __propObject_10994 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaOwnsElements", __propObject_10681);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ariaOwnsElements", __propObject_10994);
         }
     }
 
@@ -1211,32 +1225,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10682;
-            string? __res_10683 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaPlaceholder");
-            if (__res_10683 is null)
+            string? __res_10995;
+            string? __res_10996 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaPlaceholder");
+            if (__res_10996 is null)
             {
-                __res_10682 = null;
+                __res_10995 = null;
             }
             else
             {
-                string __notNullable_10684 = (string)__res_10683;
-                __res_10682 = __notNullable_10684;
+                string __notNullable_10997 = (string)__res_10996;
+                __res_10995 = __notNullable_10997;
             }
-            return __res_10682;
+            return __res_10995;
         }
         set
         {
-            string? __marshalledValue_10685;
+            string? __marshalledValue_10998;
             if (value is null)
             {
-                __marshalledValue_10685 = null;
+                __marshalledValue_10998 = null;
             }
             else
             {
-                string __notNullable_10686 = (string)value;
-                __marshalledValue_10685 = __notNullable_10686;
+                string __notNullable_10999 = (string)value;
+                __marshalledValue_10998 = __notNullable_10999;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPlaceholder", __marshalledValue_10685);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPlaceholder", __marshalledValue_10998);
         }
     }
 
@@ -1244,32 +1258,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10687;
-            string? __res_10688 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaPosInSet");
-            if (__res_10688 is null)
+            string? __res_11000;
+            string? __res_11001 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaPosInSet");
+            if (__res_11001 is null)
             {
-                __res_10687 = null;
+                __res_11000 = null;
             }
             else
             {
-                string __notNullable_10689 = (string)__res_10688;
-                __res_10687 = __notNullable_10689;
+                string __notNullable_11002 = (string)__res_11001;
+                __res_11000 = __notNullable_11002;
             }
-            return __res_10687;
+            return __res_11000;
         }
         set
         {
-            string? __marshalledValue_10690;
+            string? __marshalledValue_11003;
             if (value is null)
             {
-                __marshalledValue_10690 = null;
+                __marshalledValue_11003 = null;
             }
             else
             {
-                string __notNullable_10691 = (string)value;
-                __marshalledValue_10690 = __notNullable_10691;
+                string __notNullable_11004 = (string)value;
+                __marshalledValue_11003 = __notNullable_11004;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPosInSet", __marshalledValue_10690);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPosInSet", __marshalledValue_11003);
         }
     }
 
@@ -1277,32 +1291,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10692;
-            string? __res_10693 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaPressed");
-            if (__res_10693 is null)
+            string? __res_11005;
+            string? __res_11006 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaPressed");
+            if (__res_11006 is null)
             {
-                __res_10692 = null;
+                __res_11005 = null;
             }
             else
             {
-                string __notNullable_10694 = (string)__res_10693;
-                __res_10692 = __notNullable_10694;
+                string __notNullable_11007 = (string)__res_11006;
+                __res_11005 = __notNullable_11007;
             }
-            return __res_10692;
+            return __res_11005;
         }
         set
         {
-            string? __marshalledValue_10695;
+            string? __marshalledValue_11008;
             if (value is null)
             {
-                __marshalledValue_10695 = null;
+                __marshalledValue_11008 = null;
             }
             else
             {
-                string __notNullable_10696 = (string)value;
-                __marshalledValue_10695 = __notNullable_10696;
+                string __notNullable_11009 = (string)value;
+                __marshalledValue_11008 = __notNullable_11009;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPressed", __marshalledValue_10695);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaPressed", __marshalledValue_11008);
         }
     }
 
@@ -1310,32 +1324,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10697;
-            string? __res_10698 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaReadOnly");
-            if (__res_10698 is null)
+            string? __res_11010;
+            string? __res_11011 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaReadOnly");
+            if (__res_11011 is null)
             {
-                __res_10697 = null;
+                __res_11010 = null;
             }
             else
             {
-                string __notNullable_10699 = (string)__res_10698;
-                __res_10697 = __notNullable_10699;
+                string __notNullable_11012 = (string)__res_11011;
+                __res_11010 = __notNullable_11012;
             }
-            return __res_10697;
+            return __res_11010;
         }
         set
         {
-            string? __marshalledValue_10700;
+            string? __marshalledValue_11013;
             if (value is null)
             {
-                __marshalledValue_10700 = null;
+                __marshalledValue_11013 = null;
             }
             else
             {
-                string __notNullable_10701 = (string)value;
-                __marshalledValue_10700 = __notNullable_10701;
+                string __notNullable_11014 = (string)value;
+                __marshalledValue_11013 = __notNullable_11014;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaReadOnly", __marshalledValue_10700);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaReadOnly", __marshalledValue_11013);
         }
     }
 
@@ -1343,32 +1357,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10702;
-            string? __res_10703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRelevant");
-            if (__res_10703 is null)
+            string? __res_11015;
+            string? __res_11016 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRelevant");
+            if (__res_11016 is null)
             {
-                __res_10702 = null;
+                __res_11015 = null;
             }
             else
             {
-                string __notNullable_10704 = (string)__res_10703;
-                __res_10702 = __notNullable_10704;
+                string __notNullable_11017 = (string)__res_11016;
+                __res_11015 = __notNullable_11017;
             }
-            return __res_10702;
+            return __res_11015;
         }
         set
         {
-            string? __marshalledValue_10705;
+            string? __marshalledValue_11018;
             if (value is null)
             {
-                __marshalledValue_10705 = null;
+                __marshalledValue_11018 = null;
             }
             else
             {
-                string __notNullable_10706 = (string)value;
-                __marshalledValue_10705 = __notNullable_10706;
+                string __notNullable_11019 = (string)value;
+                __marshalledValue_11018 = __notNullable_11019;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRelevant", __marshalledValue_10705);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRelevant", __marshalledValue_11018);
         }
     }
 
@@ -1376,32 +1390,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10707;
-            string? __res_10708 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRequired");
-            if (__res_10708 is null)
+            string? __res_11020;
+            string? __res_11021 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRequired");
+            if (__res_11021 is null)
             {
-                __res_10707 = null;
+                __res_11020 = null;
             }
             else
             {
-                string __notNullable_10709 = (string)__res_10708;
-                __res_10707 = __notNullable_10709;
+                string __notNullable_11022 = (string)__res_11021;
+                __res_11020 = __notNullable_11022;
             }
-            return __res_10707;
+            return __res_11020;
         }
         set
         {
-            string? __marshalledValue_10710;
+            string? __marshalledValue_11023;
             if (value is null)
             {
-                __marshalledValue_10710 = null;
+                __marshalledValue_11023 = null;
             }
             else
             {
-                string __notNullable_10711 = (string)value;
-                __marshalledValue_10710 = __notNullable_10711;
+                string __notNullable_11024 = (string)value;
+                __marshalledValue_11023 = __notNullable_11024;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRequired", __marshalledValue_10710);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRequired", __marshalledValue_11023);
         }
     }
 
@@ -1409,32 +1423,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10712;
-            string? __res_10713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRoleDescription");
-            if (__res_10713 is null)
+            string? __res_11025;
+            string? __res_11026 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRoleDescription");
+            if (__res_11026 is null)
             {
-                __res_10712 = null;
+                __res_11025 = null;
             }
             else
             {
-                string __notNullable_10714 = (string)__res_10713;
-                __res_10712 = __notNullable_10714;
+                string __notNullable_11027 = (string)__res_11026;
+                __res_11025 = __notNullable_11027;
             }
-            return __res_10712;
+            return __res_11025;
         }
         set
         {
-            string? __marshalledValue_10715;
+            string? __marshalledValue_11028;
             if (value is null)
             {
-                __marshalledValue_10715 = null;
+                __marshalledValue_11028 = null;
             }
             else
             {
-                string __notNullable_10716 = (string)value;
-                __marshalledValue_10715 = __notNullable_10716;
+                string __notNullable_11029 = (string)value;
+                __marshalledValue_11028 = __notNullable_11029;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRoleDescription", __marshalledValue_10715);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRoleDescription", __marshalledValue_11028);
         }
     }
 
@@ -1442,32 +1456,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10717;
-            string? __res_10718 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRowCount");
-            if (__res_10718 is null)
+            string? __res_11030;
+            string? __res_11031 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRowCount");
+            if (__res_11031 is null)
             {
-                __res_10717 = null;
+                __res_11030 = null;
             }
             else
             {
-                string __notNullable_10719 = (string)__res_10718;
-                __res_10717 = __notNullable_10719;
+                string __notNullable_11032 = (string)__res_11031;
+                __res_11030 = __notNullable_11032;
             }
-            return __res_10717;
+            return __res_11030;
         }
         set
         {
-            string? __marshalledValue_10720;
+            string? __marshalledValue_11033;
             if (value is null)
             {
-                __marshalledValue_10720 = null;
+                __marshalledValue_11033 = null;
             }
             else
             {
-                string __notNullable_10721 = (string)value;
-                __marshalledValue_10720 = __notNullable_10721;
+                string __notNullable_11034 = (string)value;
+                __marshalledValue_11033 = __notNullable_11034;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowCount", __marshalledValue_10720);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowCount", __marshalledValue_11033);
         }
     }
 
@@ -1475,32 +1489,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10722;
-            string? __res_10723 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndex");
-            if (__res_10723 is null)
+            string? __res_11035;
+            string? __res_11036 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndex");
+            if (__res_11036 is null)
             {
-                __res_10722 = null;
+                __res_11035 = null;
             }
             else
             {
-                string __notNullable_10724 = (string)__res_10723;
-                __res_10722 = __notNullable_10724;
+                string __notNullable_11037 = (string)__res_11036;
+                __res_11035 = __notNullable_11037;
             }
-            return __res_10722;
+            return __res_11035;
         }
         set
         {
-            string? __marshalledValue_10725;
+            string? __marshalledValue_11038;
             if (value is null)
             {
-                __marshalledValue_10725 = null;
+                __marshalledValue_11038 = null;
             }
             else
             {
-                string __notNullable_10726 = (string)value;
-                __marshalledValue_10725 = __notNullable_10726;
+                string __notNullable_11039 = (string)value;
+                __marshalledValue_11038 = __notNullable_11039;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndex", __marshalledValue_10725);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndex", __marshalledValue_11038);
         }
     }
 
@@ -1508,32 +1522,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10727;
-            string? __res_10728 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndexText");
-            if (__res_10728 is null)
+            string? __res_11040;
+            string? __res_11041 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndexText");
+            if (__res_11041 is null)
             {
-                __res_10727 = null;
+                __res_11040 = null;
             }
             else
             {
-                string __notNullable_10729 = (string)__res_10728;
-                __res_10727 = __notNullable_10729;
+                string __notNullable_11042 = (string)__res_11041;
+                __res_11040 = __notNullable_11042;
             }
-            return __res_10727;
+            return __res_11040;
         }
         set
         {
-            string? __marshalledValue_10730;
+            string? __marshalledValue_11043;
             if (value is null)
             {
-                __marshalledValue_10730 = null;
+                __marshalledValue_11043 = null;
             }
             else
             {
-                string __notNullable_10731 = (string)value;
-                __marshalledValue_10730 = __notNullable_10731;
+                string __notNullable_11044 = (string)value;
+                __marshalledValue_11043 = __notNullable_11044;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndexText", __marshalledValue_10730);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowIndexText", __marshalledValue_11043);
         }
     }
 
@@ -1541,32 +1555,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10732;
-            string? __res_10733 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRowSpan");
-            if (__res_10733 is null)
+            string? __res_11045;
+            string? __res_11046 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaRowSpan");
+            if (__res_11046 is null)
             {
-                __res_10732 = null;
+                __res_11045 = null;
             }
             else
             {
-                string __notNullable_10734 = (string)__res_10733;
-                __res_10732 = __notNullable_10734;
+                string __notNullable_11047 = (string)__res_11046;
+                __res_11045 = __notNullable_11047;
             }
-            return __res_10732;
+            return __res_11045;
         }
         set
         {
-            string? __marshalledValue_10735;
+            string? __marshalledValue_11048;
             if (value is null)
             {
-                __marshalledValue_10735 = null;
+                __marshalledValue_11048 = null;
             }
             else
             {
-                string __notNullable_10736 = (string)value;
-                __marshalledValue_10735 = __notNullable_10736;
+                string __notNullable_11049 = (string)value;
+                __marshalledValue_11048 = __notNullable_11049;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowSpan", __marshalledValue_10735);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaRowSpan", __marshalledValue_11048);
         }
     }
 
@@ -1574,32 +1588,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10737;
-            string? __res_10738 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaSelected");
-            if (__res_10738 is null)
+            string? __res_11050;
+            string? __res_11051 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaSelected");
+            if (__res_11051 is null)
             {
-                __res_10737 = null;
+                __res_11050 = null;
             }
             else
             {
-                string __notNullable_10739 = (string)__res_10738;
-                __res_10737 = __notNullable_10739;
+                string __notNullable_11052 = (string)__res_11051;
+                __res_11050 = __notNullable_11052;
             }
-            return __res_10737;
+            return __res_11050;
         }
         set
         {
-            string? __marshalledValue_10740;
+            string? __marshalledValue_11053;
             if (value is null)
             {
-                __marshalledValue_10740 = null;
+                __marshalledValue_11053 = null;
             }
             else
             {
-                string __notNullable_10741 = (string)value;
-                __marshalledValue_10740 = __notNullable_10741;
+                string __notNullable_11054 = (string)value;
+                __marshalledValue_11053 = __notNullable_11054;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSelected", __marshalledValue_10740);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSelected", __marshalledValue_11053);
         }
     }
 
@@ -1607,32 +1621,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10742;
-            string? __res_10743 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaSetSize");
-            if (__res_10743 is null)
+            string? __res_11055;
+            string? __res_11056 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaSetSize");
+            if (__res_11056 is null)
             {
-                __res_10742 = null;
+                __res_11055 = null;
             }
             else
             {
-                string __notNullable_10744 = (string)__res_10743;
-                __res_10742 = __notNullable_10744;
+                string __notNullable_11057 = (string)__res_11056;
+                __res_11055 = __notNullable_11057;
             }
-            return __res_10742;
+            return __res_11055;
         }
         set
         {
-            string? __marshalledValue_10745;
+            string? __marshalledValue_11058;
             if (value is null)
             {
-                __marshalledValue_10745 = null;
+                __marshalledValue_11058 = null;
             }
             else
             {
-                string __notNullable_10746 = (string)value;
-                __marshalledValue_10745 = __notNullable_10746;
+                string __notNullable_11059 = (string)value;
+                __marshalledValue_11058 = __notNullable_11059;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSetSize", __marshalledValue_10745);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSetSize", __marshalledValue_11058);
         }
     }
 
@@ -1640,32 +1654,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10747;
-            string? __res_10748 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaSort");
-            if (__res_10748 is null)
+            string? __res_11060;
+            string? __res_11061 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaSort");
+            if (__res_11061 is null)
             {
-                __res_10747 = null;
+                __res_11060 = null;
             }
             else
             {
-                string __notNullable_10749 = (string)__res_10748;
-                __res_10747 = __notNullable_10749;
+                string __notNullable_11062 = (string)__res_11061;
+                __res_11060 = __notNullable_11062;
             }
-            return __res_10747;
+            return __res_11060;
         }
         set
         {
-            string? __marshalledValue_10750;
+            string? __marshalledValue_11063;
             if (value is null)
             {
-                __marshalledValue_10750 = null;
+                __marshalledValue_11063 = null;
             }
             else
             {
-                string __notNullable_10751 = (string)value;
-                __marshalledValue_10750 = __notNullable_10751;
+                string __notNullable_11064 = (string)value;
+                __marshalledValue_11063 = __notNullable_11064;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSort", __marshalledValue_10750);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaSort", __marshalledValue_11063);
         }
     }
 
@@ -1673,32 +1687,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10752;
-            string? __res_10753 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaValueMax");
-            if (__res_10753 is null)
+            string? __res_11065;
+            string? __res_11066 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaValueMax");
+            if (__res_11066 is null)
             {
-                __res_10752 = null;
+                __res_11065 = null;
             }
             else
             {
-                string __notNullable_10754 = (string)__res_10753;
-                __res_10752 = __notNullable_10754;
+                string __notNullable_11067 = (string)__res_11066;
+                __res_11065 = __notNullable_11067;
             }
-            return __res_10752;
+            return __res_11065;
         }
         set
         {
-            string? __marshalledValue_10755;
+            string? __marshalledValue_11068;
             if (value is null)
             {
-                __marshalledValue_10755 = null;
+                __marshalledValue_11068 = null;
             }
             else
             {
-                string __notNullable_10756 = (string)value;
-                __marshalledValue_10755 = __notNullable_10756;
+                string __notNullable_11069 = (string)value;
+                __marshalledValue_11068 = __notNullable_11069;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueMax", __marshalledValue_10755);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueMax", __marshalledValue_11068);
         }
     }
 
@@ -1706,32 +1720,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10757;
-            string? __res_10758 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaValueMin");
-            if (__res_10758 is null)
+            string? __res_11070;
+            string? __res_11071 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaValueMin");
+            if (__res_11071 is null)
             {
-                __res_10757 = null;
+                __res_11070 = null;
             }
             else
             {
-                string __notNullable_10759 = (string)__res_10758;
-                __res_10757 = __notNullable_10759;
+                string __notNullable_11072 = (string)__res_11071;
+                __res_11070 = __notNullable_11072;
             }
-            return __res_10757;
+            return __res_11070;
         }
         set
         {
-            string? __marshalledValue_10760;
+            string? __marshalledValue_11073;
             if (value is null)
             {
-                __marshalledValue_10760 = null;
+                __marshalledValue_11073 = null;
             }
             else
             {
-                string __notNullable_10761 = (string)value;
-                __marshalledValue_10760 = __notNullable_10761;
+                string __notNullable_11074 = (string)value;
+                __marshalledValue_11073 = __notNullable_11074;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueMin", __marshalledValue_10760);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueMin", __marshalledValue_11073);
         }
     }
 
@@ -1739,32 +1753,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10762;
-            string? __res_10763 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaValueNow");
-            if (__res_10763 is null)
+            string? __res_11075;
+            string? __res_11076 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaValueNow");
+            if (__res_11076 is null)
             {
-                __res_10762 = null;
+                __res_11075 = null;
             }
             else
             {
-                string __notNullable_10764 = (string)__res_10763;
-                __res_10762 = __notNullable_10764;
+                string __notNullable_11077 = (string)__res_11076;
+                __res_11075 = __notNullable_11077;
             }
-            return __res_10762;
+            return __res_11075;
         }
         set
         {
-            string? __marshalledValue_10765;
+            string? __marshalledValue_11078;
             if (value is null)
             {
-                __marshalledValue_10765 = null;
+                __marshalledValue_11078 = null;
             }
             else
             {
-                string __notNullable_10766 = (string)value;
-                __marshalledValue_10765 = __notNullable_10766;
+                string __notNullable_11079 = (string)value;
+                __marshalledValue_11078 = __notNullable_11079;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueNow", __marshalledValue_10765);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueNow", __marshalledValue_11078);
         }
     }
 
@@ -1772,32 +1786,32 @@ public partial class ElementInternals(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_10767;
-            string? __res_10768 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaValueText");
-            if (__res_10768 is null)
+            string? __res_11080;
+            string? __res_11081 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "ariaValueText");
+            if (__res_11081 is null)
             {
-                __res_10767 = null;
+                __res_11080 = null;
             }
             else
             {
-                string __notNullable_10769 = (string)__res_10768;
-                __res_10767 = __notNullable_10769;
+                string __notNullable_11082 = (string)__res_11081;
+                __res_11080 = __notNullable_11082;
             }
-            return __res_10767;
+            return __res_11080;
         }
         set
         {
-            string? __marshalledValue_10770;
+            string? __marshalledValue_11083;
             if (value is null)
             {
-                __marshalledValue_10770 = null;
+                __marshalledValue_11083 = null;
             }
             else
             {
-                string __notNullable_10771 = (string)value;
-                __marshalledValue_10770 = __notNullable_10771;
+                string __notNullable_11084 = (string)value;
+                __marshalledValue_11083 = __notNullable_11084;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueText", __marshalledValue_10770);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "ariaValueText", __marshalledValue_11083);
         }
     }
 }

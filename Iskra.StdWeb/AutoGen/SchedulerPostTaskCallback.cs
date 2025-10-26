@@ -4,6 +4,29 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? SchedulerPostTaskCallback();
+public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? SchedulerPostTaskCallbackManaged();
+
+public partial class SchedulerPostTaskCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator SchedulerPostTaskCallback(SchedulerPostTaskCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2042) =>
+        {
+            using (__args_2042)
+            {
+
+
+                input();
+            }
+        };
+
+        return new global::Iskra.StdWeb.SchedulerPostTaskCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator SchedulerPostTaskCallbackManaged(SchedulerPostTaskCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

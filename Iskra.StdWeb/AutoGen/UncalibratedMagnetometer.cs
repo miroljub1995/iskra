@@ -10,18 +10,18 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
     {
         get
         {
-            double? __res_1406;
-            double? __res_1407 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_1407 is null)
+            double? __res_1414;
+            double? __res_1415 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_1415 is null)
             {
-                __res_1406 = null;
+                __res_1414 = null;
             }
             else
             {
-                double __notNullable_1408 = (double)__res_1407;
-                __res_1406 = __notNullable_1408;
+                double __notNullable_1416 = (double)__res_1415;
+                __res_1414 = __notNullable_1416;
             }
-            return __res_1406;
+            return __res_1414;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
     {
         get
         {
-            double? __res_1409;
-            double? __res_1410 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_1410 is null)
+            double? __res_1417;
+            double? __res_1418 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_1418 is null)
             {
-                __res_1409 = null;
+                __res_1417 = null;
             }
             else
             {
-                double __notNullable_1411 = (double)__res_1410;
-                __res_1409 = __notNullable_1411;
+                double __notNullable_1419 = (double)__res_1418;
+                __res_1417 = __notNullable_1419;
             }
-            return __res_1409;
+            return __res_1417;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
     {
         get
         {
-            double? __res_1412;
-            double? __res_1413 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_1413 is null)
+            double? __res_1420;
+            double? __res_1421 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_1421 is null)
             {
-                __res_1412 = null;
+                __res_1420 = null;
             }
             else
             {
-                double __notNullable_1414 = (double)__res_1413;
-                __res_1412 = __notNullable_1414;
+                double __notNullable_1422 = (double)__res_1421;
+                __res_1420 = __notNullable_1422;
             }
-            return __res_1412;
+            return __res_1420;
         }
     }
 
@@ -67,18 +67,18 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
     {
         get
         {
-            double? __res_1415;
-            double? __res_1416 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "xBias");
-            if (__res_1416 is null)
+            double? __res_1423;
+            double? __res_1424 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "xBias");
+            if (__res_1424 is null)
             {
-                __res_1415 = null;
+                __res_1423 = null;
             }
             else
             {
-                double __notNullable_1417 = (double)__res_1416;
-                __res_1415 = __notNullable_1417;
+                double __notNullable_1425 = (double)__res_1424;
+                __res_1423 = __notNullable_1425;
             }
-            return __res_1415;
+            return __res_1423;
         }
     }
 
@@ -86,18 +86,18 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
     {
         get
         {
-            double? __res_1418;
-            double? __res_1419 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "yBias");
-            if (__res_1419 is null)
+            double? __res_1426;
+            double? __res_1427 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "yBias");
+            if (__res_1427 is null)
             {
-                __res_1418 = null;
+                __res_1426 = null;
             }
             else
             {
-                double __notNullable_1420 = (double)__res_1419;
-                __res_1418 = __notNullable_1420;
+                double __notNullable_1428 = (double)__res_1427;
+                __res_1426 = __notNullable_1428;
             }
-            return __res_1418;
+            return __res_1426;
         }
     }
 
@@ -105,18 +105,18 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
     {
         get
         {
-            double? __res_1421;
-            double? __res_1422 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "zBias");
-            if (__res_1422 is null)
+            double? __res_1429;
+            double? __res_1430 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "zBias");
+            if (__res_1430 is null)
             {
-                __res_1421 = null;
+                __res_1429 = null;
             }
             else
             {
-                double __notNullable_1423 = (double)__res_1422;
-                __res_1421 = __notNullable_1423;
+                double __notNullable_1431 = (double)__res_1430;
+                __res_1429 = __notNullable_1431;
             }
-            return __res_1421;
+            return __res_1429;
         }
     }
 }

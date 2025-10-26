@@ -4,6 +4,44 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate bool AudioWorkletProcessCallback(global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> inputs, global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> outputs, global::System.Runtime.InteropServices.JavaScript.JSObject parameters);
+public delegate bool AudioWorkletProcessCallbackManaged(global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> inputs, global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> outputs, global::System.Runtime.InteropServices.JavaScript.JSObject parameters);
+
+public partial class AudioWorkletProcessCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator AudioWorkletProcessCallback(AudioWorkletProcessCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_14109) =>
+        {
+            using (__args_14109)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_14111;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_14112;
+                __propObject_14112 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14109, 0);
+                __arg_14111 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_14112);
+
+                // Argument 2
+                global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_14113;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_14114;
+                __propObject_14114 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14109, 1);
+                __arg_14113 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_14114);
+
+                // Argument 3
+                global::System.Runtime.InteropServices.JavaScript.JSObject __arg_14115;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_14116 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14109, 2);
+                __arg_14115 = __res_14116;
+
+                input(__arg_14111, __arg_14113, __arg_14115);
+            }
+        };
+
+        return new global::Iskra.StdWeb.AudioWorkletProcessCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator AudioWorkletProcessCallbackManaged(AudioWorkletProcessCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

@@ -10,10 +10,10 @@ public partial class TrustedTypePolicyFactory(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.TrustedHTML __res_2012;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2013 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyHTML");
-            __res_2012 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TrustedHTML>(__res_2013);
-            return __res_2012;
+            global::Iskra.StdWeb.TrustedHTML __res_2080;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2081 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyHTML");
+            __res_2080 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TrustedHTML>(__res_2081);
+            return __res_2080;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TrustedTypePolicyFactory(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.TrustedScript __res_2014;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2015 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyScript");
-            __res_2014 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TrustedScript>(__res_2015);
-            return __res_2014;
+            global::Iskra.StdWeb.TrustedScript __res_2082;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2083 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "emptyScript");
+            __res_2082 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TrustedScript>(__res_2083);
+            return __res_2082;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class TrustedTypePolicyFactory(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.TrustedTypePolicy? __res_2016;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2017 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "defaultPolicy");
-            if (__res_2017 is null)
+            global::Iskra.StdWeb.TrustedTypePolicy? __res_2084;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2085 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "defaultPolicy");
+            if (__res_2085 is null)
             {
-                __res_2016 = null;
+                __res_2084 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2018 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2017;
-                __res_2016 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TrustedTypePolicy>(__notNullable_2018);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2086 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2085;
+                __res_2084 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TrustedTypePolicy>(__notNullable_2086);
             }
-            return __res_2016;
+            return __res_2084;
         }
     }
 }

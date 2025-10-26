@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void FileCallback(global::Iskra.StdWeb.File file);
+public delegate void FileCallbackManaged(global::Iskra.StdWeb.File file);
+
+public partial class FileCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator FileCallback(FileCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2606) =>
+        {
+            using (__args_2606)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.File __arg_2608;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2609 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2606, 0);
+                __arg_2608 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.File>(__res_2609);
+
+                input(__arg_2608);
+            }
+        };
+
+        return new global::Iskra.StdWeb.FileCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator FileCallbackManaged(FileCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

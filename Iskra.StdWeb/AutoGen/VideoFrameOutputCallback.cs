@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void VideoFrameOutputCallback(global::Iskra.StdWeb.VideoFrame output);
+public delegate void VideoFrameOutputCallbackManaged(global::Iskra.StdWeb.VideoFrame output);
+
+public partial class VideoFrameOutputCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator VideoFrameOutputCallback(VideoFrameOutputCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3948) =>
+        {
+            using (__args_3948)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.VideoFrame __arg_3950;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3951 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3948, 0);
+                __arg_3950 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoFrame>(__res_3951);
+
+                input(__arg_3950);
+            }
+        };
+
+        return new global::Iskra.StdWeb.VideoFrameOutputCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator VideoFrameOutputCallbackManaged(VideoFrameOutputCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

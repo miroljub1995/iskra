@@ -10,10 +10,10 @@ public partial class XRAnchor(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.XRSpace __res_1974;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1975 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "anchorSpace");
-            __res_1974 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_1975);
-            return __res_1974;
+            global::Iskra.StdWeb.XRSpace __res_2040;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2041 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "anchorSpace");
+            __res_2040 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_2041);
+            return __res_2040;
         }
     }
 }

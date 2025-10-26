@@ -10,10 +10,10 @@ public partial class PressureRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.PressureSource __res_6168;
-            string __res_6169 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "source");
-            __res_6168 = global::Iskra.StdWeb.PressureSource.Create(__res_6169);
-            return __res_6168;
+            global::Iskra.StdWeb.PressureSource __res_6353;
+            string __res_6354 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "source");
+            __res_6353 = global::Iskra.StdWeb.PressureSource.Create(__res_6354);
+            return __res_6353;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PressureRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.PressureState __res_6170;
-            string __res_6171 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_6170 = global::Iskra.StdWeb.PressureState.Create(__res_6171);
-            return __res_6170;
+            global::Iskra.StdWeb.PressureState __res_6355;
+            string __res_6356 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_6355 = global::Iskra.StdWeb.PressureState.Create(__res_6356);
+            return __res_6355;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PressureRecord(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_6172;
-            double __res_6173 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
-            __res_6172 = __res_6173;
-            return __res_6172;
+            double __res_6357;
+            double __res_6358 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
+            __res_6357 = __res_6358;
+            return __res_6357;
         }
     }
 }

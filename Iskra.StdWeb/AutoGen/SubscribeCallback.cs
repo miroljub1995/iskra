@@ -4,6 +4,32 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void SubscribeCallback(global::Iskra.StdWeb.Subscriber subscriber);
+public delegate void SubscribeCallbackManaged(global::Iskra.StdWeb.Subscriber subscriber);
+
+public partial class SubscribeCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator SubscribeCallback(SubscribeCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7884) =>
+        {
+            using (__args_7884)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.Subscriber __arg_7886;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_7887 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7884, 0);
+                __arg_7886 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Subscriber>(__res_7887);
+
+                input(__arg_7886);
+            }
+        };
+
+        return new global::Iskra.StdWeb.SubscribeCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator SubscribeCallbackManaged(SubscribeCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

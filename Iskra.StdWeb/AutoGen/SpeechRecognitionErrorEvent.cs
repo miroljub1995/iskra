@@ -10,10 +10,10 @@ public partial class SpeechRecognitionErrorEvent(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.SpeechRecognitionErrorCode __res_6513;
-            string __res_6514 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "error");
-            __res_6513 = global::Iskra.StdWeb.SpeechRecognitionErrorCode.Create(__res_6514);
-            return __res_6513;
+            global::Iskra.StdWeb.SpeechRecognitionErrorCode __res_6712;
+            string __res_6713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "error");
+            __res_6712 = global::Iskra.StdWeb.SpeechRecognitionErrorCode.Create(__res_6713);
+            return __res_6712;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SpeechRecognitionErrorEvent(global::System.Runtime.InteropS
     {
         get
         {
-            string __res_6515;
-            string __res_6516 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_6515 = __res_6516;
-            return __res_6515;
+            string __res_6714;
+            string __res_6715 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_6714 = __res_6715;
+            return __res_6714;
         }
     }
 }

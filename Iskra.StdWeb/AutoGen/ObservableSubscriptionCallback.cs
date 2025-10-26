@@ -4,6 +4,40 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void ObservableSubscriptionCallback(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value);
+public delegate void ObservableSubscriptionCallbackManaged(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value);
+
+public partial class ObservableSubscriptionCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+{
+    public static implicit operator ObservableSubscriptionCallback(ObservableSubscriptionCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7888) =>
+        {
+            using (__args_7888)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_7890;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7891;
+                __propObject_7891 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_7888, 0);
+                if (__propObject_7891 is null)
+                {
+                    __arg_7890 = null;
+                }
+                else
+                {
+                    __arg_7890 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7891);
+                }
+
+                input(__arg_7890);
+            }
+        };
+
+        return new global::Iskra.StdWeb.ObservableSubscriptionCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+    }
+    
+    public static implicit operator ObservableSubscriptionCallbackManaged(ObservableSubscriptionCallback input)
+    {
+        throw new NotImplementedException();
+    }
+}
 
 #nullable disable

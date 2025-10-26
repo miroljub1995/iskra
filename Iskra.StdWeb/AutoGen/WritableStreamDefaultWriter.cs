@@ -10,11 +10,11 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_1847;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1848;
-            __propObject_1848 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
-            __res_1847 = new global::Iskra.JSCore.Promise(__propObject_1848);
-            return __res_1847;
+            global::Iskra.JSCore.Promise __res_1883;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1884;
+            __propObject_1884 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
+            __res_1883 = new global::Iskra.JSCore.Promise(__propObject_1884);
+            return __res_1883;
         }
     }
 
@@ -22,18 +22,18 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
     {
         get
         {
-            double? __res_1849;
-            double? __res_1850 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_1850 is null)
+            double? __res_1885;
+            double? __res_1886 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_1886 is null)
             {
-                __res_1849 = null;
+                __res_1885 = null;
             }
             else
             {
-                double __notNullable_1851 = (double)__res_1850;
-                __res_1849 = __notNullable_1851;
+                double __notNullable_1887 = (double)__res_1886;
+                __res_1885 = __notNullable_1887;
             }
-            return __res_1849;
+            return __res_1885;
         }
     }
 
@@ -41,11 +41,11 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_1852;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1853;
-            __propObject_1853 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
-            __res_1852 = new global::Iskra.JSCore.Promise(__propObject_1853);
-            return __res_1852;
+            global::Iskra.JSCore.Promise __res_1888;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1889;
+            __propObject_1889 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
+            __res_1888 = new global::Iskra.JSCore.Promise(__propObject_1889);
+            return __res_1888;
         }
     }
 }
