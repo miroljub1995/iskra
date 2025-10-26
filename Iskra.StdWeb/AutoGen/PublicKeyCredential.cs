@@ -10,10 +10,10 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_4329;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4330 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rawId");
-            __res_4329 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_4330);
-            return __res_4329;
+            global::Iskra.JSCore.ArrayBuffer __res_4380;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4381 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rawId");
+            __res_4380 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_4381);
+            return __res_4380;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.AuthenticatorResponse __res_4331;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4332 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
-            __res_4331 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AuthenticatorResponse>(__res_4332);
-            return __res_4331;
+            global::Iskra.StdWeb.AuthenticatorResponse __res_4382;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4383 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
+            __res_4382 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AuthenticatorResponse>(__res_4383);
+            return __res_4382;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            string? __res_4333;
-            string? __res_4334 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "authenticatorAttachment");
-            if (__res_4334 is null)
+            string? __res_4384;
+            string? __res_4385 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "authenticatorAttachment");
+            if (__res_4385 is null)
             {
-                __res_4333 = null;
+                __res_4384 = null;
             }
             else
             {
-                string __notNullable_4335 = (string)__res_4334;
-                __res_4333 = __notNullable_4335;
+                string __notNullable_4386 = (string)__res_4385;
+                __res_4384 = __notNullable_4386;
             }
-            return __res_4333;
+            return __res_4384;
         }
     }
 }

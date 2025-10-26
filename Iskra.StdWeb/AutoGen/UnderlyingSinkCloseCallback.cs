@@ -10,17 +10,21 @@ public partial class UnderlyingSinkCloseCallback(global::System.Runtime.InteropS
 {
     public static implicit operator UnderlyingSinkCloseCallback(UnderlyingSinkCloseCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1877) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1892, __res_1894) =>
         {
-            using (__args_1877)
+            using (__args_1892)
+            using (__res_1894)
             {
 
 
-                input();
+                global::Iskra.JSCore.Promise __managedRes_1895 = input();
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1896 = __managedRes_1895.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_1894, "value", __propObject_1896);
             }
         };
 
-        return new global::Iskra.StdWeb.UnderlyingSinkCloseCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.UnderlyingSinkCloseCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator UnderlyingSinkCloseCallbackManaged(UnderlyingSinkCloseCallback input)

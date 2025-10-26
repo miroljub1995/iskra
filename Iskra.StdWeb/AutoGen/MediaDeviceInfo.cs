@@ -10,10 +10,10 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_6522;
-            string __res_6523 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deviceId");
-            __res_6522 = __res_6523;
-            return __res_6522;
+            string __res_6579;
+            string __res_6580 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deviceId");
+            __res_6579 = __res_6580;
+            return __res_6579;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.MediaDeviceKind __res_6524;
-            string __res_6525 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_6524 = global::Iskra.StdWeb.MediaDeviceKind.Create(__res_6525);
-            return __res_6524;
+            global::Iskra.StdWeb.MediaDeviceKind __res_6581;
+            string __res_6582 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_6581 = global::Iskra.StdWeb.MediaDeviceKind.Create(__res_6582);
+            return __res_6581;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_6526;
-            string __res_6527 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_6526 = __res_6527;
-            return __res_6526;
+            string __res_6583;
+            string __res_6584 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_6583 = __res_6584;
+            return __res_6583;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_6528;
-            string __res_6529 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "groupId");
-            __res_6528 = __res_6529;
-            return __res_6528;
+            string __res_6585;
+            string __res_6586 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "groupId");
+            __res_6585 = __res_6586;
+            return __res_6585;
         }
     }
 }

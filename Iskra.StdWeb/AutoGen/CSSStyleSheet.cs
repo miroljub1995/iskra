@@ -10,18 +10,18 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.CSSRule? __res_13016;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13017 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerRule");
-            if (__res_13017 is null)
+            global::Iskra.StdWeb.CSSRule? __res_13125;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13126 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerRule");
+            if (__res_13126 is null)
             {
-                __res_13016 = null;
+                __res_13125 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13018 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13017;
-                __res_13016 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_13018);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13127 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13126;
+                __res_13125 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_13127);
             }
-            return __res_13016;
+            return __res_13125;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.CSSRuleList __res_13019;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13020 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            __res_13019 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_13020);
-            return __res_13019;
+            global::Iskra.StdWeb.CSSRuleList __res_13128;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13129 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            __res_13128 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_13129);
+            return __res_13128;
         }
     }
 
@@ -40,10 +40,10 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.CSSRuleList __res_13021;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13022 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rules");
-            __res_13021 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_13022);
-            return __res_13021;
+            global::Iskra.StdWeb.CSSRuleList __res_13130;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rules");
+            __res_13130 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_13131);
+            return __res_13130;
         }
     }
 }

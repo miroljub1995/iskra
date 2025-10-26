@@ -10,10 +10,10 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
     {
         get
         {
-            bool __res_4273;
-            bool __res_4274 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "broadcast");
-            __res_4273 = __res_4274;
-            return __res_4273;
+            bool __res_4324;
+            bool __res_4325 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "broadcast");
+            __res_4324 = __res_4325;
+            return __res_4324;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
     {
         get
         {
-            bool __res_4275;
-            bool __res_4276 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "read");
-            __res_4275 = __res_4276;
-            return __res_4275;
+            bool __res_4326;
+            bool __res_4327 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "read");
+            __res_4326 = __res_4327;
+            return __res_4326;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
     {
         get
         {
-            bool __res_4277;
-            bool __res_4278 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writeWithoutResponse");
-            __res_4277 = __res_4278;
-            return __res_4277;
+            bool __res_4328;
+            bool __res_4329 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writeWithoutResponse");
+            __res_4328 = __res_4329;
+            return __res_4328;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
     {
         get
         {
-            bool __res_4279;
-            bool __res_4280 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "write");
-            __res_4279 = __res_4280;
-            return __res_4279;
+            bool __res_4330;
+            bool __res_4331 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "write");
+            __res_4330 = __res_4331;
+            return __res_4330;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
     {
         get
         {
-            bool __res_4281;
-            bool __res_4282 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "notify");
-            __res_4281 = __res_4282;
-            return __res_4281;
+            bool __res_4332;
+            bool __res_4333 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "notify");
+            __res_4332 = __res_4333;
+            return __res_4332;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
     {
         get
         {
-            bool __res_4283;
-            bool __res_4284 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "indicate");
-            __res_4283 = __res_4284;
-            return __res_4283;
+            bool __res_4334;
+            bool __res_4335 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "indicate");
+            __res_4334 = __res_4335;
+            return __res_4334;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
     {
         get
         {
-            bool __res_4285;
-            bool __res_4286 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "authenticatedSignedWrites");
-            __res_4285 = __res_4286;
-            return __res_4285;
+            bool __res_4336;
+            bool __res_4337 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "authenticatedSignedWrites");
+            __res_4336 = __res_4337;
+            return __res_4336;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
     {
         get
         {
-            bool __res_4287;
-            bool __res_4288 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reliableWrite");
-            __res_4287 = __res_4288;
-            return __res_4287;
+            bool __res_4338;
+            bool __res_4339 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reliableWrite");
+            __res_4338 = __res_4339;
+            return __res_4338;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
     {
         get
         {
-            bool __res_4289;
-            bool __res_4290 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writableAuxiliaries");
-            __res_4289 = __res_4290;
-            return __res_4289;
+            bool __res_4340;
+            bool __res_4341 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writableAuxiliaries");
+            __res_4340 = __res_4341;
+            return __res_4340;
         }
     }
 }

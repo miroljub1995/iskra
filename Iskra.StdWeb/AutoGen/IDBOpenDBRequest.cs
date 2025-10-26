@@ -10,32 +10,32 @@ public partial class IDBOpenDBRequest(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13425;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13426 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onblocked");
-            if (__res_13426 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_13534;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13535 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onblocked");
+            if (__res_13535 is null)
             {
-                __res_13425 = null;
+                __res_13534 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13427 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13426;
-                __res_13425 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13427);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13536 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13535;
+                __res_13534 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13536);
             }
-            return __res_13425;
+            return __res_13534;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13428;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13537;
             if (value is null)
             {
-                __marshalledValue_13428 = null;
+                __marshalledValue_13537 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13429 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13428 = __notNullable_13429.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13538 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_13537 = __notNullable_13538.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onblocked", __marshalledValue_13428);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onblocked", __marshalledValue_13537);
         }
     }
 
@@ -43,32 +43,32 @@ public partial class IDBOpenDBRequest(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13430;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13431 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onupgradeneeded");
-            if (__res_13431 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_13539;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13540 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onupgradeneeded");
+            if (__res_13540 is null)
             {
-                __res_13430 = null;
+                __res_13539 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13432 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13431;
-                __res_13430 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13432);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13541 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13540;
+                __res_13539 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13541);
             }
-            return __res_13430;
+            return __res_13539;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13433;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13542;
             if (value is null)
             {
-                __marshalledValue_13433 = null;
+                __marshalledValue_13542 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13434 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13433 = __notNullable_13434.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13543 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_13542 = __notNullable_13543.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onupgradeneeded", __marshalledValue_13433);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onupgradeneeded", __marshalledValue_13542);
         }
     }
 }

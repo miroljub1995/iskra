@@ -10,10 +10,10 @@ public partial class TaskSignal(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.TaskPriority __res_2046;
-            string __res_2047 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "priority");
-            __res_2046 = global::Iskra.StdWeb.TaskPriority.Create(__res_2047);
-            return __res_2046;
+            global::Iskra.StdWeb.TaskPriority __res_2085;
+            string __res_2086 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "priority");
+            __res_2085 = global::Iskra.StdWeb.TaskPriority.Create(__res_2086);
+            return __res_2085;
         }
     }
 
@@ -21,32 +21,32 @@ public partial class TaskSignal(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2048;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2049 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange");
-            if (__res_2049 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_2087;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2088 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange");
+            if (__res_2088 is null)
             {
-                __res_2048 = null;
+                __res_2087 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2050 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2049;
-                __res_2048 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2050);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2089 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2088;
+                __res_2087 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2089);
             }
-            return __res_2048;
+            return __res_2087;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2051;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2090;
             if (value is null)
             {
-                __marshalledValue_2051 = null;
+                __marshalledValue_2090 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2052 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2051 = __notNullable_2052.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2091 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_2090 = __notNullable_2091.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange", __marshalledValue_2051);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprioritychange", __marshalledValue_2090);
         }
     }
 }

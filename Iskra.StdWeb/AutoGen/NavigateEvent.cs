@@ -10,10 +10,10 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.NavigationType __res_12044;
-            string __res_12045 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigationType");
-            __res_12044 = global::Iskra.StdWeb.NavigationType.Create(__res_12045);
-            return __res_12044;
+            global::Iskra.StdWeb.NavigationType __res_12134;
+            string __res_12135 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "navigationType");
+            __res_12134 = global::Iskra.StdWeb.NavigationType.Create(__res_12135);
+            return __res_12134;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.NavigationDestination __res_12046;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12047 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "destination");
-            __res_12046 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationDestination>(__res_12047);
-            return __res_12046;
+            global::Iskra.StdWeb.NavigationDestination __res_12136;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12137 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "destination");
+            __res_12136 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationDestination>(__res_12137);
+            return __res_12136;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_12048;
-            bool __res_12049 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canIntercept");
-            __res_12048 = __res_12049;
-            return __res_12048;
+            bool __res_12138;
+            bool __res_12139 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canIntercept");
+            __res_12138 = __res_12139;
+            return __res_12138;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_12050;
-            bool __res_12051 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userInitiated");
-            __res_12050 = __res_12051;
-            return __res_12050;
+            bool __res_12140;
+            bool __res_12141 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userInitiated");
+            __res_12140 = __res_12141;
+            return __res_12140;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_12052;
-            bool __res_12053 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hashChange");
-            __res_12052 = __res_12053;
-            return __res_12052;
+            bool __res_12142;
+            bool __res_12143 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hashChange");
+            __res_12142 = __res_12143;
+            return __res_12142;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.AbortSignal __res_12054;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12055 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
-            __res_12054 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_12055);
-            return __res_12054;
+            global::Iskra.StdWeb.AbortSignal __res_12144;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12145 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            __res_12144 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_12145);
+            return __res_12144;
         }
     }
 
@@ -76,18 +76,18 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.FormData? __res_12056;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12057 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "formData");
-            if (__res_12057 is null)
+            global::Iskra.StdWeb.FormData? __res_12146;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12147 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "formData");
+            if (__res_12147 is null)
             {
-                __res_12056 = null;
+                __res_12146 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12058 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12057;
-                __res_12056 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FormData>(__notNullable_12058);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12148 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12147;
+                __res_12146 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FormData>(__notNullable_12148);
             }
-            return __res_12056;
+            return __res_12146;
         }
     }
 
@@ -95,18 +95,18 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string? __res_12059;
-            string? __res_12060 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "downloadRequest");
-            if (__res_12060 is null)
+            string? __res_12149;
+            string? __res_12150 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "downloadRequest");
+            if (__res_12150 is null)
             {
-                __res_12059 = null;
+                __res_12149 = null;
             }
             else
             {
-                string __notNullable_12061 = (string)__res_12060;
-                __res_12059 = __notNullable_12061;
+                string __notNullable_12151 = (string)__res_12150;
+                __res_12149 = __notNullable_12151;
             }
-            return __res_12059;
+            return __res_12149;
         }
     }
 
@@ -114,18 +114,18 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_12062;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_12063;
-            __propObject_12063 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "info");
-            if (__propObject_12063 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_12152;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_12153;
+            __propObject_12153 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "info");
+            if (__propObject_12153 is null)
             {
-                __res_12062 = null;
+                __res_12152 = null;
             }
             else
             {
-                __res_12062 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_12063);
+                __res_12152 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_12153);
             }
-            return __res_12062;
+            return __res_12152;
         }
     }
 
@@ -133,10 +133,10 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_12064;
-            bool __res_12065 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
-            __res_12064 = __res_12065;
-            return __res_12064;
+            bool __res_12154;
+            bool __res_12155 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
+            __res_12154 = __res_12155;
+            return __res_12154;
         }
     }
 
@@ -144,18 +144,18 @@ public partial class NavigateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_12066;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12067 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sourceElement");
-            if (__res_12067 is null)
+            global::Iskra.StdWeb.Element? __res_12156;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12157 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sourceElement");
+            if (__res_12157 is null)
             {
-                __res_12066 = null;
+                __res_12156 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12068 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12067;
-                __res_12066 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_12068);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12158 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12157;
+                __res_12156 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_12158);
             }
-            return __res_12066;
+            return __res_12156;
         }
     }
 }

@@ -10,16 +10,16 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            float __res_13904;
-            double __res_13905 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_13904 = Convert.ToSingle(__res_13905);
-            return __res_13904;
+            float __res_14013;
+            double __res_14014 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_14013 = Convert.ToSingle(__res_14014);
+            return __res_14013;
         }
         set
         {
-            double __marshalledValue_13906;
-            __marshalledValue_13906 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_13906);
+            double __marshalledValue_14015;
+            __marshalledValue_14015 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_14015);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.AutomationRate __res_13907;
-            string __res_13908 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "automationRate");
-            __res_13907 = global::Iskra.StdWeb.AutomationRate.Create(__res_13908);
-            return __res_13907;
+            global::Iskra.StdWeb.AutomationRate __res_14016;
+            string __res_14017 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "automationRate");
+            __res_14016 = global::Iskra.StdWeb.AutomationRate.Create(__res_14017);
+            return __res_14016;
         }
         set
         {
-            string __marshalledValue_13909;
-            __marshalledValue_13909 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "automationRate", __marshalledValue_13909);
+            string __marshalledValue_14018;
+            __marshalledValue_14018 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "automationRate", __marshalledValue_14018);
         }
     }
 
@@ -44,10 +44,10 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            float __res_13910;
-            double __res_13911 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultValue");
-            __res_13910 = Convert.ToSingle(__res_13911);
-            return __res_13910;
+            float __res_14019;
+            double __res_14020 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultValue");
+            __res_14019 = Convert.ToSingle(__res_14020);
+            return __res_14019;
         }
     }
 
@@ -55,10 +55,10 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            float __res_13912;
-            double __res_13913 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minValue");
-            __res_13912 = Convert.ToSingle(__res_13913);
-            return __res_13912;
+            float __res_14021;
+            double __res_14022 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minValue");
+            __res_14021 = Convert.ToSingle(__res_14022);
+            return __res_14021;
         }
     }
 
@@ -66,10 +66,10 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            float __res_13914;
-            double __res_13915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxValue");
-            __res_13914 = Convert.ToSingle(__res_13915);
-            return __res_13914;
+            float __res_14023;
+            double __res_14024 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxValue");
+            __res_14023 = Convert.ToSingle(__res_14024);
+            return __res_14023;
         }
     }
 }

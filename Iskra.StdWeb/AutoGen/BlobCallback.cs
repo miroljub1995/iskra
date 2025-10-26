@@ -10,24 +10,24 @@ public partial class BlobCallback(global::System.Runtime.InteropServices.JavaScr
 {
     public static implicit operator BlobCallback(BlobCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_10608) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_10695) =>
         {
-            using (__args_10608)
+            using (__args_10695)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Blob? __arg_10610;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10611 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(__args_10608, 0);
-                if (__res_10611 is null)
+                global::Iskra.StdWeb.Blob? __arg_10697;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10698 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(__args_10695, 0);
+                if (__res_10698 is null)
                 {
-                    __arg_10610 = null;
+                    __arg_10697 = null;
                 }
                 else
                 {
-                    global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10612 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10611;
-                    __arg_10610 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Blob>(__notNullable_10612);
+                    global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10699 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10698;
+                    __arg_10697 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Blob>(__notNullable_10699);
                 }
 
-                input(__arg_10610);
+                input(__arg_10697);
             }
         };
 

@@ -10,10 +10,10 @@ public partial class AbortSignal(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_4704;
-            bool __res_4705 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "aborted");
-            __res_4704 = __res_4705;
-            return __res_4704;
+            bool __res_4758;
+            bool __res_4759 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "aborted");
+            __res_4758 = __res_4759;
+            return __res_4758;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class AbortSignal(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_4706;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_4707;
-            __propObject_4707 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "reason");
-            if (__propObject_4707 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_4760;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_4761;
+            __propObject_4761 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "reason");
+            if (__propObject_4761 is null)
             {
-                __res_4706 = null;
+                __res_4760 = null;
             }
             else
             {
-                __res_4706 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_4707);
+                __res_4760 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_4761);
             }
-            return __res_4706;
+            return __res_4760;
         }
     }
 
@@ -40,32 +40,32 @@ public partial class AbortSignal(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4708;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4709 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
-            if (__res_4709 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4762;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4763 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
+            if (__res_4763 is null)
             {
-                __res_4708 = null;
+                __res_4762 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4710 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4709;
-                __res_4708 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4710);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4764 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4763;
+                __res_4762 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4764);
             }
-            return __res_4708;
+            return __res_4762;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4711;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4765;
             if (value is null)
             {
-                __marshalledValue_4711 = null;
+                __marshalledValue_4765 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4712 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4711 = __notNullable_4712.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4766 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4765 = __notNullable_4766.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onabort", __marshalledValue_4711);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onabort", __marshalledValue_4765);
         }
     }
 }

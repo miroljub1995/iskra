@@ -10,16 +10,16 @@ public partial class RemotePlaybackAvailabilityCallback(global::System.Runtime.I
 {
     public static implicit operator RemotePlaybackAvailabilityCallback(RemotePlaybackAvailabilityCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_8083) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_8167) =>
         {
-            using (__args_8083)
+            using (__args_8167)
             {
                 // Argument 1
-                bool __arg_8085;
-                bool __res_8086 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(__args_8083, 0);
-                __arg_8085 = __res_8086;
+                bool __arg_8169;
+                bool __res_8170 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(__args_8167, 0);
+                __arg_8169 = __res_8170;
 
-                input(__arg_8085);
+                input(__arg_8169);
             }
         };
 

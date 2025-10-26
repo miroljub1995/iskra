@@ -10,16 +10,16 @@ public partial class RTCSessionDescriptionCallback(global::System.Runtime.Intero
 {
     public static implicit operator RTCSessionDescriptionCallback(RTCSessionDescriptionCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3128) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3179) =>
         {
-            using (__args_3128)
+            using (__args_3179)
             {
                 // Argument 1
-                global::Iskra.StdWeb.RTCSessionDescriptionInit __arg_3130;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3128, 0);
-                __arg_3130 = new global::Iskra.StdWeb.RTCSessionDescriptionInit(__res_3131);
+                global::Iskra.StdWeb.RTCSessionDescriptionInit __arg_3181;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3182 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3179, 0);
+                __arg_3181 = new global::Iskra.StdWeb.RTCSessionDescriptionInit(__res_3182);
 
-                input(__arg_3130);
+                input(__arg_3181);
             }
         };
 

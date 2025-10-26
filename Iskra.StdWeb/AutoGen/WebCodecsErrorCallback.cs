@@ -10,16 +10,16 @@ public partial class WebCodecsErrorCallback(global::System.Runtime.InteropServic
 {
     public static implicit operator WebCodecsErrorCallback(WebCodecsErrorCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3982) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4033) =>
         {
-            using (__args_3982)
+            using (__args_4033)
             {
                 // Argument 1
-                global::Iskra.StdWeb.DOMException __arg_3984;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3985 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3982, 0);
-                __arg_3984 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_3985);
+                global::Iskra.StdWeb.DOMException __arg_4035;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4036 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4033, 0);
+                __arg_4035 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_4036);
 
-                input(__arg_3984);
+                input(__arg_4035);
             }
         };
 

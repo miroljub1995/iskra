@@ -10,35 +10,35 @@ public partial class EffectCallback(global::System.Runtime.InteropServices.JavaS
 {
     public static implicit operator EffectCallback(EffectCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_8206) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_8293) =>
         {
-            using (__args_8206)
+            using (__args_8293)
             {
                 // Argument 1
-                double? __arg_8208;
-                double? __res_8209 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(__args_8206, 0);
-                if (__res_8209 is null)
+                double? __arg_8295;
+                double? __res_8296 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(__args_8293, 0);
+                if (__res_8296 is null)
                 {
-                    __arg_8208 = null;
+                    __arg_8295 = null;
                 }
                 else
                 {
-                    double __notNullable_8210 = (double)__res_8209;
-                    __arg_8208 = __notNullable_8210;
+                    double __notNullable_8297 = (double)__res_8296;
+                    __arg_8295 = __notNullable_8297;
                 }
 
                 // Argument 2
-                global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __arg_8211;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8212;
-                __propObject_8212 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(__args_8206, 1);
-                __arg_8211 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8212);
+                global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __arg_8298;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8299;
+                __propObject_8299 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(__args_8293, 1);
+                __arg_8298 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8299);
 
                 // Argument 3
-                global::Iskra.StdWeb.Animation __arg_8213;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_8214 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_8206, 2);
-                __arg_8213 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Animation>(__res_8214);
+                global::Iskra.StdWeb.Animation __arg_8300;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_8301 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_8293, 2);
+                __arg_8300 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Animation>(__res_8301);
 
-                input(__arg_8208, __arg_8211, __arg_8213);
+                input(__arg_8295, __arg_8298, __arg_8300);
             }
         };
 

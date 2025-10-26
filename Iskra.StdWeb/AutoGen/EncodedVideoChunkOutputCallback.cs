@@ -10,21 +10,21 @@ public partial class EncodedVideoChunkOutputCallback(global::System.Runtime.Inte
 {
     public static implicit operator EncodedVideoChunkOutputCallback(EncodedVideoChunkOutputCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3976) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4027) =>
         {
-            using (__args_3976)
+            using (__args_4027)
             {
                 // Argument 1
-                global::Iskra.StdWeb.EncodedVideoChunk __arg_3978;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3979 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3976, 0);
-                __arg_3978 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EncodedVideoChunk>(__res_3979);
+                global::Iskra.StdWeb.EncodedVideoChunk __arg_4029;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4030 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4027, 0);
+                __arg_4029 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EncodedVideoChunk>(__res_4030);
 
                 // Argument 2
-                global::Iskra.StdWeb.EncodedVideoChunkMetadata __arg_3980;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3981 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3976, 1);
-                __arg_3980 = new global::Iskra.StdWeb.EncodedVideoChunkMetadata(__res_3981);
+                global::Iskra.StdWeb.EncodedVideoChunkMetadata __arg_4031;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4032 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4027, 1);
+                __arg_4031 = new global::Iskra.StdWeb.EncodedVideoChunkMetadata(__res_4032);
 
-                input(__arg_3978, __arg_3980);
+                input(__arg_4029, __arg_4031);
             }
         };
 

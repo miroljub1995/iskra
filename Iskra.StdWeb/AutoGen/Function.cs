@@ -10,37 +10,50 @@ public partial class Function(global::System.Runtime.InteropServices.JavaScript.
 {
     public static implicit operator Function(FunctionManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6072) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6126, __res_6133) =>
         {
-            using (__args_6072)
+            using (__args_6126)
+            using (__res_6133)
             {
                 // Argument 1
-                int __length_6073 = global::System.Convert.ToInt32(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_6072, "length"));
-                int __paramsLength_6075 = __length_6073 - 0;
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?[] __arg_6074 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?[__paramsLength_6075];
-                for (int __i_6076 = 0; __i_6076 < __paramsLength_6075; __i_6076++)
+                int __length_6127 = global::System.Convert.ToInt32(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_6126, "length"));
+                int __paramsLength_6129 = __length_6127 - 0;
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?[] __arg_6128 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?[__paramsLength_6129];
+                for (int __i_6130 = 0; __i_6130 < __paramsLength_6129; __i_6130++)
                 {
-                    global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __paramsItem_6077;
+                    global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __paramsItem_6131;
 
-                    global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6078;
-                    __propObject_6078 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_6072, 0 + __i_6076);
-                    if (__propObject_6078 is null)
+                    global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6132;
+                    __propObject_6132 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_6126, 0 + __i_6130);
+                    if (__propObject_6132 is null)
                     {
-                        __paramsItem_6077 = null;
+                        __paramsItem_6131 = null;
                     }
                     else
                     {
-                        __paramsItem_6077 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6078);
+                        __paramsItem_6131 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6132);
                     }
 
-                    __arg_6074[__i_6076] = __paramsItem_6077;
+                    __arg_6128[__i_6130] = __paramsItem_6131;
                 }
 
-                input(__arg_6074);
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __managedRes_6134 = input(__arg_6128);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6135;
+                if (__managedRes_6134 is null)
+                {
+                    __propObject_6135 = null;
+                }
+                else
+                {
+                    __propObject_6135 = __managedRes_6134.JSObject;
+                }
+
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__res_6133, "value", __propObject_6135);
             }
         };
 
-        return new global::Iskra.StdWeb.Function(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.Function(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator FunctionManaged(Function input)

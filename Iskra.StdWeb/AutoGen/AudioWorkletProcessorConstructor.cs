@@ -10,20 +10,25 @@ public partial class AudioWorkletProcessorConstructor(global::System.Runtime.Int
 {
     public static implicit operator AudioWorkletProcessorConstructor(AudioWorkletProcessorConstructorManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_14084) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_14193, __res_14197) =>
         {
-            using (__args_14084)
+            using (__args_14193)
+            using (__res_14197)
             {
                 // Argument 1
-                global::System.Runtime.InteropServices.JavaScript.JSObject __arg_14086;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_14087 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14084, 0);
-                __arg_14086 = __res_14087;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __arg_14195;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_14196 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14193, 0);
+                __arg_14195 = __res_14196;
 
-                input(__arg_14086);
+                global::Iskra.StdWeb.AudioWorkletProcessor __managedRes_14198 = input(__arg_14195);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14199;
+                __marshalledValue_14199 = __managedRes_14198.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_14197, "value", __marshalledValue_14199);
             }
         };
 
-        return new global::Iskra.StdWeb.AudioWorkletProcessorConstructor(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.AudioWorkletProcessorConstructor(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator AudioWorkletProcessorConstructorManaged(AudioWorkletProcessorConstructor input)

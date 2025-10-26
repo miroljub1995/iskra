@@ -10,21 +10,21 @@ public partial class VideoFrameRequestCallback(global::System.Runtime.InteropSer
 {
     public static implicit operator VideoFrameRequestCallback(VideoFrameRequestCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6616) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6673) =>
         {
-            using (__args_6616)
+            using (__args_6673)
             {
                 // Argument 1
-                double __arg_6618;
-                double __res_6619 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_6616, 0);
-                __arg_6618 = __res_6619;
+                double __arg_6675;
+                double __res_6676 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_6673, 0);
+                __arg_6675 = __res_6676;
 
                 // Argument 2
-                global::Iskra.StdWeb.VideoFrameCallbackMetadata __arg_6620;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6621 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6616, 1);
-                __arg_6620 = new global::Iskra.StdWeb.VideoFrameCallbackMetadata(__res_6621);
+                global::Iskra.StdWeb.VideoFrameCallbackMetadata __arg_6677;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6678 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6673, 1);
+                __arg_6677 = new global::Iskra.StdWeb.VideoFrameCallbackMetadata(__res_6678);
 
-                input(__arg_6618, __arg_6620);
+                input(__arg_6675, __arg_6677);
             }
         };
 

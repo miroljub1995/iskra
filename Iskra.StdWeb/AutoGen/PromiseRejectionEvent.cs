@@ -10,10 +10,10 @@ public partial class PromiseRejectionEvent(global::System.Runtime.InteropService
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12140;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12141 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
-            __res_12140 = __res_12141;
-            return __res_12140;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12236;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12237 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
+            __res_12236 = __res_12237;
+            return __res_12236;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class PromiseRejectionEvent(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_12142;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_12143;
-            __propObject_12143 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "reason");
-            if (__propObject_12143 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_12238;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_12239;
+            __propObject_12239 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "reason");
+            if (__propObject_12239 is null)
             {
-                __res_12142 = null;
+                __res_12238 = null;
             }
             else
             {
-                __res_12142 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_12143);
+                __res_12238 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_12239);
             }
-            return __res_12142;
+            return __res_12238;
         }
     }
 }

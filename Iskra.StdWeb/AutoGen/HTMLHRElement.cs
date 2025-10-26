@@ -10,16 +10,16 @@ public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_9112;
-            string __res_9113 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_9112 = __res_9113;
-            return __res_9112;
+            string __res_9199;
+            string __res_9200 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_9199 = __res_9200;
+            return __res_9199;
         }
         set
         {
-            string __marshalledValue_9114;
-            __marshalledValue_9114 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9114);
+            string __marshalledValue_9201;
+            __marshalledValue_9201 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_9201);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_9115;
-            string __res_9116 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "color");
-            __res_9115 = __res_9116;
-            return __res_9115;
+            string __res_9202;
+            string __res_9203 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "color");
+            __res_9202 = __res_9203;
+            return __res_9202;
         }
         set
         {
-            string __marshalledValue_9117;
-            __marshalledValue_9117 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "color", __marshalledValue_9117);
+            string __marshalledValue_9204;
+            __marshalledValue_9204 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "color", __marshalledValue_9204);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_9118;
-            bool __res_9119 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noShade");
-            __res_9118 = __res_9119;
-            return __res_9118;
+            bool __res_9205;
+            bool __res_9206 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "noShade");
+            __res_9205 = __res_9206;
+            return __res_9205;
         }
         set
         {
-            bool __marshalledValue_9120;
-            __marshalledValue_9120 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "noShade", __marshalledValue_9120);
+            bool __marshalledValue_9207;
+            __marshalledValue_9207 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "noShade", __marshalledValue_9207);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_9121;
-            string __res_9122 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size");
-            __res_9121 = __res_9122;
-            return __res_9121;
+            string __res_9208;
+            string __res_9209 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size");
+            __res_9208 = __res_9209;
+            return __res_9208;
         }
         set
         {
-            string __marshalledValue_9123;
-            __marshalledValue_9123 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_9123);
+            string __marshalledValue_9210;
+            __marshalledValue_9210 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_9210);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_9124;
-            string __res_9125 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
-            __res_9124 = __res_9125;
-            return __res_9124;
+            string __res_9211;
+            string __res_9212 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
+            __res_9211 = __res_9212;
+            return __res_9211;
         }
         set
         {
-            string __marshalledValue_9126;
-            __marshalledValue_9126 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_9126);
+            string __marshalledValue_9213;
+            __marshalledValue_9213 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_9213);
         }
     }
 }

@@ -10,331 +10,8 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            double __res_6187;
-            double __res_6188 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "a");
-            __res_6187 = __res_6188;
-            return __res_6187;
-        }
-        set
-        {
-            double __marshalledValue_6189;
-            __marshalledValue_6189 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "a", __marshalledValue_6189);
-        }
-    }
-
-    public new double B
-    {
-        get
-        {
-            double __res_6190;
-            double __res_6191 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "b");
-            __res_6190 = __res_6191;
-            return __res_6190;
-        }
-        set
-        {
-            double __marshalledValue_6192;
-            __marshalledValue_6192 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "b", __marshalledValue_6192);
-        }
-    }
-
-    public new double C
-    {
-        get
-        {
-            double __res_6193;
-            double __res_6194 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "c");
-            __res_6193 = __res_6194;
-            return __res_6193;
-        }
-        set
-        {
-            double __marshalledValue_6195;
-            __marshalledValue_6195 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "c", __marshalledValue_6195);
-        }
-    }
-
-    public new double D
-    {
-        get
-        {
-            double __res_6196;
-            double __res_6197 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "d");
-            __res_6196 = __res_6197;
-            return __res_6196;
-        }
-        set
-        {
-            double __marshalledValue_6198;
-            __marshalledValue_6198 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "d", __marshalledValue_6198);
-        }
-    }
-
-    public new double E
-    {
-        get
-        {
-            double __res_6199;
-            double __res_6200 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "e");
-            __res_6199 = __res_6200;
-            return __res_6199;
-        }
-        set
-        {
-            double __marshalledValue_6201;
-            __marshalledValue_6201 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "e", __marshalledValue_6201);
-        }
-    }
-
-    public new double F
-    {
-        get
-        {
-            double __res_6202;
-            double __res_6203 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "f");
-            __res_6202 = __res_6203;
-            return __res_6202;
-        }
-        set
-        {
-            double __marshalledValue_6204;
-            __marshalledValue_6204 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "f", __marshalledValue_6204);
-        }
-    }
-
-    public new double M11
-    {
-        get
-        {
-            double __res_6205;
-            double __res_6206 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m11");
-            __res_6205 = __res_6206;
-            return __res_6205;
-        }
-        set
-        {
-            double __marshalledValue_6207;
-            __marshalledValue_6207 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m11", __marshalledValue_6207);
-        }
-    }
-
-    public new double M12
-    {
-        get
-        {
-            double __res_6208;
-            double __res_6209 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m12");
-            __res_6208 = __res_6209;
-            return __res_6208;
-        }
-        set
-        {
-            double __marshalledValue_6210;
-            __marshalledValue_6210 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m12", __marshalledValue_6210);
-        }
-    }
-
-    public new double M13
-    {
-        get
-        {
-            double __res_6211;
-            double __res_6212 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m13");
-            __res_6211 = __res_6212;
-            return __res_6211;
-        }
-        set
-        {
-            double __marshalledValue_6213;
-            __marshalledValue_6213 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m13", __marshalledValue_6213);
-        }
-    }
-
-    public new double M14
-    {
-        get
-        {
-            double __res_6214;
-            double __res_6215 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m14");
-            __res_6214 = __res_6215;
-            return __res_6214;
-        }
-        set
-        {
-            double __marshalledValue_6216;
-            __marshalledValue_6216 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m14", __marshalledValue_6216);
-        }
-    }
-
-    public new double M21
-    {
-        get
-        {
-            double __res_6217;
-            double __res_6218 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m21");
-            __res_6217 = __res_6218;
-            return __res_6217;
-        }
-        set
-        {
-            double __marshalledValue_6219;
-            __marshalledValue_6219 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m21", __marshalledValue_6219);
-        }
-    }
-
-    public new double M22
-    {
-        get
-        {
-            double __res_6220;
-            double __res_6221 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m22");
-            __res_6220 = __res_6221;
-            return __res_6220;
-        }
-        set
-        {
-            double __marshalledValue_6222;
-            __marshalledValue_6222 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m22", __marshalledValue_6222);
-        }
-    }
-
-    public new double M23
-    {
-        get
-        {
-            double __res_6223;
-            double __res_6224 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m23");
-            __res_6223 = __res_6224;
-            return __res_6223;
-        }
-        set
-        {
-            double __marshalledValue_6225;
-            __marshalledValue_6225 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m23", __marshalledValue_6225);
-        }
-    }
-
-    public new double M24
-    {
-        get
-        {
-            double __res_6226;
-            double __res_6227 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m24");
-            __res_6226 = __res_6227;
-            return __res_6226;
-        }
-        set
-        {
-            double __marshalledValue_6228;
-            __marshalledValue_6228 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m24", __marshalledValue_6228);
-        }
-    }
-
-    public new double M31
-    {
-        get
-        {
-            double __res_6229;
-            double __res_6230 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m31");
-            __res_6229 = __res_6230;
-            return __res_6229;
-        }
-        set
-        {
-            double __marshalledValue_6231;
-            __marshalledValue_6231 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m31", __marshalledValue_6231);
-        }
-    }
-
-    public new double M32
-    {
-        get
-        {
-            double __res_6232;
-            double __res_6233 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m32");
-            __res_6232 = __res_6233;
-            return __res_6232;
-        }
-        set
-        {
-            double __marshalledValue_6234;
-            __marshalledValue_6234 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m32", __marshalledValue_6234);
-        }
-    }
-
-    public new double M33
-    {
-        get
-        {
-            double __res_6235;
-            double __res_6236 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m33");
-            __res_6235 = __res_6236;
-            return __res_6235;
-        }
-        set
-        {
-            double __marshalledValue_6237;
-            __marshalledValue_6237 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m33", __marshalledValue_6237);
-        }
-    }
-
-    public new double M34
-    {
-        get
-        {
-            double __res_6238;
-            double __res_6239 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m34");
-            __res_6238 = __res_6239;
-            return __res_6238;
-        }
-        set
-        {
-            double __marshalledValue_6240;
-            __marshalledValue_6240 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m34", __marshalledValue_6240);
-        }
-    }
-
-    public new double M41
-    {
-        get
-        {
-            double __res_6241;
-            double __res_6242 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m41");
-            __res_6241 = __res_6242;
-            return __res_6241;
-        }
-        set
-        {
-            double __marshalledValue_6243;
-            __marshalledValue_6243 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m41", __marshalledValue_6243);
-        }
-    }
-
-    public new double M42
-    {
-        get
-        {
             double __res_6244;
-            double __res_6245 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m42");
+            double __res_6245 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "a");
             __res_6244 = __res_6245;
             return __res_6244;
         }
@@ -342,16 +19,16 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6246;
             __marshalledValue_6246 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m42", __marshalledValue_6246);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "a", __marshalledValue_6246);
         }
     }
 
-    public new double M43
+    public new double B
     {
         get
         {
             double __res_6247;
-            double __res_6248 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m43");
+            double __res_6248 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "b");
             __res_6247 = __res_6248;
             return __res_6247;
         }
@@ -359,16 +36,16 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6249;
             __marshalledValue_6249 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m43", __marshalledValue_6249);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "b", __marshalledValue_6249);
         }
     }
 
-    public new double M44
+    public new double C
     {
         get
         {
             double __res_6250;
-            double __res_6251 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m44");
+            double __res_6251 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "c");
             __res_6250 = __res_6251;
             return __res_6250;
         }
@@ -376,7 +53,330 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
         {
             double __marshalledValue_6252;
             __marshalledValue_6252 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m44", __marshalledValue_6252);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "c", __marshalledValue_6252);
+        }
+    }
+
+    public new double D
+    {
+        get
+        {
+            double __res_6253;
+            double __res_6254 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "d");
+            __res_6253 = __res_6254;
+            return __res_6253;
+        }
+        set
+        {
+            double __marshalledValue_6255;
+            __marshalledValue_6255 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "d", __marshalledValue_6255);
+        }
+    }
+
+    public new double E
+    {
+        get
+        {
+            double __res_6256;
+            double __res_6257 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "e");
+            __res_6256 = __res_6257;
+            return __res_6256;
+        }
+        set
+        {
+            double __marshalledValue_6258;
+            __marshalledValue_6258 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "e", __marshalledValue_6258);
+        }
+    }
+
+    public new double F
+    {
+        get
+        {
+            double __res_6259;
+            double __res_6260 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "f");
+            __res_6259 = __res_6260;
+            return __res_6259;
+        }
+        set
+        {
+            double __marshalledValue_6261;
+            __marshalledValue_6261 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "f", __marshalledValue_6261);
+        }
+    }
+
+    public new double M11
+    {
+        get
+        {
+            double __res_6262;
+            double __res_6263 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m11");
+            __res_6262 = __res_6263;
+            return __res_6262;
+        }
+        set
+        {
+            double __marshalledValue_6264;
+            __marshalledValue_6264 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m11", __marshalledValue_6264);
+        }
+    }
+
+    public new double M12
+    {
+        get
+        {
+            double __res_6265;
+            double __res_6266 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m12");
+            __res_6265 = __res_6266;
+            return __res_6265;
+        }
+        set
+        {
+            double __marshalledValue_6267;
+            __marshalledValue_6267 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m12", __marshalledValue_6267);
+        }
+    }
+
+    public new double M13
+    {
+        get
+        {
+            double __res_6268;
+            double __res_6269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m13");
+            __res_6268 = __res_6269;
+            return __res_6268;
+        }
+        set
+        {
+            double __marshalledValue_6270;
+            __marshalledValue_6270 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m13", __marshalledValue_6270);
+        }
+    }
+
+    public new double M14
+    {
+        get
+        {
+            double __res_6271;
+            double __res_6272 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m14");
+            __res_6271 = __res_6272;
+            return __res_6271;
+        }
+        set
+        {
+            double __marshalledValue_6273;
+            __marshalledValue_6273 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m14", __marshalledValue_6273);
+        }
+    }
+
+    public new double M21
+    {
+        get
+        {
+            double __res_6274;
+            double __res_6275 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m21");
+            __res_6274 = __res_6275;
+            return __res_6274;
+        }
+        set
+        {
+            double __marshalledValue_6276;
+            __marshalledValue_6276 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m21", __marshalledValue_6276);
+        }
+    }
+
+    public new double M22
+    {
+        get
+        {
+            double __res_6277;
+            double __res_6278 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m22");
+            __res_6277 = __res_6278;
+            return __res_6277;
+        }
+        set
+        {
+            double __marshalledValue_6279;
+            __marshalledValue_6279 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m22", __marshalledValue_6279);
+        }
+    }
+
+    public new double M23
+    {
+        get
+        {
+            double __res_6280;
+            double __res_6281 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m23");
+            __res_6280 = __res_6281;
+            return __res_6280;
+        }
+        set
+        {
+            double __marshalledValue_6282;
+            __marshalledValue_6282 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m23", __marshalledValue_6282);
+        }
+    }
+
+    public new double M24
+    {
+        get
+        {
+            double __res_6283;
+            double __res_6284 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m24");
+            __res_6283 = __res_6284;
+            return __res_6283;
+        }
+        set
+        {
+            double __marshalledValue_6285;
+            __marshalledValue_6285 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m24", __marshalledValue_6285);
+        }
+    }
+
+    public new double M31
+    {
+        get
+        {
+            double __res_6286;
+            double __res_6287 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m31");
+            __res_6286 = __res_6287;
+            return __res_6286;
+        }
+        set
+        {
+            double __marshalledValue_6288;
+            __marshalledValue_6288 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m31", __marshalledValue_6288);
+        }
+    }
+
+    public new double M32
+    {
+        get
+        {
+            double __res_6289;
+            double __res_6290 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m32");
+            __res_6289 = __res_6290;
+            return __res_6289;
+        }
+        set
+        {
+            double __marshalledValue_6291;
+            __marshalledValue_6291 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m32", __marshalledValue_6291);
+        }
+    }
+
+    public new double M33
+    {
+        get
+        {
+            double __res_6292;
+            double __res_6293 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m33");
+            __res_6292 = __res_6293;
+            return __res_6292;
+        }
+        set
+        {
+            double __marshalledValue_6294;
+            __marshalledValue_6294 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m33", __marshalledValue_6294);
+        }
+    }
+
+    public new double M34
+    {
+        get
+        {
+            double __res_6295;
+            double __res_6296 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m34");
+            __res_6295 = __res_6296;
+            return __res_6295;
+        }
+        set
+        {
+            double __marshalledValue_6297;
+            __marshalledValue_6297 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m34", __marshalledValue_6297);
+        }
+    }
+
+    public new double M41
+    {
+        get
+        {
+            double __res_6298;
+            double __res_6299 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m41");
+            __res_6298 = __res_6299;
+            return __res_6298;
+        }
+        set
+        {
+            double __marshalledValue_6300;
+            __marshalledValue_6300 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m41", __marshalledValue_6300);
+        }
+    }
+
+    public new double M42
+    {
+        get
+        {
+            double __res_6301;
+            double __res_6302 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m42");
+            __res_6301 = __res_6302;
+            return __res_6301;
+        }
+        set
+        {
+            double __marshalledValue_6303;
+            __marshalledValue_6303 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m42", __marshalledValue_6303);
+        }
+    }
+
+    public new double M43
+    {
+        get
+        {
+            double __res_6304;
+            double __res_6305 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m43");
+            __res_6304 = __res_6305;
+            return __res_6304;
+        }
+        set
+        {
+            double __marshalledValue_6306;
+            __marshalledValue_6306 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m43", __marshalledValue_6306);
+        }
+    }
+
+    public new double M44
+    {
+        get
+        {
+            double __res_6307;
+            double __res_6308 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m44");
+            __res_6307 = __res_6308;
+            return __res_6307;
+        }
+        set
+        {
+            double __marshalledValue_6309;
+            __marshalledValue_6309 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "m44", __marshalledValue_6309);
         }
     }
 }

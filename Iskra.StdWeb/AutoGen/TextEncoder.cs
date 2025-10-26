@@ -10,10 +10,10 @@ public partial class TextEncoder(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_2022;
-            string __res_2023 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
-            __res_2022 = __res_2023;
-            return __res_2022;
+            string __res_2058;
+            string __res_2059 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
+            __res_2058 = __res_2059;
+            return __res_2058;
         }
     }
 }

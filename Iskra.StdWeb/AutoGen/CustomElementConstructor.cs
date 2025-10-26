@@ -10,17 +10,22 @@ public partial class CustomElementConstructor(global::System.Runtime.InteropServ
 {
     public static implicit operator CustomElementConstructor(CustomElementConstructorManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_10821) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_10908, __res_10910) =>
         {
-            using (__args_10821)
+            using (__args_10908)
+            using (__res_10910)
             {
 
 
-                input();
+                global::Iskra.StdWeb.HTMLElement __managedRes_10911 = input();
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_10912;
+                __marshalledValue_10912 = __managedRes_10911.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_10910, "value", __marshalledValue_10912);
             }
         };
 
-        return new global::Iskra.StdWeb.CustomElementConstructor(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.CustomElementConstructor(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator CustomElementConstructorManaged(CustomElementConstructor input)

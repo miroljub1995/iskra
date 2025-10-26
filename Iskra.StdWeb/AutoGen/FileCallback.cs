@@ -10,16 +10,16 @@ public partial class FileCallback(global::System.Runtime.InteropServices.JavaScr
 {
     public static implicit operator FileCallback(FileCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2606) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2657) =>
         {
-            using (__args_2606)
+            using (__args_2657)
             {
                 // Argument 1
-                global::Iskra.StdWeb.File __arg_2608;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2609 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2606, 0);
-                __arg_2608 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.File>(__res_2609);
+                global::Iskra.StdWeb.File __arg_2659;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2660 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2657, 0);
+                __arg_2659 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.File>(__res_2660);
 
-                input(__arg_2608);
+                input(__arg_2659);
             }
         };
 

@@ -10,18 +10,18 @@ public partial class NavigationCurrentEntryChangeEvent(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.StdWeb.NavigationType? __res_12085;
-            string? __res_12086 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "navigationType");
-            if (__res_12086 is null)
+            global::Iskra.StdWeb.NavigationType? __res_12181;
+            string? __res_12182 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "navigationType");
+            if (__res_12182 is null)
             {
-                __res_12085 = null;
+                __res_12181 = null;
             }
             else
             {
-                string __notNullable_12087 = (string)__res_12086;
-                __res_12085 = global::Iskra.StdWeb.NavigationType.Create(__notNullable_12087);
+                string __notNullable_12183 = (string)__res_12182;
+                __res_12181 = global::Iskra.StdWeb.NavigationType.Create(__notNullable_12183);
             }
-            return __res_12085;
+            return __res_12181;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class NavigationCurrentEntryChangeEvent(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.StdWeb.NavigationHistoryEntry __res_12088;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12089 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
-            __res_12088 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_12089);
-            return __res_12088;
+            global::Iskra.StdWeb.NavigationHistoryEntry __res_12184;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12185 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
+            __res_12184 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_12185);
+            return __res_12184;
         }
     }
 }

@@ -10,16 +10,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10349;
-            string __res_10350 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "autocomplete");
-            __res_10349 = __res_10350;
-            return __res_10349;
+            string __res_10436;
+            string __res_10437 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "autocomplete");
+            __res_10436 = __res_10437;
+            return __res_10436;
         }
         set
         {
-            string __marshalledValue_10351;
-            __marshalledValue_10351 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "autocomplete", __marshalledValue_10351);
+            string __marshalledValue_10438;
+            __marshalledValue_10438 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "autocomplete", __marshalledValue_10438);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            uint __res_10352;
-            double __res_10353 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "cols");
-            __res_10352 = Convert.ToUInt32(__res_10353);
-            return __res_10352;
+            uint __res_10439;
+            double __res_10440 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "cols");
+            __res_10439 = Convert.ToUInt32(__res_10440);
+            return __res_10439;
         }
         set
         {
-            double __marshalledValue_10354;
-            __marshalledValue_10354 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "cols", __marshalledValue_10354);
+            double __marshalledValue_10441;
+            __marshalledValue_10441 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "cols", __marshalledValue_10441);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10355;
-            string __res_10356 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dirName");
-            __res_10355 = __res_10356;
-            return __res_10355;
+            string __res_10442;
+            string __res_10443 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dirName");
+            __res_10442 = __res_10443;
+            return __res_10442;
         }
         set
         {
-            string __marshalledValue_10357;
-            __marshalledValue_10357 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dirName", __marshalledValue_10357);
+            string __marshalledValue_10444;
+            __marshalledValue_10444 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dirName", __marshalledValue_10444);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            bool __res_10358;
-            bool __res_10359 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_10358 = __res_10359;
-            return __res_10358;
+            bool __res_10445;
+            bool __res_10446 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_10445 = __res_10446;
+            return __res_10445;
         }
         set
         {
-            bool __marshalledValue_10360;
-            __marshalledValue_10360 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_10360);
+            bool __marshalledValue_10447;
+            __marshalledValue_10447 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_10447);
         }
     }
 
@@ -78,18 +78,18 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.HTMLFormElement? __res_10361;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10362 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_10362 is null)
+            global::Iskra.StdWeb.HTMLFormElement? __res_10448;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10449 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_10449 is null)
             {
-                __res_10361 = null;
+                __res_10448 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10363 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10362;
-                __res_10361 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_10363);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10450 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10449;
+                __res_10448 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_10450);
             }
-            return __res_10361;
+            return __res_10448;
         }
     }
 
@@ -97,16 +97,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            int __res_10364;
-            double __res_10365 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxLength");
-            __res_10364 = Convert.ToInt32(__res_10365);
-            return __res_10364;
+            int __res_10451;
+            double __res_10452 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxLength");
+            __res_10451 = Convert.ToInt32(__res_10452);
+            return __res_10451;
         }
         set
         {
-            double __marshalledValue_10366;
-            __marshalledValue_10366 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxLength", __marshalledValue_10366);
+            double __marshalledValue_10453;
+            __marshalledValue_10453 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxLength", __marshalledValue_10453);
         }
     }
 
@@ -114,16 +114,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            int __res_10367;
-            double __res_10368 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minLength");
-            __res_10367 = Convert.ToInt32(__res_10368);
-            return __res_10367;
+            int __res_10454;
+            double __res_10455 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minLength");
+            __res_10454 = Convert.ToInt32(__res_10455);
+            return __res_10454;
         }
         set
         {
-            double __marshalledValue_10369;
-            __marshalledValue_10369 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "minLength", __marshalledValue_10369);
+            double __marshalledValue_10456;
+            __marshalledValue_10456 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "minLength", __marshalledValue_10456);
         }
     }
 
@@ -131,16 +131,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10370;
-            string __res_10371 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_10370 = __res_10371;
-            return __res_10370;
+            string __res_10457;
+            string __res_10458 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_10457 = __res_10458;
+            return __res_10457;
         }
         set
         {
-            string __marshalledValue_10372;
-            __marshalledValue_10372 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10372);
+            string __marshalledValue_10459;
+            __marshalledValue_10459 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10459);
         }
     }
 
@@ -148,16 +148,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10373;
-            string __res_10374 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "placeholder");
-            __res_10373 = __res_10374;
-            return __res_10373;
+            string __res_10460;
+            string __res_10461 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "placeholder");
+            __res_10460 = __res_10461;
+            return __res_10460;
         }
         set
         {
-            string __marshalledValue_10375;
-            __marshalledValue_10375 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "placeholder", __marshalledValue_10375);
+            string __marshalledValue_10462;
+            __marshalledValue_10462 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "placeholder", __marshalledValue_10462);
         }
     }
 
@@ -165,16 +165,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            bool __res_10376;
-            bool __res_10377 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "readOnly");
-            __res_10376 = __res_10377;
-            return __res_10376;
+            bool __res_10463;
+            bool __res_10464 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "readOnly");
+            __res_10463 = __res_10464;
+            return __res_10463;
         }
         set
         {
-            bool __marshalledValue_10378;
-            __marshalledValue_10378 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "readOnly", __marshalledValue_10378);
+            bool __marshalledValue_10465;
+            __marshalledValue_10465 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "readOnly", __marshalledValue_10465);
         }
     }
 
@@ -182,16 +182,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            bool __res_10379;
-            bool __res_10380 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "required");
-            __res_10379 = __res_10380;
-            return __res_10379;
+            bool __res_10466;
+            bool __res_10467 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "required");
+            __res_10466 = __res_10467;
+            return __res_10466;
         }
         set
         {
-            bool __marshalledValue_10381;
-            __marshalledValue_10381 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "required", __marshalledValue_10381);
+            bool __marshalledValue_10468;
+            __marshalledValue_10468 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "required", __marshalledValue_10468);
         }
     }
 
@@ -199,16 +199,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            uint __res_10382;
-            double __res_10383 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rows");
-            __res_10382 = Convert.ToUInt32(__res_10383);
-            return __res_10382;
+            uint __res_10469;
+            double __res_10470 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rows");
+            __res_10469 = Convert.ToUInt32(__res_10470);
+            return __res_10469;
         }
         set
         {
-            double __marshalledValue_10384;
-            __marshalledValue_10384 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "rows", __marshalledValue_10384);
+            double __marshalledValue_10471;
+            __marshalledValue_10471 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "rows", __marshalledValue_10471);
         }
     }
 
@@ -216,16 +216,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10385;
-            string __res_10386 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wrap");
-            __res_10385 = __res_10386;
-            return __res_10385;
+            string __res_10472;
+            string __res_10473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wrap");
+            __res_10472 = __res_10473;
+            return __res_10472;
         }
         set
         {
-            string __marshalledValue_10387;
-            __marshalledValue_10387 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "wrap", __marshalledValue_10387);
+            string __marshalledValue_10474;
+            __marshalledValue_10474 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "wrap", __marshalledValue_10474);
         }
     }
 
@@ -233,10 +233,10 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10388;
-            string __res_10389 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_10388 = __res_10389;
-            return __res_10388;
+            string __res_10475;
+            string __res_10476 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_10475 = __res_10476;
+            return __res_10475;
         }
     }
 
@@ -244,16 +244,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10390;
-            string __res_10391 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "defaultValue");
-            __res_10390 = __res_10391;
-            return __res_10390;
+            string __res_10477;
+            string __res_10478 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "defaultValue");
+            __res_10477 = __res_10478;
+            return __res_10477;
         }
         set
         {
-            string __marshalledValue_10392;
-            __marshalledValue_10392 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "defaultValue", __marshalledValue_10392);
+            string __marshalledValue_10479;
+            __marshalledValue_10479 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "defaultValue", __marshalledValue_10479);
         }
     }
 
@@ -261,16 +261,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10393;
-            string __res_10394 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_10393 = __res_10394;
-            return __res_10393;
+            string __res_10480;
+            string __res_10481 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_10480 = __res_10481;
+            return __res_10480;
         }
         set
         {
-            string __marshalledValue_10395;
-            __marshalledValue_10395 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_10395);
+            string __marshalledValue_10482;
+            __marshalledValue_10482 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_10482);
         }
     }
 
@@ -278,10 +278,10 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            uint __res_10396;
-            double __res_10397 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "textLength");
-            __res_10396 = Convert.ToUInt32(__res_10397);
-            return __res_10396;
+            uint __res_10483;
+            double __res_10484 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "textLength");
+            __res_10483 = Convert.ToUInt32(__res_10484);
+            return __res_10483;
         }
     }
 
@@ -289,10 +289,10 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            bool __res_10398;
-            bool __res_10399 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
-            __res_10398 = __res_10399;
-            return __res_10398;
+            bool __res_10485;
+            bool __res_10486 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            __res_10485 = __res_10486;
+            return __res_10485;
         }
     }
 
@@ -300,10 +300,10 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.ValidityState __res_10400;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10401 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            __res_10400 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_10401);
-            return __res_10400;
+            global::Iskra.StdWeb.ValidityState __res_10487;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10488 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
+            __res_10487 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_10488);
+            return __res_10487;
         }
     }
 
@@ -311,10 +311,10 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10402;
-            string __res_10403 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
-            __res_10402 = __res_10403;
-            return __res_10402;
+            string __res_10489;
+            string __res_10490 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
+            __res_10489 = __res_10490;
+            return __res_10489;
         }
     }
 
@@ -322,10 +322,10 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.NodeList __res_10404;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10405 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            __res_10404 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_10405);
-            return __res_10404;
+            global::Iskra.StdWeb.NodeList __res_10491;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10492 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
+            __res_10491 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_10492);
+            return __res_10491;
         }
     }
 
@@ -333,16 +333,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            uint __res_10406;
-            double __res_10407 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionStart");
-            __res_10406 = Convert.ToUInt32(__res_10407);
-            return __res_10406;
+            uint __res_10493;
+            double __res_10494 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionStart");
+            __res_10493 = Convert.ToUInt32(__res_10494);
+            return __res_10493;
         }
         set
         {
-            double __marshalledValue_10408;
-            __marshalledValue_10408 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectionStart", __marshalledValue_10408);
+            double __marshalledValue_10495;
+            __marshalledValue_10495 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectionStart", __marshalledValue_10495);
         }
     }
 
@@ -350,16 +350,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            uint __res_10409;
-            double __res_10410 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionEnd");
-            __res_10409 = Convert.ToUInt32(__res_10410);
-            return __res_10409;
+            uint __res_10496;
+            double __res_10497 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectionEnd");
+            __res_10496 = Convert.ToUInt32(__res_10497);
+            return __res_10496;
         }
         set
         {
-            double __marshalledValue_10411;
-            __marshalledValue_10411 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectionEnd", __marshalledValue_10411);
+            double __marshalledValue_10498;
+            __marshalledValue_10498 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectionEnd", __marshalledValue_10498);
         }
     }
 
@@ -367,16 +367,16 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10412;
-            string __res_10413 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectionDirection");
-            __res_10412 = __res_10413;
-            return __res_10412;
+            string __res_10499;
+            string __res_10500 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectionDirection");
+            __res_10499 = __res_10500;
+            return __res_10499;
         }
         set
         {
-            string __marshalledValue_10414;
-            __marshalledValue_10414 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectionDirection", __marshalledValue_10414);
+            string __marshalledValue_10501;
+            __marshalledValue_10501 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectionDirection", __marshalledValue_10501);
         }
     }
 }

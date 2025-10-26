@@ -10,10 +10,10 @@ public partial class PerformancePaintTiming(global::System.Runtime.InteropServic
     {
         get
         {
-            double __res_6359;
-            double __res_6360 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "paintTime");
-            __res_6359 = __res_6360;
-            return __res_6359;
+            double __res_6416;
+            double __res_6417 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "paintTime");
+            __res_6416 = __res_6417;
+            return __res_6416;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class PerformancePaintTiming(global::System.Runtime.InteropServic
     {
         get
         {
-            double? __res_6361;
-            double? __res_6362 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "presentationTime");
-            if (__res_6362 is null)
+            double? __res_6418;
+            double? __res_6419 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "presentationTime");
+            if (__res_6419 is null)
             {
-                __res_6361 = null;
+                __res_6418 = null;
             }
             else
             {
-                double __notNullable_6363 = (double)__res_6362;
-                __res_6361 = __notNullable_6363;
+                double __notNullable_6420 = (double)__res_6419;
+                __res_6418 = __notNullable_6420;
             }
-            return __res_6361;
+            return __res_6418;
         }
     }
 }

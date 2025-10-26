@@ -10,17 +10,30 @@ public partial class SchedulerPostTaskCallback(global::System.Runtime.InteropSer
 {
     public static implicit operator SchedulerPostTaskCallback(SchedulerPostTaskCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2042) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2078, __res_2080) =>
         {
-            using (__args_2042)
+            using (__args_2078)
+            using (__res_2080)
             {
 
 
-                input();
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __managedRes_2081 = input();
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2082;
+                if (__managedRes_2081 is null)
+                {
+                    __propObject_2082 = null;
+                }
+                else
+                {
+                    __propObject_2082 = __managedRes_2081.JSObject;
+                }
+
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__res_2080, "value", __propObject_2082);
             }
         };
 
-        return new global::Iskra.StdWeb.SchedulerPostTaskCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.SchedulerPostTaskCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator SchedulerPostTaskCallbackManaged(SchedulerPostTaskCallback input)

@@ -10,16 +10,16 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_5928;
-            string __res_5929 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_5928 = __res_5929;
-            return __res_5928;
+            string __res_5982;
+            string __res_5983 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_5982 = __res_5983;
+            return __res_5982;
         }
         set
         {
-            string __marshalledValue_5930;
-            __marshalledValue_5930 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_5930);
+            string __marshalledValue_5984;
+            __marshalledValue_5984 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_5984);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_5931;
-            double __res_5932 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5931 = Convert.ToUInt32(__res_5932);
-            return __res_5931;
+            uint __res_5985;
+            double __res_5986 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5985 = Convert.ToUInt32(__res_5986);
+            return __res_5985;
         }
     }
 
@@ -38,18 +38,18 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_5933;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5934 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousElementSibling");
-            if (__res_5934 is null)
+            global::Iskra.StdWeb.Element? __res_5987;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5988 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousElementSibling");
+            if (__res_5988 is null)
             {
-                __res_5933 = null;
+                __res_5987 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5935 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5934;
-                __res_5933 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5935);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5989 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5988;
+                __res_5987 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5989);
             }
-            return __res_5933;
+            return __res_5987;
         }
     }
 
@@ -57,18 +57,18 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_5936;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5937 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextElementSibling");
-            if (__res_5937 is null)
+            global::Iskra.StdWeb.Element? __res_5990;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5991 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextElementSibling");
+            if (__res_5991 is null)
             {
-                __res_5936 = null;
+                __res_5990 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5938 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5937;
-                __res_5936 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5938);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5992 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5991;
+                __res_5990 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5992);
             }
-            return __res_5936;
+            return __res_5990;
         }
     }
 }

@@ -10,16 +10,16 @@ public partial class CSSStyleDeclaration(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_13115;
-            string __res_13116 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
-            __res_13115 = __res_13116;
-            return __res_13115;
+            string __res_13224;
+            string __res_13225 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
+            __res_13224 = __res_13225;
+            return __res_13224;
         }
         set
         {
-            string __marshalledValue_13117;
-            __marshalledValue_13117 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_13117);
+            string __marshalledValue_13226;
+            __marshalledValue_13226 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_13226);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSStyleDeclaration(global::System.Runtime.InteropServices.
     {
         get
         {
-            uint __res_13118;
-            double __res_13119 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_13118 = Convert.ToUInt32(__res_13119);
-            return __res_13118;
+            uint __res_13227;
+            double __res_13228 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_13227 = Convert.ToUInt32(__res_13228);
+            return __res_13227;
         }
     }
 
@@ -38,18 +38,18 @@ public partial class CSSStyleDeclaration(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.CSSRule? __res_13120;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13121 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
-            if (__res_13121 is null)
+            global::Iskra.StdWeb.CSSRule? __res_13229;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13230 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
+            if (__res_13230 is null)
             {
-                __res_13120 = null;
+                __res_13229 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13122 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13121;
-                __res_13120 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_13122);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13231 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13230;
+                __res_13229 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_13231);
             }
-            return __res_13120;
+            return __res_13229;
         }
     }
 }

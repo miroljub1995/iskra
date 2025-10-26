@@ -10,18 +10,18 @@ public partial class Table(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_7570;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7571;
-            __propObject_7571 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "length");
-            if (__propObject_7571 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_7639;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7640;
+            __propObject_7640 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "length");
+            if (__propObject_7640 is null)
             {
-                __res_7570 = null;
+                __res_7639 = null;
             }
             else
             {
-                __res_7570 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7571);
+                __res_7639 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7640);
             }
-            return __res_7570;
+            return __res_7639;
         }
     }
 }

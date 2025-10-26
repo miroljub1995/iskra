@@ -10,16 +10,16 @@ public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_13921;
-            double __res_13922 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fftSize");
-            __res_13921 = Convert.ToUInt32(__res_13922);
-            return __res_13921;
+            uint __res_14030;
+            double __res_14031 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fftSize");
+            __res_14030 = Convert.ToUInt32(__res_14031);
+            return __res_14030;
         }
         set
         {
-            double __marshalledValue_13923;
-            __marshalledValue_13923 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "fftSize", __marshalledValue_13923);
+            double __marshalledValue_14032;
+            __marshalledValue_14032 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "fftSize", __marshalledValue_14032);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_13924;
-            double __res_13925 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "frequencyBinCount");
-            __res_13924 = Convert.ToUInt32(__res_13925);
-            return __res_13924;
+            uint __res_14033;
+            double __res_14034 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "frequencyBinCount");
+            __res_14033 = Convert.ToUInt32(__res_14034);
+            return __res_14033;
         }
     }
 
@@ -38,16 +38,16 @@ public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double __res_13926;
-            double __res_13927 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minDecibels");
-            __res_13926 = __res_13927;
-            return __res_13926;
+            double __res_14035;
+            double __res_14036 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minDecibels");
+            __res_14035 = __res_14036;
+            return __res_14035;
         }
         set
         {
-            double __marshalledValue_13928;
-            __marshalledValue_13928 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "minDecibels", __marshalledValue_13928);
+            double __marshalledValue_14037;
+            __marshalledValue_14037 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "minDecibels", __marshalledValue_14037);
         }
     }
 
@@ -55,16 +55,16 @@ public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double __res_13929;
-            double __res_13930 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDecibels");
-            __res_13929 = __res_13930;
-            return __res_13929;
+            double __res_14038;
+            double __res_14039 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDecibels");
+            __res_14038 = __res_14039;
+            return __res_14038;
         }
         set
         {
-            double __marshalledValue_13931;
-            __marshalledValue_13931 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxDecibels", __marshalledValue_13931);
+            double __marshalledValue_14040;
+            __marshalledValue_14040 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxDecibels", __marshalledValue_14040);
         }
     }
 
@@ -72,16 +72,16 @@ public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double __res_13932;
-            double __res_13933 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "smoothingTimeConstant");
-            __res_13932 = __res_13933;
-            return __res_13932;
+            double __res_14041;
+            double __res_14042 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "smoothingTimeConstant");
+            __res_14041 = __res_14042;
+            return __res_14041;
         }
         set
         {
-            double __marshalledValue_13934;
-            __marshalledValue_13934 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "smoothingTimeConstant", __marshalledValue_13934);
+            double __marshalledValue_14043;
+            __marshalledValue_14043 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "smoothingTimeConstant", __marshalledValue_14043);
         }
     }
 }

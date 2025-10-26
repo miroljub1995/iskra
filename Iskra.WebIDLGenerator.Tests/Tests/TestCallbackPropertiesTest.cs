@@ -55,4 +55,31 @@ public class TestCallbackPropertiesTest() : BaseTest<TestCallbackProperties>("te
         await Assert.That(receivedValues[3]).IsEqualTo(4);
         await Assert.That(receivedValues[4]).IsEqualTo(5);
     }
+
+    [Test]
+    public async Task TestNonVoidCallback()
+    {
+        var sut = GetSut();
+
+        var wasCalled = false;
+        var receivedA = 0;
+        var receivedB = 0;
+
+        int NonVoidCallback(int a, int b)
+        {
+            wasCalled = true;
+            receivedA = a;
+            receivedB = b;
+            return a + b;
+        }
+
+        sut.NonVoidCallback = (TestCallbackPropertiesNonVoidCallback)NonVoidCallback;
+
+        var result = sut.NonVoidCallbackCallAndGetResult;
+
+        await Assert.That(wasCalled).IsTrue();
+        await Assert.That(receivedA).IsEqualTo(10);
+        await Assert.That(receivedB).IsEqualTo(20);
+        await Assert.That(result).IsEqualTo(30);
+    }
 }

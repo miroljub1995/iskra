@@ -10,10 +10,10 @@ public partial class AbortController(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.AbortSignal __res_4702;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
-            __res_4702 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_4703);
-            return __res_4702;
+            global::Iskra.StdWeb.AbortSignal __res_4756;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4757 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            __res_4756 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_4757);
+            return __res_4756;
         }
     }
 }

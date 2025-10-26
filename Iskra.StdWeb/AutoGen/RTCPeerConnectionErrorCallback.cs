@@ -10,16 +10,16 @@ public partial class RTCPeerConnectionErrorCallback(global::System.Runtime.Inter
 {
     public static implicit operator RTCPeerConnectionErrorCallback(RTCPeerConnectionErrorCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3124) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3175) =>
         {
-            using (__args_3124)
+            using (__args_3175)
             {
                 // Argument 1
-                global::Iskra.StdWeb.DOMException __arg_3126;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3127 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3124, 0);
-                __arg_3126 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_3127);
+                global::Iskra.StdWeb.DOMException __arg_3177;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3178 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3175, 0);
+                __arg_3177 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_3178);
 
-                input(__arg_3126);
+                input(__arg_3177);
             }
         };
 

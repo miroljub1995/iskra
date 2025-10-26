@@ -10,25 +10,29 @@ public partial class ValidateAssertionCallback(global::System.Runtime.InteropSer
 {
     public static implicit operator ValidateAssertionCallback(ValidateAssertionCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6840) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6900, __res_6906) =>
         {
-            using (__args_6840)
+            using (__args_6900)
+            using (__res_6906)
             {
                 // Argument 1
-                string __arg_6842;
-                string __res_6843 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_6840, 0);
-                __arg_6842 = __res_6843;
+                string __arg_6902;
+                string __res_6903 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_6900, 0);
+                __arg_6902 = __res_6903;
 
                 // Argument 2
-                string __arg_6844;
-                string __res_6845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_6840, 1);
-                __arg_6844 = __res_6845;
+                string __arg_6904;
+                string __res_6905 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_6900, 1);
+                __arg_6904 = __res_6905;
 
-                input(__arg_6842, __arg_6844);
+                global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityValidationResult, global::Iskra.StdWeb.GenericMarshaller.Promise> __managedRes_6907 = input(__arg_6902, __arg_6904);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6908 = __managedRes_6907.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_6906, "value", __propObject_6908);
             }
         };
 
-        return new global::Iskra.StdWeb.ValidateAssertionCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.ValidateAssertionCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator ValidateAssertionCallbackManaged(ValidateAssertionCallback input)

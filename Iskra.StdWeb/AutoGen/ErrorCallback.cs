@@ -10,16 +10,16 @@ public partial class ErrorCallback(global::System.Runtime.InteropServices.JavaSc
 {
     public static implicit operator ErrorCallback(ErrorCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2584) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2635) =>
         {
-            using (__args_2584)
+            using (__args_2635)
             {
                 // Argument 1
-                global::Iskra.StdWeb.DOMException __arg_2586;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2587 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2584, 0);
-                __arg_2586 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_2587);
+                global::Iskra.StdWeb.DOMException __arg_2637;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2638 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2635, 0);
+                __arg_2637 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_2638);
 
-                input(__arg_2586);
+                input(__arg_2637);
             }
         };
 

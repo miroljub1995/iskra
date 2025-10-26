@@ -10,10 +10,10 @@ public partial class SpeechRecognitionResult(global::System.Runtime.InteropServi
     {
         get
         {
-            uint __res_6720;
-            double __res_6721 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6720 = Convert.ToUInt32(__res_6721);
-            return __res_6720;
+            uint __res_6777;
+            double __res_6778 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_6777 = Convert.ToUInt32(__res_6778);
+            return __res_6777;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SpeechRecognitionResult(global::System.Runtime.InteropServi
     {
         get
         {
-            bool __res_6722;
-            bool __res_6723 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFinal");
-            __res_6722 = __res_6723;
-            return __res_6722;
+            bool __res_6779;
+            bool __res_6780 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFinal");
+            __res_6779 = __res_6780;
+            return __res_6779;
         }
     }
 }

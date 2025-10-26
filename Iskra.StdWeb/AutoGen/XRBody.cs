@@ -10,10 +10,10 @@ public partial class XRBody(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            uint __res_7181;
-            double __res_7182 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_7181 = Convert.ToUInt32(__res_7182);
-            return __res_7181;
+            uint __res_7247;
+            double __res_7248 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_7247 = Convert.ToUInt32(__res_7248);
+            return __res_7247;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class CSSPseudoElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_6622;
-            string __res_6623 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_6622 = __res_6623;
-            return __res_6622;
+            string __res_6679;
+            string __res_6680 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_6679 = __res_6680;
+            return __res_6679;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSPseudoElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.Element __res_6624;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6625 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "element");
-            __res_6624 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_6625);
-            return __res_6624;
+            global::Iskra.StdWeb.Element __res_6681;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6682 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "element");
+            __res_6681 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_6682);
+            return __res_6681;
         }
     }
 
@@ -32,11 +32,11 @@ public partial class CSSPseudoElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __res_6626;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6627;
-            __propObject_6627 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "parent");
-            __res_6626 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6627);
-            return __res_6626;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __res_6683;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6684;
+            __propObject_6684 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "parent");
+            __res_6683 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6684);
+            return __res_6683;
         }
     }
 }

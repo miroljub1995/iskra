@@ -10,10 +10,10 @@ public partial class GamepadButton(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_7738;
-            bool __res_7739 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pressed");
-            __res_7738 = __res_7739;
-            return __res_7738;
+            bool __res_7810;
+            bool __res_7811 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pressed");
+            __res_7810 = __res_7811;
+            return __res_7810;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GamepadButton(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_7740;
-            bool __res_7741 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "touched");
-            __res_7740 = __res_7741;
-            return __res_7740;
+            bool __res_7812;
+            bool __res_7813 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "touched");
+            __res_7812 = __res_7813;
+            return __res_7812;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class GamepadButton(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            double __res_7742;
-            double __res_7743 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_7742 = __res_7743;
-            return __res_7742;
+            double __res_7814;
+            double __res_7815 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_7814 = __res_7815;
+            return __res_7814;
         }
     }
 }

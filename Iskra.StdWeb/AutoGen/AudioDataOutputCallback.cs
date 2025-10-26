@@ -10,16 +10,16 @@ public partial class AudioDataOutputCallback(global::System.Runtime.InteropServi
 {
     public static implicit operator AudioDataOutputCallback(AudioDataOutputCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3935) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3986) =>
         {
-            using (__args_3935)
+            using (__args_3986)
             {
                 // Argument 1
-                global::Iskra.StdWeb.AudioData __arg_3937;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3938 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3935, 0);
-                __arg_3937 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioData>(__res_3938);
+                global::Iskra.StdWeb.AudioData __arg_3988;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3989 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3986, 0);
+                __arg_3988 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioData>(__res_3989);
 
-                input(__arg_3937);
+                input(__arg_3988);
             }
         };
 

@@ -10,10 +10,10 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            uint __res_11973;
-            double __res_11974 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_11973 = Convert.ToUInt32(__res_11974);
-            return __res_11973;
+            uint __res_12063;
+            double __res_12064 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_12063 = Convert.ToUInt32(__res_12064);
+            return __res_12063;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.ScrollRestoration __res_11975;
-            string __res_11976 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollRestoration");
-            __res_11975 = global::Iskra.StdWeb.ScrollRestoration.Create(__res_11976);
-            return __res_11975;
+            global::Iskra.StdWeb.ScrollRestoration __res_12065;
+            string __res_12066 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollRestoration");
+            __res_12065 = global::Iskra.StdWeb.ScrollRestoration.Create(__res_12066);
+            return __res_12065;
         }
         set
         {
-            string __marshalledValue_11977;
-            __marshalledValue_11977 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scrollRestoration", __marshalledValue_11977);
+            string __marshalledValue_12067;
+            __marshalledValue_12067 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scrollRestoration", __marshalledValue_12067);
         }
     }
 
@@ -38,18 +38,18 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_11978;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_11979;
-            __propObject_11979 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "state");
-            if (__propObject_11979 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_12068;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_12069;
+            __propObject_12069 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "state");
+            if (__propObject_12069 is null)
             {
-                __res_11978 = null;
+                __res_12068 = null;
             }
             else
             {
-                __res_11978 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_11979);
+                __res_12068 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_12069);
             }
-            return __res_11978;
+            return __res_12068;
         }
     }
 }

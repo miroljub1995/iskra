@@ -10,21 +10,21 @@ public partial class XRFrameRequestCallback(global::System.Runtime.InteropServic
 {
     public static implicit operator XRFrameRequestCallback(XRFrameRequestCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6979) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7045) =>
         {
-            using (__args_6979)
+            using (__args_7045)
             {
                 // Argument 1
-                double __arg_6981;
-                double __res_6982 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_6979, 0);
-                __arg_6981 = __res_6982;
+                double __arg_7047;
+                double __res_7048 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_7045, 0);
+                __arg_7047 = __res_7048;
 
                 // Argument 2
-                global::Iskra.StdWeb.XRFrame __arg_6983;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6984 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6979, 1);
-                __arg_6983 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(__res_6984);
+                global::Iskra.StdWeb.XRFrame __arg_7049;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_7050 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7045, 1);
+                __arg_7049 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(__res_7050);
 
-                input(__arg_6981, __arg_6983);
+                input(__arg_7047, __arg_7049);
             }
         };
 

@@ -10,10 +10,10 @@ public partial class Credential(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_3907;
-            string __res_3908 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_3907 = __res_3908;
-            return __res_3907;
+            string __res_3958;
+            string __res_3959 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_3958 = __res_3959;
+            return __res_3958;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Credential(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_3909;
-            string __res_3910 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_3909 = __res_3910;
-            return __res_3909;
+            string __res_3960;
+            string __res_3961 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_3960 = __res_3961;
+            return __res_3960;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            string __res_8124;
-            string __res_8125 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentURI");
-            __res_8124 = __res_8125;
-            return __res_8124;
+            string __res_8211;
+            string __res_8212 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentURI");
+            __res_8211 = __res_8212;
+            return __res_8211;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            string __res_8126;
-            string __res_8127 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrer");
-            __res_8126 = __res_8127;
-            return __res_8126;
+            string __res_8213;
+            string __res_8214 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrer");
+            __res_8213 = __res_8214;
+            return __res_8213;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            string __res_8128;
-            string __res_8129 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "blockedURI");
-            __res_8128 = __res_8129;
-            return __res_8128;
+            string __res_8215;
+            string __res_8216 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "blockedURI");
+            __res_8215 = __res_8216;
+            return __res_8215;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            string __res_8130;
-            string __res_8131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectiveDirective");
-            __res_8130 = __res_8131;
-            return __res_8130;
+            string __res_8217;
+            string __res_8218 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectiveDirective");
+            __res_8217 = __res_8218;
+            return __res_8217;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            string __res_8132;
-            string __res_8133 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "violatedDirective");
-            __res_8132 = __res_8133;
-            return __res_8132;
+            string __res_8219;
+            string __res_8220 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "violatedDirective");
+            __res_8219 = __res_8220;
+            return __res_8219;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            string __res_8134;
-            string __res_8135 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "originalPolicy");
-            __res_8134 = __res_8135;
-            return __res_8134;
+            string __res_8221;
+            string __res_8222 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "originalPolicy");
+            __res_8221 = __res_8222;
+            return __res_8221;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            string __res_8136;
-            string __res_8137 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sourceFile");
-            __res_8136 = __res_8137;
-            return __res_8136;
+            string __res_8223;
+            string __res_8224 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sourceFile");
+            __res_8223 = __res_8224;
+            return __res_8223;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            string __res_8138;
-            string __res_8139 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sample");
-            __res_8138 = __res_8139;
-            return __res_8138;
+            string __res_8225;
+            string __res_8226 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sample");
+            __res_8225 = __res_8226;
+            return __res_8225;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            global::Iskra.StdWeb.SecurityPolicyViolationEventDisposition __res_8140;
-            string __res_8141 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "disposition");
-            __res_8140 = global::Iskra.StdWeb.SecurityPolicyViolationEventDisposition.Create(__res_8141);
-            return __res_8140;
+            global::Iskra.StdWeb.SecurityPolicyViolationEventDisposition __res_8227;
+            string __res_8228 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "disposition");
+            __res_8227 = global::Iskra.StdWeb.SecurityPolicyViolationEventDisposition.Create(__res_8228);
+            return __res_8227;
         }
     }
 
@@ -109,10 +109,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            ushort __res_8142;
-            double __res_8143 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "statusCode");
-            __res_8142 = Convert.ToUInt16(__res_8143);
-            return __res_8142;
+            ushort __res_8229;
+            double __res_8230 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "statusCode");
+            __res_8229 = Convert.ToUInt16(__res_8230);
+            return __res_8229;
         }
     }
 
@@ -120,10 +120,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            uint __res_8144;
-            double __res_8145 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineNumber");
-            __res_8144 = Convert.ToUInt32(__res_8145);
-            return __res_8144;
+            uint __res_8231;
+            double __res_8232 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineNumber");
+            __res_8231 = Convert.ToUInt32(__res_8232);
+            return __res_8231;
         }
     }
 
@@ -131,10 +131,10 @@ public partial class SecurityPolicyViolationEvent(global::System.Runtime.Interop
     {
         get
         {
-            uint __res_8146;
-            double __res_8147 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "columnNumber");
-            __res_8146 = Convert.ToUInt32(__res_8147);
-            return __res_8146;
+            uint __res_8233;
+            double __res_8234 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "columnNumber");
+            __res_8233 = Convert.ToUInt32(__res_8234);
+            return __res_8233;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class CompositionEvent(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_13741;
-            string __res_13742 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_13741 = __res_13742;
-            return __res_13741;
+            string __res_13850;
+            string __res_13851 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_13850 = __res_13851;
+            return __res_13850;
         }
     }
 }

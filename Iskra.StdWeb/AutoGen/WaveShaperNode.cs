@@ -10,32 +10,32 @@ public partial class WaveShaperNode(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.JSCore.Float32Array? __res_14074;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14075 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "curve");
-            if (__res_14075 is null)
+            global::Iskra.JSCore.Float32Array? __res_14183;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14184 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "curve");
+            if (__res_14184 is null)
             {
-                __res_14074 = null;
+                __res_14183 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14076 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14075;
-                __res_14074 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_14076);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14185 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14184;
+                __res_14183 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_14185);
             }
-            return __res_14074;
+            return __res_14183;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14077;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14186;
             if (value is null)
             {
-                __marshalledValue_14077 = null;
+                __marshalledValue_14186 = null;
             }
             else
             {
-                global::Iskra.JSCore.Float32Array __notNullable_14078 = (global::Iskra.JSCore.Float32Array)value;
-                __marshalledValue_14077 = __notNullable_14078.JSObject;
+                global::Iskra.JSCore.Float32Array __notNullable_14187 = (global::Iskra.JSCore.Float32Array)value;
+                __marshalledValue_14186 = __notNullable_14187.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "curve", __marshalledValue_14077);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "curve", __marshalledValue_14186);
         }
     }
 
@@ -43,16 +43,16 @@ public partial class WaveShaperNode(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.OverSampleType __res_14079;
-            string __res_14080 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oversample");
-            __res_14079 = global::Iskra.StdWeb.OverSampleType.Create(__res_14080);
-            return __res_14079;
+            global::Iskra.StdWeb.OverSampleType __res_14188;
+            string __res_14189 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oversample");
+            __res_14188 = global::Iskra.StdWeb.OverSampleType.Create(__res_14189);
+            return __res_14188;
         }
         set
         {
-            string __marshalledValue_14081;
-            __marshalledValue_14081 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "oversample", __marshalledValue_14081);
+            string __marshalledValue_14190;
+            __marshalledValue_14190 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "oversample", __marshalledValue_14190);
         }
     }
 }

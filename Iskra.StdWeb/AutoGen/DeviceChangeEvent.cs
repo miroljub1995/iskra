@@ -10,11 +10,11 @@ public partial class DeviceChangeEvent(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6530;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6531;
-            __propObject_6531 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "devices");
-            __res_6530 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6531);
-            return __res_6530;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6587;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6588;
+            __propObject_6588 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "devices");
+            __res_6587 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6588);
+            return __res_6587;
         }
     }
 
@@ -22,11 +22,11 @@ public partial class DeviceChangeEvent(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6532;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6533;
-            __propObject_6533 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "userInsertedDevices");
-            __res_6532 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6533);
-            return __res_6532;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6589;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6590;
+            __propObject_6590 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "userInsertedDevices");
+            __res_6589 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6590);
+            return __res_6589;
         }
     }
 }

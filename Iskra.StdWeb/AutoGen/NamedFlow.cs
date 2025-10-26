@@ -10,10 +10,10 @@ public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_4663;
-            string __res_4664 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4663 = __res_4664;
-            return __res_4663;
+            string __res_4717;
+            string __res_4718 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4717 = __res_4718;
+            return __res_4717;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool __res_4665;
-            bool __res_4666 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overset");
-            __res_4665 = __res_4666;
-            return __res_4665;
+            bool __res_4719;
+            bool __res_4720 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overset");
+            __res_4719 = __res_4720;
+            return __res_4719;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            short __res_4667;
-            double __res_4668 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "firstEmptyRegionIndex");
-            __res_4667 = Convert.ToInt16(__res_4668);
-            return __res_4667;
+            short __res_4721;
+            double __res_4722 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "firstEmptyRegionIndex");
+            __res_4721 = Convert.ToInt16(__res_4722);
+            return __res_4721;
         }
     }
 }

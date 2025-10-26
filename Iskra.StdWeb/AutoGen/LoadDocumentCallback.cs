@@ -10,25 +10,29 @@ public partial class LoadDocumentCallback(global::System.Runtime.InteropServices
 {
     public static implicit operator LoadDocumentCallback(LoadDocumentCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_8107) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_8191, __res_8197) =>
         {
-            using (__args_8107)
+            using (__args_8191)
+            using (__res_8197)
             {
                 // Argument 1
-                string __arg_8109;
-                string __res_8110 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_8107, 0);
-                __arg_8109 = __res_8110;
+                string __arg_8193;
+                string __res_8194 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_8191, 0);
+                __arg_8193 = __res_8194;
 
                 // Argument 2
-                global::Iskra.StdWeb.LoadDocumentOptions __arg_8111;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_8112 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_8107, 1);
-                __arg_8111 = new global::Iskra.StdWeb.LoadDocumentOptions(__res_8112);
+                global::Iskra.StdWeb.LoadDocumentOptions __arg_8195;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_8196 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_8191, 1);
+                __arg_8195 = new global::Iskra.StdWeb.LoadDocumentOptions(__res_8196);
 
-                input(__arg_8109, __arg_8111);
+                global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RemoteDocument, global::Iskra.StdWeb.GenericMarshaller.Promise> __managedRes_8198 = input(__arg_8193, __arg_8195);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8199 = __managedRes_8198.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_8197, "value", __propObject_8199);
             }
         };
 
-        return new global::Iskra.StdWeb.LoadDocumentCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.LoadDocumentCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator LoadDocumentCallbackManaged(LoadDocumentCallback input)

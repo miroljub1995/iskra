@@ -157,7 +157,32 @@ public static partial class JSCoreShims
                                      };
 
                                      // Functions
+                                     class ResObjectPool {
+                                       static instance = new ResObjectPool();
+
+                                       constructor() {
+                                         this.pool = [];
+                                       }
+
+                                       acquire() {
+                                         return this.pool.length > 0 ? this.pool.pop() : { value: undefined };
+                                       }
+
+                                       release(obj) {
+                                         obj.value = undefined;
+                                         this.pool.push(obj);
+                                       }
+                                     }
                                      export const wrapAsVoidFunction = (cb) => (...args) => cb(args);
+                                     export const wrapAsNonVoidFunction = (cb) => (...args) => {
+                                         const resObj = ResObjectPool.instance.acquire();
+                                         try {
+                                             cb(args, resObj);
+                                             return resObj.value;
+                                         } finally {
+                                             ResObjectPool.instance.release(resObj);
+                                         }
+                                     };
                                      """;
 
         var encoded = Uri.EscapeDataString(moduleContent);

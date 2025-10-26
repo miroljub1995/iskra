@@ -10,10 +10,10 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
     {
         get
         {
-            double __res_6416;
-            double __res_6417 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "processingStart");
-            __res_6416 = __res_6417;
-            return __res_6416;
+            double __res_6473;
+            double __res_6474 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "processingStart");
+            __res_6473 = __res_6474;
+            return __res_6473;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
     {
         get
         {
-            double __res_6418;
-            double __res_6419 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "processingEnd");
-            __res_6418 = __res_6419;
-            return __res_6418;
+            double __res_6475;
+            double __res_6476 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "processingEnd");
+            __res_6475 = __res_6476;
+            return __res_6475;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
     {
         get
         {
-            bool __res_6420;
-            bool __res_6421 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cancelable");
-            __res_6420 = __res_6421;
-            return __res_6420;
+            bool __res_6477;
+            bool __res_6478 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cancelable");
+            __res_6477 = __res_6478;
+            return __res_6477;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.Node? __res_6422;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6423 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
-            if (__res_6423 is null)
+            global::Iskra.StdWeb.Node? __res_6479;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6480 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
+            if (__res_6480 is null)
             {
-                __res_6422 = null;
+                __res_6479 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6424 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6423;
-                __res_6422 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_6424);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6481 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6480;
+                __res_6479 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_6481);
             }
-            return __res_6422;
+            return __res_6479;
         }
     }
 
@@ -62,10 +62,10 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_6425;
-            string __res_6426 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetSelector");
-            __res_6425 = __res_6426;
-            return __res_6425;
+            string __res_6482;
+            string __res_6483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetSelector");
+            __res_6482 = __res_6483;
+            return __res_6482;
         }
     }
 
@@ -73,10 +73,10 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
     {
         get
         {
-            ulong __res_6427;
-            double __res_6428 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interactionId");
-            __res_6427 = Convert.ToUInt64(__res_6428);
-            return __res_6427;
+            ulong __res_6484;
+            double __res_6485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interactionId");
+            __res_6484 = Convert.ToUInt64(__res_6485);
+            return __res_6484;
         }
     }
 }

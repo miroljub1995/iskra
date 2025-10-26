@@ -10,10 +10,10 @@ public partial class HIDConnectionEvent(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.HIDDevice __res_2733;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2734 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            __res_2733 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HIDDevice>(__res_2734);
-            return __res_2733;
+            global::Iskra.StdWeb.HIDDevice __res_2784;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2785 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            __res_2784 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HIDDevice>(__res_2785);
+            return __res_2784;
         }
     }
 }

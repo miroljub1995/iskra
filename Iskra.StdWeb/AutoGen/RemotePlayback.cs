@@ -10,10 +10,10 @@ public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.RemotePlaybackState __res_8066;
-            string __res_8067 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_8066 = global::Iskra.StdWeb.RemotePlaybackState.Create(__res_8067);
-            return __res_8066;
+            global::Iskra.StdWeb.RemotePlaybackState __res_8150;
+            string __res_8151 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_8150 = global::Iskra.StdWeb.RemotePlaybackState.Create(__res_8151);
+            return __res_8150;
         }
     }
 
@@ -21,32 +21,32 @@ public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8068;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8069 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnecting");
-            if (__res_8069 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_8152;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8153 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnecting");
+            if (__res_8153 is null)
             {
-                __res_8068 = null;
+                __res_8152 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8070 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8069;
-                __res_8068 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8070);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8154 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8153;
+                __res_8152 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8154);
             }
-            return __res_8068;
+            return __res_8152;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8071;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8155;
             if (value is null)
             {
-                __marshalledValue_8071 = null;
+                __marshalledValue_8155 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8072 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8071 = __notNullable_8072.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8156 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_8155 = __notNullable_8156.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnecting", __marshalledValue_8071);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnecting", __marshalledValue_8155);
         }
     }
 
@@ -54,32 +54,32 @@ public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8073;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8074 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
-            if (__res_8074 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_8157;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8158 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_8158 is null)
             {
-                __res_8073 = null;
+                __res_8157 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8075 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8074;
-                __res_8073 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8075);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8159 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8158;
+                __res_8157 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8159);
             }
-            return __res_8073;
+            return __res_8157;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8076;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8160;
             if (value is null)
             {
-                __marshalledValue_8076 = null;
+                __marshalledValue_8160 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8077 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8076 = __notNullable_8077.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8161 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_8160 = __notNullable_8161.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_8076);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_8160);
         }
     }
 
@@ -87,32 +87,32 @@ public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8078;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8079 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
-            if (__res_8079 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_8162;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
+            if (__res_8163 is null)
             {
-                __res_8078 = null;
+                __res_8162 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8080 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8079;
-                __res_8078 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8080);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8164 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8163;
+                __res_8162 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8164);
             }
-            return __res_8078;
+            return __res_8162;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8081;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8165;
             if (value is null)
             {
-                __marshalledValue_8081 = null;
+                __marshalledValue_8165 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8082 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8081 = __notNullable_8082.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8166 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_8165 = __notNullable_8166.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_8081);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_8165);
         }
     }
 }

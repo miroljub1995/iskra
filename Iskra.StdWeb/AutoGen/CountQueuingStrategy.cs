@@ -10,10 +10,10 @@ public partial class CountQueuingStrategy(global::System.Runtime.InteropServices
     {
         get
         {
-            double __res_1925;
-            double __res_1926 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
-            __res_1925 = __res_1926;
-            return __res_1925;
+            double __res_1961;
+            double __res_1962 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
+            __res_1961 = __res_1962;
+            return __res_1961;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CountQueuingStrategy(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.Function __res_1927;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1928 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
-            __res_1927 = new global::Iskra.StdWeb.Function(__res_1928);
-            return __res_1927;
+            global::Iskra.StdWeb.Function __res_1963;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1964 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
+            __res_1963 = new global::Iskra.StdWeb.Function(__res_1964);
+            return __res_1963;
         }
     }
 }

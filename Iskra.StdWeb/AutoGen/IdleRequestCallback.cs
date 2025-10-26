@@ -10,16 +10,16 @@ public partial class IdleRequestCallback(global::System.Runtime.InteropServices.
 {
     public static implicit operator IdleRequestCallback(IdleRequestCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2127) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2178) =>
         {
-            using (__args_2127)
+            using (__args_2178)
             {
                 // Argument 1
-                global::Iskra.StdWeb.IdleDeadline __arg_2129;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2130 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2127, 0);
-                __arg_2129 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IdleDeadline>(__res_2130);
+                global::Iskra.StdWeb.IdleDeadline __arg_2180;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2181 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2178, 0);
+                __arg_2180 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IdleDeadline>(__res_2181);
 
-                input(__arg_2129);
+                input(__arg_2180);
             }
         };
 

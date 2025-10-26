@@ -10,16 +10,16 @@ public partial class PositionErrorCallback(global::System.Runtime.InteropService
 {
     public static implicit operator PositionErrorCallback(PositionErrorCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1933) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1969) =>
         {
-            using (__args_1933)
+            using (__args_1969)
             {
                 // Argument 1
-                global::Iskra.StdWeb.GeolocationPositionError __arg_1935;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1936 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1933, 0);
-                __arg_1935 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPositionError>(__res_1936);
+                global::Iskra.StdWeb.GeolocationPositionError __arg_1971;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1972 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1969, 0);
+                __arg_1971 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPositionError>(__res_1972);
 
-                input(__arg_1935);
+                input(__arg_1971);
             }
         };
 

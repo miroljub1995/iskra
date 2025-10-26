@@ -10,9 +10,10 @@ public partial class UnderlyingSourceStartCallback(global::System.Runtime.Intero
 {
     public static implicit operator UnderlyingSourceStartCallback(UnderlyingSourceStartCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1838) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1838, __res_1842) =>
         {
             using (__args_1838)
+            using (__res_1842)
             {
                 // Argument 1
                 global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union> __arg_1840;
@@ -20,11 +21,23 @@ public partial class UnderlyingSourceStartCallback(global::System.Runtime.Intero
                 __propObject_1841 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(__args_1838, 0);
                 __arg_1840 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1841);
 
-                input(__arg_1840);
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __managedRes_1843 = input(__arg_1840);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1844;
+                if (__managedRes_1843 is null)
+                {
+                    __propObject_1844 = null;
+                }
+                else
+                {
+                    __propObject_1844 = __managedRes_1843.JSObject;
+                }
+
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__res_1842, "value", __propObject_1844);
             }
         };
 
-        return new global::Iskra.StdWeb.UnderlyingSourceStartCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.UnderlyingSourceStartCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator UnderlyingSourceStartCallbackManaged(UnderlyingSourceStartCallback input)

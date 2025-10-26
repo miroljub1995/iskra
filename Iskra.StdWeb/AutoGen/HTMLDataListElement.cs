@@ -10,10 +10,10 @@ public partial class HTMLDataListElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCollection __res_10318;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10319 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            __res_10318 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_10319);
-            return __res_10318;
+            global::Iskra.StdWeb.HTMLCollection __res_10405;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10406 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
+            __res_10405 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_10406);
+            return __res_10405;
         }
     }
 }

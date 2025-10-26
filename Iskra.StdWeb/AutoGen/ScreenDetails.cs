@@ -10,11 +10,11 @@ public partial class ScreenDetails(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_4467;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4468;
-            __propObject_4468 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "screens");
-            __res_4467 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_4468);
-            return __res_4467;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_4521;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4522;
+            __propObject_4522 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "screens");
+            __res_4521 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_4522);
+            return __res_4521;
         }
     }
 
@@ -22,10 +22,10 @@ public partial class ScreenDetails(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.ScreenDetailed __res_4469;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4470 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentScreen");
-            __res_4469 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ScreenDetailed>(__res_4470);
-            return __res_4469;
+            global::Iskra.StdWeb.ScreenDetailed __res_4523;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4524 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentScreen");
+            __res_4523 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ScreenDetailed>(__res_4524);
+            return __res_4523;
         }
     }
 
@@ -33,32 +33,32 @@ public partial class ScreenDetails(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4471;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4472 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscreenschange");
-            if (__res_4472 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4525;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4526 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscreenschange");
+            if (__res_4526 is null)
             {
-                __res_4471 = null;
+                __res_4525 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4473 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4472;
-                __res_4471 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4473);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4527 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4526;
+                __res_4525 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4527);
             }
-            return __res_4471;
+            return __res_4525;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4474;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4528;
             if (value is null)
             {
-                __marshalledValue_4474 = null;
+                __marshalledValue_4528 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4475 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4474 = __notNullable_4475.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4529 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4528 = __notNullable_4529.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onscreenschange", __marshalledValue_4474);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onscreenschange", __marshalledValue_4528);
         }
     }
 
@@ -66,32 +66,32 @@ public partial class ScreenDetails(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4476;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4477 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrentscreenchange");
-            if (__res_4477 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4530;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4531 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrentscreenchange");
+            if (__res_4531 is null)
             {
-                __res_4476 = null;
+                __res_4530 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4478 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4477;
-                __res_4476 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4478);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4532 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4531;
+                __res_4530 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4532);
             }
-            return __res_4476;
+            return __res_4530;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4479;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4533;
             if (value is null)
             {
-                __marshalledValue_4479 = null;
+                __marshalledValue_4533 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4480 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4479 = __notNullable_4480.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4534 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4533 = __notNullable_4534.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrentscreenchange", __marshalledValue_4479);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrentscreenchange", __marshalledValue_4533);
         }
     }
 }

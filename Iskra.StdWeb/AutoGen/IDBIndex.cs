@@ -10,16 +10,16 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_13477;
-            string __res_13478 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_13477 = __res_13478;
-            return __res_13477;
+            string __res_13586;
+            string __res_13587 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_13586 = __res_13587;
+            return __res_13586;
         }
         set
         {
-            string __marshalledValue_13479;
-            __marshalledValue_13479 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_13479);
+            string __marshalledValue_13588;
+            __marshalledValue_13588 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_13588);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.IDBObjectStore __res_13480;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13481 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectStore");
-            __res_13480 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBObjectStore>(__res_13481);
-            return __res_13480;
+            global::Iskra.StdWeb.IDBObjectStore __res_13589;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13590 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "objectStore");
+            __res_13589 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBObjectStore>(__res_13590);
+            return __res_13589;
         }
     }
 
@@ -38,18 +38,18 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13482;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13483;
-            __propObject_13483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "keyPath");
-            if (__propObject_13483 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_13591;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13592;
+            __propObject_13592 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "keyPath");
+            if (__propObject_13592 is null)
             {
-                __res_13482 = null;
+                __res_13591 = null;
             }
             else
             {
-                __res_13482 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13483);
+                __res_13591 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13592);
             }
-            return __res_13482;
+            return __res_13591;
         }
     }
 
@@ -57,10 +57,10 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            bool __res_13484;
-            bool __res_13485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiEntry");
-            __res_13484 = __res_13485;
-            return __res_13484;
+            bool __res_13593;
+            bool __res_13594 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "multiEntry");
+            __res_13593 = __res_13594;
+            return __res_13593;
         }
     }
 
@@ -68,10 +68,10 @@ public partial class IDBIndex(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            bool __res_13486;
-            bool __res_13487 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "unique");
-            __res_13486 = __res_13487;
-            return __res_13486;
+            bool __res_13595;
+            bool __res_13596 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "unique");
+            __res_13595 = __res_13596;
+            return __res_13595;
         }
     }
 }

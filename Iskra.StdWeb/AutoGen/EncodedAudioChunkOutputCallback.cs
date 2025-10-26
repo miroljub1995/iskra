@@ -10,21 +10,21 @@ public partial class EncodedAudioChunkOutputCallback(global::System.Runtime.Inte
 {
     public static implicit operator EncodedAudioChunkOutputCallback(EncodedAudioChunkOutputCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3961) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4012) =>
         {
-            using (__args_3961)
+            using (__args_4012)
             {
                 // Argument 1
-                global::Iskra.StdWeb.EncodedAudioChunk __arg_3963;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3964 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3961, 0);
-                __arg_3963 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EncodedAudioChunk>(__res_3964);
+                global::Iskra.StdWeb.EncodedAudioChunk __arg_4014;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4015 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4012, 0);
+                __arg_4014 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EncodedAudioChunk>(__res_4015);
 
                 // Argument 2
-                global::Iskra.StdWeb.EncodedAudioChunkMetadata __arg_3965;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3966 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3961, 1);
-                __arg_3965 = new global::Iskra.StdWeb.EncodedAudioChunkMetadata(__res_3966);
+                global::Iskra.StdWeb.EncodedAudioChunkMetadata __arg_4016;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4017 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4012, 1);
+                __arg_4016 = new global::Iskra.StdWeb.EncodedAudioChunkMetadata(__res_4017);
 
-                input(__arg_3963, __arg_3965);
+                input(__arg_4014, __arg_4016);
             }
         };
 

@@ -10,11 +10,11 @@ public partial class FontFaceSetLoadEvent(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3488;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3489;
-            __propObject_3489 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fontfaces");
-            __res_3488 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3489);
-            return __res_3488;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3539;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3540;
+            __propObject_3540 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fontfaces");
+            __res_3539 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3540);
+            return __res_3539;
         }
     }
 }

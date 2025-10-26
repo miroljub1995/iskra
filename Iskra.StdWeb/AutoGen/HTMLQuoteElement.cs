@@ -10,16 +10,16 @@ public partial class HTMLQuoteElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_9130;
-            string __res_9131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
-            __res_9130 = __res_9131;
-            return __res_9130;
+            string __res_9217;
+            string __res_9218 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
+            __res_9217 = __res_9218;
+            return __res_9217;
         }
         set
         {
-            string __marshalledValue_9132;
-            __marshalledValue_9132 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_9132);
+            string __marshalledValue_9219;
+            __marshalledValue_9219 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_9219);
         }
     }
 }

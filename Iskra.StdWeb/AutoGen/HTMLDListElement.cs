@@ -10,16 +10,16 @@ public partial class HTMLDListElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9160;
-            bool __res_9161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            __res_9160 = __res_9161;
-            return __res_9160;
+            bool __res_9247;
+            bool __res_9248 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
+            __res_9247 = __res_9248;
+            return __res_9247;
         }
         set
         {
-            bool __marshalledValue_9162;
-            __marshalledValue_9162 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_9162);
+            bool __marshalledValue_9249;
+            __marshalledValue_9249 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_9249);
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class PluginArray(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            uint __res_12284;
-            double __res_12285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_12284 = Convert.ToUInt32(__res_12285);
-            return __res_12284;
+            uint __res_12390;
+            double __res_12391 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_12390 = Convert.ToUInt32(__res_12391);
+            return __res_12390;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_12544;
-            string __res_12545 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_12544 = __res_12545;
-            return __res_12544;
+            string __res_12650;
+            string __res_12651 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_12650 = __res_12651;
+            return __res_12650;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_12546;
-            string __res_12547 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
-            __res_12546 = __res_12547;
-            return __res_12546;
+            string __res_12652;
+            string __res_12653 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_12652 = __res_12653;
+            return __res_12652;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_12548;
-            string __res_12549 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_12548 = __res_12549;
-            return __res_12548;
+            string __res_12654;
+            string __res_12655 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_12654 = __res_12655;
+            return __res_12654;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_12550;
-            string __res_12551 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
-            __res_12550 = __res_12551;
-            return __res_12550;
+            string __res_12656;
+            string __res_12657 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
+            __res_12656 = __res_12657;
+            return __res_12656;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_12552;
-            string __res_12553 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
-            __res_12552 = __res_12553;
-            return __res_12552;
+            string __res_12658;
+            string __res_12659 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
+            __res_12658 = __res_12659;
+            return __res_12658;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_12554;
-            string __res_12555 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
-            __res_12554 = __res_12555;
-            return __res_12554;
+            string __res_12660;
+            string __res_12661 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
+            __res_12660 = __res_12661;
+            return __res_12660;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_12556;
-            string __res_12557 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
-            __res_12556 = __res_12557;
-            return __res_12556;
+            string __res_12662;
+            string __res_12663 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
+            __res_12662 = __res_12663;
+            return __res_12662;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_12558;
-            string __res_12559 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
-            __res_12558 = __res_12559;
-            return __res_12558;
+            string __res_12664;
+            string __res_12665 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
+            __res_12664 = __res_12665;
+            return __res_12664;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class WorkerLocation(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_12560;
-            string __res_12561 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
-            __res_12560 = __res_12561;
-            return __res_12560;
+            string __res_12666;
+            string __res_12667 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
+            __res_12666 = __res_12667;
+            return __res_12666;
         }
     }
 }

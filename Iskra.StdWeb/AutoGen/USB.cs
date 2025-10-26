@@ -10,32 +10,32 @@ public partial class USB(global::System.Runtime.InteropServices.JavaScript.JSObj
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7952;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7953 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
-            if (__res_7953 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_8036;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8037 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_8037 is null)
             {
-                __res_7952 = null;
+                __res_8036 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7954 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7953;
-                __res_7952 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7954);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8038 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8037;
+                __res_8036 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8038);
             }
-            return __res_7952;
+            return __res_8036;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7955;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8039;
             if (value is null)
             {
-                __marshalledValue_7955 = null;
+                __marshalledValue_8039 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7956 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7955 = __notNullable_7956.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8040 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_8039 = __notNullable_8040.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_7955);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_8039);
         }
     }
 
@@ -43,32 +43,32 @@ public partial class USB(global::System.Runtime.InteropServices.JavaScript.JSObj
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7957;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7958 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
-            if (__res_7958 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_8041;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8042 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
+            if (__res_8042 is null)
             {
-                __res_7957 = null;
+                __res_8041 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7959 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7958;
-                __res_7957 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7959);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8043 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8042;
+                __res_8041 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8043);
             }
-            return __res_7957;
+            return __res_8041;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7960;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8044;
             if (value is null)
             {
-                __marshalledValue_7960 = null;
+                __marshalledValue_8044 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7961 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7960 = __notNullable_7961.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8045 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_8044 = __notNullable_8045.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_7960);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_8044);
         }
     }
 }

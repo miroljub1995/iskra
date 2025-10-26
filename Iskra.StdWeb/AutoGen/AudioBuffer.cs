@@ -10,10 +10,10 @@ public partial class AudioBuffer(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            float __res_13881;
-            double __res_13882 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
-            __res_13881 = Convert.ToSingle(__res_13882);
-            return __res_13881;
+            float __res_13990;
+            double __res_13991 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
+            __res_13990 = Convert.ToSingle(__res_13991);
+            return __res_13990;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AudioBuffer(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            uint __res_13883;
-            double __res_13884 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_13883 = Convert.ToUInt32(__res_13884);
-            return __res_13883;
+            uint __res_13992;
+            double __res_13993 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_13992 = Convert.ToUInt32(__res_13993);
+            return __res_13992;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class AudioBuffer(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_13885;
-            double __res_13886 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_13885 = __res_13886;
-            return __res_13885;
+            double __res_13994;
+            double __res_13995 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_13994 = __res_13995;
+            return __res_13994;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class AudioBuffer(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            uint __res_13887;
-            double __res_13888 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfChannels");
-            __res_13887 = Convert.ToUInt32(__res_13888);
-            return __res_13887;
+            uint __res_13996;
+            double __res_13997 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfChannels");
+            __res_13996 = Convert.ToUInt32(__res_13997);
+            return __res_13996;
         }
     }
 }

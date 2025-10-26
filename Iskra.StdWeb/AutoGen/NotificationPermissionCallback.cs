@@ -10,16 +10,16 @@ public partial class NotificationPermissionCallback(global::System.Runtime.Inter
 {
     public static implicit operator NotificationPermissionCallback(NotificationPermissionCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7173) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7239) =>
         {
-            using (__args_7173)
+            using (__args_7239)
             {
                 // Argument 1
-                global::Iskra.StdWeb.NotificationPermission __arg_7175;
-                string __res_7176 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_7173, 0);
-                __arg_7175 = global::Iskra.StdWeb.NotificationPermission.Create(__res_7176);
+                global::Iskra.StdWeb.NotificationPermission __arg_7241;
+                string __res_7242 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_7239, 0);
+                __arg_7241 = global::Iskra.StdWeb.NotificationPermission.Create(__res_7242);
 
-                input(__arg_7175);
+                input(__arg_7241);
             }
         };
 

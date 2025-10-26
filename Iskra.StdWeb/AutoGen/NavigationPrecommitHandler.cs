@@ -10,20 +10,24 @@ public partial class NavigationPrecommitHandler(global::System.Runtime.InteropSe
 {
     public static implicit operator NavigationPrecommitHandler(NavigationPrecommitHandlerManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12071) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12164, __res_12168) =>
         {
-            using (__args_12071)
+            using (__args_12164)
+            using (__res_12168)
             {
                 // Argument 1
-                global::Iskra.StdWeb.NavigationPrecommitController __arg_12073;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_12074 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_12071, 0);
-                __arg_12073 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationPrecommitController>(__res_12074);
+                global::Iskra.StdWeb.NavigationPrecommitController __arg_12166;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_12167 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_12164, 0);
+                __arg_12166 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationPrecommitController>(__res_12167);
 
-                input(__arg_12073);
+                global::Iskra.JSCore.Promise __managedRes_12169 = input(__arg_12166);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12170 = __managedRes_12169.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_12168, "value", __propObject_12170);
             }
         };
 
-        return new global::Iskra.StdWeb.NavigationPrecommitHandler(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.NavigationPrecommitHandler(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator NavigationPrecommitHandlerManaged(NavigationPrecommitHandler input)

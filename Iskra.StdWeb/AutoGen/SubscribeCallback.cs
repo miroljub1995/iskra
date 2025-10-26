@@ -10,16 +10,16 @@ public partial class SubscribeCallback(global::System.Runtime.InteropServices.Ja
 {
     public static implicit operator SubscribeCallback(SubscribeCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7884) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7956) =>
         {
-            using (__args_7884)
+            using (__args_7956)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Subscriber __arg_7886;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_7887 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7884, 0);
-                __arg_7886 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Subscriber>(__res_7887);
+                global::Iskra.StdWeb.Subscriber __arg_7958;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_7959 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7956, 0);
+                __arg_7958 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Subscriber>(__res_7959);
 
-                input(__arg_7886);
+                input(__arg_7958);
             }
         };
 

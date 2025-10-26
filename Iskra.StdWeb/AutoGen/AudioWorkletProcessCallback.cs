@@ -10,32 +10,37 @@ public partial class AudioWorkletProcessCallback(global::System.Runtime.InteropS
 {
     public static implicit operator AudioWorkletProcessCallback(AudioWorkletProcessCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_14109) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_14221, __res_14229) =>
         {
-            using (__args_14109)
+            using (__args_14221)
+            using (__res_14229)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_14111;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_14112;
-                __propObject_14112 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14109, 0);
-                __arg_14111 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_14112);
+                global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_14223;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_14224;
+                __propObject_14224 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14221, 0);
+                __arg_14223 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_14224);
 
                 // Argument 2
-                global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_14113;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_14114;
-                __propObject_14114 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14109, 1);
-                __arg_14113 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_14114);
+                global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_14225;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_14226;
+                __propObject_14226 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14221, 1);
+                __arg_14225 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_14226);
 
                 // Argument 3
-                global::System.Runtime.InteropServices.JavaScript.JSObject __arg_14115;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_14116 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14109, 2);
-                __arg_14115 = __res_14116;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __arg_14227;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_14228 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14221, 2);
+                __arg_14227 = __res_14228;
 
-                input(__arg_14111, __arg_14113, __arg_14115);
+                bool __managedRes_14230 = input(__arg_14223, __arg_14225, __arg_14227);
+
+                bool __marshalledValue_14231;
+                __marshalledValue_14231 = __managedRes_14230;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__res_14229, "value", __marshalledValue_14231);
             }
         };
 
-        return new global::Iskra.StdWeb.AudioWorkletProcessCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.AudioWorkletProcessCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator AudioWorkletProcessCallbackManaged(AudioWorkletProcessCallback input)

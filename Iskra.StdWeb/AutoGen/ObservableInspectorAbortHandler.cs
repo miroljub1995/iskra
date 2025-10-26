@@ -10,24 +10,24 @@ public partial class ObservableInspectorAbortHandler(global::System.Runtime.Inte
 {
     public static implicit operator ObservableInspectorAbortHandler(ObservableInspectorAbortHandlerManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7892) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7964) =>
         {
-            using (__args_7892)
+            using (__args_7964)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_7894;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7895;
-                __propObject_7895 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_7892, 0);
-                if (__propObject_7895 is null)
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_7966;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7967;
+                __propObject_7967 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_7964, 0);
+                if (__propObject_7967 is null)
                 {
-                    __arg_7894 = null;
+                    __arg_7966 = null;
                 }
                 else
                 {
-                    __arg_7894 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7895);
+                    __arg_7966 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7967);
                 }
 
-                input(__arg_7894);
+                input(__arg_7966);
             }
         };
 

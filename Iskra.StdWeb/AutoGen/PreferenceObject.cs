@@ -10,18 +10,18 @@ public partial class PreferenceObject(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_7218;
-            string? __res_7219 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "override");
-            if (__res_7219 is null)
+            string? __res_7284;
+            string? __res_7285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "override");
+            if (__res_7285 is null)
             {
-                __res_7218 = null;
+                __res_7284 = null;
             }
             else
             {
-                string __notNullable_7220 = (string)__res_7219;
-                __res_7218 = __notNullable_7220;
+                string __notNullable_7286 = (string)__res_7285;
+                __res_7284 = __notNullable_7286;
             }
-            return __res_7218;
+            return __res_7284;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class PreferenceObject(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_7221;
-            string __res_7222 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_7221 = __res_7222;
-            return __res_7221;
+            string __res_7287;
+            string __res_7288 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_7287 = __res_7288;
+            return __res_7287;
         }
     }
 
@@ -40,11 +40,11 @@ public partial class PreferenceObject(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7223;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7224;
-            __propObject_7224 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validValues");
-            __res_7223 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7224);
-            return __res_7223;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7289;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7290;
+            __propObject_7290 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validValues");
+            __res_7289 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7290);
+            return __res_7289;
         }
     }
 
@@ -52,32 +52,32 @@ public partial class PreferenceObject(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7225;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7226 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_7226 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7291;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7292 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_7292 is null)
             {
-                __res_7225 = null;
+                __res_7291 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7227 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7226;
-                __res_7225 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7227);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7293 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7292;
+                __res_7291 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7293);
             }
-            return __res_7225;
+            return __res_7291;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7228;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7294;
             if (value is null)
             {
-                __marshalledValue_7228 = null;
+                __marshalledValue_7294 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7229 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7228 = __notNullable_7229.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7295 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7294 = __notNullable_7295.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_7228);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_7294);
         }
     }
 }

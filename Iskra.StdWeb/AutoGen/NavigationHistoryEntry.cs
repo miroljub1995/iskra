@@ -10,18 +10,18 @@ public partial class NavigationHistoryEntry(global::System.Runtime.InteropServic
     {
         get
         {
-            string? __res_12013;
-            string? __res_12014 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_12014 is null)
+            string? __res_12103;
+            string? __res_12104 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_12104 is null)
             {
-                __res_12013 = null;
+                __res_12103 = null;
             }
             else
             {
-                string __notNullable_12015 = (string)__res_12014;
-                __res_12013 = __notNullable_12015;
+                string __notNullable_12105 = (string)__res_12104;
+                __res_12103 = __notNullable_12105;
             }
-            return __res_12013;
+            return __res_12103;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class NavigationHistoryEntry(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_12016;
-            string __res_12017 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
-            __res_12016 = __res_12017;
-            return __res_12016;
+            string __res_12106;
+            string __res_12107 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
+            __res_12106 = __res_12107;
+            return __res_12106;
         }
     }
 
@@ -40,10 +40,10 @@ public partial class NavigationHistoryEntry(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_12018;
-            string __res_12019 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_12018 = __res_12019;
-            return __res_12018;
+            string __res_12108;
+            string __res_12109 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_12108 = __res_12109;
+            return __res_12108;
         }
     }
 
@@ -51,10 +51,10 @@ public partial class NavigationHistoryEntry(global::System.Runtime.InteropServic
     {
         get
         {
-            long __res_12020;
-            double __res_12021 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_12020 = Convert.ToInt64(__res_12021);
-            return __res_12020;
+            long __res_12110;
+            double __res_12111 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_12110 = Convert.ToInt64(__res_12111);
+            return __res_12110;
         }
     }
 
@@ -62,10 +62,10 @@ public partial class NavigationHistoryEntry(global::System.Runtime.InteropServic
     {
         get
         {
-            bool __res_12022;
-            bool __res_12023 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
-            __res_12022 = __res_12023;
-            return __res_12022;
+            bool __res_12112;
+            bool __res_12113 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
+            __res_12112 = __res_12113;
+            return __res_12112;
         }
     }
 
@@ -73,32 +73,32 @@ public partial class NavigationHistoryEntry(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_12024;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12025 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondispose");
-            if (__res_12025 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_12114;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12115 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondispose");
+            if (__res_12115 is null)
             {
-                __res_12024 = null;
+                __res_12114 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12026 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12025;
-                __res_12024 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_12026);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12116 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12115;
+                __res_12114 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_12116);
             }
-            return __res_12024;
+            return __res_12114;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_12027;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_12117;
             if (value is null)
             {
-                __marshalledValue_12027 = null;
+                __marshalledValue_12117 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_12028 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_12027 = __notNullable_12028.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_12118 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_12117 = __notNullable_12118.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondispose", __marshalledValue_12027);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondispose", __marshalledValue_12117);
         }
     }
 }

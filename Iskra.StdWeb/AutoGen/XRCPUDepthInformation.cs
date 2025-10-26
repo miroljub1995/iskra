@@ -10,10 +10,10 @@ public partial class XRCPUDepthInformation(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_2065;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2066 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_2065 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2066);
-            return __res_2065;
+            global::Iskra.JSCore.ArrayBuffer __res_2104;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2105 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_2104 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2105);
+            return __res_2104;
         }
     }
 }

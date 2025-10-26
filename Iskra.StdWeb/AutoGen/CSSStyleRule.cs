@@ -10,10 +10,10 @@ public partial class CSSStyleRule(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.StylePropertyMap __res_13038;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13039 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
-            __res_13038 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StylePropertyMap>(__res_13039);
-            return __res_13038;
+            global::Iskra.StdWeb.StylePropertyMap __res_13147;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13148 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
+            __res_13147 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StylePropertyMap>(__res_13148);
+            return __res_13147;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class CSSStyleRule(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_13040;
-            string __res_13041 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
-            __res_13040 = __res_13041;
-            return __res_13040;
+            string __res_13149;
+            string __res_13150 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
+            __res_13149 = __res_13150;
+            return __res_13149;
         }
         set
         {
-            string __marshalledValue_13042;
-            __marshalledValue_13042 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_13042);
+            string __marshalledValue_13151;
+            __marshalledValue_13151 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_13151);
         }
     }
 
@@ -38,10 +38,10 @@ public partial class CSSStyleRule(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleProperties __res_13043;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13044 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_13043 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_13044);
-            return __res_13043;
+            global::Iskra.StdWeb.CSSStyleProperties __res_13152;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13153 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_13152 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_13153);
+            return __res_13152;
         }
     }
 }

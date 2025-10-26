@@ -10,10 +10,10 @@ public partial class Font(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_13572;
-            string __res_13573 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_13572 = __res_13573;
-            return __res_13572;
+            string __res_13681;
+            string __res_13682 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_13681 = __res_13682;
+            return __res_13681;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Font(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            uint __res_13574;
-            double __res_13575 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "glyphsRendered");
-            __res_13574 = Convert.ToUInt32(__res_13575);
-            return __res_13574;
+            uint __res_13683;
+            double __res_13684 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "glyphsRendered");
+            __res_13683 = Convert.ToUInt32(__res_13684);
+            return __res_13683;
         }
     }
 }

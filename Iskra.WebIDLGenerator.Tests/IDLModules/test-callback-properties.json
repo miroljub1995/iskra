@@ -82,6 +82,52 @@
         },
         "extAttrs": []
       },
+      "TestCallbackPropertiesNonVoidCallback": {
+        "fragment": "",
+        "type": "callback",
+        "name": "TestCallbackPropertiesNonVoidCallback",
+        "arguments": [
+          {
+            "name": "a",
+            "idlType": {
+              "type": "argument-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "default": null,
+            "optional": false,
+            "variadic": false,
+            "extAttrs": []
+          },
+          {
+            "name": "b",
+            "idlType": {
+              "type": "argument-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "default": null,
+            "optional": false,
+            "variadic": false,
+            "extAttrs": []
+          }
+        ],
+        "idlType": {
+          "type": "return-type",
+          "extAttrs": [],
+          "generic": "",
+          "nullable": false,
+          "union": false,
+          "idlType": "long"
+        },
+        "extAttrs": []
+      },
       "TestCallbackProperties": {
         "fragment": "",
         "type": "interface",
@@ -159,6 +205,38 @@
             "extAttrs": [],
             "special": "",
             "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "nonVoidCallback",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "TestCallbackPropertiesNonVoidCallback"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "nonVoidCallbackCallAndGetResult",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
             "href": ""
           }
         ],

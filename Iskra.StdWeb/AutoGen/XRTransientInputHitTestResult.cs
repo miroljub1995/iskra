@@ -10,10 +10,10 @@ public partial class XRTransientInputHitTestResult(global::System.Runtime.Intero
     {
         get
         {
-            global::Iskra.StdWeb.XRInputSource __res_8186;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8187 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
-            __res_8186 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRInputSource>(__res_8187);
-            return __res_8186;
+            global::Iskra.StdWeb.XRInputSource __res_8273;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8274 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSource");
+            __res_8273 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRInputSource>(__res_8274);
+            return __res_8273;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class XRTransientInputHitTestResult(global::System.Runtime.Intero
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8188;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8189;
-            __propObject_8189 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
-            __res_8188 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8189);
-            return __res_8188;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8275;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8276;
+            __propObject_8276 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "results");
+            __res_8275 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8276);
+            return __res_8275;
         }
     }
 }

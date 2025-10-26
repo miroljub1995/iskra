@@ -10,33 +10,37 @@ public partial class UnderlyingSinkWriteCallback(global::System.Runtime.InteropS
 {
     public static implicit operator UnderlyingSinkWriteCallback(UnderlyingSinkWriteCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1871) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1883, __res_1889) =>
         {
-            using (__args_1871)
+            using (__args_1883)
+            using (__res_1889)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_1873;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1874;
-                __propObject_1874 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_1871, 0);
-                if (__propObject_1874 is null)
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_1885;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1886;
+                __propObject_1886 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_1883, 0);
+                if (__propObject_1886 is null)
                 {
-                    __arg_1873 = null;
+                    __arg_1885 = null;
                 }
                 else
                 {
-                    __arg_1873 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1874);
+                    __arg_1885 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1886);
                 }
 
                 // Argument 2
-                global::Iskra.StdWeb.WritableStreamDefaultController __arg_1875;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1876 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1871, 1);
-                __arg_1875 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStreamDefaultController>(__res_1876);
+                global::Iskra.StdWeb.WritableStreamDefaultController __arg_1887;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1888 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1883, 1);
+                __arg_1887 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStreamDefaultController>(__res_1888);
 
-                input(__arg_1873, __arg_1875);
+                global::Iskra.JSCore.Promise __managedRes_1890 = input(__arg_1885, __arg_1887);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1891 = __managedRes_1890.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_1889, "value", __propObject_1891);
             }
         };
 
-        return new global::Iskra.StdWeb.UnderlyingSinkWriteCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.UnderlyingSinkWriteCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator UnderlyingSinkWriteCallbackManaged(UnderlyingSinkWriteCallback input)

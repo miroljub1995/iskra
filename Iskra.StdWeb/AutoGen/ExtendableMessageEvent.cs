@@ -10,18 +10,18 @@ public partial class ExtendableMessageEvent(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_7478;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7479;
-            __propObject_7479 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "data");
-            if (__propObject_7479 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_7547;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7548;
+            __propObject_7548 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "data");
+            if (__propObject_7548 is null)
             {
-                __res_7478 = null;
+                __res_7547 = null;
             }
             else
             {
-                __res_7478 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7479);
+                __res_7547 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7548);
             }
-            return __res_7478;
+            return __res_7547;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class ExtendableMessageEvent(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7480;
-            string __res_7481 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
-            __res_7480 = __res_7481;
-            return __res_7480;
+            string __res_7549;
+            string __res_7550 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_7549 = __res_7550;
+            return __res_7549;
         }
     }
 
@@ -40,10 +40,10 @@ public partial class ExtendableMessageEvent(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_7482;
-            string __res_7483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lastEventId");
-            __res_7482 = __res_7483;
-            return __res_7482;
+            string __res_7551;
+            string __res_7552 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lastEventId");
+            __res_7551 = __res_7552;
+            return __res_7551;
         }
     }
 
@@ -51,18 +51,18 @@ public partial class ExtendableMessageEvent(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_7484;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7485;
-            __propObject_7485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "source");
-            if (__propObject_7485 is null)
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_7553;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7554;
+            __propObject_7554 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "source");
+            if (__propObject_7554 is null)
             {
-                __res_7484 = null;
+                __res_7553 = null;
             }
             else
             {
-                __res_7484 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7485);
+                __res_7553 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7554);
             }
-            return __res_7484;
+            return __res_7553;
         }
     }
 
@@ -70,11 +70,11 @@ public partial class ExtendableMessageEvent(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7486;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7487;
-            __propObject_7487 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ports");
-            __res_7486 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7487);
-            return __res_7486;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7555;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7556;
+            __propObject_7556 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ports");
+            __res_7555 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7556);
+            return __res_7555;
         }
     }
 }

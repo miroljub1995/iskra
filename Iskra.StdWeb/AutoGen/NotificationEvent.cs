@@ -10,10 +10,10 @@ public partial class NotificationEvent(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.Notification __res_7177;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7178 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "notification");
-            __res_7177 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Notification>(__res_7178);
-            return __res_7177;
+            global::Iskra.StdWeb.Notification __res_7243;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7244 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "notification");
+            __res_7243 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Notification>(__res_7244);
+            return __res_7243;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class NotificationEvent(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_7179;
-            string __res_7180 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "action");
-            __res_7179 = __res_7180;
-            return __res_7179;
+            string __res_7245;
+            string __res_7246 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "action");
+            __res_7245 = __res_7246;
+            return __res_7245;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class CSSColorProfileRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_3584;
-            string __res_3585 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3584 = __res_3585;
-            return __res_3584;
+            string __res_3635;
+            string __res_3636 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3635 = __res_3636;
+            return __res_3635;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSColorProfileRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_3586;
-            string __res_3587 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_3586 = __res_3587;
-            return __res_3586;
+            string __res_3637;
+            string __res_3638 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_3637 = __res_3638;
+            return __res_3637;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class CSSColorProfileRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_3588;
-            string __res_3589 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "renderingIntent");
-            __res_3588 = __res_3589;
-            return __res_3588;
+            string __res_3639;
+            string __res_3640 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "renderingIntent");
+            __res_3639 = __res_3640;
+            return __res_3639;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class CSSColorProfileRule(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_3590;
-            string __res_3591 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "components");
-            __res_3590 = __res_3591;
-            return __res_3590;
+            string __res_3641;
+            string __res_3642 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "components");
+            __res_3641 = __res_3642;
+            return __res_3641;
         }
     }
 }

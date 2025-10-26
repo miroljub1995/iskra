@@ -10,16 +10,16 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_6753;
-            string __res_6754 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
-            __res_6753 = __res_6754;
-            return __res_6753;
+            string __res_6810;
+            string __res_6811 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_6810 = __res_6811;
+            return __res_6810;
         }
         set
         {
-            string __marshalledValue_6755;
-            __marshalledValue_6755 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_6755);
+            string __marshalledValue_6812;
+            __marshalledValue_6812 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_6812);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_6756;
-            string __res_6757 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
-            __res_6756 = __res_6757;
-            return __res_6756;
+            string __res_6813;
+            string __res_6814 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
+            __res_6813 = __res_6814;
+            return __res_6813;
         }
         set
         {
-            string __marshalledValue_6758;
-            __marshalledValue_6758 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lang", __marshalledValue_6758);
+            string __marshalledValue_6815;
+            __marshalledValue_6815 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lang", __marshalledValue_6815);
         }
     }
 
@@ -44,32 +44,32 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.SpeechSynthesisVoice? __res_6759;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6760 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "voice");
-            if (__res_6760 is null)
+            global::Iskra.StdWeb.SpeechSynthesisVoice? __res_6816;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6817 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "voice");
+            if (__res_6817 is null)
             {
-                __res_6759 = null;
+                __res_6816 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6761 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6760;
-                __res_6759 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechSynthesisVoice>(__notNullable_6761);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6818 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6817;
+                __res_6816 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechSynthesisVoice>(__notNullable_6818);
             }
-            return __res_6759;
+            return __res_6816;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6762;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6819;
             if (value is null)
             {
-                __marshalledValue_6762 = null;
+                __marshalledValue_6819 = null;
             }
             else
             {
-                global::Iskra.StdWeb.SpeechSynthesisVoice __notNullable_6763 = (global::Iskra.StdWeb.SpeechSynthesisVoice)value;
-                __marshalledValue_6762 = __notNullable_6763.JSObject;
+                global::Iskra.StdWeb.SpeechSynthesisVoice __notNullable_6820 = (global::Iskra.StdWeb.SpeechSynthesisVoice)value;
+                __marshalledValue_6819 = __notNullable_6820.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "voice", __marshalledValue_6762);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "voice", __marshalledValue_6819);
         }
     }
 
@@ -77,16 +77,16 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            float __res_6764;
-            double __res_6765 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "volume");
-            __res_6764 = Convert.ToSingle(__res_6765);
-            return __res_6764;
+            float __res_6821;
+            double __res_6822 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "volume");
+            __res_6821 = Convert.ToSingle(__res_6822);
+            return __res_6821;
         }
         set
         {
-            double __marshalledValue_6766;
-            __marshalledValue_6766 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "volume", __marshalledValue_6766);
+            double __marshalledValue_6823;
+            __marshalledValue_6823 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "volume", __marshalledValue_6823);
         }
     }
 
@@ -94,16 +94,16 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            float __res_6767;
-            double __res_6768 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rate");
-            __res_6767 = Convert.ToSingle(__res_6768);
-            return __res_6767;
+            float __res_6824;
+            double __res_6825 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rate");
+            __res_6824 = Convert.ToSingle(__res_6825);
+            return __res_6824;
         }
         set
         {
-            double __marshalledValue_6769;
-            __marshalledValue_6769 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "rate", __marshalledValue_6769);
+            double __marshalledValue_6826;
+            __marshalledValue_6826 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "rate", __marshalledValue_6826);
         }
     }
 
@@ -111,16 +111,16 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            float __res_6770;
-            double __res_6771 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pitch");
-            __res_6770 = Convert.ToSingle(__res_6771);
-            return __res_6770;
+            float __res_6827;
+            double __res_6828 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pitch");
+            __res_6827 = Convert.ToSingle(__res_6828);
+            return __res_6827;
         }
         set
         {
-            double __marshalledValue_6772;
-            __marshalledValue_6772 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "pitch", __marshalledValue_6772);
+            double __marshalledValue_6829;
+            __marshalledValue_6829 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "pitch", __marshalledValue_6829);
         }
     }
 
@@ -128,32 +128,32 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6773;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6774 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstart");
-            if (__res_6774 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6830;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6831 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstart");
+            if (__res_6831 is null)
             {
-                __res_6773 = null;
+                __res_6830 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6775 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6774;
-                __res_6773 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6775);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6832 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6831;
+                __res_6830 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6832);
             }
-            return __res_6773;
+            return __res_6830;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6776;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6833;
             if (value is null)
             {
-                __marshalledValue_6776 = null;
+                __marshalledValue_6833 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6777 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6776 = __notNullable_6777.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6834 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6833 = __notNullable_6834.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstart", __marshalledValue_6776);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstart", __marshalledValue_6833);
         }
     }
 
@@ -161,32 +161,32 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6778;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6779 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onend");
-            if (__res_6779 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6835;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6836 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onend");
+            if (__res_6836 is null)
             {
-                __res_6778 = null;
+                __res_6835 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6780 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6779;
-                __res_6778 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6780);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6837 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6836;
+                __res_6835 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6837);
             }
-            return __res_6778;
+            return __res_6835;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6781;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6838;
             if (value is null)
             {
-                __marshalledValue_6781 = null;
+                __marshalledValue_6838 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6782 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6781 = __notNullable_6782.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6839 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6838 = __notNullable_6839.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onend", __marshalledValue_6781);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onend", __marshalledValue_6838);
         }
     }
 
@@ -194,32 +194,32 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6783;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6784 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_6784 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6840;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6841 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_6841 is null)
             {
-                __res_6783 = null;
+                __res_6840 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6785 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6784;
-                __res_6783 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6785);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6842 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6841;
+                __res_6840 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6842);
             }
-            return __res_6783;
+            return __res_6840;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6786;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6843;
             if (value is null)
             {
-                __marshalledValue_6786 = null;
+                __marshalledValue_6843 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6787 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6786 = __notNullable_6787.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6844 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6843 = __notNullable_6844.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_6786);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_6843);
         }
     }
 
@@ -227,32 +227,32 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6788;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6789 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onpause");
-            if (__res_6789 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6845;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6846 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onpause");
+            if (__res_6846 is null)
             {
-                __res_6788 = null;
+                __res_6845 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6790 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6789;
-                __res_6788 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6790);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6847 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6846;
+                __res_6845 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6847);
             }
-            return __res_6788;
+            return __res_6845;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6791;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6848;
             if (value is null)
             {
-                __marshalledValue_6791 = null;
+                __marshalledValue_6848 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6792 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6791 = __notNullable_6792.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6849 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6848 = __notNullable_6849.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onpause", __marshalledValue_6791);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onpause", __marshalledValue_6848);
         }
     }
 
@@ -260,32 +260,32 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6793;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6794 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresume");
-            if (__res_6794 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6850;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6851 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresume");
+            if (__res_6851 is null)
             {
-                __res_6793 = null;
+                __res_6850 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6795 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6794;
-                __res_6793 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6795);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6852 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6851;
+                __res_6850 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6852);
             }
-            return __res_6793;
+            return __res_6850;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6796;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6853;
             if (value is null)
             {
-                __marshalledValue_6796 = null;
+                __marshalledValue_6853 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6797 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6796 = __notNullable_6797.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6854 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6853 = __notNullable_6854.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onresume", __marshalledValue_6796);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onresume", __marshalledValue_6853);
         }
     }
 
@@ -293,32 +293,32 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6798;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6799 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmark");
-            if (__res_6799 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6855;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6856 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmark");
+            if (__res_6856 is null)
             {
-                __res_6798 = null;
+                __res_6855 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6800 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6799;
-                __res_6798 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6800);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6857 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6856;
+                __res_6855 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6857);
             }
-            return __res_6798;
+            return __res_6855;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6801;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6858;
             if (value is null)
             {
-                __marshalledValue_6801 = null;
+                __marshalledValue_6858 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6802 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6801 = __notNullable_6802.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6859 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6858 = __notNullable_6859.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmark", __marshalledValue_6801);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmark", __marshalledValue_6858);
         }
     }
 
@@ -326,32 +326,32 @@ public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6803;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6804 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onboundary");
-            if (__res_6804 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6860;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6861 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onboundary");
+            if (__res_6861 is null)
             {
-                __res_6803 = null;
+                __res_6860 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6805 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6804;
-                __res_6803 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6805);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6862 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6861;
+                __res_6860 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6862);
             }
-            return __res_6803;
+            return __res_6860;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6806;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6863;
             if (value is null)
             {
-                __marshalledValue_6806 = null;
+                __marshalledValue_6863 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6807 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6806 = __notNullable_6807.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6864 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6863 = __notNullable_6864.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onboundary", __marshalledValue_6806);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onboundary", __marshalledValue_6863);
         }
     }
 }

@@ -10,18 +10,18 @@ public partial class DelegatedInkTrailPresenter(global::System.Runtime.InteropSe
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_2898;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2899 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "presentationArea");
-            if (__res_2899 is null)
+            global::Iskra.StdWeb.Element? __res_2949;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2950 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "presentationArea");
+            if (__res_2950 is null)
             {
-                __res_2898 = null;
+                __res_2949 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2900 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2899;
-                __res_2898 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_2900);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2951 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2950;
+                __res_2949 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_2951);
             }
-            return __res_2898;
+            return __res_2949;
         }
     }
 }

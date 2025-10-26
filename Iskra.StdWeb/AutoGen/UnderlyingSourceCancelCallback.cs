@@ -10,28 +10,32 @@ public partial class UnderlyingSourceCancelCallback(global::System.Runtime.Inter
 {
     public static implicit operator UnderlyingSourceCancelCallback(UnderlyingSourceCancelCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1846) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1852, __res_1856) =>
         {
-            using (__args_1846)
+            using (__args_1852)
+            using (__res_1856)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_1848;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1849;
-                __propObject_1849 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_1846, 0);
-                if (__propObject_1849 is null)
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_1854;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1855;
+                __propObject_1855 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_1852, 0);
+                if (__propObject_1855 is null)
                 {
-                    __arg_1848 = null;
+                    __arg_1854 = null;
                 }
                 else
                 {
-                    __arg_1848 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1849);
+                    __arg_1854 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1855);
                 }
 
-                input(__arg_1848);
+                global::Iskra.JSCore.Promise __managedRes_1857 = input(__arg_1854);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1858 = __managedRes_1857.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_1856, "value", __propObject_1858);
             }
         };
 
-        return new global::Iskra.StdWeb.UnderlyingSourceCancelCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.UnderlyingSourceCancelCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator UnderlyingSourceCancelCallbackManaged(UnderlyingSourceCancelCallback input)

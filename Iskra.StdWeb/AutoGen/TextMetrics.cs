@@ -10,10 +10,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10696;
-            double __res_10697 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_10696 = __res_10697;
-            return __res_10696;
+            double __res_10783;
+            double __res_10784 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_10783 = __res_10784;
+            return __res_10783;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10698;
-            double __res_10699 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "actualBoundingBoxLeft");
-            __res_10698 = __res_10699;
-            return __res_10698;
+            double __res_10785;
+            double __res_10786 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "actualBoundingBoxLeft");
+            __res_10785 = __res_10786;
+            return __res_10785;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10700;
-            double __res_10701 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "actualBoundingBoxRight");
-            __res_10700 = __res_10701;
-            return __res_10700;
+            double __res_10787;
+            double __res_10788 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "actualBoundingBoxRight");
+            __res_10787 = __res_10788;
+            return __res_10787;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10702;
-            double __res_10703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fontBoundingBoxAscent");
-            __res_10702 = __res_10703;
-            return __res_10702;
+            double __res_10789;
+            double __res_10790 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fontBoundingBoxAscent");
+            __res_10789 = __res_10790;
+            return __res_10789;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10704;
-            double __res_10705 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fontBoundingBoxDescent");
-            __res_10704 = __res_10705;
-            return __res_10704;
+            double __res_10791;
+            double __res_10792 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fontBoundingBoxDescent");
+            __res_10791 = __res_10792;
+            return __res_10791;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10706;
-            double __res_10707 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "actualBoundingBoxAscent");
-            __res_10706 = __res_10707;
-            return __res_10706;
+            double __res_10793;
+            double __res_10794 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "actualBoundingBoxAscent");
+            __res_10793 = __res_10794;
+            return __res_10793;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10708;
-            double __res_10709 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "actualBoundingBoxDescent");
-            __res_10708 = __res_10709;
-            return __res_10708;
+            double __res_10795;
+            double __res_10796 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "actualBoundingBoxDescent");
+            __res_10795 = __res_10796;
+            return __res_10795;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10710;
-            double __res_10711 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "emHeightAscent");
-            __res_10710 = __res_10711;
-            return __res_10710;
+            double __res_10797;
+            double __res_10798 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "emHeightAscent");
+            __res_10797 = __res_10798;
+            return __res_10797;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10712;
-            double __res_10713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "emHeightDescent");
-            __res_10712 = __res_10713;
-            return __res_10712;
+            double __res_10799;
+            double __res_10800 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "emHeightDescent");
+            __res_10799 = __res_10800;
+            return __res_10799;
         }
     }
 
@@ -109,10 +109,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10714;
-            double __res_10715 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "hangingBaseline");
-            __res_10714 = __res_10715;
-            return __res_10714;
+            double __res_10801;
+            double __res_10802 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "hangingBaseline");
+            __res_10801 = __res_10802;
+            return __res_10801;
         }
     }
 
@@ -120,10 +120,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10716;
-            double __res_10717 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "alphabeticBaseline");
-            __res_10716 = __res_10717;
-            return __res_10716;
+            double __res_10803;
+            double __res_10804 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "alphabeticBaseline");
+            __res_10803 = __res_10804;
+            return __res_10803;
         }
     }
 
@@ -131,10 +131,10 @@ public partial class TextMetrics(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_10718;
-            double __res_10719 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "ideographicBaseline");
-            __res_10718 = __res_10719;
-            return __res_10718;
+            double __res_10805;
+            double __res_10806 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "ideographicBaseline");
+            __res_10805 = __res_10806;
+            return __res_10805;
         }
     }
 }

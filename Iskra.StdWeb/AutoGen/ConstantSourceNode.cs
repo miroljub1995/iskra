@@ -10,10 +10,10 @@ public partial class ConstantSourceNode(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_13990;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13991 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
-            __res_13990 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_13991);
-            return __res_13990;
+            global::Iskra.StdWeb.AudioParam __res_14099;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14100 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
+            __res_14099 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14100);
+            return __res_14099;
         }
     }
 }

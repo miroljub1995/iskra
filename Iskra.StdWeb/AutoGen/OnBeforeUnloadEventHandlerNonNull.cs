@@ -10,20 +10,33 @@ public partial class OnBeforeUnloadEventHandlerNonNull(global::System.Runtime.In
 {
     public static implicit operator OnBeforeUnloadEventHandlerNonNull(OnBeforeUnloadEventHandlerNonNullManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12160) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12262, __res_12266) =>
         {
-            using (__args_12160)
+            using (__args_12262)
+            using (__res_12266)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Event __arg_12162;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_12163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_12160, 0);
-                __arg_12162 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(__res_12163);
+                global::Iskra.StdWeb.Event __arg_12264;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_12265 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_12262, 0);
+                __arg_12264 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(__res_12265);
 
-                input(__arg_12162);
+                string? __managedRes_12267 = input(__arg_12264);
+
+                string? __marshalledValue_12268;
+                if (__managedRes_12267 is null)
+                {
+                    __marshalledValue_12268 = null;
+                }
+                else
+                {
+                    string __notNullable_12269 = (string)__managedRes_12267;
+                    __marshalledValue_12268 = __notNullable_12269;
+                }
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__res_12266, "value", __marshalledValue_12268);
             }
         };
 
-        return new global::Iskra.StdWeb.OnBeforeUnloadEventHandlerNonNull(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.OnBeforeUnloadEventHandlerNonNull(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator OnBeforeUnloadEventHandlerNonNullManaged(OnBeforeUnloadEventHandlerNonNull input)

@@ -10,16 +10,16 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.XRSpace __res_2814;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2815 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
-            __res_2814 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_2815);
-            return __res_2814;
+            global::Iskra.StdWeb.XRSpace __res_2865;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2866 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
+            __res_2865 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_2866);
+            return __res_2865;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_2816;
-            __marshalledValue_2816 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "space", __marshalledValue_2816);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_2867;
+            __marshalledValue_2867 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "space", __marshalledValue_2867);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.XRRigidTransform __res_2817;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2818 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            __res_2817 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__res_2818);
-            return __res_2817;
+            global::Iskra.StdWeb.XRRigidTransform __res_2868;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2869 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            __res_2868 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__res_2869);
+            return __res_2868;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_2819;
-            __marshalledValue_2819 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "transform", __marshalledValue_2819);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_2870;
+            __marshalledValue_2870 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "transform", __marshalledValue_2870);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            float __res_2820;
-            double __res_2821 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radius");
-            __res_2820 = Convert.ToSingle(__res_2821);
-            return __res_2820;
+            float __res_2871;
+            double __res_2872 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radius");
+            __res_2871 = Convert.ToSingle(__res_2872);
+            return __res_2871;
         }
         set
         {
-            double __marshalledValue_2822;
-            __marshalledValue_2822 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "radius", __marshalledValue_2822);
+            double __marshalledValue_2873;
+            __marshalledValue_2873 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "radius", __marshalledValue_2873);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            float __res_2823;
-            double __res_2824 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "centralHorizontalAngle");
-            __res_2823 = Convert.ToSingle(__res_2824);
-            return __res_2823;
+            float __res_2874;
+            double __res_2875 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "centralHorizontalAngle");
+            __res_2874 = Convert.ToSingle(__res_2875);
+            return __res_2874;
         }
         set
         {
-            double __marshalledValue_2825;
-            __marshalledValue_2825 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "centralHorizontalAngle", __marshalledValue_2825);
+            double __marshalledValue_2876;
+            __marshalledValue_2876 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "centralHorizontalAngle", __marshalledValue_2876);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            float __res_2826;
-            double __res_2827 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "upperVerticalAngle");
-            __res_2826 = Convert.ToSingle(__res_2827);
-            return __res_2826;
+            float __res_2877;
+            double __res_2878 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "upperVerticalAngle");
+            __res_2877 = Convert.ToSingle(__res_2878);
+            return __res_2877;
         }
         set
         {
-            double __marshalledValue_2828;
-            __marshalledValue_2828 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "upperVerticalAngle", __marshalledValue_2828);
+            double __marshalledValue_2879;
+            __marshalledValue_2879 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "upperVerticalAngle", __marshalledValue_2879);
         }
     }
 
@@ -95,16 +95,16 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            float __res_2829;
-            double __res_2830 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lowerVerticalAngle");
-            __res_2829 = Convert.ToSingle(__res_2830);
-            return __res_2829;
+            float __res_2880;
+            double __res_2881 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lowerVerticalAngle");
+            __res_2880 = Convert.ToSingle(__res_2881);
+            return __res_2880;
         }
         set
         {
-            double __marshalledValue_2831;
-            __marshalledValue_2831 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lowerVerticalAngle", __marshalledValue_2831);
+            double __marshalledValue_2882;
+            __marshalledValue_2882 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lowerVerticalAngle", __marshalledValue_2882);
         }
     }
 
@@ -112,32 +112,32 @@ public partial class XREquirectLayer(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2832;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2833 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw");
-            if (__res_2833 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_2883;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2884 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw");
+            if (__res_2884 is null)
             {
-                __res_2832 = null;
+                __res_2883 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2834 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2833;
-                __res_2832 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2834);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2885 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2884;
+                __res_2883 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2885);
             }
-            return __res_2832;
+            return __res_2883;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2835;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2886;
             if (value is null)
             {
-                __marshalledValue_2835 = null;
+                __marshalledValue_2886 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2836 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2835 = __notNullable_2836.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2887 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_2886 = __notNullable_2887.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw", __marshalledValue_2835);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw", __marshalledValue_2886);
         }
     }
 }

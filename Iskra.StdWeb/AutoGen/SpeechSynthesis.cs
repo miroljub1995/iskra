@@ -10,10 +10,10 @@ public partial class SpeechSynthesis(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_6742;
-            bool __res_6743 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pending");
-            __res_6742 = __res_6743;
-            return __res_6742;
+            bool __res_6799;
+            bool __res_6800 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pending");
+            __res_6799 = __res_6800;
+            return __res_6799;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SpeechSynthesis(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_6744;
-            bool __res_6745 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "speaking");
-            __res_6744 = __res_6745;
-            return __res_6744;
+            bool __res_6801;
+            bool __res_6802 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "speaking");
+            __res_6801 = __res_6802;
+            return __res_6801;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SpeechSynthesis(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_6746;
-            bool __res_6747 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "paused");
-            __res_6746 = __res_6747;
-            return __res_6746;
+            bool __res_6803;
+            bool __res_6804 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "paused");
+            __res_6803 = __res_6804;
+            return __res_6803;
         }
     }
 
@@ -43,32 +43,32 @@ public partial class SpeechSynthesis(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6748;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6749 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onvoiceschanged");
-            if (__res_6749 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6805;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6806 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onvoiceschanged");
+            if (__res_6806 is null)
             {
-                __res_6748 = null;
+                __res_6805 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6750 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6749;
-                __res_6748 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6750);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6807 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6806;
+                __res_6805 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6807);
             }
-            return __res_6748;
+            return __res_6805;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6751;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6808;
             if (value is null)
             {
-                __marshalledValue_6751 = null;
+                __marshalledValue_6808 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6752 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6751 = __notNullable_6752.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6809 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6808 = __notNullable_6809.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onvoiceschanged", __marshalledValue_6751);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onvoiceschanged", __marshalledValue_6808);
         }
     }
 }

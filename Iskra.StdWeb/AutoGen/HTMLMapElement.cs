@@ -10,16 +10,16 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_9796;
-            string __res_9797 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_9796 = __res_9797;
-            return __res_9796;
+            string __res_9883;
+            string __res_9884 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_9883 = __res_9884;
+            return __res_9883;
         }
         set
         {
-            string __marshalledValue_9798;
-            __marshalledValue_9798 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9798);
+            string __marshalledValue_9885;
+            __marshalledValue_9885 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9885);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCollection __res_9799;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9800 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
-            __res_9799 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_9800);
-            return __res_9799;
+            global::Iskra.StdWeb.HTMLCollection __res_9886;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9887 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
+            __res_9886 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_9887);
+            return __res_9886;
         }
     }
 }

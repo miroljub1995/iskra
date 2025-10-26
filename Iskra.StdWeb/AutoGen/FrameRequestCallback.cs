@@ -10,16 +10,16 @@ public partial class FrameRequestCallback(global::System.Runtime.InteropServices
 {
     public static implicit operator FrameRequestCallback(FrameRequestCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12318) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12424) =>
         {
-            using (__args_12318)
+            using (__args_12424)
             {
                 // Argument 1
-                double __arg_12320;
-                double __res_12321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_12318, 0);
-                __arg_12320 = __res_12321;
+                double __arg_12426;
+                double __res_12427 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_12424, 0);
+                __arg_12426 = __res_12427;
 
-                input(__arg_12320);
+                input(__arg_12426);
             }
         };
 

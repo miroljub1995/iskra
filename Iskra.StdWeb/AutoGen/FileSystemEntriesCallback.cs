@@ -10,17 +10,17 @@ public partial class FileSystemEntriesCallback(global::System.Runtime.InteropSer
 {
     public static implicit operator FileSystemEntriesCallback(FileSystemEntriesCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2602) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2653) =>
         {
-            using (__args_2602)
+            using (__args_2653)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_2604;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2605;
-                __propObject_2605 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2602, 0);
-                __arg_2604 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_2605);
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_2655;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2656;
+                __propObject_2656 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2653, 0);
+                __arg_2655 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_2656);
 
-                input(__arg_2604);
+                input(__arg_2655);
             }
         };
 

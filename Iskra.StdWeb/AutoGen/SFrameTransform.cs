@@ -10,32 +10,32 @@ public partial class SFrameTransform(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_1963;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1964 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_1964 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_1999;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2000 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_2000 is null)
             {
-                __res_1963 = null;
+                __res_1999 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1965 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1964;
-                __res_1963 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_1965);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2001 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2000;
+                __res_1999 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2001);
             }
-            return __res_1963;
+            return __res_1999;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_1966;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2002;
             if (value is null)
             {
-                __marshalledValue_1966 = null;
+                __marshalledValue_2002 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_1967 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_1966 = __notNullable_1967.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2003 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_2002 = __notNullable_2003.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_1966);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_2002);
         }
     }
 }

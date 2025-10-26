@@ -10,16 +10,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_9166;
-            double __res_9167 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "attributionSourceId");
-            __res_9166 = Convert.ToUInt32(__res_9167);
-            return __res_9166;
+            uint __res_9253;
+            double __res_9254 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "attributionSourceId");
+            __res_9253 = Convert.ToUInt32(__res_9254);
+            return __res_9253;
         }
         set
         {
-            double __marshalledValue_9168;
-            __marshalledValue_9168 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "attributionSourceId", __marshalledValue_9168);
+            double __marshalledValue_9255;
+            __marshalledValue_9255 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "attributionSourceId", __marshalledValue_9255);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9169;
-            string __res_9170 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
-            __res_9169 = __res_9170;
-            return __res_9169;
+            string __res_9256;
+            string __res_9257 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_9256 = __res_9257;
+            return __res_9256;
         }
         set
         {
-            string __marshalledValue_9171;
-            __marshalledValue_9171 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_9171);
+            string __marshalledValue_9258;
+            __marshalledValue_9258 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_9258);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9172;
-            string __res_9173 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "download");
-            __res_9172 = __res_9173;
-            return __res_9172;
+            string __res_9259;
+            string __res_9260 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "download");
+            __res_9259 = __res_9260;
+            return __res_9259;
         }
         set
         {
-            string __marshalledValue_9174;
-            __marshalledValue_9174 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "download", __marshalledValue_9174);
+            string __marshalledValue_9261;
+            __marshalledValue_9261 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "download", __marshalledValue_9261);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9175;
-            string __res_9176 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ping");
-            __res_9175 = __res_9176;
-            return __res_9175;
+            string __res_9262;
+            string __res_9263 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ping");
+            __res_9262 = __res_9263;
+            return __res_9262;
         }
         set
         {
-            string __marshalledValue_9177;
-            __marshalledValue_9177 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ping", __marshalledValue_9177);
+            string __marshalledValue_9264;
+            __marshalledValue_9264 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ping", __marshalledValue_9264);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9178;
-            string __res_9179 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
-            __res_9178 = __res_9179;
-            return __res_9178;
+            string __res_9265;
+            string __res_9266 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
+            __res_9265 = __res_9266;
+            return __res_9265;
         }
         set
         {
-            string __marshalledValue_9180;
-            __marshalledValue_9180 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rel", __marshalledValue_9180);
+            string __marshalledValue_9267;
+            __marshalledValue_9267 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rel", __marshalledValue_9267);
         }
     }
 
@@ -95,10 +95,10 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.DOMTokenList __res_9181;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9182 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
-            __res_9181 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_9182);
-            return __res_9181;
+            global::Iskra.StdWeb.DOMTokenList __res_9268;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
+            __res_9268 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_9269);
+            return __res_9268;
         }
     }
 
@@ -106,16 +106,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9183;
-            string __res_9184 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hreflang");
-            __res_9183 = __res_9184;
-            return __res_9183;
+            string __res_9270;
+            string __res_9271 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hreflang");
+            __res_9270 = __res_9271;
+            return __res_9270;
         }
         set
         {
-            string __marshalledValue_9185;
-            __marshalledValue_9185 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hreflang", __marshalledValue_9185);
+            string __marshalledValue_9272;
+            __marshalledValue_9272 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hreflang", __marshalledValue_9272);
         }
     }
 
@@ -123,16 +123,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9186;
-            string __res_9187 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_9186 = __res_9187;
-            return __res_9186;
+            string __res_9273;
+            string __res_9274 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_9273 = __res_9274;
+            return __res_9273;
         }
         set
         {
-            string __marshalledValue_9188;
-            __marshalledValue_9188 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_9188);
+            string __marshalledValue_9275;
+            __marshalledValue_9275 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_9275);
         }
     }
 
@@ -140,16 +140,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9189;
-            string __res_9190 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
-            __res_9189 = __res_9190;
-            return __res_9189;
+            string __res_9276;
+            string __res_9277 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "text");
+            __res_9276 = __res_9277;
+            return __res_9276;
         }
         set
         {
-            string __marshalledValue_9191;
-            __marshalledValue_9191 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_9191);
+            string __marshalledValue_9278;
+            __marshalledValue_9278 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "text", __marshalledValue_9278);
         }
     }
 
@@ -157,16 +157,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9192;
-            string __res_9193 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
-            __res_9192 = __res_9193;
-            return __res_9192;
+            string __res_9279;
+            string __res_9280 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
+            __res_9279 = __res_9280;
+            return __res_9279;
         }
         set
         {
-            string __marshalledValue_9194;
-            __marshalledValue_9194 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_9194);
+            string __marshalledValue_9281;
+            __marshalledValue_9281 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_9281);
         }
     }
 
@@ -174,16 +174,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9195;
-            string __res_9196 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "coords");
-            __res_9195 = __res_9196;
-            return __res_9195;
+            string __res_9282;
+            string __res_9283 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "coords");
+            __res_9282 = __res_9283;
+            return __res_9282;
         }
         set
         {
-            string __marshalledValue_9197;
-            __marshalledValue_9197 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "coords", __marshalledValue_9197);
+            string __marshalledValue_9284;
+            __marshalledValue_9284 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "coords", __marshalledValue_9284);
         }
     }
 
@@ -191,16 +191,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9198;
-            string __res_9199 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "charset");
-            __res_9198 = __res_9199;
-            return __res_9198;
+            string __res_9285;
+            string __res_9286 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "charset");
+            __res_9285 = __res_9286;
+            return __res_9285;
         }
         set
         {
-            string __marshalledValue_9200;
-            __marshalledValue_9200 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "charset", __marshalledValue_9200);
+            string __marshalledValue_9287;
+            __marshalledValue_9287 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "charset", __marshalledValue_9287);
         }
     }
 
@@ -208,16 +208,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9201;
-            string __res_9202 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_9201 = __res_9202;
-            return __res_9201;
+            string __res_9288;
+            string __res_9289 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_9288 = __res_9289;
+            return __res_9288;
         }
         set
         {
-            string __marshalledValue_9203;
-            __marshalledValue_9203 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9203);
+            string __marshalledValue_9290;
+            __marshalledValue_9290 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_9290);
         }
     }
 
@@ -225,16 +225,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9204;
-            string __res_9205 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rev");
-            __res_9204 = __res_9205;
-            return __res_9204;
+            string __res_9291;
+            string __res_9292 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rev");
+            __res_9291 = __res_9292;
+            return __res_9291;
         }
         set
         {
-            string __marshalledValue_9206;
-            __marshalledValue_9206 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rev", __marshalledValue_9206);
+            string __marshalledValue_9293;
+            __marshalledValue_9293 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rev", __marshalledValue_9293);
         }
     }
 
@@ -242,16 +242,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9207;
-            string __res_9208 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shape");
-            __res_9207 = __res_9208;
-            return __res_9207;
+            string __res_9294;
+            string __res_9295 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shape");
+            __res_9294 = __res_9295;
+            return __res_9294;
         }
         set
         {
-            string __marshalledValue_9209;
-            __marshalledValue_9209 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shape", __marshalledValue_9209);
+            string __marshalledValue_9296;
+            __marshalledValue_9296 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shape", __marshalledValue_9296);
         }
     }
 
@@ -259,16 +259,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9210;
-            string __res_9211 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "attributionSrc");
-            __res_9210 = __res_9211;
-            return __res_9210;
+            string __res_9297;
+            string __res_9298 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "attributionSrc");
+            __res_9297 = __res_9298;
+            return __res_9297;
         }
         set
         {
-            string __marshalledValue_9212;
-            __marshalledValue_9212 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "attributionSrc", __marshalledValue_9212);
+            string __marshalledValue_9299;
+            __marshalledValue_9299 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "attributionSrc", __marshalledValue_9299);
         }
     }
 
@@ -276,16 +276,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9213;
-            string __res_9214 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_9213 = __res_9214;
-            return __res_9213;
+            string __res_9300;
+            string __res_9301 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_9300 = __res_9301;
+            return __res_9300;
         }
         set
         {
-            string __marshalledValue_9215;
-            __marshalledValue_9215 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_9215);
+            string __marshalledValue_9302;
+            __marshalledValue_9302 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_9302);
         }
     }
 
@@ -293,10 +293,10 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9216;
-            string __res_9217 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
-            __res_9216 = __res_9217;
-            return __res_9216;
+            string __res_9303;
+            string __res_9304 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_9303 = __res_9304;
+            return __res_9303;
         }
     }
 
@@ -304,16 +304,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9218;
-            string __res_9219 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_9218 = __res_9219;
-            return __res_9218;
+            string __res_9305;
+            string __res_9306 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_9305 = __res_9306;
+            return __res_9305;
         }
         set
         {
-            string __marshalledValue_9220;
-            __marshalledValue_9220 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "protocol", __marshalledValue_9220);
+            string __marshalledValue_9307;
+            __marshalledValue_9307 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "protocol", __marshalledValue_9307);
         }
     }
 
@@ -321,16 +321,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9221;
-            string __res_9222 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
-            __res_9221 = __res_9222;
-            return __res_9221;
+            string __res_9308;
+            string __res_9309 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
+            __res_9308 = __res_9309;
+            return __res_9308;
         }
         set
         {
-            string __marshalledValue_9223;
-            __marshalledValue_9223 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "username", __marshalledValue_9223);
+            string __marshalledValue_9310;
+            __marshalledValue_9310 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "username", __marshalledValue_9310);
         }
     }
 
@@ -338,16 +338,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9224;
-            string __res_9225 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
-            __res_9224 = __res_9225;
-            return __res_9224;
+            string __res_9311;
+            string __res_9312 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
+            __res_9311 = __res_9312;
+            return __res_9311;
         }
         set
         {
-            string __marshalledValue_9226;
-            __marshalledValue_9226 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "password", __marshalledValue_9226);
+            string __marshalledValue_9313;
+            __marshalledValue_9313 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "password", __marshalledValue_9313);
         }
     }
 
@@ -355,16 +355,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9227;
-            string __res_9228 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
-            __res_9227 = __res_9228;
-            return __res_9227;
+            string __res_9314;
+            string __res_9315 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
+            __res_9314 = __res_9315;
+            return __res_9314;
         }
         set
         {
-            string __marshalledValue_9229;
-            __marshalledValue_9229 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "host", __marshalledValue_9229);
+            string __marshalledValue_9316;
+            __marshalledValue_9316 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "host", __marshalledValue_9316);
         }
     }
 
@@ -372,16 +372,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9230;
-            string __res_9231 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
-            __res_9230 = __res_9231;
-            return __res_9230;
+            string __res_9317;
+            string __res_9318 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
+            __res_9317 = __res_9318;
+            return __res_9317;
         }
         set
         {
-            string __marshalledValue_9232;
-            __marshalledValue_9232 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hostname", __marshalledValue_9232);
+            string __marshalledValue_9319;
+            __marshalledValue_9319 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hostname", __marshalledValue_9319);
         }
     }
 
@@ -389,16 +389,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9233;
-            string __res_9234 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
-            __res_9233 = __res_9234;
-            return __res_9233;
+            string __res_9320;
+            string __res_9321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
+            __res_9320 = __res_9321;
+            return __res_9320;
         }
         set
         {
-            string __marshalledValue_9235;
-            __marshalledValue_9235 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "port", __marshalledValue_9235);
+            string __marshalledValue_9322;
+            __marshalledValue_9322 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "port", __marshalledValue_9322);
         }
     }
 
@@ -406,16 +406,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9236;
-            string __res_9237 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
-            __res_9236 = __res_9237;
-            return __res_9236;
+            string __res_9323;
+            string __res_9324 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
+            __res_9323 = __res_9324;
+            return __res_9323;
         }
         set
         {
-            string __marshalledValue_9238;
-            __marshalledValue_9238 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pathname", __marshalledValue_9238);
+            string __marshalledValue_9325;
+            __marshalledValue_9325 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pathname", __marshalledValue_9325);
         }
     }
 
@@ -423,16 +423,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9239;
-            string __res_9240 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
-            __res_9239 = __res_9240;
-            return __res_9239;
+            string __res_9326;
+            string __res_9327 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
+            __res_9326 = __res_9327;
+            return __res_9326;
         }
         set
         {
-            string __marshalledValue_9241;
-            __marshalledValue_9241 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "search", __marshalledValue_9241);
+            string __marshalledValue_9328;
+            __marshalledValue_9328 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "search", __marshalledValue_9328);
         }
     }
 
@@ -440,16 +440,16 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_9242;
-            string __res_9243 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
-            __res_9242 = __res_9243;
-            return __res_9242;
+            string __res_9329;
+            string __res_9330 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
+            __res_9329 = __res_9330;
+            return __res_9329;
         }
         set
         {
-            string __marshalledValue_9244;
-            __marshalledValue_9244 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hash", __marshalledValue_9244);
+            string __marshalledValue_9331;
+            __marshalledValue_9331 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hash", __marshalledValue_9331);
         }
     }
 }

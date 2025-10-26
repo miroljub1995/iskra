@@ -10,28 +10,32 @@ public partial class LockGrantedCallback(global::System.Runtime.InteropServices.
 {
     public static implicit operator LockGrantedCallback(LockGrantedCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4387) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4438, __res_4443) =>
         {
-            using (__args_4387)
+            using (__args_4438)
+            using (__res_4443)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Lock? __arg_4389;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4390 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(__args_4387, 0);
-                if (__res_4390 is null)
+                global::Iskra.StdWeb.Lock? __arg_4440;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4441 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(__args_4438, 0);
+                if (__res_4441 is null)
                 {
-                    __arg_4389 = null;
+                    __arg_4440 = null;
                 }
                 else
                 {
-                    global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4391 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4390;
-                    __arg_4389 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Lock>(__notNullable_4391);
+                    global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4442 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4441;
+                    __arg_4440 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Lock>(__notNullable_4442);
                 }
 
-                input(__arg_4389);
+                global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise> __managedRes_4444 = input(__arg_4440);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4445 = __managedRes_4444.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_4443, "value", __propObject_4445);
             }
         };
 
-        return new global::Iskra.StdWeb.LockGrantedCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.LockGrantedCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator LockGrantedCallbackManaged(LockGrantedCallback input)

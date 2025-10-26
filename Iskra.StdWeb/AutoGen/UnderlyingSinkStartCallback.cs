@@ -10,20 +10,33 @@ public partial class UnderlyingSinkStartCallback(global::System.Runtime.InteropS
 {
     public static implicit operator UnderlyingSinkStartCallback(UnderlyingSinkStartCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1867) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1876, __res_1880) =>
         {
-            using (__args_1867)
+            using (__args_1876)
+            using (__res_1880)
             {
                 // Argument 1
-                global::Iskra.StdWeb.WritableStreamDefaultController __arg_1869;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1870 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1867, 0);
-                __arg_1869 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStreamDefaultController>(__res_1870);
+                global::Iskra.StdWeb.WritableStreamDefaultController __arg_1878;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1879 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1876, 0);
+                __arg_1878 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStreamDefaultController>(__res_1879);
 
-                input(__arg_1869);
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __managedRes_1881 = input(__arg_1878);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1882;
+                if (__managedRes_1881 is null)
+                {
+                    __propObject_1882 = null;
+                }
+                else
+                {
+                    __propObject_1882 = __managedRes_1881.JSObject;
+                }
+
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__res_1880, "value", __propObject_1882);
             }
         };
 
-        return new global::Iskra.StdWeb.UnderlyingSinkStartCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.UnderlyingSinkStartCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator UnderlyingSinkStartCallbackManaged(UnderlyingSinkStartCallback input)

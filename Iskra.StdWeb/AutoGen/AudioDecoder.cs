@@ -10,10 +10,10 @@ public partial class AudioDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.CodecState __res_3926;
-            string __res_3927 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_3926 = global::Iskra.StdWeb.CodecState.Create(__res_3927);
-            return __res_3926;
+            global::Iskra.StdWeb.CodecState __res_3977;
+            string __res_3978 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_3977 = global::Iskra.StdWeb.CodecState.Create(__res_3978);
+            return __res_3977;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AudioDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_3928;
-            double __res_3929 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "decodeQueueSize");
-            __res_3928 = Convert.ToUInt32(__res_3929);
-            return __res_3928;
+            uint __res_3979;
+            double __res_3980 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "decodeQueueSize");
+            __res_3979 = Convert.ToUInt32(__res_3980);
+            return __res_3979;
         }
     }
 
@@ -32,32 +32,32 @@ public partial class AudioDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3930;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3931 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue");
-            if (__res_3931 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3981;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3982 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue");
+            if (__res_3982 is null)
             {
-                __res_3930 = null;
+                __res_3981 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3932 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3931;
-                __res_3930 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3932);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3983 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3982;
+                __res_3981 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3983);
             }
-            return __res_3930;
+            return __res_3981;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3933;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3984;
             if (value is null)
             {
-                __marshalledValue_3933 = null;
+                __marshalledValue_3984 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3934 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3933 = __notNullable_3934.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3985 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3984 = __notNullable_3985.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue", __marshalledValue_3933);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue", __marshalledValue_3984);
         }
     }
 }

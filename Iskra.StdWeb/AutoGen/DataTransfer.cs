@@ -10,16 +10,16 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_11119;
-            string __res_11120 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dropEffect");
-            __res_11119 = __res_11120;
-            return __res_11119;
+            string __res_11209;
+            string __res_11210 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dropEffect");
+            __res_11209 = __res_11210;
+            return __res_11209;
         }
         set
         {
-            string __marshalledValue_11121;
-            __marshalledValue_11121 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dropEffect", __marshalledValue_11121);
+            string __marshalledValue_11211;
+            __marshalledValue_11211 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dropEffect", __marshalledValue_11211);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_11122;
-            string __res_11123 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectAllowed");
-            __res_11122 = __res_11123;
-            return __res_11122;
+            string __res_11212;
+            string __res_11213 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectAllowed");
+            __res_11212 = __res_11213;
+            return __res_11212;
         }
         set
         {
-            string __marshalledValue_11124;
-            __marshalledValue_11124 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "effectAllowed", __marshalledValue_11124);
+            string __marshalledValue_11214;
+            __marshalledValue_11214 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "effectAllowed", __marshalledValue_11214);
         }
     }
 
@@ -44,10 +44,10 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.DataTransferItemList __res_11125;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11126 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "items");
-            __res_11125 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransferItemList>(__res_11126);
-            return __res_11125;
+            global::Iskra.StdWeb.DataTransferItemList __res_11215;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11216 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "items");
+            __res_11215 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransferItemList>(__res_11216);
+            return __res_11215;
         }
     }
 
@@ -55,11 +55,11 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_11127;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_11128;
-            __propObject_11128 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
-            __res_11127 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_11128);
-            return __res_11127;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_11217;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_11218;
+            __propObject_11218 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
+            __res_11217 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_11218);
+            return __res_11217;
         }
     }
 
@@ -67,10 +67,10 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.FileList __res_11129;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11130 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
-            __res_11129 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileList>(__res_11130);
-            return __res_11129;
+            global::Iskra.StdWeb.FileList __res_11219;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11220 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
+            __res_11219 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileList>(__res_11220);
+            return __res_11219;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class CSSCustomMediaRule(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_7204;
-            string __res_7205 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7204 = __res_7205;
-            return __res_7204;
+            string __res_7270;
+            string __res_7271 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_7270 = __res_7271;
+            return __res_7270;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class CSSCustomMediaRule(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7206;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7207;
-            __propObject_7207 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "query");
-            __res_7206 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7207);
-            return __res_7206;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union> __res_7272;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7273;
+            __propObject_7273 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "query");
+            __res_7272 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7273);
+            return __res_7272;
         }
     }
 }

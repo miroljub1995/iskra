@@ -10,10 +10,10 @@ public partial class ByteLengthQueuingStrategy(global::System.Runtime.InteropSer
     {
         get
         {
-            double __res_1921;
-            double __res_1922 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
-            __res_1921 = __res_1922;
-            return __res_1921;
+            double __res_1957;
+            double __res_1958 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
+            __res_1957 = __res_1958;
+            return __res_1957;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ByteLengthQueuingStrategy(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.Function __res_1923;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1924 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
-            __res_1923 = new global::Iskra.StdWeb.Function(__res_1924);
-            return __res_1923;
+            global::Iskra.StdWeb.Function __res_1959;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1960 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
+            __res_1959 = new global::Iskra.StdWeb.Function(__res_1960);
+            return __res_1959;
         }
     }
 }

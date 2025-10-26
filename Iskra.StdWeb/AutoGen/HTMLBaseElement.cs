@@ -10,16 +10,16 @@ public partial class HTMLBaseElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_8884;
-            string __res_8885 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_8884 = __res_8885;
-            return __res_8884;
+            string __res_8971;
+            string __res_8972 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
+            __res_8971 = __res_8972;
+            return __res_8971;
         }
         set
         {
-            string __marshalledValue_8886;
-            __marshalledValue_8886 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_8886);
+            string __marshalledValue_8973;
+            __marshalledValue_8973 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_8973);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLBaseElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_8887;
-            string __res_8888 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
-            __res_8887 = __res_8888;
-            return __res_8887;
+            string __res_8974;
+            string __res_8975 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_8974 = __res_8975;
+            return __res_8974;
         }
         set
         {
-            string __marshalledValue_8889;
-            __marshalledValue_8889 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_8889);
+            string __marshalledValue_8976;
+            __marshalledValue_8976 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_8976);
         }
     }
 }

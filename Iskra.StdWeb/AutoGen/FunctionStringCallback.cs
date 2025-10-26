@@ -10,16 +10,16 @@ public partial class FunctionStringCallback(global::System.Runtime.InteropServic
 {
     public static implicit operator FunctionStringCallback(FunctionStringCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_11137) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_11227) =>
         {
-            using (__args_11137)
+            using (__args_11227)
             {
                 // Argument 1
-                string __arg_11139;
-                string __res_11140 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_11137, 0);
-                __arg_11139 = __res_11140;
+                string __arg_11229;
+                string __res_11230 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_11227, 0);
+                __arg_11229 = __res_11230;
 
-                input(__arg_11139);
+                input(__arg_11229);
             }
         };
 

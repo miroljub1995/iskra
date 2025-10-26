@@ -10,10 +10,10 @@ public partial class DOMPointReadOnly(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_6081;
-            double __res_6082 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
-            __res_6081 = __res_6082;
-            return __res_6081;
+            double __res_6138;
+            double __res_6139 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
+            __res_6138 = __res_6139;
+            return __res_6138;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class DOMPointReadOnly(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_6083;
-            double __res_6084 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
-            __res_6083 = __res_6084;
-            return __res_6083;
+            double __res_6140;
+            double __res_6141 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
+            __res_6140 = __res_6141;
+            return __res_6140;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class DOMPointReadOnly(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_6085;
-            double __res_6086 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "z");
-            __res_6085 = __res_6086;
-            return __res_6085;
+            double __res_6142;
+            double __res_6143 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "z");
+            __res_6142 = __res_6143;
+            return __res_6142;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class DOMPointReadOnly(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_6087;
-            double __res_6088 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "w");
-            __res_6087 = __res_6088;
-            return __res_6087;
+            double __res_6144;
+            double __res_6145 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "w");
+            __res_6144 = __res_6145;
+            return __res_6144;
         }
     }
 }

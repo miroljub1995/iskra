@@ -10,10 +10,10 @@ public partial class TransitionEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_3687;
-            string __res_3688 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "propertyName");
-            __res_3687 = __res_3688;
-            return __res_3687;
+            string __res_3738;
+            string __res_3739 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "propertyName");
+            __res_3738 = __res_3739;
+            return __res_3738;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TransitionEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            double __res_3689;
-            double __res_3690 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "elapsedTime");
-            __res_3689 = __res_3690;
-            return __res_3689;
+            double __res_3740;
+            double __res_3741 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "elapsedTime");
+            __res_3740 = __res_3741;
+            return __res_3740;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class TransitionEvent(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_3691;
-            string __res_3692 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pseudoElement");
-            __res_3691 = __res_3692;
-            return __res_3691;
+            string __res_3742;
+            string __res_3743 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pseudoElement");
+            __res_3742 = __res_3743;
+            return __res_3742;
         }
     }
 }

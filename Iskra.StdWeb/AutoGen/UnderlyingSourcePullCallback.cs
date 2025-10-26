@@ -10,21 +10,25 @@ public partial class UnderlyingSourcePullCallback(global::System.Runtime.Interop
 {
     public static implicit operator UnderlyingSourcePullCallback(UnderlyingSourcePullCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1842) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1845, __res_1849) =>
         {
-            using (__args_1842)
+            using (__args_1845)
+            using (__res_1849)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union> __arg_1844;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1845;
-                __propObject_1845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(__args_1842, 0);
-                __arg_1844 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1845);
+                global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union> __arg_1847;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1848;
+                __propObject_1848 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(__args_1845, 0);
+                __arg_1847 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1848);
 
-                input(__arg_1844);
+                global::Iskra.JSCore.Promise __managedRes_1850 = input(__arg_1847);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1851 = __managedRes_1850.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_1849, "value", __propObject_1851);
             }
         };
 
-        return new global::Iskra.StdWeb.UnderlyingSourcePullCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.UnderlyingSourcePullCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator UnderlyingSourcePullCallbackManaged(UnderlyingSourcePullCallback input)

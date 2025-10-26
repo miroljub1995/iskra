@@ -10,16 +10,16 @@ public partial class TestCallbackProperties(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallback __res_354;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_355 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "voidCallback");
-            __res_354 = new global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallback(__res_355);
-            return __res_354;
+            global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallback __res_363;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_364 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "voidCallback");
+            __res_363 = new global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallback(__res_364);
+            return __res_363;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_356;
-            __marshalledValue_356 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "voidCallback", __marshalledValue_356);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_365;
+            __marshalledValue_365 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "voidCallback", __marshalledValue_365);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class TestCallbackProperties(global::System.Runtime.InteropServic
     {
         get
         {
-            int __res_357;
-            double __res_358 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "callVoidCallbackOnSet");
-            __res_357 = Convert.ToInt32(__res_358);
-            return __res_357;
+            int __res_366;
+            double __res_367 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "callVoidCallbackOnSet");
+            __res_366 = Convert.ToInt32(__res_367);
+            return __res_366;
         }
         set
         {
-            double __marshalledValue_359;
-            __marshalledValue_359 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "callVoidCallbackOnSet", __marshalledValue_359);
+            double __marshalledValue_368;
+            __marshalledValue_368 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "callVoidCallbackOnSet", __marshalledValue_368);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class TestCallbackProperties(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesVariadicCallback __res_360;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_361 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "variadicCallback");
-            __res_360 = new global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesVariadicCallback(__res_361);
-            return __res_360;
+            global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesVariadicCallback __res_369;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_370 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "variadicCallback");
+            __res_369 = new global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesVariadicCallback(__res_370);
+            return __res_369;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_362;
-            __marshalledValue_362 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "variadicCallback", __marshalledValue_362);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_371;
+            __marshalledValue_371 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "variadicCallback", __marshalledValue_371);
         }
     }
 
@@ -61,16 +61,44 @@ public partial class TestCallbackProperties(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement> __res_363;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_364;
-            __propObject_364 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "callVariadicCallbackOnSet");
-            __res_363 = new global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement>(__propObject_364);
-            return __res_363;
+            global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement> __res_372;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_373;
+            __propObject_373 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "callVariadicCallbackOnSet");
+            __res_372 = new global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement>(__propObject_373);
+            return __res_372;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_365 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "callVariadicCallbackOnSet", __propObject_365);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_374 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "callVariadicCallbackOnSet", __propObject_374);
+        }
+    }
+
+    public global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesNonVoidCallback NonVoidCallback
+    {
+        get
+        {
+            global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesNonVoidCallback __res_375;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_376 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "nonVoidCallback");
+            __res_375 = new global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesNonVoidCallback(__res_376);
+            return __res_375;
+        }
+        set
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_377;
+            __marshalledValue_377 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "nonVoidCallback", __marshalledValue_377);
+        }
+    }
+
+    public int NonVoidCallbackCallAndGetResult
+    {
+        get
+        {
+            int __res_378;
+            double __res_379 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "nonVoidCallbackCallAndGetResult");
+            __res_378 = Convert.ToInt32(__res_379);
+            return __res_378;
         }
     }
 }

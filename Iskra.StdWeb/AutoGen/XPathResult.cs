@@ -10,10 +10,10 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            ushort __res_5987;
-            double __res_5988 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultType");
-            __res_5987 = Convert.ToUInt16(__res_5988);
-            return __res_5987;
+            ushort __res_6041;
+            double __res_6042 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultType");
+            __res_6041 = Convert.ToUInt16(__res_6042);
+            return __res_6041;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_5989;
-            double __res_5990 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberValue");
-            __res_5989 = __res_5990;
-            return __res_5989;
+            double __res_6043;
+            double __res_6044 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberValue");
+            __res_6043 = __res_6044;
+            return __res_6043;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_5991;
-            string __res_5992 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringValue");
-            __res_5991 = __res_5992;
-            return __res_5991;
+            string __res_6045;
+            string __res_6046 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringValue");
+            __res_6045 = __res_6046;
+            return __res_6045;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_5993;
-            bool __res_5994 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "booleanValue");
-            __res_5993 = __res_5994;
-            return __res_5993;
+            bool __res_6047;
+            bool __res_6048 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "booleanValue");
+            __res_6047 = __res_6048;
+            return __res_6047;
         }
     }
 
@@ -54,18 +54,18 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.Node? __res_5995;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5996 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "singleNodeValue");
-            if (__res_5996 is null)
+            global::Iskra.StdWeb.Node? __res_6049;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6050 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "singleNodeValue");
+            if (__res_6050 is null)
             {
-                __res_5995 = null;
+                __res_6049 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5997 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5996;
-                __res_5995 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_5997);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6051 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6050;
+                __res_6049 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_6051);
             }
-            return __res_5995;
+            return __res_6049;
         }
     }
 
@@ -73,10 +73,10 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_5998;
-            bool __res_5999 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "invalidIteratorState");
-            __res_5998 = __res_5999;
-            return __res_5998;
+            bool __res_6052;
+            bool __res_6053 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "invalidIteratorState");
+            __res_6052 = __res_6053;
+            return __res_6052;
         }
     }
 
@@ -84,10 +84,10 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            uint __res_6000;
-            double __res_6001 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "snapshotLength");
-            __res_6000 = Convert.ToUInt32(__res_6001);
-            return __res_6000;
+            uint __res_6054;
+            double __res_6055 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "snapshotLength");
+            __res_6054 = Convert.ToUInt32(__res_6055);
+            return __res_6054;
         }
     }
 }

@@ -55,6 +55,7 @@ public class CallbackTypeGenerator(
         var descriptionToTypeDeclarationGenerator =
             provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
         var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
+        var setPropertyValueGenerator = provider.GetRequiredService<SetPropertyValueGenerator>();
 
         var argsVar = generatorContext.GetNextVariableName("args");
         var lengthVar = generatorContext.GetNextVariableName("length");
@@ -120,23 +121,54 @@ public class CallbackTypeGenerator(
             }
         }
 
-        var returnType = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
-
         var argStatementsStr = string.Join("\n\n", argStatements);
         var managedArgsList = string.Join(", ", managedArgVars);
 
-        return $$"""
-                 Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = ({{argsVar}}) =>
-                 {
-                     using ({{argsVar}})
+        if (input.IdlType is SingleTypeDescription { IdlType: BuiltinTypes.Undefined })
+        {
+            return $$"""
+                     Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = ({{argsVar}}) =>
                      {
-                 {{argStatementsStr.IndentLines(8)}}
+                         using ({{argsVar}})
+                         {
+                     {{argStatementsStr.IndentLines(8)}}
 
-                         input({{managedArgsList}});
-                     }
-                 };
+                             input({{managedArgsList}});
+                         }
+                     };
 
-                 return new global::{{genSettings.Namespace}}.{{input.Name}}(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
-                 """;
+                     return new global::{{genSettings.Namespace}}.{{input.Name}}(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+                     """;
+        }
+        else
+        {
+            var resVar = generatorContext.GetNextVariableName("res");
+            var managedResVar = generatorContext.GetNextVariableName("managedRes");
+            var returnType = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
+
+            var setResStatements = setPropertyValueGenerator.Generate(
+                inputVar: resVar,
+                valueVar: managedResVar,
+                type: input.IdlType,
+                propertyNameVar: "\"value\""
+            );
+
+            return $$"""
+                     Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = ({{argsVar}}, {{resVar}}) =>
+                     {
+                         using ({{argsVar}})
+                         using ({{resVar}})
+                         {
+                     {{argStatementsStr.IndentLines(8)}}
+
+                             {{returnType}} {{managedResVar}} = input({{managedArgsList}});
+
+                     {{setResStatements.IndentLines(8)}}
+                         }
+                     };
+
+                     return new global::{{genSettings.Namespace}}.{{input.Name}}(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
+                     """;
+        }
     }
 }

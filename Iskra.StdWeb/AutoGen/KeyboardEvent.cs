@@ -10,10 +10,10 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_13719;
-            string __res_13720 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
-            __res_13719 = __res_13720;
-            return __res_13719;
+            string __res_13828;
+            string __res_13829 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
+            __res_13828 = __res_13829;
+            return __res_13828;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_13721;
-            string __res_13722 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "code");
-            __res_13721 = __res_13722;
-            return __res_13721;
+            string __res_13830;
+            string __res_13831 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "code");
+            __res_13830 = __res_13831;
+            return __res_13830;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_13723;
-            double __res_13724 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "location");
-            __res_13723 = Convert.ToUInt32(__res_13724);
-            return __res_13723;
+            uint __res_13832;
+            double __res_13833 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "location");
+            __res_13832 = Convert.ToUInt32(__res_13833);
+            return __res_13832;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_13725;
-            bool __res_13726 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
-            __res_13725 = __res_13726;
-            return __res_13725;
+            bool __res_13834;
+            bool __res_13835 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
+            __res_13834 = __res_13835;
+            return __res_13834;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_13727;
-            bool __res_13728 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
-            __res_13727 = __res_13728;
-            return __res_13727;
+            bool __res_13836;
+            bool __res_13837 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
+            __res_13836 = __res_13837;
+            return __res_13836;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_13729;
-            bool __res_13730 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
-            __res_13729 = __res_13730;
-            return __res_13729;
+            bool __res_13838;
+            bool __res_13839 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
+            __res_13838 = __res_13839;
+            return __res_13838;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_13731;
-            bool __res_13732 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
-            __res_13731 = __res_13732;
-            return __res_13731;
+            bool __res_13840;
+            bool __res_13841 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
+            __res_13840 = __res_13841;
+            return __res_13840;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_13733;
-            bool __res_13734 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "repeat");
-            __res_13733 = __res_13734;
-            return __res_13733;
+            bool __res_13842;
+            bool __res_13843 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "repeat");
+            __res_13842 = __res_13843;
+            return __res_13842;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_13735;
-            bool __res_13736 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
-            __res_13735 = __res_13736;
-            return __res_13735;
+            bool __res_13844;
+            bool __res_13845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
+            __res_13844 = __res_13845;
+            return __res_13844;
         }
     }
 
@@ -109,10 +109,10 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_13737;
-            double __res_13738 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "charCode");
-            __res_13737 = Convert.ToUInt32(__res_13738);
-            return __res_13737;
+            uint __res_13846;
+            double __res_13847 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "charCode");
+            __res_13846 = Convert.ToUInt32(__res_13847);
+            return __res_13846;
         }
     }
 
@@ -120,10 +120,10 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_13739;
-            double __res_13740 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "keyCode");
-            __res_13739 = Convert.ToUInt32(__res_13740);
-            return __res_13739;
+            uint __res_13848;
+            double __res_13849 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "keyCode");
+            __res_13848 = Convert.ToUInt32(__res_13849);
+            return __res_13848;
         }
     }
 }

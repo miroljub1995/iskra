@@ -10,34 +10,38 @@ public partial class RunFunctionForSharedStorageSelectURLOperation(global::Syste
 {
     public static implicit operator RunFunctionForSharedStorageSelectURLOperation(RunFunctionForSharedStorageSelectURLOperationManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6854) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6917, __res_6923) =>
         {
-            using (__args_6854)
+            using (__args_6917)
+            using (__res_6923)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_6856;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6857;
-                __propObject_6857 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6854, 0);
-                __arg_6856 = new global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6857);
+                global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_6919;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6920;
+                __propObject_6920 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6917, 0);
+                __arg_6919 = new global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6920);
 
                 // Argument 2
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_6858;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6859;
-                __propObject_6859 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_6854, 1);
-                if (__propObject_6859 is null)
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_6921;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6922;
+                __propObject_6922 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_6917, 1);
+                if (__propObject_6922 is null)
                 {
-                    __arg_6858 = null;
+                    __arg_6921 = null;
                 }
                 else
                 {
-                    __arg_6858 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6859);
+                    __arg_6921 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6922);
                 }
 
-                input(__arg_6856, __arg_6858);
+                global::Iskra.JSCore.Generics.Promise<uint, global::Iskra.StdWeb.GenericMarshaller.Promise> __managedRes_6924 = input(__arg_6919, __arg_6921);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6925 = __managedRes_6924.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_6923, "value", __propObject_6925);
             }
         };
 
-        return new global::Iskra.StdWeb.RunFunctionForSharedStorageSelectURLOperation(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.RunFunctionForSharedStorageSelectURLOperation(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator RunFunctionForSharedStorageSelectURLOperationManaged(RunFunctionForSharedStorageSelectURLOperation input)

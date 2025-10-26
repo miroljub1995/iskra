@@ -10,33 +10,46 @@ public partial class Mapper(global::System.Runtime.InteropServices.JavaScript.JS
 {
     public static implicit operator Mapper(MapperManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7910) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7988, __res_7994) =>
         {
-            using (__args_7910)
+            using (__args_7988)
+            using (__res_7994)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_7912;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7913;
-                __propObject_7913 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_7910, 0);
-                if (__propObject_7913 is null)
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_7990;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7991;
+                __propObject_7991 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_7988, 0);
+                if (__propObject_7991 is null)
                 {
-                    __arg_7912 = null;
+                    __arg_7990 = null;
                 }
                 else
                 {
-                    __arg_7912 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7913);
+                    __arg_7990 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7991);
                 }
 
                 // Argument 2
-                ulong __arg_7914;
-                double __res_7915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_7910, 1);
-                __arg_7914 = Convert.ToUInt64(__res_7915);
+                ulong __arg_7992;
+                double __res_7993 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_7988, 1);
+                __arg_7992 = Convert.ToUInt64(__res_7993);
 
-                input(__arg_7912, __arg_7914);
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __managedRes_7995 = input(__arg_7990, __arg_7992);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7996;
+                if (__managedRes_7995 is null)
+                {
+                    __propObject_7996 = null;
+                }
+                else
+                {
+                    __propObject_7996 = __managedRes_7995.JSObject;
+                }
+
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__res_7994, "value", __propObject_7996);
             }
         };
 
-        return new global::Iskra.StdWeb.Mapper(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.Mapper(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator MapperManaged(Mapper input)

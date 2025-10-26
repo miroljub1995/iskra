@@ -10,20 +10,33 @@ public partial class EventHandlerNonNull(global::System.Runtime.InteropServices.
 {
     public static implicit operator EventHandlerNonNull(EventHandlerNonNullManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12144) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12240, __res_12244) =>
         {
-            using (__args_12144)
+            using (__args_12240)
+            using (__res_12244)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Event __arg_12146;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_12147 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_12144, 0);
-                __arg_12146 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(__res_12147);
+                global::Iskra.StdWeb.Event __arg_12242;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_12243 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_12240, 0);
+                __arg_12242 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(__res_12243);
 
-                input(__arg_12146);
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __managedRes_12245 = input(__arg_12242);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_12246;
+                if (__managedRes_12245 is null)
+                {
+                    __propObject_12246 = null;
+                }
+                else
+                {
+                    __propObject_12246 = __managedRes_12245.JSObject;
+                }
+
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__res_12244, "value", __propObject_12246);
             }
         };
 
-        return new global::Iskra.StdWeb.EventHandlerNonNull(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.EventHandlerNonNull(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator EventHandlerNonNullManaged(EventHandlerNonNull input)

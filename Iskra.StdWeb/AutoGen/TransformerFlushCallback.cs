@@ -10,20 +10,24 @@ public partial class TransformerFlushCallback(global::System.Runtime.InteropServ
 {
     public static implicit operator TransformerFlushCallback(TransformerFlushCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1900) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1924, __res_1928) =>
         {
-            using (__args_1900)
+            using (__args_1924)
+            using (__res_1928)
             {
                 // Argument 1
-                global::Iskra.StdWeb.TransformStreamDefaultController __arg_1902;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1903 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1900, 0);
-                __arg_1902 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TransformStreamDefaultController>(__res_1903);
+                global::Iskra.StdWeb.TransformStreamDefaultController __arg_1926;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1927 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1924, 0);
+                __arg_1926 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TransformStreamDefaultController>(__res_1927);
 
-                input(__arg_1902);
+                global::Iskra.JSCore.Promise __managedRes_1929 = input(__arg_1926);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1930 = __managedRes_1929.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_1928, "value", __propObject_1930);
             }
         };
 
-        return new global::Iskra.StdWeb.TransformerFlushCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.TransformerFlushCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator TransformerFlushCallbackManaged(TransformerFlushCallback input)

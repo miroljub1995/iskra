@@ -10,16 +10,16 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_14731;
-            string __res_14732 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
-            __res_14731 = __res_14732;
-            return __res_14731;
+            string __res_14846;
+            string __res_14847 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
+            __res_14846 = __res_14847;
+            return __res_14846;
         }
         set
         {
-            string __marshalledValue_14733;
-            __marshalledValue_14733 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_14733);
+            string __marshalledValue_14848;
+            __marshalledValue_14848 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_14848);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14734;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14735 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "annotation");
-            __res_14734 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14735);
-            return __res_14734;
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14849;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14850 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "annotation");
+            __res_14849 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14850);
+            return __res_14849;
         }
     }
 
@@ -38,10 +38,10 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14736;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14737 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ornaments");
-            __res_14736 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14737);
-            return __res_14736;
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14851;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14852 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ornaments");
+            __res_14851 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14852);
+            return __res_14851;
         }
     }
 
@@ -49,10 +49,10 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14738;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14739 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stylistic");
-            __res_14738 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14739);
-            return __res_14738;
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14853;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14854 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "stylistic");
+            __res_14853 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14854);
+            return __res_14853;
         }
     }
 
@@ -60,10 +60,10 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14740;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14741 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "swash");
-            __res_14740 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14741);
-            return __res_14740;
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14855;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14856 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "swash");
+            __res_14855 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14856);
+            return __res_14855;
         }
     }
 
@@ -71,10 +71,10 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14742;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14743 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characterVariant");
-            __res_14742 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14743);
-            return __res_14742;
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14857;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14858 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characterVariant");
+            __res_14857 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14858);
+            return __res_14857;
         }
     }
 
@@ -82,10 +82,10 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14744;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14745 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleset");
-            __res_14744 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14745);
-            return __res_14744;
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14859;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14860 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleset");
+            __res_14859 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14860);
+            return __res_14859;
         }
     }
 
@@ -93,10 +93,10 @@ public partial class CSSFontFeatureValuesRule(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14746;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14747 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "historicalForms");
-            __res_14746 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14747);
-            return __res_14746;
+            global::Iskra.StdWeb.CSSFontFeatureValuesMap __res_14861;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14862 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "historicalForms");
+            __res_14861 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFeatureValuesMap>(__res_14862);
+            return __res_14861;
         }
     }
 }

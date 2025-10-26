@@ -10,10 +10,10 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.Request __res_7466;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7467 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
-            __res_7466 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Request>(__res_7467);
-            return __res_7466;
+            global::Iskra.StdWeb.Request __res_7535;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7536 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            __res_7535 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Request>(__res_7536);
+            return __res_7535;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_7468;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7469;
-            __propObject_7469 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preloadResponse");
-            __res_7468 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_7469);
-            return __res_7468;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_7537;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7538;
+            __propObject_7538 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preloadResponse");
+            __res_7537 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_7538);
+            return __res_7537;
         }
     }
 
@@ -33,10 +33,10 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_7470;
-            string __res_7471 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "clientId");
-            __res_7470 = __res_7471;
-            return __res_7470;
+            string __res_7539;
+            string __res_7540 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "clientId");
+            __res_7539 = __res_7540;
+            return __res_7539;
         }
     }
 
@@ -44,10 +44,10 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_7472;
-            string __res_7473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "resultingClientId");
-            __res_7472 = __res_7473;
-            return __res_7472;
+            string __res_7541;
+            string __res_7542 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "resultingClientId");
+            __res_7541 = __res_7542;
+            return __res_7541;
         }
     }
 
@@ -55,10 +55,10 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_7474;
-            string __res_7475 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "replacesClientId");
-            __res_7474 = __res_7475;
-            return __res_7474;
+            string __res_7543;
+            string __res_7544 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "replacesClientId");
+            __res_7543 = __res_7544;
+            return __res_7543;
         }
     }
 
@@ -66,11 +66,11 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_7476;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7477;
-            __propObject_7477 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handled");
-            __res_7476 = new global::Iskra.JSCore.Promise(__propObject_7477);
-            return __res_7476;
+            global::Iskra.JSCore.Promise __res_7545;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7546;
+            __propObject_7546 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handled");
+            __res_7545 = new global::Iskra.JSCore.Promise(__propObject_7546);
+            return __res_7545;
         }
     }
 }

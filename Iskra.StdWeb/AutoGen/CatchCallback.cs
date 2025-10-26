@@ -10,28 +10,41 @@ public partial class CatchCallback(global::System.Runtime.InteropServices.JavaSc
 {
     public static implicit operator CatchCallback(CatchCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7922) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_8003, __res_8007) =>
         {
-            using (__args_7922)
+            using (__args_8003)
+            using (__res_8007)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_7924;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_7925;
-                __propObject_7925 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_7922, 0);
-                if (__propObject_7925 is null)
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_8005;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8006;
+                __propObject_8006 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_8003, 0);
+                if (__propObject_8006 is null)
                 {
-                    __arg_7924 = null;
+                    __arg_8005 = null;
                 }
                 else
                 {
-                    __arg_7924 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_7925);
+                    __arg_8005 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8006);
                 }
 
-                input(__arg_7924);
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __managedRes_8008 = input(__arg_8005);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8009;
+                if (__managedRes_8008 is null)
+                {
+                    __propObject_8009 = null;
+                }
+                else
+                {
+                    __propObject_8009 = __managedRes_8008.JSObject;
+                }
+
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__res_8007, "value", __propObject_8009);
             }
         };
 
-        return new global::Iskra.StdWeb.CatchCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.CatchCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator CatchCallbackManaged(CatchCallback input)

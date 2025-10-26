@@ -10,10 +10,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            int __res_2967;
-            double __res_2968 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availWidth");
-            __res_2967 = Convert.ToInt32(__res_2968);
-            return __res_2967;
+            int __res_3018;
+            double __res_3019 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availWidth");
+            __res_3018 = Convert.ToInt32(__res_3019);
+            return __res_3018;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            int __res_2969;
-            double __res_2970 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availHeight");
-            __res_2969 = Convert.ToInt32(__res_2970);
-            return __res_2969;
+            int __res_3020;
+            double __res_3021 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availHeight");
+            __res_3020 = Convert.ToInt32(__res_3021);
+            return __res_3020;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            int __res_2971;
-            double __res_2972 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_2971 = Convert.ToInt32(__res_2972);
-            return __res_2971;
+            int __res_3022;
+            double __res_3023 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_3022 = Convert.ToInt32(__res_3023);
+            return __res_3022;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            int __res_2973;
-            double __res_2974 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_2973 = Convert.ToInt32(__res_2974);
-            return __res_2973;
+            int __res_3024;
+            double __res_3025 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_3024 = Convert.ToInt32(__res_3025);
+            return __res_3024;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            uint __res_2975;
-            double __res_2976 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colorDepth");
-            __res_2975 = Convert.ToUInt32(__res_2976);
-            return __res_2975;
+            uint __res_3026;
+            double __res_3027 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colorDepth");
+            __res_3026 = Convert.ToUInt32(__res_3027);
+            return __res_3026;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            uint __res_2977;
-            double __res_2978 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pixelDepth");
-            __res_2977 = Convert.ToUInt32(__res_2978);
-            return __res_2977;
+            uint __res_3028;
+            double __res_3029 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pixelDepth");
+            __res_3028 = Convert.ToUInt32(__res_3029);
+            return __res_3028;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            bool __res_2979;
-            bool __res_2980 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isExtended");
-            __res_2979 = __res_2980;
-            return __res_2979;
+            bool __res_3030;
+            bool __res_3031 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isExtended");
+            __res_3030 = __res_3031;
+            return __res_3030;
         }
     }
 
@@ -87,32 +87,32 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2981;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2982 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_2982 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3032;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3033 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_3033 is null)
             {
-                __res_2981 = null;
+                __res_3032 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2983 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2982;
-                __res_2981 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2983);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3034 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3033;
+                __res_3032 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3034);
             }
-            return __res_2981;
+            return __res_3032;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2984;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3035;
             if (value is null)
             {
-                __marshalledValue_2984 = null;
+                __marshalledValue_3035 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2985 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2984 = __notNullable_2985.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3036 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3035 = __notNullable_3036.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_2984);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_3035);
         }
     }
 
@@ -120,10 +120,10 @@ public partial class Screen(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.ScreenOrientation __res_2986;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
-            __res_2986 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ScreenOrientation>(__res_2987);
-            return __res_2986;
+            global::Iskra.StdWeb.ScreenOrientation __res_3037;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3038 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
+            __res_3037 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ScreenOrientation>(__res_3038);
+            return __res_3037;
         }
     }
 }

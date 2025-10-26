@@ -10,32 +10,32 @@ public partial class XRSystem(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6870;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6871 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
-            if (__res_6871 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6936;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6937 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
+            if (__res_6937 is null)
             {
-                __res_6870 = null;
+                __res_6936 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6872 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6871;
-                __res_6870 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6872);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6938 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6937;
+                __res_6936 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6938);
             }
-            return __res_6870;
+            return __res_6936;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6873;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6939;
             if (value is null)
             {
-                __marshalledValue_6873 = null;
+                __marshalledValue_6939 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6874 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6873 = __notNullable_6874.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6940 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6939 = __notNullable_6940.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange", __marshalledValue_6873);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange", __marshalledValue_6939);
         }
     }
 }

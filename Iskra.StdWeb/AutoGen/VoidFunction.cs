@@ -10,9 +10,9 @@ public partial class VoidFunction(global::System.Runtime.InteropServices.JavaScr
 {
     public static implicit operator VoidFunction(VoidFunctionManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6079) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6136) =>
         {
-            using (__args_6079)
+            using (__args_6136)
             {
 
 

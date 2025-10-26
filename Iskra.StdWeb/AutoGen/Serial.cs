@@ -10,32 +10,32 @@ public partial class Serial(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7253;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7254 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
-            if (__res_7254 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7322;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7323 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
+            if (__res_7323 is null)
             {
-                __res_7253 = null;
+                __res_7322 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7255 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7254;
-                __res_7253 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7255);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7324 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7323;
+                __res_7322 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7324);
             }
-            return __res_7253;
+            return __res_7322;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7256;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7325;
             if (value is null)
             {
-                __marshalledValue_7256 = null;
+                __marshalledValue_7325 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7257 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7256 = __notNullable_7257.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7326 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7325 = __notNullable_7326.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_7256);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_7325);
         }
     }
 
@@ -43,32 +43,32 @@ public partial class Serial(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7258;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7259 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
-            if (__res_7259 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7327;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7328 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
+            if (__res_7328 is null)
             {
-                __res_7258 = null;
+                __res_7327 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7260 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7259;
-                __res_7258 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7260);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7329 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7328;
+                __res_7327 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7329);
             }
-            return __res_7258;
+            return __res_7327;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7261;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7330;
             if (value is null)
             {
-                __marshalledValue_7261 = null;
+                __marshalledValue_7330 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7262 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7261 = __notNullable_7262.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7331 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7330 = __notNullable_7331.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_7261);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_7330);
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class BluetoothRemoteGATTCharacteristic(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothRemoteGATTService __res_4259;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4260 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "service");
-            __res_4259 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothRemoteGATTService>(__res_4260);
-            return __res_4259;
+            global::Iskra.StdWeb.BluetoothRemoteGATTService __res_4310;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4311 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "service");
+            __res_4310 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothRemoteGATTService>(__res_4311);
+            return __res_4310;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class BluetoothRemoteGATTCharacteristic(global::System.Runtime.In
     {
         get
         {
-            string __res_4261;
-            string __res_4262 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
-            __res_4261 = __res_4262;
-            return __res_4261;
+            string __res_4312;
+            string __res_4313 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
+            __res_4312 = __res_4313;
+            return __res_4312;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class BluetoothRemoteGATTCharacteristic(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothCharacteristicProperties __res_4263;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4264 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "properties");
-            __res_4263 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothCharacteristicProperties>(__res_4264);
-            return __res_4263;
+            global::Iskra.StdWeb.BluetoothCharacteristicProperties __res_4314;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4315 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "properties");
+            __res_4314 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothCharacteristicProperties>(__res_4315);
+            return __res_4314;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class BluetoothRemoteGATTCharacteristic(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.JSCore.DataView? __res_4265;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4266 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
-            if (__res_4266 is null)
+            global::Iskra.JSCore.DataView? __res_4316;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4317 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
+            if (__res_4317 is null)
             {
-                __res_4265 = null;
+                __res_4316 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4267 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4266;
-                __res_4265 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_4267);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4318 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4317;
+                __res_4316 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_4318);
             }
-            return __res_4265;
+            return __res_4316;
         }
     }
 
@@ -62,32 +62,32 @@ public partial class BluetoothRemoteGATTCharacteristic(global::System.Runtime.In
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4268;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged");
-            if (__res_4269 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4319;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4320 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged");
+            if (__res_4320 is null)
             {
-                __res_4268 = null;
+                __res_4319 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4270 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4269;
-                __res_4268 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4270);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4321 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4320;
+                __res_4319 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4321);
             }
-            return __res_4268;
+            return __res_4319;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4271;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4322;
             if (value is null)
             {
-                __marshalledValue_4271 = null;
+                __marshalledValue_4322 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4272 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4271 = __notNullable_4272.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4323 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4322 = __notNullable_4323.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged", __marshalledValue_4271);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged", __marshalledValue_4322);
         }
     }
 }

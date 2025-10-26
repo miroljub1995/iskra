@@ -10,32 +10,32 @@ public partial class Presentation(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.PresentationRequest? __res_3600;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3601 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "defaultRequest");
-            if (__res_3601 is null)
+            global::Iskra.StdWeb.PresentationRequest? __res_3651;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3652 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "defaultRequest");
+            if (__res_3652 is null)
             {
-                __res_3600 = null;
+                __res_3651 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3602 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3601;
-                __res_3600 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PresentationRequest>(__notNullable_3602);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3653 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3652;
+                __res_3651 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PresentationRequest>(__notNullable_3653);
             }
-            return __res_3600;
+            return __res_3651;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3603;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3654;
             if (value is null)
             {
-                __marshalledValue_3603 = null;
+                __marshalledValue_3654 = null;
             }
             else
             {
-                global::Iskra.StdWeb.PresentationRequest __notNullable_3604 = (global::Iskra.StdWeb.PresentationRequest)value;
-                __marshalledValue_3603 = __notNullable_3604.JSObject;
+                global::Iskra.StdWeb.PresentationRequest __notNullable_3655 = (global::Iskra.StdWeb.PresentationRequest)value;
+                __marshalledValue_3654 = __notNullable_3655.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "defaultRequest", __marshalledValue_3603);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "defaultRequest", __marshalledValue_3654);
         }
     }
 
@@ -43,18 +43,18 @@ public partial class Presentation(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.PresentationReceiver? __res_3605;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3606 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "receiver");
-            if (__res_3606 is null)
+            global::Iskra.StdWeb.PresentationReceiver? __res_3656;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3657 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "receiver");
+            if (__res_3657 is null)
             {
-                __res_3605 = null;
+                __res_3656 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3607 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3606;
-                __res_3605 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PresentationReceiver>(__notNullable_3607);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3658 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3657;
+                __res_3656 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PresentationReceiver>(__notNullable_3658);
             }
-            return __res_3605;
+            return __res_3656;
         }
     }
 }

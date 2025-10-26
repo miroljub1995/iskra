@@ -10,16 +10,16 @@ public partial class FileSystemEntryCallback(global::System.Runtime.InteropServi
 {
     public static implicit operator FileSystemEntryCallback(FileSystemEntryCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2598) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2649) =>
         {
-            using (__args_2598)
+            using (__args_2649)
             {
                 // Argument 1
-                global::Iskra.StdWeb.FileSystemEntry __arg_2600;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2601 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2598, 0);
-                __arg_2600 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileSystemEntry>(__res_2601);
+                global::Iskra.StdWeb.FileSystemEntry __arg_2651;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2652 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2649, 0);
+                __arg_2651 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileSystemEntry>(__res_2652);
 
-                input(__arg_2600);
+                input(__arg_2651);
             }
         };
 

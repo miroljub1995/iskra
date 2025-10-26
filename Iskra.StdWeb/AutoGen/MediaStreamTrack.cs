@@ -10,16 +10,16 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_6465;
-            string __res_6466 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentHint");
-            __res_6465 = __res_6466;
-            return __res_6465;
+            string __res_6522;
+            string __res_6523 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentHint");
+            __res_6522 = __res_6523;
+            return __res_6522;
         }
         set
         {
-            string __marshalledValue_6467;
-            __marshalledValue_6467 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "contentHint", __marshalledValue_6467);
+            string __marshalledValue_6524;
+            __marshalledValue_6524 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "contentHint", __marshalledValue_6524);
         }
     }
 
@@ -27,32 +27,32 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6468;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6469 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncapturehandlechange");
-            if (__res_6469 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6525;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6526 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncapturehandlechange");
+            if (__res_6526 is null)
             {
-                __res_6468 = null;
+                __res_6525 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6470 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6469;
-                __res_6468 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6470);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6527 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6526;
+                __res_6525 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6527);
             }
-            return __res_6468;
+            return __res_6525;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6471;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6528;
             if (value is null)
             {
-                __marshalledValue_6471 = null;
+                __marshalledValue_6528 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6472 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6471 = __notNullable_6472.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6529 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6528 = __notNullable_6529.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncapturehandlechange", __marshalledValue_6471);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncapturehandlechange", __marshalledValue_6528);
         }
     }
 
@@ -60,10 +60,10 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_6473;
-            string __res_6474 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_6473 = __res_6474;
-            return __res_6473;
+            string __res_6530;
+            string __res_6531 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_6530 = __res_6531;
+            return __res_6530;
         }
     }
 
@@ -71,10 +71,10 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_6475;
-            string __res_6476 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_6475 = __res_6476;
-            return __res_6475;
+            string __res_6532;
+            string __res_6533 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_6532 = __res_6533;
+            return __res_6532;
         }
     }
 
@@ -82,10 +82,10 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_6477;
-            string __res_6478 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_6477 = __res_6478;
-            return __res_6477;
+            string __res_6534;
+            string __res_6535 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_6534 = __res_6535;
+            return __res_6534;
         }
     }
 
@@ -93,16 +93,16 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_6479;
-            bool __res_6480 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
-            __res_6479 = __res_6480;
-            return __res_6479;
+            bool __res_6536;
+            bool __res_6537 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
+            __res_6536 = __res_6537;
+            return __res_6536;
         }
         set
         {
-            bool __marshalledValue_6481;
-            __marshalledValue_6481 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "enabled", __marshalledValue_6481);
+            bool __marshalledValue_6538;
+            __marshalledValue_6538 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "enabled", __marshalledValue_6538);
         }
     }
 
@@ -110,10 +110,10 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_6482;
-            bool __res_6483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
-            __res_6482 = __res_6483;
-            return __res_6482;
+            bool __res_6539;
+            bool __res_6540 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
+            __res_6539 = __res_6540;
+            return __res_6539;
         }
     }
 
@@ -121,32 +121,32 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6484;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmute");
-            if (__res_6485 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6541;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6542 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmute");
+            if (__res_6542 is null)
             {
-                __res_6484 = null;
+                __res_6541 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6486 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6485;
-                __res_6484 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6486);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6543 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6542;
+                __res_6541 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6543);
             }
-            return __res_6484;
+            return __res_6541;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6487;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6544;
             if (value is null)
             {
-                __marshalledValue_6487 = null;
+                __marshalledValue_6544 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6488 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6487 = __notNullable_6488.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6545 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6544 = __notNullable_6545.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmute", __marshalledValue_6487);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmute", __marshalledValue_6544);
         }
     }
 
@@ -154,32 +154,32 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6489;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6490 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onunmute");
-            if (__res_6490 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6546;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6547 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onunmute");
+            if (__res_6547 is null)
             {
-                __res_6489 = null;
+                __res_6546 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6491 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6490;
-                __res_6489 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6491);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6548 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6547;
+                __res_6546 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6548);
             }
-            return __res_6489;
+            return __res_6546;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6492;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6549;
             if (value is null)
             {
-                __marshalledValue_6492 = null;
+                __marshalledValue_6549 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6493 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6492 = __notNullable_6493.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6550 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6549 = __notNullable_6550.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onunmute", __marshalledValue_6492);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onunmute", __marshalledValue_6549);
         }
     }
 
@@ -187,10 +187,10 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.MediaStreamTrackState __res_6494;
-            string __res_6495 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "readyState");
-            __res_6494 = global::Iskra.StdWeb.MediaStreamTrackState.Create(__res_6495);
-            return __res_6494;
+            global::Iskra.StdWeb.MediaStreamTrackState __res_6551;
+            string __res_6552 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "readyState");
+            __res_6551 = global::Iskra.StdWeb.MediaStreamTrackState.Create(__res_6552);
+            return __res_6551;
         }
     }
 
@@ -198,32 +198,32 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6496;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6497 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
-            if (__res_6497 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6553;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6554 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
+            if (__res_6554 is null)
             {
-                __res_6496 = null;
+                __res_6553 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6498 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6497;
-                __res_6496 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6498);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6555 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6554;
+                __res_6553 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6555);
             }
-            return __res_6496;
+            return __res_6553;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6499;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6556;
             if (value is null)
             {
-                __marshalledValue_6499 = null;
+                __marshalledValue_6556 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6500 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6499 = __notNullable_6500.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6557 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6556 = __notNullable_6557.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_6499);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_6556);
         }
     }
 
@@ -231,10 +231,10 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_6501;
-            bool __res_6502 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isolated");
-            __res_6501 = __res_6502;
-            return __res_6501;
+            bool __res_6558;
+            bool __res_6559 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isolated");
+            __res_6558 = __res_6559;
+            return __res_6558;
         }
     }
 
@@ -242,32 +242,32 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6503;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6504 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onisolationchange");
-            if (__res_6504 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6560;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6561 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onisolationchange");
+            if (__res_6561 is null)
             {
-                __res_6503 = null;
+                __res_6560 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6505 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6504;
-                __res_6503 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6505);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6562 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6561;
+                __res_6560 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6562);
             }
-            return __res_6503;
+            return __res_6560;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6506;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6563;
             if (value is null)
             {
-                __marshalledValue_6506 = null;
+                __marshalledValue_6563 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6507 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6506 = __notNullable_6507.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6564 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6563 = __notNullable_6564.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onisolationchange", __marshalledValue_6506);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onisolationchange", __marshalledValue_6563);
         }
     }
 }

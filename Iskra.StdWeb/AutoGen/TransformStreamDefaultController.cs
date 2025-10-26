@@ -10,18 +10,18 @@ public partial class TransformStreamDefaultController(global::System.Runtime.Int
     {
         get
         {
-            double? __res_1914;
-            double? __res_1915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_1915 is null)
+            double? __res_1947;
+            double? __res_1948 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_1948 is null)
             {
-                __res_1914 = null;
+                __res_1947 = null;
             }
             else
             {
-                double __notNullable_1916 = (double)__res_1915;
-                __res_1914 = __notNullable_1916;
+                double __notNullable_1949 = (double)__res_1948;
+                __res_1947 = __notNullable_1949;
             }
-            return __res_1914;
+            return __res_1947;
         }
     }
 }

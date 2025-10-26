@@ -10,16 +10,16 @@ public partial class DecodeErrorCallback(global::System.Runtime.InteropServices.
 {
     public static implicit operator DecodeErrorCallback(DecodeErrorCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_13827) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_13936) =>
         {
-            using (__args_13827)
+            using (__args_13936)
             {
                 // Argument 1
-                global::Iskra.StdWeb.DOMException __arg_13829;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_13830 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_13827, 0);
-                __arg_13829 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_13830);
+                global::Iskra.StdWeb.DOMException __arg_13938;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_13939 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_13936, 0);
+                __arg_13938 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_13939);
 
-                input(__arg_13829);
+                input(__arg_13938);
             }
         };
 

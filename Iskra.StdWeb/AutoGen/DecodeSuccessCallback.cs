@@ -10,16 +10,16 @@ public partial class DecodeSuccessCallback(global::System.Runtime.InteropService
 {
     public static implicit operator DecodeSuccessCallback(DecodeSuccessCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_13831) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_13940) =>
         {
-            using (__args_13831)
+            using (__args_13940)
             {
                 // Argument 1
-                global::Iskra.StdWeb.AudioBuffer __arg_13833;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_13834 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_13831, 0);
-                __arg_13833 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(__res_13834);
+                global::Iskra.StdWeb.AudioBuffer __arg_13942;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_13943 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_13940, 0);
+                __arg_13942 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(__res_13943);
 
-                input(__arg_13833);
+                input(__arg_13942);
             }
         };
 

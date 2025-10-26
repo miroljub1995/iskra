@@ -10,17 +10,21 @@ public partial class NavigationInterceptHandler(global::System.Runtime.InteropSe
 {
     public static implicit operator NavigationInterceptHandler(NavigationInterceptHandlerManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12069) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12159, __res_12161) =>
         {
-            using (__args_12069)
+            using (__args_12159)
+            using (__res_12161)
             {
 
 
-                input();
+                global::Iskra.JSCore.Promise __managedRes_12162 = input();
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12163 = __managedRes_12162.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_12161, "value", __propObject_12163);
             }
         };
 
-        return new global::Iskra.StdWeb.NavigationInterceptHandler(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        return new global::Iskra.StdWeb.NavigationInterceptHandler(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
     }
     
     public static implicit operator NavigationInterceptHandlerManaged(NavigationInterceptHandler input)

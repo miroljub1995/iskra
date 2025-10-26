@@ -10,16 +10,16 @@ public partial class VideoFrameOutputCallback(global::System.Runtime.InteropServ
 {
     public static implicit operator VideoFrameOutputCallback(VideoFrameOutputCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3948) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3999) =>
         {
-            using (__args_3948)
+            using (__args_3999)
             {
                 // Argument 1
-                global::Iskra.StdWeb.VideoFrame __arg_3950;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3951 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3948, 0);
-                __arg_3950 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoFrame>(__res_3951);
+                global::Iskra.StdWeb.VideoFrame __arg_4001;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4002 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3999, 0);
+                __arg_4001 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoFrame>(__res_4002);
 
-                input(__arg_3950);
+                input(__arg_4001);
             }
         };
 
