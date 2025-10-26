@@ -559,7 +559,7 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
             else
             {
                 global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6744 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6743;
-                throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = XRDOMOverlayState } not supported.");
+                __res_6742 = new global::Iskra.StdWeb.XRDOMOverlayState(__notNullable_6744);
             }
             return __res_6742;
         }

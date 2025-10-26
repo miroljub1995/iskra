@@ -165,14 +165,14 @@ public static partial class GenericMarshaller
         {
             global::Iskra.StdWeb.MediaImage __element_14428;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14429 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(array, index);
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaImage } not supported.");
+            __element_14428 = new global::Iskra.StdWeb.MediaImage(__res_14429);
             return __element_14428;
         }
 
         static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<global::Iskra.StdWeb.MediaImage>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, global::Iskra.StdWeb.MediaImage value)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14430;
-            throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MediaImage } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            __marshalledValue_14430 = value.JSObject;
             global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(array, index, __marshalledValue_14430);
         }
 
@@ -210,14 +210,14 @@ public static partial class GenericMarshaller
         {
             global::Iskra.StdWeb.PaymentMethodData __element_14437;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14438 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(array, index);
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentMethodData } not supported.");
+            __element_14437 = new global::Iskra.StdWeb.PaymentMethodData(__res_14438);
             return __element_14437;
         }
 
         static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<global::Iskra.StdWeb.PaymentMethodData>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, global::Iskra.StdWeb.PaymentMethodData value)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14439;
-            throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentMethodData } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            __marshalledValue_14439 = value.JSObject;
             global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(array, index, __marshalledValue_14439);
         }
 
@@ -225,14 +225,14 @@ public static partial class GenericMarshaller
         {
             global::Iskra.StdWeb.PaymentDetailsModifier __element_14440;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14441 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(array, index);
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentDetailsModifier } not supported.");
+            __element_14440 = new global::Iskra.StdWeb.PaymentDetailsModifier(__res_14441);
             return __element_14440;
         }
 
         static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<global::Iskra.StdWeb.PaymentDetailsModifier>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, global::Iskra.StdWeb.PaymentDetailsModifier value)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14442;
-            throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentDetailsModifier } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            __marshalledValue_14442 = value.JSObject;
             global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(array, index, __marshalledValue_14442);
         }
 
@@ -240,14 +240,14 @@ public static partial class GenericMarshaller
         {
             global::Iskra.StdWeb.PaymentShippingOption __element_14443;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14444 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(array, index);
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentShippingOption } not supported.");
+            __element_14443 = new global::Iskra.StdWeb.PaymentShippingOption(__res_14444);
             return __element_14443;
         }
 
         static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<global::Iskra.StdWeb.PaymentShippingOption>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, global::Iskra.StdWeb.PaymentShippingOption value)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14445;
-            throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = PaymentShippingOption } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            __marshalledValue_14445 = value.JSObject;
             global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(array, index, __marshalledValue_14445);
         }
 
@@ -270,14 +270,14 @@ public static partial class GenericMarshaller
         {
             global::Iskra.StdWeb.HIDCollectionInfo __element_14449;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14450 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(array, index);
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HIDCollectionInfo } not supported.");
+            __element_14449 = new global::Iskra.StdWeb.HIDCollectionInfo(__res_14450);
             return __element_14449;
         }
 
         static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<global::Iskra.StdWeb.HIDCollectionInfo>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, global::Iskra.StdWeb.HIDCollectionInfo value)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14451;
-            throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = HIDCollectionInfo } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            __marshalledValue_14451 = value.JSObject;
             global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(array, index, __marshalledValue_14451);
         }
 
@@ -285,14 +285,14 @@ public static partial class GenericMarshaller
         {
             global::Iskra.StdWeb.CookieListItem __element_14452;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14453 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(array, index);
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CookieListItem } not supported.");
+            __element_14452 = new global::Iskra.StdWeb.CookieListItem(__res_14453);
             return __element_14452;
         }
 
         static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<global::Iskra.StdWeb.CookieListItem>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, global::Iskra.StdWeb.CookieListItem value)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14454;
-            throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = CookieListItem } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            __marshalledValue_14454 = value.JSObject;
             global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(array, index, __marshalledValue_14454);
         }
 
@@ -390,14 +390,14 @@ public static partial class GenericMarshaller
         {
             global::Iskra.StdWeb.NavigatorUABrandVersion __element_14473;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14474 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(array, index);
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigatorUABrandVersion } not supported.");
+            __element_14473 = new global::Iskra.StdWeb.NavigatorUABrandVersion(__res_14474);
             return __element_14473;
         }
 
         static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<global::Iskra.StdWeb.NavigatorUABrandVersion>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, global::Iskra.StdWeb.NavigatorUABrandVersion value)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14475;
-            throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NavigatorUABrandVersion } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            __marshalledValue_14475 = value.JSObject;
             global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(array, index, __marshalledValue_14475);
         }
 
@@ -510,14 +510,14 @@ public static partial class GenericMarshaller
         {
             global::Iskra.StdWeb.Report __element_14497;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14498 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(array, index);
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Report } not supported.");
+            __element_14497 = new global::Iskra.StdWeb.Report(__res_14498);
             return __element_14497;
         }
 
         static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<global::Iskra.StdWeb.Report>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, global::Iskra.StdWeb.Report value)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14499;
-            throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = Report } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            __marshalledValue_14499 = value.JSObject;
             global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(array, index, __marshalledValue_14499);
         }
 
@@ -645,14 +645,14 @@ public static partial class GenericMarshaller
         {
             global::Iskra.StdWeb.NotificationAction __element_14524;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14525 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(array, index);
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NotificationAction } not supported.");
+            __element_14524 = new global::Iskra.StdWeb.NotificationAction(__res_14525);
             return __element_14524;
         }
 
         static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<global::Iskra.StdWeb.NotificationAction>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, global::Iskra.StdWeb.NotificationAction value)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14526;
-            throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = NotificationAction } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            __marshalledValue_14526 = value.JSObject;
             global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(array, index, __marshalledValue_14526);
         }
 
@@ -795,14 +795,14 @@ public static partial class GenericMarshaller
         {
             global::Iskra.StdWeb.GamepadTouch __element_14554;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14555 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(array, index);
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadTouch } not supported.");
+            __element_14554 = new global::Iskra.StdWeb.GamepadTouch(__res_14555);
             return __element_14554;
         }
 
         static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<global::Iskra.StdWeb.GamepadTouch>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, global::Iskra.StdWeb.GamepadTouch value)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14556;
-            throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = GamepadTouch } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+            __marshalledValue_14556 = value.JSObject;
             global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(array, index, __marshalledValue_14556);
         }
 
@@ -1270,7 +1270,7 @@ public static partial class GenericMarshaller
             using global::System.Runtime.InteropServices.JavaScript.JSObject __task_14665 = await global::Iskra.StdWeb.GenericMarshaller.WrapPromiseValue(input);
             global::Iskra.StdWeb.WebTransportCloseInfo __res_14666;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14667 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__task_14665, "value");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportCloseInfo } not supported.");
+            __res_14666 = new global::Iskra.StdWeb.WebTransportCloseInfo(__res_14667);
             return __res_14666;
         }
 
@@ -1281,7 +1281,7 @@ public static partial class GenericMarshaller
                 global::System.Runtime.InteropServices.JavaScript.JSObject __wrapperObject_14668 = global::Iskra.StdWeb.GenericMarshaller.ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
                 global::Iskra.StdWeb.WebTransportCloseInfo __awaitedValue_14671 = await __task_14670;
                     global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14673;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = WebTransportCloseInfo } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_14673 = __awaitedValue_14671.JSObject;
                 global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__wrapperObject_14668, "value", __marshalledValue_14673);
                 return __wrapperObject_14668;
             }
@@ -1384,7 +1384,7 @@ public static partial class GenericMarshaller
             using global::System.Runtime.InteropServices.JavaScript.JSObject __task_14701 = await global::Iskra.StdWeb.GenericMarshaller.WrapPromiseValue(input);
             global::Iskra.StdWeb.RTCIdentityAssertionResult __res_14702;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__task_14701, "value");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIdentityAssertionResult } not supported.");
+            __res_14702 = new global::Iskra.StdWeb.RTCIdentityAssertionResult(__res_14703);
             return __res_14702;
         }
 
@@ -1395,7 +1395,7 @@ public static partial class GenericMarshaller
                 global::System.Runtime.InteropServices.JavaScript.JSObject __wrapperObject_14704 = global::Iskra.StdWeb.GenericMarshaller.ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
                 global::Iskra.StdWeb.RTCIdentityAssertionResult __awaitedValue_14707 = await __task_14706;
                     global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14709;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIdentityAssertionResult } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_14709 = __awaitedValue_14707.JSObject;
                 global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__wrapperObject_14704, "value", __marshalledValue_14709);
                 return __wrapperObject_14704;
             }
@@ -1409,7 +1409,7 @@ public static partial class GenericMarshaller
             using global::System.Runtime.InteropServices.JavaScript.JSObject __task_14710 = await global::Iskra.StdWeb.GenericMarshaller.WrapPromiseValue(input);
             global::Iskra.StdWeb.RTCIdentityValidationResult __res_14711;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14712 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__task_14710, "value");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIdentityValidationResult } not supported.");
+            __res_14711 = new global::Iskra.StdWeb.RTCIdentityValidationResult(__res_14712);
             return __res_14711;
         }
 
@@ -1420,7 +1420,7 @@ public static partial class GenericMarshaller
                 global::System.Runtime.InteropServices.JavaScript.JSObject __wrapperObject_14713 = global::Iskra.StdWeb.GenericMarshaller.ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
                 global::Iskra.StdWeb.RTCIdentityValidationResult __awaitedValue_14716 = await __task_14715;
                     global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14718;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = RTCIdentityValidationResult } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_14718 = __awaitedValue_14716.JSObject;
                 global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__wrapperObject_14713, "value", __marshalledValue_14718);
                 return __wrapperObject_14713;
             }
@@ -1484,7 +1484,7 @@ public static partial class GenericMarshaller
             using global::System.Runtime.InteropServices.JavaScript.JSObject __task_14737 = await global::Iskra.StdWeb.GenericMarshaller.WrapPromiseValue(input);
             global::Iskra.StdWeb.MLContextLostInfo __res_14738;
             global::System.Runtime.InteropServices.JavaScript.JSObject __res_14739 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__task_14737, "value");
-            throw new global::System.Exception("Marshaller ToManaged from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MLContextLostInfo } not supported.");
+            __res_14738 = new global::Iskra.StdWeb.MLContextLostInfo(__res_14739);
             return __res_14738;
         }
 
@@ -1495,7 +1495,7 @@ public static partial class GenericMarshaller
                 global::System.Runtime.InteropServices.JavaScript.JSObject __wrapperObject_14740 = global::Iskra.StdWeb.GenericMarshaller.ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
                 global::Iskra.StdWeb.MLContextLostInfo __awaitedValue_14743 = await __task_14742;
                     global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14745;
-                throw new global::System.Exception("Marshaller ToJS from SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = MLContextLostInfo } to SingleTypeDescription { ExtAttrs = System.Collections.Generic.List`1[Iskra.WebIDLGenerator.Models.ExtendedAttribute], Nullable = False, IdlType = object } not supported.");
+                __marshalledValue_14745 = __awaitedValue_14743.JSObject;
                 global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__wrapperObject_14740, "value", __marshalledValue_14745);
                 return __wrapperObject_14740;
             }

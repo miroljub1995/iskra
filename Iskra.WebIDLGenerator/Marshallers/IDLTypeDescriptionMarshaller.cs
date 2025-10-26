@@ -1,5 +1,4 @@
 using Iskra.StdWebGenerator.GeneratorContexts;
-using Iskra.WebIDLGenerator.Generators;
 using Iskra.WebIDLGenerator.Models;
 
 namespace Iskra.WebIDLGenerator.Marshallers;
@@ -125,6 +124,13 @@ public partial class IDLTypeDescriptionMarshaller(
                              {{outputVar}} = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::{{descriptor.Namespace}}.{{descriptor.Name}}>({{inputVar}});
                              """;
                 }
+
+                if (descriptor.RootType is DictionaryType)
+                {
+                    return $$"""
+                             {{outputVar}} = new global::{{descriptor.Namespace}}.{{descriptor.Name}}({{inputVar}});
+                             """;
+                }
             }
         }
 
@@ -199,6 +205,13 @@ public partial class IDLTypeDescriptionMarshaller(
                 }
 
                 if (descriptor.RootType is CallbackInterfaceType)
+                {
+                    return $$"""
+                             {{outputVar}} = {{inputVar}}.JSObject;
+                             """;
+                }
+
+                if (descriptor.RootType is DictionaryType)
                 {
                     return $$"""
                              {{outputVar}} = {{inputVar}}.JSObject;
