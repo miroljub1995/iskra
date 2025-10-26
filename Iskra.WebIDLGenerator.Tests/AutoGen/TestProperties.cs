@@ -1528,6 +1528,105 @@ public partial class TestProperties(global::System.Runtime.InteropServices.JavaS
             return __res_287;
         }
     }
+
+    public global::System.Numerics.BigInteger BigIntProperty
+    {
+        get
+        {
+            global::System.Numerics.BigInteger __res_290;
+            global::System.Numerics.BigInteger __res_291 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBigIntegerV2(JSObject, "bigIntProperty");
+            __res_290 = __res_291;
+            return __res_290;
+        }
+        set
+        {
+            global::System.Numerics.BigInteger __marshalledValue_292;
+            __marshalledValue_292 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBigIntegerV2(JSObject, "bigIntProperty", __marshalledValue_292);
+        }
+    }
+
+    public global::System.Numerics.BigInteger BigIntPropertyReadOnly
+    {
+        get
+        {
+            global::System.Numerics.BigInteger __res_293;
+            global::System.Numerics.BigInteger __res_294 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBigIntegerV2(JSObject, "bigIntPropertyReadOnly");
+            __res_293 = __res_294;
+            return __res_293;
+        }
+    }
+
+    public global::System.Numerics.BigInteger? BigIntPropertyNullable
+    {
+        get
+        {
+            global::System.Numerics.BigInteger? __res_295;
+            global::System.Numerics.BigInteger? __res_296 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBigIntegerV2AsNullable(JSObject, "bigIntPropertyNullable");
+            if (__res_296 is null)
+            {
+                __res_295 = null;
+            }
+            else
+            {
+                global::System.Numerics.BigInteger __notNullable_297 = (global::System.Numerics.BigInteger)__res_296;
+                __res_295 = __notNullable_297;
+            }
+            return __res_295;
+        }
+        set
+        {
+            global::System.Numerics.BigInteger? __marshalledValue_298;
+            if (value is null)
+            {
+                __marshalledValue_298 = null;
+            }
+            else
+            {
+                global::System.Numerics.BigInteger __notNullable_299 = (global::System.Numerics.BigInteger)value;
+                __marshalledValue_298 = __notNullable_299;
+            }
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBigIntegerV2AsNullable(JSObject, "bigIntPropertyNullable", __marshalledValue_298);
+        }
+    }
+
+    public global::System.Numerics.BigInteger? BigIntPropertyReadOnlyNullableAsNull
+    {
+        get
+        {
+            global::System.Numerics.BigInteger? __res_300;
+            global::System.Numerics.BigInteger? __res_301 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBigIntegerV2AsNullable(JSObject, "bigIntPropertyReadOnlyNullableAsNull");
+            if (__res_301 is null)
+            {
+                __res_300 = null;
+            }
+            else
+            {
+                global::System.Numerics.BigInteger __notNullable_302 = (global::System.Numerics.BigInteger)__res_301;
+                __res_300 = __notNullable_302;
+            }
+            return __res_300;
+        }
+    }
+
+    public global::System.Numerics.BigInteger? BigIntPropertyReadOnlyNullableAsNotNull
+    {
+        get
+        {
+            global::System.Numerics.BigInteger? __res_303;
+            global::System.Numerics.BigInteger? __res_304 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBigIntegerV2AsNullable(JSObject, "bigIntPropertyReadOnlyNullableAsNotNull");
+            if (__res_304 is null)
+            {
+                __res_303 = null;
+            }
+            else
+            {
+                global::System.Numerics.BigInteger __notNullable_305 = (global::System.Numerics.BigInteger)__res_304;
+                __res_303 = __notNullable_305;
+            }
+            return __res_303;
+        }
+    }
 }
 
 #nullable disable

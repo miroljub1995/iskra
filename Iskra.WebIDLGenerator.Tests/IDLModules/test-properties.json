@@ -1241,6 +1241,86 @@
             "special": "",
             "readonly": true,
             "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "bigIntProperty",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "bigint"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "bigIntPropertyReadOnly",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "bigint"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "bigIntPropertyNullable",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "bigint"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "bigIntPropertyReadOnlyNullableAsNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "bigint"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
+          },
+          {
+            "type": "attribute",
+            "name": "bigIntPropertyReadOnlyNullableAsNotNull",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "bigint"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": ""
           }
         ],
         "extAttrs": [],

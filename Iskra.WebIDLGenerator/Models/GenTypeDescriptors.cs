@@ -559,7 +559,7 @@ public class GenTypeDescriptors
             IdlType =
             [
                 new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.Double, ExtAttrs = [], },
-                // new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.BigInt, ExtAttrs = [], },
+                new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.BigInt, ExtAttrs = [], },
                 new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.String, ExtAttrs = [], },
                 new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.Boolean, ExtAttrs = [], },
                 new SingleTypeDescription() { Nullable = false, IdlType = BuiltinTypes.Object, ExtAttrs = [], },

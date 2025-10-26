@@ -1,3 +1,5 @@
+using System.Numerics;
+
 namespace Iskra.WebIDLGenerator.Tests.Tests;
 
 public class TestPropertiesTest() : BaseTest<TestProperties>("testProperties")
@@ -417,5 +419,45 @@ public class TestPropertiesTest() : BaseTest<TestProperties>("testProperties")
         await Assert.That(sut.StringPropertyReadOnlyNullableAsNull).IsEqualTo(null);
         await Assert.That(sut.StringPropertyReadOnlyNullableAsNotNull).IsEqualTo("this is not null string");
         await Assert.That(sut.StringPropertyReadOnlyNullableAsEmpty).IsEqualTo("");
+    }
+
+    // BigInt
+    [Test]
+    public async Task TestBigIntProperty()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.BigIntProperty).IsEqualTo(BigInteger.Parse("9223372036854775807000"));
+        await Assert.That(sut.BigIntProperty = BigInteger.Parse("99999999999999999999"))
+            .IsEqualTo(BigInteger.Parse("99999999999999999999"));
+    }
+
+    [Test]
+    public async Task TestReadOnlyBigIntProperty()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.BigIntPropertyReadOnly).IsEqualTo(BigInteger.Parse("18446744073709551616"));
+        await Assert.That(PropertyIsReadOnly(nameof(TestProperties.BigIntPropertyReadOnly))).IsTrue();
+    }
+
+    [Test]
+    public async Task TestBigIntPropertyNullable()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.BigIntPropertyNullable).IsEqualTo(null);
+        await Assert.That(sut.BigIntPropertyNullable = BigInteger.Parse("123456789012345678901234567890"))
+            .IsEqualTo(BigInteger.Parse("123456789012345678901234567890"));
+    }
+
+    [Test]
+    public async Task TestBigIntPropertyReadOnlyNullable()
+    {
+        var sut = GetSut();
+
+        await Assert.That(sut.BigIntPropertyReadOnlyNullableAsNull).IsEqualTo(null);
+        await Assert.That(sut.BigIntPropertyReadOnlyNullableAsNotNull)
+            .IsEqualTo(BigInteger.Parse("123456789012345678901234567890"));
     }
 }

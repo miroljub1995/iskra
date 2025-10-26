@@ -39,5 +39,5 @@ globalThis.tests = {
     },
     get testUnionProperties() {
         return new TestUnionProperties();
-    }
+    },
 };

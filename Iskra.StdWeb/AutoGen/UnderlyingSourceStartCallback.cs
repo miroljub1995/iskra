@@ -4,6 +4,6 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? UnderlyingSourceStartCallback(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union> controller);
+public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? UnderlyingSourceStartCallback(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultController, global::Iskra.StdWeb.ReadableByteStreamController, global::Iskra.StdWeb.GenericMarshaller.Union> controller);
 
 #nullable disable

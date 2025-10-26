@@ -100,7 +100,20 @@ public class SetPropertyValueGenerator(
 
         IDLTypeDescription marshalledType;
 
-        if (type.IdlType is BuiltinTypes.Boolean)
+        if (type.IdlType is BuiltinTypes.BigInt)
+        {
+            marshalledType = new SingleTypeDescription
+            {
+                ExtAttrs = [],
+                IdlType = BuiltinTypes.BigInt,
+                Nullable = type.Nullable,
+            };
+
+            setPropertyContent = $$"""
+                                   global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBigIntegerV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{marshalledVar}});
+                                   """;
+        }
+        else if (type.IdlType is BuiltinTypes.Boolean)
         {
             marshalledType = new SingleTypeDescription
             {
@@ -368,7 +381,7 @@ public class SetPropertyValueGenerator(
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
         var setPropertyVar = generatorContext.GetNextVariableName("propObject");
-        
+
         var setPropertyContent = $$"""
                                    global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
                                    """;

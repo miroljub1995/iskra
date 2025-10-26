@@ -17,14 +17,14 @@ public partial class FetchEvent(global::System.Runtime.InteropServices.JavaScrip
         }
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise> PreloadResponse
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise> PreloadResponse
     {
         get
         {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_7233;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_7233;
             global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7234;
             __propObject_7234 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preloadResponse");
-            __res_7233 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_7234);
+            __res_7233 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_7234);
             return __res_7233;
         }
     }

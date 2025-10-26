@@ -37,6 +37,23 @@ public static partial class JSCoreShims
                                          }
                                      })();
 
+                                     export const getPropertyAsBigIntegerString = (obj, propertyNameOrIndex) => {
+                                         const value = obj[propertyNameOrIndex];
+                                         if (value === null || value === undefined) {
+                                             return null;
+                                         }
+
+                                         return value.toString();
+                                     };
+
+                                     export const setPropertyAsBigIntegerString = (obj, propertyNameOrIndex, value) => {
+                                         if (value === null || value === undefined) {
+                                             obj[propertyNameOrIndex] = null;
+                                         }
+
+                                         obj[propertyNameOrIndex] = BigInt(value);
+                                     };
+
                                      export const getPropertyAsUnion = (obj, propertyName) => {
                                          // boolean = 1
                                          // number = 2

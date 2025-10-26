@@ -261,6 +261,23 @@ export class TestProperties {
     get objectPropertyReadOnlyNullableAsNotNull() {
         return {key: "not null object"};
     }
+
+    // BigInt
+    bigIntProperty = 9223372036854775807000n;
+
+    get bigIntPropertyReadOnly() {
+        return 18446744073709551616n;
+    }
+
+    bigIntPropertyNullable = null;
+
+    get bigIntPropertyReadOnlyNullableAsNull() {
+        return null;
+    }
+
+    get bigIntPropertyReadOnlyNullableAsNotNull() {
+        return 123456789012345678901234567890n;
+    }
 }
 
 globalThis.TestProperties = TestProperties;

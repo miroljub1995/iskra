@@ -111,7 +111,7 @@ public class GetPropertyValueGenerator(
             };
 
             getPropertyContent = $$"""
-                                   bool{{nullableTypeSuffix}} {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   global::System.Numerics.BigInteger{{nullableTypeSuffix}} {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBigIntegerV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
                                    """;
         }
         else if (type.IdlType is BuiltinTypes.Boolean)
