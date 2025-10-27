@@ -10,16 +10,16 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.AnimationTimeline __res_8306;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8307 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "timeline");
-            __res_8306 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationTimeline>(__res_8307);
-            return __res_8306;
+            global::Iskra.StdWeb.AnimationTimeline __res_8730;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8731 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "timeline");
+            __res_8730 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationTimeline>(__res_8731);
+            return __res_8730;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_8308;
-            __marshalledValue_8308 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "timeline", __marshalledValue_8308);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_8732;
+            __marshalledValue_8732 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "timeline", __marshalledValue_8732);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.AnimationTriggerBehavior __res_8309;
-            string __res_8310 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "behavior");
-            __res_8309 = global::Iskra.StdWeb.AnimationTriggerBehavior.Create(__res_8310);
-            return __res_8309;
+            global::Iskra.StdWeb.AnimationTriggerBehavior __res_8733;
+            string __res_8734 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "behavior");
+            __res_8733 = global::Iskra.StdWeb.AnimationTriggerBehavior.Create(__res_8734);
+            return __res_8733;
         }
         set
         {
-            string __marshalledValue_8311;
-            __marshalledValue_8311 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "behavior", __marshalledValue_8311);
+            string __marshalledValue_8735;
+            __marshalledValue_8735 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "behavior", __marshalledValue_8735);
         }
     }
 
@@ -44,32 +44,32 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_8312;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8313;
-            __propObject_8313 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "rangeStart");
-            if (__propObject_8313 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_8736;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8737;
+            __propObject_8737 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "rangeStart");
+            if (__propObject_8737 is null)
             {
-                __res_8312 = null;
+                __res_8736 = null;
             }
             else
             {
-                __res_8312 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8313);
+                __res_8736 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8737);
             }
-            return __res_8312;
+            return __res_8736;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8314;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8738;
             if (value is null)
             {
-                __propObject_8314 = null;
+                __propObject_8738 = null;
             }
             else
             {
-                __propObject_8314 = value.JSObject;
+                __propObject_8738 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "rangeStart", __propObject_8314);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "rangeStart", __propObject_8738);
         }
     }
 
@@ -77,32 +77,32 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_8315;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8316;
-            __propObject_8316 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "rangeEnd");
-            if (__propObject_8316 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_8739;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8740;
+            __propObject_8740 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "rangeEnd");
+            if (__propObject_8740 is null)
             {
-                __res_8315 = null;
+                __res_8739 = null;
             }
             else
             {
-                __res_8315 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8316);
+                __res_8739 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8740);
             }
-            return __res_8315;
+            return __res_8739;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8317;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8741;
             if (value is null)
             {
-                __propObject_8317 = null;
+                __propObject_8741 = null;
             }
             else
             {
-                __propObject_8317 = value.JSObject;
+                __propObject_8741 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "rangeEnd", __propObject_8317);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "rangeEnd", __propObject_8741);
         }
     }
 
@@ -110,32 +110,32 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_8318;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8319;
-            __propObject_8319 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "exitRangeStart");
-            if (__propObject_8319 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_8742;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8743;
+            __propObject_8743 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "exitRangeStart");
+            if (__propObject_8743 is null)
             {
-                __res_8318 = null;
+                __res_8742 = null;
             }
             else
             {
-                __res_8318 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8319);
+                __res_8742 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8743);
             }
-            return __res_8318;
+            return __res_8742;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8320;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8744;
             if (value is null)
             {
-                __propObject_8320 = null;
+                __propObject_8744 = null;
             }
             else
             {
-                __propObject_8320 = value.JSObject;
+                __propObject_8744 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "exitRangeStart", __propObject_8320);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "exitRangeStart", __propObject_8744);
         }
     }
 
@@ -143,32 +143,32 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_8321;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8322;
-            __propObject_8322 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "exitRangeEnd");
-            if (__propObject_8322 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_8745;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8746;
+            __propObject_8746 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "exitRangeEnd");
+            if (__propObject_8746 is null)
             {
-                __res_8321 = null;
+                __res_8745 = null;
             }
             else
             {
-                __res_8321 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8322);
+                __res_8745 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8746);
             }
-            return __res_8321;
+            return __res_8745;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8323;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8747;
             if (value is null)
             {
-                __propObject_8323 = null;
+                __propObject_8747 = null;
             }
             else
             {
-                __propObject_8323 = value.JSObject;
+                __propObject_8747 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "exitRangeEnd", __propObject_8323);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "exitRangeEnd", __propObject_8747);
         }
     }
 }

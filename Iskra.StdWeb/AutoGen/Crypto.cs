@@ -10,10 +10,10 @@ public partial class Crypto(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.SubtleCrypto __res_2665;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2666 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subtle");
-            __res_2665 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SubtleCrypto>(__res_2666);
-            return __res_2665;
+            global::Iskra.StdWeb.SubtleCrypto __res_2841;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2842 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subtle");
+            __res_2841 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SubtleCrypto>(__res_2842);
+            return __res_2841;
         }
     }
 }

@@ -10,11 +10,11 @@ public partial class PresentationConnectionList(global::System.Runtime.InteropSe
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3708;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3709;
-            __propObject_3709 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connections");
-            __res_3708 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3709);
-            return __res_3708;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3896;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3897;
+            __propObject_3897 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connections");
+            __res_3896 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3897);
+            return __res_3896;
         }
     }
 
@@ -22,32 +22,32 @@ public partial class PresentationConnectionList(global::System.Runtime.InteropSe
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3710;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3711 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable");
-            if (__res_3711 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3898;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3899 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable");
+            if (__res_3899 is null)
             {
-                __res_3710 = null;
+                __res_3898 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3712 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3711;
-                __res_3710 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3712);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3900 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3899;
+                __res_3898 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3900);
             }
-            return __res_3710;
+            return __res_3898;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3713;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3901;
             if (value is null)
             {
-                __marshalledValue_3713 = null;
+                __marshalledValue_3901 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3714 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3713 = __notNullable_3714.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3902 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3901 = __notNullable_3902.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable", __marshalledValue_3713);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable", __marshalledValue_3901);
         }
     }
 }

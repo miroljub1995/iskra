@@ -10,10 +10,10 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCanvasElement __res_10700;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10701 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
-            __res_10700 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCanvasElement>(__res_10701);
-            return __res_10700;
+            global::Iskra.StdWeb.HTMLCanvasElement __res_11131;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11132 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "canvas");
+            __res_11131 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCanvasElement>(__res_11132);
+            return __res_11131;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            double __res_10702;
-            double __res_10703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "globalAlpha");
-            __res_10702 = __res_10703;
-            return __res_10702;
+            double __res_11133;
+            double __res_11134 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "globalAlpha");
+            __res_11133 = __res_11134;
+            return __res_11133;
         }
         set
         {
-            double __marshalledValue_10704;
-            __marshalledValue_10704 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "globalAlpha", __marshalledValue_10704);
+            double __marshalledValue_11135;
+            __marshalledValue_11135 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "globalAlpha", __marshalledValue_11135);
         }
     }
 
@@ -38,16 +38,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_10705;
-            string __res_10706 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "globalCompositeOperation");
-            __res_10705 = __res_10706;
-            return __res_10705;
+            string __res_11136;
+            string __res_11137 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "globalCompositeOperation");
+            __res_11136 = __res_11137;
+            return __res_11136;
         }
         set
         {
-            string __marshalledValue_10707;
-            __marshalledValue_10707 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "globalCompositeOperation", __marshalledValue_10707);
+            string __marshalledValue_11138;
+            __marshalledValue_11138 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "globalCompositeOperation", __marshalledValue_11138);
         }
     }
 
@@ -55,16 +55,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            bool __res_10708;
-            bool __res_10709 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "imageSmoothingEnabled");
-            __res_10708 = __res_10709;
-            return __res_10708;
+            bool __res_11139;
+            bool __res_11140 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "imageSmoothingEnabled");
+            __res_11139 = __res_11140;
+            return __res_11139;
         }
         set
         {
-            bool __marshalledValue_10710;
-            __marshalledValue_10710 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "imageSmoothingEnabled", __marshalledValue_10710);
+            bool __marshalledValue_11141;
+            __marshalledValue_11141 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "imageSmoothingEnabled", __marshalledValue_11141);
         }
     }
 
@@ -72,16 +72,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.ImageSmoothingQuality __res_10711;
-            string __res_10712 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "imageSmoothingQuality");
-            __res_10711 = global::Iskra.StdWeb.ImageSmoothingQuality.Create(__res_10712);
-            return __res_10711;
+            global::Iskra.StdWeb.ImageSmoothingQuality __res_11142;
+            string __res_11143 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "imageSmoothingQuality");
+            __res_11142 = global::Iskra.StdWeb.ImageSmoothingQuality.Create(__res_11143);
+            return __res_11142;
         }
         set
         {
-            string __marshalledValue_10713;
-            __marshalledValue_10713 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "imageSmoothingQuality", __marshalledValue_10713);
+            string __marshalledValue_11144;
+            __marshalledValue_11144 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "imageSmoothingQuality", __marshalledValue_11144);
         }
     }
 
@@ -89,16 +89,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.CanvasPattern, global::Iskra.StdWeb.GenericMarshaller.Union> __res_10714;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10715;
-            __propObject_10715 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "strokeStyle");
-            __res_10714 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.CanvasPattern, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_10715);
-            return __res_10714;
+            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.CanvasPattern, global::Iskra.StdWeb.GenericMarshaller.Union> __res_11145;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_11146;
+            __propObject_11146 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "strokeStyle");
+            __res_11145 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.CanvasPattern, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_11146);
+            return __res_11145;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10716 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "strokeStyle", __propObject_10716);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_11147 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "strokeStyle", __propObject_11147);
         }
     }
 
@@ -106,16 +106,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.CanvasPattern, global::Iskra.StdWeb.GenericMarshaller.Union> __res_10717;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10718;
-            __propObject_10718 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "fillStyle");
-            __res_10717 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.CanvasPattern, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_10718);
-            return __res_10717;
+            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.CanvasPattern, global::Iskra.StdWeb.GenericMarshaller.Union> __res_11148;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_11149;
+            __propObject_11149 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "fillStyle");
+            __res_11148 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.CanvasPattern, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_11149);
+            return __res_11148;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10719 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "fillStyle", __propObject_10719);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_11150 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "fillStyle", __propObject_11150);
         }
     }
 
@@ -123,16 +123,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            double __res_10720;
-            double __res_10721 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shadowOffsetX");
-            __res_10720 = __res_10721;
-            return __res_10720;
+            double __res_11151;
+            double __res_11152 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shadowOffsetX");
+            __res_11151 = __res_11152;
+            return __res_11151;
         }
         set
         {
-            double __marshalledValue_10722;
-            __marshalledValue_10722 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "shadowOffsetX", __marshalledValue_10722);
+            double __marshalledValue_11153;
+            __marshalledValue_11153 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "shadowOffsetX", __marshalledValue_11153);
         }
     }
 
@@ -140,16 +140,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            double __res_10723;
-            double __res_10724 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shadowOffsetY");
-            __res_10723 = __res_10724;
-            return __res_10723;
+            double __res_11154;
+            double __res_11155 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shadowOffsetY");
+            __res_11154 = __res_11155;
+            return __res_11154;
         }
         set
         {
-            double __marshalledValue_10725;
-            __marshalledValue_10725 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "shadowOffsetY", __marshalledValue_10725);
+            double __marshalledValue_11156;
+            __marshalledValue_11156 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "shadowOffsetY", __marshalledValue_11156);
         }
     }
 
@@ -157,16 +157,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            double __res_10726;
-            double __res_10727 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shadowBlur");
-            __res_10726 = __res_10727;
-            return __res_10726;
+            double __res_11157;
+            double __res_11158 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "shadowBlur");
+            __res_11157 = __res_11158;
+            return __res_11157;
         }
         set
         {
-            double __marshalledValue_10728;
-            __marshalledValue_10728 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "shadowBlur", __marshalledValue_10728);
+            double __marshalledValue_11159;
+            __marshalledValue_11159 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "shadowBlur", __marshalledValue_11159);
         }
     }
 
@@ -174,16 +174,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_10729;
-            string __res_10730 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shadowColor");
-            __res_10729 = __res_10730;
-            return __res_10729;
+            string __res_11160;
+            string __res_11161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shadowColor");
+            __res_11160 = __res_11161;
+            return __res_11160;
         }
         set
         {
-            string __marshalledValue_10731;
-            __marshalledValue_10731 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shadowColor", __marshalledValue_10731);
+            string __marshalledValue_11162;
+            __marshalledValue_11162 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shadowColor", __marshalledValue_11162);
         }
     }
 
@@ -191,16 +191,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_10732;
-            string __res_10733 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filter");
-            __res_10732 = __res_10733;
-            return __res_10732;
+            string __res_11163;
+            string __res_11164 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filter");
+            __res_11163 = __res_11164;
+            return __res_11163;
         }
         set
         {
-            string __marshalledValue_10734;
-            __marshalledValue_10734 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "filter", __marshalledValue_10734);
+            string __marshalledValue_11165;
+            __marshalledValue_11165 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "filter", __marshalledValue_11165);
         }
     }
 
@@ -208,16 +208,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            double __res_10735;
-            double __res_10736 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineWidth");
-            __res_10735 = __res_10736;
-            return __res_10735;
+            double __res_11166;
+            double __res_11167 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineWidth");
+            __res_11166 = __res_11167;
+            return __res_11166;
         }
         set
         {
-            double __marshalledValue_10737;
-            __marshalledValue_10737 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lineWidth", __marshalledValue_10737);
+            double __marshalledValue_11168;
+            __marshalledValue_11168 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lineWidth", __marshalledValue_11168);
         }
     }
 
@@ -225,16 +225,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CanvasLineCap __res_10738;
-            string __res_10739 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lineCap");
-            __res_10738 = global::Iskra.StdWeb.CanvasLineCap.Create(__res_10739);
-            return __res_10738;
+            global::Iskra.StdWeb.CanvasLineCap __res_11169;
+            string __res_11170 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lineCap");
+            __res_11169 = global::Iskra.StdWeb.CanvasLineCap.Create(__res_11170);
+            return __res_11169;
         }
         set
         {
-            string __marshalledValue_10740;
-            __marshalledValue_10740 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lineCap", __marshalledValue_10740);
+            string __marshalledValue_11171;
+            __marshalledValue_11171 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lineCap", __marshalledValue_11171);
         }
     }
 
@@ -242,16 +242,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CanvasLineJoin __res_10741;
-            string __res_10742 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lineJoin");
-            __res_10741 = global::Iskra.StdWeb.CanvasLineJoin.Create(__res_10742);
-            return __res_10741;
+            global::Iskra.StdWeb.CanvasLineJoin __res_11172;
+            string __res_11173 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lineJoin");
+            __res_11172 = global::Iskra.StdWeb.CanvasLineJoin.Create(__res_11173);
+            return __res_11172;
         }
         set
         {
-            string __marshalledValue_10743;
-            __marshalledValue_10743 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lineJoin", __marshalledValue_10743);
+            string __marshalledValue_11174;
+            __marshalledValue_11174 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lineJoin", __marshalledValue_11174);
         }
     }
 
@@ -259,16 +259,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            double __res_10744;
-            double __res_10745 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "miterLimit");
-            __res_10744 = __res_10745;
-            return __res_10744;
+            double __res_11175;
+            double __res_11176 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "miterLimit");
+            __res_11175 = __res_11176;
+            return __res_11175;
         }
         set
         {
-            double __marshalledValue_10746;
-            __marshalledValue_10746 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "miterLimit", __marshalledValue_10746);
+            double __marshalledValue_11177;
+            __marshalledValue_11177 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "miterLimit", __marshalledValue_11177);
         }
     }
 
@@ -276,16 +276,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            double __res_10747;
-            double __res_10748 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineDashOffset");
-            __res_10747 = __res_10748;
-            return __res_10747;
+            double __res_11178;
+            double __res_11179 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineDashOffset");
+            __res_11178 = __res_11179;
+            return __res_11178;
         }
         set
         {
-            double __marshalledValue_10749;
-            __marshalledValue_10749 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lineDashOffset", __marshalledValue_10749);
+            double __marshalledValue_11180;
+            __marshalledValue_11180 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "lineDashOffset", __marshalledValue_11180);
         }
     }
 
@@ -293,16 +293,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_10750;
-            string __res_10751 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
-            __res_10750 = __res_10751;
-            return __res_10750;
+            string __res_11181;
+            string __res_11182 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
+            __res_11181 = __res_11182;
+            return __res_11181;
         }
         set
         {
-            string __marshalledValue_10752;
-            __marshalledValue_10752 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lang", __marshalledValue_10752);
+            string __marshalledValue_11183;
+            __marshalledValue_11183 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lang", __marshalledValue_11183);
         }
     }
 
@@ -310,16 +310,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_10753;
-            string __res_10754 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font");
-            __res_10753 = __res_10754;
-            return __res_10753;
+            string __res_11184;
+            string __res_11185 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font");
+            __res_11184 = __res_11185;
+            return __res_11184;
         }
         set
         {
-            string __marshalledValue_10755;
-            __marshalledValue_10755 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font", __marshalledValue_10755);
+            string __marshalledValue_11186;
+            __marshalledValue_11186 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font", __marshalledValue_11186);
         }
     }
 
@@ -327,16 +327,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CanvasTextAlign __res_10756;
-            string __res_10757 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "textAlign");
-            __res_10756 = global::Iskra.StdWeb.CanvasTextAlign.Create(__res_10757);
-            return __res_10756;
+            global::Iskra.StdWeb.CanvasTextAlign __res_11187;
+            string __res_11188 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "textAlign");
+            __res_11187 = global::Iskra.StdWeb.CanvasTextAlign.Create(__res_11188);
+            return __res_11187;
         }
         set
         {
-            string __marshalledValue_10758;
-            __marshalledValue_10758 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "textAlign", __marshalledValue_10758);
+            string __marshalledValue_11189;
+            __marshalledValue_11189 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "textAlign", __marshalledValue_11189);
         }
     }
 
@@ -344,16 +344,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CanvasTextBaseline __res_10759;
-            string __res_10760 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "textBaseline");
-            __res_10759 = global::Iskra.StdWeb.CanvasTextBaseline.Create(__res_10760);
-            return __res_10759;
+            global::Iskra.StdWeb.CanvasTextBaseline __res_11190;
+            string __res_11191 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "textBaseline");
+            __res_11190 = global::Iskra.StdWeb.CanvasTextBaseline.Create(__res_11191);
+            return __res_11190;
         }
         set
         {
-            string __marshalledValue_10761;
-            __marshalledValue_10761 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "textBaseline", __marshalledValue_10761);
+            string __marshalledValue_11192;
+            __marshalledValue_11192 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "textBaseline", __marshalledValue_11192);
         }
     }
 
@@ -361,16 +361,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CanvasDirection __res_10762;
-            string __res_10763 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
-            __res_10762 = global::Iskra.StdWeb.CanvasDirection.Create(__res_10763);
-            return __res_10762;
+            global::Iskra.StdWeb.CanvasDirection __res_11193;
+            string __res_11194 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
+            __res_11193 = global::Iskra.StdWeb.CanvasDirection.Create(__res_11194);
+            return __res_11193;
         }
         set
         {
-            string __marshalledValue_10764;
-            __marshalledValue_10764 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "direction", __marshalledValue_10764);
+            string __marshalledValue_11195;
+            __marshalledValue_11195 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "direction", __marshalledValue_11195);
         }
     }
 
@@ -378,16 +378,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_10765;
-            string __res_10766 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "letterSpacing");
-            __res_10765 = __res_10766;
-            return __res_10765;
+            string __res_11196;
+            string __res_11197 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "letterSpacing");
+            __res_11196 = __res_11197;
+            return __res_11196;
         }
         set
         {
-            string __marshalledValue_10767;
-            __marshalledValue_10767 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "letterSpacing", __marshalledValue_10767);
+            string __marshalledValue_11198;
+            __marshalledValue_11198 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "letterSpacing", __marshalledValue_11198);
         }
     }
 
@@ -395,16 +395,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CanvasFontKerning __res_10768;
-            string __res_10769 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontKerning");
-            __res_10768 = global::Iskra.StdWeb.CanvasFontKerning.Create(__res_10769);
-            return __res_10768;
+            global::Iskra.StdWeb.CanvasFontKerning __res_11199;
+            string __res_11200 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontKerning");
+            __res_11199 = global::Iskra.StdWeb.CanvasFontKerning.Create(__res_11200);
+            return __res_11199;
         }
         set
         {
-            string __marshalledValue_10770;
-            __marshalledValue_10770 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontKerning", __marshalledValue_10770);
+            string __marshalledValue_11201;
+            __marshalledValue_11201 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontKerning", __marshalledValue_11201);
         }
     }
 
@@ -412,16 +412,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CanvasFontStretch __res_10771;
-            string __res_10772 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontStretch");
-            __res_10771 = global::Iskra.StdWeb.CanvasFontStretch.Create(__res_10772);
-            return __res_10771;
+            global::Iskra.StdWeb.CanvasFontStretch __res_11202;
+            string __res_11203 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontStretch");
+            __res_11202 = global::Iskra.StdWeb.CanvasFontStretch.Create(__res_11203);
+            return __res_11202;
         }
         set
         {
-            string __marshalledValue_10773;
-            __marshalledValue_10773 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontStretch", __marshalledValue_10773);
+            string __marshalledValue_11204;
+            __marshalledValue_11204 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontStretch", __marshalledValue_11204);
         }
     }
 
@@ -429,16 +429,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CanvasFontVariantCaps __res_10774;
-            string __res_10775 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontVariantCaps");
-            __res_10774 = global::Iskra.StdWeb.CanvasFontVariantCaps.Create(__res_10775);
-            return __res_10774;
+            global::Iskra.StdWeb.CanvasFontVariantCaps __res_11205;
+            string __res_11206 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontVariantCaps");
+            __res_11205 = global::Iskra.StdWeb.CanvasFontVariantCaps.Create(__res_11206);
+            return __res_11205;
         }
         set
         {
-            string __marshalledValue_10776;
-            __marshalledValue_10776 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontVariantCaps", __marshalledValue_10776);
+            string __marshalledValue_11207;
+            __marshalledValue_11207 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontVariantCaps", __marshalledValue_11207);
         }
     }
 
@@ -446,16 +446,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.CanvasTextRendering __res_10777;
-            string __res_10778 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "textRendering");
-            __res_10777 = global::Iskra.StdWeb.CanvasTextRendering.Create(__res_10778);
-            return __res_10777;
+            global::Iskra.StdWeb.CanvasTextRendering __res_11208;
+            string __res_11209 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "textRendering");
+            __res_11208 = global::Iskra.StdWeb.CanvasTextRendering.Create(__res_11209);
+            return __res_11208;
         }
         set
         {
-            string __marshalledValue_10779;
-            __marshalledValue_10779 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "textRendering", __marshalledValue_10779);
+            string __marshalledValue_11210;
+            __marshalledValue_11210 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "textRendering", __marshalledValue_11210);
         }
     }
 
@@ -463,16 +463,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_10780;
-            string __res_10781 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wordSpacing");
-            __res_10780 = __res_10781;
-            return __res_10780;
+            string __res_11211;
+            string __res_11212 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wordSpacing");
+            __res_11211 = __res_11212;
+            return __res_11211;
         }
         set
         {
-            string __marshalledValue_10782;
-            __marshalledValue_10782 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "wordSpacing", __marshalledValue_10782);
+            string __marshalledValue_11213;
+            __marshalledValue_11213 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "wordSpacing", __marshalledValue_11213);
         }
     }
 }

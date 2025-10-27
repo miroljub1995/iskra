@@ -10,10 +10,10 @@ public partial class IDBVersionChangeEvent(global::System.Runtime.InteropService
     {
         get
         {
-            ulong __res_13544;
-            double __res_13545 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "oldVersion");
-            __res_13544 = Convert.ToUInt64(__res_13545);
-            return __res_13544;
+            ulong __res_14035;
+            double __res_14036 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "oldVersion");
+            __res_14035 = Convert.ToUInt64(__res_14036);
+            return __res_14035;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class IDBVersionChangeEvent(global::System.Runtime.InteropService
     {
         get
         {
-            ulong? __res_13546;
-            double? __res_13547 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "newVersion");
-            if (__res_13547 is null)
+            ulong? __res_14037;
+            double? __res_14038 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "newVersion");
+            if (__res_14038 is null)
             {
-                __res_13546 = null;
+                __res_14037 = null;
             }
             else
             {
-                double __notNullable_13548 = (double)__res_13547;
-                __res_13546 = Convert.ToUInt64(__notNullable_13548);
+                double __notNullable_14039 = (double)__res_14038;
+                __res_14037 = Convert.ToUInt64(__notNullable_14039);
             }
-            return __res_13546;
+            return __res_14037;
         }
     }
 }

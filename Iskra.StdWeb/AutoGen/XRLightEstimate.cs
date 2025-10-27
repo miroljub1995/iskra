@@ -10,10 +10,10 @@ public partial class XRLightEstimate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.JSCore.Float32Array __res_1830;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1831 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sphericalHarmonicsCoefficients");
-            __res_1830 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_1831);
-            return __res_1830;
+            global::Iskra.JSCore.Float32Array __res_1842;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1843 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sphericalHarmonicsCoefficients");
+            __res_1842 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_1843);
+            return __res_1842;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRLightEstimate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.DOMPointReadOnly __res_1832;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1833 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightDirection");
-            __res_1832 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_1833);
-            return __res_1832;
+            global::Iskra.StdWeb.DOMPointReadOnly __res_1844;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightDirection");
+            __res_1844 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_1845);
+            return __res_1844;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class XRLightEstimate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.DOMPointReadOnly __res_1834;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1835 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightIntensity");
-            __res_1834 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_1835);
-            return __res_1834;
+            global::Iskra.StdWeb.DOMPointReadOnly __res_1846;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1847 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primaryLightIntensity");
+            __res_1846 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_1847);
+            return __res_1846;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class CapturedMouseEvent(global::System.Runtime.InteropServices.J
     {
         get
         {
-            int __res_4517;
-            double __res_4518 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "surfaceX");
-            __res_4517 = Convert.ToInt32(__res_4518);
-            return __res_4517;
+            int __res_4752;
+            double __res_4753 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "surfaceX");
+            __res_4752 = Convert.ToInt32(__res_4753);
+            return __res_4752;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CapturedMouseEvent(global::System.Runtime.InteropServices.J
     {
         get
         {
-            int __res_4519;
-            double __res_4520 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "surfaceY");
-            __res_4519 = Convert.ToInt32(__res_4520);
-            return __res_4519;
+            int __res_4754;
+            double __res_4755 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "surfaceY");
+            __res_4754 = Convert.ToInt32(__res_4755);
+            return __res_4754;
         }
     }
 }

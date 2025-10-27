@@ -10,16 +10,16 @@ public partial class SVGScriptElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_1306;
-            string __res_1307 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1306 = __res_1307;
-            return __res_1306;
+            string __res_1312;
+            string __res_1313 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1312 = __res_1313;
+            return __res_1312;
         }
         set
         {
-            string __marshalledValue_1308;
-            __marshalledValue_1308 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1308);
+            string __marshalledValue_1314;
+            __marshalledValue_1314 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1314);
         }
     }
 
@@ -27,32 +27,32 @@ public partial class SVGScriptElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string? __res_1309;
-            string? __res_1310 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
-            if (__res_1310 is null)
+            string? __res_1315;
+            string? __res_1316 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
+            if (__res_1316 is null)
             {
-                __res_1309 = null;
+                __res_1315 = null;
             }
             else
             {
-                string __notNullable_1311 = (string)__res_1310;
-                __res_1309 = __notNullable_1311;
+                string __notNullable_1317 = (string)__res_1316;
+                __res_1315 = __notNullable_1317;
             }
-            return __res_1309;
+            return __res_1315;
         }
         set
         {
-            string? __marshalledValue_1312;
+            string? __marshalledValue_1318;
             if (value is null)
             {
-                __marshalledValue_1312 = null;
+                __marshalledValue_1318 = null;
             }
             else
             {
-                string __notNullable_1313 = (string)value;
-                __marshalledValue_1312 = __notNullable_1313;
+                string __notNullable_1319 = (string)value;
+                __marshalledValue_1318 = __notNullable_1319;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_1312);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_1318);
         }
     }
 
@@ -60,10 +60,10 @@ public partial class SVGScriptElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedString __res_1314;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1315 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
-            __res_1314 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1315);
-            return __res_1314;
+            global::Iskra.StdWeb.SVGAnimatedString __res_1320;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
+            __res_1320 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1321);
+            return __res_1320;
         }
     }
 }

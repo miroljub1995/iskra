@@ -10,32 +10,32 @@ public partial class TestAnyProperties(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>? __res_380;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_381;
-            __propObject_381 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "anyValue");
-            if (__propObject_381 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>? __res_403;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_404;
+            __propObject_404 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "anyValue");
+            if (__propObject_404 is null)
             {
-                __res_380 = null;
+                __res_403 = null;
             }
             else
             {
-                __res_380 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>(__propObject_381);
+                __res_403 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>(__propObject_404);
             }
-            return __res_380;
+            return __res_403;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_382;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_405;
             if (value is null)
             {
-                __propObject_382 = null;
+                __propObject_405 = null;
             }
             else
             {
-                __propObject_382 = value.JSObject;
+                __propObject_405 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "anyValue", __propObject_382);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "anyValue", __propObject_405);
         }
     }
 }

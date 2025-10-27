@@ -10,25 +10,52 @@ public partial class SubscribeCallback(global::System.Runtime.InteropServices.Ja
 {
     public static implicit operator SubscribeCallback(SubscribeCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7956) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_8300) =>
         {
-            using (__args_7956)
+            using (__args_8300)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Subscriber __arg_7958;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_7959 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7956, 0);
-                __arg_7958 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Subscriber>(__res_7959);
+                global::Iskra.StdWeb.Subscriber __arg_8302;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_8303 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_8300, 0);
+                __arg_8302 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Subscriber>(__res_8303);
 
-                input(__arg_7958);
+                input(__arg_8302);
             }
         };
 
-        return new global::Iskra.StdWeb.SubscribeCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_8304 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_8304, input);
+
+        return new global::Iskra.StdWeb.SubscribeCallback(__funcObj_8304);
     }
-    
-    public static implicit operator SubscribeCallbackManaged(SubscribeCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.SubscribeCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.SubscribeCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (subscriber) =>
+        {
+            int __argsArrayLength_8308 = 1;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_8305 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_8308);
+
+            // Argument 1
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_8309;
+            __marshalledValue_8309 = subscriber.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_8305.JSObject, 0, __marshalledValue_8309);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_8305.JSObject);
+        };
+        return true;
     }
 }
 

@@ -10,18 +10,18 @@ public partial class DeviceMotionEventAcceleration(global::System.Runtime.Intero
     {
         get
         {
-            double? __res_4409;
-            double? __res_4410 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_4410 is null)
+            double? __res_4636;
+            double? __res_4637 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_4637 is null)
             {
-                __res_4409 = null;
+                __res_4636 = null;
             }
             else
             {
-                double __notNullable_4411 = (double)__res_4410;
-                __res_4409 = __notNullable_4411;
+                double __notNullable_4638 = (double)__res_4637;
+                __res_4636 = __notNullable_4638;
             }
-            return __res_4409;
+            return __res_4636;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class DeviceMotionEventAcceleration(global::System.Runtime.Intero
     {
         get
         {
-            double? __res_4412;
-            double? __res_4413 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_4413 is null)
+            double? __res_4639;
+            double? __res_4640 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_4640 is null)
             {
-                __res_4412 = null;
+                __res_4639 = null;
             }
             else
             {
-                double __notNullable_4414 = (double)__res_4413;
-                __res_4412 = __notNullable_4414;
+                double __notNullable_4641 = (double)__res_4640;
+                __res_4639 = __notNullable_4641;
             }
-            return __res_4412;
+            return __res_4639;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class DeviceMotionEventAcceleration(global::System.Runtime.Intero
     {
         get
         {
-            double? __res_4415;
-            double? __res_4416 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_4416 is null)
+            double? __res_4642;
+            double? __res_4643 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_4643 is null)
             {
-                __res_4415 = null;
+                __res_4642 = null;
             }
             else
             {
-                double __notNullable_4417 = (double)__res_4416;
-                __res_4415 = __notNullable_4417;
+                double __notNullable_4644 = (double)__res_4643;
+                __res_4642 = __notNullable_4644;
             }
-            return __res_4415;
+            return __res_4642;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class ClipboardItem(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.PresentationStyle __res_2984;
-            string __res_2985 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "presentationStyle");
-            __res_2984 = global::Iskra.StdWeb.PresentationStyle.Create(__res_2985);
-            return __res_2984;
+            global::Iskra.StdWeb.PresentationStyle __res_3160;
+            string __res_3161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "presentationStyle");
+            __res_3160 = global::Iskra.StdWeb.PresentationStyle.Create(__res_3161);
+            return __res_3160;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class ClipboardItem(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_2986;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2987;
-            __propObject_2987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
-            __res_2986 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_2987);
-            return __res_2986;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3162;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3163;
+            __propObject_3163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
+            __res_3162 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3163);
+            return __res_3162;
         }
     }
 }

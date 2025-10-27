@@ -47,6 +47,7 @@ public class GenerateCommand : Command
 
             services
                 .AddSingleton<GeneratorContext>()
+                .AddSingleton<ArgumentsToArgsArrayGenerator>()
                 .AddSingleton<ArgumentsToDeclarationGenerator>()
                 .AddSingleton<AttributeMemberTypeGenerator>()
                 .AddSingleton<CallbackTypeGenerator>()

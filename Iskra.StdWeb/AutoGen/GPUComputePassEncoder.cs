@@ -10,16 +10,16 @@ public partial class GPUComputePassEncoder(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_1621;
-            string __res_1622 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1621 = __res_1622;
-            return __res_1621;
+            string __res_1633;
+            string __res_1634 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1633 = __res_1634;
+            return __res_1633;
         }
         set
         {
-            string __marshalledValue_1623;
-            __marshalledValue_1623 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1623);
+            string __marshalledValue_1635;
+            __marshalledValue_1635 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1635);
         }
     }
 }

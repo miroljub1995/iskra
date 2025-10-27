@@ -10,10 +10,10 @@ public partial class CSSPropertyRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_13235;
-            string __res_13236 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_13235 = __res_13236;
-            return __res_13235;
+            string __res_13726;
+            string __res_13727 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_13726 = __res_13727;
+            return __res_13726;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSPropertyRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_13237;
-            string __res_13238 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "syntax");
-            __res_13237 = __res_13238;
-            return __res_13237;
+            string __res_13728;
+            string __res_13729 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "syntax");
+            __res_13728 = __res_13729;
+            return __res_13728;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class CSSPropertyRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_13239;
-            bool __res_13240 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "inherits");
-            __res_13239 = __res_13240;
-            return __res_13239;
+            bool __res_13730;
+            bool __res_13731 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "inherits");
+            __res_13730 = __res_13731;
+            return __res_13730;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class CSSPropertyRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string? __res_13241;
-            string? __res_13242 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "initialValue");
-            if (__res_13242 is null)
+            string? __res_13732;
+            string? __res_13733 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "initialValue");
+            if (__res_13733 is null)
             {
-                __res_13241 = null;
+                __res_13732 = null;
             }
             else
             {
-                string __notNullable_13243 = (string)__res_13242;
-                __res_13241 = __notNullable_13243;
+                string __notNullable_13734 = (string)__res_13733;
+                __res_13732 = __notNullable_13734;
             }
-            return __res_13241;
+            return __res_13732;
         }
     }
 }

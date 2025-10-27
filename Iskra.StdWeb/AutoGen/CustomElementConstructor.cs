@@ -10,27 +10,55 @@ public partial class CustomElementConstructor(global::System.Runtime.InteropServ
 {
     public static implicit operator CustomElementConstructor(CustomElementConstructorManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_10908, __res_10910) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_11339, __res_11342) =>
         {
-            using (__args_10908)
-            using (__res_10910)
+            using (__args_11339)
+            using (__res_11342)
             {
 
 
-                global::Iskra.StdWeb.HTMLElement __managedRes_10911 = input();
+                global::Iskra.StdWeb.HTMLElement __managedRes_11343 = input();
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_10912;
-                __marshalledValue_10912 = __managedRes_10911.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_10910, "value", __marshalledValue_10912);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_11344;
+                __marshalledValue_11344 = __managedRes_11343.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_11342, "value", __marshalledValue_11344);
             }
         };
 
-        return new global::Iskra.StdWeb.CustomElementConstructor(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_11341 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_11341, input); 
+
+        return new global::Iskra.StdWeb.CustomElementConstructor(__funcObj_11341);
     }
-    
-    public static implicit operator CustomElementConstructorManaged(CustomElementConstructor input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.CustomElementConstructorManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.CustomElementConstructorManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = () =>
+        {
+
+
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_11346 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunction(JSObject, null, __resOwner_11346.JSObject);
+
+            // Return Value
+            global::Iskra.StdWeb.HTMLElement __res_11347;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_11346.JSObject, "value");
+            __res_11347 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLElement>(__res_11348);
+            return __res_11347;
+        };
+        return true;
     }
 }
 

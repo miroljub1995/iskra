@@ -10,11 +10,11 @@ public partial class BluetoothLEScan(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7774;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7775;
-            __propObject_7775 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filters");
-            __res_7774 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7775);
-            return __res_7774;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8118;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8119;
+            __propObject_8119 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filters");
+            __res_8118 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8119);
+            return __res_8118;
         }
     }
 
@@ -22,10 +22,10 @@ public partial class BluetoothLEScan(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_7776;
-            bool __res_7777 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "keepRepeatedDevices");
-            __res_7776 = __res_7777;
-            return __res_7776;
+            bool __res_8120;
+            bool __res_8121 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "keepRepeatedDevices");
+            __res_8120 = __res_8121;
+            return __res_8120;
         }
     }
 
@@ -33,10 +33,10 @@ public partial class BluetoothLEScan(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_7778;
-            bool __res_7779 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "acceptAllAdvertisements");
-            __res_7778 = __res_7779;
-            return __res_7778;
+            bool __res_8122;
+            bool __res_8123 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "acceptAllAdvertisements");
+            __res_8122 = __res_8123;
+            return __res_8122;
         }
     }
 
@@ -44,10 +44,10 @@ public partial class BluetoothLEScan(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool __res_7780;
-            bool __res_7781 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
-            __res_7780 = __res_7781;
-            return __res_7780;
+            bool __res_8124;
+            bool __res_8125 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
+            __res_8124 = __res_8125;
+            return __res_8124;
         }
     }
 }

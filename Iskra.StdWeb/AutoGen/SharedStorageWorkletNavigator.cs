@@ -10,10 +10,10 @@ public partial class SharedStorageWorkletNavigator(global::System.Runtime.Intero
     {
         get
         {
-            global::Iskra.StdWeb.LockManager __res_6934;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6935 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
-            __res_6934 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LockManager>(__res_6935);
-            return __res_6934;
+            global::Iskra.StdWeb.LockManager __res_7243;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7244 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
+            __res_7243 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LockManager>(__res_7244);
+            return __res_7243;
         }
     }
 }

@@ -10,18 +10,18 @@ public partial class FocusEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventTarget? __res_13764;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13765 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
-            if (__res_13765 is null)
+            global::Iskra.StdWeb.EventTarget? __res_14255;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14256 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
+            if (__res_14256 is null)
             {
-                __res_13764 = null;
+                __res_14255 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13766 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13765;
-                __res_13764 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_13766);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14257 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14256;
+                __res_14255 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_14257);
             }
-            return __res_13764;
+            return __res_14255;
         }
     }
 }

@@ -10,35 +10,71 @@ public partial class SchedulerPostTaskCallback(global::System.Runtime.InteropSer
 {
     public static implicit operator SchedulerPostTaskCallback(SchedulerPostTaskCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2078, __res_2080) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2186, __res_2189) =>
         {
-            using (__args_2078)
-            using (__res_2080)
+            using (__args_2186)
+            using (__res_2189)
             {
 
 
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __managedRes_2081 = input();
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __managedRes_2190 = input();
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2082;
-                if (__managedRes_2081 is null)
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2191;
+                if (__managedRes_2190 is null)
                 {
-                    __propObject_2082 = null;
+                    __propObject_2191 = null;
                 }
                 else
                 {
-                    __propObject_2082 = __managedRes_2081.JSObject;
+                    __propObject_2191 = __managedRes_2190.JSObject;
                 }
 
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__res_2080, "value", __propObject_2082);
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__res_2189, "value", __propObject_2191);
             }
         };
 
-        return new global::Iskra.StdWeb.SchedulerPostTaskCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_2188 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_2188, input); 
+
+        return new global::Iskra.StdWeb.SchedulerPostTaskCallback(__funcObj_2188);
     }
-    
-    public static implicit operator SchedulerPostTaskCallbackManaged(SchedulerPostTaskCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.SchedulerPostTaskCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.SchedulerPostTaskCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = () =>
+        {
+
+
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_2193 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunction(JSObject, null, __resOwner_2193.JSObject);
+
+            // Return Value
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2194;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2195;
+            __propObject_2195 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__resOwner_2193.JSObject, "value");
+            if (__propObject_2195 is null)
+            {
+                __res_2194 = null;
+            }
+            else
+            {
+                __res_2194 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2195);
+            }
+            return __res_2194;
+        };
+        return true;
     }
 }
 

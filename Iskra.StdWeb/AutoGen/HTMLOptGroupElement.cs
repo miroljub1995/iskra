@@ -10,16 +10,16 @@ public partial class HTMLOptGroupElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            bool __res_10407;
-            bool __res_10408 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_10407 = __res_10408;
-            return __res_10407;
+            bool __res_10831;
+            bool __res_10832 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_10831 = __res_10832;
+            return __res_10831;
         }
         set
         {
-            bool __marshalledValue_10409;
-            __marshalledValue_10409 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_10409);
+            bool __marshalledValue_10833;
+            __marshalledValue_10833 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_10833);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLOptGroupElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10410;
-            string __res_10411 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_10410 = __res_10411;
-            return __res_10410;
+            string __res_10834;
+            string __res_10835 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_10834 = __res_10835;
+            return __res_10834;
         }
         set
         {
-            string __marshalledValue_10412;
-            __marshalledValue_10412 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_10412);
+            string __marshalledValue_10836;
+            __marshalledValue_10836 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_10836);
         }
     }
 }

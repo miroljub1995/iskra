@@ -10,10 +10,10 @@ public partial class TextEncoderStream(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_2070;
-            string __res_2071 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
-            __res_2070 = __res_2071;
-            return __res_2070;
+            string __res_2178;
+            string __res_2179 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
+            __res_2178 = __res_2179;
+            return __res_2178;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TextEncoderStream(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.ReadableStream __res_2072;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2073 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            __res_2072 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_2073);
-            return __res_2072;
+            global::Iskra.StdWeb.ReadableStream __res_2180;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2181 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            __res_2180 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_2181);
+            return __res_2180;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class TextEncoderStream(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.WritableStream __res_2074;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2075 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            __res_2074 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_2075);
-            return __res_2074;
+            global::Iskra.StdWeb.WritableStream __res_2182;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2183 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            __res_2182 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_2183);
+            return __res_2182;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class TransformStream(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.ReadableStream __res_1913;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1914 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            __res_1913 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_1914);
-            return __res_1913;
+            global::Iskra.StdWeb.ReadableStream __res_1973;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1974 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            __res_1973 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_1974);
+            return __res_1973;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TransformStream(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.WritableStream __res_1915;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1916 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            __res_1915 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_1916);
-            return __res_1915;
+            global::Iskra.StdWeb.WritableStream __res_1975;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1976 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            __res_1975 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_1976);
+            return __res_1975;
         }
     }
 }

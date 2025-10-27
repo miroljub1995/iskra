@@ -10,10 +10,10 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_2952;
-            string __res_2953 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_2952 = __res_2953;
-            return __res_2952;
+            string __res_3128;
+            string __res_3129 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_3128 = __res_3129;
+            return __res_3128;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_2954;
-            string __res_2955 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
-            __res_2954 = __res_2955;
-            return __res_2954;
+            string __res_3130;
+            string __res_3131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
+            __res_3130 = __res_3131;
+            return __res_3130;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_2956;
-            string __res_2957 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
-            __res_2956 = __res_2957;
-            return __res_2956;
+            string __res_3132;
+            string __res_3133 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
+            __res_3132 = __res_3133;
+            return __res_3132;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_2958;
-            string __res_2959 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
-            __res_2958 = __res_2959;
-            return __res_2958;
+            string __res_3134;
+            string __res_3135 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
+            __res_3134 = __res_3135;
+            return __res_3134;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_2960;
-            string __res_2961 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
-            __res_2960 = __res_2961;
-            return __res_2960;
+            string __res_3136;
+            string __res_3137 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
+            __res_3136 = __res_3137;
+            return __res_3136;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_2962;
-            string __res_2963 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
-            __res_2962 = __res_2963;
-            return __res_2962;
+            string __res_3138;
+            string __res_3139 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
+            __res_3138 = __res_3139;
+            return __res_3138;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_2964;
-            string __res_2965 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
-            __res_2964 = __res_2965;
-            return __res_2964;
+            string __res_3140;
+            string __res_3141 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
+            __res_3140 = __res_3141;
+            return __res_3140;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_2966;
-            string __res_2967 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
-            __res_2966 = __res_2967;
-            return __res_2966;
+            string __res_3142;
+            string __res_3143 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
+            __res_3142 = __res_3143;
+            return __res_3142;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_2968;
-            bool __res_2969 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasRegExpGroups");
-            __res_2968 = __res_2969;
-            return __res_2968;
+            bool __res_3144;
+            bool __res_3145 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasRegExpGroups");
+            __res_3144 = __res_3145;
+            return __res_3144;
         }
     }
 }

@@ -10,31 +10,62 @@ public partial class IntersectionObserverCallback(global::System.Runtime.Interop
 {
     public static implicit operator IntersectionObserverCallback(IntersectionObserverCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4136) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4356) =>
         {
-            using (__args_4136)
+            using (__args_4356)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IntersectionObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_4138;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4139;
-                __propObject_4139 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4136, 0);
-                __arg_4138 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IntersectionObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_4139);
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IntersectionObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_4358;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4359;
+                __propObject_4359 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4356, 0);
+                __arg_4358 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IntersectionObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_4359);
 
                 // Argument 2
-                global::Iskra.StdWeb.IntersectionObserver __arg_4140;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4141 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4136, 1);
-                __arg_4140 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IntersectionObserver>(__res_4141);
+                global::Iskra.StdWeb.IntersectionObserver __arg_4360;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4361 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4356, 1);
+                __arg_4360 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IntersectionObserver>(__res_4361);
 
-                input(__arg_4138, __arg_4140);
+                input(__arg_4358, __arg_4360);
             }
         };
 
-        return new global::Iskra.StdWeb.IntersectionObserverCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_4362 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_4362, input);
+
+        return new global::Iskra.StdWeb.IntersectionObserverCallback(__funcObj_4362);
     }
-    
-    public static implicit operator IntersectionObserverCallbackManaged(IntersectionObserverCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.IntersectionObserverCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.IntersectionObserverCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (entries, observer) =>
+        {
+            int __argsArrayLength_4366 = 2;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_4363 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_4366);
+
+            // Argument 1
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4367 = entries.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_4363.JSObject, 0, __propObject_4367);
+
+            // Argument 2
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_4368;
+            __marshalledValue_4368 = observer.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_4363.JSObject, 1, __marshalledValue_4368);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_4363.JSObject);
+        };
+        return true;
     }
 }
 

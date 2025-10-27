@@ -10,10 +10,10 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_1656;
-            string __res_1657 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "topOrigin");
-            __res_1656 = __res_1657;
-            return __res_1656;
+            string __res_1668;
+            string __res_1669 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "topOrigin");
+            __res_1668 = __res_1669;
+            return __res_1668;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_1658;
-            string __res_1659 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "paymentRequestOrigin");
-            __res_1658 = __res_1659;
-            return __res_1658;
+            string __res_1670;
+            string __res_1671 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "paymentRequestOrigin");
+            __res_1670 = __res_1671;
+            return __res_1670;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_1660;
-            string __res_1661 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "paymentRequestId");
-            __res_1660 = __res_1661;
-            return __res_1660;
+            string __res_1672;
+            string __res_1673 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "paymentRequestId");
+            __res_1672 = __res_1673;
+            return __res_1672;
         }
     }
 
@@ -43,11 +43,11 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_1662;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1663;
-            __propObject_1663 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "methodData");
-            __res_1662 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1663);
-            return __res_1662;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_1674;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1675;
+            __propObject_1675 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "methodData");
+            __res_1674 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1675);
+            return __res_1674;
         }
     }
 
@@ -55,10 +55,10 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1664;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1665 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "total");
-            __res_1664 = __res_1665;
-            return __res_1664;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1676;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1677 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "total");
+            __res_1676 = __res_1677;
+            return __res_1676;
         }
     }
 
@@ -66,11 +66,11 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_1666;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1667;
-            __propObject_1667 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "modifiers");
-            __res_1666 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1667);
-            return __res_1666;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_1678;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1679;
+            __propObject_1679 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "modifiers");
+            __res_1678 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1679);
+            return __res_1678;
         }
     }
 
@@ -78,18 +78,18 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1668;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1669 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "paymentOptions");
-            if (__res_1669 is null)
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1680;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1681 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "paymentOptions");
+            if (__res_1681 is null)
             {
-                __res_1668 = null;
+                __res_1680 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1670 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1669;
-                __res_1668 = __notNullable_1670;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1682 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1681;
+                __res_1680 = __notNullable_1682;
             }
-            return __res_1668;
+            return __res_1680;
         }
     }
 
@@ -97,18 +97,18 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_1671;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1672;
-            __propObject_1672 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingOptions");
-            if (__propObject_1672 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_1683;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1684;
+            __propObject_1684 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingOptions");
+            if (__propObject_1684 is null)
             {
-                __res_1671 = null;
+                __res_1683 = null;
             }
             else
             {
-                __res_1671 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1672);
+                __res_1683 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1684);
             }
-            return __res_1671;
+            return __res_1683;
         }
     }
 }

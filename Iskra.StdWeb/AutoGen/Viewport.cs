@@ -10,18 +10,18 @@ public partial class Viewport(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_13905;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_13906;
-            __propObject_13906 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "segments");
-            if (__propObject_13906 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_14396;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14397;
+            __propObject_14397 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "segments");
+            if (__propObject_14397 is null)
             {
-                __res_13905 = null;
+                __res_14396 = null;
             }
             else
             {
-                __res_13905 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13906);
+                __res_14396 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_14397);
             }
-            return __res_13905;
+            return __res_14396;
         }
     }
 }

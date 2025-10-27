@@ -10,32 +10,32 @@ public partial class PortalHost(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6437;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6438 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
-            if (__res_6438 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6706;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6707 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
+            if (__res_6707 is null)
             {
-                __res_6437 = null;
+                __res_6706 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6439 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6438;
-                __res_6437 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6439);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6708 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6707;
+                __res_6706 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6708);
             }
-            return __res_6437;
+            return __res_6706;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6440;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6709;
             if (value is null)
             {
-                __marshalledValue_6440 = null;
+                __marshalledValue_6709 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6441 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6440 = __notNullable_6441.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6710 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6709 = __notNullable_6710.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage", __marshalledValue_6440);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage", __marshalledValue_6709);
         }
     }
 
@@ -43,32 +43,32 @@ public partial class PortalHost(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6442;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6443 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror");
-            if (__res_6443 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_6711;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6712 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror");
+            if (__res_6712 is null)
             {
-                __res_6442 = null;
+                __res_6711 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6444 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6443;
-                __res_6442 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6444);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6713 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6712;
+                __res_6711 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6713);
             }
-            return __res_6442;
+            return __res_6711;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6445;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6714;
             if (value is null)
             {
-                __marshalledValue_6445 = null;
+                __marshalledValue_6714 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6446 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6445 = __notNullable_6446.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6715 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_6714 = __notNullable_6715.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror", __marshalledValue_6445);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessageerror", __marshalledValue_6714);
         }
     }
 }

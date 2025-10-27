@@ -10,16 +10,16 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            ulong __res_10809;
-            double __res_10810 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_10809 = Convert.ToUInt64(__res_10810);
-            return __res_10809;
+            ulong __res_11240;
+            double __res_11241 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_11240 = Convert.ToUInt64(__res_11241);
+            return __res_11240;
         }
         set
         {
-            double __marshalledValue_10811;
-            __marshalledValue_10811 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_10811);
+            double __marshalledValue_11242;
+            __marshalledValue_11242 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_11242);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            ulong __res_10812;
-            double __res_10813 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_10812 = Convert.ToUInt64(__res_10813);
-            return __res_10812;
+            ulong __res_11243;
+            double __res_11244 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_11243 = Convert.ToUInt64(__res_11244);
+            return __res_11243;
         }
         set
         {
-            double __marshalledValue_10814;
-            __marshalledValue_10814 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_10814);
+            double __marshalledValue_11245;
+            __marshalledValue_11245 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_11245);
         }
     }
 
@@ -44,32 +44,32 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_10815;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10816 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost");
-            if (__res_10816 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_11246;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_11247 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost");
+            if (__res_11247 is null)
             {
-                __res_10815 = null;
+                __res_11246 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10817 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10816;
-                __res_10815 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_10817);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_11248 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_11247;
+                __res_11246 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_11248);
             }
-            return __res_10815;
+            return __res_11246;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10818;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_11249;
             if (value is null)
             {
-                __marshalledValue_10818 = null;
+                __marshalledValue_11249 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_10819 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_10818 = __notNullable_10819.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_11250 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_11249 = __notNullable_11250.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost", __marshalledValue_10818);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost", __marshalledValue_11249);
         }
     }
 
@@ -77,32 +77,32 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_10820;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10821 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored");
-            if (__res_10821 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_11251;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_11252 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored");
+            if (__res_11252 is null)
             {
-                __res_10820 = null;
+                __res_11251 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10822 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10821;
-                __res_10820 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_10822);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_11253 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_11252;
+                __res_11251 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_11253);
             }
-            return __res_10820;
+            return __res_11251;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10823;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_11254;
             if (value is null)
             {
-                __marshalledValue_10823 = null;
+                __marshalledValue_11254 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_10824 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_10823 = __notNullable_10824.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_11255 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_11254 = __notNullable_11255.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored", __marshalledValue_10823);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored", __marshalledValue_11254);
         }
     }
 }

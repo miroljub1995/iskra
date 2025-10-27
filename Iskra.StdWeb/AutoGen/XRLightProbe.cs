@@ -10,10 +10,10 @@ public partial class XRLightProbe(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.XRSpace __res_1823;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1824 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "probeSpace");
-            __res_1823 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_1824);
-            return __res_1823;
+            global::Iskra.StdWeb.XRSpace __res_1835;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1836 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "probeSpace");
+            __res_1835 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_1836);
+            return __res_1835;
         }
     }
 
@@ -21,32 +21,32 @@ public partial class XRLightProbe(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_1825;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1826 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange");
-            if (__res_1826 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_1837;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1838 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange");
+            if (__res_1838 is null)
             {
-                __res_1825 = null;
+                __res_1837 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1827 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1826;
-                __res_1825 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_1827);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1839 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1838;
+                __res_1837 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_1839);
             }
-            return __res_1825;
+            return __res_1837;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_1828;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_1840;
             if (value is null)
             {
-                __marshalledValue_1828 = null;
+                __marshalledValue_1840 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_1829 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_1828 = __notNullable_1829.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_1841 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_1840 = __notNullable_1841.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange", __marshalledValue_1828);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreflectionchange", __marshalledValue_1840);
         }
     }
 }

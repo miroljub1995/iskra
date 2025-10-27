@@ -10,16 +10,16 @@ public partial class CSSKeyframeRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_4612;
-            string __res_4613 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
-            __res_4612 = __res_4613;
-            return __res_4612;
+            string __res_4847;
+            string __res_4848 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
+            __res_4847 = __res_4848;
+            return __res_4847;
         }
         set
         {
-            string __marshalledValue_4614;
-            __marshalledValue_4614 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_4614);
+            string __marshalledValue_4849;
+            __marshalledValue_4849 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_4849);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSKeyframeRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleProperties __res_4615;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4616 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_4615 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_4616);
-            return __res_4615;
+            global::Iskra.StdWeb.CSSStyleProperties __res_4850;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4851 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_4850 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_4851);
+            return __res_4850;
         }
     }
 }

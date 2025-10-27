@@ -183,6 +183,20 @@ public static partial class JSCoreShims
                                              ResObjectPool.instance.release(resObj);
                                          }
                                      };
+
+                                     const managedFunctionPropertySymbol = Symbol();
+                                     export const storeManagedFunctionToProperty = (func, ref) => func[managedFunctionPropertySymbol] = ref;
+                                     export const getManagedFunctionFromProperty = (func) => func[managedFunctionPropertySymbol];
+
+                                     const emptyArray = [];
+                                     export const callEmptyVoidFunction = (f, thisArg) => Reflect.apply(f, thisArg, emptyArray);
+                                     export const callEmptyVoidFunctionProperty = (obj, propertyNameOrIndex, thisArg) => Reflect.apply(obj[propertyNameOrIndex], thisArg, emptyArray);
+                                     export const callEmptyNonVoidFunction = (f, thisArg, res) => res.value = Reflect.apply(f, thisArg, emptyArray);
+                                     export const callEmptyNonVoidFunctionProperty = (obj, propertyNameOrIndex, thisArg, res) => res.value = Reflect.apply(obj[propertyNameOrIndex], thisArg, emptyArray);
+                                     export const callNonEmptyVoidFunction = (f, thisArg, args) => Reflect.apply(f, thisArg, args);
+                                     export const callNonEmptyVoidFunctionProperty = (obj, propertyNameOrIndex, thisArg, args) => Reflect.apply(obj[propertyNameOrIndex], thisArg, args);
+                                     export const callNonEmptyNonVoidFunction = (f, thisArg, args, res) => res.value = Reflect.apply(f, thisArg, args);
+                                     export const callNonEmptyNonVoidFunctionProperty = (obj, propertyNameOrIndex, args, thisArg, res) => res.value = Reflect.apply(obj[propertyNameOrIndex], thisArg, args);
                                      """;
 
         var encoded = Uri.EscapeDataString(moduleContent);

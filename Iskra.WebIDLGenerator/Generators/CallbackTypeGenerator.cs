@@ -37,10 +37,10 @@ public class CallbackTypeGenerator(
                             {
                         {{GetConvertToJS(input).IndentLines(8)}}
                             }
-                            
-                            public static implicit operator {{input.Name}}Managed({{input.Name}} input)
+
+                            public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::{{genSettings.Namespace}}.{{input.Name}}Managed? managed, bool allowConversion = false)
                             {
-                                throw new NotImplementedException();
+                        {{GetTryGetManaged(input).IndentLines(8)}}
                             }
                         }
 
@@ -124,6 +124,8 @@ public class CallbackTypeGenerator(
         var argStatementsStr = string.Join("\n\n", argStatements);
         var managedArgsList = string.Join(", ", managedArgVars);
 
+        var funcObjVar = generatorContext.GetNextVariableName("funcObj");
+
         if (input.IdlType is SingleTypeDescription { IdlType: BuiltinTypes.Undefined })
         {
             return $$"""
@@ -137,7 +139,10 @@ public class CallbackTypeGenerator(
                          }
                      };
 
-                     return new global::{{genSettings.Namespace}}.{{input.Name}}(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+                     global::System.Runtime.InteropServices.JavaScript.JSObject {{funcObjVar}} = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+                     global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty({{funcObjVar}}, input);
+
+                     return new global::{{genSettings.Namespace}}.{{input.Name}}({{funcObjVar}});
                      """;
         }
         else
@@ -167,8 +172,111 @@ public class CallbackTypeGenerator(
                          }
                      };
 
-                     return new global::{{genSettings.Namespace}}.{{input.Name}}(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
+                     global::System.Runtime.InteropServices.JavaScript.JSObject {{funcObjVar}} = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+                     global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty({{funcObjVar}}, input); 
+
+                     return new global::{{genSettings.Namespace}}.{{input.Name}}({{funcObjVar}});
                      """;
         }
+    }
+
+    private string GetTryGetManaged(CallbackType input)
+    {
+        var argsArrayGenerator = provider.GetRequiredService<ArgumentsToArgsArrayGenerator>();
+        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+        var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
+
+        var argsArrayVar = generatorContext.GetNextVariableName("argsArray");
+        var resOwnerVar = generatorContext.GetNextVariableName("resOwner");
+        var resVar = generatorContext.GetNextVariableName("res");
+
+        var isEmpty = input.Arguments.Count == 0;
+        var isVoid = input.IdlType is SingleTypeDescription { IdlType: BuiltinTypes.Undefined };
+
+        var argVars = input.Arguments
+            .Select(x => x.ValidCSharpName)
+            .ToList();
+
+        List<string> managedStatements =
+        [
+            argsArrayGenerator.Generate(
+                args: input.Arguments,
+                argVars: argVars,
+                argsArrayVar: argsArrayVar
+            )
+        ];
+
+        if (!isVoid)
+        {
+            managedStatements.Add(
+                $"using global::Iskra.JSCore.FunctionResPool.Owner {resOwnerVar} = global::Iskra.JSCore.FunctionResPool.Shared.Rent();");
+        }
+
+        if (isEmpty)
+        {
+            if (isVoid)
+            {
+                managedStatements.Add(
+                    "global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunction(JSObject, null);");
+            }
+            else
+            {
+                managedStatements.Add(
+                    $"global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunction(JSObject, null, {resOwnerVar}.JSObject);");
+            }
+        }
+        else
+        {
+            if (isVoid)
+            {
+                managedStatements.Add(
+                    $"global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, {argsArrayVar}.JSObject);");
+            }
+            else
+            {
+                managedStatements.Add(
+                    $"global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, {argsArrayVar}.JSObject, {resOwnerVar}.JSObject);");
+            }
+        }
+
+        if (!isVoid)
+        {
+            var returnType = toTypeDeclarationGenerator.Generate(input.IdlType);
+
+            var getResValueStatements = getPropertyValueGenerator.Generate(
+                inputVar: $"{resOwnerVar}.JSObject",
+                type: input.IdlType,
+                propertyNameVar: "\"value\"",
+                outputVar: resVar
+            );
+
+            managedStatements.Add(
+                $$"""
+                  // Return Value
+                  {{returnType}} {{resVar}};
+                  {{getResValueStatements}}
+                  return {{resVar}};
+                  """
+            );
+        }
+
+        return $$"""
+                 managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::{{genSettings.Namespace}}.{{input.Name}}Managed;
+                 if (managed is not null)
+                 {
+                     return true;
+                 }
+
+                 if (!allowConversion)
+                 {
+                     return false;
+                 }
+
+                 managed = ({{string.Join(", ", argVars)}}) =>
+                 {
+                 {{string.Join("\n\n", managedStatements).IndentLines(4)}}
+                 };
+                 return true;
+                 """;
     }
 }

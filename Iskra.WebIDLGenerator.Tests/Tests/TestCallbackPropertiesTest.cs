@@ -82,4 +82,47 @@ public class TestCallbackPropertiesTest() : BaseTest<TestCallbackProperties>("te
         await Assert.That(receivedB).IsEqualTo(20);
         await Assert.That(result).IsEqualTo(30);
     }
+
+    [Test]
+    public async Task TestTryGetManagedAfterSet()
+    {
+        var sut = GetSut();
+
+        int NonVoidCallback(int a, int b)
+        {
+            return a + b;
+        }
+
+        sut.NonVoidCallback = (TestCallbackPropertiesNonVoidCallback)NonVoidCallback;
+        var success = sut.NonVoidCallback.TryGetManaged(out var callback);
+
+        await Assert.That(success).IsTrue();
+        await Assert.That(callback).IsNotNull();
+        await Assert.That(callback).IsEqualTo(NonVoidCallback);
+    }
+
+    [Test]
+    public async Task TestTryGetManaged()
+    {
+        var sut = GetSut();
+
+        var success = sut.NonVoidCallback.TryGetManaged(out var callback);
+
+        await Assert.That(success).IsFalse();
+        await Assert.That(callback).IsNull();
+    }
+
+    [Test]
+    public async Task TestTryGetManagedConversion()
+    {
+        var sut = GetSut();
+
+        var success = sut.NonVoidCallback.TryGetManaged(out var callback, true);
+
+        await Assert.That(success).IsTrue();
+        await Assert.That(callback).IsNotNull();
+
+        var res = callback?.Invoke(1, 2);
+        await Assert.That(res).IsEqualTo(7);
+    }
 }

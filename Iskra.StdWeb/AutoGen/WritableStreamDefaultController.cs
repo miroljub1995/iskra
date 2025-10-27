@@ -10,10 +10,10 @@ public partial class WritableStreamDefaultController(global::System.Runtime.Inte
     {
         get
         {
-            global::Iskra.StdWeb.AbortSignal __res_1911;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1912 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
-            __res_1911 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_1912);
-            return __res_1911;
+            global::Iskra.StdWeb.AbortSignal __res_1971;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1972 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            __res_1971 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_1972);
+            return __res_1971;
         }
     }
 }

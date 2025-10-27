@@ -10,10 +10,10 @@ public partial class SFrameTransformErrorEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.SFrameTransformErrorEventType __res_2022;
-            string __res_2023 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorType");
-            __res_2022 = global::Iskra.StdWeb.SFrameTransformErrorEventType.Create(__res_2023);
-            return __res_2022;
+            global::Iskra.StdWeb.SFrameTransformErrorEventType __res_2130;
+            string __res_2131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorType");
+            __res_2130 = global::Iskra.StdWeb.SFrameTransformErrorEventType.Create(__res_2131);
+            return __res_2130;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class SFrameTransformErrorEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<ulong, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2024;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2025;
-            __propObject_2025 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "keyID");
-            if (__propObject_2025 is null)
+            global::Iskra.JSCore.Generics.Union<ulong, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2132;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2133;
+            __propObject_2133 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "keyID");
+            if (__propObject_2133 is null)
             {
-                __res_2024 = null;
+                __res_2132 = null;
             }
             else
             {
-                __res_2024 = new global::Iskra.JSCore.Generics.Union<ulong, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2025);
+                __res_2132 = new global::Iskra.JSCore.Generics.Union<ulong, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2133);
             }
-            return __res_2024;
+            return __res_2132;
         }
     }
 
@@ -40,18 +40,18 @@ public partial class SFrameTransformErrorEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2026;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2027;
-            __propObject_2027 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "frame");
-            if (__propObject_2027 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2134;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2135;
+            __propObject_2135 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "frame");
+            if (__propObject_2135 is null)
             {
-                __res_2026 = null;
+                __res_2134 = null;
             }
             else
             {
-                __res_2026 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2027);
+                __res_2134 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2135);
             }
-            return __res_2026;
+            return __res_2134;
         }
     }
 }

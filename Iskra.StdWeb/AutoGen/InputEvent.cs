@@ -10,18 +10,18 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.DataTransfer? __res_13818;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13819 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "dataTransfer");
-            if (__res_13819 is null)
+            global::Iskra.StdWeb.DataTransfer? __res_14309;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14310 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "dataTransfer");
+            if (__res_14310 is null)
             {
-                __res_13818 = null;
+                __res_14309 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13820 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13819;
-                __res_13818 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransfer>(__notNullable_13820);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14311 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14310;
+                __res_14309 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransfer>(__notNullable_14311);
             }
-            return __res_13818;
+            return __res_14309;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string? __res_13821;
-            string? __res_13822 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "data");
-            if (__res_13822 is null)
+            string? __res_14312;
+            string? __res_14313 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "data");
+            if (__res_14313 is null)
             {
-                __res_13821 = null;
+                __res_14312 = null;
             }
             else
             {
-                string __notNullable_13823 = (string)__res_13822;
-                __res_13821 = __notNullable_13823;
+                string __notNullable_14314 = (string)__res_14313;
+                __res_14312 = __notNullable_14314;
             }
-            return __res_13821;
+            return __res_14312;
         }
     }
 
@@ -48,10 +48,10 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_13824;
-            bool __res_13825 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
-            __res_13824 = __res_13825;
-            return __res_13824;
+            bool __res_14315;
+            bool __res_14316 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
+            __res_14315 = __res_14316;
+            return __res_14315;
         }
     }
 
@@ -59,10 +59,10 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_13826;
-            string __res_13827 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inputType");
-            __res_13826 = __res_13827;
-            return __res_13826;
+            string __res_14317;
+            string __res_14318 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inputType");
+            __res_14317 = __res_14318;
+            return __res_14317;
         }
     }
 }

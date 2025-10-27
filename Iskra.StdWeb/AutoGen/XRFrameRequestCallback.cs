@@ -10,30 +10,62 @@ public partial class XRFrameRequestCallback(global::System.Runtime.InteropServic
 {
     public static implicit operator XRFrameRequestCallback(XRFrameRequestCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7045) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7354) =>
         {
-            using (__args_7045)
+            using (__args_7354)
             {
                 // Argument 1
-                double __arg_7047;
-                double __res_7048 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_7045, 0);
-                __arg_7047 = __res_7048;
+                double __arg_7356;
+                double __res_7357 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_7354, 0);
+                __arg_7356 = __res_7357;
 
                 // Argument 2
-                global::Iskra.StdWeb.XRFrame __arg_7049;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_7050 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7045, 1);
-                __arg_7049 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(__res_7050);
+                global::Iskra.StdWeb.XRFrame __arg_7358;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_7359 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7354, 1);
+                __arg_7358 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(__res_7359);
 
-                input(__arg_7047, __arg_7049);
+                input(__arg_7356, __arg_7358);
             }
         };
 
-        return new global::Iskra.StdWeb.XRFrameRequestCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_7360 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_7360, input);
+
+        return new global::Iskra.StdWeb.XRFrameRequestCallback(__funcObj_7360);
     }
-    
-    public static implicit operator XRFrameRequestCallbackManaged(XRFrameRequestCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.XRFrameRequestCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.XRFrameRequestCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (time, frame) =>
+        {
+            int __argsArrayLength_7364 = 2;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_7361 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_7364);
+
+            // Argument 1
+            double __marshalledValue_7365;
+            __marshalledValue_7365 = time;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_7361.JSObject, 0, __marshalledValue_7365);
+
+            // Argument 2
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_7366;
+            __marshalledValue_7366 = frame.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_7361.JSObject, 1, __marshalledValue_7366);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_7361.JSObject);
+        };
+        return true;
     }
 }
 

@@ -10,10 +10,10 @@ public partial class BackgroundFetchRecord(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.Request __res_6091;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6092 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
-            __res_6091 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Request>(__res_6092);
-            return __res_6091;
+            global::Iskra.StdWeb.Request __res_6340;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6341 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            __res_6340 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Request>(__res_6341);
+            return __res_6340;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class BackgroundFetchRecord(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Response, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_6093;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6094;
-            __propObject_6094 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "responseReady");
-            __res_6093 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Response, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_6094);
-            return __res_6093;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Response, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_6342;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6343;
+            __propObject_6343 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "responseReady");
+            __res_6342 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Response, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_6343);
+            return __res_6342;
         }
     }
 }

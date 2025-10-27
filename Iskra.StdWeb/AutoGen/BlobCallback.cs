@@ -10,33 +10,68 @@ public partial class BlobCallback(global::System.Runtime.InteropServices.JavaScr
 {
     public static implicit operator BlobCallback(BlobCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_10695) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_11119) =>
         {
-            using (__args_10695)
+            using (__args_11119)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Blob? __arg_10697;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10698 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(__args_10695, 0);
-                if (__res_10698 is null)
+                global::Iskra.StdWeb.Blob? __arg_11121;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __res_11122 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(__args_11119, 0);
+                if (__res_11122 is null)
                 {
-                    __arg_10697 = null;
+                    __arg_11121 = null;
                 }
                 else
                 {
-                    global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10699 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10698;
-                    __arg_10697 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Blob>(__notNullable_10699);
+                    global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_11123 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_11122;
+                    __arg_11121 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Blob>(__notNullable_11123);
                 }
 
-                input(__arg_10697);
+                input(__arg_11121);
             }
         };
 
-        return new global::Iskra.StdWeb.BlobCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_11124 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_11124, input);
+
+        return new global::Iskra.StdWeb.BlobCallback(__funcObj_11124);
     }
-    
-    public static implicit operator BlobCallbackManaged(BlobCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.BlobCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.BlobCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (blob) =>
+        {
+            int __argsArrayLength_11128 = 1;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_11125 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_11128);
+
+            // Argument 1
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_11129;
+            if (blob is null)
+            {
+                __marshalledValue_11129 = null;
+            }
+            else
+            {
+                global::Iskra.StdWeb.Blob __notNullable_11130 = (global::Iskra.StdWeb.Blob)blob;
+                __marshalledValue_11129 = __notNullable_11130.JSObject;
+            }
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_11125.JSObject, 0, __marshalledValue_11129);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_11125.JSObject);
+        };
+        return true;
     }
 }
 

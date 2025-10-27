@@ -10,30 +10,62 @@ public partial class VideoFrameRequestCallback(global::System.Runtime.InteropSer
 {
     public static implicit operator VideoFrameRequestCallback(VideoFrameRequestCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6673) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6950) =>
         {
-            using (__args_6673)
+            using (__args_6950)
             {
                 // Argument 1
-                double __arg_6675;
-                double __res_6676 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_6673, 0);
-                __arg_6675 = __res_6676;
+                double __arg_6952;
+                double __res_6953 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_6950, 0);
+                __arg_6952 = __res_6953;
 
                 // Argument 2
-                global::Iskra.StdWeb.VideoFrameCallbackMetadata __arg_6677;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6678 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6673, 1);
-                __arg_6677 = new global::Iskra.StdWeb.VideoFrameCallbackMetadata(__res_6678);
+                global::Iskra.StdWeb.VideoFrameCallbackMetadata __arg_6954;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6955 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6950, 1);
+                __arg_6954 = new global::Iskra.StdWeb.VideoFrameCallbackMetadata(__res_6955);
 
-                input(__arg_6675, __arg_6677);
+                input(__arg_6952, __arg_6954);
             }
         };
 
-        return new global::Iskra.StdWeb.VideoFrameRequestCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_6956 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_6956, input);
+
+        return new global::Iskra.StdWeb.VideoFrameRequestCallback(__funcObj_6956);
     }
-    
-    public static implicit operator VideoFrameRequestCallbackManaged(VideoFrameRequestCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.VideoFrameRequestCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.VideoFrameRequestCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (now, metadata) =>
+        {
+            int __argsArrayLength_6960 = 2;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6957 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_6960);
+
+            // Argument 1
+            double __marshalledValue_6961;
+            __marshalledValue_6961 = now;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_6957.JSObject, 0, __marshalledValue_6961);
+
+            // Argument 2
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_6962;
+            __marshalledValue_6962 = metadata.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_6957.JSObject, 1, __marshalledValue_6962);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_6957.JSObject);
+        };
+        return true;
     }
 }
 

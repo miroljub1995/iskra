@@ -10,25 +10,52 @@ public partial class RemotePlaybackAvailabilityCallback(global::System.Runtime.I
 {
     public static implicit operator RemotePlaybackAvailabilityCallback(RemotePlaybackAvailabilityCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_8167) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_8568) =>
         {
-            using (__args_8167)
+            using (__args_8568)
             {
                 // Argument 1
-                bool __arg_8169;
-                bool __res_8170 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(__args_8167, 0);
-                __arg_8169 = __res_8170;
+                bool __arg_8570;
+                bool __res_8571 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(__args_8568, 0);
+                __arg_8570 = __res_8571;
 
-                input(__arg_8169);
+                input(__arg_8570);
             }
         };
 
-        return new global::Iskra.StdWeb.RemotePlaybackAvailabilityCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_8572 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_8572, input);
+
+        return new global::Iskra.StdWeb.RemotePlaybackAvailabilityCallback(__funcObj_8572);
     }
-    
-    public static implicit operator RemotePlaybackAvailabilityCallbackManaged(RemotePlaybackAvailabilityCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.RemotePlaybackAvailabilityCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.RemotePlaybackAvailabilityCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (available) =>
+        {
+            int __argsArrayLength_8576 = 1;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_8573 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_8576);
+
+            // Argument 1
+            bool __marshalledValue_8577;
+            __marshalledValue_8577 = available;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_8573.JSObject, 0, __marshalledValue_8577);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_8573.JSObject);
+        };
+        return true;
     }
 }
 

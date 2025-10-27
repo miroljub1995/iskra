@@ -10,10 +10,10 @@ public partial class HIDInputReportEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.HIDDevice __res_2786;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2787 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            __res_2786 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HIDDevice>(__res_2787);
-            return __res_2786;
+            global::Iskra.StdWeb.HIDDevice __res_2962;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2963 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            __res_2962 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HIDDevice>(__res_2963);
+            return __res_2962;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class HIDInputReportEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            byte __res_2788;
-            double __res_2789 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "reportId");
-            __res_2788 = Convert.ToByte(__res_2789);
-            return __res_2788;
+            byte __res_2964;
+            double __res_2965 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "reportId");
+            __res_2964 = Convert.ToByte(__res_2965);
+            return __res_2964;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class HIDInputReportEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.DataView __res_2790;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2791 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_2790 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__res_2791);
-            return __res_2790;
+            global::Iskra.JSCore.DataView __res_2966;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2967 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_2966 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__res_2967);
+            return __res_2966;
         }
     }
 }

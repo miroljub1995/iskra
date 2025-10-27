@@ -10,11 +10,11 @@ public partial class PresentationReceiver(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_3706;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3707;
-            __propObject_3707 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connectionList");
-            __res_3706 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_3707);
-            return __res_3706;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_3894;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3895;
+            __propObject_3895 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connectionList");
+            __res_3894 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_3895);
+            return __res_3894;
         }
     }
 }

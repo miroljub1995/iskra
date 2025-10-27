@@ -10,18 +10,18 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_6469;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6470;
-            __propObject_6470 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
-            if (__propObject_6470 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_6738;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6739;
+            __propObject_6739 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
+            if (__propObject_6739 is null)
             {
-                __res_6469 = null;
+                __res_6738 = null;
             }
             else
             {
-                __res_6469 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6470);
+                __res_6738 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6739);
             }
-            return __res_6469;
+            return __res_6738;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            double __res_6471;
-            double __res_6472 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_6471 = __res_6472;
-            return __res_6471;
+            double __res_6740;
+            double __res_6741 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_6740 = __res_6741;
+            return __res_6740;
         }
     }
 }

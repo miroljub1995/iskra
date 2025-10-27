@@ -12,11 +12,14 @@ public partial class ArgsArrayPool
 
     public Owner Rent(int length)
     {
-        var argsArrayObj = _pool.TryDequeue(out var obj) ? obj : CreateArgsArray();
+        if (!_pool.TryDequeue(out var obj))
+        {
+            obj = CreateArgsArray();
+        }
 
-        argsArrayObj.SetPropertyAsDoubleV2("length", length);
+        obj.SetPropertyAsDoubleV2("length", length);
 
-        return new Owner(argsArrayObj, this);
+        return new Owner(obj, this);
     }
 
     private void Return(Owner owner)

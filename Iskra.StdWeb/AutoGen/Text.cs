@@ -10,10 +10,10 @@ public partial class Text(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_5993;
-            string __res_5994 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wholeText");
-            __res_5993 = __res_5994;
-            return __res_5993;
+            string __res_6235;
+            string __res_6236 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wholeText");
+            __res_6235 = __res_6236;
+            return __res_6235;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class Text(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            global::Iskra.StdWeb.HTMLSlotElement? __res_5995;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5996 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "assignedSlot");
-            if (__res_5996 is null)
+            global::Iskra.StdWeb.HTMLSlotElement? __res_6237;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6238 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "assignedSlot");
+            if (__res_6238 is null)
             {
-                __res_5995 = null;
+                __res_6237 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5997 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5996;
-                __res_5995 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLSlotElement>(__notNullable_5997);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6239 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6238;
+                __res_6237 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLSlotElement>(__notNullable_6239);
             }
-            return __res_5995;
+            return __res_6237;
         }
     }
 }

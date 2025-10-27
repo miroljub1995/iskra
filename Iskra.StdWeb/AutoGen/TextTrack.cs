@@ -10,10 +10,10 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.TextTrackKind __res_9825;
-            string __res_9826 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_9825 = global::Iskra.StdWeb.TextTrackKind.Create(__res_9826);
-            return __res_9825;
+            global::Iskra.StdWeb.TextTrackKind __res_10249;
+            string __res_10250 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_10249 = global::Iskra.StdWeb.TextTrackKind.Create(__res_10250);
+            return __res_10249;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_9827;
-            string __res_9828 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_9827 = __res_9828;
-            return __res_9827;
+            string __res_10251;
+            string __res_10252 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_10251 = __res_10252;
+            return __res_10251;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_9829;
-            string __res_9830 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
-            __res_9829 = __res_9830;
-            return __res_9829;
+            string __res_10253;
+            string __res_10254 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
+            __res_10253 = __res_10254;
+            return __res_10253;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_9831;
-            string __res_9832 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_9831 = __res_9832;
-            return __res_9831;
+            string __res_10255;
+            string __res_10256 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_10255 = __res_10256;
+            return __res_10255;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_9833;
-            string __res_9834 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inBandMetadataTrackDispatchType");
-            __res_9833 = __res_9834;
-            return __res_9833;
+            string __res_10257;
+            string __res_10258 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inBandMetadataTrackDispatchType");
+            __res_10257 = __res_10258;
+            return __res_10257;
         }
     }
 
@@ -65,16 +65,16 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.TextTrackMode __res_9835;
-            string __res_9836 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
-            __res_9835 = global::Iskra.StdWeb.TextTrackMode.Create(__res_9836);
-            return __res_9835;
+            global::Iskra.StdWeb.TextTrackMode __res_10259;
+            string __res_10260 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mode");
+            __res_10259 = global::Iskra.StdWeb.TextTrackMode.Create(__res_10260);
+            return __res_10259;
         }
         set
         {
-            string __marshalledValue_9837;
-            __marshalledValue_9837 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "mode", __marshalledValue_9837);
+            string __marshalledValue_10261;
+            __marshalledValue_10261 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "mode", __marshalledValue_10261);
         }
     }
 
@@ -82,18 +82,18 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.TextTrackCueList? __res_9838;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9839 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "cues");
-            if (__res_9839 is null)
+            global::Iskra.StdWeb.TextTrackCueList? __res_10262;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10263 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "cues");
+            if (__res_10263 is null)
             {
-                __res_9838 = null;
+                __res_10262 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9840 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9839;
-                __res_9838 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCueList>(__notNullable_9840);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10264 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10263;
+                __res_10262 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCueList>(__notNullable_10264);
             }
-            return __res_9838;
+            return __res_10262;
         }
     }
 
@@ -101,18 +101,18 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.TextTrackCueList? __res_9841;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9842 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activeCues");
-            if (__res_9842 is null)
+            global::Iskra.StdWeb.TextTrackCueList? __res_10265;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10266 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "activeCues");
+            if (__res_10266 is null)
             {
-                __res_9841 = null;
+                __res_10265 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9843 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9842;
-                __res_9841 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCueList>(__notNullable_9843);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10267 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10266;
+                __res_10265 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCueList>(__notNullable_10267);
             }
-            return __res_9841;
+            return __res_10265;
         }
     }
 
@@ -120,32 +120,32 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_9844;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncuechange");
-            if (__res_9845 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_10268;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncuechange");
+            if (__res_10269 is null)
             {
-                __res_9844 = null;
+                __res_10268 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9846 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9845;
-                __res_9844 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_9846);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10270 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10269;
+                __res_10268 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_10270);
             }
-            return __res_9844;
+            return __res_10268;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9847;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10271;
             if (value is null)
             {
-                __marshalledValue_9847 = null;
+                __marshalledValue_10271 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9848 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_9847 = __notNullable_9848.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_10272 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_10271 = __notNullable_10272.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncuechange", __marshalledValue_9847);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncuechange", __marshalledValue_10271);
         }
     }
 
@@ -153,18 +153,18 @@ public partial class TextTrack(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.SourceBuffer? __res_9849;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9850 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sourceBuffer");
-            if (__res_9850 is null)
+            global::Iskra.StdWeb.SourceBuffer? __res_10273;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10274 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sourceBuffer");
+            if (__res_10274 is null)
             {
-                __res_9849 = null;
+                __res_10273 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9851 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9850;
-                __res_9849 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBuffer>(__notNullable_9851);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10275 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10274;
+                __res_10273 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBuffer>(__notNullable_10275);
             }
-            return __res_9849;
+            return __res_10273;
         }
     }
 }

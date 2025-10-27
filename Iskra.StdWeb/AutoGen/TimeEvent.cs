@@ -10,18 +10,18 @@ public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Window? __res_1712;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
-            if (__res_1713 is null)
+            global::Iskra.StdWeb.Window? __res_1724;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1725 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
+            if (__res_1725 is null)
             {
-                __res_1712 = null;
+                __res_1724 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1714 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1713;
-                __res_1712 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_1714);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1726 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1725;
+                __res_1724 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_1726);
             }
-            return __res_1712;
+            return __res_1724;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            int __res_1715;
-            double __res_1716 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
-            __res_1715 = Convert.ToInt32(__res_1716);
-            return __res_1715;
+            int __res_1727;
+            double __res_1728 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
+            __res_1727 = Convert.ToInt32(__res_1728);
+            return __res_1727;
         }
     }
 }

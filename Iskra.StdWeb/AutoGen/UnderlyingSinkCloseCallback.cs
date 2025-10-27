@@ -10,26 +10,55 @@ public partial class UnderlyingSinkCloseCallback(global::System.Runtime.InteropS
 {
     public static implicit operator UnderlyingSinkCloseCallback(UnderlyingSinkCloseCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1892, __res_1894) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1940, __res_1943) =>
         {
-            using (__args_1892)
-            using (__res_1894)
+            using (__args_1940)
+            using (__res_1943)
             {
 
 
-                global::Iskra.JSCore.Promise __managedRes_1895 = input();
+                global::Iskra.JSCore.Promise __managedRes_1944 = input();
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1896 = __managedRes_1895.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_1894, "value", __propObject_1896);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1945 = __managedRes_1944.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_1943, "value", __propObject_1945);
             }
         };
 
-        return new global::Iskra.StdWeb.UnderlyingSinkCloseCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1942 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1942, input); 
+
+        return new global::Iskra.StdWeb.UnderlyingSinkCloseCallback(__funcObj_1942);
     }
-    
-    public static implicit operator UnderlyingSinkCloseCallbackManaged(UnderlyingSinkCloseCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.UnderlyingSinkCloseCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.UnderlyingSinkCloseCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = () =>
+        {
+
+
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1947 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunction(JSObject, null, __resOwner_1947.JSObject);
+
+            // Return Value
+            global::Iskra.JSCore.Promise __res_1948;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1949;
+            __propObject_1949 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_1947.JSObject, "value");
+            __res_1948 = new global::Iskra.JSCore.Promise(__propObject_1949);
+            return __res_1948;
+        };
+        return true;
     }
 }
 

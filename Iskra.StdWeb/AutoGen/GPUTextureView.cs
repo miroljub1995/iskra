@@ -10,16 +10,16 @@ public partial class GPUTextureView(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_1572;
-            string __res_1573 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1572 = __res_1573;
-            return __res_1572;
+            string __res_1584;
+            string __res_1585 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1584 = __res_1585;
+            return __res_1584;
         }
         set
         {
-            string __marshalledValue_1574;
-            __marshalledValue_1574 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1574);
+            string __marshalledValue_1586;
+            __marshalledValue_1586 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1586);
         }
     }
 }

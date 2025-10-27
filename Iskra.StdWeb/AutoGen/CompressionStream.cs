@@ -10,10 +10,10 @@ public partial class CompressionStream(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.ReadableStream __res_6325;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6326 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            __res_6325 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_6326);
-            return __res_6325;
+            global::Iskra.StdWeb.ReadableStream __res_6587;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6588 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            __res_6587 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_6588);
+            return __res_6587;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CompressionStream(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.WritableStream __res_6327;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6328 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            __res_6327 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_6328);
-            return __res_6327;
+            global::Iskra.StdWeb.WritableStream __res_6589;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6590 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            __res_6589 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_6590);
+            return __res_6589;
         }
     }
 }

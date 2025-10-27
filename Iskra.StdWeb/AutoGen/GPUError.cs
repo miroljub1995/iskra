@@ -10,10 +10,10 @@ public partial class GPUError(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_1649;
-            string __res_1650 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_1649 = __res_1650;
-            return __res_1649;
+            string __res_1661;
+            string __res_1662 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_1661 = __res_1662;
+            return __res_1661;
         }
     }
 }

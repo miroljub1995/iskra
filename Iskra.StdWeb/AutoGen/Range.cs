@@ -10,10 +10,10 @@ public partial class Range(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            global::Iskra.StdWeb.Node __res_6013;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6014 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
-            __res_6013 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_6014);
-            return __res_6013;
+            global::Iskra.StdWeb.Node __res_6255;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6256 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
+            __res_6255 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_6256);
+            return __res_6255;
         }
     }
 }

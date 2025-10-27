@@ -10,10 +10,10 @@ public partial class MIDIAccess(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.MIDIInputMap __res_13338;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13339 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputs");
-            __res_13338 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIInputMap>(__res_13339);
-            return __res_13338;
+            global::Iskra.StdWeb.MIDIInputMap __res_13829;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13830 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputs");
+            __res_13829 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIInputMap>(__res_13830);
+            return __res_13829;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MIDIAccess(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.MIDIOutputMap __res_13340;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13341 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputs");
-            __res_13340 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIOutputMap>(__res_13341);
-            return __res_13340;
+            global::Iskra.StdWeb.MIDIOutputMap __res_13831;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13832 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputs");
+            __res_13831 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIOutputMap>(__res_13832);
+            return __res_13831;
         }
     }
 
@@ -32,32 +32,32 @@ public partial class MIDIAccess(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13342;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13343 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
-            if (__res_13343 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_13833;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13834 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
+            if (__res_13834 is null)
             {
-                __res_13342 = null;
+                __res_13833 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13344 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13343;
-                __res_13342 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13344);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13835 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13834;
+                __res_13833 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13835);
             }
-            return __res_13342;
+            return __res_13833;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13345;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13836;
             if (value is null)
             {
-                __marshalledValue_13345 = null;
+                __marshalledValue_13836 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13346 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13345 = __notNullable_13346.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13837 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_13836 = __notNullable_13837.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_13345);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_13836);
         }
     }
 
@@ -65,10 +65,10 @@ public partial class MIDIAccess(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_13347;
-            bool __res_13348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sysexEnabled");
-            __res_13347 = __res_13348;
-            return __res_13347;
+            bool __res_13838;
+            bool __res_13839 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sysexEnabled");
+            __res_13838 = __res_13839;
+            return __res_13838;
         }
     }
 }

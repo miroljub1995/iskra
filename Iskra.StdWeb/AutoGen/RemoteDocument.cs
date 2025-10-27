@@ -10,10 +10,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8200;
-            string __res_8201 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
-            __res_8200 = __res_8201;
-            return __res_8200;
+            string __res_8615;
+            string __res_8616 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
+            __res_8615 = __res_8616;
+            return __res_8615;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8202;
-            string __res_8203 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
-            __res_8202 = __res_8203;
-            return __res_8202;
+            string __res_8617;
+            string __res_8618 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
+            __res_8617 = __res_8618;
+            return __res_8617;
         }
     }
 
@@ -32,32 +32,32 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_8204;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8205;
-            __propObject_8205 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "document");
-            if (__propObject_8205 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_8619;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8620;
+            __propObject_8620 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "document");
+            if (__propObject_8620 is null)
             {
-                __res_8204 = null;
+                __res_8619 = null;
             }
             else
             {
-                __res_8204 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8205);
+                __res_8619 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8620);
             }
-            return __res_8204;
+            return __res_8619;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8206;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8621;
             if (value is null)
             {
-                __propObject_8206 = null;
+                __propObject_8621 = null;
             }
             else
             {
-                __propObject_8206 = value.JSObject;
+                __propObject_8621 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "document", __propObject_8206);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "document", __propObject_8621);
         }
     }
 
@@ -65,10 +65,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8207;
-            string __res_8208 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
-            __res_8207 = __res_8208;
-            return __res_8207;
+            string __res_8622;
+            string __res_8623 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
+            __res_8622 = __res_8623;
+            return __res_8622;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_8209;
-            string __res_8210 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
-            __res_8209 = __res_8210;
-            return __res_8209;
+            string __res_8624;
+            string __res_8625 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
+            __res_8624 = __res_8625;
+            return __res_8624;
         }
     }
 }

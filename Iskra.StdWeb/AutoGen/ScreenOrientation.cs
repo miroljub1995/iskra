@@ -10,10 +10,10 @@ public partial class ScreenOrientation(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.OrientationType __res_13907;
-            string __res_13908 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_13907 = global::Iskra.StdWeb.OrientationType.Create(__res_13908);
-            return __res_13907;
+            global::Iskra.StdWeb.OrientationType __res_14398;
+            string __res_14399 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_14398 = global::Iskra.StdWeb.OrientationType.Create(__res_14399);
+            return __res_14398;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ScreenOrientation(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ushort __res_13909;
-            double __res_13910 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
-            __res_13909 = Convert.ToUInt16(__res_13910);
-            return __res_13909;
+            ushort __res_14400;
+            double __res_14401 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
+            __res_14400 = Convert.ToUInt16(__res_14401);
+            return __res_14400;
         }
     }
 
@@ -32,32 +32,32 @@ public partial class ScreenOrientation(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13911;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13912 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_13912 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_14402;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14403 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_14403 is null)
             {
-                __res_13911 = null;
+                __res_14402 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13913 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13912;
-                __res_13911 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13913);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14404 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14403;
+                __res_14402 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_14404);
             }
-            return __res_13911;
+            return __res_14402;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13914;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14405;
             if (value is null)
             {
-                __marshalledValue_13914 = null;
+                __marshalledValue_14405 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13915 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13914 = __notNullable_13915.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_14406 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_14405 = __notNullable_14406.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_13914);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_14405);
         }
     }
 }

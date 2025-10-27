@@ -10,10 +10,10 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double __res_13963;
-            double __res_13964 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseLatency");
-            __res_13963 = __res_13964;
-            return __res_13963;
+            double __res_14466;
+            double __res_14467 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseLatency");
+            __res_14466 = __res_14467;
+            return __res_14466;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double __res_13965;
-            double __res_13966 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "outputLatency");
-            __res_13965 = __res_13966;
-            return __res_13965;
+            double __res_14468;
+            double __res_14469 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "outputLatency");
+            __res_14468 = __res_14469;
+            return __res_14468;
         }
     }
 
@@ -32,11 +32,11 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.AudioSinkInfo, global::Iskra.StdWeb.GenericMarshaller.Union> __res_13967;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_13968;
-            __propObject_13968 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "sinkId");
-            __res_13967 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.AudioSinkInfo, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_13968);
-            return __res_13967;
+            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.AudioSinkInfo, global::Iskra.StdWeb.GenericMarshaller.Union> __res_14470;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_14471;
+            __propObject_14471 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "sinkId");
+            __res_14470 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.AudioSinkInfo, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_14471);
+            return __res_14470;
         }
     }
 
@@ -44,32 +44,32 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13969;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13970 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsinkchange");
-            if (__res_13970 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_14472;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsinkchange");
+            if (__res_14473 is null)
             {
-                __res_13969 = null;
+                __res_14472 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13971 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13970;
-                __res_13969 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13971);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14474 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14473;
+                __res_14472 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_14474);
             }
-            return __res_13969;
+            return __res_14472;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13972;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14475;
             if (value is null)
             {
-                __marshalledValue_13972 = null;
+                __marshalledValue_14475 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13973 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13972 = __notNullable_13973.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_14476 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_14475 = __notNullable_14476.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsinkchange", __marshalledValue_13972);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsinkchange", __marshalledValue_14475);
         }
     }
 
@@ -77,32 +77,32 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13974;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13975 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_13975 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_14477;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14478 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
+            if (__res_14478 is null)
             {
-                __res_13974 = null;
+                __res_14477 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13976 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13975;
-                __res_13974 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13976);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14479 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14478;
+                __res_14477 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_14479);
             }
-            return __res_13974;
+            return __res_14477;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13977;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14480;
             if (value is null)
             {
-                __marshalledValue_13977 = null;
+                __marshalledValue_14480 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13978 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13977 = __notNullable_13978.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_14481 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_14480 = __notNullable_14481.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_13977);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_14480);
         }
     }
 }

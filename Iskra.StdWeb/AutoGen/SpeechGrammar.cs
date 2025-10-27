@@ -10,16 +10,16 @@ public partial class SpeechGrammar(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_6787;
-            string __res_6788 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_6787 = __res_6788;
-            return __res_6787;
+            string __res_7071;
+            string __res_7072 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
+            __res_7071 = __res_7072;
+            return __res_7071;
         }
         set
         {
-            string __marshalledValue_6789;
-            __marshalledValue_6789 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_6789);
+            string __marshalledValue_7073;
+            __marshalledValue_7073 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_7073);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class SpeechGrammar(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            float __res_6790;
-            double __res_6791 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "weight");
-            __res_6790 = Convert.ToSingle(__res_6791);
-            return __res_6790;
+            float __res_7074;
+            double __res_7075 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "weight");
+            __res_7074 = Convert.ToSingle(__res_7075);
+            return __res_7074;
         }
         set
         {
-            double __marshalledValue_6792;
-            __marshalledValue_6792 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "weight", __marshalledValue_6792);
+            double __marshalledValue_7076;
+            __marshalledValue_7076 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "weight", __marshalledValue_7076);
         }
     }
 }

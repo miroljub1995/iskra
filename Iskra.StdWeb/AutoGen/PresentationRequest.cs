@@ -10,32 +10,32 @@ public partial class PresentationRequest(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3659;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3660 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable");
-            if (__res_3660 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3847;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3848 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable");
+            if (__res_3848 is null)
             {
-                __res_3659 = null;
+                __res_3847 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3661 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3660;
-                __res_3659 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3661);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3849 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3848;
+                __res_3847 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3849);
             }
-            return __res_3659;
+            return __res_3847;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3662;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3850;
             if (value is null)
             {
-                __marshalledValue_3662 = null;
+                __marshalledValue_3850 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3663 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3662 = __notNullable_3663.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3851 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3850 = __notNullable_3851.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable", __marshalledValue_3662);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionavailable", __marshalledValue_3850);
         }
     }
 }

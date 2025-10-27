@@ -10,32 +10,32 @@ public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3426;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3427 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange");
-            if (__res_3427 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3614;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3615 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange");
+            if (__res_3615 is null)
             {
-                __res_3426 = null;
+                __res_3614 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3428 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3427;
-                __res_3426 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3428);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3616 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3615;
+                __res_3614 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3616);
             }
-            return __res_3426;
+            return __res_3614;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3429;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3617;
             if (value is null)
             {
-                __marshalledValue_3429 = null;
+                __marshalledValue_3617 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3430 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3429 = __notNullable_3430.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3618 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3617 = __notNullable_3618.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange", __marshalledValue_3429);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange", __marshalledValue_3617);
         }
     }
 
@@ -43,10 +43,10 @@ public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_3431;
-            bool __res_3432 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
-            __res_3431 = __res_3432;
-            return __res_3431;
+            bool __res_3619;
+            bool __res_3620 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
+            __res_3619 = __res_3620;
+            return __res_3619;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_3433;
-            string __res_3434 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "toneBuffer");
-            __res_3433 = __res_3434;
-            return __res_3433;
+            string __res_3621;
+            string __res_3622 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "toneBuffer");
+            __res_3621 = __res_3622;
+            return __res_3621;
         }
     }
 }

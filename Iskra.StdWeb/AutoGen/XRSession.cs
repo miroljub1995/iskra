@@ -10,10 +10,10 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.XREnvironmentBlendMode __res_6941;
-            string __res_6942 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "environmentBlendMode");
-            __res_6941 = global::Iskra.StdWeb.XREnvironmentBlendMode.Create(__res_6942);
-            return __res_6941;
+            global::Iskra.StdWeb.XREnvironmentBlendMode __res_7250;
+            string __res_7251 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "environmentBlendMode");
+            __res_7250 = global::Iskra.StdWeb.XREnvironmentBlendMode.Create(__res_7251);
+            return __res_7250;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.XRInteractionMode __res_6943;
-            string __res_6944 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "interactionMode");
-            __res_6943 = global::Iskra.StdWeb.XRInteractionMode.Create(__res_6944);
-            return __res_6943;
+            global::Iskra.StdWeb.XRInteractionMode __res_7252;
+            string __res_7253 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "interactionMode");
+            __res_7252 = global::Iskra.StdWeb.XRInteractionMode.Create(__res_7253);
+            return __res_7252;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.XRReflectionFormat __res_6945;
-            string __res_6946 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "preferredReflectionFormat");
-            __res_6945 = global::Iskra.StdWeb.XRReflectionFormat.Create(__res_6946);
-            return __res_6945;
+            global::Iskra.StdWeb.XRReflectionFormat __res_7254;
+            string __res_7255 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "preferredReflectionFormat");
+            __res_7254 = global::Iskra.StdWeb.XRReflectionFormat.Create(__res_7255);
+            return __res_7254;
         }
     }
 
@@ -43,11 +43,11 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6947;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6948;
-            __propObject_6948 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "persistentAnchors");
-            __res_6947 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6948);
-            return __res_6947;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7256;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7257;
+            __propObject_7257 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "persistentAnchors");
+            __res_7256 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7257);
+            return __res_7256;
         }
     }
 
@@ -55,10 +55,10 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.XRDepthUsage __res_6949;
-            string __res_6950 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "depthUsage");
-            __res_6949 = global::Iskra.StdWeb.XRDepthUsage.Create(__res_6950);
-            return __res_6949;
+            global::Iskra.StdWeb.XRDepthUsage __res_7258;
+            string __res_7259 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "depthUsage");
+            __res_7258 = global::Iskra.StdWeb.XRDepthUsage.Create(__res_7259);
+            return __res_7258;
         }
     }
 
@@ -66,10 +66,10 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.XRDepthDataFormat __res_6951;
-            string __res_6952 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "depthDataFormat");
-            __res_6951 = global::Iskra.StdWeb.XRDepthDataFormat.Create(__res_6952);
-            return __res_6951;
+            global::Iskra.StdWeb.XRDepthDataFormat __res_7260;
+            string __res_7261 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "depthDataFormat");
+            __res_7260 = global::Iskra.StdWeb.XRDepthDataFormat.Create(__res_7261);
+            return __res_7260;
         }
     }
 
@@ -77,18 +77,18 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.XRDepthType? __res_6953;
-            string? __res_6954 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "depthType");
-            if (__res_6954 is null)
+            global::Iskra.StdWeb.XRDepthType? __res_7262;
+            string? __res_7263 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "depthType");
+            if (__res_7263 is null)
             {
-                __res_6953 = null;
+                __res_7262 = null;
             }
             else
             {
-                string __notNullable_6955 = (string)__res_6954;
-                __res_6953 = global::Iskra.StdWeb.XRDepthType.Create(__notNullable_6955);
+                string __notNullable_7264 = (string)__res_7263;
+                __res_7262 = global::Iskra.StdWeb.XRDepthType.Create(__notNullable_7264);
             }
-            return __res_6953;
+            return __res_7262;
         }
     }
 
@@ -96,18 +96,18 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool? __res_6956;
-            bool? __res_6957 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "depthActive");
-            if (__res_6957 is null)
+            bool? __res_7265;
+            bool? __res_7266 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "depthActive");
+            if (__res_7266 is null)
             {
-                __res_6956 = null;
+                __res_7265 = null;
             }
             else
             {
-                bool __notNullable_6958 = (bool)__res_6957;
-                __res_6956 = __notNullable_6958;
+                bool __notNullable_7267 = (bool)__res_7266;
+                __res_7265 = __notNullable_7267;
             }
-            return __res_6956;
+            return __res_7265;
         }
     }
 
@@ -115,10 +115,10 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.XRVisibilityState __res_6959;
-            string __res_6960 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "visibilityState");
-            __res_6959 = global::Iskra.StdWeb.XRVisibilityState.Create(__res_6960);
-            return __res_6959;
+            global::Iskra.StdWeb.XRVisibilityState __res_7268;
+            string __res_7269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "visibilityState");
+            __res_7268 = global::Iskra.StdWeb.XRVisibilityState.Create(__res_7269);
+            return __res_7268;
         }
     }
 
@@ -126,18 +126,18 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            float? __res_6961;
-            double? __res_6962 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "frameRate");
-            if (__res_6962 is null)
+            float? __res_7270;
+            double? __res_7271 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "frameRate");
+            if (__res_7271 is null)
             {
-                __res_6961 = null;
+                __res_7270 = null;
             }
             else
             {
-                double __notNullable_6963 = (double)__res_6962;
-                __res_6961 = Convert.ToSingle(__notNullable_6963);
+                double __notNullable_7272 = (double)__res_7271;
+                __res_7270 = Convert.ToSingle(__notNullable_7272);
             }
-            return __res_6961;
+            return __res_7270;
         }
     }
 
@@ -145,18 +145,18 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Float32Array? __res_6964;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6965 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "supportedFrameRates");
-            if (__res_6965 is null)
+            global::Iskra.JSCore.Float32Array? __res_7273;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7274 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "supportedFrameRates");
+            if (__res_7274 is null)
             {
-                __res_6964 = null;
+                __res_7273 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6966 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6965;
-                __res_6964 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_6966);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7275 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7274;
+                __res_7273 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_7275);
             }
-            return __res_6964;
+            return __res_7273;
         }
     }
 
@@ -164,10 +164,10 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.XRRenderState __res_6967;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6968 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "renderState");
-            __res_6967 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRenderState>(__res_6968);
-            return __res_6967;
+            global::Iskra.StdWeb.XRRenderState __res_7276;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7277 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "renderState");
+            __res_7276 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRenderState>(__res_7277);
+            return __res_7276;
         }
     }
 
@@ -175,10 +175,10 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.XRInputSourceArray __res_6969;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6970 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSources");
-            __res_6969 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRInputSourceArray>(__res_6970);
-            return __res_6969;
+            global::Iskra.StdWeb.XRInputSourceArray __res_7278;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7279 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputSources");
+            __res_7278 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRInputSourceArray>(__res_7279);
+            return __res_7278;
         }
     }
 
@@ -186,10 +186,10 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.XRInputSourceArray __res_6971;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6972 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "trackedSources");
-            __res_6971 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRInputSourceArray>(__res_6972);
-            return __res_6971;
+            global::Iskra.StdWeb.XRInputSourceArray __res_7280;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7281 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "trackedSources");
+            __res_7280 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRInputSourceArray>(__res_7281);
+            return __res_7280;
         }
     }
 
@@ -197,11 +197,11 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6973;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6974;
-            __propObject_6974 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "enabledFeatures");
-            __res_6973 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6974);
-            return __res_6973;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7282;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7283;
+            __propObject_7283 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "enabledFeatures");
+            __res_7282 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7283);
+            return __res_7282;
         }
     }
 
@@ -209,10 +209,10 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool __res_6975;
-            bool __res_6976 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isSystemKeyboardSupported");
-            __res_6975 = __res_6976;
-            return __res_6975;
+            bool __res_7284;
+            bool __res_7285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isSystemKeyboardSupported");
+            __res_7284 = __res_7285;
+            return __res_7284;
         }
     }
 
@@ -220,32 +220,32 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6977;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6978 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onend");
-            if (__res_6978 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7286;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7287 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onend");
+            if (__res_7287 is null)
             {
-                __res_6977 = null;
+                __res_7286 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6979 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6978;
-                __res_6977 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6979);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7288 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7287;
+                __res_7286 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7288);
             }
-            return __res_6977;
+            return __res_7286;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6980;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7289;
             if (value is null)
             {
-                __marshalledValue_6980 = null;
+                __marshalledValue_7289 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6981 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6980 = __notNullable_6981.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7290 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7289 = __notNullable_7290.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onend", __marshalledValue_6980);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onend", __marshalledValue_7289);
         }
     }
 
@@ -253,32 +253,32 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6982;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6983 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oninputsourceschange");
-            if (__res_6983 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7291;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7292 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oninputsourceschange");
+            if (__res_7292 is null)
             {
-                __res_6982 = null;
+                __res_7291 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6984 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6983;
-                __res_6982 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6984);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7293 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7292;
+                __res_7291 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7293);
             }
-            return __res_6982;
+            return __res_7291;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6985;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7294;
             if (value is null)
             {
-                __marshalledValue_6985 = null;
+                __marshalledValue_7294 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6986 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6985 = __notNullable_6986.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7295 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7294 = __notNullable_7295.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oninputsourceschange", __marshalledValue_6985);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oninputsourceschange", __marshalledValue_7294);
         }
     }
 
@@ -286,32 +286,32 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6987;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6988 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onselect");
-            if (__res_6988 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7296;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7297 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onselect");
+            if (__res_7297 is null)
             {
-                __res_6987 = null;
+                __res_7296 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6989 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6988;
-                __res_6987 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6989);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7298 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7297;
+                __res_7296 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7298);
             }
-            return __res_6987;
+            return __res_7296;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6990;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7299;
             if (value is null)
             {
-                __marshalledValue_6990 = null;
+                __marshalledValue_7299 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6991 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6990 = __notNullable_6991.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7300 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7299 = __notNullable_7300.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onselect", __marshalledValue_6990);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onselect", __marshalledValue_7299);
         }
     }
 
@@ -319,32 +319,32 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6992;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6993 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onselectstart");
-            if (__res_6993 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7301;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7302 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onselectstart");
+            if (__res_7302 is null)
             {
-                __res_6992 = null;
+                __res_7301 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6994 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6993;
-                __res_6992 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6994);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7303 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7302;
+                __res_7301 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7303);
             }
-            return __res_6992;
+            return __res_7301;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6995;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7304;
             if (value is null)
             {
-                __marshalledValue_6995 = null;
+                __marshalledValue_7304 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6996 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6995 = __notNullable_6996.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7305 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7304 = __notNullable_7305.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onselectstart", __marshalledValue_6995);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onselectstart", __marshalledValue_7304);
         }
     }
 
@@ -352,32 +352,32 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6997;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6998 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onselectend");
-            if (__res_6998 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7306;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7307 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onselectend");
+            if (__res_7307 is null)
             {
-                __res_6997 = null;
+                __res_7306 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6999 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6998;
-                __res_6997 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6999);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7308 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7307;
+                __res_7306 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7308);
             }
-            return __res_6997;
+            return __res_7306;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7000;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7309;
             if (value is null)
             {
-                __marshalledValue_7000 = null;
+                __marshalledValue_7309 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7001 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7000 = __notNullable_7001.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7310 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7309 = __notNullable_7310.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onselectend", __marshalledValue_7000);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onselectend", __marshalledValue_7309);
         }
     }
 
@@ -385,32 +385,32 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7002;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7003 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueeze");
-            if (__res_7003 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7311;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7312 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueeze");
+            if (__res_7312 is null)
             {
-                __res_7002 = null;
+                __res_7311 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7004 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7003;
-                __res_7002 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7004);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7313 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7312;
+                __res_7311 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7313);
             }
-            return __res_7002;
+            return __res_7311;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7005;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7314;
             if (value is null)
             {
-                __marshalledValue_7005 = null;
+                __marshalledValue_7314 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7006 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7005 = __notNullable_7006.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7315 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7314 = __notNullable_7315.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueeze", __marshalledValue_7005);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueeze", __marshalledValue_7314);
         }
     }
 
@@ -418,32 +418,32 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7007;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7008 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueezestart");
-            if (__res_7008 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7316;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7317 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueezestart");
+            if (__res_7317 is null)
             {
-                __res_7007 = null;
+                __res_7316 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7009 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7008;
-                __res_7007 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7009);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7318 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7317;
+                __res_7316 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7318);
             }
-            return __res_7007;
+            return __res_7316;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7010;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7319;
             if (value is null)
             {
-                __marshalledValue_7010 = null;
+                __marshalledValue_7319 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7011 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7010 = __notNullable_7011.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7320 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7319 = __notNullable_7320.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueezestart", __marshalledValue_7010);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueezestart", __marshalledValue_7319);
         }
     }
 
@@ -451,32 +451,32 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7012;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7013 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueezeend");
-            if (__res_7013 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7321;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7322 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueezeend");
+            if (__res_7322 is null)
             {
-                __res_7012 = null;
+                __res_7321 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7014 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7013;
-                __res_7012 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7014);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7323 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7322;
+                __res_7321 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7323);
             }
-            return __res_7012;
+            return __res_7321;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7015;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7324;
             if (value is null)
             {
-                __marshalledValue_7015 = null;
+                __marshalledValue_7324 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7016 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7015 = __notNullable_7016.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7325 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7324 = __notNullable_7325.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueezeend", __marshalledValue_7015);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsqueezeend", __marshalledValue_7324);
         }
     }
 
@@ -484,32 +484,32 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7017;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7018 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onvisibilitychange");
-            if (__res_7018 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7326;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7327 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onvisibilitychange");
+            if (__res_7327 is null)
             {
-                __res_7017 = null;
+                __res_7326 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7019 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7018;
-                __res_7017 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7019);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7328 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7327;
+                __res_7326 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7328);
             }
-            return __res_7017;
+            return __res_7326;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7020;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7329;
             if (value is null)
             {
-                __marshalledValue_7020 = null;
+                __marshalledValue_7329 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7021 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7020 = __notNullable_7021.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7330 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7329 = __notNullable_7330.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onvisibilitychange", __marshalledValue_7020);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onvisibilitychange", __marshalledValue_7329);
         }
     }
 
@@ -517,32 +517,32 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7022;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7023 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onframeratechange");
-            if (__res_7023 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7331;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7332 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onframeratechange");
+            if (__res_7332 is null)
             {
-                __res_7022 = null;
+                __res_7331 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7024 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7023;
-                __res_7022 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7024);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7333 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7332;
+                __res_7331 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7333);
             }
-            return __res_7022;
+            return __res_7331;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7025;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7334;
             if (value is null)
             {
-                __marshalledValue_7025 = null;
+                __marshalledValue_7334 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7026 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7025 = __notNullable_7026.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7335 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7334 = __notNullable_7335.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onframeratechange", __marshalledValue_7025);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onframeratechange", __marshalledValue_7334);
         }
     }
 
@@ -550,18 +550,18 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.XRDOMOverlayState? __res_7027;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7028 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "domOverlayState");
-            if (__res_7028 is null)
+            global::Iskra.StdWeb.XRDOMOverlayState? __res_7336;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7337 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "domOverlayState");
+            if (__res_7337 is null)
             {
-                __res_7027 = null;
+                __res_7336 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7029 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7028;
-                __res_7027 = new global::Iskra.StdWeb.XRDOMOverlayState(__notNullable_7029);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7338 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7337;
+                __res_7336 = new global::Iskra.StdWeb.XRDOMOverlayState(__notNullable_7338);
             }
-            return __res_7027;
+            return __res_7336;
         }
     }
 }

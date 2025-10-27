@@ -10,10 +10,10 @@ public partial class SVGEllipseElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1160;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
-            __res_1160 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1161);
-            return __res_1160;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1166;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1167 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
+            __res_1166 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1167);
+            return __res_1166;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGEllipseElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1162;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
-            __res_1162 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1163);
-            return __res_1162;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1168;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1169 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
+            __res_1168 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1169);
+            return __res_1168;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SVGEllipseElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1164;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1165 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rx");
-            __res_1164 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1165);
-            return __res_1164;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1170;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1171 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rx");
+            __res_1170 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1171);
+            return __res_1170;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class SVGEllipseElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1166;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1167 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ry");
-            __res_1166 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1167);
-            return __res_1166;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1172;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1173 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ry");
+            __res_1172 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1173);
+            return __res_1172;
         }
     }
 }

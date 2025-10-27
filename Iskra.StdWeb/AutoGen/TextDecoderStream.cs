@@ -10,10 +10,10 @@ public partial class TextDecoderStream(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_2060;
-            string __res_2061 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
-            __res_2060 = __res_2061;
-            return __res_2060;
+            string __res_2168;
+            string __res_2169 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
+            __res_2168 = __res_2169;
+            return __res_2168;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TextDecoderStream(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            bool __res_2062;
-            bool __res_2063 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "fatal");
-            __res_2062 = __res_2063;
-            return __res_2062;
+            bool __res_2170;
+            bool __res_2171 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "fatal");
+            __res_2170 = __res_2171;
+            return __res_2170;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class TextDecoderStream(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            bool __res_2064;
-            bool __res_2065 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreBOM");
-            __res_2064 = __res_2065;
-            return __res_2064;
+            bool __res_2172;
+            bool __res_2173 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreBOM");
+            __res_2172 = __res_2173;
+            return __res_2172;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class TextDecoderStream(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.ReadableStream __res_2066;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2067 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            __res_2066 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_2067);
-            return __res_2066;
+            global::Iskra.StdWeb.ReadableStream __res_2174;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2175 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            __res_2174 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_2175);
+            return __res_2174;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class TextDecoderStream(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.WritableStream __res_2068;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2069 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            __res_2068 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_2069);
-            return __res_2068;
+            global::Iskra.StdWeb.WritableStream __res_2176;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2177 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            __res_2176 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_2177);
+            return __res_2176;
         }
     }
 }

@@ -23,12 +23,39 @@ public partial class CreateMonitorCallback(global::System.Runtime.InteropService
             }
         };
 
-        return new global::Iskra.StdWeb.CreateMonitorCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_286 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_286, input);
+
+        return new global::Iskra.StdWeb.CreateMonitorCallback(__funcObj_286);
     }
-    
-    public static implicit operator CreateMonitorCallbackManaged(CreateMonitorCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.CreateMonitorCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.CreateMonitorCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (monitor) =>
+        {
+            int __argsArrayLength_290 = 1;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_287 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_290);
+
+            // Argument 1
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_291;
+            __marshalledValue_291 = monitor.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_287.JSObject, 0, __marshalledValue_291);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_287.JSObject);
+        };
+        return true;
     }
 }
 

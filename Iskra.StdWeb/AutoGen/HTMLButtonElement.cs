@@ -10,16 +10,16 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_10307;
-            string __res_10308 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
-            __res_10307 = __res_10308;
-            return __res_10307;
+            string __res_10731;
+            string __res_10732 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
+            __res_10731 = __res_10732;
+            return __res_10731;
         }
         set
         {
-            string __marshalledValue_10309;
-            __marshalledValue_10309 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "command", __marshalledValue_10309);
+            string __marshalledValue_10733;
+            __marshalledValue_10733 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "command", __marshalledValue_10733);
         }
     }
 
@@ -27,32 +27,32 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_10310;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10311 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "commandForElement");
-            if (__res_10311 is null)
+            global::Iskra.StdWeb.Element? __res_10734;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10735 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "commandForElement");
+            if (__res_10735 is null)
             {
-                __res_10310 = null;
+                __res_10734 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10312 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10311;
-                __res_10310 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_10312);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10736 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10735;
+                __res_10734 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_10736);
             }
-            return __res_10310;
+            return __res_10734;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10313;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10737;
             if (value is null)
             {
-                __marshalledValue_10313 = null;
+                __marshalledValue_10737 = null;
             }
             else
             {
-                global::Iskra.StdWeb.Element __notNullable_10314 = (global::Iskra.StdWeb.Element)value;
-                __marshalledValue_10313 = __notNullable_10314.JSObject;
+                global::Iskra.StdWeb.Element __notNullable_10738 = (global::Iskra.StdWeb.Element)value;
+                __marshalledValue_10737 = __notNullable_10738.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "commandForElement", __marshalledValue_10313);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "commandForElement", __marshalledValue_10737);
         }
     }
 
@@ -60,16 +60,16 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            bool __res_10315;
-            bool __res_10316 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_10315 = __res_10316;
-            return __res_10315;
+            bool __res_10739;
+            bool __res_10740 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_10739 = __res_10740;
+            return __res_10739;
         }
         set
         {
-            bool __marshalledValue_10317;
-            __marshalledValue_10317 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_10317);
+            bool __marshalledValue_10741;
+            __marshalledValue_10741 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_10741);
         }
     }
 
@@ -77,18 +77,18 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.HTMLFormElement? __res_10318;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10319 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_10319 is null)
+            global::Iskra.StdWeb.HTMLFormElement? __res_10742;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10743 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_10743 is null)
             {
-                __res_10318 = null;
+                __res_10742 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10320 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10319;
-                __res_10318 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_10320);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10744 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10743;
+                __res_10742 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_10744);
             }
-            return __res_10318;
+            return __res_10742;
         }
     }
 
@@ -96,16 +96,16 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_10321;
-            string __res_10322 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formAction");
-            __res_10321 = __res_10322;
-            return __res_10321;
+            string __res_10745;
+            string __res_10746 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formAction");
+            __res_10745 = __res_10746;
+            return __res_10745;
         }
         set
         {
-            string __marshalledValue_10323;
-            __marshalledValue_10323 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formAction", __marshalledValue_10323);
+            string __marshalledValue_10747;
+            __marshalledValue_10747 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formAction", __marshalledValue_10747);
         }
     }
 
@@ -113,16 +113,16 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_10324;
-            string __res_10325 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formEnctype");
-            __res_10324 = __res_10325;
-            return __res_10324;
+            string __res_10748;
+            string __res_10749 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formEnctype");
+            __res_10748 = __res_10749;
+            return __res_10748;
         }
         set
         {
-            string __marshalledValue_10326;
-            __marshalledValue_10326 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formEnctype", __marshalledValue_10326);
+            string __marshalledValue_10750;
+            __marshalledValue_10750 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formEnctype", __marshalledValue_10750);
         }
     }
 
@@ -130,16 +130,16 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_10327;
-            string __res_10328 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formMethod");
-            __res_10327 = __res_10328;
-            return __res_10327;
+            string __res_10751;
+            string __res_10752 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formMethod");
+            __res_10751 = __res_10752;
+            return __res_10751;
         }
         set
         {
-            string __marshalledValue_10329;
-            __marshalledValue_10329 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formMethod", __marshalledValue_10329);
+            string __marshalledValue_10753;
+            __marshalledValue_10753 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formMethod", __marshalledValue_10753);
         }
     }
 
@@ -147,16 +147,16 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            bool __res_10330;
-            bool __res_10331 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "formNoValidate");
-            __res_10330 = __res_10331;
-            return __res_10330;
+            bool __res_10754;
+            bool __res_10755 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "formNoValidate");
+            __res_10754 = __res_10755;
+            return __res_10754;
         }
         set
         {
-            bool __marshalledValue_10332;
-            __marshalledValue_10332 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "formNoValidate", __marshalledValue_10332);
+            bool __marshalledValue_10756;
+            __marshalledValue_10756 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "formNoValidate", __marshalledValue_10756);
         }
     }
 
@@ -164,16 +164,16 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_10333;
-            string __res_10334 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formTarget");
-            __res_10333 = __res_10334;
-            return __res_10333;
+            string __res_10757;
+            string __res_10758 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "formTarget");
+            __res_10757 = __res_10758;
+            return __res_10757;
         }
         set
         {
-            string __marshalledValue_10335;
-            __marshalledValue_10335 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formTarget", __marshalledValue_10335);
+            string __marshalledValue_10759;
+            __marshalledValue_10759 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "formTarget", __marshalledValue_10759);
         }
     }
 
@@ -181,16 +181,16 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_10336;
-            string __res_10337 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_10336 = __res_10337;
-            return __res_10336;
+            string __res_10760;
+            string __res_10761 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_10760 = __res_10761;
+            return __res_10760;
         }
         set
         {
-            string __marshalledValue_10338;
-            __marshalledValue_10338 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10338);
+            string __marshalledValue_10762;
+            __marshalledValue_10762 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10762);
         }
     }
 
@@ -198,16 +198,16 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_10339;
-            string __res_10340 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_10339 = __res_10340;
-            return __res_10339;
+            string __res_10763;
+            string __res_10764 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_10763 = __res_10764;
+            return __res_10763;
         }
         set
         {
-            string __marshalledValue_10341;
-            __marshalledValue_10341 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_10341);
+            string __marshalledValue_10765;
+            __marshalledValue_10765 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_10765);
         }
     }
 
@@ -215,16 +215,16 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_10342;
-            string __res_10343 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_10342 = __res_10343;
-            return __res_10342;
+            string __res_10766;
+            string __res_10767 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_10766 = __res_10767;
+            return __res_10766;
         }
         set
         {
-            string __marshalledValue_10344;
-            __marshalledValue_10344 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_10344);
+            string __marshalledValue_10768;
+            __marshalledValue_10768 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_10768);
         }
     }
 
@@ -232,10 +232,10 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            bool __res_10345;
-            bool __res_10346 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
-            __res_10345 = __res_10346;
-            return __res_10345;
+            bool __res_10769;
+            bool __res_10770 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            __res_10769 = __res_10770;
+            return __res_10769;
         }
     }
 
@@ -243,10 +243,10 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.ValidityState __res_10347;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            __res_10347 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_10348);
-            return __res_10347;
+            global::Iskra.StdWeb.ValidityState __res_10771;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10772 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
+            __res_10771 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_10772);
+            return __res_10771;
         }
     }
 
@@ -254,10 +254,10 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_10349;
-            string __res_10350 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
-            __res_10349 = __res_10350;
-            return __res_10349;
+            string __res_10773;
+            string __res_10774 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
+            __res_10773 = __res_10774;
+            return __res_10773;
         }
     }
 
@@ -265,10 +265,10 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.NodeList __res_10351;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10352 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            __res_10351 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_10352);
-            return __res_10351;
+            global::Iskra.StdWeb.NodeList __res_10775;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10776 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
+            __res_10775 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_10776);
+            return __res_10775;
         }
     }
 
@@ -276,32 +276,32 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_10353;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10354 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "popoverTargetElement");
-            if (__res_10354 is null)
+            global::Iskra.StdWeb.Element? __res_10777;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10778 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "popoverTargetElement");
+            if (__res_10778 is null)
             {
-                __res_10353 = null;
+                __res_10777 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10355 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10354;
-                __res_10353 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_10355);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10779 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10778;
+                __res_10777 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_10779);
             }
-            return __res_10353;
+            return __res_10777;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10356;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10780;
             if (value is null)
             {
-                __marshalledValue_10356 = null;
+                __marshalledValue_10780 = null;
             }
             else
             {
-                global::Iskra.StdWeb.Element __notNullable_10357 = (global::Iskra.StdWeb.Element)value;
-                __marshalledValue_10356 = __notNullable_10357.JSObject;
+                global::Iskra.StdWeb.Element __notNullable_10781 = (global::Iskra.StdWeb.Element)value;
+                __marshalledValue_10780 = __notNullable_10781.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "popoverTargetElement", __marshalledValue_10356);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "popoverTargetElement", __marshalledValue_10780);
         }
     }
 
@@ -309,16 +309,16 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_10358;
-            string __res_10359 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "popoverTargetAction");
-            __res_10358 = __res_10359;
-            return __res_10358;
+            string __res_10782;
+            string __res_10783 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "popoverTargetAction");
+            __res_10782 = __res_10783;
+            return __res_10782;
         }
         set
         {
-            string __marshalledValue_10360;
-            __marshalledValue_10360 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "popoverTargetAction", __marshalledValue_10360);
+            string __marshalledValue_10784;
+            __marshalledValue_10784 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "popoverTargetAction", __marshalledValue_10784);
         }
     }
 }

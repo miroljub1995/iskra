@@ -10,10 +10,10 @@ public partial class AudioWorkletNode(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.AudioParamMap __res_14210;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14211 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "parameters");
-            __res_14210 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParamMap>(__res_14211);
-            return __res_14210;
+            global::Iskra.StdWeb.AudioParamMap __res_14720;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14721 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "parameters");
+            __res_14720 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParamMap>(__res_14721);
+            return __res_14720;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AudioWorkletNode(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.MessagePort __res_14212;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14213 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
-            __res_14212 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_14213);
-            return __res_14212;
+            global::Iskra.StdWeb.MessagePort __res_14722;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14723 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
+            __res_14722 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_14723);
+            return __res_14722;
         }
     }
 
@@ -32,32 +32,32 @@ public partial class AudioWorkletNode(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_14214;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14215 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprocessorerror");
-            if (__res_14215 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_14724;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14725 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprocessorerror");
+            if (__res_14725 is null)
             {
-                __res_14214 = null;
+                __res_14724 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14216 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14215;
-                __res_14214 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_14216);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14726 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14725;
+                __res_14724 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_14726);
             }
-            return __res_14214;
+            return __res_14724;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14217;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14727;
             if (value is null)
             {
-                __marshalledValue_14217 = null;
+                __marshalledValue_14727 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_14218 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_14217 = __notNullable_14218.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_14728 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_14727 = __notNullable_14728.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprocessorerror", __marshalledValue_14217);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprocessorerror", __marshalledValue_14727);
         }
     }
 }

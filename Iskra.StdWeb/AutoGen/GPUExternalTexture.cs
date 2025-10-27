@@ -10,16 +10,16 @@ public partial class GPUExternalTexture(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_1575;
-            string __res_1576 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1575 = __res_1576;
-            return __res_1575;
+            string __res_1587;
+            string __res_1588 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1587 = __res_1588;
+            return __res_1587;
         }
         set
         {
-            string __marshalledValue_1577;
-            __marshalledValue_1577 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1577);
+            string __marshalledValue_1589;
+            __marshalledValue_1589 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1589);
         }
     }
 }

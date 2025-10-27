@@ -10,30 +10,62 @@ public partial class EncodedAudioChunkOutputCallback(global::System.Runtime.Inte
 {
     public static implicit operator EncodedAudioChunkOutputCallback(EncodedAudioChunkOutputCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4012) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4212) =>
         {
-            using (__args_4012)
+            using (__args_4212)
             {
                 // Argument 1
-                global::Iskra.StdWeb.EncodedAudioChunk __arg_4014;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4015 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4012, 0);
-                __arg_4014 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EncodedAudioChunk>(__res_4015);
+                global::Iskra.StdWeb.EncodedAudioChunk __arg_4214;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4215 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4212, 0);
+                __arg_4214 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EncodedAudioChunk>(__res_4215);
 
                 // Argument 2
-                global::Iskra.StdWeb.EncodedAudioChunkMetadata __arg_4016;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4017 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4012, 1);
-                __arg_4016 = new global::Iskra.StdWeb.EncodedAudioChunkMetadata(__res_4017);
+                global::Iskra.StdWeb.EncodedAudioChunkMetadata __arg_4216;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4217 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4212, 1);
+                __arg_4216 = new global::Iskra.StdWeb.EncodedAudioChunkMetadata(__res_4217);
 
-                input(__arg_4014, __arg_4016);
+                input(__arg_4214, __arg_4216);
             }
         };
 
-        return new global::Iskra.StdWeb.EncodedAudioChunkOutputCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_4218 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_4218, input);
+
+        return new global::Iskra.StdWeb.EncodedAudioChunkOutputCallback(__funcObj_4218);
     }
-    
-    public static implicit operator EncodedAudioChunkOutputCallbackManaged(EncodedAudioChunkOutputCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.EncodedAudioChunkOutputCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.EncodedAudioChunkOutputCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (output, metadata) =>
+        {
+            int __argsArrayLength_4222 = 2;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_4219 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_4222);
+
+            // Argument 1
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_4223;
+            __marshalledValue_4223 = output.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_4219.JSObject, 0, __marshalledValue_4223);
+
+            // Argument 2
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_4224;
+            __marshalledValue_4224 = metadata.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_4219.JSObject, 1, __marshalledValue_4224);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_4219.JSObject);
+        };
+        return true;
     }
 }
 

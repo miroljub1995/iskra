@@ -10,25 +10,52 @@ public partial class FrameRequestCallback(global::System.Runtime.InteropServices
 {
     public static implicit operator FrameRequestCallback(FrameRequestCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12424) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_12904) =>
         {
-            using (__args_12424)
+            using (__args_12904)
             {
                 // Argument 1
-                double __arg_12426;
-                double __res_12427 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_12424, 0);
-                __arg_12426 = __res_12427;
+                double __arg_12906;
+                double __res_12907 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_12904, 0);
+                __arg_12906 = __res_12907;
 
-                input(__arg_12426);
+                input(__arg_12906);
             }
         };
 
-        return new global::Iskra.StdWeb.FrameRequestCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_12908 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_12908, input);
+
+        return new global::Iskra.StdWeb.FrameRequestCallback(__funcObj_12908);
     }
-    
-    public static implicit operator FrameRequestCallbackManaged(FrameRequestCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.FrameRequestCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.FrameRequestCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (time) =>
+        {
+            int __argsArrayLength_12912 = 1;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12909 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_12912);
+
+            // Argument 1
+            double __marshalledValue_12913;
+            __marshalledValue_12913 = time;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_12909.JSObject, 0, __marshalledValue_12913);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_12909.JSObject);
+        };
+        return true;
     }
 }
 

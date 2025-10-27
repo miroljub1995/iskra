@@ -10,32 +10,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4177;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4178 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged");
-            if (__res_4178 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4404;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4405 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged");
+            if (__res_4405 is null)
             {
-                __res_4177 = null;
+                __res_4404 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4179 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4178;
-                __res_4177 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4179);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4406 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4405;
+                __res_4404 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4406);
             }
-            return __res_4177;
+            return __res_4404;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4180;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4407;
             if (value is null)
             {
-                __marshalledValue_4180 = null;
+                __marshalledValue_4407 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4181 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4180 = __notNullable_4181.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4408 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4407 = __notNullable_4408.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged", __marshalledValue_4180);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onavailabilitychanged", __marshalledValue_4407);
         }
     }
 
@@ -43,18 +43,18 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothDevice? __res_4182;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4183 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "referringDevice");
-            if (__res_4183 is null)
+            global::Iskra.StdWeb.BluetoothDevice? __res_4409;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4410 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "referringDevice");
+            if (__res_4410 is null)
             {
-                __res_4182 = null;
+                __res_4409 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4184 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4183;
-                __res_4182 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__notNullable_4184);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4411 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4410;
+                __res_4409 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__notNullable_4411);
             }
-            return __res_4182;
+            return __res_4409;
         }
     }
 
@@ -62,32 +62,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4185;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4186 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onadvertisementreceived");
-            if (__res_4186 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4412;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4413 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onadvertisementreceived");
+            if (__res_4413 is null)
             {
-                __res_4185 = null;
+                __res_4412 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4187 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4186;
-                __res_4185 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4187);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4414 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4413;
+                __res_4412 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4414);
             }
-            return __res_4185;
+            return __res_4412;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4188;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4415;
             if (value is null)
             {
-                __marshalledValue_4188 = null;
+                __marshalledValue_4415 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4189 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4188 = __notNullable_4189.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4416 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4415 = __notNullable_4416.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onadvertisementreceived", __marshalledValue_4188);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onadvertisementreceived", __marshalledValue_4415);
         }
     }
 
@@ -95,32 +95,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4190;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4191 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongattserverdisconnected");
-            if (__res_4191 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4417;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4418 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongattserverdisconnected");
+            if (__res_4418 is null)
             {
-                __res_4190 = null;
+                __res_4417 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4192 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4191;
-                __res_4190 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4192);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4419 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4418;
+                __res_4417 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4419);
             }
-            return __res_4190;
+            return __res_4417;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4193;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4420;
             if (value is null)
             {
-                __marshalledValue_4193 = null;
+                __marshalledValue_4420 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4194 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4193 = __notNullable_4194.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4421 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4420 = __notNullable_4421.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongattserverdisconnected", __marshalledValue_4193);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongattserverdisconnected", __marshalledValue_4420);
         }
     }
 
@@ -128,32 +128,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4195;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4196 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged");
-            if (__res_4196 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4422;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4423 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged");
+            if (__res_4423 is null)
             {
-                __res_4195 = null;
+                __res_4422 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4197 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4196;
-                __res_4195 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4197);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4424 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4423;
+                __res_4422 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4424);
             }
-            return __res_4195;
+            return __res_4422;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4198;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4425;
             if (value is null)
             {
-                __marshalledValue_4198 = null;
+                __marshalledValue_4425 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4199 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4198 = __notNullable_4199.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4426 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4425 = __notNullable_4426.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged", __marshalledValue_4198);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncharacteristicvaluechanged", __marshalledValue_4425);
         }
     }
 
@@ -161,32 +161,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4200;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4201 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceadded");
-            if (__res_4201 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4427;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4428 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceadded");
+            if (__res_4428 is null)
             {
-                __res_4200 = null;
+                __res_4427 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4202 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4201;
-                __res_4200 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4202);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4429 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4428;
+                __res_4427 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4429);
             }
-            return __res_4200;
+            return __res_4427;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4203;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4430;
             if (value is null)
             {
-                __marshalledValue_4203 = null;
+                __marshalledValue_4430 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4204 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4203 = __notNullable_4204.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4431 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4430 = __notNullable_4431.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceadded", __marshalledValue_4203);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceadded", __marshalledValue_4430);
         }
     }
 
@@ -194,32 +194,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4205;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4206 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onservicechanged");
-            if (__res_4206 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4432;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4433 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onservicechanged");
+            if (__res_4433 is null)
             {
-                __res_4205 = null;
+                __res_4432 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4207 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4206;
-                __res_4205 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4207);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4434 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4433;
+                __res_4432 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4434);
             }
-            return __res_4205;
+            return __res_4432;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4208;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4435;
             if (value is null)
             {
-                __marshalledValue_4208 = null;
+                __marshalledValue_4435 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4209 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4208 = __notNullable_4209.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4436 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4435 = __notNullable_4436.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onservicechanged", __marshalledValue_4208);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onservicechanged", __marshalledValue_4435);
         }
     }
 
@@ -227,32 +227,32 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4210;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4211 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceremoved");
-            if (__res_4211 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4437;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4438 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceremoved");
+            if (__res_4438 is null)
             {
-                __res_4210 = null;
+                __res_4437 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4212 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4211;
-                __res_4210 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4212);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4439 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4438;
+                __res_4437 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4439);
             }
-            return __res_4210;
+            return __res_4437;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4213;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4440;
             if (value is null)
             {
-                __marshalledValue_4213 = null;
+                __marshalledValue_4440 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4214 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4213 = __notNullable_4214.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4441 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4440 = __notNullable_4441.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceremoved", __marshalledValue_4213);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onserviceremoved", __marshalledValue_4440);
         }
     }
 }

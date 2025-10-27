@@ -16,8 +16,7 @@ export class TestCallbackProperties {
     }
 
     nonVoidCallback = (a, b) => {
-        // Default implementation returns 0
-        return 0;
+        return a + b + 4;
     };
 
     get nonVoidCallbackCallAndGetResult() {

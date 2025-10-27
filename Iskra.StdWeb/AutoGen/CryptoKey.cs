@@ -10,10 +10,10 @@ public partial class CryptoKey(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.KeyType __res_2667;
-            string __res_2668 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2667 = global::Iskra.StdWeb.KeyType.Create(__res_2668);
-            return __res_2667;
+            global::Iskra.StdWeb.KeyType __res_2843;
+            string __res_2844 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_2843 = global::Iskra.StdWeb.KeyType.Create(__res_2844);
+            return __res_2843;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CryptoKey(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool __res_2669;
-            bool __res_2670 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "extractable");
-            __res_2669 = __res_2670;
-            return __res_2669;
+            bool __res_2845;
+            bool __res_2846 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "extractable");
+            __res_2845 = __res_2846;
+            return __res_2845;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class CryptoKey(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2671;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2672 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "algorithm");
-            __res_2671 = __res_2672;
-            return __res_2671;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2847;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2848 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "algorithm");
+            __res_2847 = __res_2848;
+            return __res_2847;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class CryptoKey(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2673;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2674 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "usages");
-            __res_2673 = __res_2674;
-            return __res_2673;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2849;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2850 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "usages");
+            __res_2849 = __res_2850;
+            return __res_2849;
         }
     }
 }

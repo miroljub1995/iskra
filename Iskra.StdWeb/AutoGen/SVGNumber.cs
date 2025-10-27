@@ -10,16 +10,16 @@ public partial class SVGNumber(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            float __res_877;
-            double __res_878 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_877 = Convert.ToSingle(__res_878);
-            return __res_877;
+            float __res_883;
+            double __res_884 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_883 = Convert.ToSingle(__res_884);
+            return __res_883;
         }
         set
         {
-            double __marshalledValue_879;
-            __marshalledValue_879 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_879);
+            double __marshalledValue_885;
+            __marshalledValue_885 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_885);
         }
     }
 }

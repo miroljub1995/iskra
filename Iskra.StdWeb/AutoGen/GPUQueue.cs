@@ -10,16 +10,16 @@ public partial class GPUQueue(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_1633;
-            string __res_1634 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1633 = __res_1634;
-            return __res_1633;
+            string __res_1645;
+            string __res_1646 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1645 = __res_1646;
+            return __res_1645;
         }
         set
         {
-            string __marshalledValue_1635;
-            __marshalledValue_1635 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1635);
+            string __marshalledValue_1647;
+            __marshalledValue_1647 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1647);
         }
     }
 }

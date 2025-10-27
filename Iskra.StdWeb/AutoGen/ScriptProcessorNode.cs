@@ -10,32 +10,32 @@ public partial class ScriptProcessorNode(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_14174;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14175 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess");
-            if (__res_14175 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_14677;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14678 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess");
+            if (__res_14678 is null)
             {
-                __res_14174 = null;
+                __res_14677 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14176 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14175;
-                __res_14174 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_14176);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14679 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14678;
+                __res_14677 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_14679);
             }
-            return __res_14174;
+            return __res_14677;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14177;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14680;
             if (value is null)
             {
-                __marshalledValue_14177 = null;
+                __marshalledValue_14680 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_14178 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_14177 = __notNullable_14178.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_14681 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_14680 = __notNullable_14681.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess", __marshalledValue_14177);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess", __marshalledValue_14680);
         }
     }
 
@@ -43,10 +43,10 @@ public partial class ScriptProcessorNode(global::System.Runtime.InteropServices.
     {
         get
         {
-            int __res_14179;
-            double __res_14180 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferSize");
-            __res_14179 = Convert.ToInt32(__res_14180);
-            return __res_14179;
+            int __res_14682;
+            double __res_14683 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferSize");
+            __res_14682 = Convert.ToInt32(__res_14683);
+            return __res_14682;
         }
     }
 }

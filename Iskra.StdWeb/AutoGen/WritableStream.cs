@@ -10,10 +10,10 @@ public partial class WritableStream(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            bool __res_1874;
-            bool __res_1875 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
-            __res_1874 = __res_1875;
-            return __res_1874;
+            bool __res_1907;
+            bool __res_1908 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
+            __res_1907 = __res_1908;
+            return __res_1907;
         }
     }
 }

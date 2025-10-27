@@ -10,84 +10,8 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
     {
         get
         {
-            double? __res_1414;
-            double? __res_1415 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_1415 is null)
-            {
-                __res_1414 = null;
-            }
-            else
-            {
-                double __notNullable_1416 = (double)__res_1415;
-                __res_1414 = __notNullable_1416;
-            }
-            return __res_1414;
-        }
-    }
-
-    public double? Y
-    {
-        get
-        {
-            double? __res_1417;
-            double? __res_1418 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_1418 is null)
-            {
-                __res_1417 = null;
-            }
-            else
-            {
-                double __notNullable_1419 = (double)__res_1418;
-                __res_1417 = __notNullable_1419;
-            }
-            return __res_1417;
-        }
-    }
-
-    public double? Z
-    {
-        get
-        {
-            double? __res_1420;
-            double? __res_1421 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_1421 is null)
-            {
-                __res_1420 = null;
-            }
-            else
-            {
-                double __notNullable_1422 = (double)__res_1421;
-                __res_1420 = __notNullable_1422;
-            }
-            return __res_1420;
-        }
-    }
-
-    public double? XBias
-    {
-        get
-        {
-            double? __res_1423;
-            double? __res_1424 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "xBias");
-            if (__res_1424 is null)
-            {
-                __res_1423 = null;
-            }
-            else
-            {
-                double __notNullable_1425 = (double)__res_1424;
-                __res_1423 = __notNullable_1425;
-            }
-            return __res_1423;
-        }
-    }
-
-    public double? YBias
-    {
-        get
-        {
             double? __res_1426;
-            double? __res_1427 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "yBias");
+            double? __res_1427 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
             if (__res_1427 is null)
             {
                 __res_1426 = null;
@@ -101,12 +25,12 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
         }
     }
 
-    public double? ZBias
+    public double? Y
     {
         get
         {
             double? __res_1429;
-            double? __res_1430 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "zBias");
+            double? __res_1430 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
             if (__res_1430 is null)
             {
                 __res_1429 = null;
@@ -117,6 +41,82 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
                 __res_1429 = __notNullable_1431;
             }
             return __res_1429;
+        }
+    }
+
+    public double? Z
+    {
+        get
+        {
+            double? __res_1432;
+            double? __res_1433 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_1433 is null)
+            {
+                __res_1432 = null;
+            }
+            else
+            {
+                double __notNullable_1434 = (double)__res_1433;
+                __res_1432 = __notNullable_1434;
+            }
+            return __res_1432;
+        }
+    }
+
+    public double? XBias
+    {
+        get
+        {
+            double? __res_1435;
+            double? __res_1436 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "xBias");
+            if (__res_1436 is null)
+            {
+                __res_1435 = null;
+            }
+            else
+            {
+                double __notNullable_1437 = (double)__res_1436;
+                __res_1435 = __notNullable_1437;
+            }
+            return __res_1435;
+        }
+    }
+
+    public double? YBias
+    {
+        get
+        {
+            double? __res_1438;
+            double? __res_1439 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "yBias");
+            if (__res_1439 is null)
+            {
+                __res_1438 = null;
+            }
+            else
+            {
+                double __notNullable_1440 = (double)__res_1439;
+                __res_1438 = __notNullable_1440;
+            }
+            return __res_1438;
+        }
+    }
+
+    public double? ZBias
+    {
+        get
+        {
+            double? __res_1441;
+            double? __res_1442 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "zBias");
+            if (__res_1442 is null)
+            {
+                __res_1441 = null;
+            }
+            else
+            {
+                double __notNullable_1443 = (double)__res_1442;
+                __res_1441 = __notNullable_1443;
+            }
+            return __res_1441;
         }
     }
 }

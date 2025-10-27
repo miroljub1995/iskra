@@ -10,10 +10,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            byte __res_8073;
-            double __res_8074 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usbVersionMajor");
-            __res_8073 = Convert.ToByte(__res_8074);
-            return __res_8073;
+            byte __res_8474;
+            double __res_8475 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usbVersionMajor");
+            __res_8474 = Convert.ToByte(__res_8475);
+            return __res_8474;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            byte __res_8075;
-            double __res_8076 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usbVersionMinor");
-            __res_8075 = Convert.ToByte(__res_8076);
-            return __res_8075;
+            byte __res_8476;
+            double __res_8477 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usbVersionMinor");
+            __res_8476 = Convert.ToByte(__res_8477);
+            return __res_8476;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            byte __res_8077;
-            double __res_8078 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usbVersionSubminor");
-            __res_8077 = Convert.ToByte(__res_8078);
-            return __res_8077;
+            byte __res_8478;
+            double __res_8479 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usbVersionSubminor");
+            __res_8478 = Convert.ToByte(__res_8479);
+            return __res_8478;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            byte __res_8079;
-            double __res_8080 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceClass");
-            __res_8079 = Convert.ToByte(__res_8080);
-            return __res_8079;
+            byte __res_8480;
+            double __res_8481 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceClass");
+            __res_8480 = Convert.ToByte(__res_8481);
+            return __res_8480;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            byte __res_8081;
-            double __res_8082 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceSubclass");
-            __res_8081 = Convert.ToByte(__res_8082);
-            return __res_8081;
+            byte __res_8482;
+            double __res_8483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceSubclass");
+            __res_8482 = Convert.ToByte(__res_8483);
+            return __res_8482;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            byte __res_8083;
-            double __res_8084 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceProtocol");
-            __res_8083 = Convert.ToByte(__res_8084);
-            return __res_8083;
+            byte __res_8484;
+            double __res_8485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceProtocol");
+            __res_8484 = Convert.ToByte(__res_8485);
+            return __res_8484;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            ushort __res_8085;
-            double __res_8086 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vendorId");
-            __res_8085 = Convert.ToUInt16(__res_8086);
-            return __res_8085;
+            ushort __res_8486;
+            double __res_8487 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vendorId");
+            __res_8486 = Convert.ToUInt16(__res_8487);
+            return __res_8486;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            ushort __res_8087;
-            double __res_8088 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "productId");
-            __res_8087 = Convert.ToUInt16(__res_8088);
-            return __res_8087;
+            ushort __res_8488;
+            double __res_8489 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "productId");
+            __res_8488 = Convert.ToUInt16(__res_8489);
+            return __res_8488;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            byte __res_8089;
-            double __res_8090 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceVersionMajor");
-            __res_8089 = Convert.ToByte(__res_8090);
-            return __res_8089;
+            byte __res_8490;
+            double __res_8491 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceVersionMajor");
+            __res_8490 = Convert.ToByte(__res_8491);
+            return __res_8490;
         }
     }
 
@@ -109,10 +109,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            byte __res_8091;
-            double __res_8092 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceVersionMinor");
-            __res_8091 = Convert.ToByte(__res_8092);
-            return __res_8091;
+            byte __res_8492;
+            double __res_8493 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceVersionMinor");
+            __res_8492 = Convert.ToByte(__res_8493);
+            return __res_8492;
         }
     }
 
@@ -120,10 +120,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            byte __res_8093;
-            double __res_8094 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceVersionSubminor");
-            __res_8093 = Convert.ToByte(__res_8094);
-            return __res_8093;
+            byte __res_8494;
+            double __res_8495 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceVersionSubminor");
+            __res_8494 = Convert.ToByte(__res_8495);
+            return __res_8494;
         }
     }
 
@@ -131,18 +131,18 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string? __res_8095;
-            string? __res_8096 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "manufacturerName");
-            if (__res_8096 is null)
+            string? __res_8496;
+            string? __res_8497 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "manufacturerName");
+            if (__res_8497 is null)
             {
-                __res_8095 = null;
+                __res_8496 = null;
             }
             else
             {
-                string __notNullable_8097 = (string)__res_8096;
-                __res_8095 = __notNullable_8097;
+                string __notNullable_8498 = (string)__res_8497;
+                __res_8496 = __notNullable_8498;
             }
-            return __res_8095;
+            return __res_8496;
         }
     }
 
@@ -150,18 +150,18 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string? __res_8098;
-            string? __res_8099 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "productName");
-            if (__res_8099 is null)
+            string? __res_8499;
+            string? __res_8500 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "productName");
+            if (__res_8500 is null)
             {
-                __res_8098 = null;
+                __res_8499 = null;
             }
             else
             {
-                string __notNullable_8100 = (string)__res_8099;
-                __res_8098 = __notNullable_8100;
+                string __notNullable_8501 = (string)__res_8500;
+                __res_8499 = __notNullable_8501;
             }
-            return __res_8098;
+            return __res_8499;
         }
     }
 
@@ -169,18 +169,18 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string? __res_8101;
-            string? __res_8102 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "serialNumber");
-            if (__res_8102 is null)
+            string? __res_8502;
+            string? __res_8503 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "serialNumber");
+            if (__res_8503 is null)
             {
-                __res_8101 = null;
+                __res_8502 = null;
             }
             else
             {
-                string __notNullable_8103 = (string)__res_8102;
-                __res_8101 = __notNullable_8103;
+                string __notNullable_8504 = (string)__res_8503;
+                __res_8502 = __notNullable_8504;
             }
-            return __res_8101;
+            return __res_8502;
         }
     }
 
@@ -188,18 +188,18 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.USBConfiguration? __res_8104;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8105 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "configuration");
-            if (__res_8105 is null)
+            global::Iskra.StdWeb.USBConfiguration? __res_8505;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8506 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "configuration");
+            if (__res_8506 is null)
             {
-                __res_8104 = null;
+                __res_8505 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8106 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8105;
-                __res_8104 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USBConfiguration>(__notNullable_8106);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8507 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8506;
+                __res_8505 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USBConfiguration>(__notNullable_8507);
             }
-            return __res_8104;
+            return __res_8505;
         }
     }
 
@@ -207,11 +207,11 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8107;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8108;
-            __propObject_8108 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "configurations");
-            __res_8107 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8108);
-            return __res_8107;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8508;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8509;
+            __propObject_8509 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "configurations");
+            __res_8508 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8509);
+            return __res_8508;
         }
     }
 
@@ -219,10 +219,10 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool __res_8109;
-            bool __res_8110 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
-            __res_8109 = __res_8110;
-            return __res_8109;
+            bool __res_8510;
+            bool __res_8511 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
+            __res_8510 = __res_8511;
+            return __res_8510;
         }
     }
 }

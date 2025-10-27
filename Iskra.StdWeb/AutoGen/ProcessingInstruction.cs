@@ -10,10 +10,10 @@ public partial class ProcessingInstruction(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_5998;
-            string __res_5999 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
-            __res_5998 = __res_5999;
-            return __res_5998;
+            string __res_6240;
+            string __res_6241 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
+            __res_6240 = __res_6241;
+            return __res_6240;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class ProcessingInstruction(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleSheet? __res_6000;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6001 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sheet");
-            if (__res_6001 is null)
+            global::Iskra.StdWeb.CSSStyleSheet? __res_6242;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6243 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sheet");
+            if (__res_6243 is null)
             {
-                __res_6000 = null;
+                __res_6242 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6002 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6001;
-                __res_6000 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_6002);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6244 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6243;
+                __res_6242 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_6244);
             }
-            return __res_6000;
+            return __res_6242;
         }
     }
 }

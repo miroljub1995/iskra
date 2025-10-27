@@ -10,18 +10,18 @@ public partial class Magnetometer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double? __res_1405;
-            double? __res_1406 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_1406 is null)
+            double? __res_1417;
+            double? __res_1418 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_1418 is null)
             {
-                __res_1405 = null;
+                __res_1417 = null;
             }
             else
             {
-                double __notNullable_1407 = (double)__res_1406;
-                __res_1405 = __notNullable_1407;
+                double __notNullable_1419 = (double)__res_1418;
+                __res_1417 = __notNullable_1419;
             }
-            return __res_1405;
+            return __res_1417;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class Magnetometer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double? __res_1408;
-            double? __res_1409 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_1409 is null)
+            double? __res_1420;
+            double? __res_1421 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_1421 is null)
             {
-                __res_1408 = null;
+                __res_1420 = null;
             }
             else
             {
-                double __notNullable_1410 = (double)__res_1409;
-                __res_1408 = __notNullable_1410;
+                double __notNullable_1422 = (double)__res_1421;
+                __res_1420 = __notNullable_1422;
             }
-            return __res_1408;
+            return __res_1420;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class Magnetometer(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double? __res_1411;
-            double? __res_1412 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_1412 is null)
+            double? __res_1423;
+            double? __res_1424 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_1424 is null)
             {
-                __res_1411 = null;
+                __res_1423 = null;
             }
             else
             {
-                double __notNullable_1413 = (double)__res_1412;
-                __res_1411 = __notNullable_1413;
+                double __notNullable_1425 = (double)__res_1424;
+                __res_1423 = __notNullable_1425;
             }
-            return __res_1411;
+            return __res_1423;
         }
     }
 }

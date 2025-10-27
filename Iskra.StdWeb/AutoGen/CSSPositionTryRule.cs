@@ -10,10 +10,10 @@ public partial class CSSPositionTryRule(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_3744;
-            string __res_3745 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3744 = __res_3745;
-            return __res_3744;
+            string __res_3932;
+            string __res_3933 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_3932 = __res_3933;
+            return __res_3932;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSPositionTryRule(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.CSSPositionTryDescriptors __res_3746;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3747 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_3746 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPositionTryDescriptors>(__res_3747);
-            return __res_3746;
+            global::Iskra.StdWeb.CSSPositionTryDescriptors __res_3934;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3935 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_3934 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPositionTryDescriptors>(__res_3935);
+            return __res_3934;
         }
     }
 }

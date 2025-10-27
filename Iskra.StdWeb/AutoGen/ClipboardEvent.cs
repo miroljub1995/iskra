@@ -10,18 +10,18 @@ public partial class ClipboardEvent(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.DataTransfer? __res_2981;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2982 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "clipboardData");
-            if (__res_2982 is null)
+            global::Iskra.StdWeb.DataTransfer? __res_3157;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3158 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "clipboardData");
+            if (__res_3158 is null)
             {
-                __res_2981 = null;
+                __res_3157 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2983 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2982;
-                __res_2981 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransfer>(__notNullable_2983);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3159 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3158;
+                __res_3157 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransfer>(__notNullable_3159);
             }
-            return __res_2981;
+            return __res_3157;
         }
     }
 }

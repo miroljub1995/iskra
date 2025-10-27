@@ -10,32 +10,32 @@ public partial class NDEFReader(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7621;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7622 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreading");
-            if (__res_7622 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7951;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7952 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreading");
+            if (__res_7952 is null)
             {
-                __res_7621 = null;
+                __res_7951 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7623 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7622;
-                __res_7621 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7623);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7953 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7952;
+                __res_7951 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7953);
             }
-            return __res_7621;
+            return __res_7951;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7624;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7954;
             if (value is null)
             {
-                __marshalledValue_7624 = null;
+                __marshalledValue_7954 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7625 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7624 = __notNullable_7625.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7955 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7954 = __notNullable_7955.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreading", __marshalledValue_7624);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreading", __marshalledValue_7954);
         }
     }
 
@@ -43,32 +43,32 @@ public partial class NDEFReader(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7626;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7627 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreadingerror");
-            if (__res_7627 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7956;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7957 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreadingerror");
+            if (__res_7957 is null)
             {
-                __res_7626 = null;
+                __res_7956 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7628 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7627;
-                __res_7626 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7628);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7958 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7957;
+                __res_7956 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7958);
             }
-            return __res_7626;
+            return __res_7956;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7629;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7959;
             if (value is null)
             {
-                __marshalledValue_7629 = null;
+                __marshalledValue_7959 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7630 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7629 = __notNullable_7630.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7960 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7959 = __notNullable_7960.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreadingerror", __marshalledValue_7629);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreadingerror", __marshalledValue_7959);
         }
     }
 }

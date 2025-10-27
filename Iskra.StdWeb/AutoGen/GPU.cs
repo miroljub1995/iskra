@@ -10,10 +10,10 @@ public partial class GPU(global::System.Runtime.InteropServices.JavaScript.JSObj
     {
         get
         {
-            global::Iskra.StdWeb.WGSLLanguageFeatures __res_1518;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1519 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "wgslLanguageFeatures");
-            __res_1518 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WGSLLanguageFeatures>(__res_1519);
-            return __res_1518;
+            global::Iskra.StdWeb.WGSLLanguageFeatures __res_1530;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1531 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "wgslLanguageFeatures");
+            __res_1530 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WGSLLanguageFeatures>(__res_1531);
+            return __res_1530;
         }
     }
 }

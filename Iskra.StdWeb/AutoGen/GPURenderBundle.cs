@@ -10,16 +10,16 @@ public partial class GPURenderBundle(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_1627;
-            string __res_1628 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1627 = __res_1628;
-            return __res_1627;
+            string __res_1639;
+            string __res_1640 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1639 = __res_1640;
+            return __res_1639;
         }
         set
         {
-            string __marshalledValue_1629;
-            __marshalledValue_1629 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1629);
+            string __marshalledValue_1641;
+            __marshalledValue_1641 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1641);
         }
     }
 }

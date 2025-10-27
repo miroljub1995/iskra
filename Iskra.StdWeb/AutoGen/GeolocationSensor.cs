@@ -10,18 +10,18 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double? __res_7557;
-            double? __res_7558 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "latitude");
-            if (__res_7558 is null)
+            double? __res_7887;
+            double? __res_7888 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "latitude");
+            if (__res_7888 is null)
             {
-                __res_7557 = null;
+                __res_7887 = null;
             }
             else
             {
-                double __notNullable_7559 = (double)__res_7558;
-                __res_7557 = __notNullable_7559;
+                double __notNullable_7889 = (double)__res_7888;
+                __res_7887 = __notNullable_7889;
             }
-            return __res_7557;
+            return __res_7887;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double? __res_7560;
-            double? __res_7561 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "longitude");
-            if (__res_7561 is null)
+            double? __res_7890;
+            double? __res_7891 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "longitude");
+            if (__res_7891 is null)
             {
-                __res_7560 = null;
+                __res_7890 = null;
             }
             else
             {
-                double __notNullable_7562 = (double)__res_7561;
-                __res_7560 = __notNullable_7562;
+                double __notNullable_7892 = (double)__res_7891;
+                __res_7890 = __notNullable_7892;
             }
-            return __res_7560;
+            return __res_7890;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double? __res_7563;
-            double? __res_7564 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitude");
-            if (__res_7564 is null)
+            double? __res_7893;
+            double? __res_7894 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitude");
+            if (__res_7894 is null)
             {
-                __res_7563 = null;
+                __res_7893 = null;
             }
             else
             {
-                double __notNullable_7565 = (double)__res_7564;
-                __res_7563 = __notNullable_7565;
+                double __notNullable_7895 = (double)__res_7894;
+                __res_7893 = __notNullable_7895;
             }
-            return __res_7563;
+            return __res_7893;
         }
     }
 
@@ -67,18 +67,18 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double? __res_7566;
-            double? __res_7567 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "accuracy");
-            if (__res_7567 is null)
+            double? __res_7896;
+            double? __res_7897 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "accuracy");
+            if (__res_7897 is null)
             {
-                __res_7566 = null;
+                __res_7896 = null;
             }
             else
             {
-                double __notNullable_7568 = (double)__res_7567;
-                __res_7566 = __notNullable_7568;
+                double __notNullable_7898 = (double)__res_7897;
+                __res_7896 = __notNullable_7898;
             }
-            return __res_7566;
+            return __res_7896;
         }
     }
 
@@ -86,18 +86,18 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double? __res_7569;
-            double? __res_7570 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitudeAccuracy");
-            if (__res_7570 is null)
+            double? __res_7899;
+            double? __res_7900 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitudeAccuracy");
+            if (__res_7900 is null)
             {
-                __res_7569 = null;
+                __res_7899 = null;
             }
             else
             {
-                double __notNullable_7571 = (double)__res_7570;
-                __res_7569 = __notNullable_7571;
+                double __notNullable_7901 = (double)__res_7900;
+                __res_7899 = __notNullable_7901;
             }
-            return __res_7569;
+            return __res_7899;
         }
     }
 
@@ -105,18 +105,18 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double? __res_7572;
-            double? __res_7573 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "heading");
-            if (__res_7573 is null)
+            double? __res_7902;
+            double? __res_7903 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "heading");
+            if (__res_7903 is null)
             {
-                __res_7572 = null;
+                __res_7902 = null;
             }
             else
             {
-                double __notNullable_7574 = (double)__res_7573;
-                __res_7572 = __notNullable_7574;
+                double __notNullable_7904 = (double)__res_7903;
+                __res_7902 = __notNullable_7904;
             }
-            return __res_7572;
+            return __res_7902;
         }
     }
 
@@ -124,18 +124,18 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double? __res_7575;
-            double? __res_7576 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "speed");
-            if (__res_7576 is null)
+            double? __res_7905;
+            double? __res_7906 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "speed");
+            if (__res_7906 is null)
             {
-                __res_7575 = null;
+                __res_7905 = null;
             }
             else
             {
-                double __notNullable_7577 = (double)__res_7576;
-                __res_7575 = __notNullable_7577;
+                double __notNullable_7907 = (double)__res_7906;
+                __res_7905 = __notNullable_7907;
             }
-            return __res_7575;
+            return __res_7905;
         }
     }
 }

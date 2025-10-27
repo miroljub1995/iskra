@@ -10,18 +10,18 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCSessionDescription? __res_3090;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3091 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "localDescription");
-            if (__res_3091 is null)
+            global::Iskra.StdWeb.RTCSessionDescription? __res_3266;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3267 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "localDescription");
+            if (__res_3267 is null)
             {
-                __res_3090 = null;
+                __res_3266 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3092 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3091;
-                __res_3090 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3092);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3268 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3267;
+                __res_3266 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3268);
             }
-            return __res_3090;
+            return __res_3266;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCSessionDescription? __res_3093;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3094 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentLocalDescription");
-            if (__res_3094 is null)
+            global::Iskra.StdWeb.RTCSessionDescription? __res_3269;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3270 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentLocalDescription");
+            if (__res_3270 is null)
             {
-                __res_3093 = null;
+                __res_3269 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3095 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3094;
-                __res_3093 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3095);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3271 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3270;
+                __res_3269 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3271);
             }
-            return __res_3093;
+            return __res_3269;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCSessionDescription? __res_3096;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3097 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "pendingLocalDescription");
-            if (__res_3097 is null)
+            global::Iskra.StdWeb.RTCSessionDescription? __res_3272;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3273 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "pendingLocalDescription");
+            if (__res_3273 is null)
             {
-                __res_3096 = null;
+                __res_3272 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3098 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3097;
-                __res_3096 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3098);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3274 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3273;
+                __res_3272 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3274);
             }
-            return __res_3096;
+            return __res_3272;
         }
     }
 
@@ -67,18 +67,18 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCSessionDescription? __res_3099;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3100 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "remoteDescription");
-            if (__res_3100 is null)
+            global::Iskra.StdWeb.RTCSessionDescription? __res_3275;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3276 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "remoteDescription");
+            if (__res_3276 is null)
             {
-                __res_3099 = null;
+                __res_3275 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3101 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3100;
-                __res_3099 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3101);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3277 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3276;
+                __res_3275 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3277);
             }
-            return __res_3099;
+            return __res_3275;
         }
     }
 
@@ -86,18 +86,18 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCSessionDescription? __res_3102;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3103 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentRemoteDescription");
-            if (__res_3103 is null)
+            global::Iskra.StdWeb.RTCSessionDescription? __res_3278;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3279 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "currentRemoteDescription");
+            if (__res_3279 is null)
             {
-                __res_3102 = null;
+                __res_3278 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3104 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3103;
-                __res_3102 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3104);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3280 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3279;
+                __res_3278 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3280);
             }
-            return __res_3102;
+            return __res_3278;
         }
     }
 
@@ -105,18 +105,18 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCSessionDescription? __res_3105;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3106 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "pendingRemoteDescription");
-            if (__res_3106 is null)
+            global::Iskra.StdWeb.RTCSessionDescription? __res_3281;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3282 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "pendingRemoteDescription");
+            if (__res_3282 is null)
             {
-                __res_3105 = null;
+                __res_3281 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3107 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3106;
-                __res_3105 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3107);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3283 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3282;
+                __res_3281 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSessionDescription>(__notNullable_3283);
             }
-            return __res_3105;
+            return __res_3281;
         }
     }
 
@@ -124,10 +124,10 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCSignalingState __res_3108;
-            string __res_3109 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "signalingState");
-            __res_3108 = global::Iskra.StdWeb.RTCSignalingState.Create(__res_3109);
-            return __res_3108;
+            global::Iskra.StdWeb.RTCSignalingState __res_3284;
+            string __res_3285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "signalingState");
+            __res_3284 = global::Iskra.StdWeb.RTCSignalingState.Create(__res_3285);
+            return __res_3284;
         }
     }
 
@@ -135,10 +135,10 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCIceGatheringState __res_3110;
-            string __res_3111 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iceGatheringState");
-            __res_3110 = global::Iskra.StdWeb.RTCIceGatheringState.Create(__res_3111);
-            return __res_3110;
+            global::Iskra.StdWeb.RTCIceGatheringState __res_3286;
+            string __res_3287 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iceGatheringState");
+            __res_3286 = global::Iskra.StdWeb.RTCIceGatheringState.Create(__res_3287);
+            return __res_3286;
         }
     }
 
@@ -146,10 +146,10 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCIceConnectionState __res_3112;
-            string __res_3113 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iceConnectionState");
-            __res_3112 = global::Iskra.StdWeb.RTCIceConnectionState.Create(__res_3113);
-            return __res_3112;
+            global::Iskra.StdWeb.RTCIceConnectionState __res_3288;
+            string __res_3289 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iceConnectionState");
+            __res_3288 = global::Iskra.StdWeb.RTCIceConnectionState.Create(__res_3289);
+            return __res_3288;
         }
     }
 
@@ -157,10 +157,10 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCPeerConnectionState __res_3114;
-            string __res_3115 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "connectionState");
-            __res_3114 = global::Iskra.StdWeb.RTCPeerConnectionState.Create(__res_3115);
-            return __res_3114;
+            global::Iskra.StdWeb.RTCPeerConnectionState __res_3290;
+            string __res_3291 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "connectionState");
+            __res_3290 = global::Iskra.StdWeb.RTCPeerConnectionState.Create(__res_3291);
+            return __res_3290;
         }
     }
 
@@ -168,18 +168,18 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            bool? __res_3116;
-            bool? __res_3117 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "canTrickleIceCandidates");
-            if (__res_3117 is null)
+            bool? __res_3292;
+            bool? __res_3293 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "canTrickleIceCandidates");
+            if (__res_3293 is null)
             {
-                __res_3116 = null;
+                __res_3292 = null;
             }
             else
             {
-                bool __notNullable_3118 = (bool)__res_3117;
-                __res_3116 = __notNullable_3118;
+                bool __notNullable_3294 = (bool)__res_3293;
+                __res_3292 = __notNullable_3294;
             }
-            return __res_3116;
+            return __res_3292;
         }
     }
 
@@ -187,32 +187,32 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3119;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3120 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onnegotiationneeded");
-            if (__res_3120 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3295;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3296 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onnegotiationneeded");
+            if (__res_3296 is null)
             {
-                __res_3119 = null;
+                __res_3295 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3121 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3120;
-                __res_3119 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3121);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3297 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3296;
+                __res_3295 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3297);
             }
-            return __res_3119;
+            return __res_3295;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3122;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3298;
             if (value is null)
             {
-                __marshalledValue_3122 = null;
+                __marshalledValue_3298 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3123 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3122 = __notNullable_3123.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3299 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3298 = __notNullable_3299.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onnegotiationneeded", __marshalledValue_3122);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onnegotiationneeded", __marshalledValue_3298);
         }
     }
 
@@ -220,32 +220,32 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3124;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3125 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidate");
-            if (__res_3125 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3300;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3301 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidate");
+            if (__res_3301 is null)
             {
-                __res_3124 = null;
+                __res_3300 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3126 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3125;
-                __res_3124 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3126);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3302 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3301;
+                __res_3300 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3302);
             }
-            return __res_3124;
+            return __res_3300;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3127;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3303;
             if (value is null)
             {
-                __marshalledValue_3127 = null;
+                __marshalledValue_3303 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3128 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3127 = __notNullable_3128.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3304 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3303 = __notNullable_3304.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidate", __marshalledValue_3127);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidate", __marshalledValue_3303);
         }
     }
 
@@ -253,32 +253,32 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3129;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3130 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidateerror");
-            if (__res_3130 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3305;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3306 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidateerror");
+            if (__res_3306 is null)
             {
-                __res_3129 = null;
+                __res_3305 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3131 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3130;
-                __res_3129 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3131);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3307 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3306;
+                __res_3305 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3307);
             }
-            return __res_3129;
+            return __res_3305;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3132;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3308;
             if (value is null)
             {
-                __marshalledValue_3132 = null;
+                __marshalledValue_3308 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3133 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3132 = __notNullable_3133.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3309 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3308 = __notNullable_3309.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidateerror", __marshalledValue_3132);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onicecandidateerror", __marshalledValue_3308);
         }
     }
 
@@ -286,32 +286,32 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3134;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3135 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsignalingstatechange");
-            if (__res_3135 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3310;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3311 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsignalingstatechange");
+            if (__res_3311 is null)
             {
-                __res_3134 = null;
+                __res_3310 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3136 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3135;
-                __res_3134 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3136);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3312 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3311;
+                __res_3310 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3312);
             }
-            return __res_3134;
+            return __res_3310;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3137;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3313;
             if (value is null)
             {
-                __marshalledValue_3137 = null;
+                __marshalledValue_3313 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3138 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3137 = __notNullable_3138.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3314 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3313 = __notNullable_3314.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsignalingstatechange", __marshalledValue_3137);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsignalingstatechange", __marshalledValue_3313);
         }
     }
 
@@ -319,32 +319,32 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3139;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3140 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oniceconnectionstatechange");
-            if (__res_3140 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3315;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3316 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oniceconnectionstatechange");
+            if (__res_3316 is null)
             {
-                __res_3139 = null;
+                __res_3315 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3141 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3140;
-                __res_3139 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3141);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3317 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3316;
+                __res_3315 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3317);
             }
-            return __res_3139;
+            return __res_3315;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3142;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3318;
             if (value is null)
             {
-                __marshalledValue_3142 = null;
+                __marshalledValue_3318 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3143 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3142 = __notNullable_3143.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3319 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3318 = __notNullable_3319.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oniceconnectionstatechange", __marshalledValue_3142);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oniceconnectionstatechange", __marshalledValue_3318);
         }
     }
 
@@ -352,32 +352,32 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3144;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3145 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onicegatheringstatechange");
-            if (__res_3145 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3320;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onicegatheringstatechange");
+            if (__res_3321 is null)
             {
-                __res_3144 = null;
+                __res_3320 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3146 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3145;
-                __res_3144 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3146);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3322 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3321;
+                __res_3320 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3322);
             }
-            return __res_3144;
+            return __res_3320;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3147;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3323;
             if (value is null)
             {
-                __marshalledValue_3147 = null;
+                __marshalledValue_3323 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3148 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3147 = __notNullable_3148.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3324 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3323 = __notNullable_3324.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onicegatheringstatechange", __marshalledValue_3147);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onicegatheringstatechange", __marshalledValue_3323);
         }
     }
 
@@ -385,32 +385,32 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3149;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3150 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionstatechange");
-            if (__res_3150 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3325;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3326 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionstatechange");
+            if (__res_3326 is null)
             {
-                __res_3149 = null;
+                __res_3325 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3151 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3150;
-                __res_3149 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3151);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3327 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3326;
+                __res_3325 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3327);
             }
-            return __res_3149;
+            return __res_3325;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3152;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3328;
             if (value is null)
             {
-                __marshalledValue_3152 = null;
+                __marshalledValue_3328 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3153 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3152 = __notNullable_3153.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3329 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3328 = __notNullable_3329.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionstatechange", __marshalledValue_3152);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnectionstatechange", __marshalledValue_3328);
         }
     }
 
@@ -418,32 +418,32 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3154;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3155 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontrack");
-            if (__res_3155 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3330;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3331 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontrack");
+            if (__res_3331 is null)
             {
-                __res_3154 = null;
+                __res_3330 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3156 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3155;
-                __res_3154 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3156);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3332 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3331;
+                __res_3330 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3332);
             }
-            return __res_3154;
+            return __res_3330;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3157;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3333;
             if (value is null)
             {
-                __marshalledValue_3157 = null;
+                __marshalledValue_3333 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3158 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3157 = __notNullable_3158.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3334 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3333 = __notNullable_3334.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontrack", __marshalledValue_3157);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontrack", __marshalledValue_3333);
         }
     }
 
@@ -451,18 +451,18 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.RTCSctpTransport? __res_3159;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3160 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sctp");
-            if (__res_3160 is null)
+            global::Iskra.StdWeb.RTCSctpTransport? __res_3335;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3336 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sctp");
+            if (__res_3336 is null)
             {
-                __res_3159 = null;
+                __res_3335 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3161 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3160;
-                __res_3159 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSctpTransport>(__notNullable_3161);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3337 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3336;
+                __res_3335 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCSctpTransport>(__notNullable_3337);
             }
-            return __res_3159;
+            return __res_3335;
         }
     }
 
@@ -470,32 +470,32 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3162;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondatachannel");
-            if (__res_3163 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3338;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3339 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondatachannel");
+            if (__res_3339 is null)
             {
-                __res_3162 = null;
+                __res_3338 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3164 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3163;
-                __res_3162 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3164);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3340 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3339;
+                __res_3338 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3340);
             }
-            return __res_3162;
+            return __res_3338;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3165;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3341;
             if (value is null)
             {
-                __marshalledValue_3165 = null;
+                __marshalledValue_3341 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3166 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3165 = __notNullable_3166.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3342 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3341 = __notNullable_3342.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondatachannel", __marshalledValue_3165);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondatachannel", __marshalledValue_3341);
         }
     }
 
@@ -503,11 +503,11 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertion, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_3167;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3168;
-            __propObject_3168 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "peerIdentity");
-            __res_3167 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertion, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_3168);
-            return __res_3167;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertion, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_3343;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3344;
+            __propObject_3344 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "peerIdentity");
+            __res_3343 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertion, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_3344);
+            return __res_3343;
         }
     }
 
@@ -515,18 +515,18 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string? __res_3169;
-            string? __res_3170 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "idpLoginUrl");
-            if (__res_3170 is null)
+            string? __res_3345;
+            string? __res_3346 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "idpLoginUrl");
+            if (__res_3346 is null)
             {
-                __res_3169 = null;
+                __res_3345 = null;
             }
             else
             {
-                string __notNullable_3171 = (string)__res_3170;
-                __res_3169 = __notNullable_3171;
+                string __notNullable_3347 = (string)__res_3346;
+                __res_3345 = __notNullable_3347;
             }
-            return __res_3169;
+            return __res_3345;
         }
     }
 
@@ -534,18 +534,18 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string? __res_3172;
-            string? __res_3173 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "idpErrorInfo");
-            if (__res_3173 is null)
+            string? __res_3348;
+            string? __res_3349 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "idpErrorInfo");
+            if (__res_3349 is null)
             {
-                __res_3172 = null;
+                __res_3348 = null;
             }
             else
             {
-                string __notNullable_3174 = (string)__res_3173;
-                __res_3172 = __notNullable_3174;
+                string __notNullable_3350 = (string)__res_3349;
+                __res_3348 = __notNullable_3350;
             }
-            return __res_3172;
+            return __res_3348;
         }
     }
 }

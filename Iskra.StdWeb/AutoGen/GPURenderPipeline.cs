@@ -10,16 +10,16 @@ public partial class GPURenderPipeline(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_1612;
-            string __res_1613 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1612 = __res_1613;
-            return __res_1612;
+            string __res_1624;
+            string __res_1625 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1624 = __res_1625;
+            return __res_1624;
         }
         set
         {
-            string __marshalledValue_1614;
-            __marshalledValue_1614 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1614);
+            string __marshalledValue_1626;
+            __marshalledValue_1626 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1626);
         }
     }
 }

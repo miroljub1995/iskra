@@ -10,9 +10,9 @@ public partial class VoidFunction(global::System.Runtime.InteropServices.JavaScr
 {
     public static implicit operator VoidFunction(VoidFunctionManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6136) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6394) =>
         {
-            using (__args_6136)
+            using (__args_6394)
             {
 
 
@@ -20,12 +20,32 @@ public partial class VoidFunction(global::System.Runtime.InteropServices.JavaScr
             }
         };
 
-        return new global::Iskra.StdWeb.VoidFunction(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_6396 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_6396, input);
+
+        return new global::Iskra.StdWeb.VoidFunction(__funcObj_6396);
     }
-    
-    public static implicit operator VoidFunctionManaged(VoidFunction input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.VoidFunctionManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.VoidFunctionManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = () =>
+        {
+
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunction(JSObject, null);
+        };
+        return true;
     }
 }
 

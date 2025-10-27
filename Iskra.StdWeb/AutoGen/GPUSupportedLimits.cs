@@ -10,10 +10,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1442;
-            double __res_1443 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureDimension1D");
-            __res_1442 = Convert.ToUInt32(__res_1443);
-            return __res_1442;
+            uint __res_1454;
+            double __res_1455 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureDimension1D");
+            __res_1454 = Convert.ToUInt32(__res_1455);
+            return __res_1454;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1444;
-            double __res_1445 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureDimension2D");
-            __res_1444 = Convert.ToUInt32(__res_1445);
-            return __res_1444;
+            uint __res_1456;
+            double __res_1457 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureDimension2D");
+            __res_1456 = Convert.ToUInt32(__res_1457);
+            return __res_1456;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1446;
-            double __res_1447 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureDimension3D");
-            __res_1446 = Convert.ToUInt32(__res_1447);
-            return __res_1446;
+            uint __res_1458;
+            double __res_1459 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureDimension3D");
+            __res_1458 = Convert.ToUInt32(__res_1459);
+            return __res_1458;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1448;
-            double __res_1449 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureArrayLayers");
-            __res_1448 = Convert.ToUInt32(__res_1449);
-            return __res_1448;
+            uint __res_1460;
+            double __res_1461 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureArrayLayers");
+            __res_1460 = Convert.ToUInt32(__res_1461);
+            return __res_1460;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1450;
-            double __res_1451 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBindGroups");
-            __res_1450 = Convert.ToUInt32(__res_1451);
-            return __res_1450;
+            uint __res_1462;
+            double __res_1463 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBindGroups");
+            __res_1462 = Convert.ToUInt32(__res_1463);
+            return __res_1462;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1452;
-            double __res_1453 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBindGroupsPlusVertexBuffers");
-            __res_1452 = Convert.ToUInt32(__res_1453);
-            return __res_1452;
+            uint __res_1464;
+            double __res_1465 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBindGroupsPlusVertexBuffers");
+            __res_1464 = Convert.ToUInt32(__res_1465);
+            return __res_1464;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1454;
-            double __res_1455 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBindingsPerBindGroup");
-            __res_1454 = Convert.ToUInt32(__res_1455);
-            return __res_1454;
+            uint __res_1466;
+            double __res_1467 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBindingsPerBindGroup");
+            __res_1466 = Convert.ToUInt32(__res_1467);
+            return __res_1466;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1456;
-            double __res_1457 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDynamicUniformBuffersPerPipelineLayout");
-            __res_1456 = Convert.ToUInt32(__res_1457);
-            return __res_1456;
+            uint __res_1468;
+            double __res_1469 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDynamicUniformBuffersPerPipelineLayout");
+            __res_1468 = Convert.ToUInt32(__res_1469);
+            return __res_1468;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1458;
-            double __res_1459 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDynamicStorageBuffersPerPipelineLayout");
-            __res_1458 = Convert.ToUInt32(__res_1459);
-            return __res_1458;
+            uint __res_1470;
+            double __res_1471 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDynamicStorageBuffersPerPipelineLayout");
+            __res_1470 = Convert.ToUInt32(__res_1471);
+            return __res_1470;
         }
     }
 
@@ -109,10 +109,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1460;
-            double __res_1461 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxSampledTexturesPerShaderStage");
-            __res_1460 = Convert.ToUInt32(__res_1461);
-            return __res_1460;
+            uint __res_1472;
+            double __res_1473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxSampledTexturesPerShaderStage");
+            __res_1472 = Convert.ToUInt32(__res_1473);
+            return __res_1472;
         }
     }
 
@@ -120,10 +120,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1462;
-            double __res_1463 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxSamplersPerShaderStage");
-            __res_1462 = Convert.ToUInt32(__res_1463);
-            return __res_1462;
+            uint __res_1474;
+            double __res_1475 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxSamplersPerShaderStage");
+            __res_1474 = Convert.ToUInt32(__res_1475);
+            return __res_1474;
         }
     }
 
@@ -131,10 +131,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1464;
-            double __res_1465 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxStorageBuffersPerShaderStage");
-            __res_1464 = Convert.ToUInt32(__res_1465);
-            return __res_1464;
+            uint __res_1476;
+            double __res_1477 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxStorageBuffersPerShaderStage");
+            __res_1476 = Convert.ToUInt32(__res_1477);
+            return __res_1476;
         }
     }
 
@@ -142,10 +142,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1466;
-            double __res_1467 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxStorageTexturesPerShaderStage");
-            __res_1466 = Convert.ToUInt32(__res_1467);
-            return __res_1466;
+            uint __res_1478;
+            double __res_1479 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxStorageTexturesPerShaderStage");
+            __res_1478 = Convert.ToUInt32(__res_1479);
+            return __res_1478;
         }
     }
 
@@ -153,10 +153,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1468;
-            double __res_1469 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxUniformBuffersPerShaderStage");
-            __res_1468 = Convert.ToUInt32(__res_1469);
-            return __res_1468;
+            uint __res_1480;
+            double __res_1481 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxUniformBuffersPerShaderStage");
+            __res_1480 = Convert.ToUInt32(__res_1481);
+            return __res_1480;
         }
     }
 
@@ -164,10 +164,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            ulong __res_1470;
-            double __res_1471 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxUniformBufferBindingSize");
-            __res_1470 = Convert.ToUInt64(__res_1471);
-            return __res_1470;
+            ulong __res_1482;
+            double __res_1483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxUniformBufferBindingSize");
+            __res_1482 = Convert.ToUInt64(__res_1483);
+            return __res_1482;
         }
     }
 
@@ -175,10 +175,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            ulong __res_1472;
-            double __res_1473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxStorageBufferBindingSize");
-            __res_1472 = Convert.ToUInt64(__res_1473);
-            return __res_1472;
+            ulong __res_1484;
+            double __res_1485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxStorageBufferBindingSize");
+            __res_1484 = Convert.ToUInt64(__res_1485);
+            return __res_1484;
         }
     }
 
@@ -186,10 +186,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1474;
-            double __res_1475 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minUniformBufferOffsetAlignment");
-            __res_1474 = Convert.ToUInt32(__res_1475);
-            return __res_1474;
+            uint __res_1486;
+            double __res_1487 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minUniformBufferOffsetAlignment");
+            __res_1486 = Convert.ToUInt32(__res_1487);
+            return __res_1486;
         }
     }
 
@@ -197,10 +197,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1476;
-            double __res_1477 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minStorageBufferOffsetAlignment");
-            __res_1476 = Convert.ToUInt32(__res_1477);
-            return __res_1476;
+            uint __res_1488;
+            double __res_1489 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minStorageBufferOffsetAlignment");
+            __res_1488 = Convert.ToUInt32(__res_1489);
+            return __res_1488;
         }
     }
 
@@ -208,10 +208,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1478;
-            double __res_1479 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxVertexBuffers");
-            __res_1478 = Convert.ToUInt32(__res_1479);
-            return __res_1478;
+            uint __res_1490;
+            double __res_1491 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxVertexBuffers");
+            __res_1490 = Convert.ToUInt32(__res_1491);
+            return __res_1490;
         }
     }
 
@@ -219,10 +219,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            ulong __res_1480;
-            double __res_1481 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBufferSize");
-            __res_1480 = Convert.ToUInt64(__res_1481);
-            return __res_1480;
+            ulong __res_1492;
+            double __res_1493 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBufferSize");
+            __res_1492 = Convert.ToUInt64(__res_1493);
+            return __res_1492;
         }
     }
 
@@ -230,10 +230,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1482;
-            double __res_1483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxVertexAttributes");
-            __res_1482 = Convert.ToUInt32(__res_1483);
-            return __res_1482;
+            uint __res_1494;
+            double __res_1495 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxVertexAttributes");
+            __res_1494 = Convert.ToUInt32(__res_1495);
+            return __res_1494;
         }
     }
 
@@ -241,10 +241,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1484;
-            double __res_1485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxVertexBufferArrayStride");
-            __res_1484 = Convert.ToUInt32(__res_1485);
-            return __res_1484;
+            uint __res_1496;
+            double __res_1497 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxVertexBufferArrayStride");
+            __res_1496 = Convert.ToUInt32(__res_1497);
+            return __res_1496;
         }
     }
 
@@ -252,10 +252,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1486;
-            double __res_1487 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxInterStageShaderVariables");
-            __res_1486 = Convert.ToUInt32(__res_1487);
-            return __res_1486;
+            uint __res_1498;
+            double __res_1499 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxInterStageShaderVariables");
+            __res_1498 = Convert.ToUInt32(__res_1499);
+            return __res_1498;
         }
     }
 
@@ -263,10 +263,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1488;
-            double __res_1489 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxColorAttachments");
-            __res_1488 = Convert.ToUInt32(__res_1489);
-            return __res_1488;
+            uint __res_1500;
+            double __res_1501 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxColorAttachments");
+            __res_1500 = Convert.ToUInt32(__res_1501);
+            return __res_1500;
         }
     }
 
@@ -274,10 +274,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1490;
-            double __res_1491 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxColorAttachmentBytesPerSample");
-            __res_1490 = Convert.ToUInt32(__res_1491);
-            return __res_1490;
+            uint __res_1502;
+            double __res_1503 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxColorAttachmentBytesPerSample");
+            __res_1502 = Convert.ToUInt32(__res_1503);
+            return __res_1502;
         }
     }
 
@@ -285,10 +285,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1492;
-            double __res_1493 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupStorageSize");
-            __res_1492 = Convert.ToUInt32(__res_1493);
-            return __res_1492;
+            uint __res_1504;
+            double __res_1505 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupStorageSize");
+            __res_1504 = Convert.ToUInt32(__res_1505);
+            return __res_1504;
         }
     }
 
@@ -296,10 +296,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1494;
-            double __res_1495 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeInvocationsPerWorkgroup");
-            __res_1494 = Convert.ToUInt32(__res_1495);
-            return __res_1494;
+            uint __res_1506;
+            double __res_1507 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeInvocationsPerWorkgroup");
+            __res_1506 = Convert.ToUInt32(__res_1507);
+            return __res_1506;
         }
     }
 
@@ -307,10 +307,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1496;
-            double __res_1497 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupSizeX");
-            __res_1496 = Convert.ToUInt32(__res_1497);
-            return __res_1496;
+            uint __res_1508;
+            double __res_1509 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupSizeX");
+            __res_1508 = Convert.ToUInt32(__res_1509);
+            return __res_1508;
         }
     }
 
@@ -318,10 +318,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1498;
-            double __res_1499 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupSizeY");
-            __res_1498 = Convert.ToUInt32(__res_1499);
-            return __res_1498;
+            uint __res_1510;
+            double __res_1511 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupSizeY");
+            __res_1510 = Convert.ToUInt32(__res_1511);
+            return __res_1510;
         }
     }
 
@@ -329,10 +329,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1500;
-            double __res_1501 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupSizeZ");
-            __res_1500 = Convert.ToUInt32(__res_1501);
-            return __res_1500;
+            uint __res_1512;
+            double __res_1513 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupSizeZ");
+            __res_1512 = Convert.ToUInt32(__res_1513);
+            return __res_1512;
         }
     }
 
@@ -340,10 +340,10 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_1502;
-            double __res_1503 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupsPerDimension");
-            __res_1502 = Convert.ToUInt32(__res_1503);
-            return __res_1502;
+            uint __res_1514;
+            double __res_1515 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupsPerDimension");
+            __res_1514 = Convert.ToUInt32(__res_1515);
+            return __res_1514;
         }
     }
 }

@@ -10,16 +10,16 @@ public partial class CSSKeyframesRule(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_4617;
-            string __res_4618 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4617 = __res_4618;
-            return __res_4617;
+            string __res_4852;
+            string __res_4853 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4852 = __res_4853;
+            return __res_4852;
         }
         set
         {
-            string __marshalledValue_4619;
-            __marshalledValue_4619 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_4619);
+            string __marshalledValue_4854;
+            __marshalledValue_4854 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_4854);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSKeyframesRule(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.CSSRuleList __res_4620;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4621 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            __res_4620 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_4621);
-            return __res_4620;
+            global::Iskra.StdWeb.CSSRuleList __res_4855;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4856 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            __res_4855 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_4856);
+            return __res_4855;
         }
     }
 
@@ -38,10 +38,10 @@ public partial class CSSKeyframesRule(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_4622;
-            double __res_4623 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_4622 = Convert.ToUInt32(__res_4623);
-            return __res_4622;
+            uint __res_4857;
+            double __res_4858 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_4857 = Convert.ToUInt32(__res_4858);
+            return __res_4857;
         }
     }
 }

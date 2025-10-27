@@ -10,10 +10,10 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_1553;
-            double __res_1554 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_1553 = Convert.ToUInt32(__res_1554);
-            return __res_1553;
+            uint __res_1565;
+            double __res_1566 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_1565 = Convert.ToUInt32(__res_1566);
+            return __res_1565;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_1555;
-            double __res_1556 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_1555 = Convert.ToUInt32(__res_1556);
-            return __res_1555;
+            uint __res_1567;
+            double __res_1568 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_1567 = Convert.ToUInt32(__res_1568);
+            return __res_1567;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_1557;
-            double __res_1558 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "depthOrArrayLayers");
-            __res_1557 = Convert.ToUInt32(__res_1558);
-            return __res_1557;
+            uint __res_1569;
+            double __res_1570 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "depthOrArrayLayers");
+            __res_1569 = Convert.ToUInt32(__res_1570);
+            return __res_1569;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_1559;
-            double __res_1560 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "mipLevelCount");
-            __res_1559 = Convert.ToUInt32(__res_1560);
-            return __res_1559;
+            uint __res_1571;
+            double __res_1572 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "mipLevelCount");
+            __res_1571 = Convert.ToUInt32(__res_1572);
+            return __res_1571;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_1561;
-            double __res_1562 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleCount");
-            __res_1561 = Convert.ToUInt32(__res_1562);
-            return __res_1561;
+            uint __res_1573;
+            double __res_1574 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleCount");
+            __res_1573 = Convert.ToUInt32(__res_1574);
+            return __res_1573;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.GPUTextureDimension __res_1563;
-            string __res_1564 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dimension");
-            __res_1563 = global::Iskra.StdWeb.GPUTextureDimension.Create(__res_1564);
-            return __res_1563;
+            global::Iskra.StdWeb.GPUTextureDimension __res_1575;
+            string __res_1576 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dimension");
+            __res_1575 = global::Iskra.StdWeb.GPUTextureDimension.Create(__res_1576);
+            return __res_1575;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.GPUTextureFormat __res_1565;
-            string __res_1566 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
-            __res_1565 = global::Iskra.StdWeb.GPUTextureFormat.Create(__res_1566);
-            return __res_1565;
+            global::Iskra.StdWeb.GPUTextureFormat __res_1577;
+            string __res_1578 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
+            __res_1577 = global::Iskra.StdWeb.GPUTextureFormat.Create(__res_1578);
+            return __res_1577;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            uint __res_1567;
-            double __res_1568 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
-            __res_1567 = Convert.ToUInt32(__res_1568);
-            return __res_1567;
+            uint __res_1579;
+            double __res_1580 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
+            __res_1579 = Convert.ToUInt32(__res_1580);
+            return __res_1579;
         }
     }
 
@@ -98,16 +98,16 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_1569;
-            string __res_1570 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1569 = __res_1570;
-            return __res_1569;
+            string __res_1581;
+            string __res_1582 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1581 = __res_1582;
+            return __res_1581;
         }
         set
         {
-            string __marshalledValue_1571;
-            __marshalledValue_1571 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1571);
+            string __marshalledValue_1583;
+            __marshalledValue_1583 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1583);
         }
     }
 }

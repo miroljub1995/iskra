@@ -10,10 +10,10 @@ public partial class RTCDataChannelEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.RTCDataChannel __res_3424;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3425 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channel");
-            __res_3424 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCDataChannel>(__res_3425);
-            return __res_3424;
+            global::Iskra.StdWeb.RTCDataChannel __res_3612;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3613 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channel");
+            __res_3612 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCDataChannel>(__res_3613);
+            return __res_3612;
         }
     }
 }

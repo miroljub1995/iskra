@@ -10,25 +10,52 @@ public partial class VideoFrameOutputCallback(global::System.Runtime.InteropServ
 {
     public static implicit operator VideoFrameOutputCallback(VideoFrameOutputCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3999) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4193) =>
         {
-            using (__args_3999)
+            using (__args_4193)
             {
                 // Argument 1
-                global::Iskra.StdWeb.VideoFrame __arg_4001;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4002 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3999, 0);
-                __arg_4001 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoFrame>(__res_4002);
+                global::Iskra.StdWeb.VideoFrame __arg_4195;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4196 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4193, 0);
+                __arg_4195 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoFrame>(__res_4196);
 
-                input(__arg_4001);
+                input(__arg_4195);
             }
         };
 
-        return new global::Iskra.StdWeb.VideoFrameOutputCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_4197 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_4197, input);
+
+        return new global::Iskra.StdWeb.VideoFrameOutputCallback(__funcObj_4197);
     }
-    
-    public static implicit operator VideoFrameOutputCallbackManaged(VideoFrameOutputCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.VideoFrameOutputCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.VideoFrameOutputCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (output) =>
+        {
+            int __argsArrayLength_4201 = 1;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_4198 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_4201);
+
+            // Argument 1
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_4202;
+            __marshalledValue_4202 = output.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_4198.JSObject, 0, __marshalledValue_4202);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_4198.JSObject);
+        };
+        return true;
     }
 }
 

@@ -10,18 +10,18 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.AudioSampleFormat? __res_4055;
-            string? __res_4056 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "format");
-            if (__res_4056 is null)
+            global::Iskra.StdWeb.AudioSampleFormat? __res_4275;
+            string? __res_4276 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "format");
+            if (__res_4276 is null)
             {
-                __res_4055 = null;
+                __res_4275 = null;
             }
             else
             {
-                string __notNullable_4057 = (string)__res_4056;
-                __res_4055 = global::Iskra.StdWeb.AudioSampleFormat.Create(__notNullable_4057);
+                string __notNullable_4277 = (string)__res_4276;
+                __res_4275 = global::Iskra.StdWeb.AudioSampleFormat.Create(__notNullable_4277);
             }
-            return __res_4055;
+            return __res_4275;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            float __res_4058;
-            double __res_4059 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
-            __res_4058 = Convert.ToSingle(__res_4059);
-            return __res_4058;
+            float __res_4278;
+            double __res_4279 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
+            __res_4278 = Convert.ToSingle(__res_4279);
+            return __res_4278;
         }
     }
 
@@ -40,10 +40,10 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_4060;
-            double __res_4061 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfFrames");
-            __res_4060 = Convert.ToUInt32(__res_4061);
-            return __res_4060;
+            uint __res_4280;
+            double __res_4281 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfFrames");
+            __res_4280 = Convert.ToUInt32(__res_4281);
+            return __res_4280;
         }
     }
 
@@ -51,10 +51,10 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_4062;
-            double __res_4063 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfChannels");
-            __res_4062 = Convert.ToUInt32(__res_4063);
-            return __res_4062;
+            uint __res_4282;
+            double __res_4283 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfChannels");
+            __res_4282 = Convert.ToUInt32(__res_4283);
+            return __res_4282;
         }
     }
 
@@ -62,10 +62,10 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            ulong __res_4064;
-            double __res_4065 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_4064 = Convert.ToUInt64(__res_4065);
-            return __res_4064;
+            ulong __res_4284;
+            double __res_4285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_4284 = Convert.ToUInt64(__res_4285);
+            return __res_4284;
         }
     }
 
@@ -73,10 +73,10 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            long __res_4066;
-            double __res_4067 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_4066 = Convert.ToInt64(__res_4067);
-            return __res_4066;
+            long __res_4286;
+            double __res_4287 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_4286 = Convert.ToInt64(__res_4287);
+            return __res_4286;
         }
     }
 }

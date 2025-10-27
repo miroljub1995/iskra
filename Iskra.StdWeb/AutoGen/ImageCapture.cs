@@ -10,10 +10,10 @@ public partial class ImageCapture(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.MediaStreamTrack __res_8235;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8236 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            __res_8235 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_8236);
-            return __res_8235;
+            global::Iskra.StdWeb.MediaStreamTrack __res_8650;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8651 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            __res_8650 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_8651);
+            return __res_8650;
         }
     }
 }

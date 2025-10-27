@@ -10,18 +10,18 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.XRHand? __res_7115;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7116 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "hand");
-            if (__res_7116 is null)
+            global::Iskra.StdWeb.XRHand? __res_7431;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7432 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "hand");
+            if (__res_7432 is null)
             {
-                __res_7115 = null;
+                __res_7431 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7117 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7116;
-                __res_7115 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRHand>(__notNullable_7117);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7433 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7432;
+                __res_7431 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRHand>(__notNullable_7433);
             }
-            return __res_7115;
+            return __res_7431;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.Gamepad? __res_7118;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7119 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "gamepad");
-            if (__res_7119 is null)
+            global::Iskra.StdWeb.Gamepad? __res_7434;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7435 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "gamepad");
+            if (__res_7435 is null)
             {
-                __res_7118 = null;
+                __res_7434 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7120 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7119;
-                __res_7118 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Gamepad>(__notNullable_7120);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7436 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7435;
+                __res_7434 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Gamepad>(__notNullable_7436);
             }
-            return __res_7118;
+            return __res_7434;
         }
     }
 
@@ -48,10 +48,10 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.XRHandedness __res_7121;
-            string __res_7122 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "handedness");
-            __res_7121 = global::Iskra.StdWeb.XRHandedness.Create(__res_7122);
-            return __res_7121;
+            global::Iskra.StdWeb.XRHandedness __res_7437;
+            string __res_7438 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "handedness");
+            __res_7437 = global::Iskra.StdWeb.XRHandedness.Create(__res_7438);
+            return __res_7437;
         }
     }
 
@@ -59,10 +59,10 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.XRTargetRayMode __res_7123;
-            string __res_7124 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetRayMode");
-            __res_7123 = global::Iskra.StdWeb.XRTargetRayMode.Create(__res_7124);
-            return __res_7123;
+            global::Iskra.StdWeb.XRTargetRayMode __res_7439;
+            string __res_7440 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetRayMode");
+            __res_7439 = global::Iskra.StdWeb.XRTargetRayMode.Create(__res_7440);
+            return __res_7439;
         }
     }
 
@@ -70,10 +70,10 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.XRSpace __res_7125;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7126 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRaySpace");
-            __res_7125 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_7126);
-            return __res_7125;
+            global::Iskra.StdWeb.XRSpace __res_7441;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7442 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetRaySpace");
+            __res_7441 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_7442);
+            return __res_7441;
         }
     }
 
@@ -81,18 +81,18 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.XRSpace? __res_7127;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7128 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "gripSpace");
-            if (__res_7128 is null)
+            global::Iskra.StdWeb.XRSpace? __res_7443;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7444 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "gripSpace");
+            if (__res_7444 is null)
             {
-                __res_7127 = null;
+                __res_7443 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7129 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7128;
-                __res_7127 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__notNullable_7129);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7445 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7444;
+                __res_7443 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__notNullable_7445);
             }
-            return __res_7127;
+            return __res_7443;
         }
     }
 
@@ -100,11 +100,11 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7130;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7131;
-            __propObject_7131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "profiles");
-            __res_7130 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7131);
-            return __res_7130;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7446;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7447;
+            __propObject_7447 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "profiles");
+            __res_7446 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7447);
+            return __res_7446;
         }
     }
 
@@ -112,10 +112,10 @@ public partial class XRInputSource(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_7132;
-            bool __res_7133 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipRendering");
-            __res_7132 = __res_7133;
-            return __res_7132;
+            bool __res_7448;
+            bool __res_7449 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "skipRendering");
+            __res_7448 = __res_7449;
+            return __res_7448;
         }
     }
 }

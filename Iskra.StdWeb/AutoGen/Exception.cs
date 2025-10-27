@@ -10,18 +10,18 @@ public partial class Exception(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string? __res_7644;
-            string? __res_7645 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stack");
-            if (__res_7645 is null)
+            string? __res_7974;
+            string? __res_7975 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stack");
+            if (__res_7975 is null)
             {
-                __res_7644 = null;
+                __res_7974 = null;
             }
             else
             {
-                string __notNullable_7646 = (string)__res_7645;
-                __res_7644 = __notNullable_7646;
+                string __notNullable_7976 = (string)__res_7975;
+                __res_7974 = __notNullable_7976;
             }
-            return __res_7644;
+            return __res_7974;
         }
     }
 }

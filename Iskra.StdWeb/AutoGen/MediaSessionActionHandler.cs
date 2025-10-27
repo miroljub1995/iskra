@@ -10,25 +10,52 @@ public partial class MediaSessionActionHandler(global::System.Runtime.InteropSer
 {
     public static implicit operator MediaSessionActionHandler(MediaSessionActionHandlerManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1373) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1379) =>
         {
-            using (__args_1373)
+            using (__args_1379)
             {
                 // Argument 1
-                global::Iskra.StdWeb.MediaSessionActionDetails __arg_1375;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1376 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1373, 0);
-                __arg_1375 = new global::Iskra.StdWeb.MediaSessionActionDetails(__res_1376);
+                global::Iskra.StdWeb.MediaSessionActionDetails __arg_1381;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1382 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1379, 0);
+                __arg_1381 = new global::Iskra.StdWeb.MediaSessionActionDetails(__res_1382);
 
-                input(__arg_1375);
+                input(__arg_1381);
             }
         };
 
-        return new global::Iskra.StdWeb.MediaSessionActionHandler(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1383 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1383, input);
+
+        return new global::Iskra.StdWeb.MediaSessionActionHandler(__funcObj_1383);
     }
-    
-    public static implicit operator MediaSessionActionHandlerManaged(MediaSessionActionHandler input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.MediaSessionActionHandlerManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.MediaSessionActionHandlerManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (details) =>
+        {
+            int __argsArrayLength_1387 = 1;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1384 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_1387);
+
+            // Argument 1
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1388;
+            __marshalledValue_1388 = details.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1384.JSObject, 0, __marshalledValue_1388);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_1384.JSObject);
+        };
+        return true;
     }
 }
 

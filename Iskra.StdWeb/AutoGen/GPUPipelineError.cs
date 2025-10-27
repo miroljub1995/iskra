@@ -10,10 +10,10 @@ public partial class GPUPipelineError(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.GPUPipelineErrorReason __res_1607;
-            string __res_1608 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
-            __res_1607 = global::Iskra.StdWeb.GPUPipelineErrorReason.Create(__res_1608);
-            return __res_1607;
+            global::Iskra.StdWeb.GPUPipelineErrorReason __res_1619;
+            string __res_1620 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
+            __res_1619 = global::Iskra.StdWeb.GPUPipelineErrorReason.Create(__res_1620);
+            return __res_1619;
         }
     }
 }

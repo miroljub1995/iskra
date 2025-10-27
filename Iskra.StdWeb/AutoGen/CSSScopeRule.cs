@@ -10,18 +10,18 @@ public partial class CSSScopeRule(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string? __res_6457;
-            string? __res_6458 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "start");
-            if (__res_6458 is null)
+            string? __res_6726;
+            string? __res_6727 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "start");
+            if (__res_6727 is null)
             {
-                __res_6457 = null;
+                __res_6726 = null;
             }
             else
             {
-                string __notNullable_6459 = (string)__res_6458;
-                __res_6457 = __notNullable_6459;
+                string __notNullable_6728 = (string)__res_6727;
+                __res_6726 = __notNullable_6728;
             }
-            return __res_6457;
+            return __res_6726;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class CSSScopeRule(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string? __res_6460;
-            string? __res_6461 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "end");
-            if (__res_6461 is null)
+            string? __res_6729;
+            string? __res_6730 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "end");
+            if (__res_6730 is null)
             {
-                __res_6460 = null;
+                __res_6729 = null;
             }
             else
             {
-                string __notNullable_6462 = (string)__res_6461;
-                __res_6460 = __notNullable_6462;
+                string __notNullable_6731 = (string)__res_6730;
+                __res_6729 = __notNullable_6731;
             }
-            return __res_6460;
+            return __res_6729;
         }
     }
 }

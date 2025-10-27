@@ -10,10 +10,10 @@ public partial class MediaStreamTrackProcessor(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.ReadableStream __res_286;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_287 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            __res_286 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_287);
-            return __res_286;
+            global::Iskra.StdWeb.ReadableStream __res_292;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_293 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            __res_292 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_293);
+            return __res_292;
         }
     }
 }

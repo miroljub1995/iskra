@@ -10,11 +10,11 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_1696;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1697;
-            __propObject_1697 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "canvas");
-            __res_1696 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1697);
-            return __res_1696;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_1708;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1709;
+            __propObject_1709 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "canvas");
+            __res_1708 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1709);
+            return __res_1708;
         }
     }
 
@@ -22,10 +22,10 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            int __res_1698;
-            double __res_1699 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferWidth");
-            __res_1698 = Convert.ToInt32(__res_1699);
-            return __res_1698;
+            int __res_1710;
+            double __res_1711 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferWidth");
+            __res_1710 = Convert.ToInt32(__res_1711);
+            return __res_1710;
         }
     }
 
@@ -33,10 +33,10 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            int __res_1700;
-            double __res_1701 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferHeight");
-            __res_1700 = Convert.ToInt32(__res_1701);
-            return __res_1700;
+            int __res_1712;
+            double __res_1713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferHeight");
+            __res_1712 = Convert.ToInt32(__res_1713);
+            return __res_1712;
         }
     }
 
@@ -44,10 +44,10 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            uint __res_1702;
-            double __res_1703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferFormat");
-            __res_1702 = Convert.ToUInt32(__res_1703);
-            return __res_1702;
+            uint __res_1714;
+            double __res_1715 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferFormat");
+            __res_1714 = Convert.ToUInt32(__res_1715);
+            return __res_1714;
         }
     }
 
@@ -55,16 +55,16 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.PredefinedColorSpace __res_1704;
-            string __res_1705 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "drawingBufferColorSpace");
-            __res_1704 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1705);
-            return __res_1704;
+            global::Iskra.StdWeb.PredefinedColorSpace __res_1716;
+            string __res_1717 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "drawingBufferColorSpace");
+            __res_1716 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1717);
+            return __res_1716;
         }
         set
         {
-            string __marshalledValue_1706;
-            __marshalledValue_1706 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "drawingBufferColorSpace", __marshalledValue_1706);
+            string __marshalledValue_1718;
+            __marshalledValue_1718 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "drawingBufferColorSpace", __marshalledValue_1718);
         }
     }
 
@@ -72,16 +72,16 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.PredefinedColorSpace __res_1707;
-            string __res_1708 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unpackColorSpace");
-            __res_1707 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1708);
-            return __res_1707;
+            global::Iskra.StdWeb.PredefinedColorSpace __res_1719;
+            string __res_1720 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unpackColorSpace");
+            __res_1719 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1720);
+            return __res_1719;
         }
         set
         {
-            string __marshalledValue_1709;
-            __marshalledValue_1709 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unpackColorSpace", __marshalledValue_1709);
+            string __marshalledValue_1721;
+            __marshalledValue_1721 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unpackColorSpace", __marshalledValue_1721);
         }
     }
 }

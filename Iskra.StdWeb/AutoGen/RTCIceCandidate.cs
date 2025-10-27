@@ -10,10 +10,10 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_3187;
-            string __res_3188 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "candidate");
-            __res_3187 = __res_3188;
-            return __res_3187;
+            string __res_3375;
+            string __res_3376 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "candidate");
+            __res_3375 = __res_3376;
+            return __res_3375;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string? __res_3189;
-            string? __res_3190 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "sdpMid");
-            if (__res_3190 is null)
+            string? __res_3377;
+            string? __res_3378 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "sdpMid");
+            if (__res_3378 is null)
             {
-                __res_3189 = null;
+                __res_3377 = null;
             }
             else
             {
-                string __notNullable_3191 = (string)__res_3190;
-                __res_3189 = __notNullable_3191;
+                string __notNullable_3379 = (string)__res_3378;
+                __res_3377 = __notNullable_3379;
             }
-            return __res_3189;
+            return __res_3377;
         }
     }
 
@@ -40,18 +40,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            ushort? __res_3192;
-            double? __res_3193 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sdpMLineIndex");
-            if (__res_3193 is null)
+            ushort? __res_3380;
+            double? __res_3381 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sdpMLineIndex");
+            if (__res_3381 is null)
             {
-                __res_3192 = null;
+                __res_3380 = null;
             }
             else
             {
-                double __notNullable_3194 = (double)__res_3193;
-                __res_3192 = Convert.ToUInt16(__notNullable_3194);
+                double __notNullable_3382 = (double)__res_3381;
+                __res_3380 = Convert.ToUInt16(__notNullable_3382);
             }
-            return __res_3192;
+            return __res_3380;
         }
     }
 
@@ -59,18 +59,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string? __res_3195;
-            string? __res_3196 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "foundation");
-            if (__res_3196 is null)
+            string? __res_3383;
+            string? __res_3384 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "foundation");
+            if (__res_3384 is null)
             {
-                __res_3195 = null;
+                __res_3383 = null;
             }
             else
             {
-                string __notNullable_3197 = (string)__res_3196;
-                __res_3195 = __notNullable_3197;
+                string __notNullable_3385 = (string)__res_3384;
+                __res_3383 = __notNullable_3385;
             }
-            return __res_3195;
+            return __res_3383;
         }
     }
 
@@ -78,18 +78,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.RTCIceComponent? __res_3198;
-            string? __res_3199 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "component");
-            if (__res_3199 is null)
+            global::Iskra.StdWeb.RTCIceComponent? __res_3386;
+            string? __res_3387 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "component");
+            if (__res_3387 is null)
             {
-                __res_3198 = null;
+                __res_3386 = null;
             }
             else
             {
-                string __notNullable_3200 = (string)__res_3199;
-                __res_3198 = global::Iskra.StdWeb.RTCIceComponent.Create(__notNullable_3200);
+                string __notNullable_3388 = (string)__res_3387;
+                __res_3386 = global::Iskra.StdWeb.RTCIceComponent.Create(__notNullable_3388);
             }
-            return __res_3198;
+            return __res_3386;
         }
     }
 
@@ -97,18 +97,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            uint? __res_3201;
-            double? __res_3202 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "priority");
-            if (__res_3202 is null)
+            uint? __res_3389;
+            double? __res_3390 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "priority");
+            if (__res_3390 is null)
             {
-                __res_3201 = null;
+                __res_3389 = null;
             }
             else
             {
-                double __notNullable_3203 = (double)__res_3202;
-                __res_3201 = Convert.ToUInt32(__notNullable_3203);
+                double __notNullable_3391 = (double)__res_3390;
+                __res_3389 = Convert.ToUInt32(__notNullable_3391);
             }
-            return __res_3201;
+            return __res_3389;
         }
     }
 
@@ -116,18 +116,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string? __res_3204;
-            string? __res_3205 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
-            if (__res_3205 is null)
+            string? __res_3392;
+            string? __res_3393 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
+            if (__res_3393 is null)
             {
-                __res_3204 = null;
+                __res_3392 = null;
             }
             else
             {
-                string __notNullable_3206 = (string)__res_3205;
-                __res_3204 = __notNullable_3206;
+                string __notNullable_3394 = (string)__res_3393;
+                __res_3392 = __notNullable_3394;
             }
-            return __res_3204;
+            return __res_3392;
         }
     }
 
@@ -135,18 +135,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.RTCIceProtocol? __res_3207;
-            string? __res_3208 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "protocol");
-            if (__res_3208 is null)
+            global::Iskra.StdWeb.RTCIceProtocol? __res_3395;
+            string? __res_3396 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "protocol");
+            if (__res_3396 is null)
             {
-                __res_3207 = null;
+                __res_3395 = null;
             }
             else
             {
-                string __notNullable_3209 = (string)__res_3208;
-                __res_3207 = global::Iskra.StdWeb.RTCIceProtocol.Create(__notNullable_3209);
+                string __notNullable_3397 = (string)__res_3396;
+                __res_3395 = global::Iskra.StdWeb.RTCIceProtocol.Create(__notNullable_3397);
             }
-            return __res_3207;
+            return __res_3395;
         }
     }
 
@@ -154,18 +154,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            ushort? __res_3210;
-            double? __res_3211 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
-            if (__res_3211 is null)
+            ushort? __res_3398;
+            double? __res_3399 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
+            if (__res_3399 is null)
             {
-                __res_3210 = null;
+                __res_3398 = null;
             }
             else
             {
-                double __notNullable_3212 = (double)__res_3211;
-                __res_3210 = Convert.ToUInt16(__notNullable_3212);
+                double __notNullable_3400 = (double)__res_3399;
+                __res_3398 = Convert.ToUInt16(__notNullable_3400);
             }
-            return __res_3210;
+            return __res_3398;
         }
     }
 
@@ -173,18 +173,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.RTCIceCandidateType? __res_3213;
-            string? __res_3214 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "type");
-            if (__res_3214 is null)
+            global::Iskra.StdWeb.RTCIceCandidateType? __res_3401;
+            string? __res_3402 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "type");
+            if (__res_3402 is null)
             {
-                __res_3213 = null;
+                __res_3401 = null;
             }
             else
             {
-                string __notNullable_3215 = (string)__res_3214;
-                __res_3213 = global::Iskra.StdWeb.RTCIceCandidateType.Create(__notNullable_3215);
+                string __notNullable_3403 = (string)__res_3402;
+                __res_3401 = global::Iskra.StdWeb.RTCIceCandidateType.Create(__notNullable_3403);
             }
-            return __res_3213;
+            return __res_3401;
         }
     }
 
@@ -192,18 +192,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.RTCIceTcpCandidateType? __res_3216;
-            string? __res_3217 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "tcpType");
-            if (__res_3217 is null)
+            global::Iskra.StdWeb.RTCIceTcpCandidateType? __res_3404;
+            string? __res_3405 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "tcpType");
+            if (__res_3405 is null)
             {
-                __res_3216 = null;
+                __res_3404 = null;
             }
             else
             {
-                string __notNullable_3218 = (string)__res_3217;
-                __res_3216 = global::Iskra.StdWeb.RTCIceTcpCandidateType.Create(__notNullable_3218);
+                string __notNullable_3406 = (string)__res_3405;
+                __res_3404 = global::Iskra.StdWeb.RTCIceTcpCandidateType.Create(__notNullable_3406);
             }
-            return __res_3216;
+            return __res_3404;
         }
     }
 
@@ -211,18 +211,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string? __res_3219;
-            string? __res_3220 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "relatedAddress");
-            if (__res_3220 is null)
+            string? __res_3407;
+            string? __res_3408 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "relatedAddress");
+            if (__res_3408 is null)
             {
-                __res_3219 = null;
+                __res_3407 = null;
             }
             else
             {
-                string __notNullable_3221 = (string)__res_3220;
-                __res_3219 = __notNullable_3221;
+                string __notNullable_3409 = (string)__res_3408;
+                __res_3407 = __notNullable_3409;
             }
-            return __res_3219;
+            return __res_3407;
         }
     }
 
@@ -230,18 +230,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            ushort? __res_3222;
-            double? __res_3223 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "relatedPort");
-            if (__res_3223 is null)
+            ushort? __res_3410;
+            double? __res_3411 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "relatedPort");
+            if (__res_3411 is null)
             {
-                __res_3222 = null;
+                __res_3410 = null;
             }
             else
             {
-                double __notNullable_3224 = (double)__res_3223;
-                __res_3222 = Convert.ToUInt16(__notNullable_3224);
+                double __notNullable_3412 = (double)__res_3411;
+                __res_3410 = Convert.ToUInt16(__notNullable_3412);
             }
-            return __res_3222;
+            return __res_3410;
         }
     }
 
@@ -249,18 +249,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string? __res_3225;
-            string? __res_3226 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "usernameFragment");
-            if (__res_3226 is null)
+            string? __res_3413;
+            string? __res_3414 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "usernameFragment");
+            if (__res_3414 is null)
             {
-                __res_3225 = null;
+                __res_3413 = null;
             }
             else
             {
-                string __notNullable_3227 = (string)__res_3226;
-                __res_3225 = __notNullable_3227;
+                string __notNullable_3415 = (string)__res_3414;
+                __res_3413 = __notNullable_3415;
             }
-            return __res_3225;
+            return __res_3413;
         }
     }
 
@@ -268,18 +268,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.RTCIceServerTransportProtocol? __res_3228;
-            string? __res_3229 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "relayProtocol");
-            if (__res_3229 is null)
+            global::Iskra.StdWeb.RTCIceServerTransportProtocol? __res_3416;
+            string? __res_3417 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "relayProtocol");
+            if (__res_3417 is null)
             {
-                __res_3228 = null;
+                __res_3416 = null;
             }
             else
             {
-                string __notNullable_3230 = (string)__res_3229;
-                __res_3228 = global::Iskra.StdWeb.RTCIceServerTransportProtocol.Create(__notNullable_3230);
+                string __notNullable_3418 = (string)__res_3417;
+                __res_3416 = global::Iskra.StdWeb.RTCIceServerTransportProtocol.Create(__notNullable_3418);
             }
-            return __res_3228;
+            return __res_3416;
         }
     }
 
@@ -287,18 +287,18 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string? __res_3231;
-            string? __res_3232 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_3232 is null)
+            string? __res_3419;
+            string? __res_3420 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_3420 is null)
             {
-                __res_3231 = null;
+                __res_3419 = null;
             }
             else
             {
-                string __notNullable_3233 = (string)__res_3232;
-                __res_3231 = __notNullable_3233;
+                string __notNullable_3421 = (string)__res_3420;
+                __res_3419 = __notNullable_3421;
             }
-            return __res_3231;
+            return __res_3419;
         }
     }
 }

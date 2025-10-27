@@ -10,10 +10,10 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            bool __res_12984;
-            bool __res_12985 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "charging");
-            __res_12984 = __res_12985;
-            return __res_12984;
+            bool __res_13470;
+            bool __res_13471 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "charging");
+            __res_13470 = __res_13471;
+            return __res_13470;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_12986;
-            double __res_12987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "chargingTime");
-            __res_12986 = __res_12987;
-            return __res_12986;
+            double __res_13472;
+            double __res_13473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "chargingTime");
+            __res_13472 = __res_13473;
+            return __res_13472;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_12988;
-            double __res_12989 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "dischargingTime");
-            __res_12988 = __res_12989;
-            return __res_12988;
+            double __res_13474;
+            double __res_13475 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "dischargingTime");
+            __res_13474 = __res_13475;
+            return __res_13474;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_12990;
-            double __res_12991 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "level");
-            __res_12990 = __res_12991;
-            return __res_12990;
+            double __res_13476;
+            double __res_13477 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "level");
+            __res_13476 = __res_13477;
+            return __res_13476;
         }
     }
 
@@ -54,32 +54,32 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_12992;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12993 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchargingchange");
-            if (__res_12993 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_13478;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13479 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchargingchange");
+            if (__res_13479 is null)
             {
-                __res_12992 = null;
+                __res_13478 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12994 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12993;
-                __res_12992 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_12994);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13480 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13479;
+                __res_13478 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13480);
             }
-            return __res_12992;
+            return __res_13478;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_12995;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13481;
             if (value is null)
             {
-                __marshalledValue_12995 = null;
+                __marshalledValue_13481 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_12996 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_12995 = __notNullable_12996.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13482 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_13481 = __notNullable_13482.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchargingchange", __marshalledValue_12995);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchargingchange", __marshalledValue_13481);
         }
     }
 
@@ -87,32 +87,32 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_12997;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12998 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchargingtimechange");
-            if (__res_12998 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_13483;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13484 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchargingtimechange");
+            if (__res_13484 is null)
             {
-                __res_12997 = null;
+                __res_13483 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12999 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12998;
-                __res_12997 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_12999);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13485 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13484;
+                __res_13483 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13485);
             }
-            return __res_12997;
+            return __res_13483;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13000;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13486;
             if (value is null)
             {
-                __marshalledValue_13000 = null;
+                __marshalledValue_13486 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13001 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13000 = __notNullable_13001.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13487 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_13486 = __notNullable_13487.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchargingtimechange", __marshalledValue_13000);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchargingtimechange", __marshalledValue_13486);
         }
     }
 
@@ -120,32 +120,32 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13002;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13003 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondischargingtimechange");
-            if (__res_13003 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_13488;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13489 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondischargingtimechange");
+            if (__res_13489 is null)
             {
-                __res_13002 = null;
+                __res_13488 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13004 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13003;
-                __res_13002 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13004);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13490 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13489;
+                __res_13488 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13490);
             }
-            return __res_13002;
+            return __res_13488;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13005;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13491;
             if (value is null)
             {
-                __marshalledValue_13005 = null;
+                __marshalledValue_13491 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13006 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13005 = __notNullable_13006.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13492 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_13491 = __notNullable_13492.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondischargingtimechange", __marshalledValue_13005);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondischargingtimechange", __marshalledValue_13491);
         }
     }
 
@@ -153,32 +153,32 @@ public partial class BatteryManager(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13007;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13008 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onlevelchange");
-            if (__res_13008 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_13493;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13494 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onlevelchange");
+            if (__res_13494 is null)
             {
-                __res_13007 = null;
+                __res_13493 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13009 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13008;
-                __res_13007 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13009);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13495 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13494;
+                __res_13493 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13495);
             }
-            return __res_13007;
+            return __res_13493;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13010;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13496;
             if (value is null)
             {
-                __marshalledValue_13010 = null;
+                __marshalledValue_13496 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13011 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13010 = __notNullable_13011.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13497 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_13496 = __notNullable_13497.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onlevelchange", __marshalledValue_13010);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onlevelchange", __marshalledValue_13496);
         }
     }
 }

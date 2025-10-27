@@ -10,25 +10,52 @@ public partial class IdleRequestCallback(global::System.Runtime.InteropServices.
 {
     public static implicit operator IdleRequestCallback(IdleRequestCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2178) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2324) =>
         {
-            using (__args_2178)
+            using (__args_2324)
             {
                 // Argument 1
-                global::Iskra.StdWeb.IdleDeadline __arg_2180;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2181 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2178, 0);
-                __arg_2180 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IdleDeadline>(__res_2181);
+                global::Iskra.StdWeb.IdleDeadline __arg_2326;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_2327 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2324, 0);
+                __arg_2326 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IdleDeadline>(__res_2327);
 
-                input(__arg_2180);
+                input(__arg_2326);
             }
         };
 
-        return new global::Iskra.StdWeb.IdleRequestCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_2328 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_2328, input);
+
+        return new global::Iskra.StdWeb.IdleRequestCallback(__funcObj_2328);
     }
-    
-    public static implicit operator IdleRequestCallbackManaged(IdleRequestCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.IdleRequestCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.StdWeb.IdleRequestCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (deadline) =>
+        {
+            int __argsArrayLength_2332 = 1;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2329 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_2332);
+
+            // Argument 1
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_2333;
+            __marshalledValue_2333 = deadline.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_2329.JSObject, 0, __marshalledValue_2333);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_2329.JSObject);
+        };
+        return true;
     }
 }
 

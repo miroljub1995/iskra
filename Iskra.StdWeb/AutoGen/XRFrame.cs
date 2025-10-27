@@ -10,10 +10,10 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.XRPlaneSet __res_7051;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7052 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detectedPlanes");
-            __res_7051 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRPlaneSet>(__res_7052);
-            return __res_7051;
+            global::Iskra.StdWeb.XRPlaneSet __res_7367;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7368 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detectedPlanes");
+            __res_7367 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRPlaneSet>(__res_7368);
+            return __res_7367;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.XRAnchorSet __res_7053;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7054 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "trackedAnchors");
-            __res_7053 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRAnchorSet>(__res_7054);
-            return __res_7053;
+            global::Iskra.StdWeb.XRAnchorSet __res_7369;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7370 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "trackedAnchors");
+            __res_7369 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRAnchorSet>(__res_7370);
+            return __res_7369;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.XRMeshSet __res_7055;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7056 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detectedMeshes");
-            __res_7055 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRMeshSet>(__res_7056);
-            return __res_7055;
+            global::Iskra.StdWeb.XRMeshSet __res_7371;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7372 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detectedMeshes");
+            __res_7371 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRMeshSet>(__res_7372);
+            return __res_7371;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.XRSession __res_7057;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7058 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
-            __res_7057 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_7058);
-            return __res_7057;
+            global::Iskra.StdWeb.XRSession __res_7373;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7374 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            __res_7373 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_7374);
+            return __res_7373;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            double __res_7059;
-            double __res_7060 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "predictedDisplayTime");
-            __res_7059 = __res_7060;
-            return __res_7059;
+            double __res_7375;
+            double __res_7376 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "predictedDisplayTime");
+            __res_7375 = __res_7376;
+            return __res_7375;
         }
     }
 
@@ -65,18 +65,18 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.XRBody? __res_7061;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7062 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "body");
-            if (__res_7062 is null)
+            global::Iskra.StdWeb.XRBody? __res_7377;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7378 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "body");
+            if (__res_7378 is null)
             {
-                __res_7061 = null;
+                __res_7377 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7063 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7062;
-                __res_7061 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRBody>(__notNullable_7063);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7379 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7378;
+                __res_7377 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRBody>(__notNullable_7379);
             }
-            return __res_7061;
+            return __res_7377;
         }
     }
 }

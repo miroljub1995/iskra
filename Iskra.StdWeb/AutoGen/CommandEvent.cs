@@ -10,18 +10,18 @@ public partial class CommandEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_11194;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_11195 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
-            if (__res_11195 is null)
+            global::Iskra.StdWeb.Element? __res_11630;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_11631 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
+            if (__res_11631 is null)
             {
-                __res_11194 = null;
+                __res_11630 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_11196 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_11195;
-                __res_11194 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_11196);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_11632 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_11631;
+                __res_11630 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_11632);
             }
-            return __res_11194;
+            return __res_11630;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class CommandEvent(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_11197;
-            string __res_11198 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
-            __res_11197 = __res_11198;
-            return __res_11197;
+            string __res_11633;
+            string __res_11634 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
+            __res_11633 = __res_11634;
+            return __res_11633;
         }
     }
 }

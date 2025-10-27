@@ -10,10 +10,10 @@ public partial class EncodedVideoChunk(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.EncodedVideoChunkType __res_4046;
-            string __res_4047 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_4046 = global::Iskra.StdWeb.EncodedVideoChunkType.Create(__res_4047);
-            return __res_4046;
+            global::Iskra.StdWeb.EncodedVideoChunkType __res_4266;
+            string __res_4267 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_4266 = global::Iskra.StdWeb.EncodedVideoChunkType.Create(__res_4267);
+            return __res_4266;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class EncodedVideoChunk(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            long __res_4048;
-            double __res_4049 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_4048 = Convert.ToInt64(__res_4049);
-            return __res_4048;
+            long __res_4268;
+            double __res_4269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
+            __res_4268 = Convert.ToInt64(__res_4269);
+            return __res_4268;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class EncodedVideoChunk(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            ulong? __res_4050;
-            double? __res_4051 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
-            if (__res_4051 is null)
+            ulong? __res_4270;
+            double? __res_4271 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
+            if (__res_4271 is null)
             {
-                __res_4050 = null;
+                __res_4270 = null;
             }
             else
             {
-                double __notNullable_4052 = (double)__res_4051;
-                __res_4050 = Convert.ToUInt64(__notNullable_4052);
+                double __notNullable_4272 = (double)__res_4271;
+                __res_4270 = Convert.ToUInt64(__notNullable_4272);
             }
-            return __res_4050;
+            return __res_4270;
         }
     }
 
@@ -51,10 +51,10 @@ public partial class EncodedVideoChunk(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_4053;
-            double __res_4054 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "byteLength");
-            __res_4053 = Convert.ToUInt32(__res_4054);
-            return __res_4053;
+            uint __res_4273;
+            double __res_4274 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "byteLength");
+            __res_4273 = Convert.ToUInt32(__res_4274);
+            return __res_4273;
         }
     }
 }

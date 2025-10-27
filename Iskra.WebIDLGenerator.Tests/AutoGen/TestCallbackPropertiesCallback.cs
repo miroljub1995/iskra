@@ -23,12 +23,39 @@ public partial class TestCallbackPropertiesCallback(global::System.Runtime.Inter
             }
         };
 
-        return new global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallback(global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback));
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_345 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_345, input);
+
+        return new global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallback(__funcObj_345);
     }
-    
-    public static implicit operator TestCallbackPropertiesCallbackManaged(TestCallbackPropertiesCallback input)
+
+    public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallbackManaged? managed, bool allowConversion = false)
     {
-        throw new NotImplementedException();
+        managed = global::Iskra.JSCore.Extensions.JSFunctionExtensions.GetManagedFunctionFromProperty(JSObject) as global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallbackManaged;
+        if (managed is not null)
+        {
+            return true;
+        }
+
+        if (!allowConversion)
+        {
+            return false;
+        }
+
+        managed = (value) =>
+        {
+            int __argsArrayLength_349 = 1;
+
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_346 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_349);
+
+            // Argument 1
+            double __marshalledValue_350;
+            __marshalledValue_350 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_346.JSObject, 0, __marshalledValue_350);
+
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_346.JSObject);
+        };
+        return true;
     }
 }
 

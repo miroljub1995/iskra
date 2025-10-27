@@ -10,10 +10,10 @@ public partial class WindowControlsOverlay(global::System.Runtime.InteropService
     {
         get
         {
-            bool __res_4369;
-            bool __res_4370 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
-            __res_4369 = __res_4370;
-            return __res_4369;
+            bool __res_4596;
+            bool __res_4597 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
+            __res_4596 = __res_4597;
+            return __res_4596;
         }
     }
 
@@ -21,32 +21,32 @@ public partial class WindowControlsOverlay(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4371;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4372 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
-            if (__res_4372 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4598;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4599 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
+            if (__res_4599 is null)
             {
-                __res_4371 = null;
+                __res_4598 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4373 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4372;
-                __res_4371 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4373);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4600 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4599;
+                __res_4598 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4600);
             }
-            return __res_4371;
+            return __res_4598;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4374;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4601;
             if (value is null)
             {
-                __marshalledValue_4374 = null;
+                __marshalledValue_4601 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4375 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4374 = __notNullable_4375.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4602 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4601 = __notNullable_4602.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_4374);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_4601);
         }
     }
 }

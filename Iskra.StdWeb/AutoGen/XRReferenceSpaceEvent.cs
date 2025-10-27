@@ -10,10 +10,10 @@ public partial class XRReferenceSpaceEvent(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.XRReferenceSpace __res_7164;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7165 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceSpace");
-            __res_7164 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRReferenceSpace>(__res_7165);
-            return __res_7164;
+            global::Iskra.StdWeb.XRReferenceSpace __res_7480;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7481 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceSpace");
+            __res_7480 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRReferenceSpace>(__res_7481);
+            return __res_7480;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class XRReferenceSpaceEvent(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.XRRigidTransform? __res_7166;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7167 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transform");
-            if (__res_7167 is null)
+            global::Iskra.StdWeb.XRRigidTransform? __res_7482;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "transform");
+            if (__res_7483 is null)
             {
-                __res_7166 = null;
+                __res_7482 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7168 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7167;
-                __res_7166 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__notNullable_7168);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7484 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7483;
+                __res_7482 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__notNullable_7484);
             }
-            return __res_7166;
+            return __res_7482;
         }
     }
 }
