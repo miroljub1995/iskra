@@ -6,36 +6,51 @@ namespace Iskra.StdWeb;
 
 public partial class Keyboard(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
+    public global::Iskra.JSCore.Promise Lock(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> keyCodes)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Unlock()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.KeyboardLayoutMap, global::Iskra.StdWeb.PropertyAccessor> GetLayoutMap()
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.StdWeb.EventHandlerNonNull? Onlayoutchange
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4591;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4592 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange");
-            if (__res_4592 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_5438;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5439 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange");
+            if (__res_5439 is null)
             {
-                __res_4591 = null;
+                __res_5438 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4593 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4592;
-                __res_4591 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4593);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5440 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5439;
+                __res_5438 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_5440);
             }
-            return __res_4591;
+            return __res_5438;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4594;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5441;
             if (value is null)
             {
-                __marshalledValue_4594 = null;
+                __marshalledValue_5441 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4595 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4594 = __notNullable_4595.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5442 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_5441 = __notNullable_5442.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange", __marshalledValue_4594);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange", __marshalledValue_5441);
         }
     }
 }

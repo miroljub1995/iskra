@@ -10,10 +10,10 @@ public partial class SVGNumberList(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_908;
-            double __res_909 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_908 = Convert.ToUInt32(__res_909);
-            return __res_908;
+            uint __res_983;
+            double __res_984 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_983 = Convert.ToUInt32(__res_984);
+            return __res_983;
         }
     }
 
@@ -21,11 +21,51 @@ public partial class SVGNumberList(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_910;
-            double __res_911 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_910 = Convert.ToUInt32(__res_911);
-            return __res_910;
+            uint __res_985;
+            double __res_986 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_985 = Convert.ToUInt32(__res_986);
+            return __res_985;
         }
+    }
+
+    public void Clear()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGNumber Initialize(global::Iskra.StdWeb.SVGNumber newItem)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGNumber GetItem(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGNumber InsertItemBefore(global::Iskra.StdWeb.SVGNumber newItem, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGNumber ReplaceItem(global::Iskra.StdWeb.SVGNumber newItem, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGNumber RemoveItem(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGNumber AppendItem(global::Iskra.StdWeb.SVGNumber newItem)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Set(uint index, global::Iskra.StdWeb.SVGNumber newItem)
+    {
+        throw new global::System.Exception();
     }
 }
 

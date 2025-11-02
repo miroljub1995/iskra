@@ -6,14 +6,29 @@ namespace Iskra.StdWeb;
 
 public partial class StylePropertyMapReadOnly(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.CSSStyleValue? Get(string property)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CSSStyleValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetAll(string property)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool Has(string property)
+    {
+        throw new global::System.Exception();
+    }
+
     public uint Size
     {
         get
         {
-            uint __res_29;
-            double __res_30 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_29 = Convert.ToUInt32(__res_30);
-            return __res_29;
+            uint __res_45;
+            double __res_46 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_45 = Convert.ToUInt32(__res_46);
+            return __res_45;
         }
     }
 }

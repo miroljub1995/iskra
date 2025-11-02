@@ -10,10 +10,10 @@ public partial class ClipboardItem(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.PresentationStyle __res_3160;
-            string __res_3161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "presentationStyle");
-            __res_3160 = global::Iskra.StdWeb.PresentationStyle.Create(__res_3161);
-            return __res_3160;
+            global::Iskra.StdWeb.PresentationStyle __res_3790;
+            string __res_3791 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "presentationStyle");
+            __res_3790 = global::Iskra.StdWeb.PresentationStyle.Create(__res_3791);
+            return __res_3790;
         }
     }
 
@@ -21,12 +21,22 @@ public partial class ClipboardItem(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3162;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3163;
-            __propObject_3163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
-            __res_3162 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3163);
-            return __res_3162;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3792;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3793;
+            __propObject_3793 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
+            __res_3792 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3793);
+            return __res_3792;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.PropertyAccessor> GetType(string type)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static bool Supports(string type)
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -10,11 +10,11 @@ public partial class IDBCursor(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.GenericMarshaller.Union> __res_14102;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_14103;
-            __propObject_14103 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "source");
-            __res_14102 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_14103);
-            return __res_14102;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.GenericMarshaller.Union> __res_16693;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_16694;
+            __propObject_16694 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "source");
+            __res_16693 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_16694);
+            return __res_16693;
         }
     }
 
@@ -22,10 +22,10 @@ public partial class IDBCursor(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.IDBCursorDirection __res_14104;
-            string __res_14105 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
-            __res_14104 = global::Iskra.StdWeb.IDBCursorDirection.Create(__res_14105);
-            return __res_14104;
+            global::Iskra.StdWeb.IDBCursorDirection __res_16695;
+            string __res_16696 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
+            __res_16695 = global::Iskra.StdWeb.IDBCursorDirection.Create(__res_16696);
+            return __res_16695;
         }
     }
 
@@ -33,18 +33,18 @@ public partial class IDBCursor(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_14106;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14107;
-            __propObject_14107 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "key");
-            if (__propObject_14107 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_16697;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_16698;
+            __propObject_16698 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "key");
+            if (__propObject_16698 is null)
             {
-                __res_14106 = null;
+                __res_16697 = null;
             }
             else
             {
-                __res_14106 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_14107);
+                __res_16697 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_16698);
             }
-            return __res_14106;
+            return __res_16697;
         }
     }
 
@@ -52,18 +52,18 @@ public partial class IDBCursor(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_14108;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14109;
-            __propObject_14109 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "primaryKey");
-            if (__propObject_14109 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_16699;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_16700;
+            __propObject_16700 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "primaryKey");
+            if (__propObject_16700 is null)
             {
-                __res_14108 = null;
+                __res_16699 = null;
             }
             else
             {
-                __res_14108 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_14109);
+                __res_16699 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_16700);
             }
-            return __res_14108;
+            return __res_16699;
         }
     }
 
@@ -71,11 +71,36 @@ public partial class IDBCursor(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.IDBRequest __res_14110;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14111 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
-            __res_14110 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBRequest>(__res_14111);
-            return __res_14110;
+            global::Iskra.StdWeb.IDBRequest __res_16701;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16702 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
+            __res_16701 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBRequest>(__res_16702);
+            return __res_16701;
         }
+    }
+
+    public void Advance(uint count)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Continue(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? key)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ContinuePrimaryKey(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? key, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? primaryKey)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.IDBRequest Update(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.IDBRequest Delete()
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class StyleSheetList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.CSSStyleSheet? Item(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
     public uint Length
     {
         get
         {
-            uint __res_13623;
-            double __res_13624 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_13623 = Convert.ToUInt32(__res_13624);
-            return __res_13623;
+            uint __res_16130;
+            double __res_16131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_16130 = Convert.ToUInt32(__res_16131);
+            return __res_16130;
         }
     }
 }

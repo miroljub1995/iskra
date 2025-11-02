@@ -10,10 +10,10 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.GPUSupportedFeatures __res_1538;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1539 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
-            __res_1538 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUSupportedFeatures>(__res_1539);
-            return __res_1538;
+            global::Iskra.StdWeb.GPUSupportedFeatures __res_1712;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
+            __res_1712 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUSupportedFeatures>(__res_1713);
+            return __res_1712;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.GPUSupportedLimits __res_1540;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1541 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
-            __res_1540 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUSupportedLimits>(__res_1541);
-            return __res_1540;
+            global::Iskra.StdWeb.GPUSupportedLimits __res_1714;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1715 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
+            __res_1714 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUSupportedLimits>(__res_1715);
+            return __res_1714;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.GPUAdapterInfo __res_1542;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1543 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "adapterInfo");
-            __res_1542 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUAdapterInfo>(__res_1543);
-            return __res_1542;
+            global::Iskra.StdWeb.GPUAdapterInfo __res_1716;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1717 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "adapterInfo");
+            __res_1716 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUAdapterInfo>(__res_1717);
+            return __res_1716;
         }
     }
 
@@ -43,55 +43,145 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.GPUQueue __res_1544;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1545 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "queue");
-            __res_1544 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUQueue>(__res_1545);
-            return __res_1544;
+            global::Iskra.StdWeb.GPUQueue __res_1718;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1719 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "queue");
+            __res_1718 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUQueue>(__res_1719);
+            return __res_1718;
         }
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUDeviceLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise> Lost
+    public void Destroy()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUBuffer CreateBuffer(global::Iskra.StdWeb.GPUBufferDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUTexture CreateTexture(global::Iskra.StdWeb.GPUTextureDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUSampler CreateSampler(global::Iskra.StdWeb.GPUSamplerDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUExternalTexture ImportExternalTexture(global::Iskra.StdWeb.GPUExternalTextureDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUBindGroupLayout CreateBindGroupLayout(global::Iskra.StdWeb.GPUBindGroupLayoutDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUPipelineLayout CreatePipelineLayout(global::Iskra.StdWeb.GPUPipelineLayoutDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUBindGroup CreateBindGroup(global::Iskra.StdWeb.GPUBindGroupDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUShaderModule CreateShaderModule(global::Iskra.StdWeb.GPUShaderModuleDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUComputePipeline CreateComputePipeline(global::Iskra.StdWeb.GPUComputePipelineDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPURenderPipeline CreateRenderPipeline(global::Iskra.StdWeb.GPURenderPipelineDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUComputePipeline, global::Iskra.StdWeb.PropertyAccessor> CreateComputePipelineAsync(global::Iskra.StdWeb.GPUComputePipelineDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPURenderPipeline, global::Iskra.StdWeb.PropertyAccessor> CreateRenderPipelineAsync(global::Iskra.StdWeb.GPURenderPipelineDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUCommandEncoder CreateCommandEncoder(global::Iskra.StdWeb.GPUCommandEncoderDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPURenderBundleEncoder CreateRenderBundleEncoder(global::Iskra.StdWeb.GPURenderBundleEncoderDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUQuerySet CreateQuerySet(global::Iskra.StdWeb.GPUQuerySetDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUDeviceLostInfo, global::Iskra.StdWeb.PropertyAccessor> Lost
     {
         get
         {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUDeviceLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_1546;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1547;
-            __propObject_1547 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lost");
-            __res_1546 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUDeviceLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_1547);
-            return __res_1546;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUDeviceLostInfo, global::Iskra.StdWeb.PropertyAccessor> __res_1736;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1737;
+            __propObject_1737 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lost");
+            __res_1736 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUDeviceLostInfo, global::Iskra.StdWeb.PropertyAccessor>(__propObject_1737);
+            return __res_1736;
         }
+    }
+
+    public void PushErrorScope(global::Iskra.StdWeb.GPUErrorFilter filter)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUError?, global::Iskra.StdWeb.PropertyAccessorNullable> PopErrorScope()
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onuncapturederror
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_1548;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1549 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onuncapturederror");
-            if (__res_1549 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_1740;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1741 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onuncapturederror");
+            if (__res_1741 is null)
             {
-                __res_1548 = null;
+                __res_1740 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1550 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1549;
-                __res_1548 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_1550);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1742 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1741;
+                __res_1740 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_1742);
             }
-            return __res_1548;
+            return __res_1740;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_1551;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_1743;
             if (value is null)
             {
-                __marshalledValue_1551 = null;
+                __marshalledValue_1743 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_1552 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_1551 = __notNullable_1552.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_1744 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_1743 = __notNullable_1744.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onuncapturederror", __marshalledValue_1551);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onuncapturederror", __marshalledValue_1743);
         }
     }
 
@@ -99,16 +189,16 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_1553;
-            string __res_1554 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1553 = __res_1554;
-            return __res_1553;
+            string __res_1745;
+            string __res_1746 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1745 = __res_1746;
+            return __res_1745;
         }
         set
         {
-            string __marshalledValue_1555;
-            __marshalledValue_1555 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1555);
+            string __marshalledValue_1747;
+            __marshalledValue_1747 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1747);
         }
     }
 }

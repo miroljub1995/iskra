@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class LayoutWorkletGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkletGlobalScope(obj)
 {
-
+    public void RegisterLayout(string name, global::Iskra.StdWeb.VoidFunction layoutCtor)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class CookieStoreManager(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Promise Subscribe(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CookieStoreGetOptions, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> subscriptions)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CookieStoreGetOptions, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetSubscriptions()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Unsubscribe(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CookieStoreGetOptions, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> subscriptions)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

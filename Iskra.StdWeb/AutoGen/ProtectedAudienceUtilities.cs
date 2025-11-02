@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class ProtectedAudienceUtilities(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Uint8Array EncodeUtf8(string input)
+    {
+        throw new global::System.Exception();
+    }
 
+    public string DecodeUtf8(global::Iskra.JSCore.Uint8Array bytes)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class CanvasGradient(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public void AddColorStop(double offset, string color)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

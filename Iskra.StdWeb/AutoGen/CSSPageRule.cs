@@ -10,16 +10,16 @@ public partial class CSSPageRule(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_13702;
-            string __res_13703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
-            __res_13702 = __res_13703;
-            return __res_13702;
+            string __res_16212;
+            string __res_16213 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
+            __res_16212 = __res_16213;
+            return __res_16212;
         }
         set
         {
-            string __marshalledValue_13704;
-            __marshalledValue_13704 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_13704);
+            string __marshalledValue_16214;
+            __marshalledValue_16214 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_16214);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSPageRule(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.CSSPageDescriptors __res_13705;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13706 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_13705 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPageDescriptors>(__res_13706);
-            return __res_13705;
+            global::Iskra.StdWeb.CSSPageDescriptors __res_16215;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16216 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_16215 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPageDescriptors>(__res_16216);
+            return __res_16215;
         }
     }
 }

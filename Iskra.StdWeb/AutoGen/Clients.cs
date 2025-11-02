@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class Clients(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Client?, global::Iskra.StdWeb.PropertyAccessorNullable> Get(string id)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> MatchAll(global::Iskra.StdWeb.ClientQueryOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WindowClient?, global::Iskra.StdWeb.PropertyAccessorNullable> OpenWindow(string url)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Claim()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

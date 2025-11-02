@@ -6,7 +6,45 @@ namespace Iskra.StdWeb;
 
 public partial class XSLTProcessor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void ImportStylesheet(global::Iskra.StdWeb.Node style)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.StdWeb.DocumentFragment TransformToFragment(global::Iskra.StdWeb.Node source, global::Iskra.StdWeb.Document output)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Document TransformToDocument(global::Iskra.StdWeb.Node source)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetParameter(string namespaceURI, string localName, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetParameter(string namespaceURI, string localName)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void RemoveParameter(string namespaceURI, string localName)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ClearParameters()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Reset()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

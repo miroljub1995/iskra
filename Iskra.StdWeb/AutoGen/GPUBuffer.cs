@@ -10,10 +10,10 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            ulong __res_1556;
-            double __res_1557 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_1556 = Convert.ToUInt64(__res_1557);
-            return __res_1556;
+            ulong __res_1748;
+            double __res_1749 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_1748 = Convert.ToUInt64(__res_1749);
+            return __res_1748;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_1558;
-            double __res_1559 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
-            __res_1558 = Convert.ToUInt32(__res_1559);
-            return __res_1558;
+            uint __res_1750;
+            double __res_1751 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
+            __res_1750 = Convert.ToUInt32(__res_1751);
+            return __res_1750;
         }
     }
 
@@ -32,27 +32,47 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.GPUBufferMapState __res_1560;
-            string __res_1561 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mapState");
-            __res_1560 = global::Iskra.StdWeb.GPUBufferMapState.Create(__res_1561);
-            return __res_1560;
+            global::Iskra.StdWeb.GPUBufferMapState __res_1752;
+            string __res_1753 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mapState");
+            __res_1752 = global::Iskra.StdWeb.GPUBufferMapState.Create(__res_1753);
+            return __res_1752;
         }
+    }
+
+    public global::Iskra.JSCore.Promise MapAsync(uint mode, ulong offset, ulong size)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.ArrayBuffer GetMappedRange(ulong offset, ulong size)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Unmap()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Destroy()
+    {
+        throw new global::System.Exception();
     }
 
     public string Label
     {
         get
         {
-            string __res_1562;
-            string __res_1563 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1562 = __res_1563;
-            return __res_1562;
+            string __res_1758;
+            string __res_1759 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1758 = __res_1759;
+            return __res_1758;
         }
         set
         {
-            string __marshalledValue_1564;
-            __marshalledValue_1564 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1564);
+            string __marshalledValue_1760;
+            __marshalledValue_1760 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1760);
         }
     }
 }

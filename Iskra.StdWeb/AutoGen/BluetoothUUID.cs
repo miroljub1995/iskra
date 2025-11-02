@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class BluetoothUUID(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static string GetService(global::Iskra.JSCore.Generics.Union<string, uint, global::Iskra.StdWeb.GenericMarshaller.Union> name)
+    {
+        throw new global::System.Exception();
+    }
 
+    public static string GetCharacteristic(global::Iskra.JSCore.Generics.Union<string, uint, global::Iskra.StdWeb.GenericMarshaller.Union> name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static string GetDescriptor(global::Iskra.JSCore.Generics.Union<string, uint, global::Iskra.StdWeb.GenericMarshaller.Union> name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static string CanonicalUUID(uint alias)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

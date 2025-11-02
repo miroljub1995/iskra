@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class WakeLock(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WakeLockSentinel, global::Iskra.StdWeb.PropertyAccessor> Request(global::Iskra.StdWeb.WakeLockType type)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

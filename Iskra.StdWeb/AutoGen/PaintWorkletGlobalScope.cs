@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class PaintWorkletGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkletGlobalScope(obj)
 {
+    public void RegisterPaint(string name, global::Iskra.StdWeb.VoidFunction paintCtor)
+    {
+        throw new global::System.Exception();
+    }
+
     public double DevicePixelRatio
     {
         get
         {
-            double __res_4685;
-            double __res_4686 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "devicePixelRatio");
-            __res_4685 = __res_4686;
-            return __res_4685;
+            double __res_5553;
+            double __res_5554 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "devicePixelRatio");
+            __res_5553 = __res_5554;
+            return __res_5553;
         }
     }
 }

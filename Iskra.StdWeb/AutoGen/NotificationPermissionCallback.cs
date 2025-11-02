@@ -10,23 +10,23 @@ public partial class NotificationPermissionCallback(global::System.Runtime.Inter
 {
     public static implicit operator NotificationPermissionCallback(NotificationPermissionCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7555) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_9028) =>
         {
-            using (__args_7555)
+            using (__args_9028)
             {
                 // Argument 1
-                global::Iskra.StdWeb.NotificationPermission __arg_7557;
-                string __res_7558 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_7555, 0);
-                __arg_7557 = global::Iskra.StdWeb.NotificationPermission.Create(__res_7558);
+                global::Iskra.StdWeb.NotificationPermission __arg_9030;
+                string __res_9031 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_9028, 0);
+                __arg_9030 = global::Iskra.StdWeb.NotificationPermission.Create(__res_9031);
 
-                input(__arg_7557);
+                input(__arg_9030);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_7559 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_7559, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_9032 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_9032, input);
 
-        return new global::Iskra.StdWeb.NotificationPermissionCallback(__funcObj_7559);
+        return new global::Iskra.StdWeb.NotificationPermissionCallback(__funcObj_9032);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.NotificationPermissionCallbackManaged? managed, bool allowConversion = false)
@@ -44,16 +44,16 @@ public partial class NotificationPermissionCallback(global::System.Runtime.Inter
 
         managed = (permission) =>
         {
-            int __argsArrayLength_7563 = 1;
+            int __argsArrayLength_9036 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_7560 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_7563);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_9033 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_9036);
 
             // Argument 1
-            string __marshalledValue_7564;
-            __marshalledValue_7564 = permission.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_7560.JSObject, 0, __marshalledValue_7564);
+            string __marshalledValue_9037;
+            __marshalledValue_9037 = permission.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_9033.JSObject, 0, __marshalledValue_9037);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_7560.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_9033.JSObject);
         };
         return true;
     }

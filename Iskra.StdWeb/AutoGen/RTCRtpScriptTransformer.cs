@@ -10,21 +10,31 @@ public partial class RTCRtpScriptTransformer(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.ReadableStream __res_2146;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2147 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            __res_2146 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_2147);
-            return __res_2146;
+            global::Iskra.StdWeb.ReadableStream __res_2633;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2634 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
+            __res_2633 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_2634);
+            return __res_2633;
         }
+    }
+
+    public global::Iskra.JSCore.Promise GenerateKeyFrame(string rid)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise SendKeyFrameRequest()
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.WritableStream Writable
     {
         get
         {
-            global::Iskra.StdWeb.WritableStream __res_2148;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2149 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            __res_2148 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_2149);
-            return __res_2148;
+            global::Iskra.StdWeb.WritableStream __res_2637;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2638 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
+            __res_2637 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_2638);
+            return __res_2637;
         }
     }
 
@@ -32,32 +42,32 @@ public partial class RTCRtpScriptTransformer(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2150;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2151 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onkeyframerequest");
-            if (__res_2151 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_2639;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2640 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onkeyframerequest");
+            if (__res_2640 is null)
             {
-                __res_2150 = null;
+                __res_2639 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2152 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2151;
-                __res_2150 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2152);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2641 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2640;
+                __res_2639 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2641);
             }
-            return __res_2150;
+            return __res_2639;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2153;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2642;
             if (value is null)
             {
-                __marshalledValue_2153 = null;
+                __marshalledValue_2642 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2154 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2153 = __notNullable_2154.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2643 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_2642 = __notNullable_2643.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onkeyframerequest", __marshalledValue_2153);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onkeyframerequest", __marshalledValue_2642);
         }
     }
 
@@ -65,18 +75,18 @@ public partial class RTCRtpScriptTransformer(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2155;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2156;
-            __propObject_2156 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "options");
-            if (__propObject_2156 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2644;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2645;
+            __propObject_2645 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "options");
+            if (__propObject_2645 is null)
             {
-                __res_2155 = null;
+                __res_2644 = null;
             }
             else
             {
-                __res_2155 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2156);
+                __res_2644 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2645);
             }
-            return __res_2155;
+            return __res_2644;
         }
     }
 }

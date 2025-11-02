@@ -6,14 +6,34 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.SecurePaymentConfirmationAvailability, global::Iskra.StdWeb.PropertyAccessor> SecurePaymentConfirmationAvailability()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentResponse, global::Iskra.StdWeb.PropertyAccessor> Show(global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentDetailsUpdate, global::Iskra.StdWeb.PropertyAccessor> detailsPromise)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Abort()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> CanMakePayment()
+    {
+        throw new global::System.Exception();
+    }
+
     public string Id
     {
         get
         {
-            string __res_13735;
-            string __res_13736 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_13735 = __res_13736;
-            return __res_13735;
+            string __res_16263;
+            string __res_16264 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_16263 = __res_16264;
+            return __res_16263;
         }
     }
 
@@ -21,18 +41,18 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.ContactAddress? __res_13737;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13738 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingAddress");
-            if (__res_13738 is null)
+            global::Iskra.StdWeb.ContactAddress? __res_16265;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16266 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "shippingAddress");
+            if (__res_16266 is null)
             {
-                __res_13737 = null;
+                __res_16265 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13739 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13738;
-                __res_13737 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactAddress>(__notNullable_13739);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16267 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16266;
+                __res_16265 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactAddress>(__notNullable_16267);
             }
-            return __res_13737;
+            return __res_16265;
         }
     }
 
@@ -40,18 +60,18 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string? __res_13740;
-            string? __res_13741 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "shippingOption");
-            if (__res_13741 is null)
+            string? __res_16268;
+            string? __res_16269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "shippingOption");
+            if (__res_16269 is null)
             {
-                __res_13740 = null;
+                __res_16268 = null;
             }
             else
             {
-                string __notNullable_13742 = (string)__res_13741;
-                __res_13740 = __notNullable_13742;
+                string __notNullable_16270 = (string)__res_16269;
+                __res_16268 = __notNullable_16270;
             }
-            return __res_13740;
+            return __res_16268;
         }
     }
 
@@ -59,18 +79,18 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.PaymentShippingType? __res_13743;
-            string? __res_13744 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "shippingType");
-            if (__res_13744 is null)
+            global::Iskra.StdWeb.PaymentShippingType? __res_16271;
+            string? __res_16272 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "shippingType");
+            if (__res_16272 is null)
             {
-                __res_13743 = null;
+                __res_16271 = null;
             }
             else
             {
-                string __notNullable_13745 = (string)__res_13744;
-                __res_13743 = global::Iskra.StdWeb.PaymentShippingType.Create(__notNullable_13745);
+                string __notNullable_16273 = (string)__res_16272;
+                __res_16271 = global::Iskra.StdWeb.PaymentShippingType.Create(__notNullable_16273);
             }
-            return __res_13743;
+            return __res_16271;
         }
     }
 
@@ -78,32 +98,32 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13746;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13747 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onshippingaddresschange");
-            if (__res_13747 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_16274;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16275 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onshippingaddresschange");
+            if (__res_16275 is null)
             {
-                __res_13746 = null;
+                __res_16274 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13748 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13747;
-                __res_13746 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13748);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16276 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16275;
+                __res_16274 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16276);
             }
-            return __res_13746;
+            return __res_16274;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13749;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16277;
             if (value is null)
             {
-                __marshalledValue_13749 = null;
+                __marshalledValue_16277 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13750 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13749 = __notNullable_13750.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16278 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_16277 = __notNullable_16278.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onshippingaddresschange", __marshalledValue_13749);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onshippingaddresschange", __marshalledValue_16277);
         }
     }
 
@@ -111,32 +131,32 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13751;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13752 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onshippingoptionchange");
-            if (__res_13752 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_16279;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16280 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onshippingoptionchange");
+            if (__res_16280 is null)
             {
-                __res_13751 = null;
+                __res_16279 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13753 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13752;
-                __res_13751 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13753);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16281 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16280;
+                __res_16279 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16281);
             }
-            return __res_13751;
+            return __res_16279;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13754;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16282;
             if (value is null)
             {
-                __marshalledValue_13754 = null;
+                __marshalledValue_16282 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13755 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13754 = __notNullable_13755.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16283 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_16282 = __notNullable_16283.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onshippingoptionchange", __marshalledValue_13754);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onshippingoptionchange", __marshalledValue_16282);
         }
     }
 
@@ -144,32 +164,32 @@ public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13756;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13757 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onpaymentmethodchange");
-            if (__res_13757 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_16284;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onpaymentmethodchange");
+            if (__res_16285 is null)
             {
-                __res_13756 = null;
+                __res_16284 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13758 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13757;
-                __res_13756 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13758);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16286 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16285;
+                __res_16284 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16286);
             }
-            return __res_13756;
+            return __res_16284;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13759;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16287;
             if (value is null)
             {
-                __marshalledValue_13759 = null;
+                __marshalledValue_16287 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13760 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13759 = __notNullable_13760.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16288 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_16287 = __notNullable_16288.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onpaymentmethodchange", __marshalledValue_13759);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onpaymentmethodchange", __marshalledValue_16287);
         }
     }
 }

@@ -10,11 +10,21 @@ public partial class LayoutChild(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.StylePropertyMapReadOnly __res_14176;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14177 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
-            __res_14176 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StylePropertyMapReadOnly>(__res_14177);
-            return __res_14176;
+            global::Iskra.StdWeb.StylePropertyMapReadOnly __res_16776;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16777 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
+            __res_16776 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StylePropertyMapReadOnly>(__res_16777);
+            return __res_16776;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.IntrinsicSizes, global::Iskra.StdWeb.PropertyAccessor> IntrinsicSizes()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.LayoutFragment, global::Iskra.StdWeb.PropertyAccessor> LayoutNextFragment(global::Iskra.StdWeb.LayoutConstraintsOptions constraints, global::Iskra.StdWeb.ChildBreakToken breakToken)
+    {
+        throw new global::System.Exception();
     }
 }
 

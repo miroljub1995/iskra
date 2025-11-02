@@ -10,17 +10,32 @@ public partial class HTMLSlotElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_11110;
-            string __res_11111 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_11110 = __res_11111;
-            return __res_11110;
+            string __res_13026;
+            string __res_13027 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_13026 = __res_13027;
+            return __res_13026;
         }
         set
         {
-            string __marshalledValue_11112;
-            __marshalledValue_11112 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_11112);
+            string __marshalledValue_13028;
+            __marshalledValue_13028 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_13028);
         }
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> AssignedNodes(global::Iskra.StdWeb.AssignedNodesOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> AssignedElements(global::Iskra.StdWeb.AssignedNodesOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Assign(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.Text, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
+    {
+        throw new global::System.Exception();
     }
 }
 

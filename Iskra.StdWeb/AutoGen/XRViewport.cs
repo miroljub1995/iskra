@@ -10,10 +10,10 @@ public partial class XRViewport(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            int __res_7403;
-            double __res_7404 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
-            __res_7403 = Convert.ToInt32(__res_7404);
-            return __res_7403;
+            int __res_8871;
+            double __res_8872 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
+            __res_8871 = Convert.ToInt32(__res_8872);
+            return __res_8871;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRViewport(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            int __res_7405;
-            double __res_7406 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
-            __res_7405 = Convert.ToInt32(__res_7406);
-            return __res_7405;
+            int __res_8873;
+            double __res_8874 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
+            __res_8873 = Convert.ToInt32(__res_8874);
+            return __res_8873;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class XRViewport(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            int __res_7407;
-            double __res_7408 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_7407 = Convert.ToInt32(__res_7408);
-            return __res_7407;
+            int __res_8875;
+            double __res_8876 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_8875 = Convert.ToInt32(__res_8876);
+            return __res_8875;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class XRViewport(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            int __res_7409;
-            double __res_7410 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_7409 = Convert.ToInt32(__res_7410);
-            return __res_7409;
+            int __res_8877;
+            double __res_8878 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_8877 = Convert.ToInt32(__res_8878);
+            return __res_8877;
         }
     }
 }

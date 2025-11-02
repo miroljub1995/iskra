@@ -10,10 +10,10 @@ public partial class SVGAnimatedRect(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.DOMRect __res_953;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_954 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
-            __res_953 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRect>(__res_954);
-            return __res_953;
+            global::Iskra.StdWeb.DOMRect __res_1052;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1053 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            __res_1052 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRect>(__res_1053);
+            return __res_1052;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGAnimatedRect(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.DOMRectReadOnly __res_955;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_956 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
-            __res_955 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_956);
-            return __res_955;
+            global::Iskra.StdWeb.DOMRectReadOnly __res_1054;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1055 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            __res_1054 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_1055);
+            return __res_1054;
         }
     }
 }

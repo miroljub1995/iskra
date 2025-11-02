@@ -10,11 +10,51 @@ public partial class URLSearchParams(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            uint __res_6948;
-            double __res_6949 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_6948 = Convert.ToUInt32(__res_6949);
-            return __res_6948;
+            uint __res_8310;
+            double __res_8311 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_8310 = Convert.ToUInt32(__res_8311);
+            return __res_8310;
         }
+    }
+
+    public void Append(string name, string value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Delete(string name, string value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string? Get(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetAll(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool Has(string name, string value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Set(string name, string value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Sort()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void _()
+    {
+        throw new global::System.Exception();
     }
 }
 

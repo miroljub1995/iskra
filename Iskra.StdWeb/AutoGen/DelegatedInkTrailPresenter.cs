@@ -10,19 +10,24 @@ public partial class DelegatedInkTrailPresenter(global::System.Runtime.InteropSe
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_3125;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3126 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "presentationArea");
-            if (__res_3126 is null)
+            global::Iskra.StdWeb.Element? __res_3752;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3753 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "presentationArea");
+            if (__res_3753 is null)
             {
-                __res_3125 = null;
+                __res_3752 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3127 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3126;
-                __res_3125 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_3127);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3754 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3753;
+                __res_3752 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_3754);
             }
-            return __res_3125;
+            return __res_3752;
         }
+    }
+
+    public void UpdateInkTrailStartPoint(global::Iskra.StdWeb.PointerEvent @event, global::Iskra.StdWeb.InkTrailStyle style)
+    {
+        throw new global::System.Exception();
     }
 }
 

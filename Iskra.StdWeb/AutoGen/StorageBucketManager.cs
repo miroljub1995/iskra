@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class StorageBucketManager(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.StorageBucket, global::Iskra.StdWeb.PropertyAccessor> Open(string name, global::Iskra.StdWeb.StorageBucketOptions options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> Keys()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Delete(string name)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

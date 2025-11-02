@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class InterestGroupBiddingScriptRunnerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): InterestGroupBiddingAndScoringScriptRunnerGlobalScope(obj)
 {
+    public bool SetBid(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GenerateBidOutput, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GenerateBidOutput, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> oneOrManyBids)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void SetPriority(double priority)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetPrioritySignalsOverride(string key, double? priority)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

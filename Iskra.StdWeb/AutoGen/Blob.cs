@@ -10,10 +10,10 @@ public partial class Blob(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            ulong __res_14347;
-            double __res_14348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_14347 = Convert.ToUInt64(__res_14348);
-            return __res_14347;
+            ulong __res_16957;
+            double __res_16958 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_16957 = Convert.ToUInt64(__res_16958);
+            return __res_16957;
         }
     }
 
@@ -21,11 +21,36 @@ public partial class Blob(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_14349;
-            string __res_14350 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_14349 = __res_14350;
-            return __res_14349;
+            string __res_16959;
+            string __res_16960 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_16959 = __res_16960;
+            return __res_16959;
         }
+    }
+
+    public global::Iskra.StdWeb.Blob Slice(long start, long end, string contentType)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.ReadableStream Stream()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> Text()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> ArrayBuffer()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Uint8Array, global::Iskra.StdWeb.PropertyAccessor> Bytes()
+    {
+        throw new global::System.Exception();
     }
 }
 

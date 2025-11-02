@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class LockManager(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> Request(string name, global::Iskra.StdWeb.LockGrantedCallback callback)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> Request(string name, global::Iskra.StdWeb.LockOptions options, global::Iskra.StdWeb.LockGrantedCallback callback)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.LockManagerSnapshot, global::Iskra.StdWeb.PropertyAccessor> Query()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

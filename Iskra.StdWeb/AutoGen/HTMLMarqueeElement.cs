@@ -10,16 +10,16 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_13170;
-            string __res_13171 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "behavior");
-            __res_13170 = __res_13171;
-            return __res_13170;
+            string __res_15402;
+            string __res_15403 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "behavior");
+            __res_15402 = __res_15403;
+            return __res_15402;
         }
         set
         {
-            string __marshalledValue_13172;
-            __marshalledValue_13172 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "behavior", __marshalledValue_13172);
+            string __marshalledValue_15404;
+            __marshalledValue_15404 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "behavior", __marshalledValue_15404);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_13173;
-            string __res_13174 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "bgColor");
-            __res_13173 = __res_13174;
-            return __res_13173;
+            string __res_15405;
+            string __res_15406 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "bgColor");
+            __res_15405 = __res_15406;
+            return __res_15405;
         }
         set
         {
-            string __marshalledValue_13175;
-            __marshalledValue_13175 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bgColor", __marshalledValue_13175);
+            string __marshalledValue_15407;
+            __marshalledValue_15407 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bgColor", __marshalledValue_15407);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_13176;
-            string __res_13177 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
-            __res_13176 = __res_13177;
-            return __res_13176;
+            string __res_15408;
+            string __res_15409 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
+            __res_15408 = __res_15409;
+            return __res_15408;
         }
         set
         {
-            string __marshalledValue_13178;
-            __marshalledValue_13178 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "direction", __marshalledValue_13178);
+            string __marshalledValue_15410;
+            __marshalledValue_15410 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "direction", __marshalledValue_15410);
         }
     }
 
@@ -61,16 +61,16 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_13179;
-            string __res_13180 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
-            __res_13179 = __res_13180;
-            return __res_13179;
+            string __res_15411;
+            string __res_15412 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
+            __res_15411 = __res_15412;
+            return __res_15411;
         }
         set
         {
-            string __marshalledValue_13181;
-            __marshalledValue_13181 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_13181);
+            string __marshalledValue_15413;
+            __marshalledValue_15413 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_15413);
         }
     }
 
@@ -78,16 +78,16 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_13182;
-            double __res_13183 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "hspace");
-            __res_13182 = Convert.ToUInt32(__res_13183);
-            return __res_13182;
+            uint __res_15414;
+            double __res_15415 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "hspace");
+            __res_15414 = Convert.ToUInt32(__res_15415);
+            return __res_15414;
         }
         set
         {
-            double __marshalledValue_13184;
-            __marshalledValue_13184 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "hspace", __marshalledValue_13184);
+            double __marshalledValue_15416;
+            __marshalledValue_15416 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "hspace", __marshalledValue_15416);
         }
     }
 
@@ -95,16 +95,16 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            int __res_13185;
-            double __res_13186 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loop");
-            __res_13185 = Convert.ToInt32(__res_13186);
-            return __res_13185;
+            int __res_15417;
+            double __res_15418 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loop");
+            __res_15417 = Convert.ToInt32(__res_15418);
+            return __res_15417;
         }
         set
         {
-            double __marshalledValue_13187;
-            __marshalledValue_13187 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loop", __marshalledValue_13187);
+            double __marshalledValue_15419;
+            __marshalledValue_15419 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loop", __marshalledValue_15419);
         }
     }
 
@@ -112,16 +112,16 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_13188;
-            double __res_13189 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "scrollAmount");
-            __res_13188 = Convert.ToUInt32(__res_13189);
-            return __res_13188;
+            uint __res_15420;
+            double __res_15421 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "scrollAmount");
+            __res_15420 = Convert.ToUInt32(__res_15421);
+            return __res_15420;
         }
         set
         {
-            double __marshalledValue_13190;
-            __marshalledValue_13190 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "scrollAmount", __marshalledValue_13190);
+            double __marshalledValue_15422;
+            __marshalledValue_15422 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "scrollAmount", __marshalledValue_15422);
         }
     }
 
@@ -129,16 +129,16 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_13191;
-            double __res_13192 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "scrollDelay");
-            __res_13191 = Convert.ToUInt32(__res_13192);
-            return __res_13191;
+            uint __res_15423;
+            double __res_15424 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "scrollDelay");
+            __res_15423 = Convert.ToUInt32(__res_15424);
+            return __res_15423;
         }
         set
         {
-            double __marshalledValue_13193;
-            __marshalledValue_13193 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "scrollDelay", __marshalledValue_13193);
+            double __marshalledValue_15425;
+            __marshalledValue_15425 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "scrollDelay", __marshalledValue_15425);
         }
     }
 
@@ -146,16 +146,16 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            bool __res_13194;
-            bool __res_13195 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trueSpeed");
-            __res_13194 = __res_13195;
-            return __res_13194;
+            bool __res_15426;
+            bool __res_15427 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trueSpeed");
+            __res_15426 = __res_15427;
+            return __res_15426;
         }
         set
         {
-            bool __marshalledValue_13196;
-            __marshalledValue_13196 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "trueSpeed", __marshalledValue_13196);
+            bool __marshalledValue_15428;
+            __marshalledValue_15428 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "trueSpeed", __marshalledValue_15428);
         }
     }
 
@@ -163,16 +163,16 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            uint __res_13197;
-            double __res_13198 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vspace");
-            __res_13197 = Convert.ToUInt32(__res_13198);
-            return __res_13197;
+            uint __res_15429;
+            double __res_15430 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vspace");
+            __res_15429 = Convert.ToUInt32(__res_15430);
+            return __res_15429;
         }
         set
         {
-            double __marshalledValue_13199;
-            __marshalledValue_13199 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "vspace", __marshalledValue_13199);
+            double __marshalledValue_15431;
+            __marshalledValue_15431 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "vspace", __marshalledValue_15431);
         }
     }
 
@@ -180,17 +180,27 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_13200;
-            string __res_13201 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
-            __res_13200 = __res_13201;
-            return __res_13200;
+            string __res_15432;
+            string __res_15433 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
+            __res_15432 = __res_15433;
+            return __res_15432;
         }
         set
         {
-            string __marshalledValue_13202;
-            __marshalledValue_13202 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_13202);
+            string __marshalledValue_15434;
+            __marshalledValue_15434 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_15434);
         }
+    }
+
+    public void Start()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Stop()
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -10,21 +10,36 @@ public partial class SVGGraphicsElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedTransformList __res_875;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_876 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            __res_875 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedTransformList>(__res_876);
-            return __res_875;
+            global::Iskra.StdWeb.SVGAnimatedTransformList __res_939;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_940 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
+            __res_939 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedTransformList>(__res_940);
+            return __res_939;
         }
+    }
+
+    public global::Iskra.StdWeb.DOMRect GetBBox(global::Iskra.StdWeb.SVGBoundingBoxOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix? GetCTM()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix? GetScreenCTM()
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.SVGStringList RequiredExtensions
     {
         get
         {
-            global::Iskra.StdWeb.SVGStringList __res_877;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_878 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "requiredExtensions");
-            __res_877 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGStringList>(__res_878);
-            return __res_877;
+            global::Iskra.StdWeb.SVGStringList __res_944;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_945 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "requiredExtensions");
+            __res_944 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGStringList>(__res_945);
+            return __res_944;
         }
     }
 
@@ -32,10 +47,10 @@ public partial class SVGGraphicsElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.SVGStringList __res_879;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_880 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "systemLanguage");
-            __res_879 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGStringList>(__res_880);
-            return __res_879;
+            global::Iskra.StdWeb.SVGStringList __res_946;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_947 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "systemLanguage");
+            __res_946 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGStringList>(__res_947);
+            return __res_946;
         }
     }
 }

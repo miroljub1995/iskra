@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class XPathEvaluator(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.XPathExpression CreateExpression(string expression, global::Iskra.StdWeb.XPathNSResolver? resolver)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.StdWeb.Node CreateNSResolver(global::Iskra.StdWeb.Node nodeResolver)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.XPathResult Evaluate(string expression, global::Iskra.StdWeb.Node contextNode, global::Iskra.StdWeb.XPathNSResolver? resolver, ushort type, global::Iskra.StdWeb.XPathResult? result)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

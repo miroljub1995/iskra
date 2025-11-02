@@ -10,10 +10,10 @@ public partial class MediaQueryList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_3181;
-            string __res_3182 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
-            __res_3181 = __res_3182;
-            return __res_3181;
+            string __res_3833;
+            string __res_3834 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
+            __res_3833 = __res_3834;
+            return __res_3833;
         }
     }
 
@@ -21,43 +21,53 @@ public partial class MediaQueryList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            bool __res_3183;
-            bool __res_3184 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
-            __res_3183 = __res_3184;
-            return __res_3183;
+            bool __res_3835;
+            bool __res_3836 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
+            __res_3835 = __res_3836;
+            return __res_3835;
         }
+    }
+
+    public void AddListener(global::Iskra.StdWeb.EventListener? callback)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void RemoveListener(global::Iskra.StdWeb.EventListener? callback)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3185;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3186 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_3186 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3839;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3840 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
+            if (__res_3840 is null)
             {
-                __res_3185 = null;
+                __res_3839 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3187 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3186;
-                __res_3185 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3187);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3841 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3840;
+                __res_3839 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3841);
             }
-            return __res_3185;
+            return __res_3839;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3188;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3842;
             if (value is null)
             {
-                __marshalledValue_3188 = null;
+                __marshalledValue_3842 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3189 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3188 = __notNullable_3189.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3843 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3842 = __notNullable_3843.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_3188);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_3842);
         }
     }
 }

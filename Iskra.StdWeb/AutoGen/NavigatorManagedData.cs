@@ -6,37 +6,67 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorManagedData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Record<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.GenericMarshaller.Record>, global::Iskra.StdWeb.PropertyAccessor> GetManagedConfiguration(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> keys)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.StdWeb.EventHandlerNonNull? Onmanagedconfigurationchange
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6350;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6351 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmanagedconfigurationchange");
-            if (__res_6351 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7556;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7557 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmanagedconfigurationchange");
+            if (__res_7557 is null)
             {
-                __res_6350 = null;
+                __res_7556 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6352 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6351;
-                __res_6350 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6352);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7558 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7557;
+                __res_7556 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7558);
             }
-            return __res_6350;
+            return __res_7556;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6353;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7559;
             if (value is null)
             {
-                __marshalledValue_6353 = null;
+                __marshalledValue_7559 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6354 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6353 = __notNullable_6354.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7560 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7559 = __notNullable_7560.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmanagedconfigurationchange", __marshalledValue_6353);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmanagedconfigurationchange", __marshalledValue_7559);
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> GetAnnotatedAssetId()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> GetAnnotatedLocation()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> GetDirectoryId()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> GetHostname()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> GetSerialNumber()
+    {
+        throw new global::System.Exception();
     }
 }
 

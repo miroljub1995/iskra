@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class InputDeviceInfo(global::System.Runtime.InteropServices.JavaScript.JSObject obj): MediaDeviceInfo(obj)
 {
-
+    public global::Iskra.StdWeb.MediaTrackCapabilities GetCapabilities()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

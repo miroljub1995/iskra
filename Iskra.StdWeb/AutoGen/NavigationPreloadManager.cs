@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationPreloadManager(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Promise Enable()
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Promise Disable()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise SetHeaderValue(string value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.NavigationPreloadState, global::Iskra.StdWeb.PropertyAccessor> GetState()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

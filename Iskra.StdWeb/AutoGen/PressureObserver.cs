@@ -6,15 +6,35 @@ namespace Iskra.StdWeb;
 
 public partial class PressureObserver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Promise Observe(global::Iskra.StdWeb.PressureSource source, global::Iskra.StdWeb.PressureObserverOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Unobserve(global::Iskra.StdWeb.PressureSource source)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Disconnect()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> TakeRecords()
+    {
+        throw new global::System.Exception();
+    }
+
     public static global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> KnownSources
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_6677;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6678;
-            __propObject_6678 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PressureObserver"), "knownSources");
-            __res_6677 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6678);
-            return __res_6677;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7976;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7977;
+            __propObject_7977 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PressureObserver"), "knownSources");
+            __res_7976 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7977);
+            return __res_7976;
         }
     }
 }

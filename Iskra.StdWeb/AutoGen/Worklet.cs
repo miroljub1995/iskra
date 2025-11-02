@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class Worklet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.JSCore.Promise AddModule(string moduleURL, global::Iskra.StdWeb.WorkletOptions options)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

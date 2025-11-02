@@ -10,11 +10,31 @@ public partial class SVGGeometryElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedNumber __res_881;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_882 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pathLength");
-            __res_881 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_882);
-            return __res_881;
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_948;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_949 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pathLength");
+            __res_948 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_949);
+            return __res_948;
         }
+    }
+
+    public bool IsPointInFill(global::Iskra.StdWeb.DOMPointInit point)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsPointInStroke(global::Iskra.StdWeb.DOMPointInit point)
+    {
+        throw new global::System.Exception();
+    }
+
+    public float GetTotalLength()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint GetPointAtLength(float distance)
+    {
+        throw new global::System.Exception();
     }
 }
 

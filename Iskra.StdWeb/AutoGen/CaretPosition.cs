@@ -10,10 +10,10 @@ public partial class CaretPosition(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.Node __res_3215;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3216 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offsetNode");
-            __res_3215 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3216);
-            return __res_3215;
+            global::Iskra.StdWeb.Node __res_3869;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3870 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offsetNode");
+            __res_3869 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3870);
+            return __res_3869;
         }
     }
 
@@ -21,11 +21,16 @@ public partial class CaretPosition(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_3217;
-            double __res_3218 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
-            __res_3217 = Convert.ToUInt32(__res_3218);
-            return __res_3217;
+            uint __res_3871;
+            double __res_3872 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
+            __res_3871 = Convert.ToUInt32(__res_3872);
+            return __res_3871;
         }
+    }
+
+    public global::Iskra.StdWeb.DOMRect? GetClientRect()
+    {
+        throw new global::System.Exception();
     }
 }
 

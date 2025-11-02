@@ -6,15 +6,55 @@ namespace Iskra.StdWeb;
 
 public partial class MLContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise> Lost
+    public void Dispatch(global::Iskra.StdWeb.MLGraph graph, global::Iskra.JSCore.Generics.Record<global::Iskra.StdWeb.MLTensor, global::Iskra.StdWeb.GenericMarshaller.Record> inputs, global::Iskra.JSCore.Generics.Record<global::Iskra.StdWeb.MLTensor, global::Iskra.StdWeb.GenericMarshaller.Record> outputs)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLTensor, global::Iskra.StdWeb.PropertyAccessor> CreateTensor(global::Iskra.StdWeb.MLTensorDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLTensor, global::Iskra.StdWeb.PropertyAccessor> CreateConstantTensor(global::Iskra.StdWeb.MLOperandDescriptor descriptor, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> inputData)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> ReadTensor(global::Iskra.StdWeb.MLTensor tensor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise ReadTensor(global::Iskra.StdWeb.MLTensor tensor, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> outputData)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void WriteTensor(global::Iskra.StdWeb.MLTensor tensor, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> inputData)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOpSupportLimits OpSupportLimits()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Destroy()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.PropertyAccessor> Lost
     {
         get
         {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_8086;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8087;
-            __propObject_8087 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lost");
-            __res_8086 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_8087);
-            return __res_8086;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.PropertyAccessor> __res_9689;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9690;
+            __propObject_9690 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lost");
+            __res_9689 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.PropertyAccessor>(__propObject_9690);
+            return __res_9689;
         }
     }
 }

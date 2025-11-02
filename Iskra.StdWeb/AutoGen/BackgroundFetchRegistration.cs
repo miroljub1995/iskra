@@ -10,10 +10,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            string __res_6319;
-            string __res_6320 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_6319 = __res_6320;
-            return __res_6319;
+            string __res_7518;
+            string __res_7519 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_7518 = __res_7519;
+            return __res_7518;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            ulong __res_6321;
-            double __res_6322 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploadTotal");
-            __res_6321 = Convert.ToUInt64(__res_6322);
-            return __res_6321;
+            ulong __res_7520;
+            double __res_7521 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploadTotal");
+            __res_7520 = Convert.ToUInt64(__res_7521);
+            return __res_7520;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            ulong __res_6323;
-            double __res_6324 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploaded");
-            __res_6323 = Convert.ToUInt64(__res_6324);
-            return __res_6323;
+            ulong __res_7522;
+            double __res_7523 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploaded");
+            __res_7522 = Convert.ToUInt64(__res_7523);
+            return __res_7522;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            ulong __res_6325;
-            double __res_6326 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloadTotal");
-            __res_6325 = Convert.ToUInt64(__res_6326);
-            return __res_6325;
+            ulong __res_7524;
+            double __res_7525 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloadTotal");
+            __res_7524 = Convert.ToUInt64(__res_7525);
+            return __res_7524;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            ulong __res_6327;
-            double __res_6328 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloaded");
-            __res_6327 = Convert.ToUInt64(__res_6328);
-            return __res_6327;
+            ulong __res_7526;
+            double __res_7527 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloaded");
+            __res_7526 = Convert.ToUInt64(__res_7527);
+            return __res_7526;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.BackgroundFetchResult __res_6329;
-            string __res_6330 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
-            __res_6329 = global::Iskra.StdWeb.BackgroundFetchResult.Create(__res_6330);
-            return __res_6329;
+            global::Iskra.StdWeb.BackgroundFetchResult __res_7528;
+            string __res_7529 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
+            __res_7528 = global::Iskra.StdWeb.BackgroundFetchResult.Create(__res_7529);
+            return __res_7528;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.BackgroundFetchFailureReason __res_6331;
-            string __res_6332 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "failureReason");
-            __res_6331 = global::Iskra.StdWeb.BackgroundFetchFailureReason.Create(__res_6332);
-            return __res_6331;
+            global::Iskra.StdWeb.BackgroundFetchFailureReason __res_7530;
+            string __res_7531 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "failureReason");
+            __res_7530 = global::Iskra.StdWeb.BackgroundFetchFailureReason.Create(__res_7531);
+            return __res_7530;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            bool __res_6333;
-            bool __res_6334 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "recordsAvailable");
-            __res_6333 = __res_6334;
-            return __res_6333;
+            bool __res_7532;
+            bool __res_7533 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "recordsAvailable");
+            __res_7532 = __res_7533;
+            return __res_7532;
         }
     }
 
@@ -98,33 +98,48 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6335;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6336 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress");
-            if (__res_6336 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_7534;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7535 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress");
+            if (__res_7535 is null)
             {
-                __res_6335 = null;
+                __res_7534 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6337 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6336;
-                __res_6335 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6337);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7536 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7535;
+                __res_7534 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7536);
             }
-            return __res_6335;
+            return __res_7534;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6338;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7537;
             if (value is null)
             {
-                __marshalledValue_6338 = null;
+                __marshalledValue_7537 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6339 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6338 = __notNullable_6339.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7538 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_7537 = __notNullable_7538.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress", __marshalledValue_6338);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress", __marshalledValue_7537);
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Abort()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.BackgroundFetchRecord, global::Iskra.StdWeb.PropertyAccessor> Match(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Request, string, global::Iskra.StdWeb.GenericMarshaller.Union> request, global::Iskra.StdWeb.CacheQueryOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.BackgroundFetchRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> MatchAll(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Request, string, global::Iskra.StdWeb.GenericMarshaller.Union> request, global::Iskra.StdWeb.CacheQueryOptions options)
+    {
+        throw new global::System.Exception();
     }
 }
 

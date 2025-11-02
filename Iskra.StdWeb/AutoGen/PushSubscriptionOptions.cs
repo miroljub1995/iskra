@@ -10,10 +10,10 @@ public partial class PushSubscriptionOptions(global::System.Runtime.InteropServi
     {
         get
         {
-            bool __res_8413;
-            bool __res_8414 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userVisibleOnly");
-            __res_8413 = __res_8414;
-            return __res_8413;
+            bool __res_10150;
+            bool __res_10151 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "userVisibleOnly");
+            __res_10150 = __res_10151;
+            return __res_10150;
         }
     }
 
@@ -21,18 +21,18 @@ public partial class PushSubscriptionOptions(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer? __res_8415;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8416 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "applicationServerKey");
-            if (__res_8416 is null)
+            global::Iskra.JSCore.ArrayBuffer? __res_10152;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10153 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "applicationServerKey");
+            if (__res_10153 is null)
             {
-                __res_8415 = null;
+                __res_10152 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8417 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8416;
-                __res_8415 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__notNullable_8417);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10154 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10153;
+                __res_10152 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__notNullable_10154);
             }
-            return __res_8415;
+            return __res_10152;
         }
     }
 }

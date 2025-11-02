@@ -19,10 +19,10 @@ public class MemberTypeGenerator(
             return attributeMemberTypeGenerator.Generate(attributeMemberType, containingTypeName);
         }
 
-        // if (input is OperationMemberType operationMemberType)
-        // {
-        //     return operationMemberTypeGenerator.Generate(operationMemberType, containingTypeName);
-        // }
+        if (input is OperationMemberType operationMemberType)
+        {
+            return operationMemberTypeGenerator.Generate(operationMemberType, containingTypeName);
+        }
 
         logger.LogWarning("Interface Member Type {type} is not handled.", input.GetType());
         return string.Empty;

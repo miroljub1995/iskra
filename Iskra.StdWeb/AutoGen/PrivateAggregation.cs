@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class PrivateAggregation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void ContributeToHistogram(global::Iskra.StdWeb.PAHistogramContribution contribution)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void ContributeToHistogramOnEvent(string @event, global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Record> contribution)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void EnableDebugMode(global::Iskra.StdWeb.PADebugModeOptions options)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

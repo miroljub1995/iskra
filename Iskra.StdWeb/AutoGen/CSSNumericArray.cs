@@ -10,11 +10,16 @@ public partial class CSSNumericArray(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            uint __res_67;
-            double __res_68 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_67 = Convert.ToUInt32(__res_68);
-            return __res_67;
+            uint __res_100;
+            double __res_101 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_100 = Convert.ToUInt32(__res_101);
+            return __res_100;
         }
+    }
+
+    public global::Iskra.StdWeb.CSSNumericValue Get(uint index)
+    {
+        throw new global::System.Exception();
     }
 }
 

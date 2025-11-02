@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class MutationObserver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void Observe(global::Iskra.StdWeb.Node target, global::Iskra.StdWeb.MutationObserverInit options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void Disconnect()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> TakeRecords()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

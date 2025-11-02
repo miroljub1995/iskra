@@ -10,10 +10,10 @@ public partial class CSSPseudoElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_6963;
-            string __res_6964 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_6963 = __res_6964;
-            return __res_6963;
+            string __res_8334;
+            string __res_8335 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_8334 = __res_8335;
+            return __res_8334;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSPseudoElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.Element __res_6965;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6966 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "element");
-            __res_6965 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_6966);
-            return __res_6965;
+            global::Iskra.StdWeb.Element __res_8336;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8337 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "element");
+            __res_8336 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_8337);
+            return __res_8336;
         }
     }
 
@@ -32,12 +32,37 @@ public partial class CSSPseudoElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __res_6967;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6968;
-            __propObject_6968 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "parent");
-            __res_6967 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6968);
-            return __res_6967;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __res_8338;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8339;
+            __propObject_8339 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "parent");
+            __res_8338 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8339);
+            return __res_8338;
         }
+    }
+
+    public global::Iskra.StdWeb.CSSPseudoElement? Pseudo(string type)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DOMQuad, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetBoxQuads(global::Iskra.StdWeb.BoxQuadOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMQuad ConvertQuadFromNode(global::Iskra.StdWeb.DOMQuadInit quad, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Text, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union> from, global::Iskra.StdWeb.ConvertCoordinateOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMQuad ConvertRectFromNode(global::Iskra.StdWeb.DOMRectReadOnly rect, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Text, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union> from, global::Iskra.StdWeb.ConvertCoordinateOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint ConvertPointFromNode(global::Iskra.StdWeb.DOMPointInit point, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Text, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union> from, global::Iskra.StdWeb.ConvertCoordinateOptions options)
+    {
+        throw new global::System.Exception();
     }
 }
 

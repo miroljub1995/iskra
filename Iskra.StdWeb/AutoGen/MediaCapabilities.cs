@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class MediaCapabilities(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaCapabilitiesDecodingInfo, global::Iskra.StdWeb.PropertyAccessor> DecodingInfo(global::Iskra.StdWeb.MediaDecodingConfiguration configuration)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaCapabilitiesEncodingInfo, global::Iskra.StdWeb.PropertyAccessor> EncodingInfo(global::Iskra.StdWeb.MediaEncodingConfiguration configuration)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

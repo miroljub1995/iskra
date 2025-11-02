@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class XPathExpression(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.StdWeb.XPathResult Evaluate(global::Iskra.StdWeb.Node contextNode, ushort type, global::Iskra.StdWeb.XPathResult? result)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

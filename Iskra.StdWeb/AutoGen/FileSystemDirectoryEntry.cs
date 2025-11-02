@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemDirectoryEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): FileSystemEntry(obj)
 {
+    public global::Iskra.StdWeb.FileSystemDirectoryReader CreateReader()
+    {
+        throw new global::System.Exception();
+    }
 
+    public void GetFile(string? path, global::Iskra.StdWeb.FileSystemFlags options, global::Iskra.StdWeb.FileSystemEntryCallback successCallback, global::Iskra.StdWeb.ErrorCallback errorCallback)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void GetDirectory(string? path, global::Iskra.StdWeb.FileSystemFlags options, global::Iskra.StdWeb.FileSystemEntryCallback successCallback, global::Iskra.StdWeb.ErrorCallback errorCallback)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

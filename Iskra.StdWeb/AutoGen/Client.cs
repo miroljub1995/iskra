@@ -10,10 +10,10 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.ClientLifecycleState __res_7849;
-            string __res_7850 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lifecycleState");
-            __res_7849 = global::Iskra.StdWeb.ClientLifecycleState.Create(__res_7850);
-            return __res_7849;
+            global::Iskra.StdWeb.ClientLifecycleState __res_9373;
+            string __res_9374 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lifecycleState");
+            __res_9373 = global::Iskra.StdWeb.ClientLifecycleState.Create(__res_9374);
+            return __res_9373;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_7851;
-            string __res_7852 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_7851 = __res_7852;
-            return __res_7851;
+            string __res_9375;
+            string __res_9376 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_9375 = __res_9376;
+            return __res_9375;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.FrameType __res_7853;
-            string __res_7854 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "frameType");
-            __res_7853 = global::Iskra.StdWeb.FrameType.Create(__res_7854);
-            return __res_7853;
+            global::Iskra.StdWeb.FrameType __res_9377;
+            string __res_9378 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "frameType");
+            __res_9377 = global::Iskra.StdWeb.FrameType.Create(__res_9378);
+            return __res_9377;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_7855;
-            string __res_7856 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_7855 = __res_7856;
-            return __res_7855;
+            string __res_9379;
+            string __res_9380 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_9379 = __res_9380;
+            return __res_9379;
         }
     }
 
@@ -54,11 +54,21 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            global::Iskra.StdWeb.ClientType __res_7857;
-            string __res_7858 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_7857 = global::Iskra.StdWeb.ClientType.Create(__res_7858);
-            return __res_7857;
+            global::Iskra.StdWeb.ClientType __res_9381;
+            string __res_9382 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_9381 = global::Iskra.StdWeb.ClientType.Create(__res_9382);
+            return __res_9381;
         }
+    }
+
+    public void PostMessage(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? message, global::Iskra.JSCore.Generics.JSArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> transfer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void PostMessage(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? message, global::Iskra.StdWeb.StructuredSerializeOptions options)
+    {
+        throw new global::System.Exception();
     }
 }
 

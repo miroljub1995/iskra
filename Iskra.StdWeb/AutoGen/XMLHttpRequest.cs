@@ -10,32 +10,32 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_1798;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1799 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreadystatechange");
-            if (__res_1799 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_2224;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2225 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onreadystatechange");
+            if (__res_2225 is null)
             {
-                __res_1798 = null;
+                __res_2224 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1800 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1799;
-                __res_1798 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_1800);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2226 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2225;
+                __res_2224 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2226);
             }
-            return __res_1798;
+            return __res_2224;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_1801;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2227;
             if (value is null)
             {
-                __marshalledValue_1801 = null;
+                __marshalledValue_2227 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_1802 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_1801 = __notNullable_1802.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2228 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_2227 = __notNullable_2228.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreadystatechange", __marshalledValue_1801);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onreadystatechange", __marshalledValue_2227);
         }
     }
 
@@ -43,27 +43,42 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            ushort __res_1803;
-            double __res_1804 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
-            __res_1803 = Convert.ToUInt16(__res_1804);
-            return __res_1803;
+            ushort __res_2229;
+            double __res_2230 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "readyState");
+            __res_2229 = Convert.ToUInt16(__res_2230);
+            return __res_2229;
         }
+    }
+
+    public void Open(string method, string url)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Open(string method, string url, bool async, string? username, string? password)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetRequestHeader(string name, string value)
+    {
+        throw new global::System.Exception();
     }
 
     public uint Timeout
     {
         get
         {
-            uint __res_1805;
-            double __res_1806 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timeout");
-            __res_1805 = Convert.ToUInt32(__res_1806);
-            return __res_1805;
+            uint __res_2234;
+            double __res_2235 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timeout");
+            __res_2234 = Convert.ToUInt32(__res_2235);
+            return __res_2234;
         }
         set
         {
-            double __marshalledValue_1807;
-            __marshalledValue_1807 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "timeout", __marshalledValue_1807);
+            double __marshalledValue_2236;
+            __marshalledValue_2236 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "timeout", __marshalledValue_2236);
         }
     }
 
@@ -71,16 +86,16 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            bool __res_1808;
-            bool __res_1809 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "withCredentials");
-            __res_1808 = __res_1809;
-            return __res_1808;
+            bool __res_2237;
+            bool __res_2238 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "withCredentials");
+            __res_2237 = __res_2238;
+            return __res_2237;
         }
         set
         {
-            bool __marshalledValue_1810;
-            __marshalledValue_1810 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "withCredentials", __marshalledValue_1810);
+            bool __marshalledValue_2239;
+            __marshalledValue_2239 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "withCredentials", __marshalledValue_2239);
         }
     }
 
@@ -88,21 +103,31 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.XMLHttpRequestUpload __res_1811;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1812 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upload");
-            __res_1811 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XMLHttpRequestUpload>(__res_1812);
-            return __res_1811;
+            global::Iskra.StdWeb.XMLHttpRequestUpload __res_2240;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2241 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upload");
+            __res_2240 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XMLHttpRequestUpload>(__res_2241);
+            return __res_2240;
         }
+    }
+
+    public void Send(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Document, global::Iskra.StdWeb.Blob, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.FormData, global::Iskra.StdWeb.URLSearchParams, string, global::Iskra.StdWeb.GenericMarshaller.Union>? body)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Abort()
+    {
+        throw new global::System.Exception();
     }
 
     public string ResponseURL
     {
         get
         {
-            string __res_1813;
-            string __res_1814 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseURL");
-            __res_1813 = __res_1814;
-            return __res_1813;
+            string __res_2244;
+            string __res_2245 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseURL");
+            __res_2244 = __res_2245;
+            return __res_2244;
         }
     }
 
@@ -110,10 +135,10 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            ushort __res_1815;
-            double __res_1816 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "status");
-            __res_1815 = Convert.ToUInt16(__res_1816);
-            return __res_1815;
+            ushort __res_2246;
+            double __res_2247 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "status");
+            __res_2246 = Convert.ToUInt16(__res_2247);
+            return __res_2246;
         }
     }
 
@@ -121,27 +146,42 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_1817;
-            string __res_1818 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "statusText");
-            __res_1817 = __res_1818;
-            return __res_1817;
+            string __res_2248;
+            string __res_2249 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "statusText");
+            __res_2248 = __res_2249;
+            return __res_2248;
         }
+    }
+
+    public string? GetResponseHeader(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string GetAllResponseHeaders()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void OverrideMimeType(string mime)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.XMLHttpRequestResponseType ResponseType
     {
         get
         {
-            global::Iskra.StdWeb.XMLHttpRequestResponseType __res_1819;
-            string __res_1820 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseType");
-            __res_1819 = global::Iskra.StdWeb.XMLHttpRequestResponseType.Create(__res_1820);
-            return __res_1819;
+            global::Iskra.StdWeb.XMLHttpRequestResponseType __res_2253;
+            string __res_2254 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseType");
+            __res_2253 = global::Iskra.StdWeb.XMLHttpRequestResponseType.Create(__res_2254);
+            return __res_2253;
         }
         set
         {
-            string __marshalledValue_1821;
-            __marshalledValue_1821 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "responseType", __marshalledValue_1821);
+            string __marshalledValue_2255;
+            __marshalledValue_2255 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "responseType", __marshalledValue_2255);
         }
     }
 
@@ -149,18 +189,18 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_1822;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1823;
-            __propObject_1823 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "response");
-            if (__propObject_1823 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2256;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2257;
+            __propObject_2257 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "response");
+            if (__propObject_2257 is null)
             {
-                __res_1822 = null;
+                __res_2256 = null;
             }
             else
             {
-                __res_1822 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1823);
+                __res_2256 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2257);
             }
-            return __res_1822;
+            return __res_2256;
         }
     }
 
@@ -168,10 +208,10 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_1824;
-            string __res_1825 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseText");
-            __res_1824 = __res_1825;
-            return __res_1824;
+            string __res_2258;
+            string __res_2259 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "responseText");
+            __res_2258 = __res_2259;
+            return __res_2258;
         }
     }
 
@@ -179,19 +219,29 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.Document? __res_1826;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1827 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "responseXML");
-            if (__res_1827 is null)
+            global::Iskra.StdWeb.Document? __res_2260;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2261 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "responseXML");
+            if (__res_2261 is null)
             {
-                __res_1826 = null;
+                __res_2260 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1828 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1827;
-                __res_1826 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Document>(__notNullable_1828);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2262 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2261;
+                __res_2260 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Document>(__notNullable_2262);
             }
-            return __res_1826;
+            return __res_2260;
         }
+    }
+
+    public void SetAttributionReporting(global::Iskra.StdWeb.AttributionReportingRequestOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetPrivateToken(global::Iskra.StdWeb.PrivateToken privateToken)
+    {
+        throw new global::System.Exception();
     }
 }
 

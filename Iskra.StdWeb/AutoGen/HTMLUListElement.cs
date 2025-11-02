@@ -10,16 +10,16 @@ public partial class HTMLUListElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_9656;
-            bool __res_9657 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            __res_9656 = __res_9657;
-            return __res_9656;
+            bool __res_11478;
+            bool __res_11479 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
+            __res_11478 = __res_11479;
+            return __res_11478;
         }
         set
         {
-            bool __marshalledValue_9658;
-            __marshalledValue_9658 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_9658);
+            bool __marshalledValue_11480;
+            __marshalledValue_11480 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_11480);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLUListElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_9659;
-            string __res_9660 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_9659 = __res_9660;
-            return __res_9659;
+            string __res_11481;
+            string __res_11482 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_11481 = __res_11482;
+            return __res_11481;
         }
         set
         {
-            string __marshalledValue_9661;
-            __marshalledValue_9661 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_9661);
+            string __marshalledValue_11483;
+            __marshalledValue_11483 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_11483);
         }
     }
 }

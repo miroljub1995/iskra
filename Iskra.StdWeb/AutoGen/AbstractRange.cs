@@ -10,10 +10,10 @@ public partial class AbstractRange(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.Node __res_6245;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6246 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startContainer");
-            __res_6245 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_6246);
-            return __res_6245;
+            global::Iskra.StdWeb.Node __res_7380;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7381 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startContainer");
+            __res_7380 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_7381);
+            return __res_7380;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AbstractRange(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_6247;
-            double __res_6248 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startOffset");
-            __res_6247 = Convert.ToUInt32(__res_6248);
-            return __res_6247;
+            uint __res_7382;
+            double __res_7383 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startOffset");
+            __res_7382 = Convert.ToUInt32(__res_7383);
+            return __res_7382;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class AbstractRange(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.Node __res_6249;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6250 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endContainer");
-            __res_6249 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_6250);
-            return __res_6249;
+            global::Iskra.StdWeb.Node __res_7384;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7385 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endContainer");
+            __res_7384 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_7385);
+            return __res_7384;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class AbstractRange(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_6251;
-            double __res_6252 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endOffset");
-            __res_6251 = Convert.ToUInt32(__res_6252);
-            return __res_6251;
+            uint __res_7386;
+            double __res_7387 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endOffset");
+            __res_7386 = Convert.ToUInt32(__res_7387);
+            return __res_7386;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class AbstractRange(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_6253;
-            bool __res_6254 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "collapsed");
-            __res_6253 = __res_6254;
-            return __res_6253;
+            bool __res_7388;
+            bool __res_7389 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "collapsed");
+            __res_7388 = __res_7389;
+            return __res_7388;
         }
     }
 }

@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemWritableFileStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WritableStream(obj)
 {
+    public global::Iskra.JSCore.Promise Write(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.WriteParams, global::Iskra.StdWeb.GenericMarshaller.Union> data)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Promise Seek(ulong position)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Truncate(ulong size)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

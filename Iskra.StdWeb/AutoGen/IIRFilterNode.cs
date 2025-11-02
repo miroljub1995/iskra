@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class IIRFilterNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
 {
-
+    public void GetFrequencyResponse(global::Iskra.JSCore.Float32Array frequencyHz, global::Iskra.JSCore.Float32Array magResponse, global::Iskra.JSCore.Float32Array phaseResponse)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

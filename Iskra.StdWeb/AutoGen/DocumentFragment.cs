@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class DocumentFragment(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Node(obj)
 {
+    public global::Iskra.StdWeb.Element? GetElementById(string elementId)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.StdWeb.HTMLCollection Children
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCollection __res_5814;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5815 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
-            __res_5814 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_5815);
-            return __res_5814;
+            global::Iskra.StdWeb.HTMLCollection __res_6853;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6854 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
+            __res_6853 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_6854);
+            return __res_6853;
         }
     }
 
@@ -21,18 +26,18 @@ public partial class DocumentFragment(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_5816;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5817 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstElementChild");
-            if (__res_5817 is null)
+            global::Iskra.StdWeb.Element? __res_6855;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6856 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstElementChild");
+            if (__res_6856 is null)
             {
-                __res_5816 = null;
+                __res_6855 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5818 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5817;
-                __res_5816 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5818);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6857 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6856;
+                __res_6855 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_6857);
             }
-            return __res_5816;
+            return __res_6855;
         }
     }
 
@@ -40,18 +45,18 @@ public partial class DocumentFragment(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_5819;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5820 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastElementChild");
-            if (__res_5820 is null)
+            global::Iskra.StdWeb.Element? __res_6858;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6859 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastElementChild");
+            if (__res_6859 is null)
             {
-                __res_5819 = null;
+                __res_6858 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5821 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5820;
-                __res_5819 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_5821);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6860 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6859;
+                __res_6858 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_6860);
             }
-            return __res_5819;
+            return __res_6858;
         }
     }
 
@@ -59,11 +64,41 @@ public partial class DocumentFragment(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_5822;
-            double __res_5823 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "childElementCount");
-            __res_5822 = Convert.ToUInt32(__res_5823);
-            return __res_5822;
+            uint __res_6861;
+            double __res_6862 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "childElementCount");
+            __res_6861 = Convert.ToUInt32(__res_6862);
+            return __res_6861;
         }
+    }
+
+    public void Prepend(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Append(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ReplaceChildren(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void MoveBefore(global::Iskra.StdWeb.Node node, global::Iskra.StdWeb.Node? child)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Element? QuerySelector(string selectors)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.NodeList QuerySelectorAll(string selectors)
+    {
+        throw new global::System.Exception();
     }
 }
 

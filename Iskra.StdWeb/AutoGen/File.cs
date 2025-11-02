@@ -10,10 +10,10 @@ public partial class File(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_14351;
-            string __res_14352 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "webkitRelativePath");
-            __res_14351 = __res_14352;
-            return __res_14351;
+            string __res_16966;
+            string __res_16967 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "webkitRelativePath");
+            __res_16966 = __res_16967;
+            return __res_16966;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class File(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            string __res_14353;
-            string __res_14354 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_14353 = __res_14354;
-            return __res_14353;
+            string __res_16968;
+            string __res_16969 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_16968 = __res_16969;
+            return __res_16968;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class File(global::System.Runtime.InteropServices.JavaScript.JSOb
     {
         get
         {
-            long __res_14355;
-            double __res_14356 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastModified");
-            __res_14355 = Convert.ToInt64(__res_14356);
-            return __res_14355;
+            long __res_16970;
+            double __res_16971 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastModified");
+            __res_16970 = Convert.ToInt64(__res_16971);
+            return __res_16970;
         }
     }
 }

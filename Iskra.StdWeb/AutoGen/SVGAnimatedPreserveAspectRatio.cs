@@ -10,10 +10,10 @@ public partial class SVGAnimatedPreserveAspectRatio(global::System.Runtime.Inter
     {
         get
         {
-            global::Iskra.StdWeb.SVGPreserveAspectRatio __res_1144;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1145 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
-            __res_1144 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPreserveAspectRatio>(__res_1145);
-            return __res_1144;
+            global::Iskra.StdWeb.SVGPreserveAspectRatio __res_1282;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1283 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "baseVal");
+            __res_1282 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPreserveAspectRatio>(__res_1283);
+            return __res_1282;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGAnimatedPreserveAspectRatio(global::System.Runtime.Inter
     {
         get
         {
-            global::Iskra.StdWeb.SVGPreserveAspectRatio __res_1146;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1147 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
-            __res_1146 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPreserveAspectRatio>(__res_1147);
-            return __res_1146;
+            global::Iskra.StdWeb.SVGPreserveAspectRatio __res_1284;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animVal");
+            __res_1284 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPreserveAspectRatio>(__res_1285);
+            return __res_1284;
         }
     }
 }

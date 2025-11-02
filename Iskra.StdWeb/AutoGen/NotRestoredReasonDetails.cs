@@ -10,11 +10,16 @@ public partial class NotRestoredReasonDetails(global::System.Runtime.InteropServ
     {
         get
         {
-            string __res_12662;
-            string __res_12663 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
-            __res_12662 = __res_12663;
-            return __res_12662;
+            string __res_14811;
+            string __res_14812 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
+            __res_14811 = __res_14812;
+            return __res_14811;
         }
+    }
+
+    public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -10,18 +10,18 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_14088;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14089;
-            __propObject_14089 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "lower");
-            if (__propObject_14089 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_16674;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_16675;
+            __propObject_16675 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "lower");
+            if (__propObject_16675 is null)
             {
-                __res_14088 = null;
+                __res_16674 = null;
             }
             else
             {
-                __res_14088 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_14089);
+                __res_16674 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_16675);
             }
-            return __res_14088;
+            return __res_16674;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_14090;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14091;
-            __propObject_14091 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "upper");
-            if (__propObject_14091 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_16676;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_16677;
+            __propObject_16677 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "upper");
+            if (__propObject_16677 is null)
             {
-                __res_14090 = null;
+                __res_16676 = null;
             }
             else
             {
-                __res_14090 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_14091);
+                __res_16676 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_16677);
             }
-            return __res_14090;
+            return __res_16676;
         }
     }
 
@@ -48,10 +48,10 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_14092;
-            bool __res_14093 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
-            __res_14092 = __res_14093;
-            return __res_14092;
+            bool __res_16678;
+            bool __res_16679 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lowerOpen");
+            __res_16678 = __res_16679;
+            return __res_16678;
         }
     }
 
@@ -59,11 +59,36 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_14094;
-            bool __res_14095 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
-            __res_14094 = __res_14095;
-            return __res_14094;
+            bool __res_16680;
+            bool __res_16681 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "upperOpen");
+            __res_16680 = __res_16681;
+            return __res_16680;
         }
+    }
+
+    public static global::Iskra.StdWeb.IDBKeyRange Only(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.StdWeb.IDBKeyRange LowerBound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? lower, bool open)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.StdWeb.IDBKeyRange UpperBound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? upper, bool open)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.StdWeb.IDBKeyRange Bound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? lower, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? upper, bool lowerOpen, bool upperOpen)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool Includes(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? key)
+    {
+        throw new global::System.Exception();
     }
 }
 

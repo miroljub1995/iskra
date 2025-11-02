@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class LaunchQueue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public void SetConsumer(global::Iskra.StdWeb.LaunchConsumer consumer)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

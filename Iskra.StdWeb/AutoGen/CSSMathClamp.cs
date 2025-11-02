@@ -10,10 +10,10 @@ public partial class CSSMathClamp(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.CSSNumericValue __res_61;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_62 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
-            __res_61 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_62);
-            return __res_61;
+            global::Iskra.StdWeb.CSSNumericValue __res_94;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_95 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
+            __res_94 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_95);
+            return __res_94;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSMathClamp(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.CSSNumericValue __res_63;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_64 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_63 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_64);
-            return __res_63;
+            global::Iskra.StdWeb.CSSNumericValue __res_96;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_97 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
+            __res_96 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_97);
+            return __res_96;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class CSSMathClamp(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.CSSNumericValue __res_65;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_66 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
-            __res_65 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_66);
-            return __res_65;
+            global::Iskra.StdWeb.CSSNumericValue __res_98;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_99 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
+            __res_98 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_99);
+            return __res_98;
         }
     }
 }

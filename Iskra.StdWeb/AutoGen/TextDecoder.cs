@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class TextDecoder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public string Decode(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> input, global::Iskra.StdWeb.TextDecodeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
     public string Encoding
     {
         get
         {
-            string __res_2160;
-            string __res_2161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
-            __res_2160 = __res_2161;
-            return __res_2160;
+            string __res_2650;
+            string __res_2651 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
+            __res_2650 = __res_2651;
+            return __res_2650;
         }
     }
 
@@ -21,10 +26,10 @@ public partial class TextDecoder(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_2162;
-            bool __res_2163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "fatal");
-            __res_2162 = __res_2163;
-            return __res_2162;
+            bool __res_2652;
+            bool __res_2653 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "fatal");
+            __res_2652 = __res_2653;
+            return __res_2652;
         }
     }
 
@@ -32,10 +37,10 @@ public partial class TextDecoder(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            bool __res_2164;
-            bool __res_2165 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreBOM");
-            __res_2164 = __res_2165;
-            return __res_2164;
+            bool __res_2654;
+            bool __res_2655 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreBOM");
+            __res_2654 = __res_2655;
+            return __res_2654;
         }
     }
 }

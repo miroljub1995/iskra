@@ -10,18 +10,18 @@ public partial class ProximitySensor(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            double? __res_15301;
-            double? __res_15302 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "distance");
-            if (__res_15302 is null)
+            double? __res_18003;
+            double? __res_18004 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "distance");
+            if (__res_18004 is null)
             {
-                __res_15301 = null;
+                __res_18003 = null;
             }
             else
             {
-                double __notNullable_15303 = (double)__res_15302;
-                __res_15301 = __notNullable_15303;
+                double __notNullable_18005 = (double)__res_18004;
+                __res_18003 = __notNullable_18005;
             }
-            return __res_15301;
+            return __res_18003;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class ProximitySensor(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            double? __res_15304;
-            double? __res_15305 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "max");
-            if (__res_15305 is null)
+            double? __res_18006;
+            double? __res_18007 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "max");
+            if (__res_18007 is null)
             {
-                __res_15304 = null;
+                __res_18006 = null;
             }
             else
             {
-                double __notNullable_15306 = (double)__res_15305;
-                __res_15304 = __notNullable_15306;
+                double __notNullable_18008 = (double)__res_18007;
+                __res_18006 = __notNullable_18008;
             }
-            return __res_15304;
+            return __res_18006;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class ProximitySensor(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool? __res_15307;
-            bool? __res_15308 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "near");
-            if (__res_15308 is null)
+            bool? __res_18009;
+            bool? __res_18010 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "near");
+            if (__res_18010 is null)
             {
-                __res_15307 = null;
+                __res_18009 = null;
             }
             else
             {
-                bool __notNullable_15309 = (bool)__res_15308;
-                __res_15307 = __notNullable_15309;
+                bool __notNullable_18011 = (bool)__res_18010;
+                __res_18009 = __notNullable_18011;
             }
-            return __res_15307;
+            return __res_18009;
         }
     }
 }

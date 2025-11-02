@@ -10,18 +10,18 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.VideoColorPrimaries? __res_4316;
-            string? __res_4317 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "primaries");
-            if (__res_4317 is null)
+            global::Iskra.StdWeb.VideoColorPrimaries? __res_5115;
+            string? __res_5116 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "primaries");
+            if (__res_5116 is null)
             {
-                __res_4316 = null;
+                __res_5115 = null;
             }
             else
             {
-                string __notNullable_4318 = (string)__res_4317;
-                __res_4316 = global::Iskra.StdWeb.VideoColorPrimaries.Create(__notNullable_4318);
+                string __notNullable_5117 = (string)__res_5116;
+                __res_5115 = global::Iskra.StdWeb.VideoColorPrimaries.Create(__notNullable_5117);
             }
-            return __res_4316;
+            return __res_5115;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.VideoTransferCharacteristics? __res_4319;
-            string? __res_4320 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "transfer");
-            if (__res_4320 is null)
+            global::Iskra.StdWeb.VideoTransferCharacteristics? __res_5118;
+            string? __res_5119 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "transfer");
+            if (__res_5119 is null)
             {
-                __res_4319 = null;
+                __res_5118 = null;
             }
             else
             {
-                string __notNullable_4321 = (string)__res_4320;
-                __res_4319 = global::Iskra.StdWeb.VideoTransferCharacteristics.Create(__notNullable_4321);
+                string __notNullable_5120 = (string)__res_5119;
+                __res_5118 = global::Iskra.StdWeb.VideoTransferCharacteristics.Create(__notNullable_5120);
             }
-            return __res_4319;
+            return __res_5118;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.VideoMatrixCoefficients? __res_4322;
-            string? __res_4323 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "matrix");
-            if (__res_4323 is null)
+            global::Iskra.StdWeb.VideoMatrixCoefficients? __res_5121;
+            string? __res_5122 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "matrix");
+            if (__res_5122 is null)
             {
-                __res_4322 = null;
+                __res_5121 = null;
             }
             else
             {
-                string __notNullable_4324 = (string)__res_4323;
-                __res_4322 = global::Iskra.StdWeb.VideoMatrixCoefficients.Create(__notNullable_4324);
+                string __notNullable_5123 = (string)__res_5122;
+                __res_5121 = global::Iskra.StdWeb.VideoMatrixCoefficients.Create(__notNullable_5123);
             }
-            return __res_4322;
+            return __res_5121;
         }
     }
 
@@ -67,19 +67,24 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            bool? __res_4325;
-            bool? __res_4326 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "fullRange");
-            if (__res_4326 is null)
+            bool? __res_5124;
+            bool? __res_5125 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "fullRange");
+            if (__res_5125 is null)
             {
-                __res_4325 = null;
+                __res_5124 = null;
             }
             else
             {
-                bool __notNullable_4327 = (bool)__res_4326;
-                __res_4325 = __notNullable_4327;
+                bool __notNullable_5126 = (bool)__res_5125;
+                __res_5124 = __notNullable_5126;
             }
-            return __res_4325;
+            return __res_5124;
         }
+    }
+
+    public global::Iskra.StdWeb.VideoColorSpaceInit ToJSON()
+    {
+        throw new global::System.Exception();
     }
 }
 

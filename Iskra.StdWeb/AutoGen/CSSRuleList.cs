@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class CSSRuleList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.CSSRule? Item(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
     public uint Length
     {
         get
         {
-            uint __res_13625;
-            double __res_13626 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_13625 = Convert.ToUInt32(__res_13626);
-            return __res_13625;
+            uint __res_16133;
+            double __res_16134 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_16133 = Convert.ToUInt32(__res_16134);
+            return __res_16133;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedString __res_1322;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1323 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            __res_1322 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1323);
-            return __res_1322;
+            global::Iskra.StdWeb.SVGAnimatedString __res_1479;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1480 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
+            __res_1479 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1480);
+            return __res_1479;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1324;
-            string __res_1325 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "download");
-            __res_1324 = __res_1325;
-            return __res_1324;
+            string __res_1481;
+            string __res_1482 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "download");
+            __res_1481 = __res_1482;
+            return __res_1481;
         }
         set
         {
-            string __marshalledValue_1326;
-            __marshalledValue_1326 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "download", __marshalledValue_1326);
+            string __marshalledValue_1483;
+            __marshalledValue_1483 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "download", __marshalledValue_1483);
         }
     }
 
@@ -38,16 +38,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1327;
-            string __res_1328 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ping");
-            __res_1327 = __res_1328;
-            return __res_1327;
+            string __res_1484;
+            string __res_1485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ping");
+            __res_1484 = __res_1485;
+            return __res_1484;
         }
         set
         {
-            string __marshalledValue_1329;
-            __marshalledValue_1329 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ping", __marshalledValue_1329);
+            string __marshalledValue_1486;
+            __marshalledValue_1486 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ping", __marshalledValue_1486);
         }
     }
 
@@ -55,16 +55,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1330;
-            string __res_1331 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
-            __res_1330 = __res_1331;
-            return __res_1330;
+            string __res_1487;
+            string __res_1488 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rel");
+            __res_1487 = __res_1488;
+            return __res_1487;
         }
         set
         {
-            string __marshalledValue_1332;
-            __marshalledValue_1332 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rel", __marshalledValue_1332);
+            string __marshalledValue_1489;
+            __marshalledValue_1489 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "rel", __marshalledValue_1489);
         }
     }
 
@@ -72,10 +72,10 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.DOMTokenList __res_1333;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1334 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
-            __res_1333 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_1334);
-            return __res_1333;
+            global::Iskra.StdWeb.DOMTokenList __res_1490;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1491 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "relList");
+            __res_1490 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMTokenList>(__res_1491);
+            return __res_1490;
         }
     }
 
@@ -83,16 +83,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1335;
-            string __res_1336 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hreflang");
-            __res_1335 = __res_1336;
-            return __res_1335;
+            string __res_1492;
+            string __res_1493 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hreflang");
+            __res_1492 = __res_1493;
+            return __res_1492;
         }
         set
         {
-            string __marshalledValue_1337;
-            __marshalledValue_1337 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hreflang", __marshalledValue_1337);
+            string __marshalledValue_1494;
+            __marshalledValue_1494 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hreflang", __marshalledValue_1494);
         }
     }
 
@@ -100,16 +100,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1338;
-            string __res_1339 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1338 = __res_1339;
-            return __res_1338;
+            string __res_1495;
+            string __res_1496 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1495 = __res_1496;
+            return __res_1495;
         }
         set
         {
-            string __marshalledValue_1340;
-            __marshalledValue_1340 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1340);
+            string __marshalledValue_1497;
+            __marshalledValue_1497 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1497);
         }
     }
 
@@ -117,16 +117,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1341;
-            string __res_1342 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
-            __res_1341 = __res_1342;
-            return __res_1341;
+            string __res_1498;
+            string __res_1499 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "referrerPolicy");
+            __res_1498 = __res_1499;
+            return __res_1498;
         }
         set
         {
-            string __marshalledValue_1343;
-            __marshalledValue_1343 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_1343);
+            string __marshalledValue_1500;
+            __marshalledValue_1500 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "referrerPolicy", __marshalledValue_1500);
         }
     }
 
@@ -134,10 +134,10 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1344;
-            string __res_1345 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
-            __res_1344 = __res_1345;
-            return __res_1344;
+            string __res_1501;
+            string __res_1502 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "origin");
+            __res_1501 = __res_1502;
+            return __res_1501;
         }
     }
 
@@ -145,16 +145,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1346;
-            string __res_1347 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_1346 = __res_1347;
-            return __res_1346;
+            string __res_1503;
+            string __res_1504 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_1503 = __res_1504;
+            return __res_1503;
         }
         set
         {
-            string __marshalledValue_1348;
-            __marshalledValue_1348 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "protocol", __marshalledValue_1348);
+            string __marshalledValue_1505;
+            __marshalledValue_1505 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "protocol", __marshalledValue_1505);
         }
     }
 
@@ -162,16 +162,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1349;
-            string __res_1350 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
-            __res_1349 = __res_1350;
-            return __res_1349;
+            string __res_1506;
+            string __res_1507 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
+            __res_1506 = __res_1507;
+            return __res_1506;
         }
         set
         {
-            string __marshalledValue_1351;
-            __marshalledValue_1351 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "username", __marshalledValue_1351);
+            string __marshalledValue_1508;
+            __marshalledValue_1508 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "username", __marshalledValue_1508);
         }
     }
 
@@ -179,16 +179,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1352;
-            string __res_1353 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
-            __res_1352 = __res_1353;
-            return __res_1352;
+            string __res_1509;
+            string __res_1510 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
+            __res_1509 = __res_1510;
+            return __res_1509;
         }
         set
         {
-            string __marshalledValue_1354;
-            __marshalledValue_1354 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "password", __marshalledValue_1354);
+            string __marshalledValue_1511;
+            __marshalledValue_1511 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "password", __marshalledValue_1511);
         }
     }
 
@@ -196,16 +196,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1355;
-            string __res_1356 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
-            __res_1355 = __res_1356;
-            return __res_1355;
+            string __res_1512;
+            string __res_1513 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "host");
+            __res_1512 = __res_1513;
+            return __res_1512;
         }
         set
         {
-            string __marshalledValue_1357;
-            __marshalledValue_1357 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "host", __marshalledValue_1357);
+            string __marshalledValue_1514;
+            __marshalledValue_1514 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "host", __marshalledValue_1514);
         }
     }
 
@@ -213,16 +213,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1358;
-            string __res_1359 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
-            __res_1358 = __res_1359;
-            return __res_1358;
+            string __res_1515;
+            string __res_1516 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
+            __res_1515 = __res_1516;
+            return __res_1515;
         }
         set
         {
-            string __marshalledValue_1360;
-            __marshalledValue_1360 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hostname", __marshalledValue_1360);
+            string __marshalledValue_1517;
+            __marshalledValue_1517 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hostname", __marshalledValue_1517);
         }
     }
 
@@ -230,16 +230,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1361;
-            string __res_1362 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
-            __res_1361 = __res_1362;
-            return __res_1361;
+            string __res_1518;
+            string __res_1519 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
+            __res_1518 = __res_1519;
+            return __res_1518;
         }
         set
         {
-            string __marshalledValue_1363;
-            __marshalledValue_1363 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "port", __marshalledValue_1363);
+            string __marshalledValue_1520;
+            __marshalledValue_1520 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "port", __marshalledValue_1520);
         }
     }
 
@@ -247,16 +247,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1364;
-            string __res_1365 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
-            __res_1364 = __res_1365;
-            return __res_1364;
+            string __res_1521;
+            string __res_1522 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
+            __res_1521 = __res_1522;
+            return __res_1521;
         }
         set
         {
-            string __marshalledValue_1366;
-            __marshalledValue_1366 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pathname", __marshalledValue_1366);
+            string __marshalledValue_1523;
+            __marshalledValue_1523 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pathname", __marshalledValue_1523);
         }
     }
 
@@ -264,16 +264,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1367;
-            string __res_1368 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
-            __res_1367 = __res_1368;
-            return __res_1367;
+            string __res_1524;
+            string __res_1525 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
+            __res_1524 = __res_1525;
+            return __res_1524;
         }
         set
         {
-            string __marshalledValue_1369;
-            __marshalledValue_1369 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "search", __marshalledValue_1369);
+            string __marshalledValue_1526;
+            __marshalledValue_1526 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "search", __marshalledValue_1526);
         }
     }
 
@@ -281,16 +281,16 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            string __res_1370;
-            string __res_1371 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
-            __res_1370 = __res_1371;
-            return __res_1370;
+            string __res_1527;
+            string __res_1528 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
+            __res_1527 = __res_1528;
+            return __res_1527;
         }
         set
         {
-            string __marshalledValue_1372;
-            __marshalledValue_1372 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hash", __marshalledValue_1372);
+            string __marshalledValue_1529;
+            __marshalledValue_1529 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "hash", __marshalledValue_1529);
         }
     }
 
@@ -298,10 +298,10 @@ public partial class SVGAElement(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedString __res_1373;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1374 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
-            __res_1373 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1374);
-            return __res_1373;
+            global::Iskra.StdWeb.SVGAnimatedString __res_1530;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1531 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
+            __res_1530 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1531);
+            return __res_1530;
         }
     }
 }

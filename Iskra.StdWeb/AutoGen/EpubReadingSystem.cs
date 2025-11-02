@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class EpubReadingSystem(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public bool HasFeature(string feature, string version)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

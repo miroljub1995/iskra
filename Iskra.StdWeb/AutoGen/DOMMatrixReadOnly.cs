@@ -6,14 +6,29 @@ namespace Iskra.StdWeb;
 
 public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.DOMMatrixReadOnly FromMatrix(global::Iskra.StdWeb.DOMMatrixInit other)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.StdWeb.DOMMatrixReadOnly FromFloat32Array(global::Iskra.JSCore.Float32Array array32)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.StdWeb.DOMMatrixReadOnly FromFloat64Array(global::Iskra.JSCore.Float64Array array64)
+    {
+        throw new global::System.Exception();
+    }
+
     public double A
     {
         get
         {
-            double __res_6458;
-            double __res_6459 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "a");
-            __res_6458 = __res_6459;
-            return __res_6458;
+            double __res_7684;
+            double __res_7685 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "a");
+            __res_7684 = __res_7685;
+            return __res_7684;
         }
     }
 
@@ -21,10 +36,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6460;
-            double __res_6461 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "b");
-            __res_6460 = __res_6461;
-            return __res_6460;
+            double __res_7686;
+            double __res_7687 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "b");
+            __res_7686 = __res_7687;
+            return __res_7686;
         }
     }
 
@@ -32,10 +47,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6462;
-            double __res_6463 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "c");
-            __res_6462 = __res_6463;
-            return __res_6462;
+            double __res_7688;
+            double __res_7689 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "c");
+            __res_7688 = __res_7689;
+            return __res_7688;
         }
     }
 
@@ -43,10 +58,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6464;
-            double __res_6465 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "d");
-            __res_6464 = __res_6465;
-            return __res_6464;
+            double __res_7690;
+            double __res_7691 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "d");
+            __res_7690 = __res_7691;
+            return __res_7690;
         }
     }
 
@@ -54,10 +69,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6466;
-            double __res_6467 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "e");
-            __res_6466 = __res_6467;
-            return __res_6466;
+            double __res_7692;
+            double __res_7693 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "e");
+            __res_7692 = __res_7693;
+            return __res_7692;
         }
     }
 
@@ -65,10 +80,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6468;
-            double __res_6469 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "f");
-            __res_6468 = __res_6469;
-            return __res_6468;
+            double __res_7694;
+            double __res_7695 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "f");
+            __res_7694 = __res_7695;
+            return __res_7694;
         }
     }
 
@@ -76,10 +91,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6470;
-            double __res_6471 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m11");
-            __res_6470 = __res_6471;
-            return __res_6470;
+            double __res_7696;
+            double __res_7697 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m11");
+            __res_7696 = __res_7697;
+            return __res_7696;
         }
     }
 
@@ -87,10 +102,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6472;
-            double __res_6473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m12");
-            __res_6472 = __res_6473;
-            return __res_6472;
+            double __res_7698;
+            double __res_7699 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m12");
+            __res_7698 = __res_7699;
+            return __res_7698;
         }
     }
 
@@ -98,10 +113,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6474;
-            double __res_6475 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m13");
-            __res_6474 = __res_6475;
-            return __res_6474;
+            double __res_7700;
+            double __res_7701 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m13");
+            __res_7700 = __res_7701;
+            return __res_7700;
         }
     }
 
@@ -109,10 +124,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6476;
-            double __res_6477 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m14");
-            __res_6476 = __res_6477;
-            return __res_6476;
+            double __res_7702;
+            double __res_7703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m14");
+            __res_7702 = __res_7703;
+            return __res_7702;
         }
     }
 
@@ -120,10 +135,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6478;
-            double __res_6479 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m21");
-            __res_6478 = __res_6479;
-            return __res_6478;
+            double __res_7704;
+            double __res_7705 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m21");
+            __res_7704 = __res_7705;
+            return __res_7704;
         }
     }
 
@@ -131,10 +146,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6480;
-            double __res_6481 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m22");
-            __res_6480 = __res_6481;
-            return __res_6480;
+            double __res_7706;
+            double __res_7707 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m22");
+            __res_7706 = __res_7707;
+            return __res_7706;
         }
     }
 
@@ -142,10 +157,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6482;
-            double __res_6483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m23");
-            __res_6482 = __res_6483;
-            return __res_6482;
+            double __res_7708;
+            double __res_7709 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m23");
+            __res_7708 = __res_7709;
+            return __res_7708;
         }
     }
 
@@ -153,10 +168,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6484;
-            double __res_6485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m24");
-            __res_6484 = __res_6485;
-            return __res_6484;
+            double __res_7710;
+            double __res_7711 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m24");
+            __res_7710 = __res_7711;
+            return __res_7710;
         }
     }
 
@@ -164,10 +179,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6486;
-            double __res_6487 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m31");
-            __res_6486 = __res_6487;
-            return __res_6486;
+            double __res_7712;
+            double __res_7713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m31");
+            __res_7712 = __res_7713;
+            return __res_7712;
         }
     }
 
@@ -175,10 +190,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6488;
-            double __res_6489 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m32");
-            __res_6488 = __res_6489;
-            return __res_6488;
+            double __res_7714;
+            double __res_7715 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m32");
+            __res_7714 = __res_7715;
+            return __res_7714;
         }
     }
 
@@ -186,10 +201,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6490;
-            double __res_6491 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m33");
-            __res_6490 = __res_6491;
-            return __res_6490;
+            double __res_7716;
+            double __res_7717 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m33");
+            __res_7716 = __res_7717;
+            return __res_7716;
         }
     }
 
@@ -197,10 +212,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6492;
-            double __res_6493 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m34");
-            __res_6492 = __res_6493;
-            return __res_6492;
+            double __res_7718;
+            double __res_7719 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m34");
+            __res_7718 = __res_7719;
+            return __res_7718;
         }
     }
 
@@ -208,10 +223,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6494;
-            double __res_6495 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m41");
-            __res_6494 = __res_6495;
-            return __res_6494;
+            double __res_7720;
+            double __res_7721 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m41");
+            __res_7720 = __res_7721;
+            return __res_7720;
         }
     }
 
@@ -219,10 +234,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6496;
-            double __res_6497 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m42");
-            __res_6496 = __res_6497;
-            return __res_6496;
+            double __res_7722;
+            double __res_7723 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m42");
+            __res_7722 = __res_7723;
+            return __res_7722;
         }
     }
 
@@ -230,10 +245,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6498;
-            double __res_6499 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m43");
-            __res_6498 = __res_6499;
-            return __res_6498;
+            double __res_7724;
+            double __res_7725 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m43");
+            __res_7724 = __res_7725;
+            return __res_7724;
         }
     }
 
@@ -241,10 +256,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            double __res_6500;
-            double __res_6501 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m44");
-            __res_6500 = __res_6501;
-            return __res_6500;
+            double __res_7726;
+            double __res_7727 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m44");
+            __res_7726 = __res_7727;
+            return __res_7726;
         }
     }
 
@@ -252,10 +267,10 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            bool __res_6502;
-            bool __res_6503 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
-            __res_6502 = __res_6503;
-            return __res_6502;
+            bool __res_7728;
+            bool __res_7729 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
+            __res_7728 = __res_7729;
+            return __res_7728;
         }
     }
 
@@ -263,11 +278,101 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            bool __res_6504;
-            bool __res_6505 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isIdentity");
-            __res_6504 = __res_6505;
-            return __res_6504;
+            bool __res_7730;
+            bool __res_7731 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isIdentity");
+            __res_7730 = __res_7731;
+            return __res_7730;
         }
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Translate(double tx, double ty, double tz)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX, double scaleY, double scaleZ, double originX, double originY, double originZ)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix ScaleNonUniform(double scaleX, double scaleY)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale3d(double scale, double originX, double originY, double originZ)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Rotate(double rotX, double rotY, double rotZ)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix RotateFromVector(double x, double y)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix RotateAxisAngle(double x, double y, double z, double angle)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix SkewX(double sx)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix SkewY(double sy)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Multiply(global::Iskra.StdWeb.DOMMatrixInit other)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix FlipX()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix FlipY()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Inverse()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint TransformPoint(global::Iskra.StdWeb.DOMPointInit point)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Float32Array ToFloat32Array()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Float64Array ToFloat64Array()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void _()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
+    {
+        throw new global::System.Exception();
     }
 }
 

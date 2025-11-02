@@ -10,11 +10,46 @@ public partial class NamedNodeMap(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_6204;
-            double __res_6205 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6204 = Convert.ToUInt32(__res_6205);
-            return __res_6204;
+            uint __res_7318;
+            double __res_7319 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_7318 = Convert.ToUInt32(__res_7319);
+            return __res_7318;
         }
+    }
+
+    public global::Iskra.StdWeb.Attr? Item(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Attr? GetNamedItem(string qualifiedName)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Attr? GetNamedItemNS(string? @namespace, string localName)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Attr? SetNamedItem(global::Iskra.StdWeb.Attr attr)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Attr? SetNamedItemNS(global::Iskra.StdWeb.Attr attr)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Attr RemoveNamedItem(string qualifiedName)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Attr RemoveNamedItemNS(string? @namespace, string localName)
+    {
+        throw new global::System.Exception();
     }
 }
 

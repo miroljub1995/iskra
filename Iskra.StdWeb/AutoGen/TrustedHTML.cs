@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class TrustedHTML(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void _()
+    {
+        throw new global::System.Exception();
+    }
 
+    public string ToJSON()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

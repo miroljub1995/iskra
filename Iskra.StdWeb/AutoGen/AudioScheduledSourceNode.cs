@@ -10,33 +10,43 @@ public partial class AudioScheduledSourceNode(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_14528;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14529 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
-            if (__res_14529 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_17212;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_17213 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
+            if (__res_17213 is null)
             {
-                __res_14528 = null;
+                __res_17212 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14530 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14529;
-                __res_14528 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_14530);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_17214 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_17213;
+                __res_17212 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_17214);
             }
-            return __res_14528;
+            return __res_17212;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14531;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_17215;
             if (value is null)
             {
-                __marshalledValue_14531 = null;
+                __marshalledValue_17215 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_14532 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_14531 = __notNullable_14532.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_17216 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_17215 = __notNullable_17216.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_14531);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_17215);
         }
+    }
+
+    public void Start(double when)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Stop(double when)
+    {
+        throw new global::System.Exception();
     }
 }
 

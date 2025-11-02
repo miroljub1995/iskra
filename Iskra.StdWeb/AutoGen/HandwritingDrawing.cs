@@ -6,7 +6,30 @@ namespace Iskra.StdWeb;
 
 public partial class HandwritingDrawing(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void AddStroke(global::Iskra.StdWeb.HandwritingStroke stroke)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void RemoveStroke(global::Iskra.StdWeb.HandwritingStroke stroke)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Clear()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HandwritingStroke, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetStrokes()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HandwritingPrediction, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetPrediction()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

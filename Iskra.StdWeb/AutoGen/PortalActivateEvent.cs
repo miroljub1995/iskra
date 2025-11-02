@@ -10,19 +10,24 @@ public partial class PortalActivateEvent(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_6716;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6717;
-            __propObject_6717 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "data");
-            if (__propObject_6717 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_8020;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8021;
+            __propObject_8021 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "data");
+            if (__propObject_8021 is null)
             {
-                __res_6716 = null;
+                __res_8020 = null;
             }
             else
             {
-                __res_6716 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6717);
+                __res_8020 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_8021);
             }
-            return __res_6716;
+            return __res_8020;
         }
+    }
+
+    public global::Iskra.StdWeb.HTMLPortalElement AdoptPredecessor()
+    {
+        throw new global::System.Exception();
     }
 }
 

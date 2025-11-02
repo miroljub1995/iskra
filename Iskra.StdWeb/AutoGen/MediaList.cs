@@ -10,16 +10,16 @@ public partial class MediaList(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_13593;
-            string __res_13594 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mediaText");
-            __res_13593 = __res_13594;
-            return __res_13593;
+            string __res_16090;
+            string __res_16091 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mediaText");
+            __res_16090 = __res_16091;
+            return __res_16090;
         }
         set
         {
-            string __marshalledValue_13595;
-            __marshalledValue_13595 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "mediaText", __marshalledValue_13595);
+            string __marshalledValue_16092;
+            __marshalledValue_16092 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "mediaText", __marshalledValue_16092);
         }
     }
 
@@ -27,11 +27,26 @@ public partial class MediaList(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            uint __res_13596;
-            double __res_13597 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_13596 = Convert.ToUInt32(__res_13597);
-            return __res_13596;
+            uint __res_16093;
+            double __res_16094 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_16093 = Convert.ToUInt32(__res_16094);
+            return __res_16093;
         }
+    }
+
+    public string? Item(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void AppendMedium(string medium)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DeleteMedium(string medium)
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemDirectoryReader(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public void ReadEntries(global::Iskra.StdWeb.FileSystemEntriesCallback successCallback, global::Iskra.StdWeb.ErrorCallback errorCallback)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

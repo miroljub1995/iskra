@@ -6,7 +6,40 @@ namespace Iskra.StdWeb;
 
 public partial class OES_draw_buffers_indexed(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void EnableiOES(uint target, uint index)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void DisableiOES(uint target, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BlendEquationiOES(uint buf, uint mode)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BlendEquationSeparateiOES(uint buf, uint modeRGB, uint modeAlpha)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BlendFunciOES(uint buf, uint src, uint dst)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BlendFuncSeparateiOES(uint buf, uint srcRGB, uint dstRGB, uint srcAlpha, uint dstAlpha)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ColorMaskiOES(uint buf, bool r, bool g, bool b, bool a)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

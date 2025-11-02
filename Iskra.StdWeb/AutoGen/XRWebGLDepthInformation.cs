@@ -10,10 +10,10 @@ public partial class XRWebGLDepthInformation(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.WebGLTexture __res_2219;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2220 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "texture");
-            __res_2219 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLTexture>(__res_2220);
-            return __res_2219;
+            global::Iskra.StdWeb.WebGLTexture __res_2718;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2719 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "texture");
+            __res_2718 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLTexture>(__res_2719);
+            return __res_2718;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class XRWebGLDepthInformation(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.XRTextureType __res_2221;
-            string __res_2222 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "textureType");
-            __res_2221 = global::Iskra.StdWeb.XRTextureType.Create(__res_2222);
-            return __res_2221;
+            global::Iskra.StdWeb.XRTextureType __res_2720;
+            string __res_2721 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "textureType");
+            __res_2720 = global::Iskra.StdWeb.XRTextureType.Create(__res_2721);
+            return __res_2720;
         }
     }
 
@@ -32,18 +32,18 @@ public partial class XRWebGLDepthInformation(global::System.Runtime.InteropServi
     {
         get
         {
-            uint? __res_2223;
-            double? __res_2224 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "imageIndex");
-            if (__res_2224 is null)
+            uint? __res_2722;
+            double? __res_2723 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "imageIndex");
+            if (__res_2723 is null)
             {
-                __res_2223 = null;
+                __res_2722 = null;
             }
             else
             {
-                double __notNullable_2225 = (double)__res_2224;
-                __res_2223 = Convert.ToUInt32(__notNullable_2225);
+                double __notNullable_2724 = (double)__res_2723;
+                __res_2722 = Convert.ToUInt32(__notNullable_2724);
             }
-            return __res_2223;
+            return __res_2722;
         }
     }
 }

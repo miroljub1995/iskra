@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class CredentialsContainer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Credential?, global::Iskra.StdWeb.PropertyAccessorNullable> Get(global::Iskra.StdWeb.CredentialRequestOptions options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Promise Store(global::Iskra.StdWeb.Credential credential)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Credential?, global::Iskra.StdWeb.PropertyAccessorNullable> Create(global::Iskra.StdWeb.CredentialCreationOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise PreventSilentAccess()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

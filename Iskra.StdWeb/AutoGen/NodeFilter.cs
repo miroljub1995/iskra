@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class NodeFilter(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public ushort AcceptNode(global::Iskra.StdWeb.Node node)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

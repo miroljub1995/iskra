@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class Scheduling(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public bool IsInputPending(global::Iskra.StdWeb.IsInputPendingOptions isInputPendingOptions)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

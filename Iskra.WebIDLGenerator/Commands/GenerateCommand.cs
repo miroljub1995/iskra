@@ -62,6 +62,7 @@ public class GenerateCommand : Command
                 .AddSingleton<MemberTypeGenerator>()
                 .AddSingleton<ModuleGenerator>()
                 .AddSingleton<OperationMemberTypeGenerator>()
+                .AddSingleton<PropertyAccessorGenerator>()
                 .AddSingleton<SetPropertyValueGenerator>()
                 // Marshaller
                 .AddSingleton<IDLTypeDescriptionMarshaller>();
@@ -104,6 +105,9 @@ public class GenerateCommand : Command
 
             var genericMarshallerGenerator = provider.GetRequiredService<GenericMarshallerGenerator>();
             await genericMarshallerGenerator.GenerateAsync(cancellationToken);
+
+            var propertyAccessorGenerator = provider.GetRequiredService<PropertyAccessorGenerator>();
+            await propertyAccessorGenerator.GenerateAsync(cancellationToken);
         });
     }
 

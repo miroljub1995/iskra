@@ -6,22 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class IdentityCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Credential(obj)
 {
+    public static global::Iskra.JSCore.Promise Disconnect(global::Iskra.StdWeb.IdentityCredentialDisconnectOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Token
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_3916;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_3917;
-            __propObject_3917 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "token");
-            if (__propObject_3917 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_4671;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_4672;
+            __propObject_4672 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "token");
+            if (__propObject_4672 is null)
             {
-                __res_3916 = null;
+                __res_4671 = null;
             }
             else
             {
-                __res_3916 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_3917);
+                __res_4671 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_4672);
             }
-            return __res_3916;
+            return __res_4671;
         }
     }
 
@@ -29,10 +34,10 @@ public partial class IdentityCredential(global::System.Runtime.InteropServices.J
     {
         get
         {
-            bool __res_3918;
-            bool __res_3919 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isAutoSelected");
-            __res_3918 = __res_3919;
-            return __res_3918;
+            bool __res_4673;
+            bool __res_4674 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isAutoSelected");
+            __res_4673 = __res_4674;
+            return __res_4673;
         }
     }
 
@@ -40,10 +45,10 @@ public partial class IdentityCredential(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_3920;
-            string __res_3921 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "configURL");
-            __res_3920 = __res_3921;
-            return __res_3920;
+            string __res_4675;
+            string __res_4676 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "configURL");
+            __res_4675 = __res_4676;
+            return __res_4675;
         }
     }
 }

@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class PerformancePaintTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
+    public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
+    {
+        throw new global::System.Exception();
+    }
+
     public double PaintTime
     {
         get
         {
-            double __res_6685;
-            double __res_6686 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "paintTime");
-            __res_6685 = __res_6686;
-            return __res_6685;
+            double __res_7986;
+            double __res_7987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "paintTime");
+            __res_7986 = __res_7987;
+            return __res_7986;
         }
     }
 
@@ -21,18 +26,18 @@ public partial class PerformancePaintTiming(global::System.Runtime.InteropServic
     {
         get
         {
-            double? __res_6687;
-            double? __res_6688 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "presentationTime");
-            if (__res_6688 is null)
+            double? __res_7988;
+            double? __res_7989 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "presentationTime");
+            if (__res_7989 is null)
             {
-                __res_6687 = null;
+                __res_7988 = null;
             }
             else
             {
-                double __notNullable_6689 = (double)__res_6688;
-                __res_6687 = __notNullable_6689;
+                double __notNullable_7990 = (double)__res_7989;
+                __res_7988 = __notNullable_7990;
             }
-            return __res_6687;
+            return __res_7988;
         }
     }
 }

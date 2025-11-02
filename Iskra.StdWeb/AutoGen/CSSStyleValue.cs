@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class CSSStyleValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void _()
+    {
+        throw new global::System.Exception();
+    }
 
+    public static global::Iskra.StdWeb.CSSStyleValue Parse(string property, string cssText)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CSSStyleValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> ParseAll(string property, string cssText)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

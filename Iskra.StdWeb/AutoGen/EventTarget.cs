@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class EventTarget(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void AddEventListener(string type, global::Iskra.StdWeb.EventListener? callback, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.AddEventListenerOptions, bool, global::Iskra.StdWeb.GenericMarshaller.Union> options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void RemoveEventListener(string type, global::Iskra.StdWeb.EventListener? callback, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.EventListenerOptions, bool, global::Iskra.StdWeb.GenericMarshaller.Union> options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool DispatchEvent(global::Iskra.StdWeb.Event @event)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Observable When(string type, global::Iskra.StdWeb.ObservableEventListenerOptions options)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

@@ -1,9 +1,11 @@
 using Iskra.WebIDLGenerator.Models;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class IDLTypeDescriptionToTypeDeclarationGenerator(
+    IServiceProvider provider,
     ILogger<IDLTypeDescriptionToTypeDeclarationGenerator> logger,
     GenTypeDescriptors genTypeDescriptors,
     GenericMarshallerGenerator genericMarshallerGenerator
@@ -29,6 +31,11 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
         if (input is PromiseTypeDescription promiseTypeDescription)
         {
             return MapPromiseToManagedType(promiseTypeDescription, marshalled);
+        }
+
+        if (input is RecordTypeDescription recordTypeDescription)
+        {
+            return MapRecordToManagedType(recordTypeDescription);
         }
 
         if (input is SequenceTypeDescription sequenceTypeDescription)
@@ -99,6 +106,8 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
 
     private string MapPromiseToManagedType(PromiseTypeDescription input, bool marshalled)
     {
+        var propertyAccessorGenerator = provider.GetRequiredService<PropertyAccessorGenerator>();
+
         var elementType = input.IdlType.Single();
         if (elementType is SingleTypeDescription { IdlType: BuiltinTypes.Undefined })
         {
@@ -112,10 +121,30 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             return MakeNullableIfNeeded($"global::System.Threading.Tasks.Task<{elementManagedType}>", input.Nullable);
         }
 
-        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input with { Nullable = false });
+        var propertyAccessor = propertyAccessorGenerator.GetOrCreateAccessor(elementType);
 
         return MakeNullableIfNeeded(
-            $"global::Iskra.JSCore.Generics.Promise<{elementManagedType}, {marshaller}>",
+            $"global::Iskra.JSCore.Generics.Promise<{elementManagedType}, {propertyAccessor}>",
+            input.Nullable
+        );
+    }
+
+    private string MapRecordToManagedType(RecordTypeDescription input)
+    {
+        if (input.IdlType.First() is not SingleTypeDescription { IdlType: BuiltinTypes.String })
+        {
+            throw new Exception("According to webidl spec, Record type must have string key");
+        }
+
+        var valueType = input.IdlType.Skip(1).Single();
+
+        var elementManagedType = Generate(valueType);
+
+
+        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input);
+
+        return MakeNullableIfNeeded(
+            $"global::Iskra.JSCore.Generics.Record<{elementManagedType}, {marshaller}>",
             input.Nullable
         );
     }

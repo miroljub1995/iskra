@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class WEBGL_lose_context(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void LoseContext()
+    {
+        throw new global::System.Exception();
+    }
 
+    public void RestoreContext()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

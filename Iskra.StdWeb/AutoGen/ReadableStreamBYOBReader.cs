@@ -6,16 +6,31 @@ namespace Iskra.StdWeb;
 
 public partial class ReadableStreamBYOBReader(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ReadableStreamReadResult, global::Iskra.StdWeb.PropertyAccessor> Read(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> view, global::Iskra.StdWeb.ReadableStreamBYOBReaderReadOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ReleaseLock()
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.JSCore.Promise Closed
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_1894;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1895;
-            __propObject_1895 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
-            __res_1894 = new global::Iskra.JSCore.Promise(__propObject_1895);
-            return __res_1894;
+            global::Iskra.JSCore.Promise __res_2350;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2351;
+            __propObject_2351 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
+            __res_2350 = new global::Iskra.JSCore.Promise(__propObject_2351);
+            return __res_2350;
         }
+    }
+
+    public global::Iskra.JSCore.Promise Cancel(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason)
+    {
+        throw new global::System.Exception();
     }
 }
 

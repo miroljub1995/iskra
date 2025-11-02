@@ -10,10 +10,10 @@ public partial class BarProp(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            bool __res_12475;
-            bool __res_12476 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
-            __res_12475 = __res_12476;
-            return __res_12475;
+            bool __res_14604;
+            bool __res_14605 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
+            __res_14604 = __res_14605;
+            return __res_14604;
         }
     }
 }

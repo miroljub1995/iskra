@@ -17,14 +17,19 @@ public partial class CSSFunctionRule(global::System.Runtime.InteropServices.Java
         }
     }
 
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FunctionParameter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetParameters()
+    {
+        throw new global::System.Exception();
+    }
+
     public string ReturnType
     {
         get
         {
-            string __res_20;
-            string __res_21 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnType");
-            __res_20 = __res_21;
-            return __res_20;
+            string __res_21;
+            string __res_22 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnType");
+            __res_21 = __res_22;
+            return __res_21;
         }
     }
 }

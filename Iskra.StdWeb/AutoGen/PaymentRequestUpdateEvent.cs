@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentRequestUpdateEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-
+    public void UpdateWith(global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentDetailsUpdate, global::Iskra.StdWeb.PropertyAccessor> detailsPromise)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

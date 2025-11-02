@@ -6,7 +6,35 @@ namespace Iskra.StdWeb;
 
 public partial class CustomElementRegistry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void Define(string name, global::Iskra.StdWeb.CustomElementConstructor constructor, global::Iskra.StdWeb.ElementDefinitionOptions options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.StdWeb.CustomElementConstructor? Get(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string? GetName(global::Iskra.StdWeb.CustomElementConstructor constructor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.CustomElementConstructor, global::Iskra.StdWeb.PropertyAccessor> WhenDefined(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Upgrade(global::Iskra.StdWeb.Node root)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Initialize(global::Iskra.StdWeb.Node root)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

@@ -10,10 +10,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.MediaCapabilities __res_12750;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12751 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaCapabilities");
-            __res_12750 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaCapabilities>(__res_12751);
-            return __res_12750;
+            global::Iskra.StdWeb.MediaCapabilities __res_14903;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14904 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaCapabilities");
+            __res_14903 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaCapabilities>(__res_14904);
+            return __res_14903;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Permissions __res_12752;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12753 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "permissions");
-            __res_12752 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Permissions>(__res_12753);
-            return __res_12752;
+            global::Iskra.StdWeb.Permissions __res_14905;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14906 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "permissions");
+            __res_14905 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Permissions>(__res_14906);
+            return __res_14905;
         }
     }
 
@@ -32,21 +32,31 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.MediaSession __res_12754;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12755 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaSession");
-            __res_12754 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaSession>(__res_12755);
-            return __res_12754;
+            global::Iskra.StdWeb.MediaSession __res_14907;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14908 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaSession");
+            __res_14907 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaSession>(__res_14908);
+            return __res_14907;
         }
+    }
+
+    public global::Iskra.JSCore.Promise Share(global::Iskra.StdWeb.ShareData data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool CanShare(global::Iskra.StdWeb.ShareData data)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.Scheduling Scheduling
     {
         get
         {
-            global::Iskra.StdWeb.Scheduling __res_12756;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12757 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scheduling");
-            __res_12756 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Scheduling>(__res_12757);
-            return __res_12756;
+            global::Iskra.StdWeb.Scheduling __res_14911;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14912 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "scheduling");
+            __res_14911 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Scheduling>(__res_14912);
+            return __res_14911;
         }
     }
 
@@ -54,10 +64,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.VirtualKeyboard __res_12758;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12759 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "virtualKeyboard");
-            __res_12758 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VirtualKeyboard>(__res_12759);
-            return __res_12758;
+            global::Iskra.StdWeb.VirtualKeyboard __res_14913;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14914 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "virtualKeyboard");
+            __res_14913 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VirtualKeyboard>(__res_14914);
+            return __res_14913;
         }
     }
 
@@ -65,10 +75,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Geolocation __res_12760;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12761 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "geolocation");
-            __res_12760 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Geolocation>(__res_12761);
-            return __res_12760;
+            global::Iskra.StdWeb.Geolocation __res_14915;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14916 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "geolocation");
+            __res_14915 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Geolocation>(__res_14916);
+            return __res_14915;
         }
     }
 
@@ -76,10 +86,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.WakeLock __res_12762;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12763 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "wakeLock");
-            __res_12762 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WakeLock>(__res_12763);
-            return __res_12762;
+            global::Iskra.StdWeb.WakeLock __res_14917;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14918 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "wakeLock");
+            __res_14917 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WakeLock>(__res_14918);
+            return __res_14917;
         }
     }
 
@@ -87,10 +97,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.HID __res_12764;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12765 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "hid");
-            __res_12764 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HID>(__res_12765);
-            return __res_12764;
+            global::Iskra.StdWeb.HID __res_14919;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14920 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "hid");
+            __res_14919 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HID>(__res_14920);
+            return __res_14919;
         }
     }
 
@@ -98,10 +108,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Attribution __res_12766;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12767 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attribution");
-            __res_12766 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Attribution>(__res_12767);
-            return __res_12766;
+            global::Iskra.StdWeb.Attribution __res_14921;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14922 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attribution");
+            __res_14921 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Attribution>(__res_14922);
+            return __res_14921;
         }
     }
 
@@ -109,10 +119,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Ink __res_12768;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12769 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ink");
-            __res_12768 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Ink>(__res_12769);
-            return __res_12768;
+            global::Iskra.StdWeb.Ink __res_14923;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14924 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ink");
+            __res_14923 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Ink>(__res_14924);
+            return __res_14923;
         }
     }
 
@@ -120,10 +130,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Clipboard __res_12770;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12771 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clipboard");
-            __res_12770 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Clipboard>(__res_12771);
-            return __res_12770;
+            global::Iskra.StdWeb.Clipboard __res_14925;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14926 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "clipboard");
+            __res_14925 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Clipboard>(__res_14926);
+            return __res_14925;
         }
     }
 
@@ -131,10 +141,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Presentation __res_12772;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12773 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "presentation");
-            __res_12772 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Presentation>(__res_12773);
-            return __res_12772;
+            global::Iskra.StdWeb.Presentation __res_14927;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14928 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "presentation");
+            __res_14927 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Presentation>(__res_14928);
+            return __res_14927;
         }
     }
 
@@ -142,10 +152,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.CredentialsContainer __res_12774;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12775 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "credentials");
-            __res_12774 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CredentialsContainer>(__res_12775);
-            return __res_12774;
+            global::Iskra.StdWeb.CredentialsContainer __res_14929;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14930 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "credentials");
+            __res_14929 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CredentialsContainer>(__res_14930);
+            return __res_14929;
         }
     }
 
@@ -153,10 +163,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Bluetooth __res_12776;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12777 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "bluetooth");
-            __res_12776 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Bluetooth>(__res_12777);
-            return __res_12776;
+            global::Iskra.StdWeb.Bluetooth __res_14931;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14932 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "bluetooth");
+            __res_14931 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Bluetooth>(__res_14932);
+            return __res_14931;
         }
     }
 
@@ -164,10 +174,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Keyboard __res_12778;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12779 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyboard");
-            __res_12778 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Keyboard>(__res_12779);
-            return __res_12778;
+            global::Iskra.StdWeb.Keyboard __res_14933;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14934 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyboard");
+            __res_14933 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Keyboard>(__res_14934);
+            return __res_14933;
         }
     }
 
@@ -175,10 +185,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.WindowControlsOverlay __res_12780;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12781 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "windowControlsOverlay");
-            __res_12780 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WindowControlsOverlay>(__res_12781);
-            return __res_12780;
+            global::Iskra.StdWeb.WindowControlsOverlay __res_14935;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14936 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "windowControlsOverlay");
+            __res_14935 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WindowControlsOverlay>(__res_14936);
+            return __res_14935;
         }
     }
 
@@ -186,10 +196,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.NavigatorLogin __res_12782;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12783 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "login");
-            __res_12782 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigatorLogin>(__res_12783);
-            return __res_12782;
+            global::Iskra.StdWeb.NavigatorLogin __res_14937;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14938 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "login");
+            __res_14937 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigatorLogin>(__res_14938);
+            return __res_14937;
         }
     }
 
@@ -197,32 +207,87 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.NavigatorManagedData __res_12784;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12785 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "managed");
-            __res_12784 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigatorManagedData>(__res_12785);
-            return __res_12784;
+            global::Iskra.StdWeb.NavigatorManagedData __res_14939;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14940 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "managed");
+            __res_14939 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigatorManagedData>(__res_14940);
+            return __res_14939;
         }
+    }
+
+    public global::Iskra.StdWeb.AutoplayPolicy GetAutoplayPolicy(global::Iskra.StdWeb.AutoplayPolicyMediaType type)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.AutoplayPolicy GetAutoplayPolicy(global::Iskra.StdWeb.HTMLMediaElement element)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.AutoplayPolicy GetAutoplayPolicy(global::Iskra.StdWeb.AudioContext context)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise JoinAdInterestGroup(global::Iskra.StdWeb.AuctionAdInterestGroup group)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise LeaveAdInterestGroup(global::Iskra.StdWeb.AuctionAdInterestGroupKey group)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise ClearOriginJoinedAdInterestGroups(string owner, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> interestGroupsToKeep)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> RunAdAuction(global::Iskra.StdWeb.AuctionAdConfig config)
+    {
+        throw new global::System.Exception();
     }
 
     public bool DeprecatedRunAdAuctionEnforcesKAnonymity
     {
         get
         {
-            bool __res_12786;
-            bool __res_12787 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "deprecatedRunAdAuctionEnforcesKAnonymity");
-            __res_12786 = __res_12787;
-            return __res_12786;
+            bool __res_14948;
+            bool __res_14949 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "deprecatedRunAdAuctionEnforcesKAnonymity");
+            __res_14948 = __res_14949;
+            return __res_14948;
         }
+    }
+
+    public bool CanLoadAdAuctionFencedFrame()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.AdAuctionData, global::Iskra.StdWeb.PropertyAccessor> GetInterestGroupAdAuctionData(global::Iskra.StdWeb.AdAuctionDataConfig config)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> CreateAuctionNonce()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void UpdateAdInterestGroups()
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.ProtectedAudience ProtectedAudience
     {
         get
         {
-            global::Iskra.StdWeb.ProtectedAudience __res_12788;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12789 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
-            __res_12788 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ProtectedAudience>(__res_12789);
-            return __res_12788;
+            global::Iskra.StdWeb.ProtectedAudience __res_14954;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14955 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "protectedAudience");
+            __res_14954 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ProtectedAudience>(__res_14955);
+            return __res_14954;
         }
     }
 
@@ -230,32 +295,47 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.MediaDevices __res_12790;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12791 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaDevices");
-            __res_12790 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaDevices>(__res_12791);
-            return __res_12790;
+            global::Iskra.StdWeb.MediaDevices __res_14956;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14957 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaDevices");
+            __res_14956 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaDevices>(__res_14957);
+            return __res_14956;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.HandwritingRecognizerQueryResult?, global::Iskra.StdWeb.PropertyAccessorNullable> QueryHandwritingRecognizer(global::Iskra.StdWeb.HandwritingModelConstraint constraint)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.HandwritingRecognizer, global::Iskra.StdWeb.PropertyAccessor> CreateHandwritingRecognizer(global::Iskra.StdWeb.HandwritingModelConstraint constraint)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.XRSystem Xr
     {
         get
         {
-            global::Iskra.StdWeb.XRSystem __res_12792;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12793 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "xr");
-            __res_12792 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSystem>(__res_12793);
-            return __res_12792;
+            global::Iskra.StdWeb.XRSystem __res_14960;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14961 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "xr");
+            __res_14960 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSystem>(__res_14961);
+            return __res_14960;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RelatedApplication, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetInstalledRelatedApps()
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.PreferenceManager Preferences
     {
         get
         {
-            global::Iskra.StdWeb.PreferenceManager __res_12794;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12795 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preferences");
-            __res_12794 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceManager>(__res_12795);
-            return __res_12794;
+            global::Iskra.StdWeb.PreferenceManager __res_14963;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14964 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preferences");
+            __res_14963 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PreferenceManager>(__res_14964);
+            return __res_14963;
         }
     }
 
@@ -263,10 +343,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Serial __res_12796;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12797 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serial");
-            __res_12796 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Serial>(__res_12797);
-            return __res_12796;
+            global::Iskra.StdWeb.Serial __res_14965;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14966 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serial");
+            __res_14965 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Serial>(__res_14966);
+            return __res_14965;
         }
     }
 
@@ -274,43 +354,63 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.ServiceWorkerContainer __res_12798;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12799 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceWorker");
-            __res_12798 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorkerContainer>(__res_12799);
-            return __res_12798;
+            global::Iskra.StdWeb.ServiceWorkerContainer __res_14967;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14968 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serviceWorker");
+            __res_14967 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorkerContainer>(__res_14968);
+            return __res_14967;
         }
+    }
+
+    public bool Vibrate(global::Iskra.JSCore.Generics.Union<uint, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> pattern)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Gamepad?, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetGamepads()
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.DevicePosture DevicePosture
     {
         get
         {
-            global::Iskra.StdWeb.DevicePosture __res_12800;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12801 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "devicePosture");
-            __res_12800 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DevicePosture>(__res_12801);
-            return __res_12800;
+            global::Iskra.StdWeb.DevicePosture __res_14971;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14972 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "devicePosture");
+            __res_14971 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DevicePosture>(__res_14972);
+            return __res_14971;
         }
+    }
+
+    public bool SendBeacon(string url, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStream, global::Iskra.StdWeb.Blob, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.FormData, global::Iskra.StdWeb.URLSearchParams, string, global::Iskra.StdWeb.GenericMarshaller.Union>? data)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.USB Usb
     {
         get
         {
-            global::Iskra.StdWeb.USB __res_12802;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12803 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "usb");
-            __res_12802 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USB>(__res_12803);
-            return __res_12802;
+            global::Iskra.StdWeb.USB __res_14974;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14975 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "usb");
+            __res_14974 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USB>(__res_14975);
+            return __res_14974;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySystemAccess, global::Iskra.StdWeb.PropertyAccessor> RequestMediaKeySystemAccess(string keySystem, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaKeySystemConfiguration, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> supportedConfigurations)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.EpubReadingSystem EpubReadingSystem
     {
         get
         {
-            global::Iskra.StdWeb.EpubReadingSystem __res_12804;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12805 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "epubReadingSystem");
-            __res_12804 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EpubReadingSystem>(__res_12805);
-            return __res_12804;
+            global::Iskra.StdWeb.EpubReadingSystem __res_14977;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14978 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "epubReadingSystem");
+            __res_14977 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EpubReadingSystem>(__res_14978);
+            return __res_14977;
         }
     }
 
@@ -318,21 +418,46 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.UserActivation __res_12806;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12807 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "userActivation");
-            __res_12806 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.UserActivation>(__res_12807);
-            return __res_12806;
+            global::Iskra.StdWeb.UserActivation __res_14979;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14980 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "userActivation");
+            __res_14979 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.UserActivation>(__res_14980);
+            return __res_14979;
         }
+    }
+
+    public global::Iskra.JSCore.Promise DeprecatedReplaceInURN(global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.Union> urnOrConfig, global::Iskra.JSCore.Generics.Record<string, global::Iskra.StdWeb.GenericMarshaller.Record> replacements)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> DeprecatedURNtoURL(global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.Union> urnOrConfig, bool send_reports)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> AdAuctionComponents(ushort numAdComponents)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.BatteryManager, global::Iskra.StdWeb.PropertyAccessor> GetBattery()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MIDIAccess, global::Iskra.StdWeb.PropertyAccessor> RequestMIDIAccess(global::Iskra.StdWeb.MIDIOptions options)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.ContactsManager Contacts
     {
         get
         {
-            global::Iskra.StdWeb.ContactsManager __res_12808;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12809 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contacts");
-            __res_12808 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactsManager>(__res_12809);
-            return __res_12808;
+            global::Iskra.StdWeb.ContactsManager __res_14986;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contacts");
+            __res_14986 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactsManager>(__res_14987);
+            return __res_14986;
         }
     }
 
@@ -340,10 +465,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.AudioSession __res_12810;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12811 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioSession");
-            __res_12810 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioSession>(__res_12811);
-            return __res_12810;
+            global::Iskra.StdWeb.AudioSession __res_14988;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14989 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "audioSession");
+            __res_14988 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioSession>(__res_14989);
+            return __res_14988;
         }
     }
 
@@ -351,10 +476,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            int __res_12812;
-            double __res_12813 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTouchPoints");
-            __res_12812 = Convert.ToInt32(__res_12813);
-            return __res_12812;
+            int __res_14990;
+            double __res_14991 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTouchPoints");
+            __res_14990 = Convert.ToInt32(__res_14991);
+            return __res_14990;
         }
     }
 
@@ -362,10 +487,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.GPU __res_12814;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12815 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gpu");
-            __res_12814 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPU>(__res_12815);
-            return __res_12814;
+            global::Iskra.StdWeb.GPU __res_14992;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14993 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gpu");
+            __res_14992 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPU>(__res_14993);
+            return __res_14992;
         }
     }
 
@@ -373,10 +498,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool __res_12816;
-            bool __res_12817 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "webdriver");
-            __res_12816 = __res_12817;
-            return __res_12816;
+            bool __res_14994;
+            bool __res_14995 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "webdriver");
+            __res_14994 = __res_14995;
+            return __res_14994;
         }
     }
 
@@ -384,10 +509,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool __res_12818;
-            bool __res_12819 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "globalPrivacyControl");
-            __res_12818 = __res_12819;
-            return __res_12818;
+            bool __res_14996;
+            bool __res_14997 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "globalPrivacyControl");
+            __res_14996 = __res_14997;
+            return __res_14996;
         }
     }
 
@@ -395,10 +520,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.NavigatorUAData __res_12820;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12821 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "userAgentData");
-            __res_12820 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigatorUAData>(__res_12821);
-            return __res_12820;
+            global::Iskra.StdWeb.NavigatorUAData __res_14998;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14999 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "userAgentData");
+            __res_14998 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigatorUAData>(__res_14999);
+            return __res_14998;
         }
     }
 
@@ -406,10 +531,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.LockManager __res_12822;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12823 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
-            __res_12822 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LockManager>(__res_12823);
-            return __res_12822;
+            global::Iskra.StdWeb.LockManager __res_15000;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_15001 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
+            __res_15000 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LockManager>(__res_15001);
+            return __res_15000;
         }
     }
 
@@ -417,10 +542,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            double __res_12824;
-            double __res_12825 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceMemory");
-            __res_12824 = __res_12825;
-            return __res_12824;
+            double __res_15002;
+            double __res_15003 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceMemory");
+            __res_15002 = __res_15003;
+            return __res_15002;
         }
     }
 
@@ -428,21 +553,31 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.NetworkInformation __res_12826;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12827 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
-            __res_12826 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NetworkInformation>(__res_12827);
-            return __res_12826;
+            global::Iskra.StdWeb.NetworkInformation __res_15004;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_15005 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
+            __res_15004 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NetworkInformation>(__res_15005);
+            return __res_15004;
         }
+    }
+
+    public global::Iskra.JSCore.Promise SetAppBadge(ulong contents)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise ClearAppBadge()
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.StorageBucketManager StorageBuckets
     {
         get
         {
-            global::Iskra.StdWeb.StorageBucketManager __res_12828;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12829 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "storageBuckets");
-            __res_12828 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StorageBucketManager>(__res_12829);
-            return __res_12828;
+            global::Iskra.StdWeb.StorageBucketManager __res_15008;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_15009 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "storageBuckets");
+            __res_15008 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StorageBucketManager>(__res_15009);
+            return __res_15008;
         }
     }
 
@@ -450,10 +585,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.ML __res_12830;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12831 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ml");
-            __res_12830 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ML>(__res_12831);
-            return __res_12830;
+            global::Iskra.StdWeb.ML __res_15010;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_15011 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ml");
+            __res_15010 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ML>(__res_15011);
+            return __res_15010;
         }
     }
 
@@ -461,10 +596,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_12832;
-            string __res_12833 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "appCodeName");
-            __res_12832 = __res_12833;
-            return __res_12832;
+            string __res_15012;
+            string __res_15013 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "appCodeName");
+            __res_15012 = __res_15013;
+            return __res_15012;
         }
     }
 
@@ -472,10 +607,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_12834;
-            string __res_12835 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "appName");
-            __res_12834 = __res_12835;
-            return __res_12834;
+            string __res_15014;
+            string __res_15015 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "appName");
+            __res_15014 = __res_15015;
+            return __res_15014;
         }
     }
 
@@ -483,10 +618,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_12836;
-            string __res_12837 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "appVersion");
-            __res_12836 = __res_12837;
-            return __res_12836;
+            string __res_15016;
+            string __res_15017 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "appVersion");
+            __res_15016 = __res_15017;
+            return __res_15016;
         }
     }
 
@@ -494,10 +629,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_12838;
-            string __res_12839 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
-            __res_12838 = __res_12839;
-            return __res_12838;
+            string __res_15018;
+            string __res_15019 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
+            __res_15018 = __res_15019;
+            return __res_15018;
         }
     }
 
@@ -505,10 +640,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_12840;
-            string __res_12841 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "product");
-            __res_12840 = __res_12841;
-            return __res_12840;
+            string __res_15020;
+            string __res_15021 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "product");
+            __res_15020 = __res_15021;
+            return __res_15020;
         }
     }
 
@@ -516,10 +651,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_12842;
-            string __res_12843 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "productSub");
-            __res_12842 = __res_12843;
-            return __res_12842;
+            string __res_15022;
+            string __res_15023 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "productSub");
+            __res_15022 = __res_15023;
+            return __res_15022;
         }
     }
 
@@ -527,10 +662,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_12844;
-            string __res_12845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "userAgent");
-            __res_12844 = __res_12845;
-            return __res_12844;
+            string __res_15024;
+            string __res_15025 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "userAgent");
+            __res_15024 = __res_15025;
+            return __res_15024;
         }
     }
 
@@ -538,10 +673,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_12846;
-            string __res_12847 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vendor");
-            __res_12846 = __res_12847;
-            return __res_12846;
+            string __res_15026;
+            string __res_15027 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vendor");
+            __res_15026 = __res_15027;
+            return __res_15026;
         }
     }
 
@@ -549,21 +684,26 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_12848;
-            string __res_12849 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vendorSub");
-            __res_12848 = __res_12849;
-            return __res_12848;
+            string __res_15028;
+            string __res_15029 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vendorSub");
+            __res_15028 = __res_15029;
+            return __res_15028;
         }
+    }
+
+    public bool TaintEnabled()
+    {
+        throw new global::System.Exception();
     }
 
     public string Oscpu
     {
         get
         {
-            string __res_12850;
-            string __res_12851 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oscpu");
-            __res_12850 = __res_12851;
-            return __res_12850;
+            string __res_15031;
+            string __res_15032 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oscpu");
+            __res_15031 = __res_15032;
+            return __res_15031;
         }
     }
 
@@ -571,10 +711,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_12852;
-            string __res_12853 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
-            __res_12852 = __res_12853;
-            return __res_12852;
+            string __res_15033;
+            string __res_15034 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
+            __res_15033 = __res_15034;
+            return __res_15033;
         }
     }
 
@@ -582,11 +722,11 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_12854;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_12855;
-            __propObject_12855 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "languages");
-            __res_12854 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_12855);
-            return __res_12854;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_15035;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_15036;
+            __propObject_15036 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "languages");
+            __res_15035 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_15036);
+            return __res_15035;
         }
     }
 
@@ -594,21 +734,31 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool __res_12856;
-            bool __res_12857 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "onLine");
-            __res_12856 = __res_12857;
-            return __res_12856;
+            bool __res_15037;
+            bool __res_15038 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "onLine");
+            __res_15037 = __res_15038;
+            return __res_15037;
         }
+    }
+
+    public void RegisterProtocolHandler(string scheme, string url)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void UnregisterProtocolHandler(string scheme, string url)
+    {
+        throw new global::System.Exception();
     }
 
     public bool CookieEnabled
     {
         get
         {
-            bool __res_12858;
-            bool __res_12859 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cookieEnabled");
-            __res_12858 = __res_12859;
-            return __res_12858;
+            bool __res_15041;
+            bool __res_15042 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cookieEnabled");
+            __res_15041 = __res_15042;
+            return __res_15041;
         }
     }
 
@@ -616,10 +766,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.PluginArray __res_12860;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12861 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "plugins");
-            __res_12860 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PluginArray>(__res_12861);
-            return __res_12860;
+            global::Iskra.StdWeb.PluginArray __res_15043;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_15044 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "plugins");
+            __res_15043 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PluginArray>(__res_15044);
+            return __res_15043;
         }
     }
 
@@ -627,21 +777,26 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.MimeTypeArray __res_12862;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12863 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mimeTypes");
-            __res_12862 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MimeTypeArray>(__res_12863);
-            return __res_12862;
+            global::Iskra.StdWeb.MimeTypeArray __res_15045;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_15046 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mimeTypes");
+            __res_15045 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MimeTypeArray>(__res_15046);
+            return __res_15045;
         }
+    }
+
+    public bool JavaEnabled()
+    {
+        throw new global::System.Exception();
     }
 
     public bool PdfViewerEnabled
     {
         get
         {
-            bool __res_12864;
-            bool __res_12865 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pdfViewerEnabled");
-            __res_12864 = __res_12865;
-            return __res_12864;
+            bool __res_15048;
+            bool __res_15049 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pdfViewerEnabled");
+            __res_15048 = __res_15049;
+            return __res_15048;
         }
     }
 
@@ -649,10 +804,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            ulong __res_12866;
-            double __res_12867 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "hardwareConcurrency");
-            __res_12866 = Convert.ToUInt64(__res_12867);
-            return __res_12866;
+            ulong __res_15050;
+            double __res_15051 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "hardwareConcurrency");
+            __res_15050 = Convert.ToUInt64(__res_15051);
+            return __res_15050;
         }
     }
 
@@ -660,10 +815,10 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.StorageManager __res_12868;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12869 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "storage");
-            __res_12868 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StorageManager>(__res_12869);
-            return __res_12868;
+            global::Iskra.StdWeb.StorageManager __res_15052;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_15053 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "storage");
+            __res_15052 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StorageManager>(__res_15053);
+            return __res_15052;
         }
     }
 }

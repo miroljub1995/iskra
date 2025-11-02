@@ -10,16 +10,16 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_10307;
-            string __res_10308 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_10307 = __res_10308;
-            return __res_10307;
+            string __res_12162;
+            string __res_12163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_12162 = __res_12163;
+            return __res_12162;
         }
         set
         {
-            string __marshalledValue_10309;
-            __marshalledValue_10309 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10309);
+            string __marshalledValue_12164;
+            __marshalledValue_12164 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_12164);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCollection __res_10310;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10311 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
-            __res_10310 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_10311);
-            return __res_10310;
+            global::Iskra.StdWeb.HTMLCollection __res_12165;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12166 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
+            __res_12165 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_12166);
+            return __res_12165;
         }
     }
 }

@@ -6,7 +6,100 @@ namespace Iskra.StdWeb;
 
 public partial class SubtleCrypto(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> Encrypt(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> algorithm, global::Iskra.StdWeb.CryptoKey key, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> data)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> Decrypt(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> algorithm, global::Iskra.StdWeb.CryptoKey key, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> Sign(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> algorithm, global::Iskra.StdWeb.CryptoKey key, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Verify(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> algorithm, global::Iskra.StdWeb.CryptoKey key, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> signature, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> Digest(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> algorithm, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.CryptoKeyPair, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> GenerateKey(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> algorithm, bool extractable, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.KeyUsage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> keyUsages)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.PropertyAccessor> DeriveKey(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> algorithm, global::Iskra.StdWeb.CryptoKey baseKey, global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> derivedKeyType, bool extractable, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.KeyUsage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> keyUsages)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> DeriveBits(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> algorithm, global::Iskra.StdWeb.CryptoKey baseKey, uint? length)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.PropertyAccessor> ImportKey(global::Iskra.StdWeb.KeyFormat format, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.JsonWebKey, global::Iskra.StdWeb.GenericMarshaller.Union> keyData, global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> algorithm, bool extractable, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.KeyUsage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> keyUsages)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.JsonWebKey, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> ExportKey(global::Iskra.StdWeb.KeyFormat format, global::Iskra.StdWeb.CryptoKey key)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> WrapKey(global::Iskra.StdWeb.KeyFormat format, global::Iskra.StdWeb.CryptoKey key, global::Iskra.StdWeb.CryptoKey wrappingKey, global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> wrapAlgorithm)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.PropertyAccessor> UnwrapKey(global::Iskra.StdWeb.KeyFormat format, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> wrappedKey, global::Iskra.StdWeb.CryptoKey unwrappingKey, global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> unwrapAlgorithm, global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> unwrappedKeyAlgorithm, bool extractable, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.KeyUsage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> keyUsages)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.EncapsulatedKey, global::Iskra.StdWeb.PropertyAccessor> EncapsulateKey(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> encapsulationAlgorithm, global::Iskra.StdWeb.CryptoKey encapsulationKey, global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> sharedKeyAlgorithm, bool extractable, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.KeyUsage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> keyUsages)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.EncapsulatedBits, global::Iskra.StdWeb.PropertyAccessor> EncapsulateBits(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> encapsulationAlgorithm, global::Iskra.StdWeb.CryptoKey encapsulationKey)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.PropertyAccessor> DecapsulateKey(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> decapsulationAlgorithm, global::Iskra.StdWeb.CryptoKey decapsulationKey, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> ciphertext, global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> sharedKeyAlgorithm, bool extractable, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.KeyUsage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> keyUsages)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> DecapsulateBits(global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> decapsulationAlgorithm, global::Iskra.StdWeb.CryptoKey decapsulationKey, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> ciphertext)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.PropertyAccessor> GetPublicKey(global::Iskra.StdWeb.CryptoKey key, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.KeyUsage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> keyUsages)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static bool Supports(string operation, global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> algorithm, uint? length)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static bool Supports(string operation, global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> algorithm, global::Iskra.JSCore.Generics.Union<global::System.Runtime.InteropServices.JavaScript.JSObject, string, global::Iskra.StdWeb.GenericMarshaller.Union> additionalAlgorithm)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

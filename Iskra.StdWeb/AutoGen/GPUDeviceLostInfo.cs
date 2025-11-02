@@ -10,10 +10,10 @@ public partial class GPUDeviceLostInfo(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.StdWeb.GPUDeviceLostReason __res_1657;
-            string __res_1658 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
-            __res_1657 = global::Iskra.StdWeb.GPUDeviceLostReason.Create(__res_1658);
-            return __res_1657;
+            global::Iskra.StdWeb.GPUDeviceLostReason __res_1923;
+            string __res_1924 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
+            __res_1923 = global::Iskra.StdWeb.GPUDeviceLostReason.Create(__res_1924);
+            return __res_1923;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GPUDeviceLostInfo(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_1659;
-            string __res_1660 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_1659 = __res_1660;
-            return __res_1659;
+            string __res_1925;
+            string __res_1926 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_1925 = __res_1926;
+            return __res_1925;
         }
     }
 }

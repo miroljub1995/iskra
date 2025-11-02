@@ -10,23 +10,23 @@ public partial class MediaSessionActionHandler(global::System.Runtime.InteropSer
 {
     public static implicit operator MediaSessionActionHandler(MediaSessionActionHandlerManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1379) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1536) =>
         {
-            using (__args_1379)
+            using (__args_1536)
             {
                 // Argument 1
-                global::Iskra.StdWeb.MediaSessionActionDetails __arg_1381;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1382 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1379, 0);
-                __arg_1381 = new global::Iskra.StdWeb.MediaSessionActionDetails(__res_1382);
+                global::Iskra.StdWeb.MediaSessionActionDetails __arg_1538;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1539 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1536, 0);
+                __arg_1538 = new global::Iskra.StdWeb.MediaSessionActionDetails(__res_1539);
 
-                input(__arg_1381);
+                input(__arg_1538);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1383 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1383, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1540 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1540, input);
 
-        return new global::Iskra.StdWeb.MediaSessionActionHandler(__funcObj_1383);
+        return new global::Iskra.StdWeb.MediaSessionActionHandler(__funcObj_1540);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.MediaSessionActionHandlerManaged? managed, bool allowConversion = false)
@@ -44,16 +44,16 @@ public partial class MediaSessionActionHandler(global::System.Runtime.InteropSer
 
         managed = (details) =>
         {
-            int __argsArrayLength_1387 = 1;
+            int __argsArrayLength_1544 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1384 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_1387);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1541 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_1544);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1388;
-            __marshalledValue_1388 = details.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1384.JSObject, 0, __marshalledValue_1388);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1545;
+            __marshalledValue_1545 = details.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1541.JSObject, 0, __marshalledValue_1545);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_1384.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_1541.JSObject);
         };
         return true;
     }

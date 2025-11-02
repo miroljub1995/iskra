@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class XRHitTestSource(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public void Cancel()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

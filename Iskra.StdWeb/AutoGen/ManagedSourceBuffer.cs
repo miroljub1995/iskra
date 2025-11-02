@@ -10,32 +10,32 @@ public partial class ManagedSourceBuffer(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13998;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13999 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onbufferedchange");
-            if (__res_13999 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_16553;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16554 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onbufferedchange");
+            if (__res_16554 is null)
             {
-                __res_13998 = null;
+                __res_16553 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14000 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13999;
-                __res_13998 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_14000);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16555 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16554;
+                __res_16553 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16555);
             }
-            return __res_13998;
+            return __res_16553;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_14001;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16556;
             if (value is null)
             {
-                __marshalledValue_14001 = null;
+                __marshalledValue_16556 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_14002 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_14001 = __notNullable_14002.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16557 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_16556 = __notNullable_16557.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onbufferedchange", __marshalledValue_14001);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onbufferedchange", __marshalledValue_16556);
         }
     }
 }

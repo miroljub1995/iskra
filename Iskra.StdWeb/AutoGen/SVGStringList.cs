@@ -10,10 +10,10 @@ public partial class SVGStringList(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_916;
-            double __res_917 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_916 = Convert.ToUInt32(__res_917);
-            return __res_916;
+            uint __res_1007;
+            double __res_1008 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_1007 = Convert.ToUInt32(__res_1008);
+            return __res_1007;
         }
     }
 
@@ -21,11 +21,51 @@ public partial class SVGStringList(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_918;
-            double __res_919 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_918 = Convert.ToUInt32(__res_919);
-            return __res_918;
+            uint __res_1009;
+            double __res_1010 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_1009 = Convert.ToUInt32(__res_1010);
+            return __res_1009;
         }
+    }
+
+    public void Clear()
+    {
+        throw new global::System.Exception();
+    }
+
+    public string Initialize(string newItem)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string GetItem(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string InsertItemBefore(string newItem, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string ReplaceItem(string newItem, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string RemoveItem(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string AppendItem(string newItem)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Set(uint index, string newItem)
+    {
+        throw new global::System.Exception();
     }
 }
 

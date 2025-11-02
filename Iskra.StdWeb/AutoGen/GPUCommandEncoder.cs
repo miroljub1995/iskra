@@ -6,21 +6,86 @@ namespace Iskra.StdWeb;
 
 public partial class GPUCommandEncoder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.GPURenderPassEncoder BeginRenderPass(global::Iskra.StdWeb.GPURenderPassDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUComputePassEncoder BeginComputePass(global::Iskra.StdWeb.GPUComputePassDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CopyBufferToBuffer(global::Iskra.StdWeb.GPUBuffer source, global::Iskra.StdWeb.GPUBuffer destination, ulong size)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CopyBufferToBuffer(global::Iskra.StdWeb.GPUBuffer source, ulong sourceOffset, global::Iskra.StdWeb.GPUBuffer destination, ulong destinationOffset, ulong size)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CopyBufferToTexture(global::Iskra.StdWeb.GPUTexelCopyBufferInfo source, global::Iskra.StdWeb.GPUTexelCopyTextureInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CopyTextureToBuffer(global::Iskra.StdWeb.GPUTexelCopyTextureInfo source, global::Iskra.StdWeb.GPUTexelCopyBufferInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CopyTextureToTexture(global::Iskra.StdWeb.GPUTexelCopyTextureInfo source, global::Iskra.StdWeb.GPUTexelCopyTextureInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ClearBuffer(global::Iskra.StdWeb.GPUBuffer buffer, ulong offset, ulong size)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ResolveQuerySet(global::Iskra.StdWeb.GPUQuerySet querySet, uint firstQuery, uint queryCount, global::Iskra.StdWeb.GPUBuffer destination, ulong destinationOffset)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.GPUCommandBuffer Finish(global::Iskra.StdWeb.GPUCommandBufferDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
     public string Label
     {
         get
         {
-            string __res_1630;
-            string __res_1631 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1630 = __res_1631;
-            return __res_1630;
+            string __res_1841;
+            string __res_1842 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1841 = __res_1842;
+            return __res_1841;
         }
         set
         {
-            string __marshalledValue_1632;
-            __marshalledValue_1632 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1632);
+            string __marshalledValue_1843;
+            __marshalledValue_1843 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1843);
         }
+    }
+
+    public void PushDebugGroup(string groupLabel)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void PopDebugGroup()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void InsertDebugMarker(string markerLabel)
+    {
+        throw new global::System.Exception();
     }
 }
 

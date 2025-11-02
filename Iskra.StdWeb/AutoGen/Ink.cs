@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class Ink(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.DelegatedInkTrailPresenter, global::Iskra.StdWeb.PropertyAccessor> RequestPresenter(global::Iskra.StdWeb.InkPresenterParam param)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

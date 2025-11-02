@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class ProtectedAudience(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? QueryFeatureSupport(string feature)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

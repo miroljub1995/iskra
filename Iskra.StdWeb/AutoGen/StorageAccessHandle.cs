@@ -10,10 +10,10 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.Storage __res_7642;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7643 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sessionStorage");
-            __res_7642 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(__res_7643);
-            return __res_7642;
+            global::Iskra.StdWeb.Storage __res_9137;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9138 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sessionStorage");
+            __res_9137 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(__res_9138);
+            return __res_9137;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.Storage __res_7644;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7645 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "localStorage");
-            __res_7644 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(__res_7645);
-            return __res_7644;
+            global::Iskra.StdWeb.Storage __res_9139;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9140 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "localStorage");
+            __res_9139 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(__res_9140);
+            return __res_9139;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.IDBFactory __res_7646;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7647 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
-            __res_7646 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBFactory>(__res_7647);
-            return __res_7646;
+            global::Iskra.StdWeb.IDBFactory __res_9141;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9142 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
+            __res_9141 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBFactory>(__res_9142);
+            return __res_9141;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.LockManager __res_7648;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7649 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
-            __res_7648 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LockManager>(__res_7649);
-            return __res_7648;
+            global::Iskra.StdWeb.LockManager __res_9143;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9144 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "locks");
+            __res_9143 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LockManager>(__res_9144);
+            return __res_9143;
         }
     }
 
@@ -54,11 +54,41 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.CacheStorage __res_7650;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7651 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
-            __res_7650 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CacheStorage>(__res_7651);
-            return __res_7650;
+            global::Iskra.StdWeb.CacheStorage __res_9145;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9146 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
+            __res_9145 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CacheStorage>(__res_9146);
+            return __res_9145;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemDirectoryHandle, global::Iskra.StdWeb.PropertyAccessor> GetDirectory()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.StorageEstimate, global::Iskra.StdWeb.PropertyAccessor> Estimate()
+    {
+        throw new global::System.Exception();
+    }
+
+    public string CreateObjectURL(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.MediaSource, global::Iskra.StdWeb.GenericMarshaller.Union> obj)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void RevokeObjectURL(string url)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.BroadcastChannel BroadcastChannel(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SharedWorker SharedWorker(string scriptURL, global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.SharedWorkerOptions, global::Iskra.StdWeb.GenericMarshaller.Union> options)
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -10,16 +10,16 @@ public partial class CSSUnitValue(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            double __res_42;
-            double __res_43 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_42 = __res_43;
-            return __res_42;
+            double __res_75;
+            double __res_76 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_75 = __res_76;
+            return __res_75;
         }
         set
         {
-            double __marshalledValue_44;
-            __marshalledValue_44 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_44);
+            double __marshalledValue_77;
+            __marshalledValue_77 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_77);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class CSSUnitValue(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_45;
-            string __res_46 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unit");
-            __res_45 = __res_46;
-            return __res_45;
+            string __res_78;
+            string __res_79 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unit");
+            __res_78 = __res_79;
+            return __res_78;
         }
     }
 }

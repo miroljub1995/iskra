@@ -10,21 +10,46 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_7573;
-            string __res_7574 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_7573 = __res_7574;
-            return __res_7573;
+            string __res_9050;
+            string __res_9051 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_9050 = __res_9051;
+            return __res_9050;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Persist()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Persisted()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.StorageEstimate, global::Iskra.StdWeb.PropertyAccessor> Estimate()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise SetExpires(double expires)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<double?, global::Iskra.StdWeb.PropertyAccessorNullable> Expires()
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.IDBFactory IndexedDB
     {
         get
         {
-            global::Iskra.StdWeb.IDBFactory __res_7575;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7576 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
-            __res_7575 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBFactory>(__res_7576);
-            return __res_7575;
+            global::Iskra.StdWeb.IDBFactory __res_9057;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9058 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
+            __res_9057 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBFactory>(__res_9058);
+            return __res_9057;
         }
     }
 
@@ -32,11 +57,16 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.CacheStorage __res_7577;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7578 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
-            __res_7577 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CacheStorage>(__res_7578);
-            return __res_7577;
+            global::Iskra.StdWeb.CacheStorage __res_9059;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9060 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
+            __res_9059 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CacheStorage>(__res_9060);
+            return __res_9059;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemDirectoryHandle, global::Iskra.StdWeb.PropertyAccessor> GetDirectory()
+    {
+        throw new global::System.Exception();
     }
 }
 

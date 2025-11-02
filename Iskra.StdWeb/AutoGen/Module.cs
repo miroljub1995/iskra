@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class Module(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ModuleExportDescriptor, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Exports(global::Iskra.StdWeb.Module moduleObject)
+    {
+        throw new global::System.Exception();
+    }
 
+    public static global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ModuleImportDescriptor, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Imports(global::Iskra.StdWeb.Module moduleObject)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> CustomSections(global::Iskra.StdWeb.Module moduleObject, string sectionName)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

@@ -150,6 +150,16 @@
         "extAttrs": [],
         "partial": false,
         "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+      },
+      "SharedArrayBuffer": {
+        "fragment": "",
+        "type": "interface",
+        "name": "SharedArrayBuffer",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer"
       }
     },
     "idlExtendedNames": {}

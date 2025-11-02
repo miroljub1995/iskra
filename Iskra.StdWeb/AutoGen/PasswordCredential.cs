@@ -10,10 +10,10 @@ public partial class PasswordCredential(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_4150;
-            string __res_4151 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
-            __res_4150 = __res_4151;
-            return __res_4150;
+            string __res_4914;
+            string __res_4915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
+            __res_4914 = __res_4915;
+            return __res_4914;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PasswordCredential(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_4152;
-            string __res_4153 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4152 = __res_4153;
-            return __res_4152;
+            string __res_4916;
+            string __res_4917 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_4916 = __res_4917;
+            return __res_4916;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PasswordCredential(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_4154;
-            string __res_4155 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iconURL");
-            __res_4154 = __res_4155;
-            return __res_4154;
+            string __res_4918;
+            string __res_4919 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iconURL");
+            __res_4918 = __res_4919;
+            return __res_4918;
         }
     }
 }

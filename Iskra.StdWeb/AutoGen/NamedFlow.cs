@@ -10,10 +10,10 @@ public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_4952;
-            string __res_4953 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4952 = __res_4953;
-            return __res_4952;
+            string __res_5875;
+            string __res_5876 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_5875 = __res_5876;
+            return __res_5875;
         }
     }
 
@@ -21,22 +21,37 @@ public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool __res_4954;
-            bool __res_4955 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overset");
-            __res_4954 = __res_4955;
-            return __res_4954;
+            bool __res_5877;
+            bool __res_5878 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overset");
+            __res_5877 = __res_5878;
+            return __res_5877;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetRegions()
+    {
+        throw new global::System.Exception();
     }
 
     public short FirstEmptyRegionIndex
     {
         get
         {
-            short __res_4956;
-            double __res_4957 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "firstEmptyRegionIndex");
-            __res_4956 = Convert.ToInt16(__res_4957);
-            return __res_4956;
+            short __res_5880;
+            double __res_5881 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "firstEmptyRegionIndex");
+            __res_5880 = Convert.ToInt16(__res_5881);
+            return __res_5880;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetContent()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetRegionsByContent(global::Iskra.StdWeb.Node node)
+    {
+        throw new global::System.Exception();
     }
 }
 

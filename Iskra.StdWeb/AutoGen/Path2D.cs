@@ -6,7 +6,60 @@ namespace Iskra.StdWeb;
 
 public partial class Path2D(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void AddPath(global::Iskra.StdWeb.Path2D path, global::Iskra.StdWeb.DOMMatrix2DInit transform)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void ClosePath()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void MoveTo(double x, double y)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void LineTo(double x, double y)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void QuadraticCurveTo(double cpx, double cpy, double x, double y)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BezierCurveTo(double cp1x, double cp1y, double cp2x, double cp2y, double x, double y)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ArcTo(double x1, double y1, double x2, double y2, double radius)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Rect(double x, double y, double w, double h)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void RoundRect(double x, double y, double w, double h, global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.DOMPointInit, global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.DOMPointInit, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> radii)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Arc(double x, double y, double radius, double startAngle, double endAngle, bool counterclockwise)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Ellipse(double x, double y, double radiusX, double radiusY, double rotation, double startAngle, double endAngle, bool counterclockwise)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

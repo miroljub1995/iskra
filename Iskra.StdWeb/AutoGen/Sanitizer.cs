@@ -6,7 +6,50 @@ namespace Iskra.StdWeb;
 
 public partial class Sanitizer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.SanitizerConfig Get()
+    {
+        throw new global::System.Exception();
+    }
 
+    public bool AllowElement(global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes, global::Iskra.StdWeb.GenericMarshaller.Union> element)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool RemoveElement(global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.SanitizerElementNamespace, global::Iskra.StdWeb.GenericMarshaller.Union> element)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool ReplaceElementWithChildren(global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.SanitizerElementNamespace, global::Iskra.StdWeb.GenericMarshaller.Union> element)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool AllowAttribute(global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.SanitizerAttributeNamespace, global::Iskra.StdWeb.GenericMarshaller.Union> attribute)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool RemoveAttribute(global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.SanitizerAttributeNamespace, global::Iskra.StdWeb.GenericMarshaller.Union> attribute)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool SetComments(bool allow)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool SetDataAttributes(bool allow)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool RemoveUnsafe()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

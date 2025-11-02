@@ -10,10 +10,10 @@ public partial class WindowClient(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.DocumentVisibilityState __res_7859;
-            string __res_7860 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "visibilityState");
-            __res_7859 = global::Iskra.StdWeb.DocumentVisibilityState.Create(__res_7860);
-            return __res_7859;
+            global::Iskra.StdWeb.DocumentVisibilityState __res_9385;
+            string __res_9386 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "visibilityState");
+            __res_9385 = global::Iskra.StdWeb.DocumentVisibilityState.Create(__res_9386);
+            return __res_9385;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class WindowClient(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            bool __res_7861;
-            bool __res_7862 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "focused");
-            __res_7861 = __res_7862;
-            return __res_7861;
+            bool __res_9387;
+            bool __res_9388 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "focused");
+            __res_9387 = __res_9388;
+            return __res_9387;
         }
     }
 
@@ -32,12 +32,22 @@ public partial class WindowClient(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7863;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7864;
-            __propObject_7864 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ancestorOrigins");
-            __res_7863 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7864);
-            return __res_7863;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_9389;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9390;
+            __propObject_9390 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ancestorOrigins");
+            __res_9389 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9390);
+            return __res_9389;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WindowClient, global::Iskra.StdWeb.PropertyAccessor> Focus()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WindowClient?, global::Iskra.StdWeb.PropertyAccessorNullable> Navigate(string url)
+    {
+        throw new global::System.Exception();
     }
 }
 

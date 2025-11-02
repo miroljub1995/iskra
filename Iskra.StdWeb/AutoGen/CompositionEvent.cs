@@ -10,11 +10,16 @@ public partial class CompositionEvent(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_14341;
-            string __res_14342 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_14341 = __res_14342;
-            return __res_14341;
+            string __res_16949;
+            string __res_16950 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_16949 = __res_16950;
+            return __res_16949;
         }
+    }
+
+    public void InitCompositionEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, string dataArg)
+    {
+        throw new global::System.Exception();
     }
 }
 

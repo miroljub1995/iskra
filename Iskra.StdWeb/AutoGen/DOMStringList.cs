@@ -10,11 +10,21 @@ public partial class DOMStringList(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_8759;
-            double __res_8760 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_8759 = Convert.ToUInt32(__res_8760);
-            return __res_8759;
+            uint __res_10569;
+            double __res_10570 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_10569 = Convert.ToUInt32(__res_10570);
+            return __res_10569;
         }
+    }
+
+    public string? Item(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool Contains(string @string)
+    {
+        throw new global::System.Exception();
     }
 }
 

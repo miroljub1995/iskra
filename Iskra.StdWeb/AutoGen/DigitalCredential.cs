@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class DigitalCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Credential(obj)
 {
+    public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
+    {
+        throw new global::System.Exception();
+    }
+
     public string Protocol
     {
         get
         {
-            string __res_6346;
-            string __res_6347 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_6346 = __res_6347;
-            return __res_6346;
+            string __res_7550;
+            string __res_7551 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_7550 = __res_7551;
+            return __res_7550;
         }
     }
 
@@ -21,11 +26,16 @@ public partial class DigitalCredential(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6348;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6349 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_6348 = __res_6349;
-            return __res_6348;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7552;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7553 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
+            __res_7552 = __res_7553;
+            return __res_7552;
         }
+    }
+
+    public static bool UserAgentAllowsProtocol(string protocol)
+    {
+        throw new global::System.Exception();
     }
 }
 

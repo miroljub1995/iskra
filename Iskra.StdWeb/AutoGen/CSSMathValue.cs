@@ -10,10 +10,10 @@ public partial class CSSMathValue(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.CSSMathOperator __res_47;
-            string __res_48 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "operator");
-            __res_47 = global::Iskra.StdWeb.CSSMathOperator.Create(__res_48);
-            return __res_47;
+            global::Iskra.StdWeb.CSSMathOperator __res_80;
+            string __res_81 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "operator");
+            __res_80 = global::Iskra.StdWeb.CSSMathOperator.Create(__res_81);
+            return __res_80;
         }
     }
 }

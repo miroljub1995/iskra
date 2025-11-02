@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class RestrictionTarget(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RestrictionTarget, global::Iskra.StdWeb.PropertyAccessor> FromElement(global::Iskra.StdWeb.Element element)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

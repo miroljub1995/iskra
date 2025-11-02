@@ -6,15 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransport(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportConnectionStats, global::Iskra.StdWeb.PropertyAccessor> GetStats()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> ExportKeyingMaterial(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> label, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> context)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.JSCore.Promise Ready
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_3776;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3777;
-            __propObject_3777 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
-            __res_3776 = new global::Iskra.JSCore.Promise(__propObject_3777);
-            return __res_3776;
+            global::Iskra.JSCore.Promise __res_4504;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4505;
+            __propObject_4505 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
+            __res_4504 = new global::Iskra.JSCore.Promise(__propObject_4505);
+            return __res_4504;
         }
     }
 
@@ -22,10 +32,10 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.WebTransportReliabilityMode __res_3778;
-            string __res_3779 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reliability");
-            __res_3778 = global::Iskra.StdWeb.WebTransportReliabilityMode.Create(__res_3779);
-            return __res_3778;
+            global::Iskra.StdWeb.WebTransportReliabilityMode __res_4506;
+            string __res_4507 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reliability");
+            __res_4506 = global::Iskra.StdWeb.WebTransportReliabilityMode.Create(__res_4507);
+            return __res_4506;
         }
     }
 
@@ -33,10 +43,10 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.WebTransportCongestionControl __res_3780;
-            string __res_3781 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "congestionControl");
-            __res_3780 = global::Iskra.StdWeb.WebTransportCongestionControl.Create(__res_3781);
-            return __res_3780;
+            global::Iskra.StdWeb.WebTransportCongestionControl __res_4508;
+            string __res_4509 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "congestionControl");
+            __res_4508 = global::Iskra.StdWeb.WebTransportCongestionControl.Create(__res_4509);
+            return __res_4508;
         }
     }
 
@@ -44,32 +54,32 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            ushort? __res_3782;
-            double? __res_3783 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams");
-            if (__res_3783 is null)
+            ushort? __res_4510;
+            double? __res_4511 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams");
+            if (__res_4511 is null)
             {
-                __res_3782 = null;
+                __res_4510 = null;
             }
             else
             {
-                double __notNullable_3784 = (double)__res_3783;
-                __res_3782 = Convert.ToUInt16(__notNullable_3784);
+                double __notNullable_4512 = (double)__res_4511;
+                __res_4510 = Convert.ToUInt16(__notNullable_4512);
             }
-            return __res_3782;
+            return __res_4510;
         }
         set
         {
-            double? __marshalledValue_3785;
+            double? __marshalledValue_4513;
             if (value is null)
             {
-                __marshalledValue_3785 = null;
+                __marshalledValue_4513 = null;
             }
             else
             {
-                ushort __notNullable_3786 = (ushort)value;
-                __marshalledValue_3785 = Convert.ToDouble(__notNullable_3786);
+                ushort __notNullable_4514 = (ushort)value;
+                __marshalledValue_4513 = Convert.ToDouble(__notNullable_4514);
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams", __marshalledValue_3785);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingUnidirectionalStreams", __marshalledValue_4513);
         }
     }
 
@@ -77,32 +87,32 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            ushort? __res_3787;
-            double? __res_3788 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams");
-            if (__res_3788 is null)
+            ushort? __res_4515;
+            double? __res_4516 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams");
+            if (__res_4516 is null)
             {
-                __res_3787 = null;
+                __res_4515 = null;
             }
             else
             {
-                double __notNullable_3789 = (double)__res_3788;
-                __res_3787 = Convert.ToUInt16(__notNullable_3789);
+                double __notNullable_4517 = (double)__res_4516;
+                __res_4515 = Convert.ToUInt16(__notNullable_4517);
             }
-            return __res_3787;
+            return __res_4515;
         }
         set
         {
-            double? __marshalledValue_3790;
+            double? __marshalledValue_4518;
             if (value is null)
             {
-                __marshalledValue_3790 = null;
+                __marshalledValue_4518 = null;
             }
             else
             {
-                ushort __notNullable_3791 = (ushort)value;
-                __marshalledValue_3790 = Convert.ToDouble(__notNullable_3791);
+                ushort __notNullable_4519 = (ushort)value;
+                __marshalledValue_4518 = Convert.ToDouble(__notNullable_4519);
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams", __marshalledValue_3790);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "anticipatedConcurrentIncomingBidirectionalStreams", __marshalledValue_4518);
         }
     }
 
@@ -110,22 +120,22 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_3792;
-            string __res_3793 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_3792 = __res_3793;
-            return __res_3792;
+            string __res_4520;
+            string __res_4521 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
+            __res_4520 = __res_4521;
+            return __res_4520;
         }
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportCloseInfo, global::Iskra.StdWeb.GenericMarshaller.Promise> Closed
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportCloseInfo, global::Iskra.StdWeb.PropertyAccessor> Closed
     {
         get
         {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportCloseInfo, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_3794;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3795;
-            __propObject_3795 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
-            __res_3794 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportCloseInfo, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_3795);
-            return __res_3794;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportCloseInfo, global::Iskra.StdWeb.PropertyAccessor> __res_4522;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4523;
+            __propObject_4523 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
+            __res_4522 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportCloseInfo, global::Iskra.StdWeb.PropertyAccessor>(__propObject_4523);
+            return __res_4522;
         }
     }
 
@@ -133,55 +143,75 @@ public partial class WebTransport(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_3796;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3797;
-            __propObject_3797 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "draining");
-            __res_3796 = new global::Iskra.JSCore.Promise(__propObject_3797);
-            return __res_3796;
+            global::Iskra.JSCore.Promise __res_4524;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4525;
+            __propObject_4525 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "draining");
+            __res_4524 = new global::Iskra.JSCore.Promise(__propObject_4525);
+            return __res_4524;
         }
+    }
+
+    public void Close(global::Iskra.StdWeb.WebTransportCloseInfo closeInfo)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.WebTransportDatagramDuplexStream Datagrams
     {
         get
         {
-            global::Iskra.StdWeb.WebTransportDatagramDuplexStream __res_3798;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3799 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "datagrams");
-            __res_3798 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebTransportDatagramDuplexStream>(__res_3799);
-            return __res_3798;
+            global::Iskra.StdWeb.WebTransportDatagramDuplexStream __res_4527;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4528 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "datagrams");
+            __res_4527 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebTransportDatagramDuplexStream>(__res_4528);
+            return __res_4527;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportBidirectionalStream, global::Iskra.StdWeb.PropertyAccessor> CreateBidirectionalStream(global::Iskra.StdWeb.WebTransportSendStreamOptions options)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.ReadableStream IncomingBidirectionalStreams
     {
         get
         {
-            global::Iskra.StdWeb.ReadableStream __res_3800;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3801 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingBidirectionalStreams");
-            __res_3800 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_3801);
-            return __res_3800;
+            global::Iskra.StdWeb.ReadableStream __res_4530;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4531 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingBidirectionalStreams");
+            __res_4530 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_4531);
+            return __res_4530;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportSendStream, global::Iskra.StdWeb.PropertyAccessor> CreateUnidirectionalStream(global::Iskra.StdWeb.WebTransportSendStreamOptions options)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.ReadableStream IncomingUnidirectionalStreams
     {
         get
         {
-            global::Iskra.StdWeb.ReadableStream __res_3802;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3803 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingUnidirectionalStreams");
-            __res_3802 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_3803);
-            return __res_3802;
+            global::Iskra.StdWeb.ReadableStream __res_4533;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4534 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "incomingUnidirectionalStreams");
+            __res_4533 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_4534);
+            return __res_4533;
         }
+    }
+
+    public global::Iskra.StdWeb.WebTransportSendGroup CreateSendGroup()
+    {
+        throw new global::System.Exception();
     }
 
     public static bool SupportsReliableOnly
     {
         get
         {
-            bool __res_3804;
-            bool __res_3805 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "WebTransport"), "supportsReliableOnly");
-            __res_3804 = __res_3805;
-            return __res_3804;
+            bool __res_4536;
+            bool __res_4537 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "WebTransport"), "supportsReliableOnly");
+            __res_4536 = __res_4537;
+            return __res_4536;
         }
     }
 }

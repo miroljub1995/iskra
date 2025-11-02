@@ -6,7 +6,35 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemSyncAccessHandle(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public ulong Read(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> buffer, global::Iskra.StdWeb.FileSystemReadWriteOptions options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public ulong Write(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> buffer, global::Iskra.StdWeb.FileSystemReadWriteOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Truncate(ulong newSize)
+    {
+        throw new global::System.Exception();
+    }
+
+    public ulong GetSize()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Flush()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Close()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

@@ -10,10 +10,10 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            uint __res_12505;
-            double __res_12506 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_12505 = Convert.ToUInt32(__res_12506);
-            return __res_12505;
+            uint __res_14637;
+            double __res_14638 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_14637 = Convert.ToUInt32(__res_14638);
+            return __res_14637;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.ScrollRestoration __res_12507;
-            string __res_12508 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollRestoration");
-            __res_12507 = global::Iskra.StdWeb.ScrollRestoration.Create(__res_12508);
-            return __res_12507;
+            global::Iskra.StdWeb.ScrollRestoration __res_14639;
+            string __res_14640 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollRestoration");
+            __res_14639 = global::Iskra.StdWeb.ScrollRestoration.Create(__res_14640);
+            return __res_14639;
         }
         set
         {
-            string __marshalledValue_12509;
-            __marshalledValue_12509 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scrollRestoration", __marshalledValue_12509);
+            string __marshalledValue_14641;
+            __marshalledValue_14641 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scrollRestoration", __marshalledValue_14641);
         }
     }
 
@@ -38,19 +38,44 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_12510;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_12511;
-            __propObject_12511 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "state");
-            if (__propObject_12511 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_14642;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14643;
+            __propObject_14643 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "state");
+            if (__propObject_14643 is null)
             {
-                __res_12510 = null;
+                __res_14642 = null;
             }
             else
             {
-                __res_12510 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_12511);
+                __res_14642 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_14643);
             }
-            return __res_12510;
+            return __res_14642;
         }
+    }
+
+    public void Go(int delta)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Back()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Forward()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void PushState(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? data, string unused, string? url)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ReplaceState(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? data, string unused, string? url)
+    {
+        throw new global::System.Exception();
     }
 }
 

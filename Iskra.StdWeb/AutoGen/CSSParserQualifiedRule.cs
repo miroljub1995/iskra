@@ -10,11 +10,11 @@ public partial class CSSParserQualifiedRule(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_13879;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_13880;
-            __propObject_13880 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "prelude");
-            __res_13879 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13880);
-            return __res_13879;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_16419;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_16420;
+            __propObject_16420 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "prelude");
+            __res_16419 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_16420);
+            return __res_16419;
         }
     }
 
@@ -22,12 +22,17 @@ public partial class CSSParserQualifiedRule(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_13881;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_13882;
-            __propObject_13882 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "body");
-            __res_13881 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13882);
-            return __res_13881;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_16421;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_16422;
+            __propObject_16422 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "body");
+            __res_16421 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_16422);
+            return __res_16421;
         }
+    }
+
+    public void _()
+    {
+        throw new global::System.Exception();
     }
 }
 

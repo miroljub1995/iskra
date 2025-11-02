@@ -10,10 +10,10 @@ public partial class DocumentType(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_5808;
-            string __res_5809 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5808 = __res_5809;
-            return __res_5808;
+            string __res_6842;
+            string __res_6843 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_6842 = __res_6843;
+            return __res_6842;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class DocumentType(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_5810;
-            string __res_5811 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "publicId");
-            __res_5810 = __res_5811;
-            return __res_5810;
+            string __res_6844;
+            string __res_6845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "publicId");
+            __res_6844 = __res_6845;
+            return __res_6844;
         }
     }
 
@@ -32,11 +32,31 @@ public partial class DocumentType(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_5812;
-            string __res_5813 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "systemId");
-            __res_5812 = __res_5813;
-            return __res_5812;
+            string __res_6846;
+            string __res_6847 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "systemId");
+            __res_6846 = __res_6847;
+            return __res_6846;
         }
+    }
+
+    public void Before(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void After(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ReplaceWith(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Remove()
+    {
+        throw new global::System.Exception();
     }
 }
 

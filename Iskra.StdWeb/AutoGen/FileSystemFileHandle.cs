@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemFileHandle(global::System.Runtime.InteropServices.JavaScript.JSObject obj): FileSystemHandle(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.File, global::Iskra.StdWeb.PropertyAccessor> GetFile()
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemWritableFileStream, global::Iskra.StdWeb.PropertyAccessor> CreateWritable(global::Iskra.StdWeb.FileSystemCreateWritableOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemSyncAccessHandle, global::Iskra.StdWeb.PropertyAccessor> CreateSyncAccessHandle()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

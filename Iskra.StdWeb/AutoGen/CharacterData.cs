@@ -10,16 +10,16 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_6224;
-            string __res_6225 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_6224 = __res_6225;
-            return __res_6224;
+            string __res_7345;
+            string __res_7346 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_7345 = __res_7346;
+            return __res_7345;
         }
         set
         {
-            string __marshalledValue_6226;
-            __marshalledValue_6226 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_6226);
+            string __marshalledValue_7347;
+            __marshalledValue_7347 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_7347);
         }
     }
 
@@ -27,29 +27,54 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            uint __res_6227;
-            double __res_6228 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_6227 = Convert.ToUInt32(__res_6228);
-            return __res_6227;
+            uint __res_7348;
+            double __res_7349 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_7348 = Convert.ToUInt32(__res_7349);
+            return __res_7348;
         }
+    }
+
+    public string SubstringData(uint offset, uint count)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void AppendData(string data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void InsertData(uint offset, string data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DeleteData(uint offset, uint count)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ReplaceData(uint offset, uint count, string data)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.Element? PreviousElementSibling
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_6229;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6230 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousElementSibling");
-            if (__res_6230 is null)
+            global::Iskra.StdWeb.Element? __res_7355;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7356 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousElementSibling");
+            if (__res_7356 is null)
             {
-                __res_6229 = null;
+                __res_7355 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6231 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6230;
-                __res_6229 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_6231);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7357 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7356;
+                __res_7355 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_7357);
             }
-            return __res_6229;
+            return __res_7355;
         }
     }
 
@@ -57,19 +82,39 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.Element? __res_6232;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6233 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextElementSibling");
-            if (__res_6233 is null)
+            global::Iskra.StdWeb.Element? __res_7358;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7359 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextElementSibling");
+            if (__res_7359 is null)
             {
-                __res_6232 = null;
+                __res_7358 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6234 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6233;
-                __res_6232 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_6234);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7360 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7359;
+                __res_7358 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_7360);
             }
-            return __res_6232;
+            return __res_7358;
         }
+    }
+
+    public void Before(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void After(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ReplaceWith(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Remove()
+    {
+        throw new global::System.Exception();
     }
 }
 

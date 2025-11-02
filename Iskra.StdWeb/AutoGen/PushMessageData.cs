@@ -6,7 +6,30 @@ namespace Iskra.StdWeb;
 
 public partial class PushMessageData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.ArrayBuffer ArrayBuffer()
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.StdWeb.Blob Blob()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Uint8Array Bytes()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Json()
+    {
+        throw new global::System.Exception();
+    }
+
+    public string Text()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

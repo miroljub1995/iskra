@@ -10,16 +10,16 @@ public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_208;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_209;
-            __propObject_209 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "colorSpace");
-            __res_208 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_209);
-            return __res_208;
+            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_248;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_249;
+            __propObject_249 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "colorSpace");
+            __res_248 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_249);
+            return __res_248;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_210 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "colorSpace", __propObject_210);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_250 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "colorSpace", __propObject_250);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_211;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_212;
-            __propObject_212 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channels");
-            __res_211 = new global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_212);
-            return __res_211;
+            global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_251;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_252;
+            __propObject_252 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "channels");
+            __res_251 = new global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_252);
+            return __res_251;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_213 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "channels", __propObject_213);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_253 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "channels", __propObject_253);
         }
     }
 
@@ -44,16 +44,16 @@ public partial class CSSColor(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_214;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_215;
-            __propObject_215 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "alpha");
-            __res_214 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_215);
-            return __res_214;
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> __res_254;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_255;
+            __propObject_255 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "alpha");
+            __res_254 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_255);
+            return __res_254;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_216 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "alpha", __propObject_216);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_256 = value.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "alpha", __propObject_256);
         }
     }
 }

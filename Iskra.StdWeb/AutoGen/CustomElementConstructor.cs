@@ -10,25 +10,25 @@ public partial class CustomElementConstructor(global::System.Runtime.InteropServ
 {
     public static implicit operator CustomElementConstructor(CustomElementConstructorManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_11339, __res_11342) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_13396, __res_13399) =>
         {
-            using (__args_11339)
-            using (__res_11342)
+            using (__args_13396)
+            using (__res_13399)
             {
 
 
-                global::Iskra.StdWeb.HTMLElement __managedRes_11343 = input();
+                global::Iskra.StdWeb.HTMLElement __managedRes_13400 = input();
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_11344;
-                __marshalledValue_11344 = __managedRes_11343.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_11342, "value", __marshalledValue_11344);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_13401;
+                __marshalledValue_13401 = __managedRes_13400.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_13399, "value", __marshalledValue_13401);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_11341 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_11341, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_13398 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_13398, input); 
 
-        return new global::Iskra.StdWeb.CustomElementConstructor(__funcObj_11341);
+        return new global::Iskra.StdWeb.CustomElementConstructor(__funcObj_13398);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.CustomElementConstructorManaged? managed, bool allowConversion = false)
@@ -48,15 +48,15 @@ public partial class CustomElementConstructor(global::System.Runtime.InteropServ
         {
 
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_11346 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13403 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunction(JSObject, null, __resOwner_11346.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunction(JSObject, null, __resOwner_13403.JSObject);
 
             // Return Value
-            global::Iskra.StdWeb.HTMLElement __res_11347;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_11346.JSObject, "value");
-            __res_11347 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLElement>(__res_11348);
-            return __res_11347;
+            global::Iskra.StdWeb.HTMLElement __res_13404;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13405 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_13403.JSObject, "value");
+            __res_13404 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLElement>(__res_13405);
+            return __res_13404;
         };
         return true;
     }

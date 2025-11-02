@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class OES_vertex_array_object(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.WebGLVertexArrayObjectOES CreateVertexArrayOES()
+    {
+        throw new global::System.Exception();
+    }
 
+    public void DeleteVertexArrayOES(global::Iskra.StdWeb.WebGLVertexArrayObjectOES? arrayObject)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsVertexArrayOES(global::Iskra.StdWeb.WebGLVertexArrayObjectOES? arrayObject)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BindVertexArrayOES(global::Iskra.StdWeb.WebGLVertexArrayObjectOES? arrayObject)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

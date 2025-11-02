@@ -14,14 +14,29 @@ public class OperationMemberTypeGenerator(
     {
         var descriptionToTypeDeclarationGenerator =
             provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+        var argumentsToDeclarationGenerator = provider.GetRequiredService<ArgumentsToDeclarationGenerator>();
 
         var isStatic = input.Special == OperationSpecial.Static;
         var staticKeyword = isStatic ? " static" : "";
+        var isVoid = input.IdlType is null or SingleTypeDescription { IdlType: BuiltinTypes.Undefined };
 
         var name = input.Name.Replace('-', '_').CapitalizeFirstLetter();
         if (name == containingTypeName)
         {
             name += "_";
+        }
+
+        if (name == string.Empty && input.Special == OperationSpecial.Getter)
+        {
+            name = "Get";
+        }
+        else if (name == string.Empty && input.Special == OperationSpecial.Setter)
+        {
+            name = "Set";
+        }
+        else if (name == string.Empty && input.Special == OperationSpecial.Deleter)
+        {
+            name = "Delete";
         }
 
         if (name == string.Empty)
@@ -30,16 +45,17 @@ public class OperationMemberTypeGenerator(
         }
 
         var returnTypeDeclaration =
-            input.IdlType is null ? "void" : descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
+            isVoid || input.IdlType is null ? "void" : descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
 
         var argsArrayVar = generatorContext.GetNextVariableName("args");
+
+        var args = argumentsToDeclarationGenerator.Generate(input.Arguments);
 
         var body = "throw new global::System.Exception();";
 
         var content = $$"""
-                        public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}()
+                        public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}({{args}})
                         {
-                            global::Iskra.JSCore.ArgsArrayPool.Owner {{argsArrayVar}} = global::Iskra.JSCore.ArgsArrayPool.Rent(0);
                         {{body.IndentLines(4)}}
                         }
                         """;

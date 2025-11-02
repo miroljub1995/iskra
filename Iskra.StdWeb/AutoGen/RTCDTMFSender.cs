@@ -6,36 +6,41 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
+    public void InsertDTMF(string tones, uint duration, uint interToneGap)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.StdWeb.EventHandlerNonNull? Ontonechange
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3614;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3615 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange");
-            if (__res_3615 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4331;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4332 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange");
+            if (__res_4332 is null)
             {
-                __res_3614 = null;
+                __res_4331 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3616 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3615;
-                __res_3614 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3616);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4333 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4332;
+                __res_4331 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4333);
             }
-            return __res_3614;
+            return __res_4331;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3617;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4334;
             if (value is null)
             {
-                __marshalledValue_3617 = null;
+                __marshalledValue_4334 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3618 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3617 = __notNullable_3618.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4335 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4334 = __notNullable_4335.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange", __marshalledValue_3617);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange", __marshalledValue_4334);
         }
     }
 
@@ -43,10 +48,10 @@ public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_3619;
-            bool __res_3620 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
-            __res_3619 = __res_3620;
-            return __res_3619;
+            bool __res_4336;
+            bool __res_4337 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
+            __res_4336 = __res_4337;
+            return __res_4336;
         }
     }
 
@@ -54,10 +59,10 @@ public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_3621;
-            string __res_3622 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "toneBuffer");
-            __res_3621 = __res_3622;
-            return __res_3621;
+            string __res_4338;
+            string __res_4339 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "toneBuffer");
+            __res_4338 = __res_4339;
+            return __res_4338;
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class WindowControlsOverlayGeometryChangeEvent(global::System.Run
     {
         get
         {
-            global::Iskra.StdWeb.DOMRect __res_4603;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4604 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "titlebarAreaRect");
-            __res_4603 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRect>(__res_4604);
-            return __res_4603;
+            global::Iskra.StdWeb.DOMRect __res_5451;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5452 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "titlebarAreaRect");
+            __res_5451 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRect>(__res_5452);
+            return __res_5451;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class WindowControlsOverlayGeometryChangeEvent(global::System.Run
     {
         get
         {
-            bool __res_4605;
-            bool __res_4606 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
-            __res_4605 = __res_4606;
-            return __res_4605;
+            bool __res_5453;
+            bool __res_5454 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
+            __res_5453 = __res_5454;
+            return __res_5453;
         }
     }
 }

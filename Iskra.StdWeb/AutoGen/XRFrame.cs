@@ -10,43 +10,73 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.XRPlaneSet __res_7367;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7368 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detectedPlanes");
-            __res_7367 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRPlaneSet>(__res_7368);
-            return __res_7367;
+            global::Iskra.StdWeb.XRPlaneSet __res_8823;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8824 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detectedPlanes");
+            __res_8823 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRPlaneSet>(__res_8824);
+            return __res_8823;
         }
+    }
+
+    public global::Iskra.StdWeb.XRLightEstimate? GetLightEstimate(global::Iskra.StdWeb.XRLightProbe lightProbe)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.XRAnchor, global::Iskra.StdWeb.PropertyAccessor> CreateAnchor(global::Iskra.StdWeb.XRRigidTransform pose, global::Iskra.StdWeb.XRSpace space)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.XRAnchorSet TrackedAnchors
     {
         get
         {
-            global::Iskra.StdWeb.XRAnchorSet __res_7369;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7370 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "trackedAnchors");
-            __res_7369 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRAnchorSet>(__res_7370);
-            return __res_7369;
+            global::Iskra.StdWeb.XRAnchorSet __res_8827;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8828 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "trackedAnchors");
+            __res_8827 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRAnchorSet>(__res_8828);
+            return __res_8827;
         }
+    }
+
+    public global::Iskra.StdWeb.XRCPUDepthInformation? GetDepthInformation(global::Iskra.StdWeb.XRView view)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.XRMeshSet DetectedMeshes
     {
         get
         {
-            global::Iskra.StdWeb.XRMeshSet __res_7371;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7372 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detectedMeshes");
-            __res_7371 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRMeshSet>(__res_7372);
-            return __res_7371;
+            global::Iskra.StdWeb.XRMeshSet __res_8830;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8831 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detectedMeshes");
+            __res_8830 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRMeshSet>(__res_8831);
+            return __res_8830;
         }
+    }
+
+    public global::Iskra.StdWeb.XRJointPose? GetJointPose(global::Iskra.StdWeb.XRJointSpace joint, global::Iskra.StdWeb.XRSpace baseSpace)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool FillJointRadii(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRJointSpace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> jointSpaces, global::Iskra.JSCore.Float32Array radii)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool FillPoses(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRSpace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> spaces, global::Iskra.StdWeb.XRSpace baseSpace, global::Iskra.JSCore.Float32Array transforms)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.XRSession Session
     {
         get
         {
-            global::Iskra.StdWeb.XRSession __res_7373;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7374 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
-            __res_7373 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_7374);
-            return __res_7373;
+            global::Iskra.StdWeb.XRSession __res_8835;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8836 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            __res_8835 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_8836);
+            return __res_8835;
         }
     }
 
@@ -54,30 +84,50 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            double __res_7375;
-            double __res_7376 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "predictedDisplayTime");
-            __res_7375 = __res_7376;
-            return __res_7375;
+            double __res_8837;
+            double __res_8838 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "predictedDisplayTime");
+            __res_8837 = __res_8838;
+            return __res_8837;
         }
+    }
+
+    public global::Iskra.StdWeb.XRViewerPose? GetViewerPose(global::Iskra.StdWeb.XRReferenceSpace referenceSpace)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.XRPose? GetPose(global::Iskra.StdWeb.XRSpace space, global::Iskra.StdWeb.XRSpace baseSpace)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.XRBody? Body
     {
         get
         {
-            global::Iskra.StdWeb.XRBody? __res_7377;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7378 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "body");
-            if (__res_7378 is null)
+            global::Iskra.StdWeb.XRBody? __res_8841;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8842 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "body");
+            if (__res_8842 is null)
             {
-                __res_7377 = null;
+                __res_8841 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7379 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7378;
-                __res_7377 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRBody>(__notNullable_7379);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8843 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8842;
+                __res_8841 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRBody>(__notNullable_8843);
             }
-            return __res_7377;
+            return __res_8841;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetHitTestResults(global::Iskra.StdWeb.XRHitTestSource hitTestSource)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRTransientInputHitTestResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetHitTestResultsForTransientInput(global::Iskra.StdWeb.XRTransientInputHitTestSource hitTestSource)
+    {
+        throw new global::System.Exception();
     }
 }
 

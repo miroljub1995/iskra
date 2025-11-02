@@ -10,11 +10,26 @@ public partial class TrustedTypePolicy(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_2239;
-            string __res_2240 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_2239 = __res_2240;
-            return __res_2239;
+            string __res_2752;
+            string __res_2753 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_2752 = __res_2753;
+            return __res_2752;
         }
+    }
+
+    public global::Iskra.StdWeb.TrustedHTML CreateHTML(string input, params global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?[] arguments)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.TrustedScript CreateScript(string input, params global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?[] arguments)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.TrustedScriptURL CreateScriptURL(string input, params global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?[] arguments)
+    {
+        throw new global::System.Exception();
     }
 }
 

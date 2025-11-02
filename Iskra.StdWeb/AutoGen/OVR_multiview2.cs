@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class OVR_multiview2(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public void FramebufferTextureMultiviewOVR(uint target, uint attachment, global::Iskra.StdWeb.WebGLTexture? texture, int level, int baseViewIndex, int numViews)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

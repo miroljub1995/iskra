@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportSendGroup(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportSendStreamStats, global::Iskra.StdWeb.PropertyAccessor> GetStats()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

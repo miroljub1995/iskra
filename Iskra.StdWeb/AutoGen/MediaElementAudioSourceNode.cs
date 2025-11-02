@@ -10,10 +10,10 @@ public partial class MediaElementAudioSourceNode(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.StdWeb.HTMLMediaElement __res_14628;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14629 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaElement");
-            __res_14628 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLMediaElement>(__res_14629);
-            return __res_14628;
+            global::Iskra.StdWeb.HTMLMediaElement __res_17323;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17324 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaElement");
+            __res_17323 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLMediaElement>(__res_17324);
+            return __res_17323;
         }
     }
 }

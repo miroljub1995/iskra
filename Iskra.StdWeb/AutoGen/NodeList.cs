@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class NodeList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.Node? Item(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
     public uint Length
     {
         get
         {
-            uint __res_5002;
-            double __res_5003 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5002 = Convert.ToUInt32(__res_5003);
-            return __res_5002;
+            uint __res_5945;
+            double __res_5946 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5945 = Convert.ToUInt32(__res_5946);
+            return __res_5945;
         }
     }
 }

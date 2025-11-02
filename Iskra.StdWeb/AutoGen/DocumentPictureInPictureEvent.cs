@@ -10,10 +10,10 @@ public partial class DocumentPictureInPictureEvent(global::System.Runtime.Intero
     {
         get
         {
-            global::Iskra.StdWeb.Window __res_308;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_309 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "window");
-            __res_308 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__res_309);
-            return __res_308;
+            global::Iskra.StdWeb.Window __res_370;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_371 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "window");
+            __res_370 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__res_371);
+            return __res_370;
         }
     }
 }

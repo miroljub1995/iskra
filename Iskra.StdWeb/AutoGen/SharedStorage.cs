@@ -6,15 +6,70 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorage(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> Get(string key)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> Set(string key, string value, global::Iskra.StdWeb.SharedStorageSetMethodOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> Append(string key, string value, global::Iskra.StdWeb.SharedStorageModifierMethodOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> Delete(string key, global::Iskra.StdWeb.SharedStorageModifierMethodOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> Clear(global::Iskra.StdWeb.SharedStorageModifierMethodOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> BatchUpdate(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SharedStorageModifierMethod, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> methods, global::Iskra.StdWeb.SharedStorageModifierMethodOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> SelectURL(string name, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SharedStorageUrlWithMetadata, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> urls, global::Iskra.StdWeb.SharedStorageRunOperationMethodOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> Run(string name, global::Iskra.StdWeb.SharedStorageRunOperationMethodOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.SharedStorageWorklet, global::Iskra.StdWeb.PropertyAccessor> CreateWorklet(string moduleURL, global::Iskra.StdWeb.SharedStorageWorkletOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.StdWeb.SharedStorageWorklet Worklet
     {
         get
         {
-            global::Iskra.StdWeb.SharedStorageWorklet __res_7241;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7242 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "worklet");
-            __res_7241 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorageWorklet>(__res_7242);
-            return __res_7241;
+            global::Iskra.StdWeb.SharedStorageWorklet __res_8679;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8680 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "worklet");
+            __res_8679 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorageWorklet>(__res_8680);
+            return __res_8679;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<uint, global::Iskra.StdWeb.PropertyAccessor> Length()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<double, global::Iskra.StdWeb.PropertyAccessor> RemainingBudget()
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -6,21 +6,31 @@ namespace Iskra.StdWeb;
 
 public partial class CSSTransformComponent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void _()
+    {
+        throw new global::System.Exception();
+    }
+
     public bool Is2D
     {
         get
         {
-            bool __res_73;
-            bool __res_74 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
-            __res_73 = __res_74;
-            return __res_73;
+            bool __res_111;
+            bool __res_112 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
+            __res_111 = __res_112;
+            return __res_111;
         }
         set
         {
-            bool __marshalledValue_75;
-            __marshalledValue_75 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "is2D", __marshalledValue_75);
+            bool __marshalledValue_113;
+            __marshalledValue_113 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "is2D", __marshalledValue_113);
         }
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix ToMatrix()
+    {
+        throw new global::System.Exception();
     }
 }
 

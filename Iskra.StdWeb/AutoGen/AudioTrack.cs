@@ -10,10 +10,10 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_10185;
-            string __res_10186 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_10185 = __res_10186;
-            return __res_10185;
+            string __res_12030;
+            string __res_12031 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_12030 = __res_12031;
+            return __res_12030;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_10187;
-            string __res_10188 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_10187 = __res_10188;
-            return __res_10187;
+            string __res_12032;
+            string __res_12033 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_12032 = __res_12033;
+            return __res_12032;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_10189;
-            string __res_10190 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_10189 = __res_10190;
-            return __res_10189;
+            string __res_12034;
+            string __res_12035 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_12034 = __res_12035;
+            return __res_12034;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_10191;
-            string __res_10192 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
-            __res_10191 = __res_10192;
-            return __res_10191;
+            string __res_12036;
+            string __res_12037 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
+            __res_12036 = __res_12037;
+            return __res_12036;
         }
     }
 
@@ -54,16 +54,16 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_10193;
-            bool __res_10194 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
-            __res_10193 = __res_10194;
-            return __res_10193;
+            bool __res_12038;
+            bool __res_12039 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "enabled");
+            __res_12038 = __res_12039;
+            return __res_12038;
         }
         set
         {
-            bool __marshalledValue_10195;
-            __marshalledValue_10195 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "enabled", __marshalledValue_10195);
+            bool __marshalledValue_12040;
+            __marshalledValue_12040 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "enabled", __marshalledValue_12040);
         }
     }
 
@@ -71,18 +71,18 @@ public partial class AudioTrack(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.SourceBuffer? __res_10196;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10197 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sourceBuffer");
-            if (__res_10197 is null)
+            global::Iskra.StdWeb.SourceBuffer? __res_12041;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12042 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sourceBuffer");
+            if (__res_12042 is null)
             {
-                __res_10196 = null;
+                __res_12041 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10198 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10197;
-                __res_10196 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBuffer>(__notNullable_10198);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12043 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12042;
+                __res_12041 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBuffer>(__notNullable_12043);
             }
-            return __res_10196;
+            return __res_12041;
         }
     }
 }

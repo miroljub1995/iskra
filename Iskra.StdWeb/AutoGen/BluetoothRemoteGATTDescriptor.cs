@@ -10,10 +10,10 @@ public partial class BluetoothRemoteGATTDescriptor(global::System.Runtime.Intero
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic __res_4569;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4570 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characteristic");
-            __res_4569 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic>(__res_4570);
-            return __res_4569;
+            global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic __res_5402;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5403 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characteristic");
+            __res_5402 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic>(__res_5403);
+            return __res_5402;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class BluetoothRemoteGATTDescriptor(global::System.Runtime.Intero
     {
         get
         {
-            string __res_4571;
-            string __res_4572 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
-            __res_4571 = __res_4572;
-            return __res_4571;
+            string __res_5404;
+            string __res_5405 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
+            __res_5404 = __res_5405;
+            return __res_5404;
         }
     }
 
@@ -32,19 +32,29 @@ public partial class BluetoothRemoteGATTDescriptor(global::System.Runtime.Intero
     {
         get
         {
-            global::Iskra.JSCore.DataView? __res_4573;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4574 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
-            if (__res_4574 is null)
+            global::Iskra.JSCore.DataView? __res_5406;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5407 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
+            if (__res_5407 is null)
             {
-                __res_4573 = null;
+                __res_5406 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4575 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4574;
-                __res_4573 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_4575);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5408 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5407;
+                __res_5406 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_5408);
             }
-            return __res_4573;
+            return __res_5406;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.DataView, global::Iskra.StdWeb.PropertyAccessor> ReadValue()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise WriteValue(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> value)
+    {
+        throw new global::System.Exception();
     }
 }
 

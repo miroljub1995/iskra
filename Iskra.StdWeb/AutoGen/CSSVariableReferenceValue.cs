@@ -10,16 +10,16 @@ public partial class CSSVariableReferenceValue(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_33;
-            string __res_34 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "variable");
-            __res_33 = __res_34;
-            return __res_33;
+            string __res_55;
+            string __res_56 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "variable");
+            __res_55 = __res_56;
+            return __res_55;
         }
         set
         {
-            string __marshalledValue_35;
-            __marshalledValue_35 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "variable", __marshalledValue_35);
+            string __marshalledValue_57;
+            __marshalledValue_57 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "variable", __marshalledValue_57);
         }
     }
 
@@ -27,18 +27,18 @@ public partial class CSSVariableReferenceValue(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.CSSUnparsedValue? __res_36;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_37 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fallback");
-            if (__res_37 is null)
+            global::Iskra.StdWeb.CSSUnparsedValue? __res_58;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_59 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "fallback");
+            if (__res_59 is null)
             {
-                __res_36 = null;
+                __res_58 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_38 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_37;
-                __res_36 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSUnparsedValue>(__notNullable_38);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_60 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_59;
+                __res_58 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSUnparsedValue>(__notNullable_60);
             }
-            return __res_36;
+            return __res_58;
         }
     }
 }

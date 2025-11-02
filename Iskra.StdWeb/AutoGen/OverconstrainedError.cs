@@ -10,10 +10,10 @@ public partial class OverconstrainedError(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_6844;
-            string __res_6845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "constraint");
-            __res_6844 = __res_6845;
-            return __res_6844;
+            string __res_8185;
+            string __res_8186 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "constraint");
+            __res_8185 = __res_8186;
+            return __res_8185;
         }
     }
 }

@@ -10,11 +10,21 @@ public partial class TextTrackCueList(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_10276;
-            double __res_10277 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_10276 = Convert.ToUInt32(__res_10277);
-            return __res_10276;
+            uint __res_12127;
+            double __res_12128 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_12127 = Convert.ToUInt32(__res_12128);
+            return __res_12127;
         }
+    }
+
+    public global::Iskra.StdWeb.TextTrackCue Get(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.TextTrackCue? GetCueById(string id)
+    {
+        throw new global::System.Exception();
     }
 }
 

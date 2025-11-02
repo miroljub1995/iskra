@@ -6,14 +6,24 @@ namespace Iskra.StdWeb;
 
 public partial class XRWebGLBinding(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.WebGLTexture? GetReflectionCubeMap(global::Iskra.StdWeb.XRLightProbe lightProbe)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.XRWebGLDepthInformation? GetDepthInformation(global::Iskra.StdWeb.XRView view)
+    {
+        throw new global::System.Exception();
+    }
+
     public double NativeProjectionScaleFactor
     {
         get
         {
-            double __res_3104;
-            double __res_3105 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "nativeProjectionScaleFactor");
-            __res_3104 = __res_3105;
-            return __res_3104;
+            double __res_3701;
+            double __res_3702 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "nativeProjectionScaleFactor");
+            __res_3701 = __res_3702;
+            return __res_3701;
         }
     }
 
@@ -21,11 +31,56 @@ public partial class XRWebGLBinding(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            bool __res_3106;
-            bool __res_3107 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usesDepthValues");
-            __res_3106 = __res_3107;
-            return __res_3106;
+            bool __res_3703;
+            bool __res_3704 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usesDepthValues");
+            __res_3703 = __res_3704;
+            return __res_3703;
         }
+    }
+
+    public global::Iskra.StdWeb.XRProjectionLayer CreateProjectionLayer(global::Iskra.StdWeb.XRProjectionLayerInit init)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.XRQuadLayer CreateQuadLayer(global::Iskra.StdWeb.XRQuadLayerInit init)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.XRCylinderLayer CreateCylinderLayer(global::Iskra.StdWeb.XRCylinderLayerInit init)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.XREquirectLayer CreateEquirectLayer(global::Iskra.StdWeb.XREquirectLayerInit init)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.XRCubeLayer CreateCubeLayer(global::Iskra.StdWeb.XRCubeLayerInit init)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.XRWebGLSubImage GetSubImage(global::Iskra.StdWeb.XRCompositionLayer layer, global::Iskra.StdWeb.XRFrame frame, global::Iskra.StdWeb.XREye eye)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.XRWebGLSubImage GetViewSubImage(global::Iskra.StdWeb.XRProjectionLayer layer, global::Iskra.StdWeb.XRView view)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void FoveateBoundTexture(uint target, float fixed_foveation)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebGLTexture? GetCameraImage(global::Iskra.StdWeb.XRCamera camera)
+    {
+        throw new global::System.Exception();
     }
 }
 

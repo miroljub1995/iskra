@@ -6,14 +6,29 @@ namespace Iskra.StdWeb;
 
 public partial class Memory(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Grow(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? delta)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.ArrayBuffer ToFixedLengthBuffer()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.ArrayBuffer ToResizableBuffer()
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.JSCore.ArrayBuffer Buffer
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_7967;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7968 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffer");
-            __res_7967 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_7968);
-            return __res_7967;
+            global::Iskra.JSCore.ArrayBuffer __res_9539;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9540 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffer");
+            __res_9539 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_9540);
+            return __res_9539;
         }
     }
 }

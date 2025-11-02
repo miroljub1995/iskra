@@ -10,10 +10,10 @@ public partial class CSSParserBlock(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_13887;
-            string __res_13888 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_13887 = __res_13888;
-            return __res_13887;
+            string __res_16429;
+            string __res_16430 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_16429 = __res_16430;
+            return __res_16429;
         }
     }
 
@@ -21,12 +21,17 @@ public partial class CSSParserBlock(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_13889;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_13890;
-            __propObject_13890 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "body");
-            __res_13889 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13890);
-            return __res_13889;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_16431;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_16432;
+            __propObject_16432 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "body");
+            __res_16431 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_16432);
+            return __res_16431;
         }
+    }
+
+    public void _()
+    {
+        throw new global::System.Exception();
     }
 }
 

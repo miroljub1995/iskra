@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class XRHitTestResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.XRAnchor, global::Iskra.StdWeb.PropertyAccessor> CreateAnchor()
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.StdWeb.XRPose? GetPose(global::Iskra.StdWeb.XRSpace baseSpace)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

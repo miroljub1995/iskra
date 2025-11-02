@@ -10,11 +10,36 @@ public partial class DataTransferItemList(global::System.Runtime.InteropServices
     {
         get
         {
-            uint __res_11657;
-            double __res_11658 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_11657 = Convert.ToUInt32(__res_11658);
-            return __res_11657;
+            uint __res_13725;
+            double __res_13726 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_13725 = Convert.ToUInt32(__res_13726);
+            return __res_13725;
         }
+    }
+
+    public global::Iskra.StdWeb.DataTransferItem Get(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DataTransferItem? Add(string data, string type)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DataTransferItem? Add(global::Iskra.StdWeb.File data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Remove(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Clear()
+    {
+        throw new global::System.Exception();
     }
 }
 

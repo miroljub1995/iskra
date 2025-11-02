@@ -10,11 +10,11 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_1708;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1709;
-            __propObject_1709 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "canvas");
-            __res_1708 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1709);
-            return __res_1708;
+            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_1982;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1983;
+            __propObject_1983 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "canvas");
+            __res_1982 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1983);
+            return __res_1982;
         }
     }
 
@@ -22,10 +22,10 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            int __res_1710;
-            double __res_1711 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferWidth");
-            __res_1710 = Convert.ToInt32(__res_1711);
-            return __res_1710;
+            int __res_1984;
+            double __res_1985 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferWidth");
+            __res_1984 = Convert.ToInt32(__res_1985);
+            return __res_1984;
         }
     }
 
@@ -33,10 +33,10 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            int __res_1712;
-            double __res_1713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferHeight");
-            __res_1712 = Convert.ToInt32(__res_1713);
-            return __res_1712;
+            int __res_1986;
+            double __res_1987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferHeight");
+            __res_1986 = Convert.ToInt32(__res_1987);
+            return __res_1986;
         }
     }
 
@@ -44,10 +44,10 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            uint __res_1714;
-            double __res_1715 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferFormat");
-            __res_1714 = Convert.ToUInt32(__res_1715);
-            return __res_1714;
+            uint __res_1988;
+            double __res_1989 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferFormat");
+            __res_1988 = Convert.ToUInt32(__res_1989);
+            return __res_1988;
         }
     }
 
@@ -55,16 +55,16 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.PredefinedColorSpace __res_1716;
-            string __res_1717 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "drawingBufferColorSpace");
-            __res_1716 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1717);
-            return __res_1716;
+            global::Iskra.StdWeb.PredefinedColorSpace __res_1990;
+            string __res_1991 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "drawingBufferColorSpace");
+            __res_1990 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1991);
+            return __res_1990;
         }
         set
         {
-            string __marshalledValue_1718;
-            __marshalledValue_1718 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "drawingBufferColorSpace", __marshalledValue_1718);
+            string __marshalledValue_1992;
+            __marshalledValue_1992 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "drawingBufferColorSpace", __marshalledValue_1992);
         }
     }
 
@@ -72,17 +72,722 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.PredefinedColorSpace __res_1719;
-            string __res_1720 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unpackColorSpace");
-            __res_1719 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1720);
-            return __res_1719;
+            global::Iskra.StdWeb.PredefinedColorSpace __res_1993;
+            string __res_1994 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unpackColorSpace");
+            __res_1993 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1994);
+            return __res_1993;
         }
         set
         {
-            string __marshalledValue_1721;
-            __marshalledValue_1721 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unpackColorSpace", __marshalledValue_1721);
+            string __marshalledValue_1995;
+            __marshalledValue_1995 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unpackColorSpace", __marshalledValue_1995);
         }
+    }
+
+    public global::Iskra.StdWeb.WebGLContextAttributes? GetContextAttributes()
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsContextLost()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? GetSupportedExtensions()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::System.Runtime.InteropServices.JavaScript.JSObject? GetExtension(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DrawingBufferStorage(uint sizedFormat, uint width, uint height)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ActiveTexture(uint texture)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void AttachShader(global::Iskra.StdWeb.WebGLProgram program, global::Iskra.StdWeb.WebGLShader shader)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BindAttribLocation(global::Iskra.StdWeb.WebGLProgram program, uint index, string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BindBuffer(uint target, global::Iskra.StdWeb.WebGLBuffer? buffer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BindFramebuffer(uint target, global::Iskra.StdWeb.WebGLFramebuffer? framebuffer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BindRenderbuffer(uint target, global::Iskra.StdWeb.WebGLRenderbuffer? renderbuffer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BindTexture(uint target, global::Iskra.StdWeb.WebGLTexture? texture)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BlendColor(float red, float green, float blue, float alpha)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BlendEquation(uint mode)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BlendEquationSeparate(uint modeRGB, uint modeAlpha)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BlendFunc(uint sfactor, uint dfactor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BlendFuncSeparate(uint srcRGB, uint dstRGB, uint srcAlpha, uint dstAlpha)
+    {
+        throw new global::System.Exception();
+    }
+
+    public uint CheckFramebufferStatus(uint target)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Clear(uint mask)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ClearColor(float red, float green, float blue, float alpha)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ClearDepth(float depth)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ClearStencil(int s)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ColorMask(bool red, bool green, bool blue, bool alpha)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CompileShader(global::Iskra.StdWeb.WebGLShader shader)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CopyTexImage2D(uint target, int level, uint internalformat, int x, int y, int width, int height, int border)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CopyTexSubImage2D(uint target, int level, int xoffset, int yoffset, int x, int y, int width, int height)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebGLBuffer CreateBuffer()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebGLFramebuffer CreateFramebuffer()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebGLProgram CreateProgram()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebGLRenderbuffer CreateRenderbuffer()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebGLShader? CreateShader(uint type)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebGLTexture CreateTexture()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CullFace(uint mode)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DeleteBuffer(global::Iskra.StdWeb.WebGLBuffer? buffer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DeleteFramebuffer(global::Iskra.StdWeb.WebGLFramebuffer? framebuffer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DeleteProgram(global::Iskra.StdWeb.WebGLProgram? program)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DeleteRenderbuffer(global::Iskra.StdWeb.WebGLRenderbuffer? renderbuffer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DeleteShader(global::Iskra.StdWeb.WebGLShader? shader)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DeleteTexture(global::Iskra.StdWeb.WebGLTexture? texture)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DepthFunc(uint func)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DepthMask(bool flag)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DepthRange(float zNear, float zFar)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DetachShader(global::Iskra.StdWeb.WebGLProgram program, global::Iskra.StdWeb.WebGLShader shader)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Disable(uint cap)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DisableVertexAttribArray(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DrawArrays(uint mode, int first, int count)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DrawElements(uint mode, int count, uint type, long offset)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Enable(uint cap)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void EnableVertexAttribArray(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Finish()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Flush()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void FramebufferRenderbuffer(uint target, uint attachment, uint renderbuffertarget, global::Iskra.StdWeb.WebGLRenderbuffer? renderbuffer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void FramebufferTexture2D(uint target, uint attachment, uint textarget, global::Iskra.StdWeb.WebGLTexture? texture, int level)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void FrontFace(uint mode)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void GenerateMipmap(uint target)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebGLActiveInfo? GetActiveAttrib(global::Iskra.StdWeb.WebGLProgram program, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebGLActiveInfo? GetActiveUniform(global::Iskra.StdWeb.WebGLProgram program, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.WebGLShader, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? GetAttachedShaders(global::Iskra.StdWeb.WebGLProgram program)
+    {
+        throw new global::System.Exception();
+    }
+
+    public int GetAttribLocation(global::Iskra.StdWeb.WebGLProgram program, string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetBufferParameter(uint target, uint pname)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetParameter(uint pname)
+    {
+        throw new global::System.Exception();
+    }
+
+    public uint GetError()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetFramebufferAttachmentParameter(uint target, uint attachment, uint pname)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetProgramParameter(global::Iskra.StdWeb.WebGLProgram program, uint pname)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string? GetProgramInfoLog(global::Iskra.StdWeb.WebGLProgram program)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetRenderbufferParameter(uint target, uint pname)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetShaderParameter(global::Iskra.StdWeb.WebGLShader shader, uint pname)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebGLShaderPrecisionFormat? GetShaderPrecisionFormat(uint shadertype, uint precisiontype)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string? GetShaderInfoLog(global::Iskra.StdWeb.WebGLShader shader)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string? GetShaderSource(global::Iskra.StdWeb.WebGLShader shader)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetTexParameter(uint target, uint pname)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetUniform(global::Iskra.StdWeb.WebGLProgram program, global::Iskra.StdWeb.WebGLUniformLocation location)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebGLUniformLocation? GetUniformLocation(global::Iskra.StdWeb.WebGLProgram program, string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetVertexAttrib(uint index, uint pname)
+    {
+        throw new global::System.Exception();
+    }
+
+    public long GetVertexAttribOffset(uint index, uint pname)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Hint(uint target, uint mode)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsBuffer(global::Iskra.StdWeb.WebGLBuffer? buffer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsEnabled(uint cap)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsFramebuffer(global::Iskra.StdWeb.WebGLFramebuffer? framebuffer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsProgram(global::Iskra.StdWeb.WebGLProgram? program)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsRenderbuffer(global::Iskra.StdWeb.WebGLRenderbuffer? renderbuffer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsShader(global::Iskra.StdWeb.WebGLShader? shader)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsTexture(global::Iskra.StdWeb.WebGLTexture? texture)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void LineWidth(float width)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void LinkProgram(global::Iskra.StdWeb.WebGLProgram program)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void PixelStorei(uint pname, int param)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void PolygonOffset(float factor, float units)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void RenderbufferStorage(uint target, uint internalformat, int width, int height)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SampleCoverage(float value, bool invert)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Scissor(int x, int y, int width, int height)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ShaderSource(global::Iskra.StdWeb.WebGLShader shader, string source)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void StencilFunc(uint func, int @ref, uint mask)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void StencilFuncSeparate(uint face, uint func, int @ref, uint mask)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void StencilMask(uint mask)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void StencilMaskSeparate(uint face, uint mask)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void StencilOp(uint fail, uint zfail, uint zpass)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void StencilOpSeparate(uint face, uint fail, uint zfail, uint zpass)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void TexParameterf(uint target, uint pname, float param)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void TexParameteri(uint target, uint pname, int param)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform1f(global::Iskra.StdWeb.WebGLUniformLocation? location, float x)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform2f(global::Iskra.StdWeb.WebGLUniformLocation? location, float x, float y)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform3f(global::Iskra.StdWeb.WebGLUniformLocation? location, float x, float y, float z)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform4f(global::Iskra.StdWeb.WebGLUniformLocation? location, float x, float y, float z, float w)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform1i(global::Iskra.StdWeb.WebGLUniformLocation? location, int x)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform2i(global::Iskra.StdWeb.WebGLUniformLocation? location, int x, int y)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform3i(global::Iskra.StdWeb.WebGLUniformLocation? location, int x, int y, int z)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform4i(global::Iskra.StdWeb.WebGLUniformLocation? location, int x, int y, int z, int w)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void UseProgram(global::Iskra.StdWeb.WebGLProgram? program)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ValidateProgram(global::Iskra.StdWeb.WebGLProgram program)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void VertexAttrib1f(uint index, float x)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void VertexAttrib2f(uint index, float x, float y)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void VertexAttrib3f(uint index, float x, float y, float z)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void VertexAttrib4f(uint index, float x, float y, float z, float w)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void VertexAttrib1fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void VertexAttrib2fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void VertexAttrib3fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void VertexAttrib4fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void VertexAttribPointer(uint index, int size, uint type, bool normalized, int stride, long offset)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Viewport(int x, int y, int width, int height)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise MakeXRCompatible()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BufferData(uint target, long size, uint usage)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BufferData(uint target, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union>? data, uint usage)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BufferSubData(uint target, long offset, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CompressedTexImage2D(uint target, int level, uint internalformat, int width, int height, int border, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CompressedTexSubImage2D(uint target, int level, int xoffset, int yoffset, int width, int height, uint format, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ReadPixels(int x, int y, int width, int height, uint format, uint type, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union>? pixels)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void TexImage2D(uint target, int level, int internalformat, int width, int height, int border, uint format, uint type, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union>? pixels)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void TexImage2D(uint target, int level, int internalformat, uint format, uint type, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ImageBitmap, global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.HTMLImageElement, global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.HTMLVideoElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.VideoFrame, global::Iskra.StdWeb.GenericMarshaller.Union> source)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void TexSubImage2D(uint target, int level, int xoffset, int yoffset, int width, int height, uint format, uint type, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union>? pixels)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void TexSubImage2D(uint target, int level, int xoffset, int yoffset, uint format, uint type, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ImageBitmap, global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.HTMLImageElement, global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.HTMLVideoElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.VideoFrame, global::Iskra.StdWeb.GenericMarshaller.Union> source)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform1fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> v)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform2fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> v)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform3fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> v)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform4fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> v)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform1iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> v)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform2iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> v)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform3iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> v)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Uniform4iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> v)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void UniformMatrix2fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void UniformMatrix3fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void UniformMatrix4fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> value)
+    {
+        throw new global::System.Exception();
     }
 }
 

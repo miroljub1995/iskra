@@ -10,32 +10,32 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2945;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2946 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport");
-            if (__res_2946 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_3533;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3534 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport");
+            if (__res_3534 is null)
             {
-                __res_2945 = null;
+                __res_3533 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2947 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2946;
-                __res_2945 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2947);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3535 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3534;
+                __res_3533 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3535);
             }
-            return __res_2945;
+            return __res_3533;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2948;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3536;
             if (value is null)
             {
-                __marshalledValue_2948 = null;
+                __marshalledValue_3536 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2949 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2948 = __notNullable_2949.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3537 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_3536 = __notNullable_3537.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport", __marshalledValue_2948);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport", __marshalledValue_3536);
         }
     }
 
@@ -43,10 +43,10 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            bool __res_2950;
-            bool __res_2951 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
-            __res_2950 = __res_2951;
-            return __res_2950;
+            bool __res_3538;
+            bool __res_3539 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
+            __res_3538 = __res_3539;
+            return __res_3538;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            ushort __res_2952;
-            double __res_2953 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vendorId");
-            __res_2952 = Convert.ToUInt16(__res_2953);
-            return __res_2952;
+            ushort __res_3540;
+            double __res_3541 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vendorId");
+            __res_3540 = Convert.ToUInt16(__res_3541);
+            return __res_3540;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            ushort __res_2954;
-            double __res_2955 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "productId");
-            __res_2954 = Convert.ToUInt16(__res_2955);
-            return __res_2954;
+            ushort __res_3542;
+            double __res_3543 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "productId");
+            __res_3542 = Convert.ToUInt16(__res_3543);
+            return __res_3542;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_2956;
-            string __res_2957 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "productName");
-            __res_2956 = __res_2957;
-            return __res_2956;
+            string __res_3544;
+            string __res_3545 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "productName");
+            __res_3544 = __res_3545;
+            return __res_3544;
         }
     }
 
@@ -87,12 +87,42 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_2958;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2959;
-            __propObject_2959 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "collections");
-            __res_2958 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_2959);
-            return __res_2958;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3546;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3547;
+            __propObject_3547 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "collections");
+            __res_3546 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3547);
+            return __res_3546;
         }
+    }
+
+    public global::Iskra.JSCore.Promise Open()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Close()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Forget()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise SendReport(byte reportId, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise SendFeatureReport(byte reportId, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.DataView, global::Iskra.StdWeb.PropertyAccessor> ReceiveFeatureReport(byte reportId)
+    {
+        throw new global::System.Exception();
     }
 }
 

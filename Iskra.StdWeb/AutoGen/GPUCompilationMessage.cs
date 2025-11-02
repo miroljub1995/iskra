@@ -10,10 +10,10 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_1605;
-            string __res_1606 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_1605 = __res_1606;
-            return __res_1605;
+            string __res_1804;
+            string __res_1805 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
+            __res_1804 = __res_1805;
+            return __res_1804;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.GPUCompilationMessageType __res_1607;
-            string __res_1608 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1607 = global::Iskra.StdWeb.GPUCompilationMessageType.Create(__res_1608);
-            return __res_1607;
+            global::Iskra.StdWeb.GPUCompilationMessageType __res_1806;
+            string __res_1807 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_1806 = global::Iskra.StdWeb.GPUCompilationMessageType.Create(__res_1807);
+            return __res_1806;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
     {
         get
         {
-            ulong __res_1609;
-            double __res_1610 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineNum");
-            __res_1609 = Convert.ToUInt64(__res_1610);
-            return __res_1609;
+            ulong __res_1808;
+            double __res_1809 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineNum");
+            __res_1808 = Convert.ToUInt64(__res_1809);
+            return __res_1808;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
     {
         get
         {
-            ulong __res_1611;
-            double __res_1612 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "linePos");
-            __res_1611 = Convert.ToUInt64(__res_1612);
-            return __res_1611;
+            ulong __res_1810;
+            double __res_1811 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "linePos");
+            __res_1810 = Convert.ToUInt64(__res_1811);
+            return __res_1810;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
     {
         get
         {
-            ulong __res_1613;
-            double __res_1614 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
-            __res_1613 = Convert.ToUInt64(__res_1614);
-            return __res_1613;
+            ulong __res_1812;
+            double __res_1813 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
+            __res_1812 = Convert.ToUInt64(__res_1813);
+            return __res_1812;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
     {
         get
         {
-            ulong __res_1615;
-            double __res_1616 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_1615 = Convert.ToUInt64(__res_1616);
-            return __res_1615;
+            ulong __res_1814;
+            double __res_1815 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_1814 = Convert.ToUInt64(__res_1815);
+            return __res_1814;
         }
     }
 }

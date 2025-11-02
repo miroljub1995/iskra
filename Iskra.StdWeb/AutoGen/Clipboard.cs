@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class Clipboard(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ClipboardItem, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> Read(global::Iskra.StdWeb.ClipboardUnsanitizedFormats formats)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> ReadText()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Write(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ClipboardItem, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> data)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise WriteText(string data)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

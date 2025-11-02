@@ -10,10 +10,10 @@ public partial class BluetoothRemoteGATTServer(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.BluetoothDevice __res_4507;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4508 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            __res_4507 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__res_4508);
-            return __res_4507;
+            global::Iskra.StdWeb.BluetoothDevice __res_5324;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5325 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
+            __res_5324 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothDevice>(__res_5325);
+            return __res_5324;
         }
     }
 
@@ -21,11 +21,31 @@ public partial class BluetoothRemoteGATTServer(global::System.Runtime.InteropSer
     {
         get
         {
-            bool __res_4509;
-            bool __res_4510 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
-            __res_4509 = __res_4510;
-            return __res_4509;
+            bool __res_5326;
+            bool __res_5327 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "connected");
+            __res_5326 = __res_5327;
+            return __res_5326;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.BluetoothRemoteGATTServer, global::Iskra.StdWeb.PropertyAccessor> Connect()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Disconnect()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.BluetoothRemoteGATTService, global::Iskra.StdWeb.PropertyAccessor> GetPrimaryService(global::Iskra.JSCore.Generics.Union<string, uint, global::Iskra.StdWeb.GenericMarshaller.Union> service)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.BluetoothRemoteGATTService, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetPrimaryServices(global::Iskra.JSCore.Generics.Union<string, uint, global::Iskra.StdWeb.GenericMarshaller.Union> service)
+    {
+        throw new global::System.Exception();
     }
 }
 

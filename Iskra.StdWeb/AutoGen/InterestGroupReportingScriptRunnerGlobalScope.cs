@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class InterestGroupReportingScriptRunnerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): InterestGroupScriptRunnerGlobalScope(obj)
 {
+    public void SendReportTo(string url)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void RegisterAdBeacon(global::Iskra.JSCore.Generics.Record<string, global::Iskra.StdWeb.GenericMarshaller.Record> map)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void RegisterAdMacro(string name, string value)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

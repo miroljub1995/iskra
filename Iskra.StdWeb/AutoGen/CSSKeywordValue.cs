@@ -10,16 +10,16 @@ public partial class CSSKeywordValue(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_39;
-            string __res_40 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_39 = __res_40;
-            return __res_39;
+            string __res_61;
+            string __res_62 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
+            __res_61 = __res_62;
+            return __res_61;
         }
         set
         {
-            string __marshalledValue_41;
-            __marshalledValue_41 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_41);
+            string __marshalledValue_63;
+            __marshalledValue_63 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_63);
         }
     }
 }

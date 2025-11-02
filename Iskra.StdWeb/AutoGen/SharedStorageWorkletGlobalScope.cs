@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkletGlobalScope(obj)
 {
+    public void Register(string name, global::Iskra.StdWeb.Function operationCtor)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.StdWeb.SharedStorage SharedStorage
     {
         get
         {
-            global::Iskra.StdWeb.SharedStorage __res_7235;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7236 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sharedStorage");
-            __res_7235 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorage>(__res_7236);
-            return __res_7235;
+            global::Iskra.StdWeb.SharedStorage __res_8663;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8664 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sharedStorage");
+            __res_8663 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorage>(__res_8664);
+            return __res_8663;
         }
     }
 
@@ -21,21 +26,26 @@ public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.Inte
     {
         get
         {
-            global::Iskra.StdWeb.PrivateAggregation __res_7237;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7238 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "privateAggregation");
-            __res_7237 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PrivateAggregation>(__res_7238);
-            return __res_7237;
+            global::Iskra.StdWeb.PrivateAggregation __res_8665;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8666 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "privateAggregation");
+            __res_8665 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PrivateAggregation>(__res_8666);
+            return __res_8665;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.StorageInterestGroup, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> InterestGroups()
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.SharedStorageWorkletNavigator Navigator
     {
         get
         {
-            global::Iskra.StdWeb.SharedStorageWorkletNavigator __res_7239;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7240 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
-            __res_7239 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorageWorkletNavigator>(__res_7240);
-            return __res_7239;
+            global::Iskra.StdWeb.SharedStorageWorkletNavigator __res_8668;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8669 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigator");
+            __res_8668 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorageWorkletNavigator>(__res_8669);
+            return __res_8668;
         }
     }
 }

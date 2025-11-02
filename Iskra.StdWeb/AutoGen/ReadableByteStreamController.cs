@@ -10,18 +10,18 @@ public partial class ReadableByteStreamController(global::System.Runtime.Interop
     {
         get
         {
-            global::Iskra.StdWeb.ReadableStreamBYOBRequest? __res_1899;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1900 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "byobRequest");
-            if (__res_1900 is null)
+            global::Iskra.StdWeb.ReadableStreamBYOBRequest? __res_2359;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2360 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "byobRequest");
+            if (__res_2360 is null)
             {
-                __res_1899 = null;
+                __res_2359 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1901 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1900;
-                __res_1899 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStreamBYOBRequest>(__notNullable_1901);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2361 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2360;
+                __res_2359 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStreamBYOBRequest>(__notNullable_2361);
             }
-            return __res_1899;
+            return __res_2359;
         }
     }
 
@@ -29,19 +29,34 @@ public partial class ReadableByteStreamController(global::System.Runtime.Interop
     {
         get
         {
-            double? __res_1902;
-            double? __res_1903 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_1903 is null)
+            double? __res_2362;
+            double? __res_2363 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_2363 is null)
             {
-                __res_1902 = null;
+                __res_2362 = null;
             }
             else
             {
-                double __notNullable_1904 = (double)__res_1903;
-                __res_1902 = __notNullable_1904;
+                double __notNullable_2364 = (double)__res_2363;
+                __res_2362 = __notNullable_2364;
             }
-            return __res_1902;
+            return __res_2362;
         }
+    }
+
+    public void Close()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Enqueue(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> chunk)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Error(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? e)
+    {
+        throw new global::System.Exception();
     }
 }
 

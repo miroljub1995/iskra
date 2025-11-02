@@ -10,10 +10,10 @@ public partial class CSSAnimation(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_6572;
-            string __res_6573 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animationName");
-            __res_6572 = __res_6573;
-            return __res_6572;
+            string __res_7831;
+            string __res_7832 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animationName");
+            __res_7831 = __res_7832;
+            return __res_7831;
         }
     }
 }

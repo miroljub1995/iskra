@@ -10,11 +10,16 @@ public partial class XRHand(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            uint __res_6718;
-            double __res_6719 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_6718 = Convert.ToUInt32(__res_6719);
-            return __res_6718;
+            uint __res_8023;
+            double __res_8024 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
+            __res_8023 = Convert.ToUInt32(__res_8024);
+            return __res_8023;
         }
+    }
+
+    public global::Iskra.StdWeb.XRJointSpace Get(global::Iskra.StdWeb.XRHandJoint key)
+    {
+        throw new global::System.Exception();
     }
 }
 

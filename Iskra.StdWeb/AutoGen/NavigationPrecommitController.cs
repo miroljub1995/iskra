@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class NavigationPrecommitController(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public void Redirect(string url, global::Iskra.StdWeb.NavigationNavigateOptions options)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

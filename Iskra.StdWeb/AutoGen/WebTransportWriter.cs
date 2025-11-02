@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportWriter(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WritableStreamDefaultWriter(obj)
 {
+    public global::Iskra.JSCore.Promise AtomicWrite(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? chunk)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void Commit()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

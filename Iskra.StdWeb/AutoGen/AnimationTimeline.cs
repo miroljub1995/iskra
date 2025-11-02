@@ -10,18 +10,18 @@ public partial class AnimationTimeline(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2851;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2852;
-            __propObject_2852 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "currentTime");
-            if (__propObject_2852 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_3419;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_3420;
+            __propObject_3420 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "currentTime");
+            if (__propObject_3420 is null)
             {
-                __res_2851 = null;
+                __res_3419 = null;
             }
             else
             {
-                __res_2851 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2852);
+                __res_3419 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_3420);
             }
-            return __res_2851;
+            return __res_3419;
         }
     }
 
@@ -29,19 +29,24 @@ public partial class AnimationTimeline(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2853;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2854;
-            __propObject_2854 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "duration");
-            if (__propObject_2854 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_3421;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_3422;
+            __propObject_3422 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "duration");
+            if (__propObject_3422 is null)
             {
-                __res_2853 = null;
+                __res_3421 = null;
             }
             else
             {
-                __res_2853 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2854);
+                __res_3421 = new global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_3422);
             }
-            return __res_2853;
+            return __res_3421;
         }
+    }
+
+    public global::Iskra.StdWeb.Animation Play(global::Iskra.StdWeb.AnimationEffect? effect)
+    {
+        throw new global::System.Exception();
     }
 }
 

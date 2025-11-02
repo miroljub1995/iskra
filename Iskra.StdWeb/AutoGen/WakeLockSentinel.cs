@@ -10,10 +10,10 @@ public partial class WakeLockSentinel(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            bool __res_2313;
-            bool __res_2314 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "released");
-            __res_2313 = __res_2314;
-            return __res_2313;
+            bool __res_2830;
+            bool __res_2831 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "released");
+            __res_2830 = __res_2831;
+            return __res_2830;
         }
     }
 
@@ -21,43 +21,48 @@ public partial class WakeLockSentinel(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.WakeLockType __res_2315;
-            string __res_2316 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2315 = global::Iskra.StdWeb.WakeLockType.Create(__res_2316);
-            return __res_2315;
+            global::Iskra.StdWeb.WakeLockType __res_2832;
+            string __res_2833 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_2832 = global::Iskra.StdWeb.WakeLockType.Create(__res_2833);
+            return __res_2832;
         }
+    }
+
+    public global::Iskra.JSCore.Promise Release()
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onrelease
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2317;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2318 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease");
-            if (__res_2318 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_2835;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2836 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease");
+            if (__res_2836 is null)
             {
-                __res_2317 = null;
+                __res_2835 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2319 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2318;
-                __res_2317 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2319);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2837 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2836;
+                __res_2835 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2837);
             }
-            return __res_2317;
+            return __res_2835;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2320;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2838;
             if (value is null)
             {
-                __marshalledValue_2320 = null;
+                __marshalledValue_2838 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2321 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2320 = __notNullable_2321.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2839 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_2838 = __notNullable_2839.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease", __marshalledValue_2320);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease", __marshalledValue_2838);
         }
     }
 }

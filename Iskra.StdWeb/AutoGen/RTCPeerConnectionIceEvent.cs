@@ -10,18 +10,18 @@ public partial class RTCPeerConnectionIceEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.RTCIceCandidate? __res_3422;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3423 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "candidate");
-            if (__res_3423 is null)
+            global::Iskra.StdWeb.RTCIceCandidate? __res_4109;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4110 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "candidate");
+            if (__res_4110 is null)
             {
-                __res_3422 = null;
+                __res_4109 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3424 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3423;
-                __res_3422 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCIceCandidate>(__notNullable_3424);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4111 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4110;
+                __res_4109 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCIceCandidate>(__notNullable_4111);
             }
-            return __res_3422;
+            return __res_4109;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class RTCPeerConnectionIceEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            string? __res_3425;
-            string? __res_3426 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_3426 is null)
+            string? __res_4112;
+            string? __res_4113 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
+            if (__res_4113 is null)
             {
-                __res_3425 = null;
+                __res_4112 = null;
             }
             else
             {
-                string __notNullable_3427 = (string)__res_3426;
-                __res_3425 = __notNullable_3427;
+                string __notNullable_4114 = (string)__res_4113;
+                __res_4112 = __notNullable_4114;
             }
-            return __res_3425;
+            return __res_4112;
         }
     }
 }

@@ -6,7 +6,105 @@ namespace Iskra.StdWeb;
 
 public partial class Observable(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void Subscribe(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ObservableSubscriptionCallback, global::Iskra.StdWeb.SubscriptionObserver, global::Iskra.StdWeb.GenericMarshaller.Union> observer, global::Iskra.StdWeb.SubscribeOptions options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public static global::Iskra.StdWeb.Observable From(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Observable TakeUntil(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Observable Map(global::Iskra.StdWeb.Mapper mapper)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Observable Filter(global::Iskra.StdWeb.Predicate predicate)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Observable Take(ulong amount)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Observable Drop(ulong amount)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Observable FlatMap(global::Iskra.StdWeb.Mapper mapper)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Observable SwitchMap(global::Iskra.StdWeb.Mapper mapper)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Observable Inspect(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ObservableSubscriptionCallback, global::Iskra.StdWeb.ObservableInspector, global::Iskra.StdWeb.GenericMarshaller.Union> inspectorUnion)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Observable Catch(global::Iskra.StdWeb.CatchCallback callback)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Observable Finally(global::Iskra.StdWeb.VoidFunction callback)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> ToArray(global::Iskra.StdWeb.SubscribeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise ForEach(global::Iskra.StdWeb.Visitor callback, global::Iskra.StdWeb.SubscribeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Every(global::Iskra.StdWeb.Predicate predicate, global::Iskra.StdWeb.SubscribeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> First(global::Iskra.StdWeb.SubscribeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> Last(global::Iskra.StdWeb.SubscribeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> Find(global::Iskra.StdWeb.Predicate predicate, global::Iskra.StdWeb.SubscribeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Some(global::Iskra.StdWeb.Predicate predicate, global::Iskra.StdWeb.SubscribeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> Reduce(global::Iskra.StdWeb.Reducer reducer, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? initialValue, global::Iskra.StdWeb.SubscribeOptions options)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

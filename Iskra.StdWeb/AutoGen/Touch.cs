@@ -10,10 +10,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            int __res_4795;
-            double __res_4796 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "identifier");
-            __res_4795 = Convert.ToInt32(__res_4796);
-            return __res_4795;
+            int __res_5710;
+            double __res_5711 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "identifier");
+            __res_5710 = Convert.ToInt32(__res_5711);
+            return __res_5710;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            global::Iskra.StdWeb.EventTarget __res_4797;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4798 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            __res_4797 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__res_4798);
-            return __res_4797;
+            global::Iskra.StdWeb.EventTarget __res_5712;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
+            __res_5712 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__res_5713);
+            return __res_5712;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            double __res_4799;
-            double __res_4800 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "screenX");
-            __res_4799 = __res_4800;
-            return __res_4799;
+            double __res_5714;
+            double __res_5715 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "screenX");
+            __res_5714 = __res_5715;
+            return __res_5714;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            double __res_4801;
-            double __res_4802 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "screenY");
-            __res_4801 = __res_4802;
-            return __res_4801;
+            double __res_5716;
+            double __res_5717 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "screenY");
+            __res_5716 = __res_5717;
+            return __res_5716;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            double __res_4803;
-            double __res_4804 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "clientX");
-            __res_4803 = __res_4804;
-            return __res_4803;
+            double __res_5718;
+            double __res_5719 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "clientX");
+            __res_5718 = __res_5719;
+            return __res_5718;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            double __res_4805;
-            double __res_4806 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "clientY");
-            __res_4805 = __res_4806;
-            return __res_4805;
+            double __res_5720;
+            double __res_5721 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "clientY");
+            __res_5720 = __res_5721;
+            return __res_5720;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            double __res_4807;
-            double __res_4808 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageX");
-            __res_4807 = __res_4808;
-            return __res_4807;
+            double __res_5722;
+            double __res_5723 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageX");
+            __res_5722 = __res_5723;
+            return __res_5722;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            double __res_4809;
-            double __res_4810 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageY");
-            __res_4809 = __res_4810;
-            return __res_4809;
+            double __res_5724;
+            double __res_5725 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pageY");
+            __res_5724 = __res_5725;
+            return __res_5724;
         }
     }
 
@@ -98,10 +98,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            float __res_4811;
-            double __res_4812 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radiusX");
-            __res_4811 = Convert.ToSingle(__res_4812);
-            return __res_4811;
+            float __res_5726;
+            double __res_5727 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radiusX");
+            __res_5726 = Convert.ToSingle(__res_5727);
+            return __res_5726;
         }
     }
 
@@ -109,10 +109,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            float __res_4813;
-            double __res_4814 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radiusY");
-            __res_4813 = Convert.ToSingle(__res_4814);
-            return __res_4813;
+            float __res_5728;
+            double __res_5729 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radiusY");
+            __res_5728 = Convert.ToSingle(__res_5729);
+            return __res_5728;
         }
     }
 
@@ -120,10 +120,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            float __res_4815;
-            double __res_4816 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rotationAngle");
-            __res_4815 = Convert.ToSingle(__res_4816);
-            return __res_4815;
+            float __res_5730;
+            double __res_5731 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rotationAngle");
+            __res_5730 = Convert.ToSingle(__res_5731);
+            return __res_5730;
         }
     }
 
@@ -131,10 +131,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            float __res_4817;
-            double __res_4818 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "force");
-            __res_4817 = Convert.ToSingle(__res_4818);
-            return __res_4817;
+            float __res_5732;
+            double __res_5733 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "force");
+            __res_5732 = Convert.ToSingle(__res_5733);
+            return __res_5732;
         }
     }
 
@@ -142,10 +142,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            float __res_4819;
-            double __res_4820 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "altitudeAngle");
-            __res_4819 = Convert.ToSingle(__res_4820);
-            return __res_4819;
+            float __res_5734;
+            double __res_5735 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "altitudeAngle");
+            __res_5734 = Convert.ToSingle(__res_5735);
+            return __res_5734;
         }
     }
 
@@ -153,10 +153,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            float __res_4821;
-            double __res_4822 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "azimuthAngle");
-            __res_4821 = Convert.ToSingle(__res_4822);
-            return __res_4821;
+            float __res_5736;
+            double __res_5737 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "azimuthAngle");
+            __res_5736 = Convert.ToSingle(__res_5737);
+            return __res_5736;
         }
     }
 
@@ -164,10 +164,10 @@ public partial class Touch(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         get
         {
-            global::Iskra.StdWeb.TouchType __res_4823;
-            string __res_4824 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "touchType");
-            __res_4823 = global::Iskra.StdWeb.TouchType.Create(__res_4824);
-            return __res_4823;
+            global::Iskra.StdWeb.TouchType __res_5738;
+            string __res_5739 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "touchType");
+            __res_5738 = global::Iskra.StdWeb.TouchType.Create(__res_5739);
+            return __res_5738;
         }
     }
 }

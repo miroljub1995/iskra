@@ -6,16 +6,31 @@ namespace Iskra.StdWeb;
 
 public partial class GamepadHapticActuator(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Pulse(double value, double duration)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Effects
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8160;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8161;
-            __propObject_8161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "effects");
-            __res_8160 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8161);
-            return __res_8160;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_9867;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9868;
+            __propObject_9868 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "effects");
+            __res_9867 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9868);
+            return __res_9867;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GamepadHapticsResult, global::Iskra.StdWeb.PropertyAccessor> PlayEffect(global::Iskra.StdWeb.GamepadHapticEffectType type, global::Iskra.StdWeb.GamepadEffectParameters @params)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GamepadHapticsResult, global::Iskra.StdWeb.PropertyAccessor> Reset()
+    {
+        throw new global::System.Exception();
     }
 }
 

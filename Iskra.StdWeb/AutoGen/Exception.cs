@@ -6,22 +6,32 @@ namespace Iskra.StdWeb;
 
 public partial class Exception(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetArg(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool Is(global::Iskra.StdWeb.Tag exceptionTag)
+    {
+        throw new global::System.Exception();
+    }
+
     public string? Stack
     {
         get
         {
-            string? __res_7974;
-            string? __res_7975 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stack");
-            if (__res_7975 is null)
+            string? __res_9552;
+            string? __res_9553 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stack");
+            if (__res_9553 is null)
             {
-                __res_7974 = null;
+                __res_9552 = null;
             }
             else
             {
-                string __notNullable_7976 = (string)__res_7975;
-                __res_7974 = __notNullable_7976;
+                string __notNullable_9554 = (string)__res_9553;
+                __res_9552 = __notNullable_9554;
             }
-            return __res_7974;
+            return __res_9552;
         }
     }
 }

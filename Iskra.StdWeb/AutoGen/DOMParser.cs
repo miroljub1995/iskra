@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class DOMParser(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.StdWeb.Document ParseFromString(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> @string, global::Iskra.StdWeb.DOMParserSupportedType type)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

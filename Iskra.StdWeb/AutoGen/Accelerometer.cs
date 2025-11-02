@@ -10,18 +10,18 @@ public partial class Accelerometer(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            double? __res_3903;
-            double? __res_3904 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_3904 is null)
+            double? __res_4657;
+            double? __res_4658 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
+            if (__res_4658 is null)
             {
-                __res_3903 = null;
+                __res_4657 = null;
             }
             else
             {
-                double __notNullable_3905 = (double)__res_3904;
-                __res_3903 = __notNullable_3905;
+                double __notNullable_4659 = (double)__res_4658;
+                __res_4657 = __notNullable_4659;
             }
-            return __res_3903;
+            return __res_4657;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class Accelerometer(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            double? __res_3906;
-            double? __res_3907 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_3907 is null)
+            double? __res_4660;
+            double? __res_4661 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
+            if (__res_4661 is null)
             {
-                __res_3906 = null;
+                __res_4660 = null;
             }
             else
             {
-                double __notNullable_3908 = (double)__res_3907;
-                __res_3906 = __notNullable_3908;
+                double __notNullable_4662 = (double)__res_4661;
+                __res_4660 = __notNullable_4662;
             }
-            return __res_3906;
+            return __res_4660;
         }
     }
 
@@ -48,18 +48,18 @@ public partial class Accelerometer(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            double? __res_3909;
-            double? __res_3910 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_3910 is null)
+            double? __res_4663;
+            double? __res_4664 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
+            if (__res_4664 is null)
             {
-                __res_3909 = null;
+                __res_4663 = null;
             }
             else
             {
-                double __notNullable_3911 = (double)__res_3910;
-                __res_3909 = __notNullable_3911;
+                double __notNullable_4665 = (double)__res_4664;
+                __res_4663 = __notNullable_4665;
             }
-            return __res_3909;
+            return __res_4663;
         }
     }
 }

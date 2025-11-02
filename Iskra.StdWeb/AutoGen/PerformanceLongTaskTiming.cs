@@ -10,10 +10,10 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
     {
         get
         {
-            double __res_13422;
-            double __res_13423 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_13422 = __res_13423;
-            return __res_13422;
+            double __res_15660;
+            double __res_15661 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
+            __res_15660 = __res_15661;
+            return __res_15660;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
     {
         get
         {
-            double __res_13424;
-            double __res_13425 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_13424 = __res_13425;
-            return __res_13424;
+            double __res_15662;
+            double __res_15663 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
+            __res_15662 = __res_15663;
+            return __res_15662;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_13426;
-            string __res_13427 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_13426 = __res_13427;
-            return __res_13426;
+            string __res_15664;
+            string __res_15665 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_15664 = __res_15665;
+            return __res_15664;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
     {
         get
         {
-            string __res_13428;
-            string __res_13429 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
-            __res_13428 = __res_13429;
-            return __res_13428;
+            string __res_15666;
+            string __res_15667 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
+            __res_15666 = __res_15667;
+            return __res_15666;
         }
     }
 
@@ -54,12 +54,17 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_13430;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_13431;
-            __propObject_13431 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attribution");
-            __res_13430 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13431);
-            return __res_13430;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_15668;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_15669;
+            __propObject_15669 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attribution");
+            __res_15668 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_15669);
+            return __res_15668;
         }
+    }
+
+    public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
+    {
+        throw new global::System.Exception();
     }
 }
 

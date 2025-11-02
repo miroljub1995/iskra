@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class InstallEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-
+    public global::Iskra.JSCore.Promise AddRoutes(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RouterRule, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RouterRule, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> rules)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

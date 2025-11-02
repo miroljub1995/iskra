@@ -6,14 +6,24 @@ namespace Iskra.StdWeb;
 
 public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.DOMQuad FromRect(global::Iskra.StdWeb.DOMRectInit other)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.StdWeb.DOMQuad FromQuad(global::Iskra.StdWeb.DOMQuadInit other)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.StdWeb.DOMPoint P1
     {
         get
         {
-            global::Iskra.StdWeb.DOMPoint __res_6450;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6451 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p1");
-            __res_6450 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_6451);
-            return __res_6450;
+            global::Iskra.StdWeb.DOMPoint __res_7671;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7672 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p1");
+            __res_7671 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_7672);
+            return __res_7671;
         }
     }
 
@@ -21,10 +31,10 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.DOMPoint __res_6452;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6453 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p2");
-            __res_6452 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_6453);
-            return __res_6452;
+            global::Iskra.StdWeb.DOMPoint __res_7673;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7674 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p2");
+            __res_7673 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_7674);
+            return __res_7673;
         }
     }
 
@@ -32,10 +42,10 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.DOMPoint __res_6454;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6455 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p3");
-            __res_6454 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_6455);
-            return __res_6454;
+            global::Iskra.StdWeb.DOMPoint __res_7675;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7676 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p3");
+            __res_7675 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_7676);
+            return __res_7675;
         }
     }
 
@@ -43,11 +53,21 @@ public partial class DOMQuad(global::System.Runtime.InteropServices.JavaScript.J
     {
         get
         {
-            global::Iskra.StdWeb.DOMPoint __res_6456;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6457 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p4");
-            __res_6456 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_6457);
-            return __res_6456;
+            global::Iskra.StdWeb.DOMPoint __res_7677;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7678 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "p4");
+            __res_7677 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPoint>(__res_7678);
+            return __res_7677;
         }
+    }
+
+    public global::Iskra.StdWeb.DOMRect GetBounds()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -10,10 +10,10 @@ public partial class RTCSessionDescription(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.RTCSdpType __res_3371;
-            string __res_3372 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_3371 = global::Iskra.StdWeb.RTCSdpType.Create(__res_3372);
-            return __res_3371;
+            global::Iskra.StdWeb.RTCSdpType __res_4056;
+            string __res_4057 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_4056 = global::Iskra.StdWeb.RTCSdpType.Create(__res_4057);
+            return __res_4056;
         }
     }
 
@@ -21,11 +21,16 @@ public partial class RTCSessionDescription(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_3373;
-            string __res_3374 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sdp");
-            __res_3373 = __res_3374;
-            return __res_3373;
+            string __res_4058;
+            string __res_4059 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sdp");
+            __res_4058 = __res_4059;
+            return __res_4058;
         }
+    }
+
+    public global::Iskra.StdWeb.RTCSessionDescriptionInit ToJSON()
+    {
+        throw new global::System.Exception();
     }
 }
 

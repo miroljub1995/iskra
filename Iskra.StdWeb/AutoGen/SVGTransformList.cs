@@ -10,10 +10,10 @@ public partial class SVGTransformList(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_1130;
-            double __res_1131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_1130 = Convert.ToUInt32(__res_1131);
-            return __res_1130;
+            uint __res_1258;
+            double __res_1259 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_1258 = Convert.ToUInt32(__res_1259);
+            return __res_1258;
         }
     }
 
@@ -21,11 +21,61 @@ public partial class SVGTransformList(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_1132;
-            double __res_1133 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_1132 = Convert.ToUInt32(__res_1133);
-            return __res_1132;
+            uint __res_1260;
+            double __res_1261 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_1260 = Convert.ToUInt32(__res_1261);
+            return __res_1260;
         }
+    }
+
+    public void Clear()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGTransform Initialize(global::Iskra.StdWeb.SVGTransform newItem)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGTransform GetItem(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGTransform InsertItemBefore(global::Iskra.StdWeb.SVGTransform newItem, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGTransform ReplaceItem(global::Iskra.StdWeb.SVGTransform newItem, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGTransform RemoveItem(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGTransform AppendItem(global::Iskra.StdWeb.SVGTransform newItem)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Set(uint index, global::Iskra.StdWeb.SVGTransform newItem)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGTransform CreateSVGTransformFromMatrix(global::Iskra.StdWeb.DOMMatrix2DInit matrix)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGTransform? Consolidate()
+    {
+        throw new global::System.Exception();
     }
 }
 

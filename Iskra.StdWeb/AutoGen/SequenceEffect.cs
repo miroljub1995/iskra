@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class SequenceEffect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): GroupEffect(obj)
 {
-
+    public global::Iskra.StdWeb.SequenceEffect Clone()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

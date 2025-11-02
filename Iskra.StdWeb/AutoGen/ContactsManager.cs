@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class ContactsManager(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ContactProperty, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetProperties()
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ContactInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> Select(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ContactProperty, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> properties, global::Iskra.StdWeb.ContactsSelectOptions options)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

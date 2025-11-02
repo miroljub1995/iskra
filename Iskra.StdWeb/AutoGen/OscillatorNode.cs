@@ -10,16 +10,16 @@ public partial class OscillatorNode(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.OscillatorType __res_14634;
-            string __res_14635 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_14634 = global::Iskra.StdWeb.OscillatorType.Create(__res_14635);
-            return __res_14634;
+            global::Iskra.StdWeb.OscillatorType __res_17329;
+            string __res_17330 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_17329 = global::Iskra.StdWeb.OscillatorType.Create(__res_17330);
+            return __res_17329;
         }
         set
         {
-            string __marshalledValue_14636;
-            __marshalledValue_14636 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_14636);
+            string __marshalledValue_17331;
+            __marshalledValue_17331 = value.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_17331);
         }
     }
 
@@ -27,10 +27,10 @@ public partial class OscillatorNode(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_14637;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14638 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
-            __res_14637 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14638);
-            return __res_14637;
+            global::Iskra.StdWeb.AudioParam __res_17332;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17333 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
+            __res_17332 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17333);
+            return __res_17332;
         }
     }
 
@@ -38,11 +38,16 @@ public partial class OscillatorNode(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_14639;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14640 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
-            __res_14639 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14640);
-            return __res_14639;
+            global::Iskra.StdWeb.AudioParam __res_17334;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17335 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
+            __res_17334 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17335);
+            return __res_17334;
         }
+    }
+
+    public void SetPeriodicWave(global::Iskra.StdWeb.PeriodicWave periodicWave)
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class ML(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContext, global::Iskra.StdWeb.PropertyAccessor> CreateContext(global::Iskra.StdWeb.MLContextOptions options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContext, global::Iskra.StdWeb.PropertyAccessor> CreateContext(global::Iskra.StdWeb.GPUDevice gpuDevice)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

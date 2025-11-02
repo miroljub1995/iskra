@@ -10,10 +10,10 @@ public partial class CSSNamespaceRule(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_13711;
-            string __res_13712 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "namespaceURI");
-            __res_13711 = __res_13712;
-            return __res_13711;
+            string __res_16221;
+            string __res_16222 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "namespaceURI");
+            __res_16221 = __res_16222;
+            return __res_16221;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSNamespaceRule(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_13713;
-            string __res_13714 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "prefix");
-            __res_13713 = __res_13714;
-            return __res_13713;
+            string __res_16223;
+            string __res_16224 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "prefix");
+            __res_16223 = __res_16224;
+            return __res_16223;
         }
     }
 }

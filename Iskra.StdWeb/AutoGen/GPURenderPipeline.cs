@@ -10,17 +10,22 @@ public partial class GPURenderPipeline(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            string __res_1624;
-            string __res_1625 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1624 = __res_1625;
-            return __res_1624;
+            string __res_1824;
+            string __res_1825 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1824 = __res_1825;
+            return __res_1824;
         }
         set
         {
-            string __marshalledValue_1626;
-            __marshalledValue_1626 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1626);
+            string __marshalledValue_1826;
+            __marshalledValue_1826 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1826);
         }
+    }
+
+    public global::Iskra.StdWeb.GPUBindGroupLayout GetBindGroupLayout(uint index)
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -10,10 +10,10 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            string __res_4328;
-            string __res_4329 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_4328 = __res_4329;
-            return __res_4328;
+            string __res_5128;
+            string __res_5129 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_5128 = __res_5129;
+            return __res_5128;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            bool __res_4330;
-            bool __res_4331 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
-            __res_4330 = __res_4331;
-            return __res_4330;
+            bool __res_5130;
+            bool __res_5131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
+            __res_5130 = __res_5131;
+            return __res_5130;
         }
     }
 
@@ -32,11 +32,11 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_4332;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4333;
-            __propObject_4333 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "completed");
-            __res_4332 = new global::Iskra.JSCore.Promise(__propObject_4333);
-            return __res_4332;
+            global::Iskra.JSCore.Promise __res_5132;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5133;
+            __propObject_5133 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "completed");
+            __res_5132 = new global::Iskra.JSCore.Promise(__propObject_5133);
+            return __res_5132;
         }
     }
 
@@ -44,11 +44,31 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.ImageTrackList __res_4334;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4335 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tracks");
-            __res_4334 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ImageTrackList>(__res_4335);
-            return __res_4334;
+            global::Iskra.StdWeb.ImageTrackList __res_5134;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5135 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tracks");
+            __res_5134 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ImageTrackList>(__res_5135);
+            return __res_5134;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ImageDecodeResult, global::Iskra.StdWeb.PropertyAccessor> Decode(global::Iskra.StdWeb.ImageDecodeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Reset()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Close()
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> IsTypeSupported(string type)
+    {
+        throw new global::System.Exception();
     }
 }
 

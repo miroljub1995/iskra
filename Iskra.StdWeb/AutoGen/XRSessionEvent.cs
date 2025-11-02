@@ -10,10 +10,10 @@ public partial class XRSessionEvent(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.XRSession __res_7468;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7469 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
-            __res_7468 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_7469);
-            return __res_7468;
+            global::Iskra.StdWeb.XRSession __res_8939;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8940 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            __res_8939 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_8940);
+            return __res_8939;
         }
     }
 }

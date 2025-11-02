@@ -10,10 +10,10 @@ public partial class VideoDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.CodecState __res_4184;
-            string __res_4185 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_4184 = global::Iskra.StdWeb.CodecState.Create(__res_4185);
-            return __res_4184;
+            global::Iskra.StdWeb.CodecState __res_4954;
+            string __res_4955 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
+            __res_4954 = global::Iskra.StdWeb.CodecState.Create(__res_4955);
+            return __res_4954;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class VideoDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_4186;
-            double __res_4187 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "decodeQueueSize");
-            __res_4186 = Convert.ToUInt32(__res_4187);
-            return __res_4186;
+            uint __res_4956;
+            double __res_4957 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "decodeQueueSize");
+            __res_4956 = Convert.ToUInt32(__res_4957);
+            return __res_4956;
         }
     }
 
@@ -32,33 +32,63 @@ public partial class VideoDecoder(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4188;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4189 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue");
-            if (__res_4189 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_4958;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4959 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue");
+            if (__res_4959 is null)
             {
-                __res_4188 = null;
+                __res_4958 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4190 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4189;
-                __res_4188 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4190);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4960 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4959;
+                __res_4958 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4960);
             }
-            return __res_4188;
+            return __res_4958;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4191;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4961;
             if (value is null)
             {
-                __marshalledValue_4191 = null;
+                __marshalledValue_4961 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4192 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4191 = __notNullable_4192.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4962 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_4961 = __notNullable_4962.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue", __marshalledValue_4191);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue", __marshalledValue_4961);
         }
+    }
+
+    public void Configure(global::Iskra.StdWeb.VideoDecoderConfig config)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Decode(global::Iskra.StdWeb.EncodedVideoChunk chunk)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Flush()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Reset()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Close()
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.VideoDecoderSupport, global::Iskra.StdWeb.PropertyAccessor> IsConfigSupported(global::Iskra.StdWeb.VideoDecoderConfig config)
+    {
+        throw new global::System.Exception();
     }
 }
 

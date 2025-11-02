@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIOutput(global::System.Runtime.InteropServices.JavaScript.JSObject obj): MIDIPort(obj)
 {
+    public void Send(global::Iskra.JSCore.Generics.JSArray<byte, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> data, double timestamp)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void Clear()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

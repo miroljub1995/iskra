@@ -10,16 +10,16 @@ public partial class HTMLModElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_9765;
-            string __res_9766 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
-            __res_9765 = __res_9766;
-            return __res_9765;
+            string __res_11587;
+            string __res_11588 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
+            __res_11587 = __res_11588;
+            return __res_11587;
         }
         set
         {
-            string __marshalledValue_9767;
-            __marshalledValue_9767 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_9767);
+            string __marshalledValue_11589;
+            __marshalledValue_11589 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_11589);
         }
     }
 
@@ -27,16 +27,16 @@ public partial class HTMLModElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            string __res_9768;
-            string __res_9769 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
-            __res_9768 = __res_9769;
-            return __res_9768;
+            string __res_11590;
+            string __res_11591 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
+            __res_11590 = __res_11591;
+            return __res_11590;
         }
         set
         {
-            string __marshalledValue_9770;
-            __marshalledValue_9770 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_9770);
+            string __marshalledValue_11592;
+            __marshalledValue_11592 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_11592);
         }
     }
 }

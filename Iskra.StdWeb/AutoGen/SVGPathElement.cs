@@ -10,11 +10,36 @@ public partial class SVGPathElement(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedNumber __res_3837;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3838 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pathLength");
-            __res_3837 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_3838);
-            return __res_3837;
+            global::Iskra.StdWeb.SVGAnimatedNumber __res_4575;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4576 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pathLength");
+            __res_4575 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_4576);
+            return __res_4575;
         }
+    }
+
+    public float GetTotalLength()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint GetPointAtLength(float distance)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.SVGPathSegment? GetPathSegmentAtLength(float distance)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SVGPathSegment, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetPathData(global::Iskra.StdWeb.SVGPathDataSettings settings)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetPathData(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SVGPathSegment, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> pathData)
+    {
+        throw new global::System.Exception();
     }
 }
 

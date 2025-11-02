@@ -10,11 +10,11 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_1964;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1965;
-            __propObject_1965 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
-            __res_1964 = new global::Iskra.JSCore.Promise(__propObject_1965);
-            return __res_1964;
+            global::Iskra.JSCore.Promise __res_2432;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2433;
+            __propObject_2433 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
+            __res_2432 = new global::Iskra.JSCore.Promise(__propObject_2433);
+            return __res_2432;
         }
     }
 
@@ -22,18 +22,18 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
     {
         get
         {
-            double? __res_1966;
-            double? __res_1967 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_1967 is null)
+            double? __res_2434;
+            double? __res_2435 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_2435 is null)
             {
-                __res_1966 = null;
+                __res_2434 = null;
             }
             else
             {
-                double __notNullable_1968 = (double)__res_1967;
-                __res_1966 = __notNullable_1968;
+                double __notNullable_2436 = (double)__res_2435;
+                __res_2434 = __notNullable_2436;
             }
-            return __res_1966;
+            return __res_2434;
         }
     }
 
@@ -41,12 +41,32 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_1969;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1970;
-            __propObject_1970 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
-            __res_1969 = new global::Iskra.JSCore.Promise(__propObject_1970);
-            return __res_1969;
+            global::Iskra.JSCore.Promise __res_2437;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2438;
+            __propObject_2438 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
+            __res_2437 = new global::Iskra.JSCore.Promise(__propObject_2438);
+            return __res_2437;
         }
+    }
+
+    public global::Iskra.JSCore.Promise Abort(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Close()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ReleaseLock()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Write(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? chunk)
+    {
+        throw new global::System.Exception();
     }
 }
 

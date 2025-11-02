@@ -10,23 +10,23 @@ public partial class RTCSessionDescriptionCallback(global::System.Runtime.Intero
 {
     public static implicit operator RTCSessionDescriptionCallback(RTCSessionDescriptionCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3361) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_4046) =>
         {
-            using (__args_3361)
+            using (__args_4046)
             {
                 // Argument 1
-                global::Iskra.StdWeb.RTCSessionDescriptionInit __arg_3363;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3364 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3361, 0);
-                __arg_3363 = new global::Iskra.StdWeb.RTCSessionDescriptionInit(__res_3364);
+                global::Iskra.StdWeb.RTCSessionDescriptionInit __arg_4048;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_4049 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_4046, 0);
+                __arg_4048 = new global::Iskra.StdWeb.RTCSessionDescriptionInit(__res_4049);
 
-                input(__arg_3363);
+                input(__arg_4048);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_3365 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_3365, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_4050 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_4050, input);
 
-        return new global::Iskra.StdWeb.RTCSessionDescriptionCallback(__funcObj_3365);
+        return new global::Iskra.StdWeb.RTCSessionDescriptionCallback(__funcObj_4050);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.RTCSessionDescriptionCallbackManaged? managed, bool allowConversion = false)
@@ -44,16 +44,16 @@ public partial class RTCSessionDescriptionCallback(global::System.Runtime.Intero
 
         managed = (description) =>
         {
-            int __argsArrayLength_3369 = 1;
+            int __argsArrayLength_4054 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3366 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_3369);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_4051 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_4054);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_3370;
-            __marshalledValue_3370 = description.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_3366.JSObject, 0, __marshalledValue_3370);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_4055;
+            __marshalledValue_4055 = description.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_4051.JSObject, 0, __marshalledValue_4055);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_3366.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_4051.JSObject);
         };
         return true;
     }

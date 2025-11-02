@@ -10,10 +10,10 @@ public partial class CSSFunctionDeclarations(global::System.Runtime.InteropServi
     {
         get
         {
-            global::Iskra.StdWeb.CSSFunctionDescriptors __res_25;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_26 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_25 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFunctionDescriptors>(__res_26);
-            return __res_25;
+            global::Iskra.StdWeb.CSSFunctionDescriptors __res_26;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_27 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_26 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFunctionDescriptors>(__res_27);
+            return __res_26;
         }
     }
 }

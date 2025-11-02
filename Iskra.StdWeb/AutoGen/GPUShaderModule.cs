@@ -6,20 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class GPUShaderModule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUCompilationInfo, global::Iskra.StdWeb.PropertyAccessor> GetCompilationInfo()
+    {
+        throw new global::System.Exception();
+    }
+
     public string Label
     {
         get
         {
-            string __res_1602;
-            string __res_1603 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1602 = __res_1603;
-            return __res_1602;
+            string __res_1801;
+            string __res_1802 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1801 = __res_1802;
+            return __res_1801;
         }
         set
         {
-            string __marshalledValue_1604;
-            __marshalledValue_1604 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1604);
+            string __marshalledValue_1803;
+            __marshalledValue_1803 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1803);
         }
     }
 }

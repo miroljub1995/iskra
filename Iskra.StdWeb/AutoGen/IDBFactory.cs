@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class IDBFactory(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.IDBOpenDBRequest Open(string name, ulong version)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.StdWeb.IDBOpenDBRequest DeleteDatabase(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IDBDatabaseInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> Databases()
+    {
+        throw new global::System.Exception();
+    }
+
+    public short Cmp(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? first, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? second)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

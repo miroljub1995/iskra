@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class ANGLE_instanced_arrays(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void DrawArraysInstancedANGLE(uint mode, int first, int count, int primcount)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void DrawElementsInstancedANGLE(uint mode, int count, uint type, long offset, int primcount)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void VertexAttribDivisorANGLE(uint index, uint divisor)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

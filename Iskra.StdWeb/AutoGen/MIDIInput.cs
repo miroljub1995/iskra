@@ -10,32 +10,32 @@ public partial class MIDIInput(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13862;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13863 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmidimessage");
-            if (__res_13863 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_16398;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16399 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmidimessage");
+            if (__res_16399 is null)
             {
-                __res_13862 = null;
+                __res_16398 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13864 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13863;
-                __res_13862 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13864);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16400 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16399;
+                __res_16398 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16400);
             }
-            return __res_13862;
+            return __res_16398;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13865;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16401;
             if (value is null)
             {
-                __marshalledValue_13865 = null;
+                __marshalledValue_16401 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13866 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13865 = __notNullable_13866.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16402 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_16401 = __notNullable_16402.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmidimessage", __marshalledValue_13865);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmidimessage", __marshalledValue_16401);
         }
     }
 }

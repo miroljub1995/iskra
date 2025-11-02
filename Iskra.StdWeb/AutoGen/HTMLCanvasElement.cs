@@ -6,20 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLCanvasElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.MediaStream CaptureStream(double frameRequestRate)
+    {
+        throw new global::System.Exception();
+    }
+
     public uint Width
     {
         get
         {
-            uint __res_11113;
-            double __res_11114 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_11113 = Convert.ToUInt32(__res_11114);
-            return __res_11113;
+            uint __res_13033;
+            double __res_13034 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_13033 = Convert.ToUInt32(__res_13034);
+            return __res_13033;
         }
         set
         {
-            double __marshalledValue_11115;
-            __marshalledValue_11115 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_11115);
+            double __marshalledValue_13035;
+            __marshalledValue_13035 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_13035);
         }
     }
 
@@ -27,17 +32,37 @@ public partial class HTMLCanvasElement(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_11116;
-            double __res_11117 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_11116 = Convert.ToUInt32(__res_11117);
-            return __res_11116;
+            uint __res_13036;
+            double __res_13037 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_13036 = Convert.ToUInt32(__res_13037);
+            return __res_13036;
         }
         set
         {
-            double __marshalledValue_11118;
-            __marshalledValue_11118 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_11118);
+            double __marshalledValue_13038;
+            __marshalledValue_13038 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_13038);
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>? GetContext(string contextId, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string ToDataURL(string type, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? quality)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ToBlob(global::Iskra.StdWeb.BlobCallback callback, string type, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? quality)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.OffscreenCanvas TransferControlToOffscreen()
+    {
+        throw new global::System.Exception();
     }
 }
 

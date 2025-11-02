@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class HandwritingStroke(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void AddPoint(global::Iskra.StdWeb.HandwritingPoint point)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HandwritingPoint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetPoints()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Clear()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

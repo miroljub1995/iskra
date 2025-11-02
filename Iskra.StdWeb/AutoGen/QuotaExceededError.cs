@@ -10,18 +10,18 @@ public partial class QuotaExceededError(global::System.Runtime.InteropServices.J
     {
         get
         {
-            double? __res_6363;
-            double? __res_6364 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "quota");
-            if (__res_6364 is null)
+            double? __res_7574;
+            double? __res_7575 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "quota");
+            if (__res_7575 is null)
             {
-                __res_6363 = null;
+                __res_7574 = null;
             }
             else
             {
-                double __notNullable_6365 = (double)__res_6364;
-                __res_6363 = __notNullable_6365;
+                double __notNullable_7576 = (double)__res_7575;
+                __res_7574 = __notNullable_7576;
             }
-            return __res_6363;
+            return __res_7574;
         }
     }
 
@@ -29,18 +29,18 @@ public partial class QuotaExceededError(global::System.Runtime.InteropServices.J
     {
         get
         {
-            double? __res_6366;
-            double? __res_6367 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "requested");
-            if (__res_6367 is null)
+            double? __res_7577;
+            double? __res_7578 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "requested");
+            if (__res_7578 is null)
             {
-                __res_6366 = null;
+                __res_7577 = null;
             }
             else
             {
-                double __notNullable_6368 = (double)__res_6367;
-                __res_6366 = __notNullable_6368;
+                double __notNullable_7579 = (double)__res_7578;
+                __res_7577 = __notNullable_7579;
             }
-            return __res_6366;
+            return __res_7577;
         }
     }
 }

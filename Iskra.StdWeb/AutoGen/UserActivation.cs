@@ -10,10 +10,10 @@ public partial class UserActivation(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            bool __res_11619;
-            bool __res_11620 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasBeenActive");
-            __res_11619 = __res_11620;
-            return __res_11619;
+            bool __res_13680;
+            bool __res_13681 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasBeenActive");
+            __res_13680 = __res_13681;
+            return __res_13680;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class UserActivation(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            bool __res_11621;
-            bool __res_11622 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isActive");
-            __res_11621 = __res_11622;
-            return __res_11621;
+            bool __res_13682;
+            bool __res_13683 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isActive");
+            __res_13682 = __res_13683;
+            return __res_13682;
         }
     }
 }

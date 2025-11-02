@@ -10,16 +10,16 @@ public partial class HTMLHtmlElement(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            string __res_9389;
-            string __res_9390 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "version");
-            __res_9389 = __res_9390;
-            return __res_9389;
+            string __res_11211;
+            string __res_11212 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "version");
+            __res_11211 = __res_11212;
+            return __res_11211;
         }
         set
         {
-            string __marshalledValue_9391;
-            __marshalledValue_9391 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "version", __marshalledValue_9391);
+            string __marshalledValue_11213;
+            __marshalledValue_11213 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "version", __marshalledValue_11213);
         }
     }
 }

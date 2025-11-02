@@ -6,14 +6,34 @@ namespace Iskra.StdWeb;
 
 public partial class ImageCapture(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.PropertyAccessor> TakePhoto(global::Iskra.StdWeb.PhotoSettings photoSettings)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PhotoCapabilities, global::Iskra.StdWeb.PropertyAccessor> GetPhotoCapabilities()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PhotoSettings, global::Iskra.StdWeb.PropertyAccessor> GetPhotoSettings()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ImageBitmap, global::Iskra.StdWeb.PropertyAccessor> GrabFrame()
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.StdWeb.MediaStreamTrack Track
     {
         get
         {
-            global::Iskra.StdWeb.MediaStreamTrack __res_8650;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8651 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            __res_8650 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_8651);
-            return __res_8650;
+            global::Iskra.StdWeb.MediaStreamTrack __res_10431;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10432 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
+            __res_10431 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_10432);
+            return __res_10431;
         }
     }
 }

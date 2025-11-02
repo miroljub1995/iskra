@@ -10,11 +10,11 @@ public partial class CSSLayerStatementRule(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_4578;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4579;
-            __propObject_4579 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "nameList");
-            __res_4578 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_4579);
-            return __res_4578;
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_5420;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5421;
+            __propObject_5421 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "nameList");
+            __res_5420 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5421);
+            return __res_5420;
         }
     }
 }

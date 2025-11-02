@@ -6,20 +6,45 @@ namespace Iskra.StdWeb;
 
 public partial class GPUQueue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void Submit(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUCommandBuffer, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> commandBuffers)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise OnSubmittedWorkDone()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void WriteBuffer(global::Iskra.StdWeb.GPUBuffer buffer, ulong bufferOffset, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong dataOffset, ulong size)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void WriteTexture(global::Iskra.StdWeb.GPUTexelCopyTextureInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> data, global::Iskra.StdWeb.GPUTexelCopyBufferLayout dataLayout, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> size)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void CopyExternalImageToTexture(global::Iskra.StdWeb.GPUCopyExternalImageSourceInfo source, global::Iskra.StdWeb.GPUCopyExternalImageDestInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
+    {
+        throw new global::System.Exception();
+    }
+
     public string Label
     {
         get
         {
-            string __res_1645;
-            string __res_1646 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1645 = __res_1646;
-            return __res_1645;
+            string __res_1906;
+            string __res_1907 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1906 = __res_1907;
+            return __res_1906;
         }
         set
         {
-            string __marshalledValue_1647;
-            __marshalledValue_1647 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1647);
+            string __marshalledValue_1908;
+            __marshalledValue_1908 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1908);
         }
     }
 }

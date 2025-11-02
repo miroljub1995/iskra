@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class IdleDeadline(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public double TimeRemaining()
+    {
+        throw new global::System.Exception();
+    }
+
     public bool DidTimeout
     {
         get
         {
-            bool __res_2322;
-            bool __res_2323 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "didTimeout");
-            __res_2322 = __res_2323;
-            return __res_2322;
+            bool __res_2841;
+            bool __res_2842 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "didTimeout");
+            __res_2841 = __res_2842;
+            return __res_2841;
         }
     }
 }

@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class DOMStringMap(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public string Get(string name)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void Set(string name, string value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Delete(string name)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

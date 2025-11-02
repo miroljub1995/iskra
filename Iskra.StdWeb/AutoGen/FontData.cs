@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class FontData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.PropertyAccessor> Blob()
+    {
+        throw new global::System.Exception();
+    }
+
     public string PostscriptName
     {
         get
         {
-            string __res_6579;
-            string __res_6580 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "postscriptName");
-            __res_6579 = __res_6580;
-            return __res_6579;
+            string __res_7839;
+            string __res_7840 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "postscriptName");
+            __res_7839 = __res_7840;
+            return __res_7839;
         }
     }
 
@@ -21,10 +26,10 @@ public partial class FontData(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_6581;
-            string __res_6582 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fullName");
-            __res_6581 = __res_6582;
-            return __res_6581;
+            string __res_7841;
+            string __res_7842 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fullName");
+            __res_7841 = __res_7842;
+            return __res_7841;
         }
     }
 
@@ -32,10 +37,10 @@ public partial class FontData(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_6583;
-            string __res_6584 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "family");
-            __res_6583 = __res_6584;
-            return __res_6583;
+            string __res_7843;
+            string __res_7844 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "family");
+            __res_7843 = __res_7844;
+            return __res_7843;
         }
     }
 
@@ -43,10 +48,10 @@ public partial class FontData(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_6585;
-            string __res_6586 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "style");
-            __res_6585 = __res_6586;
-            return __res_6585;
+            string __res_7845;
+            string __res_7846 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "style");
+            __res_7845 = __res_7846;
+            return __res_7845;
         }
     }
 }

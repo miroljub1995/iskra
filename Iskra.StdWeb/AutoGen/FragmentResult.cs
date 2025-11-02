@@ -10,10 +10,10 @@ public partial class FragmentResult(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_14238;
-            double __res_14239 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
-            __res_14238 = __res_14239;
-            return __res_14238;
+            double __res_16840;
+            double __res_16841 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
+            __res_16840 = __res_16841;
+            return __res_16840;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class FragmentResult(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            double __res_14240;
-            double __res_14241 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
-            __res_14240 = __res_14241;
-            return __res_14240;
+            double __res_16842;
+            double __res_16843 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
+            __res_16842 = __res_16843;
+            return __res_16842;
         }
     }
 }

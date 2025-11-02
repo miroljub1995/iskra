@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class ForDebuggingOnly(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void ReportAdAuctionWin(string url)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void ReportAdAuctionLoss(string url)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

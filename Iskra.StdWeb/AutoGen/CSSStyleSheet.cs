@@ -10,18 +10,18 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.CSSRule? __res_13616;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13617 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerRule");
-            if (__res_13617 is null)
+            global::Iskra.StdWeb.CSSRule? __res_16116;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16117 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerRule");
+            if (__res_16117 is null)
             {
-                __res_13616 = null;
+                __res_16116 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13618 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13617;
-                __res_13616 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_13618);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16118 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16117;
+                __res_16116 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_16118);
             }
-            return __res_13616;
+            return __res_16116;
         }
     }
 
@@ -29,22 +29,52 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.CSSRuleList __res_13619;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13620 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            __res_13619 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_13620);
-            return __res_13619;
+            global::Iskra.StdWeb.CSSRuleList __res_16119;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16120 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            __res_16119 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_16120);
+            return __res_16119;
         }
+    }
+
+    public uint InsertRule(string rule, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DeleteRule(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.CSSStyleSheet, global::Iskra.StdWeb.PropertyAccessor> Replace(string text)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ReplaceSync(string text)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.CSSRuleList Rules
     {
         get
         {
-            global::Iskra.StdWeb.CSSRuleList __res_13621;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13622 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rules");
-            __res_13621 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_13622);
-            return __res_13621;
+            global::Iskra.StdWeb.CSSRuleList __res_16125;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16126 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rules");
+            __res_16125 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_16126);
+            return __res_16125;
         }
+    }
+
+    public int AddRule(string selector, string style, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void RemoveRule(uint index)
+    {
+        throw new global::System.Exception();
     }
 }
 

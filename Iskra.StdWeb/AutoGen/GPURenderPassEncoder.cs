@@ -6,21 +6,121 @@ namespace Iskra.StdWeb;
 
 public partial class GPURenderPassEncoder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void SetViewport(float x, float y, float width, float height, float minDepth, float maxDepth)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetScissorRect(uint x, uint y, uint width, uint height)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetBlendConstant(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUColorDict, global::Iskra.StdWeb.GenericMarshaller.Union> color)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetStencilReference(uint reference)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BeginOcclusionQuery(uint queryIndex)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void EndOcclusionQuery()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ExecuteBundles(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPURenderBundle, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> bundles)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void End()
+    {
+        throw new global::System.Exception();
+    }
+
     public string Label
     {
         get
         {
-            string __res_1636;
-            string __res_1637 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1636 = __res_1637;
-            return __res_1636;
+            string __res_1867;
+            string __res_1868 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1867 = __res_1868;
+            return __res_1867;
         }
         set
         {
-            string __marshalledValue_1638;
-            __marshalledValue_1638 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1638);
+            string __marshalledValue_1869;
+            __marshalledValue_1869 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1869);
         }
+    }
+
+    public void PushDebugGroup(string groupLabel)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void PopDebugGroup()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void InsertDebugMarker(string markerLabel)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetBindGroup(uint index, global::Iskra.StdWeb.GPUBindGroup? bindGroup, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> dynamicOffsets)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetBindGroup(uint index, global::Iskra.StdWeb.GPUBindGroup? bindGroup, global::Iskra.JSCore.Uint32Array dynamicOffsetsData, ulong dynamicOffsetsDataStart, uint dynamicOffsetsDataLength)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetPipeline(global::Iskra.StdWeb.GPURenderPipeline pipeline)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetIndexBuffer(global::Iskra.StdWeb.GPUBuffer buffer, global::Iskra.StdWeb.GPUIndexFormat indexFormat, ulong offset, ulong size)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetVertexBuffer(uint slot, global::Iskra.StdWeb.GPUBuffer? buffer, ulong offset, ulong size)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Draw(uint vertexCount, uint instanceCount, uint firstVertex, uint firstInstance)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DrawIndexed(uint indexCount, uint instanceCount, uint firstIndex, int baseVertex, uint firstInstance)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DrawIndirect(global::Iskra.StdWeb.GPUBuffer indirectBuffer, ulong indirectOffset)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DrawIndexedIndirect(global::Iskra.StdWeb.GPUBuffer indirectBuffer, ulong indirectOffset)
+    {
+        throw new global::System.Exception();
     }
 }
 

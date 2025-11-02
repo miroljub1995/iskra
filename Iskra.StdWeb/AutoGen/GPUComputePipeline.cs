@@ -10,17 +10,22 @@ public partial class GPUComputePipeline(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_1621;
-            string __res_1622 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1621 = __res_1622;
-            return __res_1621;
+            string __res_1820;
+            string __res_1821 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1820 = __res_1821;
+            return __res_1820;
         }
         set
         {
-            string __marshalledValue_1623;
-            __marshalledValue_1623 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1623);
+            string __marshalledValue_1822;
+            __marshalledValue_1822 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1822);
         }
+    }
+
+    public global::Iskra.StdWeb.GPUBindGroupLayout GetBindGroupLayout(uint index)
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class WEBGL_draw_instanced_base_vertex_base_instance(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void DrawArraysInstancedBaseInstanceWEBGL(uint mode, int first, int count, int instanceCount, uint baseInstance)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void DrawElementsInstancedBaseVertexBaseInstanceWEBGL(uint mode, int count, uint type, long offset, int instanceCount, int baseVertex, uint baseInstance)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

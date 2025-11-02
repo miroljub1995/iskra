@@ -10,16 +10,16 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            bool __res_10980;
-            bool __res_10981 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_10980 = __res_10981;
-            return __res_10980;
+            bool __res_12888;
+            bool __res_12889 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
+            __res_12888 = __res_12889;
+            return __res_12888;
         }
         set
         {
-            bool __marshalledValue_10982;
-            __marshalledValue_10982 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_10982);
+            bool __marshalledValue_12890;
+            __marshalledValue_12890 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_12890);
         }
     }
 
@@ -27,18 +27,18 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.HTMLFormElement? __res_10983;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10984 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_10984 is null)
+            global::Iskra.StdWeb.HTMLFormElement? __res_12891;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12892 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
+            if (__res_12892 is null)
             {
-                __res_10983 = null;
+                __res_12891 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10985 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10984;
-                __res_10983 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_10985);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12893 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12892;
+                __res_12891 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_12893);
             }
-            return __res_10983;
+            return __res_12891;
         }
     }
 
@@ -46,16 +46,16 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10986;
-            string __res_10987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_10986 = __res_10987;
-            return __res_10986;
+            string __res_12894;
+            string __res_12895 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_12894 = __res_12895;
+            return __res_12894;
         }
         set
         {
-            string __marshalledValue_10988;
-            __marshalledValue_10988 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_10988);
+            string __marshalledValue_12896;
+            __marshalledValue_12896 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_12896);
         }
     }
 
@@ -63,10 +63,10 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10989;
-            string __res_10990 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_10989 = __res_10990;
-            return __res_10989;
+            string __res_12897;
+            string __res_12898 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_12897 = __res_12898;
+            return __res_12897;
         }
     }
 
@@ -74,10 +74,10 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.HTMLCollection __res_10991;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10992 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elements");
-            __res_10991 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_10992);
-            return __res_10991;
+            global::Iskra.StdWeb.HTMLCollection __res_12899;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12900 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "elements");
+            __res_12899 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_12900);
+            return __res_12899;
         }
     }
 
@@ -85,10 +85,10 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            bool __res_10993;
-            bool __res_10994 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
-            __res_10993 = __res_10994;
-            return __res_10993;
+            bool __res_12901;
+            bool __res_12902 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
+            __res_12901 = __res_12902;
+            return __res_12901;
         }
     }
 
@@ -96,10 +96,10 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.ValidityState __res_10995;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10996 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            __res_10995 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_10996);
-            return __res_10995;
+            global::Iskra.StdWeb.ValidityState __res_12903;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12904 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
+            __res_12903 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_12904);
+            return __res_12903;
         }
     }
 
@@ -107,11 +107,26 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
     {
         get
         {
-            string __res_10997;
-            string __res_10998 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
-            __res_10997 = __res_10998;
-            return __res_10997;
+            string __res_12905;
+            string __res_12906 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
+            __res_12905 = __res_12906;
+            return __res_12905;
         }
+    }
+
+    public bool CheckValidity()
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool ReportValidity()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetCustomValidity(string error)
+    {
+        throw new global::System.Exception();
     }
 }
 

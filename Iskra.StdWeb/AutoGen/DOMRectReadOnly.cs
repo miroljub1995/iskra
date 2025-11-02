@@ -6,14 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.DOMRectReadOnly FromRect(global::Iskra.StdWeb.DOMRectInit other)
+    {
+        throw new global::System.Exception();
+    }
+
     public double X
     {
         get
         {
-            double __res_6420;
-            double __res_6421 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
-            __res_6420 = __res_6421;
-            return __res_6420;
+            double __res_7636;
+            double __res_7637 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
+            __res_7636 = __res_7637;
+            return __res_7636;
         }
     }
 
@@ -21,10 +26,10 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            double __res_6422;
-            double __res_6423 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
-            __res_6422 = __res_6423;
-            return __res_6422;
+            double __res_7638;
+            double __res_7639 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
+            __res_7638 = __res_7639;
+            return __res_7638;
         }
     }
 
@@ -32,10 +37,10 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            double __res_6424;
-            double __res_6425 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_6424 = __res_6425;
-            return __res_6424;
+            double __res_7640;
+            double __res_7641 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
+            __res_7640 = __res_7641;
+            return __res_7640;
         }
     }
 
@@ -43,10 +48,10 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            double __res_6426;
-            double __res_6427 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_6426 = __res_6427;
-            return __res_6426;
+            double __res_7642;
+            double __res_7643 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
+            __res_7642 = __res_7643;
+            return __res_7642;
         }
     }
 
@@ -54,10 +59,10 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            double __res_6428;
-            double __res_6429 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "top");
-            __res_6428 = __res_6429;
-            return __res_6428;
+            double __res_7644;
+            double __res_7645 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "top");
+            __res_7644 = __res_7645;
+            return __res_7644;
         }
     }
 
@@ -65,10 +70,10 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            double __res_6430;
-            double __res_6431 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "right");
-            __res_6430 = __res_6431;
-            return __res_6430;
+            double __res_7646;
+            double __res_7647 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "right");
+            __res_7646 = __res_7647;
+            return __res_7646;
         }
     }
 
@@ -76,10 +81,10 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            double __res_6432;
-            double __res_6433 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bottom");
-            __res_6432 = __res_6433;
-            return __res_6432;
+            double __res_7648;
+            double __res_7649 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bottom");
+            __res_7648 = __res_7649;
+            return __res_7648;
         }
     }
 
@@ -87,11 +92,16 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            double __res_6434;
-            double __res_6435 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "left");
-            __res_6434 = __res_6435;
-            return __res_6434;
+            double __res_7650;
+            double __res_7651 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "left");
+            __res_7650 = __res_7651;
+            return __res_7650;
         }
+    }
+
+    public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -10,16 +10,16 @@ public partial class HTMLTableCaptionElement(global::System.Runtime.InteropServi
     {
         get
         {
-            string __res_10422;
-            string __res_10423 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_10422 = __res_10423;
-            return __res_10422;
+            string __res_12286;
+            string __res_12287 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
+            __res_12286 = __res_12287;
+            return __res_12286;
         }
         set
         {
-            string __marshalledValue_10424;
-            __marshalledValue_10424 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_10424);
+            string __marshalledValue_12288;
+            __marshalledValue_12288 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_12288);
         }
     }
 }

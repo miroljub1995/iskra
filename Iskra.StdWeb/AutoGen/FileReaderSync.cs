@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class FileReaderSync(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.ArrayBuffer ReadAsArrayBuffer(global::Iskra.StdWeb.Blob blob)
+    {
+        throw new global::System.Exception();
+    }
 
+    public string ReadAsBinaryString(global::Iskra.StdWeb.Blob blob)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string ReadAsText(global::Iskra.StdWeb.Blob blob, string encoding)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string ReadAsDataURL(global::Iskra.StdWeb.Blob blob)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

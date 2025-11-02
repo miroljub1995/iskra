@@ -6,15 +6,45 @@ namespace Iskra.StdWeb;
 
 public partial class ReadableStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.ReadableStream From(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? asyncIterable)
+    {
+        throw new global::System.Exception();
+    }
+
     public bool Locked
     {
         get
         {
-            bool __res_1848;
-            bool __res_1849 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
-            __res_1848 = __res_1849;
-            return __res_1848;
+            bool __res_2294;
+            bool __res_2295 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
+            __res_2294 = __res_2295;
+            return __res_2294;
         }
+    }
+
+    public global::Iskra.JSCore.Promise Cancel(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.ReadableStreamDefaultReader, global::Iskra.StdWeb.ReadableStreamBYOBReader, global::Iskra.StdWeb.GenericMarshaller.Union> GetReader(global::Iskra.StdWeb.ReadableStreamGetReaderOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.ReadableStream PipeThrough(global::Iskra.StdWeb.ReadableWritablePair transform, global::Iskra.StdWeb.StreamPipeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise PipeTo(global::Iskra.StdWeb.WritableStream destination, global::Iskra.StdWeb.StreamPipeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ReadableStream, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Tee()
+    {
+        throw new global::System.Exception();
     }
 }
 

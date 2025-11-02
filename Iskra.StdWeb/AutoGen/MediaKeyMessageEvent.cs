@@ -10,10 +10,10 @@ public partial class MediaKeyMessageEvent(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.StdWeb.MediaKeyMessageType __res_8679;
-            string __res_8680 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "messageType");
-            __res_8679 = global::Iskra.StdWeb.MediaKeyMessageType.Create(__res_8680);
-            return __res_8679;
+            global::Iskra.StdWeb.MediaKeyMessageType __res_10472;
+            string __res_10473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "messageType");
+            __res_10472 = global::Iskra.StdWeb.MediaKeyMessageType.Create(__res_10473);
+            return __res_10472;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class MediaKeyMessageEvent(global::System.Runtime.InteropServices
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_8681;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8682 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
-            __res_8681 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_8682);
-            return __res_8681;
+            global::Iskra.JSCore.ArrayBuffer __res_10474;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10475 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
+            __res_10474 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_10475);
+            return __res_10474;
         }
     }
 }

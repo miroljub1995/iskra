@@ -10,10 +10,10 @@ public partial class SVGRadialGradientElement(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1278;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1279 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
-            __res_1278 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1279);
-            return __res_1278;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1435;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1436 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
+            __res_1435 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1436);
+            return __res_1435;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGRadialGradientElement(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1280;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1281 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
-            __res_1280 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1281);
-            return __res_1280;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1437;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1438 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
+            __res_1437 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1438);
+            return __res_1437;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SVGRadialGradientElement(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1282;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1283 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "r");
-            __res_1282 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1283);
-            return __res_1282;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1439;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1440 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "r");
+            __res_1439 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1440);
+            return __res_1439;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class SVGRadialGradientElement(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1284;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fx");
-            __res_1284 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1285);
-            return __res_1284;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1441;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1442 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fx");
+            __res_1441 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1442);
+            return __res_1441;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class SVGRadialGradientElement(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1286;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1287 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fy");
-            __res_1286 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1287);
-            return __res_1286;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1443;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1444 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fy");
+            __res_1443 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1444);
+            return __res_1443;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class SVGRadialGradientElement(global::System.Runtime.InteropServ
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1288;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1289 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fr");
-            __res_1288 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1289);
-            return __res_1288;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1445;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1446 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fr");
+            __res_1445 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1446);
+            return __res_1445;
         }
     }
 }

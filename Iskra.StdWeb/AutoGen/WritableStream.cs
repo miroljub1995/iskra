@@ -10,11 +10,26 @@ public partial class WritableStream(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            bool __res_1907;
-            bool __res_1908 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
-            __res_1907 = __res_1908;
-            return __res_1907;
+            bool __res_2372;
+            bool __res_2373 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
+            __res_2372 = __res_2373;
+            return __res_2372;
         }
+    }
+
+    public global::Iskra.JSCore.Promise Abort(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise Close()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WritableStreamDefaultWriter GetWriter()
+    {
+        throw new global::System.Exception();
     }
 }
 

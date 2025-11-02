@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class DOMImplementation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.DocumentType CreateDocumentType(string name, string publicId, string systemId)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.StdWeb.XMLDocument CreateDocument(string? @namespace, string qualifiedName, global::Iskra.StdWeb.DocumentType? doctype)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Document CreateHTMLDocument(string title)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool HasFeature()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

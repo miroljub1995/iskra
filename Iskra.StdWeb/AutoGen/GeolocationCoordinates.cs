@@ -10,10 +10,10 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
     {
         get
         {
-            double __res_2085;
-            double __res_2086 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "accuracy");
-            __res_2085 = __res_2086;
-            return __res_2085;
+            double __res_2565;
+            double __res_2566 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "accuracy");
+            __res_2565 = __res_2566;
+            return __res_2565;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
     {
         get
         {
-            double __res_2087;
-            double __res_2088 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "latitude");
-            __res_2087 = __res_2088;
-            return __res_2087;
+            double __res_2567;
+            double __res_2568 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "latitude");
+            __res_2567 = __res_2568;
+            return __res_2567;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
     {
         get
         {
-            double __res_2089;
-            double __res_2090 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "longitude");
-            __res_2089 = __res_2090;
-            return __res_2089;
+            double __res_2569;
+            double __res_2570 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "longitude");
+            __res_2569 = __res_2570;
+            return __res_2569;
         }
     }
 
@@ -43,18 +43,18 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
     {
         get
         {
-            double? __res_2091;
-            double? __res_2092 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitude");
-            if (__res_2092 is null)
+            double? __res_2571;
+            double? __res_2572 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitude");
+            if (__res_2572 is null)
             {
-                __res_2091 = null;
+                __res_2571 = null;
             }
             else
             {
-                double __notNullable_2093 = (double)__res_2092;
-                __res_2091 = __notNullable_2093;
+                double __notNullable_2573 = (double)__res_2572;
+                __res_2571 = __notNullable_2573;
             }
-            return __res_2091;
+            return __res_2571;
         }
     }
 
@@ -62,18 +62,18 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
     {
         get
         {
-            double? __res_2094;
-            double? __res_2095 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitudeAccuracy");
-            if (__res_2095 is null)
+            double? __res_2574;
+            double? __res_2575 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitudeAccuracy");
+            if (__res_2575 is null)
             {
-                __res_2094 = null;
+                __res_2574 = null;
             }
             else
             {
-                double __notNullable_2096 = (double)__res_2095;
-                __res_2094 = __notNullable_2096;
+                double __notNullable_2576 = (double)__res_2575;
+                __res_2574 = __notNullable_2576;
             }
-            return __res_2094;
+            return __res_2574;
         }
     }
 
@@ -81,18 +81,18 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
     {
         get
         {
-            double? __res_2097;
-            double? __res_2098 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "heading");
-            if (__res_2098 is null)
+            double? __res_2577;
+            double? __res_2578 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "heading");
+            if (__res_2578 is null)
             {
-                __res_2097 = null;
+                __res_2577 = null;
             }
             else
             {
-                double __notNullable_2099 = (double)__res_2098;
-                __res_2097 = __notNullable_2099;
+                double __notNullable_2579 = (double)__res_2578;
+                __res_2577 = __notNullable_2579;
             }
-            return __res_2097;
+            return __res_2577;
         }
     }
 
@@ -100,19 +100,24 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
     {
         get
         {
-            double? __res_2100;
-            double? __res_2101 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "speed");
-            if (__res_2101 is null)
+            double? __res_2580;
+            double? __res_2581 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "speed");
+            if (__res_2581 is null)
             {
-                __res_2100 = null;
+                __res_2580 = null;
             }
             else
             {
-                double __notNullable_2102 = (double)__res_2101;
-                __res_2100 = __notNullable_2102;
+                double __notNullable_2582 = (double)__res_2581;
+                __res_2580 = __notNullable_2582;
             }
-            return __res_2100;
+            return __res_2580;
         }
+    }
+
+    public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
+    {
+        throw new global::System.Exception();
     }
 }
 

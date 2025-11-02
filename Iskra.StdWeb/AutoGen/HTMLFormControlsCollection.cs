@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFormControlsCollection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLCollection(obj)
 {
-
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? NamedItem(string name)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

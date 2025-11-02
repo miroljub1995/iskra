@@ -10,11 +10,16 @@ public partial class AnimationNodeList(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_8706;
-            double __res_8707 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_8706 = Convert.ToUInt32(__res_8707);
-            return __res_8706;
+            uint __res_10507;
+            double __res_10508 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_10507 = Convert.ToUInt32(__res_10508);
+            return __res_10507;
         }
+    }
+
+    public global::Iskra.StdWeb.AnimationEffect? Item(uint index)
+    {
+        throw new global::System.Exception();
     }
 }
 

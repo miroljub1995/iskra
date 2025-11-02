@@ -10,11 +10,21 @@ public partial class CSSUnparsedValue(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_31;
-            double __res_32 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_31 = Convert.ToUInt32(__res_32);
-            return __res_31;
+            uint __res_51;
+            double __res_52 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_51 = Convert.ToUInt32(__res_52);
+            return __res_51;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSVariableReferenceValue, global::Iskra.StdWeb.GenericMarshaller.Union> Get(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Set(uint index, global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSVariableReferenceValue, global::Iskra.StdWeb.GenericMarshaller.Union> val)
+    {
+        throw new global::System.Exception();
     }
 }
 

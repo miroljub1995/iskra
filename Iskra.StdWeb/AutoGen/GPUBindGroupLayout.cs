@@ -10,16 +10,16 @@ public partial class GPUBindGroupLayout(global::System.Runtime.InteropServices.J
     {
         get
         {
-            string __res_1593;
-            string __res_1594 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1593 = __res_1594;
-            return __res_1593;
+            string __res_1791;
+            string __res_1792 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1791 = __res_1792;
+            return __res_1791;
         }
         set
         {
-            string __marshalledValue_1595;
-            __marshalledValue_1595 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1595);
+            string __marshalledValue_1793;
+            __marshalledValue_1793 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1793);
         }
     }
 }

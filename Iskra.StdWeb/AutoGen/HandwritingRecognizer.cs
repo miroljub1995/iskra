@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class HandwritingRecognizer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.HandwritingDrawing StartDrawing(global::Iskra.StdWeb.HandwritingHints hints)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void Finish()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

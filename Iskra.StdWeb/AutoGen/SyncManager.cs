@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class SyncManager(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Promise Register(string tag)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetTags()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

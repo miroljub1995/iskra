@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class WEBGL_provoking_vertex(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public void ProvokingVertexWEBGL(uint provokeMode)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

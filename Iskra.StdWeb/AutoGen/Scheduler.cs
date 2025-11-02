@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class Scheduler(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> PostTask(global::Iskra.StdWeb.SchedulerPostTaskCallback callback, global::Iskra.StdWeb.SchedulerPostTaskOptions options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Promise Yield()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

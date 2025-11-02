@@ -6,15 +6,135 @@ namespace Iskra.StdWeb;
 
 public partial class Range(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.DOMRectList GetClientRects()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMRect GetBoundingClientRect()
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.StdWeb.Node CommonAncestorContainer
     {
         get
         {
-            global::Iskra.StdWeb.Node __res_6255;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6256 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
-            __res_6255 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_6256);
-            return __res_6255;
+            global::Iskra.StdWeb.Node __res_7392;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7393 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
+            __res_7392 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_7393);
+            return __res_7392;
         }
+    }
+
+    public void SetStart(global::Iskra.StdWeb.Node node, uint offset)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetEnd(global::Iskra.StdWeb.Node node, uint offset)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetStartBefore(global::Iskra.StdWeb.Node node)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetStartAfter(global::Iskra.StdWeb.Node node)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetEndBefore(global::Iskra.StdWeb.Node node)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetEndAfter(global::Iskra.StdWeb.Node node)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Collapse(bool toStart)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SelectNode(global::Iskra.StdWeb.Node node)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SelectNodeContents(global::Iskra.StdWeb.Node node)
+    {
+        throw new global::System.Exception();
+    }
+
+    public short CompareBoundaryPoints(ushort how, global::Iskra.StdWeb.Range sourceRange)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DeleteContents()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DocumentFragment ExtractContents()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DocumentFragment CloneContents()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void InsertNode(global::Iskra.StdWeb.Node node)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SurroundContents(global::Iskra.StdWeb.Node newParent)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Range CloneRange()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Detach()
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsPointInRange(global::Iskra.StdWeb.Node node, uint offset)
+    {
+        throw new global::System.Exception();
+    }
+
+    public short ComparePoint(global::Iskra.StdWeb.Node node, uint offset)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IntersectsNode(global::Iskra.StdWeb.Node node)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void _()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DocumentFragment CreateContextualFragment(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> @string)
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -10,10 +10,10 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_14226;
-            double __res_14227 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineStart");
-            __res_14226 = __res_14227;
-            return __res_14226;
+            double __res_16828;
+            double __res_16829 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineStart");
+            __res_16828 = __res_16829;
+            return __res_16828;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_14228;
-            double __res_14229 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineEnd");
-            __res_14228 = __res_14229;
-            return __res_14228;
+            double __res_16830;
+            double __res_16831 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineEnd");
+            __res_16830 = __res_16831;
+            return __res_16830;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_14230;
-            double __res_14231 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockStart");
-            __res_14230 = __res_14231;
-            return __res_14230;
+            double __res_16832;
+            double __res_16833 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockStart");
+            __res_16832 = __res_16833;
+            return __res_16832;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_14232;
-            double __res_14233 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockEnd");
-            __res_14232 = __res_14233;
-            return __res_14232;
+            double __res_16834;
+            double __res_16835 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockEnd");
+            __res_16834 = __res_16835;
+            return __res_16834;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_14234;
-            double __res_14235 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inline");
-            __res_14234 = __res_14235;
-            return __res_14234;
+            double __res_16836;
+            double __res_16837 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inline");
+            __res_16836 = __res_16837;
+            return __res_16836;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            double __res_14236;
-            double __res_14237 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "block");
-            __res_14236 = __res_14237;
-            return __res_14236;
+            double __res_16838;
+            double __res_16839 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "block");
+            __res_16838 = __res_16839;
+            return __res_16838;
         }
     }
 }

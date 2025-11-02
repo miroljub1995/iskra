@@ -10,11 +10,16 @@ public partial class TextEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            string __res_14343;
-            string __res_14344 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_14343 = __res_14344;
-            return __res_14343;
+            string __res_16952;
+            string __res_16953 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
+            __res_16952 = __res_16953;
+            return __res_16952;
         }
+    }
+
+    public void InitTextEvent(string type, bool bubbles, bool cancelable, global::Iskra.StdWeb.Window? view, string data)
+    {
+        throw new global::System.Exception();
     }
 }
 

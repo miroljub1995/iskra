@@ -10,10 +10,10 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_14567;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14568 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionX");
-            __res_14567 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14568);
-            return __res_14567;
+            global::Iskra.StdWeb.AudioParam __res_17258;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17259 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionX");
+            __res_17258 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17259);
+            return __res_17258;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_14569;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14570 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionY");
-            __res_14569 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14570);
-            return __res_14569;
+            global::Iskra.StdWeb.AudioParam __res_17260;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17261 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionY");
+            __res_17260 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17261);
+            return __res_17260;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_14571;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14572 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionZ");
-            __res_14571 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14572);
-            return __res_14571;
+            global::Iskra.StdWeb.AudioParam __res_17262;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17263 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionZ");
+            __res_17262 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17263);
+            return __res_17262;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_14573;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14574 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardX");
-            __res_14573 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14574);
-            return __res_14573;
+            global::Iskra.StdWeb.AudioParam __res_17264;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17265 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardX");
+            __res_17264 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17265);
+            return __res_17264;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_14575;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14576 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardY");
-            __res_14575 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14576);
-            return __res_14575;
+            global::Iskra.StdWeb.AudioParam __res_17266;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17267 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardY");
+            __res_17266 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17267);
+            return __res_17266;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_14577;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14578 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardZ");
-            __res_14577 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14578);
-            return __res_14577;
+            global::Iskra.StdWeb.AudioParam __res_17268;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardZ");
+            __res_17268 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17269);
+            return __res_17268;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_14579;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14580 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upX");
-            __res_14579 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14580);
-            return __res_14579;
+            global::Iskra.StdWeb.AudioParam __res_17270;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17271 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upX");
+            __res_17270 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17271);
+            return __res_17270;
         }
     }
 
@@ -87,10 +87,10 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_14581;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14582 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upY");
-            __res_14581 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14582);
-            return __res_14581;
+            global::Iskra.StdWeb.AudioParam __res_17272;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17273 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upY");
+            __res_17272 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17273);
+            return __res_17272;
         }
     }
 
@@ -98,11 +98,21 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.AudioParam __res_14583;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14584 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upZ");
-            __res_14583 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_14584);
-            return __res_14583;
+            global::Iskra.StdWeb.AudioParam __res_17274;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17275 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upZ");
+            __res_17274 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17275);
+            return __res_17274;
         }
+    }
+
+    public void SetPosition(float x, float y, float z)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetOrientation(float x, float y, float z, float xUp, float yUp, float zUp)
+    {
+        throw new global::System.Exception();
     }
 }
 

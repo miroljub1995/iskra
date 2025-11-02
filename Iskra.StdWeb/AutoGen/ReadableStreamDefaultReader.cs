@@ -6,16 +6,31 @@ namespace Iskra.StdWeb;
 
 public partial class ReadableStreamDefaultReader(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ReadableStreamReadResult, global::Iskra.StdWeb.PropertyAccessor> Read()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ReleaseLock()
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.JSCore.Promise Closed
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_1892;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1893;
-            __propObject_1893 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
-            __res_1892 = new global::Iskra.JSCore.Promise(__propObject_1893);
-            return __res_1892;
+            global::Iskra.JSCore.Promise __res_2345;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2346;
+            __propObject_2346 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
+            __res_2345 = new global::Iskra.JSCore.Promise(__propObject_2346);
+            return __res_2345;
         }
+    }
+
+    public global::Iskra.JSCore.Promise Cancel(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason)
+    {
+        throw new global::System.Exception();
     }
 }
 

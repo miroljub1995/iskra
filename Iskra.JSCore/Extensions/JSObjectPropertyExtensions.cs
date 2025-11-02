@@ -15,6 +15,22 @@ public static partial class JSObjectPropertyExtensions
 
     #endregion
 
+    #region Delete Property
+
+    public static bool DeleteProperty(this JSObject obj, string propertyName) =>
+        DeleteProperty_Bridge(obj, propertyName);
+
+    public static bool DeleteProperty(this JSObject obj, int propertyIndex) =>
+        DeleteProperty_Bridge(obj, propertyIndex);
+
+    [JSImport("globalThis.Reflect.deleteProperty")]
+    private static partial bool DeleteProperty_Bridge(JSObject obj, string propertyName);
+
+    [JSImport("globalThis.Reflect.deleteProperty")]
+    private static partial bool DeleteProperty_Bridge(JSObject obj, int propertyIndex);
+
+    #endregion
+
     #region BigInt Get
 
     public static BigInteger GetPropertyAsBigIntegerV2(this JSObject obj, string propertyName) =>
@@ -33,7 +49,9 @@ public static partial class JSObjectPropertyExtensions
         GetPropertyAsBigIntegerV2AsNullable_Bridge(obj, propertyName) is { } notNull ? BigInteger.Parse(notNull) : null;
 
     public static BigInteger? GetPropertyAsBigIntegerV2AsNullable(this JSObject obj, int propertyIndex) =>
-        GetPropertyAsBigIntegerV2AsNullable_Bridge(obj, propertyIndex) is { } notNull ? BigInteger.Parse(notNull) : null;
+        GetPropertyAsBigIntegerV2AsNullable_Bridge(obj, propertyIndex) is { } notNull
+            ? BigInteger.Parse(notNull)
+            : null;
 
     [JSImport("getPropertyAsBigIntegerString", "iskra")]
     private static partial string? GetPropertyAsBigIntegerV2AsNullable_Bridge(JSObject obj, string propertyName);
@@ -195,10 +213,12 @@ public static partial class JSObjectPropertyExtensions
         SetPropertyAsBigIntegerV2AsNullable_Bridge(obj, propertyIndex, value.ToString());
 
     [JSImport("setPropertyAsBigIntegerString", "iskra")]
-    private static partial void SetPropertyAsBigIntegerV2AsNullable_Bridge(JSObject obj, string propertyName, string? value);
+    private static partial void SetPropertyAsBigIntegerV2AsNullable_Bridge(JSObject obj, string propertyName,
+        string? value);
 
     [JSImport("setPropertyAsBigIntegerString", "iskra")]
-    private static partial void SetPropertyAsBigIntegerV2AsNullable_Bridge(JSObject obj, int propertyIndex, string? value);
+    private static partial void SetPropertyAsBigIntegerV2AsNullable_Bridge(JSObject obj, int propertyIndex,
+        string? value);
 
     #endregion
 

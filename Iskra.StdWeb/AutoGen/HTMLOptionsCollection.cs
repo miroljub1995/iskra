@@ -10,33 +10,48 @@ public partial class HTMLOptionsCollection(global::System.Runtime.InteropService
     {
         get
         {
-            uint __res_8753;
-            double __res_8754 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_8753 = Convert.ToUInt32(__res_8754);
-            return __res_8753;
+            uint __res_10560;
+            double __res_10561 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_10560 = Convert.ToUInt32(__res_10561);
+            return __res_10560;
         }
         set
         {
-            double __marshalledValue_8755;
-            __marshalledValue_8755 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "length", __marshalledValue_8755);
+            double __marshalledValue_10562;
+            __marshalledValue_10562 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "length", __marshalledValue_10562);
         }
+    }
+
+    public void Set(uint index, global::Iskra.StdWeb.HTMLOptionElement? option)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Add(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLOptionElement, global::Iskra.StdWeb.HTMLOptGroupElement, global::Iskra.StdWeb.GenericMarshaller.Union> element, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLElement, int, global::Iskra.StdWeb.GenericMarshaller.Union>? before)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Remove(int index)
+    {
+        throw new global::System.Exception();
     }
 
     public int SelectedIndex
     {
         get
         {
-            int __res_8756;
-            double __res_8757 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
-            __res_8756 = Convert.ToInt32(__res_8757);
-            return __res_8756;
+            int __res_10566;
+            double __res_10567 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
+            __res_10566 = Convert.ToInt32(__res_10567);
+            return __res_10566;
         }
         set
         {
-            double __marshalledValue_8758;
-            __marshalledValue_8758 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectedIndex", __marshalledValue_8758);
+            double __marshalledValue_10568;
+            __marshalledValue_10568 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectedIndex", __marshalledValue_10568);
         }
     }
 }

@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorLogin(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.JSCore.Promise SetStatus(global::Iskra.StdWeb.LoginStatus status)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

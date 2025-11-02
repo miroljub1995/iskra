@@ -10,11 +10,21 @@ public partial class Attribution(global::System.Runtime.InteropServices.JavaScri
     {
         get
         {
-            global::Iskra.StdWeb.AttributionAggregationServices __res_3110;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3111 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "aggregationServices");
-            __res_3110 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AttributionAggregationServices>(__res_3111);
-            return __res_3110;
+            global::Iskra.StdWeb.AttributionAggregationServices __res_3723;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3724 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "aggregationServices");
+            __res_3723 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AttributionAggregationServices>(__res_3724);
+            return __res_3723;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.AttributionImpressionResult, global::Iskra.StdWeb.PropertyAccessor> SaveImpression(global::Iskra.StdWeb.AttributionImpressionOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.AttributionConversionResult, global::Iskra.StdWeb.PropertyAccessor> MeasureConversion(global::Iskra.StdWeb.AttributionConversionOptions options)
+    {
+        throw new global::System.Exception();
     }
 }
 

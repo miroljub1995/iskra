@@ -10,16 +10,16 @@ public partial class CSSFunctionDescriptors(global::System.Runtime.InteropServic
     {
         get
         {
-            string __res_22;
-            string __res_23 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
-            __res_22 = __res_23;
-            return __res_22;
+            string __res_23;
+            string __res_24 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
+            __res_23 = __res_24;
+            return __res_23;
         }
         set
         {
-            string __marshalledValue_24;
-            __marshalledValue_24 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "result", __marshalledValue_24);
+            string __marshalledValue_25;
+            __marshalledValue_25 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "result", __marshalledValue_25);
         }
     }
 }

@@ -10,10 +10,10 @@ public partial class XRInputSourcesChangeEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.StdWeb.XRSession __res_7474;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7475 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
-            __res_7474 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_7475);
-            return __res_7474;
+            global::Iskra.StdWeb.XRSession __res_8945;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8946 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
+            __res_8945 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_8946);
+            return __res_8945;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class XRInputSourcesChangeEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7476;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7477;
-            __propObject_7477 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "added");
-            __res_7476 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7477);
-            return __res_7476;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8947;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8948;
+            __propObject_8948 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "added");
+            __res_8947 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8948);
+            return __res_8947;
         }
     }
 
@@ -33,11 +33,11 @@ public partial class XRInputSourcesChangeEvent(global::System.Runtime.InteropSer
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_7478;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7479;
-            __propObject_7479 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removed");
-            __res_7478 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7479);
-            return __res_7478;
+            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8949;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8950;
+            __propObject_8950 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removed");
+            __res_8949 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRInputSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8950);
+            return __res_8949;
         }
     }
 }

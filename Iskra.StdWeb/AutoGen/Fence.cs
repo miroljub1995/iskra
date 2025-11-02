@@ -6,7 +6,30 @@ namespace Iskra.StdWeb;
 
 public partial class Fence(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void ReportEvent(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.FenceEvent, string, global::Iskra.StdWeb.GenericMarshaller.Union> @event)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void SetReportEventDataForAutomaticBeacons(global::Iskra.StdWeb.FenceEvent @event)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetNestedConfigs()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise DisableUntrustedNetwork()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void NotifyEvent(global::Iskra.StdWeb.Event @event)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

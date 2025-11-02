@@ -10,10 +10,10 @@ public partial class SVGFEMergeNodeElement(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedString __res_2622;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2623 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
-            __res_2622 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_2623);
-            return __res_2622;
+            global::Iskra.StdWeb.SVGAnimatedString __res_3160;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "in1");
+            __res_3160 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_3161);
+            return __res_3160;
         }
     }
 }

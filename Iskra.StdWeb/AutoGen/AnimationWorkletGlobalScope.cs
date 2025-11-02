@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class AnimationWorkletGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkletGlobalScope(obj)
 {
-
+    public void RegisterAnimator(string name, global::Iskra.StdWeb.AnimatorInstanceConstructor animatorCtor)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class EyeDropper(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ColorSelectionResult, global::Iskra.StdWeb.PropertyAccessor> Open(global::Iskra.StdWeb.ColorSelectionOptions options)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

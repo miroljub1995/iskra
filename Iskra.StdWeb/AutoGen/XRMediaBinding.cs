@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class XRMediaBinding(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.XRQuadLayer CreateQuadLayer(global::Iskra.StdWeb.HTMLVideoElement video, global::Iskra.StdWeb.XRMediaQuadLayerInit init)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.StdWeb.XRCylinderLayer CreateCylinderLayer(global::Iskra.StdWeb.HTMLVideoElement video, global::Iskra.StdWeb.XRMediaCylinderLayerInit init)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.XREquirectLayer CreateEquirectLayer(global::Iskra.StdWeb.HTMLVideoElement video, global::Iskra.StdWeb.XRMediaEquirectLayerInit init)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

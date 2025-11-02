@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class Permissions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PermissionStatus, global::Iskra.StdWeb.PropertyAccessor> Query(global::System.Runtime.InteropServices.JavaScript.JSObject permissionDesc)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PermissionStatus, global::Iskra.StdWeb.PropertyAccessor> Request(global::System.Runtime.InteropServices.JavaScript.JSObject permissionDesc)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PermissionStatus, global::Iskra.StdWeb.PropertyAccessor> Revoke(global::System.Runtime.InteropServices.JavaScript.JSObject permissionDesc)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

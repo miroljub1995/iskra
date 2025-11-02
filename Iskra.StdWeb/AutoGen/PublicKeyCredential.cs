@@ -10,10 +10,10 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.JSCore.ArrayBuffer __res_4607;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4608 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rawId");
-            __res_4607 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_4608);
-            return __res_4607;
+            global::Iskra.JSCore.ArrayBuffer __res_5455;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5456 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rawId");
+            __res_5455 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_5456);
+            return __res_5455;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            global::Iskra.StdWeb.AuthenticatorResponse __res_4609;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4610 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
-            __res_4609 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AuthenticatorResponse>(__res_4610);
-            return __res_4609;
+            global::Iskra.StdWeb.AuthenticatorResponse __res_5457;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5458 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
+            __res_5457 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AuthenticatorResponse>(__res_5458);
+            return __res_5457;
         }
     }
 
@@ -32,19 +32,69 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
     {
         get
         {
-            string? __res_4611;
-            string? __res_4612 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "authenticatorAttachment");
-            if (__res_4612 is null)
+            string? __res_5459;
+            string? __res_5460 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "authenticatorAttachment");
+            if (__res_5460 is null)
             {
-                __res_4611 = null;
+                __res_5459 = null;
             }
             else
             {
-                string __notNullable_4613 = (string)__res_4612;
-                __res_4611 = __notNullable_4613;
+                string __notNullable_5461 = (string)__res_5460;
+                __res_5459 = __notNullable_5461;
             }
-            return __res_4611;
+            return __res_5459;
         }
+    }
+
+    public global::Iskra.StdWeb.AuthenticationExtensionsClientOutputs GetClientExtensionResults()
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> IsConditionalMediationAvailable()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> IsUserVerifyingPlatformAuthenticatorAvailable()
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Record<bool, global::Iskra.StdWeb.GenericMarshaller.Record>, global::Iskra.StdWeb.PropertyAccessor> GetClientCapabilities()
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.StdWeb.PublicKeyCredentialCreationOptions ParseCreationOptionsFromJSON(global::Iskra.StdWeb.PublicKeyCredentialCreationOptionsJSON options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.StdWeb.PublicKeyCredentialRequestOptions ParseRequestOptionsFromJSON(global::Iskra.StdWeb.PublicKeyCredentialRequestOptionsJSON options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Promise SignalUnknownCredential(global::Iskra.StdWeb.UnknownCredentialOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Promise SignalAllAcceptedCredentials(global::Iskra.StdWeb.AllAcceptedCredentialsOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Promise SignalCurrentUserDetails(global::Iskra.StdWeb.CurrentUserDetailsOptions options)
+    {
+        throw new global::System.Exception();
     }
 }
 

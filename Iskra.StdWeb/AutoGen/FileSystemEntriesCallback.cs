@@ -10,24 +10,24 @@ public partial class FileSystemEntriesCallback(global::System.Runtime.InteropSer
 {
     public static implicit operator FileSystemEntriesCallback(FileSystemEntriesCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2817) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3363) =>
         {
-            using (__args_2817)
+            using (__args_3363)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_2819;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2820;
-                __propObject_2820 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_2817, 0);
-                __arg_2819 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_2820);
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_3365;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3366;
+                __propObject_3366 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3363, 0);
+                __arg_3365 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3366);
 
-                input(__arg_2819);
+                input(__arg_3365);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_2821 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_2821, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_3367 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_3367, input);
 
-        return new global::Iskra.StdWeb.FileSystemEntriesCallback(__funcObj_2821);
+        return new global::Iskra.StdWeb.FileSystemEntriesCallback(__funcObj_3367);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.FileSystemEntriesCallbackManaged? managed, bool allowConversion = false)
@@ -45,15 +45,15 @@ public partial class FileSystemEntriesCallback(global::System.Runtime.InteropSer
 
         managed = (entries) =>
         {
-            int __argsArrayLength_2825 = 1;
+            int __argsArrayLength_3371 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2822 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_2825);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3368 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_3371);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2826 = entries.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_2822.JSObject, 0, __propObject_2826);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3372 = entries.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_3368.JSObject, 0, __propObject_3372);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_2822.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_3368.JSObject);
         };
         return true;
     }

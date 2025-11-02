@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class IdentityProvider(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static void Close()
+    {
+        throw new global::System.Exception();
+    }
 
+    public static global::Iskra.JSCore.Promise Resolve(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? token, global::Iskra.StdWeb.IdentityResolveOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IdentityUserInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetUserInfo(global::Iskra.StdWeb.IdentityProviderConfig config)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

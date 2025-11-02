@@ -10,32 +10,32 @@ public partial class WebTransportSendStream(global::System.Runtime.InteropServic
     {
         get
         {
-            global::Iskra.StdWeb.WebTransportSendGroup? __res_3806;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3807 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup");
-            if (__res_3807 is null)
+            global::Iskra.StdWeb.WebTransportSendGroup? __res_4538;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4539 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup");
+            if (__res_4539 is null)
             {
-                __res_3806 = null;
+                __res_4538 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3808 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3807;
-                __res_3806 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebTransportSendGroup>(__notNullable_3808);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4540 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4539;
+                __res_4538 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebTransportSendGroup>(__notNullable_4540);
             }
-            return __res_3806;
+            return __res_4538;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3809;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4541;
             if (value is null)
             {
-                __marshalledValue_3809 = null;
+                __marshalledValue_4541 = null;
             }
             else
             {
-                global::Iskra.StdWeb.WebTransportSendGroup __notNullable_3810 = (global::Iskra.StdWeb.WebTransportSendGroup)value;
-                __marshalledValue_3809 = __notNullable_3810.JSObject;
+                global::Iskra.StdWeb.WebTransportSendGroup __notNullable_4542 = (global::Iskra.StdWeb.WebTransportSendGroup)value;
+                __marshalledValue_4541 = __notNullable_4542.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup", __marshalledValue_3809);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "sendGroup", __marshalledValue_4541);
         }
     }
 
@@ -43,17 +43,27 @@ public partial class WebTransportSendStream(global::System.Runtime.InteropServic
     {
         get
         {
-            long __res_3811;
-            double __res_3812 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sendOrder");
-            __res_3811 = Convert.ToInt64(__res_3812);
-            return __res_3811;
+            long __res_4543;
+            double __res_4544 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sendOrder");
+            __res_4543 = Convert.ToInt64(__res_4544);
+            return __res_4543;
         }
         set
         {
-            double __marshalledValue_3813;
-            __marshalledValue_3813 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "sendOrder", __marshalledValue_3813);
+            double __marshalledValue_4545;
+            __marshalledValue_4545 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "sendOrder", __marshalledValue_4545);
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportSendStreamStats, global::Iskra.StdWeb.PropertyAccessor> GetStats()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.WebTransportWriter GetWriter()
+    {
+        throw new global::System.Exception();
     }
 }
 

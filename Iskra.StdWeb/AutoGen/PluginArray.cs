@@ -6,15 +6,30 @@ namespace Iskra.StdWeb;
 
 public partial class PluginArray(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void Refresh()
+    {
+        throw new global::System.Exception();
+    }
+
     public uint Length
     {
         get
         {
-            uint __res_12870;
-            double __res_12871 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_12870 = Convert.ToUInt32(__res_12871);
-            return __res_12870;
+            uint __res_15055;
+            double __res_15056 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_15055 = Convert.ToUInt32(__res_15056);
+            return __res_15055;
         }
+    }
+
+    public global::Iskra.StdWeb.Plugin? Item(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.Plugin? NamedItem(string name)
+    {
+        throw new global::System.Exception();
     }
 }
 

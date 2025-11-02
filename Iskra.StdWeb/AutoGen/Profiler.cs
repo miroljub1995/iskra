@@ -10,10 +10,10 @@ public partial class Profiler(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            double __res_6315;
-            double __res_6316 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleInterval");
-            __res_6315 = __res_6316;
-            return __res_6315;
+            double __res_7510;
+            double __res_7511 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleInterval");
+            __res_7510 = __res_7511;
+            return __res_7510;
         }
     }
 
@@ -21,11 +21,16 @@ public partial class Profiler(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            bool __res_6317;
-            bool __res_6318 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "stopped");
-            __res_6317 = __res_6318;
-            return __res_6317;
+            bool __res_7512;
+            bool __res_7513 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "stopped");
+            __res_7512 = __res_7513;
+            return __res_7512;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ProfilerTrace, global::Iskra.StdWeb.PropertyAccessor> Stop()
+    {
+        throw new global::System.Exception();
     }
 }
 

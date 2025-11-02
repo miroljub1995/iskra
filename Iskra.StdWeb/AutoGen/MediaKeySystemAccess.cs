@@ -10,11 +10,21 @@ public partial class MediaKeySystemAccess(global::System.Runtime.InteropServices
     {
         get
         {
-            string __res_8657;
-            string __res_8658 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keySystem");
-            __res_8657 = __res_8658;
-            return __res_8657;
+            string __res_10438;
+            string __res_10439 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keySystem");
+            __res_10438 = __res_10439;
+            return __res_10438;
         }
+    }
+
+    public global::Iskra.StdWeb.MediaKeySystemConfiguration GetConfiguration()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeys, global::Iskra.StdWeb.PropertyAccessor> CreateMediaKeys()
+    {
+        throw new global::System.Exception();
     }
 }
 

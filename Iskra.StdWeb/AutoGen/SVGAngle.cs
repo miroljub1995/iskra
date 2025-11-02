@@ -10,10 +10,10 @@ public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            ushort __res_897;
-            double __res_898 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
-            __res_897 = Convert.ToUInt16(__res_898);
-            return __res_897;
+            ushort __res_970;
+            double __res_971 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
+            __res_970 = Convert.ToUInt16(__res_971);
+            return __res_970;
         }
     }
 
@@ -21,16 +21,16 @@ public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            float __res_899;
-            double __res_900 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_899 = Convert.ToSingle(__res_900);
-            return __res_899;
+            float __res_972;
+            double __res_973 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
+            __res_972 = Convert.ToSingle(__res_973);
+            return __res_972;
         }
         set
         {
-            double __marshalledValue_901;
-            __marshalledValue_901 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_901);
+            double __marshalledValue_974;
+            __marshalledValue_974 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_974);
         }
     }
 
@@ -38,16 +38,16 @@ public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            float __res_902;
-            double __res_903 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits");
-            __res_902 = Convert.ToSingle(__res_903);
-            return __res_902;
+            float __res_975;
+            double __res_976 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits");
+            __res_975 = Convert.ToSingle(__res_976);
+            return __res_975;
         }
         set
         {
-            double __marshalledValue_904;
-            __marshalledValue_904 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits", __marshalledValue_904);
+            double __marshalledValue_977;
+            __marshalledValue_977 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits", __marshalledValue_977);
         }
     }
 
@@ -55,17 +55,27 @@ public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            string __res_905;
-            string __res_906 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueAsString");
-            __res_905 = __res_906;
-            return __res_905;
+            string __res_978;
+            string __res_979 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueAsString");
+            __res_978 = __res_979;
+            return __res_978;
         }
         set
         {
-            string __marshalledValue_907;
-            __marshalledValue_907 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueAsString", __marshalledValue_907);
+            string __marshalledValue_980;
+            __marshalledValue_980 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueAsString", __marshalledValue_980);
         }
+    }
+
+    public void NewValueSpecifiedUnits(ushort unitType, float valueInSpecifiedUnits)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ConvertToSpecifiedUnits(ushort unitType)
+    {
+        throw new global::System.Exception();
     }
 }
 

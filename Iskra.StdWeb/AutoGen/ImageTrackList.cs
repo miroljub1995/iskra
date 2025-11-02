@@ -6,15 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.ImageTrack Get(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.JSCore.Promise Ready
     {
         get
         {
-            global::Iskra.JSCore.Promise __res_4336;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4337;
-            __propObject_4337 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
-            __res_4336 = new global::Iskra.JSCore.Promise(__propObject_4337);
-            return __res_4336;
+            global::Iskra.JSCore.Promise __res_5141;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5142;
+            __propObject_5142 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
+            __res_5141 = new global::Iskra.JSCore.Promise(__propObject_5142);
+            return __res_5141;
         }
     }
 
@@ -22,10 +27,10 @@ public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            uint __res_4338;
-            double __res_4339 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_4338 = Convert.ToUInt32(__res_4339);
-            return __res_4338;
+            uint __res_5143;
+            double __res_5144 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_5143 = Convert.ToUInt32(__res_5144);
+            return __res_5143;
         }
     }
 
@@ -33,10 +38,10 @@ public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            int __res_4340;
-            double __res_4341 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
-            __res_4340 = Convert.ToInt32(__res_4341);
-            return __res_4340;
+            int __res_5145;
+            double __res_5146 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
+            __res_5145 = Convert.ToInt32(__res_5146);
+            return __res_5145;
         }
     }
 
@@ -44,18 +49,18 @@ public partial class ImageTrackList(global::System.Runtime.InteropServices.JavaS
     {
         get
         {
-            global::Iskra.StdWeb.ImageTrack? __res_4342;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4343 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "selectedTrack");
-            if (__res_4343 is null)
+            global::Iskra.StdWeb.ImageTrack? __res_5147;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5148 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "selectedTrack");
+            if (__res_5148 is null)
             {
-                __res_4342 = null;
+                __res_5147 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4344 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4343;
-                __res_4342 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ImageTrack>(__notNullable_4344);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5149 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5148;
+                __res_5147 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ImageTrack>(__notNullable_5149);
             }
-            return __res_4342;
+            return __res_5147;
         }
     }
 }

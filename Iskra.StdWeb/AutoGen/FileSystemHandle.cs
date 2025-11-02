@@ -10,10 +10,10 @@ public partial class FileSystemHandle(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.FileSystemHandleKind __res_6969;
-            string __res_6970 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_6969 = global::Iskra.StdWeb.FileSystemHandleKind.Create(__res_6970);
-            return __res_6969;
+            global::Iskra.StdWeb.FileSystemHandleKind __res_8347;
+            string __res_8348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_8347 = global::Iskra.StdWeb.FileSystemHandleKind.Create(__res_8348);
+            return __res_8347;
         }
     }
 
@@ -21,11 +21,26 @@ public partial class FileSystemHandle(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_6971;
-            string __res_6972 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_6971 = __res_6972;
-            return __res_6971;
+            string __res_8349;
+            string __res_8350 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_8349 = __res_8350;
+            return __res_8349;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> IsSameEntry(global::Iskra.StdWeb.FileSystemHandle other)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PermissionState, global::Iskra.StdWeb.PropertyAccessor> QueryPermission(global::Iskra.StdWeb.FileSystemHandlePermissionDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PermissionState, global::Iskra.StdWeb.PropertyAccessor> RequestPermission(global::Iskra.StdWeb.FileSystemHandlePermissionDescriptor descriptor)
+    {
+        throw new global::System.Exception();
     }
 }
 

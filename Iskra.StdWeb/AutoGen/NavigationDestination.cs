@@ -10,10 +10,10 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_12625;
-            string __res_12626 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_12625 = __res_12626;
-            return __res_12625;
+            string __res_14773;
+            string __res_14774 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
+            __res_14773 = __res_14774;
+            return __res_14773;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_12627;
-            string __res_12628 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
-            __res_12627 = __res_12628;
-            return __res_12627;
+            string __res_14775;
+            string __res_14776 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
+            __res_14775 = __res_14776;
+            return __res_14775;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
     {
         get
         {
-            string __res_12629;
-            string __res_12630 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_12629 = __res_12630;
-            return __res_12629;
+            string __res_14777;
+            string __res_14778 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_14777 = __res_14778;
+            return __res_14777;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
     {
         get
         {
-            long __res_12631;
-            double __res_12632 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_12631 = Convert.ToInt64(__res_12632);
-            return __res_12631;
+            long __res_14779;
+            double __res_14780 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
+            __res_14779 = Convert.ToInt64(__res_14780);
+            return __res_14779;
         }
     }
 
@@ -54,11 +54,16 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
     {
         get
         {
-            bool __res_12633;
-            bool __res_12634 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
-            __res_12633 = __res_12634;
-            return __res_12633;
+            bool __res_14781;
+            bool __res_14782 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
+            __res_14781 = __res_14782;
+            return __res_14781;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetState()
+    {
+        throw new global::System.Exception();
     }
 }
 

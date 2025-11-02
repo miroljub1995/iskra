@@ -10,10 +10,10 @@ public partial class SVGTextContentElement(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1194;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1195 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textLength");
-            __res_1194 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1195);
-            return __res_1194;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_1340;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1341 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textLength");
+            __res_1340 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1341);
+            return __res_1340;
         }
     }
 
@@ -21,11 +21,56 @@ public partial class SVGTextContentElement(global::System.Runtime.InteropService
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1196;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1197 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lengthAdjust");
-            __res_1196 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1197);
-            return __res_1196;
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1342;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1343 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lengthAdjust");
+            __res_1342 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1343);
+            return __res_1342;
         }
+    }
+
+    public int GetNumberOfChars()
+    {
+        throw new global::System.Exception();
+    }
+
+    public float GetComputedTextLength()
+    {
+        throw new global::System.Exception();
+    }
+
+    public float GetSubStringLength(uint charnum, uint nchars)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint GetStartPositionOfChar(uint charnum)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint GetEndPositionOfChar(uint charnum)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMRect GetExtentOfChar(uint charnum)
+    {
+        throw new global::System.Exception();
+    }
+
+    public float GetRotationOfChar(uint charnum)
+    {
+        throw new global::System.Exception();
+    }
+
+    public int GetCharNumAtPosition(global::Iskra.StdWeb.DOMPointInit point)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SelectSubString(uint charnum, uint nchars)
+    {
+        throw new global::System.Exception();
     }
 }
 

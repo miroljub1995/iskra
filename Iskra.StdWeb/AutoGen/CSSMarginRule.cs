@@ -10,10 +10,10 @@ public partial class CSSMarginRule(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            string __res_13707;
-            string __res_13708 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_13707 = __res_13708;
-            return __res_13707;
+            string __res_16217;
+            string __res_16218 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_16217 = __res_16218;
+            return __res_16217;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class CSSMarginRule(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.StdWeb.CSSStyleDeclaration __res_13709;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13710 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_13709 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleDeclaration>(__res_13710);
-            return __res_13709;
+            global::Iskra.StdWeb.CSSStyleDeclaration __res_16219;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16220 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
+            __res_16219 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleDeclaration>(__res_16220);
+            return __res_16219;
         }
     }
 }

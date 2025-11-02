@@ -10,11 +10,21 @@ public partial class CSSGroupingRule(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.CSSRuleList __res_13658;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13659 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            __res_13658 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_13659);
-            return __res_13658;
+            global::Iskra.StdWeb.CSSRuleList __res_16166;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16167 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
+            __res_16166 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_16167);
+            return __res_16166;
         }
+    }
+
+    public uint InsertRule(string rule, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DeleteRule(uint index)
+    {
+        throw new global::System.Exception();
     }
 }
 

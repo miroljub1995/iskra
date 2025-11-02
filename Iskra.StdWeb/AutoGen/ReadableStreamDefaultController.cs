@@ -10,19 +10,34 @@ public partial class ReadableStreamDefaultController(global::System.Runtime.Inte
     {
         get
         {
-            double? __res_1896;
-            double? __res_1897 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_1897 is null)
+            double? __res_2353;
+            double? __res_2354 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_2354 is null)
             {
-                __res_1896 = null;
+                __res_2353 = null;
             }
             else
             {
-                double __notNullable_1898 = (double)__res_1897;
-                __res_1896 = __notNullable_1898;
+                double __notNullable_2355 = (double)__res_2354;
+                __res_2353 = __notNullable_2355;
             }
-            return __res_1896;
+            return __res_2353;
         }
+    }
+
+    public void Close()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Enqueue(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? chunk)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Error(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? e)
+    {
+        throw new global::System.Exception();
     }
 }
 

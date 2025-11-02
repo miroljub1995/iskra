@@ -6,15 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class PresentationReceiver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.GenericMarshaller.Promise> ConnectionList
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.PropertyAccessor> ConnectionList
     {
         get
         {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.GenericMarshaller.Promise> __res_3894;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3895;
-            __propObject_3895 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connectionList");
-            __res_3894 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.GenericMarshaller.Promise>(__propObject_3895);
-            return __res_3894;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.PropertyAccessor> __res_4646;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4647;
+            __propObject_4647 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connectionList");
+            __res_4646 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnectionList, global::Iskra.StdWeb.PropertyAccessor>(__propObject_4647);
+            return __res_4646;
         }
     }
 }

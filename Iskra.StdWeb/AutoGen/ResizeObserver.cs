@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class ResizeObserver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void Observe(global::Iskra.StdWeb.Element target, global::Iskra.StdWeb.ResizeObserverOptions options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void Unobserve(global::Iskra.StdWeb.Element target)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Disconnect()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

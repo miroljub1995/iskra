@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class CanMakePaymentEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ExtendableEvent(obj)
 {
-
+    public void RespondWith(global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> canMakePaymentResponse)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

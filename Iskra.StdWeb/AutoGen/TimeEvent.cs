@@ -10,18 +10,18 @@ public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            global::Iskra.StdWeb.Window? __res_1724;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1725 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
-            if (__res_1725 is null)
+            global::Iskra.StdWeb.Window? __res_2139;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2140 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
+            if (__res_2140 is null)
             {
-                __res_1724 = null;
+                __res_2139 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1726 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1725;
-                __res_1724 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_1726);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2141 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2140;
+                __res_2139 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_2141);
             }
-            return __res_1724;
+            return __res_2139;
         }
     }
 
@@ -29,11 +29,16 @@ public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript
     {
         get
         {
-            int __res_1727;
-            double __res_1728 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
-            __res_1727 = Convert.ToInt32(__res_1728);
-            return __res_1727;
+            int __res_2142;
+            double __res_2143 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
+            __res_2142 = Convert.ToInt32(__res_2143);
+            return __res_2142;
         }
+    }
+
+    public void InitTimeEvent(string typeArg, global::Iskra.StdWeb.Window? viewArg, int detailArg)
+    {
+        throw new global::System.Exception();
     }
 }
 

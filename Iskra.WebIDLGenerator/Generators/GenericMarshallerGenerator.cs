@@ -1,6 +1,7 @@
 using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
+using Iskra.WebIDLGenerator.Utils;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Iskra.WebIDLGenerator.Generators;
@@ -35,14 +36,13 @@ public class GenericMarshallerGenerator(
 
                         {{GenerateArrayLikeElementClass().IndentLines(4)}}
 
-                        {{GeneratePromiseClass().IndentLines(4)}}
-
                         {{GenerateUnionClass().IndentLines(4)}}
+
+                        {{GenerateRecordClass().IndentLines(4)}}
                         }
 
                         #nullable disable
                         """;
-
 
         var outputFile = Path.GetFullPath(Path.Combine(genSettings.Output, "GenericMarshaller.cs"));
         if (File.Exists(outputFile))
@@ -68,6 +68,7 @@ public class GenericMarshallerGenerator(
             SequenceTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.ArrayLikeElement",
             PromiseTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Promise",
             UnionTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Union",
+            RecordTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Record",
             _ => throw new NotSupportedException($"Type {input} is not supported.")
         };
 
@@ -80,104 +81,13 @@ public class GenericMarshallerGenerator(
     {
         foreach (var kvp in _marshallers)
         {
-            if (AreEqual(input, kvp.Key))
+            if (IDLTypeDescriptionEqualityComparer.Instance.Equals(input, kvp.Key))
             {
                 return kvp.Value;
             }
         }
 
         return null;
-    }
-
-    private bool AreEqual(IDLTypeDescription a, IDLTypeDescription b)
-    {
-        if (a.Nullable != b.Nullable)
-        {
-            return false;
-        }
-
-        // if (a.ExtAttrs.Count != b.ExtAttrs.Count)
-        // {
-        //     return false;
-        // }
-        //
-        // for (var i = 0; i < a.ExtAttrs.Count; i++)
-        // {
-        //     if (!AreEqual(a.ExtAttrs[i], b.ExtAttrs[i]))
-        //     {
-        //         return false;
-        //     }
-        // }
-
-        if (a is UnionTypeDescription unionA && b is UnionTypeDescription unionB)
-        {
-            return AreEqual(unionA.IdlType, unionB.IdlType);
-        }
-
-        if (a is SingleTypeDescription singleA && b is SingleTypeDescription singleB)
-        {
-            var typeA = singleA.IdlType switch
-            {
-                BuiltinTypes.UnrestrictedDouble => BuiltinTypes.Double,
-                BuiltinTypes.UnrestrictedFloat => BuiltinTypes.Float,
-                _ => singleA.IdlType
-            };
-
-            var typeB = singleB.IdlType switch
-            {
-                BuiltinTypes.UnrestrictedDouble => BuiltinTypes.Double,
-                BuiltinTypes.UnrestrictedFloat => BuiltinTypes.Float,
-                _ => singleB.IdlType
-            };
-
-            return typeA == typeB;
-        }
-
-        if (a is FrozenArrayTypeDescription frozenA && b is FrozenArrayTypeDescription frozenB)
-        {
-            return AreEqual(frozenA.IdlType, frozenB.IdlType);
-        }
-
-        if (a is ObservableArrayTypeDescription observableA && b is ObservableArrayTypeDescription observableB)
-        {
-            return AreEqual(observableA.IdlType, observableB.IdlType);
-        }
-
-        if (a is PromiseTypeDescription promiseA && b is PromiseTypeDescription promiseB)
-        {
-            return AreEqual(promiseA.IdlType, promiseB.IdlType);
-        }
-
-        if (a is RecordTypeDescription recordA && b is RecordTypeDescription recordB)
-        {
-            return AreEqual(recordA.IdlType, recordB.IdlType);
-        }
-
-        if (a is SequenceTypeDescription sequenceA && b is SequenceTypeDescription sequenceB)
-        {
-            return AreEqual(sequenceA.IdlType, sequenceB.IdlType);
-        }
-
-        return false;
-    }
-
-
-    private bool AreEqual(List<IDLTypeDescription> a, List<IDLTypeDescription> b)
-    {
-        if (a.Count != b.Count)
-        {
-            return false;
-        }
-
-        for (var i = 0; i < a.Count; i++)
-        {
-            if (!AreEqual(a[i], b[i]))
-            {
-                return false;
-            }
-        }
-
-        return true;
     }
 
     private string GenerateArrayLikeElementClass()
@@ -214,7 +124,7 @@ public class GenericMarshallerGenerator(
                 continue;
             }
 
-            if (generatedElementTypes.Any(x => AreEqual(x, elementType)))
+            if (generatedElementTypes.Any(x => IDLTypeDescriptionEqualityComparer.Instance.Equals(x, elementType)))
             {
                 continue;
             }
@@ -282,9 +192,11 @@ public class GenericMarshallerGenerator(
         return content;
     }
 
-    private string GeneratePromiseClass()
+    private string GenerateRecordClass()
     {
         var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+
+        List<IDLTypeDescription> generatedValueTypes = [];
 
         List<string> interfaceParts = [];
         List<string> bodyParts = [];
@@ -294,28 +206,38 @@ public class GenericMarshallerGenerator(
         {
             var marshaller = _marshallers[i];
 
-            if (marshaller.Key is not PromiseTypeDescription promiseTypeDescription)
+            if (marshaller.Key is not RecordTypeDescription recordTypeDescription)
             {
                 continue;
             }
 
-            var toManaged = GenerateToManagedPromise(promiseTypeDescription);
-            var toJS = GenerateToJSPromise(promiseTypeDescription);
+            var valueType = recordTypeDescription.IdlType.Skip(1).Single();
 
-            var marshalledType = toTypeDeclarationGenerator.Generate(marshaller.Key, true);
+            if (generatedValueTypes.Any(x => IDLTypeDescriptionEqualityComparer.Instance.Equals(x, valueType)))
+            {
+                continue;
+            }
 
-            var interfacePart = $"global::Iskra.JSCore.Generics.IGenericMarshaller<{marshalledType}>";
+            generatedValueTypes.Add(valueType);
+
+            var valueTypeDecl = toTypeDeclarationGenerator.Generate(valueType);
+
+            var interfacePart = $"global::Iskra.JSCore.Generics.IRecordValueMarshaller<{valueTypeDecl}>";
             interfaceParts.Add(interfacePart);
 
             var bodyPart = $$"""
-                             static async {{marshalledType}} {{interfacePart}}.ToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input)
+                             static bool {{interfacePart}}.TryGetValue(
+                                 global::System.Runtime.InteropServices.JavaScript.JSObject record,
+                                 string key,
+                                 [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out {{valueTypeDecl}} value
+                             )
                              {
-                             {{toManaged.IndentLines(4)}}
+                                 throw new NotImplementedException();
                              }
 
-                             static global::System.Runtime.InteropServices.JavaScript.JSObject {{interfacePart}}.ToJS({{marshalledType}} input)
+                             static void {{interfacePart}}.Set(global::System.Runtime.InteropServices.JavaScript.JSObject record, string key, {{valueTypeDecl}} value)
                              {
-                             {{toJS.IndentLines(4)}}
+                                 throw new NotImplementedException();
                              }
                              """;
 
@@ -333,7 +255,7 @@ public class GenericMarshallerGenerator(
             : string.Empty;
 
         var content = $$"""
-                        public class Promise{{inheritance}}
+                        public class Record{{inheritance}}
                         {
                         {{body.IndentLines(4)}}
                         }
@@ -358,7 +280,7 @@ public class GenericMarshallerGenerator(
 
             foreach (var itemType in unionTypeDescription.IdlType)
             {
-                if (distinctItems.Any(x => AreEqual(x, itemType)))
+                if (distinctItems.Any(x => IDLTypeDescriptionEqualityComparer.Instance.Equals(x, itemType)))
                 {
                     continue;
                 }

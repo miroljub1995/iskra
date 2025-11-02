@@ -10,19 +10,34 @@ public partial class TransformStreamDefaultController(global::System.Runtime.Int
     {
         get
         {
-            double? __res_2036;
-            double? __res_2037 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_2037 is null)
+            double? __res_2509;
+            double? __res_2510 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
+            if (__res_2510 is null)
             {
-                __res_2036 = null;
+                __res_2509 = null;
             }
             else
             {
-                double __notNullable_2038 = (double)__res_2037;
-                __res_2036 = __notNullable_2038;
+                double __notNullable_2511 = (double)__res_2510;
+                __res_2509 = __notNullable_2511;
             }
-            return __res_2036;
+            return __res_2509;
         }
+    }
+
+    public void Enqueue(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? chunk)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Error(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Terminate()
+    {
+        throw new global::System.Exception();
     }
 }
 

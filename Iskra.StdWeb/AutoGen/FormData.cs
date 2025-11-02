@@ -6,7 +6,45 @@ namespace Iskra.StdWeb;
 
 public partial class FormData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void Append(string name, string value)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void Append(string name, global::Iskra.StdWeb.Blob blobValue, string filename)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Delete(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.File, string, global::Iskra.StdWeb.GenericMarshaller.Union>? Get(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.File, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetAll(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool Has(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Set(string name, string value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Set(string name, global::Iskra.StdWeb.Blob blobValue, string filename)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

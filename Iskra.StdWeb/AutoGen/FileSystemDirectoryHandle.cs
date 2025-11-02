@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class FileSystemDirectoryHandle(global::System.Runtime.InteropServices.JavaScript.JSObject obj): FileSystemHandle(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemFileHandle, global::Iskra.StdWeb.PropertyAccessor> GetFileHandle(string name, global::Iskra.StdWeb.FileSystemGetFileOptions options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemDirectoryHandle, global::Iskra.StdWeb.PropertyAccessor> GetDirectoryHandle(string name, global::Iskra.StdWeb.FileSystemGetDirectoryOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise RemoveEntry(string name, global::Iskra.StdWeb.FileSystemRemoveOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>?, global::Iskra.StdWeb.PropertyAccessorNullable> Resolve(global::Iskra.StdWeb.FileSystemHandle possibleDescendant)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

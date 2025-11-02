@@ -10,10 +10,10 @@ public partial class SVGPointList(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_1182;
-            double __res_1183 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_1182 = Convert.ToUInt32(__res_1183);
-            return __res_1182;
+            uint __res_1320;
+            double __res_1321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_1320 = Convert.ToUInt32(__res_1321);
+            return __res_1320;
         }
     }
 
@@ -21,11 +21,51 @@ public partial class SVGPointList(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            uint __res_1184;
-            double __res_1185 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_1184 = Convert.ToUInt32(__res_1185);
-            return __res_1184;
+            uint __res_1322;
+            double __res_1323 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
+            __res_1322 = Convert.ToUInt32(__res_1323);
+            return __res_1322;
         }
+    }
+
+    public void Clear()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint Initialize(global::Iskra.StdWeb.DOMPoint newItem)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint GetItem(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint InsertItemBefore(global::Iskra.StdWeb.DOMPoint newItem, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint ReplaceItem(global::Iskra.StdWeb.DOMPoint newItem, uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint RemoveItem(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.DOMPoint AppendItem(global::Iskra.StdWeb.DOMPoint newItem)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Set(uint index, global::Iskra.StdWeb.DOMPoint newItem)
+    {
+        throw new global::System.Exception();
     }
 }
 

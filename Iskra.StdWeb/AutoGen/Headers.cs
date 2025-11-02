@@ -6,7 +6,35 @@ namespace Iskra.StdWeb;
 
 public partial class Headers(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void Append(string name, string value)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void Delete(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public string? Get(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetSetCookie()
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool Has(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Set(string name, string value)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

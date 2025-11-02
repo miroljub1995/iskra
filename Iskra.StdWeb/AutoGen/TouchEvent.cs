@@ -10,10 +10,10 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.TouchList __res_4827;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4828 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touches");
-            __res_4827 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TouchList>(__res_4828);
-            return __res_4827;
+            global::Iskra.StdWeb.TouchList __res_5743;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5744 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "touches");
+            __res_5743 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TouchList>(__res_5744);
+            return __res_5743;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.TouchList __res_4829;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4830 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetTouches");
-            __res_4829 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TouchList>(__res_4830);
-            return __res_4829;
+            global::Iskra.StdWeb.TouchList __res_5745;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5746 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "targetTouches");
+            __res_5745 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TouchList>(__res_5746);
+            return __res_5745;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            global::Iskra.StdWeb.TouchList __res_4831;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4832 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "changedTouches");
-            __res_4831 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TouchList>(__res_4832);
-            return __res_4831;
+            global::Iskra.StdWeb.TouchList __res_5747;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5748 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "changedTouches");
+            __res_5747 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TouchList>(__res_5748);
+            return __res_5747;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_4833;
-            bool __res_4834 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
-            __res_4833 = __res_4834;
-            return __res_4833;
+            bool __res_5749;
+            bool __res_5750 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "altKey");
+            __res_5749 = __res_5750;
+            return __res_5749;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_4835;
-            bool __res_4836 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
-            __res_4835 = __res_4836;
-            return __res_4835;
+            bool __res_5751;
+            bool __res_5752 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "metaKey");
+            __res_5751 = __res_5752;
+            return __res_5751;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_4837;
-            bool __res_4838 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
-            __res_4837 = __res_4838;
-            return __res_4837;
+            bool __res_5753;
+            bool __res_5754 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ctrlKey");
+            __res_5753 = __res_5754;
+            return __res_5753;
         }
     }
 
@@ -76,11 +76,16 @@ public partial class TouchEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            bool __res_4839;
-            bool __res_4840 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
-            __res_4839 = __res_4840;
-            return __res_4839;
+            bool __res_5755;
+            bool __res_5756 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shiftKey");
+            __res_5755 = __res_5756;
+            return __res_5755;
         }
+    }
+
+    public bool GetModifierState(string keyArg)
+    {
+        throw new global::System.Exception();
     }
 }
 

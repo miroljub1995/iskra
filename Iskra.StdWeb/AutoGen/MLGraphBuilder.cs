@@ -6,7 +6,505 @@ namespace Iskra.StdWeb;
 
 public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.MLOperand Input(string name, global::Iskra.StdWeb.MLOperandDescriptor descriptor)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.StdWeb.MLOperand Constant(global::Iskra.StdWeb.MLOperandDescriptor descriptor, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> buffer)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Constant(global::Iskra.StdWeb.MLOperandDataType dataType, global::Iskra.JSCore.Generics.Union<global::System.Numerics.BigInteger, double, global::Iskra.StdWeb.GenericMarshaller.Union> value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Constant(global::Iskra.StdWeb.MLTensor tensor)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLGraph, global::Iskra.StdWeb.PropertyAccessor> Build(global::Iskra.JSCore.Generics.Record<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.Record> outputs)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ArgMin(global::Iskra.StdWeb.MLOperand input, uint axis, global::Iskra.StdWeb.MLArgMinMaxOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ArgMax(global::Iskra.StdWeb.MLOperand input, uint axis, global::Iskra.StdWeb.MLArgMinMaxOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand BatchNormalization(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand mean, global::Iskra.StdWeb.MLOperand variance, global::Iskra.StdWeb.MLBatchNormalizationOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Cast(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperandDataType dataType, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Clamp(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLClampOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Concat(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> inputs, uint axis, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Conv2d(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand filter, global::Iskra.StdWeb.MLConv2dOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ConvTranspose2d(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand filter, global::Iskra.StdWeb.MLConvTranspose2dOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand CumulativeSum(global::Iskra.StdWeb.MLOperand input, uint axis, global::Iskra.StdWeb.MLCumulativeSumOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Add(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Sub(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Mul(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Div(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Max(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Min(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Pow(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Equal(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand NotEqual(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Greater(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand GreaterOrEqual(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Lesser(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand LesserOrEqual(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand LogicalNot(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand LogicalAnd(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand LogicalOr(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand LogicalXor(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand IsNaN(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand IsInfinite(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Abs(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Ceil(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Cos(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Erf(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Exp(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Floor(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Identity(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Log(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Neg(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Reciprocal(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand RoundEven(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Sin(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Sign(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Sqrt(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Tan(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand DequantizeLinear(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand scale, global::Iskra.StdWeb.MLOperand zeroPoint, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand QuantizeLinear(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand scale, global::Iskra.StdWeb.MLOperand zeroPoint, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Elu(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLEluOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Expand(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> newShape, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Gather(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand indices, global::Iskra.StdWeb.MLGatherOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand GatherElements(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand indices, global::Iskra.StdWeb.MLGatherOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand GatherND(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand indices, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Gelu(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Gemm(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLGemmOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Gru(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand weight, global::Iskra.StdWeb.MLOperand recurrentWeight, uint steps, uint hiddenSize, global::Iskra.StdWeb.MLGruOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand GruCell(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand weight, global::Iskra.StdWeb.MLOperand recurrentWeight, global::Iskra.StdWeb.MLOperand hiddenState, uint hiddenSize, global::Iskra.StdWeb.MLGruCellOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand HardSigmoid(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLHardSigmoidOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand HardSwish(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand InstanceNormalization(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLInstanceNormalizationOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand LayerNormalization(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLLayerNormalizationOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand LeakyRelu(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLLeakyReluOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Linear(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLLinearOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Lstm(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand weight, global::Iskra.StdWeb.MLOperand recurrentWeight, uint steps, uint hiddenSize, global::Iskra.StdWeb.MLLstmOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> LstmCell(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand weight, global::Iskra.StdWeb.MLOperand recurrentWeight, global::Iskra.StdWeb.MLOperand hiddenState, global::Iskra.StdWeb.MLOperand cellState, uint hiddenSize, global::Iskra.StdWeb.MLLstmCellOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Matmul(global::Iskra.StdWeb.MLOperand a, global::Iskra.StdWeb.MLOperand b, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Pad(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> beginningPadding, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> endingPadding, global::Iskra.StdWeb.MLPadOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand AveragePool2d(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLPool2dOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand L2Pool2d(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLPool2dOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand MaxPool2d(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLPool2dOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Prelu(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand slope, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ReduceL1(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLReduceOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ReduceL2(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLReduceOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ReduceLogSum(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLReduceOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ReduceLogSumExp(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLReduceOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ReduceMax(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLReduceOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ReduceMean(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLReduceOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ReduceMin(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLReduceOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ReduceProduct(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLReduceOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ReduceSum(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLReduceOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ReduceSumSquare(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLReduceOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Relu(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Resample2d(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLResample2dOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Reshape(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> newShape, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Reverse(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLReverseOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ScatterElements(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand indices, global::Iskra.StdWeb.MLOperand updates, global::Iskra.StdWeb.MLScatterOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand ScatterND(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand indices, global::Iskra.StdWeb.MLOperand updates, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Sigmoid(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Slice(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> starts, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> sizes, global::Iskra.StdWeb.MLSliceOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Softmax(global::Iskra.StdWeb.MLOperand input, uint axis, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Softplus(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Softsign(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Split(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.Union<uint, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> splits, global::Iskra.StdWeb.MLSplitOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Tanh(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Tile(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> repetitions, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Transpose(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLTransposeOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Triangular(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLTriangularOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MLOperand Where(global::Iskra.StdWeb.MLOperand condition, global::Iskra.StdWeb.MLOperand trueValue, global::Iskra.StdWeb.MLOperand falseValue, global::Iskra.StdWeb.MLOperatorOptions options)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

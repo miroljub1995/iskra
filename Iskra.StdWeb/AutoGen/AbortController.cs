@@ -10,11 +10,16 @@ public partial class AbortController(global::System.Runtime.InteropServices.Java
     {
         get
         {
-            global::Iskra.StdWeb.AbortSignal __res_4991;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4992 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
-            __res_4991 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_4992);
-            return __res_4991;
+            global::Iskra.StdWeb.AbortSignal __res_5928;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5929 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
+            __res_5928 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_5929);
+            return __res_5928;
         }
+    }
+
+    public void Abort(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason)
+    {
+        throw new global::System.Exception();
     }
 }
 

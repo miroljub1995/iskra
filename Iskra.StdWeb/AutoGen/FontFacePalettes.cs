@@ -10,11 +10,16 @@ public partial class FontFacePalettes(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            uint __res_3725;
-            double __res_3726 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_3725 = Convert.ToUInt32(__res_3726);
-            return __res_3725;
+            uint __res_4444;
+            double __res_4445 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_4444 = Convert.ToUInt32(__res_4445);
+            return __res_4444;
         }
+    }
+
+    public global::Iskra.StdWeb.FontFacePalette Get(uint index)
+    {
+        throw new global::System.Exception();
     }
 }
 

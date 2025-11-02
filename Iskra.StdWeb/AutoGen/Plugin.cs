@@ -10,10 +10,10 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_12874;
-            string __res_12875 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_12874 = __res_12875;
-            return __res_12874;
+            string __res_15063;
+            string __res_15064 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
+            __res_15063 = __res_15064;
+            return __res_15063;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_12876;
-            string __res_12877 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
-            __res_12876 = __res_12877;
-            return __res_12876;
+            string __res_15065;
+            string __res_15066 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
+            __res_15065 = __res_15066;
+            return __res_15065;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            string __res_12878;
-            string __res_12879 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
-            __res_12878 = __res_12879;
-            return __res_12878;
+            string __res_15067;
+            string __res_15068 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
+            __res_15067 = __res_15068;
+            return __res_15067;
         }
     }
 
@@ -43,11 +43,21 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
     {
         get
         {
-            uint __res_12880;
-            double __res_12881 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_12880 = Convert.ToUInt32(__res_12881);
-            return __res_12880;
+            uint __res_15069;
+            double __res_15070 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_15069 = Convert.ToUInt32(__res_15070);
+            return __res_15069;
         }
+    }
+
+    public global::Iskra.StdWeb.MimeType? Item(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MimeType? NamedItem(string name)
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -10,10 +10,10 @@ public partial class SpeechRecognitionAlternative(global::System.Runtime.Interop
     {
         get
         {
-            string __res_7057;
-            string __res_7058 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "transcript");
-            __res_7057 = __res_7058;
-            return __res_7057;
+            string __res_8470;
+            string __res_8471 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "transcript");
+            __res_8470 = __res_8471;
+            return __res_8470;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SpeechRecognitionAlternative(global::System.Runtime.Interop
     {
         get
         {
-            float __res_7059;
-            double __res_7060 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "confidence");
-            __res_7059 = Convert.ToSingle(__res_7060);
-            return __res_7059;
+            float __res_8472;
+            double __res_8473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "confidence");
+            __res_8472 = Convert.ToSingle(__res_8473);
+            return __res_8472;
         }
     }
 }

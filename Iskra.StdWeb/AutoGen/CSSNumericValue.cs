@@ -6,7 +6,60 @@ namespace Iskra.StdWeb;
 
 public partial class CSSNumericValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleValue(obj)
 {
+    public global::Iskra.StdWeb.CSSNumericValue Add(params global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.StdWeb.CSSNumericValue Sub(params global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.CSSNumericValue Mul(params global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.CSSNumericValue Div(params global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.CSSNumericValue Min(params global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.CSSNumericValue Max(params global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool Equals(params global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>[] value)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.CSSUnitValue To(string unit)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.CSSMathSum ToSum(params string[] units)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.CSSNumericType Type()
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.StdWeb.CSSNumericValue Parse(string cssText)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

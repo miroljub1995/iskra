@@ -6,7 +6,45 @@ namespace Iskra.StdWeb;
 
 public partial class EXT_disjoint_timer_query(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.WebGLTimerQueryEXT CreateQueryEXT()
+    {
+        throw new global::System.Exception();
+    }
 
+    public void DeleteQueryEXT(global::Iskra.StdWeb.WebGLTimerQueryEXT? query)
+    {
+        throw new global::System.Exception();
+    }
+
+    public bool IsQueryEXT(global::Iskra.StdWeb.WebGLTimerQueryEXT? query)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void BeginQueryEXT(uint target, global::Iskra.StdWeb.WebGLTimerQueryEXT query)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void EndQueryEXT(uint target)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void QueryCounterEXT(global::Iskra.StdWeb.WebGLTimerQueryEXT query, uint target)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetQueryEXT(uint target, uint pname)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetQueryObjectEXT(global::Iskra.StdWeb.WebGLTimerQueryEXT query, uint pname)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

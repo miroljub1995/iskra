@@ -10,18 +10,18 @@ public partial class PopStateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_12640;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_12641;
-            __propObject_12641 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "state");
-            if (__propObject_12641 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_14789;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14790;
+            __propObject_14790 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "state");
+            if (__propObject_14790 is null)
             {
-                __res_12640 = null;
+                __res_14789 = null;
             }
             else
             {
-                __res_12640 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_12641);
+                __res_14789 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_14790);
             }
-            return __res_12640;
+            return __res_14789;
         }
     }
 
@@ -29,10 +29,10 @@ public partial class PopStateEvent(global::System.Runtime.InteropServices.JavaSc
     {
         get
         {
-            bool __res_12642;
-            bool __res_12643 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
-            __res_12642 = __res_12643;
-            return __res_12642;
+            bool __res_14791;
+            bool __res_14792 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasUAVisualTransition");
+            __res_14791 = __res_14792;
+            return __res_14791;
         }
     }
 }

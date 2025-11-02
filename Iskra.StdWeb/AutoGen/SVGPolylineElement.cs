@@ -10,10 +10,10 @@ public partial class SVGPolylineElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.SVGPointList __res_1186;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1187 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "points");
-            __res_1186 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPointList>(__res_1187);
-            return __res_1186;
+            global::Iskra.StdWeb.SVGPointList __res_1332;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1333 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "points");
+            __res_1332 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPointList>(__res_1333);
+            return __res_1332;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGPolylineElement(global::System.Runtime.InteropServices.J
     {
         get
         {
-            global::Iskra.StdWeb.SVGPointList __res_1188;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1189 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animatedPoints");
-            __res_1188 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPointList>(__res_1189);
-            return __res_1188;
+            global::Iskra.StdWeb.SVGPointList __res_1334;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1335 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "animatedPoints");
+            __res_1334 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGPointList>(__res_1335);
+            return __res_1334;
         }
     }
 }

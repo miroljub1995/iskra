@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class Geolocation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void GetCurrentPosition(global::Iskra.StdWeb.PositionCallback successCallback, global::Iskra.StdWeb.PositionErrorCallback? errorCallback, global::Iskra.StdWeb.PositionOptions options)
+    {
+        throw new global::System.Exception();
+    }
 
+    public int WatchPosition(global::Iskra.StdWeb.PositionCallback successCallback, global::Iskra.StdWeb.PositionErrorCallback? errorCallback, global::Iskra.StdWeb.PositionOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void ClearWatch(int watchId)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

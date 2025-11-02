@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class XMLSerializer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public string SerializeToString(global::Iskra.StdWeb.Node root)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

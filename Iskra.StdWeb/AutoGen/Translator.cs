@@ -6,14 +6,34 @@ namespace Iskra.StdWeb;
 
 public partial class Translator(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Translator, global::Iskra.StdWeb.PropertyAccessor> Create(global::Iskra.StdWeb.TranslatorCreateOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Availability, global::Iskra.StdWeb.PropertyAccessor> Availability(global::Iskra.StdWeb.TranslatorCreateCoreOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> Translate(string input, global::Iskra.StdWeb.TranslatorTranslateOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.ReadableStream TranslateStreaming(string input, global::Iskra.StdWeb.TranslatorTranslateOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
     public string SourceLanguage
     {
         get
         {
-            string __res_6732;
-            string __res_6733 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sourceLanguage");
-            __res_6732 = __res_6733;
-            return __res_6732;
+            string __res_8042;
+            string __res_8043 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sourceLanguage");
+            __res_8042 = __res_8043;
+            return __res_8042;
         }
     }
 
@@ -21,22 +41,32 @@ public partial class Translator(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_6734;
-            string __res_6735 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetLanguage");
-            __res_6734 = __res_6735;
-            return __res_6734;
+            string __res_8044;
+            string __res_8045 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetLanguage");
+            __res_8044 = __res_8045;
+            return __res_8044;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<double, global::Iskra.StdWeb.PropertyAccessor> MeasureInputUsage(string input, global::Iskra.StdWeb.TranslatorTranslateOptions options)
+    {
+        throw new global::System.Exception();
     }
 
     public double InputQuota
     {
         get
         {
-            double __res_6736;
-            double __res_6737 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_6736 = __res_6737;
-            return __res_6736;
+            double __res_8047;
+            double __res_8048 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_8047 = __res_8048;
+            return __res_8047;
         }
+    }
+
+    public void Destroy()
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -6,34 +6,59 @@ namespace Iskra.StdWeb;
 
 public partial class LanguageDetector(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.LanguageDetector, global::Iskra.StdWeb.PropertyAccessor> Create(global::Iskra.StdWeb.LanguageDetectorCreateOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Availability, global::Iskra.StdWeb.PropertyAccessor> Availability(global::Iskra.StdWeb.LanguageDetectorCreateCoreOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.LanguageDetectionResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> Detect(string input, global::Iskra.StdWeb.LanguageDetectorDetectOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? ExpectedInputLanguages
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_6738;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_6739;
-            __propObject_6739 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
-            if (__propObject_6739 is null)
+            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_8053;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8054;
+            __propObject_8054 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
+            if (__propObject_8054 is null)
             {
-                __res_6738 = null;
+                __res_8053 = null;
             }
             else
             {
-                __res_6738 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6739);
+                __res_8053 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8054);
             }
-            return __res_6738;
+            return __res_8053;
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<double, global::Iskra.StdWeb.PropertyAccessor> MeasureInputUsage(string input, global::Iskra.StdWeb.LanguageDetectorDetectOptions options)
+    {
+        throw new global::System.Exception();
     }
 
     public double InputQuota
     {
         get
         {
-            double __res_6740;
-            double __res_6741 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_6740 = __res_6741;
-            return __res_6740;
+            double __res_8056;
+            double __res_8057 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
+            __res_8056 = __res_8057;
+            return __res_8056;
         }
+    }
+
+    public void Destroy()
+    {
+        throw new global::System.Exception();
     }
 }
 

@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class XPathNSResolver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public string? LookupNamespaceURI(string? prefix)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

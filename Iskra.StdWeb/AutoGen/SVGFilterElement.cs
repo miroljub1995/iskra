@@ -10,10 +10,10 @@ public partial class SVGFilterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_2352;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2353 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filterUnits");
-            __res_2352 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_2353);
-            return __res_2352;
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_2888;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2889 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filterUnits");
+            __res_2888 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_2889);
+            return __res_2888;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class SVGFilterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_2354;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2355 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primitiveUnits");
-            __res_2354 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_2355);
-            return __res_2354;
+            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_2890;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2891 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "primitiveUnits");
+            __res_2890 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_2891);
+            return __res_2890;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class SVGFilterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_2356;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2357 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            __res_2356 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2357);
-            return __res_2356;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_2892;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2893 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
+            __res_2892 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2893);
+            return __res_2892;
         }
     }
 
@@ -43,10 +43,10 @@ public partial class SVGFilterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_2358;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2359 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            __res_2358 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2359);
-            return __res_2358;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_2894;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2895 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
+            __res_2894 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2895);
+            return __res_2894;
         }
     }
 
@@ -54,10 +54,10 @@ public partial class SVGFilterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_2360;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2361 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
-            __res_2360 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2361);
-            return __res_2360;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_2896;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2897 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "width");
+            __res_2896 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2897);
+            return __res_2896;
         }
     }
 
@@ -65,10 +65,10 @@ public partial class SVGFilterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_2362;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2363 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
-            __res_2362 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2363);
-            return __res_2362;
+            global::Iskra.StdWeb.SVGAnimatedLength __res_2898;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2899 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "height");
+            __res_2898 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_2899);
+            return __res_2898;
         }
     }
 
@@ -76,10 +76,10 @@ public partial class SVGFilterElement(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            global::Iskra.StdWeb.SVGAnimatedString __res_2364;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2365 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
-            __res_2364 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_2365);
-            return __res_2364;
+            global::Iskra.StdWeb.SVGAnimatedString __res_2900;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2901 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
+            __res_2900 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_2901);
+            return __res_2900;
         }
     }
 }

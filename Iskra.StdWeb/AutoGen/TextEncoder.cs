@@ -6,14 +6,24 @@ namespace Iskra.StdWeb;
 
 public partial class TextEncoder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Uint8Array Encode(string input)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.TextEncoderEncodeIntoResult EncodeInto(string source, global::Iskra.JSCore.Uint8Array destination)
+    {
+        throw new global::System.Exception();
+    }
+
     public string Encoding
     {
         get
         {
-            string __res_2166;
-            string __res_2167 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
-            __res_2166 = __res_2167;
-            return __res_2166;
+            string __res_2658;
+            string __res_2659 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
+            __res_2658 = __res_2659;
+            return __res_2658;
         }
     }
 }

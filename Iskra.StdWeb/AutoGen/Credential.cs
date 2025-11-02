@@ -10,10 +10,10 @@ public partial class Credential(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_4146;
-            string __res_4147 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_4146 = __res_4147;
-            return __res_4146;
+            string __res_4904;
+            string __res_4905 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
+            __res_4904 = __res_4905;
+            return __res_4904;
         }
     }
 
@@ -21,11 +21,21 @@ public partial class Credential(global::System.Runtime.InteropServices.JavaScrip
     {
         get
         {
-            string __res_4148;
-            string __res_4149 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_4148 = __res_4149;
-            return __res_4148;
+            string __res_4906;
+            string __res_4907 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_4906 = __res_4907;
+            return __res_4906;
         }
+    }
+
+    public static global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> IsConditionalMediationAvailable()
+    {
+        throw new global::System.Exception();
+    }
+
+    public static global::Iskra.JSCore.Promise WillRequestConditionalCreation()
+    {
+        throw new global::System.Exception();
     }
 }
 

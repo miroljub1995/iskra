@@ -10,10 +10,10 @@ public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.Element __res_315;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_316 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subject");
-            __res_315 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_316);
-            return __res_315;
+            global::Iskra.StdWeb.Element __res_377;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_378 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subject");
+            __res_377 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_378);
+            return __res_377;
         }
     }
 
@@ -21,10 +21,10 @@ public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.CSSNumericValue __res_317;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_318 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
-            __res_317 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_318);
-            return __res_317;
+            global::Iskra.StdWeb.CSSNumericValue __res_379;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_380 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
+            __res_379 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_380);
+            return __res_379;
         }
     }
 
@@ -32,10 +32,10 @@ public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScr
     {
         get
         {
-            global::Iskra.StdWeb.CSSNumericValue __res_319;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_320 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endOffset");
-            __res_319 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_320);
-            return __res_319;
+            global::Iskra.StdWeb.CSSNumericValue __res_381;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_382 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endOffset");
+            __res_381 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_382);
+            return __res_381;
         }
     }
 }

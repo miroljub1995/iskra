@@ -10,29 +10,29 @@ public partial class PressureUpdateCallback(global::System.Runtime.InteropServic
 {
     public static implicit operator PressureUpdateCallback(PressureUpdateCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6664) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_7959) =>
         {
-            using (__args_6664)
+            using (__args_7959)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_6666;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6667;
-                __propObject_6667 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6664, 0);
-                __arg_6666 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_6667);
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_7961;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7962;
+                __propObject_7962 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7959, 0);
+                __arg_7961 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_7962);
 
                 // Argument 2
-                global::Iskra.StdWeb.PressureObserver __arg_6668;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_6669 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6664, 1);
-                __arg_6668 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PressureObserver>(__res_6669);
+                global::Iskra.StdWeb.PressureObserver __arg_7963;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_7964 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_7959, 1);
+                __arg_7963 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PressureObserver>(__res_7964);
 
-                input(__arg_6666, __arg_6668);
+                input(__arg_7961, __arg_7963);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_6670 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_6670, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_7965 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_7965, input);
 
-        return new global::Iskra.StdWeb.PressureUpdateCallback(__funcObj_6670);
+        return new global::Iskra.StdWeb.PressureUpdateCallback(__funcObj_7965);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.PressureUpdateCallbackManaged? managed, bool allowConversion = false)
@@ -50,20 +50,20 @@ public partial class PressureUpdateCallback(global::System.Runtime.InteropServic
 
         managed = (changes, observer) =>
         {
-            int __argsArrayLength_6674 = 2;
+            int __argsArrayLength_7969 = 2;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6671 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_6674);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_7966 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_7969);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6675 = changes.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_6671.JSObject, 0, __propObject_6675);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7970 = changes.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_7966.JSObject, 0, __propObject_7970);
 
             // Argument 2
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_6676;
-            __marshalledValue_6676 = observer.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_6671.JSObject, 1, __marshalledValue_6676);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_7971;
+            __marshalledValue_7971 = observer.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_7966.JSObject, 1, __marshalledValue_7971);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_6671.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_7966.JSObject);
         };
         return true;
     }

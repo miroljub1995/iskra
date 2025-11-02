@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class StylePropertyMap(global::System.Runtime.InteropServices.JavaScript.JSObject obj): StylePropertyMapReadOnly(obj)
 {
+    public void Set(string property, params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSStyleValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
+    {
+        throw new global::System.Exception();
+    }
 
+    public void Append(string property, params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSStyleValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Delete(string property)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void Clear()
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class BrowserCaptureMediaStreamTrack(global::System.Runtime.InteropServices.JavaScript.JSObject obj): MediaStreamTrack(obj)
 {
+    public global::Iskra.JSCore.Promise CropTo(global::Iskra.StdWeb.CropTarget? cropTarget)
+    {
+        throw new global::System.Exception();
+    }
 
+    public global::Iskra.StdWeb.BrowserCaptureMediaStreamTrack Clone()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Promise RestrictTo(global::Iskra.StdWeb.RestrictionTarget? RestrictionTarget)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

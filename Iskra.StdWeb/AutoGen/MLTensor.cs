@@ -10,10 +10,10 @@ public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.StdWeb.MLOperandDataType __res_8092;
-            string __res_8093 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dataType");
-            __res_8092 = global::Iskra.StdWeb.MLOperandDataType.Create(__res_8093);
-            return __res_8092;
+            global::Iskra.StdWeb.MLOperandDataType __res_9696;
+            string __res_9697 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dataType");
+            __res_9696 = global::Iskra.StdWeb.MLOperandDataType.Create(__res_9697);
+            return __res_9696;
         }
     }
 
@@ -21,11 +21,11 @@ public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8094;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8095;
-            __propObject_8095 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "shape");
-            __res_8094 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8095);
-            return __res_8094;
+            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_9698;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9699;
+            __propObject_9699 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "shape");
+            __res_9698 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9699);
+            return __res_9698;
         }
     }
 
@@ -33,10 +33,10 @@ public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            bool __res_8096;
-            bool __res_8097 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "readable");
-            __res_8096 = __res_8097;
-            return __res_8096;
+            bool __res_9700;
+            bool __res_9701 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "readable");
+            __res_9700 = __res_9701;
+            return __res_9700;
         }
     }
 
@@ -44,10 +44,10 @@ public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            bool __res_8098;
-            bool __res_8099 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writable");
-            __res_8098 = __res_8099;
-            return __res_8098;
+            bool __res_9702;
+            bool __res_9703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writable");
+            __res_9702 = __res_9703;
+            return __res_9702;
         }
     }
 
@@ -55,11 +55,16 @@ public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.
     {
         get
         {
-            bool __res_8100;
-            bool __res_8101 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "constant");
-            __res_8100 = __res_8101;
-            return __res_8100;
+            bool __res_9704;
+            bool __res_9705 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "constant");
+            __res_9704 = __res_9705;
+            return __res_9704;
         }
+    }
+
+    public void Destroy()
+    {
+        throw new global::System.Exception();
     }
 }
 

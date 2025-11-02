@@ -6,69 +6,109 @@ namespace Iskra.StdWeb;
 
 public partial class MediaDevices(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.PropertyAccessor> GetViewportMedia(global::Iskra.StdWeb.DisplayMediaStreamOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.PropertyAccessor> SelectAudioOutput(global::Iskra.StdWeb.AudioOutputOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetCaptureHandleConfig(global::Iskra.StdWeb.CaptureHandleConfig config)
+    {
+        throw new global::System.Exception();
+    }
+
     public global::Iskra.StdWeb.EventHandlerNonNull? Ondevicechange
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6846;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6847 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
-            if (__res_6847 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_8190;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8191 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
+            if (__res_8191 is null)
             {
-                __res_6846 = null;
+                __res_8190 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6848 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6847;
-                __res_6846 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6848);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8192 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8191;
+                __res_8190 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8192);
             }
-            return __res_6846;
+            return __res_8190;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6849;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8193;
             if (value is null)
             {
-                __marshalledValue_6849 = null;
+                __marshalledValue_8193 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6850 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6849 = __notNullable_6850.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8194 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_8193 = __notNullable_8194.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange", __marshalledValue_6849);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange", __marshalledValue_8193);
         }
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> EnumerateDevices()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.MediaTrackSupportedConstraints GetSupportedConstraints()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.PropertyAccessor> GetUserMedia(global::Iskra.StdWeb.MediaStreamConstraints constraints)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.PropertyAccessor> GetDisplayMedia(global::Iskra.StdWeb.DisplayMediaStreamOptions options)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetSupportedCaptureActions(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> actions)
+    {
+        throw new global::System.Exception();
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Oncaptureaction
     {
         get
         {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_6851;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6852 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncaptureaction");
-            if (__res_6852 is null)
+            global::Iskra.StdWeb.EventHandlerNonNull? __res_8200;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8201 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncaptureaction");
+            if (__res_8201 is null)
             {
-                __res_6851 = null;
+                __res_8200 = null;
             }
             else
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6853 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6852;
-                __res_6851 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_6853);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8202 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8201;
+                __res_8200 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8202);
             }
-            return __res_6851;
+            return __res_8200;
         }
         set
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_6854;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8203;
             if (value is null)
             {
-                __marshalledValue_6854 = null;
+                __marshalledValue_8203 = null;
             }
             else
             {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_6855 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_6854 = __notNullable_6855.JSObject;
+                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8204 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
+                __marshalledValue_8203 = __notNullable_8204.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncaptureaction", __marshalledValue_6854);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncaptureaction", __marshalledValue_8203);
         }
     }
 }

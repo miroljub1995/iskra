@@ -6,14 +6,24 @@ namespace Iskra.StdWeb;
 
 public partial class DataTransferItem(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.FileSystemEntry? WebkitGetAsEntry()
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemHandle?, global::Iskra.StdWeb.PropertyAccessorNullable> GetAsFileSystemHandle()
+    {
+        throw new global::System.Exception();
+    }
+
     public string Kind
     {
         get
         {
-            string __res_11659;
-            string __res_11660 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_11659 = __res_11660;
-            return __res_11659;
+            string __res_13734;
+            string __res_13735 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
+            __res_13734 = __res_13735;
+            return __res_13734;
         }
     }
 
@@ -21,11 +31,21 @@ public partial class DataTransferItem(global::System.Runtime.InteropServices.Jav
     {
         get
         {
-            string __res_11661;
-            string __res_11662 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_11661 = __res_11662;
-            return __res_11661;
+            string __res_13736;
+            string __res_13737 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
+            __res_13736 = __res_13737;
+            return __res_13736;
         }
+    }
+
+    public void GetAsString(global::Iskra.StdWeb.FunctionStringCallback? callback)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.StdWeb.File? GetAsFile()
+    {
+        throw new global::System.Exception();
     }
 }
 

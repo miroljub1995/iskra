@@ -6,7 +6,10 @@ namespace Iskra.StdWeb;
 
 public partial class HighlightRegistry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HighlightHitResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> HighlightsFromPoint(float x, float y, global::Iskra.StdWeb.HighlightsFromPointOptions options)
+    {
+        throw new global::System.Exception();
+    }
 }
 
 #nullable disable

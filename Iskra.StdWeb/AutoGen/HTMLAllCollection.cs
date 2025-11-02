@@ -10,11 +10,26 @@ public partial class HTMLAllCollection(global::System.Runtime.InteropServices.Ja
     {
         get
         {
-            uint __res_8748;
-            double __res_8749 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_8748 = Convert.ToUInt32(__res_8749);
-            return __res_8748;
+            uint __res_10551;
+            double __res_10552 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
+            __res_10551 = Convert.ToUInt32(__res_10552);
+            return __res_10551;
         }
+    }
+
+    public global::Iskra.StdWeb.Element Get(uint index)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? NamedItem(string name)
+    {
+        throw new global::System.Exception();
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? Item(string nameOrIndex)
+    {
+        throw new global::System.Exception();
     }
 }
 

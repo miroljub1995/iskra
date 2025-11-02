@@ -6,21 +6,66 @@ namespace Iskra.StdWeb;
 
 public partial class GPUComputePassEncoder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public void SetPipeline(global::Iskra.StdWeb.GPUComputePipeline pipeline)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DispatchWorkgroups(uint workgroupCountX, uint workgroupCountY, uint workgroupCountZ)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void DispatchWorkgroupsIndirect(global::Iskra.StdWeb.GPUBuffer indirectBuffer, ulong indirectOffset)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void End()
+    {
+        throw new global::System.Exception();
+    }
+
     public string Label
     {
         get
         {
-            string __res_1633;
-            string __res_1634 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1633 = __res_1634;
-            return __res_1633;
+            string __res_1851;
+            string __res_1852 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
+            __res_1851 = __res_1852;
+            return __res_1851;
         }
         set
         {
-            string __marshalledValue_1635;
-            __marshalledValue_1635 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1635);
+            string __marshalledValue_1853;
+            __marshalledValue_1853 = value;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1853);
         }
+    }
+
+    public void PushDebugGroup(string groupLabel)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void PopDebugGroup()
+    {
+        throw new global::System.Exception();
+    }
+
+    public void InsertDebugMarker(string markerLabel)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetBindGroup(uint index, global::Iskra.StdWeb.GPUBindGroup? bindGroup, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> dynamicOffsets)
+    {
+        throw new global::System.Exception();
+    }
+
+    public void SetBindGroup(uint index, global::Iskra.StdWeb.GPUBindGroup? bindGroup, global::Iskra.JSCore.Uint32Array dynamicOffsetsData, ulong dynamicOffsetsDataStart, uint dynamicOffsetsDataLength)
+    {
+        throw new global::System.Exception();
     }
 }
 

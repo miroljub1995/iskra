@@ -20,12 +20,12 @@ public static partial class GenericMarshaller
 
     }
 
-    public class Promise
+    public class Union
     {
 
     }
 
-    public class Union
+    public class Record
     {
 
     }
