@@ -9,23 +9,12 @@ public static partial class GenericMarshaller
     [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
     private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string constructorName);
 
-    [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("wrapPromiseValue", "iskra")]
-    private static partial global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> WrapPromiseValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj);
-
-    [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("unwrapPromiseValue", "iskra")]
-    private static partial global::System.Runtime.InteropServices.JavaScript.JSObject UnwrapPromiseValue(global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> task);
-
     public class ArrayLikeElement
     {
 
     }
 
     public class Union
-    {
-
-    }
-
-    public class Record
     {
 
     }

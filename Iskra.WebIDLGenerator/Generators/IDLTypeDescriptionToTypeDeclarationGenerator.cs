@@ -131,6 +131,8 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
 
     private string MapRecordToManagedType(RecordTypeDescription input)
     {
+        var propertyAccessorGenerator = provider.GetRequiredService<PropertyAccessorGenerator>();
+
         if (input.IdlType.First() is not SingleTypeDescription { IdlType: BuiltinTypes.String })
         {
             throw new Exception("According to webidl spec, Record type must have string key");
@@ -141,10 +143,10 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
         var elementManagedType = Generate(valueType);
 
 
-        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input);
+        var propertyAccessor = propertyAccessorGenerator.GetOrCreateAccessor(valueType);
 
         return MakeNullableIfNeeded(
-            $"global::Iskra.JSCore.Generics.Record<{elementManagedType}, {marshaller}>",
+            $"global::Iskra.JSCore.Generics.Record<{elementManagedType}, {propertyAccessor}>",
             input.Nullable
         );
     }

@@ -11,7 +11,7 @@ public partial class PrivateAggregation(global::System.Runtime.InteropServices.J
         throw new global::System.Exception();
     }
 
-    public void ContributeToHistogramOnEvent(string @event, global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.GenericMarshaller.Record> contribution)
+    public void ContributeToHistogramOnEvent(string @event, global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> contribution)
     {
         throw new global::System.Exception();
     }

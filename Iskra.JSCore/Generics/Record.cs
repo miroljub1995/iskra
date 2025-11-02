@@ -5,15 +5,15 @@ using Iskra.JSCore.Extensions;
 
 namespace Iskra.JSCore.Generics;
 
-public class Record<TValue, TMarshaller>(JSObject obj) : JSObjectProxy(obj), IEnumerable<KeyValuePair<string, TValue>>
-    where TMarshaller : IRecordValueMarshaller<TValue>
+public class Record<TValue, TAccessor>(JSObject obj) : JSObjectProxy(obj), IEnumerable<KeyValuePair<string, TValue>>
+    where TAccessor : IPropertyAccessor<TValue>
 {
     public TValue this[string key]
     {
-        get => TMarshaller.TryGetValue(JSObject, key, out var value)
+        get => TryGetValue(key, out var value)
             ? value
             : throw new KeyNotFoundException($"Key ${key} doesn't exist.");
-        set => TMarshaller.Set(JSObject, key, value);
+        set => TAccessor.Set(JSObject, key, value);
     }
 
     public ICollection<string> Keys => throw new NotImplementedException();
@@ -34,8 +34,17 @@ public class Record<TValue, TMarshaller>(JSObject obj) : JSObjectProxy(obj), IEn
 
     public bool Remove(string key) => JSObject.DeleteProperty(key);
 
-    public bool TryGetValue(string key, [MaybeNullWhen(false)] out TValue value) =>
-        TMarshaller.TryGetValue(JSObject, key, out value);
+    public bool TryGetValue(string key, [MaybeNullWhen(false)] out TValue value)
+    {
+        if (!ContainsKey(key))
+        {
+            value = default;
+            return false;
+        }
+
+        value = TAccessor.Get(JSObject, key);
+        return true;
+    }
 
     public IEnumerator<KeyValuePair<string, TValue>> GetEnumerator()
     {

@@ -26,17 +26,9 @@ public class GenericMarshallerGenerator(
                             [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
                             private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string constructorName);
 
-                            [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("wrapPromiseValue", "iskra")]
-                            private static partial global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> WrapPromiseValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj);
-
-                            [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("unwrapPromiseValue", "iskra")]
-                            private static partial global::System.Runtime.InteropServices.JavaScript.JSObject UnwrapPromiseValue(global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> task);
-
                         {{GenerateArrayLikeElementClass().IndentLines(4)}}
 
                         {{GenerateUnionClass().IndentLines(4)}}
-
-                        {{GenerateRecordClass().IndentLines(4)}}
                         }
 
                         #nullable disable
@@ -66,7 +58,6 @@ public class GenericMarshallerGenerator(
             SequenceTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.ArrayLikeElement",
             PromiseTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Promise",
             UnionTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Union",
-            RecordTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Record",
             _ => throw new NotSupportedException($"Type {input} is not supported.")
         };
 
@@ -190,78 +181,6 @@ public class GenericMarshallerGenerator(
         return content;
     }
 
-    private string GenerateRecordClass()
-    {
-        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
-
-        List<IDLTypeDescription> generatedValueTypes = [];
-
-        List<string> interfaceParts = [];
-        List<string> bodyParts = [];
-
-        // Do not convert to foreach, new item could be added during iteration.
-        for (var i = 0; i < _marshallers.Count; i++)
-        {
-            var marshaller = _marshallers[i];
-
-            if (marshaller.Key is not RecordTypeDescription recordTypeDescription)
-            {
-                continue;
-            }
-
-            var valueType = recordTypeDescription.IdlType.Skip(1).Single();
-
-            if (generatedValueTypes.Any(x => IDLTypeDescriptionEqualityComparer.Instance.Equals(x, valueType)))
-            {
-                continue;
-            }
-
-            generatedValueTypes.Add(valueType);
-
-            var valueTypeDecl = toTypeDeclarationGenerator.Generate(valueType);
-
-            var interfacePart = $"global::Iskra.JSCore.Generics.IRecordValueMarshaller<{valueTypeDecl}>";
-            interfaceParts.Add(interfacePart);
-
-            var bodyPart = $$"""
-                             static bool {{interfacePart}}.TryGetValue(
-                                 global::System.Runtime.InteropServices.JavaScript.JSObject record,
-                                 string key,
-                                 [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out {{valueTypeDecl}} value
-                             )
-                             {
-                                 throw new NotImplementedException();
-                             }
-
-                             static void {{interfacePart}}.Set(global::System.Runtime.InteropServices.JavaScript.JSObject record, string key, {{valueTypeDecl}} value)
-                             {
-                                 throw new NotImplementedException();
-                             }
-                             """;
-
-            bodyParts.Add(bodyPart);
-        }
-
-        var interfaces = string.Join(",\n", interfaceParts);
-        var body = string.Join("\n\n", bodyParts);
-
-        var inheritance = interfaceParts.Count > 0
-            ? $$"""
-                :
-                {{interfaces.IndentLines(4)}}
-                """
-            : string.Empty;
-
-        var content = $$"""
-                        public class Record{{inheritance}}
-                        {
-                        {{body.IndentLines(4)}}
-                        }
-                        """;
-
-        return content;
-    }
-
     private string GenerateUnionClass()
     {
         var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
@@ -328,71 +247,6 @@ public class GenericMarshallerGenerator(
 
         return content;
     }
-
-    private string GenerateToManagedPromise(PromiseTypeDescription inpuit)
-    {
-        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
-        var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
-
-        var elementType = inpuit.IdlType.Single();
-        var returnTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType, true);
-
-        var taskVar = VariableName.Current.GetNext("task");
-        var resVar = VariableName.Current.GetNext("res");
-
-        var getValueContent = getPropertyValueGenerator.Generate(
-            inputVar: taskVar,
-            type: elementType,
-            propertyNameVar: "\"value\"",
-            outputVar: resVar
-        );
-
-        return $$"""
-                 using global::System.Runtime.InteropServices.JavaScript.JSObject {{taskVar}} = await global::{{genSettings.Namespace}}.GenericMarshaller.WrapPromiseValue(input);
-                 {{returnTypeDeclaration}} {{resVar}};
-                 {{getValueContent}}
-                 return {{resVar}};
-                 """;
-    }
-
-    private string GenerateToJSPromise(PromiseTypeDescription input)
-    {
-        var setPropertyValueGenerator = provider.GetRequiredService<SetPropertyValueGenerator>();
-
-        var toTypeDeclarationGenerator =
-            provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
-
-        var elementType = input.IdlType.Single();
-        var wrapperObjectVar = VariableName.Current.GetNext("wrapperObject");
-        var resVar = VariableName.Current.GetNext("res");
-        var taskVar = VariableName.Current.GetNext("task");
-        var awaitedValueVar = VariableName.Current.GetNext("awaitedValue");
-        var setValueFunctionName = VariableName.Current.GetNext("WrapTask");
-
-        var elementTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType, true);
-        var taskTypeDeclaration = toTypeDeclarationGenerator.Generate(input, true);
-
-        var setValueContent = setPropertyValueGenerator.Generate(
-            inputVar: wrapperObjectVar,
-            valueVar: awaitedValueVar,
-            type: elementType,
-            propertyNameVar: "\"value\""
-        );
-
-        return $$"""
-                 static async global::System.Threading.Tasks.Task<global::System.Runtime.InteropServices.JavaScript.JSObject> {{setValueFunctionName}}({{taskTypeDeclaration}} {{taskVar}})
-                 {
-                     global::System.Runtime.InteropServices.JavaScript.JSObject {{wrapperObjectVar}} = global::{{genSettings.Namespace}}.GenericMarshaller.ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-                     {{elementTypeDeclaration}} {{awaitedValueVar}} = await {{taskVar}};
-                     {{setValueContent.IndentLines(4)}}
-                     return {{wrapperObjectVar}};
-                 }
-
-                 global::System.Runtime.InteropServices.JavaScript.JSObject {{resVar}} = global::{{genSettings.Namespace}}.GenericMarshaller.UnwrapPromiseValue({{setValueFunctionName}}(input));
-                 return {{resVar}};
-                 """;
-    }
-
 
     private string GenerateToManagedUnion(IDLTypeDescription input)
     {

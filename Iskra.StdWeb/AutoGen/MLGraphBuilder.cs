@@ -26,7 +26,7 @@ public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLGraph, global::Iskra.StdWeb.PropertyAccessor> Build(global::Iskra.JSCore.Generics.Record<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.Record> outputs)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLGraph, global::Iskra.StdWeb.PropertyAccessor> Build(global::Iskra.JSCore.Generics.Record<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.PropertyAccessor> outputs)
     {
         throw new global::System.Exception();
     }

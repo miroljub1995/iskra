@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class MLContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public void Dispatch(global::Iskra.StdWeb.MLGraph graph, global::Iskra.JSCore.Generics.Record<global::Iskra.StdWeb.MLTensor, global::Iskra.StdWeb.GenericMarshaller.Record> inputs, global::Iskra.JSCore.Generics.Record<global::Iskra.StdWeb.MLTensor, global::Iskra.StdWeb.GenericMarshaller.Record> outputs)
+    public void Dispatch(global::Iskra.StdWeb.MLGraph graph, global::Iskra.JSCore.Generics.Record<global::Iskra.StdWeb.MLTensor, global::Iskra.StdWeb.PropertyAccessor> inputs, global::Iskra.JSCore.Generics.Record<global::Iskra.StdWeb.MLTensor, global::Iskra.StdWeb.PropertyAccessor> outputs)
     {
         throw new global::System.Exception();
     }

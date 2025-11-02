@@ -41,7 +41,7 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
         throw new global::System.Exception();
     }
 
-    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Record<bool, global::Iskra.StdWeb.GenericMarshaller.Record>, global::Iskra.StdWeb.PropertyAccessor> GetClientCapabilities()
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Record<bool, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetClientCapabilities()
     {
         throw new global::System.Exception();
     }

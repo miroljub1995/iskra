@@ -251,7 +251,7 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.UserActivation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "userActivation");
     }
 
-    public global::Iskra.JSCore.Promise DeprecatedReplaceInURN(global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.Union> urnOrConfig, global::Iskra.JSCore.Generics.Record<string, global::Iskra.StdWeb.GenericMarshaller.Record> replacements)
+    public global::Iskra.JSCore.Promise DeprecatedReplaceInURN(global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.Union> urnOrConfig, global::Iskra.JSCore.Generics.Record<string, global::Iskra.StdWeb.PropertyAccessor> replacements)
     {
         throw new global::System.Exception();
     }

@@ -11,7 +11,7 @@ public partial class InterestGroupReportingScriptRunnerGlobalScope(global::Syste
         throw new global::System.Exception();
     }
 
-    public void RegisterAdBeacon(global::Iskra.JSCore.Generics.Record<string, global::Iskra.StdWeb.GenericMarshaller.Record> map)
+    public void RegisterAdBeacon(global::Iskra.JSCore.Generics.Record<string, global::Iskra.StdWeb.PropertyAccessor> map)
     {
         throw new global::System.Exception();
     }
