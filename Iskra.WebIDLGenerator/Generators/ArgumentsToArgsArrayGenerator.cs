@@ -16,7 +16,7 @@ public class ArgumentsToArgsArrayGenerator(
     )
     {
         var setPropertyValueGenerator = provider.GetRequiredService<SetPropertyValueGenerator>();
-        var idlToTypeDescripor = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+        var idlToTypeDescriptor = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
 
         List<string> parts = [];
 
@@ -63,7 +63,7 @@ public class ArgumentsToArgsArrayGenerator(
                     propertyNameVar: $"{i} + {indexVar}"
                 );
 
-                var argType = idlToTypeDescripor.Generate(arg.IdlType);
+                var argType = idlToTypeDescriptor.Generate(arg.IdlType);
 
                 parts.Add(
                     $$"""
