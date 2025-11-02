@@ -18,7 +18,29 @@ public partial class AnimationTimeline(global::System.Runtime.InteropServices.Ja
 
     public global::Iskra.StdWeb.Animation Play(global::Iskra.StdWeb.AnimationEffect? effect)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_1;
+        if (effect is null)
+        {
+            ___marshalledValue_1 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.AnimationEffect ___notNullable_2 = (global::Iskra.StdWeb.AnimationEffect)effect;
+            ___marshalledValue_1 = ___notNullable_2.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "play", JSObject, __argsArray_0.JSObject, __resOwner_1.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Animation, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_1.JSObject, "value");
     }
 }
 

@@ -8,12 +8,26 @@ public partial class WorkletAnimationEffect(global::System.Runtime.InteropServic
 {
     public global::Iskra.StdWeb.EffectTiming GetTiming()
     {
-        throw new global::System.Exception();
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_21 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTiming", JSObject, __resOwner_21.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EffectTiming, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_21.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.ComputedEffectTiming GetComputedTiming()
     {
-        throw new global::System.Exception();
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_24 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getComputedTiming", JSObject, __resOwner_24.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ComputedEffectTiming, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_24.JSObject, "value");
     }
 
     public double? LocalTime

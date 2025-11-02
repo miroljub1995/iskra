@@ -18,7 +18,11 @@ public partial class CSSParserQualifiedRule(global::System.Runtime.InteropServic
 
     public void _()
     {
-        throw new global::System.Exception();
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __resOwner_4.JSObject);
     }
 }
 

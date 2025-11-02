@@ -13,7 +13,44 @@ public partial class TextEvent(global::System.Runtime.InteropServices.JavaScript
 
     public void InitTextEvent(string type, bool bubbles, bool cancelable, global::Iskra.StdWeb.Window? view, string data)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 5;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_21 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_21.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        bool ___marshalledValue_2;
+        ___marshalledValue_2 = bubbles;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_21.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        bool ___marshalledValue_3;
+        ___marshalledValue_3 = cancelable;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_21.JSObject, 2, ___marshalledValue_3);
+
+        // Argument 4
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        if (view is null)
+        {
+            ___marshalledValue_4 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)view;
+            ___marshalledValue_4 = ___notNullable_5.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_21.JSObject, 3, ___marshalledValue_4);
+
+        // Argument 5
+        string ___marshalledValue_6;
+        ___marshalledValue_6 = data;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_21.JSObject, 4, ___marshalledValue_6);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initTextEvent", JSObject, __argsArray_21.JSObject);
     }
 }
 

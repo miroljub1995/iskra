@@ -10,24 +10,24 @@ public partial class FileSystemEntriesCallback(global::System.Runtime.InteropSer
 {
     public static implicit operator FileSystemEntriesCallback(FileSystemEntriesCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_20) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_35) =>
         {
-            using (__args_20)
+            using (__args_35)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.PropertyAccessor> __arg_22;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_23;
-                __propObject_23 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_20, 0);
-                __arg_22 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.PropertyAccessor>(__propObject_23);
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.PropertyAccessor> __arg_37;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_38;
+                __propObject_38 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_35, 0);
+                __arg_37 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.PropertyAccessor>(__propObject_38);
 
-                input(__arg_22);
+                input(__arg_37);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_24 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_24, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_39 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_39, input);
 
-        return new global::Iskra.StdWeb.FileSystemEntriesCallback(__funcObj_24);
+        return new global::Iskra.StdWeb.FileSystemEntriesCallback(__funcObj_39);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.FileSystemEntriesCallbackManaged? managed, bool allowConversion = false)
@@ -45,15 +45,15 @@ public partial class FileSystemEntriesCallback(global::System.Runtime.InteropSer
 
         managed = (entries) =>
         {
-            int __argsArrayLength_28 = 1;
+            int __argsArrayLength_43 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_25 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_28);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_40 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_43);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_29 = entries.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_25.JSObject, 0, __propObject_29);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_44 = entries.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_40.JSObject, 0, __propObject_44);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_25.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_40.JSObject);
         };
         return true;
     }

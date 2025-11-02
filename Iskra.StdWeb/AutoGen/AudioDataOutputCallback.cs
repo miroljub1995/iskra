@@ -10,23 +10,23 @@ public partial class AudioDataOutputCallback(global::System.Runtime.InteropServi
 {
     public static implicit operator AudioDataOutputCallback(AudioDataOutputCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_0) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_18) =>
         {
-            using (__args_0)
+            using (__args_18)
             {
                 // Argument 1
-                global::Iskra.StdWeb.AudioData __arg_2;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_0, 0);
-                __arg_2 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioData>(__res_3);
+                global::Iskra.StdWeb.AudioData __arg_20;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_21 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_18, 0);
+                __arg_20 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioData>(__res_21);
 
-                input(__arg_2);
+                input(__arg_20);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_4 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_4, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_22 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_22, input);
 
-        return new global::Iskra.StdWeb.AudioDataOutputCallback(__funcObj_4);
+        return new global::Iskra.StdWeb.AudioDataOutputCallback(__funcObj_22);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.AudioDataOutputCallbackManaged? managed, bool allowConversion = false)
@@ -44,16 +44,16 @@ public partial class AudioDataOutputCallback(global::System.Runtime.InteropServi
 
         managed = (output) =>
         {
-            int __argsArrayLength_8 = 1;
+            int __argsArrayLength_26 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_5 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_8);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_23 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_26);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_9;
-            __marshalledValue_9 = output.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_5.JSObject, 0, __marshalledValue_9);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_27;
+            __marshalledValue_27 = output.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_23.JSObject, 0, __marshalledValue_27);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_5.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_23.JSObject);
         };
         return true;
     }

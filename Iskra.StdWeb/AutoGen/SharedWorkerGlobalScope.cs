@@ -13,7 +13,9 @@ public partial class SharedWorkerGlobalScope(global::System.Runtime.InteropServi
 
     public void Close()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "close", JSObject);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onconnect

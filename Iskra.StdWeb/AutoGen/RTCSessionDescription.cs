@@ -18,7 +18,14 @@ public partial class RTCSessionDescription(global::System.Runtime.InteropService
 
     public global::Iskra.StdWeb.RTCSessionDescriptionInit ToJSON()
     {
-        throw new global::System.Exception();
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_96 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_96.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCSessionDescriptionInit, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_96.JSObject, "value");
     }
 }
 

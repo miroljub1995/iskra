@@ -88,7 +88,14 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
 
     public global::Iskra.StdWeb.RTCIceCandidateInit ToJSON()
     {
-        throw new global::System.Exception();
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_99 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_99.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCIceCandidateInit, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_99.JSObject, "value");
     }
 }
 

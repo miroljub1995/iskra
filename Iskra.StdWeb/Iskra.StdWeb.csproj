@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <NoWarn>$(NoWarn);CS0108</NoWarn>
     </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\Iskra.JSCore\Iskra.JSCore.csproj"/>

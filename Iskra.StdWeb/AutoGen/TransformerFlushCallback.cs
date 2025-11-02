@@ -10,27 +10,27 @@ public partial class TransformerFlushCallback(global::System.Runtime.InteropServ
 {
     public static implicit operator TransformerFlushCallback(TransformerFlushCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_111, __res_116) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_195, __res_200) =>
         {
-            using (__args_111)
-            using (__res_116)
+            using (__args_195)
+            using (__res_200)
             {
                 // Argument 1
-                global::Iskra.StdWeb.TransformStreamDefaultController __arg_113;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_114 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_111, 0);
-                __arg_113 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TransformStreamDefaultController>(__res_114);
+                global::Iskra.StdWeb.TransformStreamDefaultController __arg_197;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_198 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_195, 0);
+                __arg_197 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TransformStreamDefaultController>(__res_198);
 
-                global::Iskra.JSCore.Promise __managedRes_117 = input(__arg_113);
+                global::Iskra.JSCore.Promise __managedRes_201 = input(__arg_197);
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_118 = __managedRes_117.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_116, "value", __propObject_118);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_202 = __managedRes_201.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_200, "value", __propObject_202);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_115 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_115, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_199 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_199, input); 
 
-        return new global::Iskra.StdWeb.TransformerFlushCallback(__funcObj_115);
+        return new global::Iskra.StdWeb.TransformerFlushCallback(__funcObj_199);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.TransformerFlushCallbackManaged? managed, bool allowConversion = false)
@@ -48,25 +48,25 @@ public partial class TransformerFlushCallback(global::System.Runtime.InteropServ
 
         managed = (controller) =>
         {
-            int __argsArrayLength_122 = 1;
+            int __argsArrayLength_206 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_119 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_122);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_203 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_206);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_123;
-            __marshalledValue_123 = controller.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_119.JSObject, 0, __marshalledValue_123);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_207;
+            __marshalledValue_207 = controller.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_203.JSObject, 0, __marshalledValue_207);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_120 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_204 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_119.JSObject, __resOwner_120.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_203.JSObject, __resOwner_204.JSObject);
 
             // Return Value
-            global::Iskra.JSCore.Promise __res_121;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_124;
-            __propObject_124 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_120.JSObject, "value");
-            __res_121 = new global::Iskra.JSCore.Promise(__propObject_124);
-            return __res_121;
+            global::Iskra.JSCore.Promise __res_205;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_208;
+            __propObject_208 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_204.JSObject, "value");
+            __res_205 = new global::Iskra.JSCore.Promise(__propObject_208);
+            return __res_205;
         };
         return true;
     }

@@ -34,12 +34,22 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
 
     public void Stop()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "stop", JSObject);
     }
 
     public void SetCodecPreferences(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpCodec, global::Iskra.StdWeb.PropertyAccessor> codecs)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_140 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = codecs.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_140.JSObject, 0, ___propObject_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setCodecPreferences", JSObject, __argsArray_140.JSObject);
     }
 }
 

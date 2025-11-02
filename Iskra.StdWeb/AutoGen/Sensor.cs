@@ -23,12 +23,16 @@ public partial class Sensor(global::System.Runtime.InteropServices.JavaScript.JS
 
     public void Start()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "start", JSObject);
     }
 
     public void Stop()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "stop", JSObject);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onreading

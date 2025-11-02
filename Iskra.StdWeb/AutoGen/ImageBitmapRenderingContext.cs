@@ -13,7 +13,24 @@ public partial class ImageBitmapRenderingContext(global::System.Runtime.InteropS
 
     public void TransferFromImageBitmap(global::Iskra.StdWeb.ImageBitmap? bitmap)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_582 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_1;
+        if (bitmap is null)
+        {
+            ___marshalledValue_1 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.ImageBitmap ___notNullable_2 = (global::Iskra.StdWeb.ImageBitmap)bitmap;
+            ___marshalledValue_1 = ___notNullable_2.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_582.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "transferFromImageBitmap", JSObject, __argsArray_582.JSObject);
     }
 }
 

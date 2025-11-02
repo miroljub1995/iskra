@@ -13,7 +13,9 @@ public partial class CanvasCaptureMediaStreamTrack(global::System.Runtime.Intero
 
     public void RequestFrame()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "requestFrame", JSObject);
     }
 }
 

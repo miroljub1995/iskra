@@ -8,7 +8,9 @@ public partial class GPUQuerySet(global::System.Runtime.InteropServices.JavaScri
 {
     public void Destroy()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 
     public global::Iskra.StdWeb.GPUQueryType Type

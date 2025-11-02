@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class BeforeUnloadEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public new string ReturnValue
+    public string ReturnValue
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "returnValue");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "returnValue", value);

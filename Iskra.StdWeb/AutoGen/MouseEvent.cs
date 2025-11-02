@@ -113,12 +113,121 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
 
     public bool GetModifierState(string keyArg)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = keyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_3.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getModifierState", JSObject, __argsArray_3.JSObject, __resOwner_4.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_4.JSObject, "value");
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg, int screenXArg, int screenYArg, int clientXArg, int clientYArg, bool ctrlKeyArg, bool altKeyArg, bool shiftKeyArg, bool metaKeyArg, short buttonArg, global::Iskra.StdWeb.EventTarget? relatedTargetArg)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 15;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_6.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        bool ___marshalledValue_2;
+        ___marshalledValue_2 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_6.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        bool ___marshalledValue_3;
+        ___marshalledValue_3 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_6.JSObject, 2, ___marshalledValue_3);
+
+        // Argument 4
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        if (viewArg is null)
+        {
+            ___marshalledValue_4 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_4 = ___notNullable_5.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_6.JSObject, 3, ___marshalledValue_4);
+
+        // Argument 5
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_6.JSObject, 4, ___marshalledValue_6);
+
+        // Argument 6
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = Convert.ToDouble(screenXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_6.JSObject, 5, ___marshalledValue_7);
+
+        // Argument 7
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(screenYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_6.JSObject, 6, ___marshalledValue_8);
+
+        // Argument 8
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(clientXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_6.JSObject, 7, ___marshalledValue_9);
+
+        // Argument 9
+        double ___marshalledValue_10;
+        ___marshalledValue_10 = Convert.ToDouble(clientYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_6.JSObject, 8, ___marshalledValue_10);
+
+        // Argument 10
+        bool ___marshalledValue_11;
+        ___marshalledValue_11 = ctrlKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_6.JSObject, 9, ___marshalledValue_11);
+
+        // Argument 11
+        bool ___marshalledValue_12;
+        ___marshalledValue_12 = altKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_6.JSObject, 10, ___marshalledValue_12);
+
+        // Argument 12
+        bool ___marshalledValue_13;
+        ___marshalledValue_13 = shiftKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_6.JSObject, 11, ___marshalledValue_13);
+
+        // Argument 13
+        bool ___marshalledValue_14;
+        ___marshalledValue_14 = metaKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_6.JSObject, 12, ___marshalledValue_14);
+
+        // Argument 14
+        double ___marshalledValue_15;
+        ___marshalledValue_15 = Convert.ToDouble(buttonArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_6.JSObject, 13, ___marshalledValue_15);
+
+        // Argument 15
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_16;
+        if (relatedTargetArg is null)
+        {
+            ___marshalledValue_16 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.EventTarget ___notNullable_17 = (global::Iskra.StdWeb.EventTarget)relatedTargetArg;
+            ___marshalledValue_16 = ___notNullable_17.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_6.JSObject, 14, ___marshalledValue_16);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_6.JSObject);
     }
 }
 

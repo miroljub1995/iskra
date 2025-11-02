@@ -49,12 +49,23 @@ public partial class SVGMarkerElement(global::System.Runtime.InteropServices.Jav
 
     public void SetOrientToAuto()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "setOrientToAuto", JSObject);
     }
 
     public void SetOrientToAngle(global::Iskra.StdWeb.SVGAngle angle)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_282 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = angle.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_282.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setOrientToAngle", JSObject, __argsArray_282.JSObject);
     }
 
     public global::Iskra.StdWeb.SVGAnimatedRect ViewBox

@@ -8,7 +8,21 @@ public partial class XRReferenceSpace(global::System.Runtime.InteropServices.Jav
 {
     public global::Iskra.StdWeb.XRReferenceSpace GetOffsetReferenceSpace(global::Iskra.StdWeb.XRRigidTransform originOffset)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_91 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = originOffset.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_91.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_92 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getOffsetReferenceSpace", JSObject, __argsArray_91.JSObject, __resOwner_92.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRReferenceSpace, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_92.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onreset

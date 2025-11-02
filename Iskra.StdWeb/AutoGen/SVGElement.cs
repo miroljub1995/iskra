@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SVGElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Element(obj)
 {
-    public new global::Iskra.StdWeb.SVGAnimatedString ClassName
+    public global::Iskra.StdWeb.SVGAnimatedString ClassName
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedString, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "className");
     }
@@ -686,12 +686,23 @@ public partial class SVGElement(global::System.Runtime.InteropServices.JavaScrip
 
     public void Focus(global::Iskra.StdWeb.FocusOptions options)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "focus", JSObject, __argsArray_0.JSObject);
     }
 
     public void Blur()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "blur", JSObject);
     }
 
     public global::Iskra.StdWeb.StylePropertyMap AttributeStyleMap

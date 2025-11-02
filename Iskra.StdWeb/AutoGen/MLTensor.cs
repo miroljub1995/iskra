@@ -33,7 +33,9 @@ public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.
 
     public void Destroy()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 }
 

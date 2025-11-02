@@ -8,7 +8,9 @@ public partial class XRHitTestSource(global::System.Runtime.InteropServices.Java
 {
     public void Cancel()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "cancel", JSObject);
     }
 }
 

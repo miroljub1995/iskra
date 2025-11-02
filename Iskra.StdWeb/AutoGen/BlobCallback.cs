@@ -10,31 +10,31 @@ public partial class BlobCallback(global::System.Runtime.InteropServices.JavaScr
 {
     public static implicit operator BlobCallback(BlobCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_0) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_363) =>
         {
-            using (__args_0)
+            using (__args_363)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Blob? __arg_2;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(__args_0, 0);
-                if (__res_3 is null)
+                global::Iskra.StdWeb.Blob? __arg_365;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __res_366 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(__args_363, 0);
+                if (__res_366 is null)
                 {
-                    __arg_2 = null;
+                    __arg_365 = null;
                 }
                 else
                 {
-                    global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3;
-                    __arg_2 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Blob>(__notNullable_4);
+                    global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_367 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_366;
+                    __arg_365 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Blob>(__notNullable_367);
                 }
 
-                input(__arg_2);
+                input(__arg_365);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_5 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_5, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_368 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_368, input);
 
-        return new global::Iskra.StdWeb.BlobCallback(__funcObj_5);
+        return new global::Iskra.StdWeb.BlobCallback(__funcObj_368);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.BlobCallbackManaged? managed, bool allowConversion = false)
@@ -52,24 +52,24 @@ public partial class BlobCallback(global::System.Runtime.InteropServices.JavaScr
 
         managed = (blob) =>
         {
-            int __argsArrayLength_9 = 1;
+            int __argsArrayLength_372 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_9);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_369 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_372);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_373;
             if (blob is null)
             {
-                __marshalledValue_10 = null;
+                __marshalledValue_373 = null;
             }
             else
             {
-                global::Iskra.StdWeb.Blob __notNullable_11 = (global::Iskra.StdWeb.Blob)blob;
-                __marshalledValue_10 = __notNullable_11.JSObject;
+                global::Iskra.StdWeb.Blob __notNullable_374 = (global::Iskra.StdWeb.Blob)blob;
+                __marshalledValue_373 = __notNullable_374.JSObject;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_6.JSObject, 0, __marshalledValue_10);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_369.JSObject, 0, __marshalledValue_373);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_6.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_369.JSObject);
         };
         return true;
     }

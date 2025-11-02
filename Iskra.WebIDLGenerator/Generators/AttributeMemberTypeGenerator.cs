@@ -5,8 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class AttributeMemberTypeGenerator(
-    IServiceProvider provider,
-    GenTypeDescriptors descriptors
+    IServiceProvider provider
 )
 {
     public string Generate(AttributeMemberType input, string containingTypeName)
@@ -19,7 +18,6 @@ public class AttributeMemberTypeGenerator(
 
         var isStatic = input.Special == AttributeSpecial.Static;
         var staticKeyword = isStatic ? " static" : "";
-        var newKeyword = HidesAccessibleMember(input, containingTypeName, isStatic) ? " new" : "";
 
         var name = GetValidPropertyName(input.Name, containingTypeName);
 
@@ -59,7 +57,7 @@ public class AttributeMemberTypeGenerator(
         var body = string.Join("\n", bodyParts);
 
         var content = $$"""
-                        public{{staticKeyword}}{{newKeyword}} {{returnTypeDeclaration}} {{name}}
+                        public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}
                         {
                         {{body.IndentLines(4)}}
                         }
@@ -77,53 +75,5 @@ public class AttributeMemberTypeGenerator(
         }
 
         return name;
-    }
-
-    private bool HidesAccessibleMember(AttributeMemberType input, string containingTypeName, bool isStatic)
-    {
-        if (!descriptors.TryGet(containingTypeName, out var desc))
-        {
-            return false;
-        }
-
-        if (desc.RootType is not InterfaceType interfaceType)
-        {
-            return false;
-        }
-
-        if (interfaceType.Inheritance is null)
-        {
-            return false;
-        }
-
-        return TypeHasProperty(interfaceType.Inheritance, input.Name, isStatic);
-    }
-
-    private bool TypeHasProperty(string typeName, string propertyName, bool isStatic)
-    {
-        if (!descriptors.TryGet(typeName, out var desc))
-        {
-            return false;
-        }
-
-        if (desc.RootType is not InterfaceType interfaceType)
-        {
-            return false;
-        }
-
-        if (interfaceType.Members.Any(x =>
-                x is AttributeMemberType attr && (isStatic && attr.Special == AttributeSpecial.Static ||
-                                                  !isStatic && attr.Special != AttributeSpecial.Static) &&
-                attr.Name == propertyName))
-        {
-            return true;
-        }
-
-        if (interfaceType.Inheritance is not null)
-        {
-            return TypeHasProperty(interfaceType.Inheritance, propertyName, isStatic);
-        }
-
-        return false;
     }
 }

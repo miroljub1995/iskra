@@ -33,7 +33,24 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
 
     public void RequestViewportScale(double? scale)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_94 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double? ___marshalledValue_1;
+        if (scale is null)
+        {
+            ___marshalledValue_1 = null;
+        }
+        else
+        {
+            double ___notNullable_2 = (double)scale;
+            ___marshalledValue_1 = ___notNullable_2;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(__argsArray_94.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "requestViewportScale", JSObject, __argsArray_94.JSObject);
     }
 
     public global::Iskra.JSCore.Float32Array ProjectionMatrix

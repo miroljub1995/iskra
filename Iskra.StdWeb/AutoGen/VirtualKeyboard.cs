@@ -8,12 +8,16 @@ public partial class VirtualKeyboard(global::System.Runtime.InteropServices.Java
 {
     public void Show()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "show", JSObject);
     }
 
     public void Hide()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "hide", JSObject);
     }
 
     public global::Iskra.StdWeb.DOMRect BoundingRect

@@ -8,7 +8,49 @@ public partial class OVR_multiview2(global::System.Runtime.InteropServices.JavaS
 {
     public void FramebufferTextureMultiviewOVR(uint target, uint attachment, global::Iskra.StdWeb.WebGLTexture? texture, int level, int baseViewIndex, int numViews)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 6;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = Convert.ToDouble(target);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(attachment);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_0.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_3;
+        if (texture is null)
+        {
+            ___marshalledValue_3 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.WebGLTexture ___notNullable_4 = (global::Iskra.StdWeb.WebGLTexture)texture;
+            ___marshalledValue_3 = ___notNullable_4.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_0.JSObject, 2, ___marshalledValue_3);
+
+        // Argument 4
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = Convert.ToDouble(level);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_0.JSObject, 3, ___marshalledValue_5);
+
+        // Argument 5
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = Convert.ToDouble(baseViewIndex);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_0.JSObject, 4, ___marshalledValue_6);
+
+        // Argument 6
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = Convert.ToDouble(numViews);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_0.JSObject, 5, ___marshalledValue_7);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "framebufferTextureMultiviewOVR", JSObject, __argsArray_0.JSObject);
     }
 }
 

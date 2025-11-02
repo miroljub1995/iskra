@@ -8,12 +8,16 @@ public partial class External(global::System.Runtime.InteropServices.JavaScript.
 {
     public void AddSearchProvider()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "AddSearchProvider", JSObject);
     }
 
     public void IsSearchProviderInstalled()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "IsSearchProviderInstalled", JSObject);
     }
 }
 

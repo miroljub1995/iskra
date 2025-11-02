@@ -8,22 +8,67 @@ public partial class StylePropertyMap(global::System.Runtime.InteropServices.Jav
 {
     public void Set(string property, params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSStyleValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = values.Length + 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_18 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = property;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_18.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        for (int ___i_2 = 0; ___i_2 < values.Length; ___i_2++)
+        {
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSStyleValue, string, global::Iskra.StdWeb.GenericMarshaller.Union> ___elem_3 = values[___i_2];
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = ___elem_3.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_18.JSObject, 1 + ___i_2, ___propObject_4);
+        }
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "set", JSObject, __argsArray_18.JSObject);
     }
 
     public void Append(string property, params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSStyleValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = values.Length + 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_21 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = property;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_21.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        for (int ___i_2 = 0; ___i_2 < values.Length; ___i_2++)
+        {
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSStyleValue, string, global::Iskra.StdWeb.GenericMarshaller.Union> ___elem_3 = values[___i_2];
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = ___elem_3.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_21.JSObject, 1 + ___i_2, ___propObject_4);
+        }
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "append", JSObject, __argsArray_21.JSObject);
     }
 
     public void Delete(string property)
     {
-        throw new global::System.Exception();
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_24 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = property;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_24.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "delete", JSObject, __argsArray_24.JSObject);
     }
 
     public void Clear()
     {
-        throw new global::System.Exception();
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "clear", JSObject);
     }
 }
 

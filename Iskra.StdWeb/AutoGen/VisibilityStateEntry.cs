@@ -6,22 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class VisibilityStateEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
 {
-    public new string Name
+    public string Name
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
-    public new string EntryType
+    public string EntryType
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "entryType");
     }
 
-    public new double StartTime
+    public double StartTime
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "startTime");
     }
 
-    public new uint Duration
+    public uint Duration
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "duration");
     }
