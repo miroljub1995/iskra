@@ -194,84 +194,95 @@ public class PropertyAccessorGenerator(
                 continue;
             }
 
-            var elementVar = VariableName.Current.GetNext("element");
+            var elementTypeDesc = toTypeDeclarationGenerator.Generate(accessor.Key);
+
+            var interfacePart = $"global::Iskra.JSCore.Generics.IPropertyAccessor<{elementTypeDesc}>";
+            interfaceParts.Add(interfacePart);
 
             string getByIndexElementContent;
             using (VariableName.CreateScope())
             {
+                var elementVar = VariableName.Current.GetNext("element");
+
                 getByIndexElementContent = getPropertyValueGenerator.Generate(
                     inputVar: "obj",
                     type: accessor.Key,
                     propertyNameVar: "propertyIndex",
                     outputVar: elementVar
                 );
+
+                var bodyPart = $$"""
+                                 static {{elementTypeDesc}} {{interfacePart}}.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+                                 {
+                                     {{elementTypeDesc}} {{elementVar}};
+                                 {{getByIndexElementContent.IndentLines(4)}}
+                                     return {{elementVar}};
+                                 }
+                                 """;
+
+                bodyParts.Add(bodyPart);
             }
 
-            string getByNameElementContent;
             using (VariableName.CreateScope())
             {
-                getByNameElementContent = getPropertyValueGenerator.Generate(
+                var elementVar = VariableName.Current.GetNext("element");
+
+                var getByNameElementContent = getPropertyValueGenerator.Generate(
                     inputVar: "obj",
                     type: accessor.Key,
                     propertyNameVar: "propertyName",
                     outputVar: elementVar
                 );
+
+                var bodyPart = $$"""
+                                 static {{elementTypeDesc}} {{interfacePart}}.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+                                 {
+                                     {{elementTypeDesc}} {{elementVar}};
+                                 {{getByNameElementContent.IndentLines(4)}}
+                                     return {{elementVar}};
+                                 }
+                                 """;
+
+                bodyParts.Add(bodyPart);
             }
 
-            string setElementByIndexContent;
             using (VariableName.CreateScope())
             {
-                setElementByIndexContent = setPropertyValueGenerator.Generate(
+                var setElementByIndexContent = setPropertyValueGenerator.Generate(
                     inputVar: "obj",
                     valueVar: "value",
                     type: accessor.Key,
                     propertyNameVar: "propertyIndex"
                 );
+
+                var bodyPart = $$"""
+                                 static void {{interfacePart}}.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, {{elementTypeDesc}} value)
+                                 {
+                                 {{setElementByIndexContent.IndentLines(4)}}
+                                 }
+                                 """;
+
+                bodyParts.Add(bodyPart);
             }
 
-            string setElementByNameContent;
             using (VariableName.CreateScope())
             {
-                setElementByNameContent = setPropertyValueGenerator.Generate(
+                var setElementByNameContent = setPropertyValueGenerator.Generate(
                     inputVar: "obj",
                     valueVar: "value",
                     type: accessor.Key,
                     propertyNameVar: "propertyName"
                 );
+
+                var bodyPart = $$"""
+                                 static void {{interfacePart}}.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, {{elementTypeDesc}} value)
+                                 {
+                                 {{setElementByNameContent.IndentLines(4)}}
+                                 }
+                                 """;
+
+                bodyParts.Add(bodyPart);
             }
-
-            var elementTypeDesc = toTypeDeclarationGenerator.Generate(accessor.Key);
-
-            var interfacePart = $"global::Iskra.JSCore.Generics.IPropertyAccessor<{elementTypeDesc}>";
-            interfaceParts.Add(interfacePart);
-
-            var bodyPart = $$"""
-                             static {{elementTypeDesc}} {{interfacePart}}.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
-                             {
-                                 {{elementTypeDesc}} {{elementVar}};
-                             {{getByIndexElementContent.IndentLines(4)}}
-                                 return {{elementVar}};
-                             }
-
-                             static {{elementTypeDesc}} {{interfacePart}}.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
-                             {
-                                 {{elementTypeDesc}} {{elementVar}};
-                             {{getByNameElementContent.IndentLines(4)}}
-                                 return {{elementVar}};
-                             }
-
-                             static void {{interfacePart}}.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, {{elementTypeDesc}} value)
-                             {
-                             {{setElementByIndexContent.IndentLines(4)}}
-                             }
-
-                             static void {{interfacePart}}.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, {{elementTypeDesc}} value)
-                             {
-                             {{setElementByNameContent.IndentLines(4)}}
-                             }
-                             """;
-
-            bodyParts.Add(bodyPart);
         }
 
         var interfaces = string.Join(",\n", interfaceParts);

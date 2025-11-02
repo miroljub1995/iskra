@@ -10,18 +10,18 @@ public class PropertyAccessor:
 {
     static int global::Iskra.JSCore.Generics.IPropertyAccessor<int>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        int __element_0;
+        int ___element_0;
         double __res_447 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(obj, propertyIndex);
-        __element_0 = Convert.ToInt32(__res_447);
-        return __element_0;
+        ___element_0 = Convert.ToInt32(__res_447);
+        return ___element_0;
     }
 
     static int global::Iskra.JSCore.Generics.IPropertyAccessor<int>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        int __element_0;
+        int ___element_0;
         double __res_448 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(obj, propertyName);
-        __element_0 = Convert.ToInt32(__res_448);
-        return __element_0;
+        ___element_0 = Convert.ToInt32(__res_448);
+        return ___element_0;
     }
 
     static void global::Iskra.JSCore.Generics.IPropertyAccessor<int>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, int value)
@@ -40,18 +40,18 @@ public class PropertyAccessor:
 
     static string global::Iskra.JSCore.Generics.IPropertyAccessor<string>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        string __element_1;
+        string ___element_0;
         string __res_451 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(obj, propertyIndex);
-        __element_1 = __res_451;
-        return __element_1;
+        ___element_0 = __res_451;
+        return ___element_0;
     }
 
     static string global::Iskra.JSCore.Generics.IPropertyAccessor<string>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        string __element_1;
+        string ___element_0;
         string __res_452 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(obj, propertyName);
-        __element_1 = __res_452;
-        return __element_1;
+        ___element_0 = __res_452;
+        return ___element_0;
     }
 
     static void global::Iskra.JSCore.Generics.IPropertyAccessor<string>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, string value)
