@@ -26,12 +26,12 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCIceGathererState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gatheringState");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCIceCandidate, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetLocalCandidates()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCIceCandidate, global::Iskra.StdWeb.PropertyAccessor> GetLocalCandidates()
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCIceCandidate, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetRemoteCandidates()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCIceCandidate, global::Iskra.StdWeb.PropertyAccessor> GetRemoteCandidates()
     {
         throw new global::System.Exception();
     }

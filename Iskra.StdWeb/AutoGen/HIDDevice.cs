@@ -32,9 +32,9 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "productName");
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Collections
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.PropertyAccessor> Collections
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "collections");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "collections");
     }
 
     public global::Iskra.JSCore.Promise Open()

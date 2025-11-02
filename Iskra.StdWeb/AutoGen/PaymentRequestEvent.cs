@@ -21,9 +21,9 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "paymentRequestId");
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> MethodData
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.PropertyAccessor> MethodData
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "methodData");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentMethodData, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "methodData");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject Total
@@ -31,9 +31,9 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "total");
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Modifiers
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.PropertyAccessor> Modifiers
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "modifiers");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentDetailsModifier, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "modifiers");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject? PaymentOptions
@@ -41,9 +41,9 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::System.Runtime.InteropServices.JavaScript.JSObject?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "paymentOptions");
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? ShippingOptions
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.PropertyAccessor>? ShippingOptions
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "shippingOptions");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PaymentShippingOption, global::Iskra.StdWeb.PropertyAccessor>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "shippingOptions");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WindowClient?, global::Iskra.StdWeb.PropertyAccessorNullable> OpenWindow(string url)

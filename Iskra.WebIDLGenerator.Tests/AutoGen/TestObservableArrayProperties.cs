@@ -6,10 +6,10 @@ namespace Iskra.WebIDLGenerator.Tests;
 
 public partial class TestObservableArrayProperties(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.ObservableArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement> BoolObservableArray
+    public global::Iskra.JSCore.Generics.ObservableArray<bool, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor> BoolObservableArray
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.ObservableArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement>, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "boolObservableArray");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.ObservableArray<bool, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement>, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "boolObservableArray", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.ObservableArray<bool, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "boolObservableArray");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.ObservableArray<bool, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "boolObservableArray", value);
     }
 }
 

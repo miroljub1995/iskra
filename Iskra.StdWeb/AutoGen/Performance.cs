@@ -77,17 +77,17 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "interactionCount");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PerformanceEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetEntries()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PerformanceEntry, global::Iskra.StdWeb.PropertyAccessor> GetEntries()
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PerformanceEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetEntriesByType(string type)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PerformanceEntry, global::Iskra.StdWeb.PropertyAccessor> GetEntriesByType(string type)
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PerformanceEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetEntriesByName(string name, string type)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PerformanceEntry, global::Iskra.StdWeb.PropertyAccessor> GetEntriesByName(string name, string type)
     {
         throw new global::System.Exception();
     }

@@ -131,7 +131,7 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Promise ClearOriginJoinedAdInterestGroups(string owner, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> interestGroupsToKeep)
+    public global::Iskra.JSCore.Promise ClearOriginJoinedAdInterestGroups(string owner, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> interestGroupsToKeep)
     {
         throw new global::System.Exception();
     }
@@ -191,7 +191,7 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRSystem, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "xr");
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RelatedApplication, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetInstalledRelatedApps()
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RelatedApplication, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetInstalledRelatedApps()
     {
         throw new global::System.Exception();
     }
@@ -211,12 +211,12 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ServiceWorkerContainer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "serviceWorker");
     }
 
-    public bool Vibrate(global::Iskra.JSCore.Generics.Union<uint, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> pattern)
+    public bool Vibrate(global::Iskra.JSCore.Generics.Union<uint, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> pattern)
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Gamepad?, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetGamepads()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Gamepad?, global::Iskra.StdWeb.PropertyAccessorNullable> GetGamepads()
     {
         throw new global::System.Exception();
     }
@@ -236,7 +236,7 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.USB, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "usb");
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySystemAccess, global::Iskra.StdWeb.PropertyAccessor> RequestMediaKeySystemAccess(string keySystem, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaKeySystemConfiguration, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> supportedConfigurations)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySystemAccess, global::Iskra.StdWeb.PropertyAccessor> RequestMediaKeySystemAccess(string keySystem, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaKeySystemConfiguration, global::Iskra.StdWeb.PropertyAccessor> supportedConfigurations)
     {
         throw new global::System.Exception();
     }
@@ -261,7 +261,7 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> AdAuctionComponents(ushort numAdComponents)
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> AdAuctionComponents(ushort numAdComponents)
     {
         throw new global::System.Exception();
     }
@@ -406,9 +406,9 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "language");
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Languages
+    public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.PropertyAccessor> Languages
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "languages");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "languages");
     }
 
     public bool OnLine

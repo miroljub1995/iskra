@@ -21,7 +21,7 @@ public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.Inte
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PrivateAggregation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "privateAggregation");
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.StorageInterestGroup, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> InterestGroups()
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.StorageInterestGroup, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> InterestGroups()
     {
         throw new global::System.Exception();
     }

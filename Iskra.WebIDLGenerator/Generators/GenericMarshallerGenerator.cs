@@ -26,8 +26,6 @@ public class GenericMarshallerGenerator(
                             [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
                             private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string constructorName);
 
-                        {{GenerateArrayLikeElementClass().IndentLines(4)}}
-
                         {{GenerateUnionClass().IndentLines(4)}}
                         }
 
@@ -53,10 +51,6 @@ public class GenericMarshallerGenerator(
 
         var name = input switch
         {
-            FrozenArrayTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.ArrayLikeElement",
-            ObservableArrayTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.ArrayLikeElement",
-            SequenceTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.ArrayLikeElement",
-            PromiseTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Promise",
             UnionTypeDescription => $"global::{genSettings.Namespace}.GenericMarshaller.Union",
             _ => throw new NotSupportedException($"Type {input} is not supported.")
         };
@@ -77,108 +71,6 @@ public class GenericMarshallerGenerator(
         }
 
         return null;
-    }
-
-    private string GenerateArrayLikeElementClass()
-    {
-        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
-        var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
-        var setPropertyValueGenerator = provider.GetRequiredService<SetPropertyValueGenerator>();
-
-        List<IDLTypeDescription> generatedElementTypes = [];
-
-        List<string> interfaceParts = [];
-        List<string> bodyParts = [];
-
-        // Do not convert to foreach, new item could be added during iteration.
-        for (var i = 0; i < _marshallers.Count; i++)
-        {
-            var marshaller = _marshallers[i];
-
-            IDLTypeDescription elementType;
-            if (marshaller.Key is FrozenArrayTypeDescription frozenArray)
-            {
-                elementType = frozenArray.IdlType.Single();
-            }
-            else if (marshaller.Key is ObservableArrayTypeDescription observableArray)
-            {
-                elementType = observableArray.IdlType.Single();
-            }
-            else if (marshaller.Key is SequenceTypeDescription sequence)
-            {
-                elementType = sequence.IdlType.Single();
-            }
-            else
-            {
-                continue;
-            }
-
-            if (generatedElementTypes.Any(x => IDLTypeDescriptionEqualityComparer.Instance.Equals(x, elementType)))
-            {
-                continue;
-            }
-
-            generatedElementTypes.Add(elementType);
-
-            var elementVar = VariableName.Current.GetNext("element");
-
-            var getElementContent = getPropertyValueGenerator.Generate(
-                inputVar: "array",
-                type: elementType,
-                propertyNameVar: "index",
-                outputVar: elementVar
-            );
-
-            var setElementContent = setPropertyValueGenerator.Generate(
-                inputVar: "array",
-                valueVar: "value",
-                type: elementType,
-                propertyNameVar: "index"
-            );
-
-            // var toManaged = GenerateToManaged(marshaller.Key);
-            // var toJS = GenerateToJS(marshaller.Key);
-
-            var elementTypeDesc = toTypeDeclarationGenerator.Generate(elementType);
-
-            var interfacePart = $"global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<{elementTypeDesc}>";
-            interfaceParts.Add(interfacePart);
-
-            var bodyPart = $$"""
-                             static {{elementTypeDesc}} {{interfacePart}}.Get(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index)
-                             {
-                                 {{elementTypeDesc}} {{elementVar}};
-                             {{getElementContent.IndentLines(4)}}
-                                 return {{elementVar}};
-                             }
-
-                             static void {{interfacePart}}.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, {{elementTypeDesc}} value)
-                             {
-                             {{setElementContent.IndentLines(4)}}
-                             }
-                             """;
-
-            bodyParts.Add(bodyPart);
-        }
-
-        var interfaces = string.Join(",\n", interfaceParts);
-        var body = string.Join("\n\n", bodyParts);
-
-        var inheritance = interfaceParts.Count > 0
-            ? $$"""
-                :
-                {{interfaces.IndentLines(4)}}
-                """
-            : string.Empty;
-
-        var content = $$"""
-                        public class ArrayLikeElement{{inheritance}}
-                        {
-                        {{body.IndentLines(4)}}
-                        }
-                        """;
-
-        return content;
     }
 
     private string GenerateUnionClass()

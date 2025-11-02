@@ -16,7 +16,7 @@ public partial class MutationObserver(global::System.Runtime.InteropServices.Jav
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> TakeRecords()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.PropertyAccessor> TakeRecords()
     {
         throw new global::System.Exception();
     }

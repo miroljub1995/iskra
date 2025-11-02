@@ -11,17 +11,17 @@ public partial class MediaStream(global::System.Runtime.InteropServices.JavaScri
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "id");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetAudioTracks()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.PropertyAccessor> GetAudioTracks()
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetVideoTracks()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.PropertyAccessor> GetVideoTracks()
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetTracks()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.PropertyAccessor> GetTracks()
     {
         throw new global::System.Exception();
     }

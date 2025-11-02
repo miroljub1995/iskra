@@ -11,7 +11,7 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DataTransfer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "dataTransfer");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.StaticRange, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetTargetRanges()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.StaticRange, global::Iskra.StdWeb.PropertyAccessor> GetTargetRanges()
     {
         throw new global::System.Exception();
     }

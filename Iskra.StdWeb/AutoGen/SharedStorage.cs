@@ -31,12 +31,12 @@ public partial class SharedStorage(global::System.Runtime.InteropServices.JavaSc
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> BatchUpdate(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SharedStorageModifierMethod, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> methods, global::Iskra.StdWeb.SharedStorageModifierMethodOptions options)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> BatchUpdate(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SharedStorageModifierMethod, global::Iskra.StdWeb.PropertyAccessor> methods, global::Iskra.StdWeb.SharedStorageModifierMethodOptions options)
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> SelectURL(string name, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SharedStorageUrlWithMetadata, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> urls, global::Iskra.StdWeb.SharedStorageRunOperationMethodOptions options)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> SelectURL(string name, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SharedStorageUrlWithMetadata, global::Iskra.StdWeb.PropertyAccessor> urls, global::Iskra.StdWeb.SharedStorageRunOperationMethodOptions options)
     {
         throw new global::System.Exception();
     }

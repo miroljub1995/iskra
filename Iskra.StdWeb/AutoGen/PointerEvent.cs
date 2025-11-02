@@ -71,12 +71,12 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "persistentDeviceId");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PointerEvent, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetCoalescedEvents()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PointerEvent, global::Iskra.StdWeb.PropertyAccessor> GetCoalescedEvents()
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PointerEvent, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetPredictedEvents()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PointerEvent, global::Iskra.StdWeb.PropertyAccessor> GetPredictedEvents()
     {
         throw new global::System.Exception();
     }

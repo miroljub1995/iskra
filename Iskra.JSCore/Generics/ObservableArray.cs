@@ -3,14 +3,14 @@ using Iskra.JSCore.Extensions;
 
 namespace Iskra.JSCore.Generics;
 
-public class ObservableArray<T, TMarshaller>(JSObject obj) : JSObjectProxy(obj)
-    where TMarshaller : IArrayLikeElementMarshaller<T>
+public class ObservableArray<T, TAccessor>(JSObject obj) : JSObjectProxy(obj)
+    where TAccessor : IPropertyAccessor<T>
 {
-    public static implicit operator ObservableArray<T, TMarshaller>(T[] input) =>
-        new(ArrayLikeMarshaller.ToJS<T, TMarshaller>(input));
+    public static implicit operator ObservableArray<T, TAccessor>(T[] input) =>
+        new(ArrayLikeMarshaller.ToJS<T, TAccessor>(input));
 
-    public static implicit operator T[](ObservableArray<T, TMarshaller> input) =>
-        ArrayLikeMarshaller.ToManaged<T, TMarshaller>(input.JSObject);
+    public static implicit operator T[](ObservableArray<T, TAccessor> input) =>
+        ArrayLikeMarshaller.ToManaged<T, TAccessor>(input.JSObject);
 
     public int Length
     {
@@ -20,7 +20,7 @@ public class ObservableArray<T, TMarshaller>(JSObject obj) : JSObjectProxy(obj)
 
     public T this[int index]
     {
-        get => TMarshaller.Get(JSObject, index);
-        set => TMarshaller.Set(JSObject, index, value);
+        get => TAccessor.Get(JSObject, index);
+        set => TAccessor.Set(JSObject, index, value);
     }
 }

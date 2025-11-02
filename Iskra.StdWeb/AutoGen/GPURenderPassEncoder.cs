@@ -16,7 +16,7 @@ public partial class GPURenderPassEncoder(global::System.Runtime.InteropServices
         throw new global::System.Exception();
     }
 
-    public void SetBlendConstant(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUColorDict, global::Iskra.StdWeb.GenericMarshaller.Union> color)
+    public void SetBlendConstant(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GPUColorDict, global::Iskra.StdWeb.GenericMarshaller.Union> color)
     {
         throw new global::System.Exception();
     }
@@ -36,7 +36,7 @@ public partial class GPURenderPassEncoder(global::System.Runtime.InteropServices
         throw new global::System.Exception();
     }
 
-    public void ExecuteBundles(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPURenderBundle, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> bundles)
+    public void ExecuteBundles(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPURenderBundle, global::Iskra.StdWeb.PropertyAccessor> bundles)
     {
         throw new global::System.Exception();
     }
@@ -67,7 +67,7 @@ public partial class GPURenderPassEncoder(global::System.Runtime.InteropServices
         throw new global::System.Exception();
     }
 
-    public void SetBindGroup(uint index, global::Iskra.StdWeb.GPUBindGroup? bindGroup, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> dynamicOffsets)
+    public void SetBindGroup(uint index, global::Iskra.StdWeb.GPUBindGroup? bindGroup, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> dynamicOffsets)
     {
         throw new global::System.Exception();
     }

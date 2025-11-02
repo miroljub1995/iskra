@@ -12,7 +12,7 @@ public partial class CaptureController(global::System.Runtime.InteropServices.Ja
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oncapturedmousechange", value);
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetSupportedZoomLevels()
+    public global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.PropertyAccessor> GetSupportedZoomLevels()
     {
         throw new global::System.Exception();
     }

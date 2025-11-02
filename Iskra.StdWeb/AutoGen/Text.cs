@@ -16,7 +16,7 @@ public partial class Text(global::System.Runtime.InteropServices.JavaScript.JSOb
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "wholeText");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DOMQuad, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetBoxQuads(global::Iskra.StdWeb.BoxQuadOptions options)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DOMQuad, global::Iskra.StdWeb.PropertyAccessor> GetBoxQuads(global::Iskra.StdWeb.BoxQuadOptions options)
     {
         throw new global::System.Exception();
     }

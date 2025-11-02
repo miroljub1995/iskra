@@ -178,17 +178,17 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpSender, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetSenders()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpSender, global::Iskra.StdWeb.PropertyAccessor> GetSenders()
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpReceiver, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetReceivers()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpReceiver, global::Iskra.StdWeb.PropertyAccessor> GetReceivers()
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpTransceiver, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetTransceivers()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpTransceiver, global::Iskra.StdWeb.PropertyAccessor> GetTransceivers()
     {
         throw new global::System.Exception();
     }

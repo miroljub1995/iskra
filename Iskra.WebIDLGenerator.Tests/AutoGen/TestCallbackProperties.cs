@@ -24,10 +24,10 @@ public partial class TestCallbackProperties(global::System.Runtime.InteropServic
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesVariadicCallback, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "variadicCallback", value);
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement> CallVariadicCallbackOnSet
+    public global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor> CallVariadicCallbackOnSet
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement>, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "callVariadicCallbackOnSet");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.ArrayLikeElement>, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "callVariadicCallbackOnSet", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "callVariadicCallbackOnSet");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "callVariadicCallbackOnSet", value);
     }
 
     public global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesNonVoidCallback NonVoidCallback

@@ -36,7 +36,7 @@ public partial class ReadableStream(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ReadableStream, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Tee()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ReadableStream, global::Iskra.StdWeb.PropertyAccessor> Tee()
     {
         throw new global::System.Exception();
     }

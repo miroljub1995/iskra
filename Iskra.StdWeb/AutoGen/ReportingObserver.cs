@@ -16,7 +16,7 @@ public partial class ReportingObserver(global::System.Runtime.InteropServices.Ja
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Report, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> TakeRecords()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Report, global::Iskra.StdWeb.PropertyAccessor> TakeRecords()
     {
         throw new global::System.Exception();
     }

@@ -11,7 +11,7 @@ public partial class RTCCertificate(global::System.Runtime.InteropServices.JavaS
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "expires");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCDtlsFingerprint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetFingerprints()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCDtlsFingerprint, global::Iskra.StdWeb.PropertyAccessor> GetFingerprints()
     {
         throw new global::System.Exception();
     }

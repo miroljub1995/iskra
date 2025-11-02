@@ -6,9 +6,9 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorUAData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Brands
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.PropertyAccessor> Brands
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "brands");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "brands");
     }
 
     public bool Mobile
@@ -21,7 +21,7 @@ public partial class NavigatorUAData(global::System.Runtime.InteropServices.Java
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "platform");
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.UADataValues, global::Iskra.StdWeb.PropertyAccessor> GetHighEntropyValues(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> hints)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.UADataValues, global::Iskra.StdWeb.PropertyAccessor> GetHighEntropyValues(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> hints)
     {
         throw new global::System.Exception();
     }

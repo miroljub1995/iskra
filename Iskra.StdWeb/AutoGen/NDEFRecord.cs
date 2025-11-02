@@ -36,7 +36,7 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "lang");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? ToRecords()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>? ToRecords()
     {
         throw new global::System.Exception();
     }

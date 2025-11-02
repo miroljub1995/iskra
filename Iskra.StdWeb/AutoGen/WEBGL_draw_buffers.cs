@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WEBGL_draw_buffers(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public void DrawBuffersWEBGL(global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> buffers)
+    public void DrawBuffersWEBGL(global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> buffers)
     {
         throw new global::System.Exception();
     }

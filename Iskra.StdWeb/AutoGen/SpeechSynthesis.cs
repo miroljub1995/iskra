@@ -47,7 +47,7 @@ public partial class SpeechSynthesis(global::System.Runtime.InteropServices.Java
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SpeechSynthesisVoice, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetVoices()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SpeechSynthesisVoice, global::Iskra.StdWeb.PropertyAccessor> GetVoices()
     {
         throw new global::System.Exception();
     }

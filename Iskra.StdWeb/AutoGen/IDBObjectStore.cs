@@ -97,7 +97,7 @@ public partial class IDBObjectStore(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.StdWeb.IDBIndex CreateIndex(string name, global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> keyPath, global::Iskra.StdWeb.IDBIndexParameters options)
+    public global::Iskra.StdWeb.IDBIndex CreateIndex(string name, global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> keyPath, global::Iskra.StdWeb.IDBIndexParameters options)
     {
         throw new global::System.Exception();
     }

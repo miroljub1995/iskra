@@ -12,12 +12,12 @@ public partial class HTMLSlotElement(global::System.Runtime.InteropServices.Java
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name", value);
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> AssignedNodes(global::Iskra.StdWeb.AssignedNodesOptions options)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor> AssignedNodes(global::Iskra.StdWeb.AssignedNodesOptions options)
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> AssignedElements(global::Iskra.StdWeb.AssignedNodesOptions options)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.PropertyAccessor> AssignedElements(global::Iskra.StdWeb.AssignedNodesOptions options)
     {
         throw new global::System.Exception();
     }

@@ -26,12 +26,12 @@ public partial class EditContext(global::System.Runtime.InteropServices.JavaScri
         throw new global::System.Exception();
     }
 
-    public void UpdateCharacterBounds(uint rangeStart, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> characterBounds)
+    public void UpdateCharacterBounds(uint rangeStart, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor> characterBounds)
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HTMLElement, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> AttachedElements()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HTMLElement, global::Iskra.StdWeb.PropertyAccessor> AttachedElements()
     {
         throw new global::System.Exception();
     }
@@ -56,7 +56,7 @@ public partial class EditContext(global::System.Runtime.InteropServices.JavaScri
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "characterBoundsRangeStart");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> CharacterBounds()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor> CharacterBounds()
     {
         throw new global::System.Exception();
     }

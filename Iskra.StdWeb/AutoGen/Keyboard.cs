@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Keyboard(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.JSCore.Promise Lock(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> keyCodes)
+    public global::Iskra.JSCore.Promise Lock(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> keyCodes)
     {
         throw new global::System.Exception();
     }

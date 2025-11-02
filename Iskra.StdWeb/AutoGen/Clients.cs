@@ -11,7 +11,7 @@ public partial class Clients(global::System.Runtime.InteropServices.JavaScript.J
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> MatchAll(global::Iskra.StdWeb.ClientQueryOptions options)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> MatchAll(global::Iskra.StdWeb.ClientQueryOptions options)
     {
         throw new global::System.Exception();
     }

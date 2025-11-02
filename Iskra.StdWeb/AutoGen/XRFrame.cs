@@ -41,12 +41,12 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
         throw new global::System.Exception();
     }
 
-    public bool FillJointRadii(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRJointSpace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> jointSpaces, global::Iskra.JSCore.Float32Array radii)
+    public bool FillJointRadii(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRJointSpace, global::Iskra.StdWeb.PropertyAccessor> jointSpaces, global::Iskra.JSCore.Float32Array radii)
     {
         throw new global::System.Exception();
     }
 
-    public bool FillPoses(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRSpace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> spaces, global::Iskra.StdWeb.XRSpace baseSpace, global::Iskra.JSCore.Float32Array transforms)
+    public bool FillPoses(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRSpace, global::Iskra.StdWeb.PropertyAccessor> spaces, global::Iskra.StdWeb.XRSpace baseSpace, global::Iskra.JSCore.Float32Array transforms)
     {
         throw new global::System.Exception();
     }
@@ -76,12 +76,12 @@ public partial class XRFrame(global::System.Runtime.InteropServices.JavaScript.J
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRBody?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "body");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetHitTestResults(global::Iskra.StdWeb.XRHitTestSource hitTestSource)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRHitTestResult, global::Iskra.StdWeb.PropertyAccessor> GetHitTestResults(global::Iskra.StdWeb.XRHitTestSource hitTestSource)
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRTransientInputHitTestResult, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetHitTestResultsForTransientInput(global::Iskra.StdWeb.XRTransientInputHitTestSource hitTestSource)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRTransientInputHitTestResult, global::Iskra.StdWeb.PropertyAccessor> GetHitTestResultsForTransientInput(global::Iskra.StdWeb.XRTransientInputHitTestSource hitTestSource)
     {
         throw new global::System.Exception();
     }

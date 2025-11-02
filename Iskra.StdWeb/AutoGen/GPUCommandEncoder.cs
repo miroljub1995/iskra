@@ -26,17 +26,17 @@ public partial class GPUCommandEncoder(global::System.Runtime.InteropServices.Ja
         throw new global::System.Exception();
     }
 
-    public void CopyBufferToTexture(global::Iskra.StdWeb.GPUTexelCopyBufferInfo source, global::Iskra.StdWeb.GPUTexelCopyTextureInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
+    public void CopyBufferToTexture(global::Iskra.StdWeb.GPUTexelCopyBufferInfo source, global::Iskra.StdWeb.GPUTexelCopyTextureInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
     {
         throw new global::System.Exception();
     }
 
-    public void CopyTextureToBuffer(global::Iskra.StdWeb.GPUTexelCopyTextureInfo source, global::Iskra.StdWeb.GPUTexelCopyBufferInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
+    public void CopyTextureToBuffer(global::Iskra.StdWeb.GPUTexelCopyTextureInfo source, global::Iskra.StdWeb.GPUTexelCopyBufferInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
     {
         throw new global::System.Exception();
     }
 
-    public void CopyTextureToTexture(global::Iskra.StdWeb.GPUTexelCopyTextureInfo source, global::Iskra.StdWeb.GPUTexelCopyTextureInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
+    public void CopyTextureToTexture(global::Iskra.StdWeb.GPUTexelCopyTextureInfo source, global::Iskra.StdWeb.GPUTexelCopyTextureInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
     {
         throw new global::System.Exception();
     }

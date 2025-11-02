@@ -56,7 +56,7 @@ public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.StdWeb.MLOperand Concat(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> inputs, uint axis, global::Iskra.StdWeb.MLOperatorOptions options)
+    public global::Iskra.StdWeb.MLOperand Concat(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.PropertyAccessor> inputs, uint axis, global::Iskra.StdWeb.MLOperatorOptions options)
     {
         throw new global::System.Exception();
     }
@@ -261,7 +261,7 @@ public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.StdWeb.MLOperand Expand(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> newShape, global::Iskra.StdWeb.MLOperatorOptions options)
+    public global::Iskra.StdWeb.MLOperand Expand(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> newShape, global::Iskra.StdWeb.MLOperatorOptions options)
     {
         throw new global::System.Exception();
     }
@@ -291,7 +291,7 @@ public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Gru(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand weight, global::Iskra.StdWeb.MLOperand recurrentWeight, uint steps, uint hiddenSize, global::Iskra.StdWeb.MLGruOptions options)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.PropertyAccessor> Gru(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand weight, global::Iskra.StdWeb.MLOperand recurrentWeight, uint steps, uint hiddenSize, global::Iskra.StdWeb.MLGruOptions options)
     {
         throw new global::System.Exception();
     }
@@ -331,12 +331,12 @@ public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Lstm(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand weight, global::Iskra.StdWeb.MLOperand recurrentWeight, uint steps, uint hiddenSize, global::Iskra.StdWeb.MLLstmOptions options)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.PropertyAccessor> Lstm(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand weight, global::Iskra.StdWeb.MLOperand recurrentWeight, uint steps, uint hiddenSize, global::Iskra.StdWeb.MLLstmOptions options)
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> LstmCell(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand weight, global::Iskra.StdWeb.MLOperand recurrentWeight, global::Iskra.StdWeb.MLOperand hiddenState, global::Iskra.StdWeb.MLOperand cellState, uint hiddenSize, global::Iskra.StdWeb.MLLstmCellOptions options)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.PropertyAccessor> LstmCell(global::Iskra.StdWeb.MLOperand input, global::Iskra.StdWeb.MLOperand weight, global::Iskra.StdWeb.MLOperand recurrentWeight, global::Iskra.StdWeb.MLOperand hiddenState, global::Iskra.StdWeb.MLOperand cellState, uint hiddenSize, global::Iskra.StdWeb.MLLstmCellOptions options)
     {
         throw new global::System.Exception();
     }
@@ -346,7 +346,7 @@ public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.StdWeb.MLOperand Pad(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> beginningPadding, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> endingPadding, global::Iskra.StdWeb.MLPadOptions options)
+    public global::Iskra.StdWeb.MLOperand Pad(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> beginningPadding, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> endingPadding, global::Iskra.StdWeb.MLPadOptions options)
     {
         throw new global::System.Exception();
     }
@@ -431,7 +431,7 @@ public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.StdWeb.MLOperand Reshape(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> newShape, global::Iskra.StdWeb.MLOperatorOptions options)
+    public global::Iskra.StdWeb.MLOperand Reshape(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> newShape, global::Iskra.StdWeb.MLOperatorOptions options)
     {
         throw new global::System.Exception();
     }
@@ -456,7 +456,7 @@ public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.StdWeb.MLOperand Slice(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> starts, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> sizes, global::Iskra.StdWeb.MLSliceOptions options)
+    public global::Iskra.StdWeb.MLOperand Slice(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> starts, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> sizes, global::Iskra.StdWeb.MLSliceOptions options)
     {
         throw new global::System.Exception();
     }
@@ -476,7 +476,7 @@ public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Split(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.Union<uint, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> splits, global::Iskra.StdWeb.MLSplitOptions options)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.PropertyAccessor> Split(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.Union<uint, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> splits, global::Iskra.StdWeb.MLSplitOptions options)
     {
         throw new global::System.Exception();
     }
@@ -486,7 +486,7 @@ public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.StdWeb.MLOperand Tile(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> repetitions, global::Iskra.StdWeb.MLOperatorOptions options)
+    public global::Iskra.StdWeb.MLOperand Tile(global::Iskra.StdWeb.MLOperand input, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> repetitions, global::Iskra.StdWeb.MLOperatorOptions options)
     {
         throw new global::System.Exception();
     }

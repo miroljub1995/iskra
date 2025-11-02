@@ -48,7 +48,7 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? GetSupportedExtensions()
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>? GetSupportedExtensions()
     {
         throw new global::System.Exception();
     }
@@ -323,7 +323,7 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.WebGLShader, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? GetAttachedShaders(global::Iskra.StdWeb.WebGLProgram program)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.WebGLShader, global::Iskra.StdWeb.PropertyAccessor>? GetAttachedShaders(global::Iskra.StdWeb.WebGLProgram program)
     {
         throw new global::System.Exception();
     }
@@ -603,22 +603,22 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
         throw new global::System.Exception();
     }
 
-    public void VertexAttrib1fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
+    public void VertexAttrib1fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
     {
         throw new global::System.Exception();
     }
 
-    public void VertexAttrib2fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
+    public void VertexAttrib2fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
     {
         throw new global::System.Exception();
     }
 
-    public void VertexAttrib3fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
+    public void VertexAttrib3fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
     {
         throw new global::System.Exception();
     }
 
-    public void VertexAttrib4fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
+    public void VertexAttrib4fv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
     {
         throw new global::System.Exception();
     }
@@ -658,12 +658,12 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
         throw new global::System.Exception();
     }
 
-    public void InvalidateFramebuffer(uint target, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> attachments)
+    public void InvalidateFramebuffer(uint target, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> attachments)
     {
         throw new global::System.Exception();
     }
 
-    public void InvalidateSubFramebuffer(uint target, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> attachments, int x, int y, int width, int height)
+    public void InvalidateSubFramebuffer(uint target, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> attachments, int x, int y, int width, int height)
     {
         throw new global::System.Exception();
     }
@@ -778,52 +778,52 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
         throw new global::System.Exception();
     }
 
-    public void Uniform1uiv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform1uiv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void Uniform2uiv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform2uiv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void Uniform3uiv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform3uiv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void Uniform4uiv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform4uiv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void UniformMatrix3x2fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void UniformMatrix3x2fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void UniformMatrix4x2fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void UniformMatrix4x2fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void UniformMatrix2x3fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void UniformMatrix2x3fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void UniformMatrix4x3fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void UniformMatrix4x3fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void UniformMatrix2x4fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void UniformMatrix2x4fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void UniformMatrix3x4fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void UniformMatrix3x4fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
@@ -833,7 +833,7 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
         throw new global::System.Exception();
     }
 
-    public void VertexAttribI4iv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
+    public void VertexAttribI4iv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
     {
         throw new global::System.Exception();
     }
@@ -843,7 +843,7 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
         throw new global::System.Exception();
     }
 
-    public void VertexAttribI4uiv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
+    public void VertexAttribI4uiv(uint index, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> values)
     {
         throw new global::System.Exception();
     }
@@ -873,22 +873,22 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
         throw new global::System.Exception();
     }
 
-    public void DrawBuffers(global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> buffers)
+    public void DrawBuffers(global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> buffers)
     {
         throw new global::System.Exception();
     }
 
-    public void ClearBufferfv(uint buffer, int drawbuffer, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values, ulong srcOffset)
+    public void ClearBufferfv(uint buffer, int drawbuffer, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> values, ulong srcOffset)
     {
         throw new global::System.Exception();
     }
 
-    public void ClearBufferiv(uint buffer, int drawbuffer, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values, ulong srcOffset)
+    public void ClearBufferiv(uint buffer, int drawbuffer, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> values, ulong srcOffset)
     {
         throw new global::System.Exception();
     }
 
-    public void ClearBufferuiv(uint buffer, int drawbuffer, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> values, ulong srcOffset)
+    public void ClearBufferuiv(uint buffer, int drawbuffer, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> values, ulong srcOffset)
     {
         throw new global::System.Exception();
     }
@@ -1028,7 +1028,7 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
         throw new global::System.Exception();
     }
 
-    public void TransformFeedbackVaryings(global::Iskra.StdWeb.WebGLProgram program, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> varyings, uint bufferMode)
+    public void TransformFeedbackVaryings(global::Iskra.StdWeb.WebGLProgram program, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> varyings, uint bufferMode)
     {
         throw new global::System.Exception();
     }
@@ -1063,12 +1063,12 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? GetUniformIndices(global::Iskra.StdWeb.WebGLProgram program, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> uniformNames)
+    public global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>? GetUniformIndices(global::Iskra.StdWeb.WebGLProgram program, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> uniformNames)
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetActiveUniforms(global::Iskra.StdWeb.WebGLProgram program, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> uniformIndices, uint pname)
+    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetActiveUniforms(global::Iskra.StdWeb.WebGLProgram program, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> uniformIndices, uint pname)
     {
         throw new global::System.Exception();
     }
@@ -1208,57 +1208,57 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
         throw new global::System.Exception();
     }
 
-    public void Uniform1fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform1fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void Uniform2fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform2fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void Uniform3fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform3fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void Uniform4fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform4fv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void Uniform1iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform1iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void Uniform2iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform2iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void Uniform3iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform3iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void Uniform4iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void Uniform4iv(global::Iskra.StdWeb.WebGLUniformLocation? location, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void UniformMatrix2fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void UniformMatrix2fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void UniformMatrix3fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void UniformMatrix3fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }
 
-    public void UniformMatrix4fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
+    public void UniformMatrix4fv(global::Iskra.StdWeb.WebGLUniformLocation? location, bool transpose, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> data, ulong srcOffset, uint srcLength)
     {
         throw new global::System.Exception();
     }

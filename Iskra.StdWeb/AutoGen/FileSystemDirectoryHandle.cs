@@ -21,7 +21,7 @@ public partial class FileSystemDirectoryHandle(global::System.Runtime.InteropSer
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>?, global::Iskra.StdWeb.PropertyAccessorNullable> Resolve(global::Iskra.StdWeb.FileSystemHandle possibleDescendant)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>?, global::Iskra.StdWeb.PropertyAccessorNullable> Resolve(global::Iskra.StdWeb.FileSystemHandle possibleDescendant)
     {
         throw new global::System.Exception();
     }

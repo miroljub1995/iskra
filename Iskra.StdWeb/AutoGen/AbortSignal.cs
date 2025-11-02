@@ -16,7 +16,7 @@ public partial class AbortSignal(global::System.Runtime.InteropServices.JavaScri
         throw new global::System.Exception();
     }
 
-    public static global::Iskra.StdWeb.AbortSignal Any(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.AbortSignal, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> signals)
+    public static global::Iskra.StdWeb.AbortSignal Any(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.AbortSignal, global::Iskra.StdWeb.PropertyAccessor> signals)
     {
         throw new global::System.Exception();
     }

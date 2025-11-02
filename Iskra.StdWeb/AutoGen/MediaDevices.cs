@@ -27,7 +27,7 @@ public partial class MediaDevices(global::System.Runtime.InteropServices.JavaScr
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondevicechange", value);
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> EnumerateDevices()
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> EnumerateDevices()
     {
         throw new global::System.Exception();
     }
@@ -47,7 +47,7 @@ public partial class MediaDevices(global::System.Runtime.InteropServices.JavaScr
         throw new global::System.Exception();
     }
 
-    public void SetSupportedCaptureActions(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> actions)
+    public void SetSupportedCaptureActions(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> actions)
     {
         throw new global::System.Exception();
     }

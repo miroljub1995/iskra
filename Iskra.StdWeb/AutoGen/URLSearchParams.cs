@@ -26,7 +26,7 @@ public partial class URLSearchParams(global::System.Runtime.InteropServices.Java
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetAll(string name)
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> GetAll(string name)
     {
         throw new global::System.Exception();
     }

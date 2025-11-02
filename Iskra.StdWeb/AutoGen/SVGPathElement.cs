@@ -26,12 +26,12 @@ public partial class SVGPathElement(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SVGPathSegment, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetPathData(global::Iskra.StdWeb.SVGPathDataSettings settings)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SVGPathSegment, global::Iskra.StdWeb.PropertyAccessor> GetPathData(global::Iskra.StdWeb.SVGPathDataSettings settings)
     {
         throw new global::System.Exception();
     }
 
-    public void SetPathData(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SVGPathSegment, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> pathData)
+    public void SetPathData(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SVGPathSegment, global::Iskra.StdWeb.PropertyAccessor> pathData)
     {
         throw new global::System.Exception();
     }

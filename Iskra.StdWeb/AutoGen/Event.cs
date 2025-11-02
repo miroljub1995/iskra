@@ -26,7 +26,7 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventTarget?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "currentTarget");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.EventTarget, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> ComposedPath()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.EventTarget, global::Iskra.StdWeb.PropertyAccessor> ComposedPath()
     {
         throw new global::System.Exception();
     }

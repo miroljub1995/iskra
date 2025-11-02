@@ -53,7 +53,7 @@ public partial class AudioParam(global::System.Runtime.InteropServices.JavaScrip
         throw new global::System.Exception();
     }
 
-    public global::Iskra.StdWeb.AudioParam SetValueCurveAtTime(global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> values, double startTime, double duration)
+    public global::Iskra.StdWeb.AudioParam SetValueCurveAtTime(global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor> values, double startTime, double duration)
     {
         throw new global::System.Exception();
     }

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TaskSignal(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AbortSignal(obj)
 {
-    public static global::Iskra.StdWeb.TaskSignal Any(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.AbortSignal, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> signals, global::Iskra.StdWeb.TaskSignalAnyInit init)
+    public static global::Iskra.StdWeb.TaskSignal Any(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.AbortSignal, global::Iskra.StdWeb.PropertyAccessor> signals, global::Iskra.StdWeb.TaskSignalAnyInit init)
     {
         throw new global::System.Exception();
     }

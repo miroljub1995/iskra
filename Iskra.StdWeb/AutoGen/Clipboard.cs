@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Clipboard(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ClipboardItem, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> Read(global::Iskra.StdWeb.ClipboardUnsanitizedFormats formats)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ClipboardItem, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> Read(global::Iskra.StdWeb.ClipboardUnsanitizedFormats formats)
     {
         throw new global::System.Exception();
     }
@@ -16,7 +16,7 @@ public partial class Clipboard(global::System.Runtime.InteropServices.JavaScript
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Promise Write(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ClipboardItem, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> data)
+    public global::Iskra.JSCore.Promise Write(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ClipboardItem, global::Iskra.StdWeb.PropertyAccessor> data)
     {
         throw new global::System.Exception();
     }

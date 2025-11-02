@@ -6,9 +6,9 @@ namespace Iskra.StdWeb;
 
 public partial class GPUCompilationInfo(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Messages
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.PropertyAccessor> Messages
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "messages");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GPUCompilationMessage, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "messages");
     }
 }
 

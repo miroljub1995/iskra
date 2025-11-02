@@ -12,7 +12,7 @@ public partial class PaymentManager(global::System.Runtime.InteropServices.JavaS
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "userHint", value);
     }
 
-    public global::Iskra.JSCore.Promise EnableDelegations(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PaymentDelegation, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> delegations)
+    public global::Iskra.JSCore.Promise EnableDelegations(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PaymentDelegation, global::Iskra.StdWeb.PropertyAccessor> delegations)
     {
         throw new global::System.Exception();
     }

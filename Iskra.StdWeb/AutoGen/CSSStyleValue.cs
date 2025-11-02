@@ -16,7 +16,7 @@ public partial class CSSStyleValue(global::System.Runtime.InteropServices.JavaSc
         throw new global::System.Exception();
     }
 
-    public static global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CSSStyleValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> ParseAll(string property, string cssText)
+    public static global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CSSStyleValue, global::Iskra.StdWeb.PropertyAccessor> ParseAll(string property, string cssText)
     {
         throw new global::System.Exception();
     }

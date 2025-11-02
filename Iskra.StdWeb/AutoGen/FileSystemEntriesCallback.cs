@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void FileSystemEntriesCallbackManaged(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> entries);
+public delegate void FileSystemEntriesCallbackManaged(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.PropertyAccessor> entries);
 
 public partial class FileSystemEntriesCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
@@ -15,10 +15,10 @@ public partial class FileSystemEntriesCallback(global::System.Runtime.InteropSer
             using (__args_20)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_22;
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.PropertyAccessor> __arg_22;
                 global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_23;
                 __propObject_23 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_20, 0);
-                __arg_22 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_23);
+                __arg_22 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FileSystemEntry, global::Iskra.StdWeb.PropertyAccessor>(__propObject_23);
 
                 input(__arg_22);
             }

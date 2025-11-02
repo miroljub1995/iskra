@@ -11,9 +11,9 @@ public partial class GamepadHapticActuator(global::System.Runtime.InteropService
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Effects
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.PropertyAccessor> Effects
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "effects");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.GamepadHapticEffectType, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "effects");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GamepadHapticsResult, global::Iskra.StdWeb.PropertyAccessor> PlayEffect(global::Iskra.StdWeb.GamepadHapticEffectType type, global::Iskra.StdWeb.GamepadEffectParameters @params)

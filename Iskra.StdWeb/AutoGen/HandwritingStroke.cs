@@ -11,7 +11,7 @@ public partial class HandwritingStroke(global::System.Runtime.InteropServices.Ja
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HandwritingPoint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetPoints()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HandwritingPoint, global::Iskra.StdWeb.PropertyAccessor> GetPoints()
     {
         throw new global::System.Exception();
     }

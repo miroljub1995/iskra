@@ -21,7 +21,7 @@ public partial class IDBDatabase(global::System.Runtime.InteropServices.JavaScri
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMStringList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "objectStoreNames");
     }
 
-    public global::Iskra.StdWeb.IDBTransaction Transaction(global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GenericMarshaller.Union> storeNames, global::Iskra.StdWeb.IDBTransactionMode mode, global::Iskra.StdWeb.IDBTransactionOptions options)
+    public global::Iskra.StdWeb.IDBTransaction Transaction(global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> storeNames, global::Iskra.StdWeb.IDBTransactionMode mode, global::Iskra.StdWeb.IDBTransactionOptions options)
     {
         throw new global::System.Exception();
     }

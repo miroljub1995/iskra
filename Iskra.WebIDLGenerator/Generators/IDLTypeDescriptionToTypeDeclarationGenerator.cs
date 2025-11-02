@@ -70,6 +70,8 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
 
     private string MapFrozenArrayToManagedType(FrozenArrayTypeDescription input, bool marshalled)
     {
+        var propertyAccessorGenerator = provider.GetRequiredService<PropertyAccessorGenerator>();
+
         var elementType = input.IdlType.Single();
         var elementManagedType = Generate(elementType);
 
@@ -78,16 +80,18 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             return MakeNullableIfNeeded($"{elementManagedType}[]", input.Nullable);
         }
 
-        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input with { Nullable = false });
+        var propertyAccessor = propertyAccessorGenerator.GetOrCreateAccessor(elementType);
 
         return MakeNullableIfNeeded(
-            $"global::Iskra.JSCore.Generics.FrozenArray<{elementManagedType}, {marshaller}>",
+            $"global::Iskra.JSCore.Generics.FrozenArray<{elementManagedType}, {propertyAccessor}>",
             input.Nullable
         );
     }
 
     private string MapObservableArrayToManagedType(ObservableArrayTypeDescription input, bool marshalled)
     {
+        var propertyAccessorGenerator = provider.GetRequiredService<PropertyAccessorGenerator>();
+
         var elementType = input.IdlType.Single();
         var elementManagedType = Generate(elementType);
 
@@ -96,10 +100,10 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             return MakeNullableIfNeeded($"{elementManagedType}[]", input.Nullable);
         }
 
-        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input with { Nullable = false });
+        var propertyAccessor = propertyAccessorGenerator.GetOrCreateAccessor(elementType);
 
         return MakeNullableIfNeeded(
-            $"global::Iskra.JSCore.Generics.ObservableArray<{elementManagedType}, {marshaller}>",
+            $"global::Iskra.JSCore.Generics.ObservableArray<{elementManagedType}, {propertyAccessor}>",
             input.Nullable
         );
     }
@@ -153,6 +157,8 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
 
     private string MapSequenceToManagedType(SequenceTypeDescription input, bool marshalled)
     {
+        var propertyAccessorGenerator = provider.GetRequiredService<PropertyAccessorGenerator>();
+
         var elementType = input.IdlType.Single();
         var elementManagedType = Generate(elementType);
 
@@ -161,10 +167,10 @@ public class IDLTypeDescriptionToTypeDeclarationGenerator(
             return MakeNullableIfNeeded($"{elementManagedType}[]", input.Nullable);
         }
 
-        var marshaller = genericMarshallerGenerator.GetOrCreateMarshaller(input with { Nullable = false });
+        var propertyAccessor = propertyAccessorGenerator.GetOrCreateAccessor(elementType);
 
         return MakeNullableIfNeeded(
-            $"global::Iskra.JSCore.Generics.JSArray<{elementManagedType}, {marshaller}>",
+            $"global::Iskra.JSCore.Generics.JSArray<{elementManagedType}, {propertyAccessor}>",
             input.Nullable
         );
     }

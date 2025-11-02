@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorageWorklet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Worklet(obj)
 {
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> SelectURL(string name, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SharedStorageUrlWithMetadata, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> urls, global::Iskra.StdWeb.SharedStorageRunOperationMethodOptions options)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> SelectURL(string name, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SharedStorageUrlWithMetadata, global::Iskra.StdWeb.PropertyAccessor> urls, global::Iskra.StdWeb.SharedStorageRunOperationMethodOptions options)
     {
         throw new global::System.Exception();
     }

@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WorkletGroupEffect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.WorkletAnimationEffect, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetChildren()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.WorkletAnimationEffect, global::Iskra.StdWeb.PropertyAccessor> GetChildren()
     {
         throw new global::System.Exception();
     }

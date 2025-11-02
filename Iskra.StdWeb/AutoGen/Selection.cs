@@ -71,7 +71,7 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.StaticRange, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetComposedRanges(global::Iskra.StdWeb.GetComposedRangesOptions options)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.StaticRange, global::Iskra.StdWeb.PropertyAccessor> GetComposedRanges(global::Iskra.StdWeb.GetComposedRangesOptions options)
     {
         throw new global::System.Exception();
     }

@@ -21,7 +21,7 @@ public partial class Headers(global::System.Runtime.InteropServices.JavaScript.J
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetSetCookie()
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> GetSetCookie()
     {
         throw new global::System.Exception();
     }

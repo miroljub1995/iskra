@@ -16,7 +16,7 @@ public partial class IdentityProvider(global::System.Runtime.InteropServices.Jav
         throw new global::System.Exception();
     }
 
-    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IdentityUserInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetUserInfo(global::Iskra.StdWeb.IdentityProviderConfig config)
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IdentityUserInfo, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetUserInfo(global::Iskra.StdWeb.IdentityProviderConfig config)
     {
         throw new global::System.Exception();
     }

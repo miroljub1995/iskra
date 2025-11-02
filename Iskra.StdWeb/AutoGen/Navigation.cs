@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class Navigation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NavigationHistoryEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Entries()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NavigationHistoryEntry, global::Iskra.StdWeb.PropertyAccessor> Entries()
     {
         throw new global::System.Exception();
     }

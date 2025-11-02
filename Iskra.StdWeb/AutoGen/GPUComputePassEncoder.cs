@@ -47,7 +47,7 @@ public partial class GPUComputePassEncoder(global::System.Runtime.InteropService
         throw new global::System.Exception();
     }
 
-    public void SetBindGroup(uint index, global::Iskra.StdWeb.GPUBindGroup? bindGroup, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> dynamicOffsets)
+    public void SetBindGroup(uint index, global::Iskra.StdWeb.GPUBindGroup? bindGroup, global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor> dynamicOffsets)
     {
         throw new global::System.Exception();
     }

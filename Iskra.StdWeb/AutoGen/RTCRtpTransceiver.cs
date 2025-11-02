@@ -37,7 +37,7 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
         throw new global::System.Exception();
     }
 
-    public void SetCodecPreferences(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpCodec, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> codecs)
+    public void SetCodecPreferences(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpCodec, global::Iskra.StdWeb.PropertyAccessor> codecs)
     {
         throw new global::System.Exception();
     }

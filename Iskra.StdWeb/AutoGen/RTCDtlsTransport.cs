@@ -16,7 +16,7 @@ public partial class RTCDtlsTransport(global::System.Runtime.InteropServices.Jav
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCDtlsTransportState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "state");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetRemoteCertificates()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> GetRemoteCertificates()
     {
         throw new global::System.Exception();
     }

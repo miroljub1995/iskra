@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class TextFormatUpdateEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
 {
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.TextFormat, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetTextFormats()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.TextFormat, global::Iskra.StdWeb.PropertyAccessor> GetTextFormats()
     {
         throw new global::System.Exception();
     }

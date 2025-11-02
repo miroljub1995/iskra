@@ -16,7 +16,7 @@ public partial class Fence(global::System.Runtime.InteropServices.JavaScript.JSO
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetNestedConfigs()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.PropertyAccessor> GetNestedConfigs()
     {
         throw new global::System.Exception();
     }

@@ -24,7 +24,7 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CompositeOperation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "composite", value);
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetKeyframes()
+    public global::Iskra.JSCore.Generics.JSArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor> GetKeyframes()
     {
         throw new global::System.Exception();
     }

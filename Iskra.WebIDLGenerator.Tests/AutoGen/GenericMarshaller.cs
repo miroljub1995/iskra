@@ -9,41 +9,6 @@ public static partial class GenericMarshaller
     [global::System.Runtime.InteropServices.JavaScript.JSImportAttribute("construct", "iskra")]
     private static partial global::System.Runtime.InteropServices.JavaScript.JSObject ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string constructorName);
 
-    public class ArrayLikeElement:
-        global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<bool>,
-        global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<int>
-    {
-        static bool global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<bool>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index)
-        {
-            bool __element_0;
-            bool __res_1 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(array, index);
-            __element_0 = __res_1;
-            return __element_0;
-        }
-
-        static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<bool>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, bool value)
-        {
-            bool __marshalledValue_2;
-            __marshalledValue_2 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(array, index, __marshalledValue_2);
-        }
-
-        static int global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<int>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index)
-        {
-            int __element_3;
-            double __res_4 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(array, index);
-            __element_3 = Convert.ToInt32(__res_4);
-            return __element_3;
-        }
-
-        static void global::Iskra.JSCore.Generics.IArrayLikeElementMarshaller<int>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject array, int index, int value)
-        {
-            double __marshalledValue_5;
-            __marshalledValue_5 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(array, index, __marshalledValue_5);
-        }
-    }
-
     public class Union:
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<bool>,
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<int>,
@@ -55,8 +20,8 @@ public static partial class GenericMarshaller
     {
         static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<bool>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out bool value)
         {
-            double __type_6 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
-            if (__type_6 != 1)
+            double __type_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
+            if (__type_0 != 1)
             {
                 value = default;
                 return false;
@@ -64,11 +29,11 @@ public static partial class GenericMarshaller
 
             try
             {
-                bool __value_7;
-                bool __res_8 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, "value");
-                __value_7 = __res_8;
+                bool __value_1;
+                bool __res_2 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(input, "value");
+                __value_1 = __res_2;
 
-                value = __value_7;
+                value = __value_1;
                 return true;
             }
             catch
@@ -80,17 +45,17 @@ public static partial class GenericMarshaller
 
         static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<bool>.ToJS(bool input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_9 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-            bool __marshalledValue_10;
-            __marshalledValue_10 = input;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__jsUnion_9, "value", __marshalledValue_10);
-            return __jsUnion_9;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_3 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
+            bool __marshalledValue_4;
+            __marshalledValue_4 = input;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__jsUnion_3, "value", __marshalledValue_4);
+            return __jsUnion_3;
         }
 
         static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<int>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out int value)
         {
-            double __type_11 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
-            if (__type_11 != 2)
+            double __type_5 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
+            if (__type_5 != 2)
             {
                 value = default;
                 return false;
@@ -98,11 +63,11 @@ public static partial class GenericMarshaller
 
             try
             {
-                int __value_12;
-                double __res_13 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "value");
-                __value_12 = Convert.ToInt32(__res_13);
+                int __value_6;
+                double __res_7 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "value");
+                __value_6 = Convert.ToInt32(__res_7);
 
-                value = __value_12;
+                value = __value_6;
                 return true;
             }
             catch
@@ -114,17 +79,17 @@ public static partial class GenericMarshaller
 
         static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<int>.ToJS(int input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_14 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-            double __marshalledValue_15;
-            __marshalledValue_15 = Convert.ToDouble(input);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__jsUnion_14, "value", __marshalledValue_15);
-            return __jsUnion_14;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_8 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
+            double __marshalledValue_9;
+            __marshalledValue_9 = Convert.ToDouble(input);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__jsUnion_8, "value", __marshalledValue_9);
+            return __jsUnion_8;
         }
 
         static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<string>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out string value)
         {
-            double __type_16 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
-            if (__type_16 != 4)
+            double __type_10 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
+            if (__type_10 != 4)
             {
                 value = default;
                 return false;
@@ -132,11 +97,11 @@ public static partial class GenericMarshaller
 
             try
             {
-                string __value_17;
-                string __res_18 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, "value");
-                __value_17 = __res_18;
+                string __value_11;
+                string __res_12 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, "value");
+                __value_11 = __res_12;
 
-                value = __value_17;
+                value = __value_11;
                 return true;
             }
             catch
@@ -148,17 +113,17 @@ public static partial class GenericMarshaller
 
         static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<string>.ToJS(string input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_19 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-            string __marshalledValue_20;
-            __marshalledValue_20 = input;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__jsUnion_19, "value", __marshalledValue_20);
-            return __jsUnion_19;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_13 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
+            string __marshalledValue_14;
+            __marshalledValue_14 = input;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__jsUnion_13, "value", __marshalledValue_14);
+            return __jsUnion_13;
         }
 
         static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<double>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out double value)
         {
-            double __type_21 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
-            if (__type_21 != 2)
+            double __type_15 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
+            if (__type_15 != 2)
             {
                 value = default;
                 return false;
@@ -166,11 +131,11 @@ public static partial class GenericMarshaller
 
             try
             {
-                double __value_22;
-                double __res_23 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "value");
-                __value_22 = __res_23;
+                double __value_16;
+                double __res_17 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "value");
+                __value_16 = __res_17;
 
-                value = __value_22;
+                value = __value_16;
                 return true;
             }
             catch
@@ -182,17 +147,17 @@ public static partial class GenericMarshaller
 
         static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<double>.ToJS(double input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_24 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-            double __marshalledValue_25;
-            __marshalledValue_25 = input;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__jsUnion_24, "value", __marshalledValue_25);
-            return __jsUnion_24;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_18 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
+            double __marshalledValue_19;
+            __marshalledValue_19 = input;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__jsUnion_18, "value", __marshalledValue_19);
+            return __jsUnion_18;
         }
 
         static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::System.Numerics.BigInteger>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::System.Numerics.BigInteger value)
         {
-            double __type_26 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
-            if (__type_26 != 3)
+            double __type_20 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
+            if (__type_20 != 3)
             {
                 value = default;
                 return false;
@@ -200,11 +165,11 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::System.Numerics.BigInteger __value_27;
-                global::System.Numerics.BigInteger __res_28 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBigIntegerV2(input, "value");
-                __value_27 = __res_28;
+                global::System.Numerics.BigInteger __value_21;
+                global::System.Numerics.BigInteger __res_22 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBigIntegerV2(input, "value");
+                __value_21 = __res_22;
 
-                value = __value_27;
+                value = __value_21;
                 return true;
             }
             catch
@@ -216,17 +181,17 @@ public static partial class GenericMarshaller
 
         static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::System.Numerics.BigInteger>.ToJS(global::System.Numerics.BigInteger input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_29 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-            global::System.Numerics.BigInteger __marshalledValue_30;
-            __marshalledValue_30 = input;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBigIntegerV2(__jsUnion_29, "value", __marshalledValue_30);
-            return __jsUnion_29;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_23 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
+            global::System.Numerics.BigInteger __marshalledValue_24;
+            __marshalledValue_24 = input;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBigIntegerV2(__jsUnion_23, "value", __marshalledValue_24);
+            return __jsUnion_23;
         }
 
         static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::System.Runtime.InteropServices.JavaScript.JSObject>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::System.Runtime.InteropServices.JavaScript.JSObject value)
         {
-            double __type_31 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
-            if (__type_31 != 7)
+            double __type_25 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
+            if (__type_25 != 7)
             {
                 value = default;
                 return false;
@@ -234,11 +199,11 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __value_32;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_33 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
-                __value_32 = __res_33;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __value_26;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_27 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
+                __value_26 = __res_27;
 
-                value = __value_32;
+                value = __value_26;
                 return true;
             }
             catch
@@ -250,17 +215,17 @@ public static partial class GenericMarshaller
 
         static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::System.Runtime.InteropServices.JavaScript.JSObject>.ToJS(global::System.Runtime.InteropServices.JavaScript.JSObject input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_34 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_35;
-            __marshalledValue_35 = input;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__jsUnion_34, "value", __marshalledValue_35);
-            return __jsUnion_34;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_28 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_29;
+            __marshalledValue_29 = input;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__jsUnion_28, "value", __marshalledValue_29);
+            return __jsUnion_28;
         }
 
         static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<object>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out object value)
         {
-            double __type_36 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
-            if (__type_36 != 8)
+            double __type_30 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
+            if (__type_30 != 8)
             {
                 value = default;
                 return false;
@@ -268,11 +233,11 @@ public static partial class GenericMarshaller
 
             try
             {
-                object __value_37;
-                object __res_38 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsObjectV2(input, "value");
-                __value_37 = __res_38;
+                object __value_31;
+                object __res_32 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsObjectV2(input, "value");
+                __value_31 = __res_32;
 
-                value = __value_37;
+                value = __value_31;
                 return true;
             }
             catch
@@ -284,11 +249,11 @@ public static partial class GenericMarshaller
 
         static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<object>.ToJS(object input)
         {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_39 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-            object __marshalledValue_40;
-            __marshalledValue_40 = input;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsObjectV2(__jsUnion_39, "value", __marshalledValue_40);
-            return __jsUnion_39;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_33 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
+            object __marshalledValue_34;
+            __marshalledValue_34 = input;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsObjectV2(__jsUnion_33, "value", __marshalledValue_34);
+            return __jsUnion_33;
         }
     }
 }

@@ -36,7 +36,7 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Notification, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetNotifications(global::Iskra.StdWeb.GetNotificationOptions filter)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Notification, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetNotifications(global::Iskra.StdWeb.GetNotificationOptions filter)
     {
         throw new global::System.Exception();
     }

@@ -11,7 +11,7 @@ public partial class StylePropertyMapReadOnly(global::System.Runtime.InteropServ
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CSSStyleValue, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetAll(string property)
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CSSStyleValue, global::Iskra.StdWeb.PropertyAccessor> GetAll(string property)
     {
         throw new global::System.Exception();
     }

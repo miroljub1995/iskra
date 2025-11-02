@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public delegate void ResizeObserverCallbackManaged(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> entries, global::Iskra.StdWeb.ResizeObserver observer);
+public delegate void ResizeObserverCallbackManaged(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.PropertyAccessor> entries, global::Iskra.StdWeb.ResizeObserver observer);
 
 public partial class ResizeObserverCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
@@ -15,10 +15,10 @@ public partial class ResizeObserverCallback(global::System.Runtime.InteropServic
             using (__args_0)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __arg_2;
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.PropertyAccessor> __arg_2;
                 global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3;
                 __propObject_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_0, 0);
-                __arg_2 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3);
+                __arg_2 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.PropertyAccessor>(__propObject_3);
 
                 // Argument 2
                 global::Iskra.StdWeb.ResizeObserver __arg_4;

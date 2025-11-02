@@ -113,7 +113,7 @@ public partial class MediaStreamTrack(global::System.Runtime.InteropServices.Jav
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onisolationchange", value);
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetSupportedCaptureActions()
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> GetSupportedCaptureActions()
     {
         throw new global::System.Exception();
     }

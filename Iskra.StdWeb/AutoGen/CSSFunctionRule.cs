@@ -11,7 +11,7 @@ public partial class CSSFunctionRule(global::System.Runtime.InteropServices.Java
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FunctionParameter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetParameters()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FunctionParameter, global::Iskra.StdWeb.PropertyAccessor> GetParameters()
     {
         throw new global::System.Exception();
     }

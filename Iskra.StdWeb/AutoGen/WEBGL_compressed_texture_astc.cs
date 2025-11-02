@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WEBGL_compressed_texture_astc(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetSupportedProfiles()
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> GetSupportedProfiles()
     {
         throw new global::System.Exception();
     }

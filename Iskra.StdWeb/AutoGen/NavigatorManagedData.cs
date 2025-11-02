@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class NavigatorManagedData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
 {
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Record<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetManagedConfiguration(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> keys)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Record<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetManagedConfiguration(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> keys)
     {
         throw new global::System.Exception();
     }

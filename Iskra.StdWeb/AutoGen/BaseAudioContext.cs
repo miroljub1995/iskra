@@ -102,7 +102,7 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
         throw new global::System.Exception();
     }
 
-    public global::Iskra.StdWeb.IIRFilterNode CreateIIRFilter(global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> feedforward, global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> feedback)
+    public global::Iskra.StdWeb.IIRFilterNode CreateIIRFilter(global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor> feedforward, global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor> feedback)
     {
         throw new global::System.Exception();
     }
@@ -117,7 +117,7 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
         throw new global::System.Exception();
     }
 
-    public global::Iskra.StdWeb.PeriodicWave CreatePeriodicWave(global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> real, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> imag, global::Iskra.StdWeb.PeriodicWaveConstraints constraints)
+    public global::Iskra.StdWeb.PeriodicWave CreatePeriodicWave(global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor> real, global::Iskra.JSCore.Generics.JSArray<float, global::Iskra.StdWeb.PropertyAccessor> imag, global::Iskra.StdWeb.PeriodicWaveConstraints constraints)
     {
         throw new global::System.Exception();
     }

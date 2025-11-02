@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class GPUQueue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public void Submit(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUCommandBuffer, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> commandBuffers)
+    public void Submit(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUCommandBuffer, global::Iskra.StdWeb.PropertyAccessor> commandBuffers)
     {
         throw new global::System.Exception();
     }
@@ -21,12 +21,12 @@ public partial class GPUQueue(global::System.Runtime.InteropServices.JavaScript.
         throw new global::System.Exception();
     }
 
-    public void WriteTexture(global::Iskra.StdWeb.GPUTexelCopyTextureInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> data, global::Iskra.StdWeb.GPUTexelCopyBufferLayout dataLayout, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> size)
+    public void WriteTexture(global::Iskra.StdWeb.GPUTexelCopyTextureInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> data, global::Iskra.StdWeb.GPUTexelCopyBufferLayout dataLayout, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> size)
     {
         throw new global::System.Exception();
     }
 
-    public void CopyExternalImageToTexture(global::Iskra.StdWeb.GPUCopyExternalImageSourceInfo source, global::Iskra.StdWeb.GPUCopyExternalImageDestInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
+    public void CopyExternalImageToTexture(global::Iskra.StdWeb.GPUCopyExternalImageSourceInfo source, global::Iskra.StdWeb.GPUCopyExternalImageDestInfo destination, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GPUExtent3DDict, global::Iskra.StdWeb.GenericMarshaller.Union> copySize)
     {
         throw new global::System.Exception();
     }

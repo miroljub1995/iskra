@@ -21,12 +21,12 @@ public partial class HandwritingDrawing(global::System.Runtime.InteropServices.J
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HandwritingStroke, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetStrokes()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HandwritingStroke, global::Iskra.StdWeb.PropertyAccessor> GetStrokes()
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HandwritingPrediction, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetPrediction()
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HandwritingPrediction, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetPrediction()
     {
         throw new global::System.Exception();
     }

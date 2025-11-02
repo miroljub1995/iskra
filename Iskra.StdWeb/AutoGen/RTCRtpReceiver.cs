@@ -32,12 +32,12 @@ public partial class RTCRtpReceiver(global::System.Runtime.InteropServices.JavaS
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpContributingSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetContributingSources()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpContributingSource, global::Iskra.StdWeb.PropertyAccessor> GetContributingSources()
     {
         throw new global::System.Exception();
     }
 
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpSynchronizationSource, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetSynchronizationSources()
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCRtpSynchronizationSource, global::Iskra.StdWeb.PropertyAccessor> GetSynchronizationSources()
     {
         throw new global::System.Exception();
     }
