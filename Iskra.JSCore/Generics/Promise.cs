@@ -21,23 +21,32 @@ public partial class Promise<T, TPropertyAccessor>(JSObject obj) : JSObjectProxy
 
     public TaskAwaiter<T> GetAwaiter() => ((Task<T>)this).GetAwaiter();
 
-    private static async Task<T> ToManaged(JSObject input)
-    {
-        using var wrappedValue = await WrapPromiseValue(input);
-        return TPropertyAccessor.Get(wrappedValue, "value");
-    }
+    private static Task<T> ToManaged(JSObject input) =>
+        WrapPromiseValue(input)
+            .ContinueWith(
+                static task =>
+                {
+                    var res = TPropertyAccessor.Get(task.Result, "value");
+                    task.Result.Dispose();
+                    return res;
+                },
+                TaskContinuationOptions.OnlyOnRanToCompletion
+            );
 
     static JSObject ToJS(Task<T> input)
     {
-        static async Task<JSObject> WrapTask(Task<T> task)
-        {
-            var wrapperObject = ConstructObject(JSHost.GlobalThis, "Object");
-            var awaitedValue = await task;
-            TPropertyAccessor.Set(wrapperObject, "value", awaitedValue);
-            return wrapperObject;
-        }
+        var wrappedPromiseValue = input
+            .ContinueWith(
+                static task =>
+                {
+                    var wrapperObject = ConstructObject(JSHost.GlobalThis, "Object");
+                    var res = task.Result;
+                    TPropertyAccessor.Set(wrapperObject, "value", res);
+                    return wrapperObject;
+                },
+                TaskContinuationOptions.OnlyOnRanToCompletion
+            );
 
-        JSObject promiseObj = UnwrapPromiseValue(WrapTask(input));
-        return promiseObj;
+        return UnwrapPromiseValue(wrappedPromiseValue);
     }
 }
