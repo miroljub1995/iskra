@@ -198,12 +198,12 @@ public partial class Element(global::System.Runtime.InteropServices.JavaScript.J
         throw new global::System.Exception();
     }
 
-    public void SetAttribute(string qualifiedName, string value)
+    public void SetAttribute(string qualifiedName, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, global::Iskra.StdWeb.TrustedScript, global::Iskra.StdWeb.TrustedScriptURL, string, global::Iskra.StdWeb.GenericMarshaller.Union> value)
     {
         throw new global::System.Exception();
     }
 
-    public void SetAttributeNS(string? @namespace, string qualifiedName, string value)
+    public void SetAttributeNS(string? @namespace, string qualifiedName, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, global::Iskra.StdWeb.TrustedScript, global::Iskra.StdWeb.TrustedScriptURL, string, global::Iskra.StdWeb.GenericMarshaller.Union> value)
     {
         throw new global::System.Exception();
     }

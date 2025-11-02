@@ -46,6 +46,11 @@ public partial class MLContext(global::System.Runtime.InteropServices.JavaScript
         throw new global::System.Exception();
     }
 
+    public bool Accelerated
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "accelerated");
+    }
+
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.PropertyAccessor> Lost
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContextLostInfo, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lost");
