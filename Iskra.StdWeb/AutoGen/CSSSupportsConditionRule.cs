@@ -8,13 +8,7 @@ public partial class CSSSupportsConditionRule(global::System.Runtime.InteropServ
 {
     public string Name
     {
-        get
-        {
-            string __res_15692;
-            string __res_15693 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_15692 = __res_15693;
-            return __res_15692;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 }
 

@@ -8,24 +8,12 @@ public partial class WindowControlsOverlayGeometryChangeEvent(global::System.Run
 {
     public global::Iskra.StdWeb.DOMRect TitlebarAreaRect
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMRect __res_5451;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5452 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "titlebarAreaRect");
-            __res_5451 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRect>(__res_5452);
-            return __res_5451;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "titlebarAreaRect");
     }
 
     public bool Visible
     {
-        get
-        {
-            bool __res_5453;
-            bool __res_5454 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
-            __res_5453 = __res_5454;
-            return __res_5453;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "visible");
     }
 }
 

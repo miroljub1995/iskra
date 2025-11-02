@@ -8,108 +8,32 @@ public partial class NDEFRecord(global::System.Runtime.InteropServices.JavaScrip
 {
     public string RecordType
     {
-        get
-        {
-            string __res_9484;
-            string __res_9485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "recordType");
-            __res_9484 = __res_9485;
-            return __res_9484;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "recordType");
     }
 
     public string? MediaType
     {
-        get
-        {
-            string? __res_9486;
-            string? __res_9487 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mediaType");
-            if (__res_9487 is null)
-            {
-                __res_9486 = null;
-            }
-            else
-            {
-                string __notNullable_9488 = (string)__res_9487;
-                __res_9486 = __notNullable_9488;
-            }
-            return __res_9486;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "mediaType");
     }
 
     public string? Id
     {
-        get
-        {
-            string? __res_9489;
-            string? __res_9490 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
-            if (__res_9490 is null)
-            {
-                __res_9489 = null;
-            }
-            else
-            {
-                string __notNullable_9491 = (string)__res_9490;
-                __res_9489 = __notNullable_9491;
-            }
-            return __res_9489;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "id");
     }
 
     public global::Iskra.JSCore.DataView? Data
     {
-        get
-        {
-            global::Iskra.JSCore.DataView? __res_9492;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9493 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_9493 is null)
-            {
-                __res_9492 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9494 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9493;
-                __res_9492 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_9494);
-            }
-            return __res_9492;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.DataView?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "data");
     }
 
     public string? Encoding
     {
-        get
-        {
-            string? __res_9495;
-            string? __res_9496 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "encoding");
-            if (__res_9496 is null)
-            {
-                __res_9495 = null;
-            }
-            else
-            {
-                string __notNullable_9497 = (string)__res_9496;
-                __res_9495 = __notNullable_9497;
-            }
-            return __res_9495;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "encoding");
     }
 
     public string? Lang
     {
-        get
-        {
-            string? __res_9498;
-            string? __res_9499 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "lang");
-            if (__res_9499 is null)
-            {
-                __res_9498 = null;
-            }
-            else
-            {
-                string __notNullable_9500 = (string)__res_9499;
-                __res_9498 = __notNullable_9500;
-            }
-            return __res_9498;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "lang");
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? ToRecords()

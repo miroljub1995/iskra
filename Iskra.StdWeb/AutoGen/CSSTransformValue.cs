@@ -8,13 +8,7 @@ public partial class CSSTransformValue(global::System.Runtime.InteropServices.Ja
 {
     public uint Length
     {
-        get
-        {
-            uint __res_103;
-            double __res_104 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_103 = Convert.ToUInt32(__res_104);
-            return __res_103;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.CSSTransformComponent Get(uint index)
@@ -29,13 +23,7 @@ public partial class CSSTransformValue(global::System.Runtime.InteropServices.Ja
 
     public bool Is2D
     {
-        get
-        {
-            bool __res_107;
-            bool __res_108 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
-            __res_107 = __res_108;
-            return __res_107;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "is2D");
     }
 
     public global::Iskra.StdWeb.DOMMatrix ToMatrix()

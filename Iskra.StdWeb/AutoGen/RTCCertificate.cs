@@ -8,13 +8,7 @@ public partial class RTCCertificate(global::System.Runtime.InteropServices.JavaS
 {
     public ulong Expires
     {
-        get
-        {
-            ulong __res_4127;
-            double __res_4128 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "expires");
-            __res_4127 = Convert.ToUInt64(__res_4128);
-            return __res_4127;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "expires");
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RTCDtlsFingerprint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetFingerprints()

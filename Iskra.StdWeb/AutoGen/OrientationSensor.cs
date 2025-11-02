@@ -8,21 +8,7 @@ public partial class OrientationSensor(global::System.Runtime.InteropServices.Ja
 {
     public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? Quaternion
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_1617;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_1618;
-            __propObject_1618 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "quaternion");
-            if (__propObject_1618 is null)
-            {
-                __res_1617 = null;
-            }
-            else
-            {
-                __res_1617 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1618);
-            }
-            return __res_1617;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "quaternion");
     }
 
     public void PopulateMatrix(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.GenericMarshaller.Union> targetMatrix)

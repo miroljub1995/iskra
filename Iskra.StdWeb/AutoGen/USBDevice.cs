@@ -8,222 +8,87 @@ public partial class USBDevice(global::System.Runtime.InteropServices.JavaScript
 {
     public byte UsbVersionMajor
     {
-        get
-        {
-            byte __res_10221;
-            double __res_10222 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usbVersionMajor");
-            __res_10221 = Convert.ToByte(__res_10222);
-            return __res_10221;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "usbVersionMajor");
     }
 
     public byte UsbVersionMinor
     {
-        get
-        {
-            byte __res_10223;
-            double __res_10224 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usbVersionMinor");
-            __res_10223 = Convert.ToByte(__res_10224);
-            return __res_10223;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "usbVersionMinor");
     }
 
     public byte UsbVersionSubminor
     {
-        get
-        {
-            byte __res_10225;
-            double __res_10226 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usbVersionSubminor");
-            __res_10225 = Convert.ToByte(__res_10226);
-            return __res_10225;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "usbVersionSubminor");
     }
 
     public byte DeviceClass
     {
-        get
-        {
-            byte __res_10227;
-            double __res_10228 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceClass");
-            __res_10227 = Convert.ToByte(__res_10228);
-            return __res_10227;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deviceClass");
     }
 
     public byte DeviceSubclass
     {
-        get
-        {
-            byte __res_10229;
-            double __res_10230 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceSubclass");
-            __res_10229 = Convert.ToByte(__res_10230);
-            return __res_10229;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deviceSubclass");
     }
 
     public byte DeviceProtocol
     {
-        get
-        {
-            byte __res_10231;
-            double __res_10232 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceProtocol");
-            __res_10231 = Convert.ToByte(__res_10232);
-            return __res_10231;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deviceProtocol");
     }
 
     public ushort VendorId
     {
-        get
-        {
-            ushort __res_10233;
-            double __res_10234 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vendorId");
-            __res_10233 = Convert.ToUInt16(__res_10234);
-            return __res_10233;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vendorId");
     }
 
     public ushort ProductId
     {
-        get
-        {
-            ushort __res_10235;
-            double __res_10236 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "productId");
-            __res_10235 = Convert.ToUInt16(__res_10236);
-            return __res_10235;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "productId");
     }
 
     public byte DeviceVersionMajor
     {
-        get
-        {
-            byte __res_10237;
-            double __res_10238 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceVersionMajor");
-            __res_10237 = Convert.ToByte(__res_10238);
-            return __res_10237;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deviceVersionMajor");
     }
 
     public byte DeviceVersionMinor
     {
-        get
-        {
-            byte __res_10239;
-            double __res_10240 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceVersionMinor");
-            __res_10239 = Convert.ToByte(__res_10240);
-            return __res_10239;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deviceVersionMinor");
     }
 
     public byte DeviceVersionSubminor
     {
-        get
-        {
-            byte __res_10241;
-            double __res_10242 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "deviceVersionSubminor");
-            __res_10241 = Convert.ToByte(__res_10242);
-            return __res_10241;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deviceVersionSubminor");
     }
 
     public string? ManufacturerName
     {
-        get
-        {
-            string? __res_10243;
-            string? __res_10244 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "manufacturerName");
-            if (__res_10244 is null)
-            {
-                __res_10243 = null;
-            }
-            else
-            {
-                string __notNullable_10245 = (string)__res_10244;
-                __res_10243 = __notNullable_10245;
-            }
-            return __res_10243;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "manufacturerName");
     }
 
     public string? ProductName
     {
-        get
-        {
-            string? __res_10246;
-            string? __res_10247 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "productName");
-            if (__res_10247 is null)
-            {
-                __res_10246 = null;
-            }
-            else
-            {
-                string __notNullable_10248 = (string)__res_10247;
-                __res_10246 = __notNullable_10248;
-            }
-            return __res_10246;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "productName");
     }
 
     public string? SerialNumber
     {
-        get
-        {
-            string? __res_10249;
-            string? __res_10250 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "serialNumber");
-            if (__res_10250 is null)
-            {
-                __res_10249 = null;
-            }
-            else
-            {
-                string __notNullable_10251 = (string)__res_10250;
-                __res_10249 = __notNullable_10251;
-            }
-            return __res_10249;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "serialNumber");
     }
 
     public global::Iskra.StdWeb.USBConfiguration? Configuration
     {
-        get
-        {
-            global::Iskra.StdWeb.USBConfiguration? __res_10252;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10253 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "configuration");
-            if (__res_10253 is null)
-            {
-                __res_10252 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10254 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10253;
-                __res_10252 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USBConfiguration>(__notNullable_10254);
-            }
-            return __res_10252;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.USBConfiguration?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "configuration");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Configurations
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_10255;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10256;
-            __propObject_10256 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "configurations");
-            __res_10255 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10256);
-            return __res_10255;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBConfiguration, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "configurations");
     }
 
     public bool Opened
     {
-        get
-        {
-            bool __res_10257;
-            bool __res_10258 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
-            __res_10257 = __res_10258;
-            return __res_10257;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "opened");
     }
 
     public global::Iskra.JSCore.Promise Open()

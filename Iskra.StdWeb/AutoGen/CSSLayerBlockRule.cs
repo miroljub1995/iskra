@@ -8,13 +8,7 @@ public partial class CSSLayerBlockRule(global::System.Runtime.InteropServices.Ja
 {
     public string Name
     {
-        get
-        {
-            string __res_5418;
-            string __res_5419 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5418 = __res_5419;
-            return __res_5418;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 }
 

@@ -8,35 +8,17 @@ public partial class HIDInputReportEvent(global::System.Runtime.InteropServices.
 {
     public global::Iskra.StdWeb.HIDDevice Device
     {
-        get
-        {
-            global::Iskra.StdWeb.HIDDevice __res_3556;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3557 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "device");
-            __res_3556 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HIDDevice>(__res_3557);
-            return __res_3556;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HIDDevice, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "device");
     }
 
     public byte ReportId
     {
-        get
-        {
-            byte __res_3558;
-            double __res_3559 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "reportId");
-            __res_3558 = Convert.ToByte(__res_3559);
-            return __res_3558;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reportId");
     }
 
     public global::Iskra.JSCore.DataView Data
     {
-        get
-        {
-            global::Iskra.JSCore.DataView __res_3560;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3561 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_3560 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__res_3561);
-            return __res_3560;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.DataView, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");
     }
 }
 

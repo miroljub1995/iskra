@@ -8,19 +8,8 @@ public partial class RTCEncodedAudioFrame(global::System.Runtime.InteropServices
 {
     public global::Iskra.JSCore.ArrayBuffer Data
     {
-        get
-        {
-            global::Iskra.JSCore.ArrayBuffer __res_2627;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2628 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_2627 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2628);
-            return __res_2627;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_2629;
-            __marshalledValue_2629 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_2629);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data", value);
     }
 
     public global::Iskra.StdWeb.RTCEncodedAudioFrameMetadata GetMetadata()

@@ -8,58 +8,27 @@ public partial class MLTensor(global::System.Runtime.InteropServices.JavaScript.
 {
     public global::Iskra.StdWeb.MLOperandDataType DataType
     {
-        get
-        {
-            global::Iskra.StdWeb.MLOperandDataType __res_9696;
-            string __res_9697 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dataType");
-            __res_9696 = global::Iskra.StdWeb.MLOperandDataType.Create(__res_9697);
-            return __res_9696;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLOperandDataType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dataType");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Shape
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_9698;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9699;
-            __propObject_9699 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "shape");
-            __res_9698 = new global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9699);
-            return __res_9698;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<uint, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shape");
     }
 
     public bool Readable
     {
-        get
-        {
-            bool __res_9700;
-            bool __res_9701 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "readable");
-            __res_9700 = __res_9701;
-            return __res_9700;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readable");
     }
 
     public bool Writable
     {
-        get
-        {
-            bool __res_9702;
-            bool __res_9703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writable");
-            __res_9702 = __res_9703;
-            return __res_9702;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "writable");
     }
 
     public bool Constant
     {
-        get
-        {
-            bool __res_9704;
-            bool __res_9705 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "constant");
-            __res_9704 = __res_9705;
-            return __res_9704;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "constant");
     }
 
     public void Destroy()

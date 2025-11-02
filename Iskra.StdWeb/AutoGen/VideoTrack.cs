@@ -8,82 +8,33 @@ public partial class VideoTrack(global::System.Runtime.InteropServices.JavaScrip
 {
     public string Id
     {
-        get
-        {
-            string __res_12065;
-            string __res_12066 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_12065 = __res_12066;
-            return __res_12065;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "id");
     }
 
     public string Kind
     {
-        get
-        {
-            string __res_12067;
-            string __res_12068 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_12067 = __res_12068;
-            return __res_12067;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "kind");
     }
 
     public string Label
     {
-        get
-        {
-            string __res_12069;
-            string __res_12070 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_12069 = __res_12070;
-            return __res_12069;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
     }
 
     public string Language
     {
-        get
-        {
-            string __res_12071;
-            string __res_12072 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "language");
-            __res_12071 = __res_12072;
-            return __res_12071;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "language");
     }
 
     public bool Selected
     {
-        get
-        {
-            bool __res_12073;
-            bool __res_12074 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
-            __res_12073 = __res_12074;
-            return __res_12073;
-        }
-        set
-        {
-            bool __marshalledValue_12075;
-            __marshalledValue_12075 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_12075);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "selected");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "selected", value);
     }
 
     public global::Iskra.StdWeb.SourceBuffer? SourceBuffer
     {
-        get
-        {
-            global::Iskra.StdWeb.SourceBuffer? __res_12076;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12077 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sourceBuffer");
-            if (__res_12077 is null)
-            {
-                __res_12076 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12078 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12077;
-                __res_12076 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBuffer>(__notNullable_12078);
-            }
-            return __res_12076;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SourceBuffer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "sourceBuffer");
     }
 }
 

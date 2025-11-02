@@ -8,19 +8,8 @@ public partial class CSSSkewX(global::System.Runtime.InteropServices.JavaScript.
 {
     public global::Iskra.StdWeb.CSSNumericValue Ax
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSNumericValue __res_151;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_152 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ax");
-            __res_151 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_152);
-            return __res_151;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_153;
-            __marshalledValue_153 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ax", __marshalledValue_153);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ax");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ax", value);
     }
 }
 

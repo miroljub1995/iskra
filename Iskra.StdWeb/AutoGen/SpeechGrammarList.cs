@@ -8,13 +8,7 @@ public partial class SpeechGrammarList(global::System.Runtime.InteropServices.Ja
 {
     public uint Length
     {
-        get
-        {
-            uint __res_8492;
-            double __res_8493 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_8492 = Convert.ToUInt32(__res_8493);
-            return __res_8492;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.SpeechGrammar Item(uint index)

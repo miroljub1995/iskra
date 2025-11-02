@@ -8,46 +8,22 @@ public partial class VideoPlaybackQuality(global::System.Runtime.InteropServices
 {
     public double CreationTime
     {
-        get
-        {
-            double __res_1958;
-            double __res_1959 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "creationTime");
-            __res_1958 = __res_1959;
-            return __res_1958;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "creationTime");
     }
 
     public uint DroppedVideoFrames
     {
-        get
-        {
-            uint __res_1960;
-            double __res_1961 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "droppedVideoFrames");
-            __res_1960 = Convert.ToUInt32(__res_1961);
-            return __res_1960;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "droppedVideoFrames");
     }
 
     public uint TotalVideoFrames
     {
-        get
-        {
-            uint __res_1962;
-            double __res_1963 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "totalVideoFrames");
-            __res_1962 = Convert.ToUInt32(__res_1963);
-            return __res_1962;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "totalVideoFrames");
     }
 
     public uint CorruptedVideoFrames
     {
-        get
-        {
-            uint __res_1964;
-            double __res_1965 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "corruptedVideoFrames");
-            __res_1964 = Convert.ToUInt32(__res_1965);
-            return __res_1964;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "corruptedVideoFrames");
     }
 }
 

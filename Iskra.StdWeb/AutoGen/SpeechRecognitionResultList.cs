@@ -8,13 +8,7 @@ public partial class SpeechRecognitionResultList(global::System.Runtime.InteropS
 {
     public uint Length
     {
-        get
-        {
-            uint __res_8479;
-            double __res_8480 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_8479 = Convert.ToUInt32(__res_8480);
-            return __res_8479;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.SpeechRecognitionResult Item(uint index)

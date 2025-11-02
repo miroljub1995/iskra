@@ -8,70 +8,22 @@ public partial class DeviceOrientationEvent(global::System.Runtime.InteropServic
 {
     public double? Alpha
     {
-        get
-        {
-            double? __res_5487;
-            double? __res_5488 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
-            if (__res_5488 is null)
-            {
-                __res_5487 = null;
-            }
-            else
-            {
-                double __notNullable_5489 = (double)__res_5488;
-                __res_5487 = __notNullable_5489;
-            }
-            return __res_5487;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "alpha");
     }
 
     public double? Beta
     {
-        get
-        {
-            double? __res_5490;
-            double? __res_5491 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
-            if (__res_5491 is null)
-            {
-                __res_5490 = null;
-            }
-            else
-            {
-                double __notNullable_5492 = (double)__res_5491;
-                __res_5490 = __notNullable_5492;
-            }
-            return __res_5490;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "beta");
     }
 
     public double? Gamma
     {
-        get
-        {
-            double? __res_5493;
-            double? __res_5494 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
-            if (__res_5494 is null)
-            {
-                __res_5493 = null;
-            }
-            else
-            {
-                double __notNullable_5495 = (double)__res_5494;
-                __res_5493 = __notNullable_5495;
-            }
-            return __res_5493;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "gamma");
     }
 
     public bool Absolute
     {
-        get
-        {
-            bool __res_5496;
-            bool __res_5497 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "absolute");
-            __res_5496 = __res_5497;
-            return __res_5496;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "absolute");
     }
 
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PermissionState, global::Iskra.StdWeb.PropertyAccessor> RequestPermission(bool absolute)

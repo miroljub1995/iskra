@@ -8,79 +8,28 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
 {
     public string ContentType
     {
-        get
-        {
-            string __res_10388;
-            string __res_10389 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
-            __res_10388 = __res_10389;
-            return __res_10388;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "contentType");
     }
 
     public string ContextUrl
     {
-        get
-        {
-            string __res_10390;
-            string __res_10391 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contextUrl");
-            __res_10390 = __res_10391;
-            return __res_10390;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "contextUrl");
     }
 
     public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Document
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_10392;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10393;
-            __propObject_10393 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "document");
-            if (__propObject_10393 is null)
-            {
-                __res_10392 = null;
-            }
-            else
-            {
-                __res_10392 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_10393);
-            }
-            return __res_10392;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10394;
-            if (value is null)
-            {
-                __propObject_10394 = null;
-            }
-            else
-            {
-                __propObject_10394 = value.JSObject;
-            }
-
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(JSObject, "document", __propObject_10394);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "document");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "document", value);
     }
 
     public string DocumentUrl
     {
-        get
-        {
-            string __res_10395;
-            string __res_10396 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "documentUrl");
-            __res_10395 = __res_10396;
-            return __res_10395;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "documentUrl");
     }
 
     public string Profile
     {
-        get
-        {
-            string __res_10397;
-            string __res_10398 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "profile");
-            __res_10397 = __res_10398;
-            return __res_10397;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "profile");
     }
 }
 

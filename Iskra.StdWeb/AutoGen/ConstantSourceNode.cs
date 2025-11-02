@@ -8,13 +8,7 @@ public partial class ConstantSourceNode(global::System.Runtime.InteropServices.J
 {
     public global::Iskra.StdWeb.AudioParam Offset
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17296;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17297 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
-            __res_17296 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17297);
-            return __res_17296;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "offset");
     }
 }
 

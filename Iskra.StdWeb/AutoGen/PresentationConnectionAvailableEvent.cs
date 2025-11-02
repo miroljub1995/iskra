@@ -8,13 +8,7 @@ public partial class PresentationConnectionAvailableEvent(global::System.Runtime
 {
     public global::Iskra.StdWeb.PresentationConnection Connection
     {
-        get
-        {
-            global::Iskra.StdWeb.PresentationConnection __res_4605;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4606 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "connection");
-            __res_4605 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PresentationConnection>(__res_4606);
-            return __res_4605;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "connection");
     }
 }
 

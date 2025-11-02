@@ -8,70 +8,22 @@ public partial class DeviceMotionEvent(global::System.Runtime.InteropServices.Ja
 {
     public global::Iskra.StdWeb.DeviceMotionEventAcceleration? Acceleration
     {
-        get
-        {
-            global::Iskra.StdWeb.DeviceMotionEventAcceleration? __res_5517;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5518 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "acceleration");
-            if (__res_5518 is null)
-            {
-                __res_5517 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5519 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5518;
-                __res_5517 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(__notNullable_5519);
-            }
-            return __res_5517;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DeviceMotionEventAcceleration?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "acceleration");
     }
 
     public global::Iskra.StdWeb.DeviceMotionEventAcceleration? AccelerationIncludingGravity
     {
-        get
-        {
-            global::Iskra.StdWeb.DeviceMotionEventAcceleration? __res_5520;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5521 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "accelerationIncludingGravity");
-            if (__res_5521 is null)
-            {
-                __res_5520 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5522 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5521;
-                __res_5520 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(__notNullable_5522);
-            }
-            return __res_5520;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DeviceMotionEventAcceleration?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "accelerationIncludingGravity");
     }
 
     public global::Iskra.StdWeb.DeviceMotionEventRotationRate? RotationRate
     {
-        get
-        {
-            global::Iskra.StdWeb.DeviceMotionEventRotationRate? __res_5523;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5524 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "rotationRate");
-            if (__res_5524 is null)
-            {
-                __res_5523 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5525 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5524;
-                __res_5523 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventRotationRate>(__notNullable_5525);
-            }
-            return __res_5523;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DeviceMotionEventRotationRate?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "rotationRate");
     }
 
     public double Interval
     {
-        get
-        {
-            double __res_5526;
-            double __res_5527 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interval");
-            __res_5526 = __res_5527;
-            return __res_5526;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "interval");
     }
 
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PermissionState, global::Iskra.StdWeb.PropertyAccessor> RequestPermission()

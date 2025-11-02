@@ -8,13 +8,7 @@ public partial class MediaKeySystemAccess(global::System.Runtime.InteropServices
 {
     public string KeySystem
     {
-        get
-        {
-            string __res_10438;
-            string __res_10439 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keySystem");
-            __res_10438 = __res_10439;
-            return __res_10438;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "keySystem");
     }
 
     public global::Iskra.StdWeb.MediaKeySystemConfiguration GetConfiguration()

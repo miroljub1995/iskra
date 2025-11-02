@@ -8,24 +8,12 @@ public partial class PerformanceNavigation(global::System.Runtime.InteropService
 {
     public ushort Type
     {
-        get
-        {
-            ushort __res_3323;
-            double __res_3324 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            __res_3323 = Convert.ToUInt16(__res_3324);
-            return __res_3323;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public ushort RedirectCount
     {
-        get
-        {
-            ushort __res_3325;
-            double __res_3326 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectCount");
-            __res_3325 = Convert.ToUInt16(__res_3326);
-            return __res_3325;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "redirectCount");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

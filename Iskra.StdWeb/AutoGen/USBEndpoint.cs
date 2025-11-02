@@ -8,46 +8,22 @@ public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScri
 {
     public byte EndpointNumber
     {
-        get
-        {
-            byte __res_10302;
-            double __res_10303 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "endpointNumber");
-            __res_10302 = Convert.ToByte(__res_10303);
-            return __res_10302;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "endpointNumber");
     }
 
     public global::Iskra.StdWeb.USBDirection Direction
     {
-        get
-        {
-            global::Iskra.StdWeb.USBDirection __res_10304;
-            string __res_10305 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
-            __res_10304 = global::Iskra.StdWeb.USBDirection.Create(__res_10305);
-            return __res_10304;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.USBDirection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "direction");
     }
 
     public global::Iskra.StdWeb.USBEndpointType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.USBEndpointType __res_10306;
-            string __res_10307 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_10306 = global::Iskra.StdWeb.USBEndpointType.Create(__res_10307);
-            return __res_10306;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.USBEndpointType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public uint PacketSize
     {
-        get
-        {
-            uint __res_10308;
-            double __res_10309 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "packetSize");
-            __res_10308 = Convert.ToUInt32(__res_10309);
-            return __res_10308;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "packetSize");
     }
 }
 

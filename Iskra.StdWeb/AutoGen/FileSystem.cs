@@ -8,24 +8,12 @@ public partial class FileSystem(global::System.Runtime.InteropServices.JavaScrip
 {
     public string Name
     {
-        get
-        {
-            string __res_3384;
-            string __res_3385 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3384 = __res_3385;
-            return __res_3384;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public global::Iskra.StdWeb.FileSystemDirectoryEntry Root
     {
-        get
-        {
-            global::Iskra.StdWeb.FileSystemDirectoryEntry __res_3386;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3387 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            __res_3386 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileSystemDirectoryEntry>(__res_3387);
-            return __res_3386;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FileSystemDirectoryEntry, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "root");
     }
 }
 

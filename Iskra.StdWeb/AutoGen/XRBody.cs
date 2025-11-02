@@ -8,13 +8,7 @@ public partial class XRBody(global::System.Runtime.InteropServices.JavaScript.JS
 {
     public uint Size
     {
-        get
-        {
-            uint __res_9042;
-            double __res_9043 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_9042 = Convert.ToUInt32(__res_9043);
-            return __res_9042;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size");
     }
 
     public global::Iskra.StdWeb.XRBodySpace Get(global::Iskra.StdWeb.XRBodyJoint key)

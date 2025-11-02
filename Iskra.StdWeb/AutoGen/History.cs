@@ -8,49 +8,18 @@ public partial class History(global::System.Runtime.InteropServices.JavaScript.J
 {
     public uint Length
     {
-        get
-        {
-            uint __res_14637;
-            double __res_14638 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_14637 = Convert.ToUInt32(__res_14638);
-            return __res_14637;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.ScrollRestoration ScrollRestoration
     {
-        get
-        {
-            global::Iskra.StdWeb.ScrollRestoration __res_14639;
-            string __res_14640 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollRestoration");
-            __res_14639 = global::Iskra.StdWeb.ScrollRestoration.Create(__res_14640);
-            return __res_14639;
-        }
-        set
-        {
-            string __marshalledValue_14641;
-            __marshalledValue_14641 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "scrollRestoration", __marshalledValue_14641);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ScrollRestoration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "scrollRestoration");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ScrollRestoration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "scrollRestoration", value);
     }
 
     public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? State
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_14642;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14643;
-            __propObject_14643 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "state");
-            if (__propObject_14643 is null)
-            {
-                __res_14642 = null;
-            }
-            else
-            {
-                __res_14642 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_14643);
-            }
-            return __res_14642;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "state");
     }
 
     public void Go(int delta)

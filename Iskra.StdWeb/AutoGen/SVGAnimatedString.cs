@@ -8,30 +8,13 @@ public partial class SVGAnimatedString(global::System.Runtime.InteropServices.Ja
 {
     public global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union> BaseVal
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union> __res_1047;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1048;
-            __propObject_1048 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "baseVal");
-            __res_1047 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1048);
-            return __res_1047;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1049 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "baseVal", __propObject_1049);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseVal");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.TrustedScriptURL, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseVal", value);
     }
 
     public string AnimVal
     {
-        get
-        {
-            string __res_1050;
-            string __res_1051 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "animVal");
-            __res_1050 = __res_1051;
-            return __res_1050;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "animVal");
     }
 }
 

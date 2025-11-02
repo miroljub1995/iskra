@@ -23,13 +23,7 @@ public partial class Memory(global::System.Runtime.InteropServices.JavaScript.JS
 
     public global::Iskra.JSCore.ArrayBuffer Buffer
     {
-        get
-        {
-            global::Iskra.JSCore.ArrayBuffer __res_9539;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9540 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "buffer");
-            __res_9539 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_9540);
-            return __res_9539;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "buffer");
     }
 }
 

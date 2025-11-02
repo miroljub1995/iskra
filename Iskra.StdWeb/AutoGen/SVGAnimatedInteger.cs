@@ -8,30 +8,13 @@ public partial class SVGAnimatedInteger(global::System.Runtime.InteropServices.J
 {
     public int BaseVal
     {
-        get
-        {
-            int __res_1029;
-            double __res_1030 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
-            __res_1029 = Convert.ToInt32(__res_1030);
-            return __res_1029;
-        }
-        set
-        {
-            double __marshalledValue_1031;
-            __marshalledValue_1031 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "baseVal", __marshalledValue_1031);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseVal");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseVal", value);
     }
 
     public int AnimVal
     {
-        get
-        {
-            int __res_1032;
-            double __res_1033 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
-            __res_1032 = Convert.ToInt32(__res_1033);
-            return __res_1032;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "animVal");
     }
 }
 

@@ -8,68 +8,32 @@ public partial class GPUCompilationMessage(global::System.Runtime.InteropService
 {
     public string Message
     {
-        get
-        {
-            string __res_1804;
-            string __res_1805 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_1804 = __res_1805;
-            return __res_1804;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "message");
     }
 
     public global::Iskra.StdWeb.GPUCompilationMessageType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.GPUCompilationMessageType __res_1806;
-            string __res_1807 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1806 = global::Iskra.StdWeb.GPUCompilationMessageType.Create(__res_1807);
-            return __res_1806;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUCompilationMessageType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public ulong LineNum
     {
-        get
-        {
-            ulong __res_1808;
-            double __res_1809 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineNum");
-            __res_1808 = Convert.ToUInt64(__res_1809);
-            return __res_1808;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lineNum");
     }
 
     public ulong LinePos
     {
-        get
-        {
-            ulong __res_1810;
-            double __res_1811 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "linePos");
-            __res_1810 = Convert.ToUInt64(__res_1811);
-            return __res_1810;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "linePos");
     }
 
     public ulong Offset
     {
-        get
-        {
-            ulong __res_1812;
-            double __res_1813 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
-            __res_1812 = Convert.ToUInt64(__res_1813);
-            return __res_1812;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "offset");
     }
 
     public ulong Length
     {
-        get
-        {
-            ulong __res_1814;
-            double __res_1815 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_1814 = Convert.ToUInt64(__res_1815);
-            return __res_1814;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 }
 

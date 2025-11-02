@@ -8,46 +8,22 @@ public partial class TextFormat(global::System.Runtime.InteropServices.JavaScrip
 {
     public uint RangeStart
     {
-        get
-        {
-            uint __res_18062;
-            double __res_18063 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
-            __res_18062 = Convert.ToUInt32(__res_18063);
-            return __res_18062;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rangeStart");
     }
 
     public uint RangeEnd
     {
-        get
-        {
-            uint __res_18064;
-            double __res_18065 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
-            __res_18064 = Convert.ToUInt32(__res_18065);
-            return __res_18064;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rangeEnd");
     }
 
     public global::Iskra.StdWeb.UnderlineStyle UnderlineStyle
     {
-        get
-        {
-            global::Iskra.StdWeb.UnderlineStyle __res_18066;
-            string __res_18067 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "underlineStyle");
-            __res_18066 = global::Iskra.StdWeb.UnderlineStyle.Create(__res_18067);
-            return __res_18066;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.UnderlineStyle, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "underlineStyle");
     }
 
     public global::Iskra.StdWeb.UnderlineThickness UnderlineThickness
     {
-        get
-        {
-            global::Iskra.StdWeb.UnderlineThickness __res_18068;
-            string __res_18069 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "underlineThickness");
-            __res_18068 = global::Iskra.StdWeb.UnderlineThickness.Create(__res_18069);
-            return __res_18068;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.UnderlineThickness, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "underlineThickness");
     }
 }
 

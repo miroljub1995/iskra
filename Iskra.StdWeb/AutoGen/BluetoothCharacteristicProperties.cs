@@ -8,101 +8,47 @@ public partial class BluetoothCharacteristicProperties(global::System.Runtime.In
 {
     public bool Broadcast
     {
-        get
-        {
-            bool __res_5384;
-            bool __res_5385 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "broadcast");
-            __res_5384 = __res_5385;
-            return __res_5384;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "broadcast");
     }
 
     public bool Read
     {
-        get
-        {
-            bool __res_5386;
-            bool __res_5387 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "read");
-            __res_5386 = __res_5387;
-            return __res_5386;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "read");
     }
 
     public bool WriteWithoutResponse
     {
-        get
-        {
-            bool __res_5388;
-            bool __res_5389 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writeWithoutResponse");
-            __res_5388 = __res_5389;
-            return __res_5388;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "writeWithoutResponse");
     }
 
     public bool Write
     {
-        get
-        {
-            bool __res_5390;
-            bool __res_5391 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "write");
-            __res_5390 = __res_5391;
-            return __res_5390;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "write");
     }
 
     public bool Notify
     {
-        get
-        {
-            bool __res_5392;
-            bool __res_5393 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "notify");
-            __res_5392 = __res_5393;
-            return __res_5392;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "notify");
     }
 
     public bool Indicate
     {
-        get
-        {
-            bool __res_5394;
-            bool __res_5395 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "indicate");
-            __res_5394 = __res_5395;
-            return __res_5394;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "indicate");
     }
 
     public bool AuthenticatedSignedWrites
     {
-        get
-        {
-            bool __res_5396;
-            bool __res_5397 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "authenticatedSignedWrites");
-            __res_5396 = __res_5397;
-            return __res_5396;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "authenticatedSignedWrites");
     }
 
     public bool ReliableWrite
     {
-        get
-        {
-            bool __res_5398;
-            bool __res_5399 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reliableWrite");
-            __res_5398 = __res_5399;
-            return __res_5398;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reliableWrite");
     }
 
     public bool WritableAuxiliaries
     {
-        get
-        {
-            bool __res_5400;
-            bool __res_5401 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "writableAuxiliaries");
-            __res_5400 = __res_5401;
-            return __res_5400;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "writableAuxiliaries");
     }
 }
 

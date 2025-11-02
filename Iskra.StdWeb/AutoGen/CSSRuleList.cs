@@ -13,13 +13,7 @@ public partial class CSSRuleList(global::System.Runtime.InteropServices.JavaScri
 
     public uint Length
     {
-        get
-        {
-            uint __res_16133;
-            double __res_16134 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_16133 = Convert.ToUInt32(__res_16134);
-            return __res_16133;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 }
 

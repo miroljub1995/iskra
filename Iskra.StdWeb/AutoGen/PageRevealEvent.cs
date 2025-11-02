@@ -8,21 +8,7 @@ public partial class PageRevealEvent(global::System.Runtime.InteropServices.Java
 {
     public global::Iskra.StdWeb.ViewTransition? ViewTransition
     {
-        get
-        {
-            global::Iskra.StdWeb.ViewTransition? __res_14803;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_14804 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "viewTransition");
-            if (__res_14804 is null)
-            {
-                __res_14803 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_14805 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_14804;
-                __res_14803 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ViewTransition>(__notNullable_14805);
-            }
-            return __res_14803;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ViewTransition?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "viewTransition");
     }
 }
 

@@ -8,13 +8,7 @@ public partial class LayoutChild(global::System.Runtime.InteropServices.JavaScri
 {
     public global::Iskra.StdWeb.StylePropertyMapReadOnly StyleMap
     {
-        get
-        {
-            global::Iskra.StdWeb.StylePropertyMapReadOnly __res_16776;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16777 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
-            __res_16776 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StylePropertyMapReadOnly>(__res_16777);
-            return __res_16776;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.StylePropertyMapReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "styleMap");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.IntrinsicSizes, global::Iskra.StdWeb.PropertyAccessor> IntrinsicSizes()

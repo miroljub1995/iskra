@@ -8,47 +8,19 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
 {
     public string DropEffect
     {
-        get
-        {
-            string __res_13709;
-            string __res_13710 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dropEffect");
-            __res_13709 = __res_13710;
-            return __res_13709;
-        }
-        set
-        {
-            string __marshalledValue_13711;
-            __marshalledValue_13711 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dropEffect", __marshalledValue_13711);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dropEffect");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dropEffect", value);
     }
 
     public string EffectAllowed
     {
-        get
-        {
-            string __res_13712;
-            string __res_13713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectAllowed");
-            __res_13712 = __res_13713;
-            return __res_13712;
-        }
-        set
-        {
-            string __marshalledValue_13714;
-            __marshalledValue_13714 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "effectAllowed", __marshalledValue_13714);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "effectAllowed");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "effectAllowed", value);
     }
 
     public global::Iskra.StdWeb.DataTransferItemList Items
     {
-        get
-        {
-            global::Iskra.StdWeb.DataTransferItemList __res_13715;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13716 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "items");
-            __res_13715 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransferItemList>(__res_13716);
-            return __res_13715;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DataTransferItemList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "items");
     }
 
     public void SetDragImage(global::Iskra.StdWeb.Element image, int x, int y)
@@ -58,14 +30,7 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
 
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Types
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_13718;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_13719;
-            __propObject_13719 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
-            __res_13718 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_13719);
-            return __res_13718;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "types");
     }
 
     public string GetData(string format)
@@ -85,13 +50,7 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
 
     public global::Iskra.StdWeb.FileList Files
     {
-        get
-        {
-            global::Iskra.StdWeb.FileList __res_13723;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13724 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "files");
-            __res_13723 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileList>(__res_13724);
-            return __res_13723;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FileList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "files");
     }
 }
 

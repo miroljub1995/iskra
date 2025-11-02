@@ -8,123 +8,48 @@ public partial class BackgroundFetchRegistration(global::System.Runtime.InteropS
 {
     public string Id
     {
-        get
-        {
-            string __res_7518;
-            string __res_7519 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_7518 = __res_7519;
-            return __res_7518;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "id");
     }
 
     public ulong UploadTotal
     {
-        get
-        {
-            ulong __res_7520;
-            double __res_7521 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploadTotal");
-            __res_7520 = Convert.ToUInt64(__res_7521);
-            return __res_7520;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "uploadTotal");
     }
 
     public ulong Uploaded
     {
-        get
-        {
-            ulong __res_7522;
-            double __res_7523 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "uploaded");
-            __res_7522 = Convert.ToUInt64(__res_7523);
-            return __res_7522;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "uploaded");
     }
 
     public ulong DownloadTotal
     {
-        get
-        {
-            ulong __res_7524;
-            double __res_7525 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloadTotal");
-            __res_7524 = Convert.ToUInt64(__res_7525);
-            return __res_7524;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "downloadTotal");
     }
 
     public ulong Downloaded
     {
-        get
-        {
-            ulong __res_7526;
-            double __res_7527 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downloaded");
-            __res_7526 = Convert.ToUInt64(__res_7527);
-            return __res_7526;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "downloaded");
     }
 
     public global::Iskra.StdWeb.BackgroundFetchResult Result
     {
-        get
-        {
-            global::Iskra.StdWeb.BackgroundFetchResult __res_7528;
-            string __res_7529 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "result");
-            __res_7528 = global::Iskra.StdWeb.BackgroundFetchResult.Create(__res_7529);
-            return __res_7528;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.BackgroundFetchResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "result");
     }
 
     public global::Iskra.StdWeb.BackgroundFetchFailureReason FailureReason
     {
-        get
-        {
-            global::Iskra.StdWeb.BackgroundFetchFailureReason __res_7530;
-            string __res_7531 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "failureReason");
-            __res_7530 = global::Iskra.StdWeb.BackgroundFetchFailureReason.Create(__res_7531);
-            return __res_7530;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.BackgroundFetchFailureReason, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "failureReason");
     }
 
     public bool RecordsAvailable
     {
-        get
-        {
-            bool __res_7532;
-            bool __res_7533 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "recordsAvailable");
-            __res_7532 = __res_7533;
-            return __res_7532;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "recordsAvailable");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onprogress
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7534;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7535 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress");
-            if (__res_7535 is null)
-            {
-                __res_7534 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7536 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7535;
-                __res_7534 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7536);
-            }
-            return __res_7534;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7537;
-            if (value is null)
-            {
-                __marshalledValue_7537 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7538 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7537 = __notNullable_7538.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress", __marshalledValue_7537);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onprogress");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onprogress", value);
     }
 
     public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Abort()

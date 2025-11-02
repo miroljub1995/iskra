@@ -8,136 +8,43 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
 {
     public string Id
     {
-        get
-        {
-            string __res_16374;
-            string __res_16375 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_16374 = __res_16375;
-            return __res_16374;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "id");
     }
 
     public string? Manufacturer
     {
-        get
-        {
-            string? __res_16376;
-            string? __res_16377 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "manufacturer");
-            if (__res_16377 is null)
-            {
-                __res_16376 = null;
-            }
-            else
-            {
-                string __notNullable_16378 = (string)__res_16377;
-                __res_16376 = __notNullable_16378;
-            }
-            return __res_16376;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "manufacturer");
     }
 
     public string? Name
     {
-        get
-        {
-            string? __res_16379;
-            string? __res_16380 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_16380 is null)
-            {
-                __res_16379 = null;
-            }
-            else
-            {
-                string __notNullable_16381 = (string)__res_16380;
-                __res_16379 = __notNullable_16381;
-            }
-            return __res_16379;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "name");
     }
 
     public global::Iskra.StdWeb.MIDIPortType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.MIDIPortType __res_16382;
-            string __res_16383 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_16382 = global::Iskra.StdWeb.MIDIPortType.Create(__res_16383);
-            return __res_16382;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MIDIPortType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public string? Version
     {
-        get
-        {
-            string? __res_16384;
-            string? __res_16385 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "version");
-            if (__res_16385 is null)
-            {
-                __res_16384 = null;
-            }
-            else
-            {
-                string __notNullable_16386 = (string)__res_16385;
-                __res_16384 = __notNullable_16386;
-            }
-            return __res_16384;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "version");
     }
 
     public global::Iskra.StdWeb.MIDIPortDeviceState State
     {
-        get
-        {
-            global::Iskra.StdWeb.MIDIPortDeviceState __res_16387;
-            string __res_16388 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_16387 = global::Iskra.StdWeb.MIDIPortDeviceState.Create(__res_16388);
-            return __res_16387;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MIDIPortDeviceState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "state");
     }
 
     public global::Iskra.StdWeb.MIDIPortConnectionState Connection
     {
-        get
-        {
-            global::Iskra.StdWeb.MIDIPortConnectionState __res_16389;
-            string __res_16390 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "connection");
-            __res_16389 = global::Iskra.StdWeb.MIDIPortConnectionState.Create(__res_16390);
-            return __res_16389;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MIDIPortConnectionState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "connection");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onstatechange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_16391;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16392 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange");
-            if (__res_16392 is null)
-            {
-                __res_16391 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16393 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16392;
-                __res_16391 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16393);
-            }
-            return __res_16391;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16394;
-            if (value is null)
-            {
-                __marshalledValue_16394 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16395 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_16394 = __notNullable_16395.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstatechange", __marshalledValue_16394);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onstatechange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onstatechange", value);
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MIDIPort, global::Iskra.StdWeb.PropertyAccessor> Open()

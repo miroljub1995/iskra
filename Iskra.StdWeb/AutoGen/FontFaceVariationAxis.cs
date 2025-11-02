@@ -8,57 +8,27 @@ public partial class FontFaceVariationAxis(global::System.Runtime.InteropService
 {
     public string Name
     {
-        get
-        {
-            string __res_4427;
-            string __res_4428 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4427 = __res_4428;
-            return __res_4427;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public string AxisTag
     {
-        get
-        {
-            string __res_4429;
-            string __res_4430 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "axisTag");
-            __res_4429 = __res_4430;
-            return __res_4429;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "axisTag");
     }
 
     public double MinimumValue
     {
-        get
-        {
-            double __res_4431;
-            double __res_4432 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minimumValue");
-            __res_4431 = __res_4432;
-            return __res_4431;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "minimumValue");
     }
 
     public double MaximumValue
     {
-        get
-        {
-            double __res_4433;
-            double __res_4434 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maximumValue");
-            __res_4433 = __res_4434;
-            return __res_4433;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maximumValue");
     }
 
     public double DefaultValue
     {
-        get
-        {
-            double __res_4435;
-            double __res_4436 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "defaultValue");
-            __res_4435 = __res_4436;
-            return __res_4435;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "defaultValue");
     }
 }
 

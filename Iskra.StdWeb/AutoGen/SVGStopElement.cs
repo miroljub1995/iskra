@@ -8,13 +8,7 @@ public partial class SVGStopElement(global::System.Runtime.InteropServices.JavaS
 {
     public global::Iskra.StdWeb.SVGAnimatedNumber Offset
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedNumber __res_1447;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1448 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offset");
-            __res_1447 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_1448);
-            return __res_1447;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedNumber, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "offset");
     }
 }
 

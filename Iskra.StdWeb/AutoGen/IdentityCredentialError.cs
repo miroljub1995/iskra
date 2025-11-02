@@ -8,24 +8,12 @@ public partial class IdentityCredentialError(global::System.Runtime.InteropServi
 {
     public string Error
     {
-        get
-        {
-            string __res_4677;
-            string __res_4678 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "error");
-            __res_4677 = __res_4678;
-            return __res_4677;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "error");
     }
 
     public string Url
     {
-        get
-        {
-            string __res_4679;
-            string __res_4680 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_4679 = __res_4680;
-            return __res_4679;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "url");
     }
 }
 

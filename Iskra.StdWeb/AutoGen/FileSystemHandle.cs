@@ -8,24 +8,12 @@ public partial class FileSystemHandle(global::System.Runtime.InteropServices.Jav
 {
     public global::Iskra.StdWeb.FileSystemHandleKind Kind
     {
-        get
-        {
-            global::Iskra.StdWeb.FileSystemHandleKind __res_8347;
-            string __res_8348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_8347 = global::Iskra.StdWeb.FileSystemHandleKind.Create(__res_8348);
-            return __res_8347;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FileSystemHandleKind, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "kind");
     }
 
     public string Name
     {
-        get
-        {
-            string __res_8349;
-            string __res_8350 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_8349 = __res_8350;
-            return __res_8349;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> IsSameEntry(global::Iskra.StdWeb.FileSystemHandle other)

@@ -8,24 +8,12 @@ public partial class InputDeviceCapabilities(global::System.Runtime.InteropServi
 {
     public bool FiresTouchEvents
     {
-        get
-        {
-            bool __res_8380;
-            bool __res_8381 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "firesTouchEvents");
-            __res_8380 = __res_8381;
-            return __res_8380;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "firesTouchEvents");
     }
 
     public bool PointerMovementScrolls
     {
-        get
-        {
-            bool __res_8382;
-            bool __res_8383 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerMovementScrolls");
-            __res_8382 = __res_8383;
-            return __res_8382;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pointerMovementScrolls");
     }
 }
 

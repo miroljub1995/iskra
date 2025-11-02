@@ -8,21 +8,7 @@ public partial class KeyFrameRequestEvent(global::System.Runtime.InteropServices
 {
     public string? Rid
     {
-        get
-        {
-            string? __res_2646;
-            string? __res_2647 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "rid");
-            if (__res_2647 is null)
-            {
-                __res_2646 = null;
-            }
-            else
-            {
-                string __notNullable_2648 = (string)__res_2647;
-                __res_2646 = __notNullable_2648;
-            }
-            return __res_2646;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "rid");
     }
 }
 

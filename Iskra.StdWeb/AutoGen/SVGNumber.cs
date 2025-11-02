@@ -8,19 +8,8 @@ public partial class SVGNumber(global::System.Runtime.InteropServices.JavaScript
 {
     public float Value
     {
-        get
-        {
-            float __res_954;
-            double __res_955 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_954 = Convert.ToSingle(__res_955);
-            return __res_954;
-        }
-        set
-        {
-            double __marshalledValue_956;
-            __marshalledValue_956 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_956);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value", value);
     }
 }
 

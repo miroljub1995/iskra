@@ -8,13 +8,7 @@ public partial class SVGGraphicsElement(global::System.Runtime.InteropServices.J
 {
     public global::Iskra.StdWeb.SVGAnimatedTransformList Transform
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedTransformList __res_939;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_940 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            __res_939 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedTransformList>(__res_940);
-            return __res_939;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedTransformList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transform");
     }
 
     public global::Iskra.StdWeb.DOMRect GetBBox(global::Iskra.StdWeb.SVGBoundingBoxOptions options)
@@ -34,24 +28,12 @@ public partial class SVGGraphicsElement(global::System.Runtime.InteropServices.J
 
     public global::Iskra.StdWeb.SVGStringList RequiredExtensions
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGStringList __res_944;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_945 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "requiredExtensions");
-            __res_944 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGStringList>(__res_945);
-            return __res_944;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGStringList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "requiredExtensions");
     }
 
     public global::Iskra.StdWeb.SVGStringList SystemLanguage
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGStringList __res_946;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_947 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "systemLanguage");
-            __res_946 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGStringList>(__res_947);
-            return __res_946;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGStringList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "systemLanguage");
     }
 }
 

@@ -13,57 +13,27 @@ public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServi
 
     public ulong CurrentFrame
     {
-        get
-        {
-            ulong __res_17409;
-            double __res_17410 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentFrame");
-            __res_17409 = Convert.ToUInt64(__res_17410);
-            return __res_17409;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "currentFrame");
     }
 
     public double CurrentTime
     {
-        get
-        {
-            double __res_17411;
-            double __res_17412 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "currentTime");
-            __res_17411 = __res_17412;
-            return __res_17411;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "currentTime");
     }
 
     public float SampleRate
     {
-        get
-        {
-            float __res_17413;
-            double __res_17414 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
-            __res_17413 = Convert.ToSingle(__res_17414);
-            return __res_17413;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampleRate");
     }
 
     public uint RenderQuantumSize
     {
-        get
-        {
-            uint __res_17415;
-            double __res_17416 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderQuantumSize");
-            __res_17415 = Convert.ToUInt32(__res_17416);
-            return __res_17415;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "renderQuantumSize");
     }
 
     public global::Iskra.StdWeb.MessagePort Port
     {
-        get
-        {
-            global::Iskra.StdWeb.MessagePort __res_17417;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17418 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
-            __res_17417 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_17418);
-            return __res_17417;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "port");
     }
 }
 

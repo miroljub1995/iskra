@@ -8,24 +8,12 @@ public partial class MediaKeyMessageEvent(global::System.Runtime.InteropServices
 {
     public global::Iskra.StdWeb.MediaKeyMessageType MessageType
     {
-        get
-        {
-            global::Iskra.StdWeb.MediaKeyMessageType __res_10472;
-            string __res_10473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "messageType");
-            __res_10472 = global::Iskra.StdWeb.MediaKeyMessageType.Create(__res_10473);
-            return __res_10472;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaKeyMessageType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "messageType");
     }
 
     public global::Iskra.JSCore.ArrayBuffer Message
     {
-        get
-        {
-            global::Iskra.JSCore.ArrayBuffer __res_10474;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10475 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
-            __res_10474 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_10475);
-            return __res_10474;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "message");
     }
 }
 

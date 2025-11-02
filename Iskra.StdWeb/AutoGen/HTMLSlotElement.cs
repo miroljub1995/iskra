@@ -8,19 +8,8 @@ public partial class HTMLSlotElement(global::System.Runtime.InteropServices.Java
 {
     public string Name
     {
-        get
-        {
-            string __res_13026;
-            string __res_13027 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_13026 = __res_13027;
-            return __res_13026;
-        }
-        set
-        {
-            string __marshalledValue_13028;
-            __marshalledValue_13028 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_13028);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name", value);
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> AssignedNodes(global::Iskra.StdWeb.AssignedNodesOptions options)

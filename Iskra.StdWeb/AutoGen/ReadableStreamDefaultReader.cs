@@ -18,14 +18,7 @@ public partial class ReadableStreamDefaultReader(global::System.Runtime.InteropS
 
     public global::Iskra.JSCore.Promise Closed
     {
-        get
-        {
-            global::Iskra.JSCore.Promise __res_2345;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2346;
-            __propObject_2346 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
-            __res_2345 = new global::Iskra.JSCore.Promise(__propObject_2346);
-            return __res_2345;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "closed");
     }
 
     public global::Iskra.JSCore.Promise Cancel(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason)

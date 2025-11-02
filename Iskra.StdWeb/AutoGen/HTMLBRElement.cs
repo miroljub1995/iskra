@@ -8,19 +8,8 @@ public partial class HTMLBRElement(global::System.Runtime.InteropServices.JavaSc
 {
     public string Clear
     {
-        get
-        {
-            string __res_11584;
-            string __res_11585 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "clear");
-            __res_11584 = __res_11585;
-            return __res_11584;
-        }
-        set
-        {
-            string __marshalledValue_11586;
-            __marshalledValue_11586 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "clear", __marshalledValue_11586);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "clear");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "clear", value);
     }
 }
 

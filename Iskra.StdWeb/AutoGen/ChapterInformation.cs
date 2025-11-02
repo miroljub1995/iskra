@@ -8,36 +8,17 @@ public partial class ChapterInformation(global::System.Runtime.InteropServices.J
 {
     public string Title
     {
-        get
-        {
-            string __res_1573;
-            string __res_1574 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
-            __res_1573 = __res_1574;
-            return __res_1573;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "title");
     }
 
     public double StartTime
     {
-        get
-        {
-            double __res_1575;
-            double __res_1576 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_1575 = __res_1576;
-            return __res_1575;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "startTime");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Artwork
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_1577;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1578;
-            __propObject_1578 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "artwork");
-            __res_1577 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_1578);
-            return __res_1577;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.MediaImage, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "artwork");
     }
 }
 

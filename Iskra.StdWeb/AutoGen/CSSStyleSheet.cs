@@ -8,32 +8,12 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
 {
     public global::Iskra.StdWeb.CSSRule? OwnerRule
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSRule? __res_16116;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16117 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ownerRule");
-            if (__res_16117 is null)
-            {
-                __res_16116 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16118 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16117;
-                __res_16116 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_16118);
-            }
-            return __res_16116;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSRule?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ownerRule");
     }
 
     public global::Iskra.StdWeb.CSSRuleList CssRules
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSRuleList __res_16119;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16120 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            __res_16119 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_16120);
-            return __res_16119;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSRuleList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cssRules");
     }
 
     public uint InsertRule(string rule, uint index)
@@ -58,13 +38,7 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.CSSRuleList Rules
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSRuleList __res_16125;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16126 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rules");
-            __res_16125 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_16126);
-            return __res_16125;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSRuleList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rules");
     }
 
     public int AddRule(string selector, string style, uint index)

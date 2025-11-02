@@ -8,58 +8,24 @@ public partial class HTMLProgressElement(global::System.Runtime.InteropServices.
 {
     public double Value
     {
-        get
-        {
-            double __res_12858;
-            double __res_12859 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_12858 = __res_12859;
-            return __res_12858;
-        }
-        set
-        {
-            double __marshalledValue_12860;
-            __marshalledValue_12860 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_12860);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value", value);
     }
 
     public double Max
     {
-        get
-        {
-            double __res_12861;
-            double __res_12862 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "max");
-            __res_12861 = __res_12862;
-            return __res_12861;
-        }
-        set
-        {
-            double __marshalledValue_12863;
-            __marshalledValue_12863 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "max", __marshalledValue_12863);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "max");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "max", value);
     }
 
     public double Position
     {
-        get
-        {
-            double __res_12864;
-            double __res_12865 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "position");
-            __res_12864 = __res_12865;
-            return __res_12864;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "position");
     }
 
     public global::Iskra.StdWeb.NodeList Labels
     {
-        get
-        {
-            global::Iskra.StdWeb.NodeList __res_12866;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12867 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "labels");
-            __res_12866 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeList>(__res_12867);
-            return __res_12866;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NodeList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "labels");
     }
 }
 

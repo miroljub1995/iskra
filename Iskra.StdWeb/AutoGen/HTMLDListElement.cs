@@ -8,19 +8,8 @@ public partial class HTMLDListElement(global::System.Runtime.InteropServices.Jav
 {
     public bool Compact
     {
-        get
-        {
-            bool __res_11493;
-            bool __res_11494 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            __res_11493 = __res_11494;
-            return __res_11493;
-        }
-        set
-        {
-            bool __marshalledValue_11495;
-            __marshalledValue_11495 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_11495);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact", value);
     }
 }
 

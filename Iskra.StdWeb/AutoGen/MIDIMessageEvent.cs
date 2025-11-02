@@ -8,21 +8,7 @@ public partial class MIDIMessageEvent(global::System.Runtime.InteropServices.Jav
 {
     public global::Iskra.JSCore.Uint8Array? Data
     {
-        get
-        {
-            global::Iskra.JSCore.Uint8Array? __res_16405;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16406 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_16406 is null)
-            {
-                __res_16405 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16407 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16406;
-                __res_16405 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Uint8Array>(__notNullable_16407);
-            }
-            return __res_16405;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Uint8Array?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "data");
     }
 }
 

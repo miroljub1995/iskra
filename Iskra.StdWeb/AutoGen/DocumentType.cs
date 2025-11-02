@@ -8,35 +8,17 @@ public partial class DocumentType(global::System.Runtime.InteropServices.JavaScr
 {
     public string Name
     {
-        get
-        {
-            string __res_6842;
-            string __res_6843 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_6842 = __res_6843;
-            return __res_6842;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public string PublicId
     {
-        get
-        {
-            string __res_6844;
-            string __res_6845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "publicId");
-            __res_6844 = __res_6845;
-            return __res_6844;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "publicId");
     }
 
     public string SystemId
     {
-        get
-        {
-            string __res_6846;
-            string __res_6847 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "systemId");
-            __res_6846 = __res_6847;
-            return __res_6846;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "systemId");
     }
 
     public void Before(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)

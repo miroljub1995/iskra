@@ -13,57 +13,18 @@ public partial class RTCDTMFSender(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Ontonechange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4331;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4332 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange");
-            if (__res_4332 is null)
-            {
-                __res_4331 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4333 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4332;
-                __res_4331 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4333);
-            }
-            return __res_4331;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4334;
-            if (value is null)
-            {
-                __marshalledValue_4334 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4335 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4334 = __notNullable_4335.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontonechange", __marshalledValue_4334);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ontonechange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ontonechange", value);
     }
 
     public bool CanInsertDTMF
     {
-        get
-        {
-            bool __res_4336;
-            bool __res_4337 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "canInsertDTMF");
-            __res_4336 = __res_4337;
-            return __res_4336;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "canInsertDTMF");
     }
 
     public string ToneBuffer
     {
-        get
-        {
-            string __res_4338;
-            string __res_4339 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "toneBuffer");
-            __res_4338 = __res_4339;
-            return __res_4338;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "toneBuffer");
     }
 }
 

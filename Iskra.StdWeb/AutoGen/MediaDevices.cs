@@ -23,35 +23,8 @@ public partial class MediaDevices(global::System.Runtime.InteropServices.JavaScr
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Ondevicechange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8190;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8191 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange");
-            if (__res_8191 is null)
-            {
-                __res_8190 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8192 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8191;
-                __res_8190 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8192);
-            }
-            return __res_8190;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8193;
-            if (value is null)
-            {
-                __marshalledValue_8193 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8194 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8193 = __notNullable_8194.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondevicechange", __marshalledValue_8193);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondevicechange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondevicechange", value);
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaDeviceInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> EnumerateDevices()
@@ -81,35 +54,8 @@ public partial class MediaDevices(global::System.Runtime.InteropServices.JavaScr
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Oncaptureaction
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8200;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8201 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncaptureaction");
-            if (__res_8201 is null)
-            {
-                __res_8200 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8202 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8201;
-                __res_8200 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8202);
-            }
-            return __res_8200;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8203;
-            if (value is null)
-            {
-                __marshalledValue_8203 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8204 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8203 = __notNullable_8204.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncaptureaction", __marshalledValue_8203);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oncaptureaction");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oncaptureaction", value);
     }
 }
 

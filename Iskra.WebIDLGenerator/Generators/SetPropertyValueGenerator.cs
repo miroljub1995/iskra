@@ -1,12 +1,11 @@
-using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Marshallers;
 using Iskra.WebIDLGenerator.Models;
+using Iskra.WebIDLGenerator.Utils;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class SetPropertyValueGenerator(
     GenTypeDescriptors descriptors,
-    GeneratorContext generatorContext,
     IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator,
     IDLTypeDescriptionMarshaller marshaller
 )
@@ -94,7 +93,7 @@ public class SetPropertyValueGenerator(
     {
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
 
-        var marshalledVar = generatorContext.GetNextVariableName("marshalledValue");
+        var marshalledVar = VariableName.Current.GetNext("marshalledValue");
 
         string setPropertyContent;
 
@@ -224,7 +223,7 @@ public class SetPropertyValueGenerator(
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        var setPropertyVar = generatorContext.GetNextVariableName("propObject");
+        var setPropertyVar = VariableName.Current.GetNext("propObject");
 
         var setPropertyContent = $$"""
                                    global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
@@ -263,7 +262,7 @@ public class SetPropertyValueGenerator(
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        var setPropertyVar = generatorContext.GetNextVariableName("propObject");
+        var setPropertyVar = VariableName.Current.GetNext("propObject");
 
         var setPropertyContent = $$"""
                                    global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
@@ -302,7 +301,7 @@ public class SetPropertyValueGenerator(
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        var setPropertyVar = generatorContext.GetNextVariableName("propObject");
+        var setPropertyVar = VariableName.Current.GetNext("propObject");
 
         var setPropertyContent = $$"""
                                    global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
@@ -341,7 +340,7 @@ public class SetPropertyValueGenerator(
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        var setPropertyVar = generatorContext.GetNextVariableName("propObject");
+        var setPropertyVar = VariableName.Current.GetNext("propObject");
 
         var setPropertyContent = $$"""
                                    global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
@@ -380,7 +379,7 @@ public class SetPropertyValueGenerator(
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        var setPropertyVar = generatorContext.GetNextVariableName("propObject");
+        var setPropertyVar = VariableName.Current.GetNext("propObject");
 
         var setPropertyContent = $$"""
                                    global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});

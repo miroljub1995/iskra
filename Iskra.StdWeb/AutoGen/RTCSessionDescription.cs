@@ -8,24 +8,12 @@ public partial class RTCSessionDescription(global::System.Runtime.InteropService
 {
     public global::Iskra.StdWeb.RTCSdpType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCSdpType __res_4056;
-            string __res_4057 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_4056 = global::Iskra.StdWeb.RTCSdpType.Create(__res_4057);
-            return __res_4056;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCSdpType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public string Sdp
     {
-        get
-        {
-            string __res_4058;
-            string __res_4059 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sdp");
-            __res_4058 = __res_4059;
-            return __res_4058;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sdp");
     }
 
     public global::Iskra.StdWeb.RTCSessionDescriptionInit ToJSON()

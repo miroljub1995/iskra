@@ -8,13 +8,7 @@ public partial class AudioDestinationNode(global::System.Runtime.InteropServices
 {
     public uint MaxChannelCount
     {
-        get
-        {
-            uint __res_17256;
-            double __res_17257 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxChannelCount");
-            __res_17256 = Convert.ToUInt32(__res_17257);
-            return __res_17256;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxChannelCount");
     }
 }
 

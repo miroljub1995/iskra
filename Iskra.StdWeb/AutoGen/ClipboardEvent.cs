@@ -8,21 +8,7 @@ public partial class ClipboardEvent(global::System.Runtime.InteropServices.JavaS
 {
     public global::Iskra.StdWeb.DataTransfer? ClipboardData
     {
-        get
-        {
-            global::Iskra.StdWeb.DataTransfer? __res_3787;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3788 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "clipboardData");
-            if (__res_3788 is null)
-            {
-                __res_3787 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3789 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3788;
-                __res_3787 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransfer>(__notNullable_3789);
-            }
-            return __res_3787;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DataTransfer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "clipboardData");
     }
 }
 

@@ -8,24 +8,12 @@ public partial class WakeLockSentinel(global::System.Runtime.InteropServices.Jav
 {
     public bool Released
     {
-        get
-        {
-            bool __res_2830;
-            bool __res_2831 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "released");
-            __res_2830 = __res_2831;
-            return __res_2830;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "released");
     }
 
     public global::Iskra.StdWeb.WakeLockType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.WakeLockType __res_2832;
-            string __res_2833 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2832 = global::Iskra.StdWeb.WakeLockType.Create(__res_2833);
-            return __res_2832;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WakeLockType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public global::Iskra.JSCore.Promise Release()
@@ -35,35 +23,8 @@ public partial class WakeLockSentinel(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onrelease
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2835;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2836 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease");
-            if (__res_2836 is null)
-            {
-                __res_2835 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2837 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2836;
-                __res_2835 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2837);
-            }
-            return __res_2835;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2838;
-            if (value is null)
-            {
-                __marshalledValue_2838 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2839 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2838 = __notNullable_2839.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onrelease", __marshalledValue_2838);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onrelease");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onrelease", value);
     }
 }
 

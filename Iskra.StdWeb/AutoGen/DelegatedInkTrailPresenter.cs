@@ -8,21 +8,7 @@ public partial class DelegatedInkTrailPresenter(global::System.Runtime.InteropSe
 {
     public global::Iskra.StdWeb.Element? PresentationArea
     {
-        get
-        {
-            global::Iskra.StdWeb.Element? __res_3752;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3753 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "presentationArea");
-            if (__res_3753 is null)
-            {
-                __res_3752 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3754 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3753;
-                __res_3752 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_3754);
-            }
-            return __res_3752;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "presentationArea");
     }
 
     public void UpdateInkTrailStartPoint(global::Iskra.StdWeb.PointerEvent @event, global::Iskra.StdWeb.InkTrailStyle style)

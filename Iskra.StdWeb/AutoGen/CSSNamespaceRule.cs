@@ -8,24 +8,12 @@ public partial class CSSNamespaceRule(global::System.Runtime.InteropServices.Jav
 {
     public string NamespaceURI
     {
-        get
-        {
-            string __res_16221;
-            string __res_16222 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "namespaceURI");
-            __res_16221 = __res_16222;
-            return __res_16221;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "namespaceURI");
     }
 
     public string Prefix
     {
-        get
-        {
-            string __res_16223;
-            string __res_16224 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "prefix");
-            __res_16223 = __res_16224;
-            return __res_16223;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "prefix");
     }
 }
 

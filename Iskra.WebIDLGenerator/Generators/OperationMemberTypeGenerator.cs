@@ -1,4 +1,3 @@
-using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
 using Microsoft.Extensions.DependencyInjection;
@@ -6,8 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class OperationMemberTypeGenerator(
-    IServiceProvider provider,
-    GeneratorContext generatorContext
+    IServiceProvider provider
 )
 {
     public string Generate(OperationMemberType input, string containingTypeName)
@@ -46,8 +44,6 @@ public class OperationMemberTypeGenerator(
 
         var returnTypeDeclaration =
             isVoid || input.IdlType is null ? "void" : descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
-
-        var argsArrayVar = generatorContext.GetNextVariableName("args");
 
         var args = argumentsToDeclarationGenerator.Generate(input.Arguments);
 

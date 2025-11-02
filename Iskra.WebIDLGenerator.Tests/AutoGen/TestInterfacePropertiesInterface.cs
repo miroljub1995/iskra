@@ -8,19 +8,8 @@ public partial class TestInterfacePropertiesInterface(global::System.Runtime.Int
 {
     public int Value
     {
-        get
-        {
-            int __res_323;
-            double __res_324 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_323 = Convert.ToInt32(__res_324);
-            return __res_323;
-        }
-        set
-        {
-            double __marshalledValue_325;
-            __marshalledValue_325 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_325);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "value", value);
     }
 }
 

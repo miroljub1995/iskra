@@ -8,13 +8,7 @@ public partial class RdfDataset(global::System.Runtime.InteropServices.JavaScrip
 {
     public global::Iskra.StdWeb.RdfGraph DefaultGraph
     {
-        get
-        {
-            global::Iskra.StdWeb.RdfGraph __res_10354;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10355 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "defaultGraph");
-            __res_10354 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RdfGraph>(__res_10355);
-            return __res_10354;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RdfGraph, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "defaultGraph");
     }
 
     public void Add(string graphName, global::Iskra.StdWeb.RdfGraph graph)

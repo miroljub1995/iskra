@@ -8,52 +8,14 @@ public partial class ConvolverNode(global::System.Runtime.InteropServices.JavaSc
 {
     public global::Iskra.StdWeb.AudioBuffer? Buffer
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioBuffer? __res_17298;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_17299 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "buffer");
-            if (__res_17299 is null)
-            {
-                __res_17298 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_17300 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_17299;
-                __res_17298 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(__notNullable_17300);
-            }
-            return __res_17298;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_17301;
-            if (value is null)
-            {
-                __marshalledValue_17301 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.AudioBuffer __notNullable_17302 = (global::Iskra.StdWeb.AudioBuffer)value;
-                __marshalledValue_17301 = __notNullable_17302.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_17301);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioBuffer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "buffer");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AudioBuffer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "buffer", value);
     }
 
     public bool Normalize
     {
-        get
-        {
-            bool __res_17303;
-            bool __res_17304 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "normalize");
-            __res_17303 = __res_17304;
-            return __res_17303;
-        }
-        set
-        {
-            bool __marshalledValue_17305;
-            __marshalledValue_17305 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "normalize", __marshalledValue_17305);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "normalize");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "normalize", value);
     }
 }
 

@@ -8,144 +8,47 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
 {
     public string Data
     {
-        get
-        {
-            string __res_11785;
-            string __res_11786 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_11785 = __res_11786;
-            return __res_11785;
-        }
-        set
-        {
-            string __marshalledValue_11787;
-            __marshalledValue_11787 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_11787);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data", value);
     }
 
     public string Type
     {
-        get
-        {
-            string __res_11788;
-            string __res_11789 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_11788 = __res_11789;
-            return __res_11788;
-        }
-        set
-        {
-            string __marshalledValue_11790;
-            __marshalledValue_11790 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_11790);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type", value);
     }
 
     public string Name
     {
-        get
-        {
-            string __res_11791;
-            string __res_11792 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_11791 = __res_11792;
-            return __res_11791;
-        }
-        set
-        {
-            string __marshalledValue_11793;
-            __marshalledValue_11793 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_11793);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name", value);
     }
 
     public global::Iskra.StdWeb.HTMLFormElement? Form
     {
-        get
-        {
-            global::Iskra.StdWeb.HTMLFormElement? __res_11794;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_11795 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "form");
-            if (__res_11795 is null)
-            {
-                __res_11794 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_11796 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_11795;
-                __res_11794 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLFormElement>(__notNullable_11796);
-            }
-            return __res_11794;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLFormElement?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "form");
     }
 
     public string Width
     {
-        get
-        {
-            string __res_11797;
-            string __res_11798 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "width");
-            __res_11797 = __res_11798;
-            return __res_11797;
-        }
-        set
-        {
-            string __marshalledValue_11799;
-            __marshalledValue_11799 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "width", __marshalledValue_11799);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width", value);
     }
 
     public string Height
     {
-        get
-        {
-            string __res_11800;
-            string __res_11801 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "height");
-            __res_11800 = __res_11801;
-            return __res_11800;
-        }
-        set
-        {
-            string __marshalledValue_11802;
-            __marshalledValue_11802 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "height", __marshalledValue_11802);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height", value);
     }
 
     public global::Iskra.StdWeb.Document? ContentDocument
     {
-        get
-        {
-            global::Iskra.StdWeb.Document? __res_11803;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_11804 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentDocument");
-            if (__res_11804 is null)
-            {
-                __res_11803 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_11805 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_11804;
-                __res_11803 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Document>(__notNullable_11805);
-            }
-            return __res_11803;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Document?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "contentDocument");
     }
 
     public global::Iskra.StdWeb.Window? ContentWindow
     {
-        get
-        {
-            global::Iskra.StdWeb.Window? __res_11806;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_11807 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "contentWindow");
-            if (__res_11807 is null)
-            {
-                __res_11806 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_11808 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_11807;
-                __res_11806 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_11808);
-            }
-            return __res_11806;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Window?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "contentWindow");
     }
 
     public global::Iskra.StdWeb.Document? GetSVGDocument()
@@ -155,35 +58,17 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
 
     public bool WillValidate
     {
-        get
-        {
-            bool __res_11810;
-            bool __res_11811 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "willValidate");
-            __res_11810 = __res_11811;
-            return __res_11810;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "willValidate");
     }
 
     public global::Iskra.StdWeb.ValidityState Validity
     {
-        get
-        {
-            global::Iskra.StdWeb.ValidityState __res_11812;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_11813 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validity");
-            __res_11812 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ValidityState>(__res_11813);
-            return __res_11812;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ValidityState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "validity");
     }
 
     public string ValidationMessage
     {
-        get
-        {
-            string __res_11814;
-            string __res_11815 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "validationMessage");
-            __res_11814 = __res_11815;
-            return __res_11814;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "validationMessage");
     }
 
     public bool CheckValidity()
@@ -203,189 +88,68 @@ public partial class HTMLObjectElement(global::System.Runtime.InteropServices.Ja
 
     public string Align
     {
-        get
-        {
-            string __res_11819;
-            string __res_11820 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_11819 = __res_11820;
-            return __res_11819;
-        }
-        set
-        {
-            string __marshalledValue_11821;
-            __marshalledValue_11821 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_11821);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align", value);
     }
 
     public string Archive
     {
-        get
-        {
-            string __res_11822;
-            string __res_11823 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "archive");
-            __res_11822 = __res_11823;
-            return __res_11822;
-        }
-        set
-        {
-            string __marshalledValue_11824;
-            __marshalledValue_11824 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "archive", __marshalledValue_11824);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "archive");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "archive", value);
     }
 
     public string Code
     {
-        get
-        {
-            string __res_11825;
-            string __res_11826 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "code");
-            __res_11825 = __res_11826;
-            return __res_11825;
-        }
-        set
-        {
-            string __marshalledValue_11827;
-            __marshalledValue_11827 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "code", __marshalledValue_11827);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "code");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "code", value);
     }
 
     public bool Declare
     {
-        get
-        {
-            bool __res_11828;
-            bool __res_11829 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "declare");
-            __res_11828 = __res_11829;
-            return __res_11828;
-        }
-        set
-        {
-            bool __marshalledValue_11830;
-            __marshalledValue_11830 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "declare", __marshalledValue_11830);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "declare");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "declare", value);
     }
 
     public uint Hspace
     {
-        get
-        {
-            uint __res_11831;
-            double __res_11832 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "hspace");
-            __res_11831 = Convert.ToUInt32(__res_11832);
-            return __res_11831;
-        }
-        set
-        {
-            double __marshalledValue_11833;
-            __marshalledValue_11833 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "hspace", __marshalledValue_11833);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hspace");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hspace", value);
     }
 
     public string Standby
     {
-        get
-        {
-            string __res_11834;
-            string __res_11835 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "standby");
-            __res_11834 = __res_11835;
-            return __res_11834;
-        }
-        set
-        {
-            string __marshalledValue_11836;
-            __marshalledValue_11836 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "standby", __marshalledValue_11836);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "standby");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "standby", value);
     }
 
     public uint Vspace
     {
-        get
-        {
-            uint __res_11837;
-            double __res_11838 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vspace");
-            __res_11837 = Convert.ToUInt32(__res_11838);
-            return __res_11837;
-        }
-        set
-        {
-            double __marshalledValue_11839;
-            __marshalledValue_11839 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "vspace", __marshalledValue_11839);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vspace");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vspace", value);
     }
 
     public string CodeBase
     {
-        get
-        {
-            string __res_11840;
-            string __res_11841 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "codeBase");
-            __res_11840 = __res_11841;
-            return __res_11840;
-        }
-        set
-        {
-            string __marshalledValue_11842;
-            __marshalledValue_11842 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "codeBase", __marshalledValue_11842);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "codeBase");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "codeBase", value);
     }
 
     public string CodeType
     {
-        get
-        {
-            string __res_11843;
-            string __res_11844 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "codeType");
-            __res_11843 = __res_11844;
-            return __res_11843;
-        }
-        set
-        {
-            string __marshalledValue_11845;
-            __marshalledValue_11845 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "codeType", __marshalledValue_11845);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "codeType");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "codeType", value);
     }
 
     public string UseMap
     {
-        get
-        {
-            string __res_11846;
-            string __res_11847 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "useMap");
-            __res_11846 = __res_11847;
-            return __res_11846;
-        }
-        set
-        {
-            string __marshalledValue_11848;
-            __marshalledValue_11848 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "useMap", __marshalledValue_11848);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "useMap");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "useMap", value);
     }
 
     public string Border
     {
-        get
-        {
-            string __res_11849;
-            string __res_11850 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "border");
-            __res_11849 = __res_11850;
-            return __res_11849;
-        }
-        set
-        {
-            string __marshalledValue_11851;
-            __marshalledValue_11851 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "border", __marshalledValue_11851);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "border");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "border", value);
     }
 }
 

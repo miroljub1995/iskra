@@ -8,24 +8,12 @@ public partial class UserActivation(global::System.Runtime.InteropServices.JavaS
 {
     public bool HasBeenActive
     {
-        get
-        {
-            bool __res_13680;
-            bool __res_13681 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasBeenActive");
-            __res_13680 = __res_13681;
-            return __res_13680;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hasBeenActive");
     }
 
     public bool IsActive
     {
-        get
-        {
-            bool __res_13682;
-            bool __res_13683 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isActive");
-            __res_13682 = __res_13683;
-            return __res_13682;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isActive");
     }
 }
 

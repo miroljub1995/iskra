@@ -8,13 +8,7 @@ public partial class OfflineAudioCompletionEvent(global::System.Runtime.InteropS
 {
     public global::Iskra.StdWeb.AudioBuffer RenderedBuffer
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioBuffer __res_17156;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17157 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "renderedBuffer");
-            __res_17156 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(__res_17157);
-            return __res_17156;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "renderedBuffer");
     }
 }
 

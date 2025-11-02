@@ -8,53 +8,20 @@ public partial class HTMLFontElement(global::System.Runtime.InteropServices.Java
 {
     public string Color
     {
-        get
-        {
-            string __res_15581;
-            string __res_15582 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "color");
-            __res_15581 = __res_15582;
-            return __res_15581;
-        }
-        set
-        {
-            string __marshalledValue_15583;
-            __marshalledValue_15583 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "color", __marshalledValue_15583);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "color");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "color", value);
     }
 
     public string Face
     {
-        get
-        {
-            string __res_15584;
-            string __res_15585 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "face");
-            __res_15584 = __res_15585;
-            return __res_15584;
-        }
-        set
-        {
-            string __marshalledValue_15586;
-            __marshalledValue_15586 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "face", __marshalledValue_15586);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "face");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "face", value);
     }
 
     public string Size
     {
-        get
-        {
-            string __res_15587;
-            string __res_15588 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size");
-            __res_15587 = __res_15588;
-            return __res_15587;
-        }
-        set
-        {
-            string __marshalledValue_15589;
-            __marshalledValue_15589 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size", __marshalledValue_15589);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size", value);
     }
 }
 

@@ -8,19 +8,8 @@ public partial class HTMLDirectoryElement(global::System.Runtime.InteropServices
 {
     public bool Compact
     {
-        get
-        {
-            bool __res_15578;
-            bool __res_15579 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            __res_15578 = __res_15579;
-            return __res_15578;
-        }
-        set
-        {
-            bool __marshalledValue_15580;
-            __marshalledValue_15580 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_15580);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact", value);
     }
 }
 

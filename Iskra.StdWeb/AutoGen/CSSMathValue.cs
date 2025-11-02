@@ -8,13 +8,7 @@ public partial class CSSMathValue(global::System.Runtime.InteropServices.JavaScr
 {
     public global::Iskra.StdWeb.CSSMathOperator Operator
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSMathOperator __res_80;
-            string __res_81 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "operator");
-            __res_80 = global::Iskra.StdWeb.CSSMathOperator.Create(__res_81);
-            return __res_80;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSMathOperator, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "operator");
     }
 }
 

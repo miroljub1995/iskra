@@ -8,24 +8,12 @@ public partial class SyncEvent(global::System.Runtime.InteropServices.JavaScript
 {
     public string Tag
     {
-        get
-        {
-            string __res_16359;
-            string __res_16360 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tag");
-            __res_16359 = __res_16360;
-            return __res_16359;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tag");
     }
 
     public bool LastChance
     {
-        get
-        {
-            bool __res_16361;
-            bool __res_16362 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lastChance");
-            __res_16361 = __res_16362;
-            return __res_16361;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lastChance");
     }
 }
 

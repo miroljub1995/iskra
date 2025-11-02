@@ -8,19 +8,8 @@ public partial class CSSMatrixComponent(global::System.Runtime.InteropServices.J
 {
     public global::Iskra.StdWeb.DOMMatrix Matrix
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMMatrix __res_160;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            __res_160 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMMatrix>(__res_161);
-            return __res_160;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_162;
-            __marshalledValue_162 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "matrix", __marshalledValue_162);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matrix");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matrix", value);
     }
 }
 

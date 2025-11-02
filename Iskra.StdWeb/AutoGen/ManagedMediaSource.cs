@@ -8,79 +8,19 @@ public partial class ManagedMediaSource(global::System.Runtime.InteropServices.J
 {
     public bool Streaming
     {
-        get
-        {
-            bool __res_16537;
-            bool __res_16538 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "streaming");
-            __res_16537 = __res_16538;
-            return __res_16537;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "streaming");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onstartstreaming
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_16539;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16540 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstartstreaming");
-            if (__res_16540 is null)
-            {
-                __res_16539 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16541 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16540;
-                __res_16539 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16541);
-            }
-            return __res_16539;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16542;
-            if (value is null)
-            {
-                __marshalledValue_16542 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16543 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_16542 = __notNullable_16543.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstartstreaming", __marshalledValue_16542);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onstartstreaming");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onstartstreaming", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onendstreaming
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_16544;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16545 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onendstreaming");
-            if (__res_16545 is null)
-            {
-                __res_16544 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16546 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16545;
-                __res_16544 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16546);
-            }
-            return __res_16544;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16547;
-            if (value is null)
-            {
-                __marshalledValue_16547 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16548 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_16547 = __notNullable_16548.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onendstreaming", __marshalledValue_16547);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onendstreaming");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onendstreaming", value);
     }
 }
 

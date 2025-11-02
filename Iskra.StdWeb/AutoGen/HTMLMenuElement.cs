@@ -8,19 +8,8 @@ public partial class HTMLMenuElement(global::System.Runtime.InteropServices.Java
 {
     public bool Compact
     {
-        get
-        {
-            bool __res_11484;
-            bool __res_11485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            __res_11484 = __res_11485;
-            return __res_11484;
-        }
-        set
-        {
-            bool __marshalledValue_11486;
-            __marshalledValue_11486 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_11486);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact", value);
     }
 }
 

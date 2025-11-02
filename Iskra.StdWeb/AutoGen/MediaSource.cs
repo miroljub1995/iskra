@@ -8,173 +8,51 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
 {
     public global::Iskra.StdWeb.MediaSourceHandle Handle
     {
-        get
-        {
-            global::Iskra.StdWeb.MediaSourceHandle __res_16439;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16440 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "handle");
-            __res_16439 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaSourceHandle>(__res_16440);
-            return __res_16439;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSourceHandle, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "handle");
     }
 
     public global::Iskra.StdWeb.SourceBufferList SourceBuffers
     {
-        get
-        {
-            global::Iskra.StdWeb.SourceBufferList __res_16441;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16442 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sourceBuffers");
-            __res_16441 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBufferList>(__res_16442);
-            return __res_16441;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SourceBufferList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sourceBuffers");
     }
 
     public global::Iskra.StdWeb.SourceBufferList ActiveSourceBuffers
     {
-        get
-        {
-            global::Iskra.StdWeb.SourceBufferList __res_16443;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16444 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "activeSourceBuffers");
-            __res_16443 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBufferList>(__res_16444);
-            return __res_16443;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SourceBufferList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "activeSourceBuffers");
     }
 
     public global::Iskra.StdWeb.ReadyState ReadyState
     {
-        get
-        {
-            global::Iskra.StdWeb.ReadyState __res_16445;
-            string __res_16446 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "readyState");
-            __res_16445 = global::Iskra.StdWeb.ReadyState.Create(__res_16446);
-            return __res_16445;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ReadyState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readyState");
     }
 
     public double Duration
     {
-        get
-        {
-            double __res_16447;
-            double __res_16448 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_16447 = __res_16448;
-            return __res_16447;
-        }
-        set
-        {
-            double __marshalledValue_16449;
-            __marshalledValue_16449 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "duration", __marshalledValue_16449);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "duration");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "duration", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onsourceopen
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_16450;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16451 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceopen");
-            if (__res_16451 is null)
-            {
-                __res_16450 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16452 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16451;
-                __res_16450 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16452);
-            }
-            return __res_16450;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16453;
-            if (value is null)
-            {
-                __marshalledValue_16453 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16454 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_16453 = __notNullable_16454.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceopen", __marshalledValue_16453);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onsourceopen");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onsourceopen", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onsourceended
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_16455;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16456 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceended");
-            if (__res_16456 is null)
-            {
-                __res_16455 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16457 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16456;
-                __res_16455 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16457);
-            }
-            return __res_16455;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16458;
-            if (value is null)
-            {
-                __marshalledValue_16458 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16459 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_16458 = __notNullable_16459.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceended", __marshalledValue_16458);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onsourceended");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onsourceended", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onsourceclose
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_16460;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16461 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceclose");
-            if (__res_16461 is null)
-            {
-                __res_16460 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16462 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16461;
-                __res_16460 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16462);
-            }
-            return __res_16460;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16463;
-            if (value is null)
-            {
-                __marshalledValue_16463 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16464 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_16463 = __notNullable_16464.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsourceclose", __marshalledValue_16463);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onsourceclose");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onsourceclose", value);
     }
 
     public static bool CanConstructInDedicatedWorker
     {
-        get
-        {
-            bool __res_16465;
-            bool __res_16466 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaSource"), "canConstructInDedicatedWorker");
-            __res_16465 = __res_16466;
-            return __res_16465;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaSource"), "canConstructInDedicatedWorker");
     }
 
     public global::Iskra.StdWeb.SourceBuffer AddSourceBuffer(string type)

@@ -8,13 +8,7 @@ public partial class CSSConditionRule(global::System.Runtime.InteropServices.Jav
 {
     public string ConditionText
     {
-        get
-        {
-            string __res_7566;
-            string __res_7567 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "conditionText");
-            __res_7566 = __res_7567;
-            return __res_7566;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "conditionText");
     }
 }
 

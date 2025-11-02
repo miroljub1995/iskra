@@ -8,30 +8,13 @@ public partial class CSSStyleDeclaration(global::System.Runtime.InteropServices.
 {
     public string CssText
     {
-        get
-        {
-            string __res_16225;
-            string __res_16226 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssText");
-            __res_16225 = __res_16226;
-            return __res_16225;
-        }
-        set
-        {
-            string __marshalledValue_16227;
-            __marshalledValue_16227 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssText", __marshalledValue_16227);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cssText");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cssText", value);
     }
 
     public uint Length
     {
-        get
-        {
-            uint __res_16228;
-            double __res_16229 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_16228 = Convert.ToUInt32(__res_16229);
-            return __res_16228;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public string Item(uint index)
@@ -61,21 +44,7 @@ public partial class CSSStyleDeclaration(global::System.Runtime.InteropServices.
 
     public global::Iskra.StdWeb.CSSRule? ParentRule
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSRule? __res_16235;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16236 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentRule");
-            if (__res_16236 is null)
-            {
-                __res_16235 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16237 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16236;
-                __res_16235 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(__notNullable_16237);
-            }
-            return __res_16235;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSRule?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "parentRule");
     }
 }
 

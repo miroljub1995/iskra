@@ -18,21 +18,7 @@ public partial class Exception(global::System.Runtime.InteropServices.JavaScript
 
     public string? Stack
     {
-        get
-        {
-            string? __res_9552;
-            string? __res_9553 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "stack");
-            if (__res_9553 is null)
-            {
-                __res_9552 = null;
-            }
-            else
-            {
-                string __notNullable_9554 = (string)__res_9553;
-                __res_9552 = __notNullable_9554;
-            }
-            return __res_9552;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "stack");
     }
 }
 

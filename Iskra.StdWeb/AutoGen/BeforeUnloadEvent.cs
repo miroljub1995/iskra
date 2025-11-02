@@ -8,19 +8,8 @@ public partial class BeforeUnloadEvent(global::System.Runtime.InteropServices.Ja
 {
     public new string ReturnValue
     {
-        get
-        {
-            string __res_14808;
-            string __res_14809 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnValue");
-            __res_14808 = __res_14809;
-            return __res_14808;
-        }
-        set
-        {
-            string __marshalledValue_14810;
-            __marshalledValue_14810 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "returnValue", __marshalledValue_14810);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "returnValue");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "returnValue", value);
     }
 }
 

@@ -8,24 +8,12 @@ public partial class SpeechRecognitionAlternative(global::System.Runtime.Interop
 {
     public string Transcript
     {
-        get
-        {
-            string __res_8470;
-            string __res_8471 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "transcript");
-            __res_8470 = __res_8471;
-            return __res_8470;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transcript");
     }
 
     public float Confidence
     {
-        get
-        {
-            float __res_8472;
-            double __res_8473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "confidence");
-            __res_8472 = Convert.ToSingle(__res_8473);
-            return __res_8472;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "confidence");
     }
 }
 

@@ -8,36 +8,14 @@ public partial class HTMLModElement(global::System.Runtime.InteropServices.JavaS
 {
     public string Cite
     {
-        get
-        {
-            string __res_11587;
-            string __res_11588 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
-            __res_11587 = __res_11588;
-            return __res_11587;
-        }
-        set
-        {
-            string __marshalledValue_11589;
-            __marshalledValue_11589 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_11589);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cite");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cite", value);
     }
 
     public string DateTime
     {
-        get
-        {
-            string __res_11590;
-            string __res_11591 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
-            __res_11590 = __res_11591;
-            return __res_11590;
-        }
-        set
-        {
-            string __marshalledValue_11592;
-            __marshalledValue_11592 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_11592);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dateTime");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dateTime", value);
     }
 }
 

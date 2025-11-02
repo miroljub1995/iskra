@@ -13,19 +13,8 @@ public partial class GPUShaderModule(global::System.Runtime.InteropServices.Java
 
     public string Label
     {
-        get
-        {
-            string __res_1801;
-            string __res_1802 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1801 = __res_1802;
-            return __res_1801;
-        }
-        set
-        {
-            string __marshalledValue_1803;
-            __marshalledValue_1803 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1803);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label", value);
     }
 }
 

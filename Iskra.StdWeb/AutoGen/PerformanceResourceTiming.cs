@@ -8,278 +8,127 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
 {
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceServerTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> ServerTiming
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceServerTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_5796;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5797;
-            __propObject_5797 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "serverTiming");
-            __res_5796 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceServerTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5797);
-            return __res_5796;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceServerTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "serverTiming");
     }
 
     public string InitiatorType
     {
-        get
-        {
-            string __res_5798;
-            string __res_5799 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "initiatorType");
-            __res_5798 = __res_5799;
-            return __res_5798;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "initiatorType");
     }
 
     public string DeliveryType
     {
-        get
-        {
-            string __res_5800;
-            string __res_5801 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deliveryType");
-            __res_5800 = __res_5801;
-            return __res_5800;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deliveryType");
     }
 
     public string NextHopProtocol
     {
-        get
-        {
-            string __res_5802;
-            string __res_5803 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "nextHopProtocol");
-            __res_5802 = __res_5803;
-            return __res_5802;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "nextHopProtocol");
     }
 
     public double WorkerStart
     {
-        get
-        {
-            double __res_5804;
-            double __res_5805 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "workerStart");
-            __res_5804 = __res_5805;
-            return __res_5804;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "workerStart");
     }
 
     public double RedirectStart
     {
-        get
-        {
-            double __res_5806;
-            double __res_5807 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectStart");
-            __res_5806 = __res_5807;
-            return __res_5806;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "redirectStart");
     }
 
     public double RedirectEnd
     {
-        get
-        {
-            double __res_5808;
-            double __res_5809 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectEnd");
-            __res_5808 = __res_5809;
-            return __res_5808;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "redirectEnd");
     }
 
     public double FetchStart
     {
-        get
-        {
-            double __res_5810;
-            double __res_5811 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fetchStart");
-            __res_5810 = __res_5811;
-            return __res_5810;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fetchStart");
     }
 
     public double DomainLookupStart
     {
-        get
-        {
-            double __res_5812;
-            double __res_5813 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domainLookupStart");
-            __res_5812 = __res_5813;
-            return __res_5812;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domainLookupStart");
     }
 
     public double DomainLookupEnd
     {
-        get
-        {
-            double __res_5814;
-            double __res_5815 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domainLookupEnd");
-            __res_5814 = __res_5815;
-            return __res_5814;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domainLookupEnd");
     }
 
     public double ConnectStart
     {
-        get
-        {
-            double __res_5816;
-            double __res_5817 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "connectStart");
-            __res_5816 = __res_5817;
-            return __res_5816;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "connectStart");
     }
 
     public double ConnectEnd
     {
-        get
-        {
-            double __res_5818;
-            double __res_5819 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "connectEnd");
-            __res_5818 = __res_5819;
-            return __res_5818;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "connectEnd");
     }
 
     public double SecureConnectionStart
     {
-        get
-        {
-            double __res_5820;
-            double __res_5821 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "secureConnectionStart");
-            __res_5820 = __res_5821;
-            return __res_5820;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "secureConnectionStart");
     }
 
     public double RequestStart
     {
-        get
-        {
-            double __res_5822;
-            double __res_5823 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "requestStart");
-            __res_5822 = __res_5823;
-            return __res_5822;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "requestStart");
     }
 
     public double FinalResponseHeadersStart
     {
-        get
-        {
-            double __res_5824;
-            double __res_5825 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "finalResponseHeadersStart");
-            __res_5824 = __res_5825;
-            return __res_5824;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "finalResponseHeadersStart");
     }
 
     public double FirstInterimResponseStart
     {
-        get
-        {
-            double __res_5826;
-            double __res_5827 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "firstInterimResponseStart");
-            __res_5826 = __res_5827;
-            return __res_5826;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "firstInterimResponseStart");
     }
 
     public double ResponseStart
     {
-        get
-        {
-            double __res_5828;
-            double __res_5829 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseStart");
-            __res_5828 = __res_5829;
-            return __res_5828;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "responseStart");
     }
 
     public double ResponseEnd
     {
-        get
-        {
-            double __res_5830;
-            double __res_5831 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseEnd");
-            __res_5830 = __res_5831;
-            return __res_5830;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "responseEnd");
     }
 
     public ulong TransferSize
     {
-        get
-        {
-            ulong __res_5832;
-            double __res_5833 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "transferSize");
-            __res_5832 = Convert.ToUInt64(__res_5833);
-            return __res_5832;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transferSize");
     }
 
     public ulong EncodedBodySize
     {
-        get
-        {
-            ulong __res_5834;
-            double __res_5835 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "encodedBodySize");
-            __res_5834 = Convert.ToUInt64(__res_5835);
-            return __res_5834;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "encodedBodySize");
     }
 
     public ulong DecodedBodySize
     {
-        get
-        {
-            ulong __res_5836;
-            double __res_5837 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "decodedBodySize");
-            __res_5836 = Convert.ToUInt64(__res_5837);
-            return __res_5836;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "decodedBodySize");
     }
 
     public ushort ResponseStatus
     {
-        get
-        {
-            ushort __res_5838;
-            double __res_5839 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseStatus");
-            __res_5838 = Convert.ToUInt16(__res_5839);
-            return __res_5838;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "responseStatus");
     }
 
     public global::Iskra.StdWeb.RenderBlockingStatusType RenderBlockingStatus
     {
-        get
-        {
-            global::Iskra.StdWeb.RenderBlockingStatusType __res_5840;
-            string __res_5841 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "renderBlockingStatus");
-            __res_5840 = global::Iskra.StdWeb.RenderBlockingStatusType.Create(__res_5841);
-            return __res_5840;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RenderBlockingStatusType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "renderBlockingStatus");
     }
 
     public string ContentType
     {
-        get
-        {
-            string __res_5842;
-            string __res_5843 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentType");
-            __res_5842 = __res_5843;
-            return __res_5842;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "contentType");
     }
 
     public string ContentEncoding
     {
-        get
-        {
-            string __res_5844;
-            string __res_5845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "contentEncoding");
-            __res_5844 = __res_5845;
-            return __res_5844;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "contentEncoding");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

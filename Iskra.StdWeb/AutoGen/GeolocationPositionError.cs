@@ -8,24 +8,12 @@ public partial class GeolocationPositionError(global::System.Runtime.InteropServ
 {
     public ushort Code
     {
-        get
-        {
-            ushort __res_2584;
-            double __res_2585 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            __res_2584 = Convert.ToUInt16(__res_2585);
-            return __res_2584;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "code");
     }
 
     public string Message
     {
-        get
-        {
-            string __res_2586;
-            string __res_2587 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_2586 = __res_2587;
-            return __res_2586;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "message");
     }
 }
 

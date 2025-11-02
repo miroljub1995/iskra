@@ -8,19 +8,8 @@ public partial class TestDictionaryProperties(global::System.Runtime.InteropServ
 {
     public global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary Value
     {
-        get
-        {
-            global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary __res_332;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_333 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_332 = new global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary(__res_333);
-            return __res_332;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_334;
-            __marshalledValue_334 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "value", __marshalledValue_334);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "value", value);
     }
 }
 

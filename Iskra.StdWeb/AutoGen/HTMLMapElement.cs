@@ -8,30 +8,13 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
 {
     public string Name
     {
-        get
-        {
-            string __res_12162;
-            string __res_12163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_12162 = __res_12163;
-            return __res_12162;
-        }
-        set
-        {
-            string __marshalledValue_12164;
-            __marshalledValue_12164 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_12164);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name", value);
     }
 
     public global::Iskra.StdWeb.HTMLCollection Areas
     {
-        get
-        {
-            global::Iskra.StdWeb.HTMLCollection __res_12165;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12166 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "areas");
-            __res_12165 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_12166);
-            return __res_12165;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "areas");
     }
 }
 

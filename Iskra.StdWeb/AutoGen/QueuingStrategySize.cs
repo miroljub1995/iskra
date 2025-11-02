@@ -10,36 +10,36 @@ public partial class QueuingStrategySize(global::System.Runtime.InteropServices.
 {
     public static implicit operator QueuingStrategySize(QueuingStrategySizeManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2515, __res_2520) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_156, __res_161) =>
         {
-            using (__args_2515)
-            using (__res_2520)
+            using (__args_156)
+            using (__res_161)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_2517;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2518;
-                __propObject_2518 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_2515, 0);
-                if (__propObject_2518 is null)
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_158;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_159;
+                __propObject_159 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_156, 0);
+                if (__propObject_159 is null)
                 {
-                    __arg_2517 = null;
+                    __arg_158 = null;
                 }
                 else
                 {
-                    __arg_2517 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2518);
+                    __arg_158 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_159);
                 }
 
-                double __managedRes_2521 = input(__arg_2517);
+                double __managedRes_162 = input(__arg_158);
 
-                double __marshalledValue_2522;
-                __marshalledValue_2522 = __managedRes_2521;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__res_2520, "value", __marshalledValue_2522);
+                double __marshalledValue_163;
+                __marshalledValue_163 = __managedRes_162;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__res_161, "value", __marshalledValue_163);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_2519 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_2519, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_160 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_160, input); 
 
-        return new global::Iskra.StdWeb.QueuingStrategySize(__funcObj_2519);
+        return new global::Iskra.StdWeb.QueuingStrategySize(__funcObj_160);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.QueuingStrategySizeManaged? managed, bool allowConversion = false)
@@ -57,32 +57,32 @@ public partial class QueuingStrategySize(global::System.Runtime.InteropServices.
 
         managed = (chunk) =>
         {
-            int __argsArrayLength_2526 = 1;
+            int __argsArrayLength_167 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2523 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_2526);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_164 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_167);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2527;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_168;
             if (chunk is null)
             {
-                __propObject_2527 = null;
+                __propObject_168 = null;
             }
             else
             {
-                __propObject_2527 = chunk.JSObject;
+                __propObject_168 = chunk.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_2523.JSObject, 0, __propObject_2527);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_164.JSObject, 0, __propObject_168);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_2524 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_165 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_2523.JSObject, __resOwner_2524.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_164.JSObject, __resOwner_165.JSObject);
 
             // Return Value
-            double __res_2525;
-            double __res_2528 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__resOwner_2524.JSObject, "value");
-            __res_2525 = __res_2528;
-            return __res_2525;
+            double __res_166;
+            double __res_169 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__resOwner_165.JSObject, "value");
+            __res_166 = __res_169;
+            return __res_166;
         };
         return true;
     }

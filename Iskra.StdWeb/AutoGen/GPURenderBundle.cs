@@ -8,19 +8,8 @@ public partial class GPURenderBundle(global::System.Runtime.InteropServices.Java
 {
     public string Label
     {
-        get
-        {
-            string __res_1882;
-            string __res_1883 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1882 = __res_1883;
-            return __res_1882;
-        }
-        set
-        {
-            string __marshalledValue_1884;
-            __marshalledValue_1884 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1884);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label", value);
     }
 }
 

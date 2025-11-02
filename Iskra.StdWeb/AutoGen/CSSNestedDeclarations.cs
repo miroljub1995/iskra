@@ -8,13 +8,7 @@ public partial class CSSNestedDeclarations(global::System.Runtime.InteropService
 {
     public global::Iskra.StdWeb.CSSStyleProperties Style
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSStyleProperties __res_5159;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5160 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_5159 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_5160);
-            return __res_5159;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSStyleProperties, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "style");
     }
 }
 

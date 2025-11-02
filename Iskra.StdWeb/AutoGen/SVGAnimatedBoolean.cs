@@ -8,30 +8,13 @@ public partial class SVGAnimatedBoolean(global::System.Runtime.InteropServices.J
 {
     public bool BaseVal
     {
-        get
-        {
-            bool __res_1019;
-            bool __res_1020 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "baseVal");
-            __res_1019 = __res_1020;
-            return __res_1019;
-        }
-        set
-        {
-            bool __marshalledValue_1021;
-            __marshalledValue_1021 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "baseVal", __marshalledValue_1021);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseVal");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseVal", value);
     }
 
     public bool AnimVal
     {
-        get
-        {
-            bool __res_1022;
-            bool __res_1023 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animVal");
-            __res_1022 = __res_1023;
-            return __res_1022;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "animVal");
     }
 }
 

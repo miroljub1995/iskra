@@ -8,24 +8,12 @@ public partial class SVGStringList(global::System.Runtime.InteropServices.JavaSc
 {
     public uint Length
     {
-        get
-        {
-            uint __res_1007;
-            double __res_1008 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_1007 = Convert.ToUInt32(__res_1008);
-            return __res_1007;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public uint NumberOfItems
     {
-        get
-        {
-            uint __res_1009;
-            double __res_1010 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_1009 = Convert.ToUInt32(__res_1010);
-            return __res_1009;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "numberOfItems");
     }
 
     public void Clear()

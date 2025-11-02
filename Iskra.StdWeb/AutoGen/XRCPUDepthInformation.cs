@@ -8,13 +8,7 @@ public partial class XRCPUDepthInformation(global::System.Runtime.InteropService
 {
     public global::Iskra.JSCore.ArrayBuffer Data
     {
-        get
-        {
-            global::Iskra.JSCore.ArrayBuffer __res_2715;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2716 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_2715 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2716);
-            return __res_2715;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");
     }
 
     public float GetDepthInMeters(float x, float y)

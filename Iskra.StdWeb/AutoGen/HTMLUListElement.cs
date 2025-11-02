@@ -8,36 +8,14 @@ public partial class HTMLUListElement(global::System.Runtime.InteropServices.Jav
 {
     public bool Compact
     {
-        get
-        {
-            bool __res_11478;
-            bool __res_11479 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            __res_11478 = __res_11479;
-            return __res_11478;
-        }
-        set
-        {
-            bool __marshalledValue_11480;
-            __marshalledValue_11480 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_11480);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact", value);
     }
 
     public string Type
     {
-        get
-        {
-            string __res_11481;
-            string __res_11482 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_11481 = __res_11482;
-            return __res_11481;
-        }
-        set
-        {
-            string __marshalledValue_11483;
-            __marshalledValue_11483 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_11483);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type", value);
     }
 }
 

@@ -8,13 +8,7 @@ public partial class SVGMPathElement(global::System.Runtime.InteropServices.Java
 {
     public global::Iskra.StdWeb.SVGAnimatedString Href
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedString __res_2174;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2175 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
-            __res_2174 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_2175);
-            return __res_2174;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedString, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "href");
     }
 }
 

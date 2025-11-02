@@ -8,30 +8,13 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
 {
     public string Data
     {
-        get
-        {
-            string __res_7345;
-            string __res_7346 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_7345 = __res_7346;
-            return __res_7345;
-        }
-        set
-        {
-            string __marshalledValue_7347;
-            __marshalledValue_7347 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "data", __marshalledValue_7347);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data", value);
     }
 
     public uint Length
     {
-        get
-        {
-            uint __res_7348;
-            double __res_7349 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_7348 = Convert.ToUInt32(__res_7349);
-            return __res_7348;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public string SubstringData(uint offset, uint count)
@@ -61,40 +44,12 @@ public partial class CharacterData(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.Element? PreviousElementSibling
     {
-        get
-        {
-            global::Iskra.StdWeb.Element? __res_7355;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7356 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousElementSibling");
-            if (__res_7356 is null)
-            {
-                __res_7355 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7357 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7356;
-                __res_7355 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_7357);
-            }
-            return __res_7355;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "previousElementSibling");
     }
 
     public global::Iskra.StdWeb.Element? NextElementSibling
     {
-        get
-        {
-            global::Iskra.StdWeb.Element? __res_7358;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7359 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextElementSibling");
-            if (__res_7359 is null)
-            {
-                __res_7358 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7360 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7359;
-                __res_7358 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_7360);
-            }
-            return __res_7358;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "nextElementSibling");
     }
 
     public void Before(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)

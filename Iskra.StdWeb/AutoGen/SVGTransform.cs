@@ -8,35 +8,17 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
 {
     public ushort Type
     {
-        get
-        {
-            ushort __res_1246;
-            double __res_1247 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            __res_1246 = Convert.ToUInt16(__res_1247);
-            return __res_1246;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public global::Iskra.StdWeb.DOMMatrix Matrix
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMMatrix __res_1248;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1249 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            __res_1248 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMMatrix>(__res_1249);
-            return __res_1248;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matrix");
     }
 
     public float Angle
     {
-        get
-        {
-            float __res_1250;
-            double __res_1251 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
-            __res_1250 = Convert.ToSingle(__res_1251);
-            return __res_1250;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "angle");
     }
 
     public void SetMatrix(global::Iskra.StdWeb.DOMMatrix2DInit matrix)

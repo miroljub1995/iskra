@@ -8,43 +8,17 @@ public partial class PublicKeyCredential(global::System.Runtime.InteropServices.
 {
     public global::Iskra.JSCore.ArrayBuffer RawId
     {
-        get
-        {
-            global::Iskra.JSCore.ArrayBuffer __res_5455;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5456 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rawId");
-            __res_5455 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_5456);
-            return __res_5455;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rawId");
     }
 
     public global::Iskra.StdWeb.AuthenticatorResponse Response
     {
-        get
-        {
-            global::Iskra.StdWeb.AuthenticatorResponse __res_5457;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5458 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "response");
-            __res_5457 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AuthenticatorResponse>(__res_5458);
-            return __res_5457;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AuthenticatorResponse, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "response");
     }
 
     public string? AuthenticatorAttachment
     {
-        get
-        {
-            string? __res_5459;
-            string? __res_5460 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "authenticatorAttachment");
-            if (__res_5460 is null)
-            {
-                __res_5459 = null;
-            }
-            else
-            {
-                string __notNullable_5461 = (string)__res_5460;
-                __res_5459 = __notNullable_5461;
-            }
-            return __res_5459;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "authenticatorAttachment");
     }
 
     public global::Iskra.StdWeb.AuthenticationExtensionsClientOutputs GetClientExtensionResults()

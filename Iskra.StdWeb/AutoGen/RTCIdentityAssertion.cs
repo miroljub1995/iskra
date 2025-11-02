@@ -8,36 +8,14 @@ public partial class RTCIdentityAssertion(global::System.Runtime.InteropServices
 {
     public string Idp
     {
-        get
-        {
-            string __res_8635;
-            string __res_8636 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "idp");
-            __res_8635 = __res_8636;
-            return __res_8635;
-        }
-        set
-        {
-            string __marshalledValue_8637;
-            __marshalledValue_8637 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "idp", __marshalledValue_8637);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "idp");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "idp", value);
     }
 
     public string Name
     {
-        get
-        {
-            string __res_8638;
-            string __res_8639 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_8638 = __res_8639;
-            return __res_8638;
-        }
-        set
-        {
-            string __marshalledValue_8640;
-            __marshalledValue_8640 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_8640);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name", value);
     }
 }
 

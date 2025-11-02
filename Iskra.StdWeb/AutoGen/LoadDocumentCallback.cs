@@ -10,32 +10,32 @@ public partial class LoadDocumentCallback(global::System.Runtime.InteropServices
 {
     public static implicit operator LoadDocumentCallback(LoadDocumentCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_10371, __res_10378) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_0, __res_7) =>
         {
-            using (__args_10371)
-            using (__res_10378)
+            using (__args_0)
+            using (__res_7)
             {
                 // Argument 1
-                string __arg_10373;
-                string __res_10374 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_10371, 0);
-                __arg_10373 = __res_10374;
+                string __arg_2;
+                string __res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_0, 0);
+                __arg_2 = __res_3;
 
                 // Argument 2
-                global::Iskra.StdWeb.LoadDocumentOptions __arg_10375;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_10376 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_10371, 1);
-                __arg_10375 = new global::Iskra.StdWeb.LoadDocumentOptions(__res_10376);
+                global::Iskra.StdWeb.LoadDocumentOptions __arg_4;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_0, 1);
+                __arg_4 = new global::Iskra.StdWeb.LoadDocumentOptions(__res_5);
 
-                global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RemoteDocument, global::Iskra.StdWeb.PropertyAccessor> __managedRes_10379 = input(__arg_10373, __arg_10375);
+                global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RemoteDocument, global::Iskra.StdWeb.PropertyAccessor> __managedRes_8 = input(__arg_2, __arg_4);
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10380 = __managedRes_10379.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_10378, "value", __propObject_10380);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9 = __managedRes_8.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_7, "value", __propObject_9);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_10377 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_10377, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_6 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_6, input); 
 
-        return new global::Iskra.StdWeb.LoadDocumentCallback(__funcObj_10377);
+        return new global::Iskra.StdWeb.LoadDocumentCallback(__funcObj_6);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.LoadDocumentCallbackManaged? managed, bool allowConversion = false)
@@ -53,30 +53,30 @@ public partial class LoadDocumentCallback(global::System.Runtime.InteropServices
 
         managed = (url, options) =>
         {
-            int __argsArrayLength_10384 = 2;
+            int __argsArrayLength_13 = 2;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_10381 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_10384);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_10 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_13);
 
             // Argument 1
-            string __marshalledValue_10385;
-            __marshalledValue_10385 = url;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_10381.JSObject, 0, __marshalledValue_10385);
+            string __marshalledValue_14;
+            __marshalledValue_14 = url;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_10.JSObject, 0, __marshalledValue_14);
 
             // Argument 2
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_10386;
-            __marshalledValue_10386 = options.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_10381.JSObject, 1, __marshalledValue_10386);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_15;
+            __marshalledValue_15 = options.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_10.JSObject, 1, __marshalledValue_15);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10382 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_11 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_10381.JSObject, __resOwner_10382.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_10.JSObject, __resOwner_11.JSObject);
 
             // Return Value
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RemoteDocument, global::Iskra.StdWeb.PropertyAccessor> __res_10383;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10387;
-            __propObject_10387 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_10382.JSObject, "value");
-            __res_10383 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RemoteDocument, global::Iskra.StdWeb.PropertyAccessor>(__propObject_10387);
-            return __res_10383;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RemoteDocument, global::Iskra.StdWeb.PropertyAccessor> __res_12;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_16;
+            __propObject_16 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_11.JSObject, "value");
+            __res_12 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RemoteDocument, global::Iskra.StdWeb.PropertyAccessor>(__propObject_16);
+            return __res_12;
         };
         return true;
     }

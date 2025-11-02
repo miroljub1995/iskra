@@ -8,13 +8,7 @@ public partial class PageTransitionEvent(global::System.Runtime.InteropServices.
 {
     public bool Persisted
     {
-        get
-        {
-            bool __res_14806;
-            bool __res_14807 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "persisted");
-            __res_14806 = __res_14807;
-            return __res_14806;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "persisted");
     }
 }
 

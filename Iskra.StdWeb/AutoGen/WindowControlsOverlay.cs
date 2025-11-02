@@ -8,13 +8,7 @@ public partial class WindowControlsOverlay(global::System.Runtime.InteropService
 {
     public bool Visible
     {
-        get
-        {
-            bool __res_5443;
-            bool __res_5444 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
-            __res_5443 = __res_5444;
-            return __res_5443;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "visible");
     }
 
     public global::Iskra.StdWeb.DOMRect GetTitlebarAreaRect()
@@ -24,35 +18,8 @@ public partial class WindowControlsOverlay(global::System.Runtime.InteropService
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Ongeometrychange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_5446;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5447 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
-            if (__res_5447 is null)
-            {
-                __res_5446 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5448 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5447;
-                __res_5446 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_5448);
-            }
-            return __res_5446;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5449;
-            if (value is null)
-            {
-                __marshalledValue_5449 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5450 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_5449 = __notNullable_5450.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_5449);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ongeometrychange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ongeometrychange", value);
     }
 }
 

@@ -8,30 +8,13 @@ public partial class CSSPageRule(global::System.Runtime.InteropServices.JavaScri
 {
     public string SelectorText
     {
-        get
-        {
-            string __res_16212;
-            string __res_16213 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
-            __res_16212 = __res_16213;
-            return __res_16212;
-        }
-        set
-        {
-            string __marshalledValue_16214;
-            __marshalledValue_16214 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_16214);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "selectorText");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "selectorText", value);
     }
 
     public global::Iskra.StdWeb.CSSPageDescriptors Style
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSPageDescriptors __res_16215;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16216 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_16215 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPageDescriptors>(__res_16216);
-            return __res_16215;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSPageDescriptors, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "style");
     }
 }
 

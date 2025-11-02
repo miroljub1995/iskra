@@ -8,138 +8,42 @@ public partial class GamepadPose(global::System.Runtime.InteropServices.JavaScri
 {
     public bool HasOrientation
     {
-        get
-        {
-            bool __res_4361;
-            bool __res_4362 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasOrientation");
-            __res_4361 = __res_4362;
-            return __res_4361;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hasOrientation");
     }
 
     public bool HasPosition
     {
-        get
-        {
-            bool __res_4363;
-            bool __res_4364 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasPosition");
-            __res_4363 = __res_4364;
-            return __res_4363;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hasPosition");
     }
 
     public global::Iskra.JSCore.Float32Array? Position
     {
-        get
-        {
-            global::Iskra.JSCore.Float32Array? __res_4365;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4366 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "position");
-            if (__res_4366 is null)
-            {
-                __res_4365 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4367 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4366;
-                __res_4365 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_4367);
-            }
-            return __res_4365;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "position");
     }
 
     public global::Iskra.JSCore.Float32Array? LinearVelocity
     {
-        get
-        {
-            global::Iskra.JSCore.Float32Array? __res_4368;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4369 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearVelocity");
-            if (__res_4369 is null)
-            {
-                __res_4368 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4370 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4369;
-                __res_4368 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_4370);
-            }
-            return __res_4368;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "linearVelocity");
     }
 
     public global::Iskra.JSCore.Float32Array? LinearAcceleration
     {
-        get
-        {
-            global::Iskra.JSCore.Float32Array? __res_4371;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4372 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "linearAcceleration");
-            if (__res_4372 is null)
-            {
-                __res_4371 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4373 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4372;
-                __res_4371 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_4373);
-            }
-            return __res_4371;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "linearAcceleration");
     }
 
     public global::Iskra.JSCore.Float32Array? Orientation
     {
-        get
-        {
-            global::Iskra.JSCore.Float32Array? __res_4374;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4375 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "orientation");
-            if (__res_4375 is null)
-            {
-                __res_4374 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4376 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4375;
-                __res_4374 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_4376);
-            }
-            return __res_4374;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "orientation");
     }
 
     public global::Iskra.JSCore.Float32Array? AngularVelocity
     {
-        get
-        {
-            global::Iskra.JSCore.Float32Array? __res_4377;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4378 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularVelocity");
-            if (__res_4378 is null)
-            {
-                __res_4377 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4379 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4378;
-                __res_4377 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_4379);
-            }
-            return __res_4377;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "angularVelocity");
     }
 
     public global::Iskra.JSCore.Float32Array? AngularAcceleration
     {
-        get
-        {
-            global::Iskra.JSCore.Float32Array? __res_4380;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4381 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "angularAcceleration");
-            if (__res_4381 is null)
-            {
-                __res_4380 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4382 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4381;
-                __res_4380 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_4382);
-            }
-            return __res_4380;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "angularAcceleration");
     }
 }
 

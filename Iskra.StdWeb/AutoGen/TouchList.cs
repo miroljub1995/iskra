@@ -8,13 +8,7 @@ public partial class TouchList(global::System.Runtime.InteropServices.JavaScript
 {
     public uint Length
     {
-        get
-        {
-            uint __res_5740;
-            double __res_5741 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5740 = Convert.ToUInt32(__res_5741);
-            return __res_5740;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.Touch? Item(uint index)

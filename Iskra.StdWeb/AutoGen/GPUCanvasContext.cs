@@ -8,14 +8,7 @@ public partial class GPUCanvasContext(global::System.Runtime.InteropServices.Jav
 {
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> Canvas
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_1917;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1918;
-            __propObject_1918 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "canvas");
-            __res_1917 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1918);
-            return __res_1917;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "canvas");
     }
 
     public void Configure(global::Iskra.StdWeb.GPUCanvasConfiguration configuration)

@@ -8,35 +8,17 @@ public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScr
 {
     public global::Iskra.StdWeb.Element Subject
     {
-        get
-        {
-            global::Iskra.StdWeb.Element __res_377;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_378 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "subject");
-            __res_377 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_378);
-            return __res_377;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subject");
     }
 
     public global::Iskra.StdWeb.CSSNumericValue StartOffset
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSNumericValue __res_379;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_380 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
-            __res_379 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_380);
-            return __res_379;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "startOffset");
     }
 
     public global::Iskra.StdWeb.CSSNumericValue EndOffset
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSNumericValue __res_381;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_382 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "endOffset");
-            __res_381 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_382);
-            return __res_381;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "endOffset");
     }
 }
 

@@ -28,81 +28,31 @@ public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScr
 
     public uint FftSize
     {
-        get
-        {
-            uint __res_17223;
-            double __res_17224 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fftSize");
-            __res_17223 = Convert.ToUInt32(__res_17224);
-            return __res_17223;
-        }
-        set
-        {
-            double __marshalledValue_17225;
-            __marshalledValue_17225 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "fftSize", __marshalledValue_17225);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fftSize");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fftSize", value);
     }
 
     public uint FrequencyBinCount
     {
-        get
-        {
-            uint __res_17226;
-            double __res_17227 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "frequencyBinCount");
-            __res_17226 = Convert.ToUInt32(__res_17227);
-            return __res_17226;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "frequencyBinCount");
     }
 
     public double MinDecibels
     {
-        get
-        {
-            double __res_17228;
-            double __res_17229 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minDecibels");
-            __res_17228 = __res_17229;
-            return __res_17228;
-        }
-        set
-        {
-            double __marshalledValue_17230;
-            __marshalledValue_17230 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "minDecibels", __marshalledValue_17230);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "minDecibels");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "minDecibels", value);
     }
 
     public double MaxDecibels
     {
-        get
-        {
-            double __res_17231;
-            double __res_17232 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDecibels");
-            __res_17231 = __res_17232;
-            return __res_17231;
-        }
-        set
-        {
-            double __marshalledValue_17233;
-            __marshalledValue_17233 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxDecibels", __marshalledValue_17233);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxDecibels");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxDecibels", value);
     }
 
     public double SmoothingTimeConstant
     {
-        get
-        {
-            double __res_17234;
-            double __res_17235 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "smoothingTimeConstant");
-            __res_17234 = __res_17235;
-            return __res_17234;
-        }
-        set
-        {
-            double __marshalledValue_17236;
-            __marshalledValue_17236 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "smoothingTimeConstant", __marshalledValue_17236);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "smoothingTimeConstant");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "smoothingTimeConstant", value);
     }
 }
 

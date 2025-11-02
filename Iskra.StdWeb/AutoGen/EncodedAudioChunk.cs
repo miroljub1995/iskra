@@ -8,54 +8,22 @@ public partial class EncodedAudioChunk(global::System.Runtime.InteropServices.Ja
 {
     public global::Iskra.StdWeb.EncodedAudioChunkType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.EncodedAudioChunkType __res_5045;
-            string __res_5046 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_5045 = global::Iskra.StdWeb.EncodedAudioChunkType.Create(__res_5046);
-            return __res_5045;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EncodedAudioChunkType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public long Timestamp
     {
-        get
-        {
-            long __res_5047;
-            double __res_5048 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_5047 = Convert.ToInt64(__res_5048);
-            return __res_5047;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<long, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "timestamp");
     }
 
     public ulong? Duration
     {
-        get
-        {
-            ulong? __res_5049;
-            double? __res_5050 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
-            if (__res_5050 is null)
-            {
-                __res_5049 = null;
-            }
-            else
-            {
-                double __notNullable_5051 = (double)__res_5050;
-                __res_5049 = Convert.ToUInt64(__notNullable_5051);
-            }
-            return __res_5049;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "duration");
     }
 
     public uint ByteLength
     {
-        get
-        {
-            uint __res_5052;
-            double __res_5053 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "byteLength");
-            __res_5052 = Convert.ToUInt32(__res_5053);
-            return __res_5052;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "byteLength");
     }
 
     public void CopyTo(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.ArrayBuffer, global::Iskra.JSCore.SharedArrayBuffer, global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.StdWeb.GenericMarshaller.Union> destination)

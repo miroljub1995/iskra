@@ -8,65 +8,27 @@ public partial class NodeIterator(global::System.Runtime.InteropServices.JavaScr
 {
     public global::Iskra.StdWeb.Node Root
     {
-        get
-        {
-            global::Iskra.StdWeb.Node __res_7416;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7417 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            __res_7416 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_7417);
-            return __res_7416;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "root");
     }
 
     public global::Iskra.StdWeb.Node ReferenceNode
     {
-        get
-        {
-            global::Iskra.StdWeb.Node __res_7418;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7419 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "referenceNode");
-            __res_7418 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_7419);
-            return __res_7418;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "referenceNode");
     }
 
     public bool PointerBeforeReferenceNode
     {
-        get
-        {
-            bool __res_7420;
-            bool __res_7421 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pointerBeforeReferenceNode");
-            __res_7420 = __res_7421;
-            return __res_7420;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pointerBeforeReferenceNode");
     }
 
     public uint WhatToShow
     {
-        get
-        {
-            uint __res_7422;
-            double __res_7423 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
-            __res_7422 = Convert.ToUInt32(__res_7423);
-            return __res_7422;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "whatToShow");
     }
 
     public global::Iskra.StdWeb.NodeFilter? Filter
     {
-        get
-        {
-            global::Iskra.StdWeb.NodeFilter? __res_7424;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7425 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
-            if (__res_7425 is null)
-            {
-                __res_7424 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7426 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7425;
-                __res_7424 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeFilter>(__notNullable_7426);
-            }
-            return __res_7424;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NodeFilter?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "filter");
     }
 
     public global::Iskra.StdWeb.Node? NextNode()

@@ -8,36 +8,17 @@ public partial class RdfTriple(global::System.Runtime.InteropServices.JavaScript
 {
     public string Subject
     {
-        get
-        {
-            string __res_10358;
-            string __res_10359 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subject");
-            __res_10358 = __res_10359;
-            return __res_10358;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subject");
     }
 
     public string Predicate
     {
-        get
-        {
-            string __res_10360;
-            string __res_10361 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "predicate");
-            __res_10360 = __res_10361;
-            return __res_10360;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "predicate");
     }
 
     public global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union> Object
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union> __res_10362;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10363;
-            __propObject_10363 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "object");
-            __res_10362 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_10363);
-            return __res_10362;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.RdfLiteral, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "object");
     }
 }
 

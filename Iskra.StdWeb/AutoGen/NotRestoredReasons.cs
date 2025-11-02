@@ -8,116 +8,32 @@ public partial class NotRestoredReasons(global::System.Runtime.InteropServices.J
 {
     public string? Src
     {
-        get
-        {
-            string? __res_14814;
-            string? __res_14815 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "src");
-            if (__res_14815 is null)
-            {
-                __res_14814 = null;
-            }
-            else
-            {
-                string __notNullable_14816 = (string)__res_14815;
-                __res_14814 = __notNullable_14816;
-            }
-            return __res_14814;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "src");
     }
 
     public string? Id
     {
-        get
-        {
-            string? __res_14817;
-            string? __res_14818 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "id");
-            if (__res_14818 is null)
-            {
-                __res_14817 = null;
-            }
-            else
-            {
-                string __notNullable_14819 = (string)__res_14818;
-                __res_14817 = __notNullable_14819;
-            }
-            return __res_14817;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "id");
     }
 
     public string? Name
     {
-        get
-        {
-            string? __res_14820;
-            string? __res_14821 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "name");
-            if (__res_14821 is null)
-            {
-                __res_14820 = null;
-            }
-            else
-            {
-                string __notNullable_14822 = (string)__res_14821;
-                __res_14820 = __notNullable_14822;
-            }
-            return __res_14820;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "name");
     }
 
     public string? Url
     {
-        get
-        {
-            string? __res_14823;
-            string? __res_14824 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_14824 is null)
-            {
-                __res_14823 = null;
-            }
-            else
-            {
-                string __notNullable_14825 = (string)__res_14824;
-                __res_14823 = __notNullable_14825;
-            }
-            return __res_14823;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "url");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? Reasons
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_14826;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14827;
-            __propObject_14827 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "reasons");
-            if (__propObject_14827 is null)
-            {
-                __res_14826 = null;
-            }
-            else
-            {
-                __res_14826 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_14827);
-            }
-            return __res_14826;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "reasons");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? Children
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_14828;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14829;
-            __propObject_14829 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "children");
-            if (__propObject_14829 is null)
-            {
-                __res_14828 = null;
-            }
-            else
-            {
-                __res_14828 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_14829);
-            }
-            return __res_14828;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "children");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

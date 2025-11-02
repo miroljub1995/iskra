@@ -8,19 +8,8 @@ public partial class HTMLQuoteElement(global::System.Runtime.InteropServices.Jav
 {
     public string Cite
     {
-        get
-        {
-            string __res_11463;
-            string __res_11464 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cite");
-            __res_11463 = __res_11464;
-            return __res_11463;
-        }
-        set
-        {
-            string __marshalledValue_11465;
-            __marshalledValue_11465 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cite", __marshalledValue_11465);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cite");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cite", value);
     }
 }
 

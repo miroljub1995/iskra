@@ -8,13 +8,7 @@ public partial class HTMLCollection(global::System.Runtime.InteropServices.JavaS
 {
     public uint Length
     {
-        get
-        {
-            uint __res_5947;
-            double __res_5948 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5947 = Convert.ToUInt32(__res_5948);
-            return __res_5947;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.Element? Item(uint index)

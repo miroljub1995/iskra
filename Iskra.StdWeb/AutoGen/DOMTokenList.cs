@@ -8,13 +8,7 @@ public partial class DOMTokenList(global::System.Runtime.InteropServices.JavaScr
 {
     public uint Length
     {
-        get
-        {
-            uint __res_7448;
-            double __res_7449 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_7448 = Convert.ToUInt32(__res_7449);
-            return __res_7448;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public string? Item(uint index)
@@ -54,19 +48,8 @@ public partial class DOMTokenList(global::System.Runtime.InteropServices.JavaScr
 
     public string Value
     {
-        get
-        {
-            string __res_7457;
-            string __res_7458 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_7457 = __res_7458;
-            return __res_7457;
-        }
-        set
-        {
-            string __marshalledValue_7459;
-            __marshalledValue_7459 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_7459);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value", value);
     }
 }
 

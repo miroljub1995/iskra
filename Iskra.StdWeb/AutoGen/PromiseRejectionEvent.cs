@@ -8,32 +8,12 @@ public partial class PromiseRejectionEvent(global::System.Runtime.InteropService
 {
     public global::System.Runtime.InteropServices.JavaScript.JSObject Promise
     {
-        get
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14841;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14842 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "promise");
-            __res_14841 = __res_14842;
-            return __res_14841;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "promise");
     }
 
     public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Reason
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_14843;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14844;
-            __propObject_14844 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "reason");
-            if (__propObject_14844 is null)
-            {
-                __res_14843 = null;
-            }
-            else
-            {
-                __res_14843 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_14844);
-            }
-            return __res_14843;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "reason");
     }
 }
 

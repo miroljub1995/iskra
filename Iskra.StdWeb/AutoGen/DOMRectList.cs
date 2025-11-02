@@ -8,13 +8,7 @@ public partial class DOMRectList(global::System.Runtime.InteropServices.JavaScri
 {
     public uint Length
     {
-        get
-        {
-            uint __res_7666;
-            double __res_7667 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_7666 = Convert.ToUInt32(__res_7667);
-            return __res_7666;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.DOMRect? Item(uint index)

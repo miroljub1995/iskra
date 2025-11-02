@@ -8,24 +8,12 @@ public partial class SFrameEncrypterStream(global::System.Runtime.InteropService
 {
     public global::Iskra.StdWeb.ReadableStream Readable
     {
-        get
-        {
-            global::Iskra.StdWeb.ReadableStream __res_2595;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2596 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            __res_2595 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_2596);
-            return __res_2595;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ReadableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readable");
     }
 
     public global::Iskra.StdWeb.WritableStream Writable
     {
-        get
-        {
-            global::Iskra.StdWeb.WritableStream __res_2597;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2598 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            __res_2597 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_2598);
-            return __res_2597;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WritableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "writable");
     }
 
     public global::Iskra.JSCore.Promise SetEncryptionKey(global::Iskra.StdWeb.CryptoKey key, global::Iskra.JSCore.Generics.Union<ulong, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union> keyID)
@@ -35,35 +23,8 @@ public partial class SFrameEncrypterStream(global::System.Runtime.InteropService
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2600;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2601 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_2601 is null)
-            {
-                __res_2600 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2602 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2601;
-                __res_2600 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2602);
-            }
-            return __res_2600;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2603;
-            if (value is null)
-            {
-                __marshalledValue_2603 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2604 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2603 = __notNullable_2604.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_2603);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onerror");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onerror", value);
     }
 }
 

@@ -8,13 +8,7 @@ public partial class WritableStreamDefaultController(global::System.Runtime.Inte
 {
     public global::Iskra.StdWeb.AbortSignal Signal
     {
-        get
-        {
-            global::Iskra.StdWeb.AbortSignal __res_2443;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2444 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
-            __res_2443 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_2444);
-            return __res_2443;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AbortSignal, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "signal");
     }
 
     public void Error(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? e)

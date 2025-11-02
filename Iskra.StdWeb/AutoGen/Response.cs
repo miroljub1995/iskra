@@ -23,79 +23,37 @@ public partial class Response(global::System.Runtime.InteropServices.JavaScript.
 
     public global::Iskra.StdWeb.ResponseType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.ResponseType __res_7910;
-            string __res_7911 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_7910 = global::Iskra.StdWeb.ResponseType.Create(__res_7911);
-            return __res_7910;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ResponseType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public string Url
     {
-        get
-        {
-            string __res_7912;
-            string __res_7913 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_7912 = __res_7913;
-            return __res_7912;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "url");
     }
 
     public bool Redirected
     {
-        get
-        {
-            bool __res_7914;
-            bool __res_7915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "redirected");
-            __res_7914 = __res_7915;
-            return __res_7914;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "redirected");
     }
 
     public ushort Status
     {
-        get
-        {
-            ushort __res_7916;
-            double __res_7917 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "status");
-            __res_7916 = Convert.ToUInt16(__res_7917);
-            return __res_7916;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "status");
     }
 
     public bool Ok
     {
-        get
-        {
-            bool __res_7918;
-            bool __res_7919 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ok");
-            __res_7918 = __res_7919;
-            return __res_7918;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ok");
     }
 
     public string StatusText
     {
-        get
-        {
-            string __res_7920;
-            string __res_7921 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "statusText");
-            __res_7920 = __res_7921;
-            return __res_7920;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "statusText");
     }
 
     public global::Iskra.StdWeb.Headers Headers
     {
-        get
-        {
-            global::Iskra.StdWeb.Headers __res_7922;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7923 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "headers");
-            __res_7922 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Headers>(__res_7923);
-            return __res_7922;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Headers, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "headers");
     }
 
     public global::Iskra.StdWeb.Response Clone()
@@ -105,32 +63,12 @@ public partial class Response(global::System.Runtime.InteropServices.JavaScript.
 
     public global::Iskra.StdWeb.ReadableStream? Body
     {
-        get
-        {
-            global::Iskra.StdWeb.ReadableStream? __res_7925;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7926 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "body");
-            if (__res_7926 is null)
-            {
-                __res_7925 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7927 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7926;
-                __res_7925 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__notNullable_7927);
-            }
-            return __res_7925;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ReadableStream?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "body");
     }
 
     public bool BodyUsed
     {
-        get
-        {
-            bool __res_7928;
-            bool __res_7929 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "bodyUsed");
-            __res_7928 = __res_7929;
-            return __res_7928;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bodyUsed");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor> ArrayBuffer()

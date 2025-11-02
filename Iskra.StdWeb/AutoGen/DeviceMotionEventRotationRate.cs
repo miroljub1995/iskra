@@ -8,59 +8,17 @@ public partial class DeviceMotionEventRotationRate(global::System.Runtime.Intero
 {
     public double? Alpha
     {
-        get
-        {
-            double? __res_5508;
-            double? __res_5509 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "alpha");
-            if (__res_5509 is null)
-            {
-                __res_5508 = null;
-            }
-            else
-            {
-                double __notNullable_5510 = (double)__res_5509;
-                __res_5508 = __notNullable_5510;
-            }
-            return __res_5508;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "alpha");
     }
 
     public double? Beta
     {
-        get
-        {
-            double? __res_5511;
-            double? __res_5512 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "beta");
-            if (__res_5512 is null)
-            {
-                __res_5511 = null;
-            }
-            else
-            {
-                double __notNullable_5513 = (double)__res_5512;
-                __res_5511 = __notNullable_5513;
-            }
-            return __res_5511;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "beta");
     }
 
     public double? Gamma
     {
-        get
-        {
-            double? __res_5514;
-            double? __res_5515 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "gamma");
-            if (__res_5515 is null)
-            {
-                __res_5514 = null;
-            }
-            else
-            {
-                double __notNullable_5516 = (double)__res_5515;
-                __res_5514 = __notNullable_5516;
-            }
-            return __res_5514;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "gamma");
     }
 }
 

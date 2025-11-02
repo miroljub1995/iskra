@@ -8,24 +8,12 @@ public partial class SpeechRecognitionErrorEvent(global::System.Runtime.InteropS
 {
     public global::Iskra.StdWeb.SpeechRecognitionErrorCode Error
     {
-        get
-        {
-            global::Iskra.StdWeb.SpeechRecognitionErrorCode __res_8466;
-            string __res_8467 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "error");
-            __res_8466 = global::Iskra.StdWeb.SpeechRecognitionErrorCode.Create(__res_8467);
-            return __res_8466;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SpeechRecognitionErrorCode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "error");
     }
 
     public string Message
     {
-        get
-        {
-            string __res_8468;
-            string __res_8469 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_8468 = __res_8469;
-            return __res_8468;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "message");
     }
 }
 

@@ -13,70 +13,26 @@ public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.J
 
     public new double X
     {
-        get
-        {
-            double __res_7654;
-            double __res_7655 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
-            __res_7654 = __res_7655;
-            return __res_7654;
-        }
-        set
-        {
-            double __marshalledValue_7656;
-            __marshalledValue_7656 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "x", __marshalledValue_7656);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "x");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "x", value);
     }
 
     public new double Y
     {
-        get
-        {
-            double __res_7657;
-            double __res_7658 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
-            __res_7657 = __res_7658;
-            return __res_7657;
-        }
-        set
-        {
-            double __marshalledValue_7659;
-            __marshalledValue_7659 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "y", __marshalledValue_7659);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "y");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "y", value);
     }
 
     public new double Width
     {
-        get
-        {
-            double __res_7660;
-            double __res_7661 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_7660 = __res_7661;
-            return __res_7660;
-        }
-        set
-        {
-            double __marshalledValue_7662;
-            __marshalledValue_7662 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_7662);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width", value);
     }
 
     public new double Height
     {
-        get
-        {
-            double __res_7663;
-            double __res_7664 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_7663 = __res_7664;
-            return __res_7663;
-        }
-        set
-        {
-            double __marshalledValue_7665;
-            __marshalledValue_7665 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_7665);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height", value);
     }
 }
 

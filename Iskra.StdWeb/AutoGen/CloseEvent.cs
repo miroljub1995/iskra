@@ -8,35 +8,17 @@ public partial class CloseEvent(global::System.Runtime.InteropServices.JavaScrip
 {
     public bool WasClean
     {
-        get
-        {
-            bool __res_9673;
-            bool __res_9674 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "wasClean");
-            __res_9673 = __res_9674;
-            return __res_9673;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "wasClean");
     }
 
     public ushort Code
     {
-        get
-        {
-            ushort __res_9675;
-            double __res_9676 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "code");
-            __res_9675 = Convert.ToUInt16(__res_9676);
-            return __res_9675;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "code");
     }
 
     public string Reason
     {
-        get
-        {
-            string __res_9677;
-            string __res_9678 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
-            __res_9677 = __res_9678;
-            return __res_9677;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reason");
     }
 }
 

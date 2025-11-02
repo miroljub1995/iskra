@@ -8,24 +8,12 @@ public partial class Baseline(global::System.Runtime.InteropServices.JavaScript.
 {
     public string Name
     {
-        get
-        {
-            string __res_16767;
-            string __res_16768 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_16767 = __res_16768;
-            return __res_16767;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public double Value
     {
-        get
-        {
-            double __res_16769;
-            double __res_16770 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_16769 = __res_16770;
-            return __res_16769;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
     }
 }
 

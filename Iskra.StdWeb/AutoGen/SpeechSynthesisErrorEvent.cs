@@ -8,13 +8,7 @@ public partial class SpeechSynthesisErrorEvent(global::System.Runtime.InteropSer
 {
     public global::Iskra.StdWeb.SpeechSynthesisErrorCode Error
     {
-        get
-        {
-            global::Iskra.StdWeb.SpeechSynthesisErrorCode __res_8582;
-            string __res_8583 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "error");
-            __res_8582 = global::Iskra.StdWeb.SpeechSynthesisErrorCode.Create(__res_8583);
-            return __res_8582;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SpeechSynthesisErrorCode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "error");
     }
 }
 

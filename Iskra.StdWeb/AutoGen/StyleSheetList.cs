@@ -13,13 +13,7 @@ public partial class StyleSheetList(global::System.Runtime.InteropServices.JavaS
 
     public uint Length
     {
-        get
-        {
-            uint __res_16130;
-            double __res_16131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_16130 = Convert.ToUInt32(__res_16131);
-            return __res_16130;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 }
 

@@ -28,103 +28,37 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
 
     public string SharedContext
     {
-        get
-        {
-            string __res_319;
-            string __res_320 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
-            __res_319 = __res_320;
-            return __res_319;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sharedContext");
     }
 
     public global::Iskra.StdWeb.RewriterTone Tone
     {
-        get
-        {
-            global::Iskra.StdWeb.RewriterTone __res_321;
-            string __res_322 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tone");
-            __res_321 = global::Iskra.StdWeb.RewriterTone.Create(__res_322);
-            return __res_321;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RewriterTone, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tone");
     }
 
     public global::Iskra.StdWeb.RewriterFormat Format
     {
-        get
-        {
-            global::Iskra.StdWeb.RewriterFormat __res_323;
-            string __res_324 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
-            __res_323 = global::Iskra.StdWeb.RewriterFormat.Create(__res_324);
-            return __res_323;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RewriterFormat, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "format");
     }
 
     public global::Iskra.StdWeb.RewriterLength Length
     {
-        get
-        {
-            global::Iskra.StdWeb.RewriterLength __res_325;
-            string __res_326 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "length");
-            __res_325 = global::Iskra.StdWeb.RewriterLength.Create(__res_326);
-            return __res_325;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RewriterLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? ExpectedInputLanguages
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_327;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_328;
-            __propObject_328 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
-            if (__propObject_328 is null)
-            {
-                __res_327 = null;
-            }
-            else
-            {
-                __res_327 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_328);
-            }
-            return __res_327;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "expectedInputLanguages");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? ExpectedContextLanguages
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_329;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_330;
-            __propObject_330 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
-            if (__propObject_330 is null)
-            {
-                __res_329 = null;
-            }
-            else
-            {
-                __res_329 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_330);
-            }
-            return __res_329;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "expectedContextLanguages");
     }
 
     public string? OutputLanguage
     {
-        get
-        {
-            string? __res_331;
-            string? __res_332 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
-            if (__res_332 is null)
-            {
-                __res_331 = null;
-            }
-            else
-            {
-                string __notNullable_333 = (string)__res_332;
-                __res_331 = __notNullable_333;
-            }
-            return __res_331;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "outputLanguage");
     }
 
     public global::Iskra.JSCore.Generics.Promise<double, global::Iskra.StdWeb.PropertyAccessor> MeasureInputUsage(string input, global::Iskra.StdWeb.RewriterRewriteOptions options)
@@ -134,13 +68,7 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
 
     public double InputQuota
     {
-        get
-        {
-            double __res_335;
-            double __res_336 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_335 = __res_336;
-            return __res_335;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inputQuota");
     }
 
     public void Destroy()

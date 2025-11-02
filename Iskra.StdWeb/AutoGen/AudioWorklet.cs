@@ -8,13 +8,7 @@ public partial class AudioWorklet(global::System.Runtime.InteropServices.JavaScr
 {
     public global::Iskra.StdWeb.MessagePort Port
     {
-        get
-        {
-            global::Iskra.StdWeb.MessagePort __res_17392;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17393 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "port");
-            __res_17392 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MessagePort>(__res_17393);
-            return __res_17392;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "port");
     }
 }
 

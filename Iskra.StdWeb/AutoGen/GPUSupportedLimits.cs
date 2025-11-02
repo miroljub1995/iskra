@@ -8,343 +8,157 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
 {
     public uint MaxTextureDimension1D
     {
-        get
-        {
-            uint __res_1625;
-            double __res_1626 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureDimension1D");
-            __res_1625 = Convert.ToUInt32(__res_1626);
-            return __res_1625;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxTextureDimension1D");
     }
 
     public uint MaxTextureDimension2D
     {
-        get
-        {
-            uint __res_1627;
-            double __res_1628 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureDimension2D");
-            __res_1627 = Convert.ToUInt32(__res_1628);
-            return __res_1627;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxTextureDimension2D");
     }
 
     public uint MaxTextureDimension3D
     {
-        get
-        {
-            uint __res_1629;
-            double __res_1630 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureDimension3D");
-            __res_1629 = Convert.ToUInt32(__res_1630);
-            return __res_1629;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxTextureDimension3D");
     }
 
     public uint MaxTextureArrayLayers
     {
-        get
-        {
-            uint __res_1631;
-            double __res_1632 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxTextureArrayLayers");
-            __res_1631 = Convert.ToUInt32(__res_1632);
-            return __res_1631;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxTextureArrayLayers");
     }
 
     public uint MaxBindGroups
     {
-        get
-        {
-            uint __res_1633;
-            double __res_1634 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBindGroups");
-            __res_1633 = Convert.ToUInt32(__res_1634);
-            return __res_1633;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxBindGroups");
     }
 
     public uint MaxBindGroupsPlusVertexBuffers
     {
-        get
-        {
-            uint __res_1635;
-            double __res_1636 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBindGroupsPlusVertexBuffers");
-            __res_1635 = Convert.ToUInt32(__res_1636);
-            return __res_1635;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxBindGroupsPlusVertexBuffers");
     }
 
     public uint MaxBindingsPerBindGroup
     {
-        get
-        {
-            uint __res_1637;
-            double __res_1638 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBindingsPerBindGroup");
-            __res_1637 = Convert.ToUInt32(__res_1638);
-            return __res_1637;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxBindingsPerBindGroup");
     }
 
     public uint MaxDynamicUniformBuffersPerPipelineLayout
     {
-        get
-        {
-            uint __res_1639;
-            double __res_1640 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDynamicUniformBuffersPerPipelineLayout");
-            __res_1639 = Convert.ToUInt32(__res_1640);
-            return __res_1639;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxDynamicUniformBuffersPerPipelineLayout");
     }
 
     public uint MaxDynamicStorageBuffersPerPipelineLayout
     {
-        get
-        {
-            uint __res_1641;
-            double __res_1642 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDynamicStorageBuffersPerPipelineLayout");
-            __res_1641 = Convert.ToUInt32(__res_1642);
-            return __res_1641;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxDynamicStorageBuffersPerPipelineLayout");
     }
 
     public uint MaxSampledTexturesPerShaderStage
     {
-        get
-        {
-            uint __res_1643;
-            double __res_1644 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxSampledTexturesPerShaderStage");
-            __res_1643 = Convert.ToUInt32(__res_1644);
-            return __res_1643;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxSampledTexturesPerShaderStage");
     }
 
     public uint MaxSamplersPerShaderStage
     {
-        get
-        {
-            uint __res_1645;
-            double __res_1646 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxSamplersPerShaderStage");
-            __res_1645 = Convert.ToUInt32(__res_1646);
-            return __res_1645;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxSamplersPerShaderStage");
     }
 
     public uint MaxStorageBuffersPerShaderStage
     {
-        get
-        {
-            uint __res_1647;
-            double __res_1648 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxStorageBuffersPerShaderStage");
-            __res_1647 = Convert.ToUInt32(__res_1648);
-            return __res_1647;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxStorageBuffersPerShaderStage");
     }
 
     public uint MaxStorageTexturesPerShaderStage
     {
-        get
-        {
-            uint __res_1649;
-            double __res_1650 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxStorageTexturesPerShaderStage");
-            __res_1649 = Convert.ToUInt32(__res_1650);
-            return __res_1649;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxStorageTexturesPerShaderStage");
     }
 
     public uint MaxUniformBuffersPerShaderStage
     {
-        get
-        {
-            uint __res_1651;
-            double __res_1652 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxUniformBuffersPerShaderStage");
-            __res_1651 = Convert.ToUInt32(__res_1652);
-            return __res_1651;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxUniformBuffersPerShaderStage");
     }
 
     public ulong MaxUniformBufferBindingSize
     {
-        get
-        {
-            ulong __res_1653;
-            double __res_1654 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxUniformBufferBindingSize");
-            __res_1653 = Convert.ToUInt64(__res_1654);
-            return __res_1653;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxUniformBufferBindingSize");
     }
 
     public ulong MaxStorageBufferBindingSize
     {
-        get
-        {
-            ulong __res_1655;
-            double __res_1656 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxStorageBufferBindingSize");
-            __res_1655 = Convert.ToUInt64(__res_1656);
-            return __res_1655;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxStorageBufferBindingSize");
     }
 
     public uint MinUniformBufferOffsetAlignment
     {
-        get
-        {
-            uint __res_1657;
-            double __res_1658 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minUniformBufferOffsetAlignment");
-            __res_1657 = Convert.ToUInt32(__res_1658);
-            return __res_1657;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "minUniformBufferOffsetAlignment");
     }
 
     public uint MinStorageBufferOffsetAlignment
     {
-        get
-        {
-            uint __res_1659;
-            double __res_1660 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "minStorageBufferOffsetAlignment");
-            __res_1659 = Convert.ToUInt32(__res_1660);
-            return __res_1659;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "minStorageBufferOffsetAlignment");
     }
 
     public uint MaxVertexBuffers
     {
-        get
-        {
-            uint __res_1661;
-            double __res_1662 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxVertexBuffers");
-            __res_1661 = Convert.ToUInt32(__res_1662);
-            return __res_1661;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxVertexBuffers");
     }
 
     public ulong MaxBufferSize
     {
-        get
-        {
-            ulong __res_1663;
-            double __res_1664 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxBufferSize");
-            __res_1663 = Convert.ToUInt64(__res_1664);
-            return __res_1663;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxBufferSize");
     }
 
     public uint MaxVertexAttributes
     {
-        get
-        {
-            uint __res_1665;
-            double __res_1666 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxVertexAttributes");
-            __res_1665 = Convert.ToUInt32(__res_1666);
-            return __res_1665;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxVertexAttributes");
     }
 
     public uint MaxVertexBufferArrayStride
     {
-        get
-        {
-            uint __res_1667;
-            double __res_1668 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxVertexBufferArrayStride");
-            __res_1667 = Convert.ToUInt32(__res_1668);
-            return __res_1667;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxVertexBufferArrayStride");
     }
 
     public uint MaxInterStageShaderVariables
     {
-        get
-        {
-            uint __res_1669;
-            double __res_1670 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxInterStageShaderVariables");
-            __res_1669 = Convert.ToUInt32(__res_1670);
-            return __res_1669;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxInterStageShaderVariables");
     }
 
     public uint MaxColorAttachments
     {
-        get
-        {
-            uint __res_1671;
-            double __res_1672 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxColorAttachments");
-            __res_1671 = Convert.ToUInt32(__res_1672);
-            return __res_1671;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxColorAttachments");
     }
 
     public uint MaxColorAttachmentBytesPerSample
     {
-        get
-        {
-            uint __res_1673;
-            double __res_1674 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxColorAttachmentBytesPerSample");
-            __res_1673 = Convert.ToUInt32(__res_1674);
-            return __res_1673;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxColorAttachmentBytesPerSample");
     }
 
     public uint MaxComputeWorkgroupStorageSize
     {
-        get
-        {
-            uint __res_1675;
-            double __res_1676 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupStorageSize");
-            __res_1675 = Convert.ToUInt32(__res_1676);
-            return __res_1675;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxComputeWorkgroupStorageSize");
     }
 
     public uint MaxComputeInvocationsPerWorkgroup
     {
-        get
-        {
-            uint __res_1677;
-            double __res_1678 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeInvocationsPerWorkgroup");
-            __res_1677 = Convert.ToUInt32(__res_1678);
-            return __res_1677;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxComputeInvocationsPerWorkgroup");
     }
 
     public uint MaxComputeWorkgroupSizeX
     {
-        get
-        {
-            uint __res_1679;
-            double __res_1680 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupSizeX");
-            __res_1679 = Convert.ToUInt32(__res_1680);
-            return __res_1679;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxComputeWorkgroupSizeX");
     }
 
     public uint MaxComputeWorkgroupSizeY
     {
-        get
-        {
-            uint __res_1681;
-            double __res_1682 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupSizeY");
-            __res_1681 = Convert.ToUInt32(__res_1682);
-            return __res_1681;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxComputeWorkgroupSizeY");
     }
 
     public uint MaxComputeWorkgroupSizeZ
     {
-        get
-        {
-            uint __res_1683;
-            double __res_1684 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupSizeZ");
-            __res_1683 = Convert.ToUInt32(__res_1684);
-            return __res_1683;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxComputeWorkgroupSizeZ");
     }
 
     public uint MaxComputeWorkgroupsPerDimension
     {
-        get
-        {
-            uint __res_1685;
-            double __res_1686 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxComputeWorkgroupsPerDimension");
-            __res_1685 = Convert.ToUInt32(__res_1686);
-            return __res_1685;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxComputeWorkgroupsPerDimension");
     }
 }
 

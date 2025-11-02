@@ -8,46 +8,22 @@ public partial class MediaDeviceInfo(global::System.Runtime.InteropServices.Java
 {
     public string DeviceId
     {
-        get
-        {
-            string __res_8205;
-            string __res_8206 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "deviceId");
-            __res_8205 = __res_8206;
-            return __res_8205;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deviceId");
     }
 
     public global::Iskra.StdWeb.MediaDeviceKind Kind
     {
-        get
-        {
-            global::Iskra.StdWeb.MediaDeviceKind __res_8207;
-            string __res_8208 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_8207 = global::Iskra.StdWeb.MediaDeviceKind.Create(__res_8208);
-            return __res_8207;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaDeviceKind, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "kind");
     }
 
     public string Label
     {
-        get
-        {
-            string __res_8209;
-            string __res_8210 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_8209 = __res_8210;
-            return __res_8209;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
     }
 
     public string GroupId
     {
-        get
-        {
-            string __res_8211;
-            string __res_8212 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "groupId");
-            __res_8211 = __res_8212;
-            return __res_8211;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "groupId");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

@@ -18,112 +18,25 @@ public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaS
 
     public global::Iskra.StdWeb.RemotePlaybackState State
     {
-        get
-        {
-            global::Iskra.StdWeb.RemotePlaybackState __res_10315;
-            string __res_10316 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_10315 = global::Iskra.StdWeb.RemotePlaybackState.Create(__res_10316);
-            return __res_10315;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RemotePlaybackState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "state");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onconnecting
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_10317;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10318 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnecting");
-            if (__res_10318 is null)
-            {
-                __res_10317 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10319 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10318;
-                __res_10317 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_10319);
-            }
-            return __res_10317;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10320;
-            if (value is null)
-            {
-                __marshalledValue_10320 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_10321 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_10320 = __notNullable_10321.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnecting", __marshalledValue_10320);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onconnecting");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onconnecting", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_10322;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10323 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
-            if (__res_10323 is null)
-            {
-                __res_10322 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10324 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10323;
-                __res_10322 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_10324);
-            }
-            return __res_10322;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10325;
-            if (value is null)
-            {
-                __marshalledValue_10325 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_10326 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_10325 = __notNullable_10326.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_10325);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onconnect");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onconnect", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_10327;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10328 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
-            if (__res_10328 is null)
-            {
-                __res_10327 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10329 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10328;
-                __res_10327 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_10329);
-            }
-            return __res_10327;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10330;
-            if (value is null)
-            {
-                __marshalledValue_10330 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_10331 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_10330 = __notNullable_10331.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_10330);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondisconnect");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondisconnect", value);
     }
 
     public global::Iskra.JSCore.Promise Prompt()

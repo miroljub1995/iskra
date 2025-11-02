@@ -8,64 +8,25 @@ public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.
 {
     public ushort UnitType
     {
-        get
-        {
-            ushort __res_970;
-            double __res_971 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unitType");
-            __res_970 = Convert.ToUInt16(__res_971);
-            return __res_970;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unitType");
     }
 
     public float Value
     {
-        get
-        {
-            float __res_972;
-            double __res_973 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_972 = Convert.ToSingle(__res_973);
-            return __res_972;
-        }
-        set
-        {
-            double __marshalledValue_974;
-            __marshalledValue_974 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_974);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value", value);
     }
 
     public float ValueInSpecifiedUnits
     {
-        get
-        {
-            float __res_975;
-            double __res_976 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits");
-            __res_975 = Convert.ToSingle(__res_976);
-            return __res_975;
-        }
-        set
-        {
-            double __marshalledValue_977;
-            __marshalledValue_977 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "valueInSpecifiedUnits", __marshalledValue_977);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "valueInSpecifiedUnits");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "valueInSpecifiedUnits", value);
     }
 
     public string ValueAsString
     {
-        get
-        {
-            string __res_978;
-            string __res_979 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "valueAsString");
-            __res_978 = __res_979;
-            return __res_978;
-        }
-        set
-        {
-            string __marshalledValue_980;
-            __marshalledValue_980 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "valueAsString", __marshalledValue_980);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "valueAsString");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "valueAsString", value);
     }
 
     public void NewValueSpecifiedUnits(ushort unitType, float valueInSpecifiedUnits)

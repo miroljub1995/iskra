@@ -18,13 +18,7 @@ public partial class Range(global::System.Runtime.InteropServices.JavaScript.JSO
 
     public global::Iskra.StdWeb.Node CommonAncestorContainer
     {
-        get
-        {
-            global::Iskra.StdWeb.Node __res_7392;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7393 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "commonAncestorContainer");
-            __res_7392 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_7393);
-            return __res_7392;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "commonAncestorContainer");
     }
 
     public void SetStart(global::Iskra.StdWeb.Node node, uint offset)

@@ -8,35 +8,17 @@ public partial class GPUAdapter(global::System.Runtime.InteropServices.JavaScrip
 {
     public global::Iskra.StdWeb.GPUSupportedFeatures Features
     {
-        get
-        {
-            global::Iskra.StdWeb.GPUSupportedFeatures __res_1705;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1706 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "features");
-            __res_1705 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUSupportedFeatures>(__res_1706);
-            return __res_1705;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUSupportedFeatures, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "features");
     }
 
     public global::Iskra.StdWeb.GPUSupportedLimits Limits
     {
-        get
-        {
-            global::Iskra.StdWeb.GPUSupportedLimits __res_1707;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1708 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "limits");
-            __res_1707 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUSupportedLimits>(__res_1708);
-            return __res_1707;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUSupportedLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "limits");
     }
 
     public global::Iskra.StdWeb.GPUAdapterInfo Info
     {
-        get
-        {
-            global::Iskra.StdWeb.GPUAdapterInfo __res_1709;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1710 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "info");
-            __res_1709 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUAdapterInfo>(__res_1710);
-            return __res_1709;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUAdapterInfo, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "info");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUDevice, global::Iskra.StdWeb.PropertyAccessor> RequestDevice(global::Iskra.StdWeb.GPUDeviceDescriptor descriptor)

@@ -8,24 +8,12 @@ public partial class FragmentResult(global::System.Runtime.InteropServices.JavaS
 {
     public double InlineSize
     {
-        get
-        {
-            double __res_16840;
-            double __res_16841 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
-            __res_16840 = __res_16841;
-            return __res_16840;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inlineSize");
     }
 
     public double BlockSize
     {
-        get
-        {
-            double __res_16842;
-            double __res_16843 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
-            __res_16842 = __res_16843;
-            return __res_16842;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "blockSize");
     }
 }
 

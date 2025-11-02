@@ -8,19 +8,8 @@ public partial class HTMLDataElement(global::System.Runtime.InteropServices.Java
 {
     public string Value
     {
-        get
-        {
-            string __res_11578;
-            string __res_11579 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_11578 = __res_11579;
-            return __res_11578;
-        }
-        set
-        {
-            string __marshalledValue_11580;
-            __marshalledValue_11580 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_11580);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value", value);
     }
 }
 

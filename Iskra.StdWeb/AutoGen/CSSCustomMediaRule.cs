@@ -8,25 +8,12 @@ public partial class CSSCustomMediaRule(global::System.Runtime.InteropServices.J
 {
     public string Name
     {
-        get
-        {
-            string __res_9081;
-            string __res_9082 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_9081 = __res_9082;
-            return __res_9081;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union> Query
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union> __res_9083;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9084;
-            __propObject_9084 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "query");
-            __res_9083 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_9084);
-            return __res_9083;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaList, bool, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "query");
     }
 }
 

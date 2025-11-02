@@ -8,24 +8,12 @@ public partial class WebTransportBidirectionalStream(global::System.Runtime.Inte
 {
     public global::Iskra.StdWeb.WebTransportReceiveStream Readable
     {
-        get
-        {
-            global::Iskra.StdWeb.WebTransportReceiveStream __res_4550;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4551 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            __res_4550 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebTransportReceiveStream>(__res_4551);
-            return __res_4550;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WebTransportReceiveStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readable");
     }
 
     public global::Iskra.StdWeb.WebTransportSendStream Writable
     {
-        get
-        {
-            global::Iskra.StdWeb.WebTransportSendStream __res_4552;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4553 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            __res_4552 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebTransportSendStream>(__res_4553);
-            return __res_4552;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WebTransportSendStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "writable");
     }
 }
 

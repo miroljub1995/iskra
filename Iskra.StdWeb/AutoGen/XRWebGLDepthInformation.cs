@@ -8,43 +8,17 @@ public partial class XRWebGLDepthInformation(global::System.Runtime.InteropServi
 {
     public global::Iskra.StdWeb.WebGLTexture Texture
     {
-        get
-        {
-            global::Iskra.StdWeb.WebGLTexture __res_2718;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2719 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "texture");
-            __res_2718 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLTexture>(__res_2719);
-            return __res_2718;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WebGLTexture, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "texture");
     }
 
     public global::Iskra.StdWeb.XRTextureType TextureType
     {
-        get
-        {
-            global::Iskra.StdWeb.XRTextureType __res_2720;
-            string __res_2721 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "textureType");
-            __res_2720 = global::Iskra.StdWeb.XRTextureType.Create(__res_2721);
-            return __res_2720;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRTextureType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "textureType");
     }
 
     public uint? ImageIndex
     {
-        get
-        {
-            uint? __res_2722;
-            double? __res_2723 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "imageIndex");
-            if (__res_2723 is null)
-            {
-                __res_2722 = null;
-            }
-            else
-            {
-                double __notNullable_2724 = (double)__res_2723;
-                __res_2722 = Convert.ToUInt32(__notNullable_2724);
-            }
-            return __res_2722;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "imageIndex");
     }
 }
 

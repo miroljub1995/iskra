@@ -8,13 +8,7 @@ public partial class XRSessionEvent(global::System.Runtime.InteropServices.JavaS
 {
     public global::Iskra.StdWeb.XRSession Session
     {
-        get
-        {
-            global::Iskra.StdWeb.XRSession __res_8939;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8940 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
-            __res_8939 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_8940);
-            return __res_8939;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRSession, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "session");
     }
 }
 

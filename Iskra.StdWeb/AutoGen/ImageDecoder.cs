@@ -8,47 +8,22 @@ public partial class ImageDecoder(global::System.Runtime.InteropServices.JavaScr
 {
     public string Type
     {
-        get
-        {
-            string __res_5128;
-            string __res_5129 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_5128 = __res_5129;
-            return __res_5128;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public bool Complete
     {
-        get
-        {
-            bool __res_5130;
-            bool __res_5131 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "complete");
-            __res_5130 = __res_5131;
-            return __res_5130;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "complete");
     }
 
     public global::Iskra.JSCore.Promise Completed
     {
-        get
-        {
-            global::Iskra.JSCore.Promise __res_5132;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5133;
-            __propObject_5133 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "completed");
-            __res_5132 = new global::Iskra.JSCore.Promise(__propObject_5133);
-            return __res_5132;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "completed");
     }
 
     public global::Iskra.StdWeb.ImageTrackList Tracks
     {
-        get
-        {
-            global::Iskra.StdWeb.ImageTrackList __res_5134;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5135 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "tracks");
-            __res_5134 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ImageTrackList>(__res_5135);
-            return __res_5134;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageTrackList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tracks");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ImageDecodeResult, global::Iskra.StdWeb.PropertyAccessor> Decode(global::Iskra.StdWeb.ImageDecodeOptions options)

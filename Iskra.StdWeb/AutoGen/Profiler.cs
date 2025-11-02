@@ -8,24 +8,12 @@ public partial class Profiler(global::System.Runtime.InteropServices.JavaScript.
 {
     public double SampleInterval
     {
-        get
-        {
-            double __res_7510;
-            double __res_7511 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleInterval");
-            __res_7510 = __res_7511;
-            return __res_7510;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampleInterval");
     }
 
     public bool Stopped
     {
-        get
-        {
-            bool __res_7512;
-            bool __res_7513 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "stopped");
-            __res_7512 = __res_7513;
-            return __res_7512;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stopped");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ProfilerTrace, global::Iskra.StdWeb.PropertyAccessor> Stop()

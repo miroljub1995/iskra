@@ -8,108 +8,36 @@ public partial class AudioBufferSourceNode(global::System.Runtime.InteropService
 {
     public global::Iskra.StdWeb.AudioBuffer? Buffer
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioBuffer? __res_17237;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_17238 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "buffer");
-            if (__res_17238 is null)
-            {
-                __res_17237 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_17239 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_17238;
-                __res_17237 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(__notNullable_17239);
-            }
-            return __res_17237;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_17240;
-            if (value is null)
-            {
-                __marshalledValue_17240 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.AudioBuffer __notNullable_17241 = (global::Iskra.StdWeb.AudioBuffer)value;
-                __marshalledValue_17240 = __notNullable_17241.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "buffer", __marshalledValue_17240);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioBuffer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "buffer");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AudioBuffer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "buffer", value);
     }
 
     public global::Iskra.StdWeb.AudioParam PlaybackRate
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17242;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17243 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "playbackRate");
-            __res_17242 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17243);
-            return __res_17242;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "playbackRate");
     }
 
     public global::Iskra.StdWeb.AudioParam Detune
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17244;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17245 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
-            __res_17244 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17245);
-            return __res_17244;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "detune");
     }
 
     public bool Loop
     {
-        get
-        {
-            bool __res_17246;
-            bool __res_17247 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "loop");
-            __res_17246 = __res_17247;
-            return __res_17246;
-        }
-        set
-        {
-            bool __marshalledValue_17248;
-            __marshalledValue_17248 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "loop", __marshalledValue_17248);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loop");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loop", value);
     }
 
     public double LoopStart
     {
-        get
-        {
-            double __res_17249;
-            double __res_17250 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loopStart");
-            __res_17249 = __res_17250;
-            return __res_17249;
-        }
-        set
-        {
-            double __marshalledValue_17251;
-            __marshalledValue_17251 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loopStart", __marshalledValue_17251);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loopStart");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loopStart", value);
     }
 
     public double LoopEnd
     {
-        get
-        {
-            double __res_17252;
-            double __res_17253 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loopEnd");
-            __res_17252 = __res_17253;
-            return __res_17252;
-        }
-        set
-        {
-            double __marshalledValue_17254;
-            __marshalledValue_17254 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "loopEnd", __marshalledValue_17254);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loopEnd");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loopEnd", value);
     }
 
     public void Start(double when, double offset, double duration)

@@ -8,35 +8,17 @@ public partial class WebGLShaderPrecisionFormat(global::System.Runtime.InteropSe
 {
     public int RangeMin
     {
-        get
-        {
-            int __res_1976;
-            double __res_1977 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeMin");
-            __res_1976 = Convert.ToInt32(__res_1977);
-            return __res_1976;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rangeMin");
     }
 
     public int RangeMax
     {
-        get
-        {
-            int __res_1978;
-            double __res_1979 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeMax");
-            __res_1978 = Convert.ToInt32(__res_1979);
-            return __res_1978;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rangeMax");
     }
 
     public int Precision
     {
-        get
-        {
-            int __res_1980;
-            double __res_1981 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "precision");
-            __res_1980 = Convert.ToInt32(__res_1981);
-            return __res_1980;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "precision");
     }
 }
 

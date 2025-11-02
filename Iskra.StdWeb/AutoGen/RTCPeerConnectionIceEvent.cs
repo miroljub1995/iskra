@@ -8,40 +8,12 @@ public partial class RTCPeerConnectionIceEvent(global::System.Runtime.InteropSer
 {
     public global::Iskra.StdWeb.RTCIceCandidate? Candidate
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCIceCandidate? __res_4109;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4110 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "candidate");
-            if (__res_4110 is null)
-            {
-                __res_4109 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4111 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4110;
-                __res_4109 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCIceCandidate>(__notNullable_4111);
-            }
-            return __res_4109;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCIceCandidate?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "candidate");
     }
 
     public string? Url
     {
-        get
-        {
-            string? __res_4112;
-            string? __res_4113 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_4113 is null)
-            {
-                __res_4112 = null;
-            }
-            else
-            {
-                string __notNullable_4114 = (string)__res_4113;
-                __res_4112 = __notNullable_4114;
-            }
-            return __res_4112;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "url");
     }
 }
 

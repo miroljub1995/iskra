@@ -8,68 +8,14 @@ public partial class USB(global::System.Runtime.InteropServices.JavaScript.JSObj
 {
     public global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_10182;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10183 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
-            if (__res_10183 is null)
-            {
-                __res_10182 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10184 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10183;
-                __res_10182 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_10184);
-            }
-            return __res_10182;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10185;
-            if (value is null)
-            {
-                __marshalledValue_10185 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_10186 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_10185 = __notNullable_10186.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_10185);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onconnect");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onconnect", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_10187;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10188 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
-            if (__res_10188 is null)
-            {
-                __res_10187 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10189 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10188;
-                __res_10187 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_10189);
-            }
-            return __res_10187;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10190;
-            if (value is null)
-            {
-                __marshalledValue_10190 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_10191 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_10190 = __notNullable_10191.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_10190);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondisconnect");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondisconnect", value);
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetDevices()

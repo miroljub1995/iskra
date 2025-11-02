@@ -8,19 +8,8 @@ public partial class HTMLHeadingElement(global::System.Runtime.InteropServices.J
 {
     public string Align
     {
-        get
-        {
-            string __res_11439;
-            string __res_11440 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_11439 = __res_11440;
-            return __res_11439;
-        }
-        set
-        {
-            string __marshalledValue_11441;
-            __marshalledValue_11441 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_11441);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align", value);
     }
 }
 

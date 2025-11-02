@@ -8,13 +8,7 @@ public partial class XRInputSourceArray(global::System.Runtime.InteropServices.J
 {
     public uint Length
     {
-        get
-        {
-            uint __res_8918;
-            double __res_8919 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_8918 = Convert.ToUInt32(__res_8919);
-            return __res_8918;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.XRInputSource Get(uint index)

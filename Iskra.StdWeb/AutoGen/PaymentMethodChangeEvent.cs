@@ -8,32 +8,12 @@ public partial class PaymentMethodChangeEvent(global::System.Runtime.InteropServ
 {
     public string MethodName
     {
-        get
-        {
-            string __res_16318;
-            string __res_16319 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "methodName");
-            __res_16318 = __res_16319;
-            return __res_16318;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "methodName");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject? MethodDetails
     {
-        get
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16320;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "methodDetails");
-            if (__res_16321 is null)
-            {
-                __res_16320 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16322 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16321;
-                __res_16320 = __notNullable_16322;
-            }
-            return __res_16320;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::System.Runtime.InteropServices.JavaScript.JSObject?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "methodDetails");
     }
 }
 

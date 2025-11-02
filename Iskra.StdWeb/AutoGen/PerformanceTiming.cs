@@ -8,233 +8,107 @@ public partial class PerformanceTiming(global::System.Runtime.InteropServices.Ja
 {
     public ulong NavigationStart
     {
-        get
-        {
-            ulong __res_3280;
-            double __res_3281 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "navigationStart");
-            __res_3280 = Convert.ToUInt64(__res_3281);
-            return __res_3280;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "navigationStart");
     }
 
     public ulong UnloadEventStart
     {
-        get
-        {
-            ulong __res_3282;
-            double __res_3283 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventStart");
-            __res_3282 = Convert.ToUInt64(__res_3283);
-            return __res_3282;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unloadEventStart");
     }
 
     public ulong UnloadEventEnd
     {
-        get
-        {
-            ulong __res_3284;
-            double __res_3285 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventEnd");
-            __res_3284 = Convert.ToUInt64(__res_3285);
-            return __res_3284;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unloadEventEnd");
     }
 
     public ulong RedirectStart
     {
-        get
-        {
-            ulong __res_3286;
-            double __res_3287 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectStart");
-            __res_3286 = Convert.ToUInt64(__res_3287);
-            return __res_3286;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "redirectStart");
     }
 
     public ulong RedirectEnd
     {
-        get
-        {
-            ulong __res_3288;
-            double __res_3289 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectEnd");
-            __res_3288 = Convert.ToUInt64(__res_3289);
-            return __res_3288;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "redirectEnd");
     }
 
     public ulong FetchStart
     {
-        get
-        {
-            ulong __res_3290;
-            double __res_3291 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "fetchStart");
-            __res_3290 = Convert.ToUInt64(__res_3291);
-            return __res_3290;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fetchStart");
     }
 
     public ulong DomainLookupStart
     {
-        get
-        {
-            ulong __res_3292;
-            double __res_3293 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domainLookupStart");
-            __res_3292 = Convert.ToUInt64(__res_3293);
-            return __res_3292;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domainLookupStart");
     }
 
     public ulong DomainLookupEnd
     {
-        get
-        {
-            ulong __res_3294;
-            double __res_3295 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domainLookupEnd");
-            __res_3294 = Convert.ToUInt64(__res_3295);
-            return __res_3294;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domainLookupEnd");
     }
 
     public ulong ConnectStart
     {
-        get
-        {
-            ulong __res_3296;
-            double __res_3297 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "connectStart");
-            __res_3296 = Convert.ToUInt64(__res_3297);
-            return __res_3296;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "connectStart");
     }
 
     public ulong ConnectEnd
     {
-        get
-        {
-            ulong __res_3298;
-            double __res_3299 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "connectEnd");
-            __res_3298 = Convert.ToUInt64(__res_3299);
-            return __res_3298;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "connectEnd");
     }
 
     public ulong SecureConnectionStart
     {
-        get
-        {
-            ulong __res_3300;
-            double __res_3301 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "secureConnectionStart");
-            __res_3300 = Convert.ToUInt64(__res_3301);
-            return __res_3300;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "secureConnectionStart");
     }
 
     public ulong RequestStart
     {
-        get
-        {
-            ulong __res_3302;
-            double __res_3303 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "requestStart");
-            __res_3302 = Convert.ToUInt64(__res_3303);
-            return __res_3302;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "requestStart");
     }
 
     public ulong ResponseStart
     {
-        get
-        {
-            ulong __res_3304;
-            double __res_3305 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseStart");
-            __res_3304 = Convert.ToUInt64(__res_3305);
-            return __res_3304;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "responseStart");
     }
 
     public ulong ResponseEnd
     {
-        get
-        {
-            ulong __res_3306;
-            double __res_3307 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "responseEnd");
-            __res_3306 = Convert.ToUInt64(__res_3307);
-            return __res_3306;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "responseEnd");
     }
 
     public ulong DomLoading
     {
-        get
-        {
-            ulong __res_3308;
-            double __res_3309 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domLoading");
-            __res_3308 = Convert.ToUInt64(__res_3309);
-            return __res_3308;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domLoading");
     }
 
     public ulong DomInteractive
     {
-        get
-        {
-            ulong __res_3310;
-            double __res_3311 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domInteractive");
-            __res_3310 = Convert.ToUInt64(__res_3311);
-            return __res_3310;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domInteractive");
     }
 
     public ulong DomContentLoadedEventStart
     {
-        get
-        {
-            ulong __res_3312;
-            double __res_3313 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventStart");
-            __res_3312 = Convert.ToUInt64(__res_3313);
-            return __res_3312;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domContentLoadedEventStart");
     }
 
     public ulong DomContentLoadedEventEnd
     {
-        get
-        {
-            ulong __res_3314;
-            double __res_3315 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventEnd");
-            __res_3314 = Convert.ToUInt64(__res_3315);
-            return __res_3314;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domContentLoadedEventEnd");
     }
 
     public ulong DomComplete
     {
-        get
-        {
-            ulong __res_3316;
-            double __res_3317 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domComplete");
-            __res_3316 = Convert.ToUInt64(__res_3317);
-            return __res_3316;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domComplete");
     }
 
     public ulong LoadEventStart
     {
-        get
-        {
-            ulong __res_3318;
-            double __res_3319 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventStart");
-            __res_3318 = Convert.ToUInt64(__res_3319);
-            return __res_3318;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loadEventStart");
     }
 
     public ulong LoadEventEnd
     {
-        get
-        {
-            ulong __res_3320;
-            double __res_3321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventEnd");
-            __res_3320 = Convert.ToUInt64(__res_3321);
-            return __res_3320;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loadEventEnd");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

@@ -8,13 +8,7 @@ public partial class Attribution(global::System.Runtime.InteropServices.JavaScri
 {
     public global::Iskra.StdWeb.AttributionAggregationServices AggregationServices
     {
-        get
-        {
-            global::Iskra.StdWeb.AttributionAggregationServices __res_3723;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3724 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "aggregationServices");
-            __res_3723 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AttributionAggregationServices>(__res_3724);
-            return __res_3723;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AttributionAggregationServices, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "aggregationServices");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.AttributionImpressionResult, global::Iskra.StdWeb.PropertyAccessor> SaveImpression(global::Iskra.StdWeb.AttributionImpressionOptions options)

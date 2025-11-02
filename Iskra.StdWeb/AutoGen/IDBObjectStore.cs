@@ -8,71 +8,28 @@ public partial class IDBObjectStore(global::System.Runtime.InteropServices.JavaS
 {
     public string Name
     {
-        get
-        {
-            string __res_16629;
-            string __res_16630 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_16629 = __res_16630;
-            return __res_16629;
-        }
-        set
-        {
-            string __marshalledValue_16631;
-            __marshalledValue_16631 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_16631);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name", value);
     }
 
     public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? KeyPath
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_16632;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_16633;
-            __propObject_16633 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "keyPath");
-            if (__propObject_16633 is null)
-            {
-                __res_16632 = null;
-            }
-            else
-            {
-                __res_16632 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_16633);
-            }
-            return __res_16632;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "keyPath");
     }
 
     public global::Iskra.StdWeb.DOMStringList IndexNames
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMStringList __res_16634;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16635 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexNames");
-            __res_16634 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMStringList>(__res_16635);
-            return __res_16634;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMStringList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "indexNames");
     }
 
     public global::Iskra.StdWeb.IDBTransaction Transaction
     {
-        get
-        {
-            global::Iskra.StdWeb.IDBTransaction __res_16636;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16637 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transaction");
-            __res_16636 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBTransaction>(__res_16637);
-            return __res_16636;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBTransaction, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transaction");
     }
 
     public bool AutoIncrement
     {
-        get
-        {
-            bool __res_16638;
-            bool __res_16639 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "autoIncrement");
-            __res_16638 = __res_16639;
-            return __res_16638;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "autoIncrement");
     }
 
     public global::Iskra.StdWeb.IDBRequest Put(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? value, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? key)

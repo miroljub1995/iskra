@@ -8,19 +8,8 @@ public partial class USBPermissionResult(global::System.Runtime.InteropServices.
 {
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Devices
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_10310;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10311;
-            __propObject_10311 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "devices");
-            __res_10310 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10311);
-            return __res_10310;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10312 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "devices", __propObject_10312);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "devices");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "devices", value);
     }
 }
 

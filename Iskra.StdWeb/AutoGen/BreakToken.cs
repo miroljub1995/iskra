@@ -8,33 +8,12 @@ public partial class BreakToken(global::System.Runtime.InteropServices.JavaScrip
 {
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> ChildBreakTokens
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_16824;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_16825;
-            __propObject_16825 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "childBreakTokens");
-            __res_16824 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_16825);
-            return __res_16824;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ChildBreakToken, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "childBreakTokens");
     }
 
     public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Data
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_16826;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_16827;
-            __propObject_16827 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "data");
-            if (__propObject_16827 is null)
-            {
-                __res_16826 = null;
-            }
-            else
-            {
-                __res_16826 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_16827);
-            }
-            return __res_16826;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "data");
     }
 }
 

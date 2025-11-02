@@ -8,36 +8,14 @@ public partial class Highlight(global::System.Runtime.InteropServices.JavaScript
 {
     public int Priority
     {
-        get
-        {
-            int __res_2726;
-            double __res_2727 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "priority");
-            __res_2726 = Convert.ToInt32(__res_2727);
-            return __res_2726;
-        }
-        set
-        {
-            double __marshalledValue_2728;
-            __marshalledValue_2728 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "priority", __marshalledValue_2728);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "priority");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "priority", value);
     }
 
     public global::Iskra.StdWeb.HighlightType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.HighlightType __res_2729;
-            string __res_2730 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2729 = global::Iskra.StdWeb.HighlightType.Create(__res_2730);
-            return __res_2729;
-        }
-        set
-        {
-            string __marshalledValue_2731;
-            __marshalledValue_2731 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_2731);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HighlightType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.HighlightType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type", value);
     }
 }
 

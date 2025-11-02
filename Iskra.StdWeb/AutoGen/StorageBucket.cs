@@ -8,13 +8,7 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
 {
     public string Name
     {
-        get
-        {
-            string __res_9050;
-            string __res_9051 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_9050 = __res_9051;
-            return __res_9050;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Persist()
@@ -44,24 +38,12 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.IDBFactory IndexedDB
     {
-        get
-        {
-            global::Iskra.StdWeb.IDBFactory __res_9057;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9058 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indexedDB");
-            __res_9057 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBFactory>(__res_9058);
-            return __res_9057;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBFactory, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "indexedDB");
     }
 
     public global::Iskra.StdWeb.CacheStorage Caches
     {
-        get
-        {
-            global::Iskra.StdWeb.CacheStorage __res_9059;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9060 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "caches");
-            __res_9059 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CacheStorage>(__res_9060);
-            return __res_9059;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CacheStorage, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "caches");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemDirectoryHandle, global::Iskra.StdWeb.PropertyAccessor> GetDirectory()

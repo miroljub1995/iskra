@@ -8,117 +8,38 @@ public partial class StyleSheet(global::System.Runtime.InteropServices.JavaScrip
 {
     public string Type
     {
-        get
-        {
-            string __res_16098;
-            string __res_16099 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_16098 = __res_16099;
-            return __res_16098;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public string? Href
     {
-        get
-        {
-            string? __res_16100;
-            string? __res_16101 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "href");
-            if (__res_16101 is null)
-            {
-                __res_16100 = null;
-            }
-            else
-            {
-                string __notNullable_16102 = (string)__res_16101;
-                __res_16100 = __notNullable_16102;
-            }
-            return __res_16100;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "href");
     }
 
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? OwnerNode
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_16103;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_16104;
-            __propObject_16104 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "ownerNode");
-            if (__propObject_16104 is null)
-            {
-                __res_16103 = null;
-            }
-            else
-            {
-                __res_16103 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_16104);
-            }
-            return __res_16103;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ownerNode");
     }
 
     public global::Iskra.StdWeb.CSSStyleSheet? ParentStyleSheet
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSStyleSheet? __res_16105;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16106 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parentStyleSheet");
-            if (__res_16106 is null)
-            {
-                __res_16105 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16107 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16106;
-                __res_16105 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_16107);
-            }
-            return __res_16105;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSStyleSheet?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "parentStyleSheet");
     }
 
     public string? Title
     {
-        get
-        {
-            string? __res_16108;
-            string? __res_16109 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "title");
-            if (__res_16109 is null)
-            {
-                __res_16108 = null;
-            }
-            else
-            {
-                string __notNullable_16110 = (string)__res_16109;
-                __res_16108 = __notNullable_16110;
-            }
-            return __res_16108;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "title");
     }
 
     public global::Iskra.StdWeb.MediaList Media
     {
-        get
-        {
-            global::Iskra.StdWeb.MediaList __res_16111;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16112 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
-            __res_16111 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaList>(__res_16112);
-            return __res_16111;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "media");
     }
 
     public bool Disabled
     {
-        get
-        {
-            bool __res_16113;
-            bool __res_16114 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_16113 = __res_16114;
-            return __res_16113;
-        }
-        set
-        {
-            bool __marshalledValue_16115;
-            __marshalledValue_16115 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_16115);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "disabled");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "disabled", value);
     }
 }
 

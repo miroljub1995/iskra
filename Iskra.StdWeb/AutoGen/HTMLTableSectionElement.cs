@@ -8,13 +8,7 @@ public partial class HTMLTableSectionElement(global::System.Runtime.InteropServi
 {
     public global::Iskra.StdWeb.HTMLCollection Rows
     {
-        get
-        {
-            global::Iskra.StdWeb.HTMLCollection __res_12307;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12308 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "rows");
-            __res_12307 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_12308);
-            return __res_12307;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rows");
     }
 
     public global::Iskra.StdWeb.HTMLTableRowElement InsertRow(int index)
@@ -29,70 +23,26 @@ public partial class HTMLTableSectionElement(global::System.Runtime.InteropServi
 
     public string Align
     {
-        get
-        {
-            string __res_12311;
-            string __res_12312 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_12311 = __res_12312;
-            return __res_12311;
-        }
-        set
-        {
-            string __marshalledValue_12313;
-            __marshalledValue_12313 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_12313);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align", value);
     }
 
     public string Ch
     {
-        get
-        {
-            string __res_12314;
-            string __res_12315 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ch");
-            __res_12314 = __res_12315;
-            return __res_12314;
-        }
-        set
-        {
-            string __marshalledValue_12316;
-            __marshalledValue_12316 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ch", __marshalledValue_12316);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ch");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ch", value);
     }
 
     public string ChOff
     {
-        get
-        {
-            string __res_12317;
-            string __res_12318 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "chOff");
-            __res_12317 = __res_12318;
-            return __res_12317;
-        }
-        set
-        {
-            string __marshalledValue_12319;
-            __marshalledValue_12319 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "chOff", __marshalledValue_12319);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "chOff");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "chOff", value);
     }
 
     public string VAlign
     {
-        get
-        {
-            string __res_12320;
-            string __res_12321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vAlign");
-            __res_12320 = __res_12321;
-            return __res_12320;
-        }
-        set
-        {
-            string __marshalledValue_12322;
-            __marshalledValue_12322 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "vAlign", __marshalledValue_12322);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vAlign");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vAlign", value);
     }
 }
 

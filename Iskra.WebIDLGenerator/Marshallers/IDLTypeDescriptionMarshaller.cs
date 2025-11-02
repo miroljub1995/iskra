@@ -1,11 +1,9 @@
-using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Models;
 
 namespace Iskra.WebIDLGenerator.Marshallers;
 
 public partial class IDLTypeDescriptionMarshaller(
     GenTypeDescriptors descriptors,
-    GeneratorContext context,
     IServiceProvider provider
 )
 {

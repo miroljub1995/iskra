@@ -13,13 +13,7 @@ public partial class PluginArray(global::System.Runtime.InteropServices.JavaScri
 
     public uint Length
     {
-        get
-        {
-            uint __res_15055;
-            double __res_15056 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_15055 = Convert.ToUInt32(__res_15056);
-            return __res_15055;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.Plugin? Item(uint index)

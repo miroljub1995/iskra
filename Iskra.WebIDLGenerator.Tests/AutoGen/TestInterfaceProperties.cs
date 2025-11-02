@@ -8,90 +8,24 @@ public partial class TestInterfaceProperties(global::System.Runtime.InteropServi
 {
     public global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface Value
     {
-        get
-        {
-            global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface __res_309;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_310 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_309 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface>(__res_310);
-            return __res_309;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_311;
-            __marshalledValue_311 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "value", __marshalledValue_311);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "value", value);
     }
 
     public global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? ValueNullable
     {
-        get
-        {
-            global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? __res_312;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_313 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "valueNullable");
-            if (__res_313 is null)
-            {
-                __res_312 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_314 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_313;
-                __res_312 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface>(__notNullable_314);
-            }
-            return __res_312;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_315;
-            if (value is null)
-            {
-                __marshalledValue_315 = null;
-            }
-            else
-            {
-                global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface __notNullable_316 = (global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface)value;
-                __marshalledValue_315 = __notNullable_316.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "valueNullable", __marshalledValue_315);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface?, global::Iskra.WebIDLGenerator.Tests.PropertyAccessorNullable>(JSObject, "valueNullable");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface?, global::Iskra.WebIDLGenerator.Tests.PropertyAccessorNullable>(JSObject, "valueNullable", value);
     }
 
     public global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? ValueNullableReadonlyAsNotNull
     {
-        get
-        {
-            global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? __res_317;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_318 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "valueNullableReadonlyAsNotNull");
-            if (__res_318 is null)
-            {
-                __res_317 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_319 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_318;
-                __res_317 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface>(__notNullable_319);
-            }
-            return __res_317;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface?, global::Iskra.WebIDLGenerator.Tests.PropertyAccessorNullable>(JSObject, "valueNullableReadonlyAsNotNull");
     }
 
     public global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? ValueNullableReadonlyAsNull
     {
-        get
-        {
-            global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? __res_320;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "valueNullableReadonlyAsNull");
-            if (__res_321 is null)
-            {
-                __res_320 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_322 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_321;
-                __res_320 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface>(__notNullable_322);
-            }
-            return __res_320;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface?, global::Iskra.WebIDLGenerator.Tests.PropertyAccessorNullable>(JSObject, "valueNullableReadonlyAsNull");
     }
 }
 

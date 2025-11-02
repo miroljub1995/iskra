@@ -8,33 +8,12 @@ public partial class USBIsochronousInTransferResult(global::System.Runtime.Inter
 {
     public global::Iskra.JSCore.DataView? Data
     {
-        get
-        {
-            global::Iskra.JSCore.DataView? __res_10210;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10211 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_10211 is null)
-            {
-                __res_10210 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10212 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10211;
-                __res_10210 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_10212);
-            }
-            return __res_10210;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.DataView?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "data");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Packets
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_10213;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10214;
-            __propObject_10214 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "packets");
-            __res_10213 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10214);
-            return __res_10213;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "packets");
     }
 }
 

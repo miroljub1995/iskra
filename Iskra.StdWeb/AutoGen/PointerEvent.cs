@@ -8,145 +8,67 @@ public partial class PointerEvent(global::System.Runtime.InteropServices.JavaScr
 {
     public int PointerId
     {
-        get
-        {
-            int __res_18101;
-            double __res_18102 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pointerId");
-            __res_18101 = Convert.ToInt32(__res_18102);
-            return __res_18101;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pointerId");
     }
 
     public double Width
     {
-        get
-        {
-            double __res_18103;
-            double __res_18104 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_18103 = __res_18104;
-            return __res_18103;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");
     }
 
     public double Height
     {
-        get
-        {
-            double __res_18105;
-            double __res_18106 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_18105 = __res_18106;
-            return __res_18105;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height");
     }
 
     public float Pressure
     {
-        get
-        {
-            float __res_18107;
-            double __res_18108 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "pressure");
-            __res_18107 = Convert.ToSingle(__res_18108);
-            return __res_18107;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pressure");
     }
 
     public float TangentialPressure
     {
-        get
-        {
-            float __res_18109;
-            double __res_18110 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tangentialPressure");
-            __res_18109 = Convert.ToSingle(__res_18110);
-            return __res_18109;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tangentialPressure");
     }
 
     public int TiltX
     {
-        get
-        {
-            int __res_18111;
-            double __res_18112 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tiltX");
-            __res_18111 = Convert.ToInt32(__res_18112);
-            return __res_18111;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tiltX");
     }
 
     public int TiltY
     {
-        get
-        {
-            int __res_18113;
-            double __res_18114 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "tiltY");
-            __res_18113 = Convert.ToInt32(__res_18114);
-            return __res_18113;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tiltY");
     }
 
     public int Twist
     {
-        get
-        {
-            int __res_18115;
-            double __res_18116 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "twist");
-            __res_18115 = Convert.ToInt32(__res_18116);
-            return __res_18115;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "twist");
     }
 
     public double AltitudeAngle
     {
-        get
-        {
-            double __res_18117;
-            double __res_18118 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "altitudeAngle");
-            __res_18117 = __res_18118;
-            return __res_18117;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "altitudeAngle");
     }
 
     public double AzimuthAngle
     {
-        get
-        {
-            double __res_18119;
-            double __res_18120 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "azimuthAngle");
-            __res_18119 = __res_18120;
-            return __res_18119;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "azimuthAngle");
     }
 
     public string PointerType
     {
-        get
-        {
-            string __res_18121;
-            string __res_18122 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pointerType");
-            __res_18121 = __res_18122;
-            return __res_18121;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pointerType");
     }
 
     public bool IsPrimary
     {
-        get
-        {
-            bool __res_18123;
-            bool __res_18124 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
-            __res_18123 = __res_18124;
-            return __res_18123;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isPrimary");
     }
 
     public int PersistentDeviceId
     {
-        get
-        {
-            int __res_18125;
-            double __res_18126 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "persistentDeviceId");
-            __res_18125 = Convert.ToInt32(__res_18126);
-            return __res_18125;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "persistentDeviceId");
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PointerEvent, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetCoalescedEvents()

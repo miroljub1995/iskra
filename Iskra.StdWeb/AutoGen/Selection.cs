@@ -8,106 +8,42 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
 {
     public global::Iskra.StdWeb.Node? AnchorNode
     {
-        get
-        {
-            global::Iskra.StdWeb.Node? __res_2853;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2854 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "anchorNode");
-            if (__res_2854 is null)
-            {
-                __res_2853 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2855 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2854;
-                __res_2853 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_2855);
-            }
-            return __res_2853;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "anchorNode");
     }
 
     public uint AnchorOffset
     {
-        get
-        {
-            uint __res_2856;
-            double __res_2857 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "anchorOffset");
-            __res_2856 = Convert.ToUInt32(__res_2857);
-            return __res_2856;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "anchorOffset");
     }
 
     public global::Iskra.StdWeb.Node? FocusNode
     {
-        get
-        {
-            global::Iskra.StdWeb.Node? __res_2858;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2859 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "focusNode");
-            if (__res_2859 is null)
-            {
-                __res_2858 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2860 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2859;
-                __res_2858 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_2860);
-            }
-            return __res_2858;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "focusNode");
     }
 
     public uint FocusOffset
     {
-        get
-        {
-            uint __res_2861;
-            double __res_2862 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "focusOffset");
-            __res_2861 = Convert.ToUInt32(__res_2862);
-            return __res_2861;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "focusOffset");
     }
 
     public bool IsCollapsed
     {
-        get
-        {
-            bool __res_2863;
-            bool __res_2864 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isCollapsed");
-            __res_2863 = __res_2864;
-            return __res_2863;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isCollapsed");
     }
 
     public uint RangeCount
     {
-        get
-        {
-            uint __res_2865;
-            double __res_2866 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeCount");
-            __res_2865 = Convert.ToUInt32(__res_2866);
-            return __res_2865;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rangeCount");
     }
 
     public string Type
     {
-        get
-        {
-            string __res_2867;
-            string __res_2868 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2867 = __res_2868;
-            return __res_2867;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public string Direction
     {
-        get
-        {
-            string __res_2869;
-            string __res_2870 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
-            __res_2869 = __res_2870;
-            return __res_2869;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "direction");
     }
 
     public global::Iskra.StdWeb.Range GetRangeAt(uint index)

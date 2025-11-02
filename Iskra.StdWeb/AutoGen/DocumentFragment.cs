@@ -13,62 +13,22 @@ public partial class DocumentFragment(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.HTMLCollection Children
     {
-        get
-        {
-            global::Iskra.StdWeb.HTMLCollection __res_6853;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_6854 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "children");
-            __res_6853 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_6854);
-            return __res_6853;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "children");
     }
 
     public global::Iskra.StdWeb.Element? FirstElementChild
     {
-        get
-        {
-            global::Iskra.StdWeb.Element? __res_6855;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6856 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "firstElementChild");
-            if (__res_6856 is null)
-            {
-                __res_6855 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6857 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6856;
-                __res_6855 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_6857);
-            }
-            return __res_6855;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "firstElementChild");
     }
 
     public global::Iskra.StdWeb.Element? LastElementChild
     {
-        get
-        {
-            global::Iskra.StdWeb.Element? __res_6858;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_6859 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "lastElementChild");
-            if (__res_6859 is null)
-            {
-                __res_6858 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_6860 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_6859;
-                __res_6858 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_6860);
-            }
-            return __res_6858;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "lastElementChild");
     }
 
     public uint ChildElementCount
     {
-        get
-        {
-            uint __res_6861;
-            double __res_6862 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "childElementCount");
-            __res_6861 = Convert.ToUInt32(__res_6862);
-            return __res_6861;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "childElementCount");
     }
 
     public void Prepend(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)

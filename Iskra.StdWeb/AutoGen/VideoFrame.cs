@@ -8,166 +8,62 @@ public partial class VideoFrame(global::System.Runtime.InteropServices.JavaScrip
 {
     public global::Iskra.StdWeb.VideoPixelFormat? Format
     {
-        get
-        {
-            global::Iskra.StdWeb.VideoPixelFormat? __res_5082;
-            string? __res_5083 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "format");
-            if (__res_5083 is null)
-            {
-                __res_5082 = null;
-            }
-            else
-            {
-                string __notNullable_5084 = (string)__res_5083;
-                __res_5082 = global::Iskra.StdWeb.VideoPixelFormat.Create(__notNullable_5084);
-            }
-            return __res_5082;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.VideoPixelFormat?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "format");
     }
 
     public uint CodedWidth
     {
-        get
-        {
-            uint __res_5085;
-            double __res_5086 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedWidth");
-            __res_5085 = Convert.ToUInt32(__res_5086);
-            return __res_5085;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "codedWidth");
     }
 
     public uint CodedHeight
     {
-        get
-        {
-            uint __res_5087;
-            double __res_5088 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "codedHeight");
-            __res_5087 = Convert.ToUInt32(__res_5088);
-            return __res_5087;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "codedHeight");
     }
 
     public global::Iskra.StdWeb.DOMRectReadOnly? CodedRect
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMRectReadOnly? __res_5089;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5090 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "codedRect");
-            if (__res_5090 is null)
-            {
-                __res_5089 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5091 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5090;
-                __res_5089 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__notNullable_5091);
-            }
-            return __res_5089;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRectReadOnly?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "codedRect");
     }
 
     public global::Iskra.StdWeb.DOMRectReadOnly? VisibleRect
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMRectReadOnly? __res_5092;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5093 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "visibleRect");
-            if (__res_5093 is null)
-            {
-                __res_5092 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5094 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5093;
-                __res_5092 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__notNullable_5094);
-            }
-            return __res_5092;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRectReadOnly?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "visibleRect");
     }
 
     public double Rotation
     {
-        get
-        {
-            double __res_5095;
-            double __res_5096 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rotation");
-            __res_5095 = __res_5096;
-            return __res_5095;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rotation");
     }
 
     public bool Flip
     {
-        get
-        {
-            bool __res_5097;
-            bool __res_5098 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "flip");
-            __res_5097 = __res_5098;
-            return __res_5097;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "flip");
     }
 
     public uint DisplayWidth
     {
-        get
-        {
-            uint __res_5099;
-            double __res_5100 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayWidth");
-            __res_5099 = Convert.ToUInt32(__res_5100);
-            return __res_5099;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "displayWidth");
     }
 
     public uint DisplayHeight
     {
-        get
-        {
-            uint __res_5101;
-            double __res_5102 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "displayHeight");
-            __res_5101 = Convert.ToUInt32(__res_5102);
-            return __res_5101;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "displayHeight");
     }
 
     public ulong? Duration
     {
-        get
-        {
-            ulong? __res_5103;
-            double? __res_5104 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "duration");
-            if (__res_5104 is null)
-            {
-                __res_5103 = null;
-            }
-            else
-            {
-                double __notNullable_5105 = (double)__res_5104;
-                __res_5103 = Convert.ToUInt64(__notNullable_5105);
-            }
-            return __res_5103;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "duration");
     }
 
     public long Timestamp
     {
-        get
-        {
-            long __res_5106;
-            double __res_5107 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_5106 = Convert.ToInt64(__res_5107);
-            return __res_5106;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<long, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "timestamp");
     }
 
     public global::Iskra.StdWeb.VideoColorSpace ColorSpace
     {
-        get
-        {
-            global::Iskra.StdWeb.VideoColorSpace __res_5108;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5109 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "colorSpace");
-            __res_5108 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoColorSpace>(__res_5109);
-            return __res_5108;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.VideoColorSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colorSpace");
     }
 
     public global::Iskra.StdWeb.VideoFrameMetadata Metadata()

@@ -8,19 +8,8 @@ public partial class HTMLTimeElement(global::System.Runtime.InteropServices.Java
 {
     public string DateTime
     {
-        get
-        {
-            string __res_11581;
-            string __res_11582 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dateTime");
-            __res_11581 = __res_11582;
-            return __res_11581;
-        }
-        set
-        {
-            string __marshalledValue_11583;
-            __marshalledValue_11583 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "dateTime", __marshalledValue_11583);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dateTime");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dateTime", value);
     }
 }
 

@@ -8,24 +8,12 @@ public partial class GeolocationPosition(global::System.Runtime.InteropServices.
 {
     public global::Iskra.StdWeb.GeolocationCoordinates Coords
     {
-        get
-        {
-            global::Iskra.StdWeb.GeolocationCoordinates __res_2560;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2561 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "coords");
-            __res_2560 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationCoordinates>(__res_2561);
-            return __res_2560;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GeolocationCoordinates, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "coords");
     }
 
     public ulong Timestamp
     {
-        get
-        {
-            ulong __res_2562;
-            double __res_2563 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_2562 = Convert.ToUInt64(__res_2563);
-            return __res_2562;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "timestamp");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

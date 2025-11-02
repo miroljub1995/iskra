@@ -8,24 +8,12 @@ public partial class CountQueuingStrategy(global::System.Runtime.InteropServices
 {
     public double HighWaterMark
     {
-        get
-        {
-            double __res_2533;
-            double __res_2534 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "highWaterMark");
-            __res_2533 = __res_2534;
-            return __res_2533;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "highWaterMark");
     }
 
     public global::Iskra.StdWeb.Function Size
     {
-        get
-        {
-            global::Iskra.StdWeb.Function __res_2535;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2536 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "size");
-            __res_2535 = new global::Iskra.StdWeb.Function(__res_2536);
-            return __res_2535;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Function, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size");
     }
 }
 

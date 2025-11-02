@@ -8,36 +8,14 @@ public partial class HTMLDetailsElement(global::System.Runtime.InteropServices.J
 {
     public string Name
     {
-        get
-        {
-            string __res_12943;
-            string __res_12944 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_12943 = __res_12944;
-            return __res_12943;
-        }
-        set
-        {
-            string __marshalledValue_12945;
-            __marshalledValue_12945 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_12945);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name", value);
     }
 
     public bool Open
     {
-        get
-        {
-            bool __res_12946;
-            bool __res_12947 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
-            __res_12946 = __res_12947;
-            return __res_12946;
-        }
-        set
-        {
-            bool __marshalledValue_12948;
-            __marshalledValue_12948 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_12948);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "open");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "open", value);
     }
 }
 

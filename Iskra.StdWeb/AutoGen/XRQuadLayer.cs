@@ -8,103 +8,32 @@ public partial class XRQuadLayer(global::System.Runtime.InteropServices.JavaScri
 {
     public global::Iskra.StdWeb.XRSpace Space
     {
-        get
-        {
-            global::Iskra.StdWeb.XRSpace __res_3599;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3600 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
-            __res_3599 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_3600);
-            return __res_3599;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_3601;
-            __marshalledValue_3601 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "space", __marshalledValue_3601);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "space");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.XRSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "space", value);
     }
 
     public global::Iskra.StdWeb.XRRigidTransform Transform
     {
-        get
-        {
-            global::Iskra.StdWeb.XRRigidTransform __res_3602;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3603 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            __res_3602 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__res_3603);
-            return __res_3602;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_3604;
-            __marshalledValue_3604 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "transform", __marshalledValue_3604);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRRigidTransform, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transform");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.XRRigidTransform, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transform", value);
     }
 
     public float Width
     {
-        get
-        {
-            float __res_3605;
-            double __res_3606 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_3605 = Convert.ToSingle(__res_3606);
-            return __res_3605;
-        }
-        set
-        {
-            double __marshalledValue_3607;
-            __marshalledValue_3607 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_3607);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width", value);
     }
 
     public float Height
     {
-        get
-        {
-            float __res_3608;
-            double __res_3609 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_3608 = Convert.ToSingle(__res_3609);
-            return __res_3608;
-        }
-        set
-        {
-            double __marshalledValue_3610;
-            __marshalledValue_3610 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_3610);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onredraw
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3611;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3612 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw");
-            if (__res_3612 is null)
-            {
-                __res_3611 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3613 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3612;
-                __res_3611 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3613);
-            }
-            return __res_3611;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3614;
-            if (value is null)
-            {
-                __marshalledValue_3614 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3615 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3614 = __notNullable_3615.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw", __marshalledValue_3614);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onredraw");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onredraw", value);
     }
 }
 

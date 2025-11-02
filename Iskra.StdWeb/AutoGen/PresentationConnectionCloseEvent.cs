@@ -8,24 +8,12 @@ public partial class PresentationConnectionCloseEvent(global::System.Runtime.Int
 {
     public global::Iskra.StdWeb.PresentationConnectionCloseReason Reason
     {
-        get
-        {
-            global::Iskra.StdWeb.PresentationConnectionCloseReason __res_4642;
-            string __res_4643 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "reason");
-            __res_4642 = global::Iskra.StdWeb.PresentationConnectionCloseReason.Create(__res_4643);
-            return __res_4642;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PresentationConnectionCloseReason, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reason");
     }
 
     public string Message
     {
-        get
-        {
-            string __res_4644;
-            string __res_4645 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_4644 = __res_4645;
-            return __res_4644;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "message");
     }
 }
 

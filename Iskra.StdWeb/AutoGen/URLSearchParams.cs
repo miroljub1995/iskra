@@ -8,13 +8,7 @@ public partial class URLSearchParams(global::System.Runtime.InteropServices.Java
 {
     public uint Size
     {
-        get
-        {
-            uint __res_8310;
-            double __res_8311 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_8310 = Convert.ToUInt32(__res_8311);
-            return __res_8310;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size");
     }
 
     public void Append(string name, string value)

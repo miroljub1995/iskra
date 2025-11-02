@@ -8,68 +8,32 @@ public partial class LayoutEdges(global::System.Runtime.InteropServices.JavaScri
 {
     public double InlineStart
     {
-        get
-        {
-            double __res_16828;
-            double __res_16829 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineStart");
-            __res_16828 = __res_16829;
-            return __res_16828;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inlineStart");
     }
 
     public double InlineEnd
     {
-        get
-        {
-            double __res_16830;
-            double __res_16831 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineEnd");
-            __res_16830 = __res_16831;
-            return __res_16830;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inlineEnd");
     }
 
     public double BlockStart
     {
-        get
-        {
-            double __res_16832;
-            double __res_16833 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockStart");
-            __res_16832 = __res_16833;
-            return __res_16832;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "blockStart");
     }
 
     public double BlockEnd
     {
-        get
-        {
-            double __res_16834;
-            double __res_16835 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockEnd");
-            __res_16834 = __res_16835;
-            return __res_16834;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "blockEnd");
     }
 
     public double Inline
     {
-        get
-        {
-            double __res_16836;
-            double __res_16837 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inline");
-            __res_16836 = __res_16837;
-            return __res_16836;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inline");
     }
 
     public double Block
     {
-        get
-        {
-            double __res_16838;
-            double __res_16839 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "block");
-            __res_16838 = __res_16839;
-            return __res_16838;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "block");
     }
 }
 

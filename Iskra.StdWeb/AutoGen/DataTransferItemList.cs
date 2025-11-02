@@ -8,13 +8,7 @@ public partial class DataTransferItemList(global::System.Runtime.InteropServices
 {
     public uint Length
     {
-        get
-        {
-            uint __res_13725;
-            double __res_13726 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_13725 = Convert.ToUInt32(__res_13726);
-            return __res_13725;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.DataTransferItem Get(uint index)

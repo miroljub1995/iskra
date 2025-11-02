@@ -8,58 +8,27 @@ public partial class PerformanceLongTaskTiming(global::System.Runtime.InteropSer
 {
     public new double StartTime
     {
-        get
-        {
-            double __res_15660;
-            double __res_15661 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_15660 = __res_15661;
-            return __res_15660;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "startTime");
     }
 
     public new double Duration
     {
-        get
-        {
-            double __res_15662;
-            double __res_15663 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_15662 = __res_15663;
-            return __res_15662;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "duration");
     }
 
     public new string Name
     {
-        get
-        {
-            string __res_15664;
-            string __res_15665 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_15664 = __res_15665;
-            return __res_15664;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public new string EntryType
     {
-        get
-        {
-            string __res_15666;
-            string __res_15667 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
-            __res_15666 = __res_15667;
-            return __res_15666;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "entryType");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Attribution
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_15668;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_15669;
-            __propObject_15669 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "attribution");
-            __res_15668 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_15669);
-            return __res_15668;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.TaskAttributionTiming, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "attribution");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

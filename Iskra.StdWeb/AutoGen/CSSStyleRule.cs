@@ -8,41 +8,18 @@ public partial class CSSStyleRule(global::System.Runtime.InteropServices.JavaScr
 {
     public global::Iskra.StdWeb.StylePropertyMap StyleMap
     {
-        get
-        {
-            global::Iskra.StdWeb.StylePropertyMap __res_16146;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16147 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "styleMap");
-            __res_16146 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.StylePropertyMap>(__res_16147);
-            return __res_16146;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.StylePropertyMap, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "styleMap");
     }
 
     public string SelectorText
     {
-        get
-        {
-            string __res_16148;
-            string __res_16149 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "selectorText");
-            __res_16148 = __res_16149;
-            return __res_16148;
-        }
-        set
-        {
-            string __marshalledValue_16150;
-            __marshalledValue_16150 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "selectorText", __marshalledValue_16150);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "selectorText");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "selectorText", value);
     }
 
     public global::Iskra.StdWeb.CSSStyleProperties Style
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSStyleProperties __res_16151;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16152 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_16151 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_16152);
-            return __res_16151;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSStyleProperties, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "style");
     }
 }
 

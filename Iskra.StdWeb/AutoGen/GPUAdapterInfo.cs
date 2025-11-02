@@ -8,79 +8,37 @@ public partial class GPUAdapterInfo(global::System.Runtime.InteropServices.JavaS
 {
     public string Vendor
     {
-        get
-        {
-            string __res_1687;
-            string __res_1688 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vendor");
-            __res_1687 = __res_1688;
-            return __res_1687;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vendor");
     }
 
     public string Architecture
     {
-        get
-        {
-            string __res_1689;
-            string __res_1690 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "architecture");
-            __res_1689 = __res_1690;
-            return __res_1689;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "architecture");
     }
 
     public string Device
     {
-        get
-        {
-            string __res_1691;
-            string __res_1692 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "device");
-            __res_1691 = __res_1692;
-            return __res_1691;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "device");
     }
 
     public string Description
     {
-        get
-        {
-            string __res_1693;
-            string __res_1694 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
-            __res_1693 = __res_1694;
-            return __res_1693;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "description");
     }
 
     public uint SubgroupMinSize
     {
-        get
-        {
-            uint __res_1695;
-            double __res_1696 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "subgroupMinSize");
-            __res_1695 = Convert.ToUInt32(__res_1696);
-            return __res_1695;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subgroupMinSize");
     }
 
     public uint SubgroupMaxSize
     {
-        get
-        {
-            uint __res_1697;
-            double __res_1698 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "subgroupMaxSize");
-            __res_1697 = Convert.ToUInt32(__res_1698);
-            return __res_1697;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subgroupMaxSize");
     }
 
     public bool IsFallbackAdapter
     {
-        get
-        {
-            bool __res_1699;
-            bool __res_1700 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFallbackAdapter");
-            __res_1699 = __res_1700;
-            return __res_1699;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isFallbackAdapter");
     }
 }
 

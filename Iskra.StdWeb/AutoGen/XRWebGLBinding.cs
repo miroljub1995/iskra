@@ -18,24 +18,12 @@ public partial class XRWebGLBinding(global::System.Runtime.InteropServices.JavaS
 
     public double NativeProjectionScaleFactor
     {
-        get
-        {
-            double __res_3701;
-            double __res_3702 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "nativeProjectionScaleFactor");
-            __res_3701 = __res_3702;
-            return __res_3701;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "nativeProjectionScaleFactor");
     }
 
     public bool UsesDepthValues
     {
-        get
-        {
-            bool __res_3703;
-            bool __res_3704 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "usesDepthValues");
-            __res_3703 = __res_3704;
-            return __res_3703;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "usesDepthValues");
     }
 
     public global::Iskra.StdWeb.XRProjectionLayer CreateProjectionLayer(global::Iskra.StdWeb.XRProjectionLayerInit init)

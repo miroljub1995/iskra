@@ -8,52 +8,23 @@ public partial class ImageTrack(global::System.Runtime.InteropServices.JavaScrip
 {
     public bool Animated
     {
-        get
-        {
-            bool __res_5150;
-            bool __res_5151 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "animated");
-            __res_5150 = __res_5151;
-            return __res_5150;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "animated");
     }
 
     public uint FrameCount
     {
-        get
-        {
-            uint __res_5152;
-            double __res_5153 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "frameCount");
-            __res_5152 = Convert.ToUInt32(__res_5153);
-            return __res_5152;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "frameCount");
     }
 
     public float RepetitionCount
     {
-        get
-        {
-            float __res_5154;
-            double __res_5155 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "repetitionCount");
-            __res_5154 = Convert.ToSingle(__res_5155);
-            return __res_5154;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "repetitionCount");
     }
 
     public bool Selected
     {
-        get
-        {
-            bool __res_5156;
-            bool __res_5157 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "selected");
-            __res_5156 = __res_5157;
-            return __res_5156;
-        }
-        set
-        {
-            bool __marshalledValue_5158;
-            __marshalledValue_5158 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "selected", __marshalledValue_5158);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "selected");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "selected", value);
     }
 }
 

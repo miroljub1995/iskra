@@ -8,36 +8,14 @@ public partial class HTMLBaseElement(global::System.Runtime.InteropServices.Java
 {
     public string Href
     {
-        get
-        {
-            string __res_11217;
-            string __res_11218 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_11217 = __res_11218;
-            return __res_11217;
-        }
-        set
-        {
-            string __marshalledValue_11219;
-            __marshalledValue_11219 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "href", __marshalledValue_11219);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "href");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "href", value);
     }
 
     public string Target
     {
-        get
-        {
-            string __res_11220;
-            string __res_11221 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "target");
-            __res_11220 = __res_11221;
-            return __res_11220;
-        }
-        set
-        {
-            string __marshalledValue_11222;
-            __marshalledValue_11222 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "target", __marshalledValue_11222);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "target");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "target", value);
     }
 }
 

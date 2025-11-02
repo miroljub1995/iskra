@@ -8,57 +8,27 @@ public partial class SpeechSynthesisEvent(global::System.Runtime.InteropServices
 {
     public global::Iskra.StdWeb.SpeechSynthesisUtterance Utterance
     {
-        get
-        {
-            global::Iskra.StdWeb.SpeechSynthesisUtterance __res_8572;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8573 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "utterance");
-            __res_8572 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechSynthesisUtterance>(__res_8573);
-            return __res_8572;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SpeechSynthesisUtterance, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "utterance");
     }
 
     public uint CharIndex
     {
-        get
-        {
-            uint __res_8574;
-            double __res_8575 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "charIndex");
-            __res_8574 = Convert.ToUInt32(__res_8575);
-            return __res_8574;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "charIndex");
     }
 
     public uint CharLength
     {
-        get
-        {
-            uint __res_8576;
-            double __res_8577 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "charLength");
-            __res_8576 = Convert.ToUInt32(__res_8577);
-            return __res_8576;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "charLength");
     }
 
     public float ElapsedTime
     {
-        get
-        {
-            float __res_8578;
-            double __res_8579 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "elapsedTime");
-            __res_8578 = Convert.ToSingle(__res_8579);
-            return __res_8578;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "elapsedTime");
     }
 
     public string Name
     {
-        get
-        {
-            string __res_8580;
-            string __res_8581 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_8580 = __res_8581;
-            return __res_8580;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 }
 

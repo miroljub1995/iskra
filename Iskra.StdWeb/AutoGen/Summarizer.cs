@@ -28,103 +28,37 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
 
     public string SharedContext
     {
-        get
-        {
-            string __res_273;
-            string __res_274 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sharedContext");
-            __res_273 = __res_274;
-            return __res_273;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sharedContext");
     }
 
     public global::Iskra.StdWeb.SummarizerType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.SummarizerType __res_275;
-            string __res_276 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_275 = global::Iskra.StdWeb.SummarizerType.Create(__res_276);
-            return __res_275;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SummarizerType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public global::Iskra.StdWeb.SummarizerFormat Format
     {
-        get
-        {
-            global::Iskra.StdWeb.SummarizerFormat __res_277;
-            string __res_278 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
-            __res_277 = global::Iskra.StdWeb.SummarizerFormat.Create(__res_278);
-            return __res_277;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SummarizerFormat, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "format");
     }
 
     public global::Iskra.StdWeb.SummarizerLength Length
     {
-        get
-        {
-            global::Iskra.StdWeb.SummarizerLength __res_279;
-            string __res_280 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "length");
-            __res_279 = global::Iskra.StdWeb.SummarizerLength.Create(__res_280);
-            return __res_279;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SummarizerLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? ExpectedInputLanguages
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_281;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_282;
-            __propObject_282 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
-            if (__propObject_282 is null)
-            {
-                __res_281 = null;
-            }
-            else
-            {
-                __res_281 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_282);
-            }
-            return __res_281;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "expectedInputLanguages");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? ExpectedContextLanguages
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_283;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_284;
-            __propObject_284 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedContextLanguages");
-            if (__propObject_284 is null)
-            {
-                __res_283 = null;
-            }
-            else
-            {
-                __res_283 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_284);
-            }
-            return __res_283;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "expectedContextLanguages");
     }
 
     public string? OutputLanguage
     {
-        get
-        {
-            string? __res_285;
-            string? __res_286 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "outputLanguage");
-            if (__res_286 is null)
-            {
-                __res_285 = null;
-            }
-            else
-            {
-                string __notNullable_287 = (string)__res_286;
-                __res_285 = __notNullable_287;
-            }
-            return __res_285;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "outputLanguage");
     }
 
     public global::Iskra.JSCore.Generics.Promise<double, global::Iskra.StdWeb.PropertyAccessor> MeasureInputUsage(string input, global::Iskra.StdWeb.SummarizerSummarizeOptions options)
@@ -134,13 +68,7 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
 
     public double InputQuota
     {
-        get
-        {
-            double __res_289;
-            double __res_290 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_289 = __res_290;
-            return __res_289;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inputQuota");
     }
 
     public void Destroy()

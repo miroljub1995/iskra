@@ -8,13 +8,7 @@ public partial class CSSGroupingRule(global::System.Runtime.InteropServices.Java
 {
     public global::Iskra.StdWeb.CSSRuleList CssRules
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSRuleList __res_16166;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16167 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            __res_16166 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_16167);
-            return __res_16166;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSRuleList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cssRules");
     }
 
     public uint InsertRule(string rule, uint index)

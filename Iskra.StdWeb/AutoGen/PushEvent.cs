@@ -8,40 +8,12 @@ public partial class PushEvent(global::System.Runtime.InteropServices.JavaScript
 {
     public global::Iskra.StdWeb.PushMessageData? Data
     {
-        get
-        {
-            global::Iskra.StdWeb.PushMessageData? __res_10170;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10171 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "data");
-            if (__res_10171 is null)
-            {
-                __res_10170 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10172 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10171;
-                __res_10170 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushMessageData>(__notNullable_10172);
-            }
-            return __res_10170;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PushMessageData?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "data");
     }
 
     public global::Iskra.StdWeb.Notification? Notification
     {
-        get
-        {
-            global::Iskra.StdWeb.Notification? __res_10173;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10174 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "notification");
-            if (__res_10174 is null)
-            {
-                __res_10173 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10175 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10174;
-                __res_10173 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Notification>(__notNullable_10175);
-            }
-            return __res_10173;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Notification?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "notification");
     }
 }
 

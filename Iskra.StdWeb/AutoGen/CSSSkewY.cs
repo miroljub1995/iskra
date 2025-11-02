@@ -8,19 +8,8 @@ public partial class CSSSkewY(global::System.Runtime.InteropServices.JavaScript.
 {
     public global::Iskra.StdWeb.CSSNumericValue Ay
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSNumericValue __res_154;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_155 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ay");
-            __res_154 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_155);
-            return __res_154;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_156;
-            __marshalledValue_156 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "ay", __marshalledValue_156);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ay");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ay", value);
     }
 }
 

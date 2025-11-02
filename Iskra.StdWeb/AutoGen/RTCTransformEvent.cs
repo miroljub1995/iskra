@@ -8,13 +8,7 @@ public partial class RTCTransformEvent(global::System.Runtime.InteropServices.Ja
 {
     public global::Iskra.StdWeb.RTCRtpScriptTransformer Transformer
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCRtpScriptTransformer __res_2631;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2632 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transformer");
-            __res_2631 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpScriptTransformer>(__res_2632);
-            return __res_2631;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCRtpScriptTransformer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transformer");
     }
 }
 

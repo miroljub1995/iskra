@@ -8,24 +8,12 @@ public partial class DecompressionStream(global::System.Runtime.InteropServices.
 {
     public global::Iskra.StdWeb.ReadableStream Readable
     {
-        get
-        {
-            global::Iskra.StdWeb.ReadableStream __res_7851;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7852 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            __res_7851 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_7852);
-            return __res_7851;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ReadableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readable");
     }
 
     public global::Iskra.StdWeb.WritableStream Writable
     {
-        get
-        {
-            global::Iskra.StdWeb.WritableStream __res_7853;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7854 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            __res_7853 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_7854);
-            return __res_7853;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WritableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "writable");
     }
 }
 

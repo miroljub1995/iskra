@@ -8,57 +8,27 @@ public partial class SpeechSynthesisVoice(global::System.Runtime.InteropServices
 {
     public string VoiceURI
     {
-        get
-        {
-            string __res_8584;
-            string __res_8585 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "voiceURI");
-            __res_8584 = __res_8585;
-            return __res_8584;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "voiceURI");
     }
 
     public string Name
     {
-        get
-        {
-            string __res_8586;
-            string __res_8587 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_8586 = __res_8587;
-            return __res_8586;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public string Lang
     {
-        get
-        {
-            string __res_8588;
-            string __res_8589 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
-            __res_8588 = __res_8589;
-            return __res_8588;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lang");
     }
 
     public bool LocalService
     {
-        get
-        {
-            bool __res_8590;
-            bool __res_8591 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "localService");
-            __res_8590 = __res_8591;
-            return __res_8590;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "localService");
     }
 
     public bool Default
     {
-        get
-        {
-            bool __res_8592;
-            bool __res_8593 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "default");
-            __res_8592 = __res_8593;
-            return __res_8592;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "default");
     }
 }
 

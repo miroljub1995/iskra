@@ -8,35 +8,17 @@ public partial class SVGCircleElement(global::System.Runtime.InteropServices.Jav
 {
     public global::Iskra.StdWeb.SVGAnimatedLength Cx
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1298;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1299 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
-            __res_1298 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1299);
-            return __res_1298;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cx");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength Cy
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1300;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1301 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
-            __res_1300 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1301);
-            return __res_1300;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cy");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength R
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1302;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1303 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "r");
-            __res_1302 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1303);
-            return __res_1302;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "r");
     }
 }
 

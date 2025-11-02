@@ -8,35 +8,17 @@ public partial class AudioProcessingEvent(global::System.Runtime.InteropServices
 {
     public double PlaybackTime
     {
-        get
-        {
-            double __res_17278;
-            double __res_17279 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "playbackTime");
-            __res_17278 = __res_17279;
-            return __res_17278;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "playbackTime");
     }
 
     public global::Iskra.StdWeb.AudioBuffer InputBuffer
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioBuffer __res_17280;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17281 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inputBuffer");
-            __res_17280 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(__res_17281);
-            return __res_17280;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inputBuffer");
     }
 
     public global::Iskra.StdWeb.AudioBuffer OutputBuffer
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioBuffer __res_17282;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17283 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "outputBuffer");
-            __res_17282 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(__res_17283);
-            return __res_17282;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "outputBuffer");
     }
 }
 

@@ -13,36 +13,14 @@ public partial class HTMLCanvasElement(global::System.Runtime.InteropServices.Ja
 
     public uint Width
     {
-        get
-        {
-            uint __res_13033;
-            double __res_13034 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_13033 = Convert.ToUInt32(__res_13034);
-            return __res_13033;
-        }
-        set
-        {
-            double __marshalledValue_13035;
-            __marshalledValue_13035 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_13035);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width", value);
     }
 
     public uint Height
     {
-        get
-        {
-            uint __res_13036;
-            double __res_13037 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_13036 = Convert.ToUInt32(__res_13037);
-            return __res_13036;
-        }
-        set
-        {
-            double __marshalledValue_13038;
-            __marshalledValue_13038 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_13038);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height", value);
     }
 
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>? GetContext(string contextId, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? options)

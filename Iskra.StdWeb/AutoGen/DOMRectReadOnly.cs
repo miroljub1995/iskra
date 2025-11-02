@@ -13,90 +13,42 @@ public partial class DOMRectReadOnly(global::System.Runtime.InteropServices.Java
 
     public double X
     {
-        get
-        {
-            double __res_7636;
-            double __res_7637 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
-            __res_7636 = __res_7637;
-            return __res_7636;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "x");
     }
 
     public double Y
     {
-        get
-        {
-            double __res_7638;
-            double __res_7639 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
-            __res_7638 = __res_7639;
-            return __res_7638;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "y");
     }
 
     public double Width
     {
-        get
-        {
-            double __res_7640;
-            double __res_7641 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_7640 = __res_7641;
-            return __res_7640;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");
     }
 
     public double Height
     {
-        get
-        {
-            double __res_7642;
-            double __res_7643 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_7642 = __res_7643;
-            return __res_7642;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height");
     }
 
     public double Top
     {
-        get
-        {
-            double __res_7644;
-            double __res_7645 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "top");
-            __res_7644 = __res_7645;
-            return __res_7644;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "top");
     }
 
     public double Right
     {
-        get
-        {
-            double __res_7646;
-            double __res_7647 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "right");
-            __res_7646 = __res_7647;
-            return __res_7646;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "right");
     }
 
     public double Bottom
     {
-        get
-        {
-            double __res_7648;
-            double __res_7649 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bottom");
-            __res_7648 = __res_7649;
-            return __res_7648;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bottom");
     }
 
     public double Left
     {
-        get
-        {
-            double __res_7650;
-            double __res_7651 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "left");
-            __res_7650 = __res_7651;
-            return __res_7650;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "left");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

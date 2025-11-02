@@ -8,43 +8,17 @@ public partial class BluetoothRemoteGATTDescriptor(global::System.Runtime.Intero
 {
     public global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic Characteristic
     {
-        get
-        {
-            global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic __res_5402;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5403 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "characteristic");
-            __res_5402 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic>(__res_5403);
-            return __res_5402;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.BluetoothRemoteGATTCharacteristic, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "characteristic");
     }
 
     public string Uuid
     {
-        get
-        {
-            string __res_5404;
-            string __res_5405 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "uuid");
-            __res_5404 = __res_5405;
-            return __res_5404;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "uuid");
     }
 
     public global::Iskra.JSCore.DataView? Value
     {
-        get
-        {
-            global::Iskra.JSCore.DataView? __res_5406;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5407 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "value");
-            if (__res_5407 is null)
-            {
-                __res_5406 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5408 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5407;
-                __res_5406 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.DataView>(__notNullable_5408);
-            }
-            return __res_5406;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.DataView?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "value");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.DataView, global::Iskra.StdWeb.PropertyAccessor> ReadValue()

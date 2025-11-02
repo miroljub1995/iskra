@@ -4,9 +4,1141 @@ namespace Iskra.WebIDLGenerator.Tests;
 
 #nullable enable
 
-public class PropertyAccessorNullable
+public class PropertyAccessorNullable:
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<int?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<bool?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<byte?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<sbyte?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<short?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<ushort?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<uint?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<long?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<ulong?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<float?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<double?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<string?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::System.Runtime.InteropServices.JavaScript.JSObject?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::System.Numerics.BigInteger?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>?>
 {
+    static global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? __element_0;
+        string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_0 = null;
+        }
+        else
+        {
+            string ___notNullable_1 = (string)___res_0;
+            __element_0 = global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum.Create(___notNullable_1);
+        }
+        return __element_0;
+    }
 
+    static global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? __element_0;
+        string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_0 = null;
+        }
+        else
+        {
+            string ___notNullable_1 = (string)___res_0;
+            __element_0 = global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum.Create(___notNullable_1);
+        }
+        return __element_0;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? value)
+    {
+        string? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum ___notNullable_1 = (global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum)value;
+            ___marshalledValue_0 = ___notNullable_1.ToString();
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum? value)
+    {
+        string? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum ___notNullable_1 = (global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum)value;
+            ___marshalledValue_0 = ___notNullable_1.ToString();
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>? __element_1;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
+        ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
+        if (___propObject_0 is null)
+        {
+            __element_1 = null;
+        }
+        else
+        {
+            __element_1 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(___propObject_0);
+        }
+        return __element_1;
+    }
+
+    static global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>? __element_1;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
+        ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
+        if (___propObject_0 is null)
+        {
+            __element_1 = null;
+        }
+        else
+        {
+            __element_1 = new global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(___propObject_0);
+        }
+        return __element_1;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>? value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
+        if (value is null)
+        {
+            ___propObject_0 = null;
+        }
+        else
+        {
+            ___propObject_0 = value.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(obj, propertyIndex, ___propObject_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>? value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
+        if (value is null)
+        {
+            ___propObject_0 = null;
+        }
+        else
+        {
+            ___propObject_0 = value.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(obj, propertyName, ___propObject_0);
+    }
+
+    static int? global::Iskra.JSCore.Generics.IPropertyAccessor<int?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        int? __element_2;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_2 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_2 = Convert.ToInt32(___notNullable_1);
+        }
+        return __element_2;
+    }
+
+    static int? global::Iskra.JSCore.Generics.IPropertyAccessor<int?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        int? __element_2;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_2 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_2 = Convert.ToInt32(___notNullable_1);
+        }
+        return __element_2;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<int?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, int? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            int ___notNullable_1 = (int)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<int?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, int? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            int ___notNullable_1 = (int)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static bool? global::Iskra.JSCore.Generics.IPropertyAccessor<bool?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        bool? __element_3;
+        bool? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_3 = null;
+        }
+        else
+        {
+            bool ___notNullable_1 = (bool)___res_0;
+            __element_3 = ___notNullable_1;
+        }
+        return __element_3;
+    }
+
+    static bool? global::Iskra.JSCore.Generics.IPropertyAccessor<bool?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        bool? __element_3;
+        bool? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_3 = null;
+        }
+        else
+        {
+            bool ___notNullable_1 = (bool)___res_0;
+            __element_3 = ___notNullable_1;
+        }
+        return __element_3;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<bool?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, bool? value)
+    {
+        bool? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            bool ___notNullable_1 = (bool)value;
+            ___marshalledValue_0 = ___notNullable_1;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<bool?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, bool? value)
+    {
+        bool? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            bool ___notNullable_1 = (bool)value;
+            ___marshalledValue_0 = ___notNullable_1;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static byte? global::Iskra.JSCore.Generics.IPropertyAccessor<byte?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        byte? __element_4;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_4 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_4 = Convert.ToByte(___notNullable_1);
+        }
+        return __element_4;
+    }
+
+    static byte? global::Iskra.JSCore.Generics.IPropertyAccessor<byte?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        byte? __element_4;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_4 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_4 = Convert.ToByte(___notNullable_1);
+        }
+        return __element_4;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<byte?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, byte? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            byte ___notNullable_1 = (byte)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<byte?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, byte? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            byte ___notNullable_1 = (byte)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static sbyte? global::Iskra.JSCore.Generics.IPropertyAccessor<sbyte?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        sbyte? __element_5;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_5 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_5 = Convert.ToSByte(___notNullable_1);
+        }
+        return __element_5;
+    }
+
+    static sbyte? global::Iskra.JSCore.Generics.IPropertyAccessor<sbyte?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        sbyte? __element_5;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_5 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_5 = Convert.ToSByte(___notNullable_1);
+        }
+        return __element_5;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<sbyte?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, sbyte? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            sbyte ___notNullable_1 = (sbyte)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<sbyte?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, sbyte? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            sbyte ___notNullable_1 = (sbyte)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static short? global::Iskra.JSCore.Generics.IPropertyAccessor<short?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        short? __element_6;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_6 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_6 = Convert.ToInt16(___notNullable_1);
+        }
+        return __element_6;
+    }
+
+    static short? global::Iskra.JSCore.Generics.IPropertyAccessor<short?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        short? __element_6;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_6 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_6 = Convert.ToInt16(___notNullable_1);
+        }
+        return __element_6;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<short?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, short? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            short ___notNullable_1 = (short)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<short?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, short? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            short ___notNullable_1 = (short)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static ushort? global::Iskra.JSCore.Generics.IPropertyAccessor<ushort?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        ushort? __element_7;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_7 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_7 = Convert.ToUInt16(___notNullable_1);
+        }
+        return __element_7;
+    }
+
+    static ushort? global::Iskra.JSCore.Generics.IPropertyAccessor<ushort?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        ushort? __element_7;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_7 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_7 = Convert.ToUInt16(___notNullable_1);
+        }
+        return __element_7;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<ushort?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, ushort? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            ushort ___notNullable_1 = (ushort)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<ushort?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, ushort? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            ushort ___notNullable_1 = (ushort)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static uint? global::Iskra.JSCore.Generics.IPropertyAccessor<uint?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        uint? __element_8;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_8 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_8 = Convert.ToUInt32(___notNullable_1);
+        }
+        return __element_8;
+    }
+
+    static uint? global::Iskra.JSCore.Generics.IPropertyAccessor<uint?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        uint? __element_8;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_8 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_8 = Convert.ToUInt32(___notNullable_1);
+        }
+        return __element_8;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<uint?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, uint? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            uint ___notNullable_1 = (uint)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<uint?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, uint? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            uint ___notNullable_1 = (uint)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static long? global::Iskra.JSCore.Generics.IPropertyAccessor<long?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        long? __element_9;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_9 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_9 = Convert.ToInt64(___notNullable_1);
+        }
+        return __element_9;
+    }
+
+    static long? global::Iskra.JSCore.Generics.IPropertyAccessor<long?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        long? __element_9;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_9 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_9 = Convert.ToInt64(___notNullable_1);
+        }
+        return __element_9;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<long?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, long? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            long ___notNullable_1 = (long)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<long?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, long? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            long ___notNullable_1 = (long)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static ulong? global::Iskra.JSCore.Generics.IPropertyAccessor<ulong?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        ulong? __element_10;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_10 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_10 = Convert.ToUInt64(___notNullable_1);
+        }
+        return __element_10;
+    }
+
+    static ulong? global::Iskra.JSCore.Generics.IPropertyAccessor<ulong?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        ulong? __element_10;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_10 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_10 = Convert.ToUInt64(___notNullable_1);
+        }
+        return __element_10;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<ulong?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, ulong? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            ulong ___notNullable_1 = (ulong)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<ulong?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, ulong? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            ulong ___notNullable_1 = (ulong)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static float? global::Iskra.JSCore.Generics.IPropertyAccessor<float?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        float? __element_11;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_11 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_11 = Convert.ToSingle(___notNullable_1);
+        }
+        return __element_11;
+    }
+
+    static float? global::Iskra.JSCore.Generics.IPropertyAccessor<float?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        float? __element_11;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_11 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_11 = Convert.ToSingle(___notNullable_1);
+        }
+        return __element_11;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<float?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, float? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            float ___notNullable_1 = (float)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<float?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, float? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            float ___notNullable_1 = (float)value;
+            ___marshalledValue_0 = Convert.ToDouble(___notNullable_1);
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static double? global::Iskra.JSCore.Generics.IPropertyAccessor<double?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        double? __element_12;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_12 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_12 = ___notNullable_1;
+        }
+        return __element_12;
+    }
+
+    static double? global::Iskra.JSCore.Generics.IPropertyAccessor<double?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        double? __element_12;
+        double? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_12 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)___res_0;
+            __element_12 = ___notNullable_1;
+        }
+        return __element_12;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<double?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, double? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)value;
+            ___marshalledValue_0 = ___notNullable_1;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<double?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, double? value)
+    {
+        double? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            double ___notNullable_1 = (double)value;
+            ___marshalledValue_0 = ___notNullable_1;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static string? global::Iskra.JSCore.Generics.IPropertyAccessor<string?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        string? __element_13;
+        string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_13 = null;
+        }
+        else
+        {
+            string ___notNullable_1 = (string)___res_0;
+            __element_13 = ___notNullable_1;
+        }
+        return __element_13;
+    }
+
+    static string? global::Iskra.JSCore.Generics.IPropertyAccessor<string?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        string? __element_13;
+        string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_13 = null;
+        }
+        else
+        {
+            string ___notNullable_1 = (string)___res_0;
+            __element_13 = ___notNullable_1;
+        }
+        return __element_13;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<string?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, string? value)
+    {
+        string? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            string ___notNullable_1 = (string)value;
+            ___marshalledValue_0 = ___notNullable_1;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<string?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, string? value)
+    {
+        string? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            string ___notNullable_1 = (string)value;
+            ___marshalledValue_0 = ___notNullable_1;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static global::System.Runtime.InteropServices.JavaScript.JSObject? global::Iskra.JSCore.Generics.IPropertyAccessor<global::System.Runtime.InteropServices.JavaScript.JSObject?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? __element_14;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_14 = null;
+        }
+        else
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
+            __element_14 = ___notNullable_1;
+        }
+        return __element_14;
+    }
+
+    static global::System.Runtime.InteropServices.JavaScript.JSObject? global::Iskra.JSCore.Generics.IPropertyAccessor<global::System.Runtime.InteropServices.JavaScript.JSObject?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? __element_14;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_14 = null;
+        }
+        else
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
+            __element_14 = ___notNullable_1;
+        }
+        return __element_14;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::System.Runtime.InteropServices.JavaScript.JSObject?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::System.Runtime.InteropServices.JavaScript.JSObject? value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)value;
+            ___marshalledValue_0 = ___notNullable_1;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::System.Runtime.InteropServices.JavaScript.JSObject?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::System.Runtime.InteropServices.JavaScript.JSObject? value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)value;
+            ___marshalledValue_0 = ___notNullable_1;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static global::System.Numerics.BigInteger? global::Iskra.JSCore.Generics.IPropertyAccessor<global::System.Numerics.BigInteger?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        global::System.Numerics.BigInteger? __element_15;
+        global::System.Numerics.BigInteger? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBigIntegerV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_15 = null;
+        }
+        else
+        {
+            global::System.Numerics.BigInteger ___notNullable_1 = (global::System.Numerics.BigInteger)___res_0;
+            __element_15 = ___notNullable_1;
+        }
+        return __element_15;
+    }
+
+    static global::System.Numerics.BigInteger? global::Iskra.JSCore.Generics.IPropertyAccessor<global::System.Numerics.BigInteger?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        global::System.Numerics.BigInteger? __element_15;
+        global::System.Numerics.BigInteger? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBigIntegerV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_15 = null;
+        }
+        else
+        {
+            global::System.Numerics.BigInteger ___notNullable_1 = (global::System.Numerics.BigInteger)___res_0;
+            __element_15 = ___notNullable_1;
+        }
+        return __element_15;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::System.Numerics.BigInteger?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::System.Numerics.BigInteger? value)
+    {
+        global::System.Numerics.BigInteger? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            global::System.Numerics.BigInteger ___notNullable_1 = (global::System.Numerics.BigInteger)value;
+            ___marshalledValue_0 = ___notNullable_1;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBigIntegerV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::System.Numerics.BigInteger?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::System.Numerics.BigInteger? value)
+    {
+        global::System.Numerics.BigInteger? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            global::System.Numerics.BigInteger ___notNullable_1 = (global::System.Numerics.BigInteger)value;
+            ___marshalledValue_0 = ___notNullable_1;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBigIntegerV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? __element_16;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_16 = null;
+        }
+        else
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
+            __element_16 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface>(___notNullable_1);
+        }
+        return __element_16;
+    }
+
+    static global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? __element_16;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_16 = null;
+        }
+        else
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
+            __element_16 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface>(___notNullable_1);
+        }
+        return __element_16;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface ___notNullable_1 = (global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface)value;
+            ___marshalledValue_0 = ___notNullable_1.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface? value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface ___notNullable_1 = (global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface)value;
+            ___marshalledValue_0 = ___notNullable_1.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>? __element_17;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
+        ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
+        if (___propObject_0 is null)
+        {
+            __element_17 = null;
+        }
+        else
+        {
+            __element_17 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>(___propObject_0);
+        }
+        return __element_17;
+    }
+
+    static global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>? __element_17;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
+        ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
+        if (___propObject_0 is null)
+        {
+            __element_17 = null;
+        }
+        else
+        {
+            __element_17 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>(___propObject_0);
+        }
+        return __element_17;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>? value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
+        if (value is null)
+        {
+            ___propObject_0 = null;
+        }
+        else
+        {
+            ___propObject_0 = value.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(obj, propertyIndex, ___propObject_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>? value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
+        if (value is null)
+        {
+            ___propObject_0 = null;
+        }
+        else
+        {
+            ___propObject_0 = value.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(obj, propertyName, ___propObject_0);
+    }
 }
 
 #nullable disable

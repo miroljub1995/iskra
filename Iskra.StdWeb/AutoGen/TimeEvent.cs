@@ -8,32 +8,12 @@ public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript
 {
     public global::Iskra.StdWeb.Window? View
     {
-        get
-        {
-            global::Iskra.StdWeb.Window? __res_2139;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2140 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
-            if (__res_2140 is null)
-            {
-                __res_2139 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2141 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2140;
-                __res_2139 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_2141);
-            }
-            return __res_2139;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Window?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "view");
     }
 
     public int Detail
     {
-        get
-        {
-            int __res_2142;
-            double __res_2143 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
-            __res_2142 = Convert.ToInt32(__res_2143);
-            return __res_2142;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "detail");
     }
 
     public void InitTimeEvent(string typeArg, global::Iskra.StdWeb.Window? viewArg, int detailArg)

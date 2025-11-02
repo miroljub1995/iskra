@@ -8,53 +8,20 @@ public partial class HTMLDialogElement(global::System.Runtime.InteropServices.Ja
 {
     public bool Open
     {
-        get
-        {
-            bool __res_12949;
-            bool __res_12950 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "open");
-            __res_12949 = __res_12950;
-            return __res_12949;
-        }
-        set
-        {
-            bool __marshalledValue_12951;
-            __marshalledValue_12951 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "open", __marshalledValue_12951);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "open");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "open", value);
     }
 
     public string ReturnValue
     {
-        get
-        {
-            string __res_12952;
-            string __res_12953 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "returnValue");
-            __res_12952 = __res_12953;
-            return __res_12952;
-        }
-        set
-        {
-            string __marshalledValue_12954;
-            __marshalledValue_12954 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "returnValue", __marshalledValue_12954);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "returnValue");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "returnValue", value);
     }
 
     public string ClosedBy
     {
-        get
-        {
-            string __res_12955;
-            string __res_12956 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "closedBy");
-            __res_12955 = __res_12956;
-            return __res_12955;
-        }
-        set
-        {
-            string __marshalledValue_12957;
-            __marshalledValue_12957 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "closedBy", __marshalledValue_12957);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "closedBy");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "closedBy", value);
     }
 
     public void Show()

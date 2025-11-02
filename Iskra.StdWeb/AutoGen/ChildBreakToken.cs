@@ -8,24 +8,12 @@ public partial class ChildBreakToken(global::System.Runtime.InteropServices.Java
 {
     public global::Iskra.StdWeb.BreakType BreakType
     {
-        get
-        {
-            global::Iskra.StdWeb.BreakType __res_16820;
-            string __res_16821 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "breakType");
-            __res_16820 = global::Iskra.StdWeb.BreakType.Create(__res_16821);
-            return __res_16820;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.BreakType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "breakType");
     }
 
     public global::Iskra.StdWeb.LayoutChild Child
     {
-        get
-        {
-            global::Iskra.StdWeb.LayoutChild __res_16822;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16823 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "child");
-            __res_16822 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LayoutChild>(__res_16823);
-            return __res_16822;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.LayoutChild, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "child");
     }
 }
 

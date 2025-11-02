@@ -13,13 +13,7 @@ public partial class Text(global::System.Runtime.InteropServices.JavaScript.JSOb
 
     public string WholeText
     {
-        get
-        {
-            string __res_7366;
-            string __res_7367 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "wholeText");
-            __res_7366 = __res_7367;
-            return __res_7366;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "wholeText");
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DOMQuad, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetBoxQuads(global::Iskra.StdWeb.BoxQuadOptions options)
@@ -44,21 +38,7 @@ public partial class Text(global::System.Runtime.InteropServices.JavaScript.JSOb
 
     public global::Iskra.StdWeb.HTMLSlotElement? AssignedSlot
     {
-        get
-        {
-            global::Iskra.StdWeb.HTMLSlotElement? __res_7372;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7373 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "assignedSlot");
-            if (__res_7373 is null)
-            {
-                __res_7372 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7374 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7373;
-                __res_7372 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLSlotElement>(__notNullable_7374);
-            }
-            return __res_7372;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLSlotElement?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "assignedSlot");
     }
 }
 

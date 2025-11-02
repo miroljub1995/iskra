@@ -8,77 +8,32 @@ public partial class IntersectionObserver(global::System.Runtime.InteropServices
 {
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>? Root
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_5174;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_5175;
-            __propObject_5175 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "root");
-            if (__propObject_5175 is null)
-            {
-                __res_5174 = null;
-            }
-            else
-            {
-                __res_5174 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_5175);
-            }
-            return __res_5174;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.Document, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "root");
     }
 
     public string RootMargin
     {
-        get
-        {
-            string __res_5176;
-            string __res_5177 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "rootMargin");
-            __res_5176 = __res_5177;
-            return __res_5176;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rootMargin");
     }
 
     public string ScrollMargin
     {
-        get
-        {
-            string __res_5178;
-            string __res_5179 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "scrollMargin");
-            __res_5178 = __res_5179;
-            return __res_5178;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "scrollMargin");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Thresholds
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_5180;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5181;
-            __propObject_5181 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "thresholds");
-            __res_5180 = new global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5181);
-            return __res_5180;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<double, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "thresholds");
     }
 
     public int Delay
     {
-        get
-        {
-            int __res_5182;
-            double __res_5183 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "delay");
-            __res_5182 = Convert.ToInt32(__res_5183);
-            return __res_5182;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "delay");
     }
 
     public bool TrackVisibility
     {
-        get
-        {
-            bool __res_5184;
-            bool __res_5185 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "trackVisibility");
-            __res_5184 = __res_5185;
-            return __res_5184;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "trackVisibility");
     }
 
     public void Observe(global::Iskra.StdWeb.Element target)

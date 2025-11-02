@@ -8,19 +8,8 @@ public partial class HTMLHtmlElement(global::System.Runtime.InteropServices.Java
 {
     public string Version
     {
-        get
-        {
-            string __res_11211;
-            string __res_11212 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "version");
-            __res_11211 = __res_11212;
-            return __res_11211;
-        }
-        set
-        {
-            string __marshalledValue_11213;
-            __marshalledValue_11213 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "version", __marshalledValue_11213);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "version");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "version", value);
     }
 }
 

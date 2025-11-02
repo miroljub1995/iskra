@@ -28,24 +28,12 @@ public partial class Subscriber(global::System.Runtime.InteropServices.JavaScrip
 
     public bool Active
     {
-        get
-        {
-            bool __res_10010;
-            bool __res_10011 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
-            __res_10010 = __res_10011;
-            return __res_10010;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "active");
     }
 
     public global::Iskra.StdWeb.AbortSignal Signal
     {
-        get
-        {
-            global::Iskra.StdWeb.AbortSignal __res_10012;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10013 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signal");
-            __res_10012 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AbortSignal>(__res_10013);
-            return __res_10012;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AbortSignal, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "signal");
     }
 }
 

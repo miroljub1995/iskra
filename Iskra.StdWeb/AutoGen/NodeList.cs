@@ -13,13 +13,7 @@ public partial class NodeList(global::System.Runtime.InteropServices.JavaScript.
 
     public uint Length
     {
-        get
-        {
-            uint __res_5945;
-            double __res_5946 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5945 = Convert.ToUInt32(__res_5946);
-            return __res_5945;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 }
 

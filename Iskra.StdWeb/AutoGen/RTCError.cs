@@ -8,108 +8,32 @@ public partial class RTCError(global::System.Runtime.InteropServices.JavaScript.
 {
     public global::Iskra.StdWeb.RTCErrorDetailType ErrorDetail
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCErrorDetailType __res_4342;
-            string __res_4343 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorDetail");
-            __res_4342 = global::Iskra.StdWeb.RTCErrorDetailType.Create(__res_4343);
-            return __res_4342;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCErrorDetailType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "errorDetail");
     }
 
     public int? SdpLineNumber
     {
-        get
-        {
-            int? __res_4344;
-            double? __res_4345 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sdpLineNumber");
-            if (__res_4345 is null)
-            {
-                __res_4344 = null;
-            }
-            else
-            {
-                double __notNullable_4346 = (double)__res_4345;
-                __res_4344 = Convert.ToInt32(__notNullable_4346);
-            }
-            return __res_4344;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "sdpLineNumber");
     }
 
     public int? SctpCauseCode
     {
-        get
-        {
-            int? __res_4347;
-            double? __res_4348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sctpCauseCode");
-            if (__res_4348 is null)
-            {
-                __res_4347 = null;
-            }
-            else
-            {
-                double __notNullable_4349 = (double)__res_4348;
-                __res_4347 = Convert.ToInt32(__notNullable_4349);
-            }
-            return __res_4347;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "sctpCauseCode");
     }
 
     public uint? ReceivedAlert
     {
-        get
-        {
-            uint? __res_4350;
-            double? __res_4351 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "receivedAlert");
-            if (__res_4351 is null)
-            {
-                __res_4350 = null;
-            }
-            else
-            {
-                double __notNullable_4352 = (double)__res_4351;
-                __res_4350 = Convert.ToUInt32(__notNullable_4352);
-            }
-            return __res_4350;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "receivedAlert");
     }
 
     public uint? SentAlert
     {
-        get
-        {
-            uint? __res_4353;
-            double? __res_4354 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sentAlert");
-            if (__res_4354 is null)
-            {
-                __res_4353 = null;
-            }
-            else
-            {
-                double __notNullable_4355 = (double)__res_4354;
-                __res_4353 = Convert.ToUInt32(__notNullable_4355);
-            }
-            return __res_4353;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "sentAlert");
     }
 
     public int? HttpRequestStatusCode
     {
-        get
-        {
-            int? __res_4356;
-            double? __res_4357 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "httpRequestStatusCode");
-            if (__res_4357 is null)
-            {
-                __res_4356 = null;
-            }
-            else
-            {
-                double __notNullable_4358 = (double)__res_4357;
-                __res_4356 = Convert.ToInt32(__notNullable_4358);
-            }
-            return __res_4356;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "httpRequestStatusCode");
     }
 }
 

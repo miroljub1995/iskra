@@ -8,13 +8,7 @@ public partial class CSSNumericArray(global::System.Runtime.InteropServices.Java
 {
     public uint Length
     {
-        get
-        {
-            uint __res_100;
-            double __res_101 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_100 = Convert.ToUInt32(__res_101);
-            return __res_100;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.CSSNumericValue Get(uint index)

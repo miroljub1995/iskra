@@ -8,46 +8,22 @@ public partial class VisibilityStateEntry(global::System.Runtime.InteropServices
 {
     public new string Name
     {
-        get
-        {
-            string __res_13672;
-            string __res_13673 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_13672 = __res_13673;
-            return __res_13672;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public new string EntryType
     {
-        get
-        {
-            string __res_13674;
-            string __res_13675 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
-            __res_13674 = __res_13675;
-            return __res_13674;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "entryType");
     }
 
     public new double StartTime
     {
-        get
-        {
-            double __res_13676;
-            double __res_13677 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_13676 = __res_13677;
-            return __res_13676;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "startTime");
     }
 
     public new uint Duration
     {
-        get
-        {
-            uint __res_13678;
-            double __res_13679 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_13678 = Convert.ToUInt32(__res_13679);
-            return __res_13678;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "duration");
     }
 }
 

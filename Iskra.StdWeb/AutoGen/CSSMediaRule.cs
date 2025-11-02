@@ -8,24 +8,12 @@ public partial class CSSMediaRule(global::System.Runtime.InteropServices.JavaScr
 {
     public global::Iskra.StdWeb.MediaList Media
     {
-        get
-        {
-            global::Iskra.StdWeb.MediaList __res_7568;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7569 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
-            __res_7568 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaList>(__res_7569);
-            return __res_7568;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "media");
     }
 
     public bool Matches
     {
-        get
-        {
-            bool __res_7570;
-            bool __res_7571 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
-            __res_7570 = __res_7571;
-            return __res_7570;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matches");
     }
 }
 

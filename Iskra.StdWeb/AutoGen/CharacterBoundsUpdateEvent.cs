@@ -8,24 +8,12 @@ public partial class CharacterBoundsUpdateEvent(global::System.Runtime.InteropSe
 {
     public uint RangeStart
     {
-        get
-        {
-            uint __res_18071;
-            double __res_18072 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeStart");
-            __res_18071 = Convert.ToUInt32(__res_18072);
-            return __res_18071;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rangeStart");
     }
 
     public uint RangeEnd
     {
-        get
-        {
-            uint __res_18073;
-            double __res_18074 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rangeEnd");
-            __res_18073 = Convert.ToUInt32(__res_18074);
-            return __res_18073;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rangeEnd");
     }
 }
 

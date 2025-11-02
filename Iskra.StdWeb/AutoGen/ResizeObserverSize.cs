@@ -8,24 +8,12 @@ public partial class ResizeObserverSize(global::System.Runtime.InteropServices.J
 {
     public double InlineSize
     {
-        get
-        {
-            double __res_9626;
-            double __res_9627 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inlineSize");
-            __res_9626 = __res_9627;
-            return __res_9626;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inlineSize");
     }
 
     public double BlockSize
     {
-        get
-        {
-            double __res_9628;
-            double __res_9629 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "blockSize");
-            __res_9628 = __res_9629;
-            return __res_9628;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "blockSize");
     }
 }
 

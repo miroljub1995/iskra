@@ -8,35 +8,17 @@ public partial class WebGLActiveInfo(global::System.Runtime.InteropServices.Java
 {
     public int Size
     {
-        get
-        {
-            int __res_1970;
-            double __res_1971 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_1970 = Convert.ToInt32(__res_1971);
-            return __res_1970;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size");
     }
 
     public uint Type
     {
-        get
-        {
-            uint __res_1972;
-            double __res_1973 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "type");
-            __res_1972 = Convert.ToUInt32(__res_1973);
-            return __res_1972;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public string Name
     {
-        get
-        {
-            string __res_1974;
-            string __res_1975 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_1974 = __res_1975;
-            return __res_1974;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 }
 

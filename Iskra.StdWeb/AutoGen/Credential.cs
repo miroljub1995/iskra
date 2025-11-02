@@ -8,24 +8,12 @@ public partial class Credential(global::System.Runtime.InteropServices.JavaScrip
 {
     public string Id
     {
-        get
-        {
-            string __res_4904;
-            string __res_4905 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_4904 = __res_4905;
-            return __res_4904;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "id");
     }
 
     public string Type
     {
-        get
-        {
-            string __res_4906;
-            string __res_4907 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_4906 = __res_4907;
-            return __res_4906;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public static global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> IsConditionalMediationAvailable()

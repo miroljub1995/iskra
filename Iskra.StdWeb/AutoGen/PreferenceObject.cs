@@ -8,44 +8,17 @@ public partial class PreferenceObject(global::System.Runtime.InteropServices.Jav
 {
     public string? Override
     {
-        get
-        {
-            string? __res_9095;
-            string? __res_9096 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "override");
-            if (__res_9096 is null)
-            {
-                __res_9095 = null;
-            }
-            else
-            {
-                string __notNullable_9097 = (string)__res_9096;
-                __res_9095 = __notNullable_9097;
-            }
-            return __res_9095;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "override");
     }
 
     public string Value
     {
-        get
-        {
-            string __res_9098;
-            string __res_9099 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_9098 = __res_9099;
-            return __res_9098;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> ValidValues
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_9100;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9101;
-            __propObject_9101 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "validValues");
-            __res_9100 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9101);
-            return __res_9100;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "validValues");
     }
 
     public void ClearOverride()
@@ -60,35 +33,8 @@ public partial class PreferenceObject(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_9104;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_9105 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_9105 is null)
-            {
-                __res_9104 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_9106 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_9105;
-                __res_9104 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_9106);
-            }
-            return __res_9104;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_9107;
-            if (value is null)
-            {
-                __marshalledValue_9107 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_9108 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_9107 = __notNullable_9108.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_9107);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange", value);
     }
 }
 

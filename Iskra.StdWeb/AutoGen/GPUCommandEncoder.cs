@@ -58,19 +58,8 @@ public partial class GPUCommandEncoder(global::System.Runtime.InteropServices.Ja
 
     public string Label
     {
-        get
-        {
-            string __res_1841;
-            string __res_1842 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1841 = __res_1842;
-            return __res_1841;
-        }
-        set
-        {
-            string __marshalledValue_1843;
-            __marshalledValue_1843 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1843);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label", value);
     }
 
     public void PushDebugGroup(string groupLabel)

@@ -18,57 +18,18 @@ public partial class ScreenOrientation(global::System.Runtime.InteropServices.Ja
 
     public global::Iskra.StdWeb.OrientationType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.OrientationType __res_17029;
-            string __res_17030 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_17029 = global::Iskra.StdWeb.OrientationType.Create(__res_17030);
-            return __res_17029;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.OrientationType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public ushort Angle
     {
-        get
-        {
-            ushort __res_17031;
-            double __res_17032 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "angle");
-            __res_17031 = Convert.ToUInt16(__res_17032);
-            return __res_17031;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "angle");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_17033;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_17034 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_17034 is null)
-            {
-                __res_17033 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_17035 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_17034;
-                __res_17033 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_17035);
-            }
-            return __res_17033;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_17036;
-            if (value is null)
-            {
-                __marshalledValue_17036 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_17037 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_17036 = __notNullable_17037.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_17036);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange", value);
     }
 }
 

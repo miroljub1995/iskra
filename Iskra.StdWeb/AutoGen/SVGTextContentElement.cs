@@ -8,24 +8,12 @@ public partial class SVGTextContentElement(global::System.Runtime.InteropService
 {
     public global::Iskra.StdWeb.SVGAnimatedLength TextLength
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1340;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1341 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "textLength");
-            __res_1340 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1341);
-            return __res_1340;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "textLength");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedEnumeration LengthAdjust
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1342;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1343 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lengthAdjust");
-            __res_1342 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1343);
-            return __res_1342;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedEnumeration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lengthAdjust");
     }
 
     public int GetNumberOfChars()

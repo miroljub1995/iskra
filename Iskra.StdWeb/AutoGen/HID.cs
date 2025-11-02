@@ -8,68 +8,14 @@ public partial class HID(global::System.Runtime.InteropServices.JavaScript.JSObj
 {
     public global::Iskra.StdWeb.EventHandlerNonNull? Onconnect
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3521;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3522 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect");
-            if (__res_3522 is null)
-            {
-                __res_3521 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3523 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3522;
-                __res_3521 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3523);
-            }
-            return __res_3521;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3524;
-            if (value is null)
-            {
-                __marshalledValue_3524 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3525 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3524 = __notNullable_3525.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onconnect", __marshalledValue_3524);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onconnect");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onconnect", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Ondisconnect
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3526;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3527 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect");
-            if (__res_3527 is null)
-            {
-                __res_3526 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3528 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3527;
-                __res_3526 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3528);
-            }
-            return __res_3526;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3529;
-            if (value is null)
-            {
-                __marshalledValue_3529 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3530 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3529 = __notNullable_3530.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondisconnect", __marshalledValue_3529);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondisconnect");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondisconnect", value);
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.HIDDevice, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> GetDevices()

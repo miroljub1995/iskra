@@ -8,13 +8,7 @@ public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaS
 {
     public uint Length
     {
-        get
-        {
-            uint __res_12011;
-            double __res_12012 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_12011 = Convert.ToUInt32(__res_12012);
-            return __res_12011;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.AudioTrack Get(uint index)
@@ -29,101 +23,20 @@ public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaS
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_12015;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12016 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_12016 is null)
-            {
-                __res_12015 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12017 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12016;
-                __res_12015 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_12017);
-            }
-            return __res_12015;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_12018;
-            if (value is null)
-            {
-                __marshalledValue_12018 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_12019 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_12018 = __notNullable_12019.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_12018);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onaddtrack
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_12020;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12021 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack");
-            if (__res_12021 is null)
-            {
-                __res_12020 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12022 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12021;
-                __res_12020 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_12022);
-            }
-            return __res_12020;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_12023;
-            if (value is null)
-            {
-                __marshalledValue_12023 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_12024 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_12023 = __notNullable_12024.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack", __marshalledValue_12023);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaddtrack");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaddtrack", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onremovetrack
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_12025;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_12026 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack");
-            if (__res_12026 is null)
-            {
-                __res_12025 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_12027 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_12026;
-                __res_12025 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_12027);
-            }
-            return __res_12025;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_12028;
-            if (value is null)
-            {
-                __marshalledValue_12028 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_12029 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_12028 = __notNullable_12029.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack", __marshalledValue_12028);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onremovetrack");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onremovetrack", value);
     }
 }
 

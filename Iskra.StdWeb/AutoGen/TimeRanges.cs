@@ -8,13 +8,7 @@ public partial class TimeRanges(global::System.Runtime.InteropServices.JavaScrip
 {
     public uint Length
     {
-        get
-        {
-            uint __res_12156;
-            double __res_12157 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_12156 = Convert.ToUInt32(__res_12157);
-            return __res_12156;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public double Start(uint index)

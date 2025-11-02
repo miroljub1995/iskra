@@ -8,91 +8,24 @@ public partial class ScreenDetails(global::System.Runtime.InteropServices.JavaSc
 {
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Screens
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_5671;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5672;
-            __propObject_5672 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "screens");
-            __res_5671 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5672);
-            return __res_5671;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "screens");
     }
 
     public global::Iskra.StdWeb.ScreenDetailed CurrentScreen
     {
-        get
-        {
-            global::Iskra.StdWeb.ScreenDetailed __res_5673;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5674 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentScreen");
-            __res_5673 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ScreenDetailed>(__res_5674);
-            return __res_5673;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "currentScreen");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onscreenschange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_5675;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5676 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onscreenschange");
-            if (__res_5676 is null)
-            {
-                __res_5675 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5677 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5676;
-                __res_5675 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_5677);
-            }
-            return __res_5675;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5678;
-            if (value is null)
-            {
-                __marshalledValue_5678 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5679 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_5678 = __notNullable_5679.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onscreenschange", __marshalledValue_5678);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onscreenschange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onscreenschange", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Oncurrentscreenchange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_5680;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5681 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrentscreenchange");
-            if (__res_5681 is null)
-            {
-                __res_5680 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5682 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5681;
-                __res_5680 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_5682);
-            }
-            return __res_5680;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5683;
-            if (value is null)
-            {
-                __marshalledValue_5683 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5684 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_5683 = __notNullable_5684.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncurrentscreenchange", __marshalledValue_5683);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oncurrentscreenchange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oncurrentscreenchange", value);
     }
 }
 

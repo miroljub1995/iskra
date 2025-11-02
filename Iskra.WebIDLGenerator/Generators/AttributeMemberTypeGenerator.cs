@@ -1,19 +1,20 @@
-using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class AttributeMemberTypeGenerator(
-    GenTypeDescriptors descriptors,
-    IDLTypeDescriptionToTypeDeclarationGenerator descriptionToTypeDeclarationGenerator,
-    GetPropertyValueGenerator getPropertyValueGenerator,
-    SetPropertyValueGenerator setPropertyValueGenerator,
-    GeneratorContext generatorContext
+    IServiceProvider provider,
+    GenTypeDescriptors descriptors
 )
 {
     public string Generate(AttributeMemberType input, string containingTypeName)
     {
+        var descriptionToTypeDeclarationGenerator =
+            provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+        var propertyAccessorGenerator = provider.GetRequiredService<PropertyAccessorGenerator>();
+
         List<string> bodyParts = [];
 
         var isStatic = input.Special == AttributeSpecial.Static;
@@ -24,6 +25,8 @@ public class AttributeMemberTypeGenerator(
 
         var returnTypeDeclaration = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
 
+        var accessor = propertyAccessorGenerator.GetOrCreateAccessor(input.IdlType);
+
         // Getter
         {
             var inputVar = isStatic
@@ -31,22 +34,8 @@ public class AttributeMemberTypeGenerator(
                   $"(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{containingTypeName}\")"
                 : "JSObject";
 
-            var returnValueVar = generatorContext.GetNextVariableName("res");
-
-            var getPropertyValue = getPropertyValueGenerator.Generate(
-                inputVar: inputVar,
-                type: input.IdlType,
-                propertyNameVar: $"\"{input.Name}\"",
-                outputVar: returnValueVar
-            );
-
             var getter = $$"""
-                           get
-                           {
-                               {{returnTypeDeclaration}} {{returnValueVar}};
-                           {{getPropertyValue.IndentLines(4)}}
-                               return {{returnValueVar}};
-                           }
+                           get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<{{returnTypeDeclaration}}, {{accessor}}>({{inputVar}}, "{{input.Name}}");
                            """;
 
             bodyParts.Add(getter);
@@ -60,18 +49,8 @@ public class AttributeMemberTypeGenerator(
                   $"(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{containingTypeName}\")"
                 : "JSObject";
 
-            var setPropertyValue = setPropertyValueGenerator.Generate(
-                inputVar: inputVar,
-                valueVar: "value",
-                type: input.IdlType,
-                propertyNameVar: $"\"{input.Name}\""
-            );
-
             var setter = $$"""
-                           set
-                           {
-                           {{setPropertyValue.IndentLines(4)}}
-                           }
+                           set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<{{returnTypeDeclaration}}, {{accessor}}>({{inputVar}}, "{{input.Name}}", value);
                            """;
 
             bodyParts.Add(setter);

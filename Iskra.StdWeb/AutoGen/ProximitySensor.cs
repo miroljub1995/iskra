@@ -8,59 +8,17 @@ public partial class ProximitySensor(global::System.Runtime.InteropServices.Java
 {
     public double? Distance
     {
-        get
-        {
-            double? __res_18003;
-            double? __res_18004 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "distance");
-            if (__res_18004 is null)
-            {
-                __res_18003 = null;
-            }
-            else
-            {
-                double __notNullable_18005 = (double)__res_18004;
-                __res_18003 = __notNullable_18005;
-            }
-            return __res_18003;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "distance");
     }
 
     public double? Max
     {
-        get
-        {
-            double? __res_18006;
-            double? __res_18007 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "max");
-            if (__res_18007 is null)
-            {
-                __res_18006 = null;
-            }
-            else
-            {
-                double __notNullable_18008 = (double)__res_18007;
-                __res_18006 = __notNullable_18008;
-            }
-            return __res_18006;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "max");
     }
 
     public bool? Near
     {
-        get
-        {
-            bool? __res_18009;
-            bool? __res_18010 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "near");
-            if (__res_18010 is null)
-            {
-                __res_18009 = null;
-            }
-            else
-            {
-                bool __notNullable_18011 = (bool)__res_18010;
-                __res_18009 = __notNullable_18011;
-            }
-            return __res_18009;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "near");
     }
 }
 

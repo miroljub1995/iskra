@@ -8,24 +8,12 @@ public partial class NDEFReadingEvent(global::System.Runtime.InteropServices.Jav
 {
     public string SerialNumber
     {
-        get
-        {
-            string __res_9515;
-            string __res_9516 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "serialNumber");
-            __res_9515 = __res_9516;
-            return __res_9515;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "serialNumber");
     }
 
     public global::Iskra.StdWeb.NDEFMessage Message
     {
-        get
-        {
-            global::Iskra.StdWeb.NDEFMessage __res_9517;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9518 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "message");
-            __res_9517 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NDEFMessage>(__res_9518);
-            return __res_9517;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NDEFMessage, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "message");
     }
 }
 

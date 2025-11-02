@@ -8,30 +8,13 @@ public partial class CSSUnitValue(global::System.Runtime.InteropServices.JavaScr
 {
     public double Value
     {
-        get
-        {
-            double __res_75;
-            double __res_76 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_75 = __res_76;
-            return __res_75;
-        }
-        set
-        {
-            double __marshalledValue_77;
-            __marshalledValue_77 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "value", __marshalledValue_77);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value", value);
     }
 
     public string Unit
     {
-        get
-        {
-            string __res_78;
-            string __res_79 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unit");
-            __res_78 = __res_79;
-            return __res_78;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unit");
     }
 }
 

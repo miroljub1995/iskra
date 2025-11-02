@@ -8,74 +8,27 @@ public partial class XRPlane(global::System.Runtime.InteropServices.JavaScript.J
 {
     public global::Iskra.StdWeb.XRSpace PlaneSpace
     {
-        get
-        {
-            global::Iskra.StdWeb.XRSpace __res_6;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "planeSpace");
-            __res_6 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_7);
-            return __res_6;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "planeSpace");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Polygon
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9;
-            __propObject_9 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "polygon");
-            __res_8 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9);
-            return __res_8;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "polygon");
     }
 
     public global::Iskra.StdWeb.XRPlaneOrientation? Orientation
     {
-        get
-        {
-            global::Iskra.StdWeb.XRPlaneOrientation? __res_10;
-            string? __res_11 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "orientation");
-            if (__res_11 is null)
-            {
-                __res_10 = null;
-            }
-            else
-            {
-                string __notNullable_12 = (string)__res_11;
-                __res_10 = global::Iskra.StdWeb.XRPlaneOrientation.Create(__notNullable_12);
-            }
-            return __res_10;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRPlaneOrientation?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "orientation");
     }
 
     public double LastChangedTime
     {
-        get
-        {
-            double __res_13;
-            double __res_14 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
-            __res_13 = __res_14;
-            return __res_13;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lastChangedTime");
     }
 
     public string? SemanticLabel
     {
-        get
-        {
-            string? __res_15;
-            string? __res_16 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
-            if (__res_16 is null)
-            {
-                __res_15 = null;
-            }
-            else
-            {
-                string __notNullable_17 = (string)__res_16;
-                __res_15 = __notNullable_17;
-            }
-            return __res_15;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "semanticLabel");
     }
 }
 

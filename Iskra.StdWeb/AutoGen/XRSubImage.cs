@@ -8,13 +8,7 @@ public partial class XRSubImage(global::System.Runtime.InteropServices.JavaScrip
 {
     public global::Iskra.StdWeb.XRViewport Viewport
     {
-        get
-        {
-            global::Iskra.StdWeb.XRViewport __res_3670;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3671 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "viewport");
-            __res_3670 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRViewport>(__res_3671);
-            return __res_3670;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRViewport, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "viewport");
     }
 }
 

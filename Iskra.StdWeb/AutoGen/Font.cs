@@ -8,24 +8,12 @@ public partial class Font(global::System.Runtime.InteropServices.JavaScript.JSOb
 {
     public string Name
     {
-        get
-        {
-            string __res_16771;
-            string __res_16772 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_16771 = __res_16772;
-            return __res_16771;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public uint GlyphsRendered
     {
-        get
-        {
-            uint __res_16773;
-            double __res_16774 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "glyphsRendered");
-            __res_16773 = Convert.ToUInt32(__res_16774);
-            return __res_16773;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "glyphsRendered");
     }
 }
 

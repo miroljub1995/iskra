@@ -8,47 +8,22 @@ public partial class LayoutShift(global::System.Runtime.InteropServices.JavaScri
 {
     public double Value
     {
-        get
-        {
-            double __res_5780;
-            double __res_5781 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_5780 = __res_5781;
-            return __res_5780;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
     }
 
     public bool HadRecentInput
     {
-        get
-        {
-            bool __res_5782;
-            bool __res_5783 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hadRecentInput");
-            __res_5782 = __res_5783;
-            return __res_5782;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hadRecentInput");
     }
 
     public double LastInputTime
     {
-        get
-        {
-            double __res_5784;
-            double __res_5785 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastInputTime");
-            __res_5784 = __res_5785;
-            return __res_5784;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lastInputTime");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Sources
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_5786;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5787;
-            __propObject_5787 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sources");
-            __res_5786 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5787);
-            return __res_5786;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.LayoutShiftAttribution, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sources");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

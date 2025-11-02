@@ -18,63 +18,19 @@ public partial class VirtualKeyboard(global::System.Runtime.InteropServices.Java
 
     public global::Iskra.StdWeb.DOMRect BoundingRect
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMRect __res_2179;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2180 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingRect");
-            __res_2179 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRect>(__res_2180);
-            return __res_2179;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "boundingRect");
     }
 
     public bool OverlaysContent
     {
-        get
-        {
-            bool __res_2181;
-            bool __res_2182 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overlaysContent");
-            __res_2181 = __res_2182;
-            return __res_2181;
-        }
-        set
-        {
-            bool __marshalledValue_2183;
-            __marshalledValue_2183 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "overlaysContent", __marshalledValue_2183);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "overlaysContent");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "overlaysContent", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Ongeometrychange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2184;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2185 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange");
-            if (__res_2185 is null)
-            {
-                __res_2184 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2186 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2185;
-                __res_2184 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2186);
-            }
-            return __res_2184;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2187;
-            if (value is null)
-            {
-                __marshalledValue_2187 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2188 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2187 = __notNullable_2188.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ongeometrychange", __marshalledValue_2187);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ongeometrychange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ongeometrychange", value);
     }
 }
 

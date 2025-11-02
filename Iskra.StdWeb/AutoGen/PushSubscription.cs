@@ -8,43 +8,17 @@ public partial class PushSubscription(global::System.Runtime.InteropServices.Jav
 {
     public string Endpoint
     {
-        get
-        {
-            string __res_10155;
-            string __res_10156 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "endpoint");
-            __res_10155 = __res_10156;
-            return __res_10155;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "endpoint");
     }
 
     public ulong? ExpirationTime
     {
-        get
-        {
-            ulong? __res_10157;
-            double? __res_10158 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "expirationTime");
-            if (__res_10158 is null)
-            {
-                __res_10157 = null;
-            }
-            else
-            {
-                double __notNullable_10159 = (double)__res_10158;
-                __res_10157 = Convert.ToUInt64(__notNullable_10159);
-            }
-            return __res_10157;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "expirationTime");
     }
 
     public global::Iskra.StdWeb.PushSubscriptionOptions Options
     {
-        get
-        {
-            global::Iskra.StdWeb.PushSubscriptionOptions __res_10160;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "options");
-            __res_10160 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscriptionOptions>(__res_10161);
-            return __res_10160;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PushSubscriptionOptions, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "options");
     }
 
     public global::Iskra.JSCore.ArrayBuffer? GetKey(global::Iskra.StdWeb.PushEncryptionKeyName name)

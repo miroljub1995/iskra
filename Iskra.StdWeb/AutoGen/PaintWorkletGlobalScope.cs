@@ -13,13 +13,7 @@ public partial class PaintWorkletGlobalScope(global::System.Runtime.InteropServi
 
     public double DevicePixelRatio
     {
-        get
-        {
-            double __res_5553;
-            double __res_5554 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "devicePixelRatio");
-            __res_5553 = __res_5554;
-            return __res_5553;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "devicePixelRatio");
     }
 }
 

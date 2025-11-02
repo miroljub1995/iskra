@@ -8,57 +8,27 @@ public partial class Client(global::System.Runtime.InteropServices.JavaScript.JS
 {
     public global::Iskra.StdWeb.ClientLifecycleState LifecycleState
     {
-        get
-        {
-            global::Iskra.StdWeb.ClientLifecycleState __res_9373;
-            string __res_9374 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lifecycleState");
-            __res_9373 = global::Iskra.StdWeb.ClientLifecycleState.Create(__res_9374);
-            return __res_9373;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ClientLifecycleState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lifecycleState");
     }
 
     public string Url
     {
-        get
-        {
-            string __res_9375;
-            string __res_9376 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_9375 = __res_9376;
-            return __res_9375;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "url");
     }
 
     public global::Iskra.StdWeb.FrameType FrameType
     {
-        get
-        {
-            global::Iskra.StdWeb.FrameType __res_9377;
-            string __res_9378 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "frameType");
-            __res_9377 = global::Iskra.StdWeb.FrameType.Create(__res_9378);
-            return __res_9377;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FrameType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "frameType");
     }
 
     public string Id
     {
-        get
-        {
-            string __res_9379;
-            string __res_9380 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_9379 = __res_9380;
-            return __res_9379;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "id");
     }
 
     public global::Iskra.StdWeb.ClientType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.ClientType __res_9381;
-            string __res_9382 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_9381 = global::Iskra.StdWeb.ClientType.Create(__res_9382);
-            return __res_9381;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ClientType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public void PostMessage(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? message, global::Iskra.JSCore.Generics.JSArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> transfer)

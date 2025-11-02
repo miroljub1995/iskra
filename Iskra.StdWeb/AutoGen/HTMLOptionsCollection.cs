@@ -8,19 +8,8 @@ public partial class HTMLOptionsCollection(global::System.Runtime.InteropService
 {
     public new uint Length
     {
-        get
-        {
-            uint __res_10560;
-            double __res_10561 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_10560 = Convert.ToUInt32(__res_10561);
-            return __res_10560;
-        }
-        set
-        {
-            double __marshalledValue_10562;
-            __marshalledValue_10562 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "length", __marshalledValue_10562);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length", value);
     }
 
     public void Set(uint index, global::Iskra.StdWeb.HTMLOptionElement? option)
@@ -40,19 +29,8 @@ public partial class HTMLOptionsCollection(global::System.Runtime.InteropService
 
     public int SelectedIndex
     {
-        get
-        {
-            int __res_10566;
-            double __res_10567 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "selectedIndex");
-            __res_10566 = Convert.ToInt32(__res_10567);
-            return __res_10566;
-        }
-        set
-        {
-            double __marshalledValue_10568;
-            __marshalledValue_10568 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "selectedIndex", __marshalledValue_10568);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "selectedIndex");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "selectedIndex", value);
     }
 }
 

@@ -8,13 +8,7 @@ public partial class RTCDTMFToneChangeEvent(global::System.Runtime.InteropServic
 {
     public string Tone
     {
-        get
-        {
-            string __res_4340;
-            string __res_4341 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "tone");
-            __res_4340 = __res_4341;
-            return __res_4340;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tone");
     }
 }
 

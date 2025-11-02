@@ -10,36 +10,36 @@ public partial class OnBeforeUnloadEventHandlerNonNull(global::System.Runtime.In
 {
     public static implicit operator OnBeforeUnloadEventHandlerNonNull(OnBeforeUnloadEventHandlerNonNullManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_14885, __res_14890) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_96, __res_101) =>
         {
-            using (__args_14885)
-            using (__res_14890)
+            using (__args_96)
+            using (__res_101)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Event __arg_14887;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_14888 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_14885, 0);
-                __arg_14887 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(__res_14888);
+                global::Iskra.StdWeb.Event __arg_98;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_99 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_96, 0);
+                __arg_98 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(__res_99);
 
-                string? __managedRes_14891 = input(__arg_14887);
+                string? __managedRes_102 = input(__arg_98);
 
-                string? __marshalledValue_14892;
-                if (__managedRes_14891 is null)
+                string? __marshalledValue_103;
+                if (__managedRes_102 is null)
                 {
-                    __marshalledValue_14892 = null;
+                    __marshalledValue_103 = null;
                 }
                 else
                 {
-                    string __notNullable_14893 = (string)__managedRes_14891;
-                    __marshalledValue_14892 = __notNullable_14893;
+                    string __notNullable_104 = (string)__managedRes_102;
+                    __marshalledValue_103 = __notNullable_104;
                 }
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__res_14890, "value", __marshalledValue_14892);
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__res_101, "value", __marshalledValue_103);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_14889 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_14889, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_100 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_100, input); 
 
-        return new global::Iskra.StdWeb.OnBeforeUnloadEventHandlerNonNull(__funcObj_14889);
+        return new global::Iskra.StdWeb.OnBeforeUnloadEventHandlerNonNull(__funcObj_100);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.OnBeforeUnloadEventHandlerNonNullManaged? managed, bool allowConversion = false)
@@ -57,32 +57,32 @@ public partial class OnBeforeUnloadEventHandlerNonNull(global::System.Runtime.In
 
         managed = (@event) =>
         {
-            int __argsArrayLength_14897 = 1;
+            int __argsArrayLength_108 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_14894 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_14897);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_105 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_108);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_14898;
-            __marshalledValue_14898 = @event.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_14894.JSObject, 0, __marshalledValue_14898);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_109;
+            __marshalledValue_109 = @event.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_105.JSObject, 0, __marshalledValue_109);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_14895 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_106 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_14894.JSObject, __resOwner_14895.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_105.JSObject, __resOwner_106.JSObject);
 
             // Return Value
-            string? __res_14896;
-            string? __res_14899 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(__resOwner_14895.JSObject, "value");
-            if (__res_14899 is null)
+            string? __res_107;
+            string? __res_110 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(__resOwner_106.JSObject, "value");
+            if (__res_110 is null)
             {
-                __res_14896 = null;
+                __res_107 = null;
             }
             else
             {
-                string __notNullable_14900 = (string)__res_14899;
-                __res_14896 = __notNullable_14900;
+                string __notNullable_111 = (string)__res_110;
+                __res_107 = __notNullable_111;
             }
-            return __res_14896;
+            return __res_107;
         };
         return true;
     }

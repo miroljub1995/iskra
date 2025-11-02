@@ -8,76 +8,32 @@ public partial class AudioData(global::System.Runtime.InteropServices.JavaScript
 {
     public global::Iskra.StdWeb.AudioSampleFormat? Format
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioSampleFormat? __res_5065;
-            string? __res_5066 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "format");
-            if (__res_5066 is null)
-            {
-                __res_5065 = null;
-            }
-            else
-            {
-                string __notNullable_5067 = (string)__res_5066;
-                __res_5065 = global::Iskra.StdWeb.AudioSampleFormat.Create(__notNullable_5067);
-            }
-            return __res_5065;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioSampleFormat?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "format");
     }
 
     public float SampleRate
     {
-        get
-        {
-            float __res_5068;
-            double __res_5069 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
-            __res_5068 = Convert.ToSingle(__res_5069);
-            return __res_5068;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampleRate");
     }
 
     public uint NumberOfFrames
     {
-        get
-        {
-            uint __res_5070;
-            double __res_5071 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfFrames");
-            __res_5070 = Convert.ToUInt32(__res_5071);
-            return __res_5070;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "numberOfFrames");
     }
 
     public uint NumberOfChannels
     {
-        get
-        {
-            uint __res_5072;
-            double __res_5073 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfChannels");
-            __res_5072 = Convert.ToUInt32(__res_5073);
-            return __res_5072;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "numberOfChannels");
     }
 
     public ulong Duration
     {
-        get
-        {
-            ulong __res_5074;
-            double __res_5075 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_5074 = Convert.ToUInt64(__res_5075);
-            return __res_5074;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "duration");
     }
 
     public long Timestamp
     {
-        get
-        {
-            long __res_5076;
-            double __res_5077 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timestamp");
-            __res_5076 = Convert.ToInt64(__res_5077);
-            return __res_5076;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<long, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "timestamp");
     }
 
     public uint AllocationSize(global::Iskra.StdWeb.AudioDataCopyToOptions options)

@@ -8,46 +8,13 @@ public partial class PresentationAvailability(global::System.Runtime.InteropServ
 {
     public bool Value
     {
-        get
-        {
-            bool __res_4598;
-            bool __res_4599 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "value");
-            __res_4598 = __res_4599;
-            return __res_4598;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4600;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4601 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_4601 is null)
-            {
-                __res_4600 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4602 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4601;
-                __res_4600 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4602);
-            }
-            return __res_4600;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4603;
-            if (value is null)
-            {
-                __marshalledValue_4603 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4604 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4603 = __notNullable_4604.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_4603);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange", value);
     }
 }
 

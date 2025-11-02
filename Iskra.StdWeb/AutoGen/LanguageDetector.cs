@@ -23,21 +23,7 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? ExpectedInputLanguages
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>? __res_8053;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_8054;
-            __propObject_8054 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "expectedInputLanguages");
-            if (__propObject_8054 is null)
-            {
-                __res_8053 = null;
-            }
-            else
-            {
-                __res_8053 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8054);
-            }
-            return __res_8053;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "expectedInputLanguages");
     }
 
     public global::Iskra.JSCore.Generics.Promise<double, global::Iskra.StdWeb.PropertyAccessor> MeasureInputUsage(string input, global::Iskra.StdWeb.LanguageDetectorDetectOptions options)
@@ -47,13 +33,7 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
 
     public double InputQuota
     {
-        get
-        {
-            double __res_8056;
-            double __res_8057 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_8056 = __res_8057;
-            return __res_8056;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inputQuota");
     }
 
     public void Destroy()

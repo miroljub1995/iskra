@@ -48,35 +48,8 @@ public partial class CookieStore(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3735;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3736 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_3736 is null)
-            {
-                __res_3735 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3737 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3736;
-                __res_3735 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3737);
-            }
-            return __res_3735;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3738;
-            if (value is null)
-            {
-                __marshalledValue_3738 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3739 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3738 = __notNullable_3739.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_3738);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange", value);
     }
 }
 

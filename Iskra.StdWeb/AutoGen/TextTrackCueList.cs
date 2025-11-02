@@ -8,13 +8,7 @@ public partial class TextTrackCueList(global::System.Runtime.InteropServices.Jav
 {
     public uint Length
     {
-        get
-        {
-            uint __res_12127;
-            double __res_12128 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_12127 = Convert.ToUInt32(__res_12128);
-            return __res_12127;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.TextTrackCue Get(uint index)

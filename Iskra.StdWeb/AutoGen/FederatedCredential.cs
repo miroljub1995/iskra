@@ -8,54 +8,22 @@ public partial class FederatedCredential(global::System.Runtime.InteropServices.
 {
     public string Provider
     {
-        get
-        {
-            string __res_4920;
-            string __res_4921 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "provider");
-            __res_4920 = __res_4921;
-            return __res_4920;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "provider");
     }
 
     public string? Protocol
     {
-        get
-        {
-            string? __res_4922;
-            string? __res_4923 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "protocol");
-            if (__res_4923 is null)
-            {
-                __res_4922 = null;
-            }
-            else
-            {
-                string __notNullable_4924 = (string)__res_4923;
-                __res_4922 = __notNullable_4924;
-            }
-            return __res_4922;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "protocol");
     }
 
     public string Name
     {
-        get
-        {
-            string __res_4925;
-            string __res_4926 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4925 = __res_4926;
-            return __res_4925;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public string IconURL
     {
-        get
-        {
-            string __res_4927;
-            string __res_4928 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "iconURL");
-            __res_4927 = __res_4928;
-            return __res_4927;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "iconURL");
     }
 }
 

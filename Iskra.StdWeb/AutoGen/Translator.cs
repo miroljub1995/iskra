@@ -28,24 +28,12 @@ public partial class Translator(global::System.Runtime.InteropServices.JavaScrip
 
     public string SourceLanguage
     {
-        get
-        {
-            string __res_8042;
-            string __res_8043 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sourceLanguage");
-            __res_8042 = __res_8043;
-            return __res_8042;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sourceLanguage");
     }
 
     public string TargetLanguage
     {
-        get
-        {
-            string __res_8044;
-            string __res_8045 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetLanguage");
-            __res_8044 = __res_8045;
-            return __res_8044;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "targetLanguage");
     }
 
     public global::Iskra.JSCore.Generics.Promise<double, global::Iskra.StdWeb.PropertyAccessor> MeasureInputUsage(string input, global::Iskra.StdWeb.TranslatorTranslateOptions options)
@@ -55,13 +43,7 @@ public partial class Translator(global::System.Runtime.InteropServices.JavaScrip
 
     public double InputQuota
     {
-        get
-        {
-            double __res_8047;
-            double __res_8048 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "inputQuota");
-            __res_8047 = __res_8048;
-            return __res_8047;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inputQuota");
     }
 
     public void Destroy()

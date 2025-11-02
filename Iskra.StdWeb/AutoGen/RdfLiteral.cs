@@ -8,43 +8,17 @@ public partial class RdfLiteral(global::System.Runtime.InteropServices.JavaScrip
 {
     public string Value
     {
-        get
-        {
-            string __res_10364;
-            string __res_10365 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_10364 = __res_10365;
-            return __res_10364;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
     }
 
     public string Datatype
     {
-        get
-        {
-            string __res_10366;
-            string __res_10367 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "datatype");
-            __res_10366 = __res_10367;
-            return __res_10366;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "datatype");
     }
 
     public string? Language
     {
-        get
-        {
-            string? __res_10368;
-            string? __res_10369 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "language");
-            if (__res_10369 is null)
-            {
-                __res_10368 = null;
-            }
-            else
-            {
-                string __notNullable_10370 = (string)__res_10369;
-                __res_10368 = __notNullable_10370;
-            }
-            return __res_10368;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "language");
     }
 }
 

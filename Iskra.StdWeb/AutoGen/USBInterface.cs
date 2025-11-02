@@ -8,47 +8,22 @@ public partial class USBInterface(global::System.Runtime.InteropServices.JavaScr
 {
     public byte InterfaceNumber
     {
-        get
-        {
-            byte __res_10281;
-            double __res_10282 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interfaceNumber");
-            __res_10281 = Convert.ToByte(__res_10282);
-            return __res_10281;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "interfaceNumber");
     }
 
     public global::Iskra.StdWeb.USBAlternateInterface Alternate
     {
-        get
-        {
-            global::Iskra.StdWeb.USBAlternateInterface __res_10283;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10284 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "alternate");
-            __res_10283 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USBAlternateInterface>(__res_10284);
-            return __res_10283;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.USBAlternateInterface, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "alternate");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBAlternateInterface, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Alternates
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBAlternateInterface, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_10285;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10286;
-            __propObject_10286 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "alternates");
-            __res_10285 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBAlternateInterface, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10286);
-            return __res_10285;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBAlternateInterface, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "alternates");
     }
 
     public bool Claimed
     {
-        get
-        {
-            bool __res_10287;
-            bool __res_10288 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "claimed");
-            __res_10287 = __res_10288;
-            return __res_10287;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "claimed");
     }
 }
 

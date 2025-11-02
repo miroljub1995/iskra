@@ -8,699 +8,248 @@ public partial class CSSFontFaceDescriptors(global::System.Runtime.InteropServic
 {
     public string Src
     {
-        get
-        {
-            string __res_9881;
-            string __res_9882 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_9881 = __res_9882;
-            return __res_9881;
-        }
-        set
-        {
-            string __marshalledValue_9883;
-            __marshalledValue_9883 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_9883);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "src");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "src", value);
     }
 
     public string FontFamily
     {
-        get
-        {
-            string __res_9884;
-            string __res_9885 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFamily");
-            __res_9884 = __res_9885;
-            return __res_9884;
-        }
-        set
-        {
-            string __marshalledValue_9886;
-            __marshalledValue_9886 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFamily", __marshalledValue_9886);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontFamily");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontFamily", value);
     }
 
     public string Font_family
     {
-        get
-        {
-            string __res_9887;
-            string __res_9888 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-family");
-            __res_9887 = __res_9888;
-            return __res_9887;
-        }
-        set
-        {
-            string __marshalledValue_9889;
-            __marshalledValue_9889 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-family", __marshalledValue_9889);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-family");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-family", value);
     }
 
     public string FontStyle
     {
-        get
-        {
-            string __res_9890;
-            string __res_9891 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontStyle");
-            __res_9890 = __res_9891;
-            return __res_9890;
-        }
-        set
-        {
-            string __marshalledValue_9892;
-            __marshalledValue_9892 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontStyle", __marshalledValue_9892);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontStyle");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontStyle", value);
     }
 
     public string Font_style
     {
-        get
-        {
-            string __res_9893;
-            string __res_9894 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-style");
-            __res_9893 = __res_9894;
-            return __res_9893;
-        }
-        set
-        {
-            string __marshalledValue_9895;
-            __marshalledValue_9895 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-style", __marshalledValue_9895);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-style");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-style", value);
     }
 
     public string FontWeight
     {
-        get
-        {
-            string __res_9896;
-            string __res_9897 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontWeight");
-            __res_9896 = __res_9897;
-            return __res_9896;
-        }
-        set
-        {
-            string __marshalledValue_9898;
-            __marshalledValue_9898 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontWeight", __marshalledValue_9898);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontWeight");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontWeight", value);
     }
 
     public string Font_weight
     {
-        get
-        {
-            string __res_9899;
-            string __res_9900 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-weight");
-            __res_9899 = __res_9900;
-            return __res_9899;
-        }
-        set
-        {
-            string __marshalledValue_9901;
-            __marshalledValue_9901 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-weight", __marshalledValue_9901);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-weight");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-weight", value);
     }
 
     public string FontStretch
     {
-        get
-        {
-            string __res_9902;
-            string __res_9903 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontStretch");
-            __res_9902 = __res_9903;
-            return __res_9902;
-        }
-        set
-        {
-            string __marshalledValue_9904;
-            __marshalledValue_9904 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontStretch", __marshalledValue_9904);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontStretch");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontStretch", value);
     }
 
     public string Font_stretch
     {
-        get
-        {
-            string __res_9905;
-            string __res_9906 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-stretch");
-            __res_9905 = __res_9906;
-            return __res_9905;
-        }
-        set
-        {
-            string __marshalledValue_9907;
-            __marshalledValue_9907 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-stretch", __marshalledValue_9907);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-stretch");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-stretch", value);
     }
 
     public string FontWidth
     {
-        get
-        {
-            string __res_9908;
-            string __res_9909 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontWidth");
-            __res_9908 = __res_9909;
-            return __res_9908;
-        }
-        set
-        {
-            string __marshalledValue_9910;
-            __marshalledValue_9910 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontWidth", __marshalledValue_9910);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontWidth");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontWidth", value);
     }
 
     public string Font_width
     {
-        get
-        {
-            string __res_9911;
-            string __res_9912 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-width");
-            __res_9911 = __res_9912;
-            return __res_9911;
-        }
-        set
-        {
-            string __marshalledValue_9913;
-            __marshalledValue_9913 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-width", __marshalledValue_9913);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-width");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-width", value);
     }
 
     public string FontSize
     {
-        get
-        {
-            string __res_9914;
-            string __res_9915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontSize");
-            __res_9914 = __res_9915;
-            return __res_9914;
-        }
-        set
-        {
-            string __marshalledValue_9916;
-            __marshalledValue_9916 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontSize", __marshalledValue_9916);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontSize");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontSize", value);
     }
 
     public string Font_size
     {
-        get
-        {
-            string __res_9917;
-            string __res_9918 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-size");
-            __res_9917 = __res_9918;
-            return __res_9917;
-        }
-        set
-        {
-            string __marshalledValue_9919;
-            __marshalledValue_9919 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-size", __marshalledValue_9919);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-size");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-size", value);
     }
 
     public string SizeAdjust
     {
-        get
-        {
-            string __res_9920;
-            string __res_9921 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sizeAdjust");
-            __res_9920 = __res_9921;
-            return __res_9920;
-        }
-        set
-        {
-            string __marshalledValue_9922;
-            __marshalledValue_9922 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "sizeAdjust", __marshalledValue_9922);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sizeAdjust");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sizeAdjust", value);
     }
 
     public string Size_adjust
     {
-        get
-        {
-            string __res_9923;
-            string __res_9924 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "size-adjust");
-            __res_9923 = __res_9924;
-            return __res_9923;
-        }
-        set
-        {
-            string __marshalledValue_9925;
-            __marshalledValue_9925 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "size-adjust", __marshalledValue_9925);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size-adjust");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size-adjust", value);
     }
 
     public string UnicodeRange
     {
-        get
-        {
-            string __res_9926;
-            string __res_9927 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unicodeRange");
-            __res_9926 = __res_9927;
-            return __res_9926;
-        }
-        set
-        {
-            string __marshalledValue_9928;
-            __marshalledValue_9928 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unicodeRange", __marshalledValue_9928);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unicodeRange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unicodeRange", value);
     }
 
     public string Unicode_range
     {
-        get
-        {
-            string __res_9929;
-            string __res_9930 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unicode-range");
-            __res_9929 = __res_9930;
-            return __res_9929;
-        }
-        set
-        {
-            string __marshalledValue_9931;
-            __marshalledValue_9931 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unicode-range", __marshalledValue_9931);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unicode-range");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unicode-range", value);
     }
 
     public string FontFeatureSettings
     {
-        get
-        {
-            string __res_9932;
-            string __res_9933 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontFeatureSettings");
-            __res_9932 = __res_9933;
-            return __res_9932;
-        }
-        set
-        {
-            string __marshalledValue_9934;
-            __marshalledValue_9934 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontFeatureSettings", __marshalledValue_9934);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontFeatureSettings");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontFeatureSettings", value);
     }
 
     public string Font_feature_settings
     {
-        get
-        {
-            string __res_9935;
-            string __res_9936 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-feature-settings");
-            __res_9935 = __res_9936;
-            return __res_9935;
-        }
-        set
-        {
-            string __marshalledValue_9937;
-            __marshalledValue_9937 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-feature-settings", __marshalledValue_9937);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-feature-settings");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-feature-settings", value);
     }
 
     public string FontVariationSettings
     {
-        get
-        {
-            string __res_9938;
-            string __res_9939 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontVariationSettings");
-            __res_9938 = __res_9939;
-            return __res_9938;
-        }
-        set
-        {
-            string __marshalledValue_9940;
-            __marshalledValue_9940 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontVariationSettings", __marshalledValue_9940);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontVariationSettings");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontVariationSettings", value);
     }
 
     public string Font_variation_settings
     {
-        get
-        {
-            string __res_9941;
-            string __res_9942 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-variation-settings");
-            __res_9941 = __res_9942;
-            return __res_9941;
-        }
-        set
-        {
-            string __marshalledValue_9943;
-            __marshalledValue_9943 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-variation-settings", __marshalledValue_9943);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-variation-settings");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-variation-settings", value);
     }
 
     public string FontNamedInstance
     {
-        get
-        {
-            string __res_9944;
-            string __res_9945 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontNamedInstance");
-            __res_9944 = __res_9945;
-            return __res_9944;
-        }
-        set
-        {
-            string __marshalledValue_9946;
-            __marshalledValue_9946 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontNamedInstance", __marshalledValue_9946);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontNamedInstance");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontNamedInstance", value);
     }
 
     public string Font_named_instance
     {
-        get
-        {
-            string __res_9947;
-            string __res_9948 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-named-instance");
-            __res_9947 = __res_9948;
-            return __res_9947;
-        }
-        set
-        {
-            string __marshalledValue_9949;
-            __marshalledValue_9949 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-named-instance", __marshalledValue_9949);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-named-instance");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-named-instance", value);
     }
 
     public string FontDisplay
     {
-        get
-        {
-            string __res_9950;
-            string __res_9951 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontDisplay");
-            __res_9950 = __res_9951;
-            return __res_9950;
-        }
-        set
-        {
-            string __marshalledValue_9952;
-            __marshalledValue_9952 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontDisplay", __marshalledValue_9952);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontDisplay");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontDisplay", value);
     }
 
     public string Font_display
     {
-        get
-        {
-            string __res_9953;
-            string __res_9954 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-display");
-            __res_9953 = __res_9954;
-            return __res_9953;
-        }
-        set
-        {
-            string __marshalledValue_9955;
-            __marshalledValue_9955 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-display", __marshalledValue_9955);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-display");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-display", value);
     }
 
     public string FontLanguageOverride
     {
-        get
-        {
-            string __res_9956;
-            string __res_9957 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fontLanguageOverride");
-            __res_9956 = __res_9957;
-            return __res_9956;
-        }
-        set
-        {
-            string __marshalledValue_9958;
-            __marshalledValue_9958 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fontLanguageOverride", __marshalledValue_9958);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontLanguageOverride");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fontLanguageOverride", value);
     }
 
     public string Font_language_override
     {
-        get
-        {
-            string __res_9959;
-            string __res_9960 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "font-language-override");
-            __res_9959 = __res_9960;
-            return __res_9959;
-        }
-        set
-        {
-            string __marshalledValue_9961;
-            __marshalledValue_9961 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "font-language-override", __marshalledValue_9961);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-language-override");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "font-language-override", value);
     }
 
     public string AscentOverride
     {
-        get
-        {
-            string __res_9962;
-            string __res_9963 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ascentOverride");
-            __res_9962 = __res_9963;
-            return __res_9962;
-        }
-        set
-        {
-            string __marshalledValue_9964;
-            __marshalledValue_9964 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ascentOverride", __marshalledValue_9964);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ascentOverride");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ascentOverride", value);
     }
 
     public string Ascent_override
     {
-        get
-        {
-            string __res_9965;
-            string __res_9966 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ascent-override");
-            __res_9965 = __res_9966;
-            return __res_9965;
-        }
-        set
-        {
-            string __marshalledValue_9967;
-            __marshalledValue_9967 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ascent-override", __marshalledValue_9967);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ascent-override");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ascent-override", value);
     }
 
     public string DescentOverride
     {
-        get
-        {
-            string __res_9968;
-            string __res_9969 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "descentOverride");
-            __res_9968 = __res_9969;
-            return __res_9968;
-        }
-        set
-        {
-            string __marshalledValue_9970;
-            __marshalledValue_9970 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "descentOverride", __marshalledValue_9970);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "descentOverride");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "descentOverride", value);
     }
 
     public string Descent_override
     {
-        get
-        {
-            string __res_9971;
-            string __res_9972 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "descent-override");
-            __res_9971 = __res_9972;
-            return __res_9971;
-        }
-        set
-        {
-            string __marshalledValue_9973;
-            __marshalledValue_9973 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "descent-override", __marshalledValue_9973);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "descent-override");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "descent-override", value);
     }
 
     public string LineGapOverride
     {
-        get
-        {
-            string __res_9974;
-            string __res_9975 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lineGapOverride");
-            __res_9974 = __res_9975;
-            return __res_9974;
-        }
-        set
-        {
-            string __marshalledValue_9976;
-            __marshalledValue_9976 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lineGapOverride", __marshalledValue_9976);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lineGapOverride");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lineGapOverride", value);
     }
 
     public string Line_gap_override
     {
-        get
-        {
-            string __res_9977;
-            string __res_9978 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "line-gap-override");
-            __res_9977 = __res_9978;
-            return __res_9977;
-        }
-        set
-        {
-            string __marshalledValue_9979;
-            __marshalledValue_9979 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "line-gap-override", __marshalledValue_9979);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "line-gap-override");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "line-gap-override", value);
     }
 
     public string SuperscriptPositionOverride
     {
-        get
-        {
-            string __res_9980;
-            string __res_9981 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscriptPositionOverride");
-            __res_9980 = __res_9981;
-            return __res_9980;
-        }
-        set
-        {
-            string __marshalledValue_9982;
-            __marshalledValue_9982 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscriptPositionOverride", __marshalledValue_9982);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "superscriptPositionOverride");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "superscriptPositionOverride", value);
     }
 
     public string Superscript_position_override
     {
-        get
-        {
-            string __res_9983;
-            string __res_9984 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscript-position-override");
-            __res_9983 = __res_9984;
-            return __res_9983;
-        }
-        set
-        {
-            string __marshalledValue_9985;
-            __marshalledValue_9985 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscript-position-override", __marshalledValue_9985);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "superscript-position-override");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "superscript-position-override", value);
     }
 
     public string SubscriptPositionOverride
     {
-        get
-        {
-            string __res_9986;
-            string __res_9987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscriptPositionOverride");
-            __res_9986 = __res_9987;
-            return __res_9986;
-        }
-        set
-        {
-            string __marshalledValue_9988;
-            __marshalledValue_9988 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscriptPositionOverride", __marshalledValue_9988);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subscriptPositionOverride");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subscriptPositionOverride", value);
     }
 
     public string Subscript_position_override
     {
-        get
-        {
-            string __res_9989;
-            string __res_9990 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscript-position-override");
-            __res_9989 = __res_9990;
-            return __res_9989;
-        }
-        set
-        {
-            string __marshalledValue_9991;
-            __marshalledValue_9991 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscript-position-override", __marshalledValue_9991);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subscript-position-override");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subscript-position-override", value);
     }
 
     public string SuperscriptSizeOverride
     {
-        get
-        {
-            string __res_9992;
-            string __res_9993 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscriptSizeOverride");
-            __res_9992 = __res_9993;
-            return __res_9992;
-        }
-        set
-        {
-            string __marshalledValue_9994;
-            __marshalledValue_9994 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscriptSizeOverride", __marshalledValue_9994);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "superscriptSizeOverride");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "superscriptSizeOverride", value);
     }
 
     public string Superscript_size_override
     {
-        get
-        {
-            string __res_9995;
-            string __res_9996 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "superscript-size-override");
-            __res_9995 = __res_9996;
-            return __res_9995;
-        }
-        set
-        {
-            string __marshalledValue_9997;
-            __marshalledValue_9997 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "superscript-size-override", __marshalledValue_9997);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "superscript-size-override");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "superscript-size-override", value);
     }
 
     public string SubscriptSizeOverride
     {
-        get
-        {
-            string __res_9998;
-            string __res_9999 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscriptSizeOverride");
-            __res_9998 = __res_9999;
-            return __res_9998;
-        }
-        set
-        {
-            string __marshalledValue_10000;
-            __marshalledValue_10000 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscriptSizeOverride", __marshalledValue_10000);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subscriptSizeOverride");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subscriptSizeOverride", value);
     }
 
     public string Subscript_size_override
     {
-        get
-        {
-            string __res_10001;
-            string __res_10002 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "subscript-size-override");
-            __res_10001 = __res_10002;
-            return __res_10001;
-        }
-        set
-        {
-            string __marshalledValue_10003;
-            __marshalledValue_10003 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "subscript-size-override", __marshalledValue_10003);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subscript-size-override");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "subscript-size-override", value);
     }
 }
 

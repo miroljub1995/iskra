@@ -8,57 +8,27 @@ public partial class XRVisibilityMaskChangeEvent(global::System.Runtime.InteropS
 {
     public global::Iskra.StdWeb.XRSession Session
     {
-        get
-        {
-            global::Iskra.StdWeb.XRSession __res_8956;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8957 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "session");
-            __res_8956 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSession>(__res_8957);
-            return __res_8956;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRSession, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "session");
     }
 
     public global::Iskra.StdWeb.XREye Eye
     {
-        get
-        {
-            global::Iskra.StdWeb.XREye __res_8958;
-            string __res_8959 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "eye");
-            __res_8958 = global::Iskra.StdWeb.XREye.Create(__res_8959);
-            return __res_8958;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XREye, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "eye");
     }
 
     public uint Index
     {
-        get
-        {
-            uint __res_8960;
-            double __res_8961 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_8960 = Convert.ToUInt32(__res_8961);
-            return __res_8960;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "index");
     }
 
     public global::Iskra.JSCore.Float32Array Vertices
     {
-        get
-        {
-            global::Iskra.JSCore.Float32Array __res_8962;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8963 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertices");
-            __res_8962 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_8963);
-            return __res_8962;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vertices");
     }
 
     public global::Iskra.JSCore.Uint32Array Indices
     {
-        get
-        {
-            global::Iskra.JSCore.Uint32Array __res_8964;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8965 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
-            __res_8964 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Uint32Array>(__res_8965);
-            return __res_8964;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Uint32Array, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "indices");
     }
 }
 

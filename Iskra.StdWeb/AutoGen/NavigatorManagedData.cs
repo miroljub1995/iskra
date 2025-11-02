@@ -13,35 +13,8 @@ public partial class NavigatorManagedData(global::System.Runtime.InteropServices
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onmanagedconfigurationchange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_7556;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7557 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmanagedconfigurationchange");
-            if (__res_7557 is null)
-            {
-                __res_7556 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7558 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7557;
-                __res_7556 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_7558);
-            }
-            return __res_7556;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_7559;
-            if (value is null)
-            {
-                __marshalledValue_7559 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_7560 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_7559 = __notNullable_7560.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmanagedconfigurationchange", __marshalledValue_7559);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onmanagedconfigurationchange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onmanagedconfigurationchange", value);
     }
 
     public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> GetAnnotatedAssetId()

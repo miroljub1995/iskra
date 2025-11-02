@@ -8,24 +8,12 @@ public partial class BufferedChangeEvent(global::System.Runtime.InteropServices.
 {
     public global::Iskra.StdWeb.TimeRanges AddedRanges
     {
-        get
-        {
-            global::Iskra.StdWeb.TimeRanges __res_16549;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16550 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "addedRanges");
-            __res_16549 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_16550);
-            return __res_16549;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.TimeRanges, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "addedRanges");
     }
 
     public global::Iskra.StdWeb.TimeRanges RemovedRanges
     {
-        get
-        {
-            global::Iskra.StdWeb.TimeRanges __res_16551;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16552 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "removedRanges");
-            __res_16551 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TimeRanges>(__res_16552);
-            return __res_16551;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.TimeRanges, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "removedRanges");
     }
 }
 

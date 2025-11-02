@@ -18,24 +18,12 @@ public partial class DataTransferItem(global::System.Runtime.InteropServices.Jav
 
     public string Kind
     {
-        get
-        {
-            string __res_13734;
-            string __res_13735 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "kind");
-            __res_13734 = __res_13735;
-            return __res_13734;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "kind");
     }
 
     public string Type
     {
-        get
-        {
-            string __res_13736;
-            string __res_13737 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_13736 = __res_13737;
-            return __res_13736;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public void GetAsString(global::Iskra.StdWeb.FunctionStringCallback? callback)

@@ -8,46 +8,22 @@ public partial class MimeType(global::System.Runtime.InteropServices.JavaScript.
 {
     public string Type
     {
-        get
-        {
-            string __res_15073;
-            string __res_15074 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_15073 = __res_15074;
-            return __res_15073;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public string Description
     {
-        get
-        {
-            string __res_15075;
-            string __res_15076 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
-            __res_15075 = __res_15076;
-            return __res_15075;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "description");
     }
 
     public string Suffixes
     {
-        get
-        {
-            string __res_15077;
-            string __res_15078 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "suffixes");
-            __res_15077 = __res_15078;
-            return __res_15077;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "suffixes");
     }
 
     public global::Iskra.StdWeb.Plugin EnabledPlugin
     {
-        get
-        {
-            global::Iskra.StdWeb.Plugin __res_15079;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_15080 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "enabledPlugin");
-            __res_15079 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Plugin>(__res_15080);
-            return __res_15079;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Plugin, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "enabledPlugin");
     }
 }
 

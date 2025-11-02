@@ -13,24 +13,12 @@ public partial class DigitalCredential(global::System.Runtime.InteropServices.Ja
 
     public string Protocol
     {
-        get
-        {
-            string __res_7550;
-            string __res_7551 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_7550 = __res_7551;
-            return __res_7550;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "protocol");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject Data
     {
-        get
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7552;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7553 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_7552 = __res_7553;
-            return __res_7552;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");
     }
 
     public static bool UserAgentAllowsProtocol(string protocol)

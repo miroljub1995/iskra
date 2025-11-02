@@ -8,24 +8,12 @@ public partial class NotificationEvent(global::System.Runtime.InteropServices.Ja
 {
     public global::Iskra.StdWeb.Notification Notification
     {
-        get
-        {
-            global::Iskra.StdWeb.Notification __res_9038;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9039 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "notification");
-            __res_9038 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Notification>(__res_9039);
-            return __res_9038;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Notification, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "notification");
     }
 
     public string Action
     {
-        get
-        {
-            string __res_9040;
-            string __res_9041 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "action");
-            __res_9040 = __res_9041;
-            return __res_9040;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "action");
     }
 }
 

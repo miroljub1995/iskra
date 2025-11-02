@@ -8,45 +8,17 @@ public partial class WritableStreamDefaultWriter(global::System.Runtime.InteropS
 {
     public global::Iskra.JSCore.Promise Closed
     {
-        get
-        {
-            global::Iskra.JSCore.Promise __res_2432;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2433;
-            __propObject_2433 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
-            __res_2432 = new global::Iskra.JSCore.Promise(__propObject_2433);
-            return __res_2432;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "closed");
     }
 
     public double? DesiredSize
     {
-        get
-        {
-            double? __res_2434;
-            double? __res_2435 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_2435 is null)
-            {
-                __res_2434 = null;
-            }
-            else
-            {
-                double __notNullable_2436 = (double)__res_2435;
-                __res_2434 = __notNullable_2436;
-            }
-            return __res_2434;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "desiredSize");
     }
 
     public global::Iskra.JSCore.Promise Ready
     {
-        get
-        {
-            global::Iskra.JSCore.Promise __res_2437;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_2438;
-            __propObject_2438 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
-            __res_2437 = new global::Iskra.JSCore.Promise(__propObject_2438);
-            return __res_2437;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ready");
     }
 
     public global::Iskra.JSCore.Promise Abort(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason)

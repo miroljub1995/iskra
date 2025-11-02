@@ -8,46 +8,22 @@ public partial class SVGLinearGradientElement(global::System.Runtime.InteropServ
 {
     public global::Iskra.StdWeb.SVGAnimatedLength X1
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1427;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1428 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x1");
-            __res_1427 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1428);
-            return __res_1427;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "x1");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength Y1
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1429;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1430 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y1");
-            __res_1429 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1430);
-            return __res_1429;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "y1");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength X2
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1431;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1432 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x2");
-            __res_1431 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1432);
-            return __res_1431;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "x2");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength Y2
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1433;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1434 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y2");
-            __res_1433 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1434);
-            return __res_1433;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "y2");
     }
 }
 

@@ -18,101 +18,47 @@ public partial class URLPattern(global::System.Runtime.InteropServices.JavaScrip
 
     public string Protocol
     {
-        get
-        {
-            string __res_3758;
-            string __res_3759 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "protocol");
-            __res_3758 = __res_3759;
-            return __res_3758;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "protocol");
     }
 
     public string Username
     {
-        get
-        {
-            string __res_3760;
-            string __res_3761 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "username");
-            __res_3760 = __res_3761;
-            return __res_3760;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "username");
     }
 
     public string Password
     {
-        get
-        {
-            string __res_3762;
-            string __res_3763 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "password");
-            __res_3762 = __res_3763;
-            return __res_3762;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "password");
     }
 
     public string Hostname
     {
-        get
-        {
-            string __res_3764;
-            string __res_3765 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hostname");
-            __res_3764 = __res_3765;
-            return __res_3764;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hostname");
     }
 
     public string Port
     {
-        get
-        {
-            string __res_3766;
-            string __res_3767 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "port");
-            __res_3766 = __res_3767;
-            return __res_3766;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "port");
     }
 
     public string Pathname
     {
-        get
-        {
-            string __res_3768;
-            string __res_3769 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pathname");
-            __res_3768 = __res_3769;
-            return __res_3768;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pathname");
     }
 
     public string Search
     {
-        get
-        {
-            string __res_3770;
-            string __res_3771 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "search");
-            __res_3770 = __res_3771;
-            return __res_3770;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "search");
     }
 
     public string Hash
     {
-        get
-        {
-            string __res_3772;
-            string __res_3773 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "hash");
-            __res_3772 = __res_3773;
-            return __res_3772;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hash");
     }
 
     public bool HasRegExpGroups
     {
-        get
-        {
-            bool __res_3774;
-            bool __res_3775 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "hasRegExpGroups");
-            __res_3774 = __res_3775;
-            return __res_3774;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hasRegExpGroups");
     }
 }
 

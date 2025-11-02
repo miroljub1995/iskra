@@ -8,21 +8,7 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
 {
     public global::Iskra.StdWeb.DataTransfer? DataTransfer
     {
-        get
-        {
-            global::Iskra.StdWeb.DataTransfer? __res_16914;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "dataTransfer");
-            if (__res_16915 is null)
-            {
-                __res_16914 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16916 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16915;
-                __res_16914 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransfer>(__notNullable_16916);
-            }
-            return __res_16914;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DataTransfer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "dataTransfer");
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.StaticRange, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetTargetRanges()
@@ -32,43 +18,17 @@ public partial class InputEvent(global::System.Runtime.InteropServices.JavaScrip
 
     public string? Data
     {
-        get
-        {
-            string? __res_16918;
-            string? __res_16919 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "data");
-            if (__res_16919 is null)
-            {
-                __res_16918 = null;
-            }
-            else
-            {
-                string __notNullable_16920 = (string)__res_16919;
-                __res_16918 = __notNullable_16920;
-            }
-            return __res_16918;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "data");
     }
 
     public bool IsComposing
     {
-        get
-        {
-            bool __res_16921;
-            bool __res_16922 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isComposing");
-            __res_16921 = __res_16922;
-            return __res_16921;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isComposing");
     }
 
     public string InputType
     {
-        get
-        {
-            string __res_16923;
-            string __res_16924 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "inputType");
-            __res_16923 = __res_16924;
-            return __res_16923;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inputType");
     }
 }
 

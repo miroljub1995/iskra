@@ -8,25 +8,12 @@ public partial class BackgroundFetchRecord(global::System.Runtime.InteropService
 {
     public global::Iskra.StdWeb.Request Request
     {
-        get
-        {
-            global::Iskra.StdWeb.Request __res_7542;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7543 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "request");
-            __res_7542 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Request>(__res_7543);
-            return __res_7542;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Request, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "request");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Response, global::Iskra.StdWeb.PropertyAccessor> ResponseReady
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Response, global::Iskra.StdWeb.PropertyAccessor> __res_7544;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_7545;
-            __propObject_7545 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "responseReady");
-            __res_7544 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Response, global::Iskra.StdWeb.PropertyAccessor>(__propObject_7545);
-            return __res_7544;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Response, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "responseReady");
     }
 }
 

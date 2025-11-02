@@ -8,103 +8,41 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
 {
     public global::Iskra.StdWeb.XRLayerLayout Layout
     {
-        get
-        {
-            global::Iskra.StdWeb.XRLayerLayout __res_3562;
-            string __res_3563 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "layout");
-            __res_3562 = global::Iskra.StdWeb.XRLayerLayout.Create(__res_3563);
-            return __res_3562;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRLayerLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "layout");
     }
 
     public bool BlendTextureSourceAlpha
     {
-        get
-        {
-            bool __res_3564;
-            bool __res_3565 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "blendTextureSourceAlpha");
-            __res_3564 = __res_3565;
-            return __res_3564;
-        }
-        set
-        {
-            bool __marshalledValue_3566;
-            __marshalledValue_3566 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "blendTextureSourceAlpha", __marshalledValue_3566);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "blendTextureSourceAlpha");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "blendTextureSourceAlpha", value);
     }
 
     public bool ForceMonoPresentation
     {
-        get
-        {
-            bool __res_3567;
-            bool __res_3568 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "forceMonoPresentation");
-            __res_3567 = __res_3568;
-            return __res_3567;
-        }
-        set
-        {
-            bool __marshalledValue_3569;
-            __marshalledValue_3569 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "forceMonoPresentation", __marshalledValue_3569);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "forceMonoPresentation");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "forceMonoPresentation", value);
     }
 
     public float Opacity
     {
-        get
-        {
-            float __res_3570;
-            double __res_3571 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "opacity");
-            __res_3570 = Convert.ToSingle(__res_3571);
-            return __res_3570;
-        }
-        set
-        {
-            double __marshalledValue_3572;
-            __marshalledValue_3572 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "opacity", __marshalledValue_3572);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "opacity");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "opacity", value);
     }
 
     public uint MipLevels
     {
-        get
-        {
-            uint __res_3573;
-            double __res_3574 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "mipLevels");
-            __res_3573 = Convert.ToUInt32(__res_3574);
-            return __res_3573;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mipLevels");
     }
 
     public global::Iskra.StdWeb.XRLayerQuality Quality
     {
-        get
-        {
-            global::Iskra.StdWeb.XRLayerQuality __res_3575;
-            string __res_3576 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "quality");
-            __res_3575 = global::Iskra.StdWeb.XRLayerQuality.Create(__res_3576);
-            return __res_3575;
-        }
-        set
-        {
-            string __marshalledValue_3577;
-            __marshalledValue_3577 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "quality", __marshalledValue_3577);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRLayerQuality, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "quality");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.XRLayerQuality, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "quality", value);
     }
 
     public bool NeedsRedraw
     {
-        get
-        {
-            bool __res_3578;
-            bool __res_3579 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "needsRedraw");
-            __res_3578 = __res_3579;
-            return __res_3578;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "needsRedraw");
     }
 
     public void Destroy()

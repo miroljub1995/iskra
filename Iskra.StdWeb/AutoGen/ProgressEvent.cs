@@ -8,35 +8,17 @@ public partial class ProgressEvent(global::System.Runtime.InteropServices.JavaSc
 {
     public bool LengthComputable
     {
-        get
-        {
-            bool __res_2273;
-            bool __res_2274 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "lengthComputable");
-            __res_2273 = __res_2274;
-            return __res_2273;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lengthComputable");
     }
 
     public double Loaded
     {
-        get
-        {
-            double __res_2275;
-            double __res_2276 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loaded");
-            __res_2275 = __res_2276;
-            return __res_2275;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loaded");
     }
 
     public double Total
     {
-        get
-        {
-            double __res_2277;
-            double __res_2278 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "total");
-            __res_2277 = __res_2278;
-            return __res_2277;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "total");
     }
 }
 

@@ -13,19 +13,8 @@ public partial class GPURenderBundleEncoder(global::System.Runtime.InteropServic
 
     public string Label
     {
-        get
-        {
-            string __res_1886;
-            string __res_1887 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1886 = __res_1887;
-            return __res_1886;
-        }
-        set
-        {
-            string __marshalledValue_1888;
-            __marshalledValue_1888 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1888);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label", value);
     }
 
     public void PushDebugGroup(string groupLabel)

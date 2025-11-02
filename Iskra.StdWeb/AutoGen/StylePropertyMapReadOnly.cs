@@ -23,13 +23,7 @@ public partial class StylePropertyMapReadOnly(global::System.Runtime.InteropServ
 
     public uint Size
     {
-        get
-        {
-            uint __res_45;
-            double __res_46 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_45 = Convert.ToUInt32(__res_46);
-            return __res_45;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size");
     }
 }
 

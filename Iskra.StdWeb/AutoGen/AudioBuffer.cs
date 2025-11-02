@@ -8,46 +8,22 @@ public partial class AudioBuffer(global::System.Runtime.InteropServices.JavaScri
 {
     public float SampleRate
     {
-        get
-        {
-            float __res_17158;
-            double __res_17159 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleRate");
-            __res_17158 = Convert.ToSingle(__res_17159);
-            return __res_17158;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampleRate");
     }
 
     public uint Length
     {
-        get
-        {
-            uint __res_17160;
-            double __res_17161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_17160 = Convert.ToUInt32(__res_17161);
-            return __res_17160;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public double Duration
     {
-        get
-        {
-            double __res_17162;
-            double __res_17163 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_17162 = __res_17163;
-            return __res_17162;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "duration");
     }
 
     public uint NumberOfChannels
     {
-        get
-        {
-            uint __res_17164;
-            double __res_17165 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfChannels");
-            __res_17164 = Convert.ToUInt32(__res_17165);
-            return __res_17164;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "numberOfChannels");
     }
 
     public global::Iskra.JSCore.Float32Array GetChannelData(uint channel)

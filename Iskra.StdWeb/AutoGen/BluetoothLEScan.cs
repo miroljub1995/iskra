@@ -8,47 +8,22 @@ public partial class BluetoothLEScan(global::System.Runtime.InteropServices.Java
 {
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Filters
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_9823;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9824;
-            __propObject_9824 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filters");
-            __res_9823 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9824);
-            return __res_9823;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScanFilter, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "filters");
     }
 
     public bool KeepRepeatedDevices
     {
-        get
-        {
-            bool __res_9825;
-            bool __res_9826 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "keepRepeatedDevices");
-            __res_9825 = __res_9826;
-            return __res_9825;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "keepRepeatedDevices");
     }
 
     public bool AcceptAllAdvertisements
     {
-        get
-        {
-            bool __res_9827;
-            bool __res_9828 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "acceptAllAdvertisements");
-            __res_9827 = __res_9828;
-            return __res_9827;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "acceptAllAdvertisements");
     }
 
     public bool Active
     {
-        get
-        {
-            bool __res_9829;
-            bool __res_9830 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
-            __res_9829 = __res_9830;
-            return __res_9829;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "active");
     }
 
     public void Stop()

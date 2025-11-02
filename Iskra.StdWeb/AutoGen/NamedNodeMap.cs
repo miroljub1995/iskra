@@ -8,13 +8,7 @@ public partial class NamedNodeMap(global::System.Runtime.InteropServices.JavaScr
 {
     public uint Length
     {
-        get
-        {
-            uint __res_7318;
-            double __res_7319 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_7318 = Convert.ToUInt32(__res_7319);
-            return __res_7318;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.Attr? Item(uint index)

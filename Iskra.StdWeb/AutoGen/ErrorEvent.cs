@@ -8,65 +8,27 @@ public partial class ErrorEvent(global::System.Runtime.InteropServices.JavaScrip
 {
     public string Message
     {
-        get
-        {
-            string __res_14831;
-            string __res_14832 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "message");
-            __res_14831 = __res_14832;
-            return __res_14831;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "message");
     }
 
     public string Filename
     {
-        get
-        {
-            string __res_14833;
-            string __res_14834 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
-            __res_14833 = __res_14834;
-            return __res_14833;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "filename");
     }
 
     public uint Lineno
     {
-        get
-        {
-            uint __res_14835;
-            double __res_14836 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lineno");
-            __res_14835 = Convert.ToUInt32(__res_14836);
-            return __res_14835;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lineno");
     }
 
     public uint Colno
     {
-        get
-        {
-            uint __res_14837;
-            double __res_14838 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "colno");
-            __res_14837 = Convert.ToUInt32(__res_14838);
-            return __res_14837;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colno");
     }
 
     public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Error
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_14839;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_14840;
-            __propObject_14840 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "error");
-            if (__propObject_14840 is null)
-            {
-                __res_14839 = null;
-            }
-            else
-            {
-                __res_14839 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_14840);
-            }
-            return __res_14839;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "error");
     }
 }
 

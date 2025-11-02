@@ -8,13 +8,7 @@ public partial class CSSFunctionDeclarations(global::System.Runtime.InteropServi
 {
     public global::Iskra.StdWeb.CSSFunctionDescriptors Style
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSFunctionDescriptors __res_26;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_27 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_26 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFunctionDescriptors>(__res_27);
-            return __res_26;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSFunctionDescriptors, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "style");
     }
 }
 

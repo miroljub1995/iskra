@@ -8,13 +8,7 @@ public partial class TextEvent(global::System.Runtime.InteropServices.JavaScript
 {
     public string Data
     {
-        get
-        {
-            string __res_16952;
-            string __res_16953 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "data");
-            __res_16952 = __res_16953;
-            return __res_16952;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");
     }
 
     public void InitTextEvent(string type, bool bubbles, bool cancelable, global::Iskra.StdWeb.Window? view, string data)

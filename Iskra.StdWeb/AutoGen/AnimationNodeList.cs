@@ -8,13 +8,7 @@ public partial class AnimationNodeList(global::System.Runtime.InteropServices.Ja
 {
     public uint Length
     {
-        get
-        {
-            uint __res_10507;
-            double __res_10508 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_10507 = Convert.ToUInt32(__res_10508);
-            return __res_10507;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.AnimationEffect? Item(uint index)

@@ -8,19 +8,8 @@ public partial class TestUnionProperties(global::System.Runtime.InteropServices.
 {
     public global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union> Value
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union> __res_306;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_307;
-            __propObject_307 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "value");
-            __res_306 = new global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>(__propObject_307);
-            return __res_306;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_308 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(JSObject, "value", __propObject_308);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>(JSObject, "value", value);
     }
 }
 

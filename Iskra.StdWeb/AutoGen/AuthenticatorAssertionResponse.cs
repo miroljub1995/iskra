@@ -8,43 +8,17 @@ public partial class AuthenticatorAssertionResponse(global::System.Runtime.Inter
 {
     public global::Iskra.JSCore.ArrayBuffer AuthenticatorData
     {
-        get
-        {
-            global::Iskra.JSCore.ArrayBuffer __res_5480;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5481 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "authenticatorData");
-            __res_5480 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_5481);
-            return __res_5480;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "authenticatorData");
     }
 
     public global::Iskra.JSCore.ArrayBuffer Signature
     {
-        get
-        {
-            global::Iskra.JSCore.ArrayBuffer __res_5482;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "signature");
-            __res_5482 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_5483);
-            return __res_5482;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "signature");
     }
 
     public global::Iskra.JSCore.ArrayBuffer? UserHandle
     {
-        get
-        {
-            global::Iskra.JSCore.ArrayBuffer? __res_5484;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "userHandle");
-            if (__res_5485 is null)
-            {
-                __res_5484 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5486 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5485;
-                __res_5484 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__notNullable_5486);
-            }
-            return __res_5484;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.ArrayBuffer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "userHandle");
     }
 }
 

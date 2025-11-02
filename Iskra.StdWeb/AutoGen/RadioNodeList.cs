@@ -8,19 +8,8 @@ public partial class RadioNodeList(global::System.Runtime.InteropServices.JavaSc
 {
     public string Value
     {
-        get
-        {
-            string __res_10557;
-            string __res_10558 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_10557 = __res_10558;
-            return __res_10557;
-        }
-        set
-        {
-            string __marshalledValue_10559;
-            __marshalledValue_10559 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_10559);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value", value);
     }
 }
 

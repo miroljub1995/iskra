@@ -23,35 +23,8 @@ public partial class Keyboard(global::System.Runtime.InteropServices.JavaScript.
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onlayoutchange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_5438;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5439 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange");
-            if (__res_5439 is null)
-            {
-                __res_5438 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5440 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5439;
-                __res_5438 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_5440);
-            }
-            return __res_5438;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5441;
-            if (value is null)
-            {
-                __marshalledValue_5441 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5442 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_5441 = __notNullable_5442.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onlayoutchange", __marshalledValue_5441);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onlayoutchange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onlayoutchange", value);
     }
 }
 

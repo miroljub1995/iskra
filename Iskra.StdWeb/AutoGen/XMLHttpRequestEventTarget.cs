@@ -8,233 +8,44 @@ public partial class XMLHttpRequestEventTarget(global::System.Runtime.InteropSer
 {
     public global::Iskra.StdWeb.EventHandlerNonNull? Onloadstart
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2189;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2190 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloadstart");
-            if (__res_2190 is null)
-            {
-                __res_2189 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2191 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2190;
-                __res_2189 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2191);
-            }
-            return __res_2189;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2192;
-            if (value is null)
-            {
-                __marshalledValue_2192 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2193 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2192 = __notNullable_2193.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onloadstart", __marshalledValue_2192);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onloadstart");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onloadstart", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onprogress
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2194;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2195 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress");
-            if (__res_2195 is null)
-            {
-                __res_2194 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2196 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2195;
-                __res_2194 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2196);
-            }
-            return __res_2194;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2197;
-            if (value is null)
-            {
-                __marshalledValue_2197 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2198 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2197 = __notNullable_2198.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onprogress", __marshalledValue_2197);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onprogress");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onprogress", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onabort
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2199;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2200 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onabort");
-            if (__res_2200 is null)
-            {
-                __res_2199 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2201 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2200;
-                __res_2199 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2201);
-            }
-            return __res_2199;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2202;
-            if (value is null)
-            {
-                __marshalledValue_2202 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2203 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2202 = __notNullable_2203.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onabort", __marshalledValue_2202);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onabort");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onabort", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2204;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2205 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_2205 is null)
-            {
-                __res_2204 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2206 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2205;
-                __res_2204 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2206);
-            }
-            return __res_2204;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2207;
-            if (value is null)
-            {
-                __marshalledValue_2207 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2208 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2207 = __notNullable_2208.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_2207);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onerror");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onerror", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onload
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2209;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2210 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onload");
-            if (__res_2210 is null)
-            {
-                __res_2209 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2211 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2210;
-                __res_2209 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2211);
-            }
-            return __res_2209;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2212;
-            if (value is null)
-            {
-                __marshalledValue_2212 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2213 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2212 = __notNullable_2213.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onload", __marshalledValue_2212);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onload");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onload", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Ontimeout
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2214;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2215 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ontimeout");
-            if (__res_2215 is null)
-            {
-                __res_2214 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2216 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2215;
-                __res_2214 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2216);
-            }
-            return __res_2214;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2217;
-            if (value is null)
-            {
-                __marshalledValue_2217 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2218 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2217 = __notNullable_2218.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ontimeout", __marshalledValue_2217);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ontimeout");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ontimeout", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onloadend
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2219;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2220 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloadend");
-            if (__res_2220 is null)
-            {
-                __res_2219 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2221 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2220;
-                __res_2219 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2221);
-            }
-            return __res_2219;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2222;
-            if (value is null)
-            {
-                __marshalledValue_2222 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2223 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2222 = __notNullable_2223.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onloadend", __marshalledValue_2222);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onloadend");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onloadend", value);
     }
 }
 

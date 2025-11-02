@@ -8,46 +8,22 @@ public partial class CSSColorProfileRule(global::System.Runtime.InteropServices.
 {
     public string Name
     {
-        get
-        {
-            string __res_4561;
-            string __res_4562 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4561 = __res_4562;
-            return __res_4561;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public string Src
     {
-        get
-        {
-            string __res_4563;
-            string __res_4564 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_4563 = __res_4564;
-            return __res_4563;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "src");
     }
 
     public string RenderingIntent
     {
-        get
-        {
-            string __res_4565;
-            string __res_4566 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "renderingIntent");
-            __res_4565 = __res_4566;
-            return __res_4565;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "renderingIntent");
     }
 
     public string Components
     {
-        get
-        {
-            string __res_4567;
-            string __res_4568 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "components");
-            __res_4567 = __res_4568;
-            return __res_4567;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "components");
     }
 }
 

@@ -1,14 +1,12 @@
-using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
+using Iskra.WebIDLGenerator.Utils;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class ArgumentsToArgsArrayGenerator(
-    IServiceProvider provider,
-    GeneratorContext generatorContext,
-    GenSettings genSettings
+    IServiceProvider provider
 )
 {
     public string Generate(
@@ -24,7 +22,7 @@ public class ArgumentsToArgsArrayGenerator(
 
         if (args.Count > 0)
         {
-            var argsArrayLength = generatorContext.GetNextVariableName("argsArrayLength");
+            var argsArrayLength = VariableName.Current.GetNext("argsArrayLength");
 
             if (args[^1].Variadic)
             {
@@ -55,8 +53,8 @@ public class ArgumentsToArgsArrayGenerator(
 
             if (i == args.Count - 1 && arg.Variadic)
             {
-                var indexVar = generatorContext.GetNextVariableName("i");
-                var elemVar = generatorContext.GetNextVariableName("elem");
+                var indexVar = VariableName.Current.GetNext("i");
+                var elemVar = VariableName.Current.GetNext("elem");
 
                 var setParamsProperty = setPropertyValueGenerator.Generate(
                     inputVar: $"{argsArrayVar}.JSObject",

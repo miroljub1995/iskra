@@ -8,98 +8,37 @@ public partial class HTMLTemplateElement(global::System.Runtime.InteropServices.
 {
     public global::Iskra.StdWeb.DocumentFragment Content
     {
-        get
-        {
-            global::Iskra.StdWeb.DocumentFragment __res_13009;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_13010 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "content");
-            __res_13009 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DocumentFragment>(__res_13010);
-            return __res_13009;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DocumentFragment, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "content");
     }
 
     public string ShadowRootMode
     {
-        get
-        {
-            string __res_13011;
-            string __res_13012 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shadowRootMode");
-            __res_13011 = __res_13012;
-            return __res_13011;
-        }
-        set
-        {
-            string __marshalledValue_13013;
-            __marshalledValue_13013 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shadowRootMode", __marshalledValue_13013);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootMode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootMode", value);
     }
 
     public bool ShadowRootDelegatesFocus
     {
-        get
-        {
-            bool __res_13014;
-            bool __res_13015 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootDelegatesFocus");
-            __res_13014 = __res_13015;
-            return __res_13014;
-        }
-        set
-        {
-            bool __marshalledValue_13016;
-            __marshalledValue_13016 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "shadowRootDelegatesFocus", __marshalledValue_13016);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootDelegatesFocus");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootDelegatesFocus", value);
     }
 
     public bool ShadowRootClonable
     {
-        get
-        {
-            bool __res_13017;
-            bool __res_13018 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootClonable");
-            __res_13017 = __res_13018;
-            return __res_13017;
-        }
-        set
-        {
-            bool __marshalledValue_13019;
-            __marshalledValue_13019 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "shadowRootClonable", __marshalledValue_13019);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootClonable");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootClonable", value);
     }
 
     public bool ShadowRootSerializable
     {
-        get
-        {
-            bool __res_13020;
-            bool __res_13021 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "shadowRootSerializable");
-            __res_13020 = __res_13021;
-            return __res_13020;
-        }
-        set
-        {
-            bool __marshalledValue_13022;
-            __marshalledValue_13022 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "shadowRootSerializable", __marshalledValue_13022);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootSerializable");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootSerializable", value);
     }
 
     public string ShadowRootCustomElementRegistry
     {
-        get
-        {
-            string __res_13023;
-            string __res_13024 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "shadowRootCustomElementRegistry");
-            __res_13023 = __res_13024;
-            return __res_13023;
-        }
-        set
-        {
-            string __marshalledValue_13025;
-            __marshalledValue_13025 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "shadowRootCustomElementRegistry", __marshalledValue_13025);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootCustomElementRegistry");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootCustomElementRegistry", value);
     }
 }
 

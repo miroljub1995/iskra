@@ -8,21 +8,7 @@ public partial class FocusEvent(global::System.Runtime.InteropServices.JavaScrip
 {
     public global::Iskra.StdWeb.EventTarget? RelatedTarget
     {
-        get
-        {
-            global::Iskra.StdWeb.EventTarget? __res_16858;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16859 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
-            if (__res_16859 is null)
-            {
-                __res_16858 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16860 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16859;
-                __res_16858 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_16860);
-            }
-            return __res_16858;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventTarget?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "relatedTarget");
     }
 }
 

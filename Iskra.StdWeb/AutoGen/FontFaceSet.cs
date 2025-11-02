@@ -23,101 +23,20 @@ public partial class FontFaceSet(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onloading
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4452;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4453 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloading");
-            if (__res_4453 is null)
-            {
-                __res_4452 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4454 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4453;
-                __res_4452 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4454);
-            }
-            return __res_4452;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4455;
-            if (value is null)
-            {
-                __marshalledValue_4455 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4456 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4455 = __notNullable_4456.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onloading", __marshalledValue_4455);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onloading");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onloading", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onloadingdone
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4457;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4458 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloadingdone");
-            if (__res_4458 is null)
-            {
-                __res_4457 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4459 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4458;
-                __res_4457 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4459);
-            }
-            return __res_4457;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4460;
-            if (value is null)
-            {
-                __marshalledValue_4460 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4461 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4460 = __notNullable_4461.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onloadingdone", __marshalledValue_4460);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onloadingdone");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onloadingdone", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onloadingerror
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_4462;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4463 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onloadingerror");
-            if (__res_4463 is null)
-            {
-                __res_4462 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_4464 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4463;
-                __res_4462 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_4464);
-            }
-            return __res_4462;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_4465;
-            if (value is null)
-            {
-                __marshalledValue_4465 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_4466 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_4465 = __notNullable_4466.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onloadingerror", __marshalledValue_4465);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onloadingerror");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onloadingerror", value);
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FontFace, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor> Load(string font, string text)
@@ -132,25 +51,12 @@ public partial class FontFaceSet(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FontFaceSet, global::Iskra.StdWeb.PropertyAccessor> Ready
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FontFaceSet, global::Iskra.StdWeb.PropertyAccessor> __res_4469;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_4470;
-            __propObject_4470 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
-            __res_4469 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FontFaceSet, global::Iskra.StdWeb.PropertyAccessor>(__propObject_4470);
-            return __res_4469;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FontFaceSet, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ready");
     }
 
     public global::Iskra.StdWeb.FontFaceSetLoadStatus Status
     {
-        get
-        {
-            global::Iskra.StdWeb.FontFaceSetLoadStatus __res_4471;
-            string __res_4472 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "status");
-            __res_4471 = global::Iskra.StdWeb.FontFaceSetLoadStatus.Create(__res_4472);
-            return __res_4471;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FontFaceSetLoadStatus, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "status");
     }
 }
 

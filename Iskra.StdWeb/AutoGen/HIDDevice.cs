@@ -8,91 +8,33 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
 {
     public global::Iskra.StdWeb.EventHandlerNonNull? Oninputreport
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3533;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3534 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport");
-            if (__res_3534 is null)
-            {
-                __res_3533 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3535 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3534;
-                __res_3533 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3535);
-            }
-            return __res_3533;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3536;
-            if (value is null)
-            {
-                __marshalledValue_3536 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3537 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3536 = __notNullable_3537.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oninputreport", __marshalledValue_3536);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oninputreport");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oninputreport", value);
     }
 
     public bool Opened
     {
-        get
-        {
-            bool __res_3538;
-            bool __res_3539 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "opened");
-            __res_3538 = __res_3539;
-            return __res_3538;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "opened");
     }
 
     public ushort VendorId
     {
-        get
-        {
-            ushort __res_3540;
-            double __res_3541 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "vendorId");
-            __res_3540 = Convert.ToUInt16(__res_3541);
-            return __res_3540;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vendorId");
     }
 
     public ushort ProductId
     {
-        get
-        {
-            ushort __res_3542;
-            double __res_3543 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "productId");
-            __res_3542 = Convert.ToUInt16(__res_3543);
-            return __res_3542;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "productId");
     }
 
     public string ProductName
     {
-        get
-        {
-            string __res_3544;
-            string __res_3545 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "productName");
-            __res_3544 = __res_3545;
-            return __res_3544;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "productName");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Collections
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3546;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3547;
-            __propObject_3547 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "collections");
-            __res_3546 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3547);
-            return __res_3546;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.HIDCollectionInfo, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "collections");
     }
 
     public global::Iskra.JSCore.Promise Open()

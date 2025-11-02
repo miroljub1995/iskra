@@ -8,24 +8,12 @@ public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript
 {
     public string Name
     {
-        get
-        {
-            string __res_5875;
-            string __res_5876 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5875 = __res_5876;
-            return __res_5875;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public bool Overset
     {
-        get
-        {
-            bool __res_5877;
-            bool __res_5878 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "overset");
-            __res_5877 = __res_5878;
-            return __res_5877;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "overset");
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetRegions()
@@ -35,13 +23,7 @@ public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript
 
     public short FirstEmptyRegionIndex
     {
-        get
-        {
-            short __res_5880;
-            double __res_5881 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "firstEmptyRegionIndex");
-            __res_5880 = Convert.ToInt16(__res_5881);
-            return __res_5880;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<short, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "firstEmptyRegionIndex");
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetContent()

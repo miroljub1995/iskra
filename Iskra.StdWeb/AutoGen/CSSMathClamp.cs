@@ -8,35 +8,17 @@ public partial class CSSMathClamp(global::System.Runtime.InteropServices.JavaScr
 {
     public global::Iskra.StdWeb.CSSNumericValue Lower
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSNumericValue __res_94;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_95 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "lower");
-            __res_94 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_95);
-            return __res_94;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lower");
     }
 
     public global::Iskra.StdWeb.CSSNumericValue Value
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSNumericValue __res_96;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_97 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_96 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_97);
-            return __res_96;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
     }
 
     public global::Iskra.StdWeb.CSSNumericValue Upper
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSNumericValue __res_98;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_99 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upper");
-            __res_98 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_99);
-            return __res_98;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "upper");
     }
 }
 

@@ -8,68 +8,32 @@ public partial class SVGRadialGradientElement(global::System.Runtime.InteropServ
 {
     public global::Iskra.StdWeb.SVGAnimatedLength Cx
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1435;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1436 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cx");
-            __res_1435 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1436);
-            return __res_1435;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cx");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength Cy
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1437;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1438 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cy");
-            __res_1437 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1438);
-            return __res_1437;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cy");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength R
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1439;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1440 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "r");
-            __res_1439 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1440);
-            return __res_1439;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "r");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength Fx
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1441;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1442 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fx");
-            __res_1441 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1442);
-            return __res_1441;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fx");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength Fy
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1443;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1444 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fy");
-            __res_1443 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1444);
-            return __res_1443;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fy");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength Fr
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1445;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1446 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "fr");
-            __res_1445 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1446);
-            return __res_1445;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fr");
     }
 }
 

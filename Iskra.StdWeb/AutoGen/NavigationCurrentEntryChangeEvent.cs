@@ -8,32 +8,12 @@ public partial class NavigationCurrentEntryChangeEvent(global::System.Runtime.In
 {
     public global::Iskra.StdWeb.NavigationType? NavigationType
     {
-        get
-        {
-            global::Iskra.StdWeb.NavigationType? __res_14784;
-            string? __res_14785 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "navigationType");
-            if (__res_14785 is null)
-            {
-                __res_14784 = null;
-            }
-            else
-            {
-                string __notNullable_14786 = (string)__res_14785;
-                __res_14784 = global::Iskra.StdWeb.NavigationType.Create(__notNullable_14786);
-            }
-            return __res_14784;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NavigationType?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "navigationType");
     }
 
     public global::Iskra.StdWeb.NavigationHistoryEntry From
     {
-        get
-        {
-            global::Iskra.StdWeb.NavigationHistoryEntry __res_14787;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_14788 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "from");
-            __res_14787 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(__res_14788);
-            return __res_14787;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NavigationHistoryEntry, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "from");
     }
 }
 

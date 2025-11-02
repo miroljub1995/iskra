@@ -8,43 +8,17 @@ public partial class LayoutShiftAttribution(global::System.Runtime.InteropServic
 {
     public global::Iskra.StdWeb.Node? Node
     {
-        get
-        {
-            global::Iskra.StdWeb.Node? __res_5789;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5790 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "node");
-            if (__res_5790 is null)
-            {
-                __res_5789 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5791 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5790;
-                __res_5789 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_5791);
-            }
-            return __res_5789;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "node");
     }
 
     public global::Iskra.StdWeb.DOMRectReadOnly PreviousRect
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMRectReadOnly __res_5792;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5793 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "previousRect");
-            __res_5792 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_5793);
-            return __res_5792;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRectReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "previousRect");
     }
 
     public global::Iskra.StdWeb.DOMRectReadOnly CurrentRect
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMRectReadOnly __res_5794;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5795 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentRect");
-            __res_5794 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_5795);
-            return __res_5794;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRectReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "currentRect");
     }
 }
 

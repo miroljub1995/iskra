@@ -8,41 +8,18 @@ public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.
 {
     public global::Iskra.StdWeb.WritableStream Writable
     {
-        get
-        {
-            global::Iskra.StdWeb.WritableStream __res_355;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_356 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "writable");
-            __res_355 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(__res_356);
-            return __res_355;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WritableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "writable");
     }
 
     public bool Muted
     {
-        get
-        {
-            bool __res_357;
-            bool __res_358 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "muted");
-            __res_357 = __res_358;
-            return __res_357;
-        }
-        set
-        {
-            bool __marshalledValue_359;
-            __marshalledValue_359 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "muted", __marshalledValue_359);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "muted");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "muted", value);
     }
 
     public global::Iskra.StdWeb.MediaStreamTrack Track
     {
-        get
-        {
-            global::Iskra.StdWeb.MediaStreamTrack __res_360;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_361 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "track");
-            __res_360 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStreamTrack>(__res_361);
-            return __res_360;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "track");
     }
 }
 

@@ -48,19 +48,8 @@ public partial class GPURenderPassEncoder(global::System.Runtime.InteropServices
 
     public string Label
     {
-        get
-        {
-            string __res_1867;
-            string __res_1868 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1867 = __res_1868;
-            return __res_1867;
-        }
-        set
-        {
-            string __marshalledValue_1869;
-            __marshalledValue_1869 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1869);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label", value);
     }
 
     public void PushDebugGroup(string groupLabel)

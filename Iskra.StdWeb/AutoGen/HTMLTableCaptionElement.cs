@@ -8,19 +8,8 @@ public partial class HTMLTableCaptionElement(global::System.Runtime.InteropServi
 {
     public string Align
     {
-        get
-        {
-            string __res_12286;
-            string __res_12287 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_12286 = __res_12287;
-            return __res_12286;
-        }
-        set
-        {
-            string __marshalledValue_12288;
-            __marshalledValue_12288 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_12288);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align", value);
     }
 }
 

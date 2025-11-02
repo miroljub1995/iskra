@@ -8,24 +8,12 @@ public partial class Blob(global::System.Runtime.InteropServices.JavaScript.JSOb
 {
     public ulong Size
     {
-        get
-        {
-            ulong __res_16957;
-            double __res_16958 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_16957 = Convert.ToUInt64(__res_16958);
-            return __res_16957;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size");
     }
 
     public string Type
     {
-        get
-        {
-            string __res_16959;
-            string __res_16960 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_16959 = __res_16960;
-            return __res_16959;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public global::Iskra.StdWeb.Blob Slice(long start, long end, string contentType)

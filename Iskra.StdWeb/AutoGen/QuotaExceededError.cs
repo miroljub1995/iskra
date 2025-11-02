@@ -8,40 +8,12 @@ public partial class QuotaExceededError(global::System.Runtime.InteropServices.J
 {
     public double? Quota
     {
-        get
-        {
-            double? __res_7574;
-            double? __res_7575 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "quota");
-            if (__res_7575 is null)
-            {
-                __res_7574 = null;
-            }
-            else
-            {
-                double __notNullable_7576 = (double)__res_7575;
-                __res_7574 = __notNullable_7576;
-            }
-            return __res_7574;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "quota");
     }
 
     public double? Requested
     {
-        get
-        {
-            double? __res_7577;
-            double? __res_7578 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "requested");
-            if (__res_7578 is null)
-            {
-                __res_7577 = null;
-            }
-            else
-            {
-                double __notNullable_7579 = (double)__res_7578;
-                __res_7577 = __notNullable_7579;
-            }
-            return __res_7577;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "requested");
     }
 }
 

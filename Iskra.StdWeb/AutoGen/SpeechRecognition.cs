@@ -8,121 +8,44 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
 {
     public global::Iskra.StdWeb.SpeechGrammarList Grammars
     {
-        get
-        {
-            global::Iskra.StdWeb.SpeechGrammarList __res_8384;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8385 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "grammars");
-            __res_8384 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechGrammarList>(__res_8385);
-            return __res_8384;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_8386;
-            __marshalledValue_8386 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "grammars", __marshalledValue_8386);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SpeechGrammarList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "grammars");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.SpeechGrammarList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "grammars", value);
     }
 
     public string Lang
     {
-        get
-        {
-            string __res_8387;
-            string __res_8388 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "lang");
-            __res_8387 = __res_8388;
-            return __res_8387;
-        }
-        set
-        {
-            string __marshalledValue_8389;
-            __marshalledValue_8389 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "lang", __marshalledValue_8389);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lang");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lang", value);
     }
 
     public bool Continuous
     {
-        get
-        {
-            bool __res_8390;
-            bool __res_8391 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "continuous");
-            __res_8390 = __res_8391;
-            return __res_8390;
-        }
-        set
-        {
-            bool __marshalledValue_8392;
-            __marshalledValue_8392 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "continuous", __marshalledValue_8392);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "continuous");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "continuous", value);
     }
 
     public bool InterimResults
     {
-        get
-        {
-            bool __res_8393;
-            bool __res_8394 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "interimResults");
-            __res_8393 = __res_8394;
-            return __res_8393;
-        }
-        set
-        {
-            bool __marshalledValue_8395;
-            __marshalledValue_8395 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "interimResults", __marshalledValue_8395);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "interimResults");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "interimResults", value);
     }
 
     public uint MaxAlternatives
     {
-        get
-        {
-            uint __res_8396;
-            double __res_8397 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxAlternatives");
-            __res_8396 = Convert.ToUInt32(__res_8397);
-            return __res_8396;
-        }
-        set
-        {
-            double __marshalledValue_8398;
-            __marshalledValue_8398 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "maxAlternatives", __marshalledValue_8398);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxAlternatives");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxAlternatives", value);
     }
 
     public bool ProcessLocally
     {
-        get
-        {
-            bool __res_8399;
-            bool __res_8400 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "processLocally");
-            __res_8399 = __res_8400;
-            return __res_8399;
-        }
-        set
-        {
-            bool __marshalledValue_8401;
-            __marshalledValue_8401 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "processLocally", __marshalledValue_8401);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "processLocally");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "processLocally", value);
     }
 
     public global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.StdWeb.SpeechRecognitionPhrase, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Phrases
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.StdWeb.SpeechRecognitionPhrase, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8402;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8403;
-            __propObject_8403 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "phrases");
-            __res_8402 = new global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.StdWeb.SpeechRecognitionPhrase, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8403);
-            return __res_8402;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8404 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "phrases", __propObject_8404);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.StdWeb.SpeechRecognitionPhrase, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "phrases");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.ObservableArray<global::Iskra.StdWeb.SpeechRecognitionPhrase, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "phrases", value);
     }
 
     public void Start()
@@ -157,365 +80,68 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onaudiostart
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8411;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8412 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudiostart");
-            if (__res_8412 is null)
-            {
-                __res_8411 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8413 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8412;
-                __res_8411 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8413);
-            }
-            return __res_8411;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8414;
-            if (value is null)
-            {
-                __marshalledValue_8414 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8415 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8414 = __notNullable_8415.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudiostart", __marshalledValue_8414);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaudiostart");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaudiostart", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onsoundstart
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8416;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8417 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsoundstart");
-            if (__res_8417 is null)
-            {
-                __res_8416 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8418 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8417;
-                __res_8416 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8418);
-            }
-            return __res_8416;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8419;
-            if (value is null)
-            {
-                __marshalledValue_8419 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8420 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8419 = __notNullable_8420.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsoundstart", __marshalledValue_8419);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onsoundstart");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onsoundstart", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onspeechstart
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8421;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8422 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onspeechstart");
-            if (__res_8422 is null)
-            {
-                __res_8421 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8423 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8422;
-                __res_8421 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8423);
-            }
-            return __res_8421;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8424;
-            if (value is null)
-            {
-                __marshalledValue_8424 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8425 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8424 = __notNullable_8425.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onspeechstart", __marshalledValue_8424);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onspeechstart");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onspeechstart", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onspeechend
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8426;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8427 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onspeechend");
-            if (__res_8427 is null)
-            {
-                __res_8426 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8428 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8427;
-                __res_8426 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8428);
-            }
-            return __res_8426;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8429;
-            if (value is null)
-            {
-                __marshalledValue_8429 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8430 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8429 = __notNullable_8430.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onspeechend", __marshalledValue_8429);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onspeechend");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onspeechend", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onsoundend
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8431;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8432 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onsoundend");
-            if (__res_8432 is null)
-            {
-                __res_8431 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8433 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8432;
-                __res_8431 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8433);
-            }
-            return __res_8431;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8434;
-            if (value is null)
-            {
-                __marshalledValue_8434 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8435 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8434 = __notNullable_8435.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onsoundend", __marshalledValue_8434);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onsoundend");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onsoundend", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onaudioend
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8436;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8437 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioend");
-            if (__res_8437 is null)
-            {
-                __res_8436 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8438 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8437;
-                __res_8436 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8438);
-            }
-            return __res_8436;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8439;
-            if (value is null)
-            {
-                __marshalledValue_8439 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8440 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8439 = __notNullable_8440.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioend", __marshalledValue_8439);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaudioend");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaudioend", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onresult
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8441;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8442 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresult");
-            if (__res_8442 is null)
-            {
-                __res_8441 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8443 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8442;
-                __res_8441 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8443);
-            }
-            return __res_8441;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8444;
-            if (value is null)
-            {
-                __marshalledValue_8444 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8445 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8444 = __notNullable_8445.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onresult", __marshalledValue_8444);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onresult");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onresult", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onnomatch
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8446;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8447 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onnomatch");
-            if (__res_8447 is null)
-            {
-                __res_8446 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8448 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8447;
-                __res_8446 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8448);
-            }
-            return __res_8446;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8449;
-            if (value is null)
-            {
-                __marshalledValue_8449 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8450 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8449 = __notNullable_8450.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onnomatch", __marshalledValue_8449);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onnomatch");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onnomatch", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8451;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8452 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_8452 is null)
-            {
-                __res_8451 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8453 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8452;
-                __res_8451 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8453);
-            }
-            return __res_8451;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8454;
-            if (value is null)
-            {
-                __marshalledValue_8454 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8455 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8454 = __notNullable_8455.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_8454);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onerror");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onerror", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onstart
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8456;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8457 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onstart");
-            if (__res_8457 is null)
-            {
-                __res_8456 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8458 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8457;
-                __res_8456 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8458);
-            }
-            return __res_8456;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8459;
-            if (value is null)
-            {
-                __marshalledValue_8459 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8460 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8459 = __notNullable_8460.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onstart", __marshalledValue_8459);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onstart");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onstart", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onend
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8461;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8462 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onend");
-            if (__res_8462 is null)
-            {
-                __res_8461 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8463 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8462;
-                __res_8461 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8463);
-            }
-            return __res_8461;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8464;
-            if (value is null)
-            {
-                __marshalledValue_8464 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8465 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8464 = __notNullable_8465.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onend", __marshalledValue_8464);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onend");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onend", value);
     }
 }
 

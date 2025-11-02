@@ -8,24 +8,12 @@ public partial class CaretPosition(global::System.Runtime.InteropServices.JavaSc
 {
     public global::Iskra.StdWeb.Node OffsetNode
     {
-        get
-        {
-            global::Iskra.StdWeb.Node __res_3869;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3870 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "offsetNode");
-            __res_3869 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3870);
-            return __res_3869;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "offsetNode");
     }
 
     public uint Offset
     {
-        get
-        {
-            uint __res_3871;
-            double __res_3872 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "offset");
-            __res_3871 = Convert.ToUInt32(__res_3872);
-            return __res_3871;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "offset");
     }
 
     public global::Iskra.StdWeb.DOMRect? GetClientRect()

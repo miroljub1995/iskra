@@ -8,32 +8,12 @@ public partial class CommandEvent(global::System.Runtime.InteropServices.JavaScr
 {
     public global::Iskra.StdWeb.Element? Source
     {
-        get
-        {
-            global::Iskra.StdWeb.Element? __res_13691;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13692 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "source");
-            if (__res_13692 is null)
-            {
-                __res_13691 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13693 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13692;
-                __res_13691 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_13693);
-            }
-            return __res_13691;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "source");
     }
 
     public string Command
     {
-        get
-        {
-            string __res_13694;
-            string __res_13695 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "command");
-            __res_13694 = __res_13695;
-            return __res_13694;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "command");
     }
 }
 

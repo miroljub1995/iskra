@@ -8,81 +8,34 @@ public partial class WebGLRenderingContext(global::System.Runtime.InteropService
 {
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> Canvas
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union> __res_1982;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1983;
-            __propObject_1983 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "canvas");
-            __res_1982 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_1983);
-            return __res_1982;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "canvas");
     }
 
     public int DrawingBufferWidth
     {
-        get
-        {
-            int __res_1984;
-            double __res_1985 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferWidth");
-            __res_1984 = Convert.ToInt32(__res_1985);
-            return __res_1984;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "drawingBufferWidth");
     }
 
     public int DrawingBufferHeight
     {
-        get
-        {
-            int __res_1986;
-            double __res_1987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferHeight");
-            __res_1986 = Convert.ToInt32(__res_1987);
-            return __res_1986;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "drawingBufferHeight");
     }
 
     public uint DrawingBufferFormat
     {
-        get
-        {
-            uint __res_1988;
-            double __res_1989 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "drawingBufferFormat");
-            __res_1988 = Convert.ToUInt32(__res_1989);
-            return __res_1988;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "drawingBufferFormat");
     }
 
     public global::Iskra.StdWeb.PredefinedColorSpace DrawingBufferColorSpace
     {
-        get
-        {
-            global::Iskra.StdWeb.PredefinedColorSpace __res_1990;
-            string __res_1991 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "drawingBufferColorSpace");
-            __res_1990 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1991);
-            return __res_1990;
-        }
-        set
-        {
-            string __marshalledValue_1992;
-            __marshalledValue_1992 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "drawingBufferColorSpace", __marshalledValue_1992);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PredefinedColorSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "drawingBufferColorSpace");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.PredefinedColorSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "drawingBufferColorSpace", value);
     }
 
     public global::Iskra.StdWeb.PredefinedColorSpace UnpackColorSpace
     {
-        get
-        {
-            global::Iskra.StdWeb.PredefinedColorSpace __res_1993;
-            string __res_1994 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "unpackColorSpace");
-            __res_1993 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_1994);
-            return __res_1993;
-        }
-        set
-        {
-            string __marshalledValue_1995;
-            __marshalledValue_1995 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "unpackColorSpace", __marshalledValue_1995);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PredefinedColorSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unpackColorSpace");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.PredefinedColorSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unpackColorSpace", value);
     }
 
     public global::Iskra.StdWeb.WebGLContextAttributes? GetContextAttributes()

@@ -8,35 +8,17 @@ public partial class PerformanceServerTiming(global::System.Runtime.InteropServi
 {
     public string Name
     {
-        get
-        {
-            string __res_1610;
-            string __res_1611 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_1610 = __res_1611;
-            return __res_1610;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public double Duration
     {
-        get
-        {
-            double __res_1612;
-            double __res_1613 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_1612 = __res_1613;
-            return __res_1612;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "duration");
     }
 
     public string Description
     {
-        get
-        {
-            string __res_1614;
-            string __res_1615 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
-            __res_1614 = __res_1615;
-            return __res_1614;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "description");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

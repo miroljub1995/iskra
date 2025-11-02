@@ -8,21 +8,7 @@ public partial class TransformStreamDefaultController(global::System.Runtime.Int
 {
     public double? DesiredSize
     {
-        get
-        {
-            double? __res_2509;
-            double? __res_2510 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "desiredSize");
-            if (__res_2510 is null)
-            {
-                __res_2509 = null;
-            }
-            else
-            {
-                double __notNullable_2511 = (double)__res_2510;
-                __res_2509 = __notNullable_2511;
-            }
-            return __res_2509;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "desiredSize");
     }
 
     public void Enqueue(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? chunk)

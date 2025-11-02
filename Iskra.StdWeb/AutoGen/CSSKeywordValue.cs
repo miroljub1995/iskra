@@ -8,19 +8,8 @@ public partial class CSSKeywordValue(global::System.Runtime.InteropServices.Java
 {
     public string Value
     {
-        get
-        {
-            string __res_61;
-            string __res_62 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "value");
-            __res_61 = __res_62;
-            return __res_61;
-        }
-        set
-        {
-            string __marshalledValue_63;
-            __marshalledValue_63 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "value", __marshalledValue_63);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value", value);
     }
 }
 

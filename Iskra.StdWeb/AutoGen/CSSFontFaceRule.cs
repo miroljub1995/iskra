@@ -8,13 +8,7 @@ public partial class CSSFontFaceRule(global::System.Runtime.InteropServices.Java
 {
     public global::Iskra.StdWeb.CSSFontFaceDescriptors Style
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSFontFaceDescriptors __res_10004;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10005 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_10004 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSFontFaceDescriptors>(__res_10005);
-            return __res_10004;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSFontFaceDescriptors, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "style");
     }
 }
 

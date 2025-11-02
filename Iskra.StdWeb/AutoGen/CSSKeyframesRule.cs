@@ -8,41 +8,18 @@ public partial class CSSKeyframesRule(global::System.Runtime.InteropServices.Jav
 {
     public string Name
     {
-        get
-        {
-            string __res_5769;
-            string __res_5770 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_5769 = __res_5770;
-            return __res_5769;
-        }
-        set
-        {
-            string __marshalledValue_5771;
-            __marshalledValue_5771 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_5771);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name", value);
     }
 
     public global::Iskra.StdWeb.CSSRuleList CssRules
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSRuleList __res_5772;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5773 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cssRules");
-            __res_5772 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRuleList>(__res_5773);
-            return __res_5772;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSRuleList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cssRules");
     }
 
     public uint Length
     {
-        get
-        {
-            uint __res_5774;
-            double __res_5775 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_5774 = Convert.ToUInt32(__res_5775);
-            return __res_5774;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.CSSKeyframeRule Get(uint index)

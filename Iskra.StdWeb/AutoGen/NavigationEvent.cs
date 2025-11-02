@@ -8,32 +8,12 @@ public partial class NavigationEvent(global::System.Runtime.InteropServices.Java
 {
     public global::Iskra.StdWeb.SpatialNavigationDirection Dir
     {
-        get
-        {
-            global::Iskra.StdWeb.SpatialNavigationDirection __res_10433;
-            string __res_10434 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dir");
-            __res_10433 = global::Iskra.StdWeb.SpatialNavigationDirection.Create(__res_10434);
-            return __res_10433;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SpatialNavigationDirection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dir");
     }
 
     public global::Iskra.StdWeb.EventTarget? RelatedTarget
     {
-        get
-        {
-            global::Iskra.StdWeb.EventTarget? __res_10435;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10436 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "relatedTarget");
-            if (__res_10436 is null)
-            {
-                __res_10435 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10437 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10436;
-                __res_10435 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventTarget>(__notNullable_10437);
-            }
-            return __res_10435;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventTarget?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "relatedTarget");
     }
 }
 

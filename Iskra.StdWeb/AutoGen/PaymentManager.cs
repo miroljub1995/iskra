@@ -8,19 +8,8 @@ public partial class PaymentManager(global::System.Runtime.InteropServices.JavaS
 {
     public string UserHint
     {
-        get
-        {
-            string __res_1931;
-            string __res_1932 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "userHint");
-            __res_1931 = __res_1932;
-            return __res_1931;
-        }
-        set
-        {
-            string __marshalledValue_1933;
-            __marshalledValue_1933 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "userHint", __marshalledValue_1933);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "userHint");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "userHint", value);
     }
 
     public global::Iskra.JSCore.Promise EnableDelegations(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PaymentDelegation, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> delegations)

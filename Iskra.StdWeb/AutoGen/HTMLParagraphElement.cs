@@ -8,19 +8,8 @@ public partial class HTMLParagraphElement(global::System.Runtime.InteropServices
 {
     public string Align
     {
-        get
-        {
-            string __res_11442;
-            string __res_11443 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_11442 = __res_11443;
-            return __res_11442;
-        }
-        set
-        {
-            string __marshalledValue_11444;
-            __marshalledValue_11444 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_11444);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align", value);
     }
 }
 

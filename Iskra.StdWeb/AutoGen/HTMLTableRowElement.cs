@@ -8,35 +8,17 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
 {
     public int RowIndex
     {
-        get
-        {
-            int __res_12323;
-            double __res_12324 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rowIndex");
-            __res_12323 = Convert.ToInt32(__res_12324);
-            return __res_12323;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rowIndex");
     }
 
     public int SectionRowIndex
     {
-        get
-        {
-            int __res_12325;
-            double __res_12326 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sectionRowIndex");
-            __res_12325 = Convert.ToInt32(__res_12326);
-            return __res_12325;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sectionRowIndex");
     }
 
     public global::Iskra.StdWeb.HTMLCollection Cells
     {
-        get
-        {
-            global::Iskra.StdWeb.HTMLCollection __res_12327;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12328 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "cells");
-            __res_12327 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLCollection>(__res_12328);
-            return __res_12327;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cells");
     }
 
     public global::Iskra.StdWeb.HTMLTableCellElement InsertCell(int index)
@@ -51,87 +33,32 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
 
     public string Align
     {
-        get
-        {
-            string __res_12331;
-            string __res_12332 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "align");
-            __res_12331 = __res_12332;
-            return __res_12331;
-        }
-        set
-        {
-            string __marshalledValue_12333;
-            __marshalledValue_12333 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "align", __marshalledValue_12333);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align", value);
     }
 
     public string Ch
     {
-        get
-        {
-            string __res_12334;
-            string __res_12335 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "ch");
-            __res_12334 = __res_12335;
-            return __res_12334;
-        }
-        set
-        {
-            string __marshalledValue_12336;
-            __marshalledValue_12336 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "ch", __marshalledValue_12336);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ch");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ch", value);
     }
 
     public string ChOff
     {
-        get
-        {
-            string __res_12337;
-            string __res_12338 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "chOff");
-            __res_12337 = __res_12338;
-            return __res_12337;
-        }
-        set
-        {
-            string __marshalledValue_12339;
-            __marshalledValue_12339 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "chOff", __marshalledValue_12339);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "chOff");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "chOff", value);
     }
 
     public string VAlign
     {
-        get
-        {
-            string __res_12340;
-            string __res_12341 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "vAlign");
-            __res_12340 = __res_12341;
-            return __res_12340;
-        }
-        set
-        {
-            string __marshalledValue_12342;
-            __marshalledValue_12342 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "vAlign", __marshalledValue_12342);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vAlign");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vAlign", value);
     }
 
     public string BgColor
     {
-        get
-        {
-            string __res_12343;
-            string __res_12344 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "bgColor");
-            __res_12343 = __res_12344;
-            return __res_12343;
-        }
-        set
-        {
-            string __marshalledValue_12345;
-            __marshalledValue_12345 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "bgColor", __marshalledValue_12345);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bgColor");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bgColor", value);
     }
 }
 

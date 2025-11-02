@@ -8,57 +8,27 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
 {
     public bool IsFile
     {
-        get
-        {
-            bool __res_3338;
-            bool __res_3339 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFile");
-            __res_3338 = __res_3339;
-            return __res_3338;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isFile");
     }
 
     public bool IsDirectory
     {
-        get
-        {
-            bool __res_3340;
-            bool __res_3341 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isDirectory");
-            __res_3340 = __res_3341;
-            return __res_3340;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isDirectory");
     }
 
     public string Name
     {
-        get
-        {
-            string __res_3342;
-            string __res_3343 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_3342 = __res_3343;
-            return __res_3342;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public string FullPath
     {
-        get
-        {
-            string __res_3344;
-            string __res_3345 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fullPath");
-            __res_3344 = __res_3345;
-            return __res_3344;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fullPath");
     }
 
     public global::Iskra.StdWeb.FileSystem Filesystem
     {
-        get
-        {
-            global::Iskra.StdWeb.FileSystem __res_3346;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3347 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "filesystem");
-            __res_3346 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FileSystem>(__res_3347);
-            return __res_3346;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FileSystem, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "filesystem");
     }
 
     public void GetParent(global::Iskra.StdWeb.FileSystemEntryCallback successCallback, global::Iskra.StdWeb.ErrorCallback errorCallback)

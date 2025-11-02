@@ -8,46 +8,13 @@ public partial class ScriptProcessorNode(global::System.Runtime.InteropServices.
 {
     public global::Iskra.StdWeb.EventHandlerNonNull? Onaudioprocess
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_17375;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_17376 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess");
-            if (__res_17376 is null)
-            {
-                __res_17375 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_17377 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_17376;
-                __res_17375 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_17377);
-            }
-            return __res_17375;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_17378;
-            if (value is null)
-            {
-                __marshalledValue_17378 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_17379 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_17378 = __notNullable_17379.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaudioprocess", __marshalledValue_17378);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaudioprocess");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaudioprocess", value);
     }
 
     public int BufferSize
     {
-        get
-        {
-            int __res_17380;
-            double __res_17381 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "bufferSize");
-            __res_17380 = Convert.ToInt32(__res_17381);
-            return __res_17380;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bufferSize");
     }
 }
 

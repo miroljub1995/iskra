@@ -8,24 +8,12 @@ public partial class SVGTransformList(global::System.Runtime.InteropServices.Jav
 {
     public uint Length
     {
-        get
-        {
-            uint __res_1258;
-            double __res_1259 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_1258 = Convert.ToUInt32(__res_1259);
-            return __res_1258;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public uint NumberOfItems
     {
-        get
-        {
-            uint __res_1260;
-            double __res_1261 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_1260 = Convert.ToUInt32(__res_1261);
-            return __res_1260;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "numberOfItems");
     }
 
     public void Clear()

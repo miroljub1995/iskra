@@ -8,13 +8,7 @@ public partial class Storage(global::System.Runtime.InteropServices.JavaScript.J
 {
     public uint Length
     {
-        get
-        {
-            uint __res_15380;
-            double __res_15381 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_15380 = Convert.ToUInt32(__res_15381);
-            return __res_15380;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public string? Key(uint index)

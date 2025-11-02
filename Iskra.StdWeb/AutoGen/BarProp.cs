@@ -8,13 +8,7 @@ public partial class BarProp(global::System.Runtime.InteropServices.JavaScript.J
 {
     public bool Visible
     {
-        get
-        {
-            bool __res_14604;
-            bool __res_14605 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "visible");
-            __res_14604 = __res_14605;
-            return __res_14604;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "visible");
     }
 }
 

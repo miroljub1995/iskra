@@ -8,142 +8,62 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
 {
     public double UnloadEventStart
     {
-        get
-        {
-            double __res_3252;
-            double __res_3253 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventStart");
-            __res_3252 = __res_3253;
-            return __res_3252;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unloadEventStart");
     }
 
     public double UnloadEventEnd
     {
-        get
-        {
-            double __res_3254;
-            double __res_3255 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "unloadEventEnd");
-            __res_3254 = __res_3255;
-            return __res_3254;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unloadEventEnd");
     }
 
     public double DomInteractive
     {
-        get
-        {
-            double __res_3256;
-            double __res_3257 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domInteractive");
-            __res_3256 = __res_3257;
-            return __res_3256;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domInteractive");
     }
 
     public double DomContentLoadedEventStart
     {
-        get
-        {
-            double __res_3258;
-            double __res_3259 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventStart");
-            __res_3258 = __res_3259;
-            return __res_3258;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domContentLoadedEventStart");
     }
 
     public double DomContentLoadedEventEnd
     {
-        get
-        {
-            double __res_3260;
-            double __res_3261 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domContentLoadedEventEnd");
-            __res_3260 = __res_3261;
-            return __res_3260;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domContentLoadedEventEnd");
     }
 
     public double DomComplete
     {
-        get
-        {
-            double __res_3262;
-            double __res_3263 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "domComplete");
-            __res_3262 = __res_3263;
-            return __res_3262;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "domComplete");
     }
 
     public double LoadEventStart
     {
-        get
-        {
-            double __res_3264;
-            double __res_3265 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventStart");
-            __res_3264 = __res_3265;
-            return __res_3264;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loadEventStart");
     }
 
     public double LoadEventEnd
     {
-        get
-        {
-            double __res_3266;
-            double __res_3267 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadEventEnd");
-            __res_3266 = __res_3267;
-            return __res_3266;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loadEventEnd");
     }
 
     public global::Iskra.StdWeb.NavigationTimingType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.NavigationTimingType __res_3268;
-            string __res_3269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_3268 = global::Iskra.StdWeb.NavigationTimingType.Create(__res_3269);
-            return __res_3268;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NavigationTimingType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public ushort RedirectCount
     {
-        get
-        {
-            ushort __res_3270;
-            double __res_3271 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "redirectCount");
-            __res_3270 = Convert.ToUInt16(__res_3271);
-            return __res_3270;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "redirectCount");
     }
 
     public double CriticalCHRestart
     {
-        get
-        {
-            double __res_3272;
-            double __res_3273 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "criticalCHRestart");
-            __res_3272 = __res_3273;
-            return __res_3272;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "criticalCHRestart");
     }
 
     public global::Iskra.StdWeb.NotRestoredReasons? NotRestoredReasons
     {
-        get
-        {
-            global::Iskra.StdWeb.NotRestoredReasons? __res_3274;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3275 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "notRestoredReasons");
-            if (__res_3275 is null)
-            {
-                __res_3274 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3276 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3275;
-                __res_3274 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NotRestoredReasons>(__notNullable_3276);
-            }
-            return __res_3274;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NotRestoredReasons?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "notRestoredReasons");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
@@ -153,13 +73,7 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
 
     public double ActivationStart
     {
-        get
-        {
-            double __res_3278;
-            double __res_3279 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "activationStart");
-            __res_3278 = __res_3279;
-            return __res_3278;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "activationStart");
     }
 }
 

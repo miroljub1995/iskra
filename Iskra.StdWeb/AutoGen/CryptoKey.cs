@@ -8,46 +8,22 @@ public partial class CryptoKey(global::System.Runtime.InteropServices.JavaScript
 {
     public global::Iskra.StdWeb.KeyType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.KeyType __res_3392;
-            string __res_3393 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_3392 = global::Iskra.StdWeb.KeyType.Create(__res_3393);
-            return __res_3392;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.KeyType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public bool Extractable
     {
-        get
-        {
-            bool __res_3394;
-            bool __res_3395 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "extractable");
-            __res_3394 = __res_3395;
-            return __res_3394;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "extractable");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject Algorithm
     {
-        get
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3396;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3397 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "algorithm");
-            __res_3396 = __res_3397;
-            return __res_3396;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "algorithm");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject Usages
     {
-        get
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3398;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3399 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "usages");
-            __res_3398 = __res_3399;
-            return __res_3398;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "usages");
     }
 }
 

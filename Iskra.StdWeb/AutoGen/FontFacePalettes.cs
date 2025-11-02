@@ -8,13 +8,7 @@ public partial class FontFacePalettes(global::System.Runtime.InteropServices.Jav
 {
     public uint Length
     {
-        get
-        {
-            uint __res_4444;
-            double __res_4445 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_4444 = Convert.ToUInt32(__res_4445);
-            return __res_4444;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.FontFacePalette Get(uint index)

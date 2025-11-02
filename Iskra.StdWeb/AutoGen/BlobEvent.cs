@@ -8,24 +8,12 @@ public partial class BlobEvent(global::System.Runtime.InteropServices.JavaScript
 {
     public global::Iskra.StdWeb.Blob Data
     {
-        get
-        {
-            global::Iskra.StdWeb.Blob __res_8267;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8268 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_8267 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Blob>(__res_8268);
-            return __res_8267;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");
     }
 
     public double Timecode
     {
-        get
-        {
-            double __res_8269;
-            double __res_8270 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timecode");
-            __res_8269 = __res_8270;
-            return __res_8269;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "timecode");
     }
 }
 

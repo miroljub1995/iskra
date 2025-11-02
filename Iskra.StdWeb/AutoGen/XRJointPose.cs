@@ -8,13 +8,7 @@ public partial class XRJointPose(global::System.Runtime.InteropServices.JavaScri
 {
     public float Radius
     {
-        get
-        {
-            float __res_8028;
-            double __res_8029 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "radius");
-            __res_8028 = Convert.ToSingle(__res_8029);
-            return __res_8028;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "radius");
     }
 }
 

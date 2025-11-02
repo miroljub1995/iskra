@@ -1,6 +1,6 @@
-using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Marshallers;
 using Iskra.WebIDLGenerator.Models;
+using Iskra.WebIDLGenerator.Utils;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Iskra.WebIDLGenerator.Generators;
@@ -8,7 +8,6 @@ namespace Iskra.WebIDLGenerator.Generators;
 public class GetPropertyValueGenerator(
     IServiceProvider provider,
     GenTypeDescriptors descriptors,
-    GeneratorContext generatorContext,
     IDLTypeDescriptionMarshaller marshaller
 )
 {
@@ -96,7 +95,7 @@ public class GetPropertyValueGenerator(
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        var getPropertyVar = generatorContext.GetNextVariableName("res");
+        var getPropertyVar = VariableName.Current.GetNext("res");
 
         string getPropertyContent;
         IDLTypeDescription inputType;
@@ -226,7 +225,7 @@ public class GetPropertyValueGenerator(
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        var getPropertyVar = generatorContext.GetNextVariableName("propObject");
+        var getPropertyVar = VariableName.Current.GetNext("propObject");
 
         var getPropertyContent = $$"""
                                    {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
@@ -269,7 +268,7 @@ public class GetPropertyValueGenerator(
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        var getPropertyVar = generatorContext.GetNextVariableName("propObject");
+        var getPropertyVar = VariableName.Current.GetNext("propObject");
 
         var getPropertyContent = $$"""
                                    {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
@@ -312,7 +311,7 @@ public class GetPropertyValueGenerator(
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        var getPropertyVar = generatorContext.GetNextVariableName("propObject");
+        var getPropertyVar = VariableName.Current.GetNext("propObject");
 
         var getPropertyContent = $$"""
                                    {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
@@ -355,7 +354,7 @@ public class GetPropertyValueGenerator(
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        var getPropertyVar = generatorContext.GetNextVariableName("propObject");
+        var getPropertyVar = VariableName.Current.GetNext("propObject");
 
         var getPropertyContent = $$"""
                                    {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
@@ -399,7 +398,7 @@ public class GetPropertyValueGenerator(
         var asNullableSuffix = type.Nullable ? "AsNullable" : "";
         var nullableTypeSuffix = type.Nullable ? "?" : "";
 
-        var getPropertyVar = generatorContext.GetNextVariableName("propObject");
+        var getPropertyVar = VariableName.Current.GetNext("propObject");
 
         var getPropertyContent = $$"""
                                    {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});

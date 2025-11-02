@@ -8,68 +8,32 @@ public partial class PerformanceEntry(global::System.Runtime.InteropServices.Jav
 {
     public ulong Id
     {
-        get
-        {
-            ulong __res_8073;
-            double __res_8074 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "id");
-            __res_8073 = Convert.ToUInt64(__res_8074);
-            return __res_8073;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "id");
     }
 
     public string Name
     {
-        get
-        {
-            string __res_8075;
-            string __res_8076 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_8075 = __res_8076;
-            return __res_8075;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public string EntryType
     {
-        get
-        {
-            string __res_8077;
-            string __res_8078 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "entryType");
-            __res_8077 = __res_8078;
-            return __res_8077;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "entryType");
     }
 
     public double StartTime
     {
-        get
-        {
-            double __res_8079;
-            double __res_8080 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "startTime");
-            __res_8079 = __res_8080;
-            return __res_8079;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "startTime");
     }
 
     public double Duration
     {
-        get
-        {
-            double __res_8081;
-            double __res_8082 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "duration");
-            __res_8081 = __res_8082;
-            return __res_8081;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "duration");
     }
 
     public ulong NavigationId
     {
-        get
-        {
-            ulong __res_8083;
-            double __res_8084 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "navigationId");
-            __res_8083 = Convert.ToUInt64(__res_8084);
-            return __res_8083;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "navigationId");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

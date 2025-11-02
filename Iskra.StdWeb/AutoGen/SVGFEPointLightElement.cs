@@ -8,35 +8,17 @@ public partial class SVGFEPointLightElement(global::System.Runtime.InteropServic
 {
     public global::Iskra.StdWeb.SVGAnimatedNumber X
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedNumber __res_3042;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3043 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "x");
-            __res_3042 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_3043);
-            return __res_3042;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedNumber, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "x");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedNumber Y
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedNumber __res_3044;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3045 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "y");
-            __res_3044 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_3045);
-            return __res_3044;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedNumber, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "y");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedNumber Z
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedNumber __res_3046;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3047 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "z");
-            __res_3046 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_3047);
-            return __res_3046;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedNumber, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "z");
     }
 }
 

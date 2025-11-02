@@ -8,13 +8,7 @@ public partial class XRLayerEvent(global::System.Runtime.InteropServices.JavaScr
 {
     public global::Iskra.StdWeb.XRLayer Layer
     {
-        get
-        {
-            global::Iskra.StdWeb.XRLayer __res_3717;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3718 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layer");
-            __res_3717 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRLayer>(__res_3718);
-            return __res_3717;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "layer");
     }
 }
 

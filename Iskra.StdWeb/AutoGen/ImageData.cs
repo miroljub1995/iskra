@@ -8,58 +8,27 @@ public partial class ImageData(global::System.Runtime.InteropServices.JavaScript
 {
     public uint Width
     {
-        get
-        {
-            uint __res_15081;
-            double __res_15082 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_15081 = Convert.ToUInt32(__res_15082);
-            return __res_15081;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");
     }
 
     public uint Height
     {
-        get
-        {
-            uint __res_15083;
-            double __res_15084 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_15083 = Convert.ToUInt32(__res_15084);
-            return __res_15083;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height");
     }
 
     public global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> Data
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> __res_15085;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_15086;
-            __propObject_15086 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(JSObject, "data");
-            __res_15085 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_15086);
-            return __res_15085;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");
     }
 
     public global::Iskra.StdWeb.ImageDataPixelFormat PixelFormat
     {
-        get
-        {
-            global::Iskra.StdWeb.ImageDataPixelFormat __res_15087;
-            string __res_15088 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pixelFormat");
-            __res_15087 = global::Iskra.StdWeb.ImageDataPixelFormat.Create(__res_15088);
-            return __res_15087;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageDataPixelFormat, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pixelFormat");
     }
 
     public global::Iskra.StdWeb.PredefinedColorSpace ColorSpace
     {
-        get
-        {
-            global::Iskra.StdWeb.PredefinedColorSpace __res_15089;
-            string __res_15090 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "colorSpace");
-            __res_15089 = global::Iskra.StdWeb.PredefinedColorSpace.Create(__res_15090);
-            return __res_15089;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PredefinedColorSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colorSpace");
     }
 }
 

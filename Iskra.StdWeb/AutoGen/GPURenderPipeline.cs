@@ -8,19 +8,8 @@ public partial class GPURenderPipeline(global::System.Runtime.InteropServices.Ja
 {
     public string Label
     {
-        get
-        {
-            string __res_1824;
-            string __res_1825 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1824 = __res_1825;
-            return __res_1824;
-        }
-        set
-        {
-            string __marshalledValue_1826;
-            __marshalledValue_1826 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1826);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label", value);
     }
 
     public global::Iskra.StdWeb.GPUBindGroupLayout GetBindGroupLayout(uint index)

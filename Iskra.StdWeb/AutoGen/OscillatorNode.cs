@@ -8,41 +8,18 @@ public partial class OscillatorNode(global::System.Runtime.InteropServices.JavaS
 {
     public global::Iskra.StdWeb.OscillatorType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.OscillatorType __res_17329;
-            string __res_17330 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_17329 = global::Iskra.StdWeb.OscillatorType.Create(__res_17330);
-            return __res_17329;
-        }
-        set
-        {
-            string __marshalledValue_17331;
-            __marshalledValue_17331 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_17331);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.OscillatorType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.OscillatorType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type", value);
     }
 
     public global::Iskra.StdWeb.AudioParam Frequency
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17332;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17333 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "frequency");
-            __res_17332 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17333);
-            return __res_17332;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "frequency");
     }
 
     public global::Iskra.StdWeb.AudioParam Detune
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17334;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17335 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "detune");
-            __res_17334 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17335);
-            return __res_17334;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "detune");
     }
 
     public void SetPeriodicWave(global::Iskra.StdWeb.PeriodicWave periodicWave)

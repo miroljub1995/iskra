@@ -18,107 +18,48 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
 
     public uint Width
     {
-        get
-        {
-            uint __res_1763;
-            double __res_1764 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_1763 = Convert.ToUInt32(__res_1764);
-            return __res_1763;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");
     }
 
     public uint Height
     {
-        get
-        {
-            uint __res_1765;
-            double __res_1766 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_1765 = Convert.ToUInt32(__res_1766);
-            return __res_1765;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height");
     }
 
     public uint DepthOrArrayLayers
     {
-        get
-        {
-            uint __res_1767;
-            double __res_1768 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "depthOrArrayLayers");
-            __res_1767 = Convert.ToUInt32(__res_1768);
-            return __res_1767;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthOrArrayLayers");
     }
 
     public uint MipLevelCount
     {
-        get
-        {
-            uint __res_1769;
-            double __res_1770 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "mipLevelCount");
-            __res_1769 = Convert.ToUInt32(__res_1770);
-            return __res_1769;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mipLevelCount");
     }
 
     public uint SampleCount
     {
-        get
-        {
-            uint __res_1771;
-            double __res_1772 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "sampleCount");
-            __res_1771 = Convert.ToUInt32(__res_1772);
-            return __res_1771;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampleCount");
     }
 
     public global::Iskra.StdWeb.GPUTextureDimension Dimension
     {
-        get
-        {
-            global::Iskra.StdWeb.GPUTextureDimension __res_1773;
-            string __res_1774 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "dimension");
-            __res_1773 = global::Iskra.StdWeb.GPUTextureDimension.Create(__res_1774);
-            return __res_1773;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUTextureDimension, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dimension");
     }
 
     public global::Iskra.StdWeb.GPUTextureFormat Format
     {
-        get
-        {
-            global::Iskra.StdWeb.GPUTextureFormat __res_1775;
-            string __res_1776 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "format");
-            __res_1775 = global::Iskra.StdWeb.GPUTextureFormat.Create(__res_1776);
-            return __res_1775;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUTextureFormat, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "format");
     }
 
     public uint Usage
     {
-        get
-        {
-            uint __res_1777;
-            double __res_1778 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "usage");
-            __res_1777 = Convert.ToUInt32(__res_1778);
-            return __res_1777;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "usage");
     }
 
     public string Label
     {
-        get
-        {
-            string __res_1779;
-            string __res_1780 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1779 = __res_1780;
-            return __res_1779;
-        }
-        set
-        {
-            string __marshalledValue_1781;
-            __marshalledValue_1781 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1781);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label", value);
     }
 }
 

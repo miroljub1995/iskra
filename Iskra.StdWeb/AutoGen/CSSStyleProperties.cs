@@ -8,19 +8,8 @@ public partial class CSSStyleProperties(global::System.Runtime.InteropServices.J
 {
     public string CssFloat
     {
-        get
-        {
-            string __res_16238;
-            string __res_16239 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "cssFloat");
-            __res_16238 = __res_16239;
-            return __res_16238;
-        }
-        set
-        {
-            string __marshalledValue_16240;
-            __marshalledValue_16240 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "cssFloat", __marshalledValue_16240);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cssFloat");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cssFloat", value);
     }
 }
 

@@ -8,57 +8,27 @@ public partial class NavigationDestination(global::System.Runtime.InteropService
 {
     public string Url
     {
-        get
-        {
-            string __res_14773;
-            string __res_14774 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_14773 = __res_14774;
-            return __res_14773;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "url");
     }
 
     public string Key
     {
-        get
-        {
-            string __res_14775;
-            string __res_14776 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "key");
-            __res_14775 = __res_14776;
-            return __res_14775;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "key");
     }
 
     public string Id
     {
-        get
-        {
-            string __res_14777;
-            string __res_14778 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_14777 = __res_14778;
-            return __res_14777;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "id");
     }
 
     public long Index
     {
-        get
-        {
-            long __res_14779;
-            double __res_14780 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_14779 = Convert.ToInt64(__res_14780);
-            return __res_14779;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<long, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "index");
     }
 
     public bool SameDocument
     {
-        get
-        {
-            bool __res_14781;
-            bool __res_14782 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "sameDocument");
-            __res_14781 = __res_14782;
-            return __res_14781;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sameDocument");
     }
 
     public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? GetState()

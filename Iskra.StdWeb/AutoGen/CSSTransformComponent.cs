@@ -13,19 +13,8 @@ public partial class CSSTransformComponent(global::System.Runtime.InteropService
 
     public bool Is2D
     {
-        get
-        {
-            bool __res_111;
-            bool __res_112 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
-            __res_111 = __res_112;
-            return __res_111;
-        }
-        set
-        {
-            bool __marshalledValue_113;
-            __marshalledValue_113 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "is2D", __marshalledValue_113);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "is2D");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "is2D", value);
     }
 
     public global::Iskra.StdWeb.DOMMatrix ToMatrix()

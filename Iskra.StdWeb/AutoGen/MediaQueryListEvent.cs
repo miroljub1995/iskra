@@ -8,24 +8,12 @@ public partial class MediaQueryListEvent(global::System.Runtime.InteropServices.
 {
     public string Media
     {
-        get
-        {
-            string __res_3844;
-            string __res_3845 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
-            __res_3844 = __res_3845;
-            return __res_3844;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "media");
     }
 
     public bool Matches
     {
-        get
-        {
-            bool __res_3846;
-            bool __res_3847 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
-            __res_3846 = __res_3847;
-            return __res_3846;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matches");
     }
 }
 

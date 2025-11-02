@@ -8,36 +8,14 @@ public partial class SpeechGrammar(global::System.Runtime.InteropServices.JavaSc
 {
     public string Src
     {
-        get
-        {
-            string __res_8486;
-            string __res_8487 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "src");
-            __res_8486 = __res_8487;
-            return __res_8486;
-        }
-        set
-        {
-            string __marshalledValue_8488;
-            __marshalledValue_8488 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "src", __marshalledValue_8488);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "src");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "src", value);
     }
 
     public float Weight
     {
-        get
-        {
-            float __res_8489;
-            double __res_8490 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "weight");
-            __res_8489 = Convert.ToSingle(__res_8490);
-            return __res_8489;
-        }
-        set
-        {
-            double __marshalledValue_8491;
-            __marshalledValue_8491 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "weight", __marshalledValue_8491);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "weight");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "weight", value);
     }
 }
 

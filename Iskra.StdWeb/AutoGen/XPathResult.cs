@@ -8,87 +8,37 @@ public partial class XPathResult(global::System.Runtime.InteropServices.JavaScri
 {
     public ushort ResultType
     {
-        get
-        {
-            ushort __res_7460;
-            double __res_7461 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "resultType");
-            __res_7460 = Convert.ToUInt16(__res_7461);
-            return __res_7460;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resultType");
     }
 
     public double NumberValue
     {
-        get
-        {
-            double __res_7462;
-            double __res_7463 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberValue");
-            __res_7462 = __res_7463;
-            return __res_7462;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "numberValue");
     }
 
     public string StringValue
     {
-        get
-        {
-            string __res_7464;
-            string __res_7465 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "stringValue");
-            __res_7464 = __res_7465;
-            return __res_7464;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stringValue");
     }
 
     public bool BooleanValue
     {
-        get
-        {
-            bool __res_7466;
-            bool __res_7467 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "booleanValue");
-            __res_7466 = __res_7467;
-            return __res_7466;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "booleanValue");
     }
 
     public global::Iskra.StdWeb.Node? SingleNodeValue
     {
-        get
-        {
-            global::Iskra.StdWeb.Node? __res_7468;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7469 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "singleNodeValue");
-            if (__res_7469 is null)
-            {
-                __res_7468 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7470 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7469;
-                __res_7468 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_7470);
-            }
-            return __res_7468;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "singleNodeValue");
     }
 
     public bool InvalidIteratorState
     {
-        get
-        {
-            bool __res_7471;
-            bool __res_7472 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "invalidIteratorState");
-            __res_7471 = __res_7472;
-            return __res_7471;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "invalidIteratorState");
     }
 
     public uint SnapshotLength
     {
-        get
-        {
-            uint __res_7473;
-            double __res_7474 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "snapshotLength");
-            __res_7473 = Convert.ToUInt32(__res_7474);
-            return __res_7473;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "snapshotLength");
     }
 
     public global::Iskra.StdWeb.Node? IterateNext()

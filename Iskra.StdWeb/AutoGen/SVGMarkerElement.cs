@@ -8,96 +8,43 @@ public partial class SVGMarkerElement(global::System.Runtime.InteropServices.Jav
 {
     public global::Iskra.StdWeb.SVGAnimatedLength RefX
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1396;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1397 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "refX");
-            __res_1396 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1397);
-            return __res_1396;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "refX");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength RefY
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1398;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1399 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "refY");
-            __res_1398 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1399);
-            return __res_1398;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "refY");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedEnumeration MarkerUnits
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1400;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1401 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerUnits");
-            __res_1400 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1401);
-            return __res_1400;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedEnumeration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "markerUnits");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength MarkerWidth
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1402;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1403 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerWidth");
-            __res_1402 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1403);
-            return __res_1402;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "markerWidth");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedLength MarkerHeight
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1404;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1405 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "markerHeight");
-            __res_1404 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1405);
-            return __res_1404;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "markerHeight");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedEnumeration OrientType
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1406;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1407 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientType");
-            __res_1406 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1407);
-            return __res_1406;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedEnumeration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "orientType");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedAngle OrientAngle
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedAngle __res_1408;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1409 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientAngle");
-            __res_1408 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedAngle>(__res_1409);
-            return __res_1408;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedAngle, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "orientAngle");
     }
 
     public string Orient
     {
-        get
-        {
-            string __res_1410;
-            string __res_1411 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "orient");
-            __res_1410 = __res_1411;
-            return __res_1410;
-        }
-        set
-        {
-            string __marshalledValue_1412;
-            __marshalledValue_1412 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "orient", __marshalledValue_1412);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "orient");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "orient", value);
     }
 
     public void SetOrientToAuto()
@@ -112,24 +59,12 @@ public partial class SVGMarkerElement(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.SVGAnimatedRect ViewBox
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedRect __res_1415;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1416 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "viewBox");
-            __res_1415 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedRect>(__res_1416);
-            return __res_1415;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedRect, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "viewBox");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio PreserveAspectRatio
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio __res_1417;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1418 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "preserveAspectRatio");
-            __res_1417 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio>(__res_1418);
-            return __res_1417;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedPreserveAspectRatio, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "preserveAspectRatio");
     }
 }
 

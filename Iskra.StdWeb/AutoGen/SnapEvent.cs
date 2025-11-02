@@ -8,40 +8,12 @@ public partial class SnapEvent(global::System.Runtime.InteropServices.JavaScript
 {
     public global::Iskra.StdWeb.Node? SnapTargetBlock
     {
-        get
-        {
-            global::Iskra.StdWeb.Node? __res_0;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "snapTargetBlock");
-            if (__res_1 is null)
-            {
-                __res_0 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1;
-                __res_0 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_2);
-            }
-            return __res_0;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "snapTargetBlock");
     }
 
     public global::Iskra.StdWeb.Node? SnapTargetInline
     {
-        get
-        {
-            global::Iskra.StdWeb.Node? __res_3;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_4 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "snapTargetInline");
-            if (__res_4 is null)
-            {
-                __res_3 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_4;
-                __res_3 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_5);
-            }
-            return __res_3;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "snapTargetInline");
     }
 }
 

@@ -8,30 +8,13 @@ public partial class SVGAnimatedEnumeration(global::System.Runtime.InteropServic
 {
     public ushort BaseVal
     {
-        get
-        {
-            ushort __res_1024;
-            double __res_1025 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "baseVal");
-            __res_1024 = Convert.ToUInt16(__res_1025);
-            return __res_1024;
-        }
-        set
-        {
-            double __marshalledValue_1026;
-            __marshalledValue_1026 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "baseVal", __marshalledValue_1026);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseVal");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseVal", value);
     }
 
     public ushort AnimVal
     {
-        get
-        {
-            ushort __res_1027;
-            double __res_1028 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "animVal");
-            __res_1027 = Convert.ToUInt16(__res_1028);
-            return __res_1027;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "animVal");
     }
 }
 

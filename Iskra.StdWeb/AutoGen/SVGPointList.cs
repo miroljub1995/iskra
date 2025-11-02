@@ -8,24 +8,12 @@ public partial class SVGPointList(global::System.Runtime.InteropServices.JavaScr
 {
     public uint Length
     {
-        get
-        {
-            uint __res_1320;
-            double __res_1321 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_1320 = Convert.ToUInt32(__res_1321);
-            return __res_1320;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public uint NumberOfItems
     {
-        get
-        {
-            uint __res_1322;
-            double __res_1323 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_1322 = Convert.ToUInt32(__res_1323);
-            return __res_1322;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "numberOfItems");
     }
 
     public void Clear()

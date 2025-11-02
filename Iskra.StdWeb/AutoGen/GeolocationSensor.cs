@@ -13,135 +13,37 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
 
     public double? Latitude
     {
-        get
-        {
-            double? __res_9435;
-            double? __res_9436 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "latitude");
-            if (__res_9436 is null)
-            {
-                __res_9435 = null;
-            }
-            else
-            {
-                double __notNullable_9437 = (double)__res_9436;
-                __res_9435 = __notNullable_9437;
-            }
-            return __res_9435;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "latitude");
     }
 
     public double? Longitude
     {
-        get
-        {
-            double? __res_9438;
-            double? __res_9439 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "longitude");
-            if (__res_9439 is null)
-            {
-                __res_9438 = null;
-            }
-            else
-            {
-                double __notNullable_9440 = (double)__res_9439;
-                __res_9438 = __notNullable_9440;
-            }
-            return __res_9438;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "longitude");
     }
 
     public double? Altitude
     {
-        get
-        {
-            double? __res_9441;
-            double? __res_9442 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitude");
-            if (__res_9442 is null)
-            {
-                __res_9441 = null;
-            }
-            else
-            {
-                double __notNullable_9443 = (double)__res_9442;
-                __res_9441 = __notNullable_9443;
-            }
-            return __res_9441;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "altitude");
     }
 
     public double? Accuracy
     {
-        get
-        {
-            double? __res_9444;
-            double? __res_9445 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "accuracy");
-            if (__res_9445 is null)
-            {
-                __res_9444 = null;
-            }
-            else
-            {
-                double __notNullable_9446 = (double)__res_9445;
-                __res_9444 = __notNullable_9446;
-            }
-            return __res_9444;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "accuracy");
     }
 
     public double? AltitudeAccuracy
     {
-        get
-        {
-            double? __res_9447;
-            double? __res_9448 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitudeAccuracy");
-            if (__res_9448 is null)
-            {
-                __res_9447 = null;
-            }
-            else
-            {
-                double __notNullable_9449 = (double)__res_9448;
-                __res_9447 = __notNullable_9449;
-            }
-            return __res_9447;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "altitudeAccuracy");
     }
 
     public double? Heading
     {
-        get
-        {
-            double? __res_9450;
-            double? __res_9451 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "heading");
-            if (__res_9451 is null)
-            {
-                __res_9450 = null;
-            }
-            else
-            {
-                double __notNullable_9452 = (double)__res_9451;
-                __res_9450 = __notNullable_9452;
-            }
-            return __res_9450;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "heading");
     }
 
     public double? Speed
     {
-        get
-        {
-            double? __res_9453;
-            double? __res_9454 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "speed");
-            if (__res_9454 is null)
-            {
-                __res_9453 = null;
-            }
-            else
-            {
-                double __notNullable_9455 = (double)__res_9454;
-                __res_9453 = __notNullable_9455;
-            }
-            return __res_9453;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "speed");
     }
 }
 

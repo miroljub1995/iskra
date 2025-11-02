@@ -8,13 +8,7 @@ public partial class MediaStreamAudioSourceNode(global::System.Runtime.InteropSe
 {
     public global::Iskra.StdWeb.MediaStream MediaStream
     {
-        get
-        {
-            global::Iskra.StdWeb.MediaStream __res_17327;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17328 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "mediaStream");
-            __res_17327 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaStream>(__res_17328);
-            return __res_17327;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mediaStream");
     }
 }
 

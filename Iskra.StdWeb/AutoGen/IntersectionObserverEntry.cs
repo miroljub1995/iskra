@@ -8,98 +8,42 @@ public partial class IntersectionObserverEntry(global::System.Runtime.InteropSer
 {
     public double Time
     {
-        get
-        {
-            double __res_5190;
-            double __res_5191 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
-            __res_5190 = __res_5191;
-            return __res_5190;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "time");
     }
 
     public global::Iskra.StdWeb.DOMRectReadOnly? RootBounds
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMRectReadOnly? __res_5192;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5193 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "rootBounds");
-            if (__res_5193 is null)
-            {
-                __res_5192 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5194 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5193;
-                __res_5192 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__notNullable_5194);
-            }
-            return __res_5192;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRectReadOnly?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "rootBounds");
     }
 
     public global::Iskra.StdWeb.DOMRectReadOnly BoundingClientRect
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMRectReadOnly __res_5195;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5196 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "boundingClientRect");
-            __res_5195 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_5196);
-            return __res_5195;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRectReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "boundingClientRect");
     }
 
     public global::Iskra.StdWeb.DOMRectReadOnly IntersectionRect
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMRectReadOnly __res_5197;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5198 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "intersectionRect");
-            __res_5197 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_5198);
-            return __res_5197;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRectReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "intersectionRect");
     }
 
     public bool IsIntersecting
     {
-        get
-        {
-            bool __res_5199;
-            bool __res_5200 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isIntersecting");
-            __res_5199 = __res_5200;
-            return __res_5199;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isIntersecting");
     }
 
     public bool IsVisible
     {
-        get
-        {
-            bool __res_5201;
-            bool __res_5202 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isVisible");
-            __res_5201 = __res_5202;
-            return __res_5201;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isVisible");
     }
 
     public double IntersectionRatio
     {
-        get
-        {
-            double __res_5203;
-            double __res_5204 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "intersectionRatio");
-            __res_5203 = __res_5204;
-            return __res_5203;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "intersectionRatio");
     }
 
     public global::Iskra.StdWeb.Element Target
     {
-        get
-        {
-            global::Iskra.StdWeb.Element __res_5205;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5206 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            __res_5205 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_5206);
-            return __res_5205;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "target");
     }
 }
 

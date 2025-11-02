@@ -8,69 +8,20 @@ public partial class XRCubeLayer(global::System.Runtime.InteropServices.JavaScri
 {
     public global::Iskra.StdWeb.XRSpace Space
     {
-        get
-        {
-            global::Iskra.StdWeb.XRSpace __res_3659;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3660 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "space");
-            __res_3659 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_3660);
-            return __res_3659;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_3661;
-            __marshalledValue_3661 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "space", __marshalledValue_3661);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "space");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.XRSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "space", value);
     }
 
     public global::Iskra.StdWeb.DOMPointReadOnly Orientation
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMPointReadOnly __res_3662;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3663 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
-            __res_3662 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_3663);
-            return __res_3662;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_3664;
-            __marshalledValue_3664 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "orientation", __marshalledValue_3664);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "orientation");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "orientation", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onredraw
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3665;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3666 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw");
-            if (__res_3666 is null)
-            {
-                __res_3665 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3667 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3666;
-                __res_3665 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3667);
-            }
-            return __res_3665;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3668;
-            if (value is null)
-            {
-                __marshalledValue_3668 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3669 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3668 = __notNullable_3669.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onredraw", __marshalledValue_3668);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onredraw");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onredraw", value);
     }
 }
 

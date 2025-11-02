@@ -8,76 +8,32 @@ public partial class PerformanceEventTiming(global::System.Runtime.InteropServic
 {
     public double ProcessingStart
     {
-        get
-        {
-            double __res_8059;
-            double __res_8060 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "processingStart");
-            __res_8059 = __res_8060;
-            return __res_8059;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "processingStart");
     }
 
     public double ProcessingEnd
     {
-        get
-        {
-            double __res_8061;
-            double __res_8062 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "processingEnd");
-            __res_8061 = __res_8062;
-            return __res_8061;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "processingEnd");
     }
 
     public bool Cancelable
     {
-        get
-        {
-            bool __res_8063;
-            bool __res_8064 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "cancelable");
-            __res_8063 = __res_8064;
-            return __res_8063;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cancelable");
     }
 
     public global::Iskra.StdWeb.Node? Target
     {
-        get
-        {
-            global::Iskra.StdWeb.Node? __res_8065;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8066 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "target");
-            if (__res_8066 is null)
-            {
-                __res_8065 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8067 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8066;
-                __res_8065 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__notNullable_8067);
-            }
-            return __res_8065;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "target");
     }
 
     public string TargetSelector
     {
-        get
-        {
-            string __res_8068;
-            string __res_8069 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "targetSelector");
-            __res_8068 = __res_8069;
-            return __res_8068;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "targetSelector");
     }
 
     public ulong InteractionId
     {
-        get
-        {
-            ulong __res_8070;
-            double __res_8071 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interactionId");
-            __res_8070 = Convert.ToUInt64(__res_8071);
-            return __res_8070;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "interactionId");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

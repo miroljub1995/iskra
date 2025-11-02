@@ -8,30 +8,13 @@ public partial class MediaList(global::System.Runtime.InteropServices.JavaScript
 {
     public string MediaText
     {
-        get
-        {
-            string __res_16090;
-            string __res_16091 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "mediaText");
-            __res_16090 = __res_16091;
-            return __res_16090;
-        }
-        set
-        {
-            string __marshalledValue_16092;
-            __marshalledValue_16092 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "mediaText", __marshalledValue_16092);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mediaText");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mediaText", value);
     }
 
     public uint Length
     {
-        get
-        {
-            uint __res_16093;
-            double __res_16094 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_16093 = Convert.ToUInt32(__res_16094);
-            return __res_16093;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public string? Item(uint index)

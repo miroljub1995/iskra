@@ -8,46 +8,22 @@ public partial class SVGGradientElement(global::System.Runtime.InteropServices.J
 {
     public global::Iskra.StdWeb.SVGAnimatedEnumeration GradientUnits
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1419;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1420 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gradientUnits");
-            __res_1419 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1420);
-            return __res_1419;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedEnumeration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gradientUnits");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedTransformList GradientTransform
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedTransformList __res_1421;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1422 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "gradientTransform");
-            __res_1421 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedTransformList>(__res_1422);
-            return __res_1421;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedTransformList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gradientTransform");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedEnumeration SpreadMethod
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1423;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1424 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spreadMethod");
-            __res_1423 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1424);
-            return __res_1423;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedEnumeration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "spreadMethod");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedString Href
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedString __res_1425;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1426 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
-            __res_1425 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1426);
-            return __res_1425;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedString, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "href");
     }
 }
 

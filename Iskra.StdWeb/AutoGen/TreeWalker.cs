@@ -8,60 +8,23 @@ public partial class TreeWalker(global::System.Runtime.InteropServices.JavaScrip
 {
     public global::Iskra.StdWeb.Node Root
     {
-        get
-        {
-            global::Iskra.StdWeb.Node __res_7430;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7431 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "root");
-            __res_7430 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_7431);
-            return __res_7430;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "root");
     }
 
     public uint WhatToShow
     {
-        get
-        {
-            uint __res_7432;
-            double __res_7433 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "whatToShow");
-            __res_7432 = Convert.ToUInt32(__res_7433);
-            return __res_7432;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "whatToShow");
     }
 
     public global::Iskra.StdWeb.NodeFilter? Filter
     {
-        get
-        {
-            global::Iskra.StdWeb.NodeFilter? __res_7434;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_7435 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "filter");
-            if (__res_7435 is null)
-            {
-                __res_7434 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_7436 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_7435;
-                __res_7434 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeFilter>(__notNullable_7436);
-            }
-            return __res_7434;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NodeFilter?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "filter");
     }
 
     public global::Iskra.StdWeb.Node CurrentNode
     {
-        get
-        {
-            global::Iskra.StdWeb.Node __res_7437;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_7438 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "currentNode");
-            __res_7437 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_7438);
-            return __res_7437;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_7439;
-            __marshalledValue_7439 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "currentNode", __marshalledValue_7439);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "currentNode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "currentNode", value);
     }
 
     public global::Iskra.StdWeb.Node? ParentNode()

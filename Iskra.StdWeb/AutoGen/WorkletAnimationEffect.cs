@@ -18,35 +18,8 @@ public partial class WorkletAnimationEffect(global::System.Runtime.InteropServic
 
     public double? LocalTime
     {
-        get
-        {
-            double? __res_9129;
-            double? __res_9130 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "localTime");
-            if (__res_9130 is null)
-            {
-                __res_9129 = null;
-            }
-            else
-            {
-                double __notNullable_9131 = (double)__res_9130;
-                __res_9129 = __notNullable_9131;
-            }
-            return __res_9129;
-        }
-        set
-        {
-            double? __marshalledValue_9132;
-            if (value is null)
-            {
-                __marshalledValue_9132 = null;
-            }
-            else
-            {
-                double __notNullable_9133 = (double)value;
-                __marshalledValue_9132 = __notNullable_9133;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "localTime", __marshalledValue_9132);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "localTime");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "localTime", value);
     }
 }
 

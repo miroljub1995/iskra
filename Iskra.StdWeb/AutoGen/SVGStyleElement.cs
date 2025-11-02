@@ -8,89 +8,31 @@ public partial class SVGStyleElement(global::System.Runtime.InteropServices.Java
 {
     public string Type
     {
-        get
-        {
-            string __res_1231;
-            string __res_1232 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1231 = __res_1232;
-            return __res_1231;
-        }
-        set
-        {
-            string __marshalledValue_1233;
-            __marshalledValue_1233 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1233);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type", value);
     }
 
     public string Media
     {
-        get
-        {
-            string __res_1234;
-            string __res_1235 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "media");
-            __res_1234 = __res_1235;
-            return __res_1234;
-        }
-        set
-        {
-            string __marshalledValue_1236;
-            __marshalledValue_1236 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "media", __marshalledValue_1236);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "media");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "media", value);
     }
 
     public string Title
     {
-        get
-        {
-            string __res_1237;
-            string __res_1238 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "title");
-            __res_1237 = __res_1238;
-            return __res_1237;
-        }
-        set
-        {
-            string __marshalledValue_1239;
-            __marshalledValue_1239 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "title", __marshalledValue_1239);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "title");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "title", value);
     }
 
     public bool Disabled
     {
-        get
-        {
-            bool __res_1240;
-            bool __res_1241 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_1240 = __res_1241;
-            return __res_1240;
-        }
-        set
-        {
-            bool __marshalledValue_1242;
-            __marshalledValue_1242 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_1242);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "disabled");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "disabled", value);
     }
 
     public global::Iskra.StdWeb.CSSStyleSheet? Sheet
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSStyleSheet? __res_1243;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_1244 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sheet");
-            if (__res_1244 is null)
-            {
-                __res_1243 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_1245 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_1244;
-                __res_1243 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_1245);
-            }
-            return __res_1243;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSStyleSheet?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "sheet");
     }
 }
 

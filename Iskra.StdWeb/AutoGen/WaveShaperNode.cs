@@ -8,52 +8,14 @@ public partial class WaveShaperNode(global::System.Runtime.InteropServices.JavaS
 {
     public global::Iskra.JSCore.Float32Array? Curve
     {
-        get
-        {
-            global::Iskra.JSCore.Float32Array? __res_17384;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_17385 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "curve");
-            if (__res_17385 is null)
-            {
-                __res_17384 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_17386 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_17385;
-                __res_17384 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__notNullable_17386);
-            }
-            return __res_17384;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_17387;
-            if (value is null)
-            {
-                __marshalledValue_17387 = null;
-            }
-            else
-            {
-                global::Iskra.JSCore.Float32Array __notNullable_17388 = (global::Iskra.JSCore.Float32Array)value;
-                __marshalledValue_17387 = __notNullable_17388.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "curve", __marshalledValue_17387);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "curve");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Float32Array?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "curve", value);
     }
 
     public global::Iskra.StdWeb.OverSampleType Oversample
     {
-        get
-        {
-            global::Iskra.StdWeb.OverSampleType __res_17389;
-            string __res_17390 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oversample");
-            __res_17389 = global::Iskra.StdWeb.OverSampleType.Create(__res_17390);
-            return __res_17389;
-        }
-        set
-        {
-            string __marshalledValue_17391;
-            __marshalledValue_17391 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "oversample", __marshalledValue_17391);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.OverSampleType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "oversample");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.OverSampleType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "oversample", value);
     }
 }
 

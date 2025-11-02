@@ -8,13 +8,7 @@ public partial class FormDataEvent(global::System.Runtime.InteropServices.JavaSc
 {
     public global::Iskra.StdWeb.FormData FormData
     {
-        get
-        {
-            global::Iskra.StdWeb.FormData __res_12941;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_12942 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "formData");
-            __res_12941 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FormData>(__res_12942);
-            return __res_12941;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FormData, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "formData");
     }
 }
 

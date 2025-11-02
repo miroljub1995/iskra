@@ -13,13 +13,7 @@ public partial class ReadableStream(global::System.Runtime.InteropServices.JavaS
 
     public bool Locked
     {
-        get
-        {
-            bool __res_2294;
-            bool __res_2295 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "locked");
-            __res_2294 = __res_2295;
-            return __res_2294;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "locked");
     }
 
     public global::Iskra.JSCore.Promise Cancel(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? reason)

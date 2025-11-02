@@ -8,30 +8,13 @@ public partial class CSSKeyframeRule(global::System.Runtime.InteropServices.Java
 {
     public string KeyText
     {
-        get
-        {
-            string __res_5764;
-            string __res_5765 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "keyText");
-            __res_5764 = __res_5765;
-            return __res_5764;
-        }
-        set
-        {
-            string __marshalledValue_5766;
-            __marshalledValue_5766 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "keyText", __marshalledValue_5766);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "keyText");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "keyText", value);
     }
 
     public global::Iskra.StdWeb.CSSStyleProperties Style
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSStyleProperties __res_5767;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_5768 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_5767 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleProperties>(__res_5768);
-            return __res_5767;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSStyleProperties, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "style");
     }
 }
 

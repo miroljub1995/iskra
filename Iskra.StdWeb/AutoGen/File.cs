@@ -8,35 +8,17 @@ public partial class File(global::System.Runtime.InteropServices.JavaScript.JSOb
 {
     public string WebkitRelativePath
     {
-        get
-        {
-            string __res_16966;
-            string __res_16967 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "webkitRelativePath");
-            __res_16966 = __res_16967;
-            return __res_16966;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "webkitRelativePath");
     }
 
     public string Name
     {
-        get
-        {
-            string __res_16968;
-            string __res_16969 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_16968 = __res_16969;
-            return __res_16968;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public long LastModified
     {
-        get
-        {
-            long __res_16970;
-            double __res_16971 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastModified");
-            __res_16970 = Convert.ToInt64(__res_16971);
-            return __res_16970;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<long, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lastModified");
     }
 }
 

@@ -1,4 +1,3 @@
-using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
 using Iskra.WebIDLGenerator.Utils;
@@ -8,8 +7,7 @@ namespace Iskra.WebIDLGenerator.Generators;
 
 public class GenericMarshallerGenerator(
     IServiceProvider provider,
-    GenSettings genSettings,
-    GeneratorContext generatorContext
+    GenSettings genSettings
 )
 {
     private readonly List<KeyValuePair<IDLTypeDescription, string>> _marshallers = [];
@@ -131,7 +129,7 @@ public class GenericMarshallerGenerator(
 
             generatedElementTypes.Add(elementType);
 
-            var elementVar = generatorContext.GetNextVariableName("element");
+            var elementVar = VariableName.Current.GetNext("element");
 
             var getElementContent = getPropertyValueGenerator.Generate(
                 inputVar: "array",
@@ -339,8 +337,8 @@ public class GenericMarshallerGenerator(
         var elementType = inpuit.IdlType.Single();
         var returnTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType, true);
 
-        var taskVar = generatorContext.GetNextVariableName("task");
-        var resVar = generatorContext.GetNextVariableName("res");
+        var taskVar = VariableName.Current.GetNext("task");
+        var resVar = VariableName.Current.GetNext("res");
 
         var getValueContent = getPropertyValueGenerator.Generate(
             inputVar: taskVar,
@@ -365,11 +363,11 @@ public class GenericMarshallerGenerator(
             provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
 
         var elementType = input.IdlType.Single();
-        var wrapperObjectVar = generatorContext.GetNextVariableName("wrapperObject");
-        var resVar = generatorContext.GetNextVariableName("res");
-        var taskVar = generatorContext.GetNextVariableName("task");
-        var awaitedValueVar = generatorContext.GetNextVariableName("awaitedValue");
-        var setValueFunctionName = generatorContext.GetNextVariableName("WrapTask");
+        var wrapperObjectVar = VariableName.Current.GetNext("wrapperObject");
+        var resVar = VariableName.Current.GetNext("res");
+        var taskVar = VariableName.Current.GetNext("task");
+        var awaitedValueVar = VariableName.Current.GetNext("awaitedValue");
+        var setValueFunctionName = VariableName.Current.GetNext("WrapTask");
 
         var elementTypeDeclaration = toTypeDeclarationGenerator.Generate(elementType, true);
         var taskTypeDeclaration = toTypeDeclarationGenerator.Generate(input, true);
@@ -398,7 +396,7 @@ public class GenericMarshallerGenerator(
 
     private string GenerateToManagedUnion(IDLTypeDescription input)
     {
-        var typeVar = generatorContext.GetNextVariableName("type");
+        var typeVar = VariableName.Current.GetNext("type");
         string typeCheckContent;
         if (input is SingleTypeDescription { IdlType: BuiltinTypes.Boolean })
         {
@@ -478,7 +476,7 @@ public class GenericMarshallerGenerator(
         var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
         var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
 
-        var valueVar = generatorContext.GetNextVariableName("value");
+        var valueVar = VariableName.Current.GetNext("value");
         var getElementContent = getPropertyValueGenerator.Generate(
             inputVar: "input",
             type: input,
@@ -511,7 +509,7 @@ public class GenericMarshallerGenerator(
     private string GenerateToJSUnion(IDLTypeDescription input)
     {
         var setPropertyValueGenerator = provider.GetRequiredService<SetPropertyValueGenerator>();
-        var jsUnionVar = generatorContext.GetNextVariableName("jsUnion");
+        var jsUnionVar = VariableName.Current.GetNext("jsUnion");
 
         var setValueContent = setPropertyValueGenerator.Generate(
             inputVar: jsUnionVar,

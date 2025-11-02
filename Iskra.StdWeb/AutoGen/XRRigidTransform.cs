@@ -8,46 +8,22 @@ public partial class XRRigidTransform(global::System.Runtime.InteropServices.Jav
 {
     public global::Iskra.StdWeb.DOMPointReadOnly Position
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMPointReadOnly __res_8879;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8880 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "position");
-            __res_8879 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_8880);
-            return __res_8879;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "position");
     }
 
     public global::Iskra.StdWeb.DOMPointReadOnly Orientation
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMPointReadOnly __res_8881;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8882 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "orientation");
-            __res_8881 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_8882);
-            return __res_8881;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "orientation");
     }
 
     public global::Iskra.JSCore.Float32Array Matrix
     {
-        get
-        {
-            global::Iskra.JSCore.Float32Array __res_8883;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8884 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            __res_8883 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_8884);
-            return __res_8883;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matrix");
     }
 
     public global::Iskra.StdWeb.XRRigidTransform Inverse
     {
-        get
-        {
-            global::Iskra.StdWeb.XRRigidTransform __res_8885;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8886 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "inverse");
-            __res_8885 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__res_8886);
-            return __res_8885;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRRigidTransform, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inverse");
     }
 }
 

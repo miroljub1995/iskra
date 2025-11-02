@@ -8,298 +8,82 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
 {
     public string Candidate
     {
-        get
-        {
-            string __res_4061;
-            string __res_4062 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "candidate");
-            __res_4061 = __res_4062;
-            return __res_4061;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "candidate");
     }
 
     public string? SdpMid
     {
-        get
-        {
-            string? __res_4063;
-            string? __res_4064 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "sdpMid");
-            if (__res_4064 is null)
-            {
-                __res_4063 = null;
-            }
-            else
-            {
-                string __notNullable_4065 = (string)__res_4064;
-                __res_4063 = __notNullable_4065;
-            }
-            return __res_4063;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "sdpMid");
     }
 
     public ushort? SdpMLineIndex
     {
-        get
-        {
-            ushort? __res_4066;
-            double? __res_4067 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "sdpMLineIndex");
-            if (__res_4067 is null)
-            {
-                __res_4066 = null;
-            }
-            else
-            {
-                double __notNullable_4068 = (double)__res_4067;
-                __res_4066 = Convert.ToUInt16(__notNullable_4068);
-            }
-            return __res_4066;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "sdpMLineIndex");
     }
 
     public string? Foundation
     {
-        get
-        {
-            string? __res_4069;
-            string? __res_4070 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "foundation");
-            if (__res_4070 is null)
-            {
-                __res_4069 = null;
-            }
-            else
-            {
-                string __notNullable_4071 = (string)__res_4070;
-                __res_4069 = __notNullable_4071;
-            }
-            return __res_4069;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "foundation");
     }
 
     public global::Iskra.StdWeb.RTCIceComponent? Component
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCIceComponent? __res_4072;
-            string? __res_4073 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "component");
-            if (__res_4073 is null)
-            {
-                __res_4072 = null;
-            }
-            else
-            {
-                string __notNullable_4074 = (string)__res_4073;
-                __res_4072 = global::Iskra.StdWeb.RTCIceComponent.Create(__notNullable_4074);
-            }
-            return __res_4072;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCIceComponent?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "component");
     }
 
     public uint? Priority
     {
-        get
-        {
-            uint? __res_4075;
-            double? __res_4076 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "priority");
-            if (__res_4076 is null)
-            {
-                __res_4075 = null;
-            }
-            else
-            {
-                double __notNullable_4077 = (double)__res_4076;
-                __res_4075 = Convert.ToUInt32(__notNullable_4077);
-            }
-            return __res_4075;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "priority");
     }
 
     public string? Address
     {
-        get
-        {
-            string? __res_4078;
-            string? __res_4079 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
-            if (__res_4079 is null)
-            {
-                __res_4078 = null;
-            }
-            else
-            {
-                string __notNullable_4080 = (string)__res_4079;
-                __res_4078 = __notNullable_4080;
-            }
-            return __res_4078;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "address");
     }
 
     public global::Iskra.StdWeb.RTCIceProtocol? Protocol
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCIceProtocol? __res_4081;
-            string? __res_4082 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "protocol");
-            if (__res_4082 is null)
-            {
-                __res_4081 = null;
-            }
-            else
-            {
-                string __notNullable_4083 = (string)__res_4082;
-                __res_4081 = global::Iskra.StdWeb.RTCIceProtocol.Create(__notNullable_4083);
-            }
-            return __res_4081;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCIceProtocol?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "protocol");
     }
 
     public ushort? Port
     {
-        get
-        {
-            ushort? __res_4084;
-            double? __res_4085 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
-            if (__res_4085 is null)
-            {
-                __res_4084 = null;
-            }
-            else
-            {
-                double __notNullable_4086 = (double)__res_4085;
-                __res_4084 = Convert.ToUInt16(__notNullable_4086);
-            }
-            return __res_4084;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "port");
     }
 
     public global::Iskra.StdWeb.RTCIceCandidateType? Type
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCIceCandidateType? __res_4087;
-            string? __res_4088 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "type");
-            if (__res_4088 is null)
-            {
-                __res_4087 = null;
-            }
-            else
-            {
-                string __notNullable_4089 = (string)__res_4088;
-                __res_4087 = global::Iskra.StdWeb.RTCIceCandidateType.Create(__notNullable_4089);
-            }
-            return __res_4087;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCIceCandidateType?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "type");
     }
 
     public global::Iskra.StdWeb.RTCIceTcpCandidateType? TcpType
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCIceTcpCandidateType? __res_4090;
-            string? __res_4091 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "tcpType");
-            if (__res_4091 is null)
-            {
-                __res_4090 = null;
-            }
-            else
-            {
-                string __notNullable_4092 = (string)__res_4091;
-                __res_4090 = global::Iskra.StdWeb.RTCIceTcpCandidateType.Create(__notNullable_4092);
-            }
-            return __res_4090;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCIceTcpCandidateType?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "tcpType");
     }
 
     public string? RelatedAddress
     {
-        get
-        {
-            string? __res_4093;
-            string? __res_4094 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "relatedAddress");
-            if (__res_4094 is null)
-            {
-                __res_4093 = null;
-            }
-            else
-            {
-                string __notNullable_4095 = (string)__res_4094;
-                __res_4093 = __notNullable_4095;
-            }
-            return __res_4093;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "relatedAddress");
     }
 
     public ushort? RelatedPort
     {
-        get
-        {
-            ushort? __res_4096;
-            double? __res_4097 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "relatedPort");
-            if (__res_4097 is null)
-            {
-                __res_4096 = null;
-            }
-            else
-            {
-                double __notNullable_4098 = (double)__res_4097;
-                __res_4096 = Convert.ToUInt16(__notNullable_4098);
-            }
-            return __res_4096;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "relatedPort");
     }
 
     public string? UsernameFragment
     {
-        get
-        {
-            string? __res_4099;
-            string? __res_4100 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "usernameFragment");
-            if (__res_4100 is null)
-            {
-                __res_4099 = null;
-            }
-            else
-            {
-                string __notNullable_4101 = (string)__res_4100;
-                __res_4099 = __notNullable_4101;
-            }
-            return __res_4099;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "usernameFragment");
     }
 
     public global::Iskra.StdWeb.RTCIceServerTransportProtocol? RelayProtocol
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCIceServerTransportProtocol? __res_4102;
-            string? __res_4103 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "relayProtocol");
-            if (__res_4103 is null)
-            {
-                __res_4102 = null;
-            }
-            else
-            {
-                string __notNullable_4104 = (string)__res_4103;
-                __res_4102 = global::Iskra.StdWeb.RTCIceServerTransportProtocol.Create(__notNullable_4104);
-            }
-            return __res_4102;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCIceServerTransportProtocol?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "relayProtocol");
     }
 
     public string? Url
     {
-        get
-        {
-            string? __res_4105;
-            string? __res_4106 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "url");
-            if (__res_4106 is null)
-            {
-                __res_4105 = null;
-            }
-            else
-            {
-                string __notNullable_4107 = (string)__res_4106;
-                __res_4105 = __notNullable_4107;
-            }
-            return __res_4105;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "url");
     }
 
     public global::Iskra.StdWeb.RTCIceCandidateInit ToJSON()

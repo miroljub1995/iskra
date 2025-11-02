@@ -8,36 +8,14 @@ public partial class HTMLOptGroupElement(global::System.Runtime.InteropServices.
 {
     public bool Disabled
     {
-        get
-        {
-            bool __res_12729;
-            bool __res_12730 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "disabled");
-            __res_12729 = __res_12730;
-            return __res_12729;
-        }
-        set
-        {
-            bool __marshalledValue_12731;
-            __marshalledValue_12731 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "disabled", __marshalledValue_12731);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "disabled");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "disabled", value);
     }
 
     public string Label
     {
-        get
-        {
-            string __res_12732;
-            string __res_12733 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_12732 = __res_12733;
-            return __res_12732;
-        }
-        set
-        {
-            string __marshalledValue_12734;
-            __marshalledValue_12734 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_12734);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label", value);
     }
 }
 

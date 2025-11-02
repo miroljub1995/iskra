@@ -8,60 +8,27 @@ public partial class ResizeObserverEntry(global::System.Runtime.InteropServices.
 {
     public global::Iskra.StdWeb.Element Target
     {
-        get
-        {
-            global::Iskra.StdWeb.Element __res_9616;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9617 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "target");
-            __res_9616 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_9617);
-            return __res_9616;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "target");
     }
 
     public global::Iskra.StdWeb.DOMRectReadOnly ContentRect
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMRectReadOnly __res_9618;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_9619 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contentRect");
-            __res_9618 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMRectReadOnly>(__res_9619);
-            return __res_9618;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRectReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "contentRect");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> BorderBoxSize
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_9620;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9621;
-            __propObject_9621 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "borderBoxSize");
-            __res_9620 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9621);
-            return __res_9620;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "borderBoxSize");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> ContentBoxSize
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_9622;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9623;
-            __propObject_9623 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "contentBoxSize");
-            __res_9622 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9623);
-            return __res_9622;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "contentBoxSize");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> DevicePixelContentBoxSize
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_9624;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_9625;
-            __propObject_9625 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "devicePixelContentBoxSize");
-            __res_9624 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_9625);
-            return __res_9624;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ResizeObserverSize, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "devicePixelContentBoxSize");
     }
 }
 

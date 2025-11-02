@@ -8,116 +8,32 @@ public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServ
 {
     public double? X
     {
-        get
-        {
-            double? __res_1592;
-            double? __res_1593 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_1593 is null)
-            {
-                __res_1592 = null;
-            }
-            else
-            {
-                double __notNullable_1594 = (double)__res_1593;
-                __res_1592 = __notNullable_1594;
-            }
-            return __res_1592;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "x");
     }
 
     public double? Y
     {
-        get
-        {
-            double? __res_1595;
-            double? __res_1596 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_1596 is null)
-            {
-                __res_1595 = null;
-            }
-            else
-            {
-                double __notNullable_1597 = (double)__res_1596;
-                __res_1595 = __notNullable_1597;
-            }
-            return __res_1595;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "y");
     }
 
     public double? Z
     {
-        get
-        {
-            double? __res_1598;
-            double? __res_1599 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_1599 is null)
-            {
-                __res_1598 = null;
-            }
-            else
-            {
-                double __notNullable_1600 = (double)__res_1599;
-                __res_1598 = __notNullable_1600;
-            }
-            return __res_1598;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "z");
     }
 
     public double? XBias
     {
-        get
-        {
-            double? __res_1601;
-            double? __res_1602 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "xBias");
-            if (__res_1602 is null)
-            {
-                __res_1601 = null;
-            }
-            else
-            {
-                double __notNullable_1603 = (double)__res_1602;
-                __res_1601 = __notNullable_1603;
-            }
-            return __res_1601;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "xBias");
     }
 
     public double? YBias
     {
-        get
-        {
-            double? __res_1604;
-            double? __res_1605 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "yBias");
-            if (__res_1605 is null)
-            {
-                __res_1604 = null;
-            }
-            else
-            {
-                double __notNullable_1606 = (double)__res_1605;
-                __res_1604 = __notNullable_1606;
-            }
-            return __res_1604;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "yBias");
     }
 
     public double? ZBias
     {
-        get
-        {
-            double? __res_1607;
-            double? __res_1608 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "zBias");
-            if (__res_1608 is null)
-            {
-                __res_1607 = null;
-            }
-            else
-            {
-                double __notNullable_1609 = (double)__res_1608;
-                __res_1607 = __notNullable_1609;
-            }
-            return __res_1607;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "zBias");
     }
 }
 

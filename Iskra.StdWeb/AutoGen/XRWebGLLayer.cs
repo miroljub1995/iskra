@@ -8,98 +8,33 @@ public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScr
 {
     public bool Antialias
     {
-        get
-        {
-            bool __res_8921;
-            bool __res_8922 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "antialias");
-            __res_8921 = __res_8922;
-            return __res_8921;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "antialias");
     }
 
     public bool IgnoreDepthValues
     {
-        get
-        {
-            bool __res_8923;
-            bool __res_8924 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreDepthValues");
-            __res_8923 = __res_8924;
-            return __res_8923;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ignoreDepthValues");
     }
 
     public float? FixedFoveation
     {
-        get
-        {
-            float? __res_8925;
-            double? __res_8926 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation");
-            if (__res_8926 is null)
-            {
-                __res_8925 = null;
-            }
-            else
-            {
-                double __notNullable_8927 = (double)__res_8926;
-                __res_8925 = Convert.ToSingle(__notNullable_8927);
-            }
-            return __res_8925;
-        }
-        set
-        {
-            double? __marshalledValue_8928;
-            if (value is null)
-            {
-                __marshalledValue_8928 = null;
-            }
-            else
-            {
-                float __notNullable_8929 = (float)value;
-                __marshalledValue_8928 = Convert.ToDouble(__notNullable_8929);
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "fixedFoveation", __marshalledValue_8928);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "fixedFoveation");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<float?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "fixedFoveation", value);
     }
 
     public global::Iskra.StdWeb.WebGLFramebuffer? Framebuffer
     {
-        get
-        {
-            global::Iskra.StdWeb.WebGLFramebuffer? __res_8930;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8931 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "framebuffer");
-            if (__res_8931 is null)
-            {
-                __res_8930 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8932 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8931;
-                __res_8930 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLFramebuffer>(__notNullable_8932);
-            }
-            return __res_8930;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WebGLFramebuffer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "framebuffer");
     }
 
     public uint FramebufferWidth
     {
-        get
-        {
-            uint __res_8933;
-            double __res_8934 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "framebufferWidth");
-            __res_8933 = Convert.ToUInt32(__res_8934);
-            return __res_8933;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "framebufferWidth");
     }
 
     public uint FramebufferHeight
     {
-        get
-        {
-            uint __res_8935;
-            double __res_8936 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "framebufferHeight");
-            __res_8935 = Convert.ToUInt32(__res_8936);
-            return __res_8935;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "framebufferHeight");
     }
 
     public global::Iskra.StdWeb.XRViewport? GetViewport(global::Iskra.StdWeb.XRView view)

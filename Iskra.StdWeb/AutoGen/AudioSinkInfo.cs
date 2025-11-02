@@ -8,13 +8,7 @@ public partial class AudioSinkInfo(global::System.Runtime.InteropServices.JavaSc
 {
     public global::Iskra.StdWeb.AudioSinkType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioSinkType __res_17144;
-            string __res_17145 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_17144 = global::Iskra.StdWeb.AudioSinkType.Create(__res_17145);
-            return __res_17144;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioSinkType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 }
 

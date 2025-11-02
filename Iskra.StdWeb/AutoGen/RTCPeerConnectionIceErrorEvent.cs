@@ -8,73 +8,27 @@ public partial class RTCPeerConnectionIceErrorEvent(global::System.Runtime.Inter
 {
     public string? Address
     {
-        get
-        {
-            string? __res_4115;
-            string? __res_4116 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "address");
-            if (__res_4116 is null)
-            {
-                __res_4115 = null;
-            }
-            else
-            {
-                string __notNullable_4117 = (string)__res_4116;
-                __res_4115 = __notNullable_4117;
-            }
-            return __res_4115;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "address");
     }
 
     public ushort? Port
     {
-        get
-        {
-            ushort? __res_4118;
-            double? __res_4119 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "port");
-            if (__res_4119 is null)
-            {
-                __res_4118 = null;
-            }
-            else
-            {
-                double __notNullable_4120 = (double)__res_4119;
-                __res_4118 = Convert.ToUInt16(__notNullable_4120);
-            }
-            return __res_4118;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "port");
     }
 
     public string Url
     {
-        get
-        {
-            string __res_4121;
-            string __res_4122 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_4121 = __res_4122;
-            return __res_4121;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "url");
     }
 
     public ushort ErrorCode
     {
-        get
-        {
-            ushort __res_4123;
-            double __res_4124 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "errorCode");
-            __res_4123 = Convert.ToUInt16(__res_4124);
-            return __res_4123;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "errorCode");
     }
 
     public string ErrorText
     {
-        get
-        {
-            string __res_4125;
-            string __res_4126 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "errorText");
-            __res_4125 = __res_4126;
-            return __res_4125;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "errorText");
     }
 }
 

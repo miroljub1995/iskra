@@ -8,13 +8,7 @@ public partial class CSSUnparsedValue(global::System.Runtime.InteropServices.Jav
 {
     public uint Length
     {
-        get
-        {
-            uint __res_51;
-            double __res_52 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_51 = Convert.ToUInt32(__res_52);
-            return __res_51;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSVariableReferenceValue, global::Iskra.StdWeb.GenericMarshaller.Union> Get(uint index)

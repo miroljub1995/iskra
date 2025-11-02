@@ -8,40 +8,12 @@ public partial class CSSScopeRule(global::System.Runtime.InteropServices.JavaScr
 {
     public string? Start
     {
-        get
-        {
-            string? __res_8032;
-            string? __res_8033 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "start");
-            if (__res_8033 is null)
-            {
-                __res_8032 = null;
-            }
-            else
-            {
-                string __notNullable_8034 = (string)__res_8033;
-                __res_8032 = __notNullable_8034;
-            }
-            return __res_8032;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "start");
     }
 
     public string? End
     {
-        get
-        {
-            string? __res_8035;
-            string? __res_8036 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "end");
-            if (__res_8036 is null)
-            {
-                __res_8035 = null;
-            }
-            else
-            {
-                string __notNullable_8037 = (string)__res_8036;
-                __res_8035 = __notNullable_8037;
-            }
-            return __res_8035;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "end");
     }
 }
 

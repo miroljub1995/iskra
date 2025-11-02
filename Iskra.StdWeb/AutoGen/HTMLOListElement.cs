@@ -8,70 +8,26 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
 {
     public bool Reversed
     {
-        get
-        {
-            bool __res_11466;
-            bool __res_11467 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "reversed");
-            __res_11466 = __res_11467;
-            return __res_11466;
-        }
-        set
-        {
-            bool __marshalledValue_11468;
-            __marshalledValue_11468 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "reversed", __marshalledValue_11468);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reversed");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reversed", value);
     }
 
     public int Start
     {
-        get
-        {
-            int __res_11469;
-            double __res_11470 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "start");
-            __res_11469 = Convert.ToInt32(__res_11470);
-            return __res_11469;
-        }
-        set
-        {
-            double __marshalledValue_11471;
-            __marshalledValue_11471 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "start", __marshalledValue_11471);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "start");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "start", value);
     }
 
     public string Type
     {
-        get
-        {
-            string __res_11472;
-            string __res_11473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_11472 = __res_11473;
-            return __res_11472;
-        }
-        set
-        {
-            string __marshalledValue_11474;
-            __marshalledValue_11474 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_11474);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type", value);
     }
 
     public bool Compact
     {
-        get
-        {
-            bool __res_11475;
-            bool __res_11476 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "compact");
-            __res_11475 = __res_11476;
-            return __res_11475;
-        }
-        set
-        {
-            bool __marshalledValue_11477;
-            __marshalledValue_11477 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(JSObject, "compact", __marshalledValue_11477);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact", value);
     }
 }
 

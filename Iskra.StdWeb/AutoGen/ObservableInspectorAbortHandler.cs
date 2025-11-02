@@ -10,31 +10,31 @@ public partial class ObservableInspectorAbortHandler(global::System.Runtime.Inte
 {
     public static implicit operator ObservableInspectorAbortHandler(ObservableInspectorAbortHandlerManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_10034) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_20) =>
         {
-            using (__args_10034)
+            using (__args_20)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_10036;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10037;
-                __propObject_10037 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_10034, 0);
-                if (__propObject_10037 is null)
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_22;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_23;
+                __propObject_23 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_20, 0);
+                if (__propObject_23 is null)
                 {
-                    __arg_10036 = null;
+                    __arg_22 = null;
                 }
                 else
                 {
-                    __arg_10036 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_10037);
+                    __arg_22 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_23);
                 }
 
-                input(__arg_10036);
+                input(__arg_22);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_10038 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_10038, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_24 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_24, input);
 
-        return new global::Iskra.StdWeb.ObservableInspectorAbortHandler(__funcObj_10038);
+        return new global::Iskra.StdWeb.ObservableInspectorAbortHandler(__funcObj_24);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.ObservableInspectorAbortHandlerManaged? managed, bool allowConversion = false)
@@ -52,24 +52,24 @@ public partial class ObservableInspectorAbortHandler(global::System.Runtime.Inte
 
         managed = (value) =>
         {
-            int __argsArrayLength_10042 = 1;
+            int __argsArrayLength_28 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_10039 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_10042);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_25 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_28);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_10043;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_29;
             if (value is null)
             {
-                __propObject_10043 = null;
+                __propObject_29 = null;
             }
             else
             {
-                __propObject_10043 = value.JSObject;
+                __propObject_29 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_10039.JSObject, 0, __propObject_10043);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_25.JSObject, 0, __propObject_29);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_10039.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_25.JSObject);
         };
         return true;
     }

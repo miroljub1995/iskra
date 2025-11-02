@@ -23,59 +23,17 @@ public partial class AnimationEffect(global::System.Runtime.InteropServices.Java
 
     public global::Iskra.StdWeb.GroupEffect? Parent
     {
-        get
-        {
-            global::Iskra.StdWeb.GroupEffect? __res_3490;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3491 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "parent");
-            if (__res_3491 is null)
-            {
-                __res_3490 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3492 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3491;
-                __res_3490 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GroupEffect>(__notNullable_3492);
-            }
-            return __res_3490;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GroupEffect?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "parent");
     }
 
     public global::Iskra.StdWeb.AnimationEffect? PreviousSibling
     {
-        get
-        {
-            global::Iskra.StdWeb.AnimationEffect? __res_3493;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3494 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "previousSibling");
-            if (__res_3494 is null)
-            {
-                __res_3493 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3495 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3494;
-                __res_3493 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_3495);
-            }
-            return __res_3493;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AnimationEffect?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "previousSibling");
     }
 
     public global::Iskra.StdWeb.AnimationEffect? NextSibling
     {
-        get
-        {
-            global::Iskra.StdWeb.AnimationEffect? __res_3496;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3497 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "nextSibling");
-            if (__res_3497 is null)
-            {
-                __res_3496 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3498 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3497;
-                __res_3496 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AnimationEffect>(__notNullable_3498);
-            }
-            return __res_3496;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AnimationEffect?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "nextSibling");
     }
 
     public void Before(params global::Iskra.StdWeb.AnimationEffect[] effects)

@@ -23,266 +23,122 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
 
     public double A
     {
-        get
-        {
-            double __res_7684;
-            double __res_7685 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "a");
-            __res_7684 = __res_7685;
-            return __res_7684;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "a");
     }
 
     public double B
     {
-        get
-        {
-            double __res_7686;
-            double __res_7687 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "b");
-            __res_7686 = __res_7687;
-            return __res_7686;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "b");
     }
 
     public double C
     {
-        get
-        {
-            double __res_7688;
-            double __res_7689 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "c");
-            __res_7688 = __res_7689;
-            return __res_7688;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "c");
     }
 
     public double D
     {
-        get
-        {
-            double __res_7690;
-            double __res_7691 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "d");
-            __res_7690 = __res_7691;
-            return __res_7690;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "d");
     }
 
     public double E
     {
-        get
-        {
-            double __res_7692;
-            double __res_7693 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "e");
-            __res_7692 = __res_7693;
-            return __res_7692;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "e");
     }
 
     public double F
     {
-        get
-        {
-            double __res_7694;
-            double __res_7695 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "f");
-            __res_7694 = __res_7695;
-            return __res_7694;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "f");
     }
 
     public double M11
     {
-        get
-        {
-            double __res_7696;
-            double __res_7697 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m11");
-            __res_7696 = __res_7697;
-            return __res_7696;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m11");
     }
 
     public double M12
     {
-        get
-        {
-            double __res_7698;
-            double __res_7699 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m12");
-            __res_7698 = __res_7699;
-            return __res_7698;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m12");
     }
 
     public double M13
     {
-        get
-        {
-            double __res_7700;
-            double __res_7701 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m13");
-            __res_7700 = __res_7701;
-            return __res_7700;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m13");
     }
 
     public double M14
     {
-        get
-        {
-            double __res_7702;
-            double __res_7703 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m14");
-            __res_7702 = __res_7703;
-            return __res_7702;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m14");
     }
 
     public double M21
     {
-        get
-        {
-            double __res_7704;
-            double __res_7705 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m21");
-            __res_7704 = __res_7705;
-            return __res_7704;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m21");
     }
 
     public double M22
     {
-        get
-        {
-            double __res_7706;
-            double __res_7707 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m22");
-            __res_7706 = __res_7707;
-            return __res_7706;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m22");
     }
 
     public double M23
     {
-        get
-        {
-            double __res_7708;
-            double __res_7709 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m23");
-            __res_7708 = __res_7709;
-            return __res_7708;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m23");
     }
 
     public double M24
     {
-        get
-        {
-            double __res_7710;
-            double __res_7711 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m24");
-            __res_7710 = __res_7711;
-            return __res_7710;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m24");
     }
 
     public double M31
     {
-        get
-        {
-            double __res_7712;
-            double __res_7713 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m31");
-            __res_7712 = __res_7713;
-            return __res_7712;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m31");
     }
 
     public double M32
     {
-        get
-        {
-            double __res_7714;
-            double __res_7715 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m32");
-            __res_7714 = __res_7715;
-            return __res_7714;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m32");
     }
 
     public double M33
     {
-        get
-        {
-            double __res_7716;
-            double __res_7717 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m33");
-            __res_7716 = __res_7717;
-            return __res_7716;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m33");
     }
 
     public double M34
     {
-        get
-        {
-            double __res_7718;
-            double __res_7719 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m34");
-            __res_7718 = __res_7719;
-            return __res_7718;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m34");
     }
 
     public double M41
     {
-        get
-        {
-            double __res_7720;
-            double __res_7721 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m41");
-            __res_7720 = __res_7721;
-            return __res_7720;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m41");
     }
 
     public double M42
     {
-        get
-        {
-            double __res_7722;
-            double __res_7723 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m42");
-            __res_7722 = __res_7723;
-            return __res_7722;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m42");
     }
 
     public double M43
     {
-        get
-        {
-            double __res_7724;
-            double __res_7725 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m43");
-            __res_7724 = __res_7725;
-            return __res_7724;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m43");
     }
 
     public double M44
     {
-        get
-        {
-            double __res_7726;
-            double __res_7727 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "m44");
-            __res_7726 = __res_7727;
-            return __res_7726;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "m44");
     }
 
     public bool Is2D
     {
-        get
-        {
-            bool __res_7728;
-            bool __res_7729 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "is2D");
-            __res_7728 = __res_7729;
-            return __res_7728;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "is2D");
     }
 
     public bool IsIdentity
     {
-        get
-        {
-            bool __res_7730;
-            bool __res_7731 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isIdentity");
-            __res_7730 = __res_7731;
-            return __res_7730;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isIdentity");
     }
 
     public global::Iskra.StdWeb.DOMMatrix Translate(double tx, double ty, double tz)

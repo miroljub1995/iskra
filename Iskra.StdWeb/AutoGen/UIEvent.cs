@@ -8,51 +8,17 @@ public partial class UIEvent(global::System.Runtime.InteropServices.JavaScript.J
 {
     public global::Iskra.StdWeb.InputDeviceCapabilities? SourceCapabilities
     {
-        get
-        {
-            global::Iskra.StdWeb.InputDeviceCapabilities? __res_16847;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16848 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "sourceCapabilities");
-            if (__res_16848 is null)
-            {
-                __res_16847 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16849 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16848;
-                __res_16847 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.InputDeviceCapabilities>(__notNullable_16849);
-            }
-            return __res_16847;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.InputDeviceCapabilities?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "sourceCapabilities");
     }
 
     public global::Iskra.StdWeb.Window? View
     {
-        get
-        {
-            global::Iskra.StdWeb.Window? __res_16850;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16851 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "view");
-            if (__res_16851 is null)
-            {
-                __res_16850 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16852 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16851;
-                __res_16850 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__notNullable_16852);
-            }
-            return __res_16850;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Window?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "view");
     }
 
     public int Detail
     {
-        get
-        {
-            int __res_16853;
-            double __res_16854 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "detail");
-            __res_16853 = Convert.ToInt32(__res_16854);
-            return __res_16853;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "detail");
     }
 
     public void InitUIEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg)
@@ -62,13 +28,7 @@ public partial class UIEvent(global::System.Runtime.InteropServices.JavaScript.J
 
     public uint Which
     {
-        get
-        {
-            uint __res_16856;
-            double __res_16857 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "which");
-            __res_16856 = Convert.ToUInt32(__res_16857);
-            return __res_16856;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "which");
     }
 }
 

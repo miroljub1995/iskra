@@ -8,35 +8,17 @@ public partial class XRRay(global::System.Runtime.InteropServices.JavaScript.JSO
 {
     public global::Iskra.StdWeb.DOMPointReadOnly Origin
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMPointReadOnly __res_10489;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10490 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "origin");
-            __res_10489 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_10490);
-            return __res_10489;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "origin");
     }
 
     public global::Iskra.StdWeb.DOMPointReadOnly Direction
     {
-        get
-        {
-            global::Iskra.StdWeb.DOMPointReadOnly __res_10491;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10492 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "direction");
-            __res_10491 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMPointReadOnly>(__res_10492);
-            return __res_10491;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "direction");
     }
 
     public global::Iskra.JSCore.Float32Array Matrix
     {
-        get
-        {
-            global::Iskra.JSCore.Float32Array __res_10493;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10494 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "matrix");
-            __res_10493 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_10494);
-            return __res_10493;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matrix");
     }
 }
 

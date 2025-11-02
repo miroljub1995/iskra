@@ -8,73 +8,27 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
 {
     public bool IsFirstPersonObserver
     {
-        get
-        {
-            bool __res_8854;
-            bool __res_8855 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFirstPersonObserver");
-            __res_8854 = __res_8855;
-            return __res_8854;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isFirstPersonObserver");
     }
 
     public global::Iskra.StdWeb.XRCamera? Camera
     {
-        get
-        {
-            global::Iskra.StdWeb.XRCamera? __res_8856;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8857 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "camera");
-            if (__res_8857 is null)
-            {
-                __res_8856 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8858 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8857;
-                __res_8856 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRCamera>(__notNullable_8858);
-            }
-            return __res_8856;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRCamera?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "camera");
     }
 
     public global::Iskra.StdWeb.XREye Eye
     {
-        get
-        {
-            global::Iskra.StdWeb.XREye __res_8859;
-            string __res_8860 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "eye");
-            __res_8859 = global::Iskra.StdWeb.XREye.Create(__res_8860);
-            return __res_8859;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XREye, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "eye");
     }
 
     public uint Index
     {
-        get
-        {
-            uint __res_8861;
-            double __res_8862 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "index");
-            __res_8861 = Convert.ToUInt32(__res_8862);
-            return __res_8861;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "index");
     }
 
     public double? RecommendedViewportScale
     {
-        get
-        {
-            double? __res_8863;
-            double? __res_8864 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "recommendedViewportScale");
-            if (__res_8864 is null)
-            {
-                __res_8863 = null;
-            }
-            else
-            {
-                double __notNullable_8865 = (double)__res_8864;
-                __res_8863 = __notNullable_8865;
-            }
-            return __res_8863;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "recommendedViewportScale");
     }
 
     public void RequestViewportScale(double? scale)
@@ -84,24 +38,12 @@ public partial class XRView(global::System.Runtime.InteropServices.JavaScript.JS
 
     public global::Iskra.JSCore.Float32Array ProjectionMatrix
     {
-        get
-        {
-            global::Iskra.JSCore.Float32Array __res_8867;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8868 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "projectionMatrix");
-            __res_8867 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Float32Array>(__res_8868);
-            return __res_8867;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "projectionMatrix");
     }
 
     public global::Iskra.StdWeb.XRRigidTransform Transform
     {
-        get
-        {
-            global::Iskra.StdWeb.XRRigidTransform __res_8869;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8870 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transform");
-            __res_8869 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRRigidTransform>(__res_8870);
-            return __res_8869;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRRigidTransform, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transform");
     }
 }
 

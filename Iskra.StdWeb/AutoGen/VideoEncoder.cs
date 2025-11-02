@@ -8,57 +8,18 @@ public partial class VideoEncoder(global::System.Runtime.InteropServices.JavaScr
 {
     public global::Iskra.StdWeb.CodecState State
     {
-        get
-        {
-            global::Iskra.StdWeb.CodecState __res_5007;
-            string __res_5008 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_5007 = global::Iskra.StdWeb.CodecState.Create(__res_5008);
-            return __res_5007;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CodecState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "state");
     }
 
     public uint EncodeQueueSize
     {
-        get
-        {
-            uint __res_5009;
-            double __res_5010 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "encodeQueueSize");
-            __res_5009 = Convert.ToUInt32(__res_5010);
-            return __res_5009;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "encodeQueueSize");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Ondequeue
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_5011;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5012 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue");
-            if (__res_5012 is null)
-            {
-                __res_5011 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5013 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5012;
-                __res_5011 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_5013);
-            }
-            return __res_5011;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5014;
-            if (value is null)
-            {
-                __marshalledValue_5014 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5015 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_5014 = __notNullable_5015.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondequeue", __marshalledValue_5014);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondequeue");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondequeue", value);
     }
 
     public void Configure(global::Iskra.StdWeb.VideoEncoderConfig config)

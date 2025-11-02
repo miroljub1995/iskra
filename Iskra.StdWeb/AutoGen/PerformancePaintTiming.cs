@@ -13,32 +13,12 @@ public partial class PerformancePaintTiming(global::System.Runtime.InteropServic
 
     public double PaintTime
     {
-        get
-        {
-            double __res_7986;
-            double __res_7987 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "paintTime");
-            __res_7986 = __res_7987;
-            return __res_7986;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "paintTime");
     }
 
     public double? PresentationTime
     {
-        get
-        {
-            double? __res_7988;
-            double? __res_7989 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "presentationTime");
-            if (__res_7989 is null)
-            {
-                __res_7988 = null;
-            }
-            else
-            {
-                double __notNullable_7990 = (double)__res_7989;
-                __res_7988 = __notNullable_7990;
-            }
-            return __res_7988;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "presentationTime");
     }
 }
 

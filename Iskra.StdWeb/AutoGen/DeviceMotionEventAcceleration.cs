@@ -8,59 +8,17 @@ public partial class DeviceMotionEventAcceleration(global::System.Runtime.Intero
 {
     public double? X
     {
-        get
-        {
-            double? __res_5499;
-            double? __res_5500 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "x");
-            if (__res_5500 is null)
-            {
-                __res_5499 = null;
-            }
-            else
-            {
-                double __notNullable_5501 = (double)__res_5500;
-                __res_5499 = __notNullable_5501;
-            }
-            return __res_5499;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "x");
     }
 
     public double? Y
     {
-        get
-        {
-            double? __res_5502;
-            double? __res_5503 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "y");
-            if (__res_5503 is null)
-            {
-                __res_5502 = null;
-            }
-            else
-            {
-                double __notNullable_5504 = (double)__res_5503;
-                __res_5502 = __notNullable_5504;
-            }
-            return __res_5502;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "y");
     }
 
     public double? Z
     {
-        get
-        {
-            double? __res_5505;
-            double? __res_5506 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "z");
-            if (__res_5506 is null)
-            {
-                __res_5505 = null;
-            }
-            else
-            {
-                double __notNullable_5507 = (double)__res_5506;
-                __res_5505 = __notNullable_5507;
-            }
-            return __res_5505;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "z");
     }
 }
 

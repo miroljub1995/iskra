@@ -8,35 +8,17 @@ public partial class PressureRecord(global::System.Runtime.InteropServices.JavaS
 {
     public global::Iskra.StdWeb.PressureSource Source
     {
-        get
-        {
-            global::Iskra.StdWeb.PressureSource __res_7978;
-            string __res_7979 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "source");
-            __res_7978 = global::Iskra.StdWeb.PressureSource.Create(__res_7979);
-            return __res_7978;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "source");
     }
 
     public global::Iskra.StdWeb.PressureState State
     {
-        get
-        {
-            global::Iskra.StdWeb.PressureState __res_7980;
-            string __res_7981 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "state");
-            __res_7980 = global::Iskra.StdWeb.PressureState.Create(__res_7981);
-            return __res_7980;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PressureState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "state");
     }
 
     public double Time
     {
-        get
-        {
-            double __res_7982;
-            double __res_7983 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "time");
-            __res_7982 = __res_7983;
-            return __res_7982;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "time");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

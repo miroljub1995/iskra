@@ -8,13 +8,7 @@ public partial class SpeechRecognitionResult(global::System.Runtime.InteropServi
 {
     public uint Length
     {
-        get
-        {
-            uint __res_8474;
-            double __res_8475 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_8474 = Convert.ToUInt32(__res_8475);
-            return __res_8474;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.SpeechRecognitionAlternative Item(uint index)
@@ -24,13 +18,7 @@ public partial class SpeechRecognitionResult(global::System.Runtime.InteropServi
 
     public bool IsFinal
     {
-        get
-        {
-            bool __res_8477;
-            bool __res_8478 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isFinal");
-            __res_8477 = __res_8478;
-            return __res_8477;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isFinal");
     }
 }
 

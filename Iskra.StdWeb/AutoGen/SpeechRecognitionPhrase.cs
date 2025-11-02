@@ -8,24 +8,12 @@ public partial class SpeechRecognitionPhrase(global::System.Runtime.InteropServi
 {
     public string Phrase
     {
-        get
-        {
-            string __res_8497;
-            string __res_8498 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "phrase");
-            __res_8497 = __res_8498;
-            return __res_8497;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "phrase");
     }
 
     public float Boost
     {
-        get
-        {
-            float __res_8499;
-            double __res_8500 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "boost");
-            __res_8499 = Convert.ToSingle(__res_8500);
-            return __res_8499;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "boost");
     }
 }
 

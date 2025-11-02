@@ -8,13 +8,7 @@ public partial class CSSMathNegate(global::System.Runtime.InteropServices.JavaSc
 {
     public global::Iskra.StdWeb.CSSNumericValue Value
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSNumericValue __res_86;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_87 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "value");
-            __res_86 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericValue>(__res_87);
-            return __res_86;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
     }
 }
 

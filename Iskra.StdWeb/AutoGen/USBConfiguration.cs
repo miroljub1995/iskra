@@ -8,44 +8,17 @@ public partial class USBConfiguration(global::System.Runtime.InteropServices.Jav
 {
     public byte ConfigurationValue
     {
-        get
-        {
-            byte __res_10274;
-            double __res_10275 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "configurationValue");
-            __res_10274 = Convert.ToByte(__res_10275);
-            return __res_10274;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "configurationValue");
     }
 
     public string? ConfigurationName
     {
-        get
-        {
-            string? __res_10276;
-            string? __res_10277 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "configurationName");
-            if (__res_10277 is null)
-            {
-                __res_10276 = null;
-            }
-            else
-            {
-                string __notNullable_10278 = (string)__res_10277;
-                __res_10276 = __notNullable_10278;
-            }
-            return __res_10276;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "configurationName");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBInterface, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Interfaces
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBInterface, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_10279;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10280;
-            __propObject_10280 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "interfaces");
-            __res_10279 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBInterface, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10280);
-            return __res_10279;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBInterface, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "interfaces");
     }
 }
 

@@ -8,13 +8,7 @@ public partial class MimeTypeArray(global::System.Runtime.InteropServices.JavaSc
 {
     public uint Length
     {
-        get
-        {
-            uint __res_15059;
-            double __res_15060 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_15059 = Convert.ToUInt32(__res_15060);
-            return __res_15059;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.MimeType? Item(uint index)

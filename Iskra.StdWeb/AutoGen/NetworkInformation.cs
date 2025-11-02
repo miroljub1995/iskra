@@ -8,101 +8,38 @@ public partial class NetworkInformation(global::System.Runtime.InteropServices.J
 {
     public global::Iskra.StdWeb.ConnectionType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.ConnectionType __res_5858;
-            string __res_5859 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_5858 = global::Iskra.StdWeb.ConnectionType.Create(__res_5859);
-            return __res_5858;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ConnectionType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public global::Iskra.StdWeb.EffectiveConnectionType EffectiveType
     {
-        get
-        {
-            global::Iskra.StdWeb.EffectiveConnectionType __res_5860;
-            string __res_5861 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "effectiveType");
-            __res_5860 = global::Iskra.StdWeb.EffectiveConnectionType.Create(__res_5861);
-            return __res_5860;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EffectiveConnectionType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "effectiveType");
     }
 
     public double DownlinkMax
     {
-        get
-        {
-            double __res_5862;
-            double __res_5863 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downlinkMax");
-            __res_5862 = __res_5863;
-            return __res_5862;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "downlinkMax");
     }
 
     public double Downlink
     {
-        get
-        {
-            double __res_5864;
-            double __res_5865 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "downlink");
-            __res_5864 = __res_5865;
-            return __res_5864;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "downlink");
     }
 
     public ulong Rtt
     {
-        get
-        {
-            ulong __res_5866;
-            double __res_5867 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "rtt");
-            __res_5866 = Convert.ToUInt64(__res_5867);
-            return __res_5866;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rtt");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onchange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_5868;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_5869 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onchange");
-            if (__res_5869 is null)
-            {
-                __res_5868 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_5870 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_5869;
-                __res_5868 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_5870);
-            }
-            return __res_5868;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_5871;
-            if (value is null)
-            {
-                __marshalledValue_5871 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_5872 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_5871 = __notNullable_5872.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onchange", __marshalledValue_5871);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onchange", value);
     }
 
     public bool SaveData
     {
-        get
-        {
-            bool __res_5873;
-            bool __res_5874 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "saveData");
-            __res_5873 = __res_5874;
-            return __res_5873;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "saveData");
     }
 }
 

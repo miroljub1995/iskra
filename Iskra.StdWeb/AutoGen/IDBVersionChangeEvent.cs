@@ -8,32 +8,12 @@ public partial class IDBVersionChangeEvent(global::System.Runtime.InteropService
 {
     public ulong OldVersion
     {
-        get
-        {
-            ulong __res_16590;
-            double __res_16591 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "oldVersion");
-            __res_16590 = Convert.ToUInt64(__res_16591);
-            return __res_16590;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "oldVersion");
     }
 
     public ulong? NewVersion
     {
-        get
-        {
-            ulong? __res_16592;
-            double? __res_16593 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "newVersion");
-            if (__res_16593 is null)
-            {
-                __res_16592 = null;
-            }
-            else
-            {
-                double __notNullable_16594 = (double)__res_16593;
-                __res_16592 = Convert.ToUInt64(__notNullable_16594);
-            }
-            return __res_16592;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "newVersion");
     }
 }
 

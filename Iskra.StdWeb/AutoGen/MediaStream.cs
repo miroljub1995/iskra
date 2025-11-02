@@ -8,13 +8,7 @@ public partial class MediaStream(global::System.Runtime.InteropServices.JavaScri
 {
     public string Id
     {
-        get
-        {
-            string __res_8110;
-            string __res_8111 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_8110 = __res_8111;
-            return __res_8110;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "id");
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetAudioTracks()
@@ -54,79 +48,19 @@ public partial class MediaStream(global::System.Runtime.InteropServices.JavaScri
 
     public bool Active
     {
-        get
-        {
-            bool __res_8119;
-            bool __res_8120 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "active");
-            __res_8119 = __res_8120;
-            return __res_8119;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "active");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onaddtrack
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8121;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8122 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack");
-            if (__res_8122 is null)
-            {
-                __res_8121 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8123 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8122;
-                __res_8121 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8123);
-            }
-            return __res_8121;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8124;
-            if (value is null)
-            {
-                __marshalledValue_8124 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8125 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8124 = __notNullable_8125.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaddtrack", __marshalledValue_8124);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaddtrack");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaddtrack", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onremovetrack
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_8126;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8127 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack");
-            if (__res_8127 is null)
-            {
-                __res_8126 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8128 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8127;
-                __res_8126 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_8128);
-            }
-            return __res_8126;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_8129;
-            if (value is null)
-            {
-                __marshalledValue_8129 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_8130 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_8129 = __notNullable_8130.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onremovetrack", __marshalledValue_8129);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onremovetrack");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onremovetrack", value);
     }
 }
 

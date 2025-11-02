@@ -18,13 +18,7 @@ public partial class TextEncoder(global::System.Runtime.InteropServices.JavaScri
 
     public string Encoding
     {
-        get
-        {
-            string __res_2658;
-            string __res_2659 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
-            __res_2658 = __res_2659;
-            return __res_2658;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "encoding");
     }
 }
 

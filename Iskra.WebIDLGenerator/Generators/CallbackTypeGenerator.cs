@@ -1,13 +1,12 @@
-using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
+using Iskra.WebIDLGenerator.Utils;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class CallbackTypeGenerator(
     IServiceProvider provider,
-    GeneratorContext generatorContext,
     GenSettings genSettings
 )
 {
@@ -57,8 +56,8 @@ public class CallbackTypeGenerator(
         var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
         var setPropertyValueGenerator = provider.GetRequiredService<SetPropertyValueGenerator>();
 
-        var argsVar = generatorContext.GetNextVariableName("args");
-        var lengthVar = generatorContext.GetNextVariableName("length");
+        var argsVar = VariableName.Current.GetNext("args");
+        var lengthVar = VariableName.Current.GetNext("length");
 
         List<string> managedArgVars = [];
         List<string> argStatements = [];
@@ -67,7 +66,7 @@ public class CallbackTypeGenerator(
         {
             var arg = input.Arguments[i];
 
-            var managedArgVar = generatorContext.GetNextVariableName("arg");
+            var managedArgVar = VariableName.Current.GetNext("arg");
             managedArgVars.Add(managedArgVar);
 
             var argType = descriptionToTypeDeclarationGenerator.Generate(arg.IdlType);
@@ -91,9 +90,9 @@ public class CallbackTypeGenerator(
             }
             else
             {
-                var paramsLengthVar = generatorContext.GetNextVariableName("paramsLength");
-                var loopVar = generatorContext.GetNextVariableName("i");
-                var paramsItem = generatorContext.GetNextVariableName("paramsItem");
+                var paramsLengthVar = VariableName.Current.GetNext("paramsLength");
+                var loopVar = VariableName.Current.GetNext("i");
+                var paramsItem = VariableName.Current.GetNext("paramsItem");
 
                 var getParamsItem = getPropertyValueGenerator.Generate(
                     inputVar: argsVar,
@@ -124,7 +123,7 @@ public class CallbackTypeGenerator(
         var argStatementsStr = string.Join("\n\n", argStatements);
         var managedArgsList = string.Join(", ", managedArgVars);
 
-        var funcObjVar = generatorContext.GetNextVariableName("funcObj");
+        var funcObjVar = VariableName.Current.GetNext("funcObj");
 
         if (input.IdlType is SingleTypeDescription { IdlType: BuiltinTypes.Undefined })
         {
@@ -147,8 +146,8 @@ public class CallbackTypeGenerator(
         }
         else
         {
-            var resVar = generatorContext.GetNextVariableName("res");
-            var managedResVar = generatorContext.GetNextVariableName("managedRes");
+            var resVar = VariableName.Current.GetNext("res");
+            var managedResVar = VariableName.Current.GetNext("managedRes");
             var returnType = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
 
             var setResStatements = setPropertyValueGenerator.Generate(
@@ -186,9 +185,9 @@ public class CallbackTypeGenerator(
         var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
         var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
 
-        var argsArrayVar = generatorContext.GetNextVariableName("argsArray");
-        var resOwnerVar = generatorContext.GetNextVariableName("resOwner");
-        var resVar = generatorContext.GetNextVariableName("res");
+        var argsArrayVar = VariableName.Current.GetNext("argsArray");
+        var resOwnerVar = VariableName.Current.GetNext("resOwner");
+        var resVar = VariableName.Current.GetNext("res");
 
         var isEmpty = input.Arguments.Count == 0;
         var isVoid = input.IdlType is SingleTypeDescription { IdlType: BuiltinTypes.Undefined };

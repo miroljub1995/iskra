@@ -8,111 +8,37 @@ public partial class GeolocationCoordinates(global::System.Runtime.InteropServic
 {
     public double Accuracy
     {
-        get
-        {
-            double __res_2565;
-            double __res_2566 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "accuracy");
-            __res_2565 = __res_2566;
-            return __res_2565;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "accuracy");
     }
 
     public double Latitude
     {
-        get
-        {
-            double __res_2567;
-            double __res_2568 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "latitude");
-            __res_2567 = __res_2568;
-            return __res_2567;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "latitude");
     }
 
     public double Longitude
     {
-        get
-        {
-            double __res_2569;
-            double __res_2570 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "longitude");
-            __res_2569 = __res_2570;
-            return __res_2569;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "longitude");
     }
 
     public double? Altitude
     {
-        get
-        {
-            double? __res_2571;
-            double? __res_2572 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitude");
-            if (__res_2572 is null)
-            {
-                __res_2571 = null;
-            }
-            else
-            {
-                double __notNullable_2573 = (double)__res_2572;
-                __res_2571 = __notNullable_2573;
-            }
-            return __res_2571;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "altitude");
     }
 
     public double? AltitudeAccuracy
     {
-        get
-        {
-            double? __res_2574;
-            double? __res_2575 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "altitudeAccuracy");
-            if (__res_2575 is null)
-            {
-                __res_2574 = null;
-            }
-            else
-            {
-                double __notNullable_2576 = (double)__res_2575;
-                __res_2574 = __notNullable_2576;
-            }
-            return __res_2574;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "altitudeAccuracy");
     }
 
     public double? Heading
     {
-        get
-        {
-            double? __res_2577;
-            double? __res_2578 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "heading");
-            if (__res_2578 is null)
-            {
-                __res_2577 = null;
-            }
-            else
-            {
-                double __notNullable_2579 = (double)__res_2578;
-                __res_2577 = __notNullable_2579;
-            }
-            return __res_2577;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "heading");
     }
 
     public double? Speed
     {
-        get
-        {
-            double? __res_2580;
-            double? __res_2581 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "speed");
-            if (__res_2581 is null)
-            {
-                __res_2580 = null;
-            }
-            else
-            {
-                double __notNullable_2582 = (double)__res_2581;
-                __res_2580 = __notNullable_2582;
-            }
-            return __res_2580;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "speed");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()

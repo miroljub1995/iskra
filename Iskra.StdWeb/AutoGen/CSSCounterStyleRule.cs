@@ -8,189 +8,68 @@ public partial class CSSCounterStyleRule(global::System.Runtime.InteropServices.
 {
     public string Name
     {
-        get
-        {
-            string __res_16324;
-            string __res_16325 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_16324 = __res_16325;
-            return __res_16324;
-        }
-        set
-        {
-            string __marshalledValue_16326;
-            __marshalledValue_16326 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "name", __marshalledValue_16326);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name", value);
     }
 
     public string System
     {
-        get
-        {
-            string __res_16327;
-            string __res_16328 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "system");
-            __res_16327 = __res_16328;
-            return __res_16327;
-        }
-        set
-        {
-            string __marshalledValue_16329;
-            __marshalledValue_16329 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "system", __marshalledValue_16329);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "system");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "system", value);
     }
 
     public string Symbols
     {
-        get
-        {
-            string __res_16330;
-            string __res_16331 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "symbols");
-            __res_16330 = __res_16331;
-            return __res_16330;
-        }
-        set
-        {
-            string __marshalledValue_16332;
-            __marshalledValue_16332 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "symbols", __marshalledValue_16332);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "symbols");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "symbols", value);
     }
 
     public string AdditiveSymbols
     {
-        get
-        {
-            string __res_16333;
-            string __res_16334 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "additiveSymbols");
-            __res_16333 = __res_16334;
-            return __res_16333;
-        }
-        set
-        {
-            string __marshalledValue_16335;
-            __marshalledValue_16335 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "additiveSymbols", __marshalledValue_16335);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "additiveSymbols");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "additiveSymbols", value);
     }
 
     public string Negative
     {
-        get
-        {
-            string __res_16336;
-            string __res_16337 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "negative");
-            __res_16336 = __res_16337;
-            return __res_16336;
-        }
-        set
-        {
-            string __marshalledValue_16338;
-            __marshalledValue_16338 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "negative", __marshalledValue_16338);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "negative");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "negative", value);
     }
 
     public string Prefix
     {
-        get
-        {
-            string __res_16339;
-            string __res_16340 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "prefix");
-            __res_16339 = __res_16340;
-            return __res_16339;
-        }
-        set
-        {
-            string __marshalledValue_16341;
-            __marshalledValue_16341 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "prefix", __marshalledValue_16341);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "prefix");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "prefix", value);
     }
 
     public string Suffix
     {
-        get
-        {
-            string __res_16342;
-            string __res_16343 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "suffix");
-            __res_16342 = __res_16343;
-            return __res_16342;
-        }
-        set
-        {
-            string __marshalledValue_16344;
-            __marshalledValue_16344 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "suffix", __marshalledValue_16344);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "suffix");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "suffix", value);
     }
 
     public string Range
     {
-        get
-        {
-            string __res_16345;
-            string __res_16346 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "range");
-            __res_16345 = __res_16346;
-            return __res_16345;
-        }
-        set
-        {
-            string __marshalledValue_16347;
-            __marshalledValue_16347 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "range", __marshalledValue_16347);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "range");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "range", value);
     }
 
     public string Pad
     {
-        get
-        {
-            string __res_16348;
-            string __res_16349 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "pad");
-            __res_16348 = __res_16349;
-            return __res_16348;
-        }
-        set
-        {
-            string __marshalledValue_16350;
-            __marshalledValue_16350 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "pad", __marshalledValue_16350);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pad");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pad", value);
     }
 
     public string SpeakAs
     {
-        get
-        {
-            string __res_16351;
-            string __res_16352 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "speakAs");
-            __res_16351 = __res_16352;
-            return __res_16351;
-        }
-        set
-        {
-            string __marshalledValue_16353;
-            __marshalledValue_16353 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "speakAs", __marshalledValue_16353);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "speakAs");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "speakAs", value);
     }
 
     public string Fallback
     {
-        get
-        {
-            string __res_16354;
-            string __res_16355 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "fallback");
-            __res_16354 = __res_16355;
-            return __res_16354;
-        }
-        set
-        {
-            string __marshalledValue_16356;
-            __marshalledValue_16356 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "fallback", __marshalledValue_16356);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fallback");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fallback", value);
     }
 }
 

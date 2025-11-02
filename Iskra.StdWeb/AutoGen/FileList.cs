@@ -13,13 +13,7 @@ public partial class FileList(global::System.Runtime.InteropServices.JavaScript.
 
     public uint Length
     {
-        get
-        {
-            uint __res_16973;
-            double __res_16974 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_16973 = Convert.ToUInt32(__res_16974);
-            return __res_16973;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 }
 

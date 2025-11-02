@@ -13,124 +13,36 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
 
     public global::Iskra.StdWeb.ReadableStream Readable
     {
-        get
-        {
-            global::Iskra.StdWeb.ReadableStream __res_4482;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "readable");
-            __res_4482 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ReadableStream>(__res_4483);
-            return __res_4482;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ReadableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readable");
     }
 
     public uint MaxDatagramSize
     {
-        get
-        {
-            uint __res_4484;
-            double __res_4485 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "maxDatagramSize");
-            __res_4484 = Convert.ToUInt32(__res_4485);
-            return __res_4484;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxDatagramSize");
     }
 
     public double? IncomingMaxAge
     {
-        get
-        {
-            double? __res_4486;
-            double? __res_4487 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "incomingMaxAge");
-            if (__res_4487 is null)
-            {
-                __res_4486 = null;
-            }
-            else
-            {
-                double __notNullable_4488 = (double)__res_4487;
-                __res_4486 = __notNullable_4488;
-            }
-            return __res_4486;
-        }
-        set
-        {
-            double? __marshalledValue_4489;
-            if (value is null)
-            {
-                __marshalledValue_4489 = null;
-            }
-            else
-            {
-                double __notNullable_4490 = (double)value;
-                __marshalledValue_4489 = __notNullable_4490;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "incomingMaxAge", __marshalledValue_4489);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "incomingMaxAge");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "incomingMaxAge", value);
     }
 
     public double? OutgoingMaxAge
     {
-        get
-        {
-            double? __res_4491;
-            double? __res_4492 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "outgoingMaxAge");
-            if (__res_4492 is null)
-            {
-                __res_4491 = null;
-            }
-            else
-            {
-                double __notNullable_4493 = (double)__res_4492;
-                __res_4491 = __notNullable_4493;
-            }
-            return __res_4491;
-        }
-        set
-        {
-            double? __marshalledValue_4494;
-            if (value is null)
-            {
-                __marshalledValue_4494 = null;
-            }
-            else
-            {
-                double __notNullable_4495 = (double)value;
-                __marshalledValue_4494 = __notNullable_4495;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(JSObject, "outgoingMaxAge", __marshalledValue_4494);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "outgoingMaxAge");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "outgoingMaxAge", value);
     }
 
     public double IncomingHighWaterMark
     {
-        get
-        {
-            double __res_4496;
-            double __res_4497 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "incomingHighWaterMark");
-            __res_4496 = __res_4497;
-            return __res_4496;
-        }
-        set
-        {
-            double __marshalledValue_4498;
-            __marshalledValue_4498 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "incomingHighWaterMark", __marshalledValue_4498);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "incomingHighWaterMark");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "incomingHighWaterMark", value);
     }
 
     public double OutgoingHighWaterMark
     {
-        get
-        {
-            double __res_4499;
-            double __res_4500 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "outgoingHighWaterMark");
-            __res_4499 = __res_4500;
-            return __res_4499;
-        }
-        set
-        {
-            double __marshalledValue_4501;
-            __marshalledValue_4501 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "outgoingHighWaterMark", __marshalledValue_4501);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "outgoingHighWaterMark");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "outgoingHighWaterMark", value);
     }
 }
 

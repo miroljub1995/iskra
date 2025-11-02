@@ -8,24 +8,12 @@ public partial class CSSPositionTryRule(global::System.Runtime.InteropServices.J
 {
     public string Name
     {
-        get
-        {
-            string __res_4690;
-            string __res_4691 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_4690 = __res_4691;
-            return __res_4690;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public global::Iskra.StdWeb.CSSPositionTryDescriptors Style
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSPositionTryDescriptors __res_4692;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4693 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_4692 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSPositionTryDescriptors>(__res_4693);
-            return __res_4692;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSPositionTryDescriptors, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "style");
     }
 }
 

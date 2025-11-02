@@ -13,46 +13,22 @@ public partial class DOMPointReadOnly(global::System.Runtime.InteropServices.Jav
 
     public double X
     {
-        get
-        {
-            double __res_7612;
-            double __res_7613 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
-            __res_7612 = __res_7613;
-            return __res_7612;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "x");
     }
 
     public double Y
     {
-        get
-        {
-            double __res_7614;
-            double __res_7615 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
-            __res_7614 = __res_7615;
-            return __res_7614;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "y");
     }
 
     public double Z
     {
-        get
-        {
-            double __res_7616;
-            double __res_7617 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "z");
-            __res_7616 = __res_7617;
-            return __res_7616;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "z");
     }
 
     public double W
     {
-        get
-        {
-            double __res_7618;
-            double __res_7619 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "w");
-            __res_7618 = __res_7619;
-            return __res_7618;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "w");
     }
 
     public global::Iskra.StdWeb.DOMPoint MatrixTransform(global::Iskra.StdWeb.DOMMatrixInit matrix)

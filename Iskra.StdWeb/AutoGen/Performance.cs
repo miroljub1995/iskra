@@ -8,24 +8,12 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
 {
     public global::Iskra.StdWeb.PerformanceTiming Timing
     {
-        get
-        {
-            global::Iskra.StdWeb.PerformanceTiming __res_3803;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3804 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "timing");
-            __res_3803 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PerformanceTiming>(__res_3804);
-            return __res_3803;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PerformanceTiming, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "timing");
     }
 
     public global::Iskra.StdWeb.PerformanceNavigation Navigation
     {
-        get
-        {
-            global::Iskra.StdWeb.PerformanceNavigation __res_3805;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3806 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "navigation");
-            __res_3805 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PerformanceNavigation>(__res_3806);
-            return __res_3805;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PerformanceNavigation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "navigation");
     }
 
     public double Now()
@@ -35,13 +23,7 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
 
     public double TimeOrigin
     {
-        get
-        {
-            double __res_3808;
-            double __res_3809 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "timeOrigin");
-            __res_3808 = __res_3809;
-            return __res_3808;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "timeOrigin");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
@@ -61,35 +43,8 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onresourcetimingbufferfull
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_3813;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3814 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onresourcetimingbufferfull");
-            if (__res_3814 is null)
-            {
-                __res_3813 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3815 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3814;
-                __res_3813 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_3815);
-            }
-            return __res_3813;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_3816;
-            if (value is null)
-            {
-                __marshalledValue_3816 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_3817 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_3816 = __notNullable_3817.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onresourcetimingbufferfull", __marshalledValue_3816);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onresourcetimingbufferfull");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onresourcetimingbufferfull", value);
     }
 
     public global::Iskra.StdWeb.PerformanceMark Mark(string markName, global::Iskra.StdWeb.PerformanceMarkOptions markOptions)
@@ -114,24 +69,12 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.StdWeb.EventCounts EventCounts
     {
-        get
-        {
-            global::Iskra.StdWeb.EventCounts __res_3822;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3823 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "eventCounts");
-            __res_3822 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EventCounts>(__res_3823);
-            return __res_3822;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventCounts, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "eventCounts");
     }
 
     public ulong InteractionCount
     {
-        get
-        {
-            ulong __res_3824;
-            double __res_3825 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "interactionCount");
-            __res_3824 = Convert.ToUInt64(__res_3825);
-            return __res_3824;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "interactionCount");
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PerformanceEntry, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> GetEntries()

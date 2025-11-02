@@ -8,113 +8,34 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
 {
     public string SessionId
     {
-        get
-        {
-            string __res_10445;
-            string __res_10446 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "sessionId");
-            __res_10445 = __res_10446;
-            return __res_10445;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sessionId");
     }
 
     public double Expiration
     {
-        get
-        {
-            double __res_10447;
-            double __res_10448 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "expiration");
-            __res_10447 = __res_10448;
-            return __res_10447;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "expiration");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySessionClosedReason, global::Iskra.StdWeb.PropertyAccessor> Closed
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySessionClosedReason, global::Iskra.StdWeb.PropertyAccessor> __res_10449;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10450;
-            __propObject_10450 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "closed");
-            __res_10449 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySessionClosedReason, global::Iskra.StdWeb.PropertyAccessor>(__propObject_10450);
-            return __res_10449;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySessionClosedReason, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "closed");
     }
 
     public global::Iskra.StdWeb.MediaKeyStatusMap KeyStatuses
     {
-        get
-        {
-            global::Iskra.StdWeb.MediaKeyStatusMap __res_10451;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_10452 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "keyStatuses");
-            __res_10451 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaKeyStatusMap>(__res_10452);
-            return __res_10451;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaKeyStatusMap, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "keyStatuses");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onkeystatuseschange
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_10453;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10454 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onkeystatuseschange");
-            if (__res_10454 is null)
-            {
-                __res_10453 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10455 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10454;
-                __res_10453 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_10455);
-            }
-            return __res_10453;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10456;
-            if (value is null)
-            {
-                __marshalledValue_10456 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_10457 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_10456 = __notNullable_10457.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onkeystatuseschange", __marshalledValue_10456);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onkeystatuseschange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onkeystatuseschange", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onmessage
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_10458;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_10459 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage");
-            if (__res_10459 is null)
-            {
-                __res_10458 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_10460 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_10459;
-                __res_10458 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_10460);
-            }
-            return __res_10458;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_10461;
-            if (value is null)
-            {
-                __marshalledValue_10461 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_10462 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_10461 = __notNullable_10462.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onmessage", __marshalledValue_10461);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onmessage");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onmessage", value);
     }
 
     public global::Iskra.JSCore.Promise GenerateRequest(string initDataType, global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union> initData)

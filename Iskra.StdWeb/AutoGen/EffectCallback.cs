@@ -10,42 +10,42 @@ public partial class EffectCallback(global::System.Runtime.InteropServices.JavaS
 {
     public static implicit operator EffectCallback(EffectCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_10511) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_0) =>
         {
-            using (__args_10511)
+            using (__args_0)
             {
                 // Argument 1
-                double? __arg_10513;
-                double? __res_10514 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(__args_10511, 0);
-                if (__res_10514 is null)
+                double? __arg_2;
+                double? __res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(__args_0, 0);
+                if (__res_3 is null)
                 {
-                    __arg_10513 = null;
+                    __arg_2 = null;
                 }
                 else
                 {
-                    double __notNullable_10515 = (double)__res_10514;
-                    __arg_10513 = __notNullable_10515;
+                    double __notNullable_4 = (double)__res_3;
+                    __arg_2 = __notNullable_4;
                 }
 
                 // Argument 2
-                global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __arg_10516;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10517;
-                __propObject_10517 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(__args_10511, 1);
-                __arg_10516 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_10517);
+                global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __arg_5;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_6;
+                __propObject_6 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(__args_0, 1);
+                __arg_5 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_6);
 
                 // Argument 3
-                global::Iskra.StdWeb.Animation __arg_10518;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_10519 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_10511, 2);
-                __arg_10518 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Animation>(__res_10519);
+                global::Iskra.StdWeb.Animation __arg_7;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_8 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_0, 2);
+                __arg_7 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Animation>(__res_8);
 
-                input(__arg_10513, __arg_10516, __arg_10518);
+                input(__arg_2, __arg_5, __arg_7);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_10520 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_10520, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_9 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_9, input);
 
-        return new global::Iskra.StdWeb.EffectCallback(__funcObj_10520);
+        return new global::Iskra.StdWeb.EffectCallback(__funcObj_9);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.EffectCallbackManaged? managed, bool allowConversion = false)
@@ -63,33 +63,33 @@ public partial class EffectCallback(global::System.Runtime.InteropServices.JavaS
 
         managed = (progress, currentTarget, animation) =>
         {
-            int __argsArrayLength_10524 = 3;
+            int __argsArrayLength_13 = 3;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_10521 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_10524);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_10 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_13);
 
             // Argument 1
-            double? __marshalledValue_10525;
+            double? __marshalledValue_14;
             if (progress is null)
             {
-                __marshalledValue_10525 = null;
+                __marshalledValue_14 = null;
             }
             else
             {
-                double __notNullable_10526 = (double)progress;
-                __marshalledValue_10525 = __notNullable_10526;
+                double __notNullable_15 = (double)progress;
+                __marshalledValue_14 = __notNullable_15;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(__argsArray_10521.JSObject, 0, __marshalledValue_10525);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2AsNullable(__argsArray_10.JSObject, 0, __marshalledValue_14);
 
             // Argument 2
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10527 = currentTarget.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_10521.JSObject, 1, __propObject_10527);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_16 = currentTarget.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_10.JSObject, 1, __propObject_16);
 
             // Argument 3
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_10528;
-            __marshalledValue_10528 = animation.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_10521.JSObject, 2, __marshalledValue_10528);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_17;
+            __marshalledValue_17 = animation.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_10.JSObject, 2, __marshalledValue_17);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_10521.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_10.JSObject);
         };
         return true;
     }

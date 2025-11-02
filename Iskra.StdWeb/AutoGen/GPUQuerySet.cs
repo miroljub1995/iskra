@@ -13,41 +13,18 @@ public partial class GPUQuerySet(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.StdWeb.GPUQueryType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.GPUQueryType __res_1910;
-            string __res_1911 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1910 = global::Iskra.StdWeb.GPUQueryType.Create(__res_1911);
-            return __res_1910;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUQueryType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public uint Count
     {
-        get
-        {
-            uint __res_1912;
-            double __res_1913 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "count");
-            __res_1912 = Convert.ToUInt32(__res_1913);
-            return __res_1912;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "count");
     }
 
     public string Label
     {
-        get
-        {
-            string __res_1914;
-            string __res_1915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_1914 = __res_1915;
-            return __res_1914;
-        }
-        set
-        {
-            string __marshalledValue_1916;
-            __marshalledValue_1916 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "label", __marshalledValue_1916);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label", value);
     }
 }
 

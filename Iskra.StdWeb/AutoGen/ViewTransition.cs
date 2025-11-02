@@ -8,38 +8,17 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
 {
     public global::Iskra.JSCore.Promise UpdateCallbackDone
     {
-        get
-        {
-            global::Iskra.JSCore.Promise __res_16077;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_16078;
-            __propObject_16078 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "updateCallbackDone");
-            __res_16077 = new global::Iskra.JSCore.Promise(__propObject_16078);
-            return __res_16077;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "updateCallbackDone");
     }
 
     public global::Iskra.JSCore.Promise Ready
     {
-        get
-        {
-            global::Iskra.JSCore.Promise __res_16079;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_16080;
-            __propObject_16080 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "ready");
-            __res_16079 = new global::Iskra.JSCore.Promise(__propObject_16080);
-            return __res_16079;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ready");
     }
 
     public global::Iskra.JSCore.Promise Finished
     {
-        get
-        {
-            global::Iskra.JSCore.Promise __res_16081;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_16082;
-            __propObject_16082 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "finished");
-            __res_16081 = new global::Iskra.JSCore.Promise(__propObject_16082);
-            return __res_16081;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "finished");
     }
 
     public void SkipTransition()
@@ -49,30 +28,13 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
 
     public global::Iskra.StdWeb.ViewTransitionTypeSet Types
     {
-        get
-        {
-            global::Iskra.StdWeb.ViewTransitionTypeSet __res_16084;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16085 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
-            __res_16084 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ViewTransitionTypeSet>(__res_16085);
-            return __res_16084;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_16086;
-            __marshalledValue_16086 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "types", __marshalledValue_16086);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ViewTransitionTypeSet, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "types");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ViewTransitionTypeSet, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "types", value);
     }
 
     public global::Iskra.StdWeb.Element TransitionRoot
     {
-        get
-        {
-            global::Iskra.StdWeb.Element __res_16087;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16088 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "transitionRoot");
-            __res_16087 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__res_16088);
-            return __res_16087;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transitionRoot");
     }
 
     public void WaitUntil(global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable> promise)

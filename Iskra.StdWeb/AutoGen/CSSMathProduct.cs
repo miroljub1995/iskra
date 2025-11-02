@@ -8,13 +8,7 @@ public partial class CSSMathProduct(global::System.Runtime.InteropServices.JavaS
 {
     public global::Iskra.StdWeb.CSSNumericArray Values
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSNumericArray __res_84;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_85 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "values");
-            __res_84 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSNumericArray>(__res_85);
-            return __res_84;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSNumericArray, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "values");
     }
 }
 

@@ -8,36 +8,17 @@ public partial class NavigatorUAData(global::System.Runtime.InteropServices.Java
 {
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Brands
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_5207;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_5208;
-            __propObject_5208 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "brands");
-            __res_5207 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_5208);
-            return __res_5207;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NavigatorUABrandVersion, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "brands");
     }
 
     public bool Mobile
     {
-        get
-        {
-            bool __res_5209;
-            bool __res_5210 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "mobile");
-            __res_5209 = __res_5210;
-            return __res_5209;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mobile");
     }
 
     public string Platform
     {
-        get
-        {
-            string __res_5211;
-            string __res_5212 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "platform");
-            __res_5211 = __res_5212;
-            return __res_5211;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "platform");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.UADataValues, global::Iskra.StdWeb.PropertyAccessor> GetHighEntropyValues(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> hints)

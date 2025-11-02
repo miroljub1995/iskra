@@ -8,30 +8,13 @@ public partial class RTCEncodedVideoFrame(global::System.Runtime.InteropServices
 {
     public global::Iskra.StdWeb.RTCEncodedVideoFrameType Type
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCEncodedVideoFrameType __res_2621;
-            string __res_2622 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_2621 = global::Iskra.StdWeb.RTCEncodedVideoFrameType.Create(__res_2622);
-            return __res_2621;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCEncodedVideoFrameType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
 
     public global::Iskra.JSCore.ArrayBuffer Data
     {
-        get
-        {
-            global::Iskra.JSCore.ArrayBuffer __res_2623;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_2624 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "data");
-            __res_2623 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(__res_2624);
-            return __res_2623;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_2625;
-            __marshalledValue_2625 = value.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(JSObject, "data", __marshalledValue_2625);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data", value);
     }
 
     public global::Iskra.StdWeb.RTCEncodedVideoFrameMetadata GetMetadata()

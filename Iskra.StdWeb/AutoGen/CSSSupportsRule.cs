@@ -8,13 +8,7 @@ public partial class CSSSupportsRule(global::System.Runtime.InteropServices.Java
 {
     public bool Matches
     {
-        get
-        {
-            bool __res_7572;
-            bool __res_7573 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "matches");
-            __res_7572 = __res_7573;
-            return __res_7572;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matches");
     }
 }
 

@@ -8,35 +8,8 @@ public partial class CreateMonitor(global::System.Runtime.InteropServices.JavaSc
 {
     public global::Iskra.StdWeb.EventHandlerNonNull? Ondownloadprogress
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_338;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_339 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "ondownloadprogress");
-            if (__res_339 is null)
-            {
-                __res_338 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_340 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_339;
-                __res_338 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_340);
-            }
-            return __res_338;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_341;
-            if (value is null)
-            {
-                __marshalledValue_341 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_342 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_341 = __notNullable_342.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "ondownloadprogress", __marshalledValue_341);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondownloadprogress");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondownloadprogress", value);
     }
 }
 

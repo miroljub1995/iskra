@@ -13,35 +13,17 @@ public partial class TextDecoder(global::System.Runtime.InteropServices.JavaScri
 
     public string Encoding
     {
-        get
-        {
-            string __res_2650;
-            string __res_2651 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "encoding");
-            __res_2650 = __res_2651;
-            return __res_2650;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "encoding");
     }
 
     public bool Fatal
     {
-        get
-        {
-            bool __res_2652;
-            bool __res_2653 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "fatal");
-            __res_2652 = __res_2653;
-            return __res_2652;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fatal");
     }
 
     public bool IgnoreBOM
     {
-        get
-        {
-            bool __res_2654;
-            bool __res_2655 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "ignoreBOM");
-            __res_2654 = __res_2655;
-            return __res_2654;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ignoreBOM");
     }
 }
 

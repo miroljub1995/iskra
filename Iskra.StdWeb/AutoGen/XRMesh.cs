@@ -8,66 +8,27 @@ public partial class XRMesh(global::System.Runtime.InteropServices.JavaScript.JS
 {
     public global::Iskra.StdWeb.XRSpace MeshSpace
     {
-        get
-        {
-            global::Iskra.StdWeb.XRSpace __res_3776;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3777 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "meshSpace");
-            __res_3776 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(__res_3777);
-            return __res_3776;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "meshSpace");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Vertices
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3778;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3779;
-            __propObject_3779 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "vertices");
-            __res_3778 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3779);
-            return __res_3778;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vertices");
     }
 
     public global::Iskra.JSCore.Uint32Array Indices
     {
-        get
-        {
-            global::Iskra.JSCore.Uint32Array __res_3780;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_3781 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "indices");
-            __res_3780 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.Uint32Array>(__res_3781);
-            return __res_3780;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Uint32Array, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "indices");
     }
 
     public double LastChangedTime
     {
-        get
-        {
-            double __res_3782;
-            double __res_3783 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "lastChangedTime");
-            __res_3782 = __res_3783;
-            return __res_3782;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lastChangedTime");
     }
 
     public string? SemanticLabel
     {
-        get
-        {
-            string? __res_3784;
-            string? __res_3785 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "semanticLabel");
-            if (__res_3785 is null)
-            {
-                __res_3784 = null;
-            }
-            else
-            {
-                string __notNullable_3786 = (string)__res_3785;
-                __res_3784 = __notNullable_3786;
-            }
-            return __res_3784;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "semanticLabel");
     }
 }
 

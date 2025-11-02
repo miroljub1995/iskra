@@ -8,24 +8,12 @@ public partial class CSSMarginRule(global::System.Runtime.InteropServices.JavaSc
 {
     public string Name
     {
-        get
-        {
-            string __res_16217;
-            string __res_16218 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_16217 = __res_16218;
-            return __res_16217;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public global::Iskra.StdWeb.CSSStyleDeclaration Style
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSStyleDeclaration __res_16219;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16220 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "style");
-            __res_16219 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleDeclaration>(__res_16220);
-            return __res_16219;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSStyleDeclaration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "style");
     }
 }
 

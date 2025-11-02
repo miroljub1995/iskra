@@ -8,89 +8,27 @@ public partial class StorageEvent(global::System.Runtime.InteropServices.JavaScr
 {
     public string? Key
     {
-        get
-        {
-            string? __res_15387;
-            string? __res_15388 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "key");
-            if (__res_15388 is null)
-            {
-                __res_15387 = null;
-            }
-            else
-            {
-                string __notNullable_15389 = (string)__res_15388;
-                __res_15387 = __notNullable_15389;
-            }
-            return __res_15387;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "key");
     }
 
     public string? OldValue
     {
-        get
-        {
-            string? __res_15390;
-            string? __res_15391 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "oldValue");
-            if (__res_15391 is null)
-            {
-                __res_15390 = null;
-            }
-            else
-            {
-                string __notNullable_15392 = (string)__res_15391;
-                __res_15390 = __notNullable_15392;
-            }
-            return __res_15390;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oldValue");
     }
 
     public string? NewValue
     {
-        get
-        {
-            string? __res_15393;
-            string? __res_15394 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "newValue");
-            if (__res_15394 is null)
-            {
-                __res_15393 = null;
-            }
-            else
-            {
-                string __notNullable_15395 = (string)__res_15394;
-                __res_15393 = __notNullable_15395;
-            }
-            return __res_15393;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "newValue");
     }
 
     public string Url
     {
-        get
-        {
-            string __res_15396;
-            string __res_15397 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_15396 = __res_15397;
-            return __res_15396;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "url");
     }
 
     public global::Iskra.StdWeb.Storage? StorageArea
     {
-        get
-        {
-            global::Iskra.StdWeb.Storage? __res_15398;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_15399 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "storageArea");
-            if (__res_15399 is null)
-            {
-                __res_15398 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_15400 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_15399;
-                __res_15398 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(__notNullable_15400);
-            }
-            return __res_15398;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Storage?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "storageArea");
     }
 
     public void InitStorageEvent(string type, bool bubbles, bool cancelable, string? key, string? oldValue, string? newValue, string url, global::Iskra.StdWeb.Storage? storageArea)

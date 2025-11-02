@@ -1,6 +1,5 @@
 using System.CommandLine;
 using System.Text.Json;
-using Iskra.StdWebGenerator.GeneratorContexts;
 using Iskra.WebIDLGenerator.Generators;
 using Iskra.WebIDLGenerator.Marshallers;
 using Iskra.WebIDLGenerator.Models;
@@ -46,7 +45,6 @@ public class GenerateCommand : Command
             services.AddSingleton<GenTypeDescriptors>();
 
             services
-                .AddSingleton<GeneratorContext>()
                 .AddSingleton<ArgumentsToArgsArrayGenerator>()
                 .AddSingleton<ArgumentsToDeclarationGenerator>()
                 .AddSingleton<AttributeMemberTypeGenerator>()

@@ -13,70 +13,26 @@ public partial class DOMPoint(global::System.Runtime.InteropServices.JavaScript.
 
     public new double X
     {
-        get
-        {
-            double __res_7623;
-            double __res_7624 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "x");
-            __res_7623 = __res_7624;
-            return __res_7623;
-        }
-        set
-        {
-            double __marshalledValue_7625;
-            __marshalledValue_7625 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "x", __marshalledValue_7625);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "x");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "x", value);
     }
 
     public new double Y
     {
-        get
-        {
-            double __res_7626;
-            double __res_7627 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "y");
-            __res_7626 = __res_7627;
-            return __res_7626;
-        }
-        set
-        {
-            double __marshalledValue_7628;
-            __marshalledValue_7628 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "y", __marshalledValue_7628);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "y");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "y", value);
     }
 
     public new double Z
     {
-        get
-        {
-            double __res_7629;
-            double __res_7630 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "z");
-            __res_7629 = __res_7630;
-            return __res_7629;
-        }
-        set
-        {
-            double __marshalledValue_7631;
-            __marshalledValue_7631 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "z", __marshalledValue_7631);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "z");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "z", value);
     }
 
     public new double W
     {
-        get
-        {
-            double __res_7632;
-            double __res_7633 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "w");
-            __res_7632 = __res_7633;
-            return __res_7632;
-        }
-        set
-        {
-            double __marshalledValue_7634;
-            __marshalledValue_7634 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "w", __marshalledValue_7634);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "w");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "w", value);
     }
 }
 

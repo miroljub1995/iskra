@@ -8,101 +8,47 @@ public partial class AudioListener(global::System.Runtime.InteropServices.JavaSc
 {
     public global::Iskra.StdWeb.AudioParam PositionX
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17258;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17259 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionX");
-            __res_17258 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17259);
-            return __res_17258;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "positionX");
     }
 
     public global::Iskra.StdWeb.AudioParam PositionY
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17260;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17261 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionY");
-            __res_17260 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17261);
-            return __res_17260;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "positionY");
     }
 
     public global::Iskra.StdWeb.AudioParam PositionZ
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17262;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17263 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "positionZ");
-            __res_17262 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17263);
-            return __res_17262;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "positionZ");
     }
 
     public global::Iskra.StdWeb.AudioParam ForwardX
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17264;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17265 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardX");
-            __res_17264 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17265);
-            return __res_17264;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "forwardX");
     }
 
     public global::Iskra.StdWeb.AudioParam ForwardY
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17266;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17267 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardY");
-            __res_17266 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17267);
-            return __res_17266;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "forwardY");
     }
 
     public global::Iskra.StdWeb.AudioParam ForwardZ
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17268;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17269 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "forwardZ");
-            __res_17268 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17269);
-            return __res_17268;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "forwardZ");
     }
 
     public global::Iskra.StdWeb.AudioParam UpX
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17270;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17271 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upX");
-            __res_17270 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17271);
-            return __res_17270;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "upX");
     }
 
     public global::Iskra.StdWeb.AudioParam UpY
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17272;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17273 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upY");
-            __res_17272 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17273);
-            return __res_17272;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "upY");
     }
 
     public global::Iskra.StdWeb.AudioParam UpZ
     {
-        get
-        {
-            global::Iskra.StdWeb.AudioParam __res_17274;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_17275 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "upZ");
-            __res_17274 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioParam>(__res_17275);
-            return __res_17274;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParam, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "upZ");
     }
 
     public void SetPosition(float x, float y, float z)

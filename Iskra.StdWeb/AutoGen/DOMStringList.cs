@@ -8,13 +8,7 @@ public partial class DOMStringList(global::System.Runtime.InteropServices.JavaSc
 {
     public uint Length
     {
-        get
-        {
-            uint __res_10569;
-            double __res_10570 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_10569 = Convert.ToUInt32(__res_10570);
-            return __res_10569;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public string? Item(uint index)

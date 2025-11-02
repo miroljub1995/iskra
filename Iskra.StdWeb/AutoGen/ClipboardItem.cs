@@ -8,25 +8,12 @@ public partial class ClipboardItem(global::System.Runtime.InteropServices.JavaSc
 {
     public global::Iskra.StdWeb.PresentationStyle PresentationStyle
     {
-        get
-        {
-            global::Iskra.StdWeb.PresentationStyle __res_3790;
-            string __res_3791 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "presentationStyle");
-            __res_3790 = global::Iskra.StdWeb.PresentationStyle.Create(__res_3791);
-            return __res_3790;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PresentationStyle, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "presentationStyle");
     }
 
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Types
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_3792;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_3793;
-            __propObject_3793 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "types");
-            __res_3792 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_3793);
-            return __res_3792;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "types");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.PropertyAccessor> GetType(string type)

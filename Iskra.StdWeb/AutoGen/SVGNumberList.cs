@@ -8,24 +8,12 @@ public partial class SVGNumberList(global::System.Runtime.InteropServices.JavaSc
 {
     public uint Length
     {
-        get
-        {
-            uint __res_983;
-            double __res_984 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_983 = Convert.ToUInt32(__res_984);
-            return __res_983;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public uint NumberOfItems
     {
-        get
-        {
-            uint __res_985;
-            double __res_986 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "numberOfItems");
-            __res_985 = Convert.ToUInt32(__res_986);
-            return __res_985;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "numberOfItems");
     }
 
     public void Clear()

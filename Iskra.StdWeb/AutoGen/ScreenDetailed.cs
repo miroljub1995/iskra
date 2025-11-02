@@ -8,90 +8,42 @@ public partial class ScreenDetailed(global::System.Runtime.InteropServices.JavaS
 {
     public int AvailLeft
     {
-        get
-        {
-            int __res_5685;
-            double __res_5686 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availLeft");
-            __res_5685 = Convert.ToInt32(__res_5686);
-            return __res_5685;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "availLeft");
     }
 
     public int AvailTop
     {
-        get
-        {
-            int __res_5687;
-            double __res_5688 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "availTop");
-            __res_5687 = Convert.ToInt32(__res_5688);
-            return __res_5687;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "availTop");
     }
 
     public int Left
     {
-        get
-        {
-            int __res_5689;
-            double __res_5690 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "left");
-            __res_5689 = Convert.ToInt32(__res_5690);
-            return __res_5689;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "left");
     }
 
     public int Top
     {
-        get
-        {
-            int __res_5691;
-            double __res_5692 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "top");
-            __res_5691 = Convert.ToInt32(__res_5692);
-            return __res_5691;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "top");
     }
 
     public bool IsPrimary
     {
-        get
-        {
-            bool __res_5693;
-            bool __res_5694 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isPrimary");
-            __res_5693 = __res_5694;
-            return __res_5693;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isPrimary");
     }
 
     public bool IsInternal
     {
-        get
-        {
-            bool __res_5695;
-            bool __res_5696 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isInternal");
-            __res_5695 = __res_5696;
-            return __res_5695;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isInternal");
     }
 
     public float DevicePixelRatio
     {
-        get
-        {
-            float __res_5697;
-            double __res_5698 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "devicePixelRatio");
-            __res_5697 = Convert.ToSingle(__res_5698);
-            return __res_5697;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "devicePixelRatio");
     }
 
     public string Label
     {
-        get
-        {
-            string __res_5699;
-            string __res_5700 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "label");
-            __res_5699 = __res_5700;
-            return __res_5699;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");
     }
 }
 

@@ -8,24 +8,12 @@ public partial class HashChangeEvent(global::System.Runtime.InteropServices.Java
 {
     public string OldURL
     {
-        get
-        {
-            string __res_14793;
-            string __res_14794 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "oldURL");
-            __res_14793 = __res_14794;
-            return __res_14793;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "oldURL");
     }
 
     public string NewURL
     {
-        get
-        {
-            string __res_14795;
-            string __res_14796 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "newURL");
-            __res_14795 = __res_14796;
-            return __res_14795;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "newURL");
     }
 }
 

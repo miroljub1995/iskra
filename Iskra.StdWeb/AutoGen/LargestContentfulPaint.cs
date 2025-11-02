@@ -8,76 +8,32 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
 {
     public double LoadTime
     {
-        get
-        {
-            double __res_3903;
-            double __res_3904 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "loadTime");
-            __res_3903 = __res_3904;
-            return __res_3903;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loadTime");
     }
 
     public double RenderTime
     {
-        get
-        {
-            double __res_3905;
-            double __res_3906 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "renderTime");
-            __res_3905 = __res_3906;
-            return __res_3905;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "renderTime");
     }
 
     public uint Size
     {
-        get
-        {
-            uint __res_3907;
-            double __res_3908 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_3907 = Convert.ToUInt32(__res_3908);
-            return __res_3907;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size");
     }
 
     public new string Id
     {
-        get
-        {
-            string __res_3909;
-            string __res_3910 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "id");
-            __res_3909 = __res_3910;
-            return __res_3909;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "id");
     }
 
     public string Url
     {
-        get
-        {
-            string __res_3911;
-            string __res_3912 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "url");
-            __res_3911 = __res_3912;
-            return __res_3911;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "url");
     }
 
     public global::Iskra.StdWeb.Element? Element
     {
-        get
-        {
-            global::Iskra.StdWeb.Element? __res_3913;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_3914 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "element");
-            if (__res_3914 is null)
-            {
-                __res_3913 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_3915 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_3914;
-                __res_3913 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Element>(__notNullable_3915);
-            }
-            return __res_3913;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "element");
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
@@ -87,32 +43,12 @@ public partial class LargestContentfulPaint(global::System.Runtime.InteropServic
 
     public double PaintTime
     {
-        get
-        {
-            double __res_3917;
-            double __res_3918 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "paintTime");
-            __res_3917 = __res_3918;
-            return __res_3917;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "paintTime");
     }
 
     public double? PresentationTime
     {
-        get
-        {
-            double? __res_3919;
-            double? __res_3920 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "presentationTime");
-            if (__res_3920 is null)
-            {
-                __res_3919 = null;
-            }
-            else
-            {
-                double __notNullable_3921 = (double)__res_3920;
-                __res_3919 = __notNullable_3921;
-            }
-            return __res_3919;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "presentationTime");
     }
 }
 

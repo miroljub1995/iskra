@@ -8,13 +8,7 @@ public partial class SVGPathElement(global::System.Runtime.InteropServices.JavaS
 {
     public new global::Iskra.StdWeb.SVGAnimatedNumber PathLength
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedNumber __res_4575;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4576 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pathLength");
-            __res_4575 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_4576);
-            return __res_4575;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedNumber, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pathLength");
     }
 
     public float GetTotalLength()

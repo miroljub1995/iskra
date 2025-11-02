@@ -8,79 +8,28 @@ public partial class RTCRtpTransceiver(global::System.Runtime.InteropServices.Ja
 {
     public string? Mid
     {
-        get
-        {
-            string? __res_4166;
-            string? __res_4167 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "mid");
-            if (__res_4167 is null)
-            {
-                __res_4166 = null;
-            }
-            else
-            {
-                string __notNullable_4168 = (string)__res_4167;
-                __res_4166 = __notNullable_4168;
-            }
-            return __res_4166;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "mid");
     }
 
     public global::Iskra.StdWeb.RTCRtpSender Sender
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCRtpSender __res_4169;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4170 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sender");
-            __res_4169 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpSender>(__res_4170);
-            return __res_4169;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCRtpSender, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sender");
     }
 
     public global::Iskra.StdWeb.RTCRtpReceiver Receiver
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCRtpReceiver __res_4171;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_4172 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "receiver");
-            __res_4171 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.RTCRtpReceiver>(__res_4172);
-            return __res_4171;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCRtpReceiver, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "receiver");
     }
 
     public global::Iskra.StdWeb.RTCRtpTransceiverDirection Direction
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCRtpTransceiverDirection __res_4173;
-            string __res_4174 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "direction");
-            __res_4173 = global::Iskra.StdWeb.RTCRtpTransceiverDirection.Create(__res_4174);
-            return __res_4173;
-        }
-        set
-        {
-            string __marshalledValue_4175;
-            __marshalledValue_4175 = value.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "direction", __marshalledValue_4175);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCRtpTransceiverDirection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "direction");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.RTCRtpTransceiverDirection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "direction", value);
     }
 
     public global::Iskra.StdWeb.RTCRtpTransceiverDirection? CurrentDirection
     {
-        get
-        {
-            global::Iskra.StdWeb.RTCRtpTransceiverDirection? __res_4176;
-            string? __res_4177 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "currentDirection");
-            if (__res_4177 is null)
-            {
-                __res_4176 = null;
-            }
-            else
-            {
-                string __notNullable_4178 = (string)__res_4177;
-                __res_4176 = global::Iskra.StdWeb.RTCRtpTransceiverDirection.Create(__notNullable_4178);
-            }
-            return __res_4176;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCRtpTransceiverDirection?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "currentDirection");
     }
 
     public void Stop()

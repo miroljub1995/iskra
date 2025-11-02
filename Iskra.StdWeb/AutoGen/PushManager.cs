@@ -8,14 +8,7 @@ public partial class PushManager(global::System.Runtime.InteropServices.JavaScri
 {
     public static global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> SupportedContentEncodings
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_10145;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_10146;
-            __propObject_10146 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PushManager"), "supportedContentEncodings");
-            __res_10145 = new global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_10146);
-            return __res_10145;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PushManager"), "supportedContentEncodings");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PushSubscription, global::Iskra.StdWeb.PropertyAccessor> Subscribe(global::Iskra.StdWeb.PushSubscriptionOptionsInit options)

@@ -8,24 +8,12 @@ public partial class CSSContainerRule(global::System.Runtime.InteropServices.Jav
 {
     public string ContainerName
     {
-        get
-        {
-            string __res_15688;
-            string __res_15689 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerName");
-            __res_15688 = __res_15689;
-            return __res_15688;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "containerName");
     }
 
     public string ContainerQuery
     {
-        get
-        {
-            string __res_15690;
-            string __res_15691 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "containerQuery");
-            __res_15690 = __res_15691;
-            return __res_15690;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "containerQuery");
     }
 }
 

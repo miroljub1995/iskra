@@ -8,13 +8,7 @@ public partial class FetchLaterResult(global::System.Runtime.InteropServices.Jav
 {
     public bool Activated
     {
-        get
-        {
-            bool __res_7936;
-            bool __res_7937 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "activated");
-            __res_7936 = __res_7937;
-            return __res_7936;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "activated");
     }
 }
 

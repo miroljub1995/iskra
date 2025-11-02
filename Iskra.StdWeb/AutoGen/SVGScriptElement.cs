@@ -8,63 +8,19 @@ public partial class SVGScriptElement(global::System.Runtime.InteropServices.Jav
 {
     public string Type
     {
-        get
-        {
-            string __res_1469;
-            string __res_1470 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "type");
-            __res_1469 = __res_1470;
-            return __res_1469;
-        }
-        set
-        {
-            string __marshalledValue_1471;
-            __marshalledValue_1471 = value;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(JSObject, "type", __marshalledValue_1471);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type", value);
     }
 
     public string? CrossOrigin
     {
-        get
-        {
-            string? __res_1472;
-            string? __res_1473 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "crossOrigin");
-            if (__res_1473 is null)
-            {
-                __res_1472 = null;
-            }
-            else
-            {
-                string __notNullable_1474 = (string)__res_1473;
-                __res_1472 = __notNullable_1474;
-            }
-            return __res_1472;
-        }
-        set
-        {
-            string? __marshalledValue_1475;
-            if (value is null)
-            {
-                __marshalledValue_1475 = null;
-            }
-            else
-            {
-                string __notNullable_1476 = (string)value;
-                __marshalledValue_1475 = __notNullable_1476;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(JSObject, "crossOrigin", __marshalledValue_1475);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "crossOrigin");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "crossOrigin", value);
     }
 
     public global::Iskra.StdWeb.SVGAnimatedString Href
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedString __res_1477;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1478 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
-            __res_1477 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1478);
-            return __res_1477;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedString, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "href");
     }
 }
 

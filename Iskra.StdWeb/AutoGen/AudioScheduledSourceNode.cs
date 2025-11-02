@@ -8,35 +8,8 @@ public partial class AudioScheduledSourceNode(global::System.Runtime.InteropServ
 {
     public global::Iskra.StdWeb.EventHandlerNonNull? Onended
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_17212;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_17213 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onended");
-            if (__res_17213 is null)
-            {
-                __res_17212 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_17214 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_17213;
-                __res_17212 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_17214);
-            }
-            return __res_17212;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_17215;
-            if (value is null)
-            {
-                __marshalledValue_17215 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_17216 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_17215 = __notNullable_17216.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onended", __marshalledValue_17215);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onended");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onended", value);
     }
 
     public void Start(double when)

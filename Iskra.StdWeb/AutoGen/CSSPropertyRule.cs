@@ -8,54 +8,22 @@ public partial class CSSPropertyRule(global::System.Runtime.InteropServices.Java
 {
     public string Name
     {
-        get
-        {
-            string __res_16250;
-            string __res_16251 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_16250 = __res_16251;
-            return __res_16250;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public string Syntax
     {
-        get
-        {
-            string __res_16252;
-            string __res_16253 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "syntax");
-            __res_16252 = __res_16253;
-            return __res_16252;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "syntax");
     }
 
     public bool Inherits
     {
-        get
-        {
-            bool __res_16254;
-            bool __res_16255 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "inherits");
-            __res_16254 = __res_16255;
-            return __res_16254;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inherits");
     }
 
     public string? InitialValue
     {
-        get
-        {
-            string? __res_16256;
-            string? __res_16257 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "initialValue");
-            if (__res_16257 is null)
-            {
-                __res_16256 = null;
-            }
-            else
-            {
-                string __notNullable_16258 = (string)__res_16257;
-                __res_16256 = __notNullable_16258;
-            }
-            return __res_16256;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "initialValue");
     }
 }
 

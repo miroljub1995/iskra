@@ -8,13 +8,7 @@ public partial class SVGGeometryElement(global::System.Runtime.InteropServices.J
 {
     public global::Iskra.StdWeb.SVGAnimatedNumber PathLength
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedNumber __res_948;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_949 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "pathLength");
-            __res_948 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedNumber>(__res_949);
-            return __res_948;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedNumber, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pathLength");
     }
 
     public bool IsPointInFill(global::Iskra.StdWeb.DOMPointInit point)

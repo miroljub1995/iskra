@@ -8,46 +8,22 @@ public partial class Plugin(global::System.Runtime.InteropServices.JavaScript.JS
 {
     public string Name
     {
-        get
-        {
-            string __res_15063;
-            string __res_15064 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "name");
-            __res_15063 = __res_15064;
-            return __res_15063;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
     }
 
     public string Description
     {
-        get
-        {
-            string __res_15065;
-            string __res_15066 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "description");
-            __res_15065 = __res_15066;
-            return __res_15065;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "description");
     }
 
     public string Filename
     {
-        get
-        {
-            string __res_15067;
-            string __res_15068 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "filename");
-            __res_15067 = __res_15068;
-            return __res_15067;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "filename");
     }
 
     public uint Length
     {
-        get
-        {
-            uint __res_15069;
-            double __res_15070 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_15069 = Convert.ToUInt32(__res_15070);
-            return __res_15069;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.MimeType? Item(uint index)

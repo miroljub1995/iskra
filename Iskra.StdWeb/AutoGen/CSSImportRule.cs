@@ -8,81 +8,27 @@ public partial class CSSImportRule(global::System.Runtime.InteropServices.JavaSc
 {
     public string Href
     {
-        get
-        {
-            string __res_16153;
-            string __res_16154 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "href");
-            __res_16153 = __res_16154;
-            return __res_16153;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "href");
     }
 
     public global::Iskra.StdWeb.MediaList Media
     {
-        get
-        {
-            global::Iskra.StdWeb.MediaList __res_16155;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_16156 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "media");
-            __res_16155 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MediaList>(__res_16156);
-            return __res_16155;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "media");
     }
 
     public global::Iskra.StdWeb.CSSStyleSheet? StyleSheet
     {
-        get
-        {
-            global::Iskra.StdWeb.CSSStyleSheet? __res_16157;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16158 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "styleSheet");
-            if (__res_16158 is null)
-            {
-                __res_16157 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16159 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16158;
-                __res_16157 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSStyleSheet>(__notNullable_16159);
-            }
-            return __res_16157;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSStyleSheet?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "styleSheet");
     }
 
     public string? LayerName
     {
-        get
-        {
-            string? __res_16160;
-            string? __res_16161 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "layerName");
-            if (__res_16161 is null)
-            {
-                __res_16160 = null;
-            }
-            else
-            {
-                string __notNullable_16162 = (string)__res_16161;
-                __res_16160 = __notNullable_16162;
-            }
-            return __res_16160;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "layerName");
     }
 
     public string? SupportsText
     {
-        get
-        {
-            string? __res_16163;
-            string? __res_16164 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(JSObject, "supportsText");
-            if (__res_16164 is null)
-            {
-                __res_16163 = null;
-            }
-            else
-            {
-                string __notNullable_16165 = (string)__res_16164;
-                __res_16163 = __notNullable_16165;
-            }
-            return __res_16163;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "supportsText");
     }
 }
 

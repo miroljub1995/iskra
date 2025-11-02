@@ -8,13 +8,7 @@ public partial class XRHand(global::System.Runtime.InteropServices.JavaScript.JS
 {
     public uint Size
     {
-        get
-        {
-            uint __res_8023;
-            double __res_8024 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "size");
-            __res_8023 = Convert.ToUInt32(__res_8024);
-            return __res_8023;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "size");
     }
 
     public global::Iskra.StdWeb.XRJointSpace Get(global::Iskra.StdWeb.XRHandJoint key)

@@ -8,93 +8,32 @@ public partial class XRRenderState(global::System.Runtime.InteropServices.JavaSc
 {
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> Layers
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement> __res_8795;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_8796;
-            __propObject_8796 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "layers");
-            __res_8795 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>(__propObject_8796);
-            return __res_8795;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.GenericMarshaller.ArrayLikeElement>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "layers");
     }
 
     public double DepthNear
     {
-        get
-        {
-            double __res_8797;
-            double __res_8798 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "depthNear");
-            __res_8797 = __res_8798;
-            return __res_8797;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthNear");
     }
 
     public double DepthFar
     {
-        get
-        {
-            double __res_8799;
-            double __res_8800 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "depthFar");
-            __res_8799 = __res_8800;
-            return __res_8799;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthFar");
     }
 
     public bool? PassthroughFullyObscured
     {
-        get
-        {
-            bool? __res_8801;
-            bool? __res_8802 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2AsNullable(JSObject, "passthroughFullyObscured");
-            if (__res_8802 is null)
-            {
-                __res_8801 = null;
-            }
-            else
-            {
-                bool __notNullable_8803 = (bool)__res_8802;
-                __res_8801 = __notNullable_8803;
-            }
-            return __res_8801;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "passthroughFullyObscured");
     }
 
     public double? InlineVerticalFieldOfView
     {
-        get
-        {
-            double? __res_8804;
-            double? __res_8805 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(JSObject, "inlineVerticalFieldOfView");
-            if (__res_8805 is null)
-            {
-                __res_8804 = null;
-            }
-            else
-            {
-                double __notNullable_8806 = (double)__res_8805;
-                __res_8804 = __notNullable_8806;
-            }
-            return __res_8804;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "inlineVerticalFieldOfView");
     }
 
     public global::Iskra.StdWeb.XRWebGLLayer? BaseLayer
     {
-        get
-        {
-            global::Iskra.StdWeb.XRWebGLLayer? __res_8807;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_8808 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "baseLayer");
-            if (__res_8808 is null)
-            {
-                __res_8807 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_8809 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_8808;
-                __res_8807 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRWebGLLayer>(__notNullable_8809);
-            }
-            return __res_8807;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRWebGLLayer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "baseLayer");
     }
 }
 

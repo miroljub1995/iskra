@@ -8,79 +8,19 @@ public partial class SourceBufferList(global::System.Runtime.InteropServices.Jav
 {
     public uint Length
     {
-        get
-        {
-            uint __res_16524;
-            double __res_16525 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "length");
-            __res_16524 = Convert.ToUInt32(__res_16525);
-            return __res_16524;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onaddsourcebuffer
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_16526;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16527 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onaddsourcebuffer");
-            if (__res_16527 is null)
-            {
-                __res_16526 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16528 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16527;
-                __res_16526 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16528);
-            }
-            return __res_16526;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16529;
-            if (value is null)
-            {
-                __marshalledValue_16529 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16530 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_16529 = __notNullable_16530.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onaddsourcebuffer", __marshalledValue_16529);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaddsourcebuffer");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onaddsourcebuffer", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onremovesourcebuffer
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_16531;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_16532 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onremovesourcebuffer");
-            if (__res_16532 is null)
-            {
-                __res_16531 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_16533 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_16532;
-                __res_16531 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_16533);
-            }
-            return __res_16531;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_16534;
-            if (value is null)
-            {
-                __marshalledValue_16534 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_16535 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_16534 = __notNullable_16535.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onremovesourcebuffer", __marshalledValue_16534);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onremovesourcebuffer");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onremovesourcebuffer", value);
     }
 
     public global::Iskra.StdWeb.SourceBuffer Get(uint index)

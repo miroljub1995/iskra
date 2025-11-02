@@ -13,43 +13,17 @@ public partial class IdentityCredential(global::System.Runtime.InteropServices.J
 
     public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Token
     {
-        get
-        {
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_4671;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_4672;
-            __propObject_4672 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(JSObject, "token");
-            if (__propObject_4672 is null)
-            {
-                __res_4671 = null;
-            }
-            else
-            {
-                __res_4671 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_4672);
-            }
-            return __res_4671;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "token");
     }
 
     public bool IsAutoSelected
     {
-        get
-        {
-            bool __res_4673;
-            bool __res_4674 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "isAutoSelected");
-            __res_4673 = __res_4674;
-            return __res_4673;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isAutoSelected");
     }
 
     public string ConfigURL
     {
-        get
-        {
-            string __res_4675;
-            string __res_4676 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(JSObject, "configURL");
-            __res_4675 = __res_4676;
-            return __res_4675;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "configURL");
     }
 }
 

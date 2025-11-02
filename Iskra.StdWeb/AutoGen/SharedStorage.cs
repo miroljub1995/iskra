@@ -53,13 +53,7 @@ public partial class SharedStorage(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.SharedStorageWorklet Worklet
     {
-        get
-        {
-            global::Iskra.StdWeb.SharedStorageWorklet __res_8679;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_8680 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "worklet");
-            __res_8679 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SharedStorageWorklet>(__res_8680);
-            return __res_8679;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SharedStorageWorklet, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "worklet");
     }
 
     public global::Iskra.JSCore.Generics.Promise<uint, global::Iskra.StdWeb.PropertyAccessor> Length()

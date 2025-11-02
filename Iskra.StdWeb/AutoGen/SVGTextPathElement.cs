@@ -8,46 +8,22 @@ public partial class SVGTextPathElement(global::System.Runtime.InteropServices.J
 {
     public global::Iskra.StdWeb.SVGAnimatedLength StartOffset
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedLength __res_1363;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1364 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "startOffset");
-            __res_1363 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedLength>(__res_1364);
-            return __res_1363;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "startOffset");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedEnumeration Method
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1365;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1366 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "method");
-            __res_1365 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1366);
-            return __res_1365;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedEnumeration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "method");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedEnumeration Spacing
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedEnumeration __res_1367;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1368 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "spacing");
-            __res_1367 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedEnumeration>(__res_1368);
-            return __res_1367;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedEnumeration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "spacing");
     }
 
     public global::Iskra.StdWeb.SVGAnimatedString Href
     {
-        get
-        {
-            global::Iskra.StdWeb.SVGAnimatedString __res_1369;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1370 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "href");
-            __res_1369 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGAnimatedString>(__res_1370);
-            return __res_1369;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedString, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "href");
     }
 }
 

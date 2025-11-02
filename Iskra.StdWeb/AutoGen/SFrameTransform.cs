@@ -13,35 +13,8 @@ public partial class SFrameTransform(global::System.Runtime.InteropServices.Java
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onerror
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_2590;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_2591 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "onerror");
-            if (__res_2591 is null)
-            {
-                __res_2590 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_2592 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_2591;
-                __res_2590 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_2592);
-            }
-            return __res_2590;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_2593;
-            if (value is null)
-            {
-                __marshalledValue_2593 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_2594 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_2593 = __notNullable_2594.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "onerror", __marshalledValue_2593);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onerror");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onerror", value);
     }
 }
 

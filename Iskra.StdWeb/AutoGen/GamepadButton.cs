@@ -8,35 +8,17 @@ public partial class GamepadButton(global::System.Runtime.InteropServices.JavaSc
 {
     public bool Pressed
     {
-        get
-        {
-            bool __res_9860;
-            bool __res_9861 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "pressed");
-            __res_9860 = __res_9861;
-            return __res_9860;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pressed");
     }
 
     public bool Touched
     {
-        get
-        {
-            bool __res_9862;
-            bool __res_9863 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(JSObject, "touched");
-            __res_9862 = __res_9863;
-            return __res_9862;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "touched");
     }
 
     public double Value
     {
-        get
-        {
-            double __res_9864;
-            double __res_9865 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "value");
-            __res_9864 = __res_9865;
-            return __res_9864;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
     }
 }
 

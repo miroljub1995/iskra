@@ -8,13 +8,7 @@ public partial class ShadowAnimation(global::System.Runtime.InteropServices.Java
 {
     public global::Iskra.StdWeb.Animation SourceAnimation
     {
-        get
-        {
-            global::Iskra.StdWeb.Animation __res_1229;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_1230 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "sourceAnimation");
-            __res_1229 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Animation>(__res_1230);
-            return __res_1229;
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Animation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sourceAnimation");
     }
 }
 

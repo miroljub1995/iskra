@@ -8,36 +8,14 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
 {
     public ulong Width
     {
-        get
-        {
-            ulong __res_13234;
-            double __res_13235 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "width");
-            __res_13234 = Convert.ToUInt64(__res_13235);
-            return __res_13234;
-        }
-        set
-        {
-            double __marshalledValue_13236;
-            __marshalledValue_13236 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "width", __marshalledValue_13236);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width", value);
     }
 
     public ulong Height
     {
-        get
-        {
-            ulong __res_13237;
-            double __res_13238 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(JSObject, "height");
-            __res_13237 = Convert.ToUInt64(__res_13238);
-            return __res_13237;
-        }
-        set
-        {
-            double __marshalledValue_13239;
-            __marshalledValue_13239 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(JSObject, "height", __marshalledValue_13239);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height", value);
     }
 
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>? GetContext(global::Iskra.StdWeb.OffscreenRenderingContextId contextId, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? options)
@@ -57,68 +35,14 @@ public partial class OffscreenCanvas(global::System.Runtime.InteropServices.Java
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Oncontextlost
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13243;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13244 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost");
-            if (__res_13244 is null)
-            {
-                __res_13243 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13245 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13244;
-                __res_13243 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13245);
-            }
-            return __res_13243;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13246;
-            if (value is null)
-            {
-                __marshalledValue_13246 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13247 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13246 = __notNullable_13247.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextlost", __marshalledValue_13246);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oncontextlost");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oncontextlost", value);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Oncontextrestored
     {
-        get
-        {
-            global::Iskra.StdWeb.EventHandlerNonNull? __res_13248;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __res_13249 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored");
-            if (__res_13249 is null)
-            {
-                __res_13248 = null;
-            }
-            else
-            {
-                global::System.Runtime.InteropServices.JavaScript.JSObject __notNullable_13250 = (global::System.Runtime.InteropServices.JavaScript.JSObject)__res_13249;
-                __res_13248 = new global::Iskra.StdWeb.EventHandlerNonNull(__notNullable_13250);
-            }
-            return __res_13248;
-        }
-        set
-        {
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __marshalledValue_13251;
-            if (value is null)
-            {
-                __marshalledValue_13251 = null;
-            }
-            else
-            {
-                global::Iskra.StdWeb.EventHandlerNonNull __notNullable_13252 = (global::Iskra.StdWeb.EventHandlerNonNull)value;
-                __marshalledValue_13251 = __notNullable_13252.JSObject;
-            }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(JSObject, "oncontextrestored", __marshalledValue_13251);
-        }
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oncontextrestored");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "oncontextrestored", value);
     }
 }
 
