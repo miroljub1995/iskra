@@ -31,7 +31,8 @@ public class PropertyAccessor:
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallback>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesVariadicCallback>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.JSArray<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>,
-    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesNonVoidCallback>
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesNonVoidCallback>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>
 {
     static global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestEnumPropertiesEnum>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
@@ -841,6 +842,30 @@ public class PropertyAccessor:
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_0;
         ___marshalledValue_0 = value.JSObject;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(obj, propertyName, ___marshalledValue_0);
+    }
+
+    static global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor> global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor> ___element_0;
+        throw new global::System.Exception();
+        return ___element_0;
+    }
+
+    static global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor> global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor> ___element_0;
+        throw new global::System.Exception();
+        return ___element_0;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor> value)
+    {
+        throw new global::System.Exception();
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor> value)
+    {
+        throw new global::System.Exception();
     }
 }
 
