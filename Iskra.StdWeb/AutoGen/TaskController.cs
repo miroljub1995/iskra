@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class TaskController(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AbortController(obj)
+public partial class TaskController(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AbortController(obj)
 {
     public void SetPriority(global::Iskra.StdWeb.TaskPriority priority)
     {

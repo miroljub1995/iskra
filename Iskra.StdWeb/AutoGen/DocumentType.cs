@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class DocumentType(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Node(obj)
+public partial class DocumentType(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Node(obj)
 {
     public string Name
     {

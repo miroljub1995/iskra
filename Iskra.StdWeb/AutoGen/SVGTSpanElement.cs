@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SVGTSpanElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGTextPositioningElement(obj)
+public partial class SVGTSpanElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGTextPositioningElement(obj)
 {
 
 }

@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class IDBCursorWithValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): IDBCursor(obj)
+public partial class IDBCursorWithValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.IDBCursor(obj)
 {
     public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Value
     {

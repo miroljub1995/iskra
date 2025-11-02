@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class ServiceWorkerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class ServiceWorkerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.WorkerGlobalScope(obj)
 {
     public global::Iskra.StdWeb.EventHandlerNonNull? Oncontentdelete
     {

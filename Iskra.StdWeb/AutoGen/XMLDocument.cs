@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XMLDocument(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Document(obj)
+public partial class XMLDocument(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Document(obj)
 {
 
 }

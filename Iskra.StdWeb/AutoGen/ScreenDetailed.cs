@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class ScreenDetailed(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Screen(obj)
+public partial class ScreenDetailed(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Screen(obj)
 {
     public int AvailLeft
     {

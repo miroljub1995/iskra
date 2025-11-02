@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class RadioNodeList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): NodeList(obj)
+public partial class RadioNodeList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.NodeList(obj)
 {
     public string Value
     {

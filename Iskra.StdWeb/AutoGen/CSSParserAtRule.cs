@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSParserAtRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSParserRule(obj)
+public partial class CSSParserAtRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSParserRule(obj)
 {
     public string Name
     {

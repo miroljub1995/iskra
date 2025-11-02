@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): StyleSheet(obj)
+public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.StyleSheet(obj)
 {
     public global::Iskra.StdWeb.CSSRule? OwnerRule
     {

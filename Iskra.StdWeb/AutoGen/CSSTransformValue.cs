@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSTransformValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleValue(obj)
+public partial class CSSTransformValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSStyleValue(obj)
 {
     public uint Length
     {

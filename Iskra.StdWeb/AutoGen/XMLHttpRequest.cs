@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XMLHttpRequestEventTarget(obj)
+public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.XMLHttpRequestEventTarget(obj)
 {
     public global::Iskra.StdWeb.EventHandlerNonNull? Onreadystatechange
     {

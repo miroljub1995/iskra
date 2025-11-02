@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class BluetoothLEScanPermissionResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PermissionStatus(obj)
+public partial class BluetoothLEScanPermissionResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.PermissionStatus(obj)
 {
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.BluetoothLEScan, global::Iskra.StdWeb.PropertyAccessor> Scans
     {

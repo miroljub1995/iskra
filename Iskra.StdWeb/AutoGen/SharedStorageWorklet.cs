@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SharedStorageWorklet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Worklet(obj)
+public partial class SharedStorageWorklet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Worklet(obj)
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.FencedFrameConfig, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> SelectURL(string name, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SharedStorageUrlWithMetadata, global::Iskra.StdWeb.PropertyAccessor> urls, global::Iskra.StdWeb.SharedStorageRunOperationMethodOptions options)
     {

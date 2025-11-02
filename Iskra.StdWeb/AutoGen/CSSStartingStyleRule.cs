@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSStartingStyleRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSGroupingRule(obj)
+public partial class CSSStartingStyleRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSGroupingRule(obj)
 {
 
 }

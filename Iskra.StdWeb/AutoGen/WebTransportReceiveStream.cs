@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class WebTransportReceiveStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ReadableStream(obj)
+public partial class WebTransportReceiveStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.ReadableStream(obj)
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WebTransportReceiveStreamStats, global::Iskra.StdWeb.PropertyAccessor> GetStats()
     {

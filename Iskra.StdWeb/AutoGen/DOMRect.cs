@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DOMRectReadOnly(obj)
+public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.DOMRectReadOnly(obj)
 {
     public static global::Iskra.StdWeb.DOMRect FromRect(global::Iskra.StdWeb.DOMRectInit other)
     {

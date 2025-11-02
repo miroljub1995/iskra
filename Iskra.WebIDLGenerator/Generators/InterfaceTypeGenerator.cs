@@ -1,20 +1,20 @@
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class InterfaceTypeGenerator(
     IServiceProvider provider,
-    GenSettings genSettings
+    GenSettings genSettings,
+    GenTypeDescriptors descriptors
 )
 {
     public string Generate(InterfaceType input)
     {
         var memberTypeGenerator = provider.GetRequiredService<MemberTypeGenerator>();
 
-        var baseTypeName = input.Inheritance ?? "global::Iskra.JSCore.JSObjectProxy";
+        var baseTypeName = GetInheritance(input);
 
         List<string> bodyParts = [];
 
@@ -45,5 +45,16 @@ public class InterfaceTypeGenerator(
                         """;
 
         return content;
+    }
+
+    private string GetInheritance(InterfaceType input)
+    {
+        if (input.Inheritance is null)
+        {
+            return "global::Iskra.JSCore.JSObjectProxy";
+        }
+
+        var desc = descriptors.GetRequired(input.Inheritance);
+        return $"global::{desc.Namespace}.{desc.Name}";
     }
 }

@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DocumentFragment(obj)
+public partial class ShadowRoot(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.DocumentFragment(obj)
 {
     public global::Iskra.StdWeb.ShadowRootMode Mode
     {

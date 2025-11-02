@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DOMMatrixReadOnly(obj)
+public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.DOMMatrixReadOnly(obj)
 {
     public static global::Iskra.StdWeb.DOMMatrix FromMatrix(global::Iskra.StdWeb.DOMMatrixInit other)
     {

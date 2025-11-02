@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class MediaStreamTrackAudioSourceNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
+public partial class MediaStreamTrackAudioSourceNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AudioNode(obj)
 {
 
 }

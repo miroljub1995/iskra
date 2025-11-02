@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class WebGLSync(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WebGLObject(obj)
+public partial class WebGLSync(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.WebGLObject(obj)
 {
 
 }

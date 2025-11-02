@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSHWB(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSColorValue(obj)
+public partial class CSSHWB(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSColorValue(obj)
 {
     public global::Iskra.StdWeb.CSSNumericValue H
     {

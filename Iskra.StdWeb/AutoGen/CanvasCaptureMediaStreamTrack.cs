@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CanvasCaptureMediaStreamTrack(global::System.Runtime.InteropServices.JavaScript.JSObject obj): MediaStreamTrack(obj)
+public partial class CanvasCaptureMediaStreamTrack(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.MediaStreamTrack(obj)
 {
     public global::Iskra.StdWeb.HTMLCanvasElement Canvas
     {

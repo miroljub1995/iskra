@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XRViewerPose(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRPose(obj)
+public partial class XRViewerPose(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.XRPose(obj)
 {
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.XRView, global::Iskra.StdWeb.PropertyAccessor> Views
     {

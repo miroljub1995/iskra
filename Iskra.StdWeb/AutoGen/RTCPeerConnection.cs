@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class RTCPeerConnection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
+public partial class RTCPeerConnection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCSessionDescriptionInit, global::Iskra.StdWeb.PropertyAccessor> CreateOffer(global::Iskra.StdWeb.RTCOfferOptions options)
     {

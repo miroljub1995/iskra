@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkletGlobalScope(obj)
+public partial class AudioWorkletGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.WorkletGlobalScope(obj)
 {
     public void RegisterProcessor(string name, global::Iskra.StdWeb.AudioWorkletProcessorConstructor processorCtor)
     {

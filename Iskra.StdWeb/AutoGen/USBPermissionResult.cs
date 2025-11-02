@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class USBPermissionResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PermissionStatus(obj)
+public partial class USBPermissionResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.PermissionStatus(obj)
 {
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.USBDevice, global::Iskra.StdWeb.PropertyAccessor> Devices
     {

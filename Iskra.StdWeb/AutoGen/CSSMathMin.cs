@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSMathMin(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSMathValue(obj)
+public partial class CSSMathMin(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSMathValue(obj)
 {
     public global::Iskra.StdWeb.CSSNumericArray Values
     {

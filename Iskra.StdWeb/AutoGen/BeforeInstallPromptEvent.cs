@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class BeforeInstallPromptEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
+public partial class BeforeInstallPromptEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Event(obj)
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PromptResponseObject, global::Iskra.StdWeb.PropertyAccessor> Prompt()
     {

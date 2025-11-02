@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SharedWorkerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkerGlobalScope(obj)
+public partial class SharedWorkerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.WorkerGlobalScope(obj)
 {
     public string Name
     {

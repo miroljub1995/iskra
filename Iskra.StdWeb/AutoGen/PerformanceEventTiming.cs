@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PerformanceEventTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceEntry(obj)
+public partial class PerformanceEventTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.PerformanceEntry(obj)
 {
     public double ProcessingStart
     {

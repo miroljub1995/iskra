@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): TextTrackCue(obj)
+public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.TextTrackCue(obj)
 {
     public global::Iskra.StdWeb.VTTRegion? Region
     {

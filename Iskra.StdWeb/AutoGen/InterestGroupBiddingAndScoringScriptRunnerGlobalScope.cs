@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): InterestGroupScriptRunnerGlobalScope(obj)
+public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.InterestGroupScriptRunnerGlobalScope(obj)
 {
     public global::Iskra.StdWeb.ForDebuggingOnly ForDebuggingOnly
     {

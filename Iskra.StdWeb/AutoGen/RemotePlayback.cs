@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
+public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
     public global::Iskra.JSCore.Generics.Promise<int, global::Iskra.StdWeb.PropertyAccessor> WatchAvailability(global::Iskra.StdWeb.RemotePlaybackAvailabilityCallback callback)
     {

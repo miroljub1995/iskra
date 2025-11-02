@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSSupportsRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSConditionRule(obj)
+public partial class CSSSupportsRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSConditionRule(obj)
 {
     public bool Matches
     {

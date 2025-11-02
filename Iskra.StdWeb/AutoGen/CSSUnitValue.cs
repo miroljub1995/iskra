@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSUnitValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSNumericValue(obj)
+public partial class CSSUnitValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSNumericValue(obj)
 {
     public double Value
     {

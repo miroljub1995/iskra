@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PerformanceNavigationTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PerformanceResourceTiming(obj)
+public partial class PerformanceNavigationTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.PerformanceResourceTiming(obj)
 {
     public double UnloadEventStart
     {

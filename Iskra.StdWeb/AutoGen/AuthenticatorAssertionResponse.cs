@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AuthenticatorAssertionResponse(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AuthenticatorResponse(obj)
+public partial class AuthenticatorAssertionResponse(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AuthenticatorResponse(obj)
 {
     public global::Iskra.JSCore.ArrayBuffer AuthenticatorData
     {

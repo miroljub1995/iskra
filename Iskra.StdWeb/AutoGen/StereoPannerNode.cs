@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class StereoPannerNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
+public partial class StereoPannerNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AudioNode(obj)
 {
     public global::Iskra.StdWeb.AudioParam Pan
     {

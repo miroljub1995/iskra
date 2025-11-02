@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class ManagedSourceBuffer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SourceBuffer(obj)
+public partial class ManagedSourceBuffer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SourceBuffer(obj)
 {
     public global::Iskra.StdWeb.EventHandlerNonNull? Onbufferedchange
     {

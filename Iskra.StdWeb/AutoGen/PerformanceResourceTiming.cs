@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PerformanceResourceTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class PerformanceResourceTiming(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.PerformanceEntry(obj)
 {
     public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PerformanceServerTiming, global::Iskra.StdWeb.PropertyAccessor> ServerTiming
     {

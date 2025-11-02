@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class IDBOpenDBRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): IDBRequest(obj)
+public partial class IDBOpenDBRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.IDBRequest(obj)
 {
     public global::Iskra.StdWeb.EventHandlerNonNull? Onblocked
     {

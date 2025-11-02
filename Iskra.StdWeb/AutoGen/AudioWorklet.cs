@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AudioWorklet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Worklet(obj)
+public partial class AudioWorklet(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Worklet(obj)
 {
     public global::Iskra.StdWeb.MessagePort Port
     {

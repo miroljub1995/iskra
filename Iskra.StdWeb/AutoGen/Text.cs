@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class Text(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CharacterData(obj)
+public partial class Text(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CharacterData(obj)
 {
     public global::Iskra.StdWeb.Text SplitText(uint offset)
     {

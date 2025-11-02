@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSPerspective(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSTransformComponent(obj)
+public partial class CSSPerspective(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSTransformComponent(obj)
 {
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSNumericValue, string, global::Iskra.StdWeb.CSSKeywordValue, global::Iskra.StdWeb.GenericMarshaller.Union> Length
     {

@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AbsoluteOrientationSensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): OrientationSensor(obj)
+public partial class AbsoluteOrientationSensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.OrientationSensor(obj)
 {
 
 }

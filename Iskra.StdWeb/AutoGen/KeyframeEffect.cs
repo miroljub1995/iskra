@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AnimationEffect(obj)
+public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AnimationEffect(obj)
 {
     public global::Iskra.StdWeb.Element? Target
     {

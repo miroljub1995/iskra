@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class HTMLAudioElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLMediaElement(obj)
+public partial class HTMLAudioElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLMediaElement(obj)
 {
 
 }

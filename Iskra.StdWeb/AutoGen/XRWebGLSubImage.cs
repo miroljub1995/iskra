@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRSubImage(obj)
+public partial class XRWebGLSubImage(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.XRSubImage(obj)
 {
     public global::Iskra.StdWeb.WebGLTexture ColorTexture
     {

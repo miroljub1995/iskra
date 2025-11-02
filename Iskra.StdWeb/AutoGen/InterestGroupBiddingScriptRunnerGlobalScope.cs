@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class InterestGroupBiddingScriptRunnerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): InterestGroupBiddingAndScoringScriptRunnerGlobalScope(obj)
+public partial class InterestGroupBiddingScriptRunnerGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.InterestGroupBiddingAndScoringScriptRunnerGlobalScope(obj)
 {
     public bool SetBid(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GenerateBidOutput, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GenerateBidOutput, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> oneOrManyBids)
     {

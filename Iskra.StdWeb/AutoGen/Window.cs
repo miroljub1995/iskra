@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class Window(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class Window(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.DigitalGoodsService, global::Iskra.StdWeb.PropertyAccessor> GetDigitalGoodsService(string serviceProvider)
     {

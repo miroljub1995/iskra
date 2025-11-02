@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XRBodySpace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRSpace(obj)
+public partial class XRBodySpace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.XRSpace(obj)
 {
     public global::Iskra.StdWeb.XRBodyJoint JointName
     {

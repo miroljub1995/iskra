@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AudioNode(obj)
+public partial class AnalyserNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AudioNode(obj)
 {
     public void GetFloatFrequencyData(global::Iskra.JSCore.Float32Array array)
     {

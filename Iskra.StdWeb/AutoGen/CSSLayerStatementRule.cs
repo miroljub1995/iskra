@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSLayerStatementRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSRule(obj)
+public partial class CSSLayerStatementRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSRule(obj)
 {
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.PropertyAccessor> NameList
     {

@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSMediaRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSConditionRule(obj)
+public partial class CSSMediaRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSConditionRule(obj)
 {
     public global::Iskra.StdWeb.MediaList Media
     {

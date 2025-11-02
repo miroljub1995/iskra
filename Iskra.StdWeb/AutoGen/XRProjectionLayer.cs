@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XRProjectionLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRCompositionLayer(obj)
+public partial class XRProjectionLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.XRCompositionLayer(obj)
 {
     public uint TextureWidth
     {

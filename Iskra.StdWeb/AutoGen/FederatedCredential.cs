@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class FederatedCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Credential(obj)
+public partial class FederatedCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Credential(obj)
 {
     public string Provider
     {

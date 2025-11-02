@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
+public partial class AudioTrackList(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
     public uint Length
     {

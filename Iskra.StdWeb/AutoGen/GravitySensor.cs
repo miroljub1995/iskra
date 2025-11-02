@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GravitySensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Accelerometer(obj)
+public partial class GravitySensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Accelerometer(obj)
 {
 
 }

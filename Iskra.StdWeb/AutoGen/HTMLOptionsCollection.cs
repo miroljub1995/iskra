@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class HTMLOptionsCollection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLCollection(obj)
+public partial class HTMLOptionsCollection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLCollection(obj)
 {
     public uint Length
     {

@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSNumericValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleValue(obj)
+public partial class CSSNumericValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSStyleValue(obj)
 {
     public global::Iskra.StdWeb.CSSNumericValue Add(params global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
     {

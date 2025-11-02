@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Sensor(obj)
+public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Sensor(obj)
 {
     public double? X
     {

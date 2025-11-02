@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PresentationRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
+public partial class PresentationRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.PropertyAccessor> Start()
     {

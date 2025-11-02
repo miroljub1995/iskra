@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XRPermissionStatus(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PermissionStatus(obj)
+public partial class XRPermissionStatus(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.PermissionStatus(obj)
 {
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.PropertyAccessor> Granted
     {

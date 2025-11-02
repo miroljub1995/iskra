@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class BackgroundFetchUpdateUIEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): BackgroundFetchEvent(obj)
+public partial class BackgroundFetchUpdateUIEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.BackgroundFetchEvent(obj)
 {
     public global::Iskra.JSCore.Promise UpdateUI(global::Iskra.StdWeb.BackgroundFetchUIOptions options)
     {

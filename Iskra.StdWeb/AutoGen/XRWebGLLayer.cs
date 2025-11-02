@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRLayer(obj)
+public partial class XRWebGLLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.XRLayer(obj)
 {
     public bool Antialias
     {

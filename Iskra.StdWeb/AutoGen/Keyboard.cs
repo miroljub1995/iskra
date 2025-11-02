@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class Keyboard(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
+public partial class Keyboard(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
     public global::Iskra.JSCore.Promise Lock(global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> keyCodes)
     {

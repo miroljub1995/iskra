@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CDATASection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Text(obj)
+public partial class CDATASection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Text(obj)
 {
 
 }

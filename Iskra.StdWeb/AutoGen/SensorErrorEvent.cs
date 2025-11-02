@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SensorErrorEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Event(obj)
+public partial class SensorErrorEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Event(obj)
 {
     public global::Iskra.StdWeb.DOMException Error
     {

@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class NavigationEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): UIEvent(obj)
+public partial class NavigationEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.UIEvent(obj)
 {
     public global::Iskra.StdWeb.SpatialNavigationDirection Dir
     {

@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class TextEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): UIEvent(obj)
+public partial class TextEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.UIEvent(obj)
 {
     public string Data
     {

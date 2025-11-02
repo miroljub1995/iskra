@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SVGLinearGradientElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGGradientElement(obj)
+public partial class SVGLinearGradientElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGGradientElement(obj)
 {
     public global::Iskra.StdWeb.SVGAnimatedLength X1
     {

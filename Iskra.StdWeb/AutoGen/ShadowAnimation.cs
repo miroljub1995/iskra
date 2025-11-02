@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class ShadowAnimation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Animation(obj)
+public partial class ShadowAnimation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Animation(obj)
 {
     public global::Iskra.StdWeb.Animation SourceAnimation
     {

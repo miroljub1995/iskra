@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SVGScriptElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGElement(obj)
+public partial class SVGScriptElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGElement(obj)
 {
     public string Type
     {

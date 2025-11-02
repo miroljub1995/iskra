@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SVGUseElementShadowRoot(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ShadowRoot(obj)
+public partial class SVGUseElementShadowRoot(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.ShadowRoot(obj)
 {
 
 }

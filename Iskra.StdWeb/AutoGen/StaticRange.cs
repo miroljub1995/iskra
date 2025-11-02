@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class StaticRange(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AbstractRange(obj)
+public partial class StaticRange(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AbstractRange(obj)
 {
 
 }

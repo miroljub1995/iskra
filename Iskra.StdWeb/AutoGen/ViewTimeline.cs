@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScript.JSObject obj): ScrollTimeline(obj)
+public partial class ViewTimeline(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.ScrollTimeline(obj)
 {
     public global::Iskra.StdWeb.Element Subject
     {

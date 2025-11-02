@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class StylePropertyMap(global::System.Runtime.InteropServices.JavaScript.JSObject obj): StylePropertyMapReadOnly(obj)
+public partial class StylePropertyMap(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.StylePropertyMapReadOnly(obj)
 {
     public void Set(string property, params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSStyleValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] values)
     {

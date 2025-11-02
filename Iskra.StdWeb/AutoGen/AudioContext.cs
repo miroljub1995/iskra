@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AudioContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): BaseAudioContext(obj)
+public partial class AudioContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.BaseAudioContext(obj)
 {
     public double BaseLatency
     {

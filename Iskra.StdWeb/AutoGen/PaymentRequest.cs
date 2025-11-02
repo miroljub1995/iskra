@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class PaymentRequest(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.SecurePaymentConfirmationAvailability, global::Iskra.StdWeb.PropertyAccessor> SecurePaymentConfirmationAvailability()
     {

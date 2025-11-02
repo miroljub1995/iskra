@@ -120,6 +120,13 @@ public class GenerateCommand : Command
         {
             if (descriptor.RootType is InterfaceType existing)
             {
+                if (existing.Inheritance is not null && interfaceType.Inheritance is not null)
+                {
+                    throw new Exception("Inheritance is already defined.");
+                }
+
+                existing.Inheritance ??= interfaceType.Inheritance;
+
                 existing.Members.AddRange(interfaceType.Members);
             }
             else

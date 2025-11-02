@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SVGFEFuncBElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGComponentTransferFunctionElement(obj)
+public partial class SVGFEFuncBElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGComponentTransferFunctionElement(obj)
 {
 
 }

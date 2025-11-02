@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSAnimation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Animation(obj)
+public partial class CSSAnimation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Animation(obj)
 {
     public string AnimationName
     {

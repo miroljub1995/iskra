@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSSkewX(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSTransformComponent(obj)
+public partial class CSSSkewX(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSTransformComponent(obj)
 {
     public global::Iskra.StdWeb.CSSNumericValue Ax
     {

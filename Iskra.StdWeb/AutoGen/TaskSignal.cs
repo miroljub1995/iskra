@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class TaskSignal(global::System.Runtime.InteropServices.JavaScript.JSObject obj): AbortSignal(obj)
+public partial class TaskSignal(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AbortSignal(obj)
 {
     public static global::Iskra.StdWeb.TaskSignal Any(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.AbortSignal, global::Iskra.StdWeb.PropertyAccessor> signals, global::Iskra.StdWeb.TaskSignalAnyInit init)
     {

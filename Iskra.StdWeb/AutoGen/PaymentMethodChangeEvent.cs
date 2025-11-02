@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PaymentMethodChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): PaymentRequestUpdateEvent(obj)
+public partial class PaymentMethodChangeEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.PaymentRequestUpdateEvent(obj)
 {
     public string MethodName
     {

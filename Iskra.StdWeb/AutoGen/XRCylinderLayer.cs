@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XRCylinderLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRCompositionLayer(obj)
+public partial class XRCylinderLayer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.XRCompositionLayer(obj)
 {
     public global::Iskra.StdWeb.XRSpace Space
     {

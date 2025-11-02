@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class ManagedMediaSource(global::System.Runtime.InteropServices.JavaScript.JSObject obj): MediaSource(obj)
+public partial class ManagedMediaSource(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.MediaSource(obj)
 {
     public bool Streaming
     {

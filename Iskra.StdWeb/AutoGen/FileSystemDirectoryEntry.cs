@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class FileSystemDirectoryEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): FileSystemEntry(obj)
+public partial class FileSystemDirectoryEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.FileSystemEntry(obj)
 {
     public global::Iskra.StdWeb.FileSystemDirectoryReader CreateReader()
     {

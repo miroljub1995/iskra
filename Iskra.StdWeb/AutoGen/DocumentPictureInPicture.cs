@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class DocumentPictureInPicture(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
+public partial class DocumentPictureInPicture(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.PropertyAccessor> RequestWindow(global::Iskra.StdWeb.DocumentPictureInPictureOptions options)
     {

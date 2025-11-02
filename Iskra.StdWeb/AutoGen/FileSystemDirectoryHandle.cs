@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class FileSystemDirectoryHandle(global::System.Runtime.InteropServices.JavaScript.JSObject obj): FileSystemHandle(obj)
+public partial class FileSystemDirectoryHandle(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.FileSystemHandle(obj)
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemFileHandle, global::Iskra.StdWeb.PropertyAccessor> GetFileHandle(string name, global::Iskra.StdWeb.FileSystemGetFileOptions options)
     {

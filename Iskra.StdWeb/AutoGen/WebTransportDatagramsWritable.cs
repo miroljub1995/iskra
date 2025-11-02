@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class WebTransportDatagramsWritable(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WritableStream(obj)
+public partial class WebTransportDatagramsWritable(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.WritableStream(obj)
 {
     public global::Iskra.StdWeb.WebTransportSendGroup? SendGroup
     {

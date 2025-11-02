@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSColorValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleValue(obj)
+public partial class CSSColorValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSStyleValue(obj)
 {
     public static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.CSSColorValue, global::Iskra.StdWeb.CSSStyleValue, global::Iskra.StdWeb.GenericMarshaller.Union> Parse(string cssText)
     {

@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class RTCIdentityProviderGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkerGlobalScope(obj)
+public partial class RTCIdentityProviderGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.WorkerGlobalScope(obj)
 {
     public global::Iskra.StdWeb.RTCIdentityProviderRegistrar RtcIdentityProvider
     {

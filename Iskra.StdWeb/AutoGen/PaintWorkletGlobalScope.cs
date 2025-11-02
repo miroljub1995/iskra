@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PaintWorkletGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): WorkletGlobalScope(obj)
+public partial class PaintWorkletGlobalScope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.WorkletGlobalScope(obj)
 {
     public void RegisterPaint(string name, global::Iskra.StdWeb.VoidFunction paintCtor)
     {

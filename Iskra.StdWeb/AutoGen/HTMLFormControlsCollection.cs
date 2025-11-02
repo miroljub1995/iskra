@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class HTMLFormControlsCollection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): HTMLCollection(obj)
+public partial class HTMLFormControlsCollection(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLCollection(obj)
 {
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? NamedItem(string name)
     {

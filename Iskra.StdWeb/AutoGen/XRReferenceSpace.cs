@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XRReferenceSpace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRSpace(obj)
+public partial class XRReferenceSpace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.XRSpace(obj)
 {
     public global::Iskra.StdWeb.XRReferenceSpace GetOffsetReferenceSpace(global::Iskra.StdWeb.XRRigidTransform originOffset)
     {

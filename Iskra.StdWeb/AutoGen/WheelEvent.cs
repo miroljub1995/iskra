@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class WheelEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): MouseEvent(obj)
+public partial class WheelEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.MouseEvent(obj)
 {
     public double DeltaX
     {

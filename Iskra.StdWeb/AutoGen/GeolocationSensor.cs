@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GeolocationSensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): Sensor(obj)
+public partial class GeolocationSensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Sensor(obj)
 {
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GeolocationSensorReading, global::Iskra.StdWeb.PropertyAccessor> Read(global::Iskra.StdWeb.ReadOptions readOptions)
     {

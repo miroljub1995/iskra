@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class FileReader(global::System.Runtime.InteropServices.JavaScript.JSObject obj): EventTarget(obj)
+public partial class FileReader(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
     public void ReadAsArrayBuffer(global::Iskra.StdWeb.Blob blob)
     {

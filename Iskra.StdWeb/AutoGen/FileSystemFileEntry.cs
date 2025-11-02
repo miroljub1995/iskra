@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class FileSystemFileEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): FileSystemEntry(obj)
+public partial class FileSystemFileEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.FileSystemEntry(obj)
 {
     public void File(global::Iskra.StdWeb.FileCallback successCallback, global::Iskra.StdWeb.ErrorCallback errorCallback)
     {

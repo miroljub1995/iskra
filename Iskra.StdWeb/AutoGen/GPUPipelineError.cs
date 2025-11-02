@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPUPipelineError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DOMException(obj)
+public partial class GPUPipelineError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.DOMException(obj)
 {
     public global::Iskra.StdWeb.GPUPipelineErrorReason Reason
     {

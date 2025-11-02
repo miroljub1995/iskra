@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class OfflineAudioContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): BaseAudioContext(obj)
+public partial class OfflineAudioContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.BaseAudioContext(obj)
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.AudioBuffer, global::Iskra.StdWeb.PropertyAccessor> StartRendering()
     {

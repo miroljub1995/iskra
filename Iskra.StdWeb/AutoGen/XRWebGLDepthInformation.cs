@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XRWebGLDepthInformation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): XRDepthInformation(obj)
+public partial class XRWebGLDepthInformation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.XRDepthInformation(obj)
 {
     public global::Iskra.StdWeb.WebGLTexture Texture
     {

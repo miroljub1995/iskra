@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SVGPolygonElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): SVGGeometryElement(obj)
+public partial class SVGPolygonElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGGeometryElement(obj)
 {
     public global::Iskra.StdWeb.SVGPointList Points
     {

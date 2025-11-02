@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CSSFunctionDescriptors(global::System.Runtime.InteropServices.JavaScript.JSObject obj): CSSStyleDeclaration(obj)
+public partial class CSSFunctionDescriptors(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSStyleDeclaration(obj)
 {
     public string Result
     {

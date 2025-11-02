@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class DOMPoint(global::System.Runtime.InteropServices.JavaScript.JSObject obj): DOMPointReadOnly(obj)
+public partial class DOMPoint(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.DOMPointReadOnly(obj)
 {
     public static global::Iskra.StdWeb.DOMPoint FromPoint(global::Iskra.StdWeb.DOMPointInit other)
     {
