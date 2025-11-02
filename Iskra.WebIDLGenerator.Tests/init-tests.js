@@ -8,6 +8,7 @@ import {TestFrozenArrayProperties} from "./Tests/TestFrozenArrayProperties.js";
 import {TestInterfaceProperties} from "./Tests/TestInterfaceProperties.js";
 import {TestObservableArrayProperties} from "./Tests/TestObservableArrayProperties.js";
 import {TestPromiseProperties} from "./Tests/TestPromiseProperties.js";
+import {TestRecordLong} from "./Tests/TestRecordLong.js";
 import {TestStaticProperties} from "./Tests/TestStaticProperties.js";
 import {TestUnionProperties} from "./Tests/TestUnionProperties.js";
 
@@ -41,6 +42,9 @@ globalThis.tests = {
     },
     get testPromiseProperties() {
         return new TestPromiseProperties();
+    },
+    get testRecordLong() {
+        return new TestRecordLong();
     },
     get testStaticProperties() {
         return new TestStaticProperties();

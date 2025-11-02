@@ -1,0 +1,52 @@
+{
+  "spec": {
+    "title": "HTML Standard",
+    "url": "https://html.spec.whatwg.org/multipage/"
+  },
+  "idlparsed": {
+    "idlNames": {
+      "TestRecordLong": {
+        "fragment": "",
+        "type": "interface",
+        "name": "TestRecordLong",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "operation",
+            "name": "createTestRecordLong",
+            "idlType": {
+              "extAttrs": [],
+              "generic": "record",
+              "nullable": false,
+              "union": false,
+              "idlType": [
+                {
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "string"
+                },
+                {
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "long"
+                }
+              ]
+            },
+            "arguments": [],
+            "extAttrs": [],
+            "special": "",
+            "href": ""
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": ""
+      }
+    }
+  }
+}
+

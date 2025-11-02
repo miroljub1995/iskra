@@ -5,9 +5,17 @@ using Iskra.JSCore.Extensions;
 
 namespace Iskra.JSCore.Generics;
 
-public class Record<TValue, TAccessor>(JSObject obj) : JSObjectProxy(obj), IEnumerable<KeyValuePair<string, TValue>>
+public partial class Record<TValue, TAccessor>(JSObject obj)
+    : JSObjectProxy(obj), IEnumerable<KeyValuePair<string, TValue>>
     where TAccessor : IPropertyAccessor<TValue>
 {
+    [JSImport("construct", "iskra")]
+    private static partial JSObject ConstructObject(JSObject obj, string constructorName);
+
+    public Record() : this(ConstructObject(JSHost.GlobalThis, "Object"))
+    {
+    }
+
     public TValue this[string key]
     {
         get => TryGetValue(key, out var value)
