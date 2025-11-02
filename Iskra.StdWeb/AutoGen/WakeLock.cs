@@ -6,6 +6,18 @@ namespace Iskra.StdWeb;
 
 public partial class WakeLock(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WakeLockSentinel, global::Iskra.StdWeb.PropertyAccessor> Request()
+    {
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "request", JSObject, __resOwner_4.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WakeLockSentinel, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_4.JSObject, "value");
+    }
+
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WakeLockSentinel, global::Iskra.StdWeb.PropertyAccessor> Request(global::Iskra.StdWeb.WakeLockType type)
     {
         int ___argsArrayLength_0 = 1;

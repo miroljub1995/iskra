@@ -6,6 +6,19 @@ namespace Iskra.StdWeb;
 
 public partial class MIDIOutput(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.MIDIPort(obj)
 {
+    public void Send(global::Iskra.JSCore.Generics.JSArray<byte, global::Iskra.StdWeb.PropertyAccessor> data)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_9 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = data.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_9.JSObject, 0, ___propObject_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "send", JSObject, __argsArray_9.JSObject);
+    }
+
     public void Send(global::Iskra.JSCore.Generics.JSArray<byte, global::Iskra.StdWeb.PropertyAccessor> data, double timestamp)
     {
         int ___argsArrayLength_0 = 2;

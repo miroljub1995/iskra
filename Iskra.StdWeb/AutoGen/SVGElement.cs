@@ -684,6 +684,13 @@ public partial class SVGElement(global::System.Runtime.InteropServices.JavaScrip
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tabIndex", value);
     }
 
+    public void Focus()
+    {
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "focus", JSObject);
+    }
+
     public void Focus(global::Iskra.StdWeb.FocusOptions options)
     {
         int ___argsArrayLength_0 = 1;

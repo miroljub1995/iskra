@@ -10,24 +10,24 @@ public partial class DataTransferItem(global::System.Runtime.InteropServices.Jav
     {
 
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_833 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1040 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "webkitGetAsEntry", JSObject, __resOwner_833.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "webkitGetAsEntry", JSObject, __resOwner_1040.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FileSystemEntry?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_833.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FileSystemEntry?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_1040.JSObject, "value");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemHandle?, global::Iskra.StdWeb.PropertyAccessorNullable> GetAsFileSystemHandle()
     {
 
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_836 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1043 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getAsFileSystemHandle", JSObject, __resOwner_836.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getAsFileSystemHandle", JSObject, __resOwner_1043.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemHandle?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_836.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemHandle?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_1043.JSObject, "value");
     }
 
     public string Kind
@@ -44,7 +44,7 @@ public partial class DataTransferItem(global::System.Runtime.InteropServices.Jav
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_838 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1045 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_1;
@@ -57,21 +57,21 @@ public partial class DataTransferItem(global::System.Runtime.InteropServices.Jav
             global::Iskra.StdWeb.FunctionStringCallback ___notNullable_2 = (global::Iskra.StdWeb.FunctionStringCallback)callback;
             ___marshalledValue_1 = ___notNullable_2.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_838.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_1045.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "getAsString", JSObject, __argsArray_838.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "getAsString", JSObject, __argsArray_1045.JSObject);
     }
 
     public global::Iskra.StdWeb.File? GetAsFile()
     {
 
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_842 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1049 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getAsFile", JSObject, __resOwner_842.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getAsFile", JSObject, __resOwner_1049.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.File?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_842.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.File?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_1049.JSObject, "value");
     }
 }
 

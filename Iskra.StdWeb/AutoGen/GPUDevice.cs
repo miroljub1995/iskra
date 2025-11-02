@@ -37,44 +37,6 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = descriptor.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_12.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createBuffer", JSObject, __argsArray_12.JSObject, __resOwner_13.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUBuffer, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_13.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.GPUTexture CreateTexture(global::Iskra.StdWeb.GPUTextureDescriptor descriptor)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_15 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = descriptor.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_15.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createTexture", JSObject, __argsArray_15.JSObject, __resOwner_16.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_16.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.GPUSampler CreateSampler(global::Iskra.StdWeb.GPUSamplerDescriptor descriptor)
-    {
-        int ___argsArrayLength_0 = 1;
-
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_18 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
@@ -84,13 +46,13 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createSampler", JSObject, __argsArray_18.JSObject, __resOwner_19.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createBuffer", JSObject, __argsArray_18.JSObject, __resOwner_19.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUSampler, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_19.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUBuffer, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_19.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.GPUExternalTexture ImportExternalTexture(global::Iskra.StdWeb.GPUExternalTextureDescriptor descriptor)
+    public global::Iskra.StdWeb.GPUTexture CreateTexture(global::Iskra.StdWeb.GPUTextureDescriptor descriptor)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -103,13 +65,25 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_22 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "importExternalTexture", JSObject, __argsArray_21.JSObject, __resOwner_22.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createTexture", JSObject, __argsArray_21.JSObject, __resOwner_22.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUExternalTexture, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_22.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_22.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.GPUBindGroupLayout CreateBindGroupLayout(global::Iskra.StdWeb.GPUBindGroupLayoutDescriptor descriptor)
+    public global::Iskra.StdWeb.GPUSampler CreateSampler()
+    {
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_28 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSampler", JSObject, __resOwner_28.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUSampler, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_28.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.GPUSampler CreateSampler(global::Iskra.StdWeb.GPUSamplerDescriptor descriptor)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -122,32 +96,13 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_25 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createBindGroupLayout", JSObject, __argsArray_24.JSObject, __resOwner_25.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createSampler", JSObject, __argsArray_24.JSObject, __resOwner_25.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUBindGroupLayout, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_25.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUSampler, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_25.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.GPUPipelineLayout CreatePipelineLayout(global::Iskra.StdWeb.GPUPipelineLayoutDescriptor descriptor)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_27 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = descriptor.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_27.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_28 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createPipelineLayout", JSObject, __argsArray_27.JSObject, __resOwner_28.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUPipelineLayout, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_28.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.GPUBindGroup CreateBindGroup(global::Iskra.StdWeb.GPUBindGroupDescriptor descriptor)
+    public global::Iskra.StdWeb.GPUExternalTexture ImportExternalTexture(global::Iskra.StdWeb.GPUExternalTextureDescriptor descriptor)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -160,13 +115,13 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_31 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createBindGroup", JSObject, __argsArray_30.JSObject, __resOwner_31.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "importExternalTexture", JSObject, __argsArray_30.JSObject, __resOwner_31.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUBindGroup, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_31.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUExternalTexture, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_31.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.GPUShaderModule CreateShaderModule(global::Iskra.StdWeb.GPUShaderModuleDescriptor descriptor)
+    public global::Iskra.StdWeb.GPUBindGroupLayout CreateBindGroupLayout(global::Iskra.StdWeb.GPUBindGroupLayoutDescriptor descriptor)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -179,13 +134,13 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_34 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createShaderModule", JSObject, __argsArray_33.JSObject, __resOwner_34.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createBindGroupLayout", JSObject, __argsArray_33.JSObject, __resOwner_34.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUShaderModule, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_34.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUBindGroupLayout, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_34.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.GPUComputePipeline CreateComputePipeline(global::Iskra.StdWeb.GPUComputePipelineDescriptor descriptor)
+    public global::Iskra.StdWeb.GPUPipelineLayout CreatePipelineLayout(global::Iskra.StdWeb.GPUPipelineLayoutDescriptor descriptor)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -198,13 +153,13 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_37 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createComputePipeline", JSObject, __argsArray_36.JSObject, __resOwner_37.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createPipelineLayout", JSObject, __argsArray_36.JSObject, __resOwner_37.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUComputePipeline, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_37.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUPipelineLayout, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_37.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.GPURenderPipeline CreateRenderPipeline(global::Iskra.StdWeb.GPURenderPipelineDescriptor descriptor)
+    public global::Iskra.StdWeb.GPUBindGroup CreateBindGroup(global::Iskra.StdWeb.GPUBindGroupDescriptor descriptor)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -217,13 +172,13 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_40 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createRenderPipeline", JSObject, __argsArray_39.JSObject, __resOwner_40.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createBindGroup", JSObject, __argsArray_39.JSObject, __resOwner_40.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPURenderPipeline, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_40.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUBindGroup, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_40.JSObject, "value");
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUComputePipeline, global::Iskra.StdWeb.PropertyAccessor> CreateComputePipelineAsync(global::Iskra.StdWeb.GPUComputePipelineDescriptor descriptor)
+    public global::Iskra.StdWeb.GPUShaderModule CreateShaderModule(global::Iskra.StdWeb.GPUShaderModuleDescriptor descriptor)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -236,13 +191,13 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_43 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createComputePipelineAsync", JSObject, __argsArray_42.JSObject, __resOwner_43.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createShaderModule", JSObject, __argsArray_42.JSObject, __resOwner_43.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUComputePipeline, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_43.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUShaderModule, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_43.JSObject, "value");
     }
 
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPURenderPipeline, global::Iskra.StdWeb.PropertyAccessor> CreateRenderPipelineAsync(global::Iskra.StdWeb.GPURenderPipelineDescriptor descriptor)
+    public global::Iskra.StdWeb.GPUComputePipeline CreateComputePipeline(global::Iskra.StdWeb.GPUComputePipelineDescriptor descriptor)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -255,13 +210,13 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_46 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createRenderPipelineAsync", JSObject, __argsArray_45.JSObject, __resOwner_46.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createComputePipeline", JSObject, __argsArray_45.JSObject, __resOwner_46.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPURenderPipeline, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_46.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUComputePipeline, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_46.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.GPUCommandEncoder CreateCommandEncoder(global::Iskra.StdWeb.GPUCommandEncoderDescriptor descriptor)
+    public global::Iskra.StdWeb.GPURenderPipeline CreateRenderPipeline(global::Iskra.StdWeb.GPURenderPipelineDescriptor descriptor)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -274,13 +229,13 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_49 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createCommandEncoder", JSObject, __argsArray_48.JSObject, __resOwner_49.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createRenderPipeline", JSObject, __argsArray_48.JSObject, __resOwner_49.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUCommandEncoder, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_49.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPURenderPipeline, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_49.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.GPURenderBundleEncoder CreateRenderBundleEncoder(global::Iskra.StdWeb.GPURenderBundleEncoderDescriptor descriptor)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUComputePipeline, global::Iskra.StdWeb.PropertyAccessor> CreateComputePipelineAsync(global::Iskra.StdWeb.GPUComputePipelineDescriptor descriptor)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -293,13 +248,13 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_52 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createRenderBundleEncoder", JSObject, __argsArray_51.JSObject, __resOwner_52.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createComputePipelineAsync", JSObject, __argsArray_51.JSObject, __resOwner_52.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPURenderBundleEncoder, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_52.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUComputePipeline, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_52.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.GPUQuerySet CreateQuerySet(global::Iskra.StdWeb.GPUQuerySetDescriptor descriptor)
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPURenderPipeline, global::Iskra.StdWeb.PropertyAccessor> CreateRenderPipelineAsync(global::Iskra.StdWeb.GPURenderPipelineDescriptor descriptor)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -312,10 +267,79 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_55 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createQuerySet", JSObject, __argsArray_54.JSObject, __resOwner_55.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createRenderPipelineAsync", JSObject, __argsArray_54.JSObject, __resOwner_55.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUQuerySet, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_55.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPURenderPipeline, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_55.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.GPUCommandEncoder CreateCommandEncoder()
+    {
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_61 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createCommandEncoder", JSObject, __resOwner_61.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUCommandEncoder, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_61.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.GPUCommandEncoder CreateCommandEncoder(global::Iskra.StdWeb.GPUCommandEncoderDescriptor descriptor)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_57 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = descriptor.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_57.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_58 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createCommandEncoder", JSObject, __argsArray_57.JSObject, __resOwner_58.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUCommandEncoder, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_58.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.GPURenderBundleEncoder CreateRenderBundleEncoder(global::Iskra.StdWeb.GPURenderBundleEncoderDescriptor descriptor)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_63 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = descriptor.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_63.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_64 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createRenderBundleEncoder", JSObject, __argsArray_63.JSObject, __resOwner_64.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPURenderBundleEncoder, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_64.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.GPUQuerySet CreateQuerySet(global::Iskra.StdWeb.GPUQuerySetDescriptor descriptor)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_66 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = descriptor.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_66.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_67 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createQuerySet", JSObject, __argsArray_66.JSObject, __resOwner_67.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUQuerySet, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_67.JSObject, "value");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUDeviceLostInfo, global::Iskra.StdWeb.PropertyAccessor> Lost
@@ -327,26 +351,26 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_57 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_69 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = filter.ToString();
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_57.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_69.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "pushErrorScope", JSObject, __argsArray_57.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "pushErrorScope", JSObject, __argsArray_69.JSObject);
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUError?, global::Iskra.StdWeb.PropertyAccessorNullable> PopErrorScope()
     {
 
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_61 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_73 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "popErrorScope", JSObject, __resOwner_61.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "popErrorScope", JSObject, __resOwner_73.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUError?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_61.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUError?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_73.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onuncapturederror

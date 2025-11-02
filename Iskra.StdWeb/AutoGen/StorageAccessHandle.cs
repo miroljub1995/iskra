@@ -106,6 +106,25 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.BroadcastChannel, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_13.JSObject, "value");
     }
 
+    public global::Iskra.StdWeb.SharedWorker SharedWorker(string scriptURL)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_18 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = scriptURL;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_18.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "SharedWorker", JSObject, __argsArray_18.JSObject, __resOwner_19.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SharedWorker, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_19.JSObject, "value");
+    }
+
     public global::Iskra.StdWeb.SharedWorker SharedWorker(string scriptURL, global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.SharedWorkerOptions, global::Iskra.StdWeb.GenericMarshaller.Union> options)
     {
         int ___argsArrayLength_0 = 2;

@@ -54,15 +54,15 @@ public class TestOperationsTest() : BaseTest<TestOperations>("testOperations")
         await Assert.That(result).IsEqualTo(30);
     }
 
-    // [Test]
-    // public async Task OptionalArgOperationWithDefaultArgument()
-    // {
-    //     var sut = GetSut();
-    //     
-    //     var result = sut.OptionalArgOperation();
-    //     
-    //     await Assert.That(result).IsEqualTo("Message: default");
-    // }
+    [Test]
+    public async Task OptionalArgOperationWithDefaultArgument()
+    {
+        var sut = GetSut();
+
+        var result = sut.OptionalArgOperation();
+
+        await Assert.That(result).IsEqualTo("Message: default");
+    }
 
     [Test]
     public async Task OptionalArgOperationWithArgument()

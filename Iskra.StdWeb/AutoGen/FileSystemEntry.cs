@@ -31,6 +31,27 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FileSystem, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "filesystem");
     }
 
+    public void GetParent()
+    {
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "getParent", JSObject);
+    }
+
+    public void GetParent(global::Iskra.StdWeb.FileSystemEntryCallback successCallback)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_13 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = successCallback.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_13.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "getParent", JSObject, __argsArray_13.JSObject);
+    }
+
     public void GetParent(global::Iskra.StdWeb.FileSystemEntryCallback successCallback, global::Iskra.StdWeb.ErrorCallback errorCallback)
     {
         int ___argsArrayLength_0 = 2;

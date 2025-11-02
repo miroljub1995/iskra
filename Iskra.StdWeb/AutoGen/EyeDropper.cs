@@ -6,6 +6,18 @@ namespace Iskra.StdWeb;
 
 public partial class EyeDropper(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ColorSelectionResult, global::Iskra.StdWeb.PropertyAccessor> Open()
+    {
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "open", JSObject, __resOwner_4.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ColorSelectionResult, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_4.JSObject, "value");
+    }
+
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ColorSelectionResult, global::Iskra.StdWeb.PropertyAccessor> Open(global::Iskra.StdWeb.ColorSelectionOptions options)
     {
         int ___argsArrayLength_0 = 1;

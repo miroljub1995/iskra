@@ -6,6 +6,18 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationSensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Sensor(obj)
 {
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GeolocationSensorReading, global::Iskra.StdWeb.PropertyAccessor> Read()
+    {
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GeolocationSensor"), "read", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GeolocationSensor"), __resOwner_4.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GeolocationSensorReading, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_4.JSObject, "value");
+    }
+
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GeolocationSensorReading, global::Iskra.StdWeb.PropertyAccessor> Read(global::Iskra.StdWeb.ReadOptions readOptions)
     {
         int ___argsArrayLength_0 = 1;

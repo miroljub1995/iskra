@@ -37,6 +37,13 @@ public partial class PrivateAggregation(global::System.Runtime.InteropServices.J
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "contributeToHistogramOnEvent", JSObject, __argsArray_3.JSObject);
     }
 
+    public void EnableDebugMode()
+    {
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "enableDebugMode", JSObject);
+    }
+
     public void EnableDebugMode(global::Iskra.StdWeb.PADebugModeOptions options)
     {
         int ___argsArrayLength_0 = 1;

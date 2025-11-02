@@ -11,6 +11,18 @@ public partial class Notification(global::System.Runtime.InteropServices.JavaScr
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NotificationPermission, global::Iskra.StdWeb.PropertyAccessor>(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Notification"), "permission");
     }
 
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.NotificationPermission, global::Iskra.StdWeb.PropertyAccessor> RequestPermission()
+    {
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Notification"), "requestPermission", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Notification"), __resOwner_4.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.NotificationPermission, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_4.JSObject, "value");
+    }
+
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.NotificationPermission, global::Iskra.StdWeb.PropertyAccessor> RequestPermission(global::Iskra.StdWeb.NotificationPermissionCallback deprecatedCallback)
     {
         int ___argsArrayLength_0 = 1;

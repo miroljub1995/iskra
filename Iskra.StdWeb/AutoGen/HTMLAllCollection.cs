@@ -49,6 +49,18 @@ public partial class HTMLAllCollection(global::System.Runtime.InteropServices.Ja
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_4.JSObject, "value");
     }
 
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? Item()
+    {
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "item", JSObject, __resOwner_10.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_10.JSObject, "value");
+    }
+
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? Item(string nameOrIndex)
     {
         int ___argsArrayLength_0 = 1;

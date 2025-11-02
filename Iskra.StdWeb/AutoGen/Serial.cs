@@ -30,6 +30,18 @@ public partial class Serial(global::System.Runtime.InteropServices.JavaScript.JS
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SerialPort, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_1.JSObject, "value");
     }
 
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.SerialPort, global::Iskra.StdWeb.PropertyAccessor> RequestPort()
+    {
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestPort", JSObject, __resOwner_7.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.SerialPort, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_7.JSObject, "value");
+    }
+
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.SerialPort, global::Iskra.StdWeb.PropertyAccessor> RequestPort(global::Iskra.StdWeb.SerialPortRequestOptions options)
     {
         int ___argsArrayLength_0 = 1;

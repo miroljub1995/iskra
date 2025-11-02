@@ -20,12 +20,12 @@ public partial class RTCSessionDescription(global::System.Runtime.InteropService
     {
 
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_96 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_126 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_96.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_126.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCSessionDescriptionInit, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_96.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCSessionDescriptionInit, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_126.JSObject, "value");
     }
 }
 

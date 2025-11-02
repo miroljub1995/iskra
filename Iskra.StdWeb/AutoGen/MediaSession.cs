@@ -45,6 +45,13 @@ public partial class MediaSession(global::System.Runtime.InteropServices.JavaScr
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setActionHandler", JSObject, __argsArray_10.JSObject);
     }
 
+    public void SetPositionState()
+    {
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "setPositionState", JSObject);
+    }
+
     public void SetPositionState(global::Iskra.StdWeb.MediaPositionState state)
     {
         int ___argsArrayLength_0 = 1;
@@ -63,25 +70,6 @@ public partial class MediaSession(global::System.Runtime.InteropServices.JavaScr
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_16 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        bool ___marshalledValue_1;
-        ___marshalledValue_1 = active;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_16.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_17 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "setMicrophoneActive", JSObject, __argsArray_16.JSObject, __resOwner_17.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_17.JSObject, "value");
-    }
-
-    public global::Iskra.JSCore.Promise SetCameraActive(bool active)
-    {
-        int ___argsArrayLength_0 = 1;
-
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_19 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
@@ -91,13 +79,13 @@ public partial class MediaSession(global::System.Runtime.InteropServices.JavaScr
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_20 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "setCameraActive", JSObject, __argsArray_19.JSObject, __resOwner_20.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "setMicrophoneActive", JSObject, __argsArray_19.JSObject, __resOwner_20.JSObject);
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_20.JSObject, "value");
     }
 
-    public global::Iskra.JSCore.Promise SetScreenshareActive(bool active)
+    public global::Iskra.JSCore.Promise SetCameraActive(bool active)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -110,10 +98,29 @@ public partial class MediaSession(global::System.Runtime.InteropServices.JavaScr
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_23 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "setScreenshareActive", JSObject, __argsArray_22.JSObject, __resOwner_23.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "setCameraActive", JSObject, __argsArray_22.JSObject, __resOwner_23.JSObject);
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_23.JSObject, "value");
+    }
+
+    public global::Iskra.JSCore.Promise SetScreenshareActive(bool active)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_25 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        bool ___marshalledValue_1;
+        ___marshalledValue_1 = active;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_25.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_26 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "setScreenshareActive", JSObject, __argsArray_25.JSObject, __resOwner_26.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_26.JSObject, "value");
     }
 }
 

@@ -6,6 +6,18 @@ namespace Iskra.StdWeb;
 
 public partial class DocumentPictureInPicture(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.PropertyAccessor> RequestWindow()
+    {
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestWindow", JSObject, __resOwner_4.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_4.JSObject, "value");
+    }
+
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.PropertyAccessor> RequestWindow(global::Iskra.StdWeb.DocumentPictureInPictureOptions options)
     {
         int ___argsArrayLength_0 = 1;

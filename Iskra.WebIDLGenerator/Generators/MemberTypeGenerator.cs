@@ -21,7 +21,20 @@ public class MemberTypeGenerator(
 
         if (input is OperationMemberType operationMemberType)
         {
-            return operationMemberTypeGenerator.Generate(operationMemberType, containingTypeName);
+            List<string> operations =
+            [
+                operationMemberTypeGenerator.Generate(operationMemberType, containingTypeName)
+            ];
+
+            var args = operationMemberType.Arguments;
+            while (args.Count > 0 && args[^1].Optional)
+            {
+                args = args[..^1];
+                var newMemberType = operationMemberType with { Arguments = args };
+                operations.Insert(0, operationMemberTypeGenerator.Generate(newMemberType, containingTypeName));
+            }
+
+            return string.Join("\n\n", operations);
         }
 
         logger.LogWarning("Interface Member Type {type} is not handled.", input.GetType());

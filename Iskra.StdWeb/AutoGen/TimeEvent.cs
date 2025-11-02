@@ -16,6 +16,47 @@ public partial class TimeEvent(global::System.Runtime.InteropServices.JavaScript
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "detail");
     }
 
+    public void InitTimeEvent(string typeArg)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_6.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initTimeEvent", JSObject, __argsArray_6.JSObject);
+    }
+
+    public void InitTimeEvent(string typeArg, global::Iskra.StdWeb.Window? viewArg)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_3.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_2;
+        if (viewArg is null)
+        {
+            ___marshalledValue_2 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.Window ___notNullable_3 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_2 = ___notNullable_3.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_3.JSObject, 1, ___marshalledValue_2);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initTimeEvent", JSObject, __argsArray_3.JSObject);
+    }
+
     public void InitTimeEvent(string typeArg, global::Iskra.StdWeb.Window? viewArg, int detailArg)
     {
         int ___argsArrayLength_0 = 3;

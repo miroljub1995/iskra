@@ -11,18 +11,12 @@ public static class Program
         var w = JSObjectProxyFactory.GetProxy<Window>(JSHost.GlobalThis);
         w.Console.Log("this is from console", w, w.Document);
 
-        var opt = new ElementGetHTMLOptions()
-        {
-            ShadowRoots = []
-        };
-        w.Console.Log("ElementGetHTMLOptions opt", opt);
-
         w.Document.AddEventListener("test", SomeListener, false);
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));
 
-        System.Console.WriteLine("Removing event listener...");
+        Console.WriteLine("Removing event listener...");
         w.Document.RemoveEventListener("test", SomeListener, false);
         w.Document.DispatchEvent(new Event("test"));
         w.Document.DispatchEvent(new Event("test"));
@@ -68,7 +62,7 @@ public static class Program
 
     static void SomeListener(Event e)
     {
-        var w = WrapperFactory.GetWrapper<Window>(JSHost.GlobalThis);
+        var w = JSObjectProxyFactory.GetProxy<Window>(JSHost.GlobalThis);
         w.Console.Log("this is from listener", e);
     }
 }

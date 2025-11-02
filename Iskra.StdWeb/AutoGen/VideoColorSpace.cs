@@ -30,12 +30,12 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
     {
 
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_162 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_171 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_162.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_171.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.VideoColorSpaceInit, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_162.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.VideoColorSpaceInit, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_171.JSObject, "value");
     }
 }
 

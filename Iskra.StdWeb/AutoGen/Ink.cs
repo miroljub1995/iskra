@@ -6,6 +6,18 @@ namespace Iskra.StdWeb;
 
 public partial class Ink(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.DelegatedInkTrailPresenter, global::Iskra.StdWeb.PropertyAccessor> RequestPresenter()
+    {
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestPresenter", JSObject, __resOwner_4.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.DelegatedInkTrailPresenter, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_4.JSObject, "value");
+    }
+
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.DelegatedInkTrailPresenter, global::Iskra.StdWeb.PropertyAccessor> RequestPresenter(global::Iskra.StdWeb.InkPresenterParam param)
     {
         int ___argsArrayLength_0 = 1;

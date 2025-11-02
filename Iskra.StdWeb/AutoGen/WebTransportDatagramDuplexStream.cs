@@ -6,6 +6,18 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportDatagramDuplexStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public global::Iskra.StdWeb.WebTransportDatagramsWritable CreateWritable()
+    {
+
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createWritable", JSObject, __resOwner_4.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WebTransportDatagramsWritable, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_4.JSObject, "value");
+    }
+
     public global::Iskra.StdWeb.WebTransportDatagramsWritable CreateWritable(global::Iskra.StdWeb.WebTransportSendOptions options)
     {
         int ___argsArrayLength_0 = 1;

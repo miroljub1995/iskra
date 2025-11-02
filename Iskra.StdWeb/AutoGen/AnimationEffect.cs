@@ -10,38 +10,45 @@ public partial class AnimationEffect(global::System.Runtime.InteropServices.Java
     {
 
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_28 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_31 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTiming", JSObject, __resOwner_28.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTiming", JSObject, __resOwner_31.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EffectTiming, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_28.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EffectTiming, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_31.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.ComputedEffectTiming GetComputedTiming()
     {
 
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_31 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_34 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getComputedTiming", JSObject, __resOwner_31.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getComputedTiming", JSObject, __resOwner_34.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ComputedEffectTiming, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_31.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ComputedEffectTiming, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_34.JSObject, "value");
+    }
+
+    public void UpdateTiming()
+    {
+
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "updateTiming", JSObject);
     }
 
     public void UpdateTiming(global::Iskra.StdWeb.OptionalEffectTiming timing)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_33 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_36 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = timing.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_33.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_36.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "updateTiming", JSObject, __argsArray_33.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "updateTiming", JSObject, __argsArray_36.JSObject);
     }
 
     public global::Iskra.StdWeb.GroupEffect? Parent
@@ -63,42 +70,6 @@ public partial class AnimationEffect(global::System.Runtime.InteropServices.Java
     {
         int ___argsArrayLength_0 = effects.Length + 0;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_36 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        for (int ___i_1 = 0; ___i_1 < effects.Length; ___i_1++)
-        {
-        global::Iskra.StdWeb.AnimationEffect ___elem_2 = effects[___i_1];
-            global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
-            ___marshalledValue_3 = ___elem_2.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_36.JSObject, 0 + ___i_1, ___marshalledValue_3);
-        }
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "before", JSObject, __argsArray_36.JSObject);
-    }
-
-    public void After(params global::Iskra.StdWeb.AnimationEffect[] effects)
-    {
-        int ___argsArrayLength_0 = effects.Length + 0;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_39 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        for (int ___i_1 = 0; ___i_1 < effects.Length; ___i_1++)
-        {
-        global::Iskra.StdWeb.AnimationEffect ___elem_2 = effects[___i_1];
-            global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
-            ___marshalledValue_3 = ___elem_2.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_39.JSObject, 0 + ___i_1, ___marshalledValue_3);
-        }
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "after", JSObject, __argsArray_39.JSObject);
-    }
-
-    public void Replace(params global::Iskra.StdWeb.AnimationEffect[] effects)
-    {
-        int ___argsArrayLength_0 = effects.Length + 0;
-
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_42 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
@@ -110,7 +81,43 @@ public partial class AnimationEffect(global::System.Runtime.InteropServices.Java
             global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_42.JSObject, 0 + ___i_1, ___marshalledValue_3);
         }
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "replace", JSObject, __argsArray_42.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "before", JSObject, __argsArray_42.JSObject);
+    }
+
+    public void After(params global::Iskra.StdWeb.AnimationEffect[] effects)
+    {
+        int ___argsArrayLength_0 = effects.Length + 0;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_45 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        for (int ___i_1 = 0; ___i_1 < effects.Length; ___i_1++)
+        {
+        global::Iskra.StdWeb.AnimationEffect ___elem_2 = effects[___i_1];
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+            ___marshalledValue_3 = ___elem_2.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_45.JSObject, 0 + ___i_1, ___marshalledValue_3);
+        }
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "after", JSObject, __argsArray_45.JSObject);
+    }
+
+    public void Replace(params global::Iskra.StdWeb.AnimationEffect[] effects)
+    {
+        int ___argsArrayLength_0 = effects.Length + 0;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_48 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        for (int ___i_1 = 0; ___i_1 < effects.Length; ___i_1++)
+        {
+        global::Iskra.StdWeb.AnimationEffect ___elem_2 = effects[___i_1];
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+            ___marshalledValue_3 = ___elem_2.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_48.JSObject, 0 + ___i_1, ___marshalledValue_3);
+        }
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "replace", JSObject, __argsArray_48.JSObject);
     }
 
     public void Remove()

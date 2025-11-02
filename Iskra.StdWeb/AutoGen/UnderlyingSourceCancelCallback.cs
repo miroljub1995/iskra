@@ -10,35 +10,35 @@ public partial class UnderlyingSourceCancelCallback(global::System.Runtime.Inter
 {
     public static implicit operator UnderlyingSourceCancelCallback(UnderlyingSourceCancelCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_46, __res_51) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_58, __res_63) =>
         {
-            using (__args_46)
-            using (__res_51)
+            using (__args_58)
+            using (__res_63)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_48;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_49;
-                __propObject_49 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_46, 0);
-                if (__propObject_49 is null)
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_60;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_61;
+                __propObject_61 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_58, 0);
+                if (__propObject_61 is null)
                 {
-                    __arg_48 = null;
+                    __arg_60 = null;
                 }
                 else
                 {
-                    __arg_48 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_49);
+                    __arg_60 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_61);
                 }
 
-                global::Iskra.JSCore.Promise __managedRes_52 = input(__arg_48);
+                global::Iskra.JSCore.Promise __managedRes_64 = input(__arg_60);
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_53 = __managedRes_52.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_51, "value", __propObject_53);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_65 = __managedRes_64.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_63, "value", __propObject_65);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_50 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_50, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_62 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_62, input); 
 
-        return new global::Iskra.StdWeb.UnderlyingSourceCancelCallback(__funcObj_50);
+        return new global::Iskra.StdWeb.UnderlyingSourceCancelCallback(__funcObj_62);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.UnderlyingSourceCancelCallbackManaged? managed, bool allowConversion = false)
@@ -56,33 +56,33 @@ public partial class UnderlyingSourceCancelCallback(global::System.Runtime.Inter
 
         managed = (reason) =>
         {
-            int __argsArrayLength_57 = 1;
+            int __argsArrayLength_69 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_54 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_57);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_66 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_69);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_58;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_70;
             if (reason is null)
             {
-                __propObject_58 = null;
+                __propObject_70 = null;
             }
             else
             {
-                __propObject_58 = reason.JSObject;
+                __propObject_70 = reason.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_54.JSObject, 0, __propObject_58);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_66.JSObject, 0, __propObject_70);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_55 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_67 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_54.JSObject, __resOwner_55.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_66.JSObject, __resOwner_67.JSObject);
 
             // Return Value
-            global::Iskra.JSCore.Promise __res_56;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_59;
-            __propObject_59 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_55.JSObject, "value");
-            __res_56 = new global::Iskra.JSCore.Promise(__propObject_59);
-            return __res_56;
+            global::Iskra.JSCore.Promise __res_68;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_71;
+            __propObject_71 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_67.JSObject, "value");
+            __res_68 = new global::Iskra.JSCore.Promise(__propObject_71);
+            return __res_68;
         };
         return true;
     }
