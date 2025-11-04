@@ -58,6 +58,16 @@ public class GetPropertyValueGenerator(
             );
         }
 
+        if (type is RecordTypeDescription recordTypeDescription)
+        {
+            return GenerateForRecord(
+                inputVar: inputVar,
+                type: recordTypeDescription,
+                propertyNameVar: propertyNameVar,
+                outputVar: outputVar
+            );
+        }
+
         if (type is SequenceTypeDescription sequenceTypeDescription)
         {
             return GenerateForSequence(
@@ -78,11 +88,7 @@ public class GetPropertyValueGenerator(
             );
         }
 
-        var content = $$"""
-                        throw new global::System.Exception();
-                        """;
-
-        return content;
+        throw new NotSupportedException($"Unsupported type: {type}");
     }
 
     private string GenerateForSpecific(
@@ -300,6 +306,49 @@ public class GetPropertyValueGenerator(
     private string GenerateForPromise(
         string inputVar,
         PromiseTypeDescription type,
+        string propertyNameVar,
+        string outputVar
+    )
+    {
+        var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
+
+        var constructor = toTypeDeclarationGenerator.Generate(type with { Nullable = false });
+
+        var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
+
+        var getPropertyVar = VariableName.Current.GetNext("propObject");
+
+        var getPropertyContent = $$"""
+                                   {{getPropertyVar}} = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}});
+                                   """;
+
+        if (type.Nullable)
+        {
+            return $$"""
+                     global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                     {{getPropertyContent}}
+                     if ({{getPropertyVar}} is null)
+                     {
+                         {{outputVar}} = null;
+                     }
+                     else
+                     {
+                         {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                     }
+                     """;
+        }
+
+        return $$"""
+                 global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{getPropertyVar}};
+                 {{getPropertyContent}}
+                 {{outputVar}} = new {{constructor}}({{getPropertyVar}});
+                 """;
+    }
+
+    private string GenerateForRecord(
+        string inputVar,
+        RecordTypeDescription type,
         string propertyNameVar,
         string outputVar
     )

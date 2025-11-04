@@ -38,6 +38,10 @@ export class TestOperations {
     variadicOperation(...numbers) {
         return numbers.reduce((sum, num) => sum + num, 0);
     }
+
+    unionOperation(value) {
+        return Object.entries(value).reduce((acc, [key, value]) => ({...acc, [key]: value + " returned"}), {})
+    }
 }
 
 globalThis.TestOperations = TestOperations;

@@ -154,4 +154,21 @@ public class TestOperationsTest() : BaseTest<TestOperations>("testOperations")
 
         await Assert.That(result).IsEqualTo(210);
     }
+
+    [Test]
+    public async Task UnionOperation()
+    {
+        var sut = GetSut();
+
+        var result = sut.UnionOperation(new()
+        {
+            { "key1", "value1" },
+            { "key2", "value2" }
+        });
+
+        await Assert.That(result).IsNotNull();
+
+        await Assert.That(result["key1"]).IsEqualTo("value1 returned");
+        await Assert.That(result["key2"]).IsEqualTo("value2 returned");
+    }
 }
