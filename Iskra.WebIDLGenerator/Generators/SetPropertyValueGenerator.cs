@@ -57,6 +57,16 @@ public class SetPropertyValueGenerator(
             );
         }
 
+        if (type is RecordTypeDescription recordTypeDescription)
+        {
+            return GenerateForRecord(
+                inputVar: inputVar,
+                valueVar: valueVar,
+                type: recordTypeDescription,
+                propertyNameVar: propertyNameVar
+            );
+        }
+
         if (type is SequenceTypeDescription sequenceTypeDescription)
         {
             return GenerateForSequence(
@@ -77,11 +87,7 @@ public class SetPropertyValueGenerator(
             );
         }
 
-        var content = $$"""
-                        throw new global::System.Exception();
-                        """;
-
-        return content;
+        throw new NotSupportedException($"Unsupported type: {type}");
     }
 
     private string GenerateForSpecific(
@@ -295,6 +301,45 @@ public class SetPropertyValueGenerator(
         string inputVar,
         string valueVar,
         PromiseTypeDescription type,
+        string propertyNameVar
+    )
+    {
+        var asNullableSuffix = type.Nullable ? "AsNullable" : "";
+        var nullableTypeSuffix = type.Nullable ? "?" : "";
+
+        var setPropertyVar = VariableName.Current.GetNext("propObject");
+
+        var setPropertyContent = $$"""
+                                   global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2{{asNullableSuffix}}({{inputVar}}, {{propertyNameVar}}, {{setPropertyVar}});
+                                   """;
+
+        if (type.Nullable)
+        {
+            return $$"""
+                     global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}};
+                     if ({{valueVar}} is null)
+                     {
+                         {{setPropertyVar}} = null;
+                     }
+                     else
+                     {
+                         {{setPropertyVar}} = {{valueVar}}.JSObject;
+                     }
+
+                     {{setPropertyContent}}
+                     """;
+        }
+
+        return $$"""
+                 global::System.Runtime.InteropServices.JavaScript.JSObject{{nullableTypeSuffix}} {{setPropertyVar}} = {{valueVar}}.JSObject;
+                 {{setPropertyContent}}
+                 """;
+    }
+
+    private string GenerateForRecord(
+        string inputVar,
+        string valueVar,
+        RecordTypeDescription type,
         string propertyNameVar
     )
     {

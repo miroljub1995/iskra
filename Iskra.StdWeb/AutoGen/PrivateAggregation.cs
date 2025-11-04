@@ -32,7 +32,8 @@ public partial class PrivateAggregation(global::System.Runtime.InteropServices.J
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_3.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
-        throw new global::System.Exception();
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_2 = contribution.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_3.JSObject, 1, ___propObject_2);
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "contributeToHistogramOnEvent", JSObject, __argsArray_3.JSObject);
     }

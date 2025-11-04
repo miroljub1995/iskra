@@ -117,7 +117,8 @@ public partial class MLGraphBuilder(global::System.Runtime.InteropServices.JavaS
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_54 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
-        throw new global::System.Exception();
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = outputs.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_54.JSObject, 0, ___propObject_1);
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_55 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 

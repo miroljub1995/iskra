@@ -27,7 +27,8 @@ public partial class InterestGroupReportingScriptRunnerGlobalScope(global::Syste
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_33 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
-        throw new global::System.Exception();
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = map.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_33.JSObject, 0, ___propObject_1);
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "registerAdBeacon", JSObject, __argsArray_33.JSObject);
     }

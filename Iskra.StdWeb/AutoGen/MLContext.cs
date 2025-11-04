@@ -18,10 +18,12 @@ public partial class MLContext(global::System.Runtime.InteropServices.JavaScript
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_9.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
-        throw new global::System.Exception();
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_2 = inputs.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_9.JSObject, 1, ___propObject_2);
 
         // Argument 3
-        throw new global::System.Exception();
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = outputs.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_9.JSObject, 2, ___propObject_3);
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "dispatch", JSObject, __argsArray_9.JSObject);
     }

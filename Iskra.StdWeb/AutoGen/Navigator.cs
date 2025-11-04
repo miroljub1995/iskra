@@ -590,7 +590,8 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_1846.JSObject, 0, ___propObject_1);
 
         // Argument 2
-        throw new global::System.Exception();
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_2 = replacements.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1846.JSObject, 1, ___propObject_2);
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1847 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
