@@ -6,6 +6,41 @@ namespace Iskra.StdWeb;
 
 public partial class WebGLContextEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Event(obj)
 {
+    public static global::Iskra.StdWeb.WebGLContextEvent New(string type)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_426 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_426.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_428 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "WebGLContextEvent", __argsArray_426.JSObject);
+        return new global::Iskra.StdWeb.WebGLContextEvent(__res_428);
+    }
+
+    public static global::Iskra.StdWeb.WebGLContextEvent New(string type, global::Iskra.StdWeb.WebGLContextEventInit eventInit)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_423 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_423.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = eventInit.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_423.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_425 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "WebGLContextEvent", __argsArray_423.JSObject);
+        return new global::Iskra.StdWeb.WebGLContextEvent(__res_425);
+    }
+
     public string StatusMessage
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "statusMessage");

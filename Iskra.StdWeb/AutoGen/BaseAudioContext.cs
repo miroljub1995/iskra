@@ -49,8 +49,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.AnalyserNode CreateAnalyser()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_21 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createAnalyser", JSObject, __resOwner_21.JSObject);
@@ -61,8 +59,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.BiquadFilterNode CreateBiquadFilter()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_24 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createBiquadFilter", JSObject, __resOwner_24.JSObject);
@@ -102,8 +98,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.AudioBufferSourceNode CreateBufferSource()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_30 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createBufferSource", JSObject, __resOwner_30.JSObject);
@@ -114,8 +108,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.ChannelMergerNode CreateChannelMerger()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_36 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createChannelMerger", JSObject, __resOwner_36.JSObject);
@@ -145,8 +137,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.ChannelSplitterNode CreateChannelSplitter()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_42 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createChannelSplitter", JSObject, __resOwner_42.JSObject);
@@ -176,8 +166,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.ConstantSourceNode CreateConstantSource()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_45 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createConstantSource", JSObject, __resOwner_45.JSObject);
@@ -188,8 +176,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.ConvolverNode CreateConvolver()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_48 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createConvolver", JSObject, __resOwner_48.JSObject);
@@ -200,8 +186,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.DelayNode CreateDelay()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_54 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createDelay", JSObject, __resOwner_54.JSObject);
@@ -231,8 +215,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.DynamicsCompressorNode CreateDynamicsCompressor()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_57 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createDynamicsCompressor", JSObject, __resOwner_57.JSObject);
@@ -243,8 +225,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.GainNode CreateGain()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_60 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createGain", JSObject, __resOwner_60.JSObject);
@@ -277,8 +257,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.OscillatorNode CreateOscillator()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_66 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createOscillator", JSObject, __resOwner_66.JSObject);
@@ -289,8 +267,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.PannerNode CreatePanner()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_69 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createPanner", JSObject, __resOwner_69.JSObject);
@@ -350,8 +326,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.ScriptProcessorNode CreateScriptProcessor()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_87 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createScriptProcessor", JSObject, __resOwner_87.JSObject);
@@ -434,8 +408,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.StereoPannerNode CreateStereoPanner()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_90 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createStereoPanner", JSObject, __resOwner_90.JSObject);
@@ -446,8 +418,6 @@ public partial class BaseAudioContext(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.WaveShaperNode CreateWaveShaper()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_93 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createWaveShaper", JSObject, __resOwner_93.JSObject);

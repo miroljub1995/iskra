@@ -13,8 +13,6 @@ public partial class SVGGraphicsElement(global::System.Runtime.InteropServices.J
 
     public global::Iskra.StdWeb.DOMRect GetBBox()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getBBox", JSObject, __resOwner_13.JSObject);
@@ -44,8 +42,6 @@ public partial class SVGGraphicsElement(global::System.Runtime.InteropServices.J
 
     public global::Iskra.StdWeb.DOMMatrix? GetCTM()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getCTM", JSObject, __resOwner_16.JSObject);
@@ -56,8 +52,6 @@ public partial class SVGGraphicsElement(global::System.Runtime.InteropServices.J
 
     public global::Iskra.StdWeb.DOMMatrix? GetScreenCTM()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getScreenCTM", JSObject, __resOwner_19.JSObject);

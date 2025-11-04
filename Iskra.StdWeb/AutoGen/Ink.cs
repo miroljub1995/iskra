@@ -8,8 +8,6 @@ public partial class Ink(global::System.Runtime.InteropServices.JavaScript.JSObj
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.DelegatedInkTrailPresenter, global::Iskra.StdWeb.PropertyAccessor> RequestPresenter()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestPresenter", JSObject, __resOwner_4.JSObject);

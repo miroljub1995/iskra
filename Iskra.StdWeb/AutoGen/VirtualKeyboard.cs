@@ -8,15 +8,11 @@ public partial class VirtualKeyboard(global::System.Runtime.InteropServices.Java
 {
     public void Show()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "show", JSObject);
     }
 
     public void Hide()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "hide", JSObject);
     }
 

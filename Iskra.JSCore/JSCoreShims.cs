@@ -22,6 +22,8 @@ public static partial class JSCoreShims
 
                                      export const getSelf = (obj) => obj;
                                      export const construct = (obj, constructorName, ...args) => new obj[constructorName](...args);
+                                     export const constructObjectEmpty = (obj, constructorName) => new obj[constructorName]();
+                                     export const constructObjectNonEmpty = (obj, constructorName, args) => Reflect.construct(obj[constructorName], args);
                                      export const isGlobalConstructor = (constructorName, target) => globalThis[constructorName] === target.constructor;
                                      export const arrowFunctionProxy = (fun) => (...args) => fun(...args);
                                      export const constructorMap = (() => {

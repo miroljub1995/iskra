@@ -37,8 +37,6 @@ public partial class FileSystemHandle(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PermissionState, global::Iskra.StdWeb.PropertyAccessor> QueryPermission()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "queryPermission", JSObject, __resOwner_7.JSObject);
@@ -68,8 +66,6 @@ public partial class FileSystemHandle(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PermissionState, global::Iskra.StdWeb.PropertyAccessor> RequestPermission()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestPermission", JSObject, __resOwner_13.JSObject);

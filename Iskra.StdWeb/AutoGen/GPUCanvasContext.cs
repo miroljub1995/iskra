@@ -15,45 +15,39 @@ public partial class GPUCanvasContext(global::System.Runtime.InteropServices.Jav
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_408 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_411 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = configuration.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_408.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_411.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "configure", JSObject, __argsArray_408.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "configure", JSObject, __argsArray_411.JSObject);
     }
 
     public void Unconfigure()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "unconfigure", JSObject);
     }
 
     public global::Iskra.StdWeb.GPUCanvasConfiguration? GetConfiguration()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_418 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_415 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getConfiguration", JSObject, __resOwner_415.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getConfiguration", JSObject, __resOwner_418.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUCanvasConfiguration?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_415.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUCanvasConfiguration?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_418.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.GPUTexture GetCurrentTexture()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_421 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_418 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getCurrentTexture", JSObject, __resOwner_418.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getCurrentTexture", JSObject, __resOwner_421.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_418.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_421.JSObject, "value");
     }
 }
 

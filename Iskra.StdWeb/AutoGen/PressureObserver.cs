@@ -6,50 +6,22 @@ namespace Iskra.StdWeb;
 
 public partial class PressureObserver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Promise Observe(global::Iskra.StdWeb.PressureSource source)
+    public static global::Iskra.StdWeb.PressureObserver New(global::Iskra.StdWeb.PressureUpdateCallback callback)
     {
         int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_16 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = source.ToString();
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_16.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_17 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "observe", JSObject, __argsArray_16.JSObject, __resOwner_17.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_17.JSObject, "value");
-    }
-
-    public global::Iskra.JSCore.Promise Observe(global::Iskra.StdWeb.PressureSource source, global::Iskra.StdWeb.PressureObserverOptions options)
-    {
-        int ___argsArrayLength_0 = 2;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_13 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = source.ToString();
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_13.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = callback.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_13.JSObject, 0, ___marshalledValue_1);
 
-        // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
-        ___marshalledValue_2 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_13.JSObject, 1, ___marshalledValue_2);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_14 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "observe", JSObject, __argsArray_13.JSObject, __resOwner_14.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_14.JSObject, "value");
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_15 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PressureObserver", __argsArray_13.JSObject);
+        return new global::Iskra.StdWeb.PressureObserver(__res_15);
     }
 
-    public void Unobserve(global::Iskra.StdWeb.PressureSource source)
+    public global::Iskra.JSCore.Promise Observe(global::Iskra.StdWeb.PressureSource source)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -60,26 +32,65 @@ public partial class PressureObserver(global::System.Runtime.InteropServices.Jav
         ___marshalledValue_1 = source.ToString();
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_19.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "unobserve", JSObject, __argsArray_19.JSObject);
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_20 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "observe", JSObject, __argsArray_19.JSObject, __resOwner_20.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_20.JSObject, "value");
+    }
+
+    public global::Iskra.JSCore.Promise Observe(global::Iskra.StdWeb.PressureSource source, global::Iskra.StdWeb.PressureObserverOptions options)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_16 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = source.ToString();
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_16.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_16.JSObject, 1, ___marshalledValue_2);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_17 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "observe", JSObject, __argsArray_16.JSObject, __resOwner_17.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_17.JSObject, "value");
+    }
+
+    public void Unobserve(global::Iskra.StdWeb.PressureSource source)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_22 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = source.ToString();
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_22.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "unobserve", JSObject, __argsArray_22.JSObject);
     }
 
     public void Disconnect()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject);
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.PropertyAccessor> TakeRecords()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_29 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_26 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "takeRecords", JSObject, __resOwner_26.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "takeRecords", JSObject, __resOwner_29.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_26.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_29.JSObject, "value");
     }
 
     public static global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.PressureSource, global::Iskra.StdWeb.PropertyAccessor> KnownSources

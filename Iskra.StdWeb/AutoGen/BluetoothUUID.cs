@@ -10,73 +10,73 @@ public partial class BluetoothUUID(global::System.Runtime.InteropServices.JavaSc
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_93 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_102 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = name.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_93.JSObject, 0, ___propObject_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_102.JSObject, 0, ___propObject_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_94 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_103 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), "getService", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), __argsArray_93.JSObject, __resOwner_94.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), "getService", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), __argsArray_102.JSObject, __resOwner_103.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_94.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_103.JSObject, "value");
     }
 
     public static string GetCharacteristic(global::Iskra.JSCore.Generics.Union<string, uint, global::Iskra.StdWeb.GenericMarshaller.Union> name)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_96 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_105 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = name.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_96.JSObject, 0, ___propObject_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_105.JSObject, 0, ___propObject_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_97 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_106 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), "getCharacteristic", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), __argsArray_96.JSObject, __resOwner_97.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), "getCharacteristic", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), __argsArray_105.JSObject, __resOwner_106.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_97.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_106.JSObject, "value");
     }
 
     public static string GetDescriptor(global::Iskra.JSCore.Generics.Union<string, uint, global::Iskra.StdWeb.GenericMarshaller.Union> name)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_99 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_108 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = name.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_99.JSObject, 0, ___propObject_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_108.JSObject, 0, ___propObject_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_100 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_109 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), "getDescriptor", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), __argsArray_99.JSObject, __resOwner_100.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), "getDescriptor", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), __argsArray_108.JSObject, __resOwner_109.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_100.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_109.JSObject, "value");
     }
 
     public static string CanonicalUUID(uint alias)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_102 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_111 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = Convert.ToDouble(alias);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_102.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_111.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_103 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_112 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), "canonicalUUID", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), __argsArray_102.JSObject, __resOwner_103.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), "canonicalUUID", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothUUID"), __argsArray_111.JSObject, __resOwner_112.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_103.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_112.JSObject, "value");
     }
 }
 

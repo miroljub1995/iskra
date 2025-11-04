@@ -8,8 +8,6 @@ public partial class Keyboard(global::System.Runtime.InteropServices.JavaScript.
 {
     public global::Iskra.JSCore.Promise Lock()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "lock", JSObject, __resOwner_4.JSObject);
@@ -38,15 +36,11 @@ public partial class Keyboard(global::System.Runtime.InteropServices.JavaScript.
 
     public void Unlock()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "unlock", JSObject);
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.KeyboardLayoutMap, global::Iskra.StdWeb.PropertyAccessor> GetLayoutMap()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getLayoutMap", JSObject, __resOwner_10.JSObject);

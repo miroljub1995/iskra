@@ -6,6 +6,41 @@ namespace Iskra.StdWeb;
 
 public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.ExtendableEvent(obj)
 {
+    public static global::Iskra.StdWeb.PaymentRequestEvent New(string type)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_12.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_14 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PaymentRequestEvent", __argsArray_12.JSObject);
+        return new global::Iskra.StdWeb.PaymentRequestEvent(__res_14);
+    }
+
+    public static global::Iskra.StdWeb.PaymentRequestEvent New(string type, global::Iskra.StdWeb.PaymentRequestEventInit eventInitDict)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_9 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_9.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = eventInitDict.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_9.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_11 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PaymentRequestEvent", __argsArray_9.JSObject);
+        return new global::Iskra.StdWeb.PaymentRequestEvent(__res_11);
+    }
+
     public string TopOrigin
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "topOrigin");
@@ -50,50 +85,50 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_15 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = url;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_6.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_15.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "openWindow", JSObject, __argsArray_6.JSObject, __resOwner_7.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "openWindow", JSObject, __argsArray_15.JSObject, __resOwner_16.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WindowClient?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_7.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WindowClient?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_16.JSObject, "value");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable> ChangePaymentMethod(string methodName)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_21 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = methodName;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_12.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_21.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_22 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "changePaymentMethod", JSObject, __argsArray_12.JSObject, __resOwner_13.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "changePaymentMethod", JSObject, __argsArray_21.JSObject, __resOwner_22.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_13.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_22.JSObject, "value");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable> ChangePaymentMethod(string methodName, global::System.Runtime.InteropServices.JavaScript.JSObject? methodDetails)
     {
         int ___argsArrayLength_0 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_9 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_18 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = methodName;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_9.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_18.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_2;
@@ -106,77 +141,75 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_3 = (global::System.Runtime.InteropServices.JavaScript.JSObject)methodDetails;
             ___marshalledValue_2 = ___notNullable_3;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_9.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_18.JSObject, 1, ___marshalledValue_2);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "changePaymentMethod", JSObject, __argsArray_9.JSObject, __resOwner_10.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "changePaymentMethod", JSObject, __argsArray_18.JSObject, __resOwner_19.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_10.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_19.JSObject, "value");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable> ChangeShippingAddress()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_28 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "changeShippingAddress", JSObject, __resOwner_19.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "changeShippingAddress", JSObject, __resOwner_28.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_19.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_28.JSObject, "value");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable> ChangeShippingAddress(global::Iskra.StdWeb.AddressInit shippingAddress)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_15 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_24 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = shippingAddress.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_15.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_24.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_25 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "changeShippingAddress", JSObject, __argsArray_15.JSObject, __resOwner_16.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "changeShippingAddress", JSObject, __argsArray_24.JSObject, __resOwner_25.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_16.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_25.JSObject, "value");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable> ChangeShippingOption(string shippingOption)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_21 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_30 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = shippingOption;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_21.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_30.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_22 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_31 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "changeShippingOption", JSObject, __argsArray_21.JSObject, __resOwner_22.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "changeShippingOption", JSObject, __argsArray_30.JSObject, __resOwner_31.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_22.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentRequestDetailsUpdate?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_31.JSObject, "value");
     }
 
     public void RespondWith(global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PaymentHandlerResponse, global::Iskra.StdWeb.PropertyAccessor> handlerResponsePromise)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_24 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_33 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = handlerResponsePromise.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_24.JSObject, 0, ___propObject_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_33.JSObject, 0, ___propObject_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "respondWith", JSObject, __argsArray_24.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "respondWith", JSObject, __argsArray_33.JSObject);
     }
 }
 

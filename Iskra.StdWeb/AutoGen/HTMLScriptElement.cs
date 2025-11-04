@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLScriptElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLScriptElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_593 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLScriptElement");
+        return new global::Iskra.StdWeb.HTMLScriptElement(__res_593);
+    }
+
     public string Type
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
@@ -75,19 +81,19 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_396 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_594 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_396.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_594.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_397 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_595 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLScriptElement"), "supports", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLScriptElement"), __argsArray_396.JSObject, __resOwner_397.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLScriptElement"), "supports", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLScriptElement"), __argsArray_594.JSObject, __resOwner_595.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_397.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_595.JSObject, "value");
     }
 
     public string Charset

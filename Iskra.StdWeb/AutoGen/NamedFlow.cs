@@ -18,8 +18,6 @@ public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.PropertyAccessor> GetRegions()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getRegions", JSObject, __resOwner_1.JSObject);
@@ -35,8 +33,6 @@ public partial class NamedFlow(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor> GetContent()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getContent", JSObject, __resOwner_4.JSObject);

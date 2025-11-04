@@ -8,14 +8,12 @@ public partial class WorkletGroupEffect(global::System.Runtime.InteropServices.J
 {
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.WorkletAnimationEffect, global::Iskra.StdWeb.PropertyAccessor> GetChildren()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_39 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_27 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getChildren", JSObject, __resOwner_27.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getChildren", JSObject, __resOwner_39.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.WorkletAnimationEffect, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_27.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.WorkletAnimationEffect, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_39.JSObject, "value");
     }
 }
 

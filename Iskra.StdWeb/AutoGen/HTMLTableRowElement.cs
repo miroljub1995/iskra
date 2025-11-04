@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLTableRowElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_347 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTableRowElement");
+        return new global::Iskra.StdWeb.HTMLTableRowElement(__res_347);
+    }
+
     public int RowIndex
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rowIndex");
@@ -23,47 +29,45 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
 
     public global::Iskra.StdWeb.HTMLTableCellElement InsertCell()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_352 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_220 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "insertCell", JSObject, __resOwner_220.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "insertCell", JSObject, __resOwner_352.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableCellElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_220.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableCellElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_352.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.HTMLTableCellElement InsertCell(int index)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_216 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_348 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = Convert.ToDouble(index);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_216.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_348.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_217 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_349 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "insertCell", JSObject, __argsArray_216.JSObject, __resOwner_217.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "insertCell", JSObject, __argsArray_348.JSObject, __resOwner_349.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableCellElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_217.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableCellElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_349.JSObject, "value");
     }
 
     public void DeleteCell(int index)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_222 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_354 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = Convert.ToDouble(index);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_222.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_354.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "deleteCell", JSObject, __argsArray_222.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "deleteCell", JSObject, __argsArray_354.JSObject);
     }
 
     public string Align

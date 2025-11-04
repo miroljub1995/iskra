@@ -18,8 +18,6 @@ public partial class GeolocationPosition(global::System.Runtime.InteropServices.
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_42 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_42.JSObject);

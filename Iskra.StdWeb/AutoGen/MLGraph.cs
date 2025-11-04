@@ -8,8 +8,6 @@ public partial class MLGraph(global::System.Runtime.InteropServices.JavaScript.J
 {
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 }

@@ -8,15 +8,11 @@ public partial class WEBGL_lose_context(global::System.Runtime.InteropServices.J
 {
     public void LoseContext()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "loseContext", JSObject);
     }
 
     public void RestoreContext()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "restoreContext", JSObject);
     }
 }

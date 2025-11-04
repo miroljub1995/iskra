@@ -10,60 +10,60 @@ public partial class XPathExpression(global::System.Runtime.InteropServices.Java
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_961 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1006 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = contextNode.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_961.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1006.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_962 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1007 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "evaluate", JSObject, __argsArray_961.JSObject, __resOwner_962.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "evaluate", JSObject, __argsArray_1006.JSObject, __resOwner_1007.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XPathResult, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_962.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XPathResult, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_1007.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.XPathResult Evaluate(global::Iskra.StdWeb.Node contextNode, ushort type)
     {
         int ___argsArrayLength_0 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_958 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1003 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = contextNode.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_958.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1003.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         double ___marshalledValue_2;
         ___marshalledValue_2 = Convert.ToDouble(type);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_958.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1003.JSObject, 1, ___marshalledValue_2);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_959 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1004 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "evaluate", JSObject, __argsArray_958.JSObject, __resOwner_959.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "evaluate", JSObject, __argsArray_1003.JSObject, __resOwner_1004.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XPathResult, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_959.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XPathResult, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_1004.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.XPathResult Evaluate(global::Iskra.StdWeb.Node contextNode, ushort type, global::Iskra.StdWeb.XPathResult? result)
     {
         int ___argsArrayLength_0 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_955 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1000 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = contextNode.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_955.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1000.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         double ___marshalledValue_2;
         ___marshalledValue_2 = Convert.ToDouble(type);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_955.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1000.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_3;
@@ -76,14 +76,14 @@ public partial class XPathExpression(global::System.Runtime.InteropServices.Java
             global::Iskra.StdWeb.XPathResult ___notNullable_4 = (global::Iskra.StdWeb.XPathResult)result;
             ___marshalledValue_3 = ___notNullable_4.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_955.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_1000.JSObject, 2, ___marshalledValue_3);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_956 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1001 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "evaluate", JSObject, __argsArray_955.JSObject, __resOwner_956.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "evaluate", JSObject, __argsArray_1000.JSObject, __resOwner_1001.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XPathResult, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_956.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XPathResult, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_1001.JSObject, "value");
     }
 }
 

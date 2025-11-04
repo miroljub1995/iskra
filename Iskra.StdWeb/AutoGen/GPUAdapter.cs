@@ -23,8 +23,6 @@ public partial class GPUAdapter(global::System.Runtime.InteropServices.JavaScrip
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUDevice, global::Iskra.StdWeb.PropertyAccessor> RequestDevice()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestDevice", JSObject, __resOwner_13.JSObject);

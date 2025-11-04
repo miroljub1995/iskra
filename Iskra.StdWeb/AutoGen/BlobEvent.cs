@@ -6,6 +6,26 @@ namespace Iskra.StdWeb;
 
 public partial class BlobEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Event(obj)
 {
+    public static global::Iskra.StdWeb.BlobEvent New(string type, global::Iskra.StdWeb.BlobEventInit eventInitDict)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_27 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_27.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = eventInitDict.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_27.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_29 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BlobEvent", __argsArray_27.JSObject);
+        return new global::Iskra.StdWeb.BlobEvent(__res_29);
+    }
+
     public global::Iskra.StdWeb.Blob Data
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");

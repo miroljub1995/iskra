@@ -6,73 +6,91 @@ namespace Iskra.StdWeb;
 
 public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.DOMMatrixReadOnly New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_137 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly");
+        return new global::Iskra.StdWeb.DOMMatrixReadOnly(__res_137);
+    }
+
+    public static global::Iskra.StdWeb.DOMMatrixReadOnly New(global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> init)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_132 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = init.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_132.JSObject, 0, ___propObject_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_134 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly", __argsArray_132.JSObject);
+        return new global::Iskra.StdWeb.DOMMatrixReadOnly(__res_134);
+    }
+
     public static global::Iskra.StdWeb.DOMMatrixReadOnly FromMatrix()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_142 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_61 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), "fromMatrix", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), __resOwner_61.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), "fromMatrix", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), __resOwner_142.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrixReadOnly, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_61.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrixReadOnly, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_142.JSObject, "value");
     }
 
     public static global::Iskra.StdWeb.DOMMatrixReadOnly FromMatrix(global::Iskra.StdWeb.DOMMatrixInit other)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_57 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_138 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = other.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_57.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_138.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_58 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_139 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), "fromMatrix", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), __argsArray_57.JSObject, __resOwner_58.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), "fromMatrix", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), __argsArray_138.JSObject, __resOwner_139.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrixReadOnly, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_58.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrixReadOnly, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_139.JSObject, "value");
     }
 
     public static global::Iskra.StdWeb.DOMMatrixReadOnly FromFloat32Array(global::Iskra.JSCore.Float32Array array32)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_63 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_144 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = array32.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_63.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_144.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_64 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_145 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), "fromFloat32Array", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), __argsArray_63.JSObject, __resOwner_64.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), "fromFloat32Array", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), __argsArray_144.JSObject, __resOwner_145.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrixReadOnly, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_64.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrixReadOnly, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_145.JSObject, "value");
     }
 
     public static global::Iskra.StdWeb.DOMMatrixReadOnly FromFloat64Array(global::Iskra.JSCore.Float64Array array64)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_66 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_147 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = array64.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_66.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_147.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_67 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_148 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), "fromFloat64Array", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), __argsArray_66.JSObject, __resOwner_67.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), "fromFloat64Array", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrixReadOnly"), __argsArray_147.JSObject, __resOwner_148.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrixReadOnly, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_67.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrixReadOnly, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_148.JSObject, "value");
     }
 
     public double A
@@ -197,614 +215,15 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
 
     public global::Iskra.StdWeb.DOMMatrix Translate()
     {
-
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_79 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "translate", JSObject, __resOwner_79.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_79.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Translate(double tx)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_75 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = tx;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_75.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_76 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "translate", JSObject, __argsArray_75.JSObject, __resOwner_76.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_76.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Translate(double tx, double ty)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_72 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = tx;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_72.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = ty;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_72.JSObject, 1, ___marshalledValue_2);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_73 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "translate", JSObject, __argsArray_72.JSObject, __resOwner_73.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_73.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Translate(double tx, double ty, double tz)
-    {
-        int ___argsArrayLength_0 = 3;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_69 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = tx;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_69.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = ty;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_69.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = tz;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_69.JSObject, 2, ___marshalledValue_3);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_70 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "translate", JSObject, __argsArray_69.JSObject, __resOwner_70.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_70.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale()
-    {
-
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_100 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __resOwner_100.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_100.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_96 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scaleX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_96.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_97 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_96.JSObject, __resOwner_97.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_97.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX, double scaleY)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_93 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scaleX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_93.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = scaleY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_93.JSObject, 1, ___marshalledValue_2);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_94 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_93.JSObject, __resOwner_94.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_94.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX, double scaleY, double scaleZ)
-    {
-        int ___argsArrayLength_0 = 3;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_90 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scaleX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_90.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = scaleY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_90.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = scaleZ;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_90.JSObject, 2, ___marshalledValue_3);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_91 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_90.JSObject, __resOwner_91.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_91.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX, double scaleY, double scaleZ, double originX)
-    {
-        int ___argsArrayLength_0 = 4;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_87 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scaleX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_87.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = scaleY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_87.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = scaleZ;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_87.JSObject, 2, ___marshalledValue_3);
-
-        // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = originX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_87.JSObject, 3, ___marshalledValue_4);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_88 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_87.JSObject, __resOwner_88.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_88.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX, double scaleY, double scaleZ, double originX, double originY)
-    {
-        int ___argsArrayLength_0 = 5;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_84 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scaleX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_84.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = scaleY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_84.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = scaleZ;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_84.JSObject, 2, ___marshalledValue_3);
-
-        // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = originX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_84.JSObject, 3, ___marshalledValue_4);
-
-        // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = originY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_84.JSObject, 4, ___marshalledValue_5);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_85 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_84.JSObject, __resOwner_85.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_85.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX, double scaleY, double scaleZ, double originX, double originY, double originZ)
-    {
-        int ___argsArrayLength_0 = 6;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_81 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scaleX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_81.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = scaleY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_81.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = scaleZ;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_81.JSObject, 2, ___marshalledValue_3);
-
-        // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = originX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_81.JSObject, 3, ___marshalledValue_4);
-
-        // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = originY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_81.JSObject, 4, ___marshalledValue_5);
-
-        // Argument 6
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = originZ;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_81.JSObject, 5, ___marshalledValue_6);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_82 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_81.JSObject, __resOwner_82.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_82.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix ScaleNonUniform()
-    {
-
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_109 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "scaleNonUniform", JSObject, __resOwner_109.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_109.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix ScaleNonUniform(double scaleX)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_105 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scaleX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_105.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_106 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scaleNonUniform", JSObject, __argsArray_105.JSObject, __resOwner_106.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_106.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix ScaleNonUniform(double scaleX, double scaleY)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_102 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scaleX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_102.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = scaleY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_102.JSObject, 1, ___marshalledValue_2);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_103 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scaleNonUniform", JSObject, __argsArray_102.JSObject, __resOwner_103.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_103.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale3d()
-    {
-
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_124 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "scale3d", JSObject, __resOwner_124.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_124.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale3d(double scale)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_120 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scale;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_120.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_121 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale3d", JSObject, __argsArray_120.JSObject, __resOwner_121.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_121.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale3d(double scale, double originX)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_117 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scale;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_117.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = originX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_117.JSObject, 1, ___marshalledValue_2);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_118 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale3d", JSObject, __argsArray_117.JSObject, __resOwner_118.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_118.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale3d(double scale, double originX, double originY)
-    {
-        int ___argsArrayLength_0 = 3;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_114 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scale;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_114.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = originX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_114.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = originY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_114.JSObject, 2, ___marshalledValue_3);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_115 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale3d", JSObject, __argsArray_114.JSObject, __resOwner_115.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_115.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Scale3d(double scale, double originX, double originY, double originZ)
-    {
-        int ___argsArrayLength_0 = 4;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_111 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = scale;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_111.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = originX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_111.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = originY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_111.JSObject, 2, ___marshalledValue_3);
-
-        // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = originZ;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_111.JSObject, 3, ___marshalledValue_4);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_112 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale3d", JSObject, __argsArray_111.JSObject, __resOwner_112.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_112.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Rotate()
-    {
-
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_136 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "rotate", JSObject, __resOwner_136.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_136.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Rotate(double rotX)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_132 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = rotX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_132.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_133 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotate", JSObject, __argsArray_132.JSObject, __resOwner_133.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_133.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Rotate(double rotX, double rotY)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_129 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = rotX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_129.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = rotY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_129.JSObject, 1, ___marshalledValue_2);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_130 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotate", JSObject, __argsArray_129.JSObject, __resOwner_130.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_130.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix Rotate(double rotX, double rotY, double rotZ)
-    {
-        int ___argsArrayLength_0 = 3;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_126 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = rotX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_126.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = rotY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_126.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = rotZ;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_126.JSObject, 2, ___marshalledValue_3);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_127 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotate", JSObject, __argsArray_126.JSObject, __resOwner_127.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_127.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix RotateFromVector()
-    {
-
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_145 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "rotateFromVector", JSObject, __resOwner_145.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_145.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix RotateFromVector(double x)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_141 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_141.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_142 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateFromVector", JSObject, __argsArray_141.JSObject, __resOwner_142.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_142.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix RotateFromVector(double x, double y)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_138 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_138.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_138.JSObject, 1, ___marshalledValue_2);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_139 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateFromVector", JSObject, __argsArray_138.JSObject, __resOwner_139.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_139.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.DOMMatrix RotateAxisAngle()
-    {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_160 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "rotateAxisAngle", JSObject, __resOwner_160.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "translate", JSObject, __resOwner_160.JSObject);
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_160.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.DOMMatrix RotateAxisAngle(double x)
+    public global::Iskra.StdWeb.DOMMatrix Translate(double tx)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -812,18 +231,18 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
 
         // Argument 1
         double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
+        ___marshalledValue_1 = tx;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_156.JSObject, 0, ___marshalledValue_1);
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_157 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateAxisAngle", JSObject, __argsArray_156.JSObject, __resOwner_157.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "translate", JSObject, __argsArray_156.JSObject, __resOwner_157.JSObject);
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_157.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.DOMMatrix RotateAxisAngle(double x, double y)
+    public global::Iskra.StdWeb.DOMMatrix Translate(double tx, double ty)
     {
         int ___argsArrayLength_0 = 2;
 
@@ -831,23 +250,23 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
 
         // Argument 1
         double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
+        ___marshalledValue_1 = tx;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_153.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
+        ___marshalledValue_2 = ty;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_153.JSObject, 1, ___marshalledValue_2);
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_154 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateAxisAngle", JSObject, __argsArray_153.JSObject, __resOwner_154.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "translate", JSObject, __argsArray_153.JSObject, __resOwner_154.JSObject);
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_154.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.DOMMatrix RotateAxisAngle(double x, double y, double z)
+    public global::Iskra.StdWeb.DOMMatrix Translate(double tx, double ty, double tz)
     {
         int ___argsArrayLength_0 = 3;
 
@@ -855,264 +274,827 @@ public partial class DOMMatrixReadOnly(global::System.Runtime.InteropServices.Ja
 
         // Argument 1
         double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
+        ___marshalledValue_1 = tx;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_150.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
+        ___marshalledValue_2 = ty;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_150.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         double ___marshalledValue_3;
-        ___marshalledValue_3 = z;
+        ___marshalledValue_3 = tz;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_150.JSObject, 2, ___marshalledValue_3);
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_151 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateAxisAngle", JSObject, __argsArray_150.JSObject, __resOwner_151.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "translate", JSObject, __argsArray_150.JSObject, __resOwner_151.JSObject);
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_151.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale()
+    {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_181 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __resOwner_181.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_181.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_177 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scaleX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_177.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_178 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_177.JSObject, __resOwner_178.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_178.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX, double scaleY)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_174 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scaleX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_174.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = scaleY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_174.JSObject, 1, ___marshalledValue_2);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_175 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_174.JSObject, __resOwner_175.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_175.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX, double scaleY, double scaleZ)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_171 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scaleX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_171.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = scaleY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_171.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = scaleZ;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_171.JSObject, 2, ___marshalledValue_3);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_172 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_171.JSObject, __resOwner_172.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_172.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX, double scaleY, double scaleZ, double originX)
+    {
+        int ___argsArrayLength_0 = 4;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_168 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scaleX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_168.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = scaleY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_168.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = scaleZ;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_168.JSObject, 2, ___marshalledValue_3);
+
+        // Argument 4
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = originX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_168.JSObject, 3, ___marshalledValue_4);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_169 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_168.JSObject, __resOwner_169.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_169.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX, double scaleY, double scaleZ, double originX, double originY)
+    {
+        int ___argsArrayLength_0 = 5;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_165 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scaleX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_165.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = scaleY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_165.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = scaleZ;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_165.JSObject, 2, ___marshalledValue_3);
+
+        // Argument 4
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = originX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_165.JSObject, 3, ___marshalledValue_4);
+
+        // Argument 5
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = originY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_165.JSObject, 4, ___marshalledValue_5);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_166 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_165.JSObject, __resOwner_166.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_166.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale(double scaleX, double scaleY, double scaleZ, double originX, double originY, double originZ)
+    {
+        int ___argsArrayLength_0 = 6;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_162 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scaleX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_162.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = scaleY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_162.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = scaleZ;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_162.JSObject, 2, ___marshalledValue_3);
+
+        // Argument 4
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = originX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_162.JSObject, 3, ___marshalledValue_4);
+
+        // Argument 5
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = originY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_162.JSObject, 4, ___marshalledValue_5);
+
+        // Argument 6
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = originZ;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_162.JSObject, 5, ___marshalledValue_6);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_163 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_162.JSObject, __resOwner_163.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_163.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix ScaleNonUniform()
+    {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_190 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "scaleNonUniform", JSObject, __resOwner_190.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_190.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix ScaleNonUniform(double scaleX)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_186 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scaleX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_186.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_187 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scaleNonUniform", JSObject, __argsArray_186.JSObject, __resOwner_187.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_187.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix ScaleNonUniform(double scaleX, double scaleY)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_183 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scaleX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_183.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = scaleY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_183.JSObject, 1, ___marshalledValue_2);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_184 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scaleNonUniform", JSObject, __argsArray_183.JSObject, __resOwner_184.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_184.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale3d()
+    {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_205 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "scale3d", JSObject, __resOwner_205.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_205.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale3d(double scale)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_201 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scale;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_201.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_202 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale3d", JSObject, __argsArray_201.JSObject, __resOwner_202.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_202.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale3d(double scale, double originX)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_198 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scale;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_198.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = originX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_198.JSObject, 1, ___marshalledValue_2);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_199 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale3d", JSObject, __argsArray_198.JSObject, __resOwner_199.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_199.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale3d(double scale, double originX, double originY)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_195 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scale;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_195.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = originX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_195.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = originY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_195.JSObject, 2, ___marshalledValue_3);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_196 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale3d", JSObject, __argsArray_195.JSObject, __resOwner_196.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_196.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Scale3d(double scale, double originX, double originY, double originZ)
+    {
+        int ___argsArrayLength_0 = 4;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_192 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = scale;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_192.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = originX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_192.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = originY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_192.JSObject, 2, ___marshalledValue_3);
+
+        // Argument 4
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = originZ;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_192.JSObject, 3, ___marshalledValue_4);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_193 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "scale3d", JSObject, __argsArray_192.JSObject, __resOwner_193.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_193.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Rotate()
+    {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_217 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "rotate", JSObject, __resOwner_217.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_217.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Rotate(double rotX)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_213 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = rotX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_213.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_214 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotate", JSObject, __argsArray_213.JSObject, __resOwner_214.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_214.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Rotate(double rotX, double rotY)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_210 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = rotX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_210.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = rotY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_210.JSObject, 1, ___marshalledValue_2);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_211 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotate", JSObject, __argsArray_210.JSObject, __resOwner_211.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_211.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix Rotate(double rotX, double rotY, double rotZ)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_207 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = rotX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_207.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = rotY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_207.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = rotZ;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_207.JSObject, 2, ___marshalledValue_3);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_208 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotate", JSObject, __argsArray_207.JSObject, __resOwner_208.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_208.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix RotateFromVector()
+    {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_226 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "rotateFromVector", JSObject, __resOwner_226.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_226.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix RotateFromVector(double x)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_222 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_222.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_223 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateFromVector", JSObject, __argsArray_222.JSObject, __resOwner_223.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_223.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix RotateFromVector(double x, double y)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_219 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_219.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_219.JSObject, 1, ___marshalledValue_2);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_220 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateFromVector", JSObject, __argsArray_219.JSObject, __resOwner_220.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_220.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix RotateAxisAngle()
+    {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_241 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "rotateAxisAngle", JSObject, __resOwner_241.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_241.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix RotateAxisAngle(double x)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_237 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_237.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_238 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateAxisAngle", JSObject, __argsArray_237.JSObject, __resOwner_238.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_238.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix RotateAxisAngle(double x, double y)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_234 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_234.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_234.JSObject, 1, ___marshalledValue_2);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_235 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateAxisAngle", JSObject, __argsArray_234.JSObject, __resOwner_235.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_235.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.DOMMatrix RotateAxisAngle(double x, double y, double z)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_231 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_231.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_231.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = z;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_231.JSObject, 2, ___marshalledValue_3);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_232 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateAxisAngle", JSObject, __argsArray_231.JSObject, __resOwner_232.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_232.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMMatrix RotateAxisAngle(double x, double y, double z, double angle)
     {
         int ___argsArrayLength_0 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_147 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_228 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_147.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_228.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         double ___marshalledValue_2;
         ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_147.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_228.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         double ___marshalledValue_3;
         ___marshalledValue_3 = z;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_147.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_228.JSObject, 2, ___marshalledValue_3);
 
         // Argument 4
         double ___marshalledValue_4;
         ___marshalledValue_4 = angle;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_147.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_228.JSObject, 3, ___marshalledValue_4);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_148 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_229 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateAxisAngle", JSObject, __argsArray_147.JSObject, __resOwner_148.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "rotateAxisAngle", JSObject, __argsArray_228.JSObject, __resOwner_229.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_148.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_229.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMMatrix SkewX()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_247 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_166 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "skewX", JSObject, __resOwner_166.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "skewX", JSObject, __resOwner_247.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_166.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_247.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMMatrix SkewX(double sx)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_162 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_243 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = sx;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_162.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_243.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_163 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_244 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "skewX", JSObject, __argsArray_162.JSObject, __resOwner_163.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "skewX", JSObject, __argsArray_243.JSObject, __resOwner_244.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_163.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_244.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMMatrix SkewY()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_253 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_172 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "skewY", JSObject, __resOwner_172.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "skewY", JSObject, __resOwner_253.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_172.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_253.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMMatrix SkewY(double sy)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_168 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_249 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = sy;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_168.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_249.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_169 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_250 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "skewY", JSObject, __argsArray_168.JSObject, __resOwner_169.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "skewY", JSObject, __argsArray_249.JSObject, __resOwner_250.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_169.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_250.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMMatrix Multiply()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_259 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_178 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "multiply", JSObject, __resOwner_178.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "multiply", JSObject, __resOwner_259.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_178.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_259.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMMatrix Multiply(global::Iskra.StdWeb.DOMMatrixInit other)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_174 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_255 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = other.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_174.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_255.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_175 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_256 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "multiply", JSObject, __argsArray_174.JSObject, __resOwner_175.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "multiply", JSObject, __argsArray_255.JSObject, __resOwner_256.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_175.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_256.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMMatrix FlipX()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_262 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_181 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "flipX", JSObject, __resOwner_181.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "flipX", JSObject, __resOwner_262.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_181.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_262.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMMatrix FlipY()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_265 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_184 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "flipY", JSObject, __resOwner_184.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "flipY", JSObject, __resOwner_265.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_184.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_265.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMMatrix Inverse()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_268 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_187 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "inverse", JSObject, __resOwner_187.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "inverse", JSObject, __resOwner_268.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_187.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_268.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMPoint TransformPoint()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_274 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_193 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "transformPoint", JSObject, __resOwner_193.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "transformPoint", JSObject, __resOwner_274.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_193.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_274.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.DOMPoint TransformPoint(global::Iskra.StdWeb.DOMPointInit point)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_189 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_270 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = point.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_189.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_270.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_190 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_271 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "transformPoint", JSObject, __argsArray_189.JSObject, __resOwner_190.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "transformPoint", JSObject, __argsArray_270.JSObject, __resOwner_271.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_190.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_271.JSObject, "value");
     }
 
     public global::Iskra.JSCore.Float32Array ToFloat32Array()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_277 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_196 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toFloat32Array", JSObject, __resOwner_196.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toFloat32Array", JSObject, __resOwner_277.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_196.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_277.JSObject, "value");
     }
 
     public global::Iskra.JSCore.Float64Array ToFloat64Array()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_280 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_199 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toFloat64Array", JSObject, __resOwner_199.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toFloat64Array", JSObject, __resOwner_280.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float64Array, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_199.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Float64Array, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_280.JSObject, "value");
     }
 
     public void _()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_283 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_202 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __resOwner_202.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __resOwner_283.JSObject);
     }
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_286 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_205 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_205.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_286.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_205.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_286.JSObject, "value");
     }
 }
 

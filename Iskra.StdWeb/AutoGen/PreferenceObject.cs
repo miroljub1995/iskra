@@ -23,8 +23,6 @@ public partial class PreferenceObject(global::System.Runtime.InteropServices.Jav
 
     public void ClearOverride()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "clearOverride", JSObject);
     }
 

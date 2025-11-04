@@ -33,8 +33,6 @@ public partial class FileSystemEntry(global::System.Runtime.InteropServices.Java
 
     public void GetParent()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "getParent", JSObject);
     }
 

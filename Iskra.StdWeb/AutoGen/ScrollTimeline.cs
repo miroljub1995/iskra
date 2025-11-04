@@ -6,6 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class ScrollTimeline(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AnimationTimeline(obj)
 {
+    public static global::Iskra.StdWeb.ScrollTimeline New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ScrollTimeline");
+        return new global::Iskra.StdWeb.ScrollTimeline(__res_5);
+    }
+
+    public static global::Iskra.StdWeb.ScrollTimeline New(global::Iskra.StdWeb.ScrollTimelineOptions options)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ScrollTimeline", __argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.ScrollTimeline(__res_2);
+    }
+
     public global::Iskra.StdWeb.Element? Source
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "source");

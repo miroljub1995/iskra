@@ -13,8 +13,6 @@ public partial class WritableStreamDefaultController(global::System.Runtime.Inte
 
     public void Error()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "error", JSObject);
     }
 
@@ -22,7 +20,7 @@ public partial class WritableStreamDefaultController(global::System.Runtime.Inte
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_217 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_244 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
@@ -35,9 +33,9 @@ public partial class WritableStreamDefaultController(global::System.Runtime.Inte
             ___propObject_1 = e.JSObject;
         }
 
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_217.JSObject, 0, ___propObject_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_244.JSObject, 0, ___propObject_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "error", JSObject, __argsArray_217.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "error", JSObject, __argsArray_244.JSObject);
     }
 }
 

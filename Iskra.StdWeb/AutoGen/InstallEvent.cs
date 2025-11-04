@@ -6,22 +6,57 @@ namespace Iskra.StdWeb;
 
 public partial class InstallEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.ExtendableEvent(obj)
 {
+    public static global::Iskra.StdWeb.InstallEvent New(string type)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_102 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_102.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_104 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "InstallEvent", __argsArray_102.JSObject);
+        return new global::Iskra.StdWeb.InstallEvent(__res_104);
+    }
+
+    public static global::Iskra.StdWeb.InstallEvent New(string type, global::Iskra.StdWeb.ExtendableEventInit eventInitDict)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_99 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_99.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = eventInitDict.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_99.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_101 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "InstallEvent", __argsArray_99.JSObject);
+        return new global::Iskra.StdWeb.InstallEvent(__res_101);
+    }
+
     public global::Iskra.JSCore.Promise AddRoutes(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RouterRule, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.RouterRule, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> rules)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_93 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_105 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = rules.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_93.JSObject, 0, ___propObject_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_105.JSObject, 0, ___propObject_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_94 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_106 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "addRoutes", JSObject, __argsArray_93.JSObject, __resOwner_94.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "addRoutes", JSObject, __argsArray_105.JSObject, __resOwner_106.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_94.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_106.JSObject, "value");
     }
 }
 

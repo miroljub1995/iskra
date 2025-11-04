@@ -10,131 +10,24 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_161 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_179 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = destinationNode.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_161.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_179.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_162 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_180 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "connect", JSObject, __argsArray_161.JSObject, __resOwner_162.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "connect", JSObject, __argsArray_179.JSObject, __resOwner_180.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioNode, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_162.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioNode, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_180.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.AudioNode Connect(global::Iskra.StdWeb.AudioNode destinationNode, uint output)
     {
         int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_158 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = destinationNode.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_158.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(output);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_158.JSObject, 1, ___marshalledValue_2);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_159 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "connect", JSObject, __argsArray_158.JSObject, __resOwner_159.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioNode, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_159.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.AudioNode Connect(global::Iskra.StdWeb.AudioNode destinationNode, uint output, uint input)
-    {
-        int ___argsArrayLength_0 = 3;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_155 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = destinationNode.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_155.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(output);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_155.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = Convert.ToDouble(input);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_155.JSObject, 2, ___marshalledValue_3);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_156 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "connect", JSObject, __argsArray_155.JSObject, __resOwner_156.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioNode, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_156.JSObject, "value");
-    }
-
-    public void Connect(global::Iskra.StdWeb.AudioParam destinationParam)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_167 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = destinationParam.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_167.JSObject, 0, ___marshalledValue_1);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "connect", JSObject, __argsArray_167.JSObject);
-    }
-
-    public void Connect(global::Iskra.StdWeb.AudioParam destinationParam, uint output)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_164 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = destinationParam.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_164.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(output);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_164.JSObject, 1, ___marshalledValue_2);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "connect", JSObject, __argsArray_164.JSObject);
-    }
-
-    public void Disconnect()
-    {
-
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject);
-    }
-
-    public void Disconnect(uint output)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_173 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = Convert.ToDouble(output);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_173.JSObject, 0, ___marshalledValue_1);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_173.JSObject);
-    }
-
-    public void Disconnect(global::Iskra.StdWeb.AudioNode destinationNode)
-    {
-        int ___argsArrayLength_0 = 1;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_176 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
@@ -143,53 +36,49 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
         ___marshalledValue_1 = destinationNode.JSObject;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_176.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_176.JSObject);
-    }
-
-    public void Disconnect(global::Iskra.StdWeb.AudioNode destinationNode, uint output)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_179 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = destinationNode.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_179.JSObject, 0, ___marshalledValue_1);
-
         // Argument 2
         double ___marshalledValue_2;
         ___marshalledValue_2 = Convert.ToDouble(output);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_179.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_176.JSObject, 1, ___marshalledValue_2);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_179.JSObject);
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_177 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "connect", JSObject, __argsArray_176.JSObject, __resOwner_177.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioNode, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_177.JSObject, "value");
     }
 
-    public void Disconnect(global::Iskra.StdWeb.AudioNode destinationNode, uint output, uint input)
+    public global::Iskra.StdWeb.AudioNode Connect(global::Iskra.StdWeb.AudioNode destinationNode, uint output, uint input)
     {
         int ___argsArrayLength_0 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_182 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_173 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = destinationNode.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_182.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_173.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         double ___marshalledValue_2;
         ___marshalledValue_2 = Convert.ToDouble(output);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_182.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_173.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         double ___marshalledValue_3;
         ___marshalledValue_3 = Convert.ToDouble(input);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_182.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_173.JSObject, 2, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_182.JSObject);
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_174 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "connect", JSObject, __argsArray_173.JSObject, __resOwner_174.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioNode, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_174.JSObject, "value");
     }
 
-    public void Disconnect(global::Iskra.StdWeb.AudioParam destinationParam)
+    public void Connect(global::Iskra.StdWeb.AudioParam destinationParam)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -200,26 +89,135 @@ public partial class AudioNode(global::System.Runtime.InteropServices.JavaScript
         ___marshalledValue_1 = destinationParam.JSObject;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_185.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_185.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "connect", JSObject, __argsArray_185.JSObject);
+    }
+
+    public void Connect(global::Iskra.StdWeb.AudioParam destinationParam, uint output)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_182 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = destinationParam.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_182.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(output);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_182.JSObject, 1, ___marshalledValue_2);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "connect", JSObject, __argsArray_182.JSObject);
+    }
+
+    public void Disconnect()
+    {
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject);
+    }
+
+    public void Disconnect(uint output)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_191 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = Convert.ToDouble(output);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_191.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_191.JSObject);
+    }
+
+    public void Disconnect(global::Iskra.StdWeb.AudioNode destinationNode)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_194 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = destinationNode.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_194.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_194.JSObject);
+    }
+
+    public void Disconnect(global::Iskra.StdWeb.AudioNode destinationNode, uint output)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_197 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = destinationNode.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_197.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(output);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_197.JSObject, 1, ___marshalledValue_2);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_197.JSObject);
+    }
+
+    public void Disconnect(global::Iskra.StdWeb.AudioNode destinationNode, uint output, uint input)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_200 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = destinationNode.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_200.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(output);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_200.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = Convert.ToDouble(input);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_200.JSObject, 2, ___marshalledValue_3);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_200.JSObject);
+    }
+
+    public void Disconnect(global::Iskra.StdWeb.AudioParam destinationParam)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_203 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = destinationParam.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_203.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_203.JSObject);
     }
 
     public void Disconnect(global::Iskra.StdWeb.AudioParam destinationParam, uint output)
     {
         int ___argsArrayLength_0 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_188 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_206 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = destinationParam.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_188.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_206.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         double ___marshalledValue_2;
         ___marshalledValue_2 = Convert.ToDouble(output);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_188.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_206.JSObject, 1, ___marshalledValue_2);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_188.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "disconnect", JSObject, __argsArray_206.JSObject);
     }
 
     public global::Iskra.StdWeb.BaseAudioContext Context

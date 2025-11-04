@@ -6,6 +6,41 @@ namespace Iskra.StdWeb;
 
 public partial class MediaStreamAudioDestinationNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AudioNode(obj)
 {
+    public static global::Iskra.StdWeb.MediaStreamAudioDestinationNode New(global::Iskra.StdWeb.AudioContext context)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_350 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = context.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_350.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_352 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaStreamAudioDestinationNode", __argsArray_350.JSObject);
+        return new global::Iskra.StdWeb.MediaStreamAudioDestinationNode(__res_352);
+    }
+
+    public static global::Iskra.StdWeb.MediaStreamAudioDestinationNode New(global::Iskra.StdWeb.AudioContext context, global::Iskra.StdWeb.AudioNodeOptions options)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_347 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = context.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_347.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_347.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_349 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaStreamAudioDestinationNode", __argsArray_347.JSObject);
+        return new global::Iskra.StdWeb.MediaStreamAudioDestinationNode(__res_349);
+    }
+
     public global::Iskra.StdWeb.MediaStream Stream
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stream");

@@ -6,6 +6,24 @@ namespace Iskra.StdWeb;
 
 public partial class CSSMathMin(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSMathValue(obj)
 {
+    public static global::Iskra.StdWeb.CSSMathMin New(params global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union>[] args)
+    {
+        int ___argsArrayLength_0 = args.Length + 0;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_96 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        for (int ___i_1 = 0; ___i_1 < args.Length; ___i_1++)
+        {
+        global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.GenericMarshaller.Union> ___elem_2 = args[___i_1];
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = ___elem_2.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_96.JSObject, 0 + ___i_1, ___propObject_3);
+        }
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_98 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSMathMin", __argsArray_96.JSObject);
+        return new global::Iskra.StdWeb.CSSMathMin(__res_98);
+    }
+
     public global::Iskra.StdWeb.CSSNumericArray Values
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSNumericArray, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "values");

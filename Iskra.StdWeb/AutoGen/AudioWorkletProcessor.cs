@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorkletProcessor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.AudioWorkletProcessor New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_423 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioWorkletProcessor");
+        return new global::Iskra.StdWeb.AudioWorkletProcessor(__res_423);
+    }
+
     public global::Iskra.StdWeb.MessagePort Port
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "port");

@@ -6,6 +6,21 @@ namespace Iskra.StdWeb;
 
 public partial class CSSSkewY(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSTransformComponent(obj)
 {
+    public static global::Iskra.StdWeb.CSSSkewY New(global::Iskra.StdWeb.CSSNumericValue ay)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_150 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = ay.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_150.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_152 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSSkewY", __argsArray_150.JSObject);
+        return new global::Iskra.StdWeb.CSSSkewY(__res_152);
+    }
+
     public global::Iskra.StdWeb.CSSNumericValue Ay
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ay");

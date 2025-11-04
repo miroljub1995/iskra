@@ -13,8 +13,6 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Persist()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "persist", JSObject, __resOwner_13.JSObject);
@@ -25,8 +23,6 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Persisted()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "persisted", JSObject, __resOwner_16.JSObject);
@@ -37,8 +33,6 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.StorageEstimate, global::Iskra.StdWeb.PropertyAccessor> Estimate()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "estimate", JSObject, __resOwner_19.JSObject);
@@ -68,8 +62,6 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.JSCore.Generics.Promise<double?, global::Iskra.StdWeb.PropertyAccessorNullable> Expires()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_25 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "expires", JSObject, __resOwner_25.JSObject);
@@ -90,8 +82,6 @@ public partial class StorageBucket(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemDirectoryHandle, global::Iskra.StdWeb.PropertyAccessor> GetDirectory()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_28 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getDirectory", JSObject, __resOwner_28.JSObject);

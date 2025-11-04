@@ -8,8 +8,6 @@ public partial class WakeLock(global::System.Runtime.InteropServices.JavaScript.
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WakeLockSentinel, global::Iskra.StdWeb.PropertyAccessor> Request()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "request", JSObject, __resOwner_4.JSObject);

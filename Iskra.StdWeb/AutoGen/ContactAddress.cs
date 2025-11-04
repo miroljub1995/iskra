@@ -8,8 +8,6 @@ public partial class ContactAddress(global::System.Runtime.InteropServices.JavaS
 {
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_1.JSObject);

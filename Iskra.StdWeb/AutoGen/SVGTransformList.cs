@@ -18,8 +18,6 @@ public partial class SVGTransformList(global::System.Runtime.InteropServices.Jav
 
     public void Clear()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "clear", JSObject);
     }
 
@@ -27,65 +25,41 @@ public partial class SVGTransformList(global::System.Runtime.InteropServices.Jav
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_219 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_222 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = newItem.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_219.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_222.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_220 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_223 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "initialize", JSObject, __argsArray_219.JSObject, __resOwner_220.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "initialize", JSObject, __argsArray_222.JSObject, __resOwner_223.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_220.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_223.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.SVGTransform GetItem(uint index)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_222 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_225 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = Convert.ToDouble(index);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_222.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_223 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getItem", JSObject, __argsArray_222.JSObject, __resOwner_223.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_223.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.SVGTransform InsertItemBefore(global::Iskra.StdWeb.SVGTransform newItem, uint index)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_225 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = newItem.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_225.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(index);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_225.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_225.JSObject, 0, ___marshalledValue_1);
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_226 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "insertItemBefore", JSObject, __argsArray_225.JSObject, __resOwner_226.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getItem", JSObject, __argsArray_225.JSObject, __resOwner_226.JSObject);
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_226.JSObject, "value");
     }
 
-    public global::Iskra.StdWeb.SVGTransform ReplaceItem(global::Iskra.StdWeb.SVGTransform newItem, uint index)
+    public global::Iskra.StdWeb.SVGTransform InsertItemBefore(global::Iskra.StdWeb.SVGTransform newItem, uint index)
     {
         int ___argsArrayLength_0 = 2;
 
@@ -103,110 +77,130 @@ public partial class SVGTransformList(global::System.Runtime.InteropServices.Jav
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_229 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "replaceItem", JSObject, __argsArray_228.JSObject, __resOwner_229.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "insertItemBefore", JSObject, __argsArray_228.JSObject, __resOwner_229.JSObject);
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_229.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.SVGTransform ReplaceItem(global::Iskra.StdWeb.SVGTransform newItem, uint index)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_231 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = newItem.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_231.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(index);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_231.JSObject, 1, ___marshalledValue_2);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_232 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "replaceItem", JSObject, __argsArray_231.JSObject, __resOwner_232.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_232.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.SVGTransform RemoveItem(uint index)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_231 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_234 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = Convert.ToDouble(index);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_231.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_234.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_232 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_235 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "removeItem", JSObject, __argsArray_231.JSObject, __resOwner_232.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "removeItem", JSObject, __argsArray_234.JSObject, __resOwner_235.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_232.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_235.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.SVGTransform AppendItem(global::Iskra.StdWeb.SVGTransform newItem)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_234 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_237 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = newItem.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_234.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_237.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_235 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_238 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "appendItem", JSObject, __argsArray_234.JSObject, __resOwner_235.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "appendItem", JSObject, __argsArray_237.JSObject, __resOwner_238.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_235.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_238.JSObject, "value");
     }
 
     public void Set(uint index, global::Iskra.StdWeb.SVGTransform newItem)
     {
         int ___argsArrayLength_0 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_237 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_240 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = Convert.ToDouble(index);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_237.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_240.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
         ___marshalledValue_2 = newItem.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_237.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_240.JSObject, 1, ___marshalledValue_2);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "", JSObject, __argsArray_237.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "", JSObject, __argsArray_240.JSObject);
     }
 
     public global::Iskra.StdWeb.SVGTransform CreateSVGTransformFromMatrix()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_247 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_244 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGTransformFromMatrix", JSObject, __resOwner_244.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGTransformFromMatrix", JSObject, __resOwner_247.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_244.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_247.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.SVGTransform CreateSVGTransformFromMatrix(global::Iskra.StdWeb.DOMMatrix2DInit matrix)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_240 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_243 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = matrix.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_240.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_243.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_241 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_244 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createSVGTransformFromMatrix", JSObject, __argsArray_240.JSObject, __resOwner_241.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createSVGTransformFromMatrix", JSObject, __argsArray_243.JSObject, __resOwner_244.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_241.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_244.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.SVGTransform? Consolidate()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_250 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_247 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "consolidate", JSObject, __resOwner_247.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "consolidate", JSObject, __resOwner_250.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_247.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGTransform?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_250.JSObject, "value");
     }
 }
 

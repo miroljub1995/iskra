@@ -6,6 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class CSSParserBlock(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSParserValue(obj)
 {
+    public static global::Iskra.StdWeb.CSSParserBlock New(string name, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.PropertyAccessor> body)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_27 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = name;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_27.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_2 = body.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_27.JSObject, 1, ___propObject_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_29 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSParserBlock", __argsArray_27.JSObject);
+        return new global::Iskra.StdWeb.CSSParserBlock(__res_29);
+    }
+
     public string Name
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
@@ -18,11 +37,9 @@ public partial class CSSParserBlock(global::System.Runtime.InteropServices.JavaS
 
     public void _()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_31 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __resOwner_10.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __resOwner_31.JSObject);
     }
 }
 

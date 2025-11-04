@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOListElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLOListElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_116 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLOListElement");
+        return new global::Iskra.StdWeb.HTMLOListElement(__res_116);
+    }
+
     public bool Reversed
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reversed");

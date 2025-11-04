@@ -27,8 +27,6 @@ public partial class SyncManager(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetTags()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTags", JSObject, __resOwner_4.JSObject);

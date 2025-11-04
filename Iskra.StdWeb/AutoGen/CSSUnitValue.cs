@@ -6,6 +6,26 @@ namespace Iskra.StdWeb;
 
 public partial class CSSUnitValue(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSNumericValue(obj)
 {
+    public static global::Iskra.StdWeb.CSSUnitValue New(double value, string unit)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_81 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = value;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_81.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        string ___marshalledValue_2;
+        ___marshalledValue_2 = unit;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_81.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_83 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSUnitValue", __argsArray_81.JSObject);
+        return new global::Iskra.StdWeb.CSSUnitValue(__res_83);
+    }
+
     public double Value
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");

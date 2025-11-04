@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDirectoryElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLDirectoryElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2185 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLDirectoryElement");
+        return new global::Iskra.StdWeb.HTMLDirectoryElement(__res_2185);
+    }
+
     public bool Compact
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact");

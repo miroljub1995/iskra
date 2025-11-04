@@ -8,29 +8,21 @@ public partial class PaintRenderingContext2D(global::System.Runtime.InteropServi
 {
     public void Save()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "save", JSObject);
     }
 
     public void Restore()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "restore", JSObject);
     }
 
     public void Reset()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "reset", JSObject);
     }
 
     public bool IsContextLost()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "isContextLost", JSObject, __resOwner_13.JSObject);
@@ -132,8 +124,6 @@ public partial class PaintRenderingContext2D(global::System.Runtime.InteropServi
 
     public global::Iskra.StdWeb.DOMMatrix GetTransform()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_28 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTransform", JSObject, __resOwner_28.JSObject);
@@ -183,8 +173,6 @@ public partial class PaintRenderingContext2D(global::System.Runtime.InteropServi
 
     public void SetTransform()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "setTransform", JSObject);
     }
 
@@ -204,8 +192,6 @@ public partial class PaintRenderingContext2D(global::System.Runtime.InteropServi
 
     public void ResetTransform()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "resetTransform", JSObject);
     }
 
@@ -488,15 +474,11 @@ public partial class PaintRenderingContext2D(global::System.Runtime.InteropServi
 
     public void BeginPath()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "beginPath", JSObject);
     }
 
     public void Fill()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "fill", JSObject);
     }
 
@@ -549,8 +531,6 @@ public partial class PaintRenderingContext2D(global::System.Runtime.InteropServi
 
     public void Stroke()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "stroke", JSObject);
     }
 
@@ -570,8 +550,6 @@ public partial class PaintRenderingContext2D(global::System.Runtime.InteropServi
 
     public void Clip()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "clip", JSObject);
     }
 
@@ -939,8 +917,6 @@ public partial class PaintRenderingContext2D(global::System.Runtime.InteropServi
 
     public global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor> GetLineDash()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_127 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getLineDash", JSObject, __resOwner_127.JSObject);
@@ -957,8 +933,6 @@ public partial class PaintRenderingContext2D(global::System.Runtime.InteropServi
 
     public void ClosePath()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "closePath", JSObject);
     }
 

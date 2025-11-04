@@ -26,7 +26,7 @@ export class TestPromiseProperties {
     // Delayed promise for testing async behavior
     get promisePropertyLongDelayed() {
         return new Promise((resolve) => {
-            setTimeout(() => resolve(99), 1000);
+            setTimeout(() => resolve(99), 200);
         });
     }
 

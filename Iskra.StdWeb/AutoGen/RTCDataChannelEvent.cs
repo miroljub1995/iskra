@@ -6,6 +6,26 @@ namespace Iskra.StdWeb;
 
 public partial class RTCDataChannelEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Event(obj)
 {
+    public static global::Iskra.StdWeb.RTCDataChannelEvent New(string type, global::Iskra.StdWeb.RTCDataChannelEventInit eventInitDict)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_263 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_263.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = eventInitDict.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_263.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_265 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCDataChannelEvent", __argsArray_263.JSObject);
+        return new global::Iskra.StdWeb.RTCDataChannelEvent(__res_265);
+    }
+
     public global::Iskra.StdWeb.RTCDataChannel Channel
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCDataChannel, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "channel");

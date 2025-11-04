@@ -6,6 +6,21 @@ namespace Iskra.StdWeb;
 
 public partial class VideoEncoder(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
+    public static global::Iskra.StdWeb.VideoEncoder New(global::Iskra.StdWeb.VideoEncoderInit init)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_96 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = init.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_96.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_98 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoEncoder", __argsArray_96.JSObject);
+        return new global::Iskra.StdWeb.VideoEncoder(__res_98);
+    }
+
     public global::Iskra.StdWeb.CodecState State
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CodecState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "state");
@@ -26,76 +41,17 @@ public partial class VideoEncoder(global::System.Runtime.InteropServices.JavaScr
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_87 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_99 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = config.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_87.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_99.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "configure", JSObject, __argsArray_87.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "configure", JSObject, __argsArray_99.JSObject);
     }
 
     public void Encode(global::Iskra.StdWeb.VideoFrame frame)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_93 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = frame.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_93.JSObject, 0, ___marshalledValue_1);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "encode", JSObject, __argsArray_93.JSObject);
-    }
-
-    public void Encode(global::Iskra.StdWeb.VideoFrame frame, global::Iskra.StdWeb.VideoEncoderEncodeOptions options)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_90 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = frame.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_90.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
-        ___marshalledValue_2 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_90.JSObject, 1, ___marshalledValue_2);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "encode", JSObject, __argsArray_90.JSObject);
-    }
-
-    public global::Iskra.JSCore.Promise Flush()
-    {
-
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_97 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "flush", JSObject, __resOwner_97.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_97.JSObject, "value");
-    }
-
-    public void Reset()
-    {
-
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "reset", JSObject);
-    }
-
-    public void Close()
-    {
-
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "close", JSObject);
-    }
-
-    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.VideoEncoderSupport, global::Iskra.StdWeb.PropertyAccessor> IsConfigSupported(global::Iskra.StdWeb.VideoEncoderConfig config)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -103,15 +59,68 @@ public partial class VideoEncoder(global::System.Runtime.InteropServices.JavaScr
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = config.JSObject;
+        ___marshalledValue_1 = frame.JSObject;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_105.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_106 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "encode", JSObject, __argsArray_105.JSObject);
+    }
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoEncoder"), "isConfigSupported", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoEncoder"), __argsArray_105.JSObject, __resOwner_106.JSObject);
+    public void Encode(global::Iskra.StdWeb.VideoFrame frame, global::Iskra.StdWeb.VideoEncoderEncodeOptions options)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_102 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = frame.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_102.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_102.JSObject, 1, ___marshalledValue_2);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "encode", JSObject, __argsArray_102.JSObject);
+    }
+
+    public global::Iskra.JSCore.Promise Flush()
+    {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_109 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "flush", JSObject, __resOwner_109.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.VideoEncoderSupport, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_106.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_109.JSObject, "value");
+    }
+
+    public void Reset()
+    {
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "reset", JSObject);
+    }
+
+    public void Close()
+    {
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "close", JSObject);
+    }
+
+    public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.VideoEncoderSupport, global::Iskra.StdWeb.PropertyAccessor> IsConfigSupported(global::Iskra.StdWeb.VideoEncoderConfig config)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_117 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = config.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_117.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_118 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoEncoder"), "isConfigSupported", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoEncoder"), __argsArray_117.JSObject, __resOwner_118.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.VideoEncoderSupport, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_118.JSObject, "value");
     }
 }
 

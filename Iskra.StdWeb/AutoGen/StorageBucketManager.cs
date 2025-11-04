@@ -51,8 +51,6 @@ public partial class StorageBucketManager(global::System.Runtime.InteropServices
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> Keys()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "keys", JSObject, __resOwner_7.JSObject);

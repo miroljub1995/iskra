@@ -95,8 +95,6 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.ArrayBuffer GetMappedRange()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_91 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getMappedRange", JSObject, __resOwner_91.JSObject);
@@ -150,15 +148,11 @@ public partial class GPUBuffer(global::System.Runtime.InteropServices.JavaScript
 
     public void Unmap()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "unmap", JSObject);
     }
 
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 

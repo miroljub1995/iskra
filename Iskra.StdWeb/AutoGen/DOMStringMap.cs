@@ -10,25 +10,6 @@ public partial class DOMStringMap(global::System.Runtime.InteropServices.JavaScr
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_63 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = name;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_63.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_64 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __argsArray_63.JSObject, __resOwner_64.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_64.JSObject, "value");
-    }
-
-    public void Set(string name, string value)
-    {
-        int ___argsArrayLength_0 = 2;
-
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_66 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
@@ -36,17 +17,17 @@ public partial class DOMStringMap(global::System.Runtime.InteropServices.JavaScr
         ___marshalledValue_1 = name;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_66.JSObject, 0, ___marshalledValue_1);
 
-        // Argument 2
-        string ___marshalledValue_2;
-        ___marshalledValue_2 = value;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_66.JSObject, 1, ___marshalledValue_2);
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_67 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "", JSObject, __argsArray_66.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __argsArray_66.JSObject, __resOwner_67.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_67.JSObject, "value");
     }
 
-    public void Delete(string name)
+    public void Set(string name, string value)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_0 = 2;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_69 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
@@ -55,7 +36,26 @@ public partial class DOMStringMap(global::System.Runtime.InteropServices.JavaScr
         ___marshalledValue_1 = name;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_69.JSObject, 0, ___marshalledValue_1);
 
+        // Argument 2
+        string ___marshalledValue_2;
+        ___marshalledValue_2 = value;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_69.JSObject, 1, ___marshalledValue_2);
+
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "", JSObject, __argsArray_69.JSObject);
+    }
+
+    public void Delete(string name)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_72 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = name;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_72.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "", JSObject, __argsArray_72.JSObject);
     }
 }
 

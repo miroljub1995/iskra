@@ -6,6 +6,21 @@ namespace Iskra.StdWeb;
 
 public partial class RTCSessionDescription(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.RTCSessionDescription New(global::Iskra.StdWeb.RTCSessionDescriptionInit descriptionInitDict)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_131 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = descriptionInitDict.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_131.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_133 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCSessionDescription", __argsArray_131.JSObject);
+        return new global::Iskra.StdWeb.RTCSessionDescription(__res_133);
+    }
+
     public global::Iskra.StdWeb.RTCSdpType Type
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCSdpType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
@@ -18,14 +33,12 @@ public partial class RTCSessionDescription(global::System.Runtime.InteropService
 
     public global::Iskra.StdWeb.RTCSessionDescriptionInit ToJSON()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_135 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_126 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_126.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_135.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCSessionDescriptionInit, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_126.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCSessionDescriptionInit, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_135.JSObject, "value");
     }
 }
 

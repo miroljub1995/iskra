@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.RemoteDocument New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_82 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RemoteDocument");
+        return new global::Iskra.StdWeb.RemoteDocument(__res_82);
+    }
+
     public string ContentType
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "contentType");

@@ -8,8 +8,6 @@ public partial class GPU(global::System.Runtime.InteropServices.JavaScript.JSObj
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUAdapter?, global::Iskra.StdWeb.PropertyAccessorNullable> RequestAdapter()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestAdapter", JSObject, __resOwner_4.JSObject);
@@ -39,8 +37,6 @@ public partial class GPU(global::System.Runtime.InteropServices.JavaScript.JSObj
 
     public global::Iskra.StdWeb.GPUTextureFormat GetPreferredCanvasFormat()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getPreferredCanvasFormat", JSObject, __resOwner_7.JSObject);

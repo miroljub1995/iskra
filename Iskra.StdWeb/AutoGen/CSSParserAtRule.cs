@@ -6,6 +6,57 @@ namespace Iskra.StdWeb;
 
 public partial class CSSParserAtRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.CSSParserRule(obj)
 {
+    public static global::Iskra.StdWeb.CSSParserAtRule New(string name, global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSStyleValue, global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> prelude)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = name;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_3.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_2 = prelude.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_3.JSObject, 1, ___propObject_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSParserAtRule", __argsArray_3.JSObject);
+        return new global::Iskra.StdWeb.CSSParserAtRule(__res_5);
+    }
+
+    public static global::Iskra.StdWeb.CSSParserAtRule New(string name, global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.CSSStyleValue, global::Iskra.StdWeb.CSSParserValue, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> prelude, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>? body)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = name;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_2 = prelude.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 1, ___propObject_2);
+
+        // Argument 3
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_3;
+        if (body is null)
+        {
+            ___propObject_3 = null;
+        }
+        else
+        {
+            ___propObject_3 = body.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_0.JSObject, 2, ___propObject_3);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSParserAtRule", __argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.CSSParserAtRule(__res_2);
+    }
+
     public string Name
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
@@ -23,11 +74,9 @@ public partial class CSSParserAtRule(global::System.Runtime.InteropServices.Java
 
     public void _()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __resOwner_1.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __resOwner_7.JSObject);
     }
 }
 

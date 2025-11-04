@@ -6,24 +6,39 @@ namespace Iskra.StdWeb;
 
 public partial class CloseWatcher(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
+    public static global::Iskra.StdWeb.CloseWatcher New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1236 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CloseWatcher");
+        return new global::Iskra.StdWeb.CloseWatcher(__res_1236);
+    }
+
+    public static global::Iskra.StdWeb.CloseWatcher New(global::Iskra.StdWeb.CloseWatcherOptions options)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1231 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1231.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1233 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CloseWatcher", __argsArray_1231.JSObject);
+        return new global::Iskra.StdWeb.CloseWatcher(__res_1233);
+    }
+
     public void RequestClose()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "requestClose", JSObject);
     }
 
     public void Close()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "close", JSObject);
     }
 
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 

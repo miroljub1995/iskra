@@ -6,6 +6,123 @@ namespace Iskra.StdWeb;
 
 public partial class ImageData(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.ImageData New(uint sw, uint sh)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1912 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = Convert.ToDouble(sw);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1912.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(sh);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1912.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1914 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ImageData", __argsArray_1912.JSObject);
+        return new global::Iskra.StdWeb.ImageData(__res_1914);
+    }
+
+    public static global::Iskra.StdWeb.ImageData New(uint sw, uint sh, global::Iskra.StdWeb.ImageDataSettings settings)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1909 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = Convert.ToDouble(sw);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1909.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(sh);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1909.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = settings.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1909.JSObject, 2, ___marshalledValue_3);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1911 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ImageData", __argsArray_1909.JSObject);
+        return new global::Iskra.StdWeb.ImageData(__res_1911);
+    }
+
+    public static global::Iskra.StdWeb.ImageData New(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> data, uint sw)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1921 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = data.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_1921.JSObject, 0, ___propObject_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(sw);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1921.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1923 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ImageData", __argsArray_1921.JSObject);
+        return new global::Iskra.StdWeb.ImageData(__res_1923);
+    }
+
+    public static global::Iskra.StdWeb.ImageData New(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> data, uint sw, uint sh)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1918 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = data.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_1918.JSObject, 0, ___propObject_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(sw);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1918.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = Convert.ToDouble(sh);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1918.JSObject, 2, ___marshalledValue_3);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1920 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ImageData", __argsArray_1918.JSObject);
+        return new global::Iskra.StdWeb.ImageData(__res_1920);
+    }
+
+    public static global::Iskra.StdWeb.ImageData New(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.Float16Array, global::Iskra.StdWeb.GenericMarshaller.Union> data, uint sw, uint sh, global::Iskra.StdWeb.ImageDataSettings settings)
+    {
+        int ___argsArrayLength_0 = 4;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1915 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = data.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_1915.JSObject, 0, ___propObject_1);
+
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(sw);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1915.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = Convert.ToDouble(sh);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1915.JSObject, 2, ___marshalledValue_3);
+
+        // Argument 4
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+        ___marshalledValue_4 = settings.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1915.JSObject, 3, ___marshalledValue_4);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1917 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ImageData", __argsArray_1915.JSObject);
+        return new global::Iskra.StdWeb.ImageData(__res_1917);
+    }
+
     public uint Width
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");

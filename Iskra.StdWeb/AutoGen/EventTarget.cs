@@ -6,144 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class EventTarget(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.EventTarget New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_47 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "EventTarget");
+        return new global::Iskra.StdWeb.EventTarget(__res_47);
+    }
+
     public void AddEventListener(string type, global::Iskra.StdWeb.EventListener? callback)
     {
         int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_36 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_36.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_2;
-        if (callback is null)
-        {
-            ___marshalledValue_2 = null;
-        }
-        else
-        {
-            global::Iskra.StdWeb.EventListener ___notNullable_3 = (global::Iskra.StdWeb.EventListener)callback;
-            ___marshalledValue_2 = ___notNullable_3.JSObject;
-        }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_36.JSObject, 1, ___marshalledValue_2);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "addEventListener", JSObject, __argsArray_36.JSObject);
-    }
-
-    public void AddEventListener(string type, global::Iskra.StdWeb.EventListener? callback, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.AddEventListenerOptions, bool, global::Iskra.StdWeb.GenericMarshaller.Union> options)
-    {
-        int ___argsArrayLength_0 = 3;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_33 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_33.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_2;
-        if (callback is null)
-        {
-            ___marshalledValue_2 = null;
-        }
-        else
-        {
-            global::Iskra.StdWeb.EventListener ___notNullable_3 = (global::Iskra.StdWeb.EventListener)callback;
-            ___marshalledValue_2 = ___notNullable_3.JSObject;
-        }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_33.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_33.JSObject, 2, ___propObject_4);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "addEventListener", JSObject, __argsArray_33.JSObject);
-    }
-
-    public void RemoveEventListener(string type, global::Iskra.StdWeb.EventListener? callback)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_42 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_42.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_2;
-        if (callback is null)
-        {
-            ___marshalledValue_2 = null;
-        }
-        else
-        {
-            global::Iskra.StdWeb.EventListener ___notNullable_3 = (global::Iskra.StdWeb.EventListener)callback;
-            ___marshalledValue_2 = ___notNullable_3.JSObject;
-        }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_42.JSObject, 1, ___marshalledValue_2);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "removeEventListener", JSObject, __argsArray_42.JSObject);
-    }
-
-    public void RemoveEventListener(string type, global::Iskra.StdWeb.EventListener? callback, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.EventListenerOptions, bool, global::Iskra.StdWeb.GenericMarshaller.Union> options)
-    {
-        int ___argsArrayLength_0 = 3;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_39 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_39.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_2;
-        if (callback is null)
-        {
-            ___marshalledValue_2 = null;
-        }
-        else
-        {
-            global::Iskra.StdWeb.EventListener ___notNullable_3 = (global::Iskra.StdWeb.EventListener)callback;
-            ___marshalledValue_2 = ___notNullable_3.JSObject;
-        }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_39.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_39.JSObject, 2, ___propObject_4);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "removeEventListener", JSObject, __argsArray_39.JSObject);
-    }
-
-    public bool DispatchEvent(global::Iskra.StdWeb.Event @event)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_45 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = @event.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_45.JSObject, 0, ___marshalledValue_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_46 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "dispatchEvent", JSObject, __argsArray_45.JSObject, __resOwner_46.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_46.JSObject, "value");
-    }
-
-    public global::Iskra.StdWeb.Observable When(string type)
-    {
-        int ___argsArrayLength_0 = 1;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_51 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
@@ -152,17 +23,25 @@ public partial class EventTarget(global::System.Runtime.InteropServices.JavaScri
         ___marshalledValue_1 = type;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_51.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_52 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_2;
+        if (callback is null)
+        {
+            ___marshalledValue_2 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.EventListener ___notNullable_3 = (global::Iskra.StdWeb.EventListener)callback;
+            ___marshalledValue_2 = ___notNullable_3.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_51.JSObject, 1, ___marshalledValue_2);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "when", JSObject, __argsArray_51.JSObject, __resOwner_52.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Observable, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_52.JSObject, "value");
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "addEventListener", JSObject, __argsArray_51.JSObject);
     }
 
-    public global::Iskra.StdWeb.Observable When(string type, global::Iskra.StdWeb.ObservableEventListenerOptions options)
+    public void AddEventListener(string type, global::Iskra.StdWeb.EventListener? callback, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.AddEventListenerOptions, bool, global::Iskra.StdWeb.GenericMarshaller.Union> options)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_0 = 3;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_48 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
@@ -172,16 +51,143 @@ public partial class EventTarget(global::System.Runtime.InteropServices.JavaScri
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_48.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
-        ___marshalledValue_2 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_48.JSObject, 1, ___marshalledValue_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_2;
+        if (callback is null)
+        {
+            ___marshalledValue_2 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.EventListener ___notNullable_3 = (global::Iskra.StdWeb.EventListener)callback;
+            ___marshalledValue_2 = ___notNullable_3.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_48.JSObject, 1, ___marshalledValue_2);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_49 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        // Argument 3
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_48.JSObject, 2, ___propObject_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "when", JSObject, __argsArray_48.JSObject, __resOwner_49.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "addEventListener", JSObject, __argsArray_48.JSObject);
+    }
+
+    public void RemoveEventListener(string type, global::Iskra.StdWeb.EventListener? callback)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_57 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_57.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_2;
+        if (callback is null)
+        {
+            ___marshalledValue_2 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.EventListener ___notNullable_3 = (global::Iskra.StdWeb.EventListener)callback;
+            ___marshalledValue_2 = ___notNullable_3.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_57.JSObject, 1, ___marshalledValue_2);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "removeEventListener", JSObject, __argsArray_57.JSObject);
+    }
+
+    public void RemoveEventListener(string type, global::Iskra.StdWeb.EventListener? callback, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.EventListenerOptions, bool, global::Iskra.StdWeb.GenericMarshaller.Union> options)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_54 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_54.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_2;
+        if (callback is null)
+        {
+            ___marshalledValue_2 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.EventListener ___notNullable_3 = (global::Iskra.StdWeb.EventListener)callback;
+            ___marshalledValue_2 = ___notNullable_3.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_54.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_54.JSObject, 2, ___propObject_4);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "removeEventListener", JSObject, __argsArray_54.JSObject);
+    }
+
+    public bool DispatchEvent(global::Iskra.StdWeb.Event @event)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_60 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = @event.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_60.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_61 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "dispatchEvent", JSObject, __argsArray_60.JSObject, __resOwner_61.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Observable, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_49.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_61.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.Observable When(string type)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_66 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_66.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_67 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "when", JSObject, __argsArray_66.JSObject, __resOwner_67.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Observable, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_67.JSObject, "value");
+    }
+
+    public global::Iskra.StdWeb.Observable When(string type, global::Iskra.StdWeb.ObservableEventListenerOptions options)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_63 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_63.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_63.JSObject, 1, ___marshalledValue_2);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_64 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "when", JSObject, __argsArray_63.JSObject, __resOwner_64.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Observable, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_64.JSObject, "value");
     }
 }
 

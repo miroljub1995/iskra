@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMeterElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLMeterElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_539 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMeterElement");
+        return new global::Iskra.StdWeb.HTMLMeterElement(__res_539);
+    }
+
     public double Value
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");

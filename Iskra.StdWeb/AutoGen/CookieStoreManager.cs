@@ -26,8 +26,6 @@ public partial class CookieStoreManager(global::System.Runtime.InteropServices.J
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.CookieStoreGetOptions, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetSubscriptions()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_34 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getSubscriptions", JSObject, __resOwner_34.JSObject);

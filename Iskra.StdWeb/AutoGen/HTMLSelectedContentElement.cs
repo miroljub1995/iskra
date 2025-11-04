@@ -6,7 +6,11 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLSelectedContentElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
-
+    public static global::Iskra.StdWeb.HTMLSelectedContentElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_557 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLSelectedContentElement");
+        return new global::Iskra.StdWeb.HTMLSelectedContentElement(__res_557);
+    }
 }
 
 #nullable disable

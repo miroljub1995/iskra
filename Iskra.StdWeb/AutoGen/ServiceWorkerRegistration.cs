@@ -76,8 +76,6 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Notification, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetNotifications()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getNotifications", JSObject, __resOwner_19.JSObject);
@@ -137,8 +135,6 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ServiceWorkerRegistration, global::Iskra.StdWeb.PropertyAccessor> Update()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_22 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "update", JSObject, __resOwner_22.JSObject);
@@ -149,8 +145,6 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
 
     public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Unregister()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_25 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "unregister", JSObject, __resOwner_25.JSObject);

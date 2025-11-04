@@ -8,8 +8,6 @@ public partial class GPUQuerySet(global::System.Runtime.InteropServices.JavaScri
 {
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 

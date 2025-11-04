@@ -23,15 +23,11 @@ public partial class Sensor(global::System.Runtime.InteropServices.JavaScript.JS
 
     public void Start()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "start", JSObject);
     }
 
     public void Stop()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "stop", JSObject);
     }
 

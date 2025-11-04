@@ -8,8 +8,6 @@ public partial class GPUShaderModule(global::System.Runtime.InteropServices.Java
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUCompilationInfo, global::Iskra.StdWeb.PropertyAccessor> GetCompilationInfo()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_109 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getCompilationInfo", JSObject, __resOwner_109.JSObject);

@@ -32,8 +32,6 @@ public partial class NavigatorManagedData(global::System.Runtime.InteropServices
 
     public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> GetAnnotatedAssetId()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getAnnotatedAssetId", JSObject, __resOwner_4.JSObject);
@@ -44,8 +42,6 @@ public partial class NavigatorManagedData(global::System.Runtime.InteropServices
 
     public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> GetAnnotatedLocation()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getAnnotatedLocation", JSObject, __resOwner_7.JSObject);
@@ -56,8 +52,6 @@ public partial class NavigatorManagedData(global::System.Runtime.InteropServices
 
     public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> GetDirectoryId()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getDirectoryId", JSObject, __resOwner_10.JSObject);
@@ -68,8 +62,6 @@ public partial class NavigatorManagedData(global::System.Runtime.InteropServices
 
     public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> GetHostname()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getHostname", JSObject, __resOwner_13.JSObject);
@@ -80,8 +72,6 @@ public partial class NavigatorManagedData(global::System.Runtime.InteropServices
 
     public global::Iskra.JSCore.Generics.Promise<string, global::Iskra.StdWeb.PropertyAccessor> GetSerialNumber()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getSerialNumber", JSObject, __resOwner_16.JSObject);

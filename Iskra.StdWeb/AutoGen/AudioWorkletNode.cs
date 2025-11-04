@@ -6,6 +6,51 @@ namespace Iskra.StdWeb;
 
 public partial class AudioWorkletNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AudioNode(obj)
 {
+    public static global::Iskra.StdWeb.AudioWorkletNode New(global::Iskra.StdWeb.BaseAudioContext context, string name)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_418 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = context.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_418.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        string ___marshalledValue_2;
+        ___marshalledValue_2 = name;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_418.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_420 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioWorkletNode", __argsArray_418.JSObject);
+        return new global::Iskra.StdWeb.AudioWorkletNode(__res_420);
+    }
+
+    public static global::Iskra.StdWeb.AudioWorkletNode New(global::Iskra.StdWeb.BaseAudioContext context, string name, global::Iskra.StdWeb.AudioWorkletNodeOptions options)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_415 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = context.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_415.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        string ___marshalledValue_2;
+        ___marshalledValue_2 = name;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_415.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_415.JSObject, 2, ___marshalledValue_3);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_417 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioWorkletNode", __argsArray_415.JSObject);
+        return new global::Iskra.StdWeb.AudioWorkletNode(__res_417);
+    }
+
     public global::Iskra.StdWeb.AudioParamMap Parameters
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioParamMap, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "parameters");

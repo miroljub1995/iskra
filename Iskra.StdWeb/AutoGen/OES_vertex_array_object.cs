@@ -8,8 +8,6 @@ public partial class OES_vertex_array_object(global::System.Runtime.InteropServi
 {
     public global::Iskra.StdWeb.WebGLVertexArrayObjectOES CreateVertexArrayOES()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createVertexArrayOES", JSObject, __resOwner_1.JSObject);

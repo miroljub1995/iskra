@@ -6,6 +6,41 @@ namespace Iskra.StdWeb;
 
 public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.Event New(string type)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_3.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Event", __argsArray_3.JSObject);
+        return new global::Iskra.StdWeb.Event(__res_5);
+    }
+
+    public static global::Iskra.StdWeb.Event New(string type, global::Iskra.StdWeb.EventInit eventInitDict)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = eventInitDict.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Event", __argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.Event(__res_2);
+    }
+
     public string Type
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
@@ -28,14 +63,12 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.EventTarget, global::Iskra.StdWeb.PropertyAccessor> ComposedPath()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "composedPath", JSObject, __resOwner_1.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "composedPath", JSObject, __resOwner_7.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.EventTarget, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.EventTarget, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_7.JSObject, "value");
     }
 
     public ushort EventPhase
@@ -45,8 +78,6 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
 
     public void StopPropagation()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "stopPropagation", JSObject);
     }
 
@@ -58,8 +89,6 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
 
     public void StopImmediatePropagation()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "stopImmediatePropagation", JSObject);
     }
 
@@ -81,8 +110,6 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
 
     public void PreventDefault()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "preventDefault", JSObject);
     }
 
@@ -110,6 +137,39 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
     {
         int ___argsArrayLength_0 = 1;
 
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_24 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_24.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initEvent", JSObject, __argsArray_24.JSObject);
+    }
+
+    public void InitEvent(string type, bool bubbles)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_21 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_21.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        bool ___marshalledValue_2;
+        ___marshalledValue_2 = bubbles;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_21.JSObject, 1, ___marshalledValue_2);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initEvent", JSObject, __argsArray_21.JSObject);
+    }
+
+    public void InitEvent(string type, bool bubbles, bool cancelable)
+    {
+        int ___argsArrayLength_0 = 3;
+
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_18 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
@@ -117,50 +177,17 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         ___marshalledValue_1 = type;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_18.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initEvent", JSObject, __argsArray_18.JSObject);
-    }
-
-    public void InitEvent(string type, bool bubbles)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_15 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_15.JSObject, 0, ___marshalledValue_1);
-
         // Argument 2
         bool ___marshalledValue_2;
         ___marshalledValue_2 = bubbles;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_15.JSObject, 1, ___marshalledValue_2);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initEvent", JSObject, __argsArray_15.JSObject);
-    }
-
-    public void InitEvent(string type, bool bubbles, bool cancelable)
-    {
-        int ___argsArrayLength_0 = 3;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_12.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubbles;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_12.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_18.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         bool ___marshalledValue_3;
         ___marshalledValue_3 = cancelable;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_12.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_18.JSObject, 2, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initEvent", JSObject, __argsArray_12.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initEvent", JSObject, __argsArray_18.JSObject);
     }
 }
 

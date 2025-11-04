@@ -35,8 +35,6 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
 
     public global::Iskra.StdWeb.SerialPortInfo GetInfo()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getInfo", JSObject, __resOwner_10.JSObject);
@@ -66,8 +64,6 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
 
     public global::Iskra.JSCore.Promise SetSignals()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "setSignals", JSObject, __resOwner_19.JSObject);
@@ -97,8 +93,6 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.SerialInputSignals, global::Iskra.StdWeb.PropertyAccessor> GetSignals()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_22 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getSignals", JSObject, __resOwner_22.JSObject);
@@ -109,8 +103,6 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
 
     public global::Iskra.JSCore.Promise Close()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_25 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "close", JSObject, __resOwner_25.JSObject);
@@ -121,8 +113,6 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
 
     public global::Iskra.JSCore.Promise Forget()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_28 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "forget", JSObject, __resOwner_28.JSObject);

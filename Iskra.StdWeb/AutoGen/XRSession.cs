@@ -8,8 +8,6 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
 {
     public global::Iskra.JSCore.Promise InitiateRoomCapture()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "initiateRoomCapture", JSObject, __resOwner_10.JSObject);
@@ -30,8 +28,6 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.XRLightProbe, global::Iskra.StdWeb.PropertyAccessor> RequestLightProbe()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestLightProbe", JSObject, __resOwner_16.JSObject);
@@ -129,15 +125,11 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
 
     public void PauseDepthSensing()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "pauseDepthSensing", JSObject);
     }
 
     public void ResumeDepthSensing()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "resumeDepthSensing", JSObject);
     }
 
@@ -183,8 +175,6 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
 
     public void UpdateRenderState()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "updateRenderState", JSObject);
     }
 
@@ -275,8 +265,6 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Promise End()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_49 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "end", JSObject, __resOwner_49.JSObject);

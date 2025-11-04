@@ -8,8 +8,6 @@ public partial class TestRecordLong(global::System.Runtime.InteropServices.JavaS
 {
     public global::Iskra.JSCore.Generics.Record<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor> CreateTestRecordLong()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createTestRecordLong", JSObject, __resOwner_1.JSObject);

@@ -18,8 +18,6 @@ public partial class PerformanceNavigation(global::System.Runtime.InteropService
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_7.JSObject);

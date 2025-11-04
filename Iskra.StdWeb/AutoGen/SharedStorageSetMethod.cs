@@ -6,7 +6,50 @@ namespace Iskra.StdWeb;
 
 public partial class SharedStorageSetMethod(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SharedStorageModifierMethod(obj)
 {
+    public static global::Iskra.StdWeb.SharedStorageSetMethod New(string key, string value)
+    {
+        int ___argsArrayLength_0 = 2;
 
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_38 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = key;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_38.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        string ___marshalledValue_2;
+        ___marshalledValue_2 = value;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_38.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_40 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageSetMethod", __argsArray_38.JSObject);
+        return new global::Iskra.StdWeb.SharedStorageSetMethod(__res_40);
+    }
+
+    public static global::Iskra.StdWeb.SharedStorageSetMethod New(string key, string value, global::Iskra.StdWeb.SharedStorageSetMethodOptions options)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_35 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = key;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_35.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        string ___marshalledValue_2;
+        ___marshalledValue_2 = value;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_35.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_35.JSObject, 2, ___marshalledValue_3);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_37 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageSetMethod", __argsArray_35.JSObject);
+        return new global::Iskra.StdWeb.SharedStorageSetMethod(__res_37);
+    }
 }
 
 #nullable disable

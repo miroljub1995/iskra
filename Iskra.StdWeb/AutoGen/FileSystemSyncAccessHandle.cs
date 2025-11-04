@@ -104,8 +104,6 @@ public partial class FileSystemSyncAccessHandle(global::System.Runtime.InteropSe
 
     public ulong GetSize()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_73 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getSize", JSObject, __resOwner_73.JSObject);
@@ -116,15 +114,11 @@ public partial class FileSystemSyncAccessHandle(global::System.Runtime.InteropSe
 
     public void Flush()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "flush", JSObject);
     }
 
     public void Close()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "close", JSObject);
     }
 }

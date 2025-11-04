@@ -12,6 +12,12 @@ public partial class HTMLBodyElement(global::System.Runtime.InteropServices.Java
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onorientationchange", value);
     }
 
+    public static global::Iskra.StdWeb.HTMLBodyElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_98 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLBodyElement");
+        return new global::Iskra.StdWeb.HTMLBodyElement(__res_98);
+    }
+
     public string Text
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "text");

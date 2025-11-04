@@ -6,6 +6,56 @@ namespace Iskra.StdWeb;
 
 public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.GroupEffect New(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.AnimationEffect, global::Iskra.StdWeb.PropertyAccessor>? children)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
+        if (children is null)
+        {
+            ___propObject_1 = null;
+        }
+        else
+        {
+            ___propObject_1 = children.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_3.JSObject, 0, ___propObject_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GroupEffect", __argsArray_3.JSObject);
+        return new global::Iskra.StdWeb.GroupEffect(__res_5);
+    }
+
+    public static global::Iskra.StdWeb.GroupEffect New(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.AnimationEffect, global::Iskra.StdWeb.PropertyAccessor>? children, global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.EffectTiming, global::Iskra.StdWeb.GenericMarshaller.Union> timing)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
+        if (children is null)
+        {
+            ___propObject_1 = null;
+        }
+        else
+        {
+            ___propObject_1 = children.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_0.JSObject, 0, ___propObject_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_2 = timing.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_0.JSObject, 1, ___propObject_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GroupEffect", __argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.GroupEffect(__res_2);
+    }
+
     public global::Iskra.StdWeb.AnimationNodeList Children
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AnimationNodeList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "children");
@@ -23,21 +73,19 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.StdWeb.GroupEffect Clone()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "clone", JSObject, __resOwner_1.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "clone", JSObject, __resOwner_7.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GroupEffect, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GroupEffect, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_7.JSObject, "value");
     }
 
     public void Prepend(params global::Iskra.StdWeb.AnimationEffect[] effects)
     {
         int ___argsArrayLength_0 = effects.Length + 0;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_9 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         for (int ___i_1 = 0; ___i_1 < effects.Length; ___i_1++)
@@ -45,17 +93,17 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
         global::Iskra.StdWeb.AnimationEffect ___elem_2 = effects[___i_1];
             global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
             ___marshalledValue_3 = ___elem_2.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_3.JSObject, 0 + ___i_1, ___marshalledValue_3);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_9.JSObject, 0 + ___i_1, ___marshalledValue_3);
         }
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "prepend", JSObject, __argsArray_3.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "prepend", JSObject, __argsArray_9.JSObject);
     }
 
     public void Append(params global::Iskra.StdWeb.AnimationEffect[] effects)
     {
         int ___argsArrayLength_0 = effects.Length + 0;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         for (int ___i_1 = 0; ___i_1 < effects.Length; ___i_1++)
@@ -63,10 +111,10 @@ public partial class GroupEffect(global::System.Runtime.InteropServices.JavaScri
         global::Iskra.StdWeb.AnimationEffect ___elem_2 = effects[___i_1];
             global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
             ___marshalledValue_3 = ___elem_2.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_6.JSObject, 0 + ___i_1, ___marshalledValue_3);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_12.JSObject, 0 + ___i_1, ___marshalledValue_3);
         }
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "append", JSObject, __argsArray_6.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "append", JSObject, __argsArray_12.JSObject);
     }
 }
 

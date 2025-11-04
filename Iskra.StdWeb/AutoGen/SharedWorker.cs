@@ -6,6 +6,38 @@ namespace Iskra.StdWeb;
 
 public partial class SharedWorker(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
+    public static global::Iskra.StdWeb.SharedWorker New(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedScriptURL, string, global::Iskra.StdWeb.GenericMarshaller.Union> scriptURL)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2102 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = scriptURL.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_2102.JSObject, 0, ___propObject_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2104 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedWorker", __argsArray_2102.JSObject);
+        return new global::Iskra.StdWeb.SharedWorker(__res_2104);
+    }
+
+    public static global::Iskra.StdWeb.SharedWorker New(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedScriptURL, string, global::Iskra.StdWeb.GenericMarshaller.Union> scriptURL, global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.WorkerOptions, global::Iskra.StdWeb.GenericMarshaller.Union> options)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2099 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = scriptURL.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_2099.JSObject, 0, ___propObject_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_2 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_2099.JSObject, 1, ___propObject_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2101 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedWorker", __argsArray_2099.JSObject);
+        return new global::Iskra.StdWeb.SharedWorker(__res_2101);
+    }
+
     public global::Iskra.StdWeb.MessagePort Port
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "port");

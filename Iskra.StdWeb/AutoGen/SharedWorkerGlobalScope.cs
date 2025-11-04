@@ -13,8 +13,6 @@ public partial class SharedWorkerGlobalScope(global::System.Runtime.InteropServi
 
     public void Close()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "close", JSObject);
     }
 

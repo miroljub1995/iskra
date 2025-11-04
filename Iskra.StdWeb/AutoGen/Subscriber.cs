@@ -52,8 +52,6 @@ public partial class Subscriber(global::System.Runtime.InteropServices.JavaScrip
 
     public void Complete()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "complete", JSObject);
     }
 

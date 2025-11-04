@@ -6,6 +6,26 @@ namespace Iskra.StdWeb;
 
 public partial class GPUPipelineError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.DOMException(obj)
 {
+    public static global::Iskra.StdWeb.GPUPipelineError New(string message, global::Iskra.StdWeb.GPUPipelineErrorInit options)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_111 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = message;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_111.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_111.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_113 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GPUPipelineError", __argsArray_111.JSObject);
+        return new global::Iskra.StdWeb.GPUPipelineError(__res_113);
+    }
+
     public global::Iskra.StdWeb.GPUPipelineErrorReason Reason
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUPipelineErrorReason, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reason");

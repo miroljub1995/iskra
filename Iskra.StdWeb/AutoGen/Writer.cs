@@ -8,8 +8,6 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
 {
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Writer, global::Iskra.StdWeb.PropertyAccessor> Create()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_37 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Writer"), "create", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Writer"), __resOwner_37.JSObject);
@@ -39,8 +37,6 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
 
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Availability, global::Iskra.StdWeb.PropertyAccessor> Availability()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_43 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Writer"), "availability", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Writer"), __resOwner_43.JSObject);
@@ -239,8 +235,6 @@ public partial class Writer(global::System.Runtime.InteropServices.JavaScript.JS
 
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 }

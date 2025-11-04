@@ -13,8 +13,6 @@ public partial class SVGGeometryElement(global::System.Runtime.InteropServices.J
 
     public bool IsPointInFill()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_25 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "isPointInFill", JSObject, __resOwner_25.JSObject);
@@ -44,8 +42,6 @@ public partial class SVGGeometryElement(global::System.Runtime.InteropServices.J
 
     public bool IsPointInStroke()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_31 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "isPointInStroke", JSObject, __resOwner_31.JSObject);
@@ -75,8 +71,6 @@ public partial class SVGGeometryElement(global::System.Runtime.InteropServices.J
 
     public float GetTotalLength()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_34 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTotalLength", JSObject, __resOwner_34.JSObject);

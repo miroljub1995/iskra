@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLPreElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLPreElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_110 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLPreElement");
+        return new global::Iskra.StdWeb.HTMLPreElement(__res_110);
+    }
+
     public int Width
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");

@@ -27,8 +27,6 @@ public partial class ScreenOrientation(global::System.Runtime.InteropServices.Ja
 
     public void Unlock()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "unlock", JSObject);
     }
 

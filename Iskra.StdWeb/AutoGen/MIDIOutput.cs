@@ -39,8 +39,6 @@ public partial class MIDIOutput(global::System.Runtime.InteropServices.JavaScrip
 
     public void Clear()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "clear", JSObject);
     }
 }

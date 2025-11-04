@@ -42,8 +42,6 @@ public partial class PushSubscription(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> Unsubscribe()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "unsubscribe", JSObject, __resOwner_19.JSObject);
@@ -54,8 +52,6 @@ public partial class PushSubscription(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.PushSubscriptionJSON ToJSON()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_22 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_22.JSObject);

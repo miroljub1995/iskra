@@ -31,8 +31,6 @@ public partial class SVGAnimationElement(global::System.Runtime.InteropServices.
 
     public float GetStartTime()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getStartTime", JSObject, __resOwner_10.JSObject);
@@ -43,8 +41,6 @@ public partial class SVGAnimationElement(global::System.Runtime.InteropServices.
 
     public float GetCurrentTime()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getCurrentTime", JSObject, __resOwner_13.JSObject);
@@ -55,8 +51,6 @@ public partial class SVGAnimationElement(global::System.Runtime.InteropServices.
 
     public float GetSimpleDuration()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getSimpleDuration", JSObject, __resOwner_16.JSObject);
@@ -67,8 +61,6 @@ public partial class SVGAnimationElement(global::System.Runtime.InteropServices.
 
     public void BeginElement()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "beginElement", JSObject);
     }
 
@@ -88,8 +80,6 @@ public partial class SVGAnimationElement(global::System.Runtime.InteropServices.
 
     public void EndElement()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "endElement", JSObject);
     }
 

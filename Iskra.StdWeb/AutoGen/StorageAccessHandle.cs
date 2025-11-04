@@ -33,8 +33,6 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemDirectoryHandle, global::Iskra.StdWeb.PropertyAccessor> GetDirectory()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getDirectory", JSObject, __resOwner_1.JSObject);
@@ -45,8 +43,6 @@ public partial class StorageAccessHandle(global::System.Runtime.InteropServices.
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.StorageEstimate, global::Iskra.StdWeb.PropertyAccessor> Estimate()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "estimate", JSObject, __resOwner_4.JSObject);

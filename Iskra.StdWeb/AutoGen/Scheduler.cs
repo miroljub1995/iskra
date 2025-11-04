@@ -51,8 +51,6 @@ public partial class Scheduler(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Promise Yield()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_17 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "yield", JSObject, __resOwner_17.JSObject);

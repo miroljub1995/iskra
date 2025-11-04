@@ -18,8 +18,6 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
 
     public double Now()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "now", JSObject, __resOwner_1.JSObject);
@@ -35,8 +33,6 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_4.JSObject);
@@ -47,8 +43,6 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
 
     public void ClearResourceTimings()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "clearResourceTimings", JSObject);
     }
 
@@ -117,8 +111,6 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
 
     public void ClearMarks()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "clearMarks", JSObject);
     }
 
@@ -208,8 +200,6 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
 
     public void ClearMeasures()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "clearMeasures", JSObject);
     }
 
@@ -239,8 +229,6 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PerformanceEntry, global::Iskra.StdWeb.PropertyAccessor> GetEntries()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_40 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getEntries", JSObject, __resOwner_40.JSObject);
@@ -313,8 +301,6 @@ public partial class Performance(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MemoryMeasurement, global::Iskra.StdWeb.PropertyAccessor> MeasureUserAgentSpecificMemory()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_52 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "measureUserAgentSpecificMemory", JSObject, __resOwner_52.JSObject);

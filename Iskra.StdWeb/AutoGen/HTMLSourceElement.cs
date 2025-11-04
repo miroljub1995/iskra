@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLSourceElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLSourceElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_155 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLSourceElement");
+        return new global::Iskra.StdWeb.HTMLSourceElement(__res_155);
+    }
+
     public string Src
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "src");

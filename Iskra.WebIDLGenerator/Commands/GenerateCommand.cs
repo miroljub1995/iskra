@@ -3,6 +3,7 @@ using System.Text.Json;
 using Iskra.WebIDLGenerator.Generators;
 using Iskra.WebIDLGenerator.Marshallers;
 using Iskra.WebIDLGenerator.Models;
+using Iskra.WebIDLGenerator.Utils;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
@@ -50,6 +51,7 @@ public class GenerateCommand : Command
                 .AddSingleton<AttributeMemberTypeGenerator>()
                 .AddSingleton<CallbackTypeGenerator>()
                 .AddSingleton<CallbackInterfaceTypeGenerator>()
+                .AddSingleton<ConstructorMemberTypeGenerator>()
                 .AddSingleton<DictionaryTypeGenerator>()
                 .AddSingleton<EnumTypeGenerator>()
                 .AddSingleton<GenericMarshallerGenerator>()
@@ -127,7 +129,23 @@ public class GenerateCommand : Command
 
                 existing.Inheritance ??= interfaceType.Inheritance;
 
-                existing.Members.AddRange(interfaceType.Members);
+                // Some constructors are duplicate, not sure if this is bug in webref
+                var newMembers = interfaceType.Members
+                    .Where(x => x is not ConstructorMemberType constructor ||
+                                existing.Members.All(y => y is not ConstructorMemberType existingConstructor ||
+                                                          constructor.Arguments.Count !=
+                                                          existingConstructor.Arguments.Count ||
+                                                          !constructor.Arguments.All(arg =>
+                                                              existingConstructor.Arguments.All(existingArg =>
+                                                                  IDLTypeDescriptionEqualityComparer.Instance
+                                                                      .Equals(existingArg.IdlType, arg.IdlType)
+                                                              )
+                                                          )
+                                )
+                    )
+                    .ToList();
+
+                existing.Members.AddRange(newMembers);
             }
             else
             {

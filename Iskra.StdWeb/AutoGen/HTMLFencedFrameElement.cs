@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFencedFrameElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLFencedFrameElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFencedFrameElement");
+        return new global::Iskra.StdWeb.HTMLFencedFrameElement(__res_2);
+    }
+
     public global::Iskra.StdWeb.FencedFrameConfig? Config
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FencedFrameConfig?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "config");

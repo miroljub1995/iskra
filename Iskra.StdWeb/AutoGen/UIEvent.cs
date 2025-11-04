@@ -11,6 +11,41 @@ public partial class UIEvent(global::System.Runtime.InteropServices.JavaScript.J
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.InputDeviceCapabilities?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "sourceCapabilities");
     }
 
+    public static global::Iskra.StdWeb.UIEvent New(string type)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_3.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "UIEvent", __argsArray_3.JSObject);
+        return new global::Iskra.StdWeb.UIEvent(__res_5);
+    }
+
+    public static global::Iskra.StdWeb.UIEvent New(string type, global::Iskra.StdWeb.UIEventInit eventInitDict)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = eventInitDict.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "UIEvent", __argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.UIEvent(__res_2);
+    }
+
     public global::Iskra.StdWeb.Window? View
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Window?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "view");
@@ -25,6 +60,39 @@ public partial class UIEvent(global::System.Runtime.InteropServices.JavaScript.J
     {
         int ___argsArrayLength_0 = 1;
 
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_18 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_18.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initUIEvent", JSObject, __argsArray_18.JSObject);
+    }
+
+    public void InitUIEvent(string typeArg, bool bubblesArg)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_15 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_15.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        bool ___marshalledValue_2;
+        ___marshalledValue_2 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_15.JSObject, 1, ___marshalledValue_2);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initUIEvent", JSObject, __argsArray_15.JSObject);
+    }
+
+    public void InitUIEvent(string typeArg, bool bubblesArg, bool cancelableArg)
+    {
+        int ___argsArrayLength_0 = 3;
+
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
@@ -32,12 +100,22 @@ public partial class UIEvent(global::System.Runtime.InteropServices.JavaScript.J
         ___marshalledValue_1 = typeArg;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_12.JSObject, 0, ___marshalledValue_1);
 
+        // Argument 2
+        bool ___marshalledValue_2;
+        ___marshalledValue_2 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_12.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        bool ___marshalledValue_3;
+        ___marshalledValue_3 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_12.JSObject, 2, ___marshalledValue_3);
+
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initUIEvent", JSObject, __argsArray_12.JSObject);
     }
 
-    public void InitUIEvent(string typeArg, bool bubblesArg)
+    public void InitUIEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_0 = 4;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_9 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
@@ -51,12 +129,30 @@ public partial class UIEvent(global::System.Runtime.InteropServices.JavaScript.J
         ___marshalledValue_2 = bubblesArg;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_9.JSObject, 1, ___marshalledValue_2);
 
+        // Argument 3
+        bool ___marshalledValue_3;
+        ___marshalledValue_3 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_9.JSObject, 2, ___marshalledValue_3);
+
+        // Argument 4
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        if (viewArg is null)
+        {
+            ___marshalledValue_4 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_4 = ___notNullable_5.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_9.JSObject, 3, ___marshalledValue_4);
+
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initUIEvent", JSObject, __argsArray_9.JSObject);
     }
 
-    public void InitUIEvent(string typeArg, bool bubblesArg, bool cancelableArg)
+    public void InitUIEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_0 = 5;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
@@ -75,30 +171,6 @@ public partial class UIEvent(global::System.Runtime.InteropServices.JavaScript.J
         ___marshalledValue_3 = cancelableArg;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_6.JSObject, 2, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initUIEvent", JSObject, __argsArray_6.JSObject);
-    }
-
-    public void InitUIEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg)
-    {
-        int ___argsArrayLength_0 = 4;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_3.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_3.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_3.JSObject, 2, ___marshalledValue_3);
-
         // Argument 4
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
         if (viewArg is null)
@@ -110,51 +182,14 @@ public partial class UIEvent(global::System.Runtime.InteropServices.JavaScript.J
             global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
             ___marshalledValue_4 = ___notNullable_5.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_3.JSObject, 3, ___marshalledValue_4);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initUIEvent", JSObject, __argsArray_3.JSObject);
-    }
-
-    public void InitUIEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg)
-    {
-        int ___argsArrayLength_0 = 5;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_0.JSObject, 1, ___marshalledValue_2);
-
-        // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_0.JSObject, 2, ___marshalledValue_3);
-
-        // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
-        if (viewArg is null)
-        {
-            ___marshalledValue_4 = null;
-        }
-        else
-        {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
-        }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_0.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_6.JSObject, 3, ___marshalledValue_4);
 
         // Argument 5
         double ___marshalledValue_6;
         ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_0.JSObject, 4, ___marshalledValue_6);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_6.JSObject, 4, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initUIEvent", JSObject, __argsArray_0.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initUIEvent", JSObject, __argsArray_6.JSObject);
     }
 
     public uint Which

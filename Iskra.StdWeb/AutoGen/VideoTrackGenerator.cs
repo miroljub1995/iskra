@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.VideoTrackGenerator New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoTrackGenerator");
+        return new global::Iskra.StdWeb.VideoTrackGenerator(__res_5);
+    }
+
     public global::Iskra.StdWeb.WritableStream Writable
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WritableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "writable");

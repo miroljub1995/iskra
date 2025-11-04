@@ -23,8 +23,6 @@ public partial class WindowClient(global::System.Runtime.InteropServices.JavaScr
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.WindowClient, global::Iskra.StdWeb.PropertyAccessor> Focus()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_70 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "focus", JSObject, __resOwner_70.JSObject);

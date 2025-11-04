@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class TextEncoderStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.TextEncoderStream New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_41 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TextEncoderStream");
+        return new global::Iskra.StdWeb.TextEncoderStream(__res_41);
+    }
+
     public string Encoding
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "encoding");

@@ -30,7 +30,7 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_174 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_180 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
@@ -43,76 +43,17 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
             ___propObject_1 = value.JSObject;
         }
 
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_174.JSObject, 0, ___propObject_1);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_175 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "only", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_174.JSObject, __resOwner_175.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_175.JSObject, "value");
-    }
-
-    public static global::Iskra.StdWeb.IDBKeyRange LowerBound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? lower)
-    {
-        int ___argsArrayLength_0 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_180 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
-        if (lower is null)
-        {
-            ___propObject_1 = null;
-        }
-        else
-        {
-            ___propObject_1 = lower.JSObject;
-        }
-
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_180.JSObject, 0, ___propObject_1);
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_181 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "lowerBound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_180.JSObject, __resOwner_181.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "only", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_180.JSObject, __resOwner_181.JSObject);
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_181.JSObject, "value");
     }
 
-    public static global::Iskra.StdWeb.IDBKeyRange LowerBound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? lower, bool open)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_177 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
-        if (lower is null)
-        {
-            ___propObject_1 = null;
-        }
-        else
-        {
-            ___propObject_1 = lower.JSObject;
-        }
-
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_177.JSObject, 0, ___propObject_1);
-
-        // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = open;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_177.JSObject, 1, ___marshalledValue_2);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_178 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "lowerBound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_177.JSObject, __resOwner_178.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_178.JSObject, "value");
-    }
-
-    public static global::Iskra.StdWeb.IDBKeyRange UpperBound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? upper)
+    public static global::Iskra.StdWeb.IDBKeyRange LowerBound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? lower)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -120,26 +61,26 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
-        if (upper is null)
+        if (lower is null)
         {
             ___propObject_1 = null;
         }
         else
         {
-            ___propObject_1 = upper.JSObject;
+            ___propObject_1 = lower.JSObject;
         }
 
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_186.JSObject, 0, ___propObject_1);
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_187 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "upperBound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_186.JSObject, __resOwner_187.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "lowerBound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_186.JSObject, __resOwner_187.JSObject);
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_187.JSObject, "value");
     }
 
-    public static global::Iskra.StdWeb.IDBKeyRange UpperBound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? upper, bool open)
+    public static global::Iskra.StdWeb.IDBKeyRange LowerBound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? lower, bool open)
     {
         int ___argsArrayLength_0 = 2;
 
@@ -147,13 +88,13 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
-        if (upper is null)
+        if (lower is null)
         {
             ___propObject_1 = null;
         }
         else
         {
-            ___propObject_1 = upper.JSObject;
+            ___propObject_1 = lower.JSObject;
         }
 
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_183.JSObject, 0, ___propObject_1);
@@ -165,15 +106,159 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
 
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_184 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "upperBound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_183.JSObject, __resOwner_184.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "lowerBound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_183.JSObject, __resOwner_184.JSObject);
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_184.JSObject, "value");
     }
 
+    public static global::Iskra.StdWeb.IDBKeyRange UpperBound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? upper)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_192 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
+        if (upper is null)
+        {
+            ___propObject_1 = null;
+        }
+        else
+        {
+            ___propObject_1 = upper.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_192.JSObject, 0, ___propObject_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_193 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "upperBound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_192.JSObject, __resOwner_193.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_193.JSObject, "value");
+    }
+
+    public static global::Iskra.StdWeb.IDBKeyRange UpperBound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? upper, bool open)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_189 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
+        if (upper is null)
+        {
+            ___propObject_1 = null;
+        }
+        else
+        {
+            ___propObject_1 = upper.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_189.JSObject, 0, ___propObject_1);
+
+        // Argument 2
+        bool ___marshalledValue_2;
+        ___marshalledValue_2 = open;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_189.JSObject, 1, ___marshalledValue_2);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_190 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "upperBound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_189.JSObject, __resOwner_190.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_190.JSObject, "value");
+    }
+
     public static global::Iskra.StdWeb.IDBKeyRange Bound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? lower, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? upper)
     {
         int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_201 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
+        if (lower is null)
+        {
+            ___propObject_1 = null;
+        }
+        else
+        {
+            ___propObject_1 = lower.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_201.JSObject, 0, ___propObject_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_2;
+        if (upper is null)
+        {
+            ___propObject_2 = null;
+        }
+        else
+        {
+            ___propObject_2 = upper.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_201.JSObject, 1, ___propObject_2);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_202 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "bound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_201.JSObject, __resOwner_202.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_202.JSObject, "value");
+    }
+
+    public static global::Iskra.StdWeb.IDBKeyRange Bound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? lower, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? upper, bool lowerOpen)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_198 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
+        if (lower is null)
+        {
+            ___propObject_1 = null;
+        }
+        else
+        {
+            ___propObject_1 = lower.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_198.JSObject, 0, ___propObject_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_2;
+        if (upper is null)
+        {
+            ___propObject_2 = null;
+        }
+        else
+        {
+            ___propObject_2 = upper.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_198.JSObject, 1, ___propObject_2);
+
+        // Argument 3
+        bool ___marshalledValue_3;
+        ___marshalledValue_3 = lowerOpen;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_198.JSObject, 2, ___marshalledValue_3);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_199 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "bound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_198.JSObject, __resOwner_199.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_199.JSObject, "value");
+    }
+
+    public static global::Iskra.StdWeb.IDBKeyRange Bound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? lower, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? upper, bool lowerOpen, bool upperOpen)
+    {
+        int ___argsArrayLength_0 = 4;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_195 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
@@ -203,6 +288,16 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
 
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_195.JSObject, 1, ___propObject_2);
 
+        // Argument 3
+        bool ___marshalledValue_3;
+        ___marshalledValue_3 = lowerOpen;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_195.JSObject, 2, ___marshalledValue_3);
+
+        // Argument 4
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = upperOpen;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_195.JSObject, 3, ___marshalledValue_4);
+
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_196 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "bound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_195.JSObject, __resOwner_196.JSObject);
@@ -211,106 +306,11 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_196.JSObject, "value");
     }
 
-    public static global::Iskra.StdWeb.IDBKeyRange Bound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? lower, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? upper, bool lowerOpen)
-    {
-        int ___argsArrayLength_0 = 3;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_192 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
-        if (lower is null)
-        {
-            ___propObject_1 = null;
-        }
-        else
-        {
-            ___propObject_1 = lower.JSObject;
-        }
-
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_192.JSObject, 0, ___propObject_1);
-
-        // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_2;
-        if (upper is null)
-        {
-            ___propObject_2 = null;
-        }
-        else
-        {
-            ___propObject_2 = upper.JSObject;
-        }
-
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_192.JSObject, 1, ___propObject_2);
-
-        // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = lowerOpen;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_192.JSObject, 2, ___marshalledValue_3);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_193 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "bound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_192.JSObject, __resOwner_193.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_193.JSObject, "value");
-    }
-
-    public static global::Iskra.StdWeb.IDBKeyRange Bound(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? lower, global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? upper, bool lowerOpen, bool upperOpen)
-    {
-        int ___argsArrayLength_0 = 4;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_189 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
-        if (lower is null)
-        {
-            ___propObject_1 = null;
-        }
-        else
-        {
-            ___propObject_1 = lower.JSObject;
-        }
-
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_189.JSObject, 0, ___propObject_1);
-
-        // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_2;
-        if (upper is null)
-        {
-            ___propObject_2 = null;
-        }
-        else
-        {
-            ___propObject_2 = upper.JSObject;
-        }
-
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_189.JSObject, 1, ___propObject_2);
-
-        // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = lowerOpen;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_189.JSObject, 2, ___marshalledValue_3);
-
-        // Argument 4
-        bool ___marshalledValue_4;
-        ___marshalledValue_4 = upperOpen;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_189.JSObject, 3, ___marshalledValue_4);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_190 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), "bound", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IDBKeyRange"), __argsArray_189.JSObject, __resOwner_190.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IDBKeyRange, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_190.JSObject, "value");
-    }
-
     public bool Includes(global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? key)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_198 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_204 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
@@ -323,14 +323,14 @@ public partial class IDBKeyRange(global::System.Runtime.InteropServices.JavaScri
             ___propObject_1 = key.JSObject;
         }
 
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_198.JSObject, 0, ___propObject_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_204.JSObject, 0, ___propObject_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_199 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_205 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "includes", JSObject, __argsArray_198.JSObject, __resOwner_199.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "includes", JSObject, __argsArray_204.JSObject, __resOwner_205.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_199.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_205.JSObject, "value");
     }
 }
 

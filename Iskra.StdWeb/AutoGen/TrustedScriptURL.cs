@@ -8,8 +8,6 @@ public partial class TrustedScriptURL(global::System.Runtime.InteropServices.Jav
 {
     public void _()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __resOwner_13.JSObject);
@@ -17,8 +15,6 @@ public partial class TrustedScriptURL(global::System.Runtime.InteropServices.Jav
 
     public string ToJSON()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_16.JSObject);

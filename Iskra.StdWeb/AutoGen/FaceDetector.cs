@@ -6,22 +6,43 @@ namespace Iskra.StdWeb;
 
 public partial class FaceDetector(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DetectedFace, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> Detect(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLImageElement, global::Iskra.StdWeb.SVGImageElement, global::Iskra.StdWeb.HTMLVideoElement, global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.ImageBitmap, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.VideoFrame, global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.GenericMarshaller.Union> image)
+    public static global::Iskra.StdWeb.FaceDetector New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "FaceDetector");
+        return new global::Iskra.StdWeb.FaceDetector(__res_5);
+    }
+
+    public static global::Iskra.StdWeb.FaceDetector New(global::Iskra.StdWeb.FaceDetectorOptions faceDetectorOptions)
     {
         int ___argsArrayLength_0 = 1;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = faceDetectorOptions.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "FaceDetector", __argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.FaceDetector(__res_2);
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DetectedFace, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> Detect(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLImageElement, global::Iskra.StdWeb.SVGImageElement, global::Iskra.StdWeb.HTMLVideoElement, global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.ImageBitmap, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.VideoFrame, global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.GenericMarshaller.Union> image)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = image.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_0.JSObject, 0, ___propObject_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_6.JSObject, 0, ___propObject_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "detect", JSObject, __argsArray_0.JSObject, __resOwner_1.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "detect", JSObject, __argsArray_6.JSObject, __resOwner_7.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DetectedFace, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DetectedFace, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_7.JSObject, "value");
     }
 }
 

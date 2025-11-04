@@ -6,6 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class SpeechSynthesisUtterance(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
+    public static global::Iskra.StdWeb.SpeechSynthesisUtterance New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_77 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SpeechSynthesisUtterance");
+        return new global::Iskra.StdWeb.SpeechSynthesisUtterance(__res_77);
+    }
+
+    public static global::Iskra.StdWeb.SpeechSynthesisUtterance New(string text)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_72 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = text;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_72.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_74 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SpeechSynthesisUtterance", __argsArray_72.JSObject);
+        return new global::Iskra.StdWeb.SpeechSynthesisUtterance(__res_74);
+    }
+
     public string Text
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "text");

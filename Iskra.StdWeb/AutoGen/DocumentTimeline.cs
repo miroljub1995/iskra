@@ -6,7 +6,26 @@ namespace Iskra.StdWeb;
 
 public partial class DocumentTimeline(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AnimationTimeline(obj)
 {
+    public static global::Iskra.StdWeb.DocumentTimeline New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_11 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DocumentTimeline");
+        return new global::Iskra.StdWeb.DocumentTimeline(__res_11);
+    }
 
+    public static global::Iskra.StdWeb.DocumentTimeline New(global::Iskra.StdWeb.DocumentTimelineOptions options)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_6.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_8 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DocumentTimeline", __argsArray_6.JSObject);
+        return new global::Iskra.StdWeb.DocumentTimeline(__res_8);
+    }
 }
 
 #nullable disable

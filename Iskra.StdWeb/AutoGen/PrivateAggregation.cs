@@ -39,8 +39,6 @@ public partial class PrivateAggregation(global::System.Runtime.InteropServices.J
 
     public void EnableDebugMode()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "enableDebugMode", JSObject);
     }
 

@@ -8,15 +8,11 @@ public partial class TestOperations(global::System.Runtime.InteropServices.JavaS
 {
     public void VoidOperation()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "voidOperation", JSObject);
     }
 
     public bool BoolOperation()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "boolOperation", JSObject, __resOwner_4.JSObject);
@@ -27,8 +23,6 @@ public partial class TestOperations(global::System.Runtime.InteropServices.JavaS
 
     public int LongOperation()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "longOperation", JSObject, __resOwner_7.JSObject);
@@ -39,8 +33,6 @@ public partial class TestOperations(global::System.Runtime.InteropServices.JavaS
 
     public string StringOperation()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "stringOperation", JSObject, __resOwner_10.JSObject);
@@ -75,8 +67,6 @@ public partial class TestOperations(global::System.Runtime.InteropServices.JavaS
 
     public string OptionalArgOperation()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "optionalArgOperation", JSObject, __resOwner_19.JSObject);

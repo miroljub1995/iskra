@@ -6,7 +6,40 @@ namespace Iskra.StdWeb;
 
 public partial class ChannelSplitterNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AudioNode(obj)
 {
+    public static global::Iskra.StdWeb.ChannelSplitterNode New(global::Iskra.StdWeb.BaseAudioContext context)
+    {
+        int ___argsArrayLength_0 = 1;
 
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_305 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = context.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_305.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_307 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ChannelSplitterNode", __argsArray_305.JSObject);
+        return new global::Iskra.StdWeb.ChannelSplitterNode(__res_307);
+    }
+
+    public static global::Iskra.StdWeb.ChannelSplitterNode New(global::Iskra.StdWeb.BaseAudioContext context, global::Iskra.StdWeb.ChannelSplitterOptions options)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_302 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = context.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_302.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_302.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_304 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ChannelSplitterNode", __argsArray_302.JSObject);
+        return new global::Iskra.StdWeb.ChannelSplitterNode(__res_304);
+    }
 }
 
 #nullable disable

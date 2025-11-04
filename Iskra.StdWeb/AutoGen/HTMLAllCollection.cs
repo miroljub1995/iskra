@@ -51,8 +51,6 @@ public partial class HTMLAllCollection(global::System.Runtime.InteropServices.Ja
 
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? Item()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "item", JSObject, __resOwner_10.JSObject);

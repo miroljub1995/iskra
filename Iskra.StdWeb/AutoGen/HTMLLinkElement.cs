@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLLinkElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLLinkElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_89 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLLinkElement");
+        return new global::Iskra.StdWeb.HTMLLinkElement(__res_89);
+    }
+
     public string Href
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "href");

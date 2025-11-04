@@ -1,0 +1,159 @@
+{
+  "spec": {
+    "title": "Test Constructors",
+    "url": "https://example.com/"
+  },
+  "idlparsed": {
+    "idlNames": {
+      "TestConstructors": {
+        "fragment": "",
+        "type": "interface",
+        "name": "TestConstructors",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "constructor",
+            "arguments": [],
+            "extAttrs": []
+          },
+          {
+            "type": "constructor",
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "value",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "long"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": []
+          },
+          {
+            "type": "constructor",
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "value",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "string"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "number",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "long"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "flag",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "boolean"
+                },
+                "default": null,
+                "optional": true,
+                "variadic": false
+              }
+            ],
+            "extAttrs": []
+          },
+          {
+            "type": "constructor",
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "a",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "string"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "b",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "string"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "c",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "double"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": true
+              }
+            ],
+            "extAttrs": []
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "deprecated": false,
+        "experimental": false,
+        "href": ""
+      }
+    }
+  }
+}
+

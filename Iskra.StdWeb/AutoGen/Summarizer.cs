@@ -8,8 +8,6 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
 {
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Summarizer, global::Iskra.StdWeb.PropertyAccessor> Create()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Summarizer"), "create", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Summarizer"), __resOwner_4.JSObject);
@@ -39,8 +37,6 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
 
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Availability, global::Iskra.StdWeb.PropertyAccessor> Availability()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Summarizer"), "availability", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Summarizer"), __resOwner_10.JSObject);
@@ -239,8 +235,6 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
 
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 }

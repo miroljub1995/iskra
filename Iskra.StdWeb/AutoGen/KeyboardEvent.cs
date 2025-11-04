@@ -6,6 +6,41 @@ namespace Iskra.StdWeb;
 
 public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.UIEvent(obj)
 {
+    public static global::Iskra.StdWeb.KeyboardEvent New(string type)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_99 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_99.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_101 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "KeyboardEvent", __argsArray_99.JSObject);
+        return new global::Iskra.StdWeb.KeyboardEvent(__res_101);
+    }
+
+    public static global::Iskra.StdWeb.KeyboardEvent New(string type, global::Iskra.StdWeb.KeyboardEventInit eventInitDict)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_96 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_96.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = eventInitDict.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_96.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_98 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "KeyboardEvent", __argsArray_96.JSObject);
+        return new global::Iskra.StdWeb.KeyboardEvent(__res_98);
+    }
+
     public string Key
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "key");
@@ -55,98 +90,98 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_66 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_102 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = keyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_66.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_102.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_67 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_103 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getModifierState", JSObject, __argsArray_66.JSObject, __resOwner_67.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getModifierState", JSObject, __argsArray_102.JSObject, __resOwner_103.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_67.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_103.JSObject, "value");
     }
 
     public void InitKeyboardEvent(string typeArg)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_96 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_132 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_96.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_132.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_96.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_132.JSObject);
     }
 
     public void InitKeyboardEvent(string typeArg, bool bubblesArg)
     {
         int ___argsArrayLength_0 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_93 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_129 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_93.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_129.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         bool ___marshalledValue_2;
         ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_93.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_129.JSObject, 1, ___marshalledValue_2);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_93.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_129.JSObject);
     }
 
     public void InitKeyboardEvent(string typeArg, bool bubblesArg, bool cancelableArg)
     {
         int ___argsArrayLength_0 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_90 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_126 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_90.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_126.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         bool ___marshalledValue_2;
         ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_90.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_126.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         bool ___marshalledValue_3;
         ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_90.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_126.JSObject, 2, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_90.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_126.JSObject);
     }
 
     public void InitKeyboardEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg)
     {
         int ___argsArrayLength_0 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_87 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_123 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_87.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_123.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         bool ___marshalledValue_2;
         ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_87.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_123.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         bool ___marshalledValue_3;
         ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_87.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_123.JSObject, 2, ___marshalledValue_3);
 
         // Argument 4
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
@@ -159,31 +194,31 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
             global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
             ___marshalledValue_4 = ___notNullable_5.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_87.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_123.JSObject, 3, ___marshalledValue_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_87.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_123.JSObject);
     }
 
     public void InitKeyboardEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, string keyArg)
     {
         int ___argsArrayLength_0 = 5;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_84 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_120 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_84.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_120.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         bool ___marshalledValue_2;
         ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_84.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_120.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         bool ___marshalledValue_3;
         ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_84.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_120.JSObject, 2, ___marshalledValue_3);
 
         // Argument 4
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
@@ -196,36 +231,36 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
             global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
             ___marshalledValue_4 = ___notNullable_5.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_84.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_120.JSObject, 3, ___marshalledValue_4);
 
         // Argument 5
         string ___marshalledValue_6;
         ___marshalledValue_6 = keyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_84.JSObject, 4, ___marshalledValue_6);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_120.JSObject, 4, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_84.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_120.JSObject);
     }
 
     public void InitKeyboardEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, string keyArg, uint locationArg)
     {
         int ___argsArrayLength_0 = 6;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_81 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_117 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_81.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_117.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         bool ___marshalledValue_2;
         ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_81.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_117.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         bool ___marshalledValue_3;
         ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_81.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_117.JSObject, 2, ___marshalledValue_3);
 
         // Argument 4
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
@@ -238,41 +273,41 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
             global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
             ___marshalledValue_4 = ___notNullable_5.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_81.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_117.JSObject, 3, ___marshalledValue_4);
 
         // Argument 5
         string ___marshalledValue_6;
         ___marshalledValue_6 = keyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_81.JSObject, 4, ___marshalledValue_6);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_117.JSObject, 4, ___marshalledValue_6);
 
         // Argument 6
         double ___marshalledValue_7;
         ___marshalledValue_7 = Convert.ToDouble(locationArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_81.JSObject, 5, ___marshalledValue_7);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_117.JSObject, 5, ___marshalledValue_7);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_81.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_117.JSObject);
     }
 
     public void InitKeyboardEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, string keyArg, uint locationArg, bool ctrlKey)
     {
         int ___argsArrayLength_0 = 7;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_78 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_114 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_78.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_114.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         bool ___marshalledValue_2;
         ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_78.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_114.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         bool ___marshalledValue_3;
         ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_78.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_114.JSObject, 2, ___marshalledValue_3);
 
         // Argument 4
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
@@ -285,46 +320,46 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
             global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
             ___marshalledValue_4 = ___notNullable_5.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_78.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_114.JSObject, 3, ___marshalledValue_4);
 
         // Argument 5
         string ___marshalledValue_6;
         ___marshalledValue_6 = keyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_78.JSObject, 4, ___marshalledValue_6);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_114.JSObject, 4, ___marshalledValue_6);
 
         // Argument 6
         double ___marshalledValue_7;
         ___marshalledValue_7 = Convert.ToDouble(locationArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_78.JSObject, 5, ___marshalledValue_7);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_114.JSObject, 5, ___marshalledValue_7);
 
         // Argument 7
         bool ___marshalledValue_8;
         ___marshalledValue_8 = ctrlKey;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_78.JSObject, 6, ___marshalledValue_8);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_114.JSObject, 6, ___marshalledValue_8);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_78.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_114.JSObject);
     }
 
     public void InitKeyboardEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, string keyArg, uint locationArg, bool ctrlKey, bool altKey)
     {
         int ___argsArrayLength_0 = 8;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_75 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_111 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_75.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_111.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         bool ___marshalledValue_2;
         ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_75.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_111.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         bool ___marshalledValue_3;
         ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_75.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_111.JSObject, 2, ___marshalledValue_3);
 
         // Argument 4
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
@@ -337,51 +372,51 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
             global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
             ___marshalledValue_4 = ___notNullable_5.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_75.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_111.JSObject, 3, ___marshalledValue_4);
 
         // Argument 5
         string ___marshalledValue_6;
         ___marshalledValue_6 = keyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_75.JSObject, 4, ___marshalledValue_6);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_111.JSObject, 4, ___marshalledValue_6);
 
         // Argument 6
         double ___marshalledValue_7;
         ___marshalledValue_7 = Convert.ToDouble(locationArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_75.JSObject, 5, ___marshalledValue_7);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_111.JSObject, 5, ___marshalledValue_7);
 
         // Argument 7
         bool ___marshalledValue_8;
         ___marshalledValue_8 = ctrlKey;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_75.JSObject, 6, ___marshalledValue_8);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_111.JSObject, 6, ___marshalledValue_8);
 
         // Argument 8
         bool ___marshalledValue_9;
         ___marshalledValue_9 = altKey;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_75.JSObject, 7, ___marshalledValue_9);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_111.JSObject, 7, ___marshalledValue_9);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_75.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_111.JSObject);
     }
 
     public void InitKeyboardEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, string keyArg, uint locationArg, bool ctrlKey, bool altKey, bool shiftKey)
     {
         int ___argsArrayLength_0 = 9;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_72 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_108 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_72.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_108.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         bool ___marshalledValue_2;
         ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_72.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_108.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         bool ___marshalledValue_3;
         ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_72.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_108.JSObject, 2, ___marshalledValue_3);
 
         // Argument 4
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
@@ -394,56 +429,56 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
             global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
             ___marshalledValue_4 = ___notNullable_5.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_72.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_108.JSObject, 3, ___marshalledValue_4);
 
         // Argument 5
         string ___marshalledValue_6;
         ___marshalledValue_6 = keyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_72.JSObject, 4, ___marshalledValue_6);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_108.JSObject, 4, ___marshalledValue_6);
 
         // Argument 6
         double ___marshalledValue_7;
         ___marshalledValue_7 = Convert.ToDouble(locationArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_72.JSObject, 5, ___marshalledValue_7);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_108.JSObject, 5, ___marshalledValue_7);
 
         // Argument 7
         bool ___marshalledValue_8;
         ___marshalledValue_8 = ctrlKey;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_72.JSObject, 6, ___marshalledValue_8);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_108.JSObject, 6, ___marshalledValue_8);
 
         // Argument 8
         bool ___marshalledValue_9;
         ___marshalledValue_9 = altKey;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_72.JSObject, 7, ___marshalledValue_9);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_108.JSObject, 7, ___marshalledValue_9);
 
         // Argument 9
         bool ___marshalledValue_10;
         ___marshalledValue_10 = shiftKey;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_72.JSObject, 8, ___marshalledValue_10);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_108.JSObject, 8, ___marshalledValue_10);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_72.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_108.JSObject);
     }
 
     public void InitKeyboardEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, string keyArg, uint locationArg, bool ctrlKey, bool altKey, bool shiftKey, bool metaKey)
     {
         int ___argsArrayLength_0 = 10;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_69 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_105 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_69.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_105.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         bool ___marshalledValue_2;
         ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_69.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_105.JSObject, 1, ___marshalledValue_2);
 
         // Argument 3
         bool ___marshalledValue_3;
         ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_69.JSObject, 2, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_105.JSObject, 2, ___marshalledValue_3);
 
         // Argument 4
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
@@ -456,39 +491,39 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
             global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
             ___marshalledValue_4 = ___notNullable_5.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_69.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_105.JSObject, 3, ___marshalledValue_4);
 
         // Argument 5
         string ___marshalledValue_6;
         ___marshalledValue_6 = keyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_69.JSObject, 4, ___marshalledValue_6);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_105.JSObject, 4, ___marshalledValue_6);
 
         // Argument 6
         double ___marshalledValue_7;
         ___marshalledValue_7 = Convert.ToDouble(locationArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_69.JSObject, 5, ___marshalledValue_7);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_105.JSObject, 5, ___marshalledValue_7);
 
         // Argument 7
         bool ___marshalledValue_8;
         ___marshalledValue_8 = ctrlKey;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_69.JSObject, 6, ___marshalledValue_8);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_105.JSObject, 6, ___marshalledValue_8);
 
         // Argument 8
         bool ___marshalledValue_9;
         ___marshalledValue_9 = altKey;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_69.JSObject, 7, ___marshalledValue_9);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_105.JSObject, 7, ___marshalledValue_9);
 
         // Argument 9
         bool ___marshalledValue_10;
         ___marshalledValue_10 = shiftKey;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_69.JSObject, 8, ___marshalledValue_10);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_105.JSObject, 8, ___marshalledValue_10);
 
         // Argument 10
         bool ___marshalledValue_11;
         ___marshalledValue_11 = metaKey;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_69.JSObject, 9, ___marshalledValue_11);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_105.JSObject, 9, ___marshalledValue_11);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_69.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initKeyboardEvent", JSObject, __argsArray_105.JSObject);
     }
 
     public uint CharCode

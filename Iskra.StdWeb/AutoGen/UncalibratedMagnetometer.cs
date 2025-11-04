@@ -6,6 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class UncalibratedMagnetometer(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Sensor(obj)
 {
+    public static global::Iskra.StdWeb.UncalibratedMagnetometer New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_11 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "UncalibratedMagnetometer");
+        return new global::Iskra.StdWeb.UncalibratedMagnetometer(__res_11);
+    }
+
+    public static global::Iskra.StdWeb.UncalibratedMagnetometer New(global::Iskra.StdWeb.MagnetometerSensorOptions sensorOptions)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = sensorOptions.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_6.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_8 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "UncalibratedMagnetometer", __argsArray_6.JSObject);
+        return new global::Iskra.StdWeb.UncalibratedMagnetometer(__res_8);
+    }
+
     public double? X
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "x");

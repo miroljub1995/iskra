@@ -130,8 +130,6 @@ public partial class MLContext(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.StdWeb.MLOpSupportLimits OpSupportLimits()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_28 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "opSupportLimits", JSObject, __resOwner_28.JSObject);
@@ -142,8 +140,6 @@ public partial class MLContext(global::System.Runtime.InteropServices.JavaScript
 
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 

@@ -23,8 +23,6 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
 
     public void SetMatrix()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "setMatrix", JSObject);
     }
 
@@ -32,36 +30,17 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_195 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_198 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = matrix.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_195.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_198.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setMatrix", JSObject, __argsArray_195.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setMatrix", JSObject, __argsArray_198.JSObject);
     }
 
     public void SetTranslate(float tx, float ty)
-    {
-        int ___argsArrayLength_0 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_201 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
-
-        // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = Convert.ToDouble(tx);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_201.JSObject, 0, ___marshalledValue_1);
-
-        // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(ty);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_201.JSObject, 1, ___marshalledValue_2);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setTranslate", JSObject, __argsArray_201.JSObject);
-    }
-
-    public void SetScale(float sx, float sy)
     {
         int ___argsArrayLength_0 = 2;
 
@@ -69,44 +48,39 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
 
         // Argument 1
         double ___marshalledValue_1;
-        ___marshalledValue_1 = Convert.ToDouble(sx);
+        ___marshalledValue_1 = Convert.ToDouble(tx);
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_204.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(sy);
+        ___marshalledValue_2 = Convert.ToDouble(ty);
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_204.JSObject, 1, ___marshalledValue_2);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setScale", JSObject, __argsArray_204.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setTranslate", JSObject, __argsArray_204.JSObject);
     }
 
-    public void SetRotate(float angle, float cx, float cy)
+    public void SetScale(float sx, float sy)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_0 = 2;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_207 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
-        ___marshalledValue_1 = Convert.ToDouble(angle);
+        ___marshalledValue_1 = Convert.ToDouble(sx);
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_207.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(cx);
+        ___marshalledValue_2 = Convert.ToDouble(sy);
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_207.JSObject, 1, ___marshalledValue_2);
 
-        // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = Convert.ToDouble(cy);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_207.JSObject, 2, ___marshalledValue_3);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setRotate", JSObject, __argsArray_207.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setScale", JSObject, __argsArray_207.JSObject);
     }
 
-    public void SetSkewX(float angle)
+    public void SetRotate(float angle, float cx, float cy)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_0 = 3;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_210 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
@@ -115,10 +89,20 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
         ___marshalledValue_1 = Convert.ToDouble(angle);
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_210.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setSkewX", JSObject, __argsArray_210.JSObject);
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(cx);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_210.JSObject, 1, ___marshalledValue_2);
+
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = Convert.ToDouble(cy);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_210.JSObject, 2, ___marshalledValue_3);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setRotate", JSObject, __argsArray_210.JSObject);
     }
 
-    public void SetSkewY(float angle)
+    public void SetSkewX(float angle)
     {
         int ___argsArrayLength_0 = 1;
 
@@ -129,7 +113,21 @@ public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScr
         ___marshalledValue_1 = Convert.ToDouble(angle);
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_213.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setSkewY", JSObject, __argsArray_213.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setSkewX", JSObject, __argsArray_213.JSObject);
+    }
+
+    public void SetSkewY(float angle)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_216 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = Convert.ToDouble(angle);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_216.JSObject, 0, ___marshalledValue_1);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setSkewY", JSObject, __argsArray_216.JSObject);
     }
 }
 

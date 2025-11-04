@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLProgressElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLProgressElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_536 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLProgressElement");
+        return new global::Iskra.StdWeb.HTMLProgressElement(__res_536);
+    }
+
     public double Value
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");

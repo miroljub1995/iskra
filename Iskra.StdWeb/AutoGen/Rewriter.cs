@@ -8,8 +8,6 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
 {
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Rewriter, global::Iskra.StdWeb.PropertyAccessor> Create()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_70 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Rewriter"), "create", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Rewriter"), __resOwner_70.JSObject);
@@ -39,8 +37,6 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
 
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Availability, global::Iskra.StdWeb.PropertyAccessor> Availability()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_76 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Rewriter"), "availability", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Rewriter"), __resOwner_76.JSObject);
@@ -239,8 +235,6 @@ public partial class Rewriter(global::System.Runtime.InteropServices.JavaScript.
 
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 }

@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTitleElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLTitleElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_83 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTitleElement");
+        return new global::Iskra.StdWeb.HTMLTitleElement(__res_83);
+    }
+
     public string Text
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "text");

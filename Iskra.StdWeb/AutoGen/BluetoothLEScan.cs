@@ -28,8 +28,6 @@ public partial class BluetoothLEScan(global::System.Runtime.InteropServices.Java
 
     public void Stop()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "stop", JSObject);
     }
 }

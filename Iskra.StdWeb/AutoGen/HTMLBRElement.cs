@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLBRElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLBRElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_146 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLBRElement");
+        return new global::Iskra.StdWeb.HTMLBRElement(__res_146);
+    }
+
     public string Clear
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "clear");

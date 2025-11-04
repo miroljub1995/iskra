@@ -6,7 +6,40 @@ namespace Iskra.StdWeb;
 
 public partial class ChannelMergerNode(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AudioNode(obj)
 {
+    public static global::Iskra.StdWeb.ChannelMergerNode New(global::Iskra.StdWeb.BaseAudioContext context)
+    {
+        int ___argsArrayLength_0 = 1;
 
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_299 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = context.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_299.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_301 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ChannelMergerNode", __argsArray_299.JSObject);
+        return new global::Iskra.StdWeb.ChannelMergerNode(__res_301);
+    }
+
+    public static global::Iskra.StdWeb.ChannelMergerNode New(global::Iskra.StdWeb.BaseAudioContext context, global::Iskra.StdWeb.ChannelMergerOptions options)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_296 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = context.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_296.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_296.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_298 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ChannelMergerNode", __argsArray_296.JSObject);
+        return new global::Iskra.StdWeb.ChannelMergerNode(__res_298);
+    }
 }
 
 #nullable disable

@@ -6,16 +6,64 @@ namespace Iskra.StdWeb;
 
 public partial class SequenceEffect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.GroupEffect(obj)
 {
+    public static global::Iskra.StdWeb.SequenceEffect New(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.AnimationEffect, global::Iskra.StdWeb.PropertyAccessor>? children)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_21 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
+        if (children is null)
+        {
+            ___propObject_1 = null;
+        }
+        else
+        {
+            ___propObject_1 = children.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_21.JSObject, 0, ___propObject_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_23 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SequenceEffect", __argsArray_21.JSObject);
+        return new global::Iskra.StdWeb.SequenceEffect(__res_23);
+    }
+
+    public static global::Iskra.StdWeb.SequenceEffect New(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.AnimationEffect, global::Iskra.StdWeb.PropertyAccessor>? children, global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.EffectTiming, global::Iskra.StdWeb.GenericMarshaller.Union> timing)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_18 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_1;
+        if (children is null)
+        {
+            ___propObject_1 = null;
+        }
+        else
+        {
+            ___propObject_1 = children.JSObject;
+        }
+
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_18.JSObject, 0, ___propObject_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_2 = timing.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_18.JSObject, 1, ___propObject_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_20 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SequenceEffect", __argsArray_18.JSObject);
+        return new global::Iskra.StdWeb.SequenceEffect(__res_20);
+    }
+
     public global::Iskra.StdWeb.SequenceEffect Clone()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_25 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "clone", JSObject, __resOwner_13.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "clone", JSObject, __resOwner_25.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SequenceEffect, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_13.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SequenceEffect, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_25.JSObject, "value");
     }
 }
 

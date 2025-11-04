@@ -35,8 +35,6 @@ public partial class BrowserCaptureMediaStreamTrack(global::System.Runtime.Inter
 
     public global::Iskra.StdWeb.BrowserCaptureMediaStreamTrack Clone()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "clone", JSObject, __resOwner_7.JSObject);

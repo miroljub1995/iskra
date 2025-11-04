@@ -8,8 +8,6 @@ public partial class XRHitTestResult(global::System.Runtime.InteropServices.Java
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.XRAnchor, global::Iskra.StdWeb.PropertyAccessor> CreateAnchor()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createAnchor", JSObject, __resOwner_7.JSObject);

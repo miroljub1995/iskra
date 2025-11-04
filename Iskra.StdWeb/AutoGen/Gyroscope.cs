@@ -6,6 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class Gyroscope(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Sensor(obj)
 {
+    public static global::Iskra.StdWeb.Gyroscope New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Gyroscope");
+        return new global::Iskra.StdWeb.Gyroscope(__res_5);
+    }
+
+    public static global::Iskra.StdWeb.Gyroscope New(global::Iskra.StdWeb.GyroscopeSensorOptions sensorOptions)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = sensorOptions.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Gyroscope", __argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.Gyroscope(__res_2);
+    }
+
     public double? X
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "x");

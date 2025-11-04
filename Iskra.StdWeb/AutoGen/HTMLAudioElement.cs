@@ -6,7 +6,11 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLAudioElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLMediaElement(obj)
 {
-
+    public static global::Iskra.StdWeb.HTMLAudioElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_206 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLAudioElement");
+        return new global::Iskra.StdWeb.HTMLAudioElement(__res_206);
+    }
 }
 
 #nullable disable

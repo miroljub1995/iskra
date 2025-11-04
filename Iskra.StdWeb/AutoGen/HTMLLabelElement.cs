@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLLabelElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLLabelElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_389 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLLabelElement");
+        return new global::Iskra.StdWeb.HTMLLabelElement(__res_389);
+    }
+
     public global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLFormElement?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "form");

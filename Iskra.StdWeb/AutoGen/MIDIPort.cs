@@ -49,8 +49,6 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MIDIPort, global::Iskra.StdWeb.PropertyAccessor> Open()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "open", JSObject, __resOwner_1.JSObject);
@@ -61,8 +59,6 @@ public partial class MIDIPort(global::System.Runtime.InteropServices.JavaScript.
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MIDIPort, global::Iskra.StdWeb.PropertyAccessor> Close()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "close", JSObject, __resOwner_4.JSObject);

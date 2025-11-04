@@ -8,8 +8,6 @@ public partial class CSSStyleValue(global::System.Runtime.InteropServices.JavaSc
 {
     public void _()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __resOwner_1.JSObject);

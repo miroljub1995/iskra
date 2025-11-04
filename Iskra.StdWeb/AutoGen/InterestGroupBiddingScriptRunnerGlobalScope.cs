@@ -8,8 +8,6 @@ public partial class InterestGroupBiddingScriptRunnerGlobalScope(global::System.
 {
     public bool SetBid()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "setBid", JSObject, __resOwner_19.JSObject);

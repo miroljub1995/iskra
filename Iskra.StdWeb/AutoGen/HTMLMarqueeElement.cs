@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLMarqueeElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2170 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMarqueeElement");
+        return new global::Iskra.StdWeb.HTMLMarqueeElement(__res_2170);
+    }
+
     public string Behavior
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "behavior");
@@ -74,15 +80,11 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
 
     public void Start()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "start", JSObject);
     }
 
     public void Stop()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "stop", JSObject);
     }
 }

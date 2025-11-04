@@ -31,8 +31,6 @@ public partial class Crypto(global::System.Runtime.InteropServices.JavaScript.JS
 
     public string RandomUUID()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "randomUUID", JSObject, __resOwner_4.JSObject);

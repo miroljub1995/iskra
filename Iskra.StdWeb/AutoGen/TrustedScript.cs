@@ -8,8 +8,6 @@ public partial class TrustedScript(global::System.Runtime.InteropServices.JavaSc
 {
     public void _()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __resOwner_7.JSObject);
@@ -17,8 +15,6 @@ public partial class TrustedScript(global::System.Runtime.InteropServices.JavaSc
 
     public string ToJSON()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_10.JSObject);

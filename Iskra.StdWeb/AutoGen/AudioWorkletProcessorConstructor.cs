@@ -10,28 +10,28 @@ public partial class AudioWorkletProcessorConstructor(global::System.Runtime.Int
 {
     public static implicit operator AudioWorkletProcessorConstructor(AudioWorkletProcessorConstructorManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_269, __res_274) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_398, __res_403) =>
         {
-            using (__args_269)
-            using (__res_274)
+            using (__args_398)
+            using (__res_403)
             {
                 // Argument 1
-                global::System.Runtime.InteropServices.JavaScript.JSObject __arg_271;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_272 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_269, 0);
-                __arg_271 = __res_272;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __arg_400;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_401 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_398, 0);
+                __arg_400 = __res_401;
 
-                global::Iskra.StdWeb.AudioWorkletProcessor __managedRes_275 = input(__arg_271);
+                global::Iskra.StdWeb.AudioWorkletProcessor __managedRes_404 = input(__arg_400);
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_276;
-                __marshalledValue_276 = __managedRes_275.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_274, "value", __marshalledValue_276);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_405;
+                __marshalledValue_405 = __managedRes_404.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_403, "value", __marshalledValue_405);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_273 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_273, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_402 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_402, input); 
 
-        return new global::Iskra.StdWeb.AudioWorkletProcessorConstructor(__funcObj_273);
+        return new global::Iskra.StdWeb.AudioWorkletProcessorConstructor(__funcObj_402);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.AudioWorkletProcessorConstructorManaged? managed, bool allowConversion = false)
@@ -49,24 +49,24 @@ public partial class AudioWorkletProcessorConstructor(global::System.Runtime.Int
 
         managed = (options) =>
         {
-            int __argsArrayLength_280 = 1;
+            int __argsArrayLength_409 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_277 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_280);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_406 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_409);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_281;
-            __marshalledValue_281 = options;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_277.JSObject, 0, __marshalledValue_281);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_410;
+            __marshalledValue_410 = options;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_406.JSObject, 0, __marshalledValue_410);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_278 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_407 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_277.JSObject, __resOwner_278.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_406.JSObject, __resOwner_407.JSObject);
 
             // Return Value
-            global::Iskra.StdWeb.AudioWorkletProcessor __res_279;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __res_282 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_278.JSObject, "value");
-            __res_279 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioWorkletProcessor>(__res_282);
-            return __res_279;
+            global::Iskra.StdWeb.AudioWorkletProcessor __res_408;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __res_411 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_407.JSObject, "value");
+            __res_408 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioWorkletProcessor>(__res_411);
+            return __res_408;
         };
         return true;
     }

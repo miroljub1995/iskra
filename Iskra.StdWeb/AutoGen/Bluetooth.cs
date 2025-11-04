@@ -8,8 +8,6 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
 {
     public global::Iskra.JSCore.Generics.Promise<bool, global::Iskra.StdWeb.PropertyAccessor> GetAvailability()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getAvailability", JSObject, __resOwner_1.JSObject);
@@ -31,8 +29,6 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetDevices()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getDevices", JSObject, __resOwner_4.JSObject);
@@ -43,8 +39,6 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.PropertyAccessor> RequestDevice()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestDevice", JSObject, __resOwner_10.JSObject);
@@ -74,8 +68,6 @@ public partial class Bluetooth(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.BluetoothLEScan, global::Iskra.StdWeb.PropertyAccessor> RequestLEScan()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestLEScan", JSObject, __resOwner_16.JSObject);

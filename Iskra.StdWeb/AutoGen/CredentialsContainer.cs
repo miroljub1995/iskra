@@ -8,8 +8,6 @@ public partial class CredentialsContainer(global::System.Runtime.InteropServices
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Credential?, global::Iskra.StdWeb.PropertyAccessorNullable> Get()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "get", JSObject, __resOwner_10.JSObject);
@@ -58,8 +56,6 @@ public partial class CredentialsContainer(global::System.Runtime.InteropServices
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Credential?, global::Iskra.StdWeb.PropertyAccessorNullable> Create()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "create", JSObject, __resOwner_19.JSObject);
@@ -89,8 +85,6 @@ public partial class CredentialsContainer(global::System.Runtime.InteropServices
 
     public global::Iskra.JSCore.Promise PreventSilentAccess()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_22 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "preventSilentAccess", JSObject, __resOwner_22.JSObject);

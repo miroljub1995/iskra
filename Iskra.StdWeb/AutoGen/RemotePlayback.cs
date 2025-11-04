@@ -27,8 +27,6 @@ public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaS
 
     public global::Iskra.JSCore.Promise CancelWatchAvailability()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "cancelWatchAvailability", JSObject, __resOwner_7.JSObject);
@@ -81,8 +79,6 @@ public partial class RemotePlayback(global::System.Runtime.InteropServices.JavaS
 
     public global::Iskra.JSCore.Promise Prompt()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "prompt", JSObject, __resOwner_10.JSObject);

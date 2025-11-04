@@ -8,8 +8,6 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
 {
     public global::Iskra.StdWeb.GPUTextureView CreateView()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_103 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createView", JSObject, __resOwner_103.JSObject);
@@ -39,8 +37,6 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
 
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 

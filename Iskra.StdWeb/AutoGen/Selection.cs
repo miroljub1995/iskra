@@ -95,22 +95,16 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
 
     public void RemoveAllRanges()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "removeAllRanges", JSObject);
     }
 
     public void Empty()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "empty", JSObject);
     }
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.StaticRange, global::Iskra.StdWeb.PropertyAccessor> GetComposedRanges()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_19 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getComposedRanges", JSObject, __resOwner_19.JSObject);
@@ -238,15 +232,11 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
 
     public void CollapseToStart()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "collapseToStart", JSObject);
     }
 
     public void CollapseToEnd()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "collapseToEnd", JSObject);
     }
 
@@ -328,8 +318,6 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
 
     public void Modify()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "modify", JSObject);
     }
 
@@ -392,8 +380,6 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
 
     public void DeleteFromDocument()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "deleteFromDocument", JSObject);
     }
 
@@ -442,8 +428,6 @@ public partial class Selection(global::System.Runtime.InteropServices.JavaScript
 
     public void _()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_73 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "", JSObject, __resOwner_73.JSObject);

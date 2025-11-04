@@ -671,8 +671,6 @@ public partial class MathMLElement(global::System.Runtime.InteropServices.JavaSc
 
     public void Focus()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "focus", JSObject);
     }
 
@@ -692,8 +690,6 @@ public partial class MathMLElement(global::System.Runtime.InteropServices.JavaSc
 
     public void Blur()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "blur", JSObject);
     }
 }

@@ -23,8 +23,6 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
 
     public void SkipTransition()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "skipTransition", JSObject);
     }
 

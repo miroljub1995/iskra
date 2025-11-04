@@ -16,6 +16,12 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<int, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "y");
     }
 
+    public static global::Iskra.StdWeb.HTMLImageElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_158 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLImageElement");
+        return new global::Iskra.StdWeb.HTMLImageElement(__res_158);
+    }
+
     public string Alt
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "alt");
@@ -116,14 +122,12 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.JSCore.Promise Decode()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_160 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_73 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "decode", JSObject, __resOwner_73.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "decode", JSObject, __resOwner_160.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_73.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_160.JSObject, "value");
     }
 
     public string Name

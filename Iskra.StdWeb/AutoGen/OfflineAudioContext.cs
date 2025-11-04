@@ -6,47 +6,83 @@ namespace Iskra.StdWeb;
 
 public partial class OfflineAudioContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.BaseAudioContext(obj)
 {
-    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.AudioBuffer, global::Iskra.StdWeb.PropertyAccessor> StartRendering()
-    {
-
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_132 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "startRendering", JSObject, __resOwner_132.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.AudioBuffer, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_132.JSObject, "value");
-    }
-
-    public global::Iskra.JSCore.Promise Resume()
-    {
-
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_135 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "resume", JSObject, __resOwner_135.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_135.JSObject, "value");
-    }
-
-    public global::Iskra.JSCore.Promise Suspend(double suspendTime)
+    public static global::Iskra.StdWeb.OfflineAudioContext New(global::Iskra.StdWeb.OfflineAudioContextOptions contextOptions)
     {
         int ___argsArrayLength_0 = 1;
 
         using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_137 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = contextOptions.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_137.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_139 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "OfflineAudioContext", __argsArray_137.JSObject);
+        return new global::Iskra.StdWeb.OfflineAudioContext(__res_139);
+    }
+
+    public static global::Iskra.StdWeb.OfflineAudioContext New(uint numberOfChannels, uint length, float sampleRate)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_140 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
         double ___marshalledValue_1;
-        ___marshalledValue_1 = suspendTime;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_137.JSObject, 0, ___marshalledValue_1);
+        ___marshalledValue_1 = Convert.ToDouble(numberOfChannels);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_140.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_138 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        // Argument 2
+        double ___marshalledValue_2;
+        ___marshalledValue_2 = Convert.ToDouble(length);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_140.JSObject, 1, ___marshalledValue_2);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "suspend", JSObject, __argsArray_137.JSObject, __resOwner_138.JSObject);
+        // Argument 3
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = Convert.ToDouble(sampleRate);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_140.JSObject, 2, ___marshalledValue_3);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_142 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "OfflineAudioContext", __argsArray_140.JSObject);
+        return new global::Iskra.StdWeb.OfflineAudioContext(__res_142);
+    }
+
+    public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.AudioBuffer, global::Iskra.StdWeb.PropertyAccessor> StartRendering()
+    {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_144 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "startRendering", JSObject, __resOwner_144.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_138.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.AudioBuffer, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_144.JSObject, "value");
+    }
+
+    public global::Iskra.JSCore.Promise Resume()
+    {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_147 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "resume", JSObject, __resOwner_147.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_147.JSObject, "value");
+    }
+
+    public global::Iskra.JSCore.Promise Suspend(double suspendTime)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_149 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        double ___marshalledValue_1;
+        ___marshalledValue_1 = suspendTime;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_149.JSObject, 0, ___marshalledValue_1);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_150 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "suspend", JSObject, __argsArray_149.JSObject, __resOwner_150.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_150.JSObject, "value");
     }
 
     public uint Length

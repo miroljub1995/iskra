@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLLegendElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLLegendElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_554 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLLegendElement");
+        return new global::Iskra.StdWeb.HTMLLegendElement(__res_554);
+    }
+
     public global::Iskra.StdWeb.HTMLFormElement? Form
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLFormElement?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "form");

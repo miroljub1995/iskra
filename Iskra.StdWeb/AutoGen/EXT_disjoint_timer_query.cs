@@ -8,8 +8,6 @@ public partial class EXT_disjoint_timer_query(global::System.Runtime.InteropServ
 {
     public global::Iskra.StdWeb.WebGLTimerQueryEXT CreateQueryEXT()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createQueryEXT", JSObject, __resOwner_1.JSObject);

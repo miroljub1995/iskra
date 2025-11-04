@@ -13,8 +13,6 @@ public partial class AuthenticatorAttestationResponse(global::System.Runtime.Int
 
     public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> GetTransports()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_31 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTransports", JSObject, __resOwner_31.JSObject);
@@ -25,8 +23,6 @@ public partial class AuthenticatorAttestationResponse(global::System.Runtime.Int
 
     public global::Iskra.JSCore.ArrayBuffer GetAuthenticatorData()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_34 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getAuthenticatorData", JSObject, __resOwner_34.JSObject);
@@ -37,8 +33,6 @@ public partial class AuthenticatorAttestationResponse(global::System.Runtime.Int
 
     public global::Iskra.JSCore.ArrayBuffer? GetPublicKey()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_37 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getPublicKey", JSObject, __resOwner_37.JSObject);
@@ -49,8 +43,6 @@ public partial class AuthenticatorAttestationResponse(global::System.Runtime.Int
 
     public int GetPublicKeyAlgorithm()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_40 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getPublicKeyAlgorithm", JSObject, __resOwner_40.JSObject);

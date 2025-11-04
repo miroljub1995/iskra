@@ -13,8 +13,6 @@ public partial class LayoutChild(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.IntrinsicSizes, global::Iskra.StdWeb.PropertyAccessor> IntrinsicSizes()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "intrinsicSizes", JSObject, __resOwner_4.JSObject);

@@ -6,6 +6,21 @@ namespace Iskra.StdWeb;
 
 public partial class FederatedCredential(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Credential(obj)
 {
+    public static global::Iskra.StdWeb.FederatedCredential New(global::Iskra.StdWeb.FederatedCredentialInit data)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_30 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = data.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_30.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_32 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "FederatedCredential", __argsArray_30.JSObject);
+        return new global::Iskra.StdWeb.FederatedCredential(__res_32);
+    }
+
     public string Provider
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "provider");

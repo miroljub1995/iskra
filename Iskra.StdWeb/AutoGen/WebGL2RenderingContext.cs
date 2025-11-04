@@ -40,8 +40,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.StdWeb.WebGLContextAttributes? GetContextAttributes()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getContextAttributes", JSObject, __resOwner_1.JSObject);
@@ -52,8 +50,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public bool IsContextLost()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "isContextLost", JSObject, __resOwner_4.JSObject);
@@ -64,8 +60,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>? GetSupportedExtensions()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getSupportedExtensions", JSObject, __resOwner_7.JSObject);
@@ -625,8 +619,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.StdWeb.WebGLBuffer CreateBuffer()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_79 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createBuffer", JSObject, __resOwner_79.JSObject);
@@ -637,8 +629,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.StdWeb.WebGLFramebuffer CreateFramebuffer()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_82 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createFramebuffer", JSObject, __resOwner_82.JSObject);
@@ -649,8 +639,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.StdWeb.WebGLProgram CreateProgram()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_85 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createProgram", JSObject, __resOwner_85.JSObject);
@@ -661,8 +649,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.StdWeb.WebGLRenderbuffer CreateRenderbuffer()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_88 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createRenderbuffer", JSObject, __resOwner_88.JSObject);
@@ -692,8 +678,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.StdWeb.WebGLTexture CreateTexture()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_94 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createTexture", JSObject, __resOwner_94.JSObject);
@@ -1025,15 +1009,11 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public void Finish()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "finish", JSObject);
     }
 
     public void Flush()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "flush", JSObject);
     }
 
@@ -1280,8 +1260,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public uint GetError()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_184 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getError", JSObject, __resOwner_184.JSObject);
@@ -2701,8 +2679,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.JSCore.Promise MakeXRCompatible()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_358 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "makeXRCompatible", JSObject, __resOwner_358.JSObject);
@@ -5817,8 +5793,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.StdWeb.WebGLQuery CreateQuery()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_607 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createQuery", JSObject, __resOwner_607.JSObject);
@@ -5959,8 +5933,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.StdWeb.WebGLSampler CreateSampler()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_628 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSampler", JSObject, __resOwner_628.JSObject);
@@ -6269,8 +6241,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.StdWeb.WebGLTransformFeedback CreateTransformFeedback()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_667 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createTransformFeedback", JSObject, __resOwner_667.JSObject);
@@ -6371,8 +6341,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public void EndTransformFeedback()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "endTransformFeedback", JSObject);
     }
 
@@ -6425,15 +6393,11 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public void PauseTransformFeedback()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "pauseTransformFeedback", JSObject);
     }
 
     public void ResumeTransformFeedback()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "resumeTransformFeedback", JSObject);
     }
 
@@ -6689,8 +6653,6 @@ public partial class WebGL2RenderingContext(global::System.Runtime.InteropServic
 
     public global::Iskra.StdWeb.WebGLVertexArrayObject CreateVertexArray()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_724 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createVertexArray", JSObject, __resOwner_724.JSObject);

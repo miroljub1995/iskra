@@ -100,8 +100,6 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
 
     public global::Iskra.JSCore.Promise Close()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_31 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "close", JSObject, __resOwner_31.JSObject);
@@ -112,8 +110,6 @@ public partial class MediaKeySession(global::System.Runtime.InteropServices.Java
 
     public global::Iskra.JSCore.Promise Remove()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_34 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "remove", JSObject, __resOwner_34.JSObject);

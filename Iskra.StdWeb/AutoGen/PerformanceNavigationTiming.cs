@@ -68,8 +68,6 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
 
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_1.JSObject);

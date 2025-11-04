@@ -6,6 +6,97 @@ namespace Iskra.StdWeb;
 
 public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.AnimationEffect(obj)
 {
+    public static global::Iskra.StdWeb.KeyframeEffect New(global::Iskra.StdWeb.Element? target, global::System.Runtime.InteropServices.JavaScript.JSObject? keyframes)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_72 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_1;
+        if (target is null)
+        {
+            ___marshalledValue_1 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.Element ___notNullable_2 = (global::Iskra.StdWeb.Element)target;
+            ___marshalledValue_1 = ___notNullable_2.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_72.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_3;
+        if (keyframes is null)
+        {
+            ___marshalledValue_3 = null;
+        }
+        else
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_4 = (global::System.Runtime.InteropServices.JavaScript.JSObject)keyframes;
+            ___marshalledValue_3 = ___notNullable_4;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_72.JSObject, 1, ___marshalledValue_3);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_74 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "KeyframeEffect", __argsArray_72.JSObject);
+        return new global::Iskra.StdWeb.KeyframeEffect(__res_74);
+    }
+
+    public static global::Iskra.StdWeb.KeyframeEffect New(global::Iskra.StdWeb.Element? target, global::System.Runtime.InteropServices.JavaScript.JSObject? keyframes, global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.KeyframeEffectOptions, global::Iskra.StdWeb.GenericMarshaller.Union> options)
+    {
+        int ___argsArrayLength_0 = 3;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_69 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_1;
+        if (target is null)
+        {
+            ___marshalledValue_1 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.Element ___notNullable_2 = (global::Iskra.StdWeb.Element)target;
+            ___marshalledValue_1 = ___notNullable_2.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_69.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_3;
+        if (keyframes is null)
+        {
+            ___marshalledValue_3 = null;
+        }
+        else
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_4 = (global::System.Runtime.InteropServices.JavaScript.JSObject)keyframes;
+            ___marshalledValue_3 = ___notNullable_4;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_69.JSObject, 1, ___marshalledValue_3);
+
+        // Argument 3
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_5 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_69.JSObject, 2, ___propObject_5);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_71 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "KeyframeEffect", __argsArray_69.JSObject);
+        return new global::Iskra.StdWeb.KeyframeEffect(__res_71);
+    }
+
+    public static global::Iskra.StdWeb.KeyframeEffect New(global::Iskra.StdWeb.KeyframeEffect source)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_75 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = source.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_75.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_77 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "KeyframeEffect", __argsArray_75.JSObject);
+        return new global::Iskra.StdWeb.KeyframeEffect(__res_77);
+    }
+
     public global::Iskra.StdWeb.Element? Target
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Element?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "target");
@@ -26,21 +117,19 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
 
     public global::Iskra.JSCore.Generics.JSArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor> GetKeyframes()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_79 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_55 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getKeyframes", JSObject, __resOwner_55.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getKeyframes", JSObject, __resOwner_79.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_55.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_79.JSObject, "value");
     }
 
     public void SetKeyframes(global::System.Runtime.InteropServices.JavaScript.JSObject? keyframes)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_57 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_81 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_1;
@@ -53,9 +142,9 @@ public partial class KeyframeEffect(global::System.Runtime.InteropServices.JavaS
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_2 = (global::System.Runtime.InteropServices.JavaScript.JSObject)keyframes;
             ___marshalledValue_1 = ___notNullable_2;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_57.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_81.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setKeyframes", JSObject, __argsArray_57.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setKeyframes", JSObject, __argsArray_81.JSObject);
     }
 
     public global::Iskra.StdWeb.IterationCompositeOperation IterationComposite

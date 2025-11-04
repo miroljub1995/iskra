@@ -28,8 +28,6 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 
@@ -73,8 +71,6 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.StdWeb.GPUSampler CreateSampler()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_28 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSampler", JSObject, __resOwner_28.JSObject);
@@ -275,8 +271,6 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.StdWeb.GPUCommandEncoder CreateCommandEncoder()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_61 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createCommandEncoder", JSObject, __resOwner_61.JSObject);
@@ -363,8 +357,6 @@ public partial class GPUDevice(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GPUError?, global::Iskra.StdWeb.PropertyAccessorNullable> PopErrorScope()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_73 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "popErrorScope", JSObject, __resOwner_73.JSObject);

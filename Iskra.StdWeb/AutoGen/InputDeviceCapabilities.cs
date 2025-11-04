@@ -6,6 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class InputDeviceCapabilities(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.InputDeviceCapabilities New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "InputDeviceCapabilities");
+        return new global::Iskra.StdWeb.InputDeviceCapabilities(__res_5);
+    }
+
+    public static global::Iskra.StdWeb.InputDeviceCapabilities New(global::Iskra.StdWeb.InputDeviceCapabilitiesInit deviceInitDict)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = deviceInitDict.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "InputDeviceCapabilities", __argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.InputDeviceCapabilities(__res_2);
+    }
+
     public bool FiresTouchEvents
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "firesTouchEvents");

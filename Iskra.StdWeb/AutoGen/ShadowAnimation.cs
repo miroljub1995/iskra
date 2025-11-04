@@ -6,6 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class ShadowAnimation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Animation(obj)
 {
+    public static global::Iskra.StdWeb.ShadowAnimation New(global::Iskra.StdWeb.Animation source, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> newTarget)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_195 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = source.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_195.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_2 = newTarget.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_195.JSObject, 1, ___propObject_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_197 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ShadowAnimation", __argsArray_195.JSObject);
+        return new global::Iskra.StdWeb.ShadowAnimation(__res_197);
+    }
+
     public global::Iskra.StdWeb.Animation SourceAnimation
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Animation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sourceAnimation");

@@ -18,8 +18,6 @@ public partial class WakeLockSentinel(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.JSCore.Promise Release()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "release", JSObject, __resOwner_7.JSObject);

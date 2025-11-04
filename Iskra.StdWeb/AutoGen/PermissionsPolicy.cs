@@ -51,8 +51,6 @@ public partial class PermissionsPolicy(global::System.Runtime.InteropServices.Ja
 
     public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> Features()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "features", JSObject, __resOwner_7.JSObject);
@@ -63,8 +61,6 @@ public partial class PermissionsPolicy(global::System.Runtime.InteropServices.Ja
 
     public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> AllowedFeatures()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "allowedFeatures", JSObject, __resOwner_10.JSObject);

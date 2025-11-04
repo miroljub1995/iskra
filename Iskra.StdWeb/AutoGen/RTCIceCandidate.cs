@@ -6,6 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class RTCIceCandidate(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.RTCIceCandidate New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_142 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCIceCandidate");
+        return new global::Iskra.StdWeb.RTCIceCandidate(__res_142);
+    }
+
+    public static global::Iskra.StdWeb.RTCIceCandidate New(global::Iskra.StdWeb.RTCLocalIceCandidateInit candidateInitDict)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_137 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = candidateInitDict.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_137.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_139 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCIceCandidate", __argsArray_137.JSObject);
+        return new global::Iskra.StdWeb.RTCIceCandidate(__res_139);
+    }
+
     public string Candidate
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "candidate");
@@ -88,14 +109,12 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
 
     public global::Iskra.StdWeb.RTCIceCandidateInit ToJSON()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_144 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_129 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_129.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_144.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCIceCandidateInit, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_129.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCIceCandidateInit, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_144.JSObject, "value");
     }
 }
 

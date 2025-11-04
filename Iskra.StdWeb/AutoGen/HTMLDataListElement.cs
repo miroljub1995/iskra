@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLDataListElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLDataListElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_485 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLDataListElement");
+        return new global::Iskra.StdWeb.HTMLDataListElement(__res_485);
+    }
+
     public global::Iskra.StdWeb.HTMLCollection Options
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "options");

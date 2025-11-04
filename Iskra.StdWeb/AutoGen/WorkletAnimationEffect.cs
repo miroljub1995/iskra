@@ -8,8 +8,6 @@ public partial class WorkletAnimationEffect(global::System.Runtime.InteropServic
 {
     public global::Iskra.StdWeb.EffectTiming GetTiming()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_21 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTiming", JSObject, __resOwner_21.JSObject);
@@ -20,8 +18,6 @@ public partial class WorkletAnimationEffect(global::System.Runtime.InteropServic
 
     public global::Iskra.StdWeb.ComputedEffectTiming GetComputedTiming()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_24 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getComputedTiming", JSObject, __resOwner_24.JSObject);

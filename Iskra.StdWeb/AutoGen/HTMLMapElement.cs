@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLMapElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_290 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMapElement");
+        return new global::Iskra.StdWeb.HTMLMapElement(__res_290);
+    }
+
     public string Name
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");

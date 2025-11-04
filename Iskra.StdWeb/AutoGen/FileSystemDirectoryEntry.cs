@@ -8,8 +8,6 @@ public partial class FileSystemDirectoryEntry(global::System.Runtime.InteropServ
 {
     public global::Iskra.StdWeb.FileSystemDirectoryReader CreateReader()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_20 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createReader", JSObject, __resOwner_20.JSObject);
@@ -20,8 +18,6 @@ public partial class FileSystemDirectoryEntry(global::System.Runtime.InteropServ
 
     public void GetFile()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "getFile", JSObject);
     }
 
@@ -145,8 +141,6 @@ public partial class FileSystemDirectoryEntry(global::System.Runtime.InteropServ
 
     public void GetDirectory()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "getDirectory", JSObject);
     }
 

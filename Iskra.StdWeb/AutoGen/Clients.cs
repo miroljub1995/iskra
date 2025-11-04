@@ -27,8 +27,6 @@ public partial class Clients(global::System.Runtime.InteropServices.JavaScript.J
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> MatchAll()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_82 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "matchAll", JSObject, __resOwner_82.JSObject);
@@ -77,8 +75,6 @@ public partial class Clients(global::System.Runtime.InteropServices.JavaScript.J
 
     public global::Iskra.JSCore.Promise Claim()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_88 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "claim", JSObject, __resOwner_88.JSObject);

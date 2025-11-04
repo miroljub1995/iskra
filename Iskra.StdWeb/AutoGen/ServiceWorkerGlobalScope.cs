@@ -94,8 +94,6 @@ public partial class ServiceWorkerGlobalScope(global::System.Runtime.InteropServ
 
     public global::Iskra.JSCore.Promise SkipWaiting()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_58 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "skipWaiting", JSObject, __resOwner_58.JSObject);

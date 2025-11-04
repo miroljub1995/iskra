@@ -18,8 +18,6 @@ public partial class SVGStringList(global::System.Runtime.InteropServices.JavaSc
 
     public void Clear()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "clear", JSObject);
     }
 

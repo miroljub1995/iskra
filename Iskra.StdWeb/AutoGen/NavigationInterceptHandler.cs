@@ -10,24 +10,24 @@ public partial class NavigationInterceptHandler(global::System.Runtime.InteropSe
 {
     public static implicit operator NavigationInterceptHandler(NavigationInterceptHandlerManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1370, __res_1373) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1619, __res_1622) =>
         {
-            using (__args_1370)
-            using (__res_1373)
+            using (__args_1619)
+            using (__res_1622)
             {
 
 
-                global::Iskra.JSCore.Promise __managedRes_1374 = input();
+                global::Iskra.JSCore.Promise __managedRes_1623 = input();
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1375 = __managedRes_1374.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_1373, "value", __propObject_1375);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1624 = __managedRes_1623.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_1622, "value", __propObject_1624);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1372 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1372, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1621 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1621, input); 
 
-        return new global::Iskra.StdWeb.NavigationInterceptHandler(__funcObj_1372);
+        return new global::Iskra.StdWeb.NavigationInterceptHandler(__funcObj_1621);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.NavigationInterceptHandlerManaged? managed, bool allowConversion = false)
@@ -47,16 +47,16 @@ public partial class NavigationInterceptHandler(global::System.Runtime.InteropSe
         {
 
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1377 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1626 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunction(JSObject, null, __resOwner_1377.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunction(JSObject, null, __resOwner_1626.JSObject);
 
             // Return Value
-            global::Iskra.JSCore.Promise __res_1378;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1379;
-            __propObject_1379 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_1377.JSObject, "value");
-            __res_1378 = new global::Iskra.JSCore.Promise(__propObject_1379);
-            return __res_1378;
+            global::Iskra.JSCore.Promise __res_1627;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1628;
+            __propObject_1628 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_1626.JSObject, "value");
+            __res_1627 = new global::Iskra.JSCore.Promise(__propObject_1628);
+            return __res_1627;
         };
         return true;
     }

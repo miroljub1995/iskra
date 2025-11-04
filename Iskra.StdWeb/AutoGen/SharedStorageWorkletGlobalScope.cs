@@ -37,8 +37,6 @@ public partial class SharedStorageWorkletGlobalScope(global::System.Runtime.Inte
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.StorageInterestGroup, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> InterestGroups()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_33 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "interestGroups", JSObject, __resOwner_33.JSObject);

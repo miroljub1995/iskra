@@ -20,8 +20,6 @@ public partial class Serial(global::System.Runtime.InteropServices.JavaScript.JS
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SerialPort, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetPorts()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getPorts", JSObject, __resOwner_1.JSObject);
@@ -32,8 +30,6 @@ public partial class Serial(global::System.Runtime.InteropServices.JavaScript.JS
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.SerialPort, global::Iskra.StdWeb.PropertyAccessor> RequestPort()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestPort", JSObject, __resOwner_7.JSObject);

@@ -6,6 +6,71 @@ namespace Iskra.StdWeb;
 
 public partial class Animation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.EventTarget(obj)
 {
+    public static global::Iskra.StdWeb.Animation New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_20 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Animation");
+        return new global::Iskra.StdWeb.Animation(__res_20);
+    }
+
+    public static global::Iskra.StdWeb.Animation New(global::Iskra.StdWeb.AnimationEffect? effect)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_15 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_1;
+        if (effect is null)
+        {
+            ___marshalledValue_1 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.AnimationEffect ___notNullable_2 = (global::Iskra.StdWeb.AnimationEffect)effect;
+            ___marshalledValue_1 = ___notNullable_2.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_15.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_17 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Animation", __argsArray_15.JSObject);
+        return new global::Iskra.StdWeb.Animation(__res_17);
+    }
+
+    public static global::Iskra.StdWeb.Animation New(global::Iskra.StdWeb.AnimationEffect? effect, global::Iskra.StdWeb.AnimationTimeline? timeline)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_1;
+        if (effect is null)
+        {
+            ___marshalledValue_1 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.AnimationEffect ___notNullable_2 = (global::Iskra.StdWeb.AnimationEffect)effect;
+            ___marshalledValue_1 = ___notNullable_2.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_12.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_3;
+        if (timeline is null)
+        {
+            ___marshalledValue_3 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.AnimationTimeline ___notNullable_4 = (global::Iskra.StdWeb.AnimationTimeline)timeline;
+            ___marshalledValue_3 = ___notNullable_4.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_12.JSObject, 1, ___marshalledValue_3);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_14 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Animation", __argsArray_12.JSObject);
+        return new global::Iskra.StdWeb.Animation(__res_14);
+    }
+
     public string Id
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "id");
@@ -75,29 +140,21 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
 
     public void Cancel()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "cancel", JSObject);
     }
 
     public void Finish()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "finish", JSObject);
     }
 
     public void Play()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "play", JSObject);
     }
 
     public void Pause()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "pause", JSObject);
     }
 
@@ -105,34 +162,28 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_18 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_33 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = playbackRate;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_18.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_33.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "updatePlaybackRate", JSObject, __argsArray_18.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "updatePlaybackRate", JSObject, __argsArray_33.JSObject);
     }
 
     public void Reverse()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "reverse", JSObject);
     }
 
     public void Persist()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "persist", JSObject);
     }
 
     public void CommitStyles()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "commitStyles", JSObject);
     }
 

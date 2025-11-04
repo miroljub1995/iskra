@@ -59,8 +59,6 @@ public partial class ServiceWorkerContainer(global::System.Runtime.InteropServic
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ServiceWorkerRegistration?, global::Iskra.StdWeb.PropertyAccessorNullable> GetRegistration()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_37 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getRegistration", JSObject, __resOwner_37.JSObject);
@@ -90,8 +88,6 @@ public partial class ServiceWorkerContainer(global::System.Runtime.InteropServic
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.ServiceWorkerRegistration, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetRegistrations()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_40 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getRegistrations", JSObject, __resOwner_40.JSObject);
@@ -102,8 +98,6 @@ public partial class ServiceWorkerContainer(global::System.Runtime.InteropServic
 
     public void StartMessages()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "startMessages", JSObject);
     }
 

@@ -686,8 +686,6 @@ public partial class SVGElement(global::System.Runtime.InteropServices.JavaScrip
 
     public void Focus()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "focus", JSObject);
     }
 
@@ -707,8 +705,6 @@ public partial class SVGElement(global::System.Runtime.InteropServices.JavaScrip
 
     public void Blur()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "blur", JSObject);
     }
 

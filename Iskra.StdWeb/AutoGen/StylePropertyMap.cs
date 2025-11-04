@@ -66,8 +66,6 @@ public partial class StylePropertyMap(global::System.Runtime.InteropServices.Jav
 
     public void Clear()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "clear", JSObject);
     }
 }

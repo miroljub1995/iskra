@@ -8,8 +8,6 @@ public partial class FileSystemFileHandle(global::System.Runtime.InteropServices
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.File, global::Iskra.StdWeb.PropertyAccessor> GetFile()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getFile", JSObject, __resOwner_16.JSObject);
@@ -20,8 +18,6 @@ public partial class FileSystemFileHandle(global::System.Runtime.InteropServices
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemWritableFileStream, global::Iskra.StdWeb.PropertyAccessor> CreateWritable()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_22 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createWritable", JSObject, __resOwner_22.JSObject);
@@ -51,8 +47,6 @@ public partial class FileSystemFileHandle(global::System.Runtime.InteropServices
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemSyncAccessHandle, global::Iskra.StdWeb.PropertyAccessor> CreateSyncAccessHandle()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_25 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSyncAccessHandle", JSObject, __resOwner_25.JSObject);

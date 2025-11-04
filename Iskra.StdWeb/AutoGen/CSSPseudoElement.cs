@@ -42,8 +42,6 @@ public partial class CSSPseudoElement(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DOMQuad, global::Iskra.StdWeb.PropertyAccessor> GetBoxQuads()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getBoxQuads", JSObject, __resOwner_7.JSObject);

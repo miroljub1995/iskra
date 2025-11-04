@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class GPUOutOfMemoryError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.GPUError(obj)
 {
+    public static global::Iskra.StdWeb.GPUOutOfMemoryError New(string message)
+    {
+        int ___argsArrayLength_0 = 1;
 
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_426 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = message;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_426.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_428 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GPUOutOfMemoryError", __argsArray_426.JSObject);
+        return new global::Iskra.StdWeb.GPUOutOfMemoryError(__res_428);
+    }
 }
 
 #nullable disable

@@ -13,8 +13,6 @@ public partial class SVGPathElement(global::System.Runtime.InteropServices.JavaS
 
     public float GetTotalLength()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTotalLength", JSObject, __resOwner_1.JSObject);
@@ -63,8 +61,6 @@ public partial class SVGPathElement(global::System.Runtime.InteropServices.JavaS
 
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.SVGPathSegment, global::Iskra.StdWeb.PropertyAccessor> GetPathData()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getPathData", JSObject, __resOwner_13.JSObject);

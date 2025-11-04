@@ -13,8 +13,6 @@ public partial class PushManager(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PushSubscription, global::Iskra.StdWeb.PropertyAccessor> Subscribe()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "subscribe", JSObject, __resOwner_4.JSObject);
@@ -44,8 +42,6 @@ public partial class PushManager(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PushSubscription?, global::Iskra.StdWeb.PropertyAccessorNullable> GetSubscription()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getSubscription", JSObject, __resOwner_7.JSObject);
@@ -56,8 +52,6 @@ public partial class PushManager(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.PermissionState, global::Iskra.StdWeb.PropertyAccessor> PermissionState()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "permissionState", JSObject, __resOwner_13.JSObject);

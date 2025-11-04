@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class RdfLiteral(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public static global::Iskra.StdWeb.RdfLiteral New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_62 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RdfLiteral");
+        return new global::Iskra.StdWeb.RdfLiteral(__res_62);
+    }
+
     public string Value
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");

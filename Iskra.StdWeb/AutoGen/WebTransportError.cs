@@ -6,6 +6,47 @@ namespace Iskra.StdWeb;
 
 public partial class WebTransportError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.DOMException(obj)
 {
+    public static global::Iskra.StdWeb.WebTransportError New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_71 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "WebTransportError");
+        return new global::Iskra.StdWeb.WebTransportError(__res_71);
+    }
+
+    public static global::Iskra.StdWeb.WebTransportError New(string message)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_66 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = message;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_66.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_68 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "WebTransportError", __argsArray_66.JSObject);
+        return new global::Iskra.StdWeb.WebTransportError(__res_68);
+    }
+
+    public static global::Iskra.StdWeb.WebTransportError New(string message, global::Iskra.StdWeb.WebTransportErrorOptions options)
+    {
+        int ___argsArrayLength_0 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_63 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = message;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_63.JSObject, 0, ___marshalledValue_1);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
+        ___marshalledValue_2 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_63.JSObject, 1, ___marshalledValue_2);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_65 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "WebTransportError", __argsArray_63.JSObject);
+        return new global::Iskra.StdWeb.WebTransportError(__res_65);
+    }
+
     public global::Iskra.StdWeb.WebTransportErrorSource Source
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WebTransportErrorSource, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "source");

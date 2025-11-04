@@ -8,8 +8,6 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.LanguageDetector, global::Iskra.StdWeb.PropertyAccessor> Create()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_31 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "LanguageDetector"), "create", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "LanguageDetector"), __resOwner_31.JSObject);
@@ -39,8 +37,6 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
 
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Availability, global::Iskra.StdWeb.PropertyAccessor> Availability()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_37 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "LanguageDetector"), "availability", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "LanguageDetector"), __resOwner_37.JSObject);
@@ -166,8 +162,6 @@ public partial class LanguageDetector(global::System.Runtime.InteropServices.Jav
 
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 }

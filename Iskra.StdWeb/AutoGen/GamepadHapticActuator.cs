@@ -80,8 +80,6 @@ public partial class GamepadHapticActuator(global::System.Runtime.InteropService
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GamepadHapticsResult, global::Iskra.StdWeb.PropertyAccessor> Reset()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "reset", JSObject, __resOwner_10.JSObject);

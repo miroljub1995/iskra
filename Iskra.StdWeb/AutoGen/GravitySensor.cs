@@ -6,7 +6,26 @@ namespace Iskra.StdWeb;
 
 public partial class GravitySensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.Accelerometer(obj)
 {
+    public static global::Iskra.StdWeb.GravitySensor New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_17 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GravitySensor");
+        return new global::Iskra.StdWeb.GravitySensor(__res_17);
+    }
 
+    public static global::Iskra.StdWeb.GravitySensor New(global::Iskra.StdWeb.AccelerometerSensorOptions options)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_12.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_14 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GravitySensor", __argsArray_12.JSObject);
+        return new global::Iskra.StdWeb.GravitySensor(__res_14);
+    }
 }
 
 #nullable disable

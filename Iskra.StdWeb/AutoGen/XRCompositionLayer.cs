@@ -47,8 +47,6 @@ public partial class XRCompositionLayer(global::System.Runtime.InteropServices.J
 
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 }

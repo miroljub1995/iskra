@@ -12,11 +12,30 @@ public class MemberTypeGenerator(
     public string Generate(IDLCallbackInterfaceMemberType input, string containingTypeName)
     {
         var attributeMemberTypeGenerator = provider.GetRequiredService<AttributeMemberTypeGenerator>();
+        var constructorMemberTypeGenerator = provider.GetRequiredService<ConstructorMemberTypeGenerator>();
         var operationMemberTypeGenerator = provider.GetRequiredService<OperationMemberTypeGenerator>();
 
         if (input is AttributeMemberType attributeMemberType)
         {
             return attributeMemberTypeGenerator.Generate(attributeMemberType, containingTypeName);
+        }
+
+        if (input is ConstructorMemberType constructorMemberType)
+        {
+            List<string> constructors =
+            [
+                constructorMemberTypeGenerator.Generate(constructorMemberType, containingTypeName)
+            ];
+
+            var args = constructorMemberType.Arguments;
+            while (args.Count > 0 && args[^1].Optional)
+            {
+                args = args[..^1];
+                var newMemberType = constructorMemberType with { Arguments = args };
+                constructors.Insert(0, constructorMemberTypeGenerator.Generate(newMemberType, containingTypeName));
+            }
+
+            return string.Join("\n\n", constructors);
         }
 
         if (input is OperationMemberType operationMemberType)

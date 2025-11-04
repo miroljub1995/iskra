@@ -41,8 +41,6 @@ public partial class NavigatorUAData(global::System.Runtime.InteropServices.Java
 
     public global::Iskra.StdWeb.UALowEntropyJSON ToJSON()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "toJSON", JSObject, __resOwner_4.JSObject);

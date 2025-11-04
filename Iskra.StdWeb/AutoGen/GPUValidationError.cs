@@ -6,7 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class GPUValidationError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.GPUError(obj)
 {
+    public static global::Iskra.StdWeb.GPUValidationError New(string message)
+    {
+        int ___argsArrayLength_0 = 1;
 
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_423 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        string ___marshalledValue_1;
+        ___marshalledValue_1 = message;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_423.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_425 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GPUValidationError", __argsArray_423.JSObject);
+        return new global::Iskra.StdWeb.GPUValidationError(__res_425);
+    }
 }
 
 #nullable disable

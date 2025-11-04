@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLQuoteElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLQuoteElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_113 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLQuoteElement");
+        return new global::Iskra.StdWeb.HTMLQuoteElement(__res_113);
+    }
+
     public string Cite
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cite");

@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLHeadingElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLHeadingElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_101 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLHeadingElement");
+        return new global::Iskra.StdWeb.HTMLHeadingElement(__res_101);
+    }
+
     public string Align
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align");

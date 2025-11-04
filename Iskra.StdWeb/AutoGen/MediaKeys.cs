@@ -8,8 +8,6 @@ public partial class MediaKeys(global::System.Runtime.InteropServices.JavaScript
 {
     public global::Iskra.StdWeb.MediaKeySession CreateSession()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSession", JSObject, __resOwner_10.JSObject);
@@ -39,8 +37,6 @@ public partial class MediaKeys(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeyStatus, global::Iskra.StdWeb.PropertyAccessor> GetStatusForPolicy()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getStatusForPolicy", JSObject, __resOwner_16.JSObject);

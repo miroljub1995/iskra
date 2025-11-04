@@ -13,8 +13,6 @@ public partial class WindowControlsOverlay(global::System.Runtime.InteropService
 
     public global::Iskra.StdWeb.DOMRect GetTitlebarAreaRect()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTitlebarAreaRect", JSObject, __resOwner_1.JSObject);

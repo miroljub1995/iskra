@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLParagraphElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLParagraphElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_104 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLParagraphElement");
+        return new global::Iskra.StdWeb.HTMLParagraphElement(__res_104);
+    }
+
     public string Align
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "align");

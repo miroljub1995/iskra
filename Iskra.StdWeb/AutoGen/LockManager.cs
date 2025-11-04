@@ -61,8 +61,6 @@ public partial class LockManager(global::System.Runtime.InteropServices.JavaScri
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.LockManagerSnapshot, global::Iskra.StdWeb.PropertyAccessor> Query()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "query", JSObject, __resOwner_7.JSObject);

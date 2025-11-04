@@ -190,8 +190,6 @@ public partial class Translator(global::System.Runtime.InteropServices.JavaScrip
 
     public void Destroy()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "destroy", JSObject);
     }
 }

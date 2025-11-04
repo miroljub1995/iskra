@@ -8,8 +8,6 @@ public partial class NavigationPreloadManager(global::System.Runtime.InteropServ
 {
     public global::Iskra.JSCore.Promise Enable()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_46 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "enable", JSObject, __resOwner_46.JSObject);
@@ -20,8 +18,6 @@ public partial class NavigationPreloadManager(global::System.Runtime.InteropServ
 
     public global::Iskra.JSCore.Promise Disable()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_49 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "disable", JSObject, __resOwner_49.JSObject);
@@ -51,8 +47,6 @@ public partial class NavigationPreloadManager(global::System.Runtime.InteropServ
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.NavigationPreloadState, global::Iskra.StdWeb.PropertyAccessor> GetState()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_55 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getState", JSObject, __resOwner_55.JSObject);

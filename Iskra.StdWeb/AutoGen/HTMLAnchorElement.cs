@@ -12,6 +12,12 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "attributionSourceId", value);
     }
 
+    public static global::Iskra.StdWeb.HTMLAnchorElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_134 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLAnchorElement");
+        return new global::Iskra.StdWeb.HTMLAnchorElement(__res_134);
+    }
+
     public string Target
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "target");

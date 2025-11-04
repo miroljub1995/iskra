@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLOptGroupElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLOptGroupElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_488 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLOptGroupElement");
+        return new global::Iskra.StdWeb.HTMLOptGroupElement(__res_488);
+    }
+
     public bool Disabled
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "disabled");

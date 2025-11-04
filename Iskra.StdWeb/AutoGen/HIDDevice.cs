@@ -39,8 +39,6 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Promise Open()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_7 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "open", JSObject, __resOwner_7.JSObject);
@@ -51,8 +49,6 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Promise Close()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_10 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "close", JSObject, __resOwner_10.JSObject);
@@ -63,8 +59,6 @@ public partial class HIDDevice(global::System.Runtime.InteropServices.JavaScript
 
     public global::Iskra.JSCore.Promise Forget()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "forget", JSObject, __resOwner_13.JSObject);

@@ -6,7 +6,11 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLSpanElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
-
+    public static global::Iskra.StdWeb.HTMLSpanElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_143 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLSpanElement");
+        return new global::Iskra.StdWeb.HTMLSpanElement(__res_143);
+    }
 }
 
 #nullable disable

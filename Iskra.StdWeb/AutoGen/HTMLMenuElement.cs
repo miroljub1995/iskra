@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLMenuElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLMenuElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_122 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMenuElement");
+        return new global::Iskra.StdWeb.HTMLMenuElement(__res_122);
+    }
+
     public bool Compact
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "compact");

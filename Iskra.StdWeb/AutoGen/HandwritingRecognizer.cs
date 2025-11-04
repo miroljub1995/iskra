@@ -8,8 +8,6 @@ public partial class HandwritingRecognizer(global::System.Runtime.InteropService
 {
     public global::Iskra.StdWeb.HandwritingDrawing StartDrawing()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "startDrawing", JSObject, __resOwner_4.JSObject);
@@ -39,8 +37,6 @@ public partial class HandwritingRecognizer(global::System.Runtime.InteropService
 
     public void Finish()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "finish", JSObject);
     }
 }

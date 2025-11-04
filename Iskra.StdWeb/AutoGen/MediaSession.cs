@@ -47,8 +47,6 @@ public partial class MediaSession(global::System.Runtime.InteropServices.JavaScr
 
     public void SetPositionState()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "setPositionState", JSObject);
     }
 

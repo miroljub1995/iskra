@@ -151,15 +151,11 @@ public partial class SVGSVGElement(global::System.Runtime.InteropServices.JavaSc
 
     public void DeselectAll()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "deselectAll", JSObject);
     }
 
     public global::Iskra.StdWeb.SVGNumber CreateSVGNumber()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_139 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGNumber", JSObject, __resOwner_139.JSObject);
@@ -170,8 +166,6 @@ public partial class SVGSVGElement(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.SVGLength CreateSVGLength()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_142 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGLength", JSObject, __resOwner_142.JSObject);
@@ -182,8 +176,6 @@ public partial class SVGSVGElement(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.SVGAngle CreateSVGAngle()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_145 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGAngle", JSObject, __resOwner_145.JSObject);
@@ -194,8 +186,6 @@ public partial class SVGSVGElement(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.DOMPoint CreateSVGPoint()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_148 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGPoint", JSObject, __resOwner_148.JSObject);
@@ -206,8 +196,6 @@ public partial class SVGSVGElement(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.DOMMatrix CreateSVGMatrix()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_151 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGMatrix", JSObject, __resOwner_151.JSObject);
@@ -218,8 +206,6 @@ public partial class SVGSVGElement(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.DOMRect CreateSVGRect()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_154 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGRect", JSObject, __resOwner_154.JSObject);
@@ -230,8 +216,6 @@ public partial class SVGSVGElement(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.SVGTransform CreateSVGTransform()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_157 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGTransform", JSObject, __resOwner_157.JSObject);
@@ -242,8 +226,6 @@ public partial class SVGSVGElement(global::System.Runtime.InteropServices.JavaSc
 
     public global::Iskra.StdWeb.SVGTransform CreateSVGTransformFromMatrix()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_163 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGTransformFromMatrix", JSObject, __resOwner_163.JSObject);
@@ -325,36 +307,26 @@ public partial class SVGSVGElement(global::System.Runtime.InteropServices.JavaSc
 
     public void UnsuspendRedrawAll()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "unsuspendRedrawAll", JSObject);
     }
 
     public void ForceRedraw()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "forceRedraw", JSObject);
     }
 
     public void PauseAnimations()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "pauseAnimations", JSObject);
     }
 
     public void UnpauseAnimations()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "unpauseAnimations", JSObject);
     }
 
     public bool AnimationsPaused()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_187 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "animationsPaused", JSObject, __resOwner_187.JSObject);
@@ -365,8 +337,6 @@ public partial class SVGSVGElement(global::System.Runtime.InteropServices.JavaSc
 
     public float GetCurrentTime()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_190 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getCurrentTime", JSObject, __resOwner_190.JSObject);

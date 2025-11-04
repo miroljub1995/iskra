@@ -18,8 +18,6 @@ public partial class ImageBitmap(global::System.Runtime.InteropServices.JavaScri
 
     public void Close()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "close", JSObject);
     }
 }

@@ -8,8 +8,6 @@ public partial class ML(global::System.Runtime.InteropServices.JavaScript.JSObje
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MLContext, global::Iskra.StdWeb.PropertyAccessor> CreateContext()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createContext", JSObject, __resOwner_4.JSObject);

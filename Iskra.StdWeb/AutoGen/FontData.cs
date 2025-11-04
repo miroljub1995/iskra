@@ -8,8 +8,6 @@ public partial class FontData(global::System.Runtime.InteropServices.JavaScript.
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Blob, global::Iskra.StdWeb.PropertyAccessor> Blob()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "blob", JSObject, __resOwner_1.JSObject);

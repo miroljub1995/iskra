@@ -8,8 +8,6 @@ public partial class DocumentPictureInPicture(global::System.Runtime.InteropServ
 {
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.PropertyAccessor> RequestWindow()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "requestWindow", JSObject, __resOwner_4.JSObject);

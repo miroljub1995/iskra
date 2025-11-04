@@ -69,11 +69,14 @@ public class OperationMemberTypeGenerator(
 
         using (VariableName.CreateScope())
         {
-            bodyStatements.Add(argsArrayGenerator.Generate(
-                args: input.Arguments,
-                argVars: argVars,
-                argsArrayVar: argsArrayVar
-            ));
+            if (!isEmpty)
+            {
+                bodyStatements.Add(argsArrayGenerator.Generate(
+                    args: input.Arguments,
+                    argVars: argVars,
+                    argsArrayVar: argsArrayVar
+                ));
+            }
 
             if (!isVoid)
             {

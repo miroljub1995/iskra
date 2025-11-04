@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLFontElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLFontElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2188 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFontElement");
+        return new global::Iskra.StdWeb.HTMLFontElement(__res_2188);
+    }
+
     public string Color
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "color");

@@ -8,8 +8,6 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
 {
     public global::Iskra.StdWeb.WebTransportDatagramsWritable CreateWritable()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createWritable", JSObject, __resOwner_4.JSObject);

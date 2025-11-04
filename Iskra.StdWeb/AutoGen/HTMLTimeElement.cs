@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTimeElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLTimeElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_140 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTimeElement");
+        return new global::Iskra.StdWeb.HTMLTimeElement(__res_140);
+    }
+
     public string DateTime
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dateTime");

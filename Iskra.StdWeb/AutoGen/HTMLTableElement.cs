@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLTableElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_296 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTableElement");
+        return new global::Iskra.StdWeb.HTMLTableElement(__res_296);
+    }
+
     public global::Iskra.StdWeb.HTMLTableCaptionElement? Caption
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableCaptionElement?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "caption");
@@ -14,20 +20,16 @@ public partial class HTMLTableElement(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.HTMLTableCaptionElement CreateCaption()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_298 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_178 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createCaption", JSObject, __resOwner_178.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createCaption", JSObject, __resOwner_298.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableCaptionElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_178.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableCaptionElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_298.JSObject, "value");
     }
 
     public void DeleteCaption()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "deleteCaption", JSObject);
     }
 
@@ -39,20 +41,16 @@ public partial class HTMLTableElement(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.HTMLTableSectionElement CreateTHead()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_304 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_184 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createTHead", JSObject, __resOwner_184.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createTHead", JSObject, __resOwner_304.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableSectionElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_184.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableSectionElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_304.JSObject, "value");
     }
 
     public void DeleteTHead()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "deleteTHead", JSObject);
     }
 
@@ -64,20 +62,16 @@ public partial class HTMLTableElement(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.HTMLTableSectionElement CreateTFoot()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_310 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_190 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createTFoot", JSObject, __resOwner_190.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createTFoot", JSObject, __resOwner_310.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableSectionElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_190.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableSectionElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_310.JSObject, "value");
     }
 
     public void DeleteTFoot()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "deleteTFoot", JSObject);
     }
 
@@ -88,14 +82,12 @@ public partial class HTMLTableElement(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.HTMLTableSectionElement CreateTBody()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_316 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_196 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createTBody", JSObject, __resOwner_196.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createTBody", JSObject, __resOwner_316.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableSectionElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_196.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableSectionElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_316.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.HTMLCollection Rows
@@ -105,47 +97,45 @@ public partial class HTMLTableElement(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.HTMLTableRowElement InsertRow()
     {
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_322 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_202 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "insertRow", JSObject, __resOwner_202.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "insertRow", JSObject, __resOwner_322.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableRowElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_202.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableRowElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_322.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.HTMLTableRowElement InsertRow(int index)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_198 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_318 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = Convert.ToDouble(index);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_198.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_318.JSObject, 0, ___marshalledValue_1);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_199 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_319 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "insertRow", JSObject, __argsArray_198.JSObject, __resOwner_199.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "insertRow", JSObject, __argsArray_318.JSObject, __resOwner_319.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableRowElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_199.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HTMLTableRowElement, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_319.JSObject, "value");
     }
 
     public void DeleteRow(int index)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_204 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_324 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         double ___marshalledValue_1;
         ___marshalledValue_1 = Convert.ToDouble(index);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_204.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_324.JSObject, 0, ___marshalledValue_1);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "deleteRow", JSObject, __argsArray_204.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "deleteRow", JSObject, __argsArray_324.JSObject);
     }
 
     public string Align

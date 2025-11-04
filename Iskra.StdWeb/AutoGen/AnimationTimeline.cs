@@ -18,8 +18,6 @@ public partial class AnimationTimeline(global::System.Runtime.InteropServices.Ja
 
     public global::Iskra.StdWeb.Animation Play()
     {
-
-
         using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_4 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "play", JSObject, __resOwner_4.JSObject);

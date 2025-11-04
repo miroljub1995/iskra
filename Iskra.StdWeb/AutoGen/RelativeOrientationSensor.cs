@@ -6,7 +6,26 @@ namespace Iskra.StdWeb;
 
 public partial class RelativeOrientationSensor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.OrientationSensor(obj)
 {
+    public static global::Iskra.StdWeb.RelativeOrientationSensor New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_14 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RelativeOrientationSensor");
+        return new global::Iskra.StdWeb.RelativeOrientationSensor(__res_14);
+    }
 
+    public static global::Iskra.StdWeb.RelativeOrientationSensor New(global::Iskra.StdWeb.OrientationSensorOptions sensorOptions)
+    {
+        int ___argsArrayLength_0 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_9 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
+        ___marshalledValue_1 = sensorOptions.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_9.JSObject, 0, ___marshalledValue_1);
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_11 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RelativeOrientationSensor", __argsArray_9.JSObject);
+        return new global::Iskra.StdWeb.RelativeOrientationSensor(__res_11);
+    }
 }
 
 #nullable disable

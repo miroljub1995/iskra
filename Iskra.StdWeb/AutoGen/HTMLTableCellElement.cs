@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class HTMLTableCellElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.HTMLElement(obj)
 {
+    public static global::Iskra.StdWeb.HTMLTableCellElement New()
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_359 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTableCellElement");
+        return new global::Iskra.StdWeb.HTMLTableCellElement(__res_359);
+    }
+
     public uint ColSpan
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colSpan");

@@ -8,8 +8,6 @@ public partial class XRTransientInputHitTestSource(global::System.Runtime.Intero
 {
     public void Cancel()
     {
-
-
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "cancel", JSObject);
     }
 }
