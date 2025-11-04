@@ -8,16 +8,16 @@ public partial class WEBGL_provoking_vertex(global::System.Runtime.InteropServic
 {
     public void ProvokingVertexWEBGL(uint provokeMode)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = Convert.ToDouble(provokeMode);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = Convert.ToDouble(provokeMode);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "provokingVertexWEBGL", JSObject, __argsArray_0.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "provokingVertexWEBGL", JSObject, ___argsArray_0.JSObject);
     }
 }
 

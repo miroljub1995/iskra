@@ -13,12 +13,12 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
 
     public global::Iskra.StdWeb.CanvasRenderingContext2DSettings GetContextAttributes()
     {
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_667 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getContextAttributes", JSObject, __resOwner_667.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getContextAttributes", JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CanvasRenderingContext2DSettings, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_667.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CanvasRenderingContext2DSettings, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public void Save()
@@ -38,152 +38,152 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
 
     public bool IsContextLost()
     {
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_679 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "isContextLost", JSObject, __resOwner_679.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "isContextLost", JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_679.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public void Scale(double x, double y)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_681 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_681.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_681.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "scale", JSObject, __argsArray_681.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "scale", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Rotate(double angle)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_684 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = angle;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_684.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = angle;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "rotate", JSObject, __argsArray_684.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "rotate", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Translate(double x, double y)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_687 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_687.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_687.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "translate", JSObject, __argsArray_687.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "translate", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Transform(double a, double b, double c, double d, double e, double f)
     {
-        int ___argsArrayLength_0 = 6;
+        int ___argsArrayLength_2 = 6;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_690 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = a;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_690.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = a;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = b;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_690.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = b;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = c;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_690.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = c;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = d;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_690.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = d;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = e;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_690.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = e;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
         // Argument 6
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = f;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_690.JSObject, 5, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = f;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_8);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "transform", JSObject, __argsArray_690.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "transform", JSObject, ___argsArray_0.JSObject);
     }
 
     public global::Iskra.StdWeb.DOMMatrix GetTransform()
     {
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_694 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTransform", JSObject, __resOwner_694.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getTransform", JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_694.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public void SetTransform(double a, double b, double c, double d, double e, double f)
     {
-        int ___argsArrayLength_0 = 6;
+        int ___argsArrayLength_2 = 6;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_696 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = a;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_696.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = a;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = b;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_696.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = b;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = c;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_696.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = c;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = d;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_696.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = d;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = e;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_696.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = e;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
         // Argument 6
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = f;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_696.JSObject, 5, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = f;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_8);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setTransform", JSObject, __argsArray_696.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setTransform", JSObject, ___argsArray_0.JSObject);
     }
 
     public void SetTransform()
@@ -193,16 +193,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
 
     public void SetTransform(global::Iskra.StdWeb.DOMMatrix2DInit transform)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_699 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = transform.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_699.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = transform.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setTransform", JSObject, __argsArray_699.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setTransform", JSObject, ___argsArray_0.JSObject);
     }
 
     public void ResetTransform()
@@ -248,132 +248,132 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
 
     public global::Iskra.StdWeb.CanvasGradient CreateLinearGradient(double x0, double y0, double x1, double y1)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_708 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x0;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_708.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x0;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y0;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_708.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y0;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = x1;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_708.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = x1;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = y1;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_708.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = y1;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_709 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createLinearGradient", JSObject, __argsArray_708.JSObject, __resOwner_709.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createLinearGradient", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_709.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.CanvasGradient CreateRadialGradient(double x0, double y0, double r0, double x1, double y1, double r1)
     {
-        int ___argsArrayLength_0 = 6;
+        int ___argsArrayLength_2 = 6;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_711 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x0;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_711.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x0;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y0;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_711.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y0;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = r0;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_711.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = r0;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = x1;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_711.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = x1;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = y1;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_711.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = y1;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
         // Argument 6
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = r1;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_711.JSObject, 5, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = r1;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_8);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_712 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createRadialGradient", JSObject, __argsArray_711.JSObject, __resOwner_712.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createRadialGradient", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_712.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.CanvasGradient CreateConicGradient(double startAngle, double x, double y)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_2 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_714 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = startAngle;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_714.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = startAngle;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_714.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_714.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_715 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createConicGradient", JSObject, __argsArray_714.JSObject, __resOwner_715.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createConicGradient", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_715.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CanvasGradient, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.CanvasPattern? CreatePattern(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLImageElement, global::Iskra.StdWeb.SVGImageElement, global::Iskra.StdWeb.HTMLVideoElement, global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.ImageBitmap, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.VideoFrame, global::Iskra.StdWeb.GenericMarshaller.Union> image, string repetition)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_717 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = image.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_717.JSObject, 0, ___propObject_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = image.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0, ___propObject_3);
 
         // Argument 2
-        string ___marshalledValue_2;
-        ___marshalledValue_2 = repetition;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_717.JSObject, 1, ___marshalledValue_2);
+        string ___marshalledValue_4;
+        ___marshalledValue_4 = repetition;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_718 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createPattern", JSObject, __argsArray_717.JSObject, __resOwner_718.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createPattern", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CanvasPattern?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_718.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CanvasPattern?, global::Iskra.StdWeb.PropertyAccessorNullable>(___resOwner_1.JSObject, "value");
     }
 
     public double ShadowOffsetX
@@ -408,89 +408,89 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
 
     public void ClearRect(double x, double y, double w, double h)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_720 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_720.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_720.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = w;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_720.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = w;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = h;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_720.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = h;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "clearRect", JSObject, __argsArray_720.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "clearRect", JSObject, ___argsArray_0.JSObject);
     }
 
     public void FillRect(double x, double y, double w, double h)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_723 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_723.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_723.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = w;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_723.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = w;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = h;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_723.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = h;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fillRect", JSObject, __argsArray_723.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fillRect", JSObject, ___argsArray_0.JSObject);
     }
 
     public void StrokeRect(double x, double y, double w, double h)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_726 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_726.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_726.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = w;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_726.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = w;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = h;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_726.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = h;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "strokeRect", JSObject, __argsArray_726.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "strokeRect", JSObject, ___argsArray_0.JSObject);
     }
 
     public void BeginPath()
@@ -505,49 +505,49 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
 
     public void Fill(global::Iskra.StdWeb.CanvasFillRule fillRule)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_732 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = fillRule.ToString();
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_732.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = fillRule.ToString();
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fill", JSObject, __argsArray_732.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fill", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Fill(global::Iskra.StdWeb.Path2D path)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_741 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = path.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_741.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = path.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fill", JSObject, __argsArray_741.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fill", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Fill(global::Iskra.StdWeb.Path2D path, global::Iskra.StdWeb.CanvasFillRule fillRule)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_738 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = path.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_738.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = path.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        string ___marshalledValue_2;
-        ___marshalledValue_2 = fillRule.ToString();
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_738.JSObject, 1, ___marshalledValue_2);
+        string ___marshalledValue_4;
+        ___marshalledValue_4 = fillRule.ToString();
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fill", JSObject, __argsArray_738.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fill", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Stroke()
@@ -557,16 +557,16 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
 
     public void Stroke(global::Iskra.StdWeb.Path2D path)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_747 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = path.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_747.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = path.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "stroke", JSObject, __argsArray_747.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "stroke", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Clip()
@@ -576,698 +576,698 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
 
     public void Clip(global::Iskra.StdWeb.CanvasFillRule fillRule)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_750 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = fillRule.ToString();
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_750.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = fillRule.ToString();
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "clip", JSObject, __argsArray_750.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "clip", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Clip(global::Iskra.StdWeb.Path2D path)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_759 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = path.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_759.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = path.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "clip", JSObject, __argsArray_759.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "clip", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Clip(global::Iskra.StdWeb.Path2D path, global::Iskra.StdWeb.CanvasFillRule fillRule)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_756 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = path.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_756.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = path.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        string ___marshalledValue_2;
-        ___marshalledValue_2 = fillRule.ToString();
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_756.JSObject, 1, ___marshalledValue_2);
+        string ___marshalledValue_4;
+        ___marshalledValue_4 = fillRule.ToString();
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "clip", JSObject, __argsArray_756.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "clip", JSObject, ___argsArray_0.JSObject);
     }
 
     public bool IsPointInPath(double x, double y)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_765 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_765.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_765.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_766 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInPath", JSObject, __argsArray_765.JSObject, __resOwner_766.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInPath", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_766.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public bool IsPointInPath(double x, double y, global::Iskra.StdWeb.CanvasFillRule fillRule)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_2 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_762 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_762.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_762.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        string ___marshalledValue_3;
-        ___marshalledValue_3 = fillRule.ToString();
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_762.JSObject, 2, ___marshalledValue_3);
+        string ___marshalledValue_5;
+        ___marshalledValue_5 = fillRule.ToString();
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_763 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInPath", JSObject, __argsArray_762.JSObject, __resOwner_763.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInPath", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_763.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public bool IsPointInPath(global::Iskra.StdWeb.Path2D path, double x, double y)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_2 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_771 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = path.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_771.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = path.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_771.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_771.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_772 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInPath", JSObject, __argsArray_771.JSObject, __resOwner_772.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInPath", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_772.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public bool IsPointInPath(global::Iskra.StdWeb.Path2D path, double x, double y, global::Iskra.StdWeb.CanvasFillRule fillRule)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_768 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = path.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_768.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = path.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_768.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_768.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        string ___marshalledValue_4;
-        ___marshalledValue_4 = fillRule.ToString();
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_768.JSObject, 3, ___marshalledValue_4);
+        string ___marshalledValue_6;
+        ___marshalledValue_6 = fillRule.ToString();
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_769 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInPath", JSObject, __argsArray_768.JSObject, __resOwner_769.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInPath", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_769.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public bool IsPointInStroke(double x, double y)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_774 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_774.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_774.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_775 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInStroke", JSObject, __argsArray_774.JSObject, __resOwner_775.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInStroke", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_775.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public bool IsPointInStroke(global::Iskra.StdWeb.Path2D path, double x, double y)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_2 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_777 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = path.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_777.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = path.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_777.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_777.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_778 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInStroke", JSObject, __argsArray_777.JSObject, __resOwner_778.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "isPointInStroke", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_778.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public void DrawFocusIfNeeded(global::Iskra.StdWeb.Element element)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_780 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = element.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_780.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = element.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "drawFocusIfNeeded", JSObject, __argsArray_780.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "drawFocusIfNeeded", JSObject, ___argsArray_0.JSObject);
     }
 
     public void DrawFocusIfNeeded(global::Iskra.StdWeb.Path2D path, global::Iskra.StdWeb.Element element)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_783 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = path.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_783.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = path.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
-        ___marshalledValue_2 = element.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_783.JSObject, 1, ___marshalledValue_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+        ___marshalledValue_4 = element.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "drawFocusIfNeeded", JSObject, __argsArray_783.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "drawFocusIfNeeded", JSObject, ___argsArray_0.JSObject);
     }
 
     public void FillText(string text, double x, double y)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_2 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_789 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = text;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_789.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = text;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_789.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_789.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fillText", JSObject, __argsArray_789.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fillText", JSObject, ___argsArray_0.JSObject);
     }
 
     public void FillText(string text, double x, double y, double maxWidth)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_786 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = text;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_786.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = text;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_786.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_786.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = maxWidth;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_786.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = maxWidth;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fillText", JSObject, __argsArray_786.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "fillText", JSObject, ___argsArray_0.JSObject);
     }
 
     public void StrokeText(string text, double x, double y)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_2 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_795 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = text;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_795.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = text;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_795.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_795.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "strokeText", JSObject, __argsArray_795.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "strokeText", JSObject, ___argsArray_0.JSObject);
     }
 
     public void StrokeText(string text, double x, double y, double maxWidth)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_792 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = text;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_792.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = text;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_792.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_792.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = maxWidth;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_792.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = maxWidth;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "strokeText", JSObject, __argsArray_792.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "strokeText", JSObject, ___argsArray_0.JSObject);
     }
 
     public global::Iskra.StdWeb.TextMetrics MeasureText(string text)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_798 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = text;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_798.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = text;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_799 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "measureText", JSObject, __argsArray_798.JSObject, __resOwner_799.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "measureText", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.TextMetrics, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_799.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.TextMetrics, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public void DrawImage(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLImageElement, global::Iskra.StdWeb.SVGImageElement, global::Iskra.StdWeb.HTMLVideoElement, global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.ImageBitmap, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.VideoFrame, global::Iskra.StdWeb.GenericMarshaller.Union> image, double dx, double dy)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_2 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_801 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = image.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_801.JSObject, 0, ___propObject_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = image.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0, ___propObject_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = dx;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_801.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = dx;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = dy;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_801.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = dy;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "drawImage", JSObject, __argsArray_801.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "drawImage", JSObject, ___argsArray_0.JSObject);
     }
 
     public void DrawImage(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLImageElement, global::Iskra.StdWeb.SVGImageElement, global::Iskra.StdWeb.HTMLVideoElement, global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.ImageBitmap, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.VideoFrame, global::Iskra.StdWeb.GenericMarshaller.Union> image, double dx, double dy, double dw, double dh)
     {
-        int ___argsArrayLength_0 = 5;
+        int ___argsArrayLength_2 = 5;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_804 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = image.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_804.JSObject, 0, ___propObject_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = image.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0, ___propObject_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = dx;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_804.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = dx;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = dy;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_804.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = dy;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = dw;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_804.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = dw;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = dh;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_804.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = dh;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "drawImage", JSObject, __argsArray_804.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "drawImage", JSObject, ___argsArray_0.JSObject);
     }
 
     public void DrawImage(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLImageElement, global::Iskra.StdWeb.SVGImageElement, global::Iskra.StdWeb.HTMLVideoElement, global::Iskra.StdWeb.HTMLCanvasElement, global::Iskra.StdWeb.ImageBitmap, global::Iskra.StdWeb.OffscreenCanvas, global::Iskra.StdWeb.VideoFrame, global::Iskra.StdWeb.GenericMarshaller.Union> image, double sx, double sy, double sw, double sh, double dx, double dy, double dw, double dh)
     {
-        int ___argsArrayLength_0 = 9;
+        int ___argsArrayLength_2 = 9;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_807 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = image.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_807.JSObject, 0, ___propObject_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = image.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0, ___propObject_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = sx;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_807.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = sx;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = sy;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_807.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = sy;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = sw;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_807.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = sw;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = sh;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_807.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = sh;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
         // Argument 6
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = dx;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_807.JSObject, 5, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = dx;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_8);
 
         // Argument 7
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = dy;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_807.JSObject, 6, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = dy;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_9);
 
         // Argument 8
-        double ___marshalledValue_8;
-        ___marshalledValue_8 = dw;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_807.JSObject, 7, ___marshalledValue_8);
+        double ___marshalledValue_10;
+        ___marshalledValue_10 = dw;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 7, ___marshalledValue_10);
 
         // Argument 9
-        double ___marshalledValue_9;
-        ___marshalledValue_9 = dh;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_807.JSObject, 8, ___marshalledValue_9);
+        double ___marshalledValue_11;
+        ___marshalledValue_11 = dh;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 8, ___marshalledValue_11);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "drawImage", JSObject, __argsArray_807.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "drawImage", JSObject, ___argsArray_0.JSObject);
     }
 
     public global::Iskra.StdWeb.ImageData CreateImageData(int sw, int sh)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_813 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = Convert.ToDouble(sw);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_813.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = Convert.ToDouble(sw);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(sh);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_813.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = Convert.ToDouble(sh);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_814 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createImageData", JSObject, __argsArray_813.JSObject, __resOwner_814.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createImageData", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_814.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.ImageData CreateImageData(int sw, int sh, global::Iskra.StdWeb.ImageDataSettings settings)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_2 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_810 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = Convert.ToDouble(sw);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_810.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = Convert.ToDouble(sw);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(sh);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_810.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = Convert.ToDouble(sh);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
-        ___marshalledValue_3 = settings.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_810.JSObject, 2, ___marshalledValue_3);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_5;
+        ___marshalledValue_5 = settings.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_811 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createImageData", JSObject, __argsArray_810.JSObject, __resOwner_811.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createImageData", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_811.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.ImageData CreateImageData(global::Iskra.StdWeb.ImageData imageData)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_816 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = imageData.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_816.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = imageData.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_817 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createImageData", JSObject, __argsArray_816.JSObject, __resOwner_817.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "createImageData", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_817.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.ImageData GetImageData(int sx, int sy, int sw, int sh)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_822 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = Convert.ToDouble(sx);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_822.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = Convert.ToDouble(sx);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(sy);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_822.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = Convert.ToDouble(sy);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = Convert.ToDouble(sw);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_822.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = Convert.ToDouble(sw);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = Convert.ToDouble(sh);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_822.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = Convert.ToDouble(sh);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_823 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getImageData", JSObject, __argsArray_822.JSObject, __resOwner_823.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getImageData", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_823.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public global::Iskra.StdWeb.ImageData GetImageData(int sx, int sy, int sw, int sh, global::Iskra.StdWeb.ImageDataSettings settings)
     {
-        int ___argsArrayLength_0 = 5;
+        int ___argsArrayLength_2 = 5;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_819 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = Convert.ToDouble(sx);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_819.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = Convert.ToDouble(sx);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(sy);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_819.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = Convert.ToDouble(sy);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = Convert.ToDouble(sw);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_819.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = Convert.ToDouble(sw);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = Convert.ToDouble(sh);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_819.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = Convert.ToDouble(sh);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_5;
-        ___marshalledValue_5 = settings.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_819.JSObject, 4, ___marshalledValue_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_7;
+        ___marshalledValue_7 = settings.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_820 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getImageData", JSObject, __argsArray_819.JSObject, __resOwner_820.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getImageData", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_820.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageData, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public void PutImageData(global::Iskra.StdWeb.ImageData imageData, int dx, int dy)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_2 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_825 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = imageData.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_825.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = imageData.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(dx);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_825.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = Convert.ToDouble(dx);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = Convert.ToDouble(dy);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_825.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = Convert.ToDouble(dy);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "putImageData", JSObject, __argsArray_825.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "putImageData", JSObject, ___argsArray_0.JSObject);
     }
 
     public void PutImageData(global::Iskra.StdWeb.ImageData imageData, int dx, int dy, int dirtyX, int dirtyY, int dirtyWidth, int dirtyHeight)
     {
-        int ___argsArrayLength_0 = 7;
+        int ___argsArrayLength_2 = 7;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_828 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = imageData.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_828.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
+        ___marshalledValue_3 = imageData.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(dx);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_828.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = Convert.ToDouble(dx);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = Convert.ToDouble(dy);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_828.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = Convert.ToDouble(dy);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = Convert.ToDouble(dirtyX);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_828.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = Convert.ToDouble(dirtyX);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = Convert.ToDouble(dirtyY);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_828.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = Convert.ToDouble(dirtyY);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
         // Argument 6
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(dirtyWidth);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_828.JSObject, 5, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(dirtyWidth);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_8);
 
         // Argument 7
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = Convert.ToDouble(dirtyHeight);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_828.JSObject, 6, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(dirtyHeight);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_9);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "putImageData", JSObject, __argsArray_828.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "putImageData", JSObject, ___argsArray_0.JSObject);
     }
 
     public double LineWidth
@@ -1296,25 +1296,25 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
 
     public void SetLineDash(global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor> segments)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_831 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = segments.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_831.JSObject, 0, ___propObject_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = segments.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___propObject_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setLineDash", JSObject, __argsArray_831.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setLineDash", JSObject, ___argsArray_0.JSObject);
     }
 
     public global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor> GetLineDash()
     {
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_835 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getLineDash", JSObject, __resOwner_835.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getLineDash", JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_835.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public double LineDashOffset
@@ -1396,399 +1396,399 @@ public partial class CanvasRenderingContext2D(global::System.Runtime.InteropServ
 
     public void MoveTo(double x, double y)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_840 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_840.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_840.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "moveTo", JSObject, __argsArray_840.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "moveTo", JSObject, ___argsArray_0.JSObject);
     }
 
     public void LineTo(double x, double y)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_843 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_843.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_843.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "lineTo", JSObject, __argsArray_843.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "lineTo", JSObject, ___argsArray_0.JSObject);
     }
 
     public void QuadraticCurveTo(double cpx, double cpy, double x, double y)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_846 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = cpx;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_846.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = cpx;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = cpy;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_846.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = cpy;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_846.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_846.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "quadraticCurveTo", JSObject, __argsArray_846.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "quadraticCurveTo", JSObject, ___argsArray_0.JSObject);
     }
 
     public void BezierCurveTo(double cp1x, double cp1y, double cp2x, double cp2y, double x, double y)
     {
-        int ___argsArrayLength_0 = 6;
+        int ___argsArrayLength_2 = 6;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_849 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = cp1x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_849.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = cp1x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = cp1y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_849.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = cp1y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = cp2x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_849.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = cp2x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = cp2y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_849.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = cp2y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_849.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
         // Argument 6
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_849.JSObject, 5, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_8);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "bezierCurveTo", JSObject, __argsArray_849.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "bezierCurveTo", JSObject, ___argsArray_0.JSObject);
     }
 
     public void ArcTo(double x1, double y1, double x2, double y2, double radius)
     {
-        int ___argsArrayLength_0 = 5;
+        int ___argsArrayLength_2 = 5;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_852 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x1;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_852.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x1;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y1;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_852.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y1;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = x2;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_852.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = x2;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = y2;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_852.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = y2;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = radius;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_852.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = radius;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "arcTo", JSObject, __argsArray_852.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "arcTo", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Rect(double x, double y, double w, double h)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_855 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_855.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_855.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = w;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_855.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = w;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = h;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_855.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = h;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "rect", JSObject, __argsArray_855.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "rect", JSObject, ___argsArray_0.JSObject);
     }
 
     public void RoundRect(double x, double y, double w, double h)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_861 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_861.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_861.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = w;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_861.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = w;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = h;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_861.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = h;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "roundRect", JSObject, __argsArray_861.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "roundRect", JSObject, ___argsArray_0.JSObject);
     }
 
     public void RoundRect(double x, double y, double w, double h, global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.DOMPointInit, global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<double, global::Iskra.StdWeb.DOMPointInit, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> radii)
     {
-        int ___argsArrayLength_0 = 5;
+        int ___argsArrayLength_2 = 5;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_858 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_858.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_858.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = w;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_858.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = w;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = h;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_858.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = h;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_5 = radii.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_858.JSObject, 4, ___propObject_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_7 = radii.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 4, ___propObject_7);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "roundRect", JSObject, __argsArray_858.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "roundRect", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Arc(double x, double y, double radius, double startAngle, double endAngle)
     {
-        int ___argsArrayLength_0 = 5;
+        int ___argsArrayLength_2 = 5;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_867 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_867.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_867.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = radius;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_867.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = radius;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = startAngle;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_867.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = startAngle;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = endAngle;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_867.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = endAngle;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "arc", JSObject, __argsArray_867.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "arc", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Arc(double x, double y, double radius, double startAngle, double endAngle, bool counterclockwise)
     {
-        int ___argsArrayLength_0 = 6;
+        int ___argsArrayLength_2 = 6;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_864 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_864.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_864.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = radius;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_864.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = radius;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = startAngle;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_864.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = startAngle;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = endAngle;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_864.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = endAngle;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
         // Argument 6
-        bool ___marshalledValue_6;
-        ___marshalledValue_6 = counterclockwise;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_864.JSObject, 5, ___marshalledValue_6);
+        bool ___marshalledValue_8;
+        ___marshalledValue_8 = counterclockwise;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 5, ___marshalledValue_8);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "arc", JSObject, __argsArray_864.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "arc", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Ellipse(double x, double y, double radiusX, double radiusY, double rotation, double startAngle, double endAngle)
     {
-        int ___argsArrayLength_0 = 7;
+        int ___argsArrayLength_2 = 7;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_873 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_873.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_873.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = radiusX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_873.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = radiusX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = radiusY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_873.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = radiusY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = rotation;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_873.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = rotation;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
         // Argument 6
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = startAngle;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_873.JSObject, 5, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = startAngle;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_8);
 
         // Argument 7
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = endAngle;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_873.JSObject, 6, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = endAngle;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_9);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "ellipse", JSObject, __argsArray_873.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "ellipse", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Ellipse(double x, double y, double radiusX, double radiusY, double rotation, double startAngle, double endAngle, bool counterclockwise)
     {
-        int ___argsArrayLength_0 = 8;
+        int ___argsArrayLength_2 = 8;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_870 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_870.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_3;
+        ___marshalledValue_3 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_870.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = radiusX;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_870.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = radiusX;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = radiusY;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_870.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = radiusY;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_5;
-        ___marshalledValue_5 = rotation;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_870.JSObject, 4, ___marshalledValue_5);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = rotation;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_7);
 
         // Argument 6
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = startAngle;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_870.JSObject, 5, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = startAngle;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_8);
 
         // Argument 7
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = endAngle;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_870.JSObject, 6, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = endAngle;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_9);
 
         // Argument 8
-        bool ___marshalledValue_8;
-        ___marshalledValue_8 = counterclockwise;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_870.JSObject, 7, ___marshalledValue_8);
+        bool ___marshalledValue_10;
+        ___marshalledValue_10 = counterclockwise;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 7, ___marshalledValue_10);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "ellipse", JSObject, __argsArray_870.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "ellipse", JSObject, ___argsArray_0.JSObject);
     }
 }
 

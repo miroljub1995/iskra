@@ -10,20 +10,20 @@ public partial class XRVisibilityMaskChangeEvent(global::System.Runtime.InteropS
     {
         int ___argsArrayLength_0 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_142 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_40 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_142.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_40.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
         ___marshalledValue_2 = eventInitDict.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_142.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_40.JSObject, 1, ___marshalledValue_2);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_144 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRVisibilityMaskChangeEvent", __argsArray_142.JSObject);
-        return new global::Iskra.StdWeb.XRVisibilityMaskChangeEvent(__res_144);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_42 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRVisibilityMaskChangeEvent", __argsArray_40.JSObject);
+        return new global::Iskra.StdWeb.XRVisibilityMaskChangeEvent(__res_42);
     }
 
     public global::Iskra.StdWeb.XRSession Session

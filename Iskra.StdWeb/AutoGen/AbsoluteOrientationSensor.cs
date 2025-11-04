@@ -8,23 +8,23 @@ public partial class AbsoluteOrientationSensor(global::System.Runtime.InteropSer
 {
     public static global::Iskra.StdWeb.AbsoluteOrientationSensor New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_8 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AbsoluteOrientationSensor");
-        return new global::Iskra.StdWeb.AbsoluteOrientationSensor(__res_8);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AbsoluteOrientationSensor");
+        return new global::Iskra.StdWeb.AbsoluteOrientationSensor(__res_5);
     }
 
     public static global::Iskra.StdWeb.AbsoluteOrientationSensor New(global::Iskra.StdWeb.OrientationSensorOptions sensorOptions)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = sensorOptions.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_3.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AbsoluteOrientationSensor", __argsArray_3.JSObject);
-        return new global::Iskra.StdWeb.AbsoluteOrientationSensor(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AbsoluteOrientationSensor", __argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.AbsoluteOrientationSensor(__res_2);
     }
 }
 

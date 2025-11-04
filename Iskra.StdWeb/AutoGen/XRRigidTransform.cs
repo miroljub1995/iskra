@@ -8,43 +8,43 @@ public partial class XRRigidTransform(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.XRRigidTransform New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_114 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRRigidTransform");
-        return new global::Iskra.StdWeb.XRRigidTransform(__res_114);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_21 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRRigidTransform");
+        return new global::Iskra.StdWeb.XRRigidTransform(__res_21);
     }
 
     public static global::Iskra.StdWeb.XRRigidTransform New(global::Iskra.StdWeb.DOMPointInit position)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_109 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_16 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = position.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_109.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_16.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_111 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRRigidTransform", __argsArray_109.JSObject);
-        return new global::Iskra.StdWeb.XRRigidTransform(__res_111);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_18 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRRigidTransform", __argsArray_16.JSObject);
+        return new global::Iskra.StdWeb.XRRigidTransform(__res_18);
     }
 
     public static global::Iskra.StdWeb.XRRigidTransform New(global::Iskra.StdWeb.DOMPointInit position, global::Iskra.StdWeb.DOMPointInit orientation)
     {
         int ___argsArrayLength_0 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_106 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_13 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = position.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_106.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_13.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
         ___marshalledValue_2 = orientation.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_106.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_13.JSObject, 1, ___marshalledValue_2);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_108 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRRigidTransform", __argsArray_106.JSObject);
-        return new global::Iskra.StdWeb.XRRigidTransform(__res_108);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_15 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRRigidTransform", __argsArray_13.JSObject);
+        return new global::Iskra.StdWeb.XRRigidTransform(__res_15);
     }
 
     public global::Iskra.StdWeb.DOMPointReadOnly Position

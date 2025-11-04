@@ -8,8 +8,8 @@ public partial class RdfTriple(global::System.Runtime.InteropServices.JavaScript
 {
     public static global::Iskra.StdWeb.RdfTriple New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_59 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RdfTriple");
-        return new global::Iskra.StdWeb.RdfTriple(__res_59);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_11 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RdfTriple");
+        return new global::Iskra.StdWeb.RdfTriple(__res_11);
     }
 
     public string Subject

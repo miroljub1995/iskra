@@ -8,23 +8,23 @@ public partial class MediaMetadata(global::System.Runtime.InteropServices.JavaSc
 {
     public static global::Iskra.StdWeb.MediaMetadata New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_33 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaMetadata");
-        return new global::Iskra.StdWeb.MediaMetadata(__res_33);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_15 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaMetadata");
+        return new global::Iskra.StdWeb.MediaMetadata(__res_15);
     }
 
     public static global::Iskra.StdWeb.MediaMetadata New(global::Iskra.StdWeb.MediaMetadataInit init)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_28 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_10 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = init.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_28.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_10.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_30 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaMetadata", __argsArray_28.JSObject);
-        return new global::Iskra.StdWeb.MediaMetadata(__res_30);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_12 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaMetadata", __argsArray_10.JSObject);
+        return new global::Iskra.StdWeb.MediaMetadata(__res_12);
     }
 
     public string Title

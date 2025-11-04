@@ -10,35 +10,35 @@ public partial class StorageEvent(global::System.Runtime.InteropServices.JavaScr
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2141 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_467 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2141.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_467.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2143 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "StorageEvent", __argsArray_2141.JSObject);
-        return new global::Iskra.StdWeb.StorageEvent(__res_2143);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_469 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "StorageEvent", __argsArray_467.JSObject);
+        return new global::Iskra.StdWeb.StorageEvent(__res_469);
     }
 
     public static global::Iskra.StdWeb.StorageEvent New(string type, global::Iskra.StdWeb.StorageEventInit eventInitDict)
     {
         int ___argsArrayLength_0 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2138 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_464 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2138.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_464.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
         ___marshalledValue_2 = eventInitDict.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_2138.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_464.JSObject, 1, ___marshalledValue_2);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2140 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "StorageEvent", __argsArray_2138.JSObject);
-        return new global::Iskra.StdWeb.StorageEvent(__res_2140);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_466 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "StorageEvent", __argsArray_464.JSObject);
+        return new global::Iskra.StdWeb.StorageEvent(__res_466);
     }
 
     public string? Key
@@ -68,358 +68,358 @@ public partial class StorageEvent(global::System.Runtime.InteropServices.JavaScr
 
     public void InitStorageEvent(string type)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2165 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2165.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, __argsArray_2165.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitStorageEvent(string type, bool bubbles)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2162 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2162.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubbles;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2162.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubbles;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, __argsArray_2162.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitStorageEvent(string type, bool bubbles, bool cancelable)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_2 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2159 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2159.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubbles;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2159.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubbles;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelable;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2159.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelable;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, __argsArray_2159.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitStorageEvent(string type, bool bubbles, bool cancelable, string? key)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2156 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2156.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubbles;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2156.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubbles;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelable;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2156.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelable;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        string? ___marshalledValue_4;
+        string? ___marshalledValue_6;
         if (key is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            string ___notNullable_5 = (string)key;
-            ___marshalledValue_4 = ___notNullable_5;
+            string ___notNullable_7 = (string)key;
+            ___marshalledValue_6 = ___notNullable_7;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2156.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, __argsArray_2156.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitStorageEvent(string type, bool bubbles, bool cancelable, string? key, string? oldValue)
     {
-        int ___argsArrayLength_0 = 5;
+        int ___argsArrayLength_2 = 5;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2153 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2153.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubbles;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2153.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubbles;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelable;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2153.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelable;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        string? ___marshalledValue_4;
-        if (key is null)
-        {
-            ___marshalledValue_4 = null;
-        }
-        else
-        {
-            string ___notNullable_5 = (string)key;
-            ___marshalledValue_4 = ___notNullable_5;
-        }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2153.JSObject, 3, ___marshalledValue_4);
-
-        // Argument 5
         string? ___marshalledValue_6;
-        if (oldValue is null)
+        if (key is null)
         {
             ___marshalledValue_6 = null;
         }
         else
         {
-            string ___notNullable_7 = (string)oldValue;
+            string ___notNullable_7 = (string)key;
             ___marshalledValue_6 = ___notNullable_7;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2153.JSObject, 4, ___marshalledValue_6);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, __argsArray_2153.JSObject);
+        // Argument 5
+        string? ___marshalledValue_8;
+        if (oldValue is null)
+        {
+            ___marshalledValue_8 = null;
+        }
+        else
+        {
+            string ___notNullable_9 = (string)oldValue;
+            ___marshalledValue_8 = ___notNullable_9;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 4, ___marshalledValue_8);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitStorageEvent(string type, bool bubbles, bool cancelable, string? key, string? oldValue, string? newValue)
     {
-        int ___argsArrayLength_0 = 6;
+        int ___argsArrayLength_2 = 6;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2150 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2150.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubbles;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2150.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubbles;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelable;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2150.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelable;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        string? ___marshalledValue_4;
-        if (key is null)
-        {
-            ___marshalledValue_4 = null;
-        }
-        else
-        {
-            string ___notNullable_5 = (string)key;
-            ___marshalledValue_4 = ___notNullable_5;
-        }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2150.JSObject, 3, ___marshalledValue_4);
-
-        // Argument 5
         string? ___marshalledValue_6;
-        if (oldValue is null)
+        if (key is null)
         {
             ___marshalledValue_6 = null;
         }
         else
         {
-            string ___notNullable_7 = (string)oldValue;
+            string ___notNullable_7 = (string)key;
             ___marshalledValue_6 = ___notNullable_7;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2150.JSObject, 4, ___marshalledValue_6);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        // Argument 6
+        // Argument 5
         string? ___marshalledValue_8;
-        if (newValue is null)
+        if (oldValue is null)
         {
             ___marshalledValue_8 = null;
         }
         else
         {
-            string ___notNullable_9 = (string)newValue;
+            string ___notNullable_9 = (string)oldValue;
             ___marshalledValue_8 = ___notNullable_9;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2150.JSObject, 5, ___marshalledValue_8);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, __argsArray_2150.JSObject);
+        // Argument 6
+        string? ___marshalledValue_10;
+        if (newValue is null)
+        {
+            ___marshalledValue_10 = null;
+        }
+        else
+        {
+            string ___notNullable_11 = (string)newValue;
+            ___marshalledValue_10 = ___notNullable_11;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 5, ___marshalledValue_10);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitStorageEvent(string type, bool bubbles, bool cancelable, string? key, string? oldValue, string? newValue, string url)
     {
-        int ___argsArrayLength_0 = 7;
+        int ___argsArrayLength_2 = 7;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2147 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2147.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubbles;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2147.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubbles;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelable;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2147.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelable;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        string? ___marshalledValue_4;
-        if (key is null)
-        {
-            ___marshalledValue_4 = null;
-        }
-        else
-        {
-            string ___notNullable_5 = (string)key;
-            ___marshalledValue_4 = ___notNullable_5;
-        }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2147.JSObject, 3, ___marshalledValue_4);
-
-        // Argument 5
         string? ___marshalledValue_6;
-        if (oldValue is null)
+        if (key is null)
         {
             ___marshalledValue_6 = null;
         }
         else
         {
-            string ___notNullable_7 = (string)oldValue;
+            string ___notNullable_7 = (string)key;
             ___marshalledValue_6 = ___notNullable_7;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2147.JSObject, 4, ___marshalledValue_6);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        // Argument 6
+        // Argument 5
         string? ___marshalledValue_8;
-        if (newValue is null)
+        if (oldValue is null)
         {
             ___marshalledValue_8 = null;
         }
         else
         {
-            string ___notNullable_9 = (string)newValue;
+            string ___notNullable_9 = (string)oldValue;
             ___marshalledValue_8 = ___notNullable_9;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2147.JSObject, 5, ___marshalledValue_8);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 4, ___marshalledValue_8);
+
+        // Argument 6
+        string? ___marshalledValue_10;
+        if (newValue is null)
+        {
+            ___marshalledValue_10 = null;
+        }
+        else
+        {
+            string ___notNullable_11 = (string)newValue;
+            ___marshalledValue_10 = ___notNullable_11;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 5, ___marshalledValue_10);
 
         // Argument 7
-        string ___marshalledValue_10;
-        ___marshalledValue_10 = url;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2147.JSObject, 6, ___marshalledValue_10);
+        string ___marshalledValue_12;
+        ___marshalledValue_12 = url;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 6, ___marshalledValue_12);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, __argsArray_2147.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitStorageEvent(string type, bool bubbles, bool cancelable, string? key, string? oldValue, string? newValue, string url, global::Iskra.StdWeb.Storage? storageArea)
     {
-        int ___argsArrayLength_0 = 8;
+        int ___argsArrayLength_2 = 8;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2144 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2144.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubbles;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2144.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubbles;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelable;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2144.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelable;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        string? ___marshalledValue_4;
-        if (key is null)
-        {
-            ___marshalledValue_4 = null;
-        }
-        else
-        {
-            string ___notNullable_5 = (string)key;
-            ___marshalledValue_4 = ___notNullable_5;
-        }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2144.JSObject, 3, ___marshalledValue_4);
-
-        // Argument 5
         string? ___marshalledValue_6;
-        if (oldValue is null)
+        if (key is null)
         {
             ___marshalledValue_6 = null;
         }
         else
         {
-            string ___notNullable_7 = (string)oldValue;
+            string ___notNullable_7 = (string)key;
             ___marshalledValue_6 = ___notNullable_7;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2144.JSObject, 4, ___marshalledValue_6);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        // Argument 6
+        // Argument 5
         string? ___marshalledValue_8;
-        if (newValue is null)
+        if (oldValue is null)
         {
             ___marshalledValue_8 = null;
         }
         else
         {
-            string ___notNullable_9 = (string)newValue;
+            string ___notNullable_9 = (string)oldValue;
             ___marshalledValue_8 = ___notNullable_9;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_2144.JSObject, 5, ___marshalledValue_8);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
-        // Argument 7
-        string ___marshalledValue_10;
-        ___marshalledValue_10 = url;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2144.JSObject, 6, ___marshalledValue_10);
-
-        // Argument 8
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_11;
-        if (storageArea is null)
+        // Argument 6
+        string? ___marshalledValue_10;
+        if (newValue is null)
         {
-            ___marshalledValue_11 = null;
+            ___marshalledValue_10 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Storage ___notNullable_12 = (global::Iskra.StdWeb.Storage)storageArea;
-            ___marshalledValue_11 = ___notNullable_12.JSObject;
+            string ___notNullable_11 = (string)newValue;
+            ___marshalledValue_10 = ___notNullable_11;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_2144.JSObject, 7, ___marshalledValue_11);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 5, ___marshalledValue_10);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, __argsArray_2144.JSObject);
+        // Argument 7
+        string ___marshalledValue_12;
+        ___marshalledValue_12 = url;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 6, ___marshalledValue_12);
+
+        // Argument 8
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_13;
+        if (storageArea is null)
+        {
+            ___marshalledValue_13 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.Storage ___notNullable_14 = (global::Iskra.StdWeb.Storage)storageArea;
+            ___marshalledValue_13 = ___notNullable_14.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 7, ___marshalledValue_13);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initStorageEvent", JSObject, ___argsArray_0.JSObject);
     }
 }
 

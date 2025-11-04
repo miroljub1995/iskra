@@ -8,8 +8,8 @@ public partial class HTMLFrameElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLFrameElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2182 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFrameElement");
-        return new global::Iskra.StdWeb.HTMLFrameElement(__res_2182);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_478 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFrameElement");
+        return new global::Iskra.StdWeb.HTMLFrameElement(__res_478);
     }
 
     public string Name

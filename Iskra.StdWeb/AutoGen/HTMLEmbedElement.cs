@@ -8,8 +8,8 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLEmbedElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_170 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLEmbedElement");
-        return new global::Iskra.StdWeb.HTMLEmbedElement(__res_170);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_92 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLEmbedElement");
+        return new global::Iskra.StdWeb.HTMLEmbedElement(__res_92);
     }
 
     public string Src
@@ -38,12 +38,12 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
 
     public global::Iskra.StdWeb.Document? GetSVGDocument()
     {
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_172 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getSVGDocument", JSObject, __resOwner_172.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getSVGDocument", JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Document?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_172.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Document?, global::Iskra.StdWeb.PropertyAccessorNullable>(___resOwner_1.JSObject, "value");
     }
 
     public string Align

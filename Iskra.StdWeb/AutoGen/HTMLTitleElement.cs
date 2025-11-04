@@ -8,8 +8,8 @@ public partial class HTMLTitleElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLTitleElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_83 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTitleElement");
-        return new global::Iskra.StdWeb.HTMLTitleElement(__res_83);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_11 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTitleElement");
+        return new global::Iskra.StdWeb.HTMLTitleElement(__res_11);
     }
 
     public string Text

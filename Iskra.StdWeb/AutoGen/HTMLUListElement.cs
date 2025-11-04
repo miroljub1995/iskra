@@ -8,8 +8,8 @@ public partial class HTMLUListElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLUListElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_119 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLUListElement");
-        return new global::Iskra.StdWeb.HTMLUListElement(__res_119);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_47 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLUListElement");
+        return new global::Iskra.StdWeb.HTMLUListElement(__res_47);
     }
 
     public bool Compact

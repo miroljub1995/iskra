@@ -8,8 +8,8 @@ public partial class HTMLSelectedContentElement(global::System.Runtime.InteropSe
 {
     public static global::Iskra.StdWeb.HTMLSelectedContentElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_557 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLSelectedContentElement");
-        return new global::Iskra.StdWeb.HTMLSelectedContentElement(__res_557);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_179 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLSelectedContentElement");
+        return new global::Iskra.StdWeb.HTMLSelectedContentElement(__res_179);
     }
 }
 

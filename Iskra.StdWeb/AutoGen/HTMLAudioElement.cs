@@ -8,8 +8,8 @@ public partial class HTMLAudioElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLAudioElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_206 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLAudioElement");
-        return new global::Iskra.StdWeb.HTMLAudioElement(__res_206);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_101 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLAudioElement");
+        return new global::Iskra.StdWeb.HTMLAudioElement(__res_101);
     }
 }
 

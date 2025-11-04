@@ -10,40 +10,40 @@ public partial class AudioWorkletProcessCallback(global::System.Runtime.InteropS
 {
     public static implicit operator AudioWorkletProcessCallback(AudioWorkletProcessCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_424, __res_433) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_172, __res_181) =>
         {
-            using (__args_424)
-            using (__res_433)
+            using (__args_172)
+            using (__res_181)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> __arg_426;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_427;
-                __propObject_427 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_424, 0);
-                __arg_426 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__propObject_427);
+                global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> __arg_174;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_175;
+                __propObject_175 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_172, 0);
+                __arg_174 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__propObject_175);
 
                 // Argument 2
-                global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> __arg_428;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_429;
-                __propObject_429 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_424, 1);
-                __arg_428 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__propObject_429);
+                global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> __arg_176;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_177;
+                __propObject_177 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_172, 1);
+                __arg_176 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.JSCore.Float32Array, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(__propObject_177);
 
                 // Argument 3
-                global::System.Runtime.InteropServices.JavaScript.JSObject __arg_430;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_431 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_424, 2);
-                __arg_430 = __res_431;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __arg_178;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_179 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_172, 2);
+                __arg_178 = __res_179;
 
-                bool __managedRes_434 = input(__arg_426, __arg_428, __arg_430);
+                bool __managedRes_182 = input(__arg_174, __arg_176, __arg_178);
 
-                bool __marshalledValue_435;
-                __marshalledValue_435 = __managedRes_434;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__res_433, "value", __marshalledValue_435);
+                bool __marshalledValue_183;
+                __marshalledValue_183 = __managedRes_182;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__res_181, "value", __marshalledValue_183);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_432 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_432, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_180 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_180, input); 
 
-        return new global::Iskra.StdWeb.AudioWorkletProcessCallback(__funcObj_432);
+        return new global::Iskra.StdWeb.AudioWorkletProcessCallback(__funcObj_180);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.AudioWorkletProcessCallbackManaged? managed, bool allowConversion = false)
@@ -61,32 +61,32 @@ public partial class AudioWorkletProcessCallback(global::System.Runtime.InteropS
 
         managed = (inputs, outputs, parameters) =>
         {
-            int __argsArrayLength_439 = 3;
+            int __argsArrayLength_187 = 3;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_436 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_439);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_184 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_187);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_440 = inputs.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_436.JSObject, 0, __propObject_440);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_188 = inputs.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_184.JSObject, 0, __propObject_188);
 
             // Argument 2
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_441 = outputs.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_436.JSObject, 1, __propObject_441);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_189 = outputs.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_184.JSObject, 1, __propObject_189);
 
             // Argument 3
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_442;
-            __marshalledValue_442 = parameters;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_436.JSObject, 2, __marshalledValue_442);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_190;
+            __marshalledValue_190 = parameters;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_184.JSObject, 2, __marshalledValue_190);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_437 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_185 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_436.JSObject, __resOwner_437.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_184.JSObject, __resOwner_185.JSObject);
 
             // Return Value
-            bool __res_438;
-            bool __res_443 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(__resOwner_437.JSObject, "value");
-            __res_438 = __res_443;
-            return __res_438;
+            bool __res_186;
+            bool __res_191 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(__resOwner_185.JSObject, "value");
+            __res_186 = __res_191;
+            return __res_186;
         };
         return true;
     }

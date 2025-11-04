@@ -8,23 +8,23 @@ public partial class SharedStorageClearMethod(global::System.Runtime.InteropServ
 {
     public static global::Iskra.StdWeb.SharedStorageClearMethod New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_58 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageClearMethod");
-        return new global::Iskra.StdWeb.SharedStorageClearMethod(__res_58);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_40 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageClearMethod");
+        return new global::Iskra.StdWeb.SharedStorageClearMethod(__res_40);
     }
 
     public static global::Iskra.StdWeb.SharedStorageClearMethod New(global::Iskra.StdWeb.SharedStorageModifierMethodOptions options)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_53 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_35 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_53.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_35.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_55 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageClearMethod", __argsArray_53.JSObject);
-        return new global::Iskra.StdWeb.SharedStorageClearMethod(__res_55);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_37 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageClearMethod", __argsArray_35.JSObject);
+        return new global::Iskra.StdWeb.SharedStorageClearMethod(__res_37);
     }
 }
 

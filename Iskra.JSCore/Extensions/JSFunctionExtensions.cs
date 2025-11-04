@@ -241,4 +241,39 @@ public static partial class JSFunctionExtensions
     );
 
     #endregion
+
+    public static void CallGetter(
+        this JSObject obj,
+        JSObject args,
+        JSObject res
+    ) => CallGetter_Bridge(obj, args, res);
+
+    [JSImport("callGetter", "iskra")]
+    private static partial void CallGetter_Bridge(
+        JSObject obj,
+        JSObject args,
+        JSObject res
+    );
+    
+    public static void CallSetter(
+        this JSObject obj,
+        JSObject args
+    ) => CallSetter_Bridge(obj, args);
+
+    [JSImport("callSetter", "iskra")]
+    private static partial void CallSetter_Bridge(
+        JSObject obj,
+        JSObject args
+    );
+    
+    public static void CallDeleter(
+        this JSObject obj,
+        JSObject args
+    ) => CallDeleter_Bridge(obj, args);
+
+    [JSImport("callDeleter", "iskra")]
+    private static partial void CallDeleter_Bridge(
+        JSObject obj,
+        JSObject args
+    );
 }

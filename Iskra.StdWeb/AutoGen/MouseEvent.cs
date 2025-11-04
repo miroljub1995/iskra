@@ -50,35 +50,35 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_30 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_15 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_30.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_15.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_32 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MouseEvent", __argsArray_30.JSObject);
-        return new global::Iskra.StdWeb.MouseEvent(__res_32);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_17 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MouseEvent", __argsArray_15.JSObject);
+        return new global::Iskra.StdWeb.MouseEvent(__res_17);
     }
 
     public static global::Iskra.StdWeb.MouseEvent New(string type, global::Iskra.StdWeb.MouseEventInit eventInitDict)
     {
         int ___argsArrayLength_0 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_27 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_27.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_12.JSObject, 0, ___marshalledValue_1);
 
         // Argument 2
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
         ___marshalledValue_2 = eventInitDict.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_27.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_12.JSObject, 1, ___marshalledValue_2);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_29 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MouseEvent", __argsArray_27.JSObject);
-        return new global::Iskra.StdWeb.MouseEvent(__res_29);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_14 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MouseEvent", __argsArray_12.JSObject);
+        return new global::Iskra.StdWeb.MouseEvent(__res_14);
     }
 
     public int ScreenX
@@ -148,860 +148,860 @@ public partial class MouseEvent(global::System.Runtime.InteropServices.JavaScrip
 
     public bool GetModifierState(string keyArg)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_33 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = keyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_33.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = keyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_34 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getModifierState", JSObject, __argsArray_33.JSObject, __resOwner_34.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getModifierState", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(__resOwner_34.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     public void InitMouseEvent(string typeArg)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_2 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_78 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_78.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_78.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_2 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_75 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_75.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_75.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_75.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_2 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_72 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_72.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_72.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_72.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_72.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_2 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_69 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_69.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_69.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_69.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_69.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_69.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg)
     {
-        int ___argsArrayLength_0 = 5;
+        int ___argsArrayLength_2 = 5;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_66 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_66.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_66.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_66.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_66.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_66.JSObject, 4, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_66.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg, int screenXArg)
     {
-        int ___argsArrayLength_0 = 6;
+        int ___argsArrayLength_2 = 6;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_63 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_63.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_63.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_63.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_63.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_63.JSObject, 4, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
         // Argument 6
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = Convert.ToDouble(screenXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_63.JSObject, 5, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(screenXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_9);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_63.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg, int screenXArg, int screenYArg)
     {
-        int ___argsArrayLength_0 = 7;
+        int ___argsArrayLength_2 = 7;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_60 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_60.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_60.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_60.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_60.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_60.JSObject, 4, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
         // Argument 6
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = Convert.ToDouble(screenXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_60.JSObject, 5, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(screenXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_9);
 
         // Argument 7
-        double ___marshalledValue_8;
-        ___marshalledValue_8 = Convert.ToDouble(screenYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_60.JSObject, 6, ___marshalledValue_8);
+        double ___marshalledValue_10;
+        ___marshalledValue_10 = Convert.ToDouble(screenYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_10);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_60.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg, int screenXArg, int screenYArg, int clientXArg)
     {
-        int ___argsArrayLength_0 = 8;
+        int ___argsArrayLength_2 = 8;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_57 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_57.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_57.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_57.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_57.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_57.JSObject, 4, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
         // Argument 6
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = Convert.ToDouble(screenXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_57.JSObject, 5, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(screenXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_9);
 
         // Argument 7
-        double ___marshalledValue_8;
-        ___marshalledValue_8 = Convert.ToDouble(screenYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_57.JSObject, 6, ___marshalledValue_8);
+        double ___marshalledValue_10;
+        ___marshalledValue_10 = Convert.ToDouble(screenYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_10);
 
         // Argument 8
-        double ___marshalledValue_9;
-        ___marshalledValue_9 = Convert.ToDouble(clientXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_57.JSObject, 7, ___marshalledValue_9);
+        double ___marshalledValue_11;
+        ___marshalledValue_11 = Convert.ToDouble(clientXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 7, ___marshalledValue_11);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_57.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg, int screenXArg, int screenYArg, int clientXArg, int clientYArg)
     {
-        int ___argsArrayLength_0 = 9;
+        int ___argsArrayLength_2 = 9;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_54 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_54.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_54.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_54.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_54.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_54.JSObject, 4, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
         // Argument 6
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = Convert.ToDouble(screenXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_54.JSObject, 5, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(screenXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_9);
 
         // Argument 7
-        double ___marshalledValue_8;
-        ___marshalledValue_8 = Convert.ToDouble(screenYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_54.JSObject, 6, ___marshalledValue_8);
+        double ___marshalledValue_10;
+        ___marshalledValue_10 = Convert.ToDouble(screenYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_10);
 
         // Argument 8
-        double ___marshalledValue_9;
-        ___marshalledValue_9 = Convert.ToDouble(clientXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_54.JSObject, 7, ___marshalledValue_9);
+        double ___marshalledValue_11;
+        ___marshalledValue_11 = Convert.ToDouble(clientXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 7, ___marshalledValue_11);
 
         // Argument 9
-        double ___marshalledValue_10;
-        ___marshalledValue_10 = Convert.ToDouble(clientYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_54.JSObject, 8, ___marshalledValue_10);
+        double ___marshalledValue_12;
+        ___marshalledValue_12 = Convert.ToDouble(clientYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 8, ___marshalledValue_12);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_54.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg, int screenXArg, int screenYArg, int clientXArg, int clientYArg, bool ctrlKeyArg)
     {
-        int ___argsArrayLength_0 = 10;
+        int ___argsArrayLength_2 = 10;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_51 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_51.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_51.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_51.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_51.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_51.JSObject, 4, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
         // Argument 6
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = Convert.ToDouble(screenXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_51.JSObject, 5, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(screenXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_9);
 
         // Argument 7
-        double ___marshalledValue_8;
-        ___marshalledValue_8 = Convert.ToDouble(screenYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_51.JSObject, 6, ___marshalledValue_8);
+        double ___marshalledValue_10;
+        ___marshalledValue_10 = Convert.ToDouble(screenYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_10);
 
         // Argument 8
-        double ___marshalledValue_9;
-        ___marshalledValue_9 = Convert.ToDouble(clientXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_51.JSObject, 7, ___marshalledValue_9);
+        double ___marshalledValue_11;
+        ___marshalledValue_11 = Convert.ToDouble(clientXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 7, ___marshalledValue_11);
 
         // Argument 9
-        double ___marshalledValue_10;
-        ___marshalledValue_10 = Convert.ToDouble(clientYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_51.JSObject, 8, ___marshalledValue_10);
+        double ___marshalledValue_12;
+        ___marshalledValue_12 = Convert.ToDouble(clientYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 8, ___marshalledValue_12);
 
         // Argument 10
-        bool ___marshalledValue_11;
-        ___marshalledValue_11 = ctrlKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_51.JSObject, 9, ___marshalledValue_11);
+        bool ___marshalledValue_13;
+        ___marshalledValue_13 = ctrlKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 9, ___marshalledValue_13);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_51.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg, int screenXArg, int screenYArg, int clientXArg, int clientYArg, bool ctrlKeyArg, bool altKeyArg)
     {
-        int ___argsArrayLength_0 = 11;
+        int ___argsArrayLength_2 = 11;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_48 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_48.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_48.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_48.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_48.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_48.JSObject, 4, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
         // Argument 6
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = Convert.ToDouble(screenXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_48.JSObject, 5, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(screenXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_9);
 
         // Argument 7
-        double ___marshalledValue_8;
-        ___marshalledValue_8 = Convert.ToDouble(screenYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_48.JSObject, 6, ___marshalledValue_8);
+        double ___marshalledValue_10;
+        ___marshalledValue_10 = Convert.ToDouble(screenYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_10);
 
         // Argument 8
-        double ___marshalledValue_9;
-        ___marshalledValue_9 = Convert.ToDouble(clientXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_48.JSObject, 7, ___marshalledValue_9);
+        double ___marshalledValue_11;
+        ___marshalledValue_11 = Convert.ToDouble(clientXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 7, ___marshalledValue_11);
 
         // Argument 9
-        double ___marshalledValue_10;
-        ___marshalledValue_10 = Convert.ToDouble(clientYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_48.JSObject, 8, ___marshalledValue_10);
+        double ___marshalledValue_12;
+        ___marshalledValue_12 = Convert.ToDouble(clientYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 8, ___marshalledValue_12);
 
         // Argument 10
-        bool ___marshalledValue_11;
-        ___marshalledValue_11 = ctrlKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_48.JSObject, 9, ___marshalledValue_11);
+        bool ___marshalledValue_13;
+        ___marshalledValue_13 = ctrlKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 9, ___marshalledValue_13);
 
         // Argument 11
-        bool ___marshalledValue_12;
-        ___marshalledValue_12 = altKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_48.JSObject, 10, ___marshalledValue_12);
+        bool ___marshalledValue_14;
+        ___marshalledValue_14 = altKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 10, ___marshalledValue_14);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_48.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg, int screenXArg, int screenYArg, int clientXArg, int clientYArg, bool ctrlKeyArg, bool altKeyArg, bool shiftKeyArg)
     {
-        int ___argsArrayLength_0 = 12;
+        int ___argsArrayLength_2 = 12;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_45 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_45.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_45.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_45.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_45.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_45.JSObject, 4, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
         // Argument 6
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = Convert.ToDouble(screenXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_45.JSObject, 5, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(screenXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_9);
 
         // Argument 7
-        double ___marshalledValue_8;
-        ___marshalledValue_8 = Convert.ToDouble(screenYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_45.JSObject, 6, ___marshalledValue_8);
+        double ___marshalledValue_10;
+        ___marshalledValue_10 = Convert.ToDouble(screenYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_10);
 
         // Argument 8
-        double ___marshalledValue_9;
-        ___marshalledValue_9 = Convert.ToDouble(clientXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_45.JSObject, 7, ___marshalledValue_9);
+        double ___marshalledValue_11;
+        ___marshalledValue_11 = Convert.ToDouble(clientXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 7, ___marshalledValue_11);
 
         // Argument 9
-        double ___marshalledValue_10;
-        ___marshalledValue_10 = Convert.ToDouble(clientYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_45.JSObject, 8, ___marshalledValue_10);
+        double ___marshalledValue_12;
+        ___marshalledValue_12 = Convert.ToDouble(clientYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 8, ___marshalledValue_12);
 
         // Argument 10
-        bool ___marshalledValue_11;
-        ___marshalledValue_11 = ctrlKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_45.JSObject, 9, ___marshalledValue_11);
+        bool ___marshalledValue_13;
+        ___marshalledValue_13 = ctrlKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 9, ___marshalledValue_13);
 
         // Argument 11
-        bool ___marshalledValue_12;
-        ___marshalledValue_12 = altKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_45.JSObject, 10, ___marshalledValue_12);
+        bool ___marshalledValue_14;
+        ___marshalledValue_14 = altKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 10, ___marshalledValue_14);
 
         // Argument 12
-        bool ___marshalledValue_13;
-        ___marshalledValue_13 = shiftKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_45.JSObject, 11, ___marshalledValue_13);
+        bool ___marshalledValue_15;
+        ___marshalledValue_15 = shiftKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 11, ___marshalledValue_15);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_45.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg, int screenXArg, int screenYArg, int clientXArg, int clientYArg, bool ctrlKeyArg, bool altKeyArg, bool shiftKeyArg, bool metaKeyArg)
     {
-        int ___argsArrayLength_0 = 13;
+        int ___argsArrayLength_2 = 13;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_42 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_42.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_42.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_42.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_42.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_42.JSObject, 4, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
         // Argument 6
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = Convert.ToDouble(screenXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_42.JSObject, 5, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(screenXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_9);
 
         // Argument 7
-        double ___marshalledValue_8;
-        ___marshalledValue_8 = Convert.ToDouble(screenYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_42.JSObject, 6, ___marshalledValue_8);
+        double ___marshalledValue_10;
+        ___marshalledValue_10 = Convert.ToDouble(screenYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_10);
 
         // Argument 8
-        double ___marshalledValue_9;
-        ___marshalledValue_9 = Convert.ToDouble(clientXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_42.JSObject, 7, ___marshalledValue_9);
+        double ___marshalledValue_11;
+        ___marshalledValue_11 = Convert.ToDouble(clientXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 7, ___marshalledValue_11);
 
         // Argument 9
-        double ___marshalledValue_10;
-        ___marshalledValue_10 = Convert.ToDouble(clientYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_42.JSObject, 8, ___marshalledValue_10);
+        double ___marshalledValue_12;
+        ___marshalledValue_12 = Convert.ToDouble(clientYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 8, ___marshalledValue_12);
 
         // Argument 10
-        bool ___marshalledValue_11;
-        ___marshalledValue_11 = ctrlKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_42.JSObject, 9, ___marshalledValue_11);
+        bool ___marshalledValue_13;
+        ___marshalledValue_13 = ctrlKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 9, ___marshalledValue_13);
 
         // Argument 11
-        bool ___marshalledValue_12;
-        ___marshalledValue_12 = altKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_42.JSObject, 10, ___marshalledValue_12);
+        bool ___marshalledValue_14;
+        ___marshalledValue_14 = altKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 10, ___marshalledValue_14);
 
         // Argument 12
-        bool ___marshalledValue_13;
-        ___marshalledValue_13 = shiftKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_42.JSObject, 11, ___marshalledValue_13);
+        bool ___marshalledValue_15;
+        ___marshalledValue_15 = shiftKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 11, ___marshalledValue_15);
 
         // Argument 13
-        bool ___marshalledValue_14;
-        ___marshalledValue_14 = metaKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_42.JSObject, 12, ___marshalledValue_14);
+        bool ___marshalledValue_16;
+        ___marshalledValue_16 = metaKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 12, ___marshalledValue_16);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_42.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg, int screenXArg, int screenYArg, int clientXArg, int clientYArg, bool ctrlKeyArg, bool altKeyArg, bool shiftKeyArg, bool metaKeyArg, short buttonArg)
     {
-        int ___argsArrayLength_0 = 14;
+        int ___argsArrayLength_2 = 14;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_39 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_39.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_39.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_39.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_39.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_39.JSObject, 4, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
         // Argument 6
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = Convert.ToDouble(screenXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_39.JSObject, 5, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(screenXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_9);
 
         // Argument 7
-        double ___marshalledValue_8;
-        ___marshalledValue_8 = Convert.ToDouble(screenYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_39.JSObject, 6, ___marshalledValue_8);
+        double ___marshalledValue_10;
+        ___marshalledValue_10 = Convert.ToDouble(screenYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_10);
 
         // Argument 8
-        double ___marshalledValue_9;
-        ___marshalledValue_9 = Convert.ToDouble(clientXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_39.JSObject, 7, ___marshalledValue_9);
+        double ___marshalledValue_11;
+        ___marshalledValue_11 = Convert.ToDouble(clientXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 7, ___marshalledValue_11);
 
         // Argument 9
-        double ___marshalledValue_10;
-        ___marshalledValue_10 = Convert.ToDouble(clientYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_39.JSObject, 8, ___marshalledValue_10);
+        double ___marshalledValue_12;
+        ___marshalledValue_12 = Convert.ToDouble(clientYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 8, ___marshalledValue_12);
 
         // Argument 10
-        bool ___marshalledValue_11;
-        ___marshalledValue_11 = ctrlKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_39.JSObject, 9, ___marshalledValue_11);
+        bool ___marshalledValue_13;
+        ___marshalledValue_13 = ctrlKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 9, ___marshalledValue_13);
 
         // Argument 11
-        bool ___marshalledValue_12;
-        ___marshalledValue_12 = altKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_39.JSObject, 10, ___marshalledValue_12);
+        bool ___marshalledValue_14;
+        ___marshalledValue_14 = altKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 10, ___marshalledValue_14);
 
         // Argument 12
-        bool ___marshalledValue_13;
-        ___marshalledValue_13 = shiftKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_39.JSObject, 11, ___marshalledValue_13);
+        bool ___marshalledValue_15;
+        ___marshalledValue_15 = shiftKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 11, ___marshalledValue_15);
 
         // Argument 13
-        bool ___marshalledValue_14;
-        ___marshalledValue_14 = metaKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_39.JSObject, 12, ___marshalledValue_14);
+        bool ___marshalledValue_16;
+        ___marshalledValue_16 = metaKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 12, ___marshalledValue_16);
 
         // Argument 14
-        double ___marshalledValue_15;
-        ___marshalledValue_15 = Convert.ToDouble(buttonArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_39.JSObject, 13, ___marshalledValue_15);
+        double ___marshalledValue_17;
+        ___marshalledValue_17 = Convert.ToDouble(buttonArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 13, ___marshalledValue_17);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_39.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 
     public void InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, global::Iskra.StdWeb.Window? viewArg, int detailArg, int screenXArg, int screenYArg, int clientXArg, int clientYArg, bool ctrlKeyArg, bool altKeyArg, bool shiftKeyArg, bool metaKeyArg, short buttonArg, global::Iskra.StdWeb.EventTarget? relatedTargetArg)
     {
-        int ___argsArrayLength_0 = 15;
+        int ___argsArrayLength_2 = 15;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_36 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = typeArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_36.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = typeArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
         // Argument 2
-        bool ___marshalledValue_2;
-        ___marshalledValue_2 = bubblesArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_36.JSObject, 1, ___marshalledValue_2);
+        bool ___marshalledValue_4;
+        ___marshalledValue_4 = bubblesArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         // Argument 3
-        bool ___marshalledValue_3;
-        ___marshalledValue_3 = cancelableArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_36.JSObject, 2, ___marshalledValue_3);
+        bool ___marshalledValue_5;
+        ___marshalledValue_5 = cancelableArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 2, ___marshalledValue_5);
 
         // Argument 4
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (viewArg is null)
         {
-            ___marshalledValue_4 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.Window ___notNullable_5 = (global::Iskra.StdWeb.Window)viewArg;
-            ___marshalledValue_4 = ___notNullable_5.JSObject;
+            global::Iskra.StdWeb.Window ___notNullable_7 = (global::Iskra.StdWeb.Window)viewArg;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_36.JSObject, 3, ___marshalledValue_4);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 3, ___marshalledValue_6);
 
         // Argument 5
-        double ___marshalledValue_6;
-        ___marshalledValue_6 = Convert.ToDouble(detailArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_36.JSObject, 4, ___marshalledValue_6);
+        double ___marshalledValue_8;
+        ___marshalledValue_8 = Convert.ToDouble(detailArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 4, ___marshalledValue_8);
 
         // Argument 6
-        double ___marshalledValue_7;
-        ___marshalledValue_7 = Convert.ToDouble(screenXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_36.JSObject, 5, ___marshalledValue_7);
+        double ___marshalledValue_9;
+        ___marshalledValue_9 = Convert.ToDouble(screenXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 5, ___marshalledValue_9);
 
         // Argument 7
-        double ___marshalledValue_8;
-        ___marshalledValue_8 = Convert.ToDouble(screenYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_36.JSObject, 6, ___marshalledValue_8);
+        double ___marshalledValue_10;
+        ___marshalledValue_10 = Convert.ToDouble(screenYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 6, ___marshalledValue_10);
 
         // Argument 8
-        double ___marshalledValue_9;
-        ___marshalledValue_9 = Convert.ToDouble(clientXArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_36.JSObject, 7, ___marshalledValue_9);
+        double ___marshalledValue_11;
+        ___marshalledValue_11 = Convert.ToDouble(clientXArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 7, ___marshalledValue_11);
 
         // Argument 9
-        double ___marshalledValue_10;
-        ___marshalledValue_10 = Convert.ToDouble(clientYArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_36.JSObject, 8, ___marshalledValue_10);
+        double ___marshalledValue_12;
+        ___marshalledValue_12 = Convert.ToDouble(clientYArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 8, ___marshalledValue_12);
 
         // Argument 10
-        bool ___marshalledValue_11;
-        ___marshalledValue_11 = ctrlKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_36.JSObject, 9, ___marshalledValue_11);
+        bool ___marshalledValue_13;
+        ___marshalledValue_13 = ctrlKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 9, ___marshalledValue_13);
 
         // Argument 11
-        bool ___marshalledValue_12;
-        ___marshalledValue_12 = altKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_36.JSObject, 10, ___marshalledValue_12);
+        bool ___marshalledValue_14;
+        ___marshalledValue_14 = altKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 10, ___marshalledValue_14);
 
         // Argument 12
-        bool ___marshalledValue_13;
-        ___marshalledValue_13 = shiftKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_36.JSObject, 11, ___marshalledValue_13);
+        bool ___marshalledValue_15;
+        ___marshalledValue_15 = shiftKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 11, ___marshalledValue_15);
 
         // Argument 13
-        bool ___marshalledValue_14;
-        ___marshalledValue_14 = metaKeyArg;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_36.JSObject, 12, ___marshalledValue_14);
+        bool ___marshalledValue_16;
+        ___marshalledValue_16 = metaKeyArg;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 12, ___marshalledValue_16);
 
         // Argument 14
-        double ___marshalledValue_15;
-        ___marshalledValue_15 = Convert.ToDouble(buttonArg);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_36.JSObject, 13, ___marshalledValue_15);
+        double ___marshalledValue_17;
+        ___marshalledValue_17 = Convert.ToDouble(buttonArg);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 13, ___marshalledValue_17);
 
         // Argument 15
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_16;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_18;
         if (relatedTargetArg is null)
         {
-            ___marshalledValue_16 = null;
+            ___marshalledValue_18 = null;
         }
         else
         {
-            global::Iskra.StdWeb.EventTarget ___notNullable_17 = (global::Iskra.StdWeb.EventTarget)relatedTargetArg;
-            ___marshalledValue_16 = ___notNullable_17.JSObject;
+            global::Iskra.StdWeb.EventTarget ___notNullable_19 = (global::Iskra.StdWeb.EventTarget)relatedTargetArg;
+            ___marshalledValue_18 = ___notNullable_19.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_36.JSObject, 14, ___marshalledValue_16);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 14, ___marshalledValue_18);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, __argsArray_36.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "initMouseEvent", JSObject, ___argsArray_0.JSObject);
     }
 }
 

@@ -199,6 +199,9 @@ public static partial class JSCoreShims
                                      export const callNonEmptyVoidFunctionProperty = (obj, propertyNameOrIndex, thisArg, args) => Reflect.apply(obj[propertyNameOrIndex], thisArg, args);
                                      export const callNonEmptyNonVoidFunction = (f, thisArg, args, res) => res.value = Reflect.apply(f, thisArg, args);
                                      export const callNonEmptyNonVoidFunctionProperty = (obj, propertyNameOrIndex, thisArg, args, res) => res.value = Reflect.apply(obj[propertyNameOrIndex], thisArg, args);
+                                     export const callGetter = (obj, args, res) => res.value = obj[args[0]];
+                                     export const callSetter = (obj, args) => obj[args[0]] = args[1];
+                                     export const callDeleter = (obj, args) => Reflect.deleteProperty(obj, args[0]);
                                      """;
 
         var encoded = Uri.EscapeDataString(moduleContent);

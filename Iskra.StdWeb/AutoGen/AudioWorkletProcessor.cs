@@ -8,8 +8,8 @@ public partial class AudioWorkletProcessor(global::System.Runtime.InteropService
 {
     public static global::Iskra.StdWeb.AudioWorkletProcessor New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_423 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioWorkletProcessor");
-        return new global::Iskra.StdWeb.AudioWorkletProcessor(__res_423);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_171 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioWorkletProcessor");
+        return new global::Iskra.StdWeb.AudioWorkletProcessor(__res_171);
     }
 
     public global::Iskra.StdWeb.MessagePort Port

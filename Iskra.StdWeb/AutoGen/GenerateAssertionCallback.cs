@@ -10,37 +10,37 @@ public partial class GenerateAssertionCallback(global::System.Runtime.InteropSer
 {
     public static implicit operator GenerateAssertionCallback(GenerateAssertionCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3, __res_12) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_0, __res_9) =>
         {
-            using (__args_3)
-            using (__res_12)
+            using (__args_0)
+            using (__res_9)
             {
                 // Argument 1
-                string __arg_5;
-                string __res_6 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_3, 0);
-                __arg_5 = __res_6;
+                string __arg_2;
+                string __res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_0, 0);
+                __arg_2 = __res_3;
 
                 // Argument 2
-                string __arg_7;
-                string __res_8 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_3, 1);
-                __arg_7 = __res_8;
+                string __arg_4;
+                string __res_5 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_0, 1);
+                __arg_4 = __res_5;
 
                 // Argument 3
-                global::Iskra.StdWeb.RTCIdentityProviderOptions __arg_9;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_10 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3, 2);
-                __arg_9 = new global::Iskra.StdWeb.RTCIdentityProviderOptions(__res_10);
+                global::Iskra.StdWeb.RTCIdentityProviderOptions __arg_6;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_7 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_0, 2);
+                __arg_6 = new global::Iskra.StdWeb.RTCIdentityProviderOptions(__res_7);
 
-                global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertionResult, global::Iskra.StdWeb.PropertyAccessor> __managedRes_13 = input(__arg_5, __arg_7, __arg_9);
+                global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertionResult, global::Iskra.StdWeb.PropertyAccessor> __managedRes_10 = input(__arg_2, __arg_4, __arg_6);
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_14 = __managedRes_13.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_12, "value", __propObject_14);
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_11 = __managedRes_10.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_9, "value", __propObject_11);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_11 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_11, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_8 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_8, input); 
 
-        return new global::Iskra.StdWeb.GenerateAssertionCallback(__funcObj_11);
+        return new global::Iskra.StdWeb.GenerateAssertionCallback(__funcObj_8);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.GenerateAssertionCallbackManaged? managed, bool allowConversion = false)
@@ -58,35 +58,35 @@ public partial class GenerateAssertionCallback(global::System.Runtime.InteropSer
 
         managed = (contents, origin, options) =>
         {
-            int __argsArrayLength_18 = 3;
+            int __argsArrayLength_15 = 3;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_15 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_18);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_15);
 
             // Argument 1
-            string __marshalledValue_19;
-            __marshalledValue_19 = contents;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_15.JSObject, 0, __marshalledValue_19);
+            string __marshalledValue_16;
+            __marshalledValue_16 = contents;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_12.JSObject, 0, __marshalledValue_16);
 
             // Argument 2
-            string __marshalledValue_20;
-            __marshalledValue_20 = origin;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_15.JSObject, 1, __marshalledValue_20);
+            string __marshalledValue_17;
+            __marshalledValue_17 = origin;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_12.JSObject, 1, __marshalledValue_17);
 
             // Argument 3
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_21;
-            __marshalledValue_21 = options.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_15.JSObject, 2, __marshalledValue_21);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_18;
+            __marshalledValue_18 = options.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_12.JSObject, 2, __marshalledValue_18);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_16 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_13 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_15.JSObject, __resOwner_16.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_12.JSObject, __resOwner_13.JSObject);
 
             // Return Value
-            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertionResult, global::Iskra.StdWeb.PropertyAccessor> __res_17;
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_22;
-            __propObject_22 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_16.JSObject, "value");
-            __res_17 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertionResult, global::Iskra.StdWeb.PropertyAccessor>(__propObject_22);
-            return __res_17;
+            global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertionResult, global::Iskra.StdWeb.PropertyAccessor> __res_14;
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_19;
+            __propObject_19 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__resOwner_13.JSObject, "value");
+            __res_14 = new global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCIdentityAssertionResult, global::Iskra.StdWeb.PropertyAccessor>(__propObject_19);
+            return __res_14;
         };
         return true;
     }

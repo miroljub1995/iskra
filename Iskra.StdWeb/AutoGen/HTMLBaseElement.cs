@@ -8,8 +8,8 @@ public partial class HTMLBaseElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLBaseElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_86 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLBaseElement");
-        return new global::Iskra.StdWeb.HTMLBaseElement(__res_86);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_14 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLBaseElement");
+        return new global::Iskra.StdWeb.HTMLBaseElement(__res_14);
     }
 
     public string Href

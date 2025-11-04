@@ -8,8 +8,8 @@ public partial class HTMLTableColElement(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.HTMLTableColElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_332 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTableColElement");
-        return new global::Iskra.StdWeb.HTMLTableColElement(__res_332);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_125 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTableColElement");
+        return new global::Iskra.StdWeb.HTMLTableColElement(__res_125);
     }
 
     public uint Span

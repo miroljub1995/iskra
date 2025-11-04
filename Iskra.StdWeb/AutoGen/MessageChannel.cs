@@ -8,8 +8,8 @@ public partial class MessageChannel(global::System.Runtime.InteropServices.JavaS
 {
     public static global::Iskra.StdWeb.MessageChannel New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1978 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MessageChannel");
-        return new global::Iskra.StdWeb.MessageChannel(__res_1978);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_448 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MessageChannel");
+        return new global::Iskra.StdWeb.MessageChannel(__res_448);
     }
 
     public global::Iskra.StdWeb.MessagePort Port1

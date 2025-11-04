@@ -23,53 +23,53 @@ public partial class DocumentType(global::System.Runtime.InteropServices.JavaScr
 
     public void Before(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
     {
-        int ___argsArrayLength_0 = nodes.Length + 0;
+        int ___argsArrayLength_2 = nodes.Length + 0;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_469 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        for (int ___i_1 = 0; ___i_1 < nodes.Length; ___i_1++)
+        for (int ___i_3 = 0; ___i_3 < nodes.Length; ___i_3++)
         {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union> ___elem_2 = nodes[___i_1];
-            global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = ___elem_2.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_469.JSObject, 0 + ___i_1, ___propObject_3);
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union> ___elem_4 = nodes[___i_3];
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_5 = ___elem_4.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0 + ___i_3, ___propObject_5);
         }
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "before", JSObject, __argsArray_469.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "before", JSObject, ___argsArray_0.JSObject);
     }
 
     public void After(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
     {
-        int ___argsArrayLength_0 = nodes.Length + 0;
+        int ___argsArrayLength_2 = nodes.Length + 0;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_472 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        for (int ___i_1 = 0; ___i_1 < nodes.Length; ___i_1++)
+        for (int ___i_3 = 0; ___i_3 < nodes.Length; ___i_3++)
         {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union> ___elem_2 = nodes[___i_1];
-            global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = ___elem_2.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_472.JSObject, 0 + ___i_1, ___propObject_3);
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union> ___elem_4 = nodes[___i_3];
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_5 = ___elem_4.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0 + ___i_3, ___propObject_5);
         }
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "after", JSObject, __argsArray_472.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "after", JSObject, ___argsArray_0.JSObject);
     }
 
     public void ReplaceWith(params global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union>[] nodes)
     {
-        int ___argsArrayLength_0 = nodes.Length + 0;
+        int ___argsArrayLength_2 = nodes.Length + 0;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_475 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
 
         // Argument 1
-        for (int ___i_1 = 0; ___i_1 < nodes.Length; ___i_1++)
+        for (int ___i_3 = 0; ___i_3 < nodes.Length; ___i_3++)
         {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union> ___elem_2 = nodes[___i_1];
-            global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = ___elem_2.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_475.JSObject, 0 + ___i_1, ___propObject_3);
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Node, string, global::Iskra.StdWeb.GenericMarshaller.Union> ___elem_4 = nodes[___i_3];
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_5 = ___elem_4.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0 + ___i_3, ___propObject_5);
         }
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "replaceWith", JSObject, __argsArray_475.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "replaceWith", JSObject, ___argsArray_0.JSObject);
     }
 
     public void Remove()

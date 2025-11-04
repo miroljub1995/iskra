@@ -8,8 +8,8 @@ public partial class HTMLLegendElement(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.HTMLLegendElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_554 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLLegendElement");
-        return new global::Iskra.StdWeb.HTMLLegendElement(__res_554);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_176 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLLegendElement");
+        return new global::Iskra.StdWeb.HTMLLegendElement(__res_176);
     }
 
     public global::Iskra.StdWeb.HTMLFormElement? Form

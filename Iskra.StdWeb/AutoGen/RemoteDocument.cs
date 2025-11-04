@@ -8,8 +8,8 @@ public partial class RemoteDocument(global::System.Runtime.InteropServices.JavaS
 {
     public static global::Iskra.StdWeb.RemoteDocument New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_82 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RemoteDocument");
-        return new global::Iskra.StdWeb.RemoteDocument(__res_82);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_34 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RemoteDocument");
+        return new global::Iskra.StdWeb.RemoteDocument(__res_34);
     }
 
     public string ContentType

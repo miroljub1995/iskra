@@ -31,8 +31,8 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
 
     public static global::Iskra.StdWeb.HTMLIFrameElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_164 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLIFrameElement");
-        return new global::Iskra.StdWeb.HTMLIFrameElement(__res_164);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_89 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLIFrameElement");
+        return new global::Iskra.StdWeb.HTMLIFrameElement(__res_89);
     }
 
     public string Src
@@ -106,12 +106,12 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
 
     public global::Iskra.StdWeb.Document? GetSVGDocument()
     {
-        using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_166 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getSVGDocument", JSObject, __resOwner_166.JSObject);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "getSVGDocument", JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Document?, global::Iskra.StdWeb.PropertyAccessorNullable>(__resOwner_166.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Document?, global::Iskra.StdWeb.PropertyAccessorNullable>(___resOwner_1.JSObject, "value");
     }
 
     public string Align

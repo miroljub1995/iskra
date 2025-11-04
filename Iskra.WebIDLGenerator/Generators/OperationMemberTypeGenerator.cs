@@ -21,6 +21,9 @@ public class OperationMemberTypeGenerator(
         var staticKeyword = isStatic ? " static" : "";
         var isEmpty = input.Arguments.Count == 0;
         var isVoid = input.IdlType is SingleTypeDescription { IdlType: BuiltinTypes.Undefined };
+        var isEmptyGetter = string.IsNullOrEmpty(input.Name) && input.Special == OperationSpecial.Getter;
+        var isEmptySetter = string.IsNullOrEmpty(input.Name) && input.Special == OperationSpecial.Setter;
+        var isEmptyDeleter = string.IsNullOrEmpty(input.Name) && input.Special == OperationSpecial.Deleter;
 
         var name = input.Name.Replace('-', '_').CapitalizeFirstLetter();
         if (name == containingTypeName)
@@ -28,15 +31,15 @@ public class OperationMemberTypeGenerator(
             name += "_";
         }
 
-        if (name == string.Empty && input.Special == OperationSpecial.Getter)
+        if (isEmptyGetter)
         {
             name = "Get";
         }
-        else if (name == string.Empty && input.Special == OperationSpecial.Setter)
+        else if (isEmptySetter)
         {
             name = "Set";
         }
-        else if (name == string.Empty && input.Special == OperationSpecial.Deleter)
+        else if (isEmptyDeleter)
         {
             name = "Delete";
         }
@@ -56,19 +59,60 @@ public class OperationMemberTypeGenerator(
 
         var args = argumentsToDeclarationGenerator.Generate(input.Arguments);
 
-
-        var argsArrayVar = VariableName.Current.GetNext("argsArray");
-        var resOwnerVar = VariableName.Current.GetNext("resOwner");
-        var resVar = VariableName.Current.GetNext("res");
-
         var argVars = input.Arguments
             .Select(x => x.ValidCSharpName)
             .ToList();
+
+//         if (string.IsNullOrEmpty(input.Name) && input.Special == OperationSpecial.Getter)
+//         {
+//             if (input.IdlType is null)
+//             {
+//                 throw new Exception("Getter operation must have a return type");
+//             }
+//
+//             var returnType = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
+//             var resPropertyAccessor = propertyAccessorGenerator.GetOrCreateAccessor(input.IdlType);
+//
+//             return $$"""
+//                      public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}({{args}})
+//                      {
+//                          return global::Iskra.JSCore.Generics.PropertyAccessor.Get<{{returnType}}, {{resPropertyAccessor}}>({{inputVar}}, {{argVars.Single()}});
+//                      }
+//                      """;
+//         }
+//
+//         if (string.IsNullOrEmpty(input.Name) && input.Special == OperationSpecial.Setter)
+//         {
+//             var valueArg = input.Arguments.Skip(1).Single();
+//
+//             var returnType = descriptionToTypeDeclarationGenerator.Generate(valueArg.IdlType);
+//             var resPropertyAccessor = propertyAccessorGenerator.GetOrCreateAccessor(valueArg.IdlType);
+//
+//             return $$"""
+//                      public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}({{args}})
+//                      {
+//                          global::Iskra.JSCore.Generics.PropertyAccessor.Set<{{returnType}}, {{resPropertyAccessor}}>({{inputVar}}, {{argVars.First()}}, {{argVars.Skip(1).Single()}});
+//                      }
+//                      """;
+//         }
+//
+//         if (string.IsNullOrEmpty(input.Name) && input.Special == OperationSpecial.Deleter)
+//         {
+//             return $$"""
+//                      public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}({{args}})
+//                      {
+//                          global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.DeleteProperty({{inputVar}}, {{argVars.Single()}});
+//                      }
+//                      """;
+//         }
 
         List<string> bodyStatements = [];
 
         using (VariableName.CreateScope())
         {
+            var argsArrayVar = VariableName.Current.GetNext("argsArray");
+            var resOwnerVar = VariableName.Current.GetNext("resOwner");
+
             if (!isEmpty)
             {
                 bodyStatements.Add(argsArrayGenerator.Generate(
@@ -84,7 +128,22 @@ public class OperationMemberTypeGenerator(
                     $"using global::Iskra.JSCore.FunctionResPool.Owner {resOwnerVar} = global::Iskra.JSCore.FunctionResPool.Shared.Rent();");
             }
 
-            if (isEmpty)
+            if (isEmptyGetter)
+            {
+                bodyStatements.Add(
+                    $"global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallGetter({inputVar}, {argsArrayVar}.JSObject, {resOwnerVar}.JSObject);");
+            }
+            else if (isEmptySetter)
+            {
+                bodyStatements.Add(
+                    $"global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallSetter({inputVar}, {argsArrayVar}.JSObject);");
+            }
+            else if (isEmptyDeleter)
+            {
+                bodyStatements.Add(
+                    $"global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallDeleter({inputVar}, {argsArrayVar}.JSObject);");
+            }
+            else if (isEmpty)
             {
                 if (isVoid)
                 {

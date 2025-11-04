@@ -8,23 +8,23 @@ public partial class AnimationTrigger(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.AnimationTrigger New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_56 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AnimationTrigger");
-        return new global::Iskra.StdWeb.AnimationTrigger(__res_56);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_41 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AnimationTrigger");
+        return new global::Iskra.StdWeb.AnimationTrigger(__res_41);
     }
 
     public static global::Iskra.StdWeb.AnimationTrigger New(global::Iskra.StdWeb.AnimationTriggerOptions options)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_51 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_36 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_51.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_36.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_53 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AnimationTrigger", __argsArray_51.JSObject);
-        return new global::Iskra.StdWeb.AnimationTrigger(__res_53);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_38 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AnimationTrigger", __argsArray_36.JSObject);
+        return new global::Iskra.StdWeb.AnimationTrigger(__res_38);
     }
 
     public global::Iskra.StdWeb.AnimationTimeline Timeline

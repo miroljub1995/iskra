@@ -8,8 +8,8 @@ public partial class HTMLDirectoryElement(global::System.Runtime.InteropServices
 {
     public static global::Iskra.StdWeb.HTMLDirectoryElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2185 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLDirectoryElement");
-        return new global::Iskra.StdWeb.HTMLDirectoryElement(__res_2185);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_481 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLDirectoryElement");
+        return new global::Iskra.StdWeb.HTMLDirectoryElement(__res_481);
     }
 
     public bool Compact

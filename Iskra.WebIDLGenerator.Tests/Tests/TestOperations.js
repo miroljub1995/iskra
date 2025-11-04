@@ -42,6 +42,18 @@ export class TestOperations {
     unionOperation(value) {
         return Object.entries(value).reduce((acc, [key, value]) => ({...acc, [key]: value + " returned"}), {})
     }
+
+    getterOperation(key) {
+        return this[key];
+    }
+
+    setterOperation(key, value) {
+        this[key] = value;
+    }
+
+    deleterOperation(key) {
+        delete this[key];
+    }
 }
 
 globalThis.TestOperations = TestOperations;

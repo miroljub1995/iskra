@@ -8,8 +8,8 @@ public partial class HTMLLinkElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLLinkElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_89 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLLinkElement");
-        return new global::Iskra.StdWeb.HTMLLinkElement(__res_89);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_17 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLLinkElement");
+        return new global::Iskra.StdWeb.HTMLLinkElement(__res_17);
     }
 
     public string Href

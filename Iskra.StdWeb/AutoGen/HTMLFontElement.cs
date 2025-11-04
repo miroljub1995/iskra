@@ -8,8 +8,8 @@ public partial class HTMLFontElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLFontElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2188 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFontElement");
-        return new global::Iskra.StdWeb.HTMLFontElement(__res_2188);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_484 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFontElement");
+        return new global::Iskra.StdWeb.HTMLFontElement(__res_484);
     }
 
     public string Color

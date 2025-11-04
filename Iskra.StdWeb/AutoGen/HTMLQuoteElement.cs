@@ -8,8 +8,8 @@ public partial class HTMLQuoteElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLQuoteElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_113 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLQuoteElement");
-        return new global::Iskra.StdWeb.HTMLQuoteElement(__res_113);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_41 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLQuoteElement");
+        return new global::Iskra.StdWeb.HTMLQuoteElement(__res_41);
     }
 
     public string Cite

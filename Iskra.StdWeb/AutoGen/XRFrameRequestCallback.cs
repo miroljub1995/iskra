@@ -10,28 +10,28 @@ public partial class XRFrameRequestCallback(global::System.Runtime.InteropServic
 {
     public static implicit operator XRFrameRequestCallback(XRFrameRequestCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_57) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_0) =>
         {
-            using (__args_57)
+            using (__args_0)
             {
                 // Argument 1
-                double __arg_59;
-                double __res_60 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_57, 0);
-                __arg_59 = __res_60;
+                double __arg_2;
+                double __res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_0, 0);
+                __arg_2 = __res_3;
 
                 // Argument 2
-                global::Iskra.StdWeb.XRFrame __arg_61;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_62 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_57, 1);
-                __arg_61 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(__res_62);
+                global::Iskra.StdWeb.XRFrame __arg_4;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_0, 1);
+                __arg_4 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(__res_5);
 
-                input(__arg_59, __arg_61);
+                input(__arg_2, __arg_4);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_63 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_63, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_6 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_6, input);
 
-        return new global::Iskra.StdWeb.XRFrameRequestCallback(__funcObj_63);
+        return new global::Iskra.StdWeb.XRFrameRequestCallback(__funcObj_6);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.XRFrameRequestCallbackManaged? managed, bool allowConversion = false)
@@ -49,21 +49,21 @@ public partial class XRFrameRequestCallback(global::System.Runtime.InteropServic
 
         managed = (time, frame) =>
         {
-            int __argsArrayLength_67 = 2;
+            int __argsArrayLength_10 = 2;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_64 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_67);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_7 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_10);
 
             // Argument 1
-            double __marshalledValue_68;
-            __marshalledValue_68 = time;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_64.JSObject, 0, __marshalledValue_68);
+            double __marshalledValue_11;
+            __marshalledValue_11 = time;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_7.JSObject, 0, __marshalledValue_11);
 
             // Argument 2
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_69;
-            __marshalledValue_69 = frame.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_64.JSObject, 1, __marshalledValue_69);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_12;
+            __marshalledValue_12 = frame.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_7.JSObject, 1, __marshalledValue_12);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_64.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_7.JSObject);
         };
         return true;
     }

@@ -10,28 +10,28 @@ public partial class EncodedVideoChunkOutputCallback(global::System.Runtime.Inte
 {
     public static implicit operator EncodedVideoChunkOutputCallback(EncodedVideoChunkOutputCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_120) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_45) =>
         {
-            using (__args_120)
+            using (__args_45)
             {
                 // Argument 1
-                global::Iskra.StdWeb.EncodedVideoChunk __arg_122;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_123 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_120, 0);
-                __arg_122 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EncodedVideoChunk>(__res_123);
+                global::Iskra.StdWeb.EncodedVideoChunk __arg_47;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_48 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_45, 0);
+                __arg_47 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.EncodedVideoChunk>(__res_48);
 
                 // Argument 2
-                global::Iskra.StdWeb.EncodedVideoChunkMetadata __arg_124;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_125 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_120, 1);
-                __arg_124 = new global::Iskra.StdWeb.EncodedVideoChunkMetadata(__res_125);
+                global::Iskra.StdWeb.EncodedVideoChunkMetadata __arg_49;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_50 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_45, 1);
+                __arg_49 = new global::Iskra.StdWeb.EncodedVideoChunkMetadata(__res_50);
 
-                input(__arg_122, __arg_124);
+                input(__arg_47, __arg_49);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_126 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_126, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_51 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_51, input);
 
-        return new global::Iskra.StdWeb.EncodedVideoChunkOutputCallback(__funcObj_126);
+        return new global::Iskra.StdWeb.EncodedVideoChunkOutputCallback(__funcObj_51);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.EncodedVideoChunkOutputCallbackManaged? managed, bool allowConversion = false)
@@ -49,21 +49,21 @@ public partial class EncodedVideoChunkOutputCallback(global::System.Runtime.Inte
 
         managed = (chunk, metadata) =>
         {
-            int __argsArrayLength_130 = 2;
+            int __argsArrayLength_55 = 2;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_127 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_130);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_52 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_55);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_131;
-            __marshalledValue_131 = chunk.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_127.JSObject, 0, __marshalledValue_131);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_56;
+            __marshalledValue_56 = chunk.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_52.JSObject, 0, __marshalledValue_56);
 
             // Argument 2
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_132;
-            __marshalledValue_132 = metadata.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_127.JSObject, 1, __marshalledValue_132);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_57;
+            __marshalledValue_57 = metadata.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_52.JSObject, 1, __marshalledValue_57);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_127.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_52.JSObject);
         };
         return true;
     }

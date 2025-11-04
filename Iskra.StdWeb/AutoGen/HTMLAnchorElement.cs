@@ -14,8 +14,8 @@ public partial class HTMLAnchorElement(global::System.Runtime.InteropServices.Ja
 
     public static global::Iskra.StdWeb.HTMLAnchorElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_134 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLAnchorElement");
-        return new global::Iskra.StdWeb.HTMLAnchorElement(__res_134);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_62 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLAnchorElement");
+        return new global::Iskra.StdWeb.HTMLAnchorElement(__res_62);
     }
 
     public string Target

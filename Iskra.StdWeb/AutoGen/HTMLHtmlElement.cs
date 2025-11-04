@@ -8,8 +8,8 @@ public partial class HTMLHtmlElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLHtmlElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_77 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLHtmlElement");
-        return new global::Iskra.StdWeb.HTMLHtmlElement(__res_77);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLHtmlElement");
+        return new global::Iskra.StdWeb.HTMLHtmlElement(__res_5);
     }
 
     public string Version

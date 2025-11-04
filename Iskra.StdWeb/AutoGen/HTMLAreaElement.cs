@@ -8,8 +8,8 @@ public partial class HTMLAreaElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLAreaElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_293 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLAreaElement");
-        return new global::Iskra.StdWeb.HTMLAreaElement(__res_293);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_116 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLAreaElement");
+        return new global::Iskra.StdWeb.HTMLAreaElement(__res_116);
     }
 
     public string Alt

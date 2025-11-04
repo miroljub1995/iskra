@@ -8,8 +8,8 @@ public partial class HTMLHeadElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLHeadElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_80 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLHeadElement");
-        return new global::Iskra.StdWeb.HTMLHeadElement(__res_80);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_8 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLHeadElement");
+        return new global::Iskra.StdWeb.HTMLHeadElement(__res_8);
     }
 }
 
