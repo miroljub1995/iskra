@@ -14,7 +14,7 @@ public class CallbackInterfaceTypeGenerator(
 
         foreach (var idlInterfaceMemberType in input.Members)
         {
-            var part = memberTypeGenerator.Generate(idlInterfaceMemberType, input.Name);
+            var part = memberTypeGenerator.Generate(idlInterfaceMemberType, input);
             if (!string.IsNullOrEmpty(part))
             {
                 bodyParts.Add(part);

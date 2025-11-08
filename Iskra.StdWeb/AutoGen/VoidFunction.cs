@@ -8,22 +8,13 @@ public delegate void VoidFunctionManaged();
 
 public partial class VoidFunction(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public VoidFunction(VoidFunctionManaged input): this(ToJSObject(input))
+    {
+    }
+
     public static implicit operator VoidFunction(VoidFunctionManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1329) =>
-        {
-            using (__args_1329)
-            {
-
-
-                input();
-            }
-        };
-
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1331 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1331, input);
-
-        return new global::Iskra.StdWeb.VoidFunction(__funcObj_1331);
+        return new global::Iskra.StdWeb.VoidFunction(ToJSObject(input));
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.VoidFunctionManaged? managed, bool allowConversion = false)
@@ -46,6 +37,24 @@ public partial class VoidFunction(global::System.Runtime.InteropServices.JavaScr
             global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunction(JSObject, null);
         };
         return true;
+    }
+    
+    private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(VoidFunctionManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1332) =>
+        {
+            using (__args_1332)
+            {
+
+
+                input();
+            }
+        };
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1334 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1334, input);
+
+        return __funcObj_1334;
     }
 }
 

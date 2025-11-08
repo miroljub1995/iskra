@@ -9,7 +9,7 @@ public class OperationMemberTypeGenerator(
     IServiceProvider provider
 )
 {
-    public string Generate(OperationMemberType input, string containingTypeName)
+    public string Generate(OperationMemberType input, AbstractContainer container)
     {
         var argsArrayGenerator = provider.GetRequiredService<ArgumentsToArgsArrayGenerator>();
         var descriptionToTypeDeclarationGenerator =
@@ -26,7 +26,7 @@ public class OperationMemberTypeGenerator(
         var isEmptyDeleter = string.IsNullOrEmpty(input.Name) && input.Special == OperationSpecial.Deleter;
 
         var name = input.Name.Replace('-', '_').CapitalizeFirstLetter();
-        if (name == containingTypeName)
+        if (name == container.Name)
         {
             name += "_";
         }
@@ -51,7 +51,7 @@ public class OperationMemberTypeGenerator(
 
         var inputVar = isStatic
             ? "global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy" +
-              $"(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{containingTypeName}\")"
+              $"(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{container.Name}\")"
             : "JSObject";
 
         var returnTypeDeclaration =

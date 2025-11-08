@@ -8,31 +8,13 @@ public delegate void ResizeObserverCallbackManaged(global::Iskra.JSCore.Generics
 
 public partial class ResizeObserverCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public ResizeObserverCallback(ResizeObserverCallbackManaged input): this(ToJSObject(input))
+    {
+    }
+
     public static implicit operator ResizeObserverCallback(ResizeObserverCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1878) =>
-        {
-            using (__args_1878)
-            {
-                // Argument 1
-                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.PropertyAccessor> __arg_1880;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1881;
-                __propObject_1881 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1878, 0);
-                __arg_1880 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.PropertyAccessor>(__propObject_1881);
-
-                // Argument 2
-                global::Iskra.StdWeb.ResizeObserver __arg_1882;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1883 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1878, 1);
-                __arg_1882 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ResizeObserver>(__res_1883);
-
-                input(__arg_1880, __arg_1882);
-            }
-        };
-
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1884 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1884, input);
-
-        return new global::Iskra.StdWeb.ResizeObserverCallback(__funcObj_1884);
+        return new global::Iskra.StdWeb.ResizeObserverCallback(ToJSObject(input));
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.ResizeObserverCallbackManaged? managed, bool allowConversion = false)
@@ -50,22 +32,49 @@ public partial class ResizeObserverCallback(global::System.Runtime.InteropServic
 
         managed = (entries, observer) =>
         {
-            int __argsArrayLength_1888 = 2;
+            int __argsArrayLength_1881 = 2;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1885 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_1888);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1878 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_1881);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1889 = entries.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1885.JSObject, 0, __propObject_1889);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1882 = entries.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1878.JSObject, 0, __propObject_1882);
 
             // Argument 2
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1890;
-            __marshalledValue_1890 = observer.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1885.JSObject, 1, __marshalledValue_1890);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1883;
+            __marshalledValue_1883 = observer.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1878.JSObject, 1, __marshalledValue_1883);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_1885.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_1878.JSObject);
         };
         return true;
+    }
+    
+    private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(ResizeObserverCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1884) =>
+        {
+            using (__args_1884)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.PropertyAccessor> __arg_1886;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1887;
+                __propObject_1887 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1884, 0);
+                __arg_1886 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.ResizeObserverEntry, global::Iskra.StdWeb.PropertyAccessor>(__propObject_1887);
+
+                // Argument 2
+                global::Iskra.StdWeb.ResizeObserver __arg_1888;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1889 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1884, 1);
+                __arg_1888 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ResizeObserver>(__res_1889);
+
+                input(__arg_1886, __arg_1888);
+            }
+        };
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1890 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1890, input);
+
+        return __funcObj_1890;
     }
 }
 

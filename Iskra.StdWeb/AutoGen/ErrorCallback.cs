@@ -8,25 +8,13 @@ public delegate void ErrorCallbackManaged(global::Iskra.StdWeb.DOMException err)
 
 public partial class ErrorCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public ErrorCallback(ErrorCallbackManaged input): this(ToJSObject(input))
+    {
+    }
+
     public static implicit operator ErrorCallback(ErrorCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_689) =>
-        {
-            using (__args_689)
-            {
-                // Argument 1
-                global::Iskra.StdWeb.DOMException __arg_691;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_692 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_689, 0);
-                __arg_691 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_692);
-
-                input(__arg_691);
-            }
-        };
-
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_693 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_693, input);
-
-        return new global::Iskra.StdWeb.ErrorCallback(__funcObj_693);
+        return new global::Iskra.StdWeb.ErrorCallback(ToJSObject(input));
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.ErrorCallbackManaged? managed, bool allowConversion = false)
@@ -44,18 +32,39 @@ public partial class ErrorCallback(global::System.Runtime.InteropServices.JavaSc
 
         managed = (err) =>
         {
-            int __argsArrayLength_697 = 1;
+            int __argsArrayLength_692 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_694 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_697);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_689 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_692);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_698;
-            __marshalledValue_698 = err.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_694.JSObject, 0, __marshalledValue_698);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_693;
+            __marshalledValue_693 = err.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_689.JSObject, 0, __marshalledValue_693);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_694.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_689.JSObject);
         };
         return true;
+    }
+    
+    private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(ErrorCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_694) =>
+        {
+            using (__args_694)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.DOMException __arg_696;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_697 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_694, 0);
+                __arg_696 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_697);
+
+                input(__arg_696);
+            }
+        };
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_698 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_698, input);
+
+        return __funcObj_698;
     }
 }
 

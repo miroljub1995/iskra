@@ -8,25 +8,13 @@ public delegate void IdleRequestCallbackManaged(global::Iskra.StdWeb.IdleDeadlin
 
 public partial class IdleRequestCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public IdleRequestCallback(IdleRequestCallbackManaged input): this(ToJSObject(input))
+    {
+    }
+
     public static implicit operator IdleRequestCallback(IdleRequestCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_679) =>
-        {
-            using (__args_679)
-            {
-                // Argument 1
-                global::Iskra.StdWeb.IdleDeadline __arg_681;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_682 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_679, 0);
-                __arg_681 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IdleDeadline>(__res_682);
-
-                input(__arg_681);
-            }
-        };
-
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_683 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_683, input);
-
-        return new global::Iskra.StdWeb.IdleRequestCallback(__funcObj_683);
+        return new global::Iskra.StdWeb.IdleRequestCallback(ToJSObject(input));
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.IdleRequestCallbackManaged? managed, bool allowConversion = false)
@@ -44,18 +32,39 @@ public partial class IdleRequestCallback(global::System.Runtime.InteropServices.
 
         managed = (deadline) =>
         {
-            int __argsArrayLength_687 = 1;
+            int __argsArrayLength_682 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_684 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_687);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_679 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_682);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_688;
-            __marshalledValue_688 = deadline.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_684.JSObject, 0, __marshalledValue_688);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_683;
+            __marshalledValue_683 = deadline.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_679.JSObject, 0, __marshalledValue_683);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_684.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_679.JSObject);
         };
         return true;
+    }
+    
+    private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(IdleRequestCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_684) =>
+        {
+            using (__args_684)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.IdleDeadline __arg_686;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_687 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_684, 0);
+                __arg_686 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IdleDeadline>(__res_687);
+
+                input(__arg_686);
+            }
+        };
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_688 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_688, input);
+
+        return __funcObj_688;
     }
 }
 

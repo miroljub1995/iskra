@@ -7,7 +7,7 @@ public class MemberTypeGenerator(
     IServiceProvider provider
 )
 {
-    public string Generate(IDLCallbackInterfaceMemberType input, string containingTypeName)
+    public string Generate(IDLCallbackInterfaceMemberType input, AbstractContainer container)
     {
         var attributeMemberTypeGenerator = provider.GetRequiredService<AttributeMemberTypeGenerator>();
         var constantMemberTypeGenerator = provider.GetRequiredService<ConstantMemberTypeGenerator>();
@@ -16,7 +16,7 @@ public class MemberTypeGenerator(
 
         if (input is AttributeMemberType attributeMemberType)
         {
-            return attributeMemberTypeGenerator.Generate(attributeMemberType, containingTypeName);
+            return attributeMemberTypeGenerator.Generate(attributeMemberType, container);
         }
 
         if (input is ConstantMemberType constantMemberType)
@@ -28,7 +28,7 @@ public class MemberTypeGenerator(
         {
             List<string> constructors =
             [
-                constructorMemberTypeGenerator.Generate(constructorMemberType, containingTypeName)
+                constructorMemberTypeGenerator.Generate(constructorMemberType, container)
             ];
 
             var args = constructorMemberType.Arguments;
@@ -36,7 +36,7 @@ public class MemberTypeGenerator(
             {
                 args = args[..^1];
                 var newMemberType = constructorMemberType with { Arguments = args };
-                constructors.Insert(0, constructorMemberTypeGenerator.Generate(newMemberType, containingTypeName));
+                constructors.Insert(0, constructorMemberTypeGenerator.Generate(newMemberType, container));
             }
 
             return string.Join("\n\n", constructors);
@@ -66,7 +66,7 @@ public class MemberTypeGenerator(
         {
             List<string> operations =
             [
-                operationMemberTypeGenerator.Generate(operationMemberType, containingTypeName)
+                operationMemberTypeGenerator.Generate(operationMemberType, container)
             ];
 
             var args = operationMemberType.Arguments;
@@ -74,7 +74,7 @@ public class MemberTypeGenerator(
             {
                 args = args[..^1];
                 var newMemberType = operationMemberType with { Arguments = args };
-                operations.Insert(0, operationMemberTypeGenerator.Generate(newMemberType, containingTypeName));
+                operations.Insert(0, operationMemberTypeGenerator.Generate(newMemberType, container));
             }
 
             return string.Join("\n\n", operations);

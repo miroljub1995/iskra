@@ -32,14 +32,23 @@ public class CallbackTypeGenerator(
 
                         public partial class {{input.Name}}(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
                         {
+                            public {{input.Name}}({{input.Name}}Managed input): this(ToJSObject(input))
+                            {
+                            }
+
                             public static implicit operator {{input.Name}}({{input.Name}}Managed input)
                             {
-                        {{GetConvertToJS(input).IndentLines(8)}}
+                                return new global::{{genSettings.Namespace}}.{{input.Name}}(ToJSObject(input));
                             }
 
                             public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::{{genSettings.Namespace}}.{{input.Name}}Managed? managed, bool allowConversion = false)
                             {
                         {{GetTryGetManaged(input).IndentLines(8)}}
+                            }
+                            
+                            private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject({{input.Name}}Managed input)
+                            {
+                        {{GetConvertToJS(input).IndentLines(8)}}
                             }
                         }
 
@@ -141,7 +150,7 @@ public class CallbackTypeGenerator(
                      global::System.Runtime.InteropServices.JavaScript.JSObject {{funcObjVar}} = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
                      global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty({{funcObjVar}}, input);
 
-                     return new global::{{genSettings.Namespace}}.{{input.Name}}({{funcObjVar}});
+                     return {{funcObjVar}};
                      """;
         }
         else
@@ -174,7 +183,7 @@ public class CallbackTypeGenerator(
                      global::System.Runtime.InteropServices.JavaScript.JSObject {{funcObjVar}} = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
                      global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty({{funcObjVar}}, input); 
 
-                     return new global::{{genSettings.Namespace}}.{{input.Name}}({{funcObjVar}});
+                     return {{funcObjVar}};
                      """;
         }
     }

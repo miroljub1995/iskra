@@ -8,25 +8,13 @@ public delegate void NotificationPermissionCallbackManaged(global::Iskra.StdWeb.
 
 public partial class NotificationPermissionCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public NotificationPermissionCallback(NotificationPermissionCallbackManaged input): this(ToJSObject(input))
+    {
+    }
+
     public static implicit operator NotificationPermissionCallback(NotificationPermissionCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1738) =>
-        {
-            using (__args_1738)
-            {
-                // Argument 1
-                global::Iskra.StdWeb.NotificationPermission __arg_1740;
-                string __res_1741 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_1738, 0);
-                __arg_1740 = global::Iskra.StdWeb.NotificationPermission.Create(__res_1741);
-
-                input(__arg_1740);
-            }
-        };
-
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1742 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1742, input);
-
-        return new global::Iskra.StdWeb.NotificationPermissionCallback(__funcObj_1742);
+        return new global::Iskra.StdWeb.NotificationPermissionCallback(ToJSObject(input));
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.NotificationPermissionCallbackManaged? managed, bool allowConversion = false)
@@ -44,18 +32,39 @@ public partial class NotificationPermissionCallback(global::System.Runtime.Inter
 
         managed = (permission) =>
         {
-            int __argsArrayLength_1746 = 1;
+            int __argsArrayLength_1741 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1743 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_1746);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1738 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_1741);
 
             // Argument 1
-            string __marshalledValue_1747;
-            __marshalledValue_1747 = permission.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_1743.JSObject, 0, __marshalledValue_1747);
+            string __marshalledValue_1742;
+            __marshalledValue_1742 = permission.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_1738.JSObject, 0, __marshalledValue_1742);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_1743.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_1738.JSObject);
         };
         return true;
+    }
+    
+    private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(NotificationPermissionCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1743) =>
+        {
+            using (__args_1743)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.NotificationPermission __arg_1745;
+                string __res_1746 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_1743, 0);
+                __arg_1745 = global::Iskra.StdWeb.NotificationPermission.Create(__res_1746);
+
+                input(__arg_1745);
+            }
+        };
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1747 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1747, input);
+
+        return __funcObj_1747;
     }
 }
 

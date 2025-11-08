@@ -8,51 +8,13 @@ public delegate global::Iskra.JSCore.Generics.Union<double, global::System.Numer
 
 public partial class Mapper(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public Mapper(MapperManaged input): this(ToJSObject(input))
+    {
+    }
+
     public static implicit operator Mapper(MapperManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2006, __res_2013) =>
-        {
-            using (__args_2006)
-            using (__res_2013)
-            {
-                // Argument 1
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_2008;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2009;
-                __propObject_2009 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_2006, 0);
-                if (__propObject_2009 is null)
-                {
-                    __arg_2008 = null;
-                }
-                else
-                {
-                    __arg_2008 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2009);
-                }
-
-                // Argument 2
-                ulong __arg_2010;
-                double __res_2011 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_2006, 1);
-                __arg_2010 = Convert.ToUInt64(__res_2011);
-
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __managedRes_2014 = input(__arg_2008, __arg_2010);
-
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2015;
-                if (__managedRes_2014 is null)
-                {
-                    __propObject_2015 = null;
-                }
-                else
-                {
-                    __propObject_2015 = __managedRes_2014.JSObject;
-                }
-
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__res_2013, "value", __propObject_2015);
-            }
-        };
-
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_2012 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_2012, input); 
-
-        return new global::Iskra.StdWeb.Mapper(__funcObj_2012);
+        return new global::Iskra.StdWeb.Mapper(ToJSObject(input));
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.MapperManaged? managed, bool allowConversion = false)
@@ -70,47 +32,94 @@ public partial class Mapper(global::System.Runtime.InteropServices.JavaScript.JS
 
         managed = (value, index) =>
         {
-            int __argsArrayLength_2019 = 2;
+            int __argsArrayLength_2009 = 2;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2016 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_2019);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2006 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_2009);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2020;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2010;
             if (value is null)
             {
-                __propObject_2020 = null;
+                __propObject_2010 = null;
             }
             else
             {
-                __propObject_2020 = value.JSObject;
+                __propObject_2010 = value.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_2016.JSObject, 0, __propObject_2020);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_2006.JSObject, 0, __propObject_2010);
 
             // Argument 2
-            double __marshalledValue_2021;
-            __marshalledValue_2021 = Convert.ToDouble(index);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_2016.JSObject, 1, __marshalledValue_2021);
+            double __marshalledValue_2011;
+            __marshalledValue_2011 = Convert.ToDouble(index);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_2006.JSObject, 1, __marshalledValue_2011);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_2017 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_2007 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_2016.JSObject, __resOwner_2017.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_2006.JSObject, __resOwner_2007.JSObject);
 
             // Return Value
-            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2018;
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2022;
-            __propObject_2022 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__resOwner_2017.JSObject, "value");
-            if (__propObject_2022 is null)
+            global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __res_2008;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2012;
+            __propObject_2012 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__resOwner_2007.JSObject, "value");
+            if (__propObject_2012 is null)
             {
-                __res_2018 = null;
+                __res_2008 = null;
             }
             else
             {
-                __res_2018 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2022);
+                __res_2008 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2012);
             }
-            return __res_2018;
+            return __res_2008;
         };
         return true;
+    }
+    
+    private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(MapperManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2013, __res_2020) =>
+        {
+            using (__args_2013)
+            using (__res_2020)
+            {
+                // Argument 1
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_2015;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2016;
+                __propObject_2016 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_2013, 0);
+                if (__propObject_2016 is null)
+                {
+                    __arg_2015 = null;
+                }
+                else
+                {
+                    __arg_2015 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_2016);
+                }
+
+                // Argument 2
+                ulong __arg_2017;
+                double __res_2018 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_2013, 1);
+                __arg_2017 = Convert.ToUInt64(__res_2018);
+
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __managedRes_2021 = input(__arg_2015, __arg_2017);
+
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_2022;
+                if (__managedRes_2021 is null)
+                {
+                    __propObject_2022 = null;
+                }
+                else
+                {
+                    __propObject_2022 = __managedRes_2021.JSObject;
+                }
+
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__res_2020, "value", __propObject_2022);
+            }
+        };
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_2019 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_2019, input); 
+
+        return __funcObj_2019;
     }
 }
 

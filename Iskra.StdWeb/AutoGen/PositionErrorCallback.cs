@@ -8,25 +8,13 @@ public delegate void PositionErrorCallbackManaged(global::Iskra.StdWeb.Geolocati
 
 public partial class PositionErrorCallback(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public PositionErrorCallback(PositionErrorCallbackManaged input): this(ToJSObject(input))
+    {
+    }
+
     public static implicit operator PositionErrorCallback(PositionErrorCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_503) =>
-        {
-            using (__args_503)
-            {
-                // Argument 1
-                global::Iskra.StdWeb.GeolocationPositionError __arg_505;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_506 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_503, 0);
-                __arg_505 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPositionError>(__res_506);
-
-                input(__arg_505);
-            }
-        };
-
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_507 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_507, input);
-
-        return new global::Iskra.StdWeb.PositionErrorCallback(__funcObj_507);
+        return new global::Iskra.StdWeb.PositionErrorCallback(ToJSObject(input));
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.PositionErrorCallbackManaged? managed, bool allowConversion = false)
@@ -44,18 +32,39 @@ public partial class PositionErrorCallback(global::System.Runtime.InteropService
 
         managed = (positionError) =>
         {
-            int __argsArrayLength_511 = 1;
+            int __argsArrayLength_506 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_508 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_511);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_503 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_506);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_512;
-            __marshalledValue_512 = positionError.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_508.JSObject, 0, __marshalledValue_512);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_507;
+            __marshalledValue_507 = positionError.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_503.JSObject, 0, __marshalledValue_507);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_508.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_503.JSObject);
         };
         return true;
+    }
+    
+    private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(PositionErrorCallbackManaged input)
+    {
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_508) =>
+        {
+            using (__args_508)
+            {
+                // Argument 1
+                global::Iskra.StdWeb.GeolocationPositionError __arg_510;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_511 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_508, 0);
+                __arg_510 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPositionError>(__res_511);
+
+                input(__arg_510);
+            }
+        };
+
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_512 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_512, input);
+
+        return __funcObj_512;
     }
 }
 

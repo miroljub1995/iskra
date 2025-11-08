@@ -10,7 +10,7 @@ public class ConstructorMemberTypeGenerator(
     GenSettings genSettings
 )
 {
-    public string Generate(ConstructorMemberType input, string containingTypeName)
+    public string Generate(ConstructorMemberType input, AbstractContainer container)
     {
         var argsArrayGenerator = provider.GetRequiredService<ArgumentsToArgsArrayGenerator>();
         var descriptionToTypeDeclarationGenerator =
@@ -37,7 +37,7 @@ public class ConstructorMemberTypeGenerator(
             if (isEmpty)
             {
                 bodyStatements.Add(
-                    $"global::System.Runtime.InteropServices.JavaScript.JSObject {resVar} = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{containingTypeName}\");");
+                    $"global::System.Runtime.InteropServices.JavaScript.JSObject {resVar} = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{container.Name}\");");
             }
             else
             {
@@ -48,17 +48,17 @@ public class ConstructorMemberTypeGenerator(
                 ));
 
                 bodyStatements.Add(
-                    $"global::System.Runtime.InteropServices.JavaScript.JSObject {resVar} = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{containingTypeName}\", {argsArrayVar}.JSObject);");
+                    $"global::System.Runtime.InteropServices.JavaScript.JSObject {resVar} = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{container.Name}\", {argsArrayVar}.JSObject);");
             }
         }
 
         var body = string.Join("\n\n", bodyStatements);
 
         var content = $$"""
-                        public static global::{{genSettings.Namespace}}.{{containingTypeName}} New({{args}})
+                        public static global::{{genSettings.Namespace}}.{{container.Name}} New({{args}})
                         {
                         {{body.IndentLines(4)}}
-                            return new global::{{genSettings.Namespace}}.{{containingTypeName}}({{resVar}});
+                            return new global::{{genSettings.Namespace}}.{{container.Name}}({{resVar}});
                         }
                         """;
 

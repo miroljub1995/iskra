@@ -3,7 +3,7 @@ namespace Iskra.WebIDLGenerator.Tests.Tests;
 public class TestCallbackPropertiesTest() : BaseTest<TestCallbackProperties>("testCallbackProperties")
 {
     [Test]
-    public async Task TestCallbackInvocation()
+    public async Task TestCallbackInvocationCastToJS()
     {
         var sut = GetSut();
 
@@ -17,6 +17,75 @@ public class TestCallbackPropertiesTest() : BaseTest<TestCallbackProperties>("te
         }
 
         sut.VoidCallback = (TestCallbackPropertiesCallback)Callback;
+
+        // Trigger the callback via the setter
+        sut.CallVoidCallbackOnSet = 42;
+
+        await Assert.That(wasCalled).IsTrue();
+        await Assert.That(receivedValue).IsEqualTo(42);
+    }
+
+    [Test]
+    public async Task TestCallbackInvocationCastToManaged()
+    {
+        var sut = GetSut();
+
+        var wasCalled = false;
+        var receivedValue = 0;
+
+        void Callback(int value)
+        {
+            wasCalled = true;
+            receivedValue = value;
+        }
+
+        sut.VoidCallback = (TestCallbackPropertiesCallbackManaged)Callback;
+
+        // Trigger the callback via the setter
+        sut.CallVoidCallbackOnSet = 42;
+
+        await Assert.That(wasCalled).IsTrue();
+        await Assert.That(receivedValue).IsEqualTo(42);
+    }
+
+    [Test]
+    public async Task TestCallbackInvocationConstructorJS()
+    {
+        var sut = GetSut();
+
+        var wasCalled = false;
+        var receivedValue = 0;
+
+        void Callback(int value)
+        {
+            wasCalled = true;
+            receivedValue = value;
+        }
+
+        sut.VoidCallback = new TestCallbackPropertiesCallback(Callback);
+
+        // Trigger the callback via the setter
+        sut.CallVoidCallbackOnSet = 42;
+
+        await Assert.That(wasCalled).IsTrue();
+        await Assert.That(receivedValue).IsEqualTo(42);
+    }
+
+    [Test]
+    public async Task TestCallbackInvocationConstructorManaged()
+    {
+        var sut = GetSut();
+
+        var wasCalled = false;
+        var receivedValue = 0;
+
+        void Callback(int value)
+        {
+            wasCalled = true;
+            receivedValue = value;
+        }
+
+        sut.VoidCallback = new TestCallbackPropertiesCallbackManaged(Callback);
 
         // Trigger the callback via the setter
         sut.CallVoidCallbackOnSet = 42;

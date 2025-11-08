@@ -8,7 +8,7 @@ public class AttributeMemberTypeGenerator(
     IServiceProvider provider
 )
 {
-    public string Generate(AttributeMemberType input, string containingTypeName)
+    public string Generate(AttributeMemberType input, AbstractContainer container)
     {
         var descriptionToTypeDeclarationGenerator =
             provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
@@ -19,7 +19,7 @@ public class AttributeMemberTypeGenerator(
         var isStatic = input.Special == AttributeSpecial.Static;
         var staticKeyword = isStatic ? " static" : "";
 
-        var name = GetValidPropertyName(input.Name, containingTypeName);
+        var name = GetValidPropertyName(input.Name, container.Name);
 
         var returnTypeDeclaration = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
 
@@ -29,7 +29,7 @@ public class AttributeMemberTypeGenerator(
         {
             var inputVar = isStatic
                 ? "global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy" +
-                  $"(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{containingTypeName}\")"
+                  $"(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{container.Name}\")"
                 : "JSObject";
 
             var getter = $$"""
@@ -44,7 +44,7 @@ public class AttributeMemberTypeGenerator(
         {
             var inputVar = isStatic
                 ? "global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy" +
-                  $"(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{containingTypeName}\")"
+                  $"(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{container.Name}\")"
                 : "JSObject";
 
             var setter = $$"""
