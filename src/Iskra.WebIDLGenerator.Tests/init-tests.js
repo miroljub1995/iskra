@@ -15,6 +15,7 @@ import {TestPromiseProperties} from "./Tests/TestPromiseProperties.js";
 import {TestRecordLong} from "./Tests/TestRecordLong.js";
 import {TestStaticProperties} from "./Tests/TestStaticProperties.js";
 import {TestUnionProperties} from "./Tests/TestUnionProperties.js";
+import {issues} from "./init-tests-issues.js";
 
 globalThis.tests = {
     get testProperties() {
@@ -69,3 +70,5 @@ globalThis.tests = {
         return new TestUnionProperties();
     },
 };
+
+Object.defineProperties(globalThis.tests, Object.getOwnPropertyDescriptors(issues));

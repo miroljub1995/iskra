@@ -48,7 +48,7 @@ public class JSProxyFactoryGenerator(
             }
 
             initStatements.Add($$"""
-                                 global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "{{desc.Name}}", obj => new {{desc.Name}}(obj) );
+                                 global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "{{desc.Name}}", obj => new {{desc.Name}}(obj));
                                  """
             );
         }
