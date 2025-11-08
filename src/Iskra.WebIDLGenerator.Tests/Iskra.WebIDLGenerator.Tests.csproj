@@ -15,6 +15,7 @@
 
     <ItemGroup>
         <WasmExtraFilesToDeploy Include="init-tests.js" />
+        <WasmExtraFilesToDeploy Include="init-tests-issues.js" />
         <WasmExtraFilesToDeploy Include="test-extension-init.js"/>
         <WasmExtraFilesToDeploy Include="Tests\**\*.js" TargetPath="Tests\%(RecursiveDir)%(FileName)%(Extension)"/>
     </ItemGroup>

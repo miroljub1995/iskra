@@ -35,7 +35,19 @@ public static partial class JSCoreShims
                                                  map.set(obj[propName], id);
                                                  return id;
                                              },
-                                             getConstructorId: (obj) => map.get(obj.constructor),
+                                             getConstructorId: (obj) => {
+                                                 let constructor = obj.constructor;
+                                                 while (constructor !== null) {
+                                                     const id = map.get(constructor);
+                                                     if (id !== undefined) {
+                                                         return id;
+                                                     }
+
+                                                     constructor = Object.getPrototypeOf(constructor);
+                                                 }
+
+                                                 return null;
+                                             }
                                          }
                                      })();
 

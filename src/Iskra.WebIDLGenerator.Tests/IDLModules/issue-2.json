@@ -1,0 +1,37 @@
+{
+  "spec": {
+    "title": "Issue 2",
+    "url": "https://github.com/miroljub1995/iskra/issues/2"
+  },
+  "idlparsed": {
+    "idlNames": {
+      "Issue2": {
+        "fragment": "",
+        "type": "interface",
+        "name": "Issue2",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "attribute",
+            "name": "value",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "special": "",
+            "readonly": false,
+            "extAttrs": [],
+            "href": ""
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": ""
+      }
+    }
+  }
+}
