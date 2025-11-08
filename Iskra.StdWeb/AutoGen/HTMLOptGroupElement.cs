@@ -8,8 +8,8 @@ public partial class HTMLOptGroupElement(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.HTMLOptGroupElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_155 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLOptGroupElement");
-        return new global::Iskra.StdWeb.HTMLOptGroupElement(__res_155);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2376 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLOptGroupElement");
+        return new global::Iskra.StdWeb.HTMLOptGroupElement(__res_2376);
     }
 
     public bool Disabled

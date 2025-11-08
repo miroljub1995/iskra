@@ -61,6 +61,7 @@ public class GenerateCommand : Command
                 .AddSingleton<JSProxyFactoryGenerator>()
                 .AddSingleton<MemberTypeGenerator>()
                 .AddSingleton<ModuleGenerator>()
+                .AddSingleton<NamespaceTypeGenerator>()
                 .AddSingleton<OperationMemberTypeGenerator>()
                 .AddSingleton<PropertyAccessorGenerator>()
                 .AddSingleton<SetPropertyValueGenerator>()
@@ -93,12 +94,7 @@ public class GenerateCommand : Command
             genTypeDescriptors.ResolveAnyTypes();
 
             var moduleGenerator = provider.GetRequiredService<ModuleGenerator>();
-            foreach (var inputFile in inputFiles)
-            {
-                logger.LogInformation("Processing {inputFile}", inputFile);
-
-                await moduleGenerator.GenerateAsync(inputFile, genSettings.Output, cancellationToken);
-            }
+            await moduleGenerator.GenerateAsync(cancellationToken);
 
             var jsProxyFactoryGenerator = provider.GetRequiredService<JSProxyFactoryGenerator>();
             await jsProxyFactoryGenerator.GenerateAsync(cancellationToken);
@@ -146,6 +142,7 @@ public class GenerateCommand : Command
                     .ToList();
 
                 existing.Members.AddRange(newMembers);
+                existing.ExtAttrs.AddRange(interfaceType.ExtAttrs);
             }
             else
             {
@@ -176,6 +173,7 @@ public class GenerateCommand : Command
             if (descriptor.RootType is InterfaceMixinType existing)
             {
                 existing.Members.AddRange(interfaceMixinType.Members);
+                existing.ExtAttrs.AddRange(interfaceMixinType.ExtAttrs);
             }
             else
             {
@@ -206,6 +204,7 @@ public class GenerateCommand : Command
             if (descriptor.RootType is NamespaceType existing)
             {
                 existing.Members.AddRange(namespaceType.Members);
+                existing.ExtAttrs.AddRange(namespaceType.ExtAttrs);
             }
             else
             {
@@ -236,6 +235,7 @@ public class GenerateCommand : Command
             if (descriptor.RootType is DictionaryType existing)
             {
                 existing.Members.AddRange(dictionaryType.Members);
+                existing.ExtAttrs.AddRange(dictionaryType.ExtAttrs);
             }
             else
             {

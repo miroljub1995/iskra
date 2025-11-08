@@ -8,23 +8,23 @@ public partial class Accelerometer(global::System.Runtime.InteropServices.JavaSc
 {
     public static global::Iskra.StdWeb.Accelerometer New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Accelerometer");
-        return new global::Iskra.StdWeb.Accelerometer(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_970 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Accelerometer");
+        return new global::Iskra.StdWeb.Accelerometer(__res_970);
     }
 
     public static global::Iskra.StdWeb.Accelerometer New(global::Iskra.StdWeb.AccelerometerSensorOptions options)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_965 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_965.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Accelerometer", __argsArray_0.JSObject);
-        return new global::Iskra.StdWeb.Accelerometer(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_967 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Accelerometer", __argsArray_965.JSObject);
+        return new global::Iskra.StdWeb.Accelerometer(__res_967);
     }
 
     public double? X

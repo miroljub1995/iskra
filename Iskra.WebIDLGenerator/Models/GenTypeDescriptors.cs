@@ -405,6 +405,11 @@ public class GenTypeDescriptors
     {
         foreach (var member in input.Members)
         {
+            if (member is OperationMemberType { Name: "assert" })
+            {
+                Console.WriteLine();
+            }
+
             ResolveAnyInMemberType(member);
         }
     }

@@ -31,8 +31,8 @@ public partial class HTMLIFrameElement(global::System.Runtime.InteropServices.Ja
 
     public static global::Iskra.StdWeb.HTMLIFrameElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_89 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLIFrameElement");
-        return new global::Iskra.StdWeb.HTMLIFrameElement(__res_89);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_247 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLIFrameElement");
+        return new global::Iskra.StdWeb.HTMLIFrameElement(__res_247);
     }
 
     public string Src

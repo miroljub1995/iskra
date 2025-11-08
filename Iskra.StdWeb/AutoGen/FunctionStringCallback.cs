@@ -10,23 +10,23 @@ public partial class FunctionStringCallback(global::System.Runtime.InteropServic
 {
     public static implicit operator FunctionStringCallback(FunctionStringCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_262) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2480) =>
         {
-            using (__args_262)
+            using (__args_2480)
             {
                 // Argument 1
-                string __arg_264;
-                string __res_265 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_262, 0);
-                __arg_264 = __res_265;
+                string __arg_2482;
+                string __res_2483 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_2480, 0);
+                __arg_2482 = __res_2483;
 
-                input(__arg_264);
+                input(__arg_2482);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_266 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_266, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_2484 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_2484, input);
 
-        return new global::Iskra.StdWeb.FunctionStringCallback(__funcObj_266);
+        return new global::Iskra.StdWeb.FunctionStringCallback(__funcObj_2484);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.FunctionStringCallbackManaged? managed, bool allowConversion = false)
@@ -44,16 +44,16 @@ public partial class FunctionStringCallback(global::System.Runtime.InteropServic
 
         managed = (data) =>
         {
-            int __argsArrayLength_270 = 1;
+            int __argsArrayLength_2488 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_267 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_270);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2485 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_2488);
 
             // Argument 1
-            string __marshalledValue_271;
-            __marshalledValue_271 = data;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_267.JSObject, 0, __marshalledValue_271);
+            string __marshalledValue_2489;
+            __marshalledValue_2489 = data;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2485.JSObject, 0, __marshalledValue_2489);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_267.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_2485.JSObject);
         };
         return true;
     }

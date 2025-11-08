@@ -18,8 +18,8 @@ public partial class HTMLImageElement(global::System.Runtime.InteropServices.Jav
 
     public static global::Iskra.StdWeb.HTMLImageElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_86 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLImageElement");
-        return new global::Iskra.StdWeb.HTMLImageElement(__res_86);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_839 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLImageElement");
+        return new global::Iskra.StdWeb.HTMLImageElement(__res_839);
     }
 
     public string Alt

@@ -8,23 +8,23 @@ public partial class SFrameDecrypterStream(global::System.Runtime.InteropService
 {
     public static global::Iskra.StdWeb.SFrameDecrypterStream New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_17 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SFrameDecrypterStream");
-        return new global::Iskra.StdWeb.SFrameDecrypterStream(__res_17);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_530 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SFrameDecrypterStream");
+        return new global::Iskra.StdWeb.SFrameDecrypterStream(__res_530);
     }
 
     public static global::Iskra.StdWeb.SFrameDecrypterStream New(global::Iskra.StdWeb.SFrameTransformOptions options)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_525 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_12.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_525.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_14 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SFrameDecrypterStream", __argsArray_12.JSObject);
-        return new global::Iskra.StdWeb.SFrameDecrypterStream(__res_14);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_527 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SFrameDecrypterStream", __argsArray_525.JSObject);
+        return new global::Iskra.StdWeb.SFrameDecrypterStream(__res_527);
     }
 
     public global::Iskra.StdWeb.ReadableStream Readable

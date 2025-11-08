@@ -8,8 +8,8 @@ public partial class EventTarget(global::System.Runtime.InteropServices.JavaScri
 {
     public static global::Iskra.StdWeb.EventTarget New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_14 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "EventTarget");
-        return new global::Iskra.StdWeb.EventTarget(__res_14);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1214 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "EventTarget");
+        return new global::Iskra.StdWeb.EventTarget(__res_1214);
     }
 
     public void AddEventListener(string type, global::Iskra.StdWeb.EventListener? callback)

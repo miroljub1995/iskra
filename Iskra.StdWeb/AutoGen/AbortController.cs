@@ -8,8 +8,8 @@ public partial class AbortController(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.AbortController New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_17 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AbortController");
-        return new global::Iskra.StdWeb.AbortController(__res_17);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1217 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AbortController");
+        return new global::Iskra.StdWeb.AbortController(__res_1217);
     }
 
     public global::Iskra.StdWeb.AbortSignal Signal

@@ -8,8 +8,8 @@ public partial class HTMLScriptElement(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.HTMLScriptElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_197 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLScriptElement");
-        return new global::Iskra.StdWeb.HTMLScriptElement(__res_197);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2418 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLScriptElement");
+        return new global::Iskra.StdWeb.HTMLScriptElement(__res_2418);
     }
 
     public string Type

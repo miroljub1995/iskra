@@ -14,8 +14,8 @@ public partial class HTMLBodyElement(global::System.Runtime.InteropServices.Java
 
     public static global::Iskra.StdWeb.HTMLBodyElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_26 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLBodyElement");
-        return new global::Iskra.StdWeb.HTMLBodyElement(__res_26);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1874 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLBodyElement");
+        return new global::Iskra.StdWeb.HTMLBodyElement(__res_1874);
     }
 
     public string Text

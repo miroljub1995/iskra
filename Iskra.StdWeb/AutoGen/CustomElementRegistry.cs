@@ -8,8 +8,8 @@ public partial class CustomElementRegistry(global::System.Runtime.InteropService
 {
     public static global::Iskra.StdWeb.CustomElementRegistry New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_230 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CustomElementRegistry");
-        return new global::Iskra.StdWeb.CustomElementRegistry(__res_230);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2448 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CustomElementRegistry");
+        return new global::Iskra.StdWeb.CustomElementRegistry(__res_2448);
     }
 
     public void Define(string name, global::Iskra.StdWeb.CustomElementConstructor constructor)

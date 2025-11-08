@@ -8,8 +8,8 @@ public partial class HTMLDialogElement(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.HTMLDialogElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_194 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLDialogElement");
-        return new global::Iskra.StdWeb.HTMLDialogElement(__res_194);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2415 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLDialogElement");
+        return new global::Iskra.StdWeb.HTMLDialogElement(__res_2415);
     }
 
     public bool Open

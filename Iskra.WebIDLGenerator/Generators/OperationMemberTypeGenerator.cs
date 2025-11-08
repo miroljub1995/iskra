@@ -63,49 +63,6 @@ public class OperationMemberTypeGenerator(
             .Select(x => x.ValidCSharpName)
             .ToList();
 
-//         if (string.IsNullOrEmpty(input.Name) && input.Special == OperationSpecial.Getter)
-//         {
-//             if (input.IdlType is null)
-//             {
-//                 throw new Exception("Getter operation must have a return type");
-//             }
-//
-//             var returnType = descriptionToTypeDeclarationGenerator.Generate(input.IdlType);
-//             var resPropertyAccessor = propertyAccessorGenerator.GetOrCreateAccessor(input.IdlType);
-//
-//             return $$"""
-//                      public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}({{args}})
-//                      {
-//                          return global::Iskra.JSCore.Generics.PropertyAccessor.Get<{{returnType}}, {{resPropertyAccessor}}>({{inputVar}}, {{argVars.Single()}});
-//                      }
-//                      """;
-//         }
-//
-//         if (string.IsNullOrEmpty(input.Name) && input.Special == OperationSpecial.Setter)
-//         {
-//             var valueArg = input.Arguments.Skip(1).Single();
-//
-//             var returnType = descriptionToTypeDeclarationGenerator.Generate(valueArg.IdlType);
-//             var resPropertyAccessor = propertyAccessorGenerator.GetOrCreateAccessor(valueArg.IdlType);
-//
-//             return $$"""
-//                      public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}({{args}})
-//                      {
-//                          global::Iskra.JSCore.Generics.PropertyAccessor.Set<{{returnType}}, {{resPropertyAccessor}}>({{inputVar}}, {{argVars.First()}}, {{argVars.Skip(1).Single()}});
-//                      }
-//                      """;
-//         }
-//
-//         if (string.IsNullOrEmpty(input.Name) && input.Special == OperationSpecial.Deleter)
-//         {
-//             return $$"""
-//                      public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}({{args}})
-//                      {
-//                          global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.DeleteProperty({{inputVar}}, {{argVars.Single()}});
-//                      }
-//                      """;
-//         }
-
         List<string> bodyStatements = [];
 
         using (VariableName.CreateScope())

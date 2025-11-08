@@ -8,8 +8,8 @@ public partial class VideoTrackGenerator(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.VideoTrackGenerator New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoTrackGenerator");
-        return new global::Iskra.StdWeb.VideoTrackGenerator(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_147 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoTrackGenerator");
+        return new global::Iskra.StdWeb.VideoTrackGenerator(__res_147);
     }
 
     public global::Iskra.StdWeb.WritableStream Writable

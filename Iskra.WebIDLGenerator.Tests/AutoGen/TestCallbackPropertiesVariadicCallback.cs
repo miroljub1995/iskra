@@ -10,37 +10,37 @@ public partial class TestCallbackPropertiesVariadicCallback(global::System.Runti
 {
     public static implicit operator TestCallbackPropertiesVariadicCallback(TestCallbackPropertiesVariadicCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_10) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_25) =>
         {
-            using (__args_10)
+            using (__args_25)
             {
                 // Argument 1
-                long __arg_12;
-                double __res_13 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_10, 0);
-                __arg_12 = Convert.ToInt64(__res_13);
+                long __arg_27;
+                double __res_28 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_25, 0);
+                __arg_27 = Convert.ToInt64(__res_28);
 
                 // Argument 2
-                int __length_11 = global::System.Convert.ToInt32(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_10, "length"));
-                int __paramsLength_15 = __length_11 - 1;
-                int[] __arg_14 = new int[__paramsLength_15];
-                for (int __i_16 = 0; __i_16 < __paramsLength_15; __i_16++)
+                int __length_26 = global::System.Convert.ToInt32(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_25, "length"));
+                int __paramsLength_30 = __length_26 - 1;
+                int[] __arg_29 = new int[__paramsLength_30];
+                for (int __i_31 = 0; __i_31 < __paramsLength_30; __i_31++)
                 {
-                    int __paramsItem_17;
+                    int __paramsItem_32;
 
-                    double __res_18 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_10, 1 + __i_16);
-                    __paramsItem_17 = Convert.ToInt32(__res_18);
+                    double __res_33 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_25, 1 + __i_31);
+                    __paramsItem_32 = Convert.ToInt32(__res_33);
 
-                    __arg_14[__i_16] = __paramsItem_17;
+                    __arg_29[__i_31] = __paramsItem_32;
                 }
 
-                input(__arg_12, __arg_14);
+                input(__arg_27, __arg_29);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_19 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_19, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_34 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_34, input);
 
-        return new global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesVariadicCallback(__funcObj_19);
+        return new global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesVariadicCallback(__funcObj_34);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesVariadicCallbackManaged? managed, bool allowConversion = false)
@@ -58,25 +58,25 @@ public partial class TestCallbackPropertiesVariadicCallback(global::System.Runti
 
         managed = (param1, values) =>
         {
-            int __argsArrayLength_23 = values.Length + 1;
+            int __argsArrayLength_38 = values.Length + 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_20 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_23);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_35 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_38);
 
             // Argument 1
-            double __marshalledValue_24;
-            __marshalledValue_24 = Convert.ToDouble(param1);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_20.JSObject, 0, __marshalledValue_24);
+            double __marshalledValue_39;
+            __marshalledValue_39 = Convert.ToDouble(param1);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_35.JSObject, 0, __marshalledValue_39);
 
             // Argument 2
-            for (int __i_25 = 0; __i_25 < values.Length; __i_25++)
+            for (int __i_40 = 0; __i_40 < values.Length; __i_40++)
             {
-            int __elem_26 = values[__i_25];
-                double __marshalledValue_27;
-                __marshalledValue_27 = Convert.ToDouble(__elem_26);
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_20.JSObject, 1 + __i_25, __marshalledValue_27);
+            int __elem_41 = values[__i_40];
+                double __marshalledValue_42;
+                __marshalledValue_42 = Convert.ToDouble(__elem_41);
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_35.JSObject, 1 + __i_40, __marshalledValue_42);
             }
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_20.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_35.JSObject);
         };
         return true;
     }

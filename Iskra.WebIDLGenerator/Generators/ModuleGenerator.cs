@@ -1,35 +1,35 @@
-using System.Text.Json;
+using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
 using Microsoft.Extensions.Logging;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class ModuleGenerator(
+    GenSettings genSettings,
     ILogger<ModuleGenerator> logger,
     CallbackTypeGenerator callbackTypeGenerator,
     CallbackInterfaceTypeGenerator callbackInterfaceTypeGenerator,
     DictionaryTypeGenerator dictionaryTypeGenerator,
     EnumTypeGenerator enumTypeGenerator,
     InterfaceTypeGenerator interfaceTypeGenerator,
-    GenTypeDescriptors genTypeDescriptors
+    GenTypeDescriptors genTypeDescriptors,
+    NamespaceTypeGenerator namespaceTypeGenerator
 )
 {
-    public async Task GenerateAsync(string path, string outputDir,
-        CancellationToken cancellationToken = default)
+    public async Task GenerateAsync(CancellationToken cancellationToken = default)
     {
-        var moduleContent = await File.ReadAllTextAsync(path, cancellationToken);
-
-        if (JsonSerializer.Deserialize(moduleContent, typeof(IDLModule), WebIdlJsonContext.Default) is not IDLModule
-            module)
+        foreach (var desc in genTypeDescriptors.Descriptors)
         {
-            throw new Exception("Failed to deserialize IDLModule.");
-        }
+            if (!desc.IsMain)
+            {
+                continue;
+            }
 
-        foreach (var idlRootType in module.IDLParsed.IDLNames.Values)
-        {
+            var idlRootType = desc.RootType;
+
             if (idlRootType is CallbackType callbackType)
             {
-                var outputFile = Path.GetFullPath(Path.Combine(outputDir, callbackType.Name + ".cs"));
+                var outputFile = Path.GetFullPath(Path.Combine(genSettings.Output, callbackType.Name + ".cs"));
                 if (File.Exists(outputFile))
                 {
                     throw new Exception($"Output file {outputFile} already exists.");
@@ -46,7 +46,7 @@ public class ModuleGenerator(
             }
             else if (idlRootType is CallbackInterfaceType callbackInterfaceType)
             {
-                var outputFile = Path.GetFullPath(Path.Combine(outputDir, callbackInterfaceType.Name + ".cs"));
+                var outputFile = Path.GetFullPath(Path.Combine(genSettings.Output, callbackInterfaceType.Name + ".cs"));
                 if (File.Exists(outputFile))
                 {
                     throw new Exception($"Output file {outputFile} already exists.");
@@ -63,7 +63,7 @@ public class ModuleGenerator(
             }
             else if (idlRootType is DictionaryType dictionaryType)
             {
-                var outputFile = Path.GetFullPath(Path.Combine(outputDir, dictionaryType.Name + ".cs"));
+                var outputFile = Path.GetFullPath(Path.Combine(genSettings.Output, dictionaryType.Name + ".cs"));
                 if (File.Exists(outputFile))
                 {
                     throw new Exception($"Output file {outputFile} already exists.");
@@ -80,7 +80,7 @@ public class ModuleGenerator(
             }
             else if (idlRootType is InterfaceType interfaceType)
             {
-                var outputFile = Path.GetFullPath(Path.Combine(outputDir, interfaceType.Name + ".cs"));
+                var outputFile = Path.GetFullPath(Path.Combine(genSettings.Output, interfaceType.Name + ".cs"));
                 if (File.Exists(outputFile))
                 {
                     throw new Exception($"Output file {outputFile} already exists.");
@@ -97,7 +97,7 @@ public class ModuleGenerator(
             }
             else if (idlRootType is EnumType enumType)
             {
-                var outputFile = Path.GetFullPath(Path.Combine(outputDir, enumType.Name + ".cs"));
+                var outputFile = Path.GetFullPath(Path.Combine(genSettings.Output, enumType.Name + ".cs"));
                 if (File.Exists(outputFile))
                 {
                     throw new Exception($"Output file {outputFile} already exists.");
@@ -110,6 +110,26 @@ public class ModuleGenerator(
                 }
 
                 var content = enumTypeGenerator.Generate(foundType);
+                await File.WriteAllTextAsync(outputFile, content, cancellationToken);
+            }
+            else if (idlRootType is TypedefType)
+            {
+                // No need to generate typedefs.
+            }
+            else if (idlRootType is InterfaceMixinType)
+            {
+                // No need to generate interface mixins.
+            }
+            else if (idlRootType is NamespaceType namespaceType)
+            {
+                var fileName = $"{namespaceType.Name.CapitalizeFirstLetter()}Namespace.cs";
+                var outputFile = Path.GetFullPath(Path.Combine(genSettings.Output, fileName));
+                if (File.Exists(outputFile))
+                {
+                    throw new Exception($"Output file {outputFile} already exists.");
+                }
+
+                var content = namespaceTypeGenerator.Generate(namespaceType);
                 await File.WriteAllTextAsync(outputFile, content, cancellationToken);
             }
             else

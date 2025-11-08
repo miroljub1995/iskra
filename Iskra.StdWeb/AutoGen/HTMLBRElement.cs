@@ -8,8 +8,8 @@ public partial class HTMLBRElement(global::System.Runtime.InteropServices.JavaSc
 {
     public static global::Iskra.StdWeb.HTMLBRElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_74 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLBRElement");
-        return new global::Iskra.StdWeb.HTMLBRElement(__res_74);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2307 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLBRElement");
+        return new global::Iskra.StdWeb.HTMLBRElement(__res_2307);
     }
 
     public string Clear

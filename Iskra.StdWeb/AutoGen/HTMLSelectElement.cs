@@ -8,8 +8,8 @@ public partial class HTMLSelectElement(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.HTMLSelectElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_149 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLSelectElement");
-        return new global::Iskra.StdWeb.HTMLSelectElement(__res_149);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2370 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLSelectElement");
+        return new global::Iskra.StdWeb.HTMLSelectElement(__res_2370);
     }
 
     public string Autocomplete

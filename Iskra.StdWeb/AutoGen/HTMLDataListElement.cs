@@ -8,8 +8,8 @@ public partial class HTMLDataListElement(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.HTMLDataListElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_152 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLDataListElement");
-        return new global::Iskra.StdWeb.HTMLDataListElement(__res_152);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2373 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLDataListElement");
+        return new global::Iskra.StdWeb.HTMLDataListElement(__res_2373);
     }
 
     public global::Iskra.StdWeb.HTMLCollection Options

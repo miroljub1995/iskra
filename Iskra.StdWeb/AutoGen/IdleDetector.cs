@@ -8,8 +8,8 @@ public partial class IdleDetector(global::System.Runtime.InteropServices.JavaScr
 {
     public static global::Iskra.StdWeb.IdleDetector New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IdleDetector");
-        return new global::Iskra.StdWeb.IdleDetector(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1135 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "IdleDetector");
+        return new global::Iskra.StdWeb.IdleDetector(__res_1135);
     }
 
     public global::Iskra.StdWeb.UserIdleState? UserState

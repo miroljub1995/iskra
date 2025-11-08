@@ -8,23 +8,23 @@ public partial class DocumentTimeline(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.DocumentTimeline New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DocumentTimeline");
-        return new global::Iskra.StdWeb.DocumentTimeline(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_743 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DocumentTimeline");
+        return new global::Iskra.StdWeb.DocumentTimeline(__res_743);
     }
 
     public static global::Iskra.StdWeb.DocumentTimeline New(global::Iskra.StdWeb.DocumentTimelineOptions options)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_738 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_738.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DocumentTimeline", __argsArray_0.JSObject);
-        return new global::Iskra.StdWeb.DocumentTimeline(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_740 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DocumentTimeline", __argsArray_738.JSObject);
+        return new global::Iskra.StdWeb.DocumentTimeline(__res_740);
     }
 }
 

@@ -8,8 +8,8 @@ public partial class HTMLButtonElement(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.HTMLButtonElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_146 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLButtonElement");
-        return new global::Iskra.StdWeb.HTMLButtonElement(__res_146);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2367 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLButtonElement");
+        return new global::Iskra.StdWeb.HTMLButtonElement(__res_2367);
     }
 
     public string Command

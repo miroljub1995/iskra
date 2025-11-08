@@ -8,23 +8,23 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
 {
     public static global::Iskra.StdWeb.AudioContext New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_25 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioContext");
-        return new global::Iskra.StdWeb.AudioContext(__res_25);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2894 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioContext");
+        return new global::Iskra.StdWeb.AudioContext(__res_2894);
     }
 
     public static global::Iskra.StdWeb.AudioContext New(global::Iskra.StdWeb.AudioContextOptions contextOptions)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_20 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2889 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = contextOptions.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_20.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_2889.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_22 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioContext", __argsArray_20.JSObject);
-        return new global::Iskra.StdWeb.AudioContext(__res_22);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2891 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioContext", __argsArray_2889.JSObject);
+        return new global::Iskra.StdWeb.AudioContext(__res_2891);
     }
 
     public double BaseLatency

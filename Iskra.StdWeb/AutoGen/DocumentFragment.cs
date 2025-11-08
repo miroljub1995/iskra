@@ -8,8 +8,8 @@ public partial class DocumentFragment(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.DocumentFragment New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_39 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DocumentFragment");
-        return new global::Iskra.StdWeb.DocumentFragment(__res_39);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1236 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DocumentFragment");
+        return new global::Iskra.StdWeb.DocumentFragment(__res_1236);
     }
 
     public global::Iskra.StdWeb.Element? GetElementById(string elementId)

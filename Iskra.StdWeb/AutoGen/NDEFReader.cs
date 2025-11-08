@@ -8,8 +8,8 @@ public partial class NDEFReader(global::System.Runtime.InteropServices.JavaScrip
 {
     public static global::Iskra.StdWeb.NDEFReader New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_8 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "NDEFReader");
-        return new global::Iskra.StdWeb.NDEFReader(__res_8);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1818 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "NDEFReader");
+        return new global::Iskra.StdWeb.NDEFReader(__res_1818);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onreading

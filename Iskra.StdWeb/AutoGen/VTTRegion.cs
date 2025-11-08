@@ -8,8 +8,8 @@ public partial class VTTRegion(global::System.Runtime.InteropServices.JavaScript
 {
     public static global::Iskra.StdWeb.VTTRegion New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VTTRegion");
-        return new global::Iskra.StdWeb.VTTRegion(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2723 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VTTRegion");
+        return new global::Iskra.StdWeb.VTTRegion(__res_2723);
     }
 
     public string Id

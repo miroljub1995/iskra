@@ -10,23 +10,23 @@ public partial class RTCPeerConnectionErrorCallback(global::System.Runtime.Inter
 {
     public static implicit operator RTCPeerConnectionErrorCallback(RTCPeerConnectionErrorCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_6) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_855) =>
         {
-            using (__args_6)
+            using (__args_855)
             {
                 // Argument 1
-                global::Iskra.StdWeb.DOMException __arg_8;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_9 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_6, 0);
-                __arg_8 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_9);
+                global::Iskra.StdWeb.DOMException __arg_857;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_858 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_855, 0);
+                __arg_857 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_858);
 
-                input(__arg_8);
+                input(__arg_857);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_10 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_10, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_859 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_859, input);
 
-        return new global::Iskra.StdWeb.RTCPeerConnectionErrorCallback(__funcObj_10);
+        return new global::Iskra.StdWeb.RTCPeerConnectionErrorCallback(__funcObj_859);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.RTCPeerConnectionErrorCallbackManaged? managed, bool allowConversion = false)
@@ -44,16 +44,16 @@ public partial class RTCPeerConnectionErrorCallback(global::System.Runtime.Inter
 
         managed = (error) =>
         {
-            int __argsArrayLength_14 = 1;
+            int __argsArrayLength_863 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_11 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_14);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_860 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_863);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_15;
-            __marshalledValue_15 = error.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_11.JSObject, 0, __marshalledValue_15);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_864;
+            __marshalledValue_864 = error.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_860.JSObject, 0, __marshalledValue_864);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_11.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_860.JSObject);
         };
         return true;
     }

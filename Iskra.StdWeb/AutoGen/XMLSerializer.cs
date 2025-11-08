@@ -8,8 +8,8 @@ public partial class XMLSerializer(global::System.Runtime.InteropServices.JavaSc
 {
     public static global::Iskra.StdWeb.XMLSerializer New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_408 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XMLSerializer");
-        return new global::Iskra.StdWeb.XMLSerializer(__res_408);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2626 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XMLSerializer");
+        return new global::Iskra.StdWeb.XMLSerializer(__res_2626);
     }
 
     public string SerializeToString(global::Iskra.StdWeb.Node root)

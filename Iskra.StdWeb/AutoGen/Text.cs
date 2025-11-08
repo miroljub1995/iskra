@@ -8,23 +8,23 @@ public partial class Text(global::System.Runtime.InteropServices.JavaScript.JSOb
 {
     public static global::Iskra.StdWeb.Text New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_45 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Text");
-        return new global::Iskra.StdWeb.Text(__res_45);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1242 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Text");
+        return new global::Iskra.StdWeb.Text(__res_1242);
     }
 
     public static global::Iskra.StdWeb.Text New(string data)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_40 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1237 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         string ___marshalledValue_1;
         ___marshalledValue_1 = data;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_40.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_1237.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_42 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Text", __argsArray_40.JSObject);
-        return new global::Iskra.StdWeb.Text(__res_42);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1239 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Text", __argsArray_1237.JSObject);
+        return new global::Iskra.StdWeb.Text(__res_1239);
     }
 
     public global::Iskra.StdWeb.Text SplitText(uint offset)

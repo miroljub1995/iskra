@@ -8,8 +8,8 @@ public partial class HTMLProgressElement(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.HTMLProgressElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_167 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLProgressElement");
-        return new global::Iskra.StdWeb.HTMLProgressElement(__res_167);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2388 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLProgressElement");
+        return new global::Iskra.StdWeb.HTMLProgressElement(__res_2388);
     }
 
     public double Value

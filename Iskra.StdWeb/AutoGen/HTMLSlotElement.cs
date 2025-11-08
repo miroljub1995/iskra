@@ -8,8 +8,8 @@ public partial class HTMLSlotElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLSlotElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_203 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLSlotElement");
-        return new global::Iskra.StdWeb.HTMLSlotElement(__res_203);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2424 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLSlotElement");
+        return new global::Iskra.StdWeb.HTMLSlotElement(__res_2424);
     }
 
     public string Name

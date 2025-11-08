@@ -8,8 +8,8 @@ public partial class FileReaderSync(global::System.Runtime.InteropServices.JavaS
 {
     public static global::Iskra.StdWeb.FileReaderSync New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_20 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "FileReaderSync");
-        return new global::Iskra.StdWeb.FileReaderSync(__res_20);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2868 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "FileReaderSync");
+        return new global::Iskra.StdWeb.FileReaderSync(__res_2868);
     }
 
     public global::Iskra.JSCore.ArrayBuffer ReadAsArrayBuffer(global::Iskra.StdWeb.Blob blob)

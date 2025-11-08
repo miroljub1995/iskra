@@ -8,8 +8,8 @@ public partial class RdfDataset(global::System.Runtime.InteropServices.JavaScrip
 {
     public static global::Iskra.StdWeb.RdfDataset New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RdfDataset");
-        return new global::Iskra.StdWeb.RdfDataset(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2134 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RdfDataset");
+        return new global::Iskra.StdWeb.RdfDataset(__res_2134);
     }
 
     public global::Iskra.StdWeb.RdfGraph DefaultGraph

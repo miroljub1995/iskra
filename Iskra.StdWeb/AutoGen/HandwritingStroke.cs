@@ -8,8 +8,8 @@ public partial class HandwritingStroke(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.HandwritingStroke New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HandwritingStroke");
-        return new global::Iskra.StdWeb.HandwritingStroke(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1565 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HandwritingStroke");
+        return new global::Iskra.StdWeb.HandwritingStroke(__res_1565);
     }
 
     public void AddPoint(global::Iskra.StdWeb.HandwritingPoint point)

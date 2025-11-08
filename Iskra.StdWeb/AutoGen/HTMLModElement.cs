@@ -8,8 +8,8 @@ public partial class HTMLModElement(global::System.Runtime.InteropServices.JavaS
 {
     public static global::Iskra.StdWeb.HTMLModElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_77 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLModElement");
-        return new global::Iskra.StdWeb.HTMLModElement(__res_77);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2310 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLModElement");
+        return new global::Iskra.StdWeb.HTMLModElement(__res_2310);
     }
 
     public string Cite

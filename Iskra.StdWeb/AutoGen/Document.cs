@@ -240,8 +240,8 @@ public partial class Document(global::System.Runtime.InteropServices.JavaScript.
 
     public static global::Iskra.StdWeb.Document New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_36 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document");
-        return new global::Iskra.StdWeb.Document(__res_36);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_168 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document");
+        return new global::Iskra.StdWeb.Document(__res_168);
     }
 
     public global::Iskra.StdWeb.DOMImplementation Implementation

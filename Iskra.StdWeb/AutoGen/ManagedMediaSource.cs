@@ -8,8 +8,8 @@ public partial class ManagedMediaSource(global::System.Runtime.InteropServices.J
 {
     public static global::Iskra.StdWeb.ManagedMediaSource New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ManagedMediaSource");
-        return new global::Iskra.StdWeb.ManagedMediaSource(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2805 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ManagedMediaSource");
+        return new global::Iskra.StdWeb.ManagedMediaSource(__res_2805);
     }
 
     public bool Streaming

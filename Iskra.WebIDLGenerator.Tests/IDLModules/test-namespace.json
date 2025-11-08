@@ -1,0 +1,199 @@
+{
+  "spec": {
+    "title": "Test Namespace",
+    "url": "https://example.com/"
+  },
+  "idlparsed": {
+    "idlNames": {
+      "TestNamespace": {
+        "fragment": "",
+        "type": "interface",
+        "name": "TestNamespace",
+        "inheritance": null,
+        "members": [],
+        "extAttrs": [
+          {
+            "type": "extended-attribute",
+            "name": "Global",
+            "rhs": {
+              "type": "identifier",
+              "value": "TestNamespace"
+            },
+            "arguments": []
+          }
+        ],
+        "partial": false,
+        "href": ""
+      },
+      "testNS": {
+        "fragment": "",
+        "type": "namespace",
+        "name": "testNS",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "attribute",
+            "name": "namespaceProp",
+            "idlType": {
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "string"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": ""
+          },
+          {
+            "type": "operation",
+            "name": "voidOperation",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "undefined"
+            },
+            "arguments": [],
+            "extAttrs": [],
+            "special": "",
+            "href": ""
+          },
+          {
+            "type": "operation",
+            "name": "longOperation",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "arguments": [],
+            "extAttrs": [],
+            "special": "",
+            "href": ""
+          },
+          {
+            "type": "operation",
+            "name": "stringOperation",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "string"
+            },
+            "arguments": [],
+            "extAttrs": [],
+            "special": "",
+            "href": ""
+          },
+          {
+            "type": "operation",
+            "name": "addNumbers",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "a",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "long"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "b",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "long"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": ""
+          },
+          {
+            "type": "operation",
+            "name": "optionalArgOperation",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "string"
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "message",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "string"
+                },
+                "default": {
+                  "type": "string",
+                  "value": "default namespace"
+                },
+                "optional": true,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": ""
+          }
+        ],
+        "extAttrs": [
+          {
+            "type": "extended-attribute",
+            "name": "Exposed",
+            "rhs": {
+              "type": "*",
+              "value": null
+            },
+            "arguments": []
+          }
+        ],
+        "partial": false,
+        "href": ""
+      }
+    }
+  }
+}

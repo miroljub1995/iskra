@@ -8,23 +8,23 @@ public partial class BluetoothDataFilter(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.BluetoothDataFilter New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothDataFilter");
-        return new global::Iskra.StdWeb.BluetoothDataFilter(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1911 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothDataFilter");
+        return new global::Iskra.StdWeb.BluetoothDataFilter(__res_1911);
     }
 
     public static global::Iskra.StdWeb.BluetoothDataFilter New(global::Iskra.StdWeb.BluetoothDataFilterInit init)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1906 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = init.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1906.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothDataFilter", __argsArray_0.JSObject);
-        return new global::Iskra.StdWeb.BluetoothDataFilter(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1908 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothDataFilter", __argsArray_1906.JSObject);
+        return new global::Iskra.StdWeb.BluetoothDataFilter(__res_1908);
     }
 
     public global::Iskra.JSCore.ArrayBuffer DataPrefix

@@ -8,8 +8,8 @@ public partial class FileReader(global::System.Runtime.InteropServices.JavaScrip
 {
     public static global::Iskra.StdWeb.FileReader New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_17 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "FileReader");
-        return new global::Iskra.StdWeb.FileReader(__res_17);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2865 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "FileReader");
+        return new global::Iskra.StdWeb.FileReader(__res_2865);
     }
 
     public void ReadAsArrayBuffer(global::Iskra.StdWeb.Blob blob)

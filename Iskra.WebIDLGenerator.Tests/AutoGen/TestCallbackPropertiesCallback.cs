@@ -10,23 +10,23 @@ public partial class TestCallbackPropertiesCallback(global::System.Runtime.Inter
 {
     public static implicit operator TestCallbackPropertiesCallback(TestCallbackPropertiesCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_0) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_15) =>
         {
-            using (__args_0)
+            using (__args_15)
             {
                 // Argument 1
-                int __arg_2;
-                double __res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_0, 0);
-                __arg_2 = Convert.ToInt32(__res_3);
+                int __arg_17;
+                double __res_18 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_15, 0);
+                __arg_17 = Convert.ToInt32(__res_18);
 
-                input(__arg_2);
+                input(__arg_17);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_4 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_4, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_19 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_19, input);
 
-        return new global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallback(__funcObj_4);
+        return new global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallback(__funcObj_19);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.WebIDLGenerator.Tests.TestCallbackPropertiesCallbackManaged? managed, bool allowConversion = false)
@@ -44,16 +44,16 @@ public partial class TestCallbackPropertiesCallback(global::System.Runtime.Inter
 
         managed = (value) =>
         {
-            int __argsArrayLength_8 = 1;
+            int __argsArrayLength_23 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_5 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_8);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_20 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_23);
 
             // Argument 1
-            double __marshalledValue_9;
-            __marshalledValue_9 = Convert.ToDouble(value);
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_5.JSObject, 0, __marshalledValue_9);
+            double __marshalledValue_24;
+            __marshalledValue_24 = Convert.ToDouble(value);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_20.JSObject, 0, __marshalledValue_24);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_5.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_20.JSObject);
         };
         return true;
     }

@@ -8,8 +8,8 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
 {
     public static global::Iskra.StdWeb.XMLHttpRequest New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XMLHttpRequest");
-        return new global::Iskra.StdWeb.XMLHttpRequest(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_256 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XMLHttpRequest");
+        return new global::Iskra.StdWeb.XMLHttpRequest(__res_256);
     }
 
     public global::Iskra.StdWeb.EventHandlerNonNull? Onreadystatechange

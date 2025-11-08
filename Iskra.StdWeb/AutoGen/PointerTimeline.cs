@@ -8,23 +8,23 @@ public partial class PointerTimeline(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.PointerTimeline New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PointerTimeline");
-        return new global::Iskra.StdWeb.PointerTimeline(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2128 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PointerTimeline");
+        return new global::Iskra.StdWeb.PointerTimeline(__res_2128);
     }
 
     public static global::Iskra.StdWeb.PointerTimeline New(global::Iskra.StdWeb.PointerTimelineOptions options)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2123 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_2123.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PointerTimeline", __argsArray_0.JSObject);
-        return new global::Iskra.StdWeb.PointerTimeline(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2125 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PointerTimeline", __argsArray_2123.JSObject);
+        return new global::Iskra.StdWeb.PointerTimeline(__res_2125);
     }
 
     public global::Iskra.StdWeb.Element? Source

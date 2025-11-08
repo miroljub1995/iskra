@@ -8,22 +8,22 @@ public partial class DOMMatrix(global::System.Runtime.InteropServices.JavaScript
 {
     public static global::Iskra.StdWeb.DOMMatrix New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_86 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrix");
-        return new global::Iskra.StdWeb.DOMMatrix(__res_86);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1421 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrix");
+        return new global::Iskra.StdWeb.DOMMatrix(__res_1421);
     }
 
     public static global::Iskra.StdWeb.DOMMatrix New(global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> init)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_81 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1416 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = init.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_81.JSObject, 0, ___propObject_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_1416.JSObject, 0, ___propObject_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_83 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrix", __argsArray_81.JSObject);
-        return new global::Iskra.StdWeb.DOMMatrix(__res_83);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1418 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMMatrix", __argsArray_1416.JSObject);
+        return new global::Iskra.StdWeb.DOMMatrix(__res_1418);
     }
 
     public static global::Iskra.StdWeb.DOMMatrix FromMatrix()

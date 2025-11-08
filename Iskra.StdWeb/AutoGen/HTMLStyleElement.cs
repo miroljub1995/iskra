@@ -8,8 +8,8 @@ public partial class HTMLStyleElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLStyleElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_23 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLStyleElement");
-        return new global::Iskra.StdWeb.HTMLStyleElement(__res_23);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2262 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLStyleElement");
+        return new global::Iskra.StdWeb.HTMLStyleElement(__res_2262);
     }
 
     public bool Disabled

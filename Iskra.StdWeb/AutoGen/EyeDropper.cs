@@ -8,8 +8,8 @@ public partial class EyeDropper(global::System.Runtime.InteropServices.JavaScrip
 {
     public static global::Iskra.StdWeb.EyeDropper New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "EyeDropper");
-        return new global::Iskra.StdWeb.EyeDropper(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_277 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "EyeDropper");
+        return new global::Iskra.StdWeb.EyeDropper(__res_277);
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ColorSelectionResult, global::Iskra.StdWeb.PropertyAccessor> Open()

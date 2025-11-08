@@ -8,8 +8,8 @@ public partial class MediaSource(global::System.Runtime.InteropServices.JavaScri
 {
     public static global::Iskra.StdWeb.MediaSource New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaSource");
-        return new global::Iskra.StdWeb.MediaSource(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2802 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MediaSource");
+        return new global::Iskra.StdWeb.MediaSource(__res_2802);
     }
 
     public global::Iskra.StdWeb.MediaSourceHandle Handle

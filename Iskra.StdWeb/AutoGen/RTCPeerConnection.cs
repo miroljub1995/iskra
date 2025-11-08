@@ -8,23 +8,23 @@ public partial class RTCPeerConnection(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.RTCPeerConnection New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCPeerConnection");
-        return new global::Iskra.StdWeb.RTCPeerConnection(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_854 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCPeerConnection");
+        return new global::Iskra.StdWeb.RTCPeerConnection(__res_854);
     }
 
     public static global::Iskra.StdWeb.RTCPeerConnection New(global::Iskra.StdWeb.RTCConfiguration configuration)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_849 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = configuration.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_849.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCPeerConnection", __argsArray_0.JSObject);
-        return new global::Iskra.StdWeb.RTCPeerConnection(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_851 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCPeerConnection", __argsArray_849.JSObject);
+        return new global::Iskra.StdWeb.RTCPeerConnection(__res_851);
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.RTCSessionDescriptionInit, global::Iskra.StdWeb.PropertyAccessor> CreateOffer()

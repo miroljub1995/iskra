@@ -8,8 +8,8 @@ public partial class HTMLPictureElement(global::System.Runtime.InteropServices.J
 {
     public static global::Iskra.StdWeb.HTMLPictureElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_80 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLPictureElement");
-        return new global::Iskra.StdWeb.HTMLPictureElement(__res_80);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2313 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLPictureElement");
+        return new global::Iskra.StdWeb.HTMLPictureElement(__res_2313);
     }
 }
 

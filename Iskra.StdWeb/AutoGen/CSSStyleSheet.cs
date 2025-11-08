@@ -8,23 +8,23 @@ public partial class CSSStyleSheet(global::System.Runtime.InteropServices.JavaSc
 {
     public static global::Iskra.StdWeb.CSSStyleSheet New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSStyleSheet");
-        return new global::Iskra.StdWeb.CSSStyleSheet(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2739 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSStyleSheet");
+        return new global::Iskra.StdWeb.CSSStyleSheet(__res_2739);
     }
 
     public static global::Iskra.StdWeb.CSSStyleSheet New(global::Iskra.StdWeb.CSSStyleSheetInit options)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2734 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_2734.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSStyleSheet", __argsArray_0.JSObject);
-        return new global::Iskra.StdWeb.CSSStyleSheet(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2736 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSStyleSheet", __argsArray_2734.JSObject);
+        return new global::Iskra.StdWeb.CSSStyleSheet(__res_2736);
     }
 
     public global::Iskra.StdWeb.CSSRule? OwnerRule

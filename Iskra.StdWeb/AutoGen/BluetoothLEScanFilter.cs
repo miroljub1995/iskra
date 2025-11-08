@@ -8,23 +8,23 @@ public partial class BluetoothLEScanFilter(global::System.Runtime.InteropService
 {
     public static global::Iskra.StdWeb.BluetoothLEScanFilter New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_23 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothLEScanFilter");
-        return new global::Iskra.StdWeb.BluetoothLEScanFilter(__res_23);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1929 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothLEScanFilter");
+        return new global::Iskra.StdWeb.BluetoothLEScanFilter(__res_1929);
     }
 
     public static global::Iskra.StdWeb.BluetoothLEScanFilter New(global::Iskra.StdWeb.BluetoothLEScanFilterInit init)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_18 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1924 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = init.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_18.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1924.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_20 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothLEScanFilter", __argsArray_18.JSObject);
-        return new global::Iskra.StdWeb.BluetoothLEScanFilter(__res_20);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1926 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BluetoothLEScanFilter", __argsArray_1924.JSObject);
+        return new global::Iskra.StdWeb.BluetoothLEScanFilter(__res_1926);
     }
 
     public string? Name

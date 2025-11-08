@@ -8,8 +8,8 @@ public partial class HTMLMapElement(global::System.Runtime.InteropServices.JavaS
 {
     public static global::Iskra.StdWeb.HTMLMapElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_113 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMapElement");
-        return new global::Iskra.StdWeb.HTMLMapElement(__res_113);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2337 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMapElement");
+        return new global::Iskra.StdWeb.HTMLMapElement(__res_2337);
     }
 
     public string Name

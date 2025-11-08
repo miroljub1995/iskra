@@ -7,6 +7,7 @@ import {TestDictionaryProperties} from "./Tests/TestDictionaryProperties.js";
 import {TestEnumProperties} from "./Tests/TestEnumProperties.js";
 import {TestFrozenArrayProperties} from "./Tests/TestFrozenArrayProperties.js";
 import {TestInterfaceProperties} from "./Tests/TestInterfaceProperties.js";
+import {TestNamespace} from "./Tests/TestNamespace.js";
 import {TestObservableArrayProperties} from "./Tests/TestObservableArrayProperties.js";
 import {TestOperations} from "./Tests/TestOperations.js";
 import {TestPromiseProperties} from "./Tests/TestPromiseProperties.js";
@@ -41,6 +42,9 @@ globalThis.tests = {
     },
     get testInterfaceProperties() {
         return new TestInterfaceProperties();
+    },
+    get testNamespace() {
+        return new TestNamespace();
     },
     get testObservableArrayProperties() {
         return new TestObservableArrayProperties();

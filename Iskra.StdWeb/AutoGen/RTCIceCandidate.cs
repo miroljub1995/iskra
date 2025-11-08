@@ -8,23 +8,23 @@ public partial class RTCIceCandidate(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.RTCIceCandidate New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_34 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCIceCandidate");
-        return new global::Iskra.StdWeb.RTCIceCandidate(__res_34);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_883 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCIceCandidate");
+        return new global::Iskra.StdWeb.RTCIceCandidate(__res_883);
     }
 
     public static global::Iskra.StdWeb.RTCIceCandidate New(global::Iskra.StdWeb.RTCLocalIceCandidateInit candidateInitDict)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_29 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_878 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = candidateInitDict.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_29.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_878.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_31 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCIceCandidate", __argsArray_29.JSObject);
-        return new global::Iskra.StdWeb.RTCIceCandidate(__res_31);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_880 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCIceCandidate", __argsArray_878.JSObject);
+        return new global::Iskra.StdWeb.RTCIceCandidate(__res_880);
     }
 
     public string Candidate

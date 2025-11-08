@@ -8,8 +8,8 @@ public partial class HTMLHeadingElement(global::System.Runtime.InteropServices.J
 {
     public static global::Iskra.StdWeb.HTMLHeadingElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_29 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLHeadingElement");
-        return new global::Iskra.StdWeb.HTMLHeadingElement(__res_29);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2265 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLHeadingElement");
+        return new global::Iskra.StdWeb.HTMLHeadingElement(__res_2265);
     }
 
     public string Align

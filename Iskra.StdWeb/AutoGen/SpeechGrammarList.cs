@@ -8,8 +8,8 @@ public partial class SpeechGrammarList(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.SpeechGrammarList New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_11 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SpeechGrammarList");
-        return new global::Iskra.StdWeb.SpeechGrammarList(__res_11);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1589 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SpeechGrammarList");
+        return new global::Iskra.StdWeb.SpeechGrammarList(__res_1589);
     }
 
     public uint Length

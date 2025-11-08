@@ -8,23 +8,23 @@ public partial class VideoColorSpace(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.VideoColorSpace New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_91 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoColorSpace");
-        return new global::Iskra.StdWeb.VideoColorSpace(__res_91);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1098 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoColorSpace");
+        return new global::Iskra.StdWeb.VideoColorSpace(__res_1098);
     }
 
     public static global::Iskra.StdWeb.VideoColorSpace New(global::Iskra.StdWeb.VideoColorSpaceInit init)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_86 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1093 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = init.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_86.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1093.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_88 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoColorSpace", __argsArray_86.JSObject);
-        return new global::Iskra.StdWeb.VideoColorSpace(__res_88);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1095 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VideoColorSpace", __argsArray_1093.JSObject);
+        return new global::Iskra.StdWeb.VideoColorSpace(__res_1095);
     }
 
     public global::Iskra.StdWeb.VideoColorPrimaries? Primaries

@@ -10,7 +10,7 @@ public partial class Highlight(global::System.Runtime.InteropServices.JavaScript
     {
         int ___argsArrayLength_0 = initialRanges.Length + 0;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_604 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         for (int ___i_1 = 0; ___i_1 < initialRanges.Length; ___i_1++)
@@ -18,11 +18,11 @@ public partial class Highlight(global::System.Runtime.InteropServices.JavaScript
         global::Iskra.StdWeb.AbstractRange ___elem_2 = initialRanges[___i_1];
             global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
             ___marshalledValue_3 = ___elem_2.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0 + ___i_1, ___marshalledValue_3);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_604.JSObject, 0 + ___i_1, ___marshalledValue_3);
         }
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Highlight", __argsArray_0.JSObject);
-        return new global::Iskra.StdWeb.Highlight(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_606 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Highlight", __argsArray_604.JSObject);
+        return new global::Iskra.StdWeb.Highlight(__res_606);
     }
 
     public int Priority

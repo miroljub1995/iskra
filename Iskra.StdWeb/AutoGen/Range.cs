@@ -28,8 +28,8 @@ public partial class Range(global::System.Runtime.InteropServices.JavaScript.JSO
 
     public static global::Iskra.StdWeb.Range New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_57 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Range");
-        return new global::Iskra.StdWeb.Range(__res_57);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_842 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Range");
+        return new global::Iskra.StdWeb.Range(__res_842);
     }
 
     public global::Iskra.StdWeb.Node CommonAncestorContainer

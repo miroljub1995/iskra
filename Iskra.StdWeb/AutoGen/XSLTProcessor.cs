@@ -8,8 +8,8 @@ public partial class XSLTProcessor(global::System.Runtime.InteropServices.JavaSc
 {
     public static global::Iskra.StdWeb.XSLTProcessor New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_63 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XSLTProcessor");
-        return new global::Iskra.StdWeb.XSLTProcessor(__res_63);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1257 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XSLTProcessor");
+        return new global::Iskra.StdWeb.XSLTProcessor(__res_1257);
     }
 
     public void ImportStylesheet(global::Iskra.StdWeb.Node style)

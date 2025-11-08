@@ -8,8 +8,8 @@ public partial class SpeechRecognition(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.SpeechRecognition New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SpeechRecognition");
-        return new global::Iskra.StdWeb.SpeechRecognition(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1580 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SpeechRecognition");
+        return new global::Iskra.StdWeb.SpeechRecognition(__res_1580);
     }
 
     public global::Iskra.StdWeb.SpeechGrammarList Grammars

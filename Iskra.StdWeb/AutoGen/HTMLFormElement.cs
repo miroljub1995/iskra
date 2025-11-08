@@ -8,8 +8,8 @@ public partial class HTMLFormElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLFormElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_137 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFormElement");
-        return new global::Iskra.StdWeb.HTMLFormElement(__res_137);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2361 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFormElement");
+        return new global::Iskra.StdWeb.HTMLFormElement(__res_2361);
     }
 
     public string AcceptCharset

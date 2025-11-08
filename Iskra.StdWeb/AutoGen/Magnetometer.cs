@@ -8,23 +8,23 @@ public partial class Magnetometer(global::System.Runtime.InteropServices.JavaScr
 {
     public static global::Iskra.StdWeb.Magnetometer New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Magnetometer");
-        return new global::Iskra.StdWeb.Magnetometer(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_190 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Magnetometer");
+        return new global::Iskra.StdWeb.Magnetometer(__res_190);
     }
 
     public static global::Iskra.StdWeb.Magnetometer New(global::Iskra.StdWeb.MagnetometerSensorOptions sensorOptions)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_185 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = sensorOptions.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_185.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Magnetometer", __argsArray_0.JSObject);
-        return new global::Iskra.StdWeb.Magnetometer(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_187 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Magnetometer", __argsArray_185.JSObject);
+        return new global::Iskra.StdWeb.Magnetometer(__res_187);
     }
 
     public double? X

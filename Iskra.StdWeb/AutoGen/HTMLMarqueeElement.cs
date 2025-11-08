@@ -8,8 +8,8 @@ public partial class HTMLMarqueeElement(global::System.Runtime.InteropServices.J
 {
     public static global::Iskra.StdWeb.HTMLMarqueeElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_472 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMarqueeElement");
-        return new global::Iskra.StdWeb.HTMLMarqueeElement(__res_472);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2690 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMarqueeElement");
+        return new global::Iskra.StdWeb.HTMLMarqueeElement(__res_2690);
     }
 
     public string Behavior

@@ -8,8 +8,8 @@ public partial class DataTransfer(global::System.Runtime.InteropServices.JavaScr
 {
     public static global::Iskra.StdWeb.DataTransfer New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_261 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DataTransfer");
-        return new global::Iskra.StdWeb.DataTransfer(__res_261);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2479 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DataTransfer");
+        return new global::Iskra.StdWeb.DataTransfer(__res_2479);
     }
 
     public string DropEffect

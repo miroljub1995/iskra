@@ -8,8 +8,8 @@ public partial class HTMLLIElement(global::System.Runtime.InteropServices.JavaSc
 {
     public static global::Iskra.StdWeb.HTMLLIElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_53 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLLIElement");
-        return new global::Iskra.StdWeb.HTMLLIElement(__res_53);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2289 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLLIElement");
+        return new global::Iskra.StdWeb.HTMLLIElement(__res_2289);
     }
 
     public int Value

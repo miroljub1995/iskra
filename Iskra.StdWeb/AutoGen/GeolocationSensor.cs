@@ -8,23 +8,23 @@ public partial class GeolocationSensor(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.GeolocationSensor New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_5 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GeolocationSensor");
-        return new global::Iskra.StdWeb.GeolocationSensor(__res_5);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1806 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GeolocationSensor");
+        return new global::Iskra.StdWeb.GeolocationSensor(__res_1806);
     }
 
     public static global::Iskra.StdWeb.GeolocationSensor New(global::Iskra.StdWeb.GeolocationSensorOptions options)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1801 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_0.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1801.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GeolocationSensor", __argsArray_0.JSObject);
-        return new global::Iskra.StdWeb.GeolocationSensor(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1803 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GeolocationSensor", __argsArray_1801.JSObject);
+        return new global::Iskra.StdWeb.GeolocationSensor(__res_1803);
     }
 
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.GeolocationSensorReading, global::Iskra.StdWeb.PropertyAccessor> Read()

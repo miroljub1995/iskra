@@ -8,8 +8,8 @@ public partial class HTMLEmbedElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLEmbedElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_92 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLEmbedElement");
-        return new global::Iskra.StdWeb.HTMLEmbedElement(__res_92);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2319 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLEmbedElement");
+        return new global::Iskra.StdWeb.HTMLEmbedElement(__res_2319);
     }
 
     public string Src

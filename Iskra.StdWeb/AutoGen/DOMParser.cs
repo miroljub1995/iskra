@@ -8,8 +8,8 @@ public partial class DOMParser(global::System.Runtime.InteropServices.JavaScript
 {
     public static global::Iskra.StdWeb.DOMParser New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_405 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMParser");
-        return new global::Iskra.StdWeb.DOMParser(__res_405);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2623 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMParser");
+        return new global::Iskra.StdWeb.DOMParser(__res_2623);
     }
 
     public global::Iskra.StdWeb.Document ParseFromString(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> @string, global::Iskra.StdWeb.DOMParserSupportedType type)

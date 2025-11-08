@@ -8,23 +8,23 @@ public partial class CloseWatcher(global::System.Runtime.InteropServices.JavaScr
 {
     public static global::Iskra.StdWeb.CloseWatcher New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_258 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CloseWatcher");
-        return new global::Iskra.StdWeb.CloseWatcher(__res_258);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2476 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CloseWatcher");
+        return new global::Iskra.StdWeb.CloseWatcher(__res_2476);
     }
 
     public static global::Iskra.StdWeb.CloseWatcher New(global::Iskra.StdWeb.CloseWatcherOptions options)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_253 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2471 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_253.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_2471.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_255 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CloseWatcher", __argsArray_253.JSObject);
-        return new global::Iskra.StdWeb.CloseWatcher(__res_255);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2473 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CloseWatcher", __argsArray_2471.JSObject);
+        return new global::Iskra.StdWeb.CloseWatcher(__res_2473);
     }
 
     public void RequestClose()

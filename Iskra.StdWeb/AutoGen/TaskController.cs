@@ -8,23 +8,23 @@ public partial class TaskController(global::System.Runtime.InteropServices.JavaS
 {
     public static global::Iskra.StdWeb.TaskController New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_18 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TaskController");
-        return new global::Iskra.StdWeb.TaskController(__res_18);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_603 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TaskController");
+        return new global::Iskra.StdWeb.TaskController(__res_603);
     }
 
     public static global::Iskra.StdWeb.TaskController New(global::Iskra.StdWeb.TaskControllerInit init)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_13 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_598 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = init.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_13.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_598.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_15 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TaskController", __argsArray_13.JSObject);
-        return new global::Iskra.StdWeb.TaskController(__res_15);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_600 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TaskController", __argsArray_598.JSObject);
+        return new global::Iskra.StdWeb.TaskController(__res_600);
     }
 
     public void SetPriority(global::Iskra.StdWeb.TaskPriority priority)

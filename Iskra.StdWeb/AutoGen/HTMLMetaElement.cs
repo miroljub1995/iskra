@@ -8,8 +8,8 @@ public partial class HTMLMetaElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLMetaElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_20 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMetaElement");
-        return new global::Iskra.StdWeb.HTMLMetaElement(__res_20);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2259 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMetaElement");
+        return new global::Iskra.StdWeb.HTMLMetaElement(__res_2259);
     }
 
     public string Name

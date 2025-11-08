@@ -38,8 +38,8 @@ public partial class HTMLElement(global::System.Runtime.InteropServices.JavaScri
 
     public static global::Iskra.StdWeb.HTMLElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLElement");
-        return new global::Iskra.StdWeb.HTMLElement(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_836 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLElement");
+        return new global::Iskra.StdWeb.HTMLElement(__res_836);
     }
 
     public string Title

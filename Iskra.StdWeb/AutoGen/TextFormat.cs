@@ -8,23 +8,23 @@ public partial class TextFormat(global::System.Runtime.InteropServices.JavaScrip
 {
     public static global::Iskra.StdWeb.TextFormat New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_17 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TextFormat");
-        return new global::Iskra.StdWeb.TextFormat(__res_17);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_3084 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TextFormat");
+        return new global::Iskra.StdWeb.TextFormat(__res_3084);
     }
 
     public static global::Iskra.StdWeb.TextFormat New(global::Iskra.StdWeb.TextFormatInit options)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_12 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3079 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_12.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_3079.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_14 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TextFormat", __argsArray_12.JSObject);
-        return new global::Iskra.StdWeb.TextFormat(__res_14);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_3081 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TextFormat", __argsArray_3079.JSObject);
+        return new global::Iskra.StdWeb.TextFormat(__res_3081);
     }
 
     public uint RangeStart

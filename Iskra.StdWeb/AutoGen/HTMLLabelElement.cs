@@ -8,8 +8,8 @@ public partial class HTMLLabelElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLLabelElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_140 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLLabelElement");
-        return new global::Iskra.StdWeb.HTMLLabelElement(__res_140);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2364 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLLabelElement");
+        return new global::Iskra.StdWeb.HTMLLabelElement(__res_2364);
     }
 
     public global::Iskra.StdWeb.HTMLFormElement? Form

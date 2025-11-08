@@ -8,8 +8,8 @@ public partial class HTMLMeterElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLMeterElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_170 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMeterElement");
-        return new global::Iskra.StdWeb.HTMLMeterElement(__res_170);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2391 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMeterElement");
+        return new global::Iskra.StdWeb.HTMLMeterElement(__res_2391);
     }
 
     public double Value

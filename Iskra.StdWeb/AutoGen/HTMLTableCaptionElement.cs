@@ -8,8 +8,8 @@ public partial class HTMLTableCaptionElement(global::System.Runtime.InteropServi
 {
     public static global::Iskra.StdWeb.HTMLTableCaptionElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_122 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTableCaptionElement");
-        return new global::Iskra.StdWeb.HTMLTableCaptionElement(__res_122);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2346 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTableCaptionElement");
+        return new global::Iskra.StdWeb.HTMLTableCaptionElement(__res_2346);
     }
 
     public string Align

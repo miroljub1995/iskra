@@ -8,8 +8,8 @@ public partial class HTMLPortalElement(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.HTMLPortalElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLPortalElement");
-        return new global::Iskra.StdWeb.HTMLPortalElement(__res_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1467 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLPortalElement");
+        return new global::Iskra.StdWeb.HTMLPortalElement(__res_1467);
     }
 
     public string Src

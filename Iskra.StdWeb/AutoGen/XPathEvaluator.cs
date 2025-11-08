@@ -8,8 +8,8 @@ public partial class XPathEvaluator(global::System.Runtime.InteropServices.JavaS
 {
     public static global::Iskra.StdWeb.XPathEvaluator New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_60 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XPathEvaluator");
-        return new global::Iskra.StdWeb.XPathEvaluator(__res_60);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1254 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XPathEvaluator");
+        return new global::Iskra.StdWeb.XPathEvaluator(__res_1254);
     }
 
     public global::Iskra.StdWeb.XPathExpression CreateExpression(string expression)

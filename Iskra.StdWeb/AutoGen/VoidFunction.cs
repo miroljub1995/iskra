@@ -10,9 +10,9 @@ public partial class VoidFunction(global::System.Runtime.InteropServices.JavaScr
 {
     public static implicit operator VoidFunction(VoidFunctionManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_37) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1329) =>
         {
-            using (__args_37)
+            using (__args_1329)
             {
 
 
@@ -20,10 +20,10 @@ public partial class VoidFunction(global::System.Runtime.InteropServices.JavaScr
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_39 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_39, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1331 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1331, input);
 
-        return new global::Iskra.StdWeb.VoidFunction(__funcObj_39);
+        return new global::Iskra.StdWeb.VoidFunction(__funcObj_1331);
     }
 
     public bool TryGetManaged([global::System.Diagnostics.CodeAnalysis.NotNullWhenAttribute(true)] out global::Iskra.StdWeb.VoidFunctionManaged? managed, bool allowConversion = false)

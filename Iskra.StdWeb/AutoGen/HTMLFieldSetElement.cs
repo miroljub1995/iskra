@@ -8,8 +8,8 @@ public partial class HTMLFieldSetElement(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.HTMLFieldSetElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_173 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFieldSetElement");
-        return new global::Iskra.StdWeb.HTMLFieldSetElement(__res_173);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2394 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFieldSetElement");
+        return new global::Iskra.StdWeb.HTMLFieldSetElement(__res_2394);
     }
 
     public bool Disabled

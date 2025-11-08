@@ -79,8 +79,8 @@ public partial class HTMLVideoElement(global::System.Runtime.InteropServices.Jav
 
     public static global::Iskra.StdWeb.HTMLVideoElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_98 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLVideoElement");
-        return new global::Iskra.StdWeb.HTMLVideoElement(__res_98);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_238 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLVideoElement");
+        return new global::Iskra.StdWeb.HTMLVideoElement(__res_238);
     }
 
     public uint Width

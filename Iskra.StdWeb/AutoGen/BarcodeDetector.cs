@@ -8,23 +8,23 @@ public partial class BarcodeDetector(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.BarcodeDetector New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_11 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BarcodeDetector");
-        return new global::Iskra.StdWeb.BarcodeDetector(__res_11);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_827 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BarcodeDetector");
+        return new global::Iskra.StdWeb.BarcodeDetector(__res_827);
     }
 
     public static global::Iskra.StdWeb.BarcodeDetector New(global::Iskra.StdWeb.BarcodeDetectorOptions barcodeDetectorOptions)
     {
         int ___argsArrayLength_0 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_6 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_822 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
 
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
         ___marshalledValue_1 = barcodeDetectorOptions.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_6.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_822.JSObject, 0, ___marshalledValue_1);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_8 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BarcodeDetector", __argsArray_6.JSObject);
-        return new global::Iskra.StdWeb.BarcodeDetector(__res_8);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_824 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "BarcodeDetector", __argsArray_822.JSObject);
+        return new global::Iskra.StdWeb.BarcodeDetector(__res_824);
     }
 
     public static global::Iskra.JSCore.Generics.Promise<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.BarcodeFormat, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor> GetSupportedFormats()

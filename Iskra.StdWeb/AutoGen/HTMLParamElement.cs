@@ -8,8 +8,8 @@ public partial class HTMLParamElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLParamElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_487 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLParamElement");
-        return new global::Iskra.StdWeb.HTMLParamElement(__res_487);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2705 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLParamElement");
+        return new global::Iskra.StdWeb.HTMLParamElement(__res_2705);
     }
 
     public string Name

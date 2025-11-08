@@ -8,8 +8,8 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLTrackElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_104 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTrackElement");
-        return new global::Iskra.StdWeb.HTMLTrackElement(__res_104);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2328 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTrackElement");
+        return new global::Iskra.StdWeb.HTMLTrackElement(__res_2328);
     }
 
     public string Kind
