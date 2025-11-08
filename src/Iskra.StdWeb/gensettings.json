@@ -3,7 +3,7 @@
     "../Iskra.JSCore/gensettings.json"
   ],
   "inputs": [
-    "../submodules/webref/curated/ed/idlparsed",
+    "../../submodules/webref/curated/ed/idlparsed",
     "./AdditionalIdlparsed"
   ],
   "output": "./AutoGen",

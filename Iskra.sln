@@ -1,28 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IskraSample", "IskraSample\IskraSample.csproj", "{B4B13060-E383-4B9F-8693-7B06B972C16B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IskraSample", "src\IskraSample\IskraSample.csproj", "{B4B13060-E383-4B9F-8693-7B06B972C16B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.Reactivity", "Iskra.Reactivity\Iskra.Reactivity.csproj", "{0CB80216-77AC-445D-BD1D-FA69ECCE51A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.Reactivity", "src\Iskra.Reactivity\Iskra.Reactivity.csproj", "{0CB80216-77AC-445D-BD1D-FA69ECCE51A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.MinimalWasmExample", "Iskra.MinimalWasmExample\Iskra.MinimalWasmExample.csproj", "{99FFF7A6-EC2B-4639-8CFB-C92A8A66B84D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.MinimalWasmExample", "src\Iskra.MinimalWasmExample\Iskra.MinimalWasmExample.csproj", "{99FFF7A6-EC2B-4639-8CFB-C92A8A66B84D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.StdWeb", "Iskra.StdWeb\Iskra.StdWeb.csproj", "{01E8BD47-514F-429F-BF69-B4844C0C7674}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.StdWeb", "src\Iskra.StdWeb\Iskra.StdWeb.csproj", "{01E8BD47-514F-429F-BF69-B4844C0C7674}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.App", "Iskra.App\Iskra.App.csproj", "{AEA69467-3915-4CDB-A7B9-4C0B84051BDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.App", "src\Iskra.App\Iskra.App.csproj", "{AEA69467-3915-4CDB-A7B9-4C0B84051BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.AppExample", "Iskra.AppExample\Iskra.AppExample.csproj", "{F5238AA6-F539-4F48-B3D7-01107E30F654}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.AppExample", "src\Iskra.AppExample\Iskra.AppExample.csproj", "{F5238AA6-F539-4F48-B3D7-01107E30F654}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.Core", "Iskra.Core\Iskra.Core.csproj", "{FAC15A6C-9637-414A-AEC6-4AD3ED7F7E5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.Core", "src\Iskra.Core\Iskra.Core.csproj", "{FAC15A6C-9637-414A-AEC6-4AD3ED7F7E5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.CoreExample", "Iskra.CoreExample\Iskra.CoreExample.csproj", "{78D1051C-2532-44EC-8364-0F45C6EEC739}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.CoreExample", "src\Iskra.CoreExample\Iskra.CoreExample.csproj", "{78D1051C-2532-44EC-8364-0F45C6EEC739}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.WebIDLGenerator", "Iskra.WebIDLGenerator\Iskra.WebIDLGenerator.csproj", "{AE70742E-395A-40A4-8796-445C8D7D39A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.WebIDLGenerator", "src\Iskra.WebIDLGenerator\Iskra.WebIDLGenerator.csproj", "{AE70742E-395A-40A4-8796-445C8D7D39A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.JSCore", "Iskra.JSCore\Iskra.JSCore.csproj", "{23D00F9C-AA6E-4286-89E7-8B706877B29A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.JSCore", "src\Iskra.JSCore\Iskra.JSCore.csproj", "{23D00F9C-AA6E-4286-89E7-8B706877B29A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.WebIDLGenerator.Tests", "Iskra.WebIDLGenerator.Tests\Iskra.WebIDLGenerator.Tests.csproj", "{FE0CAF87-D094-45E4-9EF9-EF92C23781A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.WebIDLGenerator.Tests", "src\Iskra.WebIDLGenerator.Tests\Iskra.WebIDLGenerator.Tests.csproj", "{FE0CAF87-D094-45E4-9EF9-EF92C23781A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.BrowserTestsRunner", "Iskra.BrowserTestsRunner\Iskra.BrowserTestsRunner.csproj", "{C89D8B2B-5485-4A77-9011-0649743F130A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.BrowserTestsRunner", "src\Iskra.BrowserTestsRunner\Iskra.BrowserTestsRunner.csproj", "{C89D8B2B-5485-4A77-9011-0649743F130A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
