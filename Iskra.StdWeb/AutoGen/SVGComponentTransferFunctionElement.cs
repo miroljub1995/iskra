@@ -6,6 +6,18 @@ namespace Iskra.StdWeb;
 
 public partial class SVGComponentTransferFunctionElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGElement(obj)
 {
+    public const ushort SVG_FECOMPONENTTRANSFER_TYPE_UNKNOWN = 0;
+
+    public const ushort SVG_FECOMPONENTTRANSFER_TYPE_IDENTITY = 1;
+
+    public const ushort SVG_FECOMPONENTTRANSFER_TYPE_TABLE = 2;
+
+    public const ushort SVG_FECOMPONENTTRANSFER_TYPE_DISCRETE = 3;
+
+    public const ushort SVG_FECOMPONENTTRANSFER_TYPE_LINEAR = 4;
+
+    public const ushort SVG_FECOMPONENTTRANSFER_TYPE_GAMMA = 5;
+
     public global::Iskra.StdWeb.SVGAnimatedEnumeration Type
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedEnumeration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");

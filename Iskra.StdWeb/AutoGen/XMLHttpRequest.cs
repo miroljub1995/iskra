@@ -18,6 +18,16 @@ public partial class XMLHttpRequest(global::System.Runtime.InteropServices.JavaS
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onreadystatechange", value);
     }
 
+    public const ushort UNSENT = 0;
+
+    public const ushort OPENED = 1;
+
+    public const ushort HEADERS_RECEIVED = 2;
+
+    public const ushort LOADING = 3;
+
+    public const ushort DONE = 4;
+
     public ushort ReadyState
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readyState");

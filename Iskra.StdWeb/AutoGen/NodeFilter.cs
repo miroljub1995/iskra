@@ -6,6 +6,38 @@ namespace Iskra.StdWeb;
 
 public partial class NodeFilter(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const ushort FILTER_ACCEPT = 1;
+
+    public const ushort FILTER_REJECT = 2;
+
+    public const ushort FILTER_SKIP = 3;
+
+    public const uint SHOW_ALL = 0xFFFFFFFF;
+
+    public const uint SHOW_ELEMENT = 0x1;
+
+    public const uint SHOW_ATTRIBUTE = 0x2;
+
+    public const uint SHOW_TEXT = 0x4;
+
+    public const uint SHOW_CDATA_SECTION = 0x8;
+
+    public const uint SHOW_ENTITY_REFERENCE = 0x10;
+
+    public const uint SHOW_ENTITY = 0x20;
+
+    public const uint SHOW_PROCESSING_INSTRUCTION = 0x40;
+
+    public const uint SHOW_COMMENT = 0x80;
+
+    public const uint SHOW_DOCUMENT = 0x100;
+
+    public const uint SHOW_DOCUMENT_TYPE = 0x200;
+
+    public const uint SHOW_DOCUMENT_FRAGMENT = 0x400;
+
+    public const uint SHOW_NOTATION = 0x800;
+
     public ushort AcceptNode(global::Iskra.StdWeb.Node node)
     {
         int ___argsArrayLength_2 = 1;

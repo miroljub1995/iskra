@@ -42,6 +42,14 @@ public partial class HTMLTrackElement(global::System.Runtime.InteropServices.Jav
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "default", value);
     }
 
+    public const ushort NONE = 0;
+
+    public const ushort LOADING = 1;
+
+    public const ushort LOADED = 2;
+
+    public const ushort ERROR = 3;
+
     public ushort ReadyState
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readyState");

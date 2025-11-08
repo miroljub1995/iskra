@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class GeolocationPositionError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const ushort PERMISSION_DENIED = 1;
+
+    public const ushort POSITION_UNAVAILABLE = 2;
+
+    public const ushort TIMEOUT = 3;
+
     public ushort Code
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "code");

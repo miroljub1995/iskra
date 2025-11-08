@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class CSSRule(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const ushort KEYFRAMES_RULE = 7;
+
+    public const ushort KEYFRAME_RULE = 8;
+
+    public const ushort SUPPORTS_RULE = 12;
+
     public string CssText
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cssText");
@@ -26,6 +32,26 @@ public partial class CSSRule(global::System.Runtime.InteropServices.JavaScript.J
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
     }
+
+    public const ushort STYLE_RULE = 1;
+
+    public const ushort CHARSET_RULE = 2;
+
+    public const ushort IMPORT_RULE = 3;
+
+    public const ushort MEDIA_RULE = 4;
+
+    public const ushort FONT_FACE_RULE = 5;
+
+    public const ushort PAGE_RULE = 6;
+
+    public const ushort MARGIN_RULE = 9;
+
+    public const ushort NAMESPACE_RULE = 10;
+
+    public const ushort COUNTER_STYLE_RULE = 11;
+
+    public const ushort FONT_FEATURE_VALUES_RULE = 14;
 }
 
 #nullable disable

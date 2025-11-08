@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class GPUTextureUsageNamespace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint COPY_SRC = 0x01;
 
+    public const uint COPY_DST = 0x02;
+
+    public const uint TEXTURE_BINDING = 0x04;
+
+    public const uint STORAGE_BINDING = 0x08;
+
+    public const uint RENDER_ATTACHMENT = 0x10;
 }
 
 public partial class ServiceWorkerGlobalScope

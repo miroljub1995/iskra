@@ -6,6 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class MediaError(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const ushort MEDIA_ERR_ABORTED = 1;
+
+    public const ushort MEDIA_ERR_NETWORK = 2;
+
+    public const ushort MEDIA_ERR_DECODE = 3;
+
+    public const ushort MEDIA_ERR_SRC_NOT_SUPPORTED = 4;
+
     public ushort Code
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "code");

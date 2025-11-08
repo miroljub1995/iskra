@@ -6,6 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class SVGMarkerElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGElement(obj)
 {
+    public const ushort SVG_MARKERUNITS_UNKNOWN = 0;
+
+    public const ushort SVG_MARKERUNITS_USERSPACEONUSE = 1;
+
+    public const ushort SVG_MARKERUNITS_STROKEWIDTH = 2;
+
+    public const ushort SVG_MARKER_ORIENT_UNKNOWN = 0;
+
+    public const ushort SVG_MARKER_ORIENT_AUTO = 1;
+
+    public const ushort SVG_MARKER_ORIENT_ANGLE = 2;
+
+    public const ushort SVG_MARKER_ORIENT_AUTO_START_REVERSE = 3;
+
     public global::Iskra.StdWeb.SVGAnimatedLength RefX
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "refX");

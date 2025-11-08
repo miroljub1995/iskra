@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class KHR_parallel_shader_compile(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public const uint COMPLETION_STATUS_KHR = 0x91B1;
 }
 
 #nullable disable

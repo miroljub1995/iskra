@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class WEBGL_depth_texture(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public const uint UNSIGNED_INT_24_8_WEBGL = 0x84FA;
 }
 
 #nullable disable

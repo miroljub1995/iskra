@@ -71,6 +71,14 @@ public partial class Event(global::System.Runtime.InteropServices.JavaScript.JSO
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.EventTarget, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
+    public const ushort NONE = 0;
+
+    public const ushort CAPTURING_PHASE = 1;
+
+    public const ushort AT_TARGET = 2;
+
+    public const ushort BUBBLING_PHASE = 3;
+
     public ushort EventPhase
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "eventPhase");

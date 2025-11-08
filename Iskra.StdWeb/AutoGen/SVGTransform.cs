@@ -6,6 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTransform(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const ushort SVG_TRANSFORM_UNKNOWN = 0;
+
+    public const ushort SVG_TRANSFORM_MATRIX = 1;
+
+    public const ushort SVG_TRANSFORM_TRANSLATE = 2;
+
+    public const ushort SVG_TRANSFORM_SCALE = 3;
+
+    public const ushort SVG_TRANSFORM_ROTATE = 4;
+
+    public const ushort SVG_TRANSFORM_SKEWX = 5;
+
+    public const ushort SVG_TRANSFORM_SKEWY = 6;
+
     public ushort Type
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");

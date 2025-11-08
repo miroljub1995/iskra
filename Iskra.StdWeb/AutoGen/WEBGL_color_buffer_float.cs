@@ -6,7 +6,11 @@ namespace Iskra.StdWeb;
 
 public partial class WEBGL_color_buffer_float(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint RGBA32F_EXT = 0x8814;
 
+    public const uint FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE_EXT = 0x8211;
+
+    public const uint UNSIGNED_NORMALIZED_EXT = 0x8C17;
 }
 
 #nullable disable

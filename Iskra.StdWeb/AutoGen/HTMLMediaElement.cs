@@ -123,6 +123,14 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "crossOrigin", value);
     }
 
+    public const ushort NETWORK_EMPTY = 0;
+
+    public const ushort NETWORK_IDLE = 1;
+
+    public const ushort NETWORK_LOADING = 2;
+
+    public const ushort NETWORK_NO_SOURCE = 3;
+
     public ushort NetworkState
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "networkState");
@@ -162,6 +170,16 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CanPlayTypeResult, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
+
+    public const ushort HAVE_NOTHING = 0;
+
+    public const ushort HAVE_METADATA = 1;
+
+    public const ushort HAVE_CURRENT_DATA = 2;
+
+    public const ushort HAVE_FUTURE_DATA = 3;
+
+    public const ushort HAVE_ENOUGH_DATA = 4;
 
     public ushort ReadyState
     {

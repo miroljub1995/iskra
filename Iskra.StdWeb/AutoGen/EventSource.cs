@@ -51,6 +51,12 @@ public partial class EventSource(global::System.Runtime.InteropServices.JavaScri
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "withCredentials");
     }
 
+    public const ushort CONNECTING = 0;
+
+    public const ushort OPEN = 1;
+
+    public const ushort CLOSED = 2;
+
     public ushort ReadyState
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readyState");

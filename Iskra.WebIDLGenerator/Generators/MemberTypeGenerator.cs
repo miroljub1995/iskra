@@ -1,23 +1,27 @@
 using Iskra.WebIDLGenerator.Models;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class MemberTypeGenerator(
-    IServiceProvider provider,
-    ILogger<MemberTypeGenerator> logger
+    IServiceProvider provider
 )
 {
     public string Generate(IDLCallbackInterfaceMemberType input, string containingTypeName)
     {
         var attributeMemberTypeGenerator = provider.GetRequiredService<AttributeMemberTypeGenerator>();
+        var constantMemberTypeGenerator = provider.GetRequiredService<ConstantMemberTypeGenerator>();
         var constructorMemberTypeGenerator = provider.GetRequiredService<ConstructorMemberTypeGenerator>();
         var operationMemberTypeGenerator = provider.GetRequiredService<OperationMemberTypeGenerator>();
 
         if (input is AttributeMemberType attributeMemberType)
         {
             return attributeMemberTypeGenerator.Generate(attributeMemberType, containingTypeName);
+        }
+
+        if (input is ConstantMemberType constantMemberType)
+        {
+            return constantMemberTypeGenerator.Generate(constantMemberType);
         }
 
         if (input is ConstructorMemberType constructorMemberType)
@@ -38,6 +42,26 @@ public class MemberTypeGenerator(
             return string.Join("\n\n", constructors);
         }
 
+        if (input is IterableDeclarationMemberType iterableDeclarationMemberType)
+        {
+            return string.Empty;
+        }
+
+        if (input is AsyncIterableMemberType asyncIterableMemberType)
+        {
+            return string.Empty;
+        }
+
+        if (input is MaplikeDeclarationMemberType maplikeDeclarationMemberType)
+        {
+            return string.Empty;
+        }
+
+        if (input is SetlikeDeclarationMemberType setlikeDeclarationMemberType)
+        {
+            return string.Empty;
+        }
+
         if (input is OperationMemberType operationMemberType)
         {
             List<string> operations =
@@ -56,7 +80,6 @@ public class MemberTypeGenerator(
             return string.Join("\n\n", operations);
         }
 
-        logger.LogWarning("Interface Member Type {type} is not handled.", input.GetType());
-        return string.Empty;
+        throw new NotSupportedException($"Member Type {input.GetType()} is not handled.");
     }
 }

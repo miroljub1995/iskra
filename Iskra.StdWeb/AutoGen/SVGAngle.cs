@@ -6,6 +6,16 @@ namespace Iskra.StdWeb;
 
 public partial class SVGAngle(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const ushort SVG_ANGLETYPE_UNKNOWN = 0;
+
+    public const ushort SVG_ANGLETYPE_UNSPECIFIED = 1;
+
+    public const ushort SVG_ANGLETYPE_DEG = 2;
+
+    public const ushort SVG_ANGLETYPE_RAD = 3;
+
+    public const ushort SVG_ANGLETYPE_GRAD = 4;
+
     public ushort UnitType
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unitType");

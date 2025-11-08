@@ -6,7 +6,13 @@ namespace Iskra.StdWeb;
 
 public partial class EXT_texture_compression_bptc(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint COMPRESSED_RGBA_BPTC_UNORM_EXT = 0x8E8C;
 
+    public const uint COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT = 0x8E8D;
+
+    public const uint COMPRESSED_RGB_BPTC_SIGNED_FLOAT_EXT = 0x8E8E;
+
+    public const uint COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT = 0x8E8F;
 }
 
 #nullable disable

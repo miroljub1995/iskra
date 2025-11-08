@@ -6,6 +6,18 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFETurbulenceElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGElement(obj)
 {
+    public const ushort SVG_TURBULENCE_TYPE_UNKNOWN = 0;
+
+    public const ushort SVG_TURBULENCE_TYPE_FRACTALNOISE = 1;
+
+    public const ushort SVG_TURBULENCE_TYPE_TURBULENCE = 2;
+
+    public const ushort SVG_STITCHTYPE_UNKNOWN = 0;
+
+    public const ushort SVG_STITCHTYPE_STITCH = 1;
+
+    public const ushort SVG_STITCHTYPE_NOSTITCH = 2;
+
     public global::Iskra.StdWeb.SVGAnimatedNumber BaseFrequencyX
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedNumber, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseFrequencyX");

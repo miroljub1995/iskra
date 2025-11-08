@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class OES_texture_half_float(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public const uint HALF_FLOAT_OES = 0x8D61;
 }
 
 #nullable disable

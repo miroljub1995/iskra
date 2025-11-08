@@ -6,6 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class SVGGradientElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGElement(obj)
 {
+    public const ushort SVG_SPREADMETHOD_UNKNOWN = 0;
+
+    public const ushort SVG_SPREADMETHOD_PAD = 1;
+
+    public const ushort SVG_SPREADMETHOD_REFLECT = 2;
+
+    public const ushort SVG_SPREADMETHOD_REPEAT = 3;
+
     public global::Iskra.StdWeb.SVGAnimatedEnumeration GradientUnits
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedEnumeration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gradientUnits");

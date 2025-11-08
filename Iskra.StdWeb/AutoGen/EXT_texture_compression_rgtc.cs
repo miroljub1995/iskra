@@ -6,7 +6,13 @@ namespace Iskra.StdWeb;
 
 public partial class EXT_texture_compression_rgtc(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint COMPRESSED_RED_RGTC1_EXT = 0x8DBB;
 
+    public const uint COMPRESSED_SIGNED_RED_RGTC1_EXT = 0x8DBC;
+
+    public const uint COMPRESSED_RED_GREEN_RGTC2_EXT = 0x8DBD;
+
+    public const uint COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT = 0x8DBE;
 }
 
 #nullable disable

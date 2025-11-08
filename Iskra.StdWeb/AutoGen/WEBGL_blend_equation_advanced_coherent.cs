@@ -6,7 +6,35 @@ namespace Iskra.StdWeb;
 
 public partial class WEBGL_blend_equation_advanced_coherent(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint MULTIPLY = 0x9294;
 
+    public const uint SCREEN = 0x9295;
+
+    public const uint OVERLAY = 0x9296;
+
+    public const uint DARKEN = 0x9297;
+
+    public const uint LIGHTEN = 0x9298;
+
+    public const uint COLORDODGE = 0x9299;
+
+    public const uint COLORBURN = 0x929A;
+
+    public const uint HARDLIGHT = 0x929B;
+
+    public const uint SOFTLIGHT = 0x929C;
+
+    public const uint DIFFERENCE = 0x929E;
+
+    public const uint EXCLUSION = 0x92A0;
+
+    public const uint HSL_HUE = 0x92AD;
+
+    public const uint HSL_SATURATION = 0x92AE;
+
+    public const uint HSL_COLOR = 0x92AF;
+
+    public const uint HSL_LUMINOSITY = 0x92B0;
 }
 
 #nullable disable

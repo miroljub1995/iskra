@@ -6,7 +6,9 @@ namespace Iskra.StdWeb;
 
 public partial class EXT_texture_filter_anisotropic(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint TEXTURE_MAX_ANISOTROPY_EXT = 0x84FE;
 
+    public const uint MAX_TEXTURE_MAX_ANISOTROPY_EXT = 0x84FF;
 }
 
 #nullable disable

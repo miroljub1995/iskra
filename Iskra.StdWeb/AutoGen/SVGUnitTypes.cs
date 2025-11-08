@@ -6,7 +6,11 @@ namespace Iskra.StdWeb;
 
 public partial class SVGUnitTypes(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const ushort SVG_UNIT_TYPE_UNKNOWN = 0;
 
+    public const ushort SVG_UNIT_TYPE_USERSPACEONUSE = 1;
+
+    public const ushort SVG_UNIT_TYPE_OBJECTBOUNDINGBOX = 2;
 }
 
 #nullable disable

@@ -6,6 +6,18 @@ namespace Iskra.StdWeb;
 
 public partial class SVGTextPathElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGTextContentElement(obj)
 {
+    public const ushort TEXTPATH_METHODTYPE_UNKNOWN = 0;
+
+    public const ushort TEXTPATH_METHODTYPE_ALIGN = 1;
+
+    public const ushort TEXTPATH_METHODTYPE_STRETCH = 2;
+
+    public const ushort TEXTPATH_SPACINGTYPE_UNKNOWN = 0;
+
+    public const ushort TEXTPATH_SPACINGTYPE_AUTO = 1;
+
+    public const ushort TEXTPATH_SPACINGTYPE_EXACT = 2;
+
     public global::Iskra.StdWeb.SVGAnimatedLength StartOffset
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "startOffset");

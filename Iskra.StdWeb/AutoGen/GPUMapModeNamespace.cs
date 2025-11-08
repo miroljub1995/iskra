@@ -6,7 +6,9 @@ namespace Iskra.StdWeb;
 
 public partial class GPUMapModeNamespace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint READ = 0x0001;
 
+    public const uint WRITE = 0x0002;
 }
 
 public partial class ServiceWorkerGlobalScope

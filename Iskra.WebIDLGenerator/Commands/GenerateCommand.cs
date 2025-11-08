@@ -50,6 +50,7 @@ public class GenerateCommand : Command
                 .AddSingleton<ArgumentsToDeclarationGenerator>()
                 .AddSingleton<AttributeMemberTypeGenerator>()
                 .AddSingleton<CallbackTypeGenerator>()
+                .AddSingleton<ConstantMemberTypeGenerator>()
                 .AddSingleton<CallbackInterfaceTypeGenerator>()
                 .AddSingleton<ConstructorMemberTypeGenerator>()
                 .AddSingleton<DictionaryTypeGenerator>()

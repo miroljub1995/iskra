@@ -6,6 +6,8 @@ namespace Iskra.StdWeb;
 
 public partial class OES_vertex_array_object(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint VERTEX_ARRAY_BINDING_OES = 0x85B5;
+
     public global::Iskra.StdWeb.WebGLVertexArrayObjectOES CreateVertexArrayOES()
     {
         using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();

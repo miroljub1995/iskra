@@ -6,7 +6,9 @@ namespace Iskra.StdWeb;
 
 public partial class EXT_blend_minmax(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint MIN_EXT = 0x8007;
 
+    public const uint MAX_EXT = 0x8008;
 }
 
 #nullable disable

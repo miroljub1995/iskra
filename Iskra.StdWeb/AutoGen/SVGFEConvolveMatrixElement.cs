@@ -6,6 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEConvolveMatrixElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGElement(obj)
 {
+    public const ushort SVG_EDGEMODE_UNKNOWN = 0;
+
+    public const ushort SVG_EDGEMODE_DUPLICATE = 1;
+
+    public const ushort SVG_EDGEMODE_WRAP = 2;
+
+    public const ushort SVG_EDGEMODE_NONE = 3;
+
     public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedString, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "in1");

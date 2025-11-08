@@ -6,6 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFECompositeElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGElement(obj)
 {
+    public const ushort SVG_FECOMPOSITE_OPERATOR_UNKNOWN = 0;
+
+    public const ushort SVG_FECOMPOSITE_OPERATOR_OVER = 1;
+
+    public const ushort SVG_FECOMPOSITE_OPERATOR_IN = 2;
+
+    public const ushort SVG_FECOMPOSITE_OPERATOR_OUT = 3;
+
+    public const ushort SVG_FECOMPOSITE_OPERATOR_ATOP = 4;
+
+    public const ushort SVG_FECOMPOSITE_OPERATOR_XOR = 5;
+
+    public const ushort SVG_FECOMPOSITE_OPERATOR_ARITHMETIC = 6;
+
     public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedString, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "in1");

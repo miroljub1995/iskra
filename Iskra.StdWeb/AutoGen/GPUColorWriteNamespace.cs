@@ -6,7 +6,15 @@ namespace Iskra.StdWeb;
 
 public partial class GPUColorWriteNamespace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint RED = 0x1;
 
+    public const uint GREEN = 0x2;
+
+    public const uint BLUE = 0x4;
+
+    public const uint ALPHA = 0x8;
+
+    public const uint ALL = 0xF;
 }
 
 public partial class ServiceWorkerGlobalScope

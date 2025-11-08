@@ -45,6 +45,14 @@ public partial class WebSocket(global::System.Runtime.InteropServices.JavaScript
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "url");
     }
 
+    public const ushort CONNECTING = 0;
+
+    public const ushort OPEN = 1;
+
+    public const ushort CLOSING = 2;
+
+    public const ushort CLOSED = 3;
+
     public ushort ReadyState
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readyState");

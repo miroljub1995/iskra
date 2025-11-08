@@ -6,7 +6,27 @@ namespace Iskra.StdWeb;
 
 public partial class WEBGL_clip_cull_distance(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint MAX_CLIP_DISTANCES_WEBGL = 0x0D32;
 
+    public const uint MAX_CULL_DISTANCES_WEBGL = 0x82F9;
+
+    public const uint MAX_COMBINED_CLIP_AND_CULL_DISTANCES_WEBGL = 0x82FA;
+
+    public const uint CLIP_DISTANCE0_WEBGL = 0x3000;
+
+    public const uint CLIP_DISTANCE1_WEBGL = 0x3001;
+
+    public const uint CLIP_DISTANCE2_WEBGL = 0x3002;
+
+    public const uint CLIP_DISTANCE3_WEBGL = 0x3003;
+
+    public const uint CLIP_DISTANCE4_WEBGL = 0x3004;
+
+    public const uint CLIP_DISTANCE5_WEBGL = 0x3005;
+
+    public const uint CLIP_DISTANCE6_WEBGL = 0x3006;
+
+    public const uint CLIP_DISTANCE7_WEBGL = 0x3007;
 }
 
 #nullable disable

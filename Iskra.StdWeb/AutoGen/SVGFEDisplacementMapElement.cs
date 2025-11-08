@@ -6,6 +6,16 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEDisplacementMapElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGElement(obj)
 {
+    public const ushort SVG_CHANNEL_UNKNOWN = 0;
+
+    public const ushort SVG_CHANNEL_R = 1;
+
+    public const ushort SVG_CHANNEL_G = 2;
+
+    public const ushort SVG_CHANNEL_B = 3;
+
+    public const ushort SVG_CHANNEL_A = 4;
+
     public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedString, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "in1");

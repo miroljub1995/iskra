@@ -6,7 +6,13 @@ namespace Iskra.StdWeb;
 
 public partial class EXT_sRGB(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint SRGB_EXT = 0x8C40;
 
+    public const uint SRGB_ALPHA_EXT = 0x8C42;
+
+    public const uint SRGB8_ALPHA8_EXT = 0x8C43;
+
+    public const uint FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT = 0x8210;
 }
 
 #nullable disable

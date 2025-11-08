@@ -6,6 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class PerformanceNavigation(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const ushort TYPE_NAVIGATE = 0;
+
+    public const ushort TYPE_RELOAD = 1;
+
+    public const ushort TYPE_BACK_FORWARD = 2;
+
+    public const ushort TYPE_RESERVED = 255;
+
     public ushort Type
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");

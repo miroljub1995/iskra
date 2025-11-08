@@ -6,7 +6,13 @@ namespace Iskra.StdWeb;
 
 public partial class WEBGL_compressed_texture_pvrtc(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint COMPRESSED_RGB_PVRTC_4BPPV1_IMG = 0x8C00;
 
+    public const uint COMPRESSED_RGB_PVRTC_2BPPV1_IMG = 0x8C01;
+
+    public const uint COMPRESSED_RGBA_PVRTC_4BPPV1_IMG = 0x8C02;
+
+    public const uint COMPRESSED_RGBA_PVRTC_2BPPV1_IMG = 0x8C03;
 }
 
 #nullable disable

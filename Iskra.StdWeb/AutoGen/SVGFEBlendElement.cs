@@ -6,6 +6,40 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEBlendElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGElement(obj)
 {
+    public const ushort SVG_FEBLEND_MODE_UNKNOWN = 0;
+
+    public const ushort SVG_FEBLEND_MODE_NORMAL = 1;
+
+    public const ushort SVG_FEBLEND_MODE_MULTIPLY = 2;
+
+    public const ushort SVG_FEBLEND_MODE_SCREEN = 3;
+
+    public const ushort SVG_FEBLEND_MODE_DARKEN = 4;
+
+    public const ushort SVG_FEBLEND_MODE_LIGHTEN = 5;
+
+    public const ushort SVG_FEBLEND_MODE_OVERLAY = 6;
+
+    public const ushort SVG_FEBLEND_MODE_COLOR_DODGE = 7;
+
+    public const ushort SVG_FEBLEND_MODE_COLOR_BURN = 8;
+
+    public const ushort SVG_FEBLEND_MODE_HARD_LIGHT = 9;
+
+    public const ushort SVG_FEBLEND_MODE_SOFT_LIGHT = 10;
+
+    public const ushort SVG_FEBLEND_MODE_DIFFERENCE = 11;
+
+    public const ushort SVG_FEBLEND_MODE_EXCLUSION = 12;
+
+    public const ushort SVG_FEBLEND_MODE_HUE = 13;
+
+    public const ushort SVG_FEBLEND_MODE_SATURATION = 14;
+
+    public const ushort SVG_FEBLEND_MODE_COLOR = 15;
+
+    public const ushort SVG_FEBLEND_MODE_LUMINOSITY = 16;
+
     public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedString, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "in1");

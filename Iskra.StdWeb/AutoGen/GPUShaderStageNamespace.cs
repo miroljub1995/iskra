@@ -6,7 +6,11 @@ namespace Iskra.StdWeb;
 
 public partial class GPUShaderStageNamespace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint VERTEX = 0x1;
 
+    public const uint FRAGMENT = 0x2;
+
+    public const uint COMPUTE = 0x4;
 }
 
 public partial class ServiceWorkerGlobalScope

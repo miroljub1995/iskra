@@ -6,7 +6,21 @@ namespace Iskra.StdWeb;
 
 public partial class EXT_texture_norm16(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint R16_EXT = 0x822A;
 
+    public const uint RG16_EXT = 0x822C;
+
+    public const uint RGB16_EXT = 0x8054;
+
+    public const uint RGBA16_EXT = 0x805B;
+
+    public const uint R16_SNORM_EXT = 0x8F98;
+
+    public const uint RG16_SNORM_EXT = 0x8F99;
+
+    public const uint RGB16_SNORM_EXT = 0x8F9A;
+
+    public const uint RGBA16_SNORM_EXT = 0x8F9B;
 }
 
 #nullable disable

@@ -41,6 +41,14 @@ public partial class KeyboardEvent(global::System.Runtime.InteropServices.JavaSc
         return new global::Iskra.StdWeb.KeyboardEvent(__res_2844);
     }
 
+    public const uint DOM_KEY_LOCATION_STANDARD = 0x00;
+
+    public const uint DOM_KEY_LOCATION_LEFT = 0x01;
+
+    public const uint DOM_KEY_LOCATION_RIGHT = 0x02;
+
+    public const uint DOM_KEY_LOCATION_NUMPAD = 0x03;
+
     public string Key
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "key");

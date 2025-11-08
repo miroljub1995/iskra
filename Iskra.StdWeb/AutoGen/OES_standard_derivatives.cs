@@ -6,7 +6,7 @@ namespace Iskra.StdWeb;
 
 public partial class OES_standard_derivatives(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
-
+    public const uint FRAGMENT_SHADER_DERIVATIVE_HINT_OES = 0x8B8B;
 }
 
 #nullable disable

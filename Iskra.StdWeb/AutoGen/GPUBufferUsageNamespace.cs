@@ -6,7 +6,25 @@ namespace Iskra.StdWeb;
 
 public partial class GPUBufferUsageNamespace(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint MAP_READ = 0x0001;
 
+    public const uint MAP_WRITE = 0x0002;
+
+    public const uint COPY_SRC = 0x0004;
+
+    public const uint COPY_DST = 0x0008;
+
+    public const uint INDEX = 0x0010;
+
+    public const uint VERTEX = 0x0020;
+
+    public const uint UNIFORM = 0x0040;
+
+    public const uint STORAGE = 0x0080;
+
+    public const uint INDIRECT = 0x0100;
+
+    public const uint QUERY_RESOLVE = 0x0200;
 }
 
 public partial class ServiceWorkerGlobalScope

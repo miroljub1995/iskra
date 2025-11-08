@@ -92,6 +92,12 @@ public partial class FileReader(global::System.Runtime.InteropServices.JavaScrip
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "abort", JSObject);
     }
 
+    public const ushort EMPTY = 0;
+
+    public const ushort LOADING = 1;
+
+    public const ushort DONE = 2;
+
     public ushort ReadyState
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readyState");

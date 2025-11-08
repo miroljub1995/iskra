@@ -6,6 +6,20 @@ namespace Iskra.StdWeb;
 
 public partial class EXT_disjoint_timer_query(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint QUERY_COUNTER_BITS_EXT = 0x8864;
+
+    public const uint CURRENT_QUERY_EXT = 0x8865;
+
+    public const uint QUERY_RESULT_EXT = 0x8866;
+
+    public const uint QUERY_RESULT_AVAILABLE_EXT = 0x8867;
+
+    public const uint TIME_ELAPSED_EXT = 0x88BF;
+
+    public const uint TIMESTAMP_EXT = 0x8E28;
+
+    public const uint GPU_DISJOINT_EXT = 0x8FBB;
+
     public global::Iskra.StdWeb.WebGLTimerQueryEXT CreateQueryEXT()
     {
         using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();

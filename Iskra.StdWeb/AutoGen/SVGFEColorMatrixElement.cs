@@ -6,6 +6,16 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEColorMatrixElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGElement(obj)
 {
+    public const ushort SVG_FECOLORMATRIX_TYPE_UNKNOWN = 0;
+
+    public const ushort SVG_FECOLORMATRIX_TYPE_MATRIX = 1;
+
+    public const ushort SVG_FECOLORMATRIX_TYPE_SATURATE = 2;
+
+    public const ushort SVG_FECOLORMATRIX_TYPE_HUEROTATE = 3;
+
+    public const ushort SVG_FECOLORMATRIX_TYPE_LUMINANCETOALPHA = 4;
+
     public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedString, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "in1");

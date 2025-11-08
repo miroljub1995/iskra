@@ -6,6 +6,14 @@ namespace Iskra.StdWeb;
 
 public partial class OVR_multiview2(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
 {
+    public const uint FRAMEBUFFER_ATTACHMENT_TEXTURE_NUM_VIEWS_OVR = 0x9630;
+
+    public const uint FRAMEBUFFER_ATTACHMENT_TEXTURE_BASE_VIEW_INDEX_OVR = 0x9632;
+
+    public const uint MAX_VIEWS_OVR = 0x9631;
+
+    public const uint FRAMEBUFFER_INCOMPLETE_VIEW_TARGETS_OVR = 0x9633;
+
     public void FramebufferTextureMultiviewOVR(uint target, uint attachment, global::Iskra.StdWeb.WebGLTexture? texture, int level, int baseViewIndex, int numViews)
     {
         int ___argsArrayLength_2 = 6;

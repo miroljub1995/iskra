@@ -41,6 +41,12 @@ public partial class WheelEvent(global::System.Runtime.InteropServices.JavaScrip
         return new global::Iskra.StdWeb.WheelEvent(__res_2838);
     }
 
+    public const uint DOM_DELTA_PIXEL = 0x00;
+
+    public const uint DOM_DELTA_LINE = 0x01;
+
+    public const uint DOM_DELTA_PAGE = 0x02;
+
     public double DeltaX
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deltaX");

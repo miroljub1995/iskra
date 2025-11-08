@@ -6,6 +6,12 @@ namespace Iskra.StdWeb;
 
 public partial class SVGFEMorphologyElement(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.StdWeb.SVGElement(obj)
 {
+    public const ushort SVG_MORPHOLOGY_OPERATOR_UNKNOWN = 0;
+
+    public const ushort SVG_MORPHOLOGY_OPERATOR_ERODE = 1;
+
+    public const ushort SVG_MORPHOLOGY_OPERATOR_DILATE = 2;
+
     public global::Iskra.StdWeb.SVGAnimatedString In1
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGAnimatedString, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "in1");
