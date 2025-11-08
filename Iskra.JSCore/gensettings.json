@@ -4,5 +4,6 @@
   ],
   "output": "./AutoGen",
   "namespace": "Iskra.JSCore",
-  "proxyFactoryName": "JSCoreProxyFactory"
+  "proxyFactoryName": "JSCoreProxyFactory",
+  "onBeforeInitializeAsync": "await global::Iskra.JSCore.JSCoreShims.InitializeAsync();"
 }

@@ -8,6 +8,8 @@ public static class Program
 {
     static async Task Main(string[] args)
     {
+        await StdWebProxyFactory.InitializeAsync();
+
         var w = JSObjectProxyFactory.GetProxy<Window>(JSHost.GlobalThis);
         w.Console.Log("this is from console", w, w.Document);
 

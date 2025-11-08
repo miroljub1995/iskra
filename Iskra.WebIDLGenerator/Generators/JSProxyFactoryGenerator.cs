@@ -17,6 +17,24 @@ public class JSProxyFactoryGenerator(
 
         List<string> initStatements = [];
 
+        if (genSettings.OnBeforeInitializeAsync is not null)
+        {
+            initStatements.Add(genSettings.OnBeforeInitializeAsync + "\n");
+        }
+
+        foreach (var reference in genSettings.References)
+        {
+            var referenceSettings = await GenSettings.ReadFromFileAsync(reference, cancellationToken);
+            initStatements.Add(
+                $"await global::{referenceSettings.Namespace}.{referenceSettings.ProxyFactoryName}.InitializeAsync();"
+            );
+        }
+
+        if (genSettings.References.Count != 0)
+        {
+            initStatements.Add("");
+        }
+
         foreach (var desc in genTypeDescriptors.Descriptors)
         {
             if (!desc.IsMain)
@@ -35,6 +53,11 @@ public class JSProxyFactoryGenerator(
             );
         }
 
+        if (genSettings.OnAfterInitializeAsync is not null)
+        {
+            initStatements.Add("\n" + genSettings.OnAfterInitializeAsync);
+        }
+
         var initStatementsBody = string.Join("\n", initStatements);
 
         var content = $$"""
@@ -44,11 +67,11 @@ public class JSProxyFactoryGenerator(
 
                         #nullable enable
 
-                        public static class {{genSettings.ProxyFactoryName}}
+                        public static partial class {{genSettings.ProxyFactoryName}}
                         {
                             private static int _isInitialized;
 
-                            public static void Initialize()
+                            public static async Task InitializeAsync()
                             {
                                 if (Interlocked.CompareExchange(ref _isInitialized, 1, 0) != 0)
                                 {

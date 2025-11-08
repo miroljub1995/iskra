@@ -4,16 +4,18 @@ namespace Iskra.WebIDLGenerator.Tests;
 
 #nullable enable
 
-public static class WebIDLGeneratorTestsProxyFactory
+public static partial class WebIDLGeneratorTestsProxyFactory
 {
     private static int _isInitialized;
 
-    public static void Initialize()
+    public static async Task InitializeAsync()
     {
         if (Interlocked.CompareExchange(ref _isInitialized, 1, 0) != 0)
         {
             return;
         }
+
+        await global::Iskra.JSCore.JSCoreProxyFactory.InitializeAsync();
 
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestEnumProperties", obj => new TestEnumProperties(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestPromiseProperties", obj => new TestPromiseProperties(obj) );

@@ -4,16 +4,18 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public static class StdWebProxyFactory
+public static partial class StdWebProxyFactory
 {
     private static int _isInitialized;
 
-    public static void Initialize()
+    public static async Task InitializeAsync()
     {
         if (Interlocked.CompareExchange(ref _isInitialized, 1, 0) != 0)
         {
             return;
         }
+
+        await global::Iskra.JSCore.JSCoreProxyFactory.InitializeAsync();
 
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SnapEvent", obj => new SnapEvent(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRPlane", obj => new XRPlane(obj) );

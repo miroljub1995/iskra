@@ -15,6 +15,10 @@ public record GenSettings
 
     [JsonPropertyName("proxyFactoryName")] public string? ProxyFactoryName { get; set; }
 
+    [JsonPropertyName("onBeforeInitializeAsync")] public string? OnBeforeInitializeAsync { get; set; }
+
+    [JsonPropertyName("onAfterInitializeAsync")] public string? OnAfterInitializeAsync { get; set; }
+
     public static async Task<GenSettings> ReadFromFileAsync(string gensettingsPath,
         CancellationToken cancellationToken = default)
     {

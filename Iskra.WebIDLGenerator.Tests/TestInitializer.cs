@@ -7,8 +7,6 @@ public static class TestInitializer
     [Before(Assembly)]
     public static async Task Before()
     {
-        await JSCoreShims.InitializeAsync();
-        JSCoreProxyFactory.Initialize();
-        WebIDLGeneratorTestsProxyFactory.Initialize();
+        await WebIDLGeneratorTestsProxyFactory.InitializeAsync();
     }
 }

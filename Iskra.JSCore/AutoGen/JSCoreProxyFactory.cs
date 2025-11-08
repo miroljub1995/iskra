@@ -4,16 +4,18 @@ namespace Iskra.JSCore;
 
 #nullable enable
 
-public static class JSCoreProxyFactory
+public static partial class JSCoreProxyFactory
 {
     private static int _isInitialized;
 
-    public static void Initialize()
+    public static async Task InitializeAsync()
     {
         if (Interlocked.CompareExchange(ref _isInitialized, 1, 0) != 0)
         {
             return;
         }
+
+        await global::Iskra.JSCore.JSCoreShims.InitializeAsync();
 
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ArrayBuffer", obj => new ArrayBuffer(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DataView", obj => new DataView(obj) );
