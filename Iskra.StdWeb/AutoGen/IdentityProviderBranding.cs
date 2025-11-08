@@ -4,9 +4,42 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class IdentityProviderBranding(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class IdentityProviderBranding: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public IdentityProviderBranding(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public IdentityProviderBranding(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public string Background_color
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "background_color");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "background_color", value);
+    }
+
+    public string Color
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "color");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "color", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IdentityProviderIcon, global::Iskra.StdWeb.PropertyAccessor> Icons
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IdentityProviderIcon, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "icons");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IdentityProviderIcon, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "icons", value);
+    }
+
+    public string Name
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name", value);
+    }
 }
 
 #nullable disable

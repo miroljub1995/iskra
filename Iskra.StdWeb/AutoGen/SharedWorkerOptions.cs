@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SharedWorkerOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class SharedWorkerOptions: global::Iskra.StdWeb.WorkerOptions
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public SharedWorkerOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public SharedWorkerOptions(): base()
+    {
+    }
+
+    public global::Iskra.StdWeb.SameSiteCookiesType SameSiteCookies
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SameSiteCookiesType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sameSiteCookies");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.SameSiteCookiesType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sameSiteCookies", value);
+    }
 }
 
 #nullable disable

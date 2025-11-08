@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AudioSinkOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class AudioSinkOptions: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public AudioSinkOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public AudioSinkOptions(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public required global::Iskra.StdWeb.AudioSinkType Type
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioSinkType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AudioSinkType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type", value);
+    }
 }
 
 #nullable disable

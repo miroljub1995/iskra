@@ -4,9 +4,36 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPURenderPassLayout(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GPURenderPassLayout: global::Iskra.StdWeb.GPUObjectDescriptorBase
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GPURenderPassLayout(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GPURenderPassLayout(): base()
+    {
+    }
+
+    public required global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUTextureFormat?, global::Iskra.StdWeb.PropertyAccessorNullable> ColorFormats
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUTextureFormat?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colorFormats");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUTextureFormat?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colorFormats", value);
+    }
+
+    public global::Iskra.StdWeb.GPUTextureFormat DepthStencilFormat
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUTextureFormat, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthStencilFormat");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUTextureFormat, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthStencilFormat", value);
+    }
+
+    public uint SampleCount
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampleCount");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampleCount", value);
+    }
 }
 
 #nullable disable

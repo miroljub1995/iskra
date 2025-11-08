@@ -4,9 +4,48 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPUPrimitiveState(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GPUPrimitiveState: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GPUPrimitiveState(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GPUPrimitiveState(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.GPUPrimitiveTopology Topology
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUPrimitiveTopology, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "topology");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUPrimitiveTopology, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "topology", value);
+    }
+
+    public global::Iskra.StdWeb.GPUIndexFormat StripIndexFormat
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUIndexFormat, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stripIndexFormat");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUIndexFormat, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stripIndexFormat", value);
+    }
+
+    public global::Iskra.StdWeb.GPUFrontFace FrontFace
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUFrontFace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "frontFace");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUFrontFace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "frontFace", value);
+    }
+
+    public global::Iskra.StdWeb.GPUCullMode CullMode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUCullMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cullMode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUCullMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cullMode", value);
+    }
+
+    public bool UnclippedDepth
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unclippedDepth");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "unclippedDepth", value);
+    }
 }
 
 #nullable disable

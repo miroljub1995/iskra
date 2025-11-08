@@ -4,9 +4,30 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class RTCIdentityAssertionResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class RTCIdentityAssertionResult: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public RTCIdentityAssertionResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public RTCIdentityAssertionResult(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public required global::Iskra.StdWeb.RTCIdentityProviderDetails Idp
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCIdentityProviderDetails, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "idp");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.RTCIdentityProviderDetails, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "idp", value);
+    }
+
+    public required string Assertion
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "assertion");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "assertion", value);
+    }
 }
 
 #nullable disable

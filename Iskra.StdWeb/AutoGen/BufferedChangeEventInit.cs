@@ -4,9 +4,30 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class BufferedChangeEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class BufferedChangeEventInit: global::Iskra.StdWeb.EventInit
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public BufferedChangeEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public BufferedChangeEventInit(): base()
+    {
+    }
+
+    public global::Iskra.StdWeb.TimeRanges AddedRanges
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.TimeRanges, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "addedRanges");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.TimeRanges, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "addedRanges", value);
+    }
+
+    public global::Iskra.StdWeb.TimeRanges RemovedRanges
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.TimeRanges, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "removedRanges");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.TimeRanges, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "removedRanges", value);
+    }
 }
 
 #nullable disable

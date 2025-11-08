@@ -4,9 +4,48 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class UnderlyingSource(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class UnderlyingSource: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public UnderlyingSource(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public UnderlyingSource(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.UnderlyingSourceStartCallback Start
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.UnderlyingSourceStartCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "start");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.UnderlyingSourceStartCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "start", value);
+    }
+
+    public global::Iskra.StdWeb.UnderlyingSourcePullCallback Pull
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.UnderlyingSourcePullCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pull");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.UnderlyingSourcePullCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pull", value);
+    }
+
+    public global::Iskra.StdWeb.UnderlyingSourceCancelCallback Cancel
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.UnderlyingSourceCancelCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cancel");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.UnderlyingSourceCancelCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cancel", value);
+    }
+
+    public global::Iskra.StdWeb.ReadableStreamType Type
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ReadableStreamType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ReadableStreamType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "type", value);
+    }
+
+    public ulong AutoAllocateChunkSize
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "autoAllocateChunkSize");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "autoAllocateChunkSize", value);
+    }
 }
 
 #nullable disable

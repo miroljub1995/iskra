@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPUPipelineLayoutDescriptor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GPUPipelineLayoutDescriptor: global::Iskra.StdWeb.GPUObjectDescriptorBase
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GPUPipelineLayoutDescriptor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GPUPipelineLayoutDescriptor(): base()
+    {
+    }
+
+    public required global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUBindGroupLayout?, global::Iskra.StdWeb.PropertyAccessorNullable> BindGroupLayouts
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUBindGroupLayout?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bindGroupLayouts");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUBindGroupLayout?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bindGroupLayouts", value);
+    }
 }
 
 #nullable disable

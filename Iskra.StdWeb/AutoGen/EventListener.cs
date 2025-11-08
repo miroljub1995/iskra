@@ -4,20 +4,45 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class EventListener(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class EventListener: global::Iskra.JSCore.JSObjectProxy
 {
-    public void HandleEvent(global::Iskra.StdWeb.Event @event)
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public EventListener(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
     {
-        int ___argsArrayLength_2 = 1;
+    }
+#pragma warning restore CS8618
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
+    public EventListener(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
 
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
-        ___marshalledValue_3 = @event.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public EventListener(global::Iskra.StdWeb.EventListenerCallback input): this()
+    {
+        HandleEvent = input;
+    }
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "handleEvent", JSObject, ___argsArray_0.JSObject);
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public EventListener(global::Iskra.StdWeb.EventListenerCallbackManaged input): this()
+    {
+        HandleEvent = input;
+    }
+
+    public static implicit operator EventListener(EventListenerCallback input)
+    {
+        return new global::Iskra.StdWeb.EventListener(input);
+    }
+
+    public static implicit operator EventListener(EventListenerCallbackManaged input)
+    {
+        return new global::Iskra.StdWeb.EventListener(input);
+    }
+
+    public required global::Iskra.StdWeb.EventListenerCallback HandleEvent
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventListenerCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "handleEvent");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventListenerCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "handleEvent", value);
     }
 }
 

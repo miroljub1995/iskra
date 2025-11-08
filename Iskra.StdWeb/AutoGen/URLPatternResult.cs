@@ -4,9 +4,72 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class URLPatternResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class URLPatternResult: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public URLPatternResult(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public URLPatternResult(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.URLPatternInit, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> Inputs
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.URLPatternInit, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inputs");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<string, global::Iskra.StdWeb.URLPatternInit, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "inputs", value);
+    }
+
+    public global::Iskra.StdWeb.URLPatternComponentResult Protocol
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "protocol");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "protocol", value);
+    }
+
+    public global::Iskra.StdWeb.URLPatternComponentResult Username
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "username");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "username", value);
+    }
+
+    public global::Iskra.StdWeb.URLPatternComponentResult Password
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "password");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "password", value);
+    }
+
+    public global::Iskra.StdWeb.URLPatternComponentResult Hostname
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hostname");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hostname", value);
+    }
+
+    public global::Iskra.StdWeb.URLPatternComponentResult Port
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "port");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "port", value);
+    }
+
+    public global::Iskra.StdWeb.URLPatternComponentResult Pathname
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pathname");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pathname", value);
+    }
+
+    public global::Iskra.StdWeb.URLPatternComponentResult Search
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "search");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "search", value);
+    }
+
+    public global::Iskra.StdWeb.URLPatternComponentResult Hash
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hash");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.URLPatternComponentResult, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hash", value);
+    }
 }
 
 #nullable disable

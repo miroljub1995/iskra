@@ -4,9 +4,48 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AuthenticationExtensionsClientOutputsJSON(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class AuthenticationExtensionsClientOutputsJSON: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public AuthenticationExtensionsClientOutputsJSON(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public AuthenticationExtensionsClientOutputsJSON(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public bool Appid
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "appid");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "appid", value);
+    }
+
+    public bool AppidExclude
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "appidExclude");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "appidExclude", value);
+    }
+
+    public global::Iskra.StdWeb.CredentialPropertiesOutput CredProps
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CredentialPropertiesOutput, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "credProps");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CredentialPropertiesOutput, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "credProps", value);
+    }
+
+    public global::Iskra.StdWeb.AuthenticationExtensionsPRFOutputsJSON Prf
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AuthenticationExtensionsPRFOutputsJSON, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "prf");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AuthenticationExtensionsPRFOutputsJSON, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "prf", value);
+    }
+
+    public global::Iskra.StdWeb.AuthenticationExtensionsLargeBlobOutputsJSON LargeBlob
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AuthenticationExtensionsLargeBlobOutputsJSON, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "largeBlob");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AuthenticationExtensionsLargeBlobOutputsJSON, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "largeBlob", value);
+    }
 }
 
 #nullable disable

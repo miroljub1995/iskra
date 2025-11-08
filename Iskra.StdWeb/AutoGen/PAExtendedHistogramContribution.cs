@@ -4,9 +4,36 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PAExtendedHistogramContribution(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class PAExtendedHistogramContribution: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public PAExtendedHistogramContribution(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public PAExtendedHistogramContribution(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public required global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.PASignalValue, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union> Bucket
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.PASignalValue, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bucket");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.PASignalValue, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bucket", value);
+    }
+
+    public required global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.PASignalValue, int, global::Iskra.StdWeb.GenericMarshaller.Union> Value
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.PASignalValue, int, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.PASignalValue, int, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value", value);
+    }
+
+    public global::System.Numerics.BigInteger FilteringId
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::System.Numerics.BigInteger, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "filteringId");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::System.Numerics.BigInteger, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "filteringId", value);
+    }
 }
 
 #nullable disable

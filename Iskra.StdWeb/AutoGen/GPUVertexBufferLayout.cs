@@ -4,9 +4,36 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPUVertexBufferLayout(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GPUVertexBufferLayout: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GPUVertexBufferLayout(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GPUVertexBufferLayout(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public required ulong ArrayStride
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "arrayStride");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "arrayStride", value);
+    }
+
+    public global::Iskra.StdWeb.GPUVertexStepMode StepMode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUVertexStepMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stepMode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUVertexStepMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stepMode", value);
+    }
+
+    public required global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUVertexAttribute, global::Iskra.StdWeb.PropertyAccessor> Attributes
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUVertexAttribute, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "attributes");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUVertexAttribute, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "attributes", value);
+    }
 }
 
 #nullable disable

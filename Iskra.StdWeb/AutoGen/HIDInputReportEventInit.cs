@@ -4,9 +4,36 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class HIDInputReportEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class HIDInputReportEventInit: global::Iskra.StdWeb.EventInit
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public HIDInputReportEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public HIDInputReportEventInit(): base()
+    {
+    }
+
+    public required global::Iskra.StdWeb.HIDDevice Device
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HIDDevice, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "device");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.HIDDevice, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "device", value);
+    }
+
+    public required byte ReportId
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reportId");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<byte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reportId", value);
+    }
+
+    public required global::Iskra.JSCore.DataView Data
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.DataView, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.DataView, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "data", value);
+    }
 }
 
 #nullable disable

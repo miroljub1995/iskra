@@ -10,6 +10,7 @@ public class PropertyAccessor:
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Promise<int, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<string>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Promise<string, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<bool>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<byte>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<sbyte>,
@@ -25,7 +26,6 @@ public class PropertyAccessor:
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<bool, int, string, global::Iskra.WebIDLGenerator.Tests.GenericMarshaller.Union>>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestInterfacePropertiesInterface>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.ObservableArray<bool, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>,
-    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Record<string, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.FrozenArray<bool, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>,
@@ -183,6 +183,36 @@ public class PropertyAccessor:
     {
         global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_0 = value.JSObject;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(obj, propertyName, ___propObject_0);
+    }
+
+    static global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback ___element_0;
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_1 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(obj, propertyIndex);
+        ___element_0 = new global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback(___res_1);
+        return ___element_0;
+    }
+
+    static global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback ___element_0;
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_1 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(obj, propertyName);
+        ___element_0 = new global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback(___res_1);
+        return ___element_0;
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_0;
+        ___marshalledValue_0 = value.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.WebIDLGenerator.Tests.TestCallbackInterfaceCallbackCallback value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_0;
+        ___marshalledValue_0 = value.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(obj, propertyName, ___marshalledValue_0);
     }
 
     static bool global::Iskra.JSCore.Generics.IPropertyAccessor<bool>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
@@ -633,36 +663,6 @@ public class PropertyAccessor:
     {
         global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_0 = value.JSObject;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(obj, propertyName, ___propObject_0);
-    }
-
-    static global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
-    {
-        global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary ___element_0;
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_1 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(obj, propertyIndex);
-        ___element_0 = new global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary(___res_1);
-        return ___element_0;
-    }
-
-    static global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
-    {
-        global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary ___element_0;
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_1 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(obj, propertyName);
-        ___element_0 = new global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary(___res_1);
-        return ___element_0;
-    }
-
-    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary value)
-    {
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_0;
-        ___marshalledValue_0 = value.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(obj, propertyIndex, ___marshalledValue_0);
-    }
-
-    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.WebIDLGenerator.Tests.TestDictionaryPropertiesDictionary value)
-    {
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_0;
-        ___marshalledValue_0 = value.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(obj, propertyName, ___marshalledValue_0);
     }
 
     static global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor> global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.WebIDLGenerator.Tests.PropertyAccessor>>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)

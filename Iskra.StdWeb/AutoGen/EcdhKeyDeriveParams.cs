@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class EcdhKeyDeriveParams(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class EcdhKeyDeriveParams: global::Iskra.StdWeb.Algorithm
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public EcdhKeyDeriveParams(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public EcdhKeyDeriveParams(): base()
+    {
+    }
+
+    public required global::Iskra.StdWeb.CryptoKey Public
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "public");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "public", value);
+    }
 }
 
 #nullable disable

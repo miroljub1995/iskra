@@ -4,9 +4,30 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class MediaEncryptedEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class MediaEncryptedEventInit: global::Iskra.StdWeb.EventInit
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public MediaEncryptedEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public MediaEncryptedEventInit(): base()
+    {
+    }
+
+    public string InitDataType
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "initDataType");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "initDataType", value);
+    }
+
+    public global::Iskra.JSCore.ArrayBuffer? InitData
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.ArrayBuffer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "initData");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.ArrayBuffer?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "initData", value);
+    }
 }
 
 #nullable disable

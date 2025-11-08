@@ -46,6 +46,7 @@ public class GenerateCommand : Command
             services.AddSingleton<GenTypeDescriptors>();
 
             services
+                // Generators
                 .AddSingleton<ArgumentsToArgsArrayGenerator>()
                 .AddSingleton<ArgumentsToDeclarationGenerator>()
                 .AddSingleton<AttributeMemberTypeGenerator>()
@@ -55,6 +56,7 @@ public class GenerateCommand : Command
                 .AddSingleton<ConstructorMemberTypeGenerator>()
                 .AddSingleton<DictionaryTypeGenerator>()
                 .AddSingleton<EnumTypeGenerator>()
+                .AddSingleton<FieldTypeGenerator>()
                 .AddSingleton<GenericMarshallerGenerator>()
                 .AddSingleton<GetPropertyValueGenerator>()
                 .AddSingleton<IDLTypeDescriptionToTypeDeclarationGenerator>()
@@ -66,14 +68,10 @@ public class GenerateCommand : Command
                 .AddSingleton<OperationMemberTypeGenerator>()
                 .AddSingleton<PropertyAccessorGenerator>()
                 .AddSingleton<SetPropertyValueGenerator>()
-                // Marshaller
+                // Marshallers
                 .AddSingleton<IDLTypeDescriptionMarshaller>();
 
             await using var provider = services.BuildServiceProvider();
-
-            ILogger logger = provider.GetRequiredService<ILogger<GenerateCommand>>();
-
-            var inputFiles = GetModuleFiles(genSettings.Inputs);
 
             if (Directory.Exists(genSettings.Output))
             {
@@ -91,6 +89,7 @@ public class GenerateCommand : Command
                 cancellationToken: cancellationToken
             );
 
+            genTypeDescriptors.AddCallbackForCallbackInterfaces();
             genTypeDescriptors.ResolveTypedefs();
             genTypeDescriptors.ResolveAnyTypes();
 

@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PresentationConnectionAvailableEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class PresentationConnectionAvailableEventInit: global::Iskra.StdWeb.EventInit
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public PresentationConnectionAvailableEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public PresentationConnectionAvailableEventInit(): base()
+    {
+    }
+
+    public required global::Iskra.StdWeb.PresentationConnection Connection
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "connection");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.PresentationConnection, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "connection", value);
+    }
 }
 
 #nullable disable

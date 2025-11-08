@@ -4,9 +4,54 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AnimationTriggerOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class AnimationTriggerOptions: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public AnimationTriggerOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public AnimationTriggerOptions(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.AnimationTimeline? Timeline
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AnimationTimeline?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "timeline");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AnimationTimeline?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "timeline", value);
+    }
+
+    public global::Iskra.StdWeb.AnimationTriggerBehavior? Behavior
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AnimationTriggerBehavior?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "behavior");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AnimationTriggerBehavior?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "behavior", value);
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union> RangeStart
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rangeStart");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rangeStart", value);
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union> RangeEnd
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rangeEnd");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rangeEnd", value);
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union> ExitRangeStart
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exitRangeStart");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exitRangeStart", value);
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union> ExitRangeEnd
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exitRangeEnd");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TimelineRangeOffset, global::Iskra.StdWeb.CSSNumericValue, global::Iskra.StdWeb.CSSKeywordValue, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exitRangeEnd", value);
+    }
 }
 
 #nullable disable

@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPUTexelCopyBufferInfo(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GPUTexelCopyBufferInfo: global::Iskra.StdWeb.GPUTexelCopyBufferLayout
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GPUTexelCopyBufferInfo(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GPUTexelCopyBufferInfo(): base()
+    {
+    }
+
+    public required global::Iskra.StdWeb.GPUBuffer Buffer
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "buffer");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "buffer", value);
+    }
 }
 
 #nullable disable

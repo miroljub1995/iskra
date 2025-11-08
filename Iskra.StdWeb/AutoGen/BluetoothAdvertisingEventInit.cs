@@ -4,9 +4,66 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class BluetoothAdvertisingEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class BluetoothAdvertisingEventInit: global::Iskra.StdWeb.EventInit
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public BluetoothAdvertisingEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public BluetoothAdvertisingEventInit(): base()
+    {
+    }
+
+    public required global::Iskra.StdWeb.BluetoothDevice Device
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "device");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.BluetoothDevice, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "device", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<string, uint, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> Uuids
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<string, uint, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "uuids");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<string, uint, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "uuids", value);
+    }
+
+    public string Name
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "name", value);
+    }
+
+    public ushort Appearance
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "appearance");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "appearance", value);
+    }
+
+    public sbyte TxPower
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<sbyte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "txPower");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<sbyte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "txPower", value);
+    }
+
+    public sbyte Rssi
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<sbyte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rssi");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<sbyte, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "rssi", value);
+    }
+
+    public global::Iskra.StdWeb.BluetoothManufacturerDataMap ManufacturerData
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.BluetoothManufacturerDataMap, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "manufacturerData");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.BluetoothManufacturerDataMap, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "manufacturerData", value);
+    }
+
+    public global::Iskra.StdWeb.BluetoothServiceDataMap ServiceData
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.BluetoothServiceDataMap, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "serviceData");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.BluetoothServiceDataMap, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "serviceData", value);
+    }
 }
 
 #nullable disable

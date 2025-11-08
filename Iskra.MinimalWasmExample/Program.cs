@@ -11,13 +11,13 @@ public static class Program
         var w = JSObjectProxyFactory.GetProxy<Window>(JSHost.GlobalThis);
         w.Console.Log("this is from console", w, w.Document);
 
-        w.Document.AddEventListener("test", SomeListener, false);
+        w.Document.AddEventListener("test", new EventListener(SomeListener), false);
         w.Document.DispatchEvent(Event.New("test"));
         w.Document.DispatchEvent(Event.New("test"));
         w.Document.DispatchEvent(Event.New("test"));
 
         Console.WriteLine("Removing event listener...");
-        w.Document.RemoveEventListener("test", SomeListener, false);
+        w.Document.RemoveEventListener("test", (EventListener)SomeListener, false);
         w.Document.DispatchEvent(Event.New("test"));
         w.Document.DispatchEvent(Event.New("test"));
         w.Document.DispatchEvent(Event.New("test"));
@@ -33,17 +33,17 @@ public static class Program
 
         var newInput = (HTMLTextAreaElement)w.Document.CreateElement("textarea");
         w.Document.Body?.AppendChild(newInput);
-        newInput.AddEventListener("input", OnClick, false);
+        newInput.AddEventListener("input", new EventListener(OnClick), false);
 
         var button = w.Document.CreateElement("button");
         button.TextContent = "Enter fullscreen mode";
         w.Document.Body?.AppendChild(button);
-        button.AddEventListener("click", async (e) =>
+        button.AddEventListener("click", new EventListener(async (e) =>
         {
             w.Console.Log("before full screen", e);
             await newInput.RequestFullscreen();
             w.Console.Log("after full screen");
-        }, false);
+        }), false);
 
         await Task.Delay(Timeout.Infinite);
         return;

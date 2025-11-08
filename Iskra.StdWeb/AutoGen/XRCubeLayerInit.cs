@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XRCubeLayerInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class XRCubeLayerInit: global::Iskra.StdWeb.XRLayerInit
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public XRCubeLayerInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public XRCubeLayerInit(): base()
+    {
+    }
+
+    public global::Iskra.StdWeb.DOMPointReadOnly? Orientation
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPointReadOnly?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "orientation");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DOMPointReadOnly?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "orientation", value);
+    }
 }
 
 #nullable disable

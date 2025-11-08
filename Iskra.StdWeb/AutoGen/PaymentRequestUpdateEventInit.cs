@@ -4,8 +4,19 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PaymentRequestUpdateEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class PaymentRequestUpdateEventInit: global::Iskra.StdWeb.EventInit
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public PaymentRequestUpdateEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
+
+    public PaymentRequestUpdateEventInit(): base()
+    {
+    }
+
 
 }
 

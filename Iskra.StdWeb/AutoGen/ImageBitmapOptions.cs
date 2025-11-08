@@ -4,9 +4,54 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class ImageBitmapOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class ImageBitmapOptions: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public ImageBitmapOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public ImageBitmapOptions(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.ImageOrientation ImageOrientation
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ImageOrientation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "imageOrientation");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ImageOrientation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "imageOrientation", value);
+    }
+
+    public global::Iskra.StdWeb.PremultiplyAlpha PremultiplyAlpha
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PremultiplyAlpha, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "premultiplyAlpha");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.PremultiplyAlpha, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "premultiplyAlpha", value);
+    }
+
+    public global::Iskra.StdWeb.ColorSpaceConversion ColorSpaceConversion
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ColorSpaceConversion, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colorSpaceConversion");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ColorSpaceConversion, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colorSpaceConversion", value);
+    }
+
+    public uint ResizeWidth
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resizeWidth");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resizeWidth", value);
+    }
+
+    public uint ResizeHeight
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resizeHeight");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resizeHeight", value);
+    }
+
+    public global::Iskra.StdWeb.ResizeQuality ResizeQuality
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ResizeQuality, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resizeQuality");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ResizeQuality, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resizeQuality", value);
+    }
 }
 
 #nullable disable

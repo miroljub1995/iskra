@@ -17,7 +17,9 @@ public static class WebIDLGeneratorTestsProxyFactory
 
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestEnumProperties", obj => new TestEnumProperties(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestPromiseProperties", obj => new TestPromiseProperties(obj) );
+        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestCallbackInterface", obj => new TestCallbackInterface(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestConstructors", obj => new TestConstructors(obj) );
+        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestDictionary", obj => new TestDictionary(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestProperties", obj => new TestProperties(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestUnionProperties", obj => new TestUnionProperties(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestInterfaceProperties", obj => new TestInterfaceProperties(obj) );
@@ -25,7 +27,6 @@ public static class WebIDLGeneratorTestsProxyFactory
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestObservableArrayProperties", obj => new TestObservableArrayProperties(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestStaticProperties", obj => new TestStaticProperties(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestNamespace", obj => new TestNamespace(obj) );
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestDictionaryProperties", obj => new TestDictionaryProperties(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestArrayProperties", obj => new TestArrayProperties(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestOperations", obj => new TestOperations(obj) );
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TestFrozenArrayProperties", obj => new TestFrozenArrayProperties(obj) );

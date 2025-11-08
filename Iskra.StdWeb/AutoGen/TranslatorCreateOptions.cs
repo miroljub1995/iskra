@@ -4,9 +4,30 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class TranslatorCreateOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class TranslatorCreateOptions: global::Iskra.StdWeb.TranslatorCreateCoreOptions
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public TranslatorCreateOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public TranslatorCreateOptions(): base()
+    {
+    }
+
+    public global::Iskra.StdWeb.AbortSignal Signal
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AbortSignal, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "signal");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AbortSignal, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "signal", value);
+    }
+
+    public global::Iskra.StdWeb.CreateMonitorCallback Monitor
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CreateMonitorCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "monitor");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CreateMonitorCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "monitor", value);
+    }
 }
 
 #nullable disable

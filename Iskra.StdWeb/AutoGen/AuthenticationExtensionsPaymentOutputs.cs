@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AuthenticationExtensionsPaymentOutputs(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class AuthenticationExtensionsPaymentOutputs: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public AuthenticationExtensionsPaymentOutputs(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public AuthenticationExtensionsPaymentOutputs(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.BrowserBoundSignature BrowserBoundSignature
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.BrowserBoundSignature, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "browserBoundSignature");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.BrowserBoundSignature, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "browserBoundSignature", value);
+    }
 }
 
 #nullable disable

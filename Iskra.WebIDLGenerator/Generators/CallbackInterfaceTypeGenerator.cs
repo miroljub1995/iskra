@@ -1,15 +1,21 @@
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class CallbackInterfaceTypeGenerator(
-    GenSettings genSettings,
-    MemberTypeGenerator memberTypeGenerator
+    IServiceProvider provider,
+    GenSettings genSettings
 )
 {
     public string Generate(CallbackInterfaceType input)
     {
+        var memberTypeGenerator = provider.GetRequiredService<MemberTypeGenerator>();
+
+        var operation = input.Members.OfType<OperationMemberType>().Single();
+        var managedOperationName = operation.Name.CapitalizeFirstLetter();
+
         List<string> bodyParts = [];
 
         foreach (var idlInterfaceMemberType in input.Members)
@@ -30,8 +36,41 @@ public class CallbackInterfaceTypeGenerator(
 
                         #nullable enable
 
-                        public partial class {{input.Name}}(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+                        public partial class {{input.Name}}: global::Iskra.JSCore.JSObjectProxy
                         {
+                        #pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+                            [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+                            public {{input.Name}}(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+                            {
+                            }
+                        #pragma warning restore CS8618
+
+                            public {{input.Name}}(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+                            {
+                            }
+
+                            [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+                            public {{input.Name}}(global::{{genSettings.Namespace}}.{{input.Name}}Callback input): this()
+                            {
+                                {{managedOperationName}} = input;
+                            }
+
+                            [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+                            public {{input.Name}}(global::{{genSettings.Namespace}}.{{input.Name}}CallbackManaged input): this()
+                            {
+                                {{managedOperationName}} = input;
+                            }
+
+                            public static implicit operator {{input.Name}}({{input.Name}}Callback input)
+                            {
+                                return new global::{{genSettings.Namespace}}.{{input.Name}}(input);
+                            }
+
+                            public static implicit operator {{input.Name}}({{input.Name}}CallbackManaged input)
+                            {
+                                return new global::{{genSettings.Namespace}}.{{input.Name}}(input);
+                            }
+
                         {{body.IndentLines(4)}}
                         }
 

@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPUPipelineDescriptorBase(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GPUPipelineDescriptorBase: global::Iskra.StdWeb.GPUObjectDescriptorBase
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GPUPipelineDescriptorBase(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GPUPipelineDescriptorBase(): base()
+    {
+    }
+
+    public required global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUPipelineLayout, global::Iskra.StdWeb.GPUAutoLayoutMode, global::Iskra.StdWeb.GenericMarshaller.Union> Layout
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUPipelineLayout, global::Iskra.StdWeb.GPUAutoLayoutMode, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "layout");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUPipelineLayout, global::Iskra.StdWeb.GPUAutoLayoutMode, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "layout", value);
+    }
 }
 
 #nullable disable

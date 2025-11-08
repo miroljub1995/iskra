@@ -4,9 +4,48 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class MLGruCellOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class MLGruCellOptions: global::Iskra.StdWeb.MLOperatorOptions
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public MLGruCellOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public MLGruCellOptions(): base()
+    {
+    }
+
+    public global::Iskra.StdWeb.MLOperand Bias
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bias");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bias", value);
+    }
+
+    public global::Iskra.StdWeb.MLOperand RecurrentBias
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "recurrentBias");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLOperand, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "recurrentBias", value);
+    }
+
+    public bool ResetAfter
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resetAfter");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resetAfter", value);
+    }
+
+    public global::Iskra.StdWeb.MLGruWeightLayout Layout
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLGruWeightLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "layout");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLGruWeightLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "layout", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLRecurrentNetworkActivation, global::Iskra.StdWeb.PropertyAccessor> Activations
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLRecurrentNetworkActivation, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "activations");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MLRecurrentNetworkActivation, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "activations", value);
+    }
 }
 
 #nullable disable

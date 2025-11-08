@@ -1,0 +1,134 @@
+{
+  "spec": {
+    "title": "Test Callback Interface",
+    "url": "https://example.com/"
+  },
+  "idlparsed": {
+    "idlNames": {
+      "TestCallbackInterfaceCallback": {
+        "fragment": "",
+        "type": "callback interface",
+        "name": "TestCallbackInterfaceCallback",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "const",
+            "name": "EXPECTED_RESULT",
+            "idlType": {
+              "type": "const-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "string"
+            },
+            "value": {
+              "type": "string",
+              "value": "Processed: 999"
+            },
+            "extAttrs": [],
+            "href": ""
+          },
+          {
+            "type": "const",
+            "name": "EXPECTED_VALUE",
+            "idlType": {
+              "type": "const-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "value": {
+              "type": "number",
+              "value": "999"
+            },
+            "extAttrs": [],
+            "href": ""
+          },
+          {
+            "type": "operation",
+            "name": "processValue",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "string"
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "value",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "long"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": ""
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": ""
+      },
+      "TestCallbackInterface": {
+        "fragment": "",
+        "type": "interface",
+        "name": "TestCallbackInterface",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "operation",
+            "name": "invokeCallback",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "string"
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "callbackInterface",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "TestCallbackInterfaceCallback"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": ""
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": ""
+      }
+    }
+  }
+}

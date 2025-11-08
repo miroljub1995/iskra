@@ -4,9 +4,42 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class NavigationInterceptOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class NavigationInterceptOptions: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public NavigationInterceptOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public NavigationInterceptOptions(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.NavigationPrecommitHandler PrecommitHandler
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NavigationPrecommitHandler, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "precommitHandler");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.NavigationPrecommitHandler, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "precommitHandler", value);
+    }
+
+    public global::Iskra.StdWeb.NavigationInterceptHandler Handler
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NavigationInterceptHandler, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "handler");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.NavigationInterceptHandler, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "handler", value);
+    }
+
+    public global::Iskra.StdWeb.NavigationFocusReset FocusReset
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NavigationFocusReset, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "focusReset");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.NavigationFocusReset, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "focusReset", value);
+    }
+
+    public global::Iskra.StdWeb.NavigationScrollBehavior Scroll
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NavigationScrollBehavior, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "scroll");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.NavigationScrollBehavior, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "scroll", value);
+    }
 }
 
 #nullable disable

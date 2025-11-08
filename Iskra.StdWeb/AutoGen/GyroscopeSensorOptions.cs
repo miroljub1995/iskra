@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GyroscopeSensorOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GyroscopeSensorOptions: global::Iskra.StdWeb.SensorOptions
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GyroscopeSensorOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GyroscopeSensorOptions(): base()
+    {
+    }
+
+    public global::Iskra.StdWeb.GyroscopeLocalCoordinateSystem ReferenceFrame
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GyroscopeLocalCoordinateSystem, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "referenceFrame");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GyroscopeLocalCoordinateSystem, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "referenceFrame", value);
+    }
 }
 
 #nullable disable

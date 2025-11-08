@@ -4,9 +4,48 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AuctionAdInterestGroup(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class AuctionAdInterestGroup: global::Iskra.StdWeb.GenerateBidInterestGroup
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public AuctionAdInterestGroup(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public AuctionAdInterestGroup(): base()
+    {
+    }
+
+    public double Priority
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "priority");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "priority", value);
+    }
+
+    public global::Iskra.JSCore.Generics.Record<double, global::Iskra.StdWeb.PropertyAccessor> PrioritySignalsOverrides
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Record<double, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "prioritySignalsOverrides");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Record<double, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "prioritySignalsOverrides", value);
+    }
+
+    public required double LifetimeMs
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lifetimeMs");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lifetimeMs", value);
+    }
+
+    public string AdditionalBidKey
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "additionalBidKey");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "additionalBidKey", value);
+    }
+
+    public global::Iskra.StdWeb.ProtectedAudiencePrivateAggregationConfig PrivateAggregationConfig
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ProtectedAudiencePrivateAggregationConfig, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "privateAggregationConfig");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ProtectedAudiencePrivateAggregationConfig, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "privateAggregationConfig", value);
+    }
 }
 
 #nullable disable

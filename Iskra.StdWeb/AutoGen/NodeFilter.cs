@@ -4,8 +4,41 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class NodeFilter(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class NodeFilter: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public NodeFilter(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
+
+    public NodeFilter(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public NodeFilter(global::Iskra.StdWeb.NodeFilterCallback input): this()
+    {
+        AcceptNode = input;
+    }
+
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public NodeFilter(global::Iskra.StdWeb.NodeFilterCallbackManaged input): this()
+    {
+        AcceptNode = input;
+    }
+
+    public static implicit operator NodeFilter(NodeFilterCallback input)
+    {
+        return new global::Iskra.StdWeb.NodeFilter(input);
+    }
+
+    public static implicit operator NodeFilter(NodeFilterCallbackManaged input)
+    {
+        return new global::Iskra.StdWeb.NodeFilter(input);
+    }
+
     public const ushort FILTER_ACCEPT = 1;
 
     public const ushort FILTER_REJECT = 2;
@@ -38,23 +71,10 @@ public partial class NodeFilter(global::System.Runtime.InteropServices.JavaScrip
 
     public const uint SHOW_NOTATION = 0x800;
 
-    public ushort AcceptNode(global::Iskra.StdWeb.Node node)
+    public required global::Iskra.StdWeb.NodeFilterCallback AcceptNode
     {
-        int ___argsArrayLength_2 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
-
-        // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_3;
-        ___marshalledValue_3 = node.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "acceptNode", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NodeFilterCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "acceptNode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.NodeFilterCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "acceptNode", value);
     }
 }
 

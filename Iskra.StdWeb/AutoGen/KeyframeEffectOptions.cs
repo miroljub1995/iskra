@@ -4,9 +4,36 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class KeyframeEffectOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class KeyframeEffectOptions: global::Iskra.StdWeb.EffectTiming
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public KeyframeEffectOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public KeyframeEffectOptions(): base()
+    {
+    }
+
+    public global::Iskra.StdWeb.CompositeOperation Composite
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CompositeOperation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "composite");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CompositeOperation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "composite", value);
+    }
+
+    public string? PseudoElement
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "pseudoElement");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "pseudoElement", value);
+    }
+
+    public global::Iskra.StdWeb.IterationCompositeOperation IterationComposite
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IterationCompositeOperation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "iterationComposite");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.IterationCompositeOperation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "iterationComposite", value);
+    }
 }
 
 #nullable disable

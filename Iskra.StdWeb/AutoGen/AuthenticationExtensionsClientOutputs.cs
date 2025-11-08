@@ -4,9 +4,66 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class AuthenticationExtensionsClientOutputs(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class AuthenticationExtensionsClientOutputs: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public AuthenticationExtensionsClientOutputs(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public AuthenticationExtensionsClientOutputs(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public bool HmacCreateSecret
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacCreateSecret");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacCreateSecret", value);
+    }
+
+    public global::Iskra.StdWeb.HMACGetSecretOutput HmacGetSecret
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HMACGetSecretOutput, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacGetSecret");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.HMACGetSecretOutput, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacGetSecret", value);
+    }
+
+    public bool Appid
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "appid");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "appid", value);
+    }
+
+    public bool AppidExclude
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "appidExclude");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "appidExclude", value);
+    }
+
+    public global::Iskra.StdWeb.CredentialPropertiesOutput CredProps
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CredentialPropertiesOutput, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "credProps");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CredentialPropertiesOutput, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "credProps", value);
+    }
+
+    public global::Iskra.StdWeb.AuthenticationExtensionsPRFOutputs Prf
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AuthenticationExtensionsPRFOutputs, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "prf");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AuthenticationExtensionsPRFOutputs, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "prf", value);
+    }
+
+    public global::Iskra.StdWeb.AuthenticationExtensionsLargeBlobOutputs LargeBlob
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AuthenticationExtensionsLargeBlobOutputs, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "largeBlob");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AuthenticationExtensionsLargeBlobOutputs, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "largeBlob", value);
+    }
+
+    public global::Iskra.StdWeb.AuthenticationExtensionsPaymentOutputs Payment
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AuthenticationExtensionsPaymentOutputs, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "payment");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AuthenticationExtensionsPaymentOutputs, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "payment", value);
+    }
 }
 
 #nullable disable

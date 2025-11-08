@@ -12,6 +12,7 @@ public class MemberTypeGenerator(
         var attributeMemberTypeGenerator = provider.GetRequiredService<AttributeMemberTypeGenerator>();
         var constantMemberTypeGenerator = provider.GetRequiredService<ConstantMemberTypeGenerator>();
         var constructorMemberTypeGenerator = provider.GetRequiredService<ConstructorMemberTypeGenerator>();
+        var fieldTypeGenerator = provider.GetRequiredService<FieldTypeGenerator>();
         var operationMemberTypeGenerator = provider.GetRequiredService<OperationMemberTypeGenerator>();
 
         if (input is AttributeMemberType attributeMemberType)
@@ -64,6 +65,25 @@ public class MemberTypeGenerator(
 
         if (input is OperationMemberType operationMemberType)
         {
+            if (container is CallbackInterfaceType callbackInterfaceType)
+            {
+                var operation = callbackInterfaceType.Members.OfType<OperationMemberType>().Single();
+
+                return fieldTypeGenerator.Generate(new FieldType
+                {
+                    ExtAttrs = [],
+                    IdlType = new SingleTypeDescription
+                    {
+                        ExtAttrs = [],
+                        IdlType = callbackInterfaceType.Name + "Callback",
+                        Nullable = false,
+                    },
+                    Name = operation.Name,
+                    Required = true,
+                    Default = null,
+                });
+            }
+
             List<string> operations =
             [
                 operationMemberTypeGenerator.Generate(operationMemberType, container)

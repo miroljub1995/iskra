@@ -4,9 +4,54 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPURenderPassColorAttachment(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GPURenderPassColorAttachment: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GPURenderPassColorAttachment(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GPURenderPassColorAttachment(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public required global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.GPUTextureView, global::Iskra.StdWeb.GenericMarshaller.Union> View
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.GPUTextureView, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "view");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.GPUTextureView, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "view", value);
+    }
+
+    public uint DepthSlice
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthSlice");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthSlice", value);
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.GPUTextureView, global::Iskra.StdWeb.GenericMarshaller.Union> ResolveTarget
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.GPUTextureView, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resolveTarget");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.GPUTextureView, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resolveTarget", value);
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GPUColorDict, global::Iskra.StdWeb.GenericMarshaller.Union> ClearValue
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GPUColorDict, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "clearValue");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<double, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GPUColorDict, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "clearValue", value);
+    }
+
+    public required global::Iskra.StdWeb.GPULoadOp LoadOp
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPULoadOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loadOp");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPULoadOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loadOp", value);
+    }
+
+    public required global::Iskra.StdWeb.GPUStoreOp StoreOp
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUStoreOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "storeOp");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUStoreOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "storeOp", value);
+    }
 }
 
 #nullable disable

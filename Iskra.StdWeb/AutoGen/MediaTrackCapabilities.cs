@@ -4,9 +4,228 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class MediaTrackCapabilities(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class MediaTrackCapabilities: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public MediaTrackCapabilities(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public MediaTrackCapabilities(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.ULongRange Width
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ULongRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ULongRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "width", value);
+    }
+
+    public global::Iskra.StdWeb.ULongRange Height
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ULongRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ULongRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "height", value);
+    }
+
+    public global::Iskra.StdWeb.DoubleRange AspectRatio
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DoubleRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "aspectRatio");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DoubleRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "aspectRatio", value);
+    }
+
+    public global::Iskra.StdWeb.DoubleRange FrameRate
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DoubleRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "frameRate");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DoubleRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "frameRate", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> FacingMode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "facingMode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "facingMode", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> ResizeMode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resizeMode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resizeMode", value);
+    }
+
+    public global::Iskra.StdWeb.ULongRange SampleRate
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ULongRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampleRate");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ULongRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampleRate", value);
+    }
+
+    public global::Iskra.StdWeb.ULongRange SampleSize
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ULongRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampleSize");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ULongRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampleSize", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<bool, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor> EchoCancellation
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<bool, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "echoCancellation");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.Union<bool, string, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "echoCancellation", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor> AutoGainControl
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "autoGainControl");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "autoGainControl", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor> NoiseSuppression
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "noiseSuppression");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "noiseSuppression", value);
+    }
+
+    public global::Iskra.StdWeb.DoubleRange Latency
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DoubleRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "latency");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DoubleRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "latency", value);
+    }
+
+    public global::Iskra.StdWeb.ULongRange ChannelCount
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ULongRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "channelCount");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ULongRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "channelCount", value);
+    }
+
+    public string DeviceId
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deviceId");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deviceId", value);
+    }
+
+    public string GroupId
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "groupId");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "groupId", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor> BackgroundBlur
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "backgroundBlur");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "backgroundBlur", value);
+    }
+
+    public string DisplaySurface
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "displaySurface");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "displaySurface", value);
+    }
+
+    public bool LogicalSurface
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "logicalSurface");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "logicalSurface", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> Cursor
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cursor");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cursor", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> WhiteBalanceMode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "whiteBalanceMode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "whiteBalanceMode", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> ExposureMode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exposureMode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exposureMode", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> FocusMode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "focusMode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "focusMode", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange ExposureCompensation
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exposureCompensation");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exposureCompensation", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange ExposureTime
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exposureTime");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exposureTime", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange ColorTemperature
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colorTemperature");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colorTemperature", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange Iso
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "iso");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "iso", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange Brightness
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "brightness");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "brightness", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange Contrast
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "contrast");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "contrast", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange Saturation
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "saturation");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "saturation", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange Sharpness
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sharpness");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sharpness", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange FocusDistance
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "focusDistance");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "focusDistance", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange Pan
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pan");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pan", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange Tilt
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tilt");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tilt", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange Zoom
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "zoom");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "zoom", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor> Torch
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "torch");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<bool, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "torch", value);
+    }
 }
 
 #nullable disable

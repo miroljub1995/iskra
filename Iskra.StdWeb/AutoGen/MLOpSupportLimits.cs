@@ -4,9 +4,618 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class MLOpSupportLimits(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class MLOpSupportLimits: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public MLOpSupportLimits(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public MLOpSupportLimits(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.MLInputOperandLayout PreferredInputLayout
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLInputOperandLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "preferredInputLayout");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLInputOperandLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "preferredInputLayout", value);
+    }
+
+    public ulong MaxTensorByteLength
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxTensorByteLength");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxTensorByteLength", value);
+    }
+
+    public global::Iskra.StdWeb.MLTensorLimits Input
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "input");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "input", value);
+    }
+
+    public global::Iskra.StdWeb.MLTensorLimits Constant
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "constant");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "constant", value);
+    }
+
+    public global::Iskra.StdWeb.MLTensorLimits Output
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "output");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "output", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ArgMin
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "argMin");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "argMin", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ArgMax
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "argMax");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "argMax", value);
+    }
+
+    public global::Iskra.StdWeb.MLBatchNormalizationSupportLimits BatchNormalization
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBatchNormalizationSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "batchNormalization");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBatchNormalizationSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "batchNormalization", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Cast
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cast");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cast", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Clamp
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "clamp");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "clamp", value);
+    }
+
+    public global::Iskra.StdWeb.MLConcatSupportLimits Concat
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLConcatSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "concat");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLConcatSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "concat", value);
+    }
+
+    public global::Iskra.StdWeb.MLConv2dSupportLimits Conv2d
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLConv2dSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "conv2d");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLConv2dSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "conv2d", value);
+    }
+
+    public global::Iskra.StdWeb.MLConv2dSupportLimits ConvTranspose2d
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLConv2dSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "convTranspose2d");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLConv2dSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "convTranspose2d", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits CumulativeSum
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cumulativeSum");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cumulativeSum", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits Add
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "add");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "add", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits Sub
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sub");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sub", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits Mul
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mul");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mul", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits Div
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "div");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "div", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits Max
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "max");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "max", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits Min
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "min");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "min", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits Pow
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pow");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pow", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits Equal
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "equal");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "equal", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits NotEqual
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "notEqual");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "notEqual", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits Greater
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "greater");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "greater", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits GreaterOrEqual
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "greaterOrEqual");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "greaterOrEqual", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits Lesser
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lesser");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lesser", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits LesserOrEqual
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lesserOrEqual");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lesserOrEqual", value);
+    }
+
+    public global::Iskra.StdWeb.MLLogicalNotSupportLimits LogicalNot
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLLogicalNotSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "logicalNot");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLLogicalNotSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "logicalNot", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits LogicalAnd
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "logicalAnd");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "logicalAnd", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits LogicalOr
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "logicalOr");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "logicalOr", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits LogicalXor
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "logicalXor");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "logicalXor", value);
+    }
+
+    public global::Iskra.StdWeb.MLLogicalNotSupportLimits IsNaN
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLLogicalNotSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isNaN");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLLogicalNotSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isNaN", value);
+    }
+
+    public global::Iskra.StdWeb.MLLogicalNotSupportLimits IsInfinite
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLLogicalNotSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isInfinite");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLLogicalNotSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "isInfinite", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Abs
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "abs");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "abs", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Ceil
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ceil");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "ceil", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Cos
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cos");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cos", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Erf
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "erf");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "erf", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Exp
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exp");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "exp", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Floor
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "floor");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "floor", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Identity
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "identity");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "identity", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Log
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "log");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "log", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Neg
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "neg");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "neg", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Reciprocal
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reciprocal");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reciprocal", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits RoundEven
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "roundEven");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "roundEven", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Sin
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sin");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sin", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Sign
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sign");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sign", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Sqrt
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sqrt");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sqrt", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Tan
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tan");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tan", value);
+    }
+
+    public global::Iskra.StdWeb.MLQuantizeDequantizeLinearSupportLimits DequantizeLinear
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLQuantizeDequantizeLinearSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dequantizeLinear");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLQuantizeDequantizeLinearSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dequantizeLinear", value);
+    }
+
+    public global::Iskra.StdWeb.MLQuantizeDequantizeLinearSupportLimits QuantizeLinear
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLQuantizeDequantizeLinearSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "quantizeLinear");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLQuantizeDequantizeLinearSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "quantizeLinear", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Elu
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "elu");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "elu", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Expand
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "expand");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "expand", value);
+    }
+
+    public global::Iskra.StdWeb.MLGatherSupportLimits Gather
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLGatherSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gather");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLGatherSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gather", value);
+    }
+
+    public global::Iskra.StdWeb.MLGatherSupportLimits GatherElements
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLGatherSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gatherElements");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLGatherSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gatherElements", value);
+    }
+
+    public global::Iskra.StdWeb.MLGatherSupportLimits GatherND
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLGatherSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gatherND");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLGatherSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gatherND", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Gelu
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gelu");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gelu", value);
+    }
+
+    public global::Iskra.StdWeb.MLGemmSupportLimits Gemm
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLGemmSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gemm");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLGemmSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gemm", value);
+    }
+
+    public global::Iskra.StdWeb.MLGruSupportLimits Gru
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLGruSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gru");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLGruSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gru", value);
+    }
+
+    public global::Iskra.StdWeb.MLGruCellSupportLimits GruCell
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLGruCellSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gruCell");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLGruCellSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gruCell", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits HardSigmoid
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hardSigmoid");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hardSigmoid", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits HardSwish
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hardSwish");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hardSwish", value);
+    }
+
+    public global::Iskra.StdWeb.MLNormalizationSupportLimits InstanceNormalization
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLNormalizationSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "instanceNormalization");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLNormalizationSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "instanceNormalization", value);
+    }
+
+    public global::Iskra.StdWeb.MLNormalizationSupportLimits LayerNormalization
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLNormalizationSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "layerNormalization");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLNormalizationSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "layerNormalization", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits LeakyRelu
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "leakyRelu");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "leakyRelu", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Linear
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "linear");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "linear", value);
+    }
+
+    public global::Iskra.StdWeb.MLLstmSupportLimits Lstm
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLLstmSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lstm");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLLstmSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lstm", value);
+    }
+
+    public global::Iskra.StdWeb.MLLstmCellSupportLimits LstmCell
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLLstmCellSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lstmCell");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLLstmCellSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lstmCell", value);
+    }
+
+    public global::Iskra.StdWeb.MLBinarySupportLimits Matmul
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matmul");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLBinarySupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matmul", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Pad
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pad");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pad", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits AveragePool2d
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "averagePool2d");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "averagePool2d", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits L2Pool2d
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "l2Pool2d");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "l2Pool2d", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits MaxPool2d
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxPool2d");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxPool2d", value);
+    }
+
+    public global::Iskra.StdWeb.MLPreluSupportLimits Prelu
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLPreluSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "prelu");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLPreluSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "prelu", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ReduceL1
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceL1");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceL1", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ReduceL2
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceL2");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceL2", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ReduceLogSum
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceLogSum");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceLogSum", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ReduceLogSumExp
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceLogSumExp");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceLogSumExp", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ReduceMax
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceMax");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceMax", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ReduceMean
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceMean");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceMean", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ReduceMin
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceMin");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceMin", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ReduceProduct
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceProduct");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceProduct", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ReduceSum
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceSum");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceSum", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits ReduceSumSquare
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceSumSquare");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reduceSumSquare", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Relu
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "relu");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "relu", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Resample2d
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resample2d");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "resample2d", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Reshape
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reshape");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reshape", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Reverse
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reverse");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "reverse", value);
+    }
+
+    public global::Iskra.StdWeb.MLScatterSupportLimits ScatterElements
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLScatterSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "scatterElements");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLScatterSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "scatterElements", value);
+    }
+
+    public global::Iskra.StdWeb.MLScatterSupportLimits ScatterND
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLScatterSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "scatterND");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLScatterSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "scatterND", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Sigmoid
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sigmoid");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sigmoid", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Slice
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "slice");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "slice", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Softmax
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "softmax");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "softmax", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Softplus
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "softplus");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "softplus", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Softsign
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "softsign");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "softsign", value);
+    }
+
+    public global::Iskra.StdWeb.MLSplitSupportLimits Split
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSplitSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "split");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSplitSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "split", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Tanh
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tanh");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tanh", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Tile
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tile");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "tile", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Transpose
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transpose");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transpose", value);
+    }
+
+    public global::Iskra.StdWeb.MLSingleInputSupportLimits Triangular
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "triangular");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLSingleInputSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "triangular", value);
+    }
+
+    public global::Iskra.StdWeb.MLWhereSupportLimits Where
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLWhereSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "where");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLWhereSupportLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "where", value);
+    }
 }
 
 #nullable disable

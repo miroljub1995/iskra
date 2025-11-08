@@ -4,9 +4,30 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PushSubscriptionChangeEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class PushSubscriptionChangeEventInit: global::Iskra.StdWeb.ExtendableEventInit
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public PushSubscriptionChangeEventInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public PushSubscriptionChangeEventInit(): base()
+    {
+    }
+
+    public global::Iskra.StdWeb.PushSubscription NewSubscription
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PushSubscription, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "newSubscription");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.PushSubscription, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "newSubscription", value);
+    }
+
+    public global::Iskra.StdWeb.PushSubscription OldSubscription
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PushSubscription, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "oldSubscription");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.PushSubscription, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "oldSubscription", value);
+    }
 }
 
 #nullable disable

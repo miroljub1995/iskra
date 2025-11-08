@@ -4,9 +4,30 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class MLPadOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class MLPadOptions: global::Iskra.StdWeb.MLOperatorOptions
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public MLPadOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public MLPadOptions(): base()
+    {
+    }
+
+    public global::Iskra.StdWeb.MLPaddingMode Mode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLPaddingMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLPaddingMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mode", value);
+    }
+
+    public global::Iskra.JSCore.Generics.Union<global::System.Numerics.BigInteger, double, global::Iskra.StdWeb.GenericMarshaller.Union> Value
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::System.Numerics.BigInteger, double, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::System.Numerics.BigInteger, double, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "value", value);
+    }
 }
 
 #nullable disable

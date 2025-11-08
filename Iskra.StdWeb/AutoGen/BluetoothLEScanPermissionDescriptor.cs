@@ -4,9 +4,36 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class BluetoothLEScanPermissionDescriptor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class BluetoothLEScanPermissionDescriptor: global::Iskra.StdWeb.PermissionDescriptor
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public BluetoothLEScanPermissionDescriptor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public BluetoothLEScanPermissionDescriptor(): base()
+    {
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.BluetoothLEScanFilterInit, global::Iskra.StdWeb.PropertyAccessor> Filters
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.BluetoothLEScanFilterInit, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "filters");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.BluetoothLEScanFilterInit, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "filters", value);
+    }
+
+    public bool KeepRepeatedDevices
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "keepRepeatedDevices");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "keepRepeatedDevices", value);
+    }
+
+    public bool AcceptAllAdvertisements
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "acceptAllAdvertisements");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "acceptAllAdvertisements", value);
+    }
 }
 
 #nullable disable

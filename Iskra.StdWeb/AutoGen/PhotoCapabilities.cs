@@ -4,9 +4,42 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class PhotoCapabilities(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class PhotoCapabilities: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public PhotoCapabilities(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public PhotoCapabilities(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.RedEyeReduction RedEyeReduction
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RedEyeReduction, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "redEyeReduction");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.RedEyeReduction, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "redEyeReduction", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange ImageHeight
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "imageHeight");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "imageHeight", value);
+    }
+
+    public global::Iskra.StdWeb.MediaSettingsRange ImageWidth
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "imageWidth");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaSettingsRange, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "imageWidth", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FillLightMode, global::Iskra.StdWeb.PropertyAccessor> FillLightMode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FillLightMode, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fillLightMode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.FillLightMode, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fillLightMode", value);
+    }
 }
 
 #nullable disable

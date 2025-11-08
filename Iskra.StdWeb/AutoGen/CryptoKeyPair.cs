@@ -4,9 +4,30 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class CryptoKeyPair(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class CryptoKeyPair: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public CryptoKeyPair(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public CryptoKeyPair(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.CryptoKey PublicKey
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "publicKey");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "publicKey", value);
+    }
+
+    public global::Iskra.StdWeb.CryptoKey PrivateKey
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "privateKey");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CryptoKey, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "privateKey", value);
+    }
 }
 
 #nullable disable

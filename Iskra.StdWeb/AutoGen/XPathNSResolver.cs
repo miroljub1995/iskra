@@ -4,33 +4,45 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class XPathNSResolver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class XPathNSResolver: global::Iskra.JSCore.JSObjectProxy
 {
-    public string? LookupNamespaceURI(string? prefix)
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public XPathNSResolver(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
     {
-        int ___argsArrayLength_2 = 1;
+    }
+#pragma warning restore CS8618
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
+    public XPathNSResolver(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
 
-        // Argument 1
-        string? ___marshalledValue_3;
-        if (prefix is null)
-        {
-            ___marshalledValue_3 = null;
-        }
-        else
-        {
-            string ___notNullable_4 = (string)prefix;
-            ___marshalledValue_3 = ___notNullable_4;
-        }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 0, ___marshalledValue_3);
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public XPathNSResolver(global::Iskra.StdWeb.XPathNSResolverCallback input): this()
+    {
+        LookupNamespaceURI = input;
+    }
 
-        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public XPathNSResolver(global::Iskra.StdWeb.XPathNSResolverCallbackManaged input): this()
+    {
+        LookupNamespaceURI = input;
+    }
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "lookupNamespaceURI", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
+    public static implicit operator XPathNSResolver(XPathNSResolverCallback input)
+    {
+        return new global::Iskra.StdWeb.XPathNSResolver(input);
+    }
 
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(___resOwner_1.JSObject, "value");
+    public static implicit operator XPathNSResolver(XPathNSResolverCallbackManaged input)
+    {
+        return new global::Iskra.StdWeb.XPathNSResolver(input);
+    }
+
+    public required global::Iskra.StdWeb.XPathNSResolverCallback LookupNamespaceURI
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XPathNSResolverCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lookupNamespaceURI");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.XPathNSResolverCallback, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "lookupNamespaceURI", value);
     }
 }
 

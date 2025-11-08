@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class RsaHashedKeyAlgorithm(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class RsaHashedKeyAlgorithm: global::Iskra.StdWeb.RsaKeyAlgorithm
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public RsaHashedKeyAlgorithm(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public RsaHashedKeyAlgorithm(): base()
+    {
+    }
+
+    public required global::Iskra.StdWeb.KeyAlgorithm Hash
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.KeyAlgorithm, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hash");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.KeyAlgorithm, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hash", value);
+    }
 }
 
 #nullable disable

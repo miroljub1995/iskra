@@ -4,9 +4,36 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class IdentityCredentialRequestOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class IdentityCredentialRequestOptions: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public IdentityCredentialRequestOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public IdentityCredentialRequestOptions(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public required global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IdentityProviderRequestOptions, global::Iskra.StdWeb.PropertyAccessor> Providers
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IdentityProviderRequestOptions, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "providers");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.IdentityProviderRequestOptions, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "providers", value);
+    }
+
+    public global::Iskra.StdWeb.IdentityCredentialRequestOptionsContext Context
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IdentityCredentialRequestOptionsContext, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "context");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.IdentityCredentialRequestOptionsContext, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "context", value);
+    }
+
+    public global::Iskra.StdWeb.IdentityCredentialRequestOptionsMode Mode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IdentityCredentialRequestOptionsMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.IdentityCredentialRequestOptionsMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mode", value);
+    }
 }
 
 #nullable disable

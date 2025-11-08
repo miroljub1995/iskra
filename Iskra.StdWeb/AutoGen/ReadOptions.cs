@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class ReadOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class ReadOptions: global::Iskra.StdWeb.GeolocationSensorOptions
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public ReadOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public ReadOptions(): base()
+    {
+    }
+
+    public global::Iskra.StdWeb.AbortSignal? Signal
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AbortSignal?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "signal");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AbortSignal?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "signal", value);
+    }
 }
 
 #nullable disable

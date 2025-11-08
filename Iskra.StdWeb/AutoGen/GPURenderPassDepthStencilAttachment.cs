@@ -4,9 +4,72 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPURenderPassDepthStencilAttachment(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GPURenderPassDepthStencilAttachment: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GPURenderPassDepthStencilAttachment(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GPURenderPassDepthStencilAttachment(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public required global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.GPUTextureView, global::Iskra.StdWeb.GenericMarshaller.Union> View
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.GPUTextureView, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "view");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.GPUTexture, global::Iskra.StdWeb.GPUTextureView, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "view", value);
+    }
+
+    public float DepthClearValue
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthClearValue");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<float, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthClearValue", value);
+    }
+
+    public global::Iskra.StdWeb.GPULoadOp DepthLoadOp
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPULoadOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthLoadOp");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPULoadOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthLoadOp", value);
+    }
+
+    public global::Iskra.StdWeb.GPUStoreOp DepthStoreOp
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUStoreOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthStoreOp");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUStoreOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthStoreOp", value);
+    }
+
+    public bool DepthReadOnly
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthReadOnly");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthReadOnly", value);
+    }
+
+    public uint StencilClearValue
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stencilClearValue");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stencilClearValue", value);
+    }
+
+    public global::Iskra.StdWeb.GPULoadOp StencilLoadOp
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPULoadOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stencilLoadOp");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPULoadOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stencilLoadOp", value);
+    }
+
+    public global::Iskra.StdWeb.GPUStoreOp StencilStoreOp
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUStoreOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stencilStoreOp");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUStoreOp, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stencilStoreOp", value);
+    }
+
+    public bool StencilReadOnly
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stencilReadOnly");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "stencilReadOnly", value);
+    }
 }
 
 #nullable disable

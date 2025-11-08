@@ -1,0 +1,109 @@
+{
+  "spec": {
+    "title": "Test Dictionary",
+    "url": "https://example.com/"
+  },
+  "idlparsed": {
+    "idlNames": {
+      "TestDictionaryDict": {
+        "fragment": "",
+        "type": "dictionary",
+        "name": "TestDictionaryDict",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "field",
+            "name": "name",
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "string"
+            },
+            "default": null,
+            "required": false,
+            "extAttrs": []
+          },
+          {
+            "type": "field",
+            "name": "age",
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "long"
+            },
+            "default": null,
+            "required": false,
+            "extAttrs": []
+          },
+          {
+            "type": "field",
+            "name": "active",
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "boolean"
+            },
+            "default": null,
+            "required": false,
+            "extAttrs": []
+          }
+        ],
+        "extAttrs": [],
+        "partial": false
+      },
+      "TestDictionary": {
+        "fragment": "",
+        "type": "interface",
+        "name": "TestDictionary",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "operation",
+            "name": "processDictionary",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "string"
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "value",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "TestDictionaryDict"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": ""
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": ""
+      }
+    }
+  }
+}

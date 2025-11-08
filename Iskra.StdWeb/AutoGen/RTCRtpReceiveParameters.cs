@@ -4,8 +4,19 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class RTCRtpReceiveParameters(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class RTCRtpReceiveParameters: global::Iskra.StdWeb.RTCRtpParameters
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public RTCRtpReceiveParameters(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
+
+    public RTCRtpReceiveParameters(): base()
+    {
+    }
+
 
 }
 

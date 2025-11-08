@@ -4,9 +4,60 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPUBindGroupLayoutEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GPUBindGroupLayoutEntry: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GPUBindGroupLayoutEntry(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GPUBindGroupLayoutEntry(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public required uint Binding
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "binding");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "binding", value);
+    }
+
+    public required uint Visibility
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "visibility");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "visibility", value);
+    }
+
+    public global::Iskra.StdWeb.GPUBufferBindingLayout Buffer
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUBufferBindingLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "buffer");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUBufferBindingLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "buffer", value);
+    }
+
+    public global::Iskra.StdWeb.GPUSamplerBindingLayout Sampler
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUSamplerBindingLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampler");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUSamplerBindingLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sampler", value);
+    }
+
+    public global::Iskra.StdWeb.GPUTextureBindingLayout Texture
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUTextureBindingLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "texture");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUTextureBindingLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "texture", value);
+    }
+
+    public global::Iskra.StdWeb.GPUStorageTextureBindingLayout StorageTexture
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUStorageTextureBindingLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "storageTexture");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUStorageTextureBindingLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "storageTexture", value);
+    }
+
+    public global::Iskra.StdWeb.GPUExternalTextureBindingLayout ExternalTexture
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUExternalTextureBindingLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "externalTexture");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUExternalTextureBindingLayout, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "externalTexture", value);
+    }
 }
 
 #nullable disable

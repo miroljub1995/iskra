@@ -1,23 +1,30 @@
 using Iskra.WebIDLGenerator.Extensions;
 using Iskra.WebIDLGenerator.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Iskra.WebIDLGenerator.Generators;
 
 public class DictionaryTypeGenerator(
-    GenSettings genSettings
+    IServiceProvider provider,
+    GenSettings genSettings,
+    GenTypeDescriptors descriptors
 )
 {
     public string Generate(DictionaryType input)
     {
+        var fieldTypeGenerator = provider.GetRequiredService<FieldTypeGenerator>();
+
+        var baseTypeName = GetInheritance(input);
+        var defaultBaseConstructor = input.Inheritance is null
+            ? "base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"Object\"))"
+            : "base()";
+
         List<string> bodyParts = [];
 
         foreach (var fieldType in input.Members)
         {
-            // var part = memberTypeGenerator.Generate(idlInterfaceMemberType);
-            // if (!string.IsNullOrEmpty(part))
-            // {
-            //     bodyParts.Add(part);
-            // }
+            var part = fieldTypeGenerator.Generate(fieldType);
+            bodyParts.Add(part);
         }
 
         var body = string.Join("\n\n", bodyParts);
@@ -29,8 +36,19 @@ public class DictionaryTypeGenerator(
 
                         #nullable enable
 
-                        public partial class {{input.Name}}(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+                        public partial class {{input.Name}}: {{baseTypeName}}
                         {
+                        #pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+                            [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+                            public {{input.Name}}(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+                            {
+                            }
+                        #pragma warning restore CS8618
+
+                            public {{input.Name}}(): {{defaultBaseConstructor}}
+                            {
+                            }
+
                         {{body.IndentLines(4)}}
                         }
 
@@ -38,5 +56,16 @@ public class DictionaryTypeGenerator(
                         """;
 
         return content;
+    }
+
+    private string GetInheritance(DictionaryType input)
+    {
+        if (input.Inheritance is null)
+        {
+            return "global::Iskra.JSCore.JSObjectProxy";
+        }
+
+        var desc = descriptors.GetRequired(input.Inheritance);
+        return $"global::{desc.Namespace}.{desc.Name}";
     }
 }

@@ -4,9 +4,48 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPURenderPassDescriptor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GPURenderPassDescriptor: global::Iskra.StdWeb.GPUObjectDescriptorBase
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GPURenderPassDescriptor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GPURenderPassDescriptor(): base()
+    {
+    }
+
+    public required global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPURenderPassColorAttachment?, global::Iskra.StdWeb.PropertyAccessorNullable> ColorAttachments
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPURenderPassColorAttachment?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colorAttachments");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPURenderPassColorAttachment?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "colorAttachments", value);
+    }
+
+    public global::Iskra.StdWeb.GPURenderPassDepthStencilAttachment DepthStencilAttachment
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPURenderPassDepthStencilAttachment, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthStencilAttachment");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPURenderPassDepthStencilAttachment, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthStencilAttachment", value);
+    }
+
+    public global::Iskra.StdWeb.GPUQuerySet OcclusionQuerySet
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUQuerySet, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "occlusionQuerySet");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUQuerySet, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "occlusionQuerySet", value);
+    }
+
+    public global::Iskra.StdWeb.GPURenderPassTimestampWrites TimestampWrites
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPURenderPassTimestampWrites, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "timestampWrites");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPURenderPassTimestampWrites, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "timestampWrites", value);
+    }
+
+    public ulong MaxDrawCount
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxDrawCount");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxDrawCount", value);
+    }
 }
 
 #nullable disable

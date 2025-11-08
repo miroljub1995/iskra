@@ -34,6 +34,48 @@ public class GenTypeDescriptors
         throw new Exception($"Type Descriptor with name \"{name}\" does not exist.");
     }
 
+    public void AddCallbackForCallbackInterfaces()
+    {
+        // ReSharper disable once ForCanBeConvertedToForeach It is modified during iteration.
+        for (var i = 0; i < _genTypeDescriptors.Count; i++)
+        {
+            var genTypeDescriptor = _genTypeDescriptors[i];
+
+            if (!genTypeDescriptor.IsMain ||
+                genTypeDescriptor.RootType is not CallbackInterfaceType callbackInterfaceType)
+            {
+                continue;
+            }
+
+            var callbackName = callbackInterfaceType.Name + "Callback";
+            if (TryGet(callbackName, out _))
+            {
+                throw new Exception($"Callback with the name {callbackName} already exists.");
+            }
+
+            var operation = callbackInterfaceType.Members.OfType<OperationMemberType>().Single();
+
+            _genTypeDescriptors.Add(new GenTypeDescriptor()
+            {
+                IsMain = true,
+                Name = callbackName,
+                Namespace = genTypeDescriptor.Namespace,
+                RootType = new CallbackType
+                {
+                    Arguments = operation.Arguments,
+                    ExtAttrs = [],
+                    IdlType = operation.IdlType ?? new SingleTypeDescription()
+                    {
+                        ExtAttrs = [],
+                        IdlType = BuiltinTypes.Undefined,
+                        Nullable = false,
+                    },
+                    Name = callbackName,
+                }
+            });
+        }
+    }
+
     public void ResolveTypedefs()
     {
         foreach (var genTypeDescriptor in _genTypeDescriptors)
@@ -314,7 +356,7 @@ public class GenTypeDescriptors
             }
             else
             {
-                flattenedIdlType.Add(type);
+                flattenedIdlType.Add(type with { Nullable = false });
                 nullable |= type.Nullable;
             }
         }
@@ -381,6 +423,10 @@ public class GenTypeDescriptors
     {
         foreach (var member in input.Members)
         {
+            if (member.Name == "expandContext")
+            {
+            }
+
             member.IdlType = ResolveAnyInIDLTypeDescription(member.IdlType);
         }
     }

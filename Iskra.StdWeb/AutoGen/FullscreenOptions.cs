@@ -4,9 +4,30 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class FullscreenOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class FullscreenOptions: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public FullscreenOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public FullscreenOptions(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.FullscreenNavigationUI NavigationUI
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FullscreenNavigationUI, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "navigationUI");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.FullscreenNavigationUI, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "navigationUI", value);
+    }
+
+    public global::Iskra.StdWeb.ScreenDetailed Screen
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "screen");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ScreenDetailed, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "screen", value);
+    }
 }
 
 #nullable disable

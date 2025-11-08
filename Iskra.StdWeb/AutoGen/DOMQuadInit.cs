@@ -4,9 +4,42 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class DOMQuadInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class DOMQuadInit: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public DOMQuadInit(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public DOMQuadInit(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.DOMPointInit P1
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPointInit, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "p1");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DOMPointInit, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "p1", value);
+    }
+
+    public global::Iskra.StdWeb.DOMPointInit P2
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPointInit, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "p2");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DOMPointInit, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "p2", value);
+    }
+
+    public global::Iskra.StdWeb.DOMPointInit P3
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPointInit, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "p3");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DOMPointInit, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "p3", value);
+    }
+
+    public global::Iskra.StdWeb.DOMPointInit P4
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPointInit, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "p4");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DOMPointInit, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "p4", value);
+    }
 }
 
 #nullable disable

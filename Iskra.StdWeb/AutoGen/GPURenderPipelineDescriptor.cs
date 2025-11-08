@@ -4,9 +4,48 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class GPURenderPipelineDescriptor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class GPURenderPipelineDescriptor: global::Iskra.StdWeb.GPUPipelineDescriptorBase
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public GPURenderPipelineDescriptor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public GPURenderPipelineDescriptor(): base()
+    {
+    }
+
+    public required global::Iskra.StdWeb.GPUVertexState Vertex
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUVertexState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vertex");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUVertexState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "vertex", value);
+    }
+
+    public global::Iskra.StdWeb.GPUPrimitiveState Primitive
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUPrimitiveState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "primitive");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUPrimitiveState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "primitive", value);
+    }
+
+    public global::Iskra.StdWeb.GPUDepthStencilState DepthStencil
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUDepthStencilState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthStencil");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUDepthStencilState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "depthStencil", value);
+    }
+
+    public global::Iskra.StdWeb.GPUMultisampleState Multisample
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUMultisampleState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "multisample");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUMultisampleState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "multisample", value);
+    }
+
+    public global::Iskra.StdWeb.GPUFragmentState Fragment
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUFragmentState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fragment");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUFragmentState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "fragment", value);
+    }
 }
 
 #nullable disable

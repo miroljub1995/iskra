@@ -19,7 +19,7 @@ public class ConstantMemberTypeGenerator(
 
         var value = input.Value switch
         {
-            ValueDescriptionString stringValue => $"\n{stringValue.Value}\n",
+            ValueDescriptionString stringValue => $"\"{stringValue.Value}\"",
             ValueDescriptionNumber numberValue => numberValue.Value,
             ValueDescriptionBoolean booleanValue => booleanValue.Value ? "true" : "false",
             ValueDescriptionNull => "null",

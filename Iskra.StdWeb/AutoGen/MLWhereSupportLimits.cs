@@ -4,9 +4,42 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class MLWhereSupportLimits(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class MLWhereSupportLimits: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public MLWhereSupportLimits(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public MLWhereSupportLimits(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public global::Iskra.StdWeb.MLTensorLimits Condition
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "condition");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "condition", value);
+    }
+
+    public global::Iskra.StdWeb.MLTensorLimits TrueValue
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "trueValue");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "trueValue", value);
+    }
+
+    public global::Iskra.StdWeb.MLTensorLimits FalseValue
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "falseValue");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "falseValue", value);
+    }
+
+    public global::Iskra.StdWeb.MLTensorLimits Output
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "output");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MLTensorLimits, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "output", value);
+    }
 }
 
 #nullable disable

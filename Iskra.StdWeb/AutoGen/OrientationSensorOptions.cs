@@ -4,9 +4,24 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class OrientationSensorOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class OrientationSensorOptions: global::Iskra.StdWeb.SensorOptions
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public OrientationSensorOptions(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public OrientationSensorOptions(): base()
+    {
+    }
+
+    public global::Iskra.StdWeb.OrientationSensorLocalCoordinateSystem ReferenceFrame
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.OrientationSensorLocalCoordinateSystem, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "referenceFrame");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.OrientationSensorLocalCoordinateSystem, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "referenceFrame", value);
+    }
 }
 
 #nullable disable

@@ -4,9 +4,60 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class MediaCapabilitiesKeySystemConfiguration(global::System.Runtime.InteropServices.JavaScript.JSObject obj): global::Iskra.JSCore.JSObjectProxy(obj)
+public partial class MediaCapabilitiesKeySystemConfiguration: global::Iskra.JSCore.JSObjectProxy
 {
+#pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
+    [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
+    public MediaCapabilitiesKeySystemConfiguration(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    {
+    }
+#pragma warning restore CS8618
 
+    public MediaCapabilitiesKeySystemConfiguration(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
+    {
+    }
+
+    public required string KeySystem
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "keySystem");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "keySystem", value);
+    }
+
+    public string InitDataType
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "initDataType");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "initDataType", value);
+    }
+
+    public global::Iskra.StdWeb.MediaKeysRequirement DistinctiveIdentifier
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaKeysRequirement, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "distinctiveIdentifier");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaKeysRequirement, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "distinctiveIdentifier", value);
+    }
+
+    public global::Iskra.StdWeb.MediaKeysRequirement PersistentState
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaKeysRequirement, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "persistentState");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaKeysRequirement, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "persistentState", value);
+    }
+
+    public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> SessionTypes
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sessionTypes");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sessionTypes", value);
+    }
+
+    public global::Iskra.StdWeb.KeySystemTrackConfiguration Audio
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.KeySystemTrackConfiguration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "audio");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.KeySystemTrackConfiguration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "audio", value);
+    }
+
+    public global::Iskra.StdWeb.KeySystemTrackConfiguration Video
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.KeySystemTrackConfiguration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "video");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.KeySystemTrackConfiguration, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "video", value);
+    }
 }
 
 #nullable disable
