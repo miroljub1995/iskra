@@ -12,6 +12,7 @@ Iskra provides tools and infrastructure for building WebAssembly applications wi
 - **🌐 Comprehensive Browser API Coverage**: Access to Web APIs through auto-generated, strongly-typed C# wrappers
 - **🎯 Type-Safe**: Leverage C#'s type system for safer JavaScript interactions
 - **📦 Standards-Based**: Uses official W3C WebIDL specifications from [webref](https://github.com/w3c/webref)
+- **🚀 No Blazor Required**: Works with any .NET WebAssembly project, not tied to Blazor
 
 ## Architecture
 

@@ -1,5 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        
+        <!-- NuGet Package Configuration -->
+        <IsPackable>true</IsPackable>
+        <PackageId>Iskra.JSCore</PackageId>
+        <Version>$(IskraApiVersion)</Version>
+        <Authors>miroljub1995</Authors>
+        <Description>Core JavaScript interop layer for Iskra WebAssembly framework. Provides proxy system, type marshalling, and utilities for seamless JavaScript interactions from C#.</Description>
+        <PackageTags>webassembly;wasm;javascript;interop;blazor;dotnet</PackageTags>
+        <PackageProjectUrl>https://github.com/miroljub1995/iskra</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/miroljub1995/iskra</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>icon.png</PackageIcon>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
 </Project>
