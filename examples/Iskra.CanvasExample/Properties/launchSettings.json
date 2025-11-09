@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Iskra.CanvasExample": {
+      "commandName": "Project",
+      "launchBrowser": true
+    }
+  }
+}

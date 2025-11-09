@@ -28,6 +28,8 @@ Iskra provides tools and infrastructure for building WebAssembly applications wi
 
 ## Quick Start
 
+### Use in Your Project
+
 1. Create a new WebAssembly project:
    ```bash
    dotnet new wasmbrowser
@@ -71,6 +73,12 @@ public static class Program
 }
 ```
 
+### Try the Examples
+
+See the [examples](examples/) directory for sample projects demonstrating:
+- Interactive todo list
+- Canvas animations
+
 ## Project Structure
 
 ```
@@ -78,7 +86,12 @@ src/
 ├── Iskra.JSCore/            # JavaScript interop foundation
 ├── Iskra.StdWeb/            # Generated web API wrappers
 ├── Iskra.WebIDLGenerator/   # Code generation tool
-└── Iskra.WebIDLGenerator.Tests/  # Generator tests
+├── Iskra.WebIDLGenerator.Tests/  # Generator tests
+└── Iskra.App*/              # Component framework and examples
+
+examples/                    # Package-based examples
+├── Iskra.TodoExample/       # Todo list application
+└── Iskra.CanvasExample/     # Canvas animation demo
 ```
 
 ## Contributing

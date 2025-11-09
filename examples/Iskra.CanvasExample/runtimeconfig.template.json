@@ -1,0 +1,12 @@
+{
+  "wasmHostProperties": {
+    "webServerPort": 9003,
+    "perHostConfig": [
+      {
+        "name": "browser",
+        "html-path": "index.html",
+        "Host": "browser"
+      }
+    ]
+  }
+}

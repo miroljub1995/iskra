@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Iskra.TodoExample": {
+      "commandName": "Project",
+      "launchBrowser": true
+    }
+  }
+}
