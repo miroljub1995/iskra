@@ -87,23 +87,6 @@ We welcome contributions! Please see our [issue templates](.github/ISSUE_TEMPLAT
 - [Bug Reports](.github/ISSUE_TEMPLATE/bug_report.md)
 - [Feature Requests](.github/ISSUE_TEMPLATE/feature_request.md)
 
-### Development Setup
-
-1. Clone the repository with submodules:
-   ```bash
-   git clone --recursive https://github.com/miroljub1995/iskra.git
-   ```
-
-2. Build the solution:
-   ```bash
-   dotnet build
-   ```
-
-3. Run the generator tests:
-   ```bash
-   dotnet test src/Iskra.WebIDLGenerator.Tests
-   ```
-
 ## Requirements
 
 - .NET 9.0 or later
