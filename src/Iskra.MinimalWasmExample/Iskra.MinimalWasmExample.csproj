@@ -1,20 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
-        <PublishRelease>true</PublishRelease>
-        <RunAOTCompilation>true</RunAOTCompilation>
-        <PublishTrimmed>true</PublishTrimmed>
-        <TrimMode>full</TrimMode>
-    </PropertyGroup>
-
+﻿<Project Sdk="Microsoft.NET.Sdk.WebAssembly">
     <ItemGroup>
-        <WasmExtraFilesToDeploy Include="index.html" />
+        <ProjectReference Include="..\Iskra.StdWeb\Iskra.StdWeb.csproj"/>
     </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Iskra.StdWeb\Iskra.StdWeb.csproj" />
-    </ItemGroup>
-
 </Project>

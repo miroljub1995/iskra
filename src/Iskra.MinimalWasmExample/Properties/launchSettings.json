@@ -1,0 +1,12 @@
+{
+    "profiles": {
+      "MinimalWasmExample": {
+        "commandName": "Project",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "applicationUrl": "https://localhost:7099;http://localhost:5286",
+        "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
+      }
+    }
+}
