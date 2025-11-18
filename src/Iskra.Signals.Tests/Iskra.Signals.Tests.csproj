@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="TUnit" Version="0.57.1"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Iskra.Signals\Iskra.Signals.csproj"/>
+    </ItemGroup>
+
+</Project>

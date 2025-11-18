@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.WebIDLGenerator.Tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.BrowserTestsRunner", "src\Iskra.BrowserTestsRunner\Iskra.BrowserTestsRunner.csproj", "{C89D8B2B-5485-4A77-9011-0649743F130A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.Signals", "src\Iskra.Signals\Iskra.Signals.csproj", "{0A14E970-E293-4423-89F2-02E2157B44B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iskra.Signals.Tests", "src\Iskra.Signals.Tests\Iskra.Signals.Tests.csproj", "{C09B7DAD-3A14-4F26-9D90-EF580E193B1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,13 @@ Global
 		{C89D8B2B-5485-4A77-9011-0649743F130A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C89D8B2B-5485-4A77-9011-0649743F130A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C89D8B2B-5485-4A77-9011-0649743F130A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A14E970-E293-4423-89F2-02E2157B44B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A14E970-E293-4423-89F2-02E2157B44B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A14E970-E293-4423-89F2-02E2157B44B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A14E970-E293-4423-89F2-02E2157B44B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09B7DAD-3A14-4F26-9D90-EF580E193B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09B7DAD-3A14-4F26-9D90-EF580E193B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09B7DAD-3A14-4F26-9D90-EF580E193B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09B7DAD-3A14-4F26-9D90-EF580E193B1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
