@@ -41,22 +41,22 @@ public class Computed<T>(Func<T> func)
 
     public void Subscribe(ISignalConsumer consumer)
     {
-        _consumers.Add(consumer, null);
-        consumer.TrackProducer(this);
+        _consumers.Subscribe(this, consumer);
     }
 
     public void Unsubscribe(ISignalConsumer consumer)
     {
-        _consumers.Remove(consumer);
-        consumer.UntrackProducer(this);
+        _consumers.Unsubscribe(this, consumer);
+    }
+
+    public IEnumerable<ISignalConsumer> GetConsumers()
+    {
+        return _consumers.GetConsumers();
     }
 
     public void ProduceSignal()
     {
-        foreach (var keyValuePair in _consumers)
-        {
-            keyValuePair.Key.ConsumeSignal();
-        }
+        ConsumerExtensions.ProduceSignal(this);
     }
 
     public void TrackProducer(ISignalProducer producer)
@@ -78,7 +78,5 @@ public class Computed<T>(Func<T> func)
 
         _value = default;
         IsDirty = true;
-
-        ProduceSignal();
     }
 }

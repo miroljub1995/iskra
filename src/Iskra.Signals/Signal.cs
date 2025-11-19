@@ -34,21 +34,21 @@ public class Signal<T>(T value, IEqualityComparer<T> comparer) : ISignal<T>, ISi
 
     public void Subscribe(ISignalConsumer consumer)
     {
-        _consumers.TryAdd(consumer, null);
-        consumer.TrackProducer(this);
+        _consumers.Subscribe(this, consumer);
     }
 
     public void Unsubscribe(ISignalConsumer consumer)
     {
-        _consumers.Remove(consumer);
-        consumer.UntrackProducer(this);
+        _consumers.Unsubscribe(this, consumer);
+    }
+
+    public IEnumerable<ISignalConsumer> GetConsumers()
+    {
+        return _consumers.GetConsumers();
     }
 
     public void ProduceSignal()
     {
-        foreach (var keyValuePair in _consumers)
-        {
-            keyValuePair.Key.ConsumeSignal();
-        }
+        ConsumerExtensions.ProduceSignal(this);
     }
 }
