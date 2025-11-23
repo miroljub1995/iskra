@@ -1,6 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\Iskra.Reactivity\Iskra.Reactivity.csproj" />
     <ProjectReference Include="..\Iskra.StdWeb\Iskra.StdWeb.csproj" />
   </ItemGroup>
   <ItemGroup>
