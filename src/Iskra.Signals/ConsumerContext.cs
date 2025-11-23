@@ -2,15 +2,19 @@ namespace Iskra.Signals;
 
 public class ConsumerContext
 {
-    public static ISignalConsumer? Active { get; set; }
+    private static readonly ThreadLocal<ISignalConsumer?> ActiveLocal = new();
+
+    public static ISignalConsumer? Active
+    {
+        get => ActiveLocal.Value;
+        set => ActiveLocal.Value = value;
+    }
 
     public static void Track(ISignalProducer producer)
     {
         if (Active is not null)
         {
             producer.Subscribe(Active);
-            // var subscription = producer.Subscribe(Active);
-            // Active.AddSubscription(subscription);
         }
     }
 }

@@ -6,4 +6,5 @@ public interface ISignalProducer
     void Unsubscribe(ISignalConsumer consumer);
     IEnumerable<ISignalConsumer> GetConsumers();
     void ProduceSignal();
+    long GetVersion();
 }

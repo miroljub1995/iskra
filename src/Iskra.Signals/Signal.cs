@@ -8,6 +8,8 @@ public class Signal<T>(T value, IEqualityComparer<T> comparer) : ISignal<T>, ISi
     {
     }
 
+    private long _version;
+
     private readonly ConditionalWeakTable<ISignalConsumer, object?> _consumers = new();
 
     // TODO: In dotnet 10 use 'field' keyword in property
@@ -27,6 +29,7 @@ public class Signal<T>(T value, IEqualityComparer<T> comparer) : ISignal<T>, ISi
                 return;
             }
 
+            _version++;
             _value = value;
             ProduceSignal();
         }
@@ -51,4 +54,6 @@ public class Signal<T>(T value, IEqualityComparer<T> comparer) : ISignal<T>, ISi
     {
         ConsumerExtensions.ProduceSignal(this);
     }
+
+    public long GetVersion() => _version;
 }

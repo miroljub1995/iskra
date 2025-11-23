@@ -5,7 +5,7 @@ public class Effect : IEffect
     private readonly IEffectScope _scope;
     private readonly Action<Action<Action>> _fn;
     private readonly List<Action> _cleanupFns = [];
-    private readonly HashSet<ISignalProducer> _producers = [];
+    private readonly Dictionary<ISignalProducer, long> _producers = [];
     private byte _disposed;
 
     public Effect(Action<Action<Action>> fn)
@@ -30,7 +30,7 @@ public class Effect : IEffect
 
     public void TrackProducer(ISignalProducer producer)
     {
-        _producers.Add(producer);
+        _producers.Add(producer, producer.GetVersion());
     }
 
     public void UntrackProducer(ISignalProducer producer)
@@ -41,6 +41,11 @@ public class Effect : IEffect
     public void ConsumeSignal()
     {
         if (_disposed != 0)
+        {
+            return;
+        }
+
+        if (!AnyProducerChanged())
         {
             return;
         }
@@ -68,7 +73,7 @@ public class Effect : IEffect
     {
         while (_producers.Count > 0)
         {
-            _producers.First().Unsubscribe(this);
+            _producers.First().Key.Unsubscribe(this);
         }
     }
 
@@ -80,5 +85,10 @@ public class Effect : IEffect
         }
 
         _cleanupFns.Clear();
+    }
+
+    private bool AnyProducerChanged()
+    {
+        return _producers.Any(producer => producer.Value != producer.Key.GetVersion());
     }
 }

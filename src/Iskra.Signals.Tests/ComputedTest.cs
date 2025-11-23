@@ -1,6 +1,5 @@
 namespace Iskra.Signals.Tests;
 
-[ParallelLimiter<SingleParallelLimit>]
 public class ComputedTest
 {
     [Test]
@@ -39,6 +38,52 @@ public class ComputedTest
 
         signal.Value = "test2";
         await Assert.That(computed.Value).IsEqualTo("test2");
+    }
+
+    [Test]
+    public async Task ShouldRunComputedOnlyOnSignalDepChangeAsync()
+    {
+        var signal = new Signal<string>("test");
+        var count = 0;
+        var computed = new Computed<string>(() =>
+        {
+            count++;
+            return signal.Value + " from computed";
+        });
+
+        await Assert.That(computed.Value).IsEqualTo("test from computed");
+
+        signal.Value = "test";
+        await Assert.That(computed.Value).IsEqualTo("test from computed");
+        await Assert.That(count).IsEqualTo(1);
+
+        signal.Value = "test";
+        await Assert.That(computed.Value).IsEqualTo("test from computed");
+        await Assert.That(count).IsEqualTo(1);
+    }
+
+    [Test]
+    public async Task ShouldRunComputedOnlyOnComputedDepChangeAsync()
+    {
+        var signal = new Signal<string>("test");
+        var count = 0;
+        var parentComputed = new Computed<bool>(() => signal.Value.Length > 0);
+
+        var computed = new Computed<string>(() =>
+        {
+            count++;
+            return parentComputed.Value.ToString();
+        });
+
+        await Assert.That(computed.Value).IsEqualTo("True");
+
+        signal.Value += " 1";
+        await Assert.That(computed.Value).IsEqualTo("True");
+        await Assert.That(count).IsEqualTo(1);
+
+        signal.Value += " 2";
+        await Assert.That(computed.Value).IsEqualTo("True");
+        await Assert.That(count).IsEqualTo(1);
     }
 
     [Test]

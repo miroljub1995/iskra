@@ -1,6 +1,5 @@
 ﻿namespace Iskra.Signals.Tests;
 
-[ParallelLimiter<SingleParallelLimit>]
 public class SignalTest
 {
     [Test]

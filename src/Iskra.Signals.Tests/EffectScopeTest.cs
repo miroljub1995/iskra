@@ -1,6 +1,5 @@
 namespace Iskra.Signals.Tests;
 
-[ParallelLimiter<SingleParallelLimit>]
 public class EffectScopeTest
 {
     [Test]
@@ -688,5 +687,84 @@ public class EffectScopeTest
         await Assert.That(cleanup1Count).IsEqualTo(2);
         await Assert.That(cleanup2Count).IsEqualTo(2);
         await Assert.That(cleanup3Count).IsEqualTo(2);
+    }
+
+    [Test]
+    public async Task ShouldNotRunEffectWhenSignalValueDoesNotChange()
+    {
+        var signal = new Signal<string>("test");
+        var scope = new EffectScope();
+
+        var runCount = 0;
+        scope.Run(() =>
+        {
+            new Effect(_ =>
+            {
+                var __ = signal.Value;
+                runCount++;
+            });
+        });
+
+        // Effect runs on initialization
+        await Assert.That(runCount).IsEqualTo(1);
+
+        // Set the same value - effect should NOT run
+        signal.Value = "test";
+        await Assert.That(runCount).IsEqualTo(1);
+
+        // Set a different value - effect SHOULD run
+        signal.Value = "new test";
+        await Assert.That(runCount).IsEqualTo(2);
+
+        // Set the same value again - effect should NOT run
+        signal.Value = "new test";
+        await Assert.That(runCount).IsEqualTo(2);
+
+        // Set another different value - effect SHOULD run
+        signal.Value = "another test";
+        await Assert.That(runCount).IsEqualTo(3);
+    }
+
+    [Test]
+    public async Task ShouldNotRunEffectWhenComputedValueDoesNotChange()
+    {
+        var signal = new Signal<int>(5);
+        var scope = new EffectScope();
+
+        // Create a computed that returns a boolean based on signal value
+        var computed = new Computed<bool>(() => signal.Value > 10);
+
+        var runCount = 0;
+        scope.Run(() =>
+        {
+            new Effect(_ =>
+            {
+                var __ = computed.Value;
+                runCount++;
+            });
+        });
+
+        // Effect runs on initialization (computed.Value = false)
+        await Assert.That(runCount).IsEqualTo(1);
+
+        // Change signal but computed value stays false - effect should NOT run
+        signal.Value = 7;
+        await Assert.That(runCount).IsEqualTo(1);
+
+        // Change signal but computed value still stays false - effect should NOT run
+        signal.Value = 3;
+        await Assert.That(runCount).IsEqualTo(1);
+
+        // Change signal so computed value becomes true - effect SHOULD run
+        signal.Value = 15;
+        await Assert.That(runCount).IsEqualTo(2);
+
+        // Change signal but computed value stays true - effect should NOT run
+        signal.Value = 20;
+        await Assert.That(runCount).IsEqualTo(2);
+
+        // Change signal so computed value becomes false - effect SHOULD run
+        signal.Value = 5;
+        await Assert.That(runCount).IsEqualTo(3);
     }
 }
