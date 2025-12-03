@@ -1,6 +1,7 @@
 using Iskra.Core;
 using Iskra.Core.Instances;
 using Iskra.Signals;
+using Iskra.StdWeb;
 
 namespace Iskra.CoreExample.Components;
 
@@ -43,7 +44,10 @@ public class ChildComponent : IComponent<ChildComponent, ChildComponent.ChildCom
             var text = new TextInstance(textSignal.Value);
             new Effect(_ => { text.Node.Data = textSignal.Value; });
 
-            return [text];
+            var div = new ElementInstance<HTMLDivElement>("div", [text]);
+            div.Element.ClassName = "flex col";
+
+            return [div];
         };
     }
 
