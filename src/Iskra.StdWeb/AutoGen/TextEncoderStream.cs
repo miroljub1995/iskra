@@ -8,8 +8,8 @@ public partial class TextEncoderStream(global::System.Runtime.InteropServices.Ja
 {
     public static global::Iskra.StdWeb.TextEncoderStream New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_584 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TextEncoderStream");
-        return new global::Iskra.StdWeb.TextEncoderStream(__res_584);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TextEncoderStream");
+        return new global::Iskra.StdWeb.TextEncoderStream(___res_2);
     }
 
     public string Encoding

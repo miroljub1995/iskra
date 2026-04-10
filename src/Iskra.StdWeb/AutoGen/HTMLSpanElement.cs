@@ -8,8 +8,8 @@ public partial class HTMLSpanElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLSpanElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2304 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLSpanElement");
-        return new global::Iskra.StdWeb.HTMLSpanElement(__res_2304);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLSpanElement");
+        return new global::Iskra.StdWeb.HTMLSpanElement(___res_2);
     }
 }
 

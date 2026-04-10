@@ -66,9 +66,29 @@ public partial class GPUSupportedLimits(global::System.Runtime.InteropServices.J
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxStorageBuffersPerShaderStage");
     }
 
+    public uint MaxStorageBuffersInVertexStage
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxStorageBuffersInVertexStage");
+    }
+
+    public uint MaxStorageBuffersInFragmentStage
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxStorageBuffersInFragmentStage");
+    }
+
     public uint MaxStorageTexturesPerShaderStage
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxStorageTexturesPerShaderStage");
+    }
+
+    public uint MaxStorageTexturesInVertexStage
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxStorageTexturesInVertexStage");
+    }
+
+    public uint MaxStorageTexturesInFragmentStage
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxStorageTexturesInFragmentStage");
     }
 
     public uint MaxUniformBuffersPerShaderStage

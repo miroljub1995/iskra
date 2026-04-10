@@ -8,37 +8,37 @@ public partial class PaymentRequestEvent(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.PaymentRequestEvent New(string type)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_3 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_233 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_233.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_4;
+        ___marshalledValue_4 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_235 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PaymentRequestEvent", __argsArray_233.JSObject);
-        return new global::Iskra.StdWeb.PaymentRequestEvent(__res_235);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PaymentRequestEvent", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.PaymentRequestEvent(___res_2);
     }
 
     public static global::Iskra.StdWeb.PaymentRequestEvent New(string type, global::Iskra.StdWeb.PaymentRequestEventInit eventInitDict)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_3 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_230 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        string ___marshalledValue_1;
-        ___marshalledValue_1 = type;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_230.JSObject, 0, ___marshalledValue_1);
+        string ___marshalledValue_4;
+        ___marshalledValue_4 = type;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
         // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_2;
-        ___marshalledValue_2 = eventInitDict.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_230.JSObject, 1, ___marshalledValue_2);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_5;
+        ___marshalledValue_5 = eventInitDict.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 1, ___marshalledValue_5);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_232 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PaymentRequestEvent", __argsArray_230.JSObject);
-        return new global::Iskra.StdWeb.PaymentRequestEvent(__res_232);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PaymentRequestEvent", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.PaymentRequestEvent(___res_2);
     }
 
     public string TopOrigin

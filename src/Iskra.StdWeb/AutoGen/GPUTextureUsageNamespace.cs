@@ -15,6 +15,8 @@ public partial class GPUTextureUsageNamespace(global::System.Runtime.InteropServ
     public const uint STORAGE_BINDING = 0x08;
 
     public const uint RENDER_ATTACHMENT = 0x10;
+
+    public const uint TRANSIENT_ATTACHMENT = 0x20;
 }
 
 public partial class ServiceWorkerGlobalScope

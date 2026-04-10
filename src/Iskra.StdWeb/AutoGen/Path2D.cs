@@ -8,22 +8,22 @@ public partial class Path2D(global::System.Runtime.InteropServices.JavaScript.JS
 {
     public static global::Iskra.StdWeb.Path2D New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2442 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Path2D");
-        return new global::Iskra.StdWeb.Path2D(__res_2442);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Path2D");
+        return new global::Iskra.StdWeb.Path2D(___res_2);
     }
 
     public static global::Iskra.StdWeb.Path2D New(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Path2D, string, global::Iskra.StdWeb.GenericMarshaller.Union> path)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_3 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2437 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = path.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_2437.JSObject, 0, ___propObject_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = path.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0, ___propObject_4);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2439 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Path2D", __argsArray_2437.JSObject);
-        return new global::Iskra.StdWeb.Path2D(__res_2439);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Path2D", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.Path2D(___res_2);
     }
 
     public void AddPath(global::Iskra.StdWeb.Path2D path)

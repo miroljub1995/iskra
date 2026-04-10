@@ -17,10 +17,10 @@ public partial class MediaStreamTrackProcessorInit: global::Iskra.JSCore.JSObjec
     {
     }
 
-    public required global::Iskra.StdWeb.MediaStreamTrack Track
+    public required global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.MediaStreamTrackHandle, global::Iskra.StdWeb.GenericMarshaller.Union> Track
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "track");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "track", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.MediaStreamTrackHandle, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "track");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaStreamTrack, global::Iskra.StdWeb.MediaStreamTrackHandle, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "track", value);
     }
 
     public ushort MaxBufferSize

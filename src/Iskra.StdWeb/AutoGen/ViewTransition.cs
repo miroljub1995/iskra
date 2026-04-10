@@ -29,7 +29,6 @@ public partial class ViewTransition(global::System.Runtime.InteropServices.JavaS
     public global::Iskra.StdWeb.ViewTransitionTypeSet Types
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ViewTransitionTypeSet, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "types");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ViewTransitionTypeSet, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "types", value);
     }
 
     public global::Iskra.StdWeb.Element TransitionRoot

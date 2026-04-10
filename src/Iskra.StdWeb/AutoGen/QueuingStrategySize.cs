@@ -32,68 +32,68 @@ public partial class QueuingStrategySize(global::System.Runtime.InteropServices.
 
         managed = (chunk) =>
         {
-            int __argsArrayLength_476 = 1;
+            int ___argsArrayLength_3 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_473 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_476);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_477;
+            global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_4;
             if (chunk is null)
             {
-                __propObject_477 = null;
+                ___propObject_4 = null;
             }
             else
             {
-                __propObject_477 = chunk.JSObject;
+                ___propObject_4 = chunk.JSObject;
             }
 
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(__argsArray_473.JSObject, 0, __propObject_477);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnionAsNullable(___argsArray_0.JSObject, 0, ___propObject_4);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_474 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_473.JSObject, __resOwner_474.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
             // Return Value
-            double __res_475;
-            double __res_478 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__resOwner_474.JSObject, "value");
-            __res_475 = __res_478;
-            return __res_475;
+            double ___res_2;
+            double ___res_5 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(___resOwner_1.JSObject, "value");
+            ___res_2 = ___res_5;
+            return ___res_2;
         };
         return true;
     }
     
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(QueuingStrategySizeManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_479, __res_484) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_116, __res_121) =>
         {
-            using (__args_479)
-            using (__res_484)
+            using (__args_116)
+            using (__res_121)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_481;
-                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_482;
-                __propObject_482 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_479, 0);
-                if (__propObject_482 is null)
+                global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? __arg_118;
+                global::System.Runtime.InteropServices.JavaScript.JSObject? __propObject_119;
+                __propObject_119 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(__args_116, 0);
+                if (__propObject_119 is null)
                 {
-                    __arg_481 = null;
+                    __arg_118 = null;
                 }
                 else
                 {
-                    __arg_481 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_482);
+                    __arg_118 = new global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_119);
                 }
 
-                double __managedRes_485 = input(__arg_481);
+                double __managedRes_122 = input(__arg_118);
 
-                double __marshalledValue_486;
-                __marshalledValue_486 = __managedRes_485;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__res_484, "value", __marshalledValue_486);
+                double __marshalledValue_123;
+                __marshalledValue_123 = __managedRes_122;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__res_121, "value", __marshalledValue_123);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_483 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_483, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_120 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_120, input); 
 
-        return __funcObj_483;
+        return __funcObj_120;
     }
 }
 

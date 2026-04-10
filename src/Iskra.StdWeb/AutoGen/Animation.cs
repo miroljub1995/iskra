@@ -8,67 +8,67 @@ public partial class Animation(global::System.Runtime.InteropServices.JavaScript
 {
     public static global::Iskra.StdWeb.Animation New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_752 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Animation");
-        return new global::Iskra.StdWeb.Animation(__res_752);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Animation");
+        return new global::Iskra.StdWeb.Animation(___res_2);
     }
 
     public static global::Iskra.StdWeb.Animation New(global::Iskra.StdWeb.AnimationEffect? effect)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_3 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_747 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_1;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
         if (effect is null)
         {
-            ___marshalledValue_1 = null;
+            ___marshalledValue_4 = null;
         }
         else
         {
-            global::Iskra.StdWeb.AnimationEffect ___notNullable_2 = (global::Iskra.StdWeb.AnimationEffect)effect;
-            ___marshalledValue_1 = ___notNullable_2.JSObject;
+            global::Iskra.StdWeb.AnimationEffect ___notNullable_5 = (global::Iskra.StdWeb.AnimationEffect)effect;
+            ___marshalledValue_4 = ___notNullable_5.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_747.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_749 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Animation", __argsArray_747.JSObject);
-        return new global::Iskra.StdWeb.Animation(__res_749);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Animation", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.Animation(___res_2);
     }
 
     public static global::Iskra.StdWeb.Animation New(global::Iskra.StdWeb.AnimationEffect? effect, global::Iskra.StdWeb.AnimationTimeline? timeline)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_3 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_744 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_1;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_4;
         if (effect is null)
         {
-            ___marshalledValue_1 = null;
+            ___marshalledValue_4 = null;
         }
         else
         {
-            global::Iskra.StdWeb.AnimationEffect ___notNullable_2 = (global::Iskra.StdWeb.AnimationEffect)effect;
-            ___marshalledValue_1 = ___notNullable_2.JSObject;
+            global::Iskra.StdWeb.AnimationEffect ___notNullable_5 = (global::Iskra.StdWeb.AnimationEffect)effect;
+            ___marshalledValue_4 = ___notNullable_5.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_744.JSObject, 0, ___marshalledValue_1);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
         // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_3;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_6;
         if (timeline is null)
         {
-            ___marshalledValue_3 = null;
+            ___marshalledValue_6 = null;
         }
         else
         {
-            global::Iskra.StdWeb.AnimationTimeline ___notNullable_4 = (global::Iskra.StdWeb.AnimationTimeline)timeline;
-            ___marshalledValue_3 = ___notNullable_4.JSObject;
+            global::Iskra.StdWeb.AnimationTimeline ___notNullable_7 = (global::Iskra.StdWeb.AnimationTimeline)timeline;
+            ___marshalledValue_6 = ___notNullable_7.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_744.JSObject, 1, ___marshalledValue_3);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 1, ___marshalledValue_6);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_746 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Animation", __argsArray_744.JSObject);
-        return new global::Iskra.StdWeb.Animation(__res_746);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Animation", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.Animation(___res_2);
     }
 
     public string Id

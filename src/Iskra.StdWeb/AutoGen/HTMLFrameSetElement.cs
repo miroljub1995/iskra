@@ -8,8 +8,8 @@ public partial class HTMLFrameSetElement(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.HTMLFrameSetElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2693 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFrameSetElement");
-        return new global::Iskra.StdWeb.HTMLFrameSetElement(__res_2693);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLFrameSetElement");
+        return new global::Iskra.StdWeb.HTMLFrameSetElement(___res_2);
     }
 
     public string Cols

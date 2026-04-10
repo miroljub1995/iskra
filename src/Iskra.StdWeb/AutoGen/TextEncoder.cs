@@ -8,8 +8,8 @@ public partial class TextEncoder(global::System.Runtime.InteropServices.JavaScri
 {
     public static global::Iskra.StdWeb.TextEncoder New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_572 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TextEncoder");
-        return new global::Iskra.StdWeb.TextEncoder(__res_572);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "TextEncoder");
+        return new global::Iskra.StdWeb.TextEncoder(___res_2);
     }
 
     public global::Iskra.JSCore.Uint8Array Encode()

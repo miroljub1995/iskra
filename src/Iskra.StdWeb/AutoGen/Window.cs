@@ -449,6 +449,11 @@ public partial class Window(global::System.Runtime.InteropServices.JavaScript.JS
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ondevicemotion", value);
     }
 
+    public global::Iskra.StdWeb.CrashReportContext CrashReport
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CrashReportContext, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "crashReport");
+    }
+
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.ScreenDetails, global::Iskra.StdWeb.PropertyAccessor> GetScreenDetails()
     {
         using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();

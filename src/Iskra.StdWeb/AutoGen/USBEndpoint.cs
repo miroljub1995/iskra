@@ -8,27 +8,27 @@ public partial class USBEndpoint(global::System.Runtime.InteropServices.JavaScri
 {
     public static global::Iskra.StdWeb.USBEndpoint New(global::Iskra.StdWeb.USBAlternateInterface alternate, byte endpointNumber, global::Iskra.StdWeb.USBDirection direction)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_3 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2110 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = alternate.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_2110.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+        ___marshalledValue_4 = alternate.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = Convert.ToDouble(endpointNumber);
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_2110.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = Convert.ToDouble(endpointNumber);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_5);
 
         // Argument 3
-        string ___marshalledValue_3;
-        ___marshalledValue_3 = direction.ToString();
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2110.JSObject, 2, ___marshalledValue_3);
+        string ___marshalledValue_6;
+        ___marshalledValue_6 = direction.ToString();
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 2, ___marshalledValue_6);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2112 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "USBEndpoint", __argsArray_2110.JSObject);
-        return new global::Iskra.StdWeb.USBEndpoint(__res_2112);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "USBEndpoint", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.USBEndpoint(___res_2);
     }
 
     public byte EndpointNumber

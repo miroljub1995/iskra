@@ -17,12 +17,6 @@ public partial class XREquirectLayerInit: global::Iskra.StdWeb.XRLayerInit
     {
     }
 
-    public global::Iskra.StdWeb.XRTextureType TextureType
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRTextureType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "textureType");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.XRTextureType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "textureType", value);
-    }
-
     public global::Iskra.StdWeb.XRRigidTransform? Transform
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRRigidTransform?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "transform");

@@ -22,6 +22,7 @@ public class ConstructorMemberTypeGenerator(
 
         var args = argumentsToDeclarationGenerator.Generate(input.Arguments);
 
+        using var _ = VariableName.CreateScope();
         var argsArrayVar = VariableName.Current.GetNext("argsArray");
         var resOwnerVar = VariableName.Current.GetNext("resOwner");
         var resVar = VariableName.Current.GetNext("res");
@@ -32,24 +33,21 @@ public class ConstructorMemberTypeGenerator(
 
         List<string> bodyStatements = [];
 
-        using (VariableName.CreateScope())
+        if (isEmpty)
         {
-            if (isEmpty)
-            {
-                bodyStatements.Add(
-                    $"global::System.Runtime.InteropServices.JavaScript.JSObject {resVar} = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{container.Name}\");");
-            }
-            else
-            {
-                bodyStatements.Add(argsArrayGenerator.Generate(
-                    args: input.Arguments,
-                    argVars: argVars,
-                    argsArrayVar: argsArrayVar
-                ));
+            bodyStatements.Add(
+                $"global::System.Runtime.InteropServices.JavaScript.JSObject {resVar} = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{container.Name}\");");
+        }
+        else
+        {
+            bodyStatements.Add(argsArrayGenerator.Generate(
+                args: input.Arguments,
+                argVars: argVars,
+                argsArrayVar: argsArrayVar
+            ));
 
-                bodyStatements.Add(
-                    $"global::System.Runtime.InteropServices.JavaScript.JSObject {resVar} = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{container.Name}\", {argsArrayVar}.JSObject);");
-            }
+            bodyStatements.Add(
+                $"global::System.Runtime.InteropServices.JavaScript.JSObject {resVar} = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, \"{container.Name}\", {argsArrayVar}.JSObject);");
         }
 
         var body = string.Join("\n\n", bodyStatements);

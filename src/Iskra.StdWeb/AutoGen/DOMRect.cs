@@ -8,98 +8,98 @@ public partial class DOMRect(global::System.Runtime.InteropServices.JavaScript.J
 {
     public static global::Iskra.StdWeb.DOMRect New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1394 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMRect");
-        return new global::Iskra.StdWeb.DOMRect(__res_1394);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMRect");
+        return new global::Iskra.StdWeb.DOMRect(___res_2);
     }
 
     public static global::Iskra.StdWeb.DOMRect New(double x)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_3 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1389 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1389.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1391 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMRect", __argsArray_1389.JSObject);
-        return new global::Iskra.StdWeb.DOMRect(__res_1391);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMRect", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.DOMRect(___res_2);
     }
 
     public static global::Iskra.StdWeb.DOMRect New(double x, double y)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_3 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1386 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1386.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1386.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_5);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1388 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMRect", __argsArray_1386.JSObject);
-        return new global::Iskra.StdWeb.DOMRect(__res_1388);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMRect", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.DOMRect(___res_2);
     }
 
     public static global::Iskra.StdWeb.DOMRect New(double x, double y, double width)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_3 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1383 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1383.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1383.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_5);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = width;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1383.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = width;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_6);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1385 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMRect", __argsArray_1383.JSObject);
-        return new global::Iskra.StdWeb.DOMRect(__res_1385);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMRect", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.DOMRect(___res_2);
     }
 
     public static global::Iskra.StdWeb.DOMRect New(double x, double y, double width, double height)
     {
-        int ___argsArrayLength_0 = 4;
+        int ___argsArrayLength_3 = 4;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1380 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = x;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1380.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = x;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = y;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1380.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = y;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_5);
 
         // Argument 3
-        double ___marshalledValue_3;
-        ___marshalledValue_3 = width;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1380.JSObject, 2, ___marshalledValue_3);
+        double ___marshalledValue_6;
+        ___marshalledValue_6 = width;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 2, ___marshalledValue_6);
 
         // Argument 4
-        double ___marshalledValue_4;
-        ___marshalledValue_4 = height;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_1380.JSObject, 3, ___marshalledValue_4);
+        double ___marshalledValue_7;
+        ___marshalledValue_7 = height;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 3, ___marshalledValue_7);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1382 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMRect", __argsArray_1380.JSObject);
-        return new global::Iskra.StdWeb.DOMRect(__res_1382);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMRect", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.DOMRect(___res_2);
     }
 
     public static global::Iskra.StdWeb.DOMRect FromRect()

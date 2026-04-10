@@ -37,8 +37,8 @@ public partial class HTMLCanvasElement(global::System.Runtime.InteropServices.Ja
 
     public static global::Iskra.StdWeb.HTMLCanvasElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_815 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLCanvasElement");
-        return new global::Iskra.StdWeb.HTMLCanvasElement(__res_815);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLCanvasElement");
+        return new global::Iskra.StdWeb.HTMLCanvasElement(___res_2);
     }
 
     public uint Width

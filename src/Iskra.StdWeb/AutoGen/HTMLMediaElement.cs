@@ -315,6 +315,12 @@ public partial class HTMLMediaElement(global::System.Runtime.InteropServices.Jav
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "defaultMuted", value);
     }
 
+    public string Loading
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loading");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "loading", value);
+    }
+
     public global::Iskra.StdWeb.AudioTrackList AudioTracks
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioTrackList, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "audioTracks");

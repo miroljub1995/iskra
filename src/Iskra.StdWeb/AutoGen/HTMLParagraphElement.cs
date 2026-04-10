@@ -8,8 +8,8 @@ public partial class HTMLParagraphElement(global::System.Runtime.InteropServices
 {
     public static global::Iskra.StdWeb.HTMLParagraphElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2268 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLParagraphElement");
-        return new global::Iskra.StdWeb.HTMLParagraphElement(__res_2268);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLParagraphElement");
+        return new global::Iskra.StdWeb.HTMLParagraphElement(___res_2);
     }
 
     public string Align

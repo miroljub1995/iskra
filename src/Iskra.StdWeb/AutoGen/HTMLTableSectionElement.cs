@@ -8,8 +8,8 @@ public partial class HTMLTableSectionElement(global::System.Runtime.InteropServi
 {
     public static global::Iskra.StdWeb.HTMLTableSectionElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2352 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTableSectionElement");
-        return new global::Iskra.StdWeb.HTMLTableSectionElement(__res_2352);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTableSectionElement");
+        return new global::Iskra.StdWeb.HTMLTableSectionElement(___res_2);
     }
 
     public global::Iskra.StdWeb.HTMLCollection Rows

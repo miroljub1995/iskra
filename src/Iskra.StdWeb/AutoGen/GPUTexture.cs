@@ -80,6 +80,11 @@ public partial class GPUTexture(global::System.Runtime.InteropServices.JavaScrip
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "usage");
     }
 
+    public global::Iskra.StdWeb.GPUTextureViewDimension? TextureBindingViewDimension
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUTextureViewDimension?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "textureBindingViewDimension");
+    }
+
     public string Label
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "label");

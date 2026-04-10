@@ -8,8 +8,8 @@ public partial class RdfLiteral(global::System.Runtime.InteropServices.JavaScrip
 {
     public static global::Iskra.StdWeb.RdfLiteral New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2143 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RdfLiteral");
-        return new global::Iskra.StdWeb.RdfLiteral(__res_2143);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RdfLiteral");
+        return new global::Iskra.StdWeb.RdfLiteral(___res_2);
     }
 
     public string Value

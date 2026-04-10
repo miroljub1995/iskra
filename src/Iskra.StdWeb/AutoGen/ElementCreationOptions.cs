@@ -17,10 +17,10 @@ public partial class ElementCreationOptions: global::Iskra.JSCore.JSObjectProxy
     {
     }
 
-    public global::Iskra.StdWeb.CustomElementRegistry CustomElementRegistry
+    public global::Iskra.StdWeb.CustomElementRegistry? CustomElementRegistry
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CustomElementRegistry, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "customElementRegistry");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CustomElementRegistry, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "customElementRegistry", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CustomElementRegistry?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "customElementRegistry");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CustomElementRegistry?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "customElementRegistry", value);
     }
 
     public string Is

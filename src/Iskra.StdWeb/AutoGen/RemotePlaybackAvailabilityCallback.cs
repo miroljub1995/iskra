@@ -32,39 +32,39 @@ public partial class RemotePlaybackAvailabilityCallback(global::System.Runtime.I
 
         managed = (available) =>
         {
-            int __argsArrayLength_2116 = 1;
+            int ___argsArrayLength_3 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2113 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_2116);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
             // Argument 1
-            bool __marshalledValue_2117;
-            __marshalledValue_2117 = available;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(__argsArray_2113.JSObject, 0, __marshalledValue_2117);
+            bool ___marshalledValue_4;
+            ___marshalledValue_4 = available;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsBooleanV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_2113.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, ___argsArray_0.JSObject);
         };
         return true;
     }
     
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(RemotePlaybackAvailabilityCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_2118) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_444) =>
         {
-            using (__args_2118)
+            using (__args_444)
             {
                 // Argument 1
-                bool __arg_2120;
-                bool __res_2121 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(__args_2118, 0);
-                __arg_2120 = __res_2121;
+                bool __arg_446;
+                bool __res_447 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsBooleanV2(__args_444, 0);
+                __arg_446 = __res_447;
 
-                input(__arg_2120);
+                input(__arg_446);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_2122 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_2122, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_448 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_448, input);
 
-        return __funcObj_2122;
+        return __funcObj_448;
     }
 }
 

@@ -65,8 +65,8 @@ public partial class CaptureController(global::System.Runtime.InteropServices.Ja
 
     public static global::Iskra.StdWeb.CaptureController New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1175 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CaptureController");
-        return new global::Iskra.StdWeb.CaptureController(__res_1175);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CaptureController");
+        return new global::Iskra.StdWeb.CaptureController(___res_2);
     }
 
     public global::Iskra.JSCore.Promise ForwardWheel(global::Iskra.StdWeb.HTMLElement? element)

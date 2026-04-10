@@ -133,6 +133,11 @@ public partial class XRSession(global::System.Runtime.InteropServices.JavaScript
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "resumeDepthSensing", JSObject);
     }
 
+    public uint MaxRenderLayers
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxRenderLayers");
+    }
+
     public global::Iskra.StdWeb.XRVisibilityState VisibilityState
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.XRVisibilityState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "visibilityState");

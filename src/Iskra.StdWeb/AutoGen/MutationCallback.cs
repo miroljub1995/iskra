@@ -32,49 +32,49 @@ public partial class MutationCallback(global::System.Runtime.InteropServices.Jav
 
         managed = (mutations, observer) =>
         {
-            int __argsArrayLength_1224 = 2;
+            int ___argsArrayLength_3 = 2;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1221 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_1224);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1225 = mutations.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1221.JSObject, 0, __propObject_1225);
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = mutations.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___propObject_4);
 
             // Argument 2
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_1226;
-            __marshalledValue_1226 = observer.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_1221.JSObject, 1, __marshalledValue_1226);
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_5;
+            ___marshalledValue_5 = observer.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 1, ___marshalledValue_5);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_1221.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, ___argsArray_0.JSObject);
         };
         return true;
     }
     
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(MutationCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1227) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_262) =>
         {
-            using (__args_1227)
+            using (__args_262)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.PropertyAccessor> __arg_1229;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_1230;
-                __propObject_1230 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1227, 0);
-                __arg_1229 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.PropertyAccessor>(__propObject_1230);
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.PropertyAccessor> __arg_264;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_265;
+                __propObject_265 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_262, 0);
+                __arg_264 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MutationRecord, global::Iskra.StdWeb.PropertyAccessor>(__propObject_265);
 
                 // Argument 2
-                global::Iskra.StdWeb.MutationObserver __arg_1231;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_1232 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_1227, 1);
-                __arg_1231 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MutationObserver>(__res_1232);
+                global::Iskra.StdWeb.MutationObserver __arg_266;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_267 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_262, 1);
+                __arg_266 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MutationObserver>(__res_267);
 
-                input(__arg_1229, __arg_1231);
+                input(__arg_264, __arg_266);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1233 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1233, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_268 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_268, input);
 
-        return __funcObj_1233;
+        return __funcObj_268;
     }
 }
 

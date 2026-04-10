@@ -14,14 +14,12 @@ public sealed partial class AttributionAggregationProtocol
     }
 
     public static readonly AttributionAggregationProtocol Dap_15_histogram = new("dap-15-histogram");
-    public static readonly AttributionAggregationProtocol Tee_00 = new("tee-00");
 
     public override string ToString() => _value;
 
     public static AttributionAggregationProtocol Create(string value) => value switch
     {
         "dap-15-histogram" => Dap_15_histogram,
-        "tee-00" => Tee_00,
         _ => throw new ArgumentException($"Invalid value \"{value}\" for AttributionAggregationProtocol", nameof(value)),
     };
 }

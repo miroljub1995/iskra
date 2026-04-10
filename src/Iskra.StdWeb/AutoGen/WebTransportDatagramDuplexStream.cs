@@ -57,16 +57,16 @@ public partial class WebTransportDatagramDuplexStream(global::System.Runtime.Int
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "outgoingMaxAge", value);
     }
 
-    public double IncomingHighWaterMark
+    public uint IncomingMaxBufferedDatagrams
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "incomingHighWaterMark");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "incomingHighWaterMark", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "incomingMaxBufferedDatagrams");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "incomingMaxBufferedDatagrams", value);
     }
 
-    public double OutgoingHighWaterMark
+    public uint OutgoingMaxBufferedDatagrams
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "outgoingHighWaterMark");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "outgoingHighWaterMark", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "outgoingMaxBufferedDatagrams");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "outgoingMaxBufferedDatagrams", value);
     }
 }
 

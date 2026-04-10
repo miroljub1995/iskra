@@ -35,10 +35,16 @@ public partial class CrashReportBody: global::Iskra.StdWeb.ReportBody
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "is_top_level", value);
     }
 
-    public global::Iskra.StdWeb.DocumentVisibilityState Page_visibility
+    public global::Iskra.StdWeb.DocumentVisibilityState Visibility_state
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DocumentVisibilityState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "page_visibility");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DocumentVisibilityState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "page_visibility", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DocumentVisibilityState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "visibility_state");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DocumentVisibilityState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "visibility_state", value);
+    }
+
+    public global::System.Runtime.InteropServices.JavaScript.JSObject Crash_report_api
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "crash_report_api");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::System.Runtime.InteropServices.JavaScript.JSObject, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "crash_report_api", value);
     }
 }
 

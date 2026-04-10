@@ -8,8 +8,8 @@ public partial class HTMLOListElement(global::System.Runtime.InteropServices.Jav
 {
     public static global::Iskra.StdWeb.HTMLOListElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2280 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLOListElement");
-        return new global::Iskra.StdWeb.HTMLOListElement(__res_2280);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLOListElement");
+        return new global::Iskra.StdWeb.HTMLOListElement(___res_2);
     }
 
     public bool Reversed

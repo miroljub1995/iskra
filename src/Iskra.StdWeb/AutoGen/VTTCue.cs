@@ -8,27 +8,27 @@ public partial class VTTCue(global::System.Runtime.InteropServices.JavaScript.JS
 {
     public static global::Iskra.StdWeb.VTTCue New(double startTime, double endTime, string text)
     {
-        int ___argsArrayLength_0 = 3;
+        int ___argsArrayLength_3 = 3;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2718 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        double ___marshalledValue_1;
-        ___marshalledValue_1 = startTime;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_2718.JSObject, 0, ___marshalledValue_1);
+        double ___marshalledValue_4;
+        ___marshalledValue_4 = startTime;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
         // Argument 2
-        double ___marshalledValue_2;
-        ___marshalledValue_2 = endTime;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__argsArray_2718.JSObject, 1, ___marshalledValue_2);
+        double ___marshalledValue_5;
+        ___marshalledValue_5 = endTime;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___argsArray_0.JSObject, 1, ___marshalledValue_5);
 
         // Argument 3
-        string ___marshalledValue_3;
-        ___marshalledValue_3 = text;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_2718.JSObject, 2, ___marshalledValue_3);
+        string ___marshalledValue_6;
+        ___marshalledValue_6 = text;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 2, ___marshalledValue_6);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2720 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VTTCue", __argsArray_2718.JSObject);
-        return new global::Iskra.StdWeb.VTTCue(__res_2720);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "VTTCue", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.VTTCue(___res_2);
     }
 
     public global::Iskra.StdWeb.VTTRegion? Region

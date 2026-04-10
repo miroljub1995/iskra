@@ -29,6 +29,12 @@ public partial class CredentialRequestOptions: global::Iskra.JSCore.JSObjectProx
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.CredentialMediationRequirement, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "mediation", value);
     }
 
+    public string UiMode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "uiMode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "uiMode", value);
+    }
+
     public global::Iskra.StdWeb.AbortSignal Signal
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AbortSignal, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "signal");

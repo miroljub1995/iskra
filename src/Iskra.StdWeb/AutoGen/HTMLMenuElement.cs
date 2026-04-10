@@ -8,8 +8,8 @@ public partial class HTMLMenuElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLMenuElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2286 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMenuElement");
-        return new global::Iskra.StdWeb.HTMLMenuElement(__res_2286);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLMenuElement");
+        return new global::Iskra.StdWeb.HTMLMenuElement(___res_2);
     }
 
     public bool Compact

@@ -58,6 +58,12 @@ public partial class GPUTextureDescriptor: global::Iskra.StdWeb.GPUObjectDescrip
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUTextureFormat, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "viewFormats");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUTextureFormat, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "viewFormats", value);
     }
+
+    public global::Iskra.StdWeb.GPUTextureViewDimension TextureBindingViewDimension
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.GPUTextureViewDimension, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "textureBindingViewDimension");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.GPUTextureViewDimension, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "textureBindingViewDimension", value);
+    }
 }
 
 #nullable disable

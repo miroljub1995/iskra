@@ -8,8 +8,8 @@ public partial class HTMLTimeElement(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.HTMLTimeElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2301 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTimeElement");
-        return new global::Iskra.StdWeb.HTMLTimeElement(__res_2301);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTimeElement");
+        return new global::Iskra.StdWeb.HTMLTimeElement(___res_2);
     }
 
     public string DateTime

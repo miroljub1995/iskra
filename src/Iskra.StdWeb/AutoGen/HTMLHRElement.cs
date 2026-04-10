@@ -8,8 +8,8 @@ public partial class HTMLHRElement(global::System.Runtime.InteropServices.JavaSc
 {
     public static global::Iskra.StdWeb.HTMLHRElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2271 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLHRElement");
-        return new global::Iskra.StdWeb.HTMLHRElement(__res_2271);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLHRElement");
+        return new global::Iskra.StdWeb.HTMLHRElement(___res_2);
     }
 
     public string Align

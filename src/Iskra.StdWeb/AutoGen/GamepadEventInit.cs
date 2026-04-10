@@ -17,10 +17,10 @@ public partial class GamepadEventInit: global::Iskra.StdWeb.EventInit
     {
     }
 
-    public required global::Iskra.StdWeb.Gamepad Gamepad
+    public global::Iskra.StdWeb.Gamepad? Gamepad
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Gamepad, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gamepad");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.Gamepad, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "gamepad", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Gamepad?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "gamepad");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.Gamepad?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "gamepad", value);
     }
 }
 

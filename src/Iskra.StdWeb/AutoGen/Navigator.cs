@@ -84,6 +84,11 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Scheduling, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "scheduling");
     }
 
+    public global::Iskra.StdWeb.ModelContext ModelContext
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ModelContext, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "modelContext");
+    }
+
     public global::Iskra.StdWeb.VirtualKeyboard VirtualKeyboard
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.VirtualKeyboard, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "virtualKeyboard");
@@ -102,11 +107,6 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     public global::Iskra.StdWeb.HID Hid
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HID, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hid");
-    }
-
-    public global::Iskra.StdWeb.Attribution Attribution
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Attribution, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "attribution");
     }
 
     public global::Iskra.StdWeb.Ink Ink
@@ -544,6 +544,11 @@ public partial class Navigator(global::System.Runtime.InteropServices.JavaScript
     public global::Iskra.StdWeb.USB Usb
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.USB, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "usb");
+    }
+
+    public global::Iskra.StdWeb.Attribution Attribution
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Attribution, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "attribution");
     }
 
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.MediaKeySystemAccess, global::Iskra.StdWeb.PropertyAccessor> RequestMediaKeySystemAccess(string keySystem, global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.MediaKeySystemConfiguration, global::Iskra.StdWeb.PropertyAccessor> supportedConfigurations)

@@ -11,14 +11,14 @@ public partial class ServiceWorkerRegistration(global::System.Runtime.InteropSer
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ContentIndex, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "index");
     }
 
-    public global::Iskra.StdWeb.PeriodicSyncManager PeriodicSync
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PeriodicSyncManager, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "periodicSync");
-    }
-
     public global::Iskra.StdWeb.PaymentManager PaymentManager
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PaymentManager, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "paymentManager");
+    }
+
+    public global::Iskra.StdWeb.PeriodicSyncManager PeriodicSync
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PeriodicSyncManager, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "periodicSync");
     }
 
     public global::Iskra.StdWeb.CookieStoreManager Cookies

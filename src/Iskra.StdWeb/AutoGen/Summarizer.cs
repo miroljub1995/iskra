@@ -170,6 +170,11 @@ public partial class Summarizer(global::System.Runtime.InteropServices.JavaScrip
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SummarizerLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length");
     }
 
+    public global::Iskra.StdWeb.PerformancePreference Preference
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PerformancePreference, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "preference");
+    }
+
     public global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.PropertyAccessor>? ExpectedInputLanguages
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<string, global::Iskra.StdWeb.PropertyAccessor>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "expectedInputLanguages");

@@ -15,6 +15,11 @@ public partial class CSSContainerRule(global::System.Runtime.InteropServices.Jav
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "containerQuery");
     }
+
+    public global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSContainerCondition, global::Iskra.StdWeb.PropertyAccessor> Conditions
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSContainerCondition, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "conditions");
+    }
 }
 
 #nullable disable

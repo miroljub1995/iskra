@@ -8,43 +8,43 @@ public partial class USBIsochronousInTransferResult(global::System.Runtime.Inter
 {
     public static global::Iskra.StdWeb.USBIsochronousInTransferResult New(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.PropertyAccessor> packets)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_3 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2089 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = packets.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_2089.JSObject, 0, ___propObject_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = packets.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___propObject_4);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2091 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "USBIsochronousInTransferResult", __argsArray_2089.JSObject);
-        return new global::Iskra.StdWeb.USBIsochronousInTransferResult(__res_2091);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "USBIsochronousInTransferResult", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.USBIsochronousInTransferResult(___res_2);
     }
 
     public static global::Iskra.StdWeb.USBIsochronousInTransferResult New(global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.USBIsochronousInTransferPacket, global::Iskra.StdWeb.PropertyAccessor> packets, global::Iskra.JSCore.DataView? data)
     {
-        int ___argsArrayLength_0 = 2;
+        int ___argsArrayLength_3 = 2;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2086 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = packets.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_2086.JSObject, 0, ___propObject_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = packets.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___propObject_4);
 
         // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_2;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_5;
         if (data is null)
         {
-            ___marshalledValue_2 = null;
+            ___marshalledValue_5 = null;
         }
         else
         {
-            global::Iskra.JSCore.DataView ___notNullable_3 = (global::Iskra.JSCore.DataView)data;
-            ___marshalledValue_2 = ___notNullable_3.JSObject;
+            global::Iskra.JSCore.DataView ___notNullable_6 = (global::Iskra.JSCore.DataView)data;
+            ___marshalledValue_5 = ___notNullable_6.JSObject;
         }
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(__argsArray_2086.JSObject, 1, ___marshalledValue_2);
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(___argsArray_0.JSObject, 1, ___marshalledValue_5);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2088 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "USBIsochronousInTransferResult", __argsArray_2086.JSObject);
-        return new global::Iskra.StdWeb.USBIsochronousInTransferResult(__res_2088);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "USBIsochronousInTransferResult", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.USBIsochronousInTransferResult(___res_2);
     }
 
     public global::Iskra.JSCore.DataView? Data

@@ -58,6 +58,12 @@ public partial class CookieInit: global::Iskra.JSCore.JSObjectProxy
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "partitioned");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "partitioned", value);
     }
+
+    public long? MaxAge
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<long?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "maxAge");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<long?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "maxAge", value);
+    }
 }
 
 #nullable disable

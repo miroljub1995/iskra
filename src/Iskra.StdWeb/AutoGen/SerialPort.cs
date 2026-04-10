@@ -23,14 +23,14 @@ public partial class SerialPort(global::System.Runtime.InteropServices.JavaScrip
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "connected");
     }
 
-    public global::Iskra.StdWeb.ReadableStream Readable
+    public global::Iskra.StdWeb.ReadableStream? Readable
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ReadableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readable");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ReadableStream?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "readable");
     }
 
-    public global::Iskra.StdWeb.WritableStream Writable
+    public global::Iskra.StdWeb.WritableStream? Writable
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WritableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "writable");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WritableStream?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "writable");
     }
 
     public global::Iskra.StdWeb.SerialPortInfo GetInfo()

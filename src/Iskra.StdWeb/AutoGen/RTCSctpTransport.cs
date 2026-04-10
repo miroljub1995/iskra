@@ -16,9 +16,9 @@ public partial class RTCSctpTransport(global::System.Runtime.InteropServices.Jav
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.RTCSctpTransportState, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "state");
     }
 
-    public double MaxMessageSize
+    public double? MaxMessageSize
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxMessageSize");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "maxMessageSize");
     }
 
     public ushort? MaxChannels

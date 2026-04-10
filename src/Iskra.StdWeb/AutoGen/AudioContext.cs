@@ -8,23 +8,23 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
 {
     public static global::Iskra.StdWeb.AudioContext New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2894 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioContext");
-        return new global::Iskra.StdWeb.AudioContext(__res_2894);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioContext");
+        return new global::Iskra.StdWeb.AudioContext(___res_2);
     }
 
     public static global::Iskra.StdWeb.AudioContext New(global::Iskra.StdWeb.AudioContextOptions contextOptions)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_3 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2889 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_1;
-        ___marshalledValue_1 = contextOptions.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_2889.JSObject, 0, ___marshalledValue_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+        ___marshalledValue_4 = contextOptions.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2891 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioContext", __argsArray_2889.JSObject);
-        return new global::Iskra.StdWeb.AudioContext(__res_2891);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioContext", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.AudioContext(___res_2);
     }
 
     public double BaseLatency
@@ -52,6 +52,11 @@ public partial class AudioContext(global::System.Runtime.InteropServices.JavaScr
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onerror");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "onerror", value);
+    }
+
+    public global::Iskra.StdWeb.AudioPlaybackStats PlaybackStats
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioPlaybackStats, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "playbackStats");
     }
 
     public global::Iskra.StdWeb.AudioTimestamp GetOutputTimestamp()

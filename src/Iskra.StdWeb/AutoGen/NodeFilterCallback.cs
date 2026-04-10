@@ -32,52 +32,52 @@ public partial class NodeFilterCallback(global::System.Runtime.InteropServices.J
 
         managed = (node) =>
         {
-            int __argsArrayLength_3116 = 1;
+            int ___argsArrayLength_3 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3113 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_3116);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_3117;
-            __marshalledValue_3117 = node.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_3113.JSObject, 0, __marshalledValue_3117);
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+            ___marshalledValue_4 = node.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_3114 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_3113.JSObject, __resOwner_3114.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
             // Return Value
-            ushort __res_3115;
-            double __res_3118 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__resOwner_3114.JSObject, "value");
-            __res_3115 = Convert.ToUInt16(__res_3118);
-            return __res_3115;
+            ushort ___res_2;
+            double ___res_5 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(___resOwner_1.JSObject, "value");
+            ___res_2 = Convert.ToUInt16(___res_5);
+            return ___res_2;
         };
         return true;
     }
     
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(NodeFilterCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3119, __res_3124) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_585, __res_590) =>
         {
-            using (__args_3119)
-            using (__res_3124)
+            using (__args_585)
+            using (__res_590)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Node __arg_3121;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3122 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3119, 0);
-                __arg_3121 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_3122);
+                global::Iskra.StdWeb.Node __arg_587;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_588 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_585, 0);
+                __arg_587 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Node>(__res_588);
 
-                ushort __managedRes_3125 = input(__arg_3121);
+                ushort __managedRes_591 = input(__arg_587);
 
-                double __marshalledValue_3126;
-                __marshalledValue_3126 = Convert.ToDouble(__managedRes_3125);
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__res_3124, "value", __marshalledValue_3126);
+                double __marshalledValue_592;
+                __marshalledValue_592 = Convert.ToDouble(__managedRes_591);
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__res_590, "value", __marshalledValue_592);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_3123 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_3123, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_589 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_589, input); 
 
-        return __funcObj_3123;
+        return __funcObj_589;
     }
 }
 

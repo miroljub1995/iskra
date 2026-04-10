@@ -17,10 +17,10 @@ public partial class AttributionAggregationService: global::Iskra.JSCore.JSObjec
     {
     }
 
-    public required string Protocol
+    public required global::Iskra.StdWeb.AttributionAggregationProtocol Protocol
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "protocol");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "protocol", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AttributionAggregationProtocol, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "protocol");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AttributionAggregationProtocol, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "protocol", value);
     }
 }
 

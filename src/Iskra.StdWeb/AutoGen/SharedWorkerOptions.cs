@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SharedWorkerOptions: global::Iskra.StdWeb.WorkerOptions
+public partial class SharedWorkerOptions: global::Iskra.JSCore.JSObjectProxy
 {
 #pragma warning disable CS8618 // When constructing using obj, we assume that all members are initialized.
     [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute]
@@ -13,7 +13,7 @@ public partial class SharedWorkerOptions: global::Iskra.StdWeb.WorkerOptions
     }
 #pragma warning restore CS8618
 
-    public SharedWorkerOptions(): base()
+    public SharedWorkerOptions(): base(global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object"))
     {
     }
 
@@ -21,6 +21,12 @@ public partial class SharedWorkerOptions: global::Iskra.StdWeb.WorkerOptions
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SameSiteCookiesType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sameSiteCookies");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.SameSiteCookiesType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sameSiteCookies", value);
+    }
+
+    public bool ExtendedLifetime
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "extendedLifetime");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "extendedLifetime", value);
     }
 }
 

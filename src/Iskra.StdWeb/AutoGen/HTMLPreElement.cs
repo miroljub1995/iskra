@@ -8,8 +8,8 @@ public partial class HTMLPreElement(global::System.Runtime.InteropServices.JavaS
 {
     public static global::Iskra.StdWeb.HTMLPreElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2274 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLPreElement");
-        return new global::Iskra.StdWeb.HTMLPreElement(__res_2274);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLPreElement");
+        return new global::Iskra.StdWeb.HTMLPreElement(___res_2);
     }
 
     public int Width

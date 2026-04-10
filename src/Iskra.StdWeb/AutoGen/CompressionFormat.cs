@@ -13,6 +13,7 @@ public sealed partial class CompressionFormat
         _value = value;
     }
 
+    public static readonly CompressionFormat Brotli = new("brotli");
     public static readonly CompressionFormat Deflate = new("deflate");
     public static readonly CompressionFormat Deflate_raw = new("deflate-raw");
     public static readonly CompressionFormat Gzip = new("gzip");
@@ -21,6 +22,7 @@ public sealed partial class CompressionFormat
 
     public static CompressionFormat Create(string value) => value switch
     {
+        "brotli" => Brotli,
         "deflate" => Deflate,
         "deflate-raw" => Deflate_raw,
         "gzip" => Gzip,

@@ -29,6 +29,12 @@ public partial class WebTransportOptions: global::Iskra.JSCore.JSObjectProxy
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "requireUnreliable", value);
     }
 
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.JSCore.Generics.Record<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union> Headers
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.JSCore.Generics.Record<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "headers");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.JSCore.Generics.Record<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "headers", value);
+    }
+
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.WebTransportHash, global::Iskra.StdWeb.PropertyAccessor> ServerCertificateHashes
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.WebTransportHash, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "serverCertificateHashes");
@@ -59,10 +65,10 @@ public partial class WebTransportOptions: global::Iskra.JSCore.JSObjectProxy
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "protocols", value);
     }
 
-    public global::Iskra.StdWeb.DatagramsReadableMode DatagramsReadableMode
+    public global::Iskra.StdWeb.ReadableStreamType DatagramsReadableType
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DatagramsReadableMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "datagramsReadableMode");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.DatagramsReadableMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "datagramsReadableMode", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ReadableStreamType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "datagramsReadableType");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.ReadableStreamType, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "datagramsReadableType", value);
     }
 }
 

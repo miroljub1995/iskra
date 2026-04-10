@@ -32,39 +32,39 @@ public partial class RTCPeerConnectionErrorCallback(global::System.Runtime.Inter
 
         managed = (error) =>
         {
-            int __argsArrayLength_858 = 1;
+            int ___argsArrayLength_3 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_855 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_858);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_859;
-            __marshalledValue_859 = error.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_855.JSObject, 0, __marshalledValue_859);
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+            ___marshalledValue_4 = error.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_855.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, ___argsArray_0.JSObject);
         };
         return true;
     }
     
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(RTCPeerConnectionErrorCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_860) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_207) =>
         {
-            using (__args_860)
+            using (__args_207)
             {
                 // Argument 1
-                global::Iskra.StdWeb.DOMException __arg_862;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_863 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_860, 0);
-                __arg_862 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_863);
+                global::Iskra.StdWeb.DOMException __arg_209;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_210 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_207, 0);
+                __arg_209 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(__res_210);
 
-                input(__arg_862);
+                input(__arg_209);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_864 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_864, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_211 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_211, input);
 
-        return __funcObj_864;
+        return __funcObj_211;
     }
 }
 

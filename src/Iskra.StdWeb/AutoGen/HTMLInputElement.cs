@@ -25,8 +25,8 @@ public partial class HTMLInputElement(global::System.Runtime.InteropServices.Jav
 
     public static global::Iskra.StdWeb.HTMLInputElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_737 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLInputElement");
-        return new global::Iskra.StdWeb.HTMLInputElement(__res_737);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLInputElement");
+        return new global::Iskra.StdWeb.HTMLInputElement(___res_2);
     }
 
     public string Accept

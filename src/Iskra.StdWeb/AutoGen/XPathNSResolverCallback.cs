@@ -32,84 +32,84 @@ public partial class XPathNSResolverCallback(global::System.Runtime.InteropServi
 
         managed = (prefix) =>
         {
-            int __argsArrayLength_3130 = 1;
+            int ___argsArrayLength_3 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3127 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_3130);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
             // Argument 1
-            string? __marshalledValue_3131;
+            string? ___marshalledValue_4;
             if (prefix is null)
             {
-                __marshalledValue_3131 = null;
+                ___marshalledValue_4 = null;
             }
             else
             {
-                string __notNullable_3132 = (string)prefix;
-                __marshalledValue_3131 = __notNullable_3132;
+                string ___notNullable_5 = (string)prefix;
+                ___marshalledValue_4 = ___notNullable_5;
             }
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__argsArray_3127.JSObject, 0, __marshalledValue_3131);
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-            using global::Iskra.JSCore.FunctionResPool.Owner __resOwner_3128 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+            using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, __argsArray_3127.JSObject, __resOwner_3128.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunction(JSObject, null, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
             // Return Value
-            string? __res_3129;
-            string? __res_3133 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(__resOwner_3128.JSObject, "value");
-            if (__res_3133 is null)
+            string? ___res_2;
+            string? ___res_6 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(___resOwner_1.JSObject, "value");
+            if (___res_6 is null)
             {
-                __res_3129 = null;
+                ___res_2 = null;
             }
             else
             {
-                string __notNullable_3134 = (string)__res_3133;
-                __res_3129 = __notNullable_3134;
+                string ___notNullable_7 = (string)___res_6;
+                ___res_2 = ___notNullable_7;
             }
-            return __res_3129;
+            return ___res_2;
         };
         return true;
     }
     
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(XPathNSResolverCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3135, __res_3141) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_593, __res_599) =>
         {
-            using (__args_3135)
-            using (__res_3141)
+            using (__args_593)
+            using (__res_599)
             {
                 // Argument 1
-                string? __arg_3137;
-                string? __res_3138 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(__args_3135, 0);
-                if (__res_3138 is null)
+                string? __arg_595;
+                string? __res_596 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(__args_593, 0);
+                if (__res_596 is null)
                 {
-                    __arg_3137 = null;
+                    __arg_595 = null;
                 }
                 else
                 {
-                    string __notNullable_3139 = (string)__res_3138;
-                    __arg_3137 = __notNullable_3139;
+                    string __notNullable_597 = (string)__res_596;
+                    __arg_595 = __notNullable_597;
                 }
 
-                string? __managedRes_3142 = input(__arg_3137);
+                string? __managedRes_600 = input(__arg_595);
 
-                string? __marshalledValue_3143;
-                if (__managedRes_3142 is null)
+                string? __marshalledValue_601;
+                if (__managedRes_600 is null)
                 {
-                    __marshalledValue_3143 = null;
+                    __marshalledValue_601 = null;
                 }
                 else
                 {
-                    string __notNullable_3144 = (string)__managedRes_3142;
-                    __marshalledValue_3143 = __notNullable_3144;
+                    string __notNullable_602 = (string)__managedRes_600;
+                    __marshalledValue_601 = __notNullable_602;
                 }
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__res_3141, "value", __marshalledValue_3143);
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__res_599, "value", __marshalledValue_601);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_3140 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_3140, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_598 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_598, input); 
 
-        return __funcObj_3140;
+        return __funcObj_598;
     }
 }
 

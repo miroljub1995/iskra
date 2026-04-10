@@ -30,6 +30,7 @@ public sealed partial class RequestDestination
     public static readonly RequestDestination Script = new("script");
     public static readonly RequestDestination Sharedworker = new("sharedworker");
     public static readonly RequestDestination Style = new("style");
+    public static readonly RequestDestination Text = new("text");
     public static readonly RequestDestination Track = new("track");
     public static readonly RequestDestination Video = new("video");
     public static readonly RequestDestination Worker = new("worker");
@@ -56,6 +57,7 @@ public sealed partial class RequestDestination
         "script" => Script,
         "sharedworker" => Sharedworker,
         "style" => Style,
+        "text" => Text,
         "track" => Track,
         "video" => Video,
         "worker" => Worker,

@@ -17,10 +17,10 @@ public partial class CSSStyleSheetInit: global::Iskra.JSCore.JSObjectProxy
     {
     }
 
-    public string BaseURL
+    public string? BaseURL
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseURL");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseURL", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "baseURL");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "baseURL", value);
     }
 
     public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.MediaList, string, global::Iskra.StdWeb.GenericMarshaller.Union> Media

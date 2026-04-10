@@ -32,39 +32,39 @@ public partial class MediaSessionActionHandler(global::System.Runtime.InteropSer
 
         managed = (details) =>
         {
-            int __argsArrayLength_172 = 1;
+            int ___argsArrayLength_3 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_169 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_172);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_173;
-            __marshalledValue_173 = details.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_169.JSObject, 0, __marshalledValue_173);
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+            ___marshalledValue_4 = details.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_169.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, ___argsArray_0.JSObject);
         };
         return true;
     }
     
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(MediaSessionActionHandlerManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_174) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_5) =>
         {
-            using (__args_174)
+            using (__args_5)
             {
                 // Argument 1
-                global::Iskra.StdWeb.MediaSessionActionDetails __arg_176;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_177 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_174, 0);
-                __arg_176 = new global::Iskra.StdWeb.MediaSessionActionDetails(__res_177);
+                global::Iskra.StdWeb.MediaSessionActionDetails __arg_7;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_8 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_5, 0);
+                __arg_7 = new global::Iskra.StdWeb.MediaSessionActionDetails(__res_8);
 
-                input(__arg_176);
+                input(__arg_7);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_178 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_178, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_9 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_9, input);
 
-        return __funcObj_178;
+        return __funcObj_9;
     }
 }
 

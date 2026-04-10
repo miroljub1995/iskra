@@ -35,6 +35,12 @@ public partial class SummarizerCreateCoreOptions: global::Iskra.JSCore.JSObjectP
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.SummarizerLength, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "length", value);
     }
 
+    public global::Iskra.StdWeb.PerformancePreference Preference
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PerformancePreference, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "preference");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.PerformancePreference, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "preference", value);
+    }
+
     public global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor> ExpectedInputLanguages
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "expectedInputLanguages");

@@ -32,39 +32,39 @@ public partial class NotificationPermissionCallback(global::System.Runtime.Inter
 
         managed = (permission) =>
         {
-            int __argsArrayLength_1741 = 1;
+            int ___argsArrayLength_3 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1738 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_1741);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
             // Argument 1
-            string __marshalledValue_1742;
-            __marshalledValue_1742 = permission.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__argsArray_1738.JSObject, 0, __marshalledValue_1742);
+            string ___marshalledValue_4;
+            ___marshalledValue_4 = permission.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_1738.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, ___argsArray_0.JSObject);
         };
         return true;
     }
     
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(NotificationPermissionCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1743) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_352) =>
         {
-            using (__args_1743)
+            using (__args_352)
             {
                 // Argument 1
-                global::Iskra.StdWeb.NotificationPermission __arg_1745;
-                string __res_1746 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_1743, 0);
-                __arg_1745 = global::Iskra.StdWeb.NotificationPermission.Create(__res_1746);
+                global::Iskra.StdWeb.NotificationPermission __arg_354;
+                string __res_355 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_352, 0);
+                __arg_354 = global::Iskra.StdWeb.NotificationPermission.Create(__res_355);
 
-                input(__arg_1745);
+                input(__arg_354);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1747 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1747, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_356 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_356, input);
 
-        return __funcObj_1747;
+        return __funcObj_356;
     }
 }
 

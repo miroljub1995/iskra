@@ -194,6 +194,7 @@ public class CallbackTypeGenerator(
         var toTypeDeclarationGenerator = provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
         var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();
 
+        using var managedScope = VariableName.CreateScope();
         var argsArrayVar = VariableName.Current.GetNext("argsArray");
         var resOwnerVar = VariableName.Current.GetNext("resOwner");
         var resVar = VariableName.Current.GetNext("res");

@@ -96,6 +96,26 @@ public partial class PerformanceResourceTiming(global::System.Runtime.InteropSer
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "responseEnd");
     }
 
+    public double WorkerRouterEvaluationStart
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "workerRouterEvaluationStart");
+    }
+
+    public double WorkerCacheLookupStart
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<double, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "workerCacheLookupStart");
+    }
+
+    public string WorkerMatchedRouterSource
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "workerMatchedRouterSource");
+    }
+
+    public string WorkerFinalRouterSource
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "workerFinalRouterSource");
+    }
+
     public ulong TransferSize
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "transferSize");

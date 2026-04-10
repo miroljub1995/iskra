@@ -32,39 +32,39 @@ public partial class EventListenerCallback(global::System.Runtime.InteropService
 
         managed = (@event) =>
         {
-            int __argsArrayLength_3106 = 1;
+            int ___argsArrayLength_3 = 1;
 
-            using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_3103 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(__argsArrayLength_3106);
+            using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
             // Argument 1
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_3107;
-            __marshalledValue_3107 = @event.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__argsArray_3103.JSObject, 0, __marshalledValue_3107);
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+            ___marshalledValue_4 = @event.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, __argsArray_3103.JSObject);
+            global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunction(JSObject, null, ___argsArray_0.JSObject);
         };
         return true;
     }
     
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(EventListenerCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_3108) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_580) =>
         {
-            using (__args_3108)
+            using (__args_580)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Event __arg_3110;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_3111 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_3108, 0);
-                __arg_3110 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(__res_3111);
+                global::Iskra.StdWeb.Event __arg_582;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_583 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_580, 0);
+                __arg_582 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(__res_583);
 
-                input(__arg_3110);
+                input(__arg_582);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_3112 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_3112, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_584 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_584, input);
 
-        return __funcObj_3112;
+        return __funcObj_584;
     }
 }
 

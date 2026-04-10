@@ -8,22 +8,22 @@ public partial class Sanitizer(global::System.Runtime.InteropServices.JavaScript
 {
     public static global::Iskra.StdWeb.Sanitizer New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2745 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Sanitizer");
-        return new global::Iskra.StdWeb.Sanitizer(__res_2745);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Sanitizer");
+        return new global::Iskra.StdWeb.Sanitizer(___res_2);
     }
 
     public static global::Iskra.StdWeb.Sanitizer New(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.SanitizerConfig, global::Iskra.StdWeb.SanitizerPresets, global::Iskra.StdWeb.GenericMarshaller.Union> configuration)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_3 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_2740 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = configuration.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_2740.JSObject, 0, ___propObject_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = configuration.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0, ___propObject_4);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2742 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Sanitizer", __argsArray_2740.JSObject);
-        return new global::Iskra.StdWeb.Sanitizer(__res_2742);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Sanitizer", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.Sanitizer(___res_2);
     }
 
     public global::Iskra.StdWeb.SanitizerConfig Get()

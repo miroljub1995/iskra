@@ -8,8 +8,8 @@ public partial class RdfGraph(global::System.Runtime.InteropServices.JavaScript.
 {
     public static global::Iskra.StdWeb.RdfGraph New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2137 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RdfGraph");
-        return new global::Iskra.StdWeb.RdfGraph(__res_2137);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RdfGraph");
+        return new global::Iskra.StdWeb.RdfGraph(___res_2);
     }
 
     public void Add(global::Iskra.StdWeb.RdfTriple triple)

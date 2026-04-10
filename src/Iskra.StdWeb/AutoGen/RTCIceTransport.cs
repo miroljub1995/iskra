@@ -96,8 +96,8 @@ public partial class RTCIceTransport(global::System.Runtime.InteropServices.Java
 
     public static global::Iskra.StdWeb.RTCIceTransport New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_895 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCIceTransport");
-        return new global::Iskra.StdWeb.RTCIceTransport(__res_895);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCIceTransport");
+        return new global::Iskra.StdWeb.RTCIceTransport(___res_2);
     }
 
     public void Gather()

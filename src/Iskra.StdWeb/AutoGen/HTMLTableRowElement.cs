@@ -8,8 +8,8 @@ public partial class HTMLTableRowElement(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.HTMLTableRowElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2355 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTableRowElement");
-        return new global::Iskra.StdWeb.HTMLTableRowElement(__res_2355);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTableRowElement");
+        return new global::Iskra.StdWeb.HTMLTableRowElement(___res_2);
     }
 
     public int RowIndex

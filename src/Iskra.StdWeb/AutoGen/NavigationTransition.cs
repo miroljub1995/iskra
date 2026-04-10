@@ -16,6 +16,11 @@ public partial class NavigationTransition(global::System.Runtime.InteropServices
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NavigationHistoryEntry, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "from");
     }
 
+    public global::Iskra.StdWeb.NavigationDestination To
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NavigationDestination, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "to");
+    }
+
     public global::Iskra.JSCore.Promise Committed
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "committed");

@@ -41,9 +41,9 @@ public partial class VoidFunction(global::System.Runtime.InteropServices.JavaScr
     
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(VoidFunctionManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_1332) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_287) =>
         {
-            using (__args_1332)
+            using (__args_287)
             {
 
 
@@ -51,10 +51,10 @@ public partial class VoidFunction(global::System.Runtime.InteropServices.JavaScr
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_1334 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_1334, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_289 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_289, input);
 
-        return __funcObj_1334;
+        return __funcObj_289;
     }
 }
 

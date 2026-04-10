@@ -8,22 +8,22 @@ public partial class URLSearchParams(global::System.Runtime.InteropServices.Java
 {
     public static global::Iskra.StdWeb.URLSearchParams New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1549 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "URLSearchParams");
-        return new global::Iskra.StdWeb.URLSearchParams(__res_1549);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "URLSearchParams");
+        return new global::Iskra.StdWeb.URLSearchParams(___res_2);
     }
 
     public static global::Iskra.StdWeb.URLSearchParams New(global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.JSArray<global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.JSCore.Generics.Record<string, global::Iskra.StdWeb.PropertyAccessor>, string, global::Iskra.StdWeb.GenericMarshaller.Union> init)
     {
-        int ___argsArrayLength_0 = 1;
+        int ___argsArrayLength_3 = 1;
 
-        using global::Iskra.JSCore.ArgsArrayPool.Owner __argsArray_1544 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_0);
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_3);
 
         // Argument 1
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_1 = init.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(__argsArray_1544.JSObject, 0, ___propObject_1);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_4 = init.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0, ___propObject_4);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_1546 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "URLSearchParams", __argsArray_1544.JSObject);
-        return new global::Iskra.StdWeb.URLSearchParams(__res_1546);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "URLSearchParams", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.URLSearchParams(___res_2);
     }
 
     public uint Size

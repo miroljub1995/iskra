@@ -8,8 +8,8 @@ public partial class HTMLTemplateElement(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.HTMLTemplateElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2421 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTemplateElement");
-        return new global::Iskra.StdWeb.HTMLTemplateElement(__res_2421);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTemplateElement");
+        return new global::Iskra.StdWeb.HTMLTemplateElement(___res_2);
     }
 
     public global::Iskra.StdWeb.DocumentFragment Content

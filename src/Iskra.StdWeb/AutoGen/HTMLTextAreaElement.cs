@@ -8,8 +8,8 @@ public partial class HTMLTextAreaElement(global::System.Runtime.InteropServices.
 {
     public static global::Iskra.StdWeb.HTMLTextAreaElement New()
     {
-        global::System.Runtime.InteropServices.JavaScript.JSObject __res_2382 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTextAreaElement");
-        return new global::Iskra.StdWeb.HTMLTextAreaElement(__res_2382);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLTextAreaElement");
+        return new global::Iskra.StdWeb.HTMLTextAreaElement(___res_2);
     }
 
     public string Autocomplete

@@ -66,6 +66,11 @@ public partial class PerformanceNavigationTiming(global::System.Runtime.InteropS
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NotRestoredReasons?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "notRestoredReasons");
     }
 
+    public global::Iskra.StdWeb.PerformanceTimingConfidence Confidence
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.PerformanceTimingConfidence, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "confidence");
+    }
+
     public global::System.Runtime.InteropServices.JavaScript.JSObject ToJSON()
     {
         using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
