@@ -53,6 +53,7 @@ public class ConstructorMemberTypeGenerator(
         var body = string.Join("\n\n", bodyStatements);
 
         var content = $$"""
+                        [global::System.Runtime.Versioning.SupportedOSPlatformAttribute("browser")]
                         public static global::{{genSettings.Namespace}}.{{container.Name}} New({{args}})
                         {
                         {{body.IndentLines(4)}}

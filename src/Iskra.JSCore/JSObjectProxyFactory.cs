@@ -1,8 +1,10 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices.JavaScript;
+using System.Runtime.Versioning;
 
 namespace Iskra.JSCore;
 
+[SupportedOSPlatform("browser")]
 public static partial class JSObjectProxyFactory
 {
     private static readonly Dictionary<int, Func<JSObject, JSObjectProxy>> GlobalFactories = new();

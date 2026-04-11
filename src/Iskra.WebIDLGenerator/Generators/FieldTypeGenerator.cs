@@ -28,6 +28,7 @@ public class FieldTypeGenerator(
                        """;
 
         var content = $$"""
+                        [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
                         public{{requiredKeyword}} {{returnTypeDeclaration}} {{input.Name.CapitalizeFirstLetter()}}
                         {
                         {{getter.IndentLines(4)}}

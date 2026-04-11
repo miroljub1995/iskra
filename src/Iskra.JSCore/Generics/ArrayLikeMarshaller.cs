@@ -1,8 +1,10 @@
 using System.Runtime.InteropServices.JavaScript;
+using System.Runtime.Versioning;
 using Iskra.JSCore.Extensions;
 
 namespace Iskra.JSCore.Generics;
 
+[SupportedOSPlatform("browser")]
 public static partial class ArrayLikeMarshaller
 {
     [JSImport("construct", "iskra")]

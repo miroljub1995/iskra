@@ -28,4 +28,8 @@
     <ItemGroup>
         <ProjectReference Include="..\Iskra.JSCore\Iskra.JSCore.csproj"/>
     </ItemGroup>
+    
+    <ItemGroup>
+        <SupportedPlatform Include="browser" />
+    </ItemGroup>
 </Project>

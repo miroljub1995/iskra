@@ -57,6 +57,7 @@ public class AttributeMemberTypeGenerator(
         var body = string.Join("\n", bodyParts);
 
         var content = $$"""
+                        [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
                         public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}
                         {
                         {{body.IndentLines(4)}}

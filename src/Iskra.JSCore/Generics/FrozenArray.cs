@@ -1,14 +1,22 @@
 using System.Runtime.InteropServices.JavaScript;
+using System.Runtime.Versioning;
 using Iskra.JSCore.Extensions;
 
 namespace Iskra.JSCore.Generics;
 
-public class FrozenArray<T, TAccessor>(JSObject obj) : JSObjectProxy(obj)
+public class FrozenArray<T, TAccessor> : JSObjectProxy
     where TAccessor : IPropertyAccessor<T>
 {
+    [SupportedOSPlatform("browser")]
+    public FrozenArray(JSObject obj) : base(obj)
+    {
+    }
+
+    [SupportedOSPlatform("browser")]
     public static implicit operator FrozenArray<T, TAccessor>(T[] input) =>
         new(ArrayLikeMarshaller.ToJS<T, TAccessor>(input));
 
+    [SupportedOSPlatform("browser")]
     public static implicit operator T[](FrozenArray<T, TAccessor> input) =>
         ArrayLikeMarshaller.ToManaged<T, TAccessor>(input.JSObject);
 

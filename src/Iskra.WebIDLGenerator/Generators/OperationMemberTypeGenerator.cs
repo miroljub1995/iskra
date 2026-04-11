@@ -144,6 +144,7 @@ public class OperationMemberTypeGenerator(
         var body = string.Join("\n\n", bodyStatements);
 
         var content = $$"""
+                        [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
                         public{{staticKeyword}} {{returnTypeDeclaration}} {{name}}({{args}})
                         {
                         {{body.IndentLines(4)}}

@@ -1,11 +1,17 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.JavaScript;
+using System.Runtime.Versioning;
 
 namespace Iskra.JSCore.Generics;
 
-public partial class Promise<T, TPropertyAccessor>(JSObject obj) : JSObjectProxy(obj)
+public partial class Promise<T, TPropertyAccessor> : JSObjectProxy
     where TPropertyAccessor : IPropertyAccessor<T>
 {
+    [SupportedOSPlatform("browser")]
+    public Promise(JSObject obj) : base(obj)
+    {
+    }
+
     [JSImport("construct", "iskra")]
     private static partial JSObject ConstructObject(JSObject obj, string constructorName);
 
@@ -15,12 +21,15 @@ public partial class Promise<T, TPropertyAccessor>(JSObject obj) : JSObjectProxy
     [JSImport("unwrapPromiseValue", "iskra")]
     private static partial JSObject UnwrapPromiseValue(Task<JSObject> task);
 
+    [SupportedOSPlatform("browser")]
     public static implicit operator Task<T>(Promise<T, TPropertyAccessor> promise) => ToManaged(promise.JSObject);
 
+    [SupportedOSPlatform("browser")]
     public static implicit operator Promise<T, TPropertyAccessor>(Task<T> task) => new(ToJS(task));
 
     public TaskAwaiter<T> GetAwaiter() => ((Task<T>)this).GetAwaiter();
 
+    [SupportedOSPlatform("browser")]
     private static Task<T> ToManaged(JSObject input) =>
         WrapPromiseValue(input)
             .ContinueWith(
@@ -33,6 +42,7 @@ public partial class Promise<T, TPropertyAccessor>(JSObject obj) : JSObjectProxy
                 TaskContinuationOptions.OnlyOnRanToCompletion
             );
 
+    [SupportedOSPlatform("browser")]
     static JSObject ToJS(Task<T> input)
     {
         var wrappedPromiseValue = input

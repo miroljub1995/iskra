@@ -1,21 +1,28 @@
 using System.Collections;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices.JavaScript;
+using System.Runtime.Versioning;
 using Iskra.JSCore.Extensions;
 
 namespace Iskra.JSCore.Generics;
 
-public partial class Record<TValue, TAccessor>(JSObject obj)
-    : JSObjectProxy(obj), IEnumerable<KeyValuePair<string, TValue>>
+public partial class Record<TValue, TAccessor> : JSObjectProxy, IEnumerable<KeyValuePair<string, TValue>>
     where TAccessor : IPropertyAccessor<TValue>
 {
     [JSImport("construct", "iskra")]
     private static partial JSObject ConstructObject(JSObject obj, string constructorName);
 
+    [SupportedOSPlatform("browser")]
     public Record() : this(ConstructObject(JSHost.GlobalThis, "Object"))
     {
     }
 
+    [SupportedOSPlatform("browser")]
+    public Record(JSObject obj) : base(obj)
+    {
+    }
+
+    [SupportedOSPlatform("browser")]
     public TValue this[string key]
     {
         get => TryGetValue(key, out var value)
@@ -28,8 +35,10 @@ public partial class Record<TValue, TAccessor>(JSObject obj)
 
     public ICollection<TValue> Values => throw new NotImplementedException();
 
+    [SupportedOSPlatform("browser")]
     public bool ContainsKey(string key) => JSObject.HasProperty(key);
 
+    [SupportedOSPlatform("browser")]
     public void Add(string key, TValue value)
     {
         if (ContainsKey(key))
@@ -42,6 +51,7 @@ public partial class Record<TValue, TAccessor>(JSObject obj)
 
     public bool Remove(string key) => JSObject.DeleteProperty(key);
 
+    [SupportedOSPlatform("browser")]
     public bool TryGetValue(string key, [MaybeNullWhen(false)] out TValue value)
     {
         if (!ContainsKey(key))

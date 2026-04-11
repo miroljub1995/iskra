@@ -1,9 +1,11 @@
 using System.Collections.Concurrent;
 using System.Runtime.InteropServices.JavaScript;
+using System.Runtime.Versioning;
 using Iskra.JSCore.Extensions;
 
 namespace Iskra.JSCore;
 
+[SupportedOSPlatform("browser")]
 public partial class ArgsArrayPool
 {
     public static ArgsArrayPool Shared { get; } = new();

@@ -1,14 +1,22 @@
 using System.Runtime.InteropServices.JavaScript;
+using System.Runtime.Versioning;
 using Iskra.JSCore.Extensions;
 
 namespace Iskra.JSCore.Generics;
 
-public class ObservableArray<T, TAccessor>(JSObject obj) : JSObjectProxy(obj)
+public class ObservableArray<T, TAccessor> : JSObjectProxy
     where TAccessor : IPropertyAccessor<T>
 {
+    [SupportedOSPlatform("browser")]
+    public ObservableArray(JSObject obj) : base(obj)
+    {
+    }
+
+    [SupportedOSPlatform("browser")]
     public static implicit operator ObservableArray<T, TAccessor>(T[] input) =>
         new(ArrayLikeMarshaller.ToJS<T, TAccessor>(input));
 
+    [SupportedOSPlatform("browser")]
     public static implicit operator T[](ObservableArray<T, TAccessor> input) =>
         ArrayLikeMarshaller.ToManaged<T, TAccessor>(input.JSObject);
 

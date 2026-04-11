@@ -1,8 +1,10 @@
 using System.Collections.Concurrent;
 using System.Runtime.InteropServices.JavaScript;
+using System.Runtime.Versioning;
 
 namespace Iskra.JSCore;
 
+[SupportedOSPlatform("browser")]
 public partial class FunctionResPool
 {
     public static FunctionResPool Shared { get; } = new();

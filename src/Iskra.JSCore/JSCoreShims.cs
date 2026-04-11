@@ -1,7 +1,9 @@
 using System.Runtime.InteropServices.JavaScript;
+using System.Runtime.Versioning;
 
 namespace Iskra.JSCore;
 
+[SupportedOSPlatform("browser")]
 public static partial class JSCoreShims
 {
     [JSImport("globalThis.Reflect.set")]
