@@ -3,17 +3,17 @@ using Iskra.Signals;
 
 namespace Iskra.Core.Instances;
 
-public class ComponentInstance<TComponent, TPropsInit, TExpose> : BaseInstance
-    where TComponent : IComponent<TComponent, TPropsInit, TExpose>
+public class ComponentInstance<TComponent, TPropsInit, TExpose, TFallthrough> : BaseInstance
+    where TComponent : IClientComponent<TComponent, TPropsInit, TExpose, TFallthrough>
 {
     private readonly EffectScope _effectScope = new();
 
-    public ComponentInstance(TPropsInit props)
+    public ComponentInstance(TPropsInit props, TFallthrough fallthrough)
     {
-        Component = TComponent.CreateComponent(props);
+        Component = TComponent.SetupClientComponent(props, fallthrough);
     }
 
-    public TComponent Component { get; }
+    public ClientComponent<TExpose> Component { get; }
 
     public override void Mount(IRenderSlot slot)
     {

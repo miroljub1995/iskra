@@ -33,10 +33,13 @@ public static class Program
         _window.Console.Log("Canvas Bouncing Balls initialized!");
 
         // Create container
-        var container = _window.Document.CreateElement("div");
-        container.SetAttribute("style",
-            "text-align: center; padding: 20px; font-family: Arial;");
+        var container = (HTMLDivElement)_window.Document.CreateElement("div");
+        // container.SetAttribute("style",
+        //     "text-align: center; padding: 20px; font-family: Arial;");
         _window.Document.Body?.AppendChild(container);
+        container.Style.SetProperty("textAlign", "center");
+        container.Style.SetProperty("padding", "20px");
+        container.Style.SetProperty("fontFamily", "20px");
 
         // Title
         var title = _window.Document.CreateElement("h1");

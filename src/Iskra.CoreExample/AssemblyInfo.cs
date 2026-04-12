@@ -1,3 +1,3 @@
 using System.Runtime.Versioning;
 
-[assembly: SupportedOSPlatform("browser")]
+// [assembly: SupportedOSPlatform("browser")]
