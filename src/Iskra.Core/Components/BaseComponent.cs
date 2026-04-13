@@ -3,15 +3,16 @@ using Iskra.Signals;
 
 namespace Iskra.Core.Components;
 
-public abstract class BaseComponent<TProps, TEvents, TExpose>(
-    TProps props,
-    TEvents events,
-    ISignal<TExpose?>? reference = null) : IComponent
+public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
     where TEvents : BaseEmits
 {
     private readonly EffectScope _effectScope = new();
     private readonly List<Action<Action<Action>>> _onMountedCallbacks = [];
     private readonly List<Action> _onUnmountedActions = [];
+
+    public required TProps Props { get; init; }
+    public TEvents? Events { get; init; }
+    public ISignal<TExpose?>? Ref { get; init; }
 
     protected void OnMounted(Action<Action<Action>> callback)
     {
@@ -33,10 +34,11 @@ public abstract class BaseComponent<TProps, TEvents, TExpose>(
     {
         _effectScope.Run(() =>
         {
-            var instances = Setup(props, events, out var exposed);
-            if (reference is not null)
+            var instances = Setup(Props, Events, out var exposed);
+            if (Ref is not null)
             {
-                reference.Value = exposed;
+                Ref.Value = exposed;
+                new Effect(onCleanup => onCleanup(() => Ref.Value = default));
             }
 
             // Mount instances
@@ -52,7 +54,7 @@ public abstract class BaseComponent<TProps, TEvents, TExpose>(
 
             new Effect(onCleanup => onCleanup(() =>
             {
-                events.Disable();
+                Events?.Disable();
 
                 // Unmount instances
                 foreach (var instance in instances)
@@ -73,5 +75,5 @@ public abstract class BaseComponent<TProps, TEvents, TExpose>(
         _effectScope.Dispose();
     }
 
-    protected abstract IComponent[] Setup(TProps props, TEvents events, out TExpose exposed);
+    protected abstract IComponent[] Setup(TProps props, TEvents? events, out TExpose exposed);
 }

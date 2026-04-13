@@ -7,23 +7,23 @@ public class HtmlElementComponentEvents<TElement> : ElementComponentEvents<TElem
     where TElement : HTMLElement
 {
     // Drag & drop events
-    public Action<DragEvent>? Drag { get; init; }
-    public Action<DragEvent>? DragEnd { get; init; }
-    public Action<DragEvent>? DragEnter { get; init; }
-    public Action<DragEvent>? DragLeave { get; init; }
-    public Action<DragEvent>? DragOver { get; init; }
-    public Action<DragEvent>? DragStart { get; init; }
-    public Action<DragEvent>? Drop { get; init; }
+    public Action<DragEvent>? OnDrag { get; init; }
+    public Action<DragEvent>? OnDragEnd { get; init; }
+    public Action<DragEvent>? OnDragEnter { get; init; }
+    public Action<DragEvent>? OnDragLeave { get; init; }
+    public Action<DragEvent>? OnDragOver { get; init; }
+    public Action<DragEvent>? OnDragStart { get; init; }
+    public Action<DragEvent>? OnDrop { get; init; }
 
     // Toggle events
-    public Action<ToggleEvent>? BeforeToggle { get; init; }
-    public Action<ToggleEvent>? Toggle { get; init; }
+    public Action<ToggleEvent>? OnBeforeToggle { get; init; }
+    public Action<ToggleEvent>? OnToggle { get; init; }
 
     // Other events
-    public Action<Event>? Change { get; init; }
-    public Action<CommandEvent>? Command { get; init; }
-    public Action<ErrorEvent>? Error { get; init; }
-    public Action<Event>? Load { get; init; }
+    public Action<Event>? OnChange { get; init; }
+    public Action<CommandEvent>? OnCommand { get; init; }
+    public Action<ErrorEvent>? OnError { get; init; }
+    public Action<Event>? OnLoad { get; init; }
 
     [SupportedOSPlatform("browser")]
     protected internal override void RegisterClientEffects(Action<Func<TElement, Action>> register)
@@ -31,35 +31,35 @@ public class HtmlElementComponentEvents<TElement> : ElementComponentEvents<TElem
         base.RegisterClientEffects(register);
 
         // Drag & drop events
-        if (Drag is not null)
-            RegisterEventListener(register, Drag, "drag");
-        if (DragEnd is not null)
-            RegisterEventListener(register, DragEnd, "dragend");
-        if (DragEnter is not null)
-            RegisterEventListener(register, DragEnter, "dragenter");
-        if (DragLeave is not null)
-            RegisterEventListener(register, DragLeave, "dragleave");
-        if (DragOver is not null)
-            RegisterEventListener(register, DragOver, "dragover");
-        if (DragStart is not null)
-            RegisterEventListener(register, DragStart, "dragstart");
-        if (Drop is not null)
-            RegisterEventListener(register, Drop, "drop");
+        if (OnDrag is not null)
+            RegisterEventListener(register, OnDrag, "drag");
+        if (OnDragEnd is not null)
+            RegisterEventListener(register, OnDragEnd, "dragend");
+        if (OnDragEnter is not null)
+            RegisterEventListener(register, OnDragEnter, "dragenter");
+        if (OnDragLeave is not null)
+            RegisterEventListener(register, OnDragLeave, "dragleave");
+        if (OnDragOver is not null)
+            RegisterEventListener(register, OnDragOver, "dragover");
+        if (OnDragStart is not null)
+            RegisterEventListener(register, OnDragStart, "dragstart");
+        if (OnDrop is not null)
+            RegisterEventListener(register, OnDrop, "drop");
 
         // Toggle events
-        if (BeforeToggle is not null)
-            RegisterEventListener(register, BeforeToggle, "beforetoggle");
-        if (Toggle is not null)
-            RegisterEventListener(register, Toggle, "toggle");
+        if (OnBeforeToggle is not null)
+            RegisterEventListener(register, OnBeforeToggle, "beforetoggle");
+        if (OnToggle is not null)
+            RegisterEventListener(register, OnToggle, "toggle");
 
         // Other events
-        if (Change is not null)
-            RegisterEventListener(register, Change, "change");
-        if (Command is not null)
-            RegisterEventListener(register, Command, "command");
-        if (Error is not null)
-            RegisterEventListener(register, Error, "error");
-        if (Load is not null)
-            RegisterEventListener(register, Load, "load");
+        if (OnChange is not null)
+            RegisterEventListener(register, OnChange, "change");
+        if (OnCommand is not null)
+            RegisterEventListener(register, OnCommand, "command");
+        if (OnError is not null)
+            RegisterEventListener(register, OnError, "error");
+        if (OnLoad is not null)
+            RegisterEventListener(register, OnLoad, "load");
     }
 }

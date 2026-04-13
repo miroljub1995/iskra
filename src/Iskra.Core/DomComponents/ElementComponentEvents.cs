@@ -7,87 +7,87 @@ public class ElementComponentEvents<TElement> : BaseDomComponentEvents<TElement>
     where TElement : Element
 {
     // Animation events
-    public Action<AnimationEvent>? AnimationCancel { get; init; }
-    public Action<AnimationEvent>? AnimationEnd { get; init; }
-    public Action<AnimationEvent>? AnimationIteration { get; init; }
-    public Action<AnimationEvent>? AnimationStart { get; init; }
+    public Action<AnimationEvent>? OnAnimationCancel { get; init; }
+    public Action<AnimationEvent>? OnAnimationEnd { get; init; }
+    public Action<AnimationEvent>? OnAnimationIteration { get; init; }
+    public Action<AnimationEvent>? OnAnimationStart { get; init; }
 
     // Clipboard events
-    public Action<ClipboardEvent>? Copy { get; init; }
-    public Action<ClipboardEvent>? Cut { get; init; }
-    public Action<ClipboardEvent>? Paste { get; init; }
+    public Action<ClipboardEvent>? OnCopy { get; init; }
+    public Action<ClipboardEvent>? OnCut { get; init; }
+    public Action<ClipboardEvent>? OnPaste { get; init; }
 
     // Composition events
-    public Action<CompositionEvent>? CompositionEnd { get; init; }
-    public Action<CompositionEvent>? CompositionStart { get; init; }
-    public Action<CompositionEvent>? CompositionUpdate { get; init; }
+    public Action<CompositionEvent>? OnCompositionEnd { get; init; }
+    public Action<CompositionEvent>? OnCompositionStart { get; init; }
+    public Action<CompositionEvent>? OnCompositionUpdate { get; init; }
 
     // Focus events
-    public Action<FocusEvent>? Blur { get; init; }
-    public Action<FocusEvent>? Focus { get; init; }
-    public Action<FocusEvent>? FocusIn { get; init; }
-    public Action<FocusEvent>? FocusOut { get; init; }
+    public Action<FocusEvent>? OnBlur { get; init; }
+    public Action<FocusEvent>? OnFocus { get; init; }
+    public Action<FocusEvent>? OnFocusIn { get; init; }
+    public Action<FocusEvent>? OnFocusOut { get; init; }
 
     // Fullscreen events
-    public Action<Event>? FullscreenChange { get; init; }
-    public Action<Event>? FullscreenError { get; init; }
+    public Action<Event>? OnFullscreenChange { get; init; }
+    public Action<Event>? OnFullscreenError { get; init; }
 
     // Keyboard events
-    public Action<KeyboardEvent>? KeyDown { get; init; }
-    public Action<KeyboardEvent>? KeyUp { get; init; }
+    public Action<KeyboardEvent>? OnKeyDown { get; init; }
+    public Action<KeyboardEvent>? OnKeyUp { get; init; }
 
     // Mouse events
-    public Action<PointerEvent>? AuxClick { get; init; }
-    public Action<PointerEvent>? Click { get; init; }
-    public Action<MouseEvent>? ContextMenu { get; init; }
-    public Action<MouseEvent>? DblClick { get; init; }
-    public Action<MouseEvent>? MouseDown { get; init; }
-    public Action<MouseEvent>? MouseEnter { get; init; }
-    public Action<MouseEvent>? MouseLeave { get; init; }
-    public Action<MouseEvent>? MouseMove { get; init; }
-    public Action<MouseEvent>? MouseOut { get; init; }
-    public Action<MouseEvent>? MouseOver { get; init; }
-    public Action<MouseEvent>? MouseUp { get; init; }
+    public Action<PointerEvent>? OnAuxClick { get; init; }
+    public Action<PointerEvent>? OnClick { get; init; }
+    public Action<MouseEvent>? OnContextMenu { get; init; }
+    public Action<MouseEvent>? OnDblClick { get; init; }
+    public Action<MouseEvent>? OnMouseDown { get; init; }
+    public Action<MouseEvent>? OnMouseEnter { get; init; }
+    public Action<MouseEvent>? OnMouseLeave { get; init; }
+    public Action<MouseEvent>? OnMouseMove { get; init; }
+    public Action<MouseEvent>? OnMouseOut { get; init; }
+    public Action<MouseEvent>? OnMouseOver { get; init; }
+    public Action<MouseEvent>? OnMouseUp { get; init; }
 
     // Pointer events
-    public Action<PointerEvent>? GotPointerCapture { get; init; }
-    public Action<PointerEvent>? LostPointerCapture { get; init; }
-    public Action<PointerEvent>? PointerCancel { get; init; }
-    public Action<PointerEvent>? PointerDown { get; init; }
-    public Action<PointerEvent>? PointerEnter { get; init; }
-    public Action<PointerEvent>? PointerLeave { get; init; }
-    public Action<PointerEvent>? PointerMove { get; init; }
-    public Action<PointerEvent>? PointerOut { get; init; }
-    public Action<PointerEvent>? PointerOver { get; init; }
-    public Action<PointerEvent>? PointerRawUpdate { get; init; }
-    public Action<PointerEvent>? PointerUp { get; init; }
+    public Action<PointerEvent>? OnGotPointerCapture { get; init; }
+    public Action<PointerEvent>? OnLostPointerCapture { get; init; }
+    public Action<PointerEvent>? OnPointerCancel { get; init; }
+    public Action<PointerEvent>? OnPointerDown { get; init; }
+    public Action<PointerEvent>? OnPointerEnter { get; init; }
+    public Action<PointerEvent>? OnPointerLeave { get; init; }
+    public Action<PointerEvent>? OnPointerMove { get; init; }
+    public Action<PointerEvent>? OnPointerOut { get; init; }
+    public Action<PointerEvent>? OnPointerOver { get; init; }
+    public Action<PointerEvent>? OnPointerRawUpdate { get; init; }
+    public Action<PointerEvent>? OnPointerUp { get; init; }
 
     // Scroll events
-    public Action<Event>? Scroll { get; init; }
-    public Action<Event>? ScrollEnd { get; init; }
-    public Action<SnapEvent>? ScrollSnapChange { get; init; }
-    public Action<SnapEvent>? ScrollSnapChanging { get; init; }
+    public Action<Event>? OnScroll { get; init; }
+    public Action<Event>? OnScrollEnd { get; init; }
+    public Action<SnapEvent>? OnScrollSnapChange { get; init; }
+    public Action<SnapEvent>? OnScrollSnapChanging { get; init; }
 
     // Touch events
-    public Action<TouchEvent>? TouchCancel { get; init; }
-    public Action<TouchEvent>? TouchEnd { get; init; }
-    public Action<TouchEvent>? TouchMove { get; init; }
-    public Action<TouchEvent>? TouchStart { get; init; }
+    public Action<TouchEvent>? OnTouchCancel { get; init; }
+    public Action<TouchEvent>? OnTouchEnd { get; init; }
+    public Action<TouchEvent>? OnTouchMove { get; init; }
+    public Action<TouchEvent>? OnTouchStart { get; init; }
 
     // Transition events
-    public Action<TransitionEvent>? TransitionCancel { get; init; }
-    public Action<TransitionEvent>? TransitionEnd { get; init; }
-    public Action<TransitionEvent>? TransitionRun { get; init; }
-    public Action<TransitionEvent>? TransitionStart { get; init; }
+    public Action<TransitionEvent>? OnTransitionCancel { get; init; }
+    public Action<TransitionEvent>? OnTransitionEnd { get; init; }
+    public Action<TransitionEvent>? OnTransitionRun { get; init; }
+    public Action<TransitionEvent>? OnTransitionStart { get; init; }
 
     // Other events
-    public Action<InputEvent>? BeforeInput { get; init; }
-    public Action<Event>? BeforeMatch { get; init; }
-    public Action<Event>? BeforeXrSelect { get; init; }
-    public Action<ContentVisibilityAutoStateChangeEvent>? ContentVisibilityAutoStateChange { get; init; }
-    public Action<InputEvent>? Input { get; init; }
-    public Action<SecurityPolicyViolationEvent>? SecurityPolicyViolation { get; init; }
-    public Action<WheelEvent>? Wheel { get; init; }
+    public Action<InputEvent>? OnBeforeInput { get; init; }
+    public Action<Event>? OnBeforeMatch { get; init; }
+    public Action<Event>? OnBeforeXrSelect { get; init; }
+    public Action<ContentVisibilityAutoStateChangeEvent>? OnContentVisibilityAutoStateChange { get; init; }
+    public Action<InputEvent>? OnInput { get; init; }
+    public Action<SecurityPolicyViolationEvent>? OnSecurityPolicyViolation { get; init; }
+    public Action<WheelEvent>? OnWheel { get; init; }
 
     [SupportedOSPlatform("browser")]
     protected internal override void RegisterClientEffects(Action<Func<TElement, Action>> register)
@@ -95,145 +95,145 @@ public class ElementComponentEvents<TElement> : BaseDomComponentEvents<TElement>
         base.RegisterClientEffects(register);
 
         // Animation events
-        if (AnimationCancel is not null)
-            RegisterEventListener(register, AnimationCancel, "animationcancel");
-        if (AnimationEnd is not null)
-            RegisterEventListener(register, AnimationEnd, "animationend");
-        if (AnimationIteration is not null)
-            RegisterEventListener(register, AnimationIteration, "animationiteration");
-        if (AnimationStart is not null)
-            RegisterEventListener(register, AnimationStart, "animationstart");
+        if (OnAnimationCancel is not null)
+            RegisterEventListener(register, OnAnimationCancel, "animationcancel");
+        if (OnAnimationEnd is not null)
+            RegisterEventListener(register, OnAnimationEnd, "animationend");
+        if (OnAnimationIteration is not null)
+            RegisterEventListener(register, OnAnimationIteration, "animationiteration");
+        if (OnAnimationStart is not null)
+            RegisterEventListener(register, OnAnimationStart, "animationstart");
 
         // Clipboard events
-        if (Copy is not null)
-            RegisterEventListener(register, Copy, "copy");
-        if (Cut is not null)
-            RegisterEventListener(register, Cut, "cut");
-        if (Paste is not null)
-            RegisterEventListener(register, Paste, "paste");
+        if (OnCopy is not null)
+            RegisterEventListener(register, OnCopy, "copy");
+        if (OnCut is not null)
+            RegisterEventListener(register, OnCut, "cut");
+        if (OnPaste is not null)
+            RegisterEventListener(register, OnPaste, "paste");
 
         // Composition events
-        if (CompositionEnd is not null)
-            RegisterEventListener(register, CompositionEnd, "compositionend");
-        if (CompositionStart is not null)
-            RegisterEventListener(register, CompositionStart, "compositionstart");
-        if (CompositionUpdate is not null)
-            RegisterEventListener(register, CompositionUpdate, "compositionupdate");
+        if (OnCompositionEnd is not null)
+            RegisterEventListener(register, OnCompositionEnd, "compositionend");
+        if (OnCompositionStart is not null)
+            RegisterEventListener(register, OnCompositionStart, "compositionstart");
+        if (OnCompositionUpdate is not null)
+            RegisterEventListener(register, OnCompositionUpdate, "compositionupdate");
 
         // Focus events
-        if (Blur is not null)
-            RegisterEventListener(register, Blur, "blur");
-        if (Focus is not null)
-            RegisterEventListener(register, Focus, "focus");
-        if (FocusIn is not null)
-            RegisterEventListener(register, FocusIn, "focusin");
-        if (FocusOut is not null)
-            RegisterEventListener(register, FocusOut, "focusout");
+        if (OnBlur is not null)
+            RegisterEventListener(register, OnBlur, "blur");
+        if (OnFocus is not null)
+            RegisterEventListener(register, OnFocus, "focus");
+        if (OnFocusIn is not null)
+            RegisterEventListener(register, OnFocusIn, "focusin");
+        if (OnFocusOut is not null)
+            RegisterEventListener(register, OnFocusOut, "focusout");
 
         // Fullscreen events
-        if (FullscreenChange is not null)
-            RegisterEventListener(register, FullscreenChange, "fullscreenchange");
-        if (FullscreenError is not null)
-            RegisterEventListener(register, FullscreenError, "fullscreenerror");
+        if (OnFullscreenChange is not null)
+            RegisterEventListener(register, OnFullscreenChange, "fullscreenchange");
+        if (OnFullscreenError is not null)
+            RegisterEventListener(register, OnFullscreenError, "fullscreenerror");
 
         // Keyboard events
-        if (KeyDown is not null)
-            RegisterEventListener(register, KeyDown, "keydown");
-        if (KeyUp is not null)
-            RegisterEventListener(register, KeyUp, "keyup");
+        if (OnKeyDown is not null)
+            RegisterEventListener(register, OnKeyDown, "keydown");
+        if (OnKeyUp is not null)
+            RegisterEventListener(register, OnKeyUp, "keyup");
 
         // Mouse events
-        if (AuxClick is not null)
-            RegisterEventListener(register, AuxClick, "auxclick");
-        if (Click is not null)
-            RegisterEventListener(register, Click, "click");
-        if (ContextMenu is not null)
-            RegisterEventListener(register, ContextMenu, "contextmenu");
-        if (DblClick is not null)
-            RegisterEventListener(register, DblClick, "dblclick");
-        if (MouseDown is not null)
-            RegisterEventListener(register, MouseDown, "mousedown");
-        if (MouseEnter is not null)
-            RegisterEventListener(register, MouseEnter, "mouseenter");
-        if (MouseLeave is not null)
-            RegisterEventListener(register, MouseLeave, "mouseleave");
-        if (MouseMove is not null)
-            RegisterEventListener(register, MouseMove, "mousemove");
-        if (MouseOut is not null)
-            RegisterEventListener(register, MouseOut, "mouseout");
-        if (MouseOver is not null)
-            RegisterEventListener(register, MouseOver, "mouseover");
-        if (MouseUp is not null)
-            RegisterEventListener(register, MouseUp, "mouseup");
+        if (OnAuxClick is not null)
+            RegisterEventListener(register, OnAuxClick, "auxclick");
+        if (OnClick is not null)
+            RegisterEventListener(register, OnClick, "click");
+        if (OnContextMenu is not null)
+            RegisterEventListener(register, OnContextMenu, "contextmenu");
+        if (OnDblClick is not null)
+            RegisterEventListener(register, OnDblClick, "dblclick");
+        if (OnMouseDown is not null)
+            RegisterEventListener(register, OnMouseDown, "mousedown");
+        if (OnMouseEnter is not null)
+            RegisterEventListener(register, OnMouseEnter, "mouseenter");
+        if (OnMouseLeave is not null)
+            RegisterEventListener(register, OnMouseLeave, "mouseleave");
+        if (OnMouseMove is not null)
+            RegisterEventListener(register, OnMouseMove, "mousemove");
+        if (OnMouseOut is not null)
+            RegisterEventListener(register, OnMouseOut, "mouseout");
+        if (OnMouseOver is not null)
+            RegisterEventListener(register, OnMouseOver, "mouseover");
+        if (OnMouseUp is not null)
+            RegisterEventListener(register, OnMouseUp, "mouseup");
 
         // Pointer events
-        if (GotPointerCapture is not null)
-            RegisterEventListener(register, GotPointerCapture, "gotpointercapture");
-        if (LostPointerCapture is not null)
-            RegisterEventListener(register, LostPointerCapture, "lostpointercapture");
-        if (PointerCancel is not null)
-            RegisterEventListener(register, PointerCancel, "pointercancel");
-        if (PointerDown is not null)
-            RegisterEventListener(register, PointerDown, "pointerdown");
-        if (PointerEnter is not null)
-            RegisterEventListener(register, PointerEnter, "pointerenter");
-        if (PointerLeave is not null)
-            RegisterEventListener(register, PointerLeave, "pointerleave");
-        if (PointerMove is not null)
-            RegisterEventListener(register, PointerMove, "pointermove");
-        if (PointerOut is not null)
-            RegisterEventListener(register, PointerOut, "pointerout");
-        if (PointerOver is not null)
-            RegisterEventListener(register, PointerOver, "pointerover");
-        if (PointerRawUpdate is not null)
-            RegisterEventListener(register, PointerRawUpdate, "pointerrawupdate");
-        if (PointerUp is not null)
-            RegisterEventListener(register, PointerUp, "pointerup");
+        if (OnGotPointerCapture is not null)
+            RegisterEventListener(register, OnGotPointerCapture, "gotpointercapture");
+        if (OnLostPointerCapture is not null)
+            RegisterEventListener(register, OnLostPointerCapture, "lostpointercapture");
+        if (OnPointerCancel is not null)
+            RegisterEventListener(register, OnPointerCancel, "pointercancel");
+        if (OnPointerDown is not null)
+            RegisterEventListener(register, OnPointerDown, "pointerdown");
+        if (OnPointerEnter is not null)
+            RegisterEventListener(register, OnPointerEnter, "pointerenter");
+        if (OnPointerLeave is not null)
+            RegisterEventListener(register, OnPointerLeave, "pointerleave");
+        if (OnPointerMove is not null)
+            RegisterEventListener(register, OnPointerMove, "pointermove");
+        if (OnPointerOut is not null)
+            RegisterEventListener(register, OnPointerOut, "pointerout");
+        if (OnPointerOver is not null)
+            RegisterEventListener(register, OnPointerOver, "pointerover");
+        if (OnPointerRawUpdate is not null)
+            RegisterEventListener(register, OnPointerRawUpdate, "pointerrawupdate");
+        if (OnPointerUp is not null)
+            RegisterEventListener(register, OnPointerUp, "pointerup");
 
         // Scroll events
-        if (Scroll is not null)
-            RegisterEventListener(register, Scroll, "scroll");
-        if (ScrollEnd is not null)
-            RegisterEventListener(register, ScrollEnd, "scrollend");
-        if (ScrollSnapChange is not null)
-            RegisterEventListener(register, ScrollSnapChange, "scrollsnapchange");
-        if (ScrollSnapChanging is not null)
-            RegisterEventListener(register, ScrollSnapChanging, "scrollsnapchanging");
+        if (OnScroll is not null)
+            RegisterEventListener(register, OnScroll, "scroll");
+        if (OnScrollEnd is not null)
+            RegisterEventListener(register, OnScrollEnd, "scrollend");
+        if (OnScrollSnapChange is not null)
+            RegisterEventListener(register, OnScrollSnapChange, "scrollsnapchange");
+        if (OnScrollSnapChanging is not null)
+            RegisterEventListener(register, OnScrollSnapChanging, "scrollsnapchanging");
 
         // Touch events
-        if (TouchCancel is not null)
-            RegisterEventListener(register, TouchCancel, "touchcancel");
-        if (TouchEnd is not null)
-            RegisterEventListener(register, TouchEnd, "touchend");
-        if (TouchMove is not null)
-            RegisterEventListener(register, TouchMove, "touchmove");
-        if (TouchStart is not null)
-            RegisterEventListener(register, TouchStart, "touchstart");
+        if (OnTouchCancel is not null)
+            RegisterEventListener(register, OnTouchCancel, "touchcancel");
+        if (OnTouchEnd is not null)
+            RegisterEventListener(register, OnTouchEnd, "touchend");
+        if (OnTouchMove is not null)
+            RegisterEventListener(register, OnTouchMove, "touchmove");
+        if (OnTouchStart is not null)
+            RegisterEventListener(register, OnTouchStart, "touchstart");
 
         // Transition events
-        if (TransitionCancel is not null)
-            RegisterEventListener(register, TransitionCancel, "transitioncancel");
-        if (TransitionEnd is not null)
-            RegisterEventListener(register, TransitionEnd, "transitionend");
-        if (TransitionRun is not null)
-            RegisterEventListener(register, TransitionRun, "transitionrun");
-        if (TransitionStart is not null)
-            RegisterEventListener(register, TransitionStart, "transitionstart");
+        if (OnTransitionCancel is not null)
+            RegisterEventListener(register, OnTransitionCancel, "transitioncancel");
+        if (OnTransitionEnd is not null)
+            RegisterEventListener(register, OnTransitionEnd, "transitionend");
+        if (OnTransitionRun is not null)
+            RegisterEventListener(register, OnTransitionRun, "transitionrun");
+        if (OnTransitionStart is not null)
+            RegisterEventListener(register, OnTransitionStart, "transitionstart");
 
         // Other events
-        if (BeforeInput is not null)
-            RegisterEventListener(register, BeforeInput, "beforeinput");
-        if (BeforeMatch is not null)
-            RegisterEventListener(register, BeforeMatch, "beforematch");
-        if (BeforeXrSelect is not null)
-            RegisterEventListener(register, BeforeXrSelect, "beforexrselect");
-        if (ContentVisibilityAutoStateChange is not null)
-            RegisterEventListener(register, ContentVisibilityAutoStateChange, "contentvisibilityautostatechange");
-        if (Input is not null)
-            RegisterEventListener(register, Input, "input");
-        if (SecurityPolicyViolation is not null)
-            RegisterEventListener(register, SecurityPolicyViolation, "securitypolicyviolation");
-        if (Wheel is not null)
-            RegisterEventListener(register, Wheel, "wheel");
+        if (OnBeforeInput is not null)
+            RegisterEventListener(register, OnBeforeInput, "beforeinput");
+        if (OnBeforeMatch is not null)
+            RegisterEventListener(register, OnBeforeMatch, "beforematch");
+        if (OnBeforeXrSelect is not null)
+            RegisterEventListener(register, OnBeforeXrSelect, "beforexrselect");
+        if (OnContentVisibilityAutoStateChange is not null)
+            RegisterEventListener(register, OnContentVisibilityAutoStateChange, "contentvisibilityautostatechange");
+        if (OnInput is not null)
+            RegisterEventListener(register, OnInput, "input");
+        if (OnSecurityPolicyViolation is not null)
+            RegisterEventListener(register, OnSecurityPolicyViolation, "securitypolicyviolation");
+        if (OnWheel is not null)
+            RegisterEventListener(register, OnWheel, "wheel");
     }
 }
