@@ -7,7 +7,7 @@ namespace Iskra.Core.RenderRoot;
 public class DomRenderRoot : IRenderRoot
 {
     private readonly Node _node;
-    private readonly LinkedList<DomRenderSlot> _slots = [];
+    private readonly LinkedList<DomRenderSlot?> _slots = [];
 
     public DomRenderRoot(Node node)
     {

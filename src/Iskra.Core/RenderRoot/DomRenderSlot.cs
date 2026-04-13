@@ -8,16 +8,16 @@ namespace Iskra.Core.RenderRoot;
 public class DomRenderSlot : IDomRenderSlot
 {
     private readonly Node _parent;
-    private readonly LinkedListNode<DomRenderSlot> _listNode;
+    private readonly LinkedListNode<DomRenderSlot?> _listNode;
     private Node? _node;
 
-    public DomRenderSlot(LinkedList<DomRenderSlot> list, Node parent)
+    public DomRenderSlot(LinkedList<DomRenderSlot?> list, Node parent)
     {
         _parent = parent;
         _listNode = list.AddLast(this);
     }
 
-    private DomRenderSlot(LinkedListNode<DomRenderSlot> listNode, Node parent)
+    private DomRenderSlot(LinkedListNode<DomRenderSlot?> listNode, Node parent)
     {
         _parent = parent;
         _listNode = listNode;
@@ -35,8 +35,10 @@ public class DomRenderSlot : IDomRenderSlot
             throw new Exception("Slot must be attached.");
         }
 
-        var linkedListNode = _listNode.List.AddAfter(_listNode, new DomRenderSlot(_listNode.List, _parent));
-        return new DomRenderSlot(linkedListNode, _parent);
+        var linkedListNode = _listNode.List.AddAfter(_listNode, (DomRenderSlot?)null);
+        var slot = new DomRenderSlot(linkedListNode, _parent);
+        linkedListNode.Value = slot;
+        return slot;
     }
 
     public void Populate(Node node)
@@ -57,11 +59,11 @@ public class DomRenderSlot : IDomRenderSlot
     private Node? TryFindNextNode()
     {
         var current = _listNode.Next;
-        while (current is not null && current.Value._node is null)
+        while (current is not null && current.Value?._node is null)
         {
             current = current.Next;
         }
 
-        return current?.Value._node;
+        return current?.Value?._node;
     }
 }

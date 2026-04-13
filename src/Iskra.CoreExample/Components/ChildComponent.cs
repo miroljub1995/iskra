@@ -126,6 +126,19 @@ public class ChildComponent : BaseComponent<ChildComponentProps, ChildComponentE
                 [
                     new DomText { Text = new Signal<string>("Click me!") },
                 ]
+            },
+            new ForEach<(int Index, char Char), (int Index, char Char)>
+            {
+                Items = new Computed<IList<(int Index, char Char)>>(() =>
+                    fullnameWithIndex.Value.Select((c, i) => (Index: i, Char: c)).ToList()),
+                Key = item => item,
+                ElementSetup = item =>
+                [
+                    new Span
+                    {
+                        Children = [new DomText { Text = new Signal<string>(item.Char.ToString()) }],
+                    }
+                ],
             }
         ];
     }
