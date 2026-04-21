@@ -56,6 +56,27 @@ public class DomRenderSlot : IDomRenderSlot
         }
     }
 
+    public void MoveAfter(IRenderSlot anchor)
+    {
+        var anchorSlot = (DomRenderSlot)anchor;
+
+        var list = _listNode.List ?? throw new Exception("Slot must be attached.");
+
+        if (anchorSlot._listNode.List != list)
+            throw new Exception("Slots must belong to the same slot list.");
+
+        // Relink this slot's node immediately after the anchor.
+        list.Remove(_listNode);
+        list.AddAfter(anchorSlot._listNode, _listNode);
+
+        // Reinsert the DOM node at the new logical position.
+        // InsertBefore moves an already-attached node — no RemoveChild needed.
+        if (_node is not null)
+        {
+            _parent.InsertBefore(_node, TryFindNextNode());
+        }
+    }
+
     private Node? TryFindNextNode()
     {
         var current = _listNode.Next;

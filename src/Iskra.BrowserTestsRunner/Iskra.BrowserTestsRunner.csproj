@@ -16,6 +16,7 @@
 
     <ItemGroup>
         <ProjectReference Include="..\Iskra.WebIDLGenerator.Tests\Iskra.WebIDLGenerator.Tests.csproj" ReferenceOutputAssembly="false"/>
+        <ProjectReference Include="..\Iskra.Core.Client.Tests\Iskra.Core.Client.Tests.csproj" ReferenceOutputAssembly="false"/>
     </ItemGroup>
 
 </Project>

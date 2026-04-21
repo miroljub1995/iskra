@@ -12,16 +12,25 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
 
     private readonly EffectScope _effectScope = new();
 
+    // Tracks mounted state per keyed item across reactive re-runs.
+    private sealed record ItemState(TKey Key, EffectScope Scope, IReadOnlyList<IRenderSlot> Slots);
+
     public void Mount(IRenderSlot slot)
     {
         _effectScope.Run(() =>
         {
-            var orderedItems = new List<(TKey Key, EffectScope Scope, IRenderSlot LastSlot)>();
+            var orderedItems = new List<ItemState>();
 
             // Reactive Effect: re-runs whenever Items signal changes.
-            // Performs keyed diffing: same key at same index → reuse; moved/new key → unmount old + remount fresh.
+            // Performs keyed diffing:
+            //   same key at same index  → reuse in place
+            //   same key at new index   → move existing DOM nodes to new position (no remount)
+            //   brand new key           → mount fresh
+            //   disappeared key         → dispose
             new Effect(_ =>
             {
+                if (!OperatingSystem.IsBrowser()) return;
+
                 var newItems = Items.Value;
 
                 // Throw on duplicate keys
@@ -37,13 +46,13 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                 }
 
                 // Build lookup of previous render's items by key
-                var oldByKey = new Dictionary<TKey, EffectScope>(Comparer);
+                var oldByKey = new Dictionary<TKey, ItemState>(Comparer);
                 for (int i = 0; i < orderedItems.Count; i++)
                 {
-                    oldByKey[orderedItems[i].Key] = orderedItems[i].Scope;
+                    oldByKey[orderedItems[i].Key] = orderedItems[i];
                 }
 
-                var newList = new List<(TKey Key, EffectScope Scope, IRenderSlot LastSlot)>(newItems.Count);
+                var newList = new List<ItemState>(newItems.Count);
                 var handledKeys = new HashSet<TKey>(Comparer);
                 var prevSlot = slot;
 
@@ -58,21 +67,34 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                         // Same key at same position — reuse existing scope, slots, and components
                         var existing = orderedItems[i];
                         newList.Add(existing);
-                        prevSlot = existing.LastSlot;
-
+                        prevSlot = existing.Slots[^1];
                         handledKeys.Add(key);
+                    }
+                    else if (oldByKey.TryGetValue(key, out var existingItem)
+                        && existingItem.Slots.Count > 0)
+                    {
+                        // Key exists at a different position — move each slot individually after the running anchor.
+                        var anchor = prevSlot;
+                        foreach (var s in existingItem.Slots)
+                        {
+                            s.MoveAfter(anchor);
+                            anchor = s;
+                        }
+                        handledKeys.Add(key);
+                        newList.Add(existingItem);
+                        prevSlot = existingItem.Slots[^1];
                     }
                     else
                     {
-                        // Key moved to a different position or is brand new
-                        if (oldByKey.TryGetValue(key, out var oldScope))
+                        // Brand new key, or moved key in a non-DOM context (fallback: dispose + remount)
+                        if (oldByKey.TryGetValue(key, out var staleItem))
                         {
-                            oldScope.Dispose();
+                            staleItem.Scope.Dispose();
                         }
 
                         handledKeys.Add(key);
 
-                        // Mount fresh at the new position with its own scope
+                        var itemSlots = new List<IRenderSlot>();
                         var itemScope = new EffectScope();
                         itemScope.Run(() =>
                         {
@@ -80,6 +102,7 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                             for (int j = 0; j < children.Length; j++)
                             {
                                 var compSlot = prevSlot.CreateSlotAfter();
+                                itemSlots.Add(compSlot);
                                 children[j].Mount(compSlot);
                                 prevSlot = compSlot;
                                 var child = children[j];
@@ -91,16 +114,16 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                             }
                         });
 
-                        newList.Add((key, itemScope, prevSlot));
+                        newList.Add(new ItemState(key, itemScope, itemSlots));
                     }
                 }
 
-                // Unmount items whose key disappeared from the new list
-                foreach (var (oldKey, oldScope, _) in orderedItems)
+                // Dispose items whose key disappeared from the new list
+                foreach (var item in orderedItems)
                 {
-                    if (!handledKeys.Contains(oldKey))
+                    if (!handledKeys.Contains(item.Key))
                     {
-                        oldScope.Dispose();
+                        item.Scope.Dispose();
                     }
                 }
 
@@ -111,9 +134,9 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
             // Cleanup Effect: no signals tracked — only registers teardown for when this component is unmounted.
             new Effect(onCleanup => onCleanup(() =>
             {
-                foreach (var (_, itemScope, _) in orderedItems)
+                foreach (var item in orderedItems)
                 {
-                    itemScope.Dispose();
+                    item.Scope.Dispose();
                 }
 
                 orderedItems.Clear();
