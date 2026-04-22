@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run: Iskra.Core.Client.Tests (Browser)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/Iskra.BrowserTestsRunner/bin/Debug/net10.0/Iskra.BrowserTestsRunner",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/Iskra.BrowserTestsRunner",
+            "stopAtEntry": false,
+            "env": {
+                "RunnerBundlePath": "../../../../Iskra.Core.Client.Tests/bin/Debug/net10.0/browser-wasm/AppBundle/"
+            },
+            "preLaunchTask": "build: Iskra.Core.Client.Tests"
+        },
+        {
+            "name": "Run: Iskra.WebIDLGenerator.Tests (Browser)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/Iskra.BrowserTestsRunner/bin/Debug/net10.0/Iskra.BrowserTestsRunner",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/Iskra.BrowserTestsRunner",
+            "stopAtEntry": false,
+            "env": {
+                "RunnerBundlePath": "../../../../Iskra.WebIDLGenerator.Tests/bin/Debug/net9.0/browser-wasm/AppBundle/"
+            },
+            "preLaunchTask": "build: Iskra.WebIDLGenerator.Tests"
+        }
+    ]
+}

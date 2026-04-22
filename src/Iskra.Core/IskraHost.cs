@@ -1,6 +1,5 @@
 using Iskra.Core.Components;
 using Iskra.Core.RenderRoot;
-using Iskra.StdWeb;
 using System.Runtime.Versioning;
 
 namespace Iskra.Core;
@@ -9,28 +8,18 @@ namespace Iskra.Core;
 public sealed class IskraHost
 {
     private readonly Func<IComponent> _rootComponentFactory;
-    private readonly Element _rootElement;
+    private readonly IRenderRoot _renderRoot;
 
-    internal IskraHost(Func<IComponent> rootComponentFactory, Element rootElement)
+    internal IskraHost(Func<IComponent> rootComponentFactory, IRenderRoot renderRoot)
     {
         _rootComponentFactory = rootComponentFactory;
-        _rootElement = rootElement;
+        _renderRoot = renderRoot;
     }
 
     public IDisposable Mount()
     {
-        var renderRoot = new DomRenderRoot(_rootElement);
         var scope = new Signals.EffectScope();
-        scope.Run(() => _rootComponentFactory().Mount(renderRoot.GetNextSlot()));
+        scope.Run(() => _rootComponentFactory().Mount(_renderRoot.GetNextSlot()));
         return scope;
-    }
-
-    public async Task RunAsync(CancellationToken cancellationToken = default)
-    {
-        await StdWebProxyFactory.InitializeAsync();
-
-        using var _ = Mount();
-
-        await Task.Delay(Timeout.Infinite, cancellationToken);
     }
 }

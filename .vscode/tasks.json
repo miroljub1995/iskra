@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build: Iskra.Core.Client.Tests",
+            "type": "shell",
+            "command": "dotnet build Iskra.Core.Client.Tests/Iskra.Core.Client.Tests.csproj -f net10.0",
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build: Iskra.WebIDLGenerator.Tests",
+            "type": "shell",
+            "command": "dotnet build Iskra.WebIDLGenerator.Tests/Iskra.WebIDLGenerator.Tests.csproj -f net9.0",
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
