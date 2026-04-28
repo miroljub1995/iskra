@@ -357,4 +357,74 @@ public class ForEachTests
         });
         await Assert.That(unmountedCounts).IsEmpty();
     }
+
+    [Test]
+    public async Task Unmounting_ForEach_via_If_unmounts_all_items()
+    {
+        var container = DomHelpers.CreateContainer();
+        var condition = new Signal<bool>(true);
+        var items = new Signal<IList<string>>(["a", "b", "c"]);
+        var mounted = new Dictionary<string, int>();
+        var unmounted = new Dictionary<string, int>();
+
+        using var host = new IskraHostBuilder()
+            .UseRootRenderer(new DomRenderRoot(container))
+            .UseRootComponent(() => new If
+            {
+                Condition = condition,
+                Then = () =>
+                [
+                    new ForEach<string, string>
+                    {
+                        Items = items,
+                        Key = s => s,
+                        ElementSetup = s =>
+                        [
+                            new Span
+                            {
+                                Children = [new DomText { Text = new Computed<string>(() => s.Value) }],
+                            },
+                            new LifecycleProbe
+                            {
+                                Props = new LifecycleProbeProps
+                                {
+                                    OnMounted = () =>
+                                    {
+                                        mounted[s.Value] = mounted.GetValueOrDefault(s.Value) + 1;
+                                    },
+                                    OnUnmounted = () =>
+                                    {
+                                        unmounted[s.Value] = unmounted.GetValueOrDefault(s.Value) + 1;
+                                    },
+                                },
+                            },
+                        ],
+                    },
+                ],
+            })
+            .Build()
+            .Mount();
+
+        await Assert.That(container.TextContent).IsEqualTo("abc");
+        await Assert.That(container.ChildElementCount).IsEqualTo(3u);
+        await Assert.That(mounted).IsEquivalentTo(new Dictionary<string, int>
+        {
+            ["a"] = 1,
+            ["b"] = 1,
+            ["c"] = 1,
+        });
+        await Assert.That(unmounted).IsEmpty();
+
+        // Flip condition to false — ForEach should be unmounted, all items unmounted.
+        condition.Value = false;
+
+        await Assert.That(container.TextContent).IsEqualTo("");
+        await Assert.That(container.ChildElementCount).IsEqualTo(0u);
+        await Assert.That(unmounted).IsEquivalentTo(new Dictionary<string, int>
+        {
+            ["a"] = 1,
+            ["b"] = 1,
+            ["c"] = 1,
+        });
+    }
 }

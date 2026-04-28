@@ -32,8 +32,6 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
             //   disappeared key         → dispose
             new Effect(_ =>
             {
-                if (!OperatingSystem.IsBrowser()) return;
-
                 var newItems = Items.Value;
 
                 // Throw on duplicate keys
