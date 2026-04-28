@@ -136,7 +136,7 @@ public class ChildComponent : BaseComponent<ChildComponentProps, ChildComponentE
                 [
                     new Span
                     {
-                        Children = [new DomText { Text = new Signal<string>(item.Char.ToString()) }],
+                        Children = [new DomText { Text = new Computed<string>(() => item.Value.Char.ToString()) }],
                     }
                 ],
             }

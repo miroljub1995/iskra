@@ -7,13 +7,16 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
 {
     public required IReadOnlySignal<IList<TElement>> Items { get; init; }
     public required Func<TElement, TKey> Key { get; init; }
-    public required Func<TElement, IComponent[]> ElementSetup { get; init; }
+    public required Func<IReadOnlySignal<TElement>, IComponent[]> ElementSetup { get; init; }
     public IEqualityComparer<TKey> Comparer { get; init; } = EqualityComparer<TKey>.Default;
 
     private readonly EffectScope _effectScope = new();
 
     // Tracks mounted state per keyed item across reactive re-runs.
-    private sealed record ItemState(TKey Key, EffectScope Scope, IReadOnlyList<IRenderSlot> Slots);
+    // Element is held in a Signal so that when the same key is paired with a new
+    // element value, the existing components are preserved and only the signal
+    // is updated reactively (no remount, no ElementSetup re-invocation).
+    private sealed record ItemState(TKey Key, Signal<TElement> Element, EffectScope Scope, IReadOnlyList<IRenderSlot> Slots);
 
     public void Mount(IRenderSlot slot)
     {
@@ -64,8 +67,10 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                     if (i < orderedItems.Count
                         && Comparer.Equals(orderedItems[i].Key, key))
                     {
-                        // Same key at same position — reuse existing scope, slots, and components
+                        // Same key at same position — reuse existing scope, slots, and components.
+                        // Update the element signal so that any reactive consumers re-render.
                         var existing = orderedItems[i];
+                        existing.Element.Value = element;
                         newList.Add(existing);
                         prevSlot = existing.Slots[^1];
                         handledKeys.Add(key);
@@ -80,6 +85,8 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                             s.MoveAfter(anchor);
                             anchor = s;
                         }
+                        // Update the element signal so that any reactive consumers re-render.
+                        existingItem.Element.Value = element;
                         handledKeys.Add(key);
                         newList.Add(existingItem);
                         prevSlot = existingItem.Slots[^1];
@@ -96,9 +103,10 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
 
                         var itemSlots = new List<IRenderSlot>();
                         var itemScope = new EffectScope();
+                        var elementSignal = new Signal<TElement>(element);
                         itemScope.Run(() =>
                         {
-                            var children = ElementSetup(element);
+                            var children = ElementSetup(elementSignal);
                             for (int j = 0; j < children.Length; j++)
                             {
                                 var compSlot = prevSlot.CreateSlotAfter();
@@ -114,7 +122,7 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                             }
                         });
 
-                        newList.Add(new ItemState(key, itemScope, itemSlots));
+                        newList.Add(new ItemState(key, elementSignal, itemScope, itemSlots));
                     }
                 }
 
