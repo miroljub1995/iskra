@@ -47,26 +47,32 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
                 instance.Mount(slot);
             }
 
-            foreach (var callback in _onMountedCallbacks)
+            if (slot is IDomRenderSlot)
             {
-                callback(OnUnmounted);
+                new Effect(onCleanup =>
+                {
+                    foreach (var callback in _onMountedCallbacks)
+                    {
+                        callback(OnUnmounted);
+                    }
+
+                    onCleanup(() =>
+                    {
+                        Events?.Disable();
+
+                        // Unmount instances
+                        foreach (var instance in instances)
+                        {
+                            instance.Unmount();
+                        }
+
+                        foreach (var action in _onUnmountedActions)
+                        {
+                            action();
+                        }
+                    });
+                });
             }
-
-            new Effect(onCleanup => onCleanup(() =>
-            {
-                Events?.Disable();
-
-                // Unmount instances
-                foreach (var instance in instances)
-                {
-                    instance.Unmount();
-                }
-
-                foreach (var action in _onUnmountedActions)
-                {
-                    action();
-                }
-            }));
         });
     }
 
