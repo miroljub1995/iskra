@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -16,6 +17,16 @@ public class QProps : GlobalHtmlComponentProps<HTMLQuoteElement>
         if (Cite != null)
         {
             register(el => el.Cite = Cite.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Cite != null)
+        {
+            register(el => el.SetAttribute("cite", Cite.Value));
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -16,6 +17,16 @@ public class ColProps : GlobalHtmlComponentProps<HTMLTableColElement>
         if (Span != null)
         {
             register(el => el.Span = Span.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Span != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "span", Span.Value));
         }
     }
 }

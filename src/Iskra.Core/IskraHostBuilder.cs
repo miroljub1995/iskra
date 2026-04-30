@@ -5,7 +5,6 @@ using System.Runtime.Versioning;
 
 namespace Iskra.Core;
 
-[SupportedOSPlatform("browser")]
 public sealed class IskraHostBuilder
 {
     private Func<IComponent>? _rootComponentFactory;
@@ -17,6 +16,7 @@ public sealed class IskraHostBuilder
         return this;
     }
 
+    [SupportedOSPlatform("browser")]
     public IskraHostBuilder UseRootElement(Element element)
     {
         _renderRoot = new DomRenderRoot(element);

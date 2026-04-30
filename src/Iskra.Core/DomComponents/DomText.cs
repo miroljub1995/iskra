@@ -11,14 +11,17 @@ public class DomText : IComponent
 {
     public required IReadOnlySignal<string> Text { get; init; }
 
-    private IDomRenderSlot? _domRenderSlot;
+    private IRenderSlot? _slot;
 
     public void Mount(IRenderSlot root)
     {
-        Console.WriteLine($"Mounting text node: {Text}");
-
-        if (OperatingSystem.IsBrowser())
+        if (root is IDomRenderSlot domRenderSlot)
         {
+            if (!OperatingSystem.IsBrowser())
+            {
+                throw new PlatformNotSupportedException();
+            }
+
             var node = JSObjectProxyFactory.GetProxy<Window>(JSHost.GlobalThis).Document
                 .CreateTextNode(Text.Value);
 
@@ -30,19 +33,36 @@ public class DomText : IComponent
                 }
             });
 
-            _domRenderSlot = (IDomRenderSlot)root;
-            _domRenderSlot.Populate(node);
+            domRenderSlot.Populate(node);
         }
+        else if (root is ISsrRenderSlot ssrRenderSlot)
+        {
+            var node = new SsrTextNode { TextContent = Text.Value };
+
+            new Effect(_ => node.TextContent = Text.Value);
+
+            ssrRenderSlot.Populate(node);
+        }
+
+        _slot = root;
     }
 
     public void Unmount()
     {
-        Console.WriteLine($"Unmounting text node: {Text}");
-
-        if (OperatingSystem.IsBrowser())
+        if (_slot is IDomRenderSlot domRenderSlot)
         {
-            _domRenderSlot?.Empty();
-            _domRenderSlot = null;
+            if (!OperatingSystem.IsBrowser())
+            {
+                throw new PlatformNotSupportedException();
+            }
+
+            domRenderSlot.Empty();
         }
+        else if (_slot is ISsrRenderSlot ssrRenderSlot)
+        {
+            ssrRenderSlot.Empty();
+        }
+
+        _slot = null;
     }
 }

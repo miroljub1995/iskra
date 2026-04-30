@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -70,6 +71,61 @@ public class IFrameProps : GlobalHtmlComponentProps<HTMLIFrameElement>
         if (SrcDoc != null)
         {
             register(el => el.Srcdoc = SrcDoc.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Src != null)
+        {
+            register(el => el.SetAttribute("src", Src.Value));
+        }
+
+        if (Name != null)
+        {
+            register(el => el.SetAttribute("name", Name.Value));
+        }
+
+        if (Allow != null)
+        {
+            register(el => el.SetAttribute("allow", Allow.Value));
+        }
+
+        if (AllowFullscreen != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "allowfullscreen", AllowFullscreen.Value));
+        }
+
+        if (Width != null)
+        {
+            register(el => el.SetAttribute("width", Width.Value));
+        }
+
+        if (Height != null)
+        {
+            register(el => el.SetAttribute("height", Height.Value));
+        }
+
+        if (ReferrerPolicy != null)
+        {
+            register(el => el.SetAttribute("referrerpolicy", ReferrerPolicy.Value));
+        }
+
+        if (Loading != null)
+        {
+            register(el => el.SetAttribute("loading", Loading.Value));
+        }
+
+        if (Sandbox != null)
+        {
+            register(el => el.SetAttribute("sandbox", Sandbox.Value));
+        }
+
+        if (SrcDoc != null)
+        {
+            register(el => el.SetAttribute("srcdoc", SrcDoc.Value));
         }
     }
 }

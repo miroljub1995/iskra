@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -58,6 +59,51 @@ public class AProps : GlobalHtmlComponentProps<HTMLAnchorElement>
         if (Type != null)
         {
             register(el => el.Type = Type.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Href != null)
+        {
+            register(el => el.SetAttribute("href", Href.Value));
+        }
+
+        if (Target != null)
+        {
+            register(el => el.SetAttribute("target", Target.Value));
+        }
+
+        if (Rel != null)
+        {
+            register(el => el.SetAttribute("rel", Rel.Value));
+        }
+
+        if (Download != null)
+        {
+            register(el => el.SetAttribute("download", Download.Value));
+        }
+
+        if (Hreflang != null)
+        {
+            register(el => el.SetAttribute("hreflang", Hreflang.Value));
+        }
+
+        if (Ping != null)
+        {
+            register(el => el.SetAttribute("ping", Ping.Value));
+        }
+
+        if (ReferrerPolicy != null)
+        {
+            register(el => el.SetAttribute("referrerpolicy", ReferrerPolicy.Value));
+        }
+
+        if (Type != null)
+        {
+            register(el => el.SetAttribute("type", Type.Value));
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -22,6 +23,21 @@ public class CanvasProps : GlobalHtmlComponentProps<HTMLCanvasElement>
         if (Height != null)
         {
             register(el => el.Height = Height.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Width != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "width", Width.Value));
+        }
+
+        if (Height != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "height", Height.Value));
         }
     }
 }

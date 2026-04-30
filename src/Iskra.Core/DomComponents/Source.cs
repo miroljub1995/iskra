@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -52,6 +53,46 @@ public class SourceProps : GlobalHtmlComponentProps<HTMLSourceElement>
         if (Height != null)
         {
             register(el => el.Height = Height.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Src != null)
+        {
+            register(el => el.SetAttribute("src", Src.Value));
+        }
+
+        if (Type != null)
+        {
+            register(el => el.SetAttribute("type", Type.Value));
+        }
+
+        if (Srcset != null)
+        {
+            register(el => el.SetAttribute("srcset", Srcset.Value));
+        }
+
+        if (Sizes != null)
+        {
+            register(el => el.SetAttribute("sizes", Sizes.Value));
+        }
+
+        if (Media != null)
+        {
+            register(el => el.SetAttribute("media", Media.Value));
+        }
+
+        if (Width != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "width", Width.Value));
+        }
+
+        if (Height != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "height", Height.Value));
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -94,6 +95,81 @@ public class LinkProps : GlobalHtmlComponentProps<HTMLLinkElement>
         if (ImageSrcset != null)
         {
             register(el => el.ImageSrcset = ImageSrcset.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Href != null)
+        {
+            register(el => el.SetAttribute("href", Href.Value));
+        }
+
+        if (CrossOrigin != null)
+        {
+            register(el => SsrAttributes.SetNullableString(el, "crossorigin", CrossOrigin.Value));
+        }
+
+        if (Rel != null)
+        {
+            register(el => el.SetAttribute("rel", Rel.Value));
+        }
+
+        if (As != null)
+        {
+            register(el => el.SetAttribute("as", As.Value));
+        }
+
+        if (Media != null)
+        {
+            register(el => el.SetAttribute("media", Media.Value));
+        }
+
+        if (Integrity != null)
+        {
+            register(el => el.SetAttribute("integrity", Integrity.Value));
+        }
+
+        if (Hreflang != null)
+        {
+            register(el => el.SetAttribute("hreflang", Hreflang.Value));
+        }
+
+        if (Type != null)
+        {
+            register(el => el.SetAttribute("type", Type.Value));
+        }
+
+        if (ReferrerPolicy != null)
+        {
+            register(el => el.SetAttribute("referrerpolicy", ReferrerPolicy.Value));
+        }
+
+        if (Disabled != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+        }
+
+        if (FetchPriority != null)
+        {
+            register(el => el.SetAttribute("fetchpriority", FetchPriority.Value));
+        }
+
+        if (Blocking != null)
+        {
+            register(el => el.SetAttribute("blocking", Blocking.Value));
+        }
+
+        if (ImageSizes != null)
+        {
+            register(el => el.SetAttribute("imagesizes", ImageSizes.Value));
+        }
+
+        if (ImageSrcset != null)
+        {
+            register(el => el.SetAttribute("imagesrcset", ImageSrcset.Value));
         }
     }
 }

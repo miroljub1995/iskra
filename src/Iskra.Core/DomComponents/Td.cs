@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -28,6 +29,26 @@ public class TdProps : GlobalHtmlComponentProps<HTMLTableCellElement>
         if (Headers != null)
         {
             register(el => el.Headers = Headers.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (ColSpan != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "colspan", ColSpan.Value));
+        }
+
+        if (RowSpan != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "rowspan", RowSpan.Value));
+        }
+
+        if (Headers != null)
+        {
+            register(el => el.SetAttribute("headers", Headers.Value));
         }
     }
 }

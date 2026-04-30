@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -196,6 +197,166 @@ public class InputProps : GlobalHtmlComponentProps<HTMLInputElement>
         if (Width != null)
         {
             register(el => el.Width = Width.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Accept != null)
+        {
+            register(el => el.SetAttribute("accept", Accept.Value));
+        }
+
+        if (Alt != null)
+        {
+            register(el => el.SetAttribute("alt", Alt.Value));
+        }
+
+        if (Autocomplete != null)
+        {
+            register(el => el.SetAttribute("autocomplete", Autocomplete.Value));
+        }
+
+        if (Capture != null)
+        {
+            register(el => el.SetAttribute("capture", Capture.Value));
+        }
+
+        if (Checked != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "checked", Checked.Value));
+        }
+
+        if (DefaultChecked != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "checked", DefaultChecked.Value));
+        }
+
+        if (DirName != null)
+        {
+            register(el => el.SetAttribute("dirname", DirName.Value));
+        }
+
+        if (Disabled != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+        }
+
+        if (FormAction != null)
+        {
+            register(el => el.SetAttribute("formaction", FormAction.Value));
+        }
+
+        if (FormEnctype != null)
+        {
+            register(el => el.SetAttribute("formenctype", FormEnctype.Value));
+        }
+
+        if (FormMethod != null)
+        {
+            register(el => el.SetAttribute("formmethod", FormMethod.Value));
+        }
+
+        if (FormNoValidate != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "formnovalidate", FormNoValidate.Value));
+        }
+
+        if (FormTarget != null)
+        {
+            register(el => el.SetAttribute("formtarget", FormTarget.Value));
+        }
+
+        if (Height != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "height", Height.Value));
+        }
+
+        if (Max != null)
+        {
+            register(el => el.SetAttribute("max", Max.Value));
+        }
+
+        if (MaxLength != null)
+        {
+            register(el => SsrAttributes.SetInt(el, "maxlength", MaxLength.Value));
+        }
+
+        if (Min != null)
+        {
+            register(el => el.SetAttribute("min", Min.Value));
+        }
+
+        if (MinLength != null)
+        {
+            register(el => SsrAttributes.SetInt(el, "minlength", MinLength.Value));
+        }
+
+        if (Multiple != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "multiple", Multiple.Value));
+        }
+
+        if (Name != null)
+        {
+            register(el => el.SetAttribute("name", Name.Value));
+        }
+
+        if (Pattern != null)
+        {
+            register(el => el.SetAttribute("pattern", Pattern.Value));
+        }
+
+        if (Placeholder != null)
+        {
+            register(el => el.SetAttribute("placeholder", Placeholder.Value));
+        }
+
+        if (ReadOnly != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "readonly", ReadOnly.Value));
+        }
+
+        if (Required != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "required", Required.Value));
+        }
+
+        if (Size != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "size", Size.Value));
+        }
+
+        if (Src != null)
+        {
+            register(el => el.SetAttribute("src", Src.Value));
+        }
+
+        if (Step != null)
+        {
+            register(el => el.SetAttribute("step", Step.Value));
+        }
+
+        if (Type != null)
+        {
+            register(el => el.SetAttribute("type", Type.Value));
+        }
+
+        if (Value != null)
+        {
+            register(el => el.SetAttribute("value", Value.Value));
+        }
+
+        if (DefaultValue != null)
+        {
+            register(el => el.SetAttribute("value", DefaultValue.Value));
+        }
+
+        if (Width != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "width", Width.Value));
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -16,6 +17,16 @@ public class TimeProps : GlobalHtmlComponentProps<HTMLTimeElement>
         if (DateTime != null)
         {
             register(el => el.DateTime = DateTime.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (DateTime != null)
+        {
+            register(el => el.SetAttribute("datetime", DateTime.Value));
         }
     }
 }

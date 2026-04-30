@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -16,6 +17,16 @@ public class DialogProps : GlobalHtmlComponentProps<HTMLDialogElement>
         if (Open != null)
         {
             register(el => el.Open = Open.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Open != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "open", Open.Value));
         }
     }
 }

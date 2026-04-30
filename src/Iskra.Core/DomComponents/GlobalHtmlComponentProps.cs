@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -121,7 +122,7 @@ public class GlobalHtmlComponentProps<TElement> : BaseDomComponentProps<TElement
 
         if (Id != null)
         {
-            register(el => el.ClassList.Value = Id.Value);
+            register(el => el.Id = Id.Value);
         }
 
         if (Inert != null)
@@ -197,6 +198,186 @@ public class GlobalHtmlComponentProps<TElement> : BaseDomComponentProps<TElement
         if (WritingSuggestions != null)
         {
             register(el => el.WritingSuggestions = WritingSuggestions.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (AccessKey != null)
+        {
+            register(el => el.SetAttribute("accesskey", AccessKey.Value));
+        }
+
+        if (Autocapitalize != null)
+        {
+            register(el => el.SetAttribute("autocapitalize", Autocapitalize.Value));
+        }
+
+        if (Autocorrect != null)
+        {
+            register(el => SsrAttributes.SetEnumeratedBoolean(el, "autocorrect", Autocorrect.Value, "on", "off"));
+        }
+
+        if (Autofocus != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "autofocus", Autofocus.Value));
+        }
+
+        if (Class != null)
+        {
+            register(el => el.SetAttribute("class", Class.Value));
+        }
+
+        if (ContentEditable != null)
+        {
+            register(el => el.SetAttribute("contenteditable", ContentEditable.Value));
+        }
+
+        if (Data != null)
+        {
+            var previousAttrNames = new HashSet<string>();
+            register(el =>
+            {
+                var dict = Data.Value;
+                var nextAttrNames = new HashSet<string>(dict.Count);
+
+                foreach (var kvp in dict)
+                {
+                    var attrName = "data-" + kvp.Key;
+                    nextAttrNames.Add(attrName);
+                    el.SetAttribute(attrName, kvp.Value);
+                }
+
+                foreach (var attr in previousAttrNames)
+                {
+                    if (!nextAttrNames.Contains(attr))
+                        el.RemoveAttribute(attr);
+                }
+
+                previousAttrNames.Clear();
+                foreach (var attr in nextAttrNames)
+                {
+                    previousAttrNames.Add(attr);
+                }
+            });
+        }
+
+        if (Dir != null)
+        {
+            register(el => el.SetAttribute("dir", Dir.Value));
+        }
+
+        if (Draggable != null)
+        {
+            register(el => SsrAttributes.SetEnumeratedBoolean(el, "draggable", Draggable.Value));
+        }
+
+        if (EnterKeyHint != null)
+        {
+            register(el => el.SetAttribute("enterkeyhint", EnterKeyHint.Value));
+        }
+
+        if (Hidden != null)
+        {
+            register(el =>
+            {
+                switch (Hidden.Value)
+                {
+                    case HiddenOption.True:
+                        el.SetAttribute("hidden", null);
+                        break;
+                    case HiddenOption.False:
+                        el.RemoveAttribute("hidden");
+                        break;
+                    case HiddenOption.UntilFound:
+                        el.SetAttribute("hidden", "until-found");
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException(nameof(Hidden), Hidden.Value, null);
+                }
+            });
+        }
+
+        if (Id != null)
+        {
+            register(el => el.SetAttribute("id", Id.Value));
+        }
+
+        if (Inert != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "inert", Inert.Value));
+        }
+
+        if (InputMode != null)
+        {
+            register(el => el.SetAttribute("inputmode", InputMode.Value));
+        }
+
+        if (Lang != null)
+        {
+            register(el => el.SetAttribute("lang", Lang.Value));
+        }
+
+        if (Nonce != null)
+        {
+            register(el => el.SetAttribute("nonce", Nonce.Value));
+        }
+
+        if (Part != null)
+        {
+            register(el => el.SetAttribute("part", Part.Value));
+        }
+
+        if (Popover != null)
+        {
+            register(el => SsrAttributes.SetNullableString(el, "popover", Popover.Value));
+        }
+
+        if (Role != null)
+        {
+            register(el => SsrAttributes.SetNullableString(el, "role", Role.Value));
+        }
+
+        if (Slot != null)
+        {
+            register(el => el.SetAttribute("slot", Slot.Value));
+        }
+
+        if (Spellcheck != null)
+        {
+            register(el => SsrAttributes.SetEnumeratedBoolean(el, "spellcheck", Spellcheck.Value));
+        }
+
+        if (Style != null)
+        {
+            register(el => el.SetAttribute("style", Style.Value));
+        }
+
+        if (TabIndex != null)
+        {
+            register(el => SsrAttributes.SetInt(el, "tabindex", TabIndex.Value));
+        }
+
+        if (Title != null)
+        {
+            register(el => el.SetAttribute("title", Title.Value));
+        }
+
+        if (Translate != null)
+        {
+            register(el => SsrAttributes.SetEnumeratedBoolean(el, "translate", Translate.Value, "yes", "no"));
+        }
+
+        if (VirtualKeyboardPolicy != null)
+        {
+            register(el => el.SetAttribute("virtualkeyboardpolicy", VirtualKeyboardPolicy.Value));
+        }
+
+        if (WritingSuggestions != null)
+        {
+            register(el => el.SetAttribute("writingsuggestions", WritingSuggestions.Value));
         }
     }
 }

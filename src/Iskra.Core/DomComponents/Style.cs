@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -28,6 +29,26 @@ public class StyleProps : GlobalHtmlComponentProps<HTMLStyleElement>
         if (Blocking != null)
         {
             register(el => el.Blocking.Value = Blocking.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Disabled != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+        }
+
+        if (Media != null)
+        {
+            register(el => el.SetAttribute("media", Media.Value));
+        }
+
+        if (Blocking != null)
+        {
+            register(el => el.SetAttribute("blocking", Blocking.Value));
         }
     }
 }

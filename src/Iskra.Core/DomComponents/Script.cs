@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -70,6 +71,61 @@ public class ScriptProps : GlobalHtmlComponentProps<HTMLScriptElement>
         if (Blocking != null)
         {
             register(el => el.Blocking.Value = Blocking.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Src != null)
+        {
+            register(el => el.SetAttribute("src", Src.Value));
+        }
+
+        if (Type != null)
+        {
+            register(el => el.SetAttribute("type", Type.Value));
+        }
+
+        if (NoModule != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "nomodule", NoModule.Value));
+        }
+
+        if (Async != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "async", Async.Value));
+        }
+
+        if (Defer != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "defer", Defer.Value));
+        }
+
+        if (CrossOrigin != null)
+        {
+            register(el => SsrAttributes.SetNullableString(el, "crossorigin", CrossOrigin.Value));
+        }
+
+        if (Integrity != null)
+        {
+            register(el => el.SetAttribute("integrity", Integrity.Value));
+        }
+
+        if (ReferrerPolicy != null)
+        {
+            register(el => el.SetAttribute("referrerpolicy", ReferrerPolicy.Value));
+        }
+
+        if (FetchPriority != null)
+        {
+            register(el => el.SetAttribute("fetchpriority", FetchPriority.Value));
+        }
+
+        if (Blocking != null)
+        {
+            register(el => el.SetAttribute("blocking", Blocking.Value));
         }
     }
 }

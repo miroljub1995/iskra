@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -34,6 +35,31 @@ public class OutputProps : GlobalHtmlComponentProps<HTMLOutputElement>
         if (Value != null)
         {
             register(el => el.Value = Value.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (HtmlFor != null)
+        {
+            register(el => el.SetAttribute("for", HtmlFor.Value));
+        }
+
+        if (Name != null)
+        {
+            register(el => el.SetAttribute("name", Name.Value));
+        }
+
+        if (DefaultValue != null)
+        {
+            register(el => el.SetAttribute("value", DefaultValue.Value));
+        }
+
+        if (Value != null)
+        {
+            register(el => el.SetAttribute("value", Value.Value));
         }
     }
 }

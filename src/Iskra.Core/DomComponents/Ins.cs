@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -22,6 +23,21 @@ public class InsProps : GlobalHtmlComponentProps<HTMLModElement>
         if (DateTime != null)
         {
             register(el => el.DateTime = DateTime.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Cite != null)
+        {
+            register(el => el.SetAttribute("cite", Cite.Value));
+        }
+
+        if (DateTime != null)
+        {
+            register(el => el.SetAttribute("datetime", DateTime.Value));
         }
     }
 }

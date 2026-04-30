@@ -12,7 +12,7 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
     where TProps : BaseDomComponentProps<TElement>
     where TEvents : BaseDomComponentEvents<TElement>
 {
-    private IDomRenderSlot? _domRenderSlot;
+    private IRenderSlot? _slot;
     private readonly List<Action> _eventCleanups = [];
 
     protected abstract IComponent[]? GetChildren();
@@ -28,9 +28,12 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
     {
         var children = GetChildren();
 
-        if (OperatingSystem.IsBrowser())
+        if (slot is IDomRenderSlot domRenderSlot)
         {
-            _domRenderSlot = (IDomRenderSlot)slot;
+            if (!OperatingSystem.IsBrowser())
+            {
+                throw new PlatformNotSupportedException();
+            }
 
             var element = (TElement)JSObjectProxyFactory.GetProxy<Window>(JSHost.GlobalThis).Document
                 .CreateElement(tagName);
@@ -52,28 +55,49 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
                 }
             }
 
-            _domRenderSlot.Populate(element);
+            domRenderSlot.Populate(element);
 
             if (Ref is not null)
             {
                 Ref.Value = element;
             }
         }
+        else if (slot is ISsrRenderSlot ssrRenderSlot)
+        {
+            var node = new SsrElementNode { TagName = tagName, IsVoid = IsVoid };
+
+            var props = Props;
+            Action<SsrElementNode> combinedEffect = static _ => { };
+            props?.RegisterServerEffects(action => combinedEffect += action);
+            new Effect(_ => combinedEffect(node));
+
+            if (!IsVoid && children?.Length > 0)
+            {
+                var childrenRoot = new SsrRenderRoot(node);
+                foreach (var child in children)
+                {
+                    child.Mount(childrenRoot.GetNextSlot());
+                }
+            }
+
+            ssrRenderSlot.Populate(node);
+        }
+
+        _slot = slot;
     }
 
     public void Unmount()
     {
         var children = GetChildren();
 
-        if (OperatingSystem.IsBrowser())
+        if (_slot is IDomRenderSlot domRenderSlot)
         {
-            if (_domRenderSlot is null)
+            if (!OperatingSystem.IsBrowser())
             {
-                return;
+                throw new PlatformNotSupportedException();
             }
 
-            _domRenderSlot.Empty();
-            _domRenderSlot = null;
+            domRenderSlot.Empty();
 
             foreach (var cleanup in _eventCleanups)
             {
@@ -89,5 +113,19 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
                 }
             }
         }
+        else if (_slot is ISsrRenderSlot ssrRenderSlot)
+        {
+            ssrRenderSlot.Empty();
+
+            if (!IsVoid && children?.Length > 0)
+            {
+                foreach (var child in children.Reverse())
+                {
+                    child.Unmount();
+                }
+            }
+        }
+
+        _slot = null;
     }
 }

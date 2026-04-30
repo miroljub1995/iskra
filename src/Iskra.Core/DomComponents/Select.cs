@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -52,6 +53,46 @@ public class SelectProps : GlobalHtmlComponentProps<HTMLSelectElement>
         if (Value != null)
         {
             register(el => el.Value = Value.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Autocomplete != null)
+        {
+            register(el => el.SetAttribute("autocomplete", Autocomplete.Value));
+        }
+
+        if (Disabled != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+        }
+
+        if (Multiple != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "multiple", Multiple.Value));
+        }
+
+        if (Name != null)
+        {
+            register(el => el.SetAttribute("name", Name.Value));
+        }
+
+        if (Required != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "required", Required.Value));
+        }
+
+        if (Size != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "size", Size.Value));
+        }
+
+        if (Value != null)
+        {
+            register(el => el.SetAttribute("value", Value.Value));
         }
     }
 }

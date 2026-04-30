@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -22,6 +23,21 @@ public class DetailsProps : GlobalHtmlComponentProps<HTMLDetailsElement>
         if (Open != null)
         {
             register(el => el.Open = Open.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Name != null)
+        {
+            register(el => el.SetAttribute("name", Name.Value));
+        }
+
+        if (Open != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "open", Open.Value));
         }
     }
 }

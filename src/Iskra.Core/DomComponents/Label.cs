@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -16,6 +17,16 @@ public class LabelProps : GlobalHtmlComponentProps<HTMLLabelElement>
         if (HtmlFor != null)
         {
             register(el => el.HtmlFor = HtmlFor.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (HtmlFor != null)
+        {
+            register(el => el.SetAttribute("for", HtmlFor.Value));
         }
     }
 }

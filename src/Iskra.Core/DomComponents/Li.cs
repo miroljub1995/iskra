@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -16,6 +17,16 @@ public class LiProps : GlobalHtmlComponentProps<HTMLLIElement>
         if (Value != null)
         {
             register(el => el.Value = Value.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Value != null)
+        {
+            register(el => SsrAttributes.SetInt(el, "value", Value.Value));
         }
     }
 }

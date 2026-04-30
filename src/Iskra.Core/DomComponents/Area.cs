@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -64,6 +65,56 @@ public class AreaProps : GlobalHtmlComponentProps<HTMLAreaElement>
         if (ReferrerPolicy != null)
         {
             register(el => el.ReferrerPolicy = ReferrerPolicy.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Alt != null)
+        {
+            register(el => el.SetAttribute("alt", Alt.Value));
+        }
+
+        if (Coords != null)
+        {
+            register(el => el.SetAttribute("coords", Coords.Value));
+        }
+
+        if (Shape != null)
+        {
+            register(el => el.SetAttribute("shape", Shape.Value));
+        }
+
+        if (Href != null)
+        {
+            register(el => el.SetAttribute("href", Href.Value));
+        }
+
+        if (Target != null)
+        {
+            register(el => el.SetAttribute("target", Target.Value));
+        }
+
+        if (Download != null)
+        {
+            register(el => el.SetAttribute("download", Download.Value));
+        }
+
+        if (Ping != null)
+        {
+            register(el => el.SetAttribute("ping", Ping.Value));
+        }
+
+        if (Rel != null)
+        {
+            register(el => el.SetAttribute("rel", Rel.Value));
+        }
+
+        if (ReferrerPolicy != null)
+        {
+            register(el => el.SetAttribute("referrerpolicy", ReferrerPolicy.Value));
         }
     }
 }

@@ -1,10 +1,8 @@
 using Iskra.Core.Components;
 using Iskra.Core.RenderRoot;
-using System.Runtime.Versioning;
 
 namespace Iskra.Core;
 
-[SupportedOSPlatform("browser")]
 public sealed class IskraHost
 {
     private readonly Func<IComponent> _rootComponentFactory;

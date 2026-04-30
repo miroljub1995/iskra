@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -28,6 +29,26 @@ public class OlProps : GlobalHtmlComponentProps<HTMLOListElement>
         if (Type != null)
         {
             register(el => el.Type = Type.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Reversed != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "reversed", Reversed.Value));
+        }
+
+        if (Start != null)
+        {
+            register(el => SsrAttributes.SetInt(el, "start", Start.Value));
+        }
+
+        if (Type != null)
+        {
+            register(el => el.SetAttribute("type", Type.Value));
         }
     }
 }

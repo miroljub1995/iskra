@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -22,6 +23,21 @@ public class OptGroupProps : GlobalHtmlComponentProps<HTMLOptGroupElement>
         if (Label != null)
         {
             register(el => el.Label = Label.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Disabled != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+        }
+
+        if (Label != null)
+        {
+            register(el => el.SetAttribute("label", Label.Value));
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -22,6 +23,21 @@ public class BaseProps : GlobalHtmlComponentProps<HTMLBaseElement>
         if (Target != null)
         {
             register(el => el.Target = Target.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Href != null)
+        {
+            register(el => el.SetAttribute("href", Href.Value));
+        }
+
+        if (Target != null)
+        {
+            register(el => el.SetAttribute("target", Target.Value));
         }
     }
 }

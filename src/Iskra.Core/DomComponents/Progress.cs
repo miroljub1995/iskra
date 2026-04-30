@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -22,6 +23,21 @@ public class ProgressProps : GlobalHtmlComponentProps<HTMLProgressElement>
         if (Max != null)
         {
             register(el => el.Max = Max.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Value != null)
+        {
+            register(el => SsrAttributes.SetDouble(el, "value", Value.Value));
+        }
+
+        if (Max != null)
+        {
+            register(el => SsrAttributes.SetDouble(el, "max", Max.Value));
         }
     }
 }

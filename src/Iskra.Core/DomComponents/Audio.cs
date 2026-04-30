@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -58,6 +59,51 @@ public class AudioProps : GlobalHtmlComponentProps<HTMLAudioElement>
         if (DisableRemotePlayback != null)
         {
             register(el => el.DisableRemotePlayback = DisableRemotePlayback.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Src != null)
+        {
+            register(el => el.SetAttribute("src", Src.Value));
+        }
+
+        if (Autoplay != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "autoplay", Autoplay.Value));
+        }
+
+        if (Controls != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "controls", Controls.Value));
+        }
+
+        if (Loop != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "loop", Loop.Value));
+        }
+
+        if (Muted != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "muted", Muted.Value));
+        }
+
+        if (Preload != null)
+        {
+            register(el => el.SetAttribute("preload", Preload.Value));
+        }
+
+        if (CrossOrigin != null)
+        {
+            register(el => SsrAttributes.SetNullableString(el, "crossorigin", CrossOrigin.Value));
+        }
+
+        if (DisableRemotePlayback != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "disableremoteplayback", DisableRemotePlayback.Value));
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -16,6 +17,16 @@ public class MapProps : GlobalHtmlComponentProps<HTMLMapElement>
         if (Name != null)
         {
             register(el => el.Name = Name.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Name != null)
+        {
+            register(el => el.SetAttribute("name", Name.Value));
         }
     }
 }

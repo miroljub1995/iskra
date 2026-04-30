@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -64,6 +65,56 @@ public class ButtonProps : GlobalHtmlComponentProps<HTMLButtonElement>
         if (FormTarget != null)
         {
             register(el => el.FormTarget = FormTarget.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Disabled != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+        }
+
+        if (Name != null)
+        {
+            register(el => el.SetAttribute("name", Name.Value));
+        }
+
+        if (Type != null)
+        {
+            register(el => el.SetAttribute("type", Type.Value));
+        }
+
+        if (Value != null)
+        {
+            register(el => el.SetAttribute("value", Value.Value));
+        }
+
+        if (FormAction != null)
+        {
+            register(el => el.SetAttribute("formaction", FormAction.Value));
+        }
+
+        if (FormEnctype != null)
+        {
+            register(el => el.SetAttribute("formenctype", FormEnctype.Value));
+        }
+
+        if (FormMethod != null)
+        {
+            register(el => el.SetAttribute("formmethod", FormMethod.Value));
+        }
+
+        if (FormNoValidate != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "formnovalidate", FormNoValidate.Value));
+        }
+
+        if (FormTarget != null)
+        {
+            register(el => el.SetAttribute("formtarget", FormTarget.Value));
         }
     }
 }

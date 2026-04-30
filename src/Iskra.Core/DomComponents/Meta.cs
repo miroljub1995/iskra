@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -34,6 +35,31 @@ public class MetaProps : GlobalHtmlComponentProps<HTMLMetaElement>
         if (Media != null)
         {
             register(el => el.Media = Media.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Name != null)
+        {
+            register(el => el.SetAttribute("name", Name.Value));
+        }
+
+        if (HttpEquiv != null)
+        {
+            register(el => el.SetAttribute("http-equiv", HttpEquiv.Value));
+        }
+
+        if (Content != null)
+        {
+            register(el => el.SetAttribute("content", Content.Value));
+        }
+
+        if (Media != null)
+        {
+            register(el => el.SetAttribute("media", Media.Value));
         }
     }
 }

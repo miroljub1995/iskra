@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -94,6 +95,81 @@ public class TextAreaProps : GlobalHtmlComponentProps<HTMLTextAreaElement>
         if (DefaultValue != null)
         {
             register(el => el.DefaultValue = DefaultValue.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Autocomplete != null)
+        {
+            register(el => el.SetAttribute("autocomplete", Autocomplete.Value));
+        }
+
+        if (Cols != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "cols", Cols.Value));
+        }
+
+        if (DirName != null)
+        {
+            register(el => el.SetAttribute("dirname", DirName.Value));
+        }
+
+        if (Disabled != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+        }
+
+        if (MaxLength != null)
+        {
+            register(el => SsrAttributes.SetInt(el, "maxlength", MaxLength.Value));
+        }
+
+        if (MinLength != null)
+        {
+            register(el => SsrAttributes.SetInt(el, "minlength", MinLength.Value));
+        }
+
+        if (Name != null)
+        {
+            register(el => el.SetAttribute("name", Name.Value));
+        }
+
+        if (Placeholder != null)
+        {
+            register(el => el.SetAttribute("placeholder", Placeholder.Value));
+        }
+
+        if (ReadOnly != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "readonly", ReadOnly.Value));
+        }
+
+        if (Required != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "required", Required.Value));
+        }
+
+        if (Rows != null)
+        {
+            register(el => SsrAttributes.SetUInt(el, "rows", Rows.Value));
+        }
+
+        if (Wrap != null)
+        {
+            register(el => el.SetAttribute("wrap", Wrap.Value));
+        }
+
+        if (Value != null)
+        {
+            register(el => el.SetAttribute("value", Value.Value));
+        }
+
+        if (DefaultValue != null)
+        {
+            register(el => el.SetAttribute("value", DefaultValue.Value));
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -46,6 +47,41 @@ public class MeterProps : GlobalHtmlComponentProps<HTMLMeterElement>
         if (Optimum != null)
         {
             register(el => el.Optimum = Optimum.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Value != null)
+        {
+            register(el => SsrAttributes.SetDouble(el, "value", Value.Value));
+        }
+
+        if (Min != null)
+        {
+            register(el => SsrAttributes.SetDouble(el, "min", Min.Value));
+        }
+
+        if (Max != null)
+        {
+            register(el => SsrAttributes.SetDouble(el, "max", Max.Value));
+        }
+
+        if (Low != null)
+        {
+            register(el => SsrAttributes.SetDouble(el, "low", Low.Value));
+        }
+
+        if (High != null)
+        {
+            register(el => SsrAttributes.SetDouble(el, "high", High.Value));
+        }
+
+        if (Optimum != null)
+        {
+            register(el => SsrAttributes.SetDouble(el, "optimum", Optimum.Value));
         }
     }
 }

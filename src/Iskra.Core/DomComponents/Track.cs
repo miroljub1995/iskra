@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -40,6 +41,36 @@ public class TrackProps : GlobalHtmlComponentProps<HTMLTrackElement>
         if (Default != null)
         {
             register(el => el.Default = Default.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Kind != null)
+        {
+            register(el => el.SetAttribute("kind", Kind.Value));
+        }
+
+        if (Src != null)
+        {
+            register(el => el.SetAttribute("src", Src.Value));
+        }
+
+        if (Srclang != null)
+        {
+            register(el => el.SetAttribute("srclang", Srclang.Value));
+        }
+
+        if (Label != null)
+        {
+            register(el => el.SetAttribute("label", Label.Value));
+        }
+
+        if (Default != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "default", Default.Value));
         }
     }
 }

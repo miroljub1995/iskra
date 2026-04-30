@@ -1,4 +1,5 @@
 using System.Runtime.Versioning;
+using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -58,6 +59,51 @@ public class FormProps : GlobalHtmlComponentProps<HTMLFormElement>
         if (Rel != null)
         {
             register(el => el.Rel = Rel.Value);
+        }
+    }
+
+    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    {
+        base.RegisterServerEffects(register);
+
+        if (Action != null)
+        {
+            register(el => el.SetAttribute("action", Action.Value));
+        }
+
+        if (Autocomplete != null)
+        {
+            register(el => el.SetAttribute("autocomplete", Autocomplete.Value));
+        }
+
+        if (Enctype != null)
+        {
+            register(el => el.SetAttribute("enctype", Enctype.Value));
+        }
+
+        if (Method != null)
+        {
+            register(el => el.SetAttribute("method", Method.Value));
+        }
+
+        if (Name != null)
+        {
+            register(el => el.SetAttribute("name", Name.Value));
+        }
+
+        if (NoValidate != null)
+        {
+            register(el => SsrAttributes.SetBoolean(el, "novalidate", NoValidate.Value));
+        }
+
+        if (Target != null)
+        {
+            register(el => el.SetAttribute("target", Target.Value));
+        }
+
+        if (Rel != null)
+        {
+            register(el => el.SetAttribute("rel", Rel.Value));
         }
     }
 }
