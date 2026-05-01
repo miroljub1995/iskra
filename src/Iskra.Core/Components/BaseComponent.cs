@@ -1,3 +1,4 @@
+using Iskra.Core.Features;
 using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 
@@ -32,19 +33,40 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
 
     public void Mount(IRenderSlot slot)
     {
+        var parentFeatures = AppFeatures.Current
+            ?? throw new InvalidOperationException(
+                "AppFeatures.Current must be set before mounting a component. " +
+                "Components must be mounted via IskraHost.Mount or as a child of another mounting component.");
+
+        // Each component gets its own layer that falls back to the parent's features.
+        // Writes inside Setup land only in this layer, so siblings are isolated.
+        var ownFeatures = new FeatureCollection(parentFeatures);
+
         _effectScope.Run(() =>
         {
-            var instances = Setup(Props, Events, out var exposed);
-            if (Ref is not null)
-            {
-                Ref.Value = exposed;
-                new Effect(onCleanup => onCleanup(() => Ref.Value = default));
-            }
+            IComponent[] instances;
+            TExpose exposed;
 
-            // Mount instances
-            foreach (var instance in instances)
+            var prevFeatures = AppFeatures.Current;
+            AppFeatures.Current = ownFeatures;
+            try
             {
-                instance.Mount(slot);
+                instances = Setup(Props, Events, out exposed);
+                if (Ref is not null)
+                {
+                    Ref.Value = exposed;
+                    new Effect(onCleanup => onCleanup(() => Ref.Value = default));
+                }
+
+                // Mount instances
+                foreach (var instance in instances)
+                {
+                    instance.Mount(slot);
+                }
+            }
+            finally
+            {
+                AppFeatures.Current = prevFeatures;
             }
 
             if (slot is IDomRenderSlot)

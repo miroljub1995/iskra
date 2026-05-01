@@ -1,3 +1,4 @@
+using Iskra.Core.Features;
 using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 
@@ -15,6 +16,14 @@ public class If : IComponent
 
     public void Mount(IRenderSlot slot)
     {
+        // Capture the parent features at mount time so that delayed branch flips
+        // (e.g., from click handlers / awaited tasks) still see the correct
+        // features hierarchy. AppFeatures.Current is null when the effect re-runs
+        // outside of a Mount path.
+        var parentFeatures = AppFeatures.Current
+            ?? throw new InvalidOperationException(
+                "AppFeatures.Current must be set before mounting If.");
+
         _effectScope.Run(() =>
         {
             BranchState? current = null;
@@ -45,21 +54,33 @@ public class If : IComponent
                 var branchScope = new EffectScope();
                 branchScope.Run(() =>
                 {
-                    var children = factory();
-                    var prevSlot = slot;
-                    for (int i = 0; i < children.Length; i++)
+                    // Re-establish the parent features as the ambient before mounting
+                    // children. This is required because the effect can re-run later
+                    // (after await / click) when AppFeatures.Current is null.
+                    var prevFeatures = AppFeatures.Current;
+                    AppFeatures.Current = parentFeatures;
+                    try
                     {
-                        var compSlot = prevSlot.CreateSlotAfter();
-                        branchSlots.Add(compSlot);
-                        branchComponents.Add(children[i]);
-                        children[i].Mount(compSlot);
-                        prevSlot = compSlot;
-                        var child = children[i];
-                        new Effect(onCleanup => onCleanup(() =>
+                        var children = factory();
+                        var prevSlot = slot;
+                        for (int i = 0; i < children.Length; i++)
                         {
-                            child.Unmount();
-                            compSlot.Dispose();
-                        }));
+                            var compSlot = prevSlot.CreateSlotAfter();
+                            branchSlots.Add(compSlot);
+                            branchComponents.Add(children[i]);
+                            children[i].Mount(compSlot);
+                            prevSlot = compSlot;
+                            var child = children[i];
+                            new Effect(onCleanup => onCleanup(() =>
+                            {
+                                child.Unmount();
+                                compSlot.Dispose();
+                            }));
+                        }
+                    }
+                    finally
+                    {
+                        AppFeatures.Current = prevFeatures;
                     }
                 });
 

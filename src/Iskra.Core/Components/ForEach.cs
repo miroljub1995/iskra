@@ -1,3 +1,4 @@
+using Iskra.Core.Features;
 using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 
@@ -20,6 +21,14 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
 
     public void Mount(IRenderSlot slot)
     {
+        // Capture parent features at mount time. The reactive effect below can
+        // re-run later (e.g. async data, click handlers) when AppFeatures.Current
+        // is null; we must re-establish the parent features before mounting any
+        // newly created child so each item layers on the correct parent.
+        var parentFeatures = AppFeatures.Current
+            ?? throw new InvalidOperationException(
+                "AppFeatures.Current must be set before mounting ForEach.");
+
         _effectScope.Run(() =>
         {
             var orderedItems = new List<ItemState>();
@@ -104,19 +113,32 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                         var elementSignal = new Signal<TElement>(element);
                         itemScope.Run(() =>
                         {
-                            var children = ElementSetup(elementSignal);
-                            for (int j = 0; j < children.Length; j++)
+                            // Re-establish parent features ambient before mounting children.
+                            // This effect can re-run after async/click events when
+                            // AppFeatures.Current is null. Each newly mounted item must
+                            // layer on the original parent — not on a sibling's layer or null.
+                            var prevFeatures = AppFeatures.Current;
+                            AppFeatures.Current = parentFeatures;
+                            try
                             {
-                                var compSlot = prevSlot.CreateSlotAfter();
-                                itemSlots.Add(compSlot);
-                                children[j].Mount(compSlot);
-                                prevSlot = compSlot;
-                                var child = children[j];
-                                new Effect(onCleanup => onCleanup(() =>
+                                var children = ElementSetup(elementSignal);
+                                for (int j = 0; j < children.Length; j++)
                                 {
-                                    child.Unmount();
-                                    compSlot.Dispose();
-                                }));
+                                    var compSlot = prevSlot.CreateSlotAfter();
+                                    itemSlots.Add(compSlot);
+                                    children[j].Mount(compSlot);
+                                    prevSlot = compSlot;
+                                    var child = children[j];
+                                    new Effect(onCleanup => onCleanup(() =>
+                                    {
+                                        child.Unmount();
+                                        compSlot.Dispose();
+                                    }));
+                                }
+                            }
+                            finally
+                            {
+                                AppFeatures.Current = prevFeatures;
                             }
                         });
 
