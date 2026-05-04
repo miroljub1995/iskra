@@ -1,0 +1,18 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+  </Configurations>
+  <Project Path="src/Iskra.App/Iskra.App.csproj" />
+  <Project Path="src/Iskra.AppExample/Iskra.AppExample.csproj" />
+  <Project Path="src/Iskra.BrowserTestsRunner/Iskra.BrowserTestsRunner.csproj" />
+  <Project Path="src/Iskra.Core.Client.Tests/Iskra.Core.Client.Tests.csproj" />
+  <Project Path="src/Iskra.Core.Server.Tests/Iskra.Core.Server.Tests.csproj" />
+  <Project Path="src/Iskra.Core/Iskra.Core.csproj" />
+  <Project Path="src/Iskra.CoreExample/Iskra.CoreExample.csproj" />
+  <Project Path="src/Iskra.JSCore/Iskra.JSCore.csproj" />
+  <Project Path="src/Iskra.Signals.Tests/Iskra.Signals.Tests.csproj" />
+  <Project Path="src/Iskra.Signals/Iskra.Signals.csproj" />
+  <Project Path="src/Iskra.StdWeb/Iskra.StdWeb.csproj" />
+  <Project Path="src/Iskra.WebIDLGenerator.Tests/Iskra.WebIDLGenerator.Tests.csproj" />
+  <Project Path="src/Iskra.WebIDLGenerator/Iskra.WebIDLGenerator.csproj" />
+</Solution>
