@@ -26,6 +26,34 @@
                 "RunnerBundlePath": "../../../../Iskra.WebIDLGenerator.Tests/bin/Debug/net9.0/browser-wasm/AppBundle/"
             },
             "preLaunchTask": "build: Iskra.WebIDLGenerator.Tests"
+        },
+        {
+            "name": "Run: Iskra.TodoExample (Browser)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet",
+            "args": [
+                "run",
+                "--framework",
+                "net10.0"
+            ],
+            "cwd": "${workspaceFolder}/examples/Iskra.TodoExample",
+            "stopAtEntry": false,
+            "preLaunchTask": "build: Iskra.TodoExample"
+        },
+        {
+            "name": "Run: Iskra.CanvasExample (Browser)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet",
+            "args": [
+                "run",
+                "--framework",
+                "net10.0"
+            ],
+            "cwd": "${workspaceFolder}/examples/Iskra.CanvasExample",
+            "stopAtEntry": false,
+            "preLaunchTask": "build: Iskra.CanvasExample"
         }
     ]
 }

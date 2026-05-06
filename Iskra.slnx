@@ -1,9 +1,8 @@
 <Solution>
-  <Configurations>
-    <Platform Name="Any CPU" />
-  </Configurations>
-  <Project Path="src/Iskra.App/Iskra.App.csproj" />
-  <Project Path="src/Iskra.AppExample/Iskra.AppExample.csproj" />
+  <Folder Name="/examples/">
+    <Project Path="examples/Iskra.CanvasExample/Iskra.CanvasExample.csproj" />
+    <Project Path="examples/Iskra.TodoExample/Iskra.TodoExample.csproj" />
+  </Folder>
   <Project Path="src/Iskra.BrowserTestsRunner/Iskra.BrowserTestsRunner.csproj" />
   <Project Path="src/Iskra.Core.Client.Tests/Iskra.Core.Client.Tests.csproj" />
   <Project Path="src/Iskra.Core.Server.Tests/Iskra.Core.Server.Tests.csproj" />

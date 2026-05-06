@@ -34,46 +34,50 @@ public static class Program
 
         // Create container
         var container = (HTMLDivElement)_window.Document.CreateElement("div");
-        // container.SetAttribute("style",
-        //     "text-align: center; padding: 20px; font-family: Arial;");
         _window.Document.Body?.AppendChild(container);
-        container.Style.SetProperty("textAlign", "center");
-        container.Style.SetProperty("padding", "20px");
-        container.Style.SetProperty("fontFamily", "20px");
+        SetStyle(container, "text-align", "center");
+        SetStyle(container, "padding-top", "20px");
+        SetStyle(container, "padding-right", "20px");
+        SetStyle(container, "padding-bottom", "20px");
+        SetStyle(container, "padding-left", "20px");
+        SetStyle(container, "font-family", "Arial");
 
         // Title
-        var title = _window.Document.CreateElement("h1");
+        var title = (HTMLElement)_window.Document.CreateElement("h1");
         title.TextContent = "🎨 Canvas Bouncing Balls";
-        title.SetAttribute("style", "color: white; margin-bottom: 20px;");
+        SetStyle(title, "color", "white");
+        SetStyle(title, "margin-bottom", "20px");
         container.AppendChild(title);
 
         // Canvas
         var canvas = (HTMLCanvasElement)_window.Document.CreateElement("canvas");
         canvas.Width = CanvasWidth;
         canvas.Height = CanvasHeight;
-        canvas.SetAttribute("style",
-            "background: white; border-radius: 10px; " +
-            "box-shadow: 0 4px 6px rgba(0,0,0,0.3); display: block; margin: 0 auto;");
+        SetStyle(canvas, "background-color", "white");
+        SetStyle(canvas, "border-top-left-radius", "10px");
+        SetStyle(canvas, "border-top-right-radius", "10px");
+        SetStyle(canvas, "border-bottom-right-radius", "10px");
+        SetStyle(canvas, "border-bottom-left-radius", "10px");
+        SetStyle(canvas, "box-shadow", "0 4px 6px rgba(0,0,0,0.3)");
+        SetStyle(canvas, "display", "block");
+        SetStyle(canvas, "margin-left", "auto");
+        SetStyle(canvas, "margin-right", "auto");
         container.AppendChild(canvas);
 
         // Controls
-        var controls = _window.Document.CreateElement("div");
-        controls.SetAttribute("style", "margin-top: 20px;");
+        var controls = (HTMLElement)_window.Document.CreateElement("div");
+        SetStyle(controls, "margin-top", "20px");
         container.AppendChild(controls);
 
-        var addButton = _window.Document.CreateElement("button");
+        var addButton = (HTMLElement)_window.Document.CreateElement("button");
         addButton.TextContent = "Add Ball";
-        addButton.SetAttribute("style",
-            "padding: 10px 30px; font-size: 16px; background: #667eea; " +
-            "color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px;");
+        StyleButton(addButton, "#667eea");
         addButton.AddEventListener("click", new EventListener(_ => AddBall()), false);
         controls.AppendChild(addButton);
 
-        var clearButton = _window.Document.CreateElement("button");
+        var clearButton = (HTMLElement)_window.Document.CreateElement("button");
         clearButton.TextContent = "Clear All";
-        clearButton.SetAttribute("style",
-            "padding: 10px 30px; font-size: 16px; background: #764ba2; " +
-            "color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px;");
+        StyleButton(clearButton, "#764ba2");
         clearButton.AddEventListener("click", new EventListener((e) => ClearBalls()), false);
         controls.AppendChild(clearButton);
 
@@ -95,6 +99,32 @@ public static class Program
         AnimationLoop();
 
         await Task.Delay(Timeout.Infinite);
+    }
+
+    private static void StyleButton(HTMLElement button, string background)
+    {
+        SetStyle(button, "padding-top", "10px");
+        SetStyle(button, "padding-right", "30px");
+        SetStyle(button, "padding-bottom", "10px");
+        SetStyle(button, "padding-left", "30px");
+        SetStyle(button, "font-size", "16px");
+        SetStyle(button, "background-color", background);
+        SetStyle(button, "color", "white");
+        SetStyle(button, "border-style", "none");
+        SetStyle(button, "border-top-left-radius", "5px");
+        SetStyle(button, "border-top-right-radius", "5px");
+        SetStyle(button, "border-bottom-right-radius", "5px");
+        SetStyle(button, "border-bottom-left-radius", "5px");
+        SetStyle(button, "cursor", "pointer");
+        SetStyle(button, "margin-top", "5px");
+        SetStyle(button, "margin-right", "5px");
+        SetStyle(button, "margin-bottom", "5px");
+        SetStyle(button, "margin-left", "5px");
+    }
+
+    private static void SetStyle(HTMLElement element, string property, string value)
+    {
+        element.AttributeStyleMap.Set(property, value);
     }
 
     private static void AddBall()

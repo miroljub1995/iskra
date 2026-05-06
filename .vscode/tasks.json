@@ -28,6 +28,34 @@
                 "panel": "shared"
             },
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build: Iskra.TodoExample",
+            "type": "shell",
+            "command": "dotnet build Iskra.TodoExample.csproj",
+            "options": {
+                "cwd": "${workspaceFolder}/examples/Iskra.TodoExample"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build: Iskra.CanvasExample",
+            "type": "shell",
+            "command": "dotnet build Iskra.CanvasExample.csproj",
+            "options": {
+                "cwd": "${workspaceFolder}/examples/Iskra.CanvasExample"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
         }
     ]
 }

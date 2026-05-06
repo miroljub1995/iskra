@@ -7,8 +7,9 @@
         <IsAotCompatible>true</IsAotCompatible>
 
         <IskraApiVersion Condition="'$(IskraApiVersion)' == ''">0.2.0</IskraApiVersion>
-        
+
         <!-- By default, don't create NuGet packages for projects -->
         <IsPackable>false</IsPackable>
     </PropertyGroup>
 </Project>
+ 

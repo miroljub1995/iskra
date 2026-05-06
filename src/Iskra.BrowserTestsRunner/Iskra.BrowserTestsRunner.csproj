@@ -6,8 +6,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="ChromeForTesting" Version="139.0.7258.68038"/>
-        <PackageReference Include="PuppeteerSharp" Version="20.2.2"/>
+        <PackageReference Include="ChromeForTesting"/>
+        <PackageReference Include="PuppeteerSharp"/>
     </ItemGroup>
 
     <ItemGroup>

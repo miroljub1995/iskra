@@ -1,11 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk.WebAssembly">
-    <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-    </PropertyGroup>
-
     <ItemGroup>
-        <PackageReference Include="Iskra.StdWeb" Version="0.1.0"/>
+        <ProjectReference Include="..\..\src\Iskra.StdWeb\Iskra.StdWeb.csproj"/>
     </ItemGroup>
 </Project>
