@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/docs/">
+    <Project Path="docs/Iskra.Docs/Iskra.Docs.csproj" />
+    <Project Path="docs/Iskra.Docs.Client/Iskra.Docs.Client.csproj" />
+    <Project Path="docs/Iskra.Docs.Server/Iskra.Docs.Server.csproj" />
+  </Folder>
   <Folder Name="/examples/">
     <Project Path="examples/Iskra.CanvasExample/Iskra.CanvasExample.csproj" />
     <Project Path="examples/Iskra.TodoExample/Iskra.TodoExample.csproj" />

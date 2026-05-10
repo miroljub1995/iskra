@@ -56,6 +56,20 @@
                 "panel": "shared"
             },
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build: Iskra.Docs.Server",
+            "type": "shell",
+            "command": "dotnet build Iskra.Docs.Server.csproj -f net10.0",
+            "options": {
+                "cwd": "${workspaceFolder}/docs/Iskra.Docs.Server"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
         }
     ]
 }
