@@ -1,5 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk.WebAssembly">
     <ItemGroup>
-        <ProjectReference Include="..\Iskra.Docs\Iskra.Docs.csproj" />
+        <SupportedPlatform Include="browser" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\Iskra.Core\Iskra.Core.csproj" />
     </ItemGroup>
 </Project>

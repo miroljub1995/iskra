@@ -10,7 +10,7 @@ public sealed class HotReloadManager : IHotReloadManager
     public static readonly HotReloadManager Default = new();
 
     [FeatureSwitchDefinition("System.Reflection.Metadata.MetadataUpdater.IsSupported")]
-    internal static bool IsSupported =>
+    public static bool IsSupported =>
         AppContext.TryGetSwitch("System.Reflection.Metadata.MetadataUpdater.IsSupported", out bool isSupported) ? isSupported : true;
 
     public event Action<Type[]?>? OnDeltaApplied;

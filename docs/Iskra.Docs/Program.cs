@@ -2,7 +2,7 @@ using System.Text;
 using Iskra.Core;
 using Iskra.Core.Features;
 using Iskra.Core.RenderRoot;
-using Iskra.Docs.Server.Components;
+using Iskra.Docs.Components;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.FileProviders;
 

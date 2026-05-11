@@ -2,7 +2,7 @@ using Iskra.Core.Components;
 using Iskra.Core.DomComponents;
 using Iskra.Signals;
 
-namespace Iskra.Docs.Components;
+namespace Iskra.Docs.Client.Components;
 
 public class DocsAppProps { }
 
@@ -22,7 +22,7 @@ public class DocsApp : BaseComponent<DocsAppProps, BaseEmits, object>
                     new H1
                     {
                         Props = new H1Props(),
-                        Children = [new DomText { Text = new Signal<string>("Iskra Documentat") }],
+                        Children = [new DomText { Text = new Signal<string>("Iskra Documentat1") }],
                     },
                     new P
                     {

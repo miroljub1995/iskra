@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Iskra.Docs.Server": {
+    "Iskra.Docs": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5100",

@@ -1,6 +1,7 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.Core;
-using Iskra.Docs.Components;
+using Iskra.Core.HotReload;
+using Iskra.Docs.Client.Components;
 using Iskra.JSCore;
 using Iskra.StdWeb;
 
@@ -18,6 +19,7 @@ var appElement = window.Document.GetElementById("app")
 var _ = new IskraHostBuilder()
     .UseRootElement(appElement)
     .UseRootComponent(() => new DocsApp { Props = new DocsAppProps() })
+    .UseDefaultHotReloadManager()
     .Build()
     .Mount();
 

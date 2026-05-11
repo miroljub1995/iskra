@@ -1,9 +1,9 @@
 using Iskra.Core.Components;
 using Iskra.Core.DomComponents;
-using Iskra.Docs.Components;
+using Iskra.Docs.Client.Components;
 using Iskra.Signals;
 
-namespace Iskra.Docs.Server.Components;
+namespace Iskra.Docs.Components;
 
 public class DocsPageProps { }
 
