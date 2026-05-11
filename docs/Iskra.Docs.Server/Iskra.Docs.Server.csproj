@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
     <ItemGroup>
         <ProjectReference Include="..\Iskra.Docs\Iskra.Docs.csproj" />
-        <ProjectReference Include="..\Iskra.Docs.Client\Iskra.Docs.Client.csproj" ReferenceOutputAssembly="false" />
+        <ProjectReference Include="..\Iskra.Docs.Client\Iskra.Docs.Client.csproj" />
         <ProjectReference Include="..\..\src\Iskra.Core\Iskra.Core.csproj" />
     </ItemGroup>
 </Project>

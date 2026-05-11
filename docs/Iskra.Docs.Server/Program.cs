@@ -3,12 +3,22 @@ using Iskra.Core;
 using Iskra.Core.Features;
 using Iskra.Core.RenderRoot;
 using Iskra.Docs.Server.Components;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.FileProviders;
 
-var builder = WebApplication.CreateSlimBuilder(args);
+var vars = Environment.GetEnvironmentVariables();
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.WebHost.UseStaticWebAssets();
+
 var app = builder.Build();
 
-app.UseStaticFiles();
+var contentTypeProvider = new FileExtensionContentTypeProvider();
+contentTypeProvider.Mappings[".pdb"] = "application/octet-stream";
+contentTypeProvider.Mappings[".dat"] = "application/octet-stream";
+
+app.UseStaticFiles(new StaticFileOptions { ContentTypeProvider = contentTypeProvider });
 
 // Serve _framework assets (wasm, js) from the Iskra.Docs.Client output
 var baseDir = AppContext.BaseDirectory.TrimEnd(Path.DirectorySeparatorChar);
@@ -22,11 +32,17 @@ var clientFramework = Path.GetFullPath(Path.Combine(
 ));
 if (Directory.Exists(clientFramework))
 {
-    app.UseStaticFiles(new StaticFileOptions
-    {
-        FileProvider = new PhysicalFileProvider(clientFramework),
-        RequestPath = "/_framework"
-    });
+    // app.UseStaticFiles(new StaticFileOptions
+    // {
+    //     FileProvider = new PhysicalFileProvider(clientFramework),
+    //     RequestPath = "/_framework"
+    // });
+
+    // app.UseStaticFiles(new StaticFileOptions
+    // {
+    //     FileProvider = new PhysicalFileProvider("/Users/miki/repos/iskra/docs/Iskra.Docs.Client/bin/Debug/net10.0/wwwroot"),
+    //     // RequestPath = "/_framework"
+    // });
 }
 
 app.MapGet("/", async (httpContext) =>
@@ -47,6 +63,7 @@ app.MapGet("/", async (httpContext) =>
     httpContext.Response.Headers.ContentType = "text/html";
     await httpContext.Response.BodyWriter.WriteAsync(Encoding.UTF8.GetBytes("<!DOCTYPE html>"));
     await root.WriteAsync(httpContext.Response.BodyWriter, cancellationToken: httpContext.RequestAborted);
+    await httpContext.Response.BodyWriter.FlushAsync(httpContext.RequestAborted);
 });
 
 app.Run();

@@ -52,7 +52,18 @@ public class DocsPage : BaseComponent<DocsPageProps, BaseEmits, object>
                     new Body
                     {
                         Props = new BodyProps(),
-                        Children = [new DocsApp { Props = new DocsAppProps() }],
+                        Children =
+                        [
+                            new Div
+                            {
+                                Props = new DivProps { Id = new Signal<string>("app") },
+                                Children = [new DocsApp { Props = new DocsAppProps() }],
+                            },
+                            new Script
+                            {
+                                Props = new ScriptProps { Src = new Signal<string>("/_framework/aspnetcore-browser-refresh.js") },
+                            },
+                        ],
                     },
                 ],
             },
