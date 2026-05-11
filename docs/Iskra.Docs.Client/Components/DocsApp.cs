@@ -22,7 +22,7 @@ public class DocsApp : BaseComponent<DocsAppProps, BaseEmits, object>
                     new H1
                     {
                         Props = new H1Props(),
-                        Children = [new DomText { Text = new Signal<string>("Iskra Documentat1") }],
+                        Children = [new DomText { Text = new Signal<string>("Iskra Documentation") }],
                     },
                     new P
                     {
