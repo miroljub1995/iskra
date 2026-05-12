@@ -1,4 +1,5 @@
 using Iskra.Core.Features;
+using Iskra.Core.HotReload;
 using Iskra.Core.RenderRoot;
 using Iskra.Signals;
 
@@ -7,7 +8,7 @@ namespace Iskra.Core.Components;
 public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
     where TEvents : BaseEmits
 {
-    private readonly EffectScope _effectScope = new();
+    private EffectScope? _effectScope;
     private readonly List<Action<Action<Action>>> _onMountedCallbacks = [];
     private readonly List<Action> _onUnmountedActions = [];
 
@@ -41,7 +42,14 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
         // Each component gets its own layer that falls back to the parent's features.
         // Writes inside Setup land only in this layer, so siblings are isolated.
         var ownFeatures = new FeatureCollection(parentFeatures);
+        var hotReloadManager = parentFeatures.Get<IHotReloadManager>();
 
+        if (_effectScope is not null)
+        {
+            throw new InvalidOperationException("Component is already mounted.");
+        }
+
+        _effectScope = new();
         _effectScope.Run(() =>
         {
             IComponent[] instances;
@@ -78,6 +86,8 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
                         callback(OnUnmounted);
                     }
 
+                    SetupHotReload(hotReloadManager, slot, parentFeatures, onCleanup);
+
                     onCleanup(() =>
                     {
                         Events?.Disable();
@@ -100,7 +110,49 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
 
     public void Unmount()
     {
+        if (_effectScope is null)
+        {
+            throw new InvalidOperationException("Component is not mounted.");
+        }
+
         _effectScope.Dispose();
+        _effectScope = null;
+        _onMountedCallbacks.Clear();
+        _onUnmountedActions.Clear();
+    }
+
+    private void SetupHotReload(
+        IHotReloadManager? hotReloadManager,
+        IRenderSlot slot,
+        IFeatureCollection parentFeatures,
+        Action<Action> onCleanup)
+    {
+        if (hotReloadManager is null)
+        {
+            return;
+        }
+
+        void OnDeltaApplied(Type[]? types)
+        {
+            if (types is null || types.Contains(GetType()))
+            {
+                Unmount();
+
+                var prev = AppFeatures.Current;
+                AppFeatures.Current = parentFeatures;
+                try
+                {
+                    Mount(slot);
+                }
+                finally
+                {
+                    AppFeatures.Current = prev;
+                }
+            }
+        }
+
+        hotReloadManager.OnDeltaApplied += OnDeltaApplied;
+        onCleanup(() => hotReloadManager.OnDeltaApplied -= OnDeltaApplied);
     }
 
     protected abstract IComponent[] Setup(TProps props, TEvents? events, out TExpose exposed);
