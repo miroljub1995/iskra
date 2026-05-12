@@ -2,6 +2,22 @@
 
 Iskra.Core is the experimental component layer for Iskra. It builds on Iskra.StdWeb and Iskra.Signals to provide components, typed DOM component wrappers, reactive rendering, browser rendering roots, and server-side rendering primitives.
 
+## Before Initial Release
+
+### Bug fixes
+- [ ] `DomText.Unmount()` — method body is empty
+- [ ] Fix hot reload (`HotReloadManager`) — currently has bugs
+- [ ] Verify `ForEach` SSR keyed reorder behavior matches browser behavior
+
+### Core features
+- [ ] **Slots / content projection** — passing child components into named or default slots (Vue: `<slot>`)
+- [ ] **Two-way binding helpers** — `v-model` equivalent; currently requires manually wiring a `Signal` through both a prop and an event
+- [ ] **Teleport** — render component output to an arbitrary DOM node outside the component tree (Vue: `<Teleport>`)
+- [ ] **SSR hydration** — attach the client-side component tree to server-rendered HTML without re-creating DOM nodes
+
+### Router
+- [ ] **Router** — URL-based navigation, route params, guards, nested routes, with both client-side and server-side rendering support
+
 ## What It Provides
 
 - A component contract through `IComponent` and `BaseComponent<TProps, TEvents, TExpose>`.
