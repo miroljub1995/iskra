@@ -5,9 +5,7 @@ Iskra.Core is the experimental component layer for Iskra. It builds on Iskra.Std
 ## Before Initial Release
 
 ### Bug fixes
-- [ ] `DomText.Unmount()` — method body is empty
 - [ ] Fix hot reload (`HotReloadManager`) — currently has bugs
-- [ ] Verify `ForEach` SSR keyed reorder behavior matches browser behavior
 
 ### Core features
 - [ ] **Slots / content projection** — passing child components into named or default slots (Vue: `<slot>`)
