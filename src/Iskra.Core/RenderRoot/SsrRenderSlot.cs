@@ -4,16 +4,13 @@ namespace Iskra.Core.RenderRoot;
 
 public sealed class SsrRenderSlot : ISsrRenderSlot
 {
-    private readonly LinkedListNode<SsrRenderSlot?> _listNode;
+    private readonly SsrRenderRoot _root;
+    internal readonly LinkedListNode<SsrRenderSlot?> _listNode;
     private ISsrNode? _node;
 
-    public SsrRenderSlot(LinkedList<SsrRenderSlot?> list)
+    internal SsrRenderSlot(LinkedListNode<SsrRenderSlot?> listNode, SsrRenderRoot root)
     {
-        _listNode = list.AddLast(this);
-    }
-
-    private SsrRenderSlot(LinkedListNode<SsrRenderSlot?> listNode)
-    {
+        _root = root;
         _listNode = listNode;
     }
 
@@ -24,17 +21,9 @@ public sealed class SsrRenderSlot : ISsrRenderSlot
         _listNode.List?.Remove(_listNode);
     }
 
-    public IRenderSlot CreateSlotAfter()
+    public IRenderSlot ClaimOrCreateSlotAfter()
     {
-        if (_listNode.List is null)
-        {
-            throw new Exception("Slot must be attached.");
-        }
-
-        var linkedListNode = _listNode.List.AddAfter(_listNode, (SsrRenderSlot?)null);
-        var slot = new SsrRenderSlot(linkedListNode);
-        linkedListNode.Value = slot;
-        return slot;
+        return _root.ClaimOrCreateSlotAfter(_listNode);
     }
 
     public void Populate(ISsrNode node)

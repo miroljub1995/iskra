@@ -24,6 +24,6 @@ var root = new DomRenderRoot(JSObjectProxyFactory.GetProxy<Window>(JSHost.Global
 new ParentComponent
 {
     Props = new ParentComponentProps(),
-}.Mount(root.GetNextSlot());
+}.Mount(root.ClaimOrCreateFirstSlot());
 
 await Task.Delay(Timeout.Infinite);

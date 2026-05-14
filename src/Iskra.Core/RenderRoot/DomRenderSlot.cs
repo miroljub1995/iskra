@@ -7,19 +7,16 @@ namespace Iskra.Core.RenderRoot;
 [SupportedOSPlatform("browser")]
 public class DomRenderSlot : IDomRenderSlot
 {
-    private readonly Node _parent;
-    private readonly LinkedListNode<DomRenderSlot?> _listNode;
+    private readonly DomRenderRoot _root;
+    internal readonly LinkedListNode<DomRenderSlot?> _listNode;
     private Node? _node;
+    internal bool _claimed;
 
-    public DomRenderSlot(LinkedList<DomRenderSlot?> list, Node parent)
+    internal DomRenderSlot(LinkedListNode<DomRenderSlot?> listNode, DomRenderRoot root,
+        Node? existingNode = null)
     {
-        _parent = parent;
-        _listNode = list.AddLast(this);
-    }
-
-    private DomRenderSlot(LinkedListNode<DomRenderSlot?> listNode, Node parent)
-    {
-        _parent = parent;
+        _root = root;
+        _node = existingNode;
         _listNode = listNode;
     }
 
@@ -28,32 +25,34 @@ public class DomRenderSlot : IDomRenderSlot
         _listNode.List?.Remove(_listNode);
     }
 
-    public IRenderSlot CreateSlotAfter()
+    public IRenderSlot ClaimOrCreateSlotAfter()
     {
-        if (_listNode.List is null)
-        {
-            throw new Exception("Slot must be attached.");
-        }
-
-        var linkedListNode = _listNode.List.AddAfter(_listNode, (DomRenderSlot?)null);
-        var slot = new DomRenderSlot(linkedListNode, _parent);
-        linkedListNode.Value = slot;
-        return slot;
+        return _root.ClaimOrCreateSlotAfter(_listNode);
     }
+
+    public Node? GetNode() => _node;
 
     public void Populate(Node node)
     {
+        if (_node is not null)
+        {
+            throw new Exception("Slot is already populated.");
+        }
+
         _node = node;
         var nextNode = TryFindNextNode();
-        _parent.InsertBefore(node, nextNode);
+        _root.Node.InsertBefore(node, nextNode);
     }
 
     public void Empty()
     {
-        if (_node is not null)
+        if (_node is null)
         {
-            _parent.RemoveChild(_node);
+            throw new Exception("Slot is not populated.");
         }
+
+        _root.Node.RemoveChild(_node);
+        _node = null;
     }
 
     public void MoveAfter(IRenderSlot anchor)
@@ -73,7 +72,7 @@ public class DomRenderSlot : IDomRenderSlot
         // InsertBefore moves an already-attached node — no RemoveChild needed.
         if (_node is not null)
         {
-            _parent.InsertBefore(_node, TryFindNextNode());
+            _root.Node.InsertBefore(_node, TryFindNextNode());
         }
     }
 

@@ -56,14 +56,14 @@
             "preLaunchTask": "build: Iskra.CanvasExample"
         },
         {
-            "name": "Run: Iskra.Docs.Server",
+            "name": "Run: Iskra.Docs",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/docs/Iskra.Docs.Server/bin/Debug/net10.0/Iskra.Docs.Server",
+            "program": "${workspaceFolder}/docs/Iskra.Docs/bin/Debug/net10.0/Iskra.Docs",
             "args": [],
-            "cwd": "${workspaceFolder}/docs/Iskra.Docs.Server",
+            "cwd": "${workspaceFolder}/docs/Iskra.Docs",
             "stopAtEntry": false,
-            "preLaunchTask": "build: Iskra.Docs.Server",
+            "preLaunchTask": "build: Iskra.Docs",
             "serverReadyAction": {
                 "action": "openExternally",
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"

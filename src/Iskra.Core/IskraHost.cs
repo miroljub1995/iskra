@@ -26,7 +26,7 @@ public sealed class IskraHost
             AppFeatures.Current = _rootFeatures;
             try
             {
-                _rootComponentFactory().Mount(_renderRoot.GetNextSlot());
+                _rootComponentFactory().Mount(_renderRoot.ClaimOrCreateFirstSlot());
             }
             finally
             {

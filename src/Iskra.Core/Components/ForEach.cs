@@ -122,9 +122,11 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                             try
                             {
                                 var children = ElementSetup(elementSignal);
+                                IRenderSlot? preAllocated = null;
                                 for (int j = 0; j < children.Length; j++)
                                 {
-                                    var compSlot = prevSlot.CreateSlotAfter();
+                                    var compSlot = preAllocated ?? prevSlot.ClaimOrCreateSlotAfter();
+                                    preAllocated = j < children.Length - 1 ? compSlot.ClaimOrCreateSlotAfter() : null;
                                     itemSlots.Add(compSlot);
                                     children[j].Mount(compSlot);
                                     prevSlot = compSlot;

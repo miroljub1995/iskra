@@ -8,64 +8,66 @@ using Iskra.StdWeb;
 
 namespace Iskra.Core.DomComponents;
 
-public class DomText : IComponent
+public class DomComment : IComponent
 {
-    public required IReadOnlySignal<string> Text { get; init; }
+    public required IReadOnlySignal<string> Data { get; init; }
 
     private IRenderSlot? _slot;
 
-    public void Mount(IRenderSlot root)
+    public void Mount(IRenderSlot slot)
     {
-        if (root is IDomRenderSlot domRenderSlot)
+        if (slot is IDomRenderSlot domRenderSlot)
         {
             if (!OperatingSystem.IsBrowser())
             {
                 throw new PlatformNotSupportedException();
             }
 
-            var node = domRenderSlot.GetNode();
-            if (node is not null)
+            var existingNode = domRenderSlot.GetNode();
+            Comment node;
+            if (existingNode is not null)
             {
-                if (node.NodeType != Node.TEXT_NODE)
+                if (existingNode.NodeType != Node.COMMENT_NODE)
                 {
                     throw new HydrationMismatchException(
-                        $"Hydration mismatch: expected a text node but found <{node.NodeName.ToLowerInvariant()}>.");
+                        $"Hydration mismatch: expected a comment node but found <{existingNode.NodeName.ToLowerInvariant()}>.");
                 }
 
-                if (node.TextContent != Text.Value)
+                node = JSObjectProxyFactory.GetProxy<Comment>(existingNode.JSObject);
+                if (node.Data != Data.Value)
                 {
                     throw new HydrationMismatchException(
-                        $"Hydration mismatch: expected text \"{Text.Value}\" but found \"{node.TextContent ?? string.Empty}\".");
+                        $"Hydration mismatch: expected comment \"{Data.Value}\" but found \"{node.Data}\"");
                 }
 
-                RegisterTextEffect(node, Text);
+                RegisterDataEffect(node, Data);
             }
             else
             {
                 node = JSObjectProxyFactory.GetProxy<Window>(JSHost.GlobalThis).Document
-                    .CreateTextNode(Text.Value);
+                    .CreateComment(Data.Value);
 
-                RegisterTextEffect(node, Text);
+                RegisterDataEffect(node, Data);
 
                 domRenderSlot.Populate(node);
             }
         }
-        else if (root is ISsrRenderSlot ssrRenderSlot)
+        else if (slot is ISsrRenderSlot ssrRenderSlot)
         {
-            var node = new SsrTextNode { TextContent = Text.Value };
+            var node = new SsrCommentNode { Data = Data.Value };
 
-            new Effect(_ => node.TextContent = Text.Value);
+            new Effect(_ => node.Data = Data.Value);
 
             ssrRenderSlot.Populate(node);
         }
 
-        _slot = root;
+        _slot = slot;
     }
 
     [SupportedOSPlatform("browser")]
-    private static void RegisterTextEffect(Node node, IReadOnlySignal<string> text)
+    private static void RegisterDataEffect(Comment node, IReadOnlySignal<string> data)
     {
-        new Effect(_ => node.TextContent = text.Value);
+        new Effect(_ => node.Data = data.Value);
     }
 
     public void Unmount()

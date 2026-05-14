@@ -12,7 +12,7 @@ public class If : IComponent
 
     private readonly EffectScope _effectScope = new();
 
-    private sealed record BranchState(bool Value, EffectScope Scope, IReadOnlyList<IRenderSlot> Slots, IReadOnlyList<IComponent> Components);
+    private sealed record BranchState(bool Value, EffectScope Scope);
 
     public void Mount(IRenderSlot slot)
     {
@@ -45,12 +45,10 @@ public class If : IComponent
                 var factory = value ? Then : Otherwise;
                 if (factory is null)
                 {
-                    current = new BranchState(value, new EffectScope(), Array.Empty<IRenderSlot>(), Array.Empty<IComponent>());
+                    current = new BranchState(value, new EffectScope());
                     return;
                 }
 
-                var branchSlots = new List<IRenderSlot>();
-                var branchComponents = new List<IComponent>();
                 var branchScope = new EffectScope();
                 branchScope.Run(() =>
                 {
@@ -61,22 +59,12 @@ public class If : IComponent
                     AppFeatures.Current = parentFeatures;
                     try
                     {
-                        var children = factory();
-                        var prevSlot = slot;
-                        for (int i = 0; i < children.Length; i++)
+                        var composed = new ComposedComponent(factory());
+                        composed.Mount(slot);
+                        new Effect(onCleanup => onCleanup(() =>
                         {
-                            var compSlot = prevSlot.CreateSlotAfter();
-                            branchSlots.Add(compSlot);
-                            branchComponents.Add(children[i]);
-                            children[i].Mount(compSlot);
-                            prevSlot = compSlot;
-                            var child = children[i];
-                            new Effect(onCleanup => onCleanup(() =>
-                            {
-                                child.Unmount();
-                                compSlot.Dispose();
-                            }));
-                        }
+                            composed.Unmount();
+                        }));
                     }
                     finally
                     {
@@ -84,7 +72,7 @@ public class If : IComponent
                     }
                 });
 
-                current = new BranchState(value, branchScope, branchSlots, branchComponents);
+                current = new BranchState(value, branchScope);
             });
 
             // Cleanup Effect: no signals tracked — only registers teardown for when this component is unmounted.

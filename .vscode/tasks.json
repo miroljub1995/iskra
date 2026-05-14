@@ -58,11 +58,11 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "build: Iskra.Docs.Server",
+            "label": "build: Iskra.Docs",
             "type": "shell",
-            "command": "dotnet build Iskra.Docs.Server.csproj -f net10.0",
+            "command": "dotnet build Iskra.Docs.csproj -f net10.0",
             "options": {
-                "cwd": "${workspaceFolder}/docs/Iskra.Docs.Server"
+                "cwd": "${workspaceFolder}/docs/Iskra.Docs"
             },
             "group": "build",
             "presentation": {

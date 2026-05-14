@@ -16,9 +16,25 @@ public sealed class SsrRenderRoot : IRenderRoot
         _slots = parent.Children;
     }
 
-    public IRenderSlot GetNextSlot()
+    public IRenderSlot ClaimOrCreateFirstSlot()
     {
-        return new SsrRenderSlot(_slots);
+        var listNode = _slots.AddLast((SsrRenderSlot?)null);
+        var slot = new SsrRenderSlot(listNode, this);
+        listNode.Value = slot;
+        return slot;
+    }
+
+    internal IRenderSlot ClaimOrCreateSlotAfter(LinkedListNode<SsrRenderSlot?> listNode)
+    {
+        if (listNode.List is null)
+        {
+            throw new System.Exception("Slot must be attached.");
+        }
+
+        var newListNode = _slots.AddAfter(listNode, (SsrRenderSlot?)null);
+        var newSlot = new SsrRenderSlot(newListNode, this);
+        newListNode.Value = newSlot;
+        return newSlot;
     }
 
     /// <summary>

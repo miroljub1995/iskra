@@ -69,7 +69,7 @@ public class ServerPrefetchTests
         await prefetch.WaitForCompletionAsync();
 
         var output = await SsrHelpers.RenderAsync(root);
-        await Assert.That(output).IsEqualTo("<div>hello</div>");
+        await Assert.That(output).IsEqualTo("<!--[--><div><!--[-->hello<!--]--></div><!--]-->");
     }
 
     [Test]
@@ -229,7 +229,7 @@ public class ServerPrefetchTests
 
         await Assert.That(ran).IsEquivalentTo(new[] { "outer", "inner" });
         var output = await SsrHelpers.RenderAsync(root);
-        await Assert.That(output).IsEqualTo("<div>ready</div>");
+        await Assert.That(output).IsEqualTo("<!--[--><!--[--><div><!--[-->ready<!--]--></div><!--]--><!--]-->");
     }
 
     [Test]

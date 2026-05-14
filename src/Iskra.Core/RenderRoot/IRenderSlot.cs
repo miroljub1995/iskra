@@ -2,6 +2,6 @@ namespace Iskra.Core.RenderRoot;
 
 public interface IRenderSlot : IDisposable
 {
-    IRenderSlot CreateSlotAfter();
+    IRenderSlot ClaimOrCreateSlotAfter();
     void MoveAfter(IRenderSlot anchor);
 }

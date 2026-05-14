@@ -1,3 +1,4 @@
+using Iskra.Core.DomComponents;
 using Iskra.Core.Features;
 using Iskra.Core.HotReload;
 using Iskra.Core.RenderRoot;
@@ -52,25 +53,27 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
         _effectScope = new();
         _effectScope.Run(() =>
         {
-            IComponent[] instances;
-            TExpose exposed;
+            ComposedComponent composedComponent;
 
             var prevFeatures = AppFeatures.Current;
             AppFeatures.Current = ownFeatures;
             try
             {
-                instances = Setup(Props, Events, out exposed);
+                var setupResult = Setup(Props, Events, out TExpose exposed);
+
+                var openComment = new DomComment { Data = new Signal<string>("[") };
+                var closeComment = new DomComment { Data = new Signal<string>("]") };
+
+                composedComponent = new ComposedComponent([openComment, .. setupResult, closeComment]);
+
+
                 if (Ref is not null)
                 {
                     Ref.Value = exposed;
                     new Effect(onCleanup => onCleanup(() => Ref.Value = default));
                 }
 
-                // Mount instances
-                foreach (var instance in instances)
-                {
-                    instance.Mount(slot);
-                }
+                composedComponent.Mount(slot);
             }
             finally
             {
@@ -92,11 +95,7 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
                     {
                         Events?.Disable();
 
-                        // Unmount instances
-                        foreach (var instance in instances)
-                        {
-                            instance.Unmount();
-                        }
+                        composedComponent?.Unmount();
 
                         foreach (var action in _onUnmountedActions)
                         {

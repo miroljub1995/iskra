@@ -35,8 +35,23 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
                 throw new PlatformNotSupportedException();
             }
 
-            var element = (TElement)JSObjectProxyFactory.GetProxy<Window>(JSHost.GlobalThis).Document
-                .CreateElement(tagName);
+            TElement element;
+            var existingNode = domRenderSlot.GetNode();
+            if (existingNode is not null)
+            {
+                if (!string.Equals(existingNode.NodeName, tagName, StringComparison.OrdinalIgnoreCase))
+                {
+                    throw new HydrationMismatchException(
+                        $"Hydration mismatch: expected <{tagName}> but found <{existingNode.NodeName.ToLowerInvariant()}>.");
+                }
+
+                element = JSObjectProxyFactory.GetProxy<TElement>(existingNode.JSObject);
+            }
+            else
+            {
+                element = (TElement)JSObjectProxyFactory.GetProxy<Window>(JSHost.GlobalThis).Document
+                    .CreateElement(tagName);
+            }
 
             var props = Props;
             Action<TElement> combinedEffect = static _ => { };
@@ -49,13 +64,19 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
             if (!IsVoid && children?.Length > 0)
             {
                 var childrenRoot = new DomRenderRoot(element);
-                foreach (var child in children)
+                var prevSlot = childrenRoot.ClaimOrCreateFirstSlot();
+                children[0].Mount(prevSlot);
+                for (var i = 1; i < children.Length; i++)
                 {
-                    child.Mount(childrenRoot.GetNextSlot());
+                    prevSlot = prevSlot.ClaimOrCreateSlotAfter();
+                    children[i].Mount(prevSlot);
                 }
             }
 
-            domRenderSlot.Populate(element);
+            if (existingNode is null)
+            {
+                domRenderSlot.Populate(element);
+            }
 
             if (Ref is not null)
             {
@@ -76,7 +97,7 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
                 var childrenRoot = new SsrRenderRoot(node);
                 foreach (var child in children)
                 {
-                    child.Mount(childrenRoot.GetNextSlot());
+                    child.Mount(childrenRoot.ClaimOrCreateFirstSlot());
                 }
             }
 

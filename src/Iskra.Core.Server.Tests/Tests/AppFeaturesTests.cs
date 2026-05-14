@@ -436,7 +436,7 @@ public class AppFeaturesTests
             .Mount();
 
         var output = await SsrHelpers.RenderAsync(root);
-        await Assert.That(output).IsEqualTo("<div>dark</div>");
+        await Assert.That(output).IsEqualTo("<!--[--><!--[--><div><!--[-->dark<!--]--></div><!--]--><!--]-->");
     }
 
     /// <summary>
