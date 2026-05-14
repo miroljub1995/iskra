@@ -17,7 +17,7 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
     // Element is held in a Signal so that when the same key is paired with a new
     // element value, the existing components are preserved and only the signal
     // is updated reactively (no remount, no ElementSetup re-invocation).
-    private sealed record ItemState(TKey Key, Signal<TElement> Element, EffectScope Scope, IReadOnlyList<IRenderSlot> Slots);
+    private sealed record ItemState(TKey Key, Signal<TElement> Element, EffectScope Scope, IRenderSlot StartSlot, IRenderSlot EndSlot);
 
     public void Mount(IRenderSlot slot)
     {
@@ -63,7 +63,6 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                 }
 
                 var newList = new List<ItemState>(newItems.Count);
-                var handledKeys = new HashSet<TKey>(Comparer);
                 var prevSlot = slot;
 
                 for (int i = 0; i < newItems.Count; i++)
@@ -79,38 +78,29 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                         var existing = orderedItems[i];
                         existing.Element.Value = element;
                         newList.Add(existing);
-                        prevSlot = existing.Slots[^1];
-                        handledKeys.Add(key);
+                        prevSlot = existing.EndSlot;
+                        oldByKey.Remove(key);
                     }
-                    else if (oldByKey.TryGetValue(key, out var existingItem)
-                        && existingItem.Slots.Count > 0)
+                    else if (oldByKey.TryGetValue(key, out var existingItem))
                     {
-                        // Key exists at a different position — move each slot individually after the running anchor.
-                        var anchor = prevSlot;
-                        foreach (var s in existingItem.Slots)
-                        {
-                            s.MoveAfter(anchor);
-                            anchor = s;
-                        }
+                        // Key exists at a different position — move its entire slot range after the running anchor.
+                        existingItem.StartSlot.MoveRangeAfter(existingItem.EndSlot, prevSlot);
                         // Update the element signal so that any reactive consumers re-render.
                         existingItem.Element.Value = element;
-                        handledKeys.Add(key);
+                        oldByKey.Remove(key);
                         newList.Add(existingItem);
-                        prevSlot = existingItem.Slots[^1];
+                        prevSlot = existingItem.EndSlot;
                     }
                     else
                     {
-                        // Brand new key, or moved key in a non-DOM context (fallback: dispose + remount)
-                        if (oldByKey.TryGetValue(key, out var staleItem))
-                        {
-                            staleItem.Scope.Dispose();
-                        }
+                        // Brand new key — mount fresh.
 
-                        handledKeys.Add(key);
-
-                        var itemSlots = new List<IRenderSlot>();
                         var itemScope = new EffectScope();
                         var elementSignal = new Signal<TElement>(element);
+                        // Pre-allocate the end anchor before mounting so that ComposedComponent's
+                        // internally created slots are inserted between startSlot and endSlot.
+                        var startSlot = prevSlot.ClaimOrCreateSlotAfter();
+                        var endSlot = startSlot.ClaimOrCreateSlotAfter();
                         itemScope.Run(() =>
                         {
                             // Re-establish parent features ambient before mounting children.
@@ -122,21 +112,14 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                             try
                             {
                                 var children = ElementSetup(elementSignal);
-                                IRenderSlot? preAllocated = null;
-                                for (int j = 0; j < children.Length; j++)
+                                var composed = new ComposedComponent(children);
+                                composed.Mount(startSlot);
+                                new Effect(onCleanup => onCleanup(() =>
                                 {
-                                    var compSlot = preAllocated ?? prevSlot.ClaimOrCreateSlotAfter();
-                                    preAllocated = j < children.Length - 1 ? compSlot.ClaimOrCreateSlotAfter() : null;
-                                    itemSlots.Add(compSlot);
-                                    children[j].Mount(compSlot);
-                                    prevSlot = compSlot;
-                                    var child = children[j];
-                                    new Effect(onCleanup => onCleanup(() =>
-                                    {
-                                        child.Unmount();
-                                        compSlot.Dispose();
-                                    }));
-                                }
+                                    composed.Unmount();
+                                    startSlot.Dispose();
+                                    endSlot.Dispose();
+                                }));
                             }
                             finally
                             {
@@ -144,17 +127,15 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                             }
                         });
 
-                        newList.Add(new ItemState(key, elementSignal, itemScope, itemSlots));
+                        prevSlot = endSlot;
+                        newList.Add(new ItemState(key, elementSignal, itemScope, startSlot, endSlot));
                     }
                 }
 
                 // Dispose items whose key disappeared from the new list
-                foreach (var item in orderedItems)
+                foreach (var item in oldByKey.Values)
                 {
-                    if (!handledKeys.Contains(item.Key))
-                    {
-                        item.Scope.Dispose();
-                    }
+                    item.Scope.Dispose();
                 }
 
                 orderedItems.Clear();

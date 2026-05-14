@@ -55,24 +55,61 @@ public class DomRenderSlot : IDomRenderSlot
         _node = null;
     }
 
-    public void MoveAfter(IRenderSlot anchor)
+    public void MoveRangeAfter(IRenderSlot rangeEnd, IRenderSlot anchor)
     {
+        var endSlot = (DomRenderSlot)rangeEnd;
         var anchorSlot = (DomRenderSlot)anchor;
 
         var list = _listNode.List ?? throw new Exception("Slot must be attached.");
 
         if (anchorSlot._listNode.List != list)
-            throw new Exception("Slots must belong to the same slot list.");
-
-        // Relink this slot's node immediately after the anchor.
-        list.Remove(_listNode);
-        list.AddAfter(anchorSlot._listNode, _listNode);
-
-        // Reinsert the DOM node at the new logical position.
-        // InsertBefore moves an already-attached node — no RemoveChild needed.
-        if (_node is not null)
         {
-            _root.Node.InsertBefore(_node, TryFindNextNode());
+            throw new Exception("Slots must belong to the same slot list.");
+        }
+
+        // Collect linked-list nodes in the range [this .. endSlot].
+        var rangeNodes = new List<LinkedListNode<DomRenderSlot?>>();
+        var cursor = _listNode;
+        while (true)
+        {
+            rangeNodes.Add(cursor);
+            if (cursor == endSlot._listNode)
+            {
+                break;
+            }
+
+            cursor = cursor.Next ?? throw new Exception("rangeEnd not found after rangeStart in slot list.");
+        }
+
+        // Relink: remove each node and re-insert in order after the anchor.
+        var insertAfter = anchorSlot._listNode;
+        foreach (var node in rangeNodes)
+        {
+            list.Remove(node);
+            list.AddAfter(insertAfter, node);
+            insertAfter = node;
+        }
+
+        // Find the first DOM node that now follows endSlot (for InsertBefore).
+        Node? nextNode = null;
+        var afterEnd = endSlot._listNode.Next;
+        while (afterEnd is not null)
+        {
+            if (afterEnd.Value?._node is { } n)
+            {
+                nextNode = n;
+                break;
+            }
+            afterEnd = afterEnd.Next;
+        }
+
+        // Reinsert DOM nodes in forward order, each before nextNode.
+        foreach (var node in rangeNodes)
+        {
+            if (node.Value?._node is { } domNode)
+            {
+                _root.Node.InsertBefore(domNode, nextNode);
+            }
         }
     }
 

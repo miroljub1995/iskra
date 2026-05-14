@@ -279,6 +279,144 @@ public class ForEachTests
         });
     }
 
+    // -------------------------------------------------------------------------
+    // Multi-slot reordering: each item renders TWO <span> elements so that
+    // ComposedComponent internally holds multiple slots per item.
+    // These tests verify that MoveRangeAfter relocates ALL slots, not just the first.
+    // -------------------------------------------------------------------------
+
+    private sealed class MultiSlotHarness : IDisposable
+    {
+        public required Element Container { get; init; }
+        public required Signal<IList<string>> Items { get; init; }
+        public required IDisposable Host { get; init; }
+
+        public void Dispose() => Host.Dispose();
+    }
+
+    private static MultiSlotHarness BuildMultiSlotHost(IList<string> initial)
+    {
+        var container = DomHelpers.CreateContainer();
+        var items = new Signal<IList<string>>(initial);
+
+        var host = new IskraHostBuilder()
+            .UseRootRenderer(new DomRenderRoot(container))
+            .UseRootComponent(() => new ForEach<string, string>
+            {
+                Items = items,
+                Key = s => s,
+                // Each item produces two <span> elements: one with "-first" and one with "-second" suffix.
+                ElementSetup = s => [
+                    new Span { Children = [new DomText { Text = new Computed<string>(() => s.Value + "-first") }] },
+                    new Span { Children = [new DomText { Text = new Computed<string>(() => s.Value + "-second") }] },
+                ],
+            })
+            .Build()
+            .Mount();
+
+        return new MultiSlotHarness
+        {
+            Container = container,
+            Items = items,
+            Host = host,
+        };
+    }
+
+    [Test]
+    public async Task MultiSlot_renders_initial_items()
+    {
+        using var h = BuildMultiSlotHost(["a", "b"]);
+
+        await Assert.That(h.Container.TextContent).IsEqualTo("a-firsta-secondb-firstb-second");
+        await Assert.That(h.Container.ChildElementCount).IsEqualTo(4u);
+    }
+
+    [Test]
+    public async Task MultiSlot_reorder_moves_all_slots()
+    {
+        using var h = BuildMultiSlotHost(["a", "b", "c"]);
+
+        // Capture the original DOM nodes for each span
+        var aFirst  = h.Container.Children.Item(0);
+        var aSecond = h.Container.Children.Item(1);
+        var bFirst  = h.Container.Children.Item(2);
+        var bSecond = h.Container.Children.Item(3);
+        var cFirst  = h.Container.Children.Item(4);
+        var cSecond = h.Container.Children.Item(5);
+
+        h.Items.Value = ["c", "a", "b"];
+
+        // Text order
+        await Assert.That(h.Container.TextContent).IsEqualTo("c-firstc-seconda-firsta-secondb-firstb-second");
+        await Assert.That(h.Container.ChildElementCount).IsEqualTo(6u);
+
+        // All original DOM nodes must have moved — no remounts
+        await Assert.That(h.Container.Children.Item(0)).IsEqualTo(cFirst);
+        await Assert.That(h.Container.Children.Item(1)).IsEqualTo(cSecond);
+        await Assert.That(h.Container.Children.Item(2)).IsEqualTo(aFirst);
+        await Assert.That(h.Container.Children.Item(3)).IsEqualTo(aSecond);
+        await Assert.That(h.Container.Children.Item(4)).IsEqualTo(bFirst);
+        await Assert.That(h.Container.Children.Item(5)).IsEqualTo(bSecond);
+    }
+
+    [Test]
+    public async Task MultiSlot_reorder_to_start_moves_all_slots()
+    {
+        using var h = BuildMultiSlotHost(["b", "c"]);
+
+        var bFirst  = h.Container.Children.Item(0);
+        var bSecond = h.Container.Children.Item(1);
+        var cFirst  = h.Container.Children.Item(2);
+        var cSecond = h.Container.Children.Item(3);
+
+        h.Items.Value = ["a", "b", "c"];
+
+        await Assert.That(h.Container.TextContent).IsEqualTo("a-firsta-secondb-firstb-secondc-firstc-second");
+        await Assert.That(h.Container.ChildElementCount).IsEqualTo(6u);
+
+        // "b" and "c" must not have been remounted — original nodes preserved
+        await Assert.That(h.Container.Children.Item(2)).IsEqualTo(bFirst);
+        await Assert.That(h.Container.Children.Item(3)).IsEqualTo(bSecond);
+        await Assert.That(h.Container.Children.Item(4)).IsEqualTo(cFirst);
+        await Assert.That(h.Container.Children.Item(5)).IsEqualTo(cSecond);
+    }
+
+    [Test]
+    public async Task MultiSlot_remove_disposes_all_slots()
+    {
+        using var h = BuildMultiSlotHost(["a", "b", "c"]);
+
+        h.Items.Value = ["a", "c"];
+
+        await Assert.That(h.Container.TextContent).IsEqualTo("a-firsta-secondc-firstc-second");
+        await Assert.That(h.Container.ChildElementCount).IsEqualTo(4u);
+    }
+
+    [Test]
+    public async Task MultiSlot_reverse_order()
+    {
+        using var h = BuildMultiSlotHost(["a", "b", "c"]);
+
+        var aFirst  = h.Container.Children.Item(0);
+        var aSecond = h.Container.Children.Item(1);
+        var bFirst  = h.Container.Children.Item(2);
+        var bSecond = h.Container.Children.Item(3);
+        var cFirst  = h.Container.Children.Item(4);
+        var cSecond = h.Container.Children.Item(5);
+
+        h.Items.Value = ["c", "b", "a"];
+
+        await Assert.That(h.Container.TextContent).IsEqualTo("c-firstc-secondb-firstb-seconda-firsta-second");
+        await Assert.That(h.Container.ChildElementCount).IsEqualTo(6u);
+
+        await Assert.That(h.Container.Children.Item(0)).IsEqualTo(cFirst);
+        await Assert.That(h.Container.Children.Item(1)).IsEqualTo(cSecond);
+        await Assert.That(h.Container.Children.Item(2)).IsEqualTo(bFirst);
+        await Assert.That(h.Container.Children.Item(3)).IsEqualTo(bSecond);
+        await Assert.That(h.Container.Children.Item(4)).IsEqualTo(aFirst);
+        await Assert.That(h.Container.Children.Item(5)).IsEqualTo(aSecond);
+    }
+
     [Test]
     public async Task Same_key_with_updated_element_updates_signal_without_remount()
     {

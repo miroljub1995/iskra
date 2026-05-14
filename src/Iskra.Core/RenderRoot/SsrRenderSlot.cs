@@ -36,16 +36,39 @@ public sealed class SsrRenderSlot : ISsrRenderSlot
         _node = null;
     }
 
-    public void MoveAfter(IRenderSlot anchor)
+    public void MoveRangeAfter(IRenderSlot rangeEnd, IRenderSlot anchor)
     {
+        var endSlot = (SsrRenderSlot)rangeEnd;
         var anchorSlot = (SsrRenderSlot)anchor;
 
         var list = _listNode.List ?? throw new Exception("Slot must be attached.");
 
         if (anchorSlot._listNode.List != list)
+        {
             throw new Exception("Slots must belong to the same slot list.");
+        }
 
-        list.Remove(_listNode);
-        list.AddAfter(anchorSlot._listNode, _listNode);
+        // Collect linked-list nodes in the range [this .. endSlot].
+        var rangeNodes = new List<LinkedListNode<SsrRenderSlot?>>();
+        var cursor = _listNode;
+        while (true)
+        {
+            rangeNodes.Add(cursor);
+            if (cursor == endSlot._listNode)
+            {
+                break;
+            }
+
+            cursor = cursor.Next ?? throw new Exception("rangeEnd not found after rangeStart in slot list.");
+        }
+
+        // Relink: remove each node and re-insert in order after the anchor.
+        var insertAfter = anchorSlot._listNode;
+        foreach (var node in rangeNodes)
+        {
+            list.Remove(node);
+            list.AddAfter(insertAfter, node);
+            insertAfter = node;
+        }
     }
 }
