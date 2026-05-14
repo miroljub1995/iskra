@@ -2,6 +2,7 @@ using Iskra.Core.Client.Tests.TestUtils;
 using Iskra.Core.Components;
 using Iskra.Core.DomComponents;
 using Iskra.Core.RenderRoot;
+using Iskra.JSCore;
 using Iskra.Signals;
 using Iskra.StdWeb;
 
@@ -203,17 +204,17 @@ public class ForEachTests
     {
         using var h = BuildHost(["a", "b", "c"]);
 
-        var nodeA = h.Container.Children.Item(0);
-        var nodeB = h.Container.Children.Item(1);
-        var nodeC = h.Container.Children.Item(2);
+        var nodeA = h.Container.ChildNodes.Item(1);
+        var nodeB = h.Container.ChildNodes.Item(4);
+        var nodeC = h.Container.ChildNodes.Item(7);
 
         h.Items.Value = ["c", "a", "b"];
 
         await Assert.That(h.Container.TextContent).IsEqualTo("cab");
         await Assert.That(h.Container.ChildElementCount).IsEqualTo(3u);
-        await Assert.That(h.Container.Children.Item(0)).IsEqualTo(nodeC);
-        await Assert.That(h.Container.Children.Item(1)).IsEqualTo(nodeA);
-        await Assert.That(h.Container.Children.Item(2)).IsEqualTo(nodeB);
+        await Assert.That(h.Container.ChildNodes.Item(1)).IsEqualTo(nodeC);
+        await Assert.That(h.Container.ChildNodes.Item(4)).IsEqualTo(nodeA);
+        await Assert.That(h.Container.ChildNodes.Item(7)).IsEqualTo(nodeB);
         // No remount or unmount during a pure reorder
         await Assert.That(h.UnmountedCounts).IsEmpty();
         await Assert.That(h.MountedCounts).IsEquivalentTo(new Dictionary<string, int>
@@ -261,6 +262,29 @@ public class ForEachTests
             ["b"] = 1,
             ["c"] = 1,
         });
+    }
+
+    [Test]
+    public async Task ForEach_wraps_items_in_open_and_close_comments()
+    {
+        using var h = BuildHost(["a", "b"]);
+
+        // ChildNodes for ["a","b"]: [0]=<!--[--> [1]=<span>a</span> [2..3]=LifecycleProbe-a comments
+        //                            [4]=<span>b</span> [5..6]=LifecycleProbe-b comments [7]=<!--]-->
+        var firstNode = h.Container.ChildNodes.Item(0);
+        var lastNode  = h.Container.ChildNodes.Item(7);
+
+        await Assert.That(firstNode).IsNotNull();
+        await Assert.That(lastNode).IsNotNull();
+
+        await Assert.That(firstNode!.NodeType).IsEqualTo(Node.COMMENT_NODE);
+        await Assert.That(lastNode!.NodeType).IsEqualTo(Node.COMMENT_NODE);
+
+        var firstComment = JSObjectProxyFactory.GetProxy<CharacterData>(firstNode.JSObject);
+        var lastComment  = JSObjectProxyFactory.GetProxy<CharacterData>(lastNode.JSObject);
+
+        await Assert.That(firstComment.Data).IsEqualTo("[");
+        await Assert.That(lastComment.Data).IsEqualTo("]");
     }
 
     [Test]
@@ -337,12 +361,12 @@ public class ForEachTests
         using var h = BuildMultiSlotHost(["a", "b", "c"]);
 
         // Capture the original DOM nodes for each span
-        var aFirst  = h.Container.Children.Item(0);
-        var aSecond = h.Container.Children.Item(1);
-        var bFirst  = h.Container.Children.Item(2);
-        var bSecond = h.Container.Children.Item(3);
-        var cFirst  = h.Container.Children.Item(4);
-        var cSecond = h.Container.Children.Item(5);
+        var aFirst  = h.Container.ChildNodes.Item(1);
+        var aSecond = h.Container.ChildNodes.Item(2);
+        var bFirst  = h.Container.ChildNodes.Item(3);
+        var bSecond = h.Container.ChildNodes.Item(4);
+        var cFirst  = h.Container.ChildNodes.Item(5);
+        var cSecond = h.Container.ChildNodes.Item(6);
 
         h.Items.Value = ["c", "a", "b"];
 
@@ -351,12 +375,12 @@ public class ForEachTests
         await Assert.That(h.Container.ChildElementCount).IsEqualTo(6u);
 
         // All original DOM nodes must have moved — no remounts
-        await Assert.That(h.Container.Children.Item(0)).IsEqualTo(cFirst);
-        await Assert.That(h.Container.Children.Item(1)).IsEqualTo(cSecond);
-        await Assert.That(h.Container.Children.Item(2)).IsEqualTo(aFirst);
-        await Assert.That(h.Container.Children.Item(3)).IsEqualTo(aSecond);
-        await Assert.That(h.Container.Children.Item(4)).IsEqualTo(bFirst);
-        await Assert.That(h.Container.Children.Item(5)).IsEqualTo(bSecond);
+        await Assert.That(h.Container.ChildNodes.Item(1)).IsEqualTo(cFirst);
+        await Assert.That(h.Container.ChildNodes.Item(2)).IsEqualTo(cSecond);
+        await Assert.That(h.Container.ChildNodes.Item(3)).IsEqualTo(aFirst);
+        await Assert.That(h.Container.ChildNodes.Item(4)).IsEqualTo(aSecond);
+        await Assert.That(h.Container.ChildNodes.Item(5)).IsEqualTo(bFirst);
+        await Assert.That(h.Container.ChildNodes.Item(6)).IsEqualTo(bSecond);
     }
 
     [Test]
@@ -364,10 +388,10 @@ public class ForEachTests
     {
         using var h = BuildMultiSlotHost(["b", "c"]);
 
-        var bFirst  = h.Container.Children.Item(0);
-        var bSecond = h.Container.Children.Item(1);
-        var cFirst  = h.Container.Children.Item(2);
-        var cSecond = h.Container.Children.Item(3);
+        var bFirst  = h.Container.ChildNodes.Item(1);
+        var bSecond = h.Container.ChildNodes.Item(2);
+        var cFirst  = h.Container.ChildNodes.Item(3);
+        var cSecond = h.Container.ChildNodes.Item(4);
 
         h.Items.Value = ["a", "b", "c"];
 
@@ -375,10 +399,10 @@ public class ForEachTests
         await Assert.That(h.Container.ChildElementCount).IsEqualTo(6u);
 
         // "b" and "c" must not have been remounted — original nodes preserved
-        await Assert.That(h.Container.Children.Item(2)).IsEqualTo(bFirst);
-        await Assert.That(h.Container.Children.Item(3)).IsEqualTo(bSecond);
-        await Assert.That(h.Container.Children.Item(4)).IsEqualTo(cFirst);
-        await Assert.That(h.Container.Children.Item(5)).IsEqualTo(cSecond);
+        await Assert.That(h.Container.ChildNodes.Item(3)).IsEqualTo(bFirst);
+        await Assert.That(h.Container.ChildNodes.Item(4)).IsEqualTo(bSecond);
+        await Assert.That(h.Container.ChildNodes.Item(5)).IsEqualTo(cFirst);
+        await Assert.That(h.Container.ChildNodes.Item(6)).IsEqualTo(cSecond);
     }
 
     [Test]
@@ -397,24 +421,24 @@ public class ForEachTests
     {
         using var h = BuildMultiSlotHost(["a", "b", "c"]);
 
-        var aFirst  = h.Container.Children.Item(0);
-        var aSecond = h.Container.Children.Item(1);
-        var bFirst  = h.Container.Children.Item(2);
-        var bSecond = h.Container.Children.Item(3);
-        var cFirst  = h.Container.Children.Item(4);
-        var cSecond = h.Container.Children.Item(5);
+        var aFirst  = h.Container.ChildNodes.Item(1);
+        var aSecond = h.Container.ChildNodes.Item(2);
+        var bFirst  = h.Container.ChildNodes.Item(3);
+        var bSecond = h.Container.ChildNodes.Item(4);
+        var cFirst  = h.Container.ChildNodes.Item(5);
+        var cSecond = h.Container.ChildNodes.Item(6);
 
         h.Items.Value = ["c", "b", "a"];
 
         await Assert.That(h.Container.TextContent).IsEqualTo("c-firstc-secondb-firstb-seconda-firsta-second");
         await Assert.That(h.Container.ChildElementCount).IsEqualTo(6u);
 
-        await Assert.That(h.Container.Children.Item(0)).IsEqualTo(cFirst);
-        await Assert.That(h.Container.Children.Item(1)).IsEqualTo(cSecond);
-        await Assert.That(h.Container.Children.Item(2)).IsEqualTo(bFirst);
-        await Assert.That(h.Container.Children.Item(3)).IsEqualTo(bSecond);
-        await Assert.That(h.Container.Children.Item(4)).IsEqualTo(aFirst);
-        await Assert.That(h.Container.Children.Item(5)).IsEqualTo(aSecond);
+        await Assert.That(h.Container.ChildNodes.Item(1)).IsEqualTo(cFirst);
+        await Assert.That(h.Container.ChildNodes.Item(2)).IsEqualTo(cSecond);
+        await Assert.That(h.Container.ChildNodes.Item(3)).IsEqualTo(bFirst);
+        await Assert.That(h.Container.ChildNodes.Item(4)).IsEqualTo(bSecond);
+        await Assert.That(h.Container.ChildNodes.Item(5)).IsEqualTo(aFirst);
+        await Assert.That(h.Container.ChildNodes.Item(6)).IsEqualTo(aSecond);
     }
 
     [Test]
@@ -467,15 +491,17 @@ public class ForEachTests
         await Assert.That(container.TextContent).IsEqualTo("A1B1");
 
         // Capture DOM nodes to verify they are reused.
-        var nodeA = container.Children.Item(0);
-        var nodeB = container.Children.Item(1);
+        // Layout: [0]=<!--[--> [1]=<span>A1</span> [2..3]=LifecycleProbe comments
+        //         [4]=<span>B1</span> [5..6]=LifecycleProbe comments [7]=<!--]-->
+        var nodeA = container.ChildNodes.Item(1);
+        var nodeB = container.ChildNodes.Item(4);
 
         // Same keys, updated payloads.
         items.Value = [("a", "A2"), ("b", "B2")];
 
         await Assert.That(container.TextContent).IsEqualTo("A2B2");
-        await Assert.That(container.Children.Item(0)).IsEqualTo(nodeA);
-        await Assert.That(container.Children.Item(1)).IsEqualTo(nodeB);
+        await Assert.That(container.ChildNodes.Item(1)).IsEqualTo(nodeA);
+        await Assert.That(container.ChildNodes.Item(4)).IsEqualTo(nodeB);
 
         // Same keys reordered with updated payloads — still no remount, signals updated.
         items.Value = [("b", "B3"), ("a", "A3")];

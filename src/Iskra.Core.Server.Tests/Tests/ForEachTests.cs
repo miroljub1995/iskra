@@ -36,9 +36,11 @@ public class ForEachTests
         var output = await SsrHelpers.RenderAsync(root);
 
         await Assert.That(output).IsEqualTo(
+            "<!--[-->" +
             "<span>a-first</span><span>a-second</span>" +
             "<span>b-first</span><span>b-second</span>" +
-            "<span>c-first</span><span>c-second</span>");
+            "<span>c-first</span><span>c-second</span>" +
+            "<!--]-->");
     }
 
     [Test]
@@ -58,9 +60,11 @@ public class ForEachTests
         var output = await SsrHelpers.RenderAsync(root);
 
         await Assert.That(output).IsEqualTo(
+            "<!--[-->" +
             "<span>c-first</span><span>c-second</span>" +
             "<span>a-first</span><span>a-second</span>" +
-            "<span>b-first</span><span>b-second</span>");
+            "<span>b-first</span><span>b-second</span>" +
+            "<!--]-->");
     }
 
     [Test]
@@ -80,9 +84,11 @@ public class ForEachTests
         var output = await SsrHelpers.RenderAsync(root);
 
         await Assert.That(output).IsEqualTo(
+            "<!--[-->" +
             "<span>a-first</span><span>a-second</span>" +
             "<span>b-first</span><span>b-second</span>" +
-            "<span>c-first</span><span>c-second</span>");
+            "<span>c-first</span><span>c-second</span>" +
+            "<!--]-->");
     }
 
     [Test]
@@ -102,9 +108,11 @@ public class ForEachTests
         var output = await SsrHelpers.RenderAsync(root);
 
         await Assert.That(output).IsEqualTo(
+            "<!--[-->" +
             "<span>c-first</span><span>c-second</span>" +
             "<span>b-first</span><span>b-second</span>" +
-            "<span>a-first</span><span>a-second</span>");
+            "<span>a-first</span><span>a-second</span>" +
+            "<!--]-->");
     }
 
     [Test]
@@ -124,8 +132,10 @@ public class ForEachTests
         var output = await SsrHelpers.RenderAsync(root);
 
         await Assert.That(output).IsEqualTo(
+            "<!--[-->" +
             "<span>a-first</span><span>a-second</span>" +
-            "<span>c-first</span><span>c-second</span>");
+            "<span>c-first</span><span>c-second</span>" +
+            "<!--]-->");
     }
 
     [Test]
@@ -145,8 +155,10 @@ public class ForEachTests
         var output = await SsrHelpers.RenderAsync(root);
 
         await Assert.That(output).IsEqualTo(
+            "<!--[-->" +
             "<span>a-first</span><span>a-second</span>" +
             "<span>b-first</span><span>b-second</span>" +
-            "<span>c-first</span><span>c-second</span>");
+            "<span>c-first</span><span>c-second</span>" +
+            "<!--]-->");
     }
 }

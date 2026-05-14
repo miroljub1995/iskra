@@ -1,3 +1,4 @@
+using Iskra.Core.DomComponents;
 using Iskra.Core.Features;
 using Iskra.Core.RenderRoot;
 using Iskra.Signals;
@@ -32,6 +33,24 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
         _effectScope.Run(() =>
         {
             var orderedItems = new List<ItemState>();
+
+            var openComment = new DomComment { Data = new Signal<string>("[") };
+            var closeComment = new DomComment { Data = new Signal<string>("]") };
+
+            // closeSlot is permanently the last slot — items are inserted before it.
+            // Pre-allocating it here (before any items) ensures ClaimOrCreateSlotAfter
+            // inserts new item slots between the open comment and this anchor.
+            var closeSlot = slot.ClaimOrCreateSlotAfter();
+
+            openComment.Mount(slot);
+            closeComment.Mount(closeSlot);
+
+            new Effect(onCleanup => onCleanup(() =>
+            {
+                openComment.Unmount();
+                closeComment.Unmount();
+                closeSlot.Dispose();
+            }));
 
             // Reactive Effect: re-runs whenever Items signal changes.
             // Performs keyed diffing:
