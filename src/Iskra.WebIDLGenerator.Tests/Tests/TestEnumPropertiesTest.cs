@@ -39,6 +39,6 @@ public class TestEnumPropertiesTest() : BaseTest<TestEnumProperties>("testEnumPr
     {
         var sut = GetSut();
 
-        Assert.Throws(() => { _ = sut.ValueInvalid; });
+        Assert.Throws<ArgumentException>(() => { _ = sut.ValueInvalid; });
     }
 }

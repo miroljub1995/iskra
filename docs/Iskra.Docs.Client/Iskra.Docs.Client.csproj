@@ -4,5 +4,7 @@
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\src\Iskra.Core\Iskra.Core.csproj" />
+        <ProjectReference Include="..\..\src\Iskra.Core.Generators\Iskra.Core.Generators.csproj"
+                          OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
     </ItemGroup>
 </Project>

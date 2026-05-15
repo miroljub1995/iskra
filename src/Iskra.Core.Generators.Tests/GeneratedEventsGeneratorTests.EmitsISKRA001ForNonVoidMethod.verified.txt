@@ -1,0 +1,17 @@
+﻿{
+  Diagnostics: [
+    {
+      Location: : (5,26)-(5,34),
+      Message: Event method 'GetValue' must have a void return type,
+      Severity: Error,
+      Descriptor: {
+        Id: ISKRA001,
+        Title: Event method must return void,
+        MessageFormat: Event method '{0}' must have a void return type,
+        Category: GeneratedEvents,
+        DefaultSeverity: Error,
+        IsEnabledByDefault: true
+      }
+    }
+  ]
+}

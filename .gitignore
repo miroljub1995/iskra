@@ -48,3 +48,5 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+# Verify snapshot testing - received files are temporary
+*.received.*

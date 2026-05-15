@@ -2,5 +2,7 @@
     <ItemGroup>
       <ProjectReference Include="..\Iskra.Core\Iskra.Core.csproj" />
       <ProjectReference Include="..\Iskra.StdWeb\Iskra.StdWeb.csproj" />
+      <ProjectReference Include="..\Iskra.Core.Generators\Iskra.Core.Generators.csproj"
+                        OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
     </ItemGroup>
 </Project>

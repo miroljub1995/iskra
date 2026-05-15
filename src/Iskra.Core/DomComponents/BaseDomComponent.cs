@@ -128,7 +128,7 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
 
             if (!IsVoid && children?.Length > 0)
             {
-                foreach (var child in children.Reverse())
+                foreach (var child in Enumerable.Reverse(children))
                 {
                     child.Unmount();
                 }
@@ -140,7 +140,7 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
 
             if (!IsVoid && children?.Length > 0)
             {
-                foreach (var child in children.Reverse())
+                foreach (var child in Enumerable.Reverse(children))
                 {
                     child.Unmount();
                 }

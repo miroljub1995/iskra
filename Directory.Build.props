@@ -7,6 +7,9 @@
         <PublishRelease>true</PublishRelease>
         <IsAotCompatible>true</IsAotCompatible>
 
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <WarningsNotAsErrors>CS8620;CS8625;IL3000</WarningsNotAsErrors>
+
         <IskraApiVersion Condition="'$(IskraApiVersion)' == ''">0.2.0</IskraApiVersion>
 
         <!-- By default, don't create NuGet packages for projects -->

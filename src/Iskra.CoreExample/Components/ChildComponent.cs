@@ -11,6 +11,7 @@ public class ChildComponentProps
     public required IReadOnlySignal<string> LastName { get; init; }
 }
 
+[GeneratedEvents]
 public partial class ChildComponentEvents
 {
     public partial void UpdateFirstName(string firstName);
@@ -21,7 +22,6 @@ public record ChildComponentExpose(
     IReadOnlySignal<HTMLDivElement?> DivElement
 );
 
-// [Component]
 public class ChildComponent : BaseComponent<ChildComponentProps, ChildComponentEvents, ChildComponentExpose>
 {
     protected override IComponent[] Setup(ChildComponentProps props, ChildComponentEvents? events,
@@ -144,21 +144,3 @@ public class ChildComponent : BaseComponent<ChildComponentProps, ChildComponentE
     }
 }
 
-// Generated
-public partial class ChildComponentEvents : BaseEmits
-{
-    public Action<string>? OnUpdateFirstName { get; init; } = null;
-    public Action<string>? OnUpdateLastName { get; init; } = null;
-
-    public partial void UpdateFirstName(string firstName)
-    {
-        if (Disabled) return;
-        OnUpdateFirstName?.Invoke(firstName);
-    }
-
-    public partial void UpdateLastName(string lastName)
-    {
-        if (Disabled) return;
-        OnUpdateLastName?.Invoke(lastName);
-    }
-}
