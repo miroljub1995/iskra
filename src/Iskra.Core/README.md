@@ -11,9 +11,8 @@ Iskra.Core is the experimental component layer for Iskra. It builds on Iskra.Std
 - [ ] **Slots / content projection** — passing child components into named or default slots (Vue: `<slot>`)
 - [ ] **Two-way binding helpers** — `v-model` equivalent; currently requires manually wiring a `Signal` through both a prop and an event
 - [ ] **Teleport** — render component output to an arbitrary DOM node outside the component tree (Vue: `<Teleport>`)
-- [ ] **SSR hydration** — attach the client-side component tree to server-rendered HTML without re-creating DOM nodes
+- [ ] **SSR hydration** — attach the client-side component tree to server-rendered HTML without re-creating DOM nodes (Check if claiming should be allowed only on initial mount pass)
 - [ ] **SSR application state** — serialize application state from server and laod on client
-- [ ] **Source Generator for events** — create source generator to auto-implement events when defined
 
 ### Router
 - [ ] **Router** — URL-based navigation, route params, guards, nested routes, with both client-side and server-side rendering support
