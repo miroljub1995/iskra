@@ -5,6 +5,9 @@ project.lock.json
 *.pyc
 nupkg/
 
+# C# Dev Kit language service cache
+*.lscache
+
 # Visual Studio Code
 .vscode/*
 !.vscode/launch.json
