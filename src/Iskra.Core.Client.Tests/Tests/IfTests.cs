@@ -132,11 +132,9 @@ public class IfTests
 
         await Assert.That(h.Container.TextContent).IsEqualTo("then");
         await Assert.That(h.Container.ChildElementCount).IsEqualTo(1u);
-        await Assert.That(h.MountedCounts).IsEquivalentTo(new Dictionary<string, int>
-        {
-            ["then"] = 1,
-            ["else"] = 1,
-        });
+        await Assert.That(h.MountedCounts.Count).IsEqualTo(2);
+        await Assert.That(h.MountedCounts["then"]).IsEqualTo(1);
+        await Assert.That(h.MountedCounts["else"]).IsEqualTo(1);
         await Assert.That(h.UnmountedCounts).IsEquivalentTo(new Dictionary<string, int>
         {
             ["else"] = 1,

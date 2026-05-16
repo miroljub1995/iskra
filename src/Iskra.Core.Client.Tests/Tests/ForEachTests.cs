@@ -120,12 +120,10 @@ public class ForEachTests
 
         await Assert.That(h.Container.TextContent).IsEqualTo("abc");
         await Assert.That(h.Container.ChildElementCount).IsEqualTo(3u);
-        await Assert.That(h.MountedCounts).IsEquivalentTo(new Dictionary<string, int>
-        {
-            ["a"] = 1,
-            ["b"] = 1,
-            ["c"] = 1,
-        });
+        await Assert.That(h.MountedCounts.Count).IsEqualTo(3);
+        await Assert.That(h.MountedCounts["a"]).IsEqualTo(1);
+        await Assert.That(h.MountedCounts["b"]).IsEqualTo(1);
+        await Assert.That(h.MountedCounts["c"]).IsEqualTo(1);
         await Assert.That(h.UnmountedCounts).IsEmpty();
     }
 
@@ -138,12 +136,10 @@ public class ForEachTests
 
         await Assert.That(h.Container.TextContent).IsEqualTo("abc");
         await Assert.That(h.Container.ChildElementCount).IsEqualTo(3u);
-        await Assert.That(h.MountedCounts).IsEquivalentTo(new Dictionary<string, int>
-        {
-            ["a"] = 1,
-            ["b"] = 1,
-            ["c"] = 1,
-        });
+        await Assert.That(h.MountedCounts.Count).IsEqualTo(3);
+        await Assert.That(h.MountedCounts["a"]).IsEqualTo(1);
+        await Assert.That(h.MountedCounts["b"]).IsEqualTo(1);
+        await Assert.That(h.MountedCounts["c"]).IsEqualTo(1);
         await Assert.That(h.UnmountedCounts).IsEmpty();
     }
 
