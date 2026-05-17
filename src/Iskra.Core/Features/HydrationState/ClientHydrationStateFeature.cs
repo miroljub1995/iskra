@@ -7,7 +7,7 @@ using Iskra.StdWeb;
 namespace Iskra.Core.Features.HydrationState;
 
 /// <summary>
-/// Client-side <see cref="IHydrationStateFeature"/> implementation.
+/// Client-side <see cref="IClientHydrationStateFeature"/> implementation.
 /// Create one instance per app and register it on the <see cref="IskraHostBuilder"/>
 /// before mounting. <see cref="Value"/> is populated lazily on first access by reading
 /// the <c>&lt;script type="application/json"&gt;</c> element identified by
@@ -15,7 +15,7 @@ namespace Iskra.Core.Features.HydrationState;
 /// <see cref="Value"/> remains an empty <see cref="JsonObject"/>.
 /// </summary>
 [SupportedOSPlatform("browser")]
-public sealed class ClientHydrationStateFeature : IHydrationStateFeature
+public sealed class ClientHydrationStateFeature : IClientHydrationStateFeature
 {
     /// <summary>
     /// The <c>id</c> of the <c>&lt;script&gt;</c> element to read from.

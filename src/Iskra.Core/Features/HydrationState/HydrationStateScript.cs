@@ -6,25 +6,13 @@ using Iskra.Signals;
 namespace Iskra.Core.Features.HydrationState;
 
 /// <summary>
-/// Component that bridges hydration state between server and client.
+/// Server-side component that serializes hydration state into the SSR output.
 ///
-/// Place this component early in the root component's child list so that
-/// <see cref="IHydrationStateFeature.Value"/> is populated before any sibling
-/// or descendant components mount.
-///
-/// <list type="bullet">
-///   <item>
-///     <b>SSR</b>: serializes the current <see cref="IHydrationStateFeature.Value"/>
-///     into a <c>&lt;script type="application/json" id="<see cref="ScriptElementId"/>"&gt;</c>
-///     element embedded in the SSR output.
-///   </item>
-///   <item>
-///     <b>Client</b>: looks up the element by <see cref="ScriptElementId"/> in the document,
-///     deserializes its content, and populates the registered
-///     <see cref="ClientHydrationStateFeature"/>. If the element is not found,
-///     <see cref="IHydrationStateFeature.Value"/> remains an empty object.
-///   </item>
-/// </list>
+/// Place this component early in the root component's child list. On render,
+/// it calls <see cref="IServerHydrationStateFeature.Dehydrate"/> and emits a
+/// <c>&lt;script type="application/json" id="<see cref="ScriptElementId"/>"&gt;</c>
+/// element containing the serialized JSON. The client reads that element via
+/// <see cref="ClientHydrationStateFeature"/>.
 /// </summary>
 public sealed class HydrationStateScript : IComponent
 {
@@ -49,11 +37,12 @@ public sealed class HydrationStateScript : IComponent
             throw new InvalidOperationException("Component is already mounted.");
         }
 
-        var feature = AppFeatures.Features.Get<IHydrationStateFeature>()
+        var serverFeature = AppFeatures.Features.Get<IServerHydrationStateFeature>()
             ?? throw new InvalidOperationException(
-                $"{nameof(IHydrationStateFeature)} is not registered. " +
-                $"Register {nameof(ServerHydrationStateFeature)} (server) or " +
-                $"{nameof(ClientHydrationStateFeature)} (client) before mounting.");
+                $"{nameof(IServerHydrationStateFeature)} is not registered. " +
+                $"Register {nameof(ServerHydrationStateFeature)} before mounting.");
+
+        var jsonText = new Computed<string>(() => serverFeature.Dehydrate().ToJsonString());
 
         _script = new Script
         {
@@ -62,7 +51,7 @@ public sealed class HydrationStateScript : IComponent
                 Id = ScriptElementId,
                 Type = new Signal<string>("application/json"),
             },
-            Children = [new DomText { Text = new Computed<string>(() => feature.Value.ToJsonString()) }],
+            Children = [new DomText { Text = jsonText }],
         };
 
         _script.Mount(slot);

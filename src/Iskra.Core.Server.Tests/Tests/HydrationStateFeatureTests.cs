@@ -15,7 +15,7 @@ public class HydrationStateFeatureTests
 
         using var _ = new IskraHostBuilder()
             .UseRootRenderer(root)
-            .SetFeature<IHydrationStateFeature>(feature)
+            .SetFeature<IServerHydrationStateFeature>(feature)
             .UseRootComponent(() => new HydrationStateScript())
             .Build()
             .Mount();
@@ -31,12 +31,15 @@ public class HydrationStateFeatureTests
     {
         var root = new SsrRenderRoot();
         var feature = new ServerHydrationStateFeature();
-        feature.Value["count"] = 42;
-        feature.Value["name"] = "iskra";
+        feature.RegisterDehydrateCallback(obj =>
+        {
+            obj["count"] = 42;
+            obj["name"] = "iskra";
+        });
 
         using var _ = new IskraHostBuilder()
             .UseRootRenderer(root)
-            .SetFeature<IHydrationStateFeature>(feature)
+            .SetFeature<IServerHydrationStateFeature>(feature)
             .UseRootComponent(() => new HydrationStateScript())
             .Build()
             .Mount();
@@ -52,16 +55,16 @@ public class HydrationStateFeatureTests
     {
         var feature = new ServerHydrationStateFeature();
 
-        await Assert.That(feature.Value.Count).IsEqualTo(0);
+        await Assert.That(feature.Dehydrate().Count).IsEqualTo(0);
     }
 
     [Test]
     public async Task Value_reflects_in_place_mutations()
     {
         var feature = new ServerHydrationStateFeature();
-        feature.Value["key"] = "value";
+        feature.RegisterDehydrateCallback(obj => obj["key"] = "value");
 
-        await Assert.That((string?)feature.Value["key"]).IsEqualTo("value");
+        await Assert.That((string?)feature.Dehydrate()["key"]).IsEqualTo("value");
     }
 
     [Test]
@@ -69,17 +72,39 @@ public class HydrationStateFeatureTests
     {
         var root = new SsrRenderRoot();
         var feature = new ServerHydrationStateFeature();
-        feature.Value["x"] = 7;
+        feature.RegisterDehydrateCallback(obj => obj["x"] = 7);
 
         using var _ = new IskraHostBuilder()
             .UseRootRenderer(root)
-            .SetFeature<IHydrationStateFeature>(feature)
+            .SetFeature<IServerHydrationStateFeature>(feature)
             .UseRootComponent(() => new HydrationStateScript())
             .Build()
             .Mount();
 
-        await Assert.That(feature.Value.Count).IsEqualTo(1);
-        await Assert.That((int?)feature.Value["x"]).IsEqualTo(7);
+        await Assert.That(feature.Dehydrate().Count).IsEqualTo(1);
+        await Assert.That((int?)feature.Dehydrate()["x"]).IsEqualTo(7);
+    }
+
+    [Test]
+    public async Task Deregistered_callback_is_not_invoked()
+    {
+        var feature = new ServerHydrationStateFeature();
+
+        void First(JsonObject obj) => obj["first"] = 1;
+        void Middle(JsonObject obj) => obj["middle"] = 2;
+        void Last(JsonObject obj) => obj["last"] = 3;
+
+        feature.RegisterDehydrateCallback(First);
+        feature.RegisterDehydrateCallback(Middle);
+        feature.RegisterDehydrateCallback(Last);
+        feature.DeregisterDehydrateCallback(Middle);
+
+        var result = feature.Dehydrate();
+
+        await Assert.That(result.Count).IsEqualTo(2);
+        await Assert.That((int?)result["first"]).IsEqualTo(1);
+        await Assert.That((int?)result["last"]).IsEqualTo(3);
+        await Assert.That(result.ContainsKey("middle")).IsEqualTo(false);
     }
 
     [Test]
@@ -91,7 +116,7 @@ public class HydrationStateFeatureTests
 
         using var _ = new IskraHostBuilder()
             .UseRootRenderer(root)
-            .SetFeature<IHydrationStateFeature>(feature)
+            .SetFeature<IServerHydrationStateFeature>(feature)
             .UseRootComponent(() => new HydrationStateScript
             {
                 ScriptElementId = new Signal<string>(customId),
