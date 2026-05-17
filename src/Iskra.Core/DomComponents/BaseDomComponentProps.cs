@@ -12,7 +12,7 @@ public abstract class BaseDomComponentProps<TElement>
     {
     }
 
-    protected internal virtual void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal virtual void RegisterServerEffects(SsrElementNode el)
     {
     }
 }

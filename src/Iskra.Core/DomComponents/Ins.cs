@@ -26,18 +26,18 @@ public class InsProps : GlobalHtmlComponentProps<HTMLModElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Cite != null)
         {
-            register(el => el.SetAttribute("cite", Cite.Value));
+            el.SetAttribute("cite", Cite);
         }
 
         if (DateTime != null)
         {
-            register(el => el.SetAttribute("datetime", DateTime.Value));
+            el.SetAttribute("datetime", DateTime);
         }
     }
 }

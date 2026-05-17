@@ -98,78 +98,78 @@ public class LinkProps : GlobalHtmlComponentProps<HTMLLinkElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Href != null)
         {
-            register(el => el.SetAttribute("href", Href.Value));
+            el.SetAttribute("href", Href);
         }
 
         if (CrossOrigin != null)
         {
-            register(el => SsrAttributes.SetNullableString(el, "crossorigin", CrossOrigin.Value));
+            el.SetNullableString("crossorigin", CrossOrigin);
         }
 
         if (Rel != null)
         {
-            register(el => el.SetAttribute("rel", Rel.Value));
+            el.SetAttribute("rel", Rel);
         }
 
         if (As != null)
         {
-            register(el => el.SetAttribute("as", As.Value));
+            el.SetAttribute("as", As);
         }
 
         if (Media != null)
         {
-            register(el => el.SetAttribute("media", Media.Value));
+            el.SetAttribute("media", Media);
         }
 
         if (Integrity != null)
         {
-            register(el => el.SetAttribute("integrity", Integrity.Value));
+            el.SetAttribute("integrity", Integrity);
         }
 
         if (Hreflang != null)
         {
-            register(el => el.SetAttribute("hreflang", Hreflang.Value));
+            el.SetAttribute("hreflang", Hreflang);
         }
 
         if (Type != null)
         {
-            register(el => el.SetAttribute("type", Type.Value));
+            el.SetAttribute("type", Type);
         }
 
         if (ReferrerPolicy != null)
         {
-            register(el => el.SetAttribute("referrerpolicy", ReferrerPolicy.Value));
+            el.SetAttribute("referrerpolicy", ReferrerPolicy);
         }
 
         if (Disabled != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+            el.SetBoolean("disabled", Disabled);
         }
 
         if (FetchPriority != null)
         {
-            register(el => el.SetAttribute("fetchpriority", FetchPriority.Value));
+            el.SetAttribute("fetchpriority", FetchPriority);
         }
 
         if (Blocking != null)
         {
-            register(el => el.SetAttribute("blocking", Blocking.Value));
+            el.SetAttribute("blocking", Blocking);
         }
 
         if (ImageSizes != null)
         {
-            register(el => el.SetAttribute("imagesizes", ImageSizes.Value));
+            el.SetAttribute("imagesizes", ImageSizes);
         }
 
         if (ImageSrcset != null)
         {
-            register(el => el.SetAttribute("imagesrcset", ImageSrcset.Value));
+            el.SetAttribute("imagesrcset", ImageSrcset);
         }
     }
 }

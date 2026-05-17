@@ -62,48 +62,48 @@ public class AudioProps : GlobalHtmlComponentProps<HTMLAudioElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Src != null)
         {
-            register(el => el.SetAttribute("src", Src.Value));
+            el.SetAttribute("src", Src);
         }
 
         if (Autoplay != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "autoplay", Autoplay.Value));
+            el.SetBoolean("autoplay", Autoplay);
         }
 
         if (Controls != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "controls", Controls.Value));
+            el.SetBoolean("controls", Controls);
         }
 
         if (Loop != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "loop", Loop.Value));
+            el.SetBoolean("loop", Loop);
         }
 
         if (Muted != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "muted", Muted.Value));
+            el.SetBoolean("muted", Muted);
         }
 
         if (Preload != null)
         {
-            register(el => el.SetAttribute("preload", Preload.Value));
+            el.SetAttribute("preload", Preload);
         }
 
         if (CrossOrigin != null)
         {
-            register(el => SsrAttributes.SetNullableString(el, "crossorigin", CrossOrigin.Value));
+            el.SetNullableString("crossorigin", CrossOrigin);
         }
 
         if (DisableRemotePlayback != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "disableremoteplayback", DisableRemotePlayback.Value));
+            el.SetBoolean("disableremoteplayback", DisableRemotePlayback);
         }
     }
 }

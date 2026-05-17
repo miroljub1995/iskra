@@ -62,48 +62,48 @@ public class AProps : GlobalHtmlComponentProps<HTMLAnchorElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Href != null)
         {
-            register(el => el.SetAttribute("href", Href.Value));
+            el.SetAttribute("href", Href);
         }
 
         if (Target != null)
         {
-            register(el => el.SetAttribute("target", Target.Value));
+            el.SetAttribute("target", Target);
         }
 
         if (Rel != null)
         {
-            register(el => el.SetAttribute("rel", Rel.Value));
+            el.SetAttribute("rel", Rel);
         }
 
         if (Download != null)
         {
-            register(el => el.SetAttribute("download", Download.Value));
+            el.SetAttribute("download", Download);
         }
 
         if (Hreflang != null)
         {
-            register(el => el.SetAttribute("hreflang", Hreflang.Value));
+            el.SetAttribute("hreflang", Hreflang);
         }
 
         if (Ping != null)
         {
-            register(el => el.SetAttribute("ping", Ping.Value));
+            el.SetAttribute("ping", Ping);
         }
 
         if (ReferrerPolicy != null)
         {
-            register(el => el.SetAttribute("referrerpolicy", ReferrerPolicy.Value));
+            el.SetAttribute("referrerpolicy", ReferrerPolicy);
         }
 
         if (Type != null)
         {
-            register(el => el.SetAttribute("type", Type.Value));
+            el.SetAttribute("type", Type);
         }
     }
 }

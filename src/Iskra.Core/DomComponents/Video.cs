@@ -92,73 +92,73 @@ public class VideoProps : GlobalHtmlComponentProps<HTMLVideoElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Src != null)
         {
-            register(el => el.SetAttribute("src", Src.Value));
+            el.SetAttribute("src", Src);
         }
 
         if (Autoplay != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "autoplay", Autoplay.Value));
+            el.SetBoolean("autoplay", Autoplay);
         }
 
         if (Controls != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "controls", Controls.Value));
+            el.SetBoolean("controls", Controls);
         }
 
         if (Loop != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "loop", Loop.Value));
+            el.SetBoolean("loop", Loop);
         }
 
         if (Muted != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "muted", Muted.Value));
+            el.SetBoolean("muted", Muted);
         }
 
         if (Preload != null)
         {
-            register(el => el.SetAttribute("preload", Preload.Value));
+            el.SetAttribute("preload", Preload);
         }
 
         if (CrossOrigin != null)
         {
-            register(el => SsrAttributes.SetNullableString(el, "crossorigin", CrossOrigin.Value));
+            el.SetNullableString("crossorigin", CrossOrigin);
         }
 
         if (Poster != null)
         {
-            register(el => el.SetAttribute("poster", Poster.Value));
+            el.SetAttribute("poster", Poster);
         }
 
         if (PlaysInline != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "playsinline", PlaysInline.Value));
+            el.SetBoolean("playsinline", PlaysInline);
         }
 
         if (Width != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "width", Width.Value));
+            el.SetUInt("width", Width);
         }
 
         if (Height != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "height", Height.Value));
+            el.SetUInt("height", Height);
         }
 
         if (DisablePictureInPicture != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "disablepictureinpicture", DisablePictureInPicture.Value));
+            el.SetBoolean("disablepictureinpicture", DisablePictureInPicture);
         }
 
         if (DisableRemotePlayback != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "disableremoteplayback", DisableRemotePlayback.Value));
+            el.SetBoolean("disableremoteplayback", DisableRemotePlayback);
         }
     }
 }

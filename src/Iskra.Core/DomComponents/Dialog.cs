@@ -20,13 +20,13 @@ public class DialogProps : GlobalHtmlComponentProps<HTMLDialogElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Open != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "open", Open.Value));
+            el.SetBoolean("open", Open);
         }
     }
 }

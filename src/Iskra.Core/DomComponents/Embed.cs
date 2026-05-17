@@ -38,28 +38,28 @@ public class EmbedProps : GlobalHtmlComponentProps<HTMLEmbedElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Src != null)
         {
-            register(el => el.SetAttribute("src", Src.Value));
+            el.SetAttribute("src", Src);
         }
 
         if (Type != null)
         {
-            register(el => el.SetAttribute("type", Type.Value));
+            el.SetAttribute("type", Type);
         }
 
         if (Width != null)
         {
-            register(el => el.SetAttribute("width", Width.Value));
+            el.SetAttribute("width", Width);
         }
 
         if (Height != null)
         {
-            register(el => el.SetAttribute("height", Height.Value));
+            el.SetAttribute("height", Height);
         }
     }
 }

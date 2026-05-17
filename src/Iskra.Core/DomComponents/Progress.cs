@@ -26,18 +26,18 @@ public class ProgressProps : GlobalHtmlComponentProps<HTMLProgressElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Value != null)
         {
-            register(el => SsrAttributes.SetDouble(el, "value", Value.Value));
+            el.SetDouble("value", Value);
         }
 
         if (Max != null)
         {
-            register(el => SsrAttributes.SetDouble(el, "max", Max.Value));
+            el.SetDouble("max", Max);
         }
     }
 }

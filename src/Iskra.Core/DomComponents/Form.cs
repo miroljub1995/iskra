@@ -62,48 +62,48 @@ public class FormProps : GlobalHtmlComponentProps<HTMLFormElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Action != null)
         {
-            register(el => el.SetAttribute("action", Action.Value));
+            el.SetAttribute("action", Action);
         }
 
         if (Autocomplete != null)
         {
-            register(el => el.SetAttribute("autocomplete", Autocomplete.Value));
+            el.SetAttribute("autocomplete", Autocomplete);
         }
 
         if (Enctype != null)
         {
-            register(el => el.SetAttribute("enctype", Enctype.Value));
+            el.SetAttribute("enctype", Enctype);
         }
 
         if (Method != null)
         {
-            register(el => el.SetAttribute("method", Method.Value));
+            el.SetAttribute("method", Method);
         }
 
         if (Name != null)
         {
-            register(el => el.SetAttribute("name", Name.Value));
+            el.SetAttribute("name", Name);
         }
 
         if (NoValidate != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "novalidate", NoValidate.Value));
+            el.SetBoolean("novalidate", NoValidate);
         }
 
         if (Target != null)
         {
-            register(el => el.SetAttribute("target", Target.Value));
+            el.SetAttribute("target", Target);
         }
 
         if (Rel != null)
         {
-            register(el => el.SetAttribute("rel", Rel.Value));
+            el.SetAttribute("rel", Rel);
         }
     }
 }

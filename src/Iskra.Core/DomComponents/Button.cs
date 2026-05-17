@@ -68,53 +68,53 @@ public class ButtonProps : GlobalHtmlComponentProps<HTMLButtonElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Disabled != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+            el.SetBoolean("disabled", Disabled);
         }
 
         if (Name != null)
         {
-            register(el => el.SetAttribute("name", Name.Value));
+            el.SetAttribute("name", Name);
         }
 
         if (Type != null)
         {
-            register(el => el.SetAttribute("type", Type.Value));
+            el.SetAttribute("type", Type);
         }
 
         if (Value != null)
         {
-            register(el => el.SetAttribute("value", Value.Value));
+            el.SetAttribute("value", Value);
         }
 
         if (FormAction != null)
         {
-            register(el => el.SetAttribute("formaction", FormAction.Value));
+            el.SetAttribute("formaction", FormAction);
         }
 
         if (FormEnctype != null)
         {
-            register(el => el.SetAttribute("formenctype", FormEnctype.Value));
+            el.SetAttribute("formenctype", FormEnctype);
         }
 
         if (FormMethod != null)
         {
-            register(el => el.SetAttribute("formmethod", FormMethod.Value));
+            el.SetAttribute("formmethod", FormMethod);
         }
 
         if (FormNoValidate != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "formnovalidate", FormNoValidate.Value));
+            el.SetBoolean("formnovalidate", FormNoValidate);
         }
 
         if (FormTarget != null)
         {
-            register(el => el.SetAttribute("formtarget", FormTarget.Value));
+            el.SetAttribute("formtarget", FormTarget);
         }
     }
 }

@@ -20,13 +20,13 @@ public class LabelProps : GlobalHtmlComponentProps<HTMLLabelElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (HtmlFor != null)
         {
-            register(el => el.SetAttribute("for", HtmlFor.Value));
+            el.SetAttribute("for", HtmlFor);
         }
     }
 }

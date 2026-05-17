@@ -200,163 +200,163 @@ public class InputProps : GlobalHtmlComponentProps<HTMLInputElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Accept != null)
         {
-            register(el => el.SetAttribute("accept", Accept.Value));
+            el.SetAttribute("accept", Accept);
         }
 
         if (Alt != null)
         {
-            register(el => el.SetAttribute("alt", Alt.Value));
+            el.SetAttribute("alt", Alt);
         }
 
         if (Autocomplete != null)
         {
-            register(el => el.SetAttribute("autocomplete", Autocomplete.Value));
+            el.SetAttribute("autocomplete", Autocomplete);
         }
 
         if (Capture != null)
         {
-            register(el => el.SetAttribute("capture", Capture.Value));
+            el.SetAttribute("capture", Capture);
         }
 
         if (Checked != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "checked", Checked.Value));
+            el.SetBoolean("checked", Checked);
         }
 
         if (DefaultChecked != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "checked", DefaultChecked.Value));
+            el.SetBoolean("checked", DefaultChecked);
         }
 
         if (DirName != null)
         {
-            register(el => el.SetAttribute("dirname", DirName.Value));
+            el.SetAttribute("dirname", DirName);
         }
 
         if (Disabled != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+            el.SetBoolean("disabled", Disabled);
         }
 
         if (FormAction != null)
         {
-            register(el => el.SetAttribute("formaction", FormAction.Value));
+            el.SetAttribute("formaction", FormAction);
         }
 
         if (FormEnctype != null)
         {
-            register(el => el.SetAttribute("formenctype", FormEnctype.Value));
+            el.SetAttribute("formenctype", FormEnctype);
         }
 
         if (FormMethod != null)
         {
-            register(el => el.SetAttribute("formmethod", FormMethod.Value));
+            el.SetAttribute("formmethod", FormMethod);
         }
 
         if (FormNoValidate != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "formnovalidate", FormNoValidate.Value));
+            el.SetBoolean("formnovalidate", FormNoValidate);
         }
 
         if (FormTarget != null)
         {
-            register(el => el.SetAttribute("formtarget", FormTarget.Value));
+            el.SetAttribute("formtarget", FormTarget);
         }
 
         if (Height != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "height", Height.Value));
+            el.SetUInt("height", Height);
         }
 
         if (Max != null)
         {
-            register(el => el.SetAttribute("max", Max.Value));
+            el.SetAttribute("max", Max);
         }
 
         if (MaxLength != null)
         {
-            register(el => SsrAttributes.SetInt(el, "maxlength", MaxLength.Value));
+            el.SetInt("maxlength", MaxLength);
         }
 
         if (Min != null)
         {
-            register(el => el.SetAttribute("min", Min.Value));
+            el.SetAttribute("min", Min);
         }
 
         if (MinLength != null)
         {
-            register(el => SsrAttributes.SetInt(el, "minlength", MinLength.Value));
+            el.SetInt("minlength", MinLength);
         }
 
         if (Multiple != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "multiple", Multiple.Value));
+            el.SetBoolean("multiple", Multiple);
         }
 
         if (Name != null)
         {
-            register(el => el.SetAttribute("name", Name.Value));
+            el.SetAttribute("name", Name);
         }
 
         if (Pattern != null)
         {
-            register(el => el.SetAttribute("pattern", Pattern.Value));
+            el.SetAttribute("pattern", Pattern);
         }
 
         if (Placeholder != null)
         {
-            register(el => el.SetAttribute("placeholder", Placeholder.Value));
+            el.SetAttribute("placeholder", Placeholder);
         }
 
         if (ReadOnly != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "readonly", ReadOnly.Value));
+            el.SetBoolean("readonly", ReadOnly);
         }
 
         if (Required != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "required", Required.Value));
+            el.SetBoolean("required", Required);
         }
 
         if (Size != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "size", Size.Value));
+            el.SetUInt("size", Size);
         }
 
         if (Src != null)
         {
-            register(el => el.SetAttribute("src", Src.Value));
+            el.SetAttribute("src", Src);
         }
 
         if (Step != null)
         {
-            register(el => el.SetAttribute("step", Step.Value));
+            el.SetAttribute("step", Step);
         }
 
         if (Type != null)
         {
-            register(el => el.SetAttribute("type", Type.Value));
+            el.SetAttribute("type", Type);
         }
 
         if (Value != null)
         {
-            register(el => el.SetAttribute("value", Value.Value));
+            el.SetAttribute("value", Value);
         }
 
         if (DefaultValue != null)
         {
-            register(el => el.SetAttribute("value", DefaultValue.Value));
+            el.SetAttribute("value", DefaultValue);
         }
 
         if (Width != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "width", Width.Value));
+            el.SetUInt("width", Width);
         }
     }
 }

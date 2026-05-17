@@ -52,9 +52,7 @@ public class DomText : IComponent
         }
         else if (root is ISsrRenderSlot ssrRenderSlot)
         {
-            var node = new SsrTextNode { TextContent = Text.Value };
-
-            new Effect(_ => node.TextContent = Text.Value);
+            var node = new SsrTextNode { TextContent = Text };
 
             ssrRenderSlot.Populate(node);
         }

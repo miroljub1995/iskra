@@ -20,13 +20,13 @@ public class ColProps : GlobalHtmlComponentProps<HTMLTableColElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Span != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "span", Span.Value));
+            el.SetUInt("span", Span);
         }
     }
 }

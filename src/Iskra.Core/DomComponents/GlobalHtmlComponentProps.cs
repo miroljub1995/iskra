@@ -8,6 +8,15 @@ namespace Iskra.Core.DomComponents;
 public class GlobalHtmlComponentProps<TElement> : BaseDomComponentProps<TElement>
     where TElement : HTMLElement
 {
+    private static readonly Func<object, SsrAttributeValue?> s_hiddenSelector =
+        static obj => ((IReadOnlySignal<HiddenOption>)obj).Value switch
+        {
+            HiddenOption.True => new SsrAttributeValue(null),
+            HiddenOption.False => null,
+            HiddenOption.UntilFound => new SsrAttributeValue("until-found"),
+            _ => throw new ArgumentOutOfRangeException(),
+        };
+
     public IReadOnlySignal<string>? AccessKey { get; init; }
     public IReadOnlySignal<string>? Autocapitalize { get; init; }
     public IReadOnlySignal<bool>? Autocorrect { get; init; }
@@ -201,183 +210,143 @@ public class GlobalHtmlComponentProps<TElement> : BaseDomComponentProps<TElement
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (AccessKey != null)
         {
-            register(el => el.SetAttribute("accesskey", AccessKey.Value));
+            el.SetAttribute("accesskey", AccessKey);
         }
 
         if (Autocapitalize != null)
         {
-            register(el => el.SetAttribute("autocapitalize", Autocapitalize.Value));
+            el.SetAttribute("autocapitalize", Autocapitalize);
         }
 
         if (Autocorrect != null)
         {
-            register(el => SsrAttributes.SetEnumeratedBoolean(el, "autocorrect", Autocorrect.Value, "on", "off"));
+            el.SetEnumeratedBoolOnOff("autocorrect", Autocorrect);
         }
 
         if (Autofocus != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "autofocus", Autofocus.Value));
+            el.SetBoolean("autofocus", Autofocus);
         }
 
         if (Class != null)
         {
-            register(el => el.SetAttribute("class", Class.Value));
+            el.SetAttribute("class", Class);
         }
 
         if (ContentEditable != null)
         {
-            register(el => el.SetAttribute("contenteditable", ContentEditable.Value));
+            el.SetAttribute("contenteditable", ContentEditable);
         }
 
         if (Data != null)
         {
-            var previousAttrNames = new HashSet<string>();
-            register(el =>
-            {
-                var dict = Data.Value;
-                var nextAttrNames = new HashSet<string>(dict.Count);
-
-                foreach (var kvp in dict)
-                {
-                    var attrName = "data-" + kvp.Key;
-                    nextAttrNames.Add(attrName);
-                    el.SetAttribute(attrName, kvp.Value);
-                }
-
-                foreach (var attr in previousAttrNames)
-                {
-                    if (!nextAttrNames.Contains(attr))
-                        el.RemoveAttribute(attr);
-                }
-
-                previousAttrNames.Clear();
-                foreach (var attr in nextAttrNames)
-                {
-                    previousAttrNames.Add(attr);
-                }
-            });
+            el.SetDataAttributes(Data);
         }
 
         if (Dir != null)
         {
-            register(el => el.SetAttribute("dir", Dir.Value));
+            el.SetAttribute("dir", Dir);
         }
 
         if (Draggable != null)
         {
-            register(el => SsrAttributes.SetEnumeratedBoolean(el, "draggable", Draggable.Value));
+            el.SetEnumeratedBoolTrueFalse("draggable", Draggable);
         }
 
         if (EnterKeyHint != null)
         {
-            register(el => el.SetAttribute("enterkeyhint", EnterKeyHint.Value));
+            el.SetAttribute("enterkeyhint", EnterKeyHint);
         }
 
         if (Hidden != null)
         {
-            register(el =>
-            {
-                switch (Hidden.Value)
-                {
-                    case HiddenOption.True:
-                        el.SetAttribute("hidden", null);
-                        break;
-                    case HiddenOption.False:
-                        el.RemoveAttribute("hidden");
-                        break;
-                    case HiddenOption.UntilFound:
-                        el.SetAttribute("hidden", "until-found");
-                        break;
-                    default:
-                        throw new ArgumentOutOfRangeException(nameof(Hidden), Hidden.Value, null);
-                }
-            });
+            el.SetAttribute("hidden", Hidden, s_hiddenSelector);
         }
 
         if (Id != null)
         {
-            register(el => el.SetAttribute("id", Id.Value));
+            el.SetAttribute("id", Id);
         }
 
         if (Inert != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "inert", Inert.Value));
+            el.SetBoolean("inert", Inert);
         }
 
         if (InputMode != null)
         {
-            register(el => el.SetAttribute("inputmode", InputMode.Value));
+            el.SetAttribute("inputmode", InputMode);
         }
 
         if (Lang != null)
         {
-            register(el => el.SetAttribute("lang", Lang.Value));
+            el.SetAttribute("lang", Lang);
         }
 
         if (Nonce != null)
         {
-            register(el => el.SetAttribute("nonce", Nonce.Value));
+            el.SetAttribute("nonce", Nonce);
         }
 
         if (Part != null)
         {
-            register(el => el.SetAttribute("part", Part.Value));
+            el.SetAttribute("part", Part);
         }
 
         if (Popover != null)
         {
-            register(el => SsrAttributes.SetNullableString(el, "popover", Popover.Value));
+            el.SetNullableString("popover", Popover);
         }
 
         if (Role != null)
         {
-            register(el => SsrAttributes.SetNullableString(el, "role", Role.Value));
+            el.SetNullableString("role", Role);
         }
 
         if (Slot != null)
         {
-            register(el => el.SetAttribute("slot", Slot.Value));
+            el.SetAttribute("slot", Slot);
         }
 
         if (Spellcheck != null)
         {
-            register(el => SsrAttributes.SetEnumeratedBoolean(el, "spellcheck", Spellcheck.Value));
+            el.SetEnumeratedBoolTrueFalse("spellcheck", Spellcheck);
         }
 
         if (Style != null)
         {
-            register(el => el.SetAttribute("style", Style.Value));
+            el.SetAttribute("style", Style);
         }
 
         if (TabIndex != null)
         {
-            register(el => SsrAttributes.SetInt(el, "tabindex", TabIndex.Value));
+            el.SetInt("tabindex", TabIndex);
         }
 
         if (Title != null)
         {
-            register(el => el.SetAttribute("title", Title.Value));
+            el.SetAttribute("title", Title);
         }
 
         if (Translate != null)
         {
-            register(el => SsrAttributes.SetEnumeratedBoolean(el, "translate", Translate.Value, "yes", "no"));
+            el.SetEnumeratedBoolYesNo("translate", Translate);
         }
 
         if (VirtualKeyboardPolicy != null)
         {
-            register(el => el.SetAttribute("virtualkeyboardpolicy", VirtualKeyboardPolicy.Value));
+            el.SetAttribute("virtualkeyboardpolicy", VirtualKeyboardPolicy);
         }
 
         if (WritingSuggestions != null)
         {
-            register(el => el.SetAttribute("writingsuggestions", WritingSuggestions.Value));
+            el.SetAttribute("writingsuggestions", WritingSuggestions);
         }
     }
 }

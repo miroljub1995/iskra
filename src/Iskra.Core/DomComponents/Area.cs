@@ -68,53 +68,53 @@ public class AreaProps : GlobalHtmlComponentProps<HTMLAreaElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Alt != null)
         {
-            register(el => el.SetAttribute("alt", Alt.Value));
+            el.SetAttribute("alt", Alt);
         }
 
         if (Coords != null)
         {
-            register(el => el.SetAttribute("coords", Coords.Value));
+            el.SetAttribute("coords", Coords);
         }
 
         if (Shape != null)
         {
-            register(el => el.SetAttribute("shape", Shape.Value));
+            el.SetAttribute("shape", Shape);
         }
 
         if (Href != null)
         {
-            register(el => el.SetAttribute("href", Href.Value));
+            el.SetAttribute("href", Href);
         }
 
         if (Target != null)
         {
-            register(el => el.SetAttribute("target", Target.Value));
+            el.SetAttribute("target", Target);
         }
 
         if (Download != null)
         {
-            register(el => el.SetAttribute("download", Download.Value));
+            el.SetAttribute("download", Download);
         }
 
         if (Ping != null)
         {
-            register(el => el.SetAttribute("ping", Ping.Value));
+            el.SetAttribute("ping", Ping);
         }
 
         if (Rel != null)
         {
-            register(el => el.SetAttribute("rel", Rel.Value));
+            el.SetAttribute("rel", Rel);
         }
 
         if (ReferrerPolicy != null)
         {
-            register(el => el.SetAttribute("referrerpolicy", ReferrerPolicy.Value));
+            el.SetAttribute("referrerpolicy", ReferrerPolicy);
         }
     }
 }

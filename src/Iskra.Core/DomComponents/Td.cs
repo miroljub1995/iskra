@@ -32,23 +32,23 @@ public class TdProps : GlobalHtmlComponentProps<HTMLTableCellElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (ColSpan != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "colspan", ColSpan.Value));
+            el.SetUInt("colspan", ColSpan);
         }
 
         if (RowSpan != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "rowspan", RowSpan.Value));
+            el.SetUInt("rowspan", RowSpan);
         }
 
         if (Headers != null)
         {
-            register(el => el.SetAttribute("headers", Headers.Value));
+            el.SetAttribute("headers", Headers);
         }
     }
 }

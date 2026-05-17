@@ -92,73 +92,73 @@ public class ImgProps : GlobalHtmlComponentProps<HTMLImageElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Alt != null)
         {
-            register(el => el.SetAttribute("alt", Alt.Value));
+            el.SetAttribute("alt", Alt);
         }
 
         if (Src != null)
         {
-            register(el => el.SetAttribute("src", Src.Value));
+            el.SetAttribute("src", Src);
         }
 
         if (Srcset != null)
         {
-            register(el => el.SetAttribute("srcset", Srcset.Value));
+            el.SetAttribute("srcset", Srcset);
         }
 
         if (Sizes != null)
         {
-            register(el => el.SetAttribute("sizes", Sizes.Value));
+            el.SetAttribute("sizes", Sizes);
         }
 
         if (CrossOrigin != null)
         {
-            register(el => SsrAttributes.SetNullableString(el, "crossorigin", CrossOrigin.Value));
+            el.SetNullableString("crossorigin", CrossOrigin);
         }
 
         if (UseMap != null)
         {
-            register(el => el.SetAttribute("usemap", UseMap.Value));
+            el.SetAttribute("usemap", UseMap);
         }
 
         if (IsMap != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "ismap", IsMap.Value));
+            el.SetBoolean("ismap", IsMap);
         }
 
         if (Width != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "width", Width.Value));
+            el.SetUInt("width", Width);
         }
 
         if (Height != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "height", Height.Value));
+            el.SetUInt("height", Height);
         }
 
         if (Decoding != null)
         {
-            register(el => el.SetAttribute("decoding", Decoding.Value));
+            el.SetAttribute("decoding", Decoding);
         }
 
         if (FetchPriority != null)
         {
-            register(el => el.SetAttribute("fetchpriority", FetchPriority.Value));
+            el.SetAttribute("fetchpriority", FetchPriority);
         }
 
         if (Loading != null)
         {
-            register(el => el.SetAttribute("loading", Loading.Value));
+            el.SetAttribute("loading", Loading);
         }
 
         if (ReferrerPolicy != null)
         {
-            register(el => el.SetAttribute("referrerpolicy", ReferrerPolicy.Value));
+            el.SetAttribute("referrerpolicy", ReferrerPolicy);
         }
     }
 }

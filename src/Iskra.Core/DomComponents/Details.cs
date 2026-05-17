@@ -26,18 +26,18 @@ public class DetailsProps : GlobalHtmlComponentProps<HTMLDetailsElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Name != null)
         {
-            register(el => el.SetAttribute("name", Name.Value));
+            el.SetAttribute("name", Name);
         }
 
         if (Open != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "open", Open.Value));
+            el.SetBoolean("open", Open);
         }
     }
 }

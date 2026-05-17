@@ -26,18 +26,18 @@ public class BaseProps : GlobalHtmlComponentProps<HTMLBaseElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Href != null)
         {
-            register(el => el.SetAttribute("href", Href.Value));
+            el.SetAttribute("href", Href);
         }
 
         if (Target != null)
         {
-            register(el => el.SetAttribute("target", Target.Value));
+            el.SetAttribute("target", Target);
         }
     }
 }

@@ -26,18 +26,18 @@ public class OptGroupProps : GlobalHtmlComponentProps<HTMLOptGroupElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Disabled != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+            el.SetBoolean("disabled", Disabled);
         }
 
         if (Label != null)
         {
-            register(el => el.SetAttribute("label", Label.Value));
+            el.SetAttribute("label", Label);
         }
     }
 }

@@ -56,43 +56,43 @@ public class SelectProps : GlobalHtmlComponentProps<HTMLSelectElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Autocomplete != null)
         {
-            register(el => el.SetAttribute("autocomplete", Autocomplete.Value));
+            el.SetAttribute("autocomplete", Autocomplete);
         }
 
         if (Disabled != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+            el.SetBoolean("disabled", Disabled);
         }
 
         if (Multiple != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "multiple", Multiple.Value));
+            el.SetBoolean("multiple", Multiple);
         }
 
         if (Name != null)
         {
-            register(el => el.SetAttribute("name", Name.Value));
+            el.SetAttribute("name", Name);
         }
 
         if (Required != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "required", Required.Value));
+            el.SetBoolean("required", Required);
         }
 
         if (Size != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "size", Size.Value));
+            el.SetUInt("size", Size);
         }
 
         if (Value != null)
         {
-            register(el => el.SetAttribute("value", Value.Value));
+            el.SetAttribute("value", Value);
         }
     }
 }

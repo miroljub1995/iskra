@@ -54,9 +54,7 @@ public class DomComment : IComponent
         }
         else if (slot is ISsrRenderSlot ssrRenderSlot)
         {
-            var node = new SsrCommentNode { Data = Data.Value };
-
-            new Effect(_ => node.Data = Data.Value);
+            var node = new SsrCommentNode { Data = Data };
 
             ssrRenderSlot.Populate(node);
         }

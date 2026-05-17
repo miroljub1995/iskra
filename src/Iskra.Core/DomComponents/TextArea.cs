@@ -98,78 +98,78 @@ public class TextAreaProps : GlobalHtmlComponentProps<HTMLTextAreaElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Autocomplete != null)
         {
-            register(el => el.SetAttribute("autocomplete", Autocomplete.Value));
+            el.SetAttribute("autocomplete", Autocomplete);
         }
 
         if (Cols != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "cols", Cols.Value));
+            el.SetUInt("cols", Cols);
         }
 
         if (DirName != null)
         {
-            register(el => el.SetAttribute("dirname", DirName.Value));
+            el.SetAttribute("dirname", DirName);
         }
 
         if (Disabled != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+            el.SetBoolean("disabled", Disabled);
         }
 
         if (MaxLength != null)
         {
-            register(el => SsrAttributes.SetInt(el, "maxlength", MaxLength.Value));
+            el.SetInt("maxlength", MaxLength);
         }
 
         if (MinLength != null)
         {
-            register(el => SsrAttributes.SetInt(el, "minlength", MinLength.Value));
+            el.SetInt("minlength", MinLength);
         }
 
         if (Name != null)
         {
-            register(el => el.SetAttribute("name", Name.Value));
+            el.SetAttribute("name", Name);
         }
 
         if (Placeholder != null)
         {
-            register(el => el.SetAttribute("placeholder", Placeholder.Value));
+            el.SetAttribute("placeholder", Placeholder);
         }
 
         if (ReadOnly != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "readonly", ReadOnly.Value));
+            el.SetBoolean("readonly", ReadOnly);
         }
 
         if (Required != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "required", Required.Value));
+            el.SetBoolean("required", Required);
         }
 
         if (Rows != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "rows", Rows.Value));
+            el.SetUInt("rows", Rows);
         }
 
         if (Wrap != null)
         {
-            register(el => el.SetAttribute("wrap", Wrap.Value));
+            el.SetAttribute("wrap", Wrap);
         }
 
         if (Value != null)
         {
-            register(el => el.SetAttribute("value", Value.Value));
+            el.SetAttribute("value", Value);
         }
 
         if (DefaultValue != null)
         {
-            register(el => el.SetAttribute("value", DefaultValue.Value));
+            el.SetAttribute("value", DefaultValue);
         }
     }
 }

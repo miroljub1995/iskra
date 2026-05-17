@@ -56,43 +56,43 @@ public class SourceProps : GlobalHtmlComponentProps<HTMLSourceElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Src != null)
         {
-            register(el => el.SetAttribute("src", Src.Value));
+            el.SetAttribute("src", Src);
         }
 
         if (Type != null)
         {
-            register(el => el.SetAttribute("type", Type.Value));
+            el.SetAttribute("type", Type);
         }
 
         if (Srcset != null)
         {
-            register(el => el.SetAttribute("srcset", Srcset.Value));
+            el.SetAttribute("srcset", Srcset);
         }
 
         if (Sizes != null)
         {
-            register(el => el.SetAttribute("sizes", Sizes.Value));
+            el.SetAttribute("sizes", Sizes);
         }
 
         if (Media != null)
         {
-            register(el => el.SetAttribute("media", Media.Value));
+            el.SetAttribute("media", Media);
         }
 
         if (Width != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "width", Width.Value));
+            el.SetUInt("width", Width);
         }
 
         if (Height != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "height", Height.Value));
+            el.SetUInt("height", Height);
         }
     }
 }

@@ -44,33 +44,33 @@ public class OptionProps : GlobalHtmlComponentProps<HTMLOptionElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Disabled != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+            el.SetBoolean("disabled", Disabled);
         }
 
         if (Label != null)
         {
-            register(el => el.SetAttribute("label", Label.Value));
+            el.SetAttribute("label", Label);
         }
 
         if (DefaultSelected != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "selected", DefaultSelected.Value));
+            el.SetBoolean("selected", DefaultSelected);
         }
 
         if (Selected != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "selected", Selected.Value));
+            el.SetBoolean("selected", Selected);
         }
 
         if (Value != null)
         {
-            register(el => el.SetAttribute("value", Value.Value));
+            el.SetAttribute("value", Value);
         }
     }
 }

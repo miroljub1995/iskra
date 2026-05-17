@@ -20,13 +20,13 @@ public class TimeProps : GlobalHtmlComponentProps<HTMLTimeElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (DateTime != null)
         {
-            register(el => el.SetAttribute("datetime", DateTime.Value));
+            el.SetAttribute("datetime", DateTime);
         }
     }
 }

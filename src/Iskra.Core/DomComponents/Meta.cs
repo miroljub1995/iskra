@@ -38,28 +38,28 @@ public class MetaProps : GlobalHtmlComponentProps<HTMLMetaElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Name != null)
         {
-            register(el => el.SetAttribute("name", Name.Value));
+            el.SetAttribute("name", Name);
         }
 
         if (HttpEquiv != null)
         {
-            register(el => el.SetAttribute("http-equiv", HttpEquiv.Value));
+            el.SetAttribute("http-equiv", HttpEquiv);
         }
 
         if (Content != null)
         {
-            register(el => el.SetAttribute("content", Content.Value));
+            el.SetAttribute("content", Content);
         }
 
         if (Media != null)
         {
-            register(el => el.SetAttribute("media", Media.Value));
+            el.SetAttribute("media", Media);
         }
     }
 }

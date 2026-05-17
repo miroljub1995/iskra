@@ -20,13 +20,13 @@ public class LiProps : GlobalHtmlComponentProps<HTMLLIElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Value != null)
         {
-            register(el => SsrAttributes.SetInt(el, "value", Value.Value));
+            el.SetInt("value", Value);
         }
     }
 }

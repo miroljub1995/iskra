@@ -88,9 +88,7 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
             var node = new SsrElementNode { TagName = tagName, IsVoid = IsVoid };
 
             var props = Props;
-            Action<SsrElementNode> combinedEffect = static _ => { };
-            props?.RegisterServerEffects(action => combinedEffect += action);
-            new Effect(_ => combinedEffect(node));
+            props?.RegisterServerEffects(node);
 
             if (!IsVoid && children?.Length > 0)
             {

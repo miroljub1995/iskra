@@ -50,38 +50,38 @@ public class MeterProps : GlobalHtmlComponentProps<HTMLMeterElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Value != null)
         {
-            register(el => SsrAttributes.SetDouble(el, "value", Value.Value));
+            el.SetDouble("value", Value);
         }
 
         if (Min != null)
         {
-            register(el => SsrAttributes.SetDouble(el, "min", Min.Value));
+            el.SetDouble("min", Min);
         }
 
         if (Max != null)
         {
-            register(el => SsrAttributes.SetDouble(el, "max", Max.Value));
+            el.SetDouble("max", Max);
         }
 
         if (Low != null)
         {
-            register(el => SsrAttributes.SetDouble(el, "low", Low.Value));
+            el.SetDouble("low", Low);
         }
 
         if (High != null)
         {
-            register(el => SsrAttributes.SetDouble(el, "high", High.Value));
+            el.SetDouble("high", High);
         }
 
         if (Optimum != null)
         {
-            register(el => SsrAttributes.SetDouble(el, "optimum", Optimum.Value));
+            el.SetDouble("optimum", Optimum);
         }
     }
 }

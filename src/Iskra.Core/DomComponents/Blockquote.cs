@@ -20,13 +20,13 @@ public class BlockquoteProps : GlobalHtmlComponentProps<HTMLQuoteElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Cite != null)
         {
-            register(el => el.SetAttribute("cite", Cite.Value));
+            el.SetAttribute("cite", Cite);
         }
     }
 }

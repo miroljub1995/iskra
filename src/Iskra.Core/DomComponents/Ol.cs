@@ -32,23 +32,23 @@ public class OlProps : GlobalHtmlComponentProps<HTMLOListElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Reversed != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "reversed", Reversed.Value));
+            el.SetBoolean("reversed", Reversed);
         }
 
         if (Start != null)
         {
-            register(el => SsrAttributes.SetInt(el, "start", Start.Value));
+            el.SetInt("start", Start);
         }
 
         if (Type != null)
         {
-            register(el => el.SetAttribute("type", Type.Value));
+            el.SetAttribute("type", Type);
         }
     }
 }

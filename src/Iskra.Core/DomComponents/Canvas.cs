@@ -26,18 +26,18 @@ public class CanvasProps : GlobalHtmlComponentProps<HTMLCanvasElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Width != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "width", Width.Value));
+            el.SetUInt("width", Width);
         }
 
         if (Height != null)
         {
-            register(el => SsrAttributes.SetUInt(el, "height", Height.Value));
+            el.SetUInt("height", Height);
         }
     }
 }

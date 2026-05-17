@@ -1,4 +1,3 @@
-using System.Buffers;
 using System.IO.Pipelines;
 using System.Text;
 
@@ -6,7 +5,8 @@ namespace Iskra.Core.RenderRoot;
 
 public sealed class SsrElementNode : ISsrNode
 {
-    private readonly Dictionary<string, string?> _attributes = [];
+    private readonly List<(string Name, object Value, Func<object, SsrAttributeValue?> Selector)> _attributes = [];
+    private readonly List<(object Value, Func<object, IEnumerable<(string Name, SsrAttributeValue? Value)>> Selector)> _multiAttributes = [];
 
     public required string TagName { get; init; }
 
@@ -14,46 +14,24 @@ public sealed class SsrElementNode : ISsrNode
 
     internal LinkedList<SsrRenderSlot?> Children { get; } = [];
 
-    public void SetAttribute(string name, string? value)
-    {
-        _attributes[name] = value;
-    }
+    internal void SetAttribute(string name, object value, Func<object, SsrAttributeValue?> selector)
+        => _attributes.Add((name, value, selector));
 
-    public void RemoveAttribute(string name)
-    {
-        _attributes.Remove(name);
-    }
+    internal void SetMultiAttribute(object value, Func<object, IEnumerable<(string Name, SsrAttributeValue? Value)>> selector)
+        => _multiAttributes.Add((value, selector));
 
     public async ValueTask WriteAsync(PipeWriter writer, bool sortAttributes, CancellationToken cancellationToken = default)
     {
         Write(writer, "<");
         Write(writer, TagName);
 
-        if (sortAttributes && _attributes.Count > 1)
-        {
-            var names = ArrayPool<string>.Shared.Rent(_attributes.Count);
-            try
-            {
-                _attributes.Keys.CopyTo(names, 0);
+        var pairs = sortAttributes
+            ? GetAllAttributePairs().OrderBy(static p => p.Name, StringComparer.Ordinal)
+            : GetAllAttributePairs();
 
-                Array.Sort(names, 0, _attributes.Count, StringComparer.Ordinal);
-
-                for (var j = 0; j < _attributes.Count; j++)
-                {
-                    WriteAttribute(writer, names[j], _attributes[names[j]]);
-                }
-            }
-            finally
-            {
-                ArrayPool<string>.Shared.Return(names, clearArray: true);
-            }
-        }
-        else
+        foreach (var (name, attrValue) in pairs)
         {
-            foreach (var (name, value) in _attributes)
-            {
-                WriteAttribute(writer, name, value);
-            }
+            WriteAttribute(writer, name, attrValue.Value);
         }
 
         Write(writer, ">");
@@ -76,6 +54,28 @@ public sealed class SsrElementNode : ISsrNode
         if (writer.CanGetUnflushedBytes && writer.UnflushedBytes >= 8 * 1024)
         {
             await writer.FlushAsync(cancellationToken).ConfigureAwait(false);
+        }
+    }
+
+    private IEnumerable<(string Name, SsrAttributeValue Value)> GetAllAttributePairs()
+    {
+        foreach (var (name, value, selector) in _attributes)
+        {
+            if (selector(value) is { } v)
+            {
+                yield return (name, v);
+            }
+        }
+
+        foreach (var (value, selector) in _multiAttributes)
+        {
+            foreach (var (name, attrValue) in selector(value))
+            {
+                if (attrValue is { } v)
+                {
+                    yield return (name, v);
+                }
+            }
         }
     }
 

@@ -38,28 +38,28 @@ public class OutputProps : GlobalHtmlComponentProps<HTMLOutputElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (HtmlFor != null)
         {
-            register(el => el.SetAttribute("for", HtmlFor.Value));
+            el.SetAttribute("for", HtmlFor);
         }
 
         if (Name != null)
         {
-            register(el => el.SetAttribute("name", Name.Value));
+            el.SetAttribute("name", Name);
         }
 
         if (DefaultValue != null)
         {
-            register(el => el.SetAttribute("value", DefaultValue.Value));
+            el.SetAttribute("value", DefaultValue);
         }
 
         if (Value != null)
         {
-            register(el => el.SetAttribute("value", Value.Value));
+            el.SetAttribute("value", Value);
         }
     }
 }

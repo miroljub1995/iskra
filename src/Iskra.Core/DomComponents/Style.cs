@@ -32,23 +32,23 @@ public class StyleProps : GlobalHtmlComponentProps<HTMLStyleElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Disabled != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "disabled", Disabled.Value));
+            el.SetBoolean("disabled", Disabled);
         }
 
         if (Media != null)
         {
-            register(el => el.SetAttribute("media", Media.Value));
+            el.SetAttribute("media", Media);
         }
 
         if (Blocking != null)
         {
-            register(el => el.SetAttribute("blocking", Blocking.Value));
+            el.SetAttribute("blocking", Blocking);
         }
     }
 }

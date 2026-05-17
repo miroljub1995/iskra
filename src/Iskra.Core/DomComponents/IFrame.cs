@@ -74,58 +74,58 @@ public class IFrameProps : GlobalHtmlComponentProps<HTMLIFrameElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Src != null)
         {
-            register(el => el.SetAttribute("src", Src.Value));
+            el.SetAttribute("src", Src);
         }
 
         if (Name != null)
         {
-            register(el => el.SetAttribute("name", Name.Value));
+            el.SetAttribute("name", Name);
         }
 
         if (Allow != null)
         {
-            register(el => el.SetAttribute("allow", Allow.Value));
+            el.SetAttribute("allow", Allow);
         }
 
         if (AllowFullscreen != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "allowfullscreen", AllowFullscreen.Value));
+            el.SetBoolean("allowfullscreen", AllowFullscreen);
         }
 
         if (Width != null)
         {
-            register(el => el.SetAttribute("width", Width.Value));
+            el.SetAttribute("width", Width);
         }
 
         if (Height != null)
         {
-            register(el => el.SetAttribute("height", Height.Value));
+            el.SetAttribute("height", Height);
         }
 
         if (ReferrerPolicy != null)
         {
-            register(el => el.SetAttribute("referrerpolicy", ReferrerPolicy.Value));
+            el.SetAttribute("referrerpolicy", ReferrerPolicy);
         }
 
         if (Loading != null)
         {
-            register(el => el.SetAttribute("loading", Loading.Value));
+            el.SetAttribute("loading", Loading);
         }
 
         if (Sandbox != null)
         {
-            register(el => el.SetAttribute("sandbox", Sandbox.Value));
+            el.SetAttribute("sandbox", Sandbox);
         }
 
         if (SrcDoc != null)
         {
-            register(el => el.SetAttribute("srcdoc", SrcDoc.Value));
+            el.SetAttribute("srcdoc", SrcDoc);
         }
     }
 }

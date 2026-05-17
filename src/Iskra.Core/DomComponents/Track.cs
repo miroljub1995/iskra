@@ -44,33 +44,33 @@ public class TrackProps : GlobalHtmlComponentProps<HTMLTrackElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Kind != null)
         {
-            register(el => el.SetAttribute("kind", Kind.Value));
+            el.SetAttribute("kind", Kind);
         }
 
         if (Src != null)
         {
-            register(el => el.SetAttribute("src", Src.Value));
+            el.SetAttribute("src", Src);
         }
 
         if (Srclang != null)
         {
-            register(el => el.SetAttribute("srclang", Srclang.Value));
+            el.SetAttribute("srclang", Srclang);
         }
 
         if (Label != null)
         {
-            register(el => el.SetAttribute("label", Label.Value));
+            el.SetAttribute("label", Label);
         }
 
         if (Default != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "default", Default.Value));
+            el.SetBoolean("default", Default);
         }
     }
 }

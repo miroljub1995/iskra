@@ -74,58 +74,58 @@ public class ScriptProps : GlobalHtmlComponentProps<HTMLScriptElement>
         }
     }
 
-    protected internal override void RegisterServerEffects(Action<Action<SsrElementNode>> register)
+    protected internal override void RegisterServerEffects(SsrElementNode el)
     {
-        base.RegisterServerEffects(register);
+        base.RegisterServerEffects(el);
 
         if (Src != null)
         {
-            register(el => el.SetAttribute("src", Src.Value));
+            el.SetAttribute("src", Src);
         }
 
         if (Type != null)
         {
-            register(el => el.SetAttribute("type", Type.Value));
+            el.SetAttribute("type", Type);
         }
 
         if (NoModule != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "nomodule", NoModule.Value));
+            el.SetBoolean("nomodule", NoModule);
         }
 
         if (Async != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "async", Async.Value));
+            el.SetBoolean("async", Async);
         }
 
         if (Defer != null)
         {
-            register(el => SsrAttributes.SetBoolean(el, "defer", Defer.Value));
+            el.SetBoolean("defer", Defer);
         }
 
         if (CrossOrigin != null)
         {
-            register(el => SsrAttributes.SetNullableString(el, "crossorigin", CrossOrigin.Value));
+            el.SetNullableString("crossorigin", CrossOrigin);
         }
 
         if (Integrity != null)
         {
-            register(el => el.SetAttribute("integrity", Integrity.Value));
+            el.SetAttribute("integrity", Integrity);
         }
 
         if (ReferrerPolicy != null)
         {
-            register(el => el.SetAttribute("referrerpolicy", ReferrerPolicy.Value));
+            el.SetAttribute("referrerpolicy", ReferrerPolicy);
         }
 
         if (FetchPriority != null)
         {
-            register(el => el.SetAttribute("fetchpriority", FetchPriority.Value));
+            el.SetAttribute("fetchpriority", FetchPriority);
         }
 
         if (Blocking != null)
         {
-            register(el => el.SetAttribute("blocking", Blocking.Value));
+            el.SetAttribute("blocking", Blocking);
         }
     }
 }
