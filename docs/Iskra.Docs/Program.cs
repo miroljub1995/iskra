@@ -1,6 +1,7 @@
 using System.Text;
 using Iskra.Core;
 using Iskra.Core.Features;
+using Iskra.Core.Features.HydrationState;
 using Iskra.Core.RenderRoot;
 using Iskra.Docs.Components;
 using Microsoft.AspNetCore.StaticFiles;
@@ -27,12 +28,13 @@ app.MapGet("/", async (httpContext) =>
     using var _ = new IskraHostBuilder()
         .UseRootRenderer(root)
         .SetFeature<IServerPrefetchFeature>(prefetch)
+        .SetFeature<IServerHydrationStateFeature>(new ServerHydrationStateFeature())
         .SetFeature(httpContext)
         .UseRootComponent(() => new DocsPage { Props = new DocsPageProps() })
         .Build()
         .Mount();
 
-    await prefetch.WaitForCompletionAsync();
+    await prefetch.WaitForCompletionAsync(httpContext.RequestAborted);
 
     httpContext.Response.Headers.ContentType = "text/html";
     await httpContext.Response.BodyWriter.WriteAsync(Encoding.UTF8.GetBytes("<!DOCTYPE html>"));

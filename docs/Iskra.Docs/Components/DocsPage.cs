@@ -1,5 +1,6 @@
 using Iskra.Core.Components;
 using Iskra.Core.DomComponents;
+using Iskra.Core.Features.HydrationState;
 using Iskra.Docs.Client.Components;
 using Iskra.Signals;
 
@@ -47,6 +48,7 @@ public class DocsPage : BaseComponent<DocsPageProps, BaseEmits, object>
                                     await runMain();
                                     """) }],
                             },
+                            new HydrationStateScript(),
                         ],
                     },
                     new Body
