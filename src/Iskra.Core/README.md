@@ -12,7 +12,6 @@ Iskra.Core is the experimental component layer for Iskra. It builds on Iskra.Std
 - [ ] **Two-way binding helpers** — `v-model` equivalent; currently requires manually wiring a `Signal` through both a prop and an event
 - [ ] **Teleport** — render component output to an arbitrary DOM node outside the component tree (Vue: `<Teleport>`)
 - [ ] **SSR hydration** — attach the client-side component tree to server-rendered HTML without re-creating DOM nodes (Check if claiming should be allowed only on initial mount pass)
-- [ ] **Hydration state** — serialize application state from server and laod on client
 
 ### Router
 - [ ] **Router** — URL-based navigation, route params, guards, nested routes, with both client-side and server-side rendering support
