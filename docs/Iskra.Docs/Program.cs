@@ -4,21 +4,14 @@ using Iskra.Core.Features;
 using Iskra.Core.Features.HydrationState;
 using Iskra.Core.RenderRoot;
 using Iskra.Docs.Components;
-using Microsoft.AspNetCore.StaticFiles;
 
 var vars = Environment.GetEnvironmentVariables();
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.WebHost.UseStaticWebAssets();
-
 var app = builder.Build();
 
-var contentTypeProvider = new FileExtensionContentTypeProvider();
-contentTypeProvider.Mappings[".pdb"] = "application/octet-stream";
-contentTypeProvider.Mappings[".dat"] = "application/octet-stream";
-
-app.UseStaticFiles(new StaticFileOptions { ContentTypeProvider = contentTypeProvider });
+app.MapStaticAssets();
 
 app.MapGet("/", async (httpContext) =>
 {
