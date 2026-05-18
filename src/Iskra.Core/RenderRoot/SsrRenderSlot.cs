@@ -41,12 +41,14 @@ public sealed class SsrRenderSlot : ISsrRenderSlot
         var endSlot = (SsrRenderSlot)rangeEnd;
         var anchorSlot = (SsrRenderSlot)anchor;
 
-        var list = _listNode.List ?? throw new Exception("Slot must be attached.");
+        var sourceList = _listNode.List ?? throw new Exception("Slot must be attached.");
 
-        if (anchorSlot._listNode.List != list)
+        if (endSlot._listNode.List != sourceList)
         {
-            throw new Exception("Slots must belong to the same slot list.");
+            throw new Exception("rangeStart and rangeEnd must belong to the same slot list.");
         }
+
+        var targetList = anchorSlot._listNode.List ?? throw new Exception("Anchor slot must be attached.");
 
         // Collect linked-list nodes in the range [this .. endSlot].
         var rangeNodes = new List<LinkedListNode<SsrRenderSlot?>>();
@@ -62,12 +64,13 @@ public sealed class SsrRenderSlot : ISsrRenderSlot
             cursor = cursor.Next ?? throw new Exception("rangeEnd not found after rangeStart in slot list.");
         }
 
-        // Relink: remove each node and re-insert in order after the anchor.
+        // Relink: remove each node from the source list and re-insert in order
+        // after the anchor in the target list (may be the same list or different).
         var insertAfter = anchorSlot._listNode;
         foreach (var node in rangeNodes)
         {
-            list.Remove(node);
-            list.AddAfter(insertAfter, node);
+            sourceList.Remove(node);
+            targetList.AddAfter(insertAfter, node);
             insertAfter = node;
         }
     }

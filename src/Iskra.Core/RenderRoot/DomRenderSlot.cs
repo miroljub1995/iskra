@@ -7,7 +7,7 @@ namespace Iskra.Core.RenderRoot;
 [SupportedOSPlatform("browser")]
 public class DomRenderSlot : IDomRenderSlot
 {
-    private readonly DomRenderRoot _root;
+    private DomRenderRoot _root;
     internal readonly LinkedListNode<DomRenderSlot?> _listNode;
     private Node? _node;
     internal bool _claimed;
@@ -60,12 +60,14 @@ public class DomRenderSlot : IDomRenderSlot
         var endSlot = (DomRenderSlot)rangeEnd;
         var anchorSlot = (DomRenderSlot)anchor;
 
-        var list = _listNode.List ?? throw new Exception("Slot must be attached.");
+        var sourceList = _listNode.List ?? throw new Exception("Slot must be attached.");
 
-        if (anchorSlot._listNode.List != list)
+        if (endSlot._listNode.List != sourceList)
         {
-            throw new Exception("Slots must belong to the same slot list.");
+            throw new Exception("rangeStart and rangeEnd must belong to the same slot list.");
         }
+
+        var targetList = anchorSlot._listNode.List ?? throw new Exception("Anchor slot must be attached.");
 
         // Collect linked-list nodes in the range [this .. endSlot].
         var rangeNodes = new List<LinkedListNode<DomRenderSlot?>>();
@@ -81,12 +83,13 @@ public class DomRenderSlot : IDomRenderSlot
             cursor = cursor.Next ?? throw new Exception("rangeEnd not found after rangeStart in slot list.");
         }
 
-        // Relink: remove each node and re-insert in order after the anchor.
+        // Relink: remove each node from the source list and re-insert in order
+        // after the anchor in the target list (may be the same list or different).
         var insertAfter = anchorSlot._listNode;
         foreach (var node in rangeNodes)
         {
-            list.Remove(node);
-            list.AddAfter(insertAfter, node);
+            sourceList.Remove(node);
+            targetList.AddAfter(insertAfter, node);
             insertAfter = node;
         }
 
@@ -103,12 +106,22 @@ public class DomRenderSlot : IDomRenderSlot
             afterEnd = afterEnd.Next;
         }
 
-        // Reinsert DOM nodes in forward order, each before nextNode.
+        // Update _root on each moved slot so that ClaimOrCreateSlotAfter,
+        // Populate, and Empty use the correct list and DOM parent.
+        foreach (var node in rangeNodes)
+        {
+            if (node.Value is not null)
+            {
+                node.Value._root = anchorSlot._root;
+            }
+        }
+
+        // Reinsert DOM nodes under the anchor's root in forward order.
         foreach (var node in rangeNodes)
         {
             if (node.Value?._node is { } domNode)
             {
-                _root.Node.InsertBefore(domNode, nextNode);
+                anchorSlot._root.Node.InsertBefore(domNode, nextNode);
             }
         }
     }
