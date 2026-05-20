@@ -1,6 +1,7 @@
 using Iskra.Core.Components;
 using Iskra.Core.DomComponents;
 using Iskra.Core.Features.HydrationState;
+using Iskra.Core.HotReload;
 using Iskra.Docs.Client.Components;
 using Iskra.Signals;
 
@@ -61,10 +62,7 @@ public class DocsPage : BaseComponent<DocsPageProps, BaseEmits, object>
                                 Props = new DivProps { Id = new Signal<string>("app") },
                                 Children = [new DocsApp { Props = new DocsAppProps() }],
                             },
-                            new Script
-                            {
-                                Props = new ScriptProps { Src = new Signal<string>("/_framework/aspnetcore-browser-refresh.js") },
-                            },
+                            new BrowserRefreshScript(),
                         ],
                     },
                 ],

@@ -1,4 +1,3 @@
-using System.Diagnostics.CodeAnalysis;
 using System.Reflection.Metadata;
 
 [assembly: MetadataUpdateHandler(typeof(Iskra.Core.HotReload.HotReloadManager))]
@@ -9,9 +8,7 @@ public sealed class HotReloadManager : IHotReloadManager
 {
     public static readonly HotReloadManager Default = new();
 
-    [FeatureSwitchDefinition("System.Reflection.Metadata.MetadataUpdater.IsSupported")]
-    public static bool IsSupported =>
-        AppContext.TryGetSwitch("System.Reflection.Metadata.MetadataUpdater.IsSupported", out bool isSupported) ? isSupported : true;
+    public static bool IsSupported => MetadataUpdater.IsSupported;
 
     public event Action<Type[]?>? OnDeltaApplied;
 

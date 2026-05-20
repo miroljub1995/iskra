@@ -5,8 +5,6 @@ using Iskra.Core.Features.HydrationState;
 using Iskra.Core.RenderRoot;
 using Iskra.Docs.Components;
 
-var vars = Environment.GetEnvironmentVariables();
-
 var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
