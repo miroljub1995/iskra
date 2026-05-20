@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using Iskra.Core.DomComponents;
 using Iskra.Core.Features;
 using Iskra.Core.HotReload;
@@ -120,20 +121,23 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
         _onUnmountedActions.Clear();
     }
 
+    [UnconditionalSuppressMessage("Trimming", "IL2026", Justification = "Only used during hot reload with the interpreter; no trimming occurs.")]
     private void SetupHotReload(
         IHotReloadManager? hotReloadManager,
         IRenderSlot slot,
         IFeatureCollection parentFeatures,
         Action<Action> onCleanup)
     {
-        if (hotReloadManager is null)
+        if (!HotReloadManager.IsSupported || hotReloadManager is null)
         {
             return;
         }
 
+        var deps = TypeDependencyScanner.GetDependencies(GetType());
+
         void OnDeltaApplied(Type[]? types)
         {
-            if (types is null || types.Contains(GetType()))
+            if (types is null || types.Any(deps.Contains))
             {
                 Unmount();
 
