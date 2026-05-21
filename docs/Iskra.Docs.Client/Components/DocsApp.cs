@@ -19,10 +19,9 @@ public class DocsApp : BaseComponent<DocsAppProps, BaseEmits, object>
                 Props = new MainProps(),
                 Children =
                 [
-                    new H1
+                    new Header
                     {
-                        Props = new H1Props(),
-                        Children = [new DomText { Text = new Signal<string>("Iskra Documentation") }],
+                        Props = new HeaderProps(),
                     },
                     new P
                     {

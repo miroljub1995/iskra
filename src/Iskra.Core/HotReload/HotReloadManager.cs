@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using System.Reflection.Metadata;
 
 [assembly: MetadataUpdateHandler(typeof(Iskra.Core.HotReload.HotReloadManager))]
@@ -12,5 +13,17 @@ public sealed class HotReloadManager : IHotReloadManager
 
     public event Action<Type[]?>? OnDeltaApplied;
 
-    public static void UpdateApplication(Type[]? types) => Default.OnDeltaApplied?.Invoke(types);
+    [UnconditionalSuppressMessage("Trimming", "IL2026", Justification = "Only used during hot reload with the interpreter; no trimming occurs.")]
+    public TypeDependencyGraph Graph { get; } = new();
+
+    [UnconditionalSuppressMessage("Trimming", "IL2026", Justification = "Only used during hot reload with the interpreter; no trimming occurs.")]
+    public static void UpdateApplication(Type[]? types)
+    {
+        Default.OnDeltaApplied?.Invoke(types);
+
+        if (types is not null)
+        {
+            Default.Graph.Invalidate(types);
+        }
+    }
 }

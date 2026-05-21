@@ -1,14 +1,12 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 using System.Reflection.Emit;
+using Iskra.Core.Components;
 
 namespace Iskra.Core.HotReload;
 
-// This class only runs when hot reload is active, which requires the interpreter
-// (no trimming). The trimmer annotations are suppressed because the IL and metadata
-// are guaranteed to be present in that configuration.
-[RequiresUnreferencedCode("TypeDependencyScanner uses reflection and IL scanning that is only valid when hot reload is active (interpreter mode).")]
-internal static class TypeDependencyScanner
+[RequiresUnreferencedCode("TypeDependencyGraph uses reflection and IL scanning that is only valid when hot reload is active (interpreter mode).")]
+public sealed class TypeDependencyGraph
 {
     private static readonly Dictionary<short, OpCode> s_opCodes = typeof(OpCodes)
         .GetFields(BindingFlags.Public | BindingFlags.Static)
@@ -16,21 +14,80 @@ internal static class TypeDependencyScanner
         .Select(f => (OpCode)f.GetValue(null)!)
         .ToDictionary(op => op.Value);
 
-    /// <summary>
-    /// Returns all types transitively referenced by <paramref name="type"/>'s methods.
-    /// Only follows into types from the same assembly (user code).
-    /// </summary>
-    public static HashSet<Type> GetDependencies(Type type)
+    private readonly Dictionary<Type, HashSet<Type>> _edges = new();
+    private readonly HashSet<Type> _invalidated = new();
+    private readonly Lock _lock = new();
+
+    public bool IsDependentTo(Type a, IEnumerable<Type> types)
     {
-        var result = new HashSet<Type>();
-        Collect(type, type.Assembly, result);
-        return result;
+        var targets = new HashSet<Type>(types);
+
+        if (targets.Contains(a))
+            return true;
+
+        lock (_lock)
+        {
+            var visited = new HashSet<Type>();
+            var queue = new Queue<Type>();
+            queue.Enqueue(a);
+            visited.Add(a);
+
+            while (queue.Count > 0)
+            {
+                var current = queue.Dequeue();
+
+                // Lazily scan types not yet in the graph or marked invalidated.
+                if (_invalidated.Remove(current) || !_edges.ContainsKey(current))
+                {
+                    _edges[current] = ScanDirectDependencies(current);
+                }
+
+                var deps = _edges[current];
+
+                foreach (var dep in deps)
+                {
+                    if (targets.Contains(dep))
+                        return true;
+
+                    if (IsUserType(dep) && visited.Add(dep))
+                        queue.Enqueue(dep);
+                }
+            }
+
+            return false;
+        }
     }
 
-    private static void Collect(Type type, Assembly boundary, HashSet<Type> visited)
+    public void Invalidate(Type[] types)
     {
-        if (!visited.Add(type))
-            return;
+        lock (_lock)
+        {
+            foreach (var type in types)
+            {
+                _invalidated.Add(type);
+            }
+        }
+    }
+
+    private static bool IsUserAssembly(Assembly asm)
+    {
+        var name = asm.GetName().Name;
+        if (name is null)
+            return false;
+
+        return !name.StartsWith("System.", StringComparison.Ordinal)
+            && !name.StartsWith("Microsoft.", StringComparison.Ordinal)
+            && !name.Equals("System", StringComparison.Ordinal)
+            && !name.Equals("netstandard", StringComparison.Ordinal)
+            && !name.Equals("mscorlib", StringComparison.Ordinal);
+    }
+
+    private static bool IsUserType(Type type) => IsUserAssembly(type.Assembly);
+
+    private static HashSet<Type> ScanDirectDependencies(Type type)
+    {
+        var ctorTypes = new HashSet<Type>();
+        var otherTypes = new HashSet<Type>();
 
         var methods = type.GetMethods(
             BindingFlags.Instance | BindingFlags.Static |
@@ -45,9 +102,6 @@ internal static class TypeDependencyScanner
         foreach (var method in methods.Cast<MethodBase>().Concat(ctors))
         {
             MethodBody? body;
-            // GetMethodBody() throws for methods without managed IL (P/Invoke, extern,
-            // runtime-generated methods like delegate Invoke, array accessors, etc.).
-            // These have no IL to scan, so we skip them.
             try { body = method.GetMethodBody(); }
             catch { continue; }
 
@@ -58,19 +112,29 @@ internal static class TypeDependencyScanner
             if (il is null)
                 continue;
 
-            foreach (var dep in ScanIL(il, method.Module))
-            {
-                if (dep.Assembly == boundary)
-                    Collect(dep, boundary, visited);
-                else
-                    visited.Add(dep);
-            }
+            ScanIL(il, method.Module, ctorTypes, otherTypes);
         }
+
+        ctorTypes.Remove(type);
+        otherTypes.Remove(type);
+
+        // Exclude IComponent types that are only referenced via their constructor.
+        // Child components manage their own hot reload, so the parent doesn't need
+        // to track them as dependencies.
+        var result = new HashSet<Type>(otherTypes);
+        foreach (var t in ctorTypes)
+        {
+            if (!otherTypes.Contains(t) && typeof(IComponent).IsAssignableFrom(t))
+                continue;
+
+            result.Add(t);
+        }
+
+        return result;
     }
 
-    private static List<Type> ScanIL(byte[] il, Module module)
+    private static void ScanIL(byte[] il, Module module, HashSet<Type> ctorTypes, HashSet<Type> otherTypes)
     {
-        var types = new List<Type>();
         int pos = 0;
 
         while (pos < il.Length)
@@ -96,7 +160,7 @@ internal static class TypeDependencyScanner
             {
                 case OperandType.InlineMethod:
                     int methodToken = ReadI32(il, ref pos);
-                    ResolveMethodTypes(module, methodToken, types);
+                    ResolveMethodTypes(module, methodToken, ctorTypes, otherTypes);
                     break;
 
                 case OperandType.InlineField:
@@ -104,8 +168,8 @@ internal static class TypeDependencyScanner
                     if (TryResolve(() => module.ResolveField(fieldToken), out var field))
                     {
                         if (field!.DeclaringType is { } ft)
-                            types.Add(ft);
-                        types.Add(field.FieldType);
+                            otherTypes.Add(ft);
+                        otherTypes.Add(field.FieldType);
                     }
                     break;
 
@@ -113,9 +177,9 @@ internal static class TypeDependencyScanner
                 case OperandType.InlineTok:
                     int typeToken = ReadI32(il, ref pos);
                     if (TryResolve(() => module.ResolveType(typeToken), out var resolved) && resolved is not null)
-                        types.Add(resolved);
+                        otherTypes.Add(resolved);
                     else if (TryResolve(() => module.ResolveMethod(typeToken)?.DeclaringType, out var dt) && dt is not null)
-                        types.Add(dt);
+                        otherTypes.Add(dt);
                     break;
 
                 case OperandType.InlineI:
@@ -150,28 +214,29 @@ internal static class TypeDependencyScanner
                     break;
             }
         }
-
-        return types;
     }
 
-    private static void ResolveMethodTypes(Module module, int token, List<Type> types)
+    private static void ResolveMethodTypes(Module module, int token, HashSet<Type> ctorTypes, HashSet<Type> otherTypes)
     {
         if (!TryResolve(() => module.ResolveMethod(token), out var method) || method is null)
             return;
 
+        var isCtor = method is ConstructorInfo;
+        var target = isCtor ? ctorTypes : otherTypes;
+
         if (method.DeclaringType is { } dt)
-            types.Add(dt);
+            target.Add(dt);
 
         if (method is MethodInfo mi && mi.IsGenericMethod)
         {
             foreach (var ga in mi.GetGenericArguments())
-                types.Add(ga);
+                otherTypes.Add(ga);
         }
 
         if (method.DeclaringType is { IsGenericType: true })
         {
             foreach (var ga in method.DeclaringType.GetGenericArguments())
-                types.Add(ga);
+                otherTypes.Add(ga);
         }
     }
 

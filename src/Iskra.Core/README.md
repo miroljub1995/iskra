@@ -5,7 +5,7 @@ Iskra.Core is the experimental component layer for Iskra. It builds on Iskra.Std
 ## Before Initial Release
 
 ### Bug fixes
-- [ ] Fix hot reload (`HotReloadManager`) — currently has bugs. It should know if component needs to remount, or whole app to remount. Maybe to build some type deps graph using source generators or reflection.
+- [ ] Fix hot reload (`HotReloadManager`) — currently has bugs. It should know if component needs to remount, or whole app to remount. Dotnet sdk do not support hook before apply changes, which would be ideal for unmounting the components.
 
 ### Core features
 - [ ] **Slots / content projection** — passing child components into named or default slots (Vue: `<slot>`)

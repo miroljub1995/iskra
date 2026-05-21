@@ -1,4 +1,3 @@
-using System.Diagnostics.CodeAnalysis;
 using Iskra.Core.DomComponents;
 using Iskra.Core.Features;
 using Iskra.Core.HotReload;
@@ -44,7 +43,6 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
         // Each component gets its own layer that falls back to the parent's features.
         // Writes inside Setup land only in this layer, so siblings are isolated.
         var ownFeatures = new FeatureCollection(parentFeatures);
-        var hotReloadManager = parentFeatures.Get<IHotReloadManager>();
 
         if (_effectScope is not null)
         {
@@ -75,6 +73,8 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
                 }
 
                 composedComponent.Mount(slot);
+
+                parentFeatures.SetupComponentHotReload(this, slot);
             }
             finally
             {
@@ -89,8 +89,6 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
                     {
                         callback(OnUnmounted);
                     }
-
-                    SetupHotReload(hotReloadManager, slot, parentFeatures, onCleanup);
 
                     onCleanup(() =>
                     {
@@ -119,43 +117,6 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
         _effectScope = null;
         _onMountedCallbacks.Clear();
         _onUnmountedActions.Clear();
-    }
-
-    [UnconditionalSuppressMessage("Trimming", "IL2026", Justification = "Only used during hot reload with the interpreter; no trimming occurs.")]
-    private void SetupHotReload(
-        IHotReloadManager? hotReloadManager,
-        IRenderSlot slot,
-        IFeatureCollection parentFeatures,
-        Action<Action> onCleanup)
-    {
-        if (!HotReloadManager.IsSupported || hotReloadManager is null)
-        {
-            return;
-        }
-
-        var deps = TypeDependencyScanner.GetDependencies(GetType());
-
-        void OnDeltaApplied(Type[]? types)
-        {
-            if (types is null || types.Any(deps.Contains))
-            {
-                Unmount();
-
-                var prev = AppFeatures.Current;
-                AppFeatures.Current = parentFeatures;
-                try
-                {
-                    Mount(slot);
-                }
-                finally
-                {
-                    AppFeatures.Current = prev;
-                }
-            }
-        }
-
-        hotReloadManager.OnDeltaApplied += OnDeltaApplied;
-        onCleanup(() => hotReloadManager.OnDeltaApplied -= OnDeltaApplied);
     }
 
     protected abstract IComponent[] Setup(TProps props, TEvents? events, out TExpose exposed);
