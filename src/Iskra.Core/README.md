@@ -9,7 +9,6 @@ Iskra.Core is the experimental component layer for Iskra. It builds on Iskra.Std
 
 ### Core features
 - [ ] **Slots / content projection** — passing child components into named or default slots (Vue: `<slot>`)
-- [ ] **Two-way binding helpers** — `v-model` equivalent; currently requires manually wiring a `Signal` through both a prop and an event
 - [ ] **Assets** — define a way to use assets like avif, webp, ...
 
 ### Router
