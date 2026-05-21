@@ -15,7 +15,7 @@ public class ComposedComponent(IComponent[] components) : IComponent
 
             for (int i = 1; i < components.Length; i++)
             {
-                _slots[i] = _slots[i - 1].ClaimOrCreateSlotAfter();
+                _slots[i] = _slots[i - 1].CreateSlotAfter();
             }
 
             for (int i = 0; i < components.Length; i++)

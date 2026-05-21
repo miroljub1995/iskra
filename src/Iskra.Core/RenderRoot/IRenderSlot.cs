@@ -2,7 +2,7 @@ namespace Iskra.Core.RenderRoot;
 
 public interface IRenderSlot : IDisposable
 {
-    IRenderSlot ClaimOrCreateSlotAfter();
+    IRenderSlot CreateSlotAfter();
 
     /// <summary>
     /// Moves the contiguous range of slots [this .. <paramref name="rangeEnd"/>] (inclusive)

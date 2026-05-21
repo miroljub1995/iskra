@@ -23,7 +23,7 @@ public class DomComment : IComponent
                 throw new PlatformNotSupportedException();
             }
 
-            var existingNode = domRenderSlot.GetNode();
+            var existingNode = domRenderSlot.TryHydrateSlot();
             Comment node;
             if (existingNode is not null)
             {

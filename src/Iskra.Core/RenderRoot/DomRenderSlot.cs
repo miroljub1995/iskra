@@ -10,13 +10,10 @@ public class DomRenderSlot : IDomRenderSlot
     private DomRenderRoot _root;
     internal readonly LinkedListNode<DomRenderSlot?> _listNode;
     private Node? _node;
-    internal bool _claimed;
 
-    internal DomRenderSlot(LinkedListNode<DomRenderSlot?> listNode, DomRenderRoot root,
-        Node? existingNode = null)
+    internal DomRenderSlot(LinkedListNode<DomRenderSlot?> listNode, DomRenderRoot root)
     {
         _root = root;
-        _node = existingNode;
         _listNode = listNode;
     }
 
@@ -25,12 +22,22 @@ public class DomRenderSlot : IDomRenderSlot
         _listNode.List?.Remove(_listNode);
     }
 
-    public IRenderSlot ClaimOrCreateSlotAfter()
+    public IRenderSlot CreateSlotAfter()
     {
-        return _root.ClaimOrCreateSlotAfter(_listNode);
+        return _root.CreateSlotAfter(_listNode);
     }
 
-    public Node? GetNode() => _node;
+    public bool IsHydrating => _root.IsHydrating;
+
+    public Node? TryHydrateSlot()
+    {
+        var node = _root.TryDequeueHydrationNode();
+        if (node is not null)
+        {
+            _node = node;
+        }
+        return node;
+    }
 
     public void Populate(Node node)
     {

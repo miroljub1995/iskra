@@ -40,7 +40,7 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
             // closeSlot is permanently the last slot — items are inserted before it.
             // Pre-allocating it here (before any items) ensures ClaimOrCreateSlotAfter
             // inserts new item slots between the open comment and this anchor.
-            var closeSlot = slot.ClaimOrCreateSlotAfter();
+            var closeSlot = slot.CreateSlotAfter();
 
             openComment.Mount(slot);
             closeComment.Mount(closeSlot);
@@ -118,8 +118,8 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
                         var elementSignal = new Signal<TElement>(element);
                         // Pre-allocate the end anchor before mounting so that ComposedComponent's
                         // internally created slots are inserted between startSlot and endSlot.
-                        var startSlot = prevSlot.ClaimOrCreateSlotAfter();
-                        var endSlot = startSlot.ClaimOrCreateSlotAfter();
+                        var startSlot = prevSlot.CreateSlotAfter();
+                        var endSlot = startSlot.CreateSlotAfter();
                         itemScope.Run(() =>
                         {
                             // Re-establish parent features ambient before mounting children.

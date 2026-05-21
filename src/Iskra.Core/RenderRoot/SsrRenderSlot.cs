@@ -21,7 +21,7 @@ public sealed class SsrRenderSlot : ISsrRenderSlot
         _listNode.List?.Remove(_listNode);
     }
 
-    public IRenderSlot ClaimOrCreateSlotAfter()
+    public IRenderSlot CreateSlotAfter()
     {
         return _root.ClaimOrCreateSlotAfter(_listNode);
     }

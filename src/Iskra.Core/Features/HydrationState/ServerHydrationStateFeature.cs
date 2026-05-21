@@ -15,7 +15,7 @@ public sealed class ServerHydrationStateFeature : IServerHydrationStateFeature
 
     public JsonObject Dehydrate()
     {
-        var obj = new JsonObject();
+        var obj = new JsonObject { ["hydrate"] = true };
         _callbacks?.Invoke(obj);
         return obj;
     }

@@ -7,10 +7,16 @@ namespace Iskra.Core.RenderRoot;
 public interface IDomRenderSlot : IRenderSlot
 {
     /// <summary>
-    /// The existing DOM node at this slot's cursor position in the server-rendered
+    /// Whether the render root is currently in hydration mode.
+    /// </summary>
+    bool IsHydrating { get; }
+
+    /// <summary>
+    /// Attempts to dequeue the next pre-existing DOM node from the hydration queue
+    /// and associate it with this slot. Returns the node when hydrating server-rendered
     /// HTML, or <c>null</c> when operating in normal (non-hydration) mode.
     /// </summary>
-    Node? GetNode();
+    Node? TryHydrateSlot();
     void Populate(Node node);
     void Empty();
 }

@@ -16,7 +16,7 @@ public sealed class SsrRenderRoot : IRenderRoot
         _slots = parent.Children;
     }
 
-    public IRenderSlot ClaimOrCreateFirstSlot()
+    public IRenderSlot CreateFirstSlot()
     {
         var listNode = _slots.AddLast((SsrRenderSlot?)null);
         var slot = new SsrRenderSlot(listNode, this);

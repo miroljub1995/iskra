@@ -23,7 +23,7 @@ public class DomText : IComponent
                 throw new PlatformNotSupportedException();
             }
 
-            var node = domRenderSlot.GetNode();
+            var node = domRenderSlot.TryHydrateSlot();
             if (node is not null)
             {
                 if (node.NodeType != Node.TEXT_NODE)

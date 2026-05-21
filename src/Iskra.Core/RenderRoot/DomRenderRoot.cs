@@ -8,61 +8,84 @@ public class DomRenderRoot : IRenderRoot
 {
     private readonly Node _node;
     private readonly LinkedList<DomRenderSlot?> _slots = [];
+    private readonly Queue<Node> _hydrationQueue = new();
     internal Node Node => _node;
+    private bool _isHydrating;
+    internal bool IsHydrating => _isHydrating;
 
     public DomRenderRoot(Node node)
     {
         _node = node;
-        var childNodes = node.ChildNodes;
-        for (uint i = 0; i < childNodes.Length; i++)
-        {
-            var listNode = _slots.AddLast((DomRenderSlot?)null);
-            listNode.Value = new DomRenderSlot(listNode, this, childNodes.Item(i));
-        }
     }
 
-    public IRenderSlot ClaimOrCreateFirstSlot()
+    public IRenderSlot CreateFirstSlot()
     {
-        var first = _slots.First?.Value;
-        if (first is not null)
+        if (_slots.First is not null)
         {
-            if (first._claimed)
-            {
-                throw new System.Exception("First slot is already claimed.");
-            }
-
-            first._claimed = true;
-            return first;
+            throw new System.Exception("First slot already exists.");
         }
 
-        var listNode = _slots.AddLast((DomRenderSlot?)null);
-        listNode.Value = new DomRenderSlot(listNode, this)
-        {
-            _claimed = true
-        };
-
+        var listNode = _slots.AddFirst((DomRenderSlot?)null);
+        listNode.Value = new DomRenderSlot(listNode, this);
         return listNode.Value;
     }
 
-    internal IRenderSlot ClaimOrCreateSlotAfter(LinkedListNode<DomRenderSlot?> listNode)
+    internal IRenderSlot CreateSlotAfter(LinkedListNode<DomRenderSlot?> listNode)
     {
         if (listNode.List is null)
         {
             throw new System.Exception("Slot must be attached.");
         }
 
-        if (listNode.Next?.Value is { _claimed: false } nextSlot)
+        var newListNode = _slots.AddAfter(listNode, (DomRenderSlot?)null);
+        newListNode.Value = new DomRenderSlot(newListNode, this);
+        return newListNode.Value;
+    }
+
+    /// <summary>
+    /// Dequeues the next pre-existing DOM node from the hydration queue.
+    /// Returns <c>null</c> when no more server-rendered nodes remain (i.e. pure
+    /// client-side rendering). When hydrating, an empty queue indicates a mismatch
+    /// between SSR output and the component tree.
+    /// </summary>
+    internal Node? TryDequeueHydrationNode()
+    {
+        if (!_isHydrating)
         {
-            nextSlot._claimed = true;
-            return nextSlot;
+            return null;
         }
 
-        var newListNode = _slots.AddAfter(listNode, (DomRenderSlot?)null);
-        newListNode.Value = new DomRenderSlot(newListNode, this)
+        if (_hydrationQueue.TryDequeue(out var node))
         {
-            _claimed = true
-        };
+            return node;
+        }
 
-        return newListNode.Value;
+        throw new HydrationMismatchException(
+            "Hydration mismatch: component expected a server-rendered DOM node but the hydration queue is empty.");
+    }
+
+    public void BeginHydration()
+    {
+        _isHydrating = true;
+        var childNodes = _node.ChildNodes;
+        for (uint i = 0; i < childNodes.Length; i++)
+        {
+            var childNode = childNodes.Item(i);
+            if (childNode is not null)
+            {
+                _hydrationQueue.Enqueue(childNode);
+            }
+        }
+    }
+
+    public void EndHydration()
+    {
+        _isHydrating = false;
+        if (_hydrationQueue.Count > 0)
+        {
+            _hydrationQueue.Clear();
+            throw new HydrationMismatchException(
+                "Hydration mismatch: server rendered more DOM nodes than the component tree consumed.");
+        }
     }
 }

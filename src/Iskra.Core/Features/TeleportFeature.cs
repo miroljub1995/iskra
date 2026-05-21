@@ -11,7 +11,7 @@ namespace Iskra.Core.Features;
 /// <see cref="OnSlotSet"/>).
 ///
 /// When multiple <c>Teleport</c> components share the same UUID, each
-/// receives its own slot allocated via <see cref="IRenderSlot.ClaimOrCreateSlotAfter"/>
+/// receives its own slot allocated via <see cref="IRenderSlot.CreateSlotAfter"/>
 /// so their children are rendered consecutively inside the
 /// <c>TeleportSlot</c> region.
 /// </summary>
@@ -34,7 +34,7 @@ public sealed class TeleportFeature : ITeleportFeature
         foreach (var callback in callbacks)
         {
             var current = _currentSlot[uuid];
-            _currentSlot[uuid] = current.ClaimOrCreateSlotAfter();
+            _currentSlot[uuid] = current.CreateSlotAfter();
             callback(current);
         }
     }
@@ -43,7 +43,7 @@ public sealed class TeleportFeature : ITeleportFeature
     {
         if (_currentSlot.TryGetValue(uuid, out var slot))
         {
-            _currentSlot[uuid] = slot.ClaimOrCreateSlotAfter();
+            _currentSlot[uuid] = slot.CreateSlotAfter();
             action(slot);
             return;
         }

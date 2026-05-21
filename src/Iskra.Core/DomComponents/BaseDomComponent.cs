@@ -36,7 +36,7 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
             }
 
             TElement element;
-            var existingNode = domRenderSlot.GetNode();
+            var existingNode = domRenderSlot.TryHydrateSlot();
             if (existingNode is not null)
             {
                 if (!string.Equals(existingNode.NodeName, tagName, StringComparison.OrdinalIgnoreCase))
@@ -64,13 +64,20 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
             if (!IsVoid && children?.Length > 0)
             {
                 var childrenRoot = new DomRenderRoot(element);
-                var prevSlot = childrenRoot.ClaimOrCreateFirstSlot();
+                if (domRenderSlot.IsHydrating)
+                {
+                    childrenRoot.BeginHydration();
+                }
+
+                var prevSlot = childrenRoot.CreateFirstSlot();
                 children[0].Mount(prevSlot);
                 for (var i = 1; i < children.Length; i++)
                 {
-                    prevSlot = prevSlot.ClaimOrCreateSlotAfter();
+                    prevSlot = prevSlot.CreateSlotAfter();
                     children[i].Mount(prevSlot);
                 }
+
+                childrenRoot.EndHydration();
             }
 
             if (existingNode is null)
@@ -95,7 +102,7 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
                 var childrenRoot = new SsrRenderRoot(node);
                 foreach (var child in children)
                 {
-                    child.Mount(childrenRoot.ClaimOrCreateFirstSlot());
+                    child.Mount(childrenRoot.CreateFirstSlot());
                 }
             }
 

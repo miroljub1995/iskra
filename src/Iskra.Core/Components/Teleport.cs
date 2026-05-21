@@ -92,8 +92,8 @@ public sealed class Teleport : IComponent
             // between childrenStart and childrenEnd (because childrenEnd is
             // already claimed, every ClaimOrCreateSlotAfter from childrenStart
             // creates a new slot via AddAfter, which lands before childrenEnd).
-            var childrenStart = slot.ClaimOrCreateSlotAfter();
-            var childrenEnd = childrenStart.ClaimOrCreateSlotAfter();
+            var childrenStart = slot.CreateSlotAfter();
+            var childrenEnd = childrenStart.CreateSlotAfter();
 
             // Non-signal tracking state for the main Effect.
             var childrenMounted = false;
