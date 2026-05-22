@@ -23,13 +23,13 @@ public class AppFeaturesTests
         public IComponent[] Children { get; init; } = [];
     }
 
-    private sealed class Spy : BaseComponent<SpyProps, BaseEmits, object?>
+    private sealed class Spy : BaseComponent<SpyProps, NoEvents, NoSlots, NoExpose>
     {
-        protected override IComponent[] Setup(SpyProps props, BaseEmits? events, out object? exposed)
+        protected override IComponent[] Setup(out NoExpose exposed)
         {
-            props.Spy(AppFeatures.Features);
-            exposed = null;
-            return props.Children;
+            Props.Spy(AppFeatures.Features);
+            exposed = default;
+            return Props.Children;
         }
     }
 
@@ -423,7 +423,7 @@ public class AppFeaturesTests
                                     {
                                         Children =
                                         [
-                                            new DomTextFromFeature { Props = null },
+                                            new DomTextFromFeature { Props = new NoProps() },
                                         ],
                                     },
                                 ],
@@ -443,12 +443,12 @@ public class AppFeaturesTests
     /// Tiny helper component that resolves <see cref="Theme"/> from
     /// <see cref="AppFeatures.Features"/> during Setup and renders its value as text.
     /// </summary>
-    private sealed class DomTextFromFeature : BaseComponent<object?, BaseEmits, object?>
+    private sealed class DomTextFromFeature : BaseComponent<NoProps, NoEvents, NoSlots, NoExpose>
     {
-        protected override IComponent[] Setup(object? props, BaseEmits? events, out object? exposed)
+        protected override IComponent[] Setup(out NoExpose exposed)
         {
             var theme = AppFeatures.Features.Get<Theme>()!;
-            exposed = null;
+            exposed = default;
             return
             [
                 new DomText { Text = new Signal<string>(theme.Value) },

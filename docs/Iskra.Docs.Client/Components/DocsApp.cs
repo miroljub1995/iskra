@@ -6,11 +6,11 @@ namespace Iskra.Docs.Client.Components;
 
 public class DocsAppProps { }
 
-public class DocsApp : BaseComponent<DocsAppProps, BaseEmits, object>
+public class DocsApp : BaseComponent<DocsAppProps, NoEvents, NoSlots, NoExpose>
 {
-    protected override IComponent[] Setup(DocsAppProps props, BaseEmits? events, out object exposed)
+    protected override IComponent[] Setup(out NoExpose exposed)
     {
-        exposed = new object();
+        exposed = default;
 
         return
         [

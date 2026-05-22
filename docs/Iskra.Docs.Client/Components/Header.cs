@@ -6,11 +6,11 @@ namespace Iskra.Docs.Client.Components;
 
 public class HeaderProps { }
 
-public class Header : BaseComponent<HeaderProps, BaseEmits, object>
+public class Header : BaseComponent<HeaderProps, NoEvents, NoSlots, NoExpose>
 {
-    protected override IComponent[] Setup(HeaderProps props, BaseEmits? events, out object exposed)
+    protected override IComponent[] Setup(out NoExpose exposed)
     {
-        exposed = new object();
+        exposed = default;
 
         return
         [

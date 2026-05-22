@@ -18,13 +18,13 @@ public class ServerPrefetchTests
     /// Generic component: invokes <see cref="HarnessProps.Setup"/> with the
     /// ambient features during Setup and renders any child components.
     /// </summary>
-    private sealed class Harness : BaseComponent<HarnessProps, BaseEmits, object?>
+    private sealed class Harness : BaseComponent<HarnessProps, NoEvents, NoSlots, NoExpose>
     {
-        protected override IComponent[] Setup(HarnessProps props, BaseEmits? events, out object? exposed)
+        protected override IComponent[] Setup(out NoExpose exposed)
         {
-            props.Setup(AppFeatures.Features);
-            exposed = null;
-            return props.Children;
+            Props.Setup(AppFeatures.Features);
+            exposed = default;
+            return Props.Children;
         }
     }
 
@@ -32,12 +32,12 @@ public class ServerPrefetchTests
     /// Component that reads a string signal and renders it as text. Used to
     /// confirm prefetched values made it into the rendered output.
     /// </summary>
-    private sealed class TextFromSignal : BaseComponent<ISignal<string>, BaseEmits, object?>
+    private sealed class TextFromSignal : BaseComponent<ISignal<string>, BaseEmits, NoSlots, NoExpose>
     {
-        protected override IComponent[] Setup(ISignal<string> props, BaseEmits? events, out object? exposed)
+        protected override IComponent[] Setup(out NoExpose exposed)
         {
-            exposed = null;
-            return [new DomText { Text = props }];
+            exposed = default;
+            return [new DomText { Text = Props }];
         }
     }
 

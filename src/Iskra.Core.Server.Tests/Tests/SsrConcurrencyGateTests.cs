@@ -12,12 +12,12 @@ public class SsrConcurrencyGateTests
         public required Action<IFeatureCollection> Setup { get; init; }
     }
 
-    private sealed class Harness : BaseComponent<HarnessProps, BaseEmits, object?>
+    private sealed class Harness : BaseComponent<HarnessProps, NoEvents, NoSlots, NoExpose>
     {
-        protected override IComponent[] Setup(HarnessProps props, BaseEmits? events, out object? exposed)
+        protected override IComponent[] Setup(out NoExpose exposed)
         {
-            props.Setup(AppFeatures.Features);
-            exposed = null;
+            Props.Setup(AppFeatures.Features);
+            exposed = default;
             return [];
         }
     }

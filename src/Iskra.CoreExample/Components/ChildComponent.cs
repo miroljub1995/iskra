@@ -22,9 +22,9 @@ public record ChildComponentExpose(
     IReadOnlySignal<HTMLDivElement?> DivElement
 );
 
-public class ChildComponent : BaseComponent<ChildComponentProps, ChildComponentEvents, ChildComponentExpose>
+public class ChildComponent : BaseComponent<ChildComponentProps, ChildComponentEvents, NoSlots, ChildComponentExpose>
 {
-    protected override IComponent[] Setup(ChildComponentProps props, ChildComponentEvents? events,
+    protected override IComponent[] Setup(
         out ChildComponentExpose exposed)
     {
         var divRef = new Signal<HTMLDivElement?>(null);
@@ -45,7 +45,7 @@ public class ChildComponent : BaseComponent<ChildComponentProps, ChildComponentE
             onUnmounted(timer.Dispose);
         });
 
-        var fullnameWithIndex = new Computed<string>(() => $"{props.FirstName.Value} {props.LastName.Value} ({index.Value})");
+        var fullnameWithIndex = new Computed<string>(() => $"{Props.FirstName.Value} {Props.LastName.Value} ({index.Value})");
 
         exposed = new ChildComponentExpose(divRef);
 
@@ -69,7 +69,7 @@ public class ChildComponent : BaseComponent<ChildComponentProps, ChildComponentE
             new Br(),
             new Input
             {
-                Props = new InputProps { Value = props.FirstName },
+                Props = new InputProps { Value = Props.FirstName },
                 Events = new InputEvents
                 {
                     OnInput = ev =>
@@ -77,7 +77,7 @@ public class ChildComponent : BaseComponent<ChildComponentProps, ChildComponentE
                         if (!OperatingSystem.IsBrowser()) return;
                         if (ev.Target is HTMLInputElement input)
                         {
-                            events?.UpdateFirstName(input.Value);
+                            Events?.UpdateFirstName(input.Value);
                         }
                     },
                 },
@@ -91,7 +91,7 @@ public class ChildComponent : BaseComponent<ChildComponentProps, ChildComponentE
             new Br(),
             new Input
             {
-                Props = new InputProps { Value = props.LastName },
+                Props = new InputProps { Value = Props.LastName },
                 Events = new InputEvents
                 {
                     OnInput = ev =>
@@ -99,7 +99,7 @@ public class ChildComponent : BaseComponent<ChildComponentProps, ChildComponentE
                         if (!OperatingSystem.IsBrowser()) return;
                         if (ev.Target is HTMLInputElement input)
                         {
-                            events?.UpdateLastName(input.Value);
+                            Events?.UpdateLastName(input.Value);
                         }
                     },
                 },

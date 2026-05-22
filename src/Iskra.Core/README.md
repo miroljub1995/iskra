@@ -8,7 +8,6 @@ Iskra.Core is the experimental component layer for Iskra. It builds on Iskra.Std
 - [ ] Fix hot reload (`HotReloadManager`) — currently has bugs. It should know if component needs to remount, or whole app to remount. Dotnet sdk do not support hook before apply changes, which would be ideal for unmounting the components.
 
 ### Core features
-- [ ] **Slots / content projection** — passing child components into named or default slots (Vue: `<slot>`)
 - [ ] **Assets** — define a way to use assets like avif, webp, ...
 
 ### Router
@@ -37,9 +36,9 @@ public sealed class CounterProps
     public required IReadOnlySignal<int> Count { get; init; }
 }
 
-public sealed class Counter : BaseComponent<CounterProps, BaseEmits, object>
+public sealed class Counter : BaseComponent<CounterProps, BaseEmits, NoSlots, object>
 {
-    protected override IComponent[] Setup(CounterProps props, BaseEmits? events, out object exposed)
+    protected override IComponent[] Setup(out object exposed)
     {
         exposed = new object();
 
@@ -51,7 +50,7 @@ public sealed class Counter : BaseComponent<CounterProps, BaseEmits, object>
                 [
                     new DomText
                     {
-                        Text = new Computed<string>(() => $"Count: {props.Count.Value}")
+                        Text = new Computed<string>(() => $"Count: {Props.Count.Value}")
                     }
                 ]
             }
@@ -102,6 +101,51 @@ Use `UseRootRenderer` instead of `UseRootElement` when you need to provide a cus
 ## Server Rendering
 
 The [RenderRoot](RenderRoot/) folder also contains SSR types such as `SsrRenderRoot`, `SsrRenderSlot`, `SsrElementNode`, and `SsrTextNode`. DOM component props register separate browser and server effects so the same component tree can target browser DOM or SSR output.
+
+## Slots
+
+Components can accept slot content from their parent via the `Slots` property. Use `BaseComponent<TProps, TEvents, TSlots, TExpose>` (4 type parameters) instead of the 3-parameter variant. Define a POCO class for `TSlots` with `Func<IComponent[]>` properties — one per named slot.
+
+```csharp
+using Iskra.Core.Components;
+using Iskra.Core.DomComponents;
+using Iskra.Signals;
+
+public sealed class CardSlots
+{
+    public required Func<IComponent[]> Header { get; init; }
+    public Func<IComponent[]>? Footer { get; init; }
+}
+
+public sealed class Card : BaseComponent<object, BaseEmits, CardSlots, object>
+{
+    protected override IComponent[] Setup(out object exposed)
+    {
+        exposed = new();
+        return
+        [
+            new Header { Children = Slots?.Header() ?? [] },
+            new Footer { Children = Slots?.Footer?.Invoke() ?? [] },
+        ];
+    }
+}
+```
+
+The parent provides slot content as callbacks:
+
+```csharp
+new Card
+{
+    Props = new(),
+    Slots = new CardSlots
+    {
+        Header = () => [new DomText { Text = new Signal<string>("Title") }],
+        Footer = () => [new DomText { Text = new Signal<string>("Footer") }],
+    }
+}
+```
+
+Slots are lazy — the component decides when and whether to call each callback. For scoped slots (passing data back to the caller), change the delegate signature in your slots class, e.g. `Func<IReadOnlySignal<TItem>, IComponent[]>`.
 
 ## Examples
 

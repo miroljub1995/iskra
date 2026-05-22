@@ -16,13 +16,13 @@ public class HydrationTests
     /// </summary>
     private class WrapperProps;
 
-    private class Wrapper : BaseComponent<WrapperProps, BaseEmits, object>
+    private class Wrapper : BaseComponent<WrapperProps, NoEvents, NoSlots, NoExpose>
     {
         public required Func<IComponent[]> Body { get; init; }
 
-        protected override IComponent[] Setup(WrapperProps props, BaseEmits? events, out object exposed)
+        protected override IComponent[] Setup(out NoExpose exposed)
         {
-            exposed = new object();
+            exposed = default;
             return Body();
         }
     }

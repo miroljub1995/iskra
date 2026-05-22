@@ -11,9 +11,9 @@ public class ParentComponentExpose
 {
 }
 
-public class ParentComponent : BaseComponent<ParentComponentProps, BaseEmits, ParentComponentExpose>
+public class ParentComponent : BaseComponent<ParentComponentProps, NoEvents, NoSlots, ParentComponentExpose>
 {
-    protected override IComponent[] Setup(ParentComponentProps props, BaseEmits? events, out ParentComponentExpose exposed)
+    protected override IComponent[] Setup(out ParentComponentExpose exposed)
     {
         var firstName = new Signal<string>("Petar");
         var lastName = new Signal<string>("Petrov");

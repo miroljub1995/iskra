@@ -16,25 +16,23 @@ public sealed class LifecycleProbeExpose;
 /// Setup, Mounted and Unmounted lifecycle phases run. Useful for
 /// asserting lifecycle behaviour in unit tests.
 /// </summary>
-public class LifecycleProbe : BaseComponent<LifecycleProbeProps, BaseEmits, LifecycleProbeExpose>
+public class LifecycleProbe : BaseComponent<LifecycleProbeProps, NoEvents, NoSlots, LifecycleProbeExpose>
 {
     protected override IComponent[] Setup(
-        LifecycleProbeProps props,
-        BaseEmits? events,
         out LifecycleProbeExpose exposed)
     {
         exposed = new LifecycleProbeExpose();
 
-        props.OnSetup?.Invoke();
+        Props.OnSetup?.Invoke();
 
         OnMounted(_ =>
         {
-            props.OnMounted?.Invoke();
+            Props.OnMounted?.Invoke();
         });
 
         OnUnmounted(() =>
         {
-            props.OnUnmounted?.Invoke();
+            Props.OnUnmounted?.Invoke();
         });
 
         return [];

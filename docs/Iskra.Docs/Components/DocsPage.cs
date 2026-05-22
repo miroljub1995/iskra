@@ -9,11 +9,11 @@ namespace Iskra.Docs.Components;
 
 public class DocsPageProps { }
 
-public class DocsPage : BaseComponent<DocsPageProps, BaseEmits, object>
+public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose>
 {
-    protected override IComponent[] Setup(DocsPageProps props, BaseEmits? events, out object exposed)
+    protected override IComponent[] Setup(out NoExpose exposed)
     {
-        exposed = new object();
+        exposed = default;
 
         return
         [

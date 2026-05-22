@@ -6,8 +6,11 @@ using Iskra.Signals;
 
 namespace Iskra.Core.Components;
 
-public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
+public abstract class BaseComponent<TProps, TEvents, TSlots, TExpose> : IComponent
+    where TProps : notnull
     where TEvents : BaseEmits
+    where TSlots : notnull
+    where TExpose : notnull
 {
     private EffectScope? _effectScope;
     private readonly List<Action<Action<Action>>> _onMountedCallbacks = [];
@@ -15,6 +18,7 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
 
     public required TProps Props { get; init; }
     public TEvents? Events { get; init; }
+    public TSlots? Slots { get; init; }
     public ISignal<TExpose?>? Ref { get; init; }
 
     protected void OnMounted(Action<Action<Action>> callback)
@@ -58,7 +62,7 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
             AppFeatures.Current = ownFeatures;
             try
             {
-                var setupResult = Setup(Props, Events, out TExpose exposed);
+                var setupResult = Setup(out TExpose exposed);
 
                 var openComment = new DomComment { Data = new Signal<string>("[") };
                 var closeComment = new DomComment { Data = new Signal<string>("]") };
@@ -119,5 +123,5 @@ public abstract class BaseComponent<TProps, TEvents, TExpose> : IComponent
         _onUnmountedActions.Clear();
     }
 
-    protected abstract IComponent[] Setup(TProps props, TEvents? events, out TExpose exposed);
+    protected abstract IComponent[] Setup(out TExpose exposed);
 }
