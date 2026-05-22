@@ -15,7 +15,7 @@ Iskra.Core is the experimental component layer for Iskra. It builds on Iskra.Std
 
 ## What It Provides
 
-- A component contract through `IComponent` and `BaseComponent<TProps, TEvents, TExpose>`.
+- A component contract through `IComponent` and `BaseComponent<TProps, TEvents, TSlots, TExpose>`.
 - Reactive child rendering with `If` and `ForEach`.
 - Typed DOM components under [DomComponents](DomComponents/) such as `Div`, `Button`, `Input`, `Canvas`, and standard HTML elements.
 - Browser rendering through `DomRenderRoot` and server rendering through `SsrRenderRoot`.
@@ -36,11 +36,11 @@ public sealed class CounterProps
     public required IReadOnlySignal<int> Count { get; init; }
 }
 
-public sealed class Counter : BaseComponent<CounterProps, BaseEmits, NoSlots, object>
+public sealed class Counter : BaseComponent<CounterProps, BaseEmits, NoSlots, NoExpose>
 {
-    protected override IComponent[] Setup(out object exposed)
+    protected override IComponent[] Setup(out NoExpose exposed)
     {
-        exposed = new object();
+        exposed = new NoExpose();
 
         return
         [
@@ -113,13 +113,13 @@ using Iskra.Signals;
 
 public sealed class CardSlots
 {
-    public required Func<IComponent[]> Header { get; init; }
+    public Func<IComponent[]>? Header { get; init; }
     public Func<IComponent[]>? Footer { get; init; }
 }
 
-public sealed class Card : BaseComponent<object, BaseEmits, CardSlots, object>
+public sealed class Card : BaseComponent<object, BaseEmits, CardSlots, NoExpose>
 {
-    protected override IComponent[] Setup(out object exposed)
+    protected override IComponent[] Setup(out NoExpose exposed)
     {
         exposed = new();
         return
