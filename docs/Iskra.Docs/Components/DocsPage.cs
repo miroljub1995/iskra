@@ -2,6 +2,7 @@ using Iskra.Core.Components;
 using Iskra.Core.DomComponents;
 using Iskra.Core.Features.HydrationState;
 using Iskra.Core.HotReload;
+using Iskra.Docs.Client;
 using Iskra.Docs.Client.Components;
 using Iskra.Signals;
 
@@ -43,8 +44,8 @@ public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose
                             new Script
                             {
                                 Props = new ScriptProps { Type = new Signal<string>("module") },
-                                Children = [new DomText { Text = new Signal<string>("""
-                                    import { dotnet } from './_framework/dotnet.js'
+                                Children = [new DomText { Text = new Signal<string>($$"""
+                                    import { dotnet } from '{{WwwRoot.Framework_Dotnet_Js}}'
                                     const { runMain } = await dotnet.create();
                                     await runMain();
                                     """) }],

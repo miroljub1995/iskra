@@ -3,10 +3,6 @@
         <SupportedPlatform Include="browser" />
     </ItemGroup>
     <ItemGroup>
-        <StaticWebAssetFingerprintPattern Include="PngFingerprint" Pattern="*.png"
-            Expression="#[.{fingerprint}]!" />
-    </ItemGroup>
-    <ItemGroup>
         <ProjectReference Include="..\..\src\Iskra.Core\Iskra.Core.csproj" Watch="false" />
         <ProjectReference Include="..\..\src\Iskra.Core.Generators\Iskra.Core.Generators.csproj"
             OutputItemType="Analyzer" ReferenceOutputAssembly="false" />

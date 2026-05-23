@@ -71,11 +71,27 @@ public class StaticAssetsGeneratorTests
               "ContentRoot": "/path/to/package/"
             },
             {
-              "Identity": "/path/to/computed.wasm",
+              "Identity": "/path/to/computed/dotnet.js",
               "SourceId": "MyApp",
               "SourceType": "Computed",
-              "RelativePath": "_framework/MyApp#[.{fingerprint}]!.wasm",
-              "Fingerprint": "comp123456",
+              "RelativePath": "_framework/dotnet#[.{fingerprint}]?.js",
+              "Fingerprint": "0limxgt2lp",
+              "ContentRoot": "/path/to/bin/"
+            },
+            {
+              "Identity": "/path/to/computed/dotnet.js.gz",
+              "SourceId": "MyApp",
+              "SourceType": "Computed",
+              "RelativePath": "_framework/dotnet#[.{fingerprint=0limxgt2lp}]?.js.gz",
+              "Fingerprint": "l5widvspcf",
+              "ContentRoot": "/path/to/bin/"
+            },
+            {
+              "Identity": "/path/to/computed/Iskra.Core.wasm",
+              "SourceId": "MyApp",
+              "SourceType": "Computed",
+              "RelativePath": "_framework/Iskra.Core#[.{fingerprint}]!.wasm",
+              "Fingerprint": "hypohbr2ef",
               "ContentRoot": "/path/to/bin/"
             }
           ]
@@ -120,7 +136,7 @@ public class StaticAssetsGeneratorTests
     }
 
     [Test]
-    public Task FiltersToDiscoveredAssetsFromSameProject()
+    public Task FiltersToAssetsFromSameProject()
     {
         return Verify(CreateDriver(MixedSourceTypesManifest));
     }

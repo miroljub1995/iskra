@@ -4,6 +4,6 @@ namespace MyApp;
 
 public static partial class WwwRoot
 {
-    public static string Assets_IconPng => "/assets/icon.txkr4eokca.png";
-    public static string Css_AppCss => "/css/app.abc1234def.css";
+    public static string Assets_Icon_Png => "/assets/icon.txkr4eokca.png";
+    public static string Css_App_Css => "/css/app.abc1234def.css";
 }

@@ -119,11 +119,18 @@ public class StaticAssetsGenerator : IIncrementalGenerator
             var sourceType = asset.GetProperty("SourceType").GetString();
             var assetSourceId = asset.GetProperty("SourceId").GetString();
 
-            if (sourceType != "Discovered" || assetSourceId != sourceId)
+            if (assetSourceId != sourceId)
                 continue;
 
             var relativePath = asset.GetProperty("RelativePath").GetString();
             if (relativePath == null)
+                continue;
+
+            var isDiscovered = sourceType == "Discovered";
+            var isDotnetJs = sourceType == "Computed"
+                && Regex.IsMatch(relativePath, @"^_framework/dotnet#.*\.js$");
+
+            if (!isDiscovered && !isDotnetJs)
                 continue;
 
             var fingerprint = asset.GetProperty("Fingerprint").GetString();
@@ -141,17 +148,19 @@ public class StaticAssetsGenerator : IIncrementalGenerator
         if (string.IsNullOrEmpty(fingerprint) || !relativePath.Contains("#["))
             return relativePath;
 
-        return Regex.Replace(relativePath, @"#\[([^\]]*)\]!(.)", m =>
+        return Regex.Replace(relativePath, @"#\[([^\]]*)\](?:(!)(.)|\?)", m =>
         {
             var expr = m.Groups[1].Value;
-            var nextChar = m.Groups[2].Value;
-            return expr.Replace("{fingerprint}", fingerprint) + nextChar;
+            var resolved = expr.Replace("{fingerprint}", fingerprint);
+            if (m.Groups[2].Success)
+                return resolved + m.Groups[3].Value;
+            return resolved;
         });
     }
 
     internal static string StripFingerprintExpression(string relativePath)
     {
-        return Regex.Replace(relativePath, @"#\[[^\]]*\]!", "");
+        return Regex.Replace(relativePath, @"#\[[^\]]*\][!?]", "");
     }
 
     internal static string BuildPropertyName(string cleanPath)
@@ -169,16 +178,12 @@ public class StaticAssetsGenerator : IIncrementalGenerator
         {
             if (string.IsNullOrEmpty(segment)) continue;
             var words = Regex.Split(segment, @"[^a-zA-Z0-9]+");
-            var result = new StringBuilder();
             foreach (var word in words)
             {
                 if (word.Length == 0) continue;
-                result.Append(char.ToUpperInvariant(word[0]));
-                if (word.Length > 1)
-                    result.Append(word.Substring(1).ToLowerInvariant());
+                parts.Add(char.ToUpperInvariant(word[0])
+                    + (word.Length > 1 ? word.Substring(1).ToLowerInvariant() : ""));
             }
-            if (result.Length > 0)
-                parts.Add(result.ToString());
         }
 
         return string.Join("_", parts);

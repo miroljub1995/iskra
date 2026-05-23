@@ -4,5 +4,5 @@ namespace MyApp;
 
 public static partial class WwwRoot
 {
-    public static string FaviconIco => "/favicon.ico";
+    public static string Favicon_Ico => "/favicon.ico";
 }

@@ -4,5 +4,5 @@ namespace MyApp;
 
 public static partial class Assets
 {
-    public static string Assets_IconPng => "/assets/icon.txkr4eokca.png";
+    public static string Assets_Icon_Png => "/assets/icon.txkr4eokca.png";
 }
