@@ -7,4 +7,6 @@
         <ProjectReference Include="..\Iskra.Docs.Client\Iskra.Docs.Client.csproj" />
         <ProjectReference Include="..\..\src\Iskra.Core\Iskra.Core.csproj" />
     </ItemGroup>
+
+    <Import Project="..\..\src\Iskra.Core\targets\Iskra.Core.StaticAssets.targets" />
 </Project>

@@ -14,4 +14,9 @@
     <None Include="..\Iskra.Core.Generators\bin\$(Configuration)\netstandard2.0\Iskra.Core.Generators.dll"
           Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
   </ItemGroup>
+  <!-- Bundle static asset targets for NuGet consumers -->
+  <ItemGroup>
+    <None Include="targets\Iskra.Core.StaticAssets.targets" Pack="true" PackagePath="build\" Visible="false" />
+    <None Include="targets\Iskra.Core.StaticAssets.targets" Pack="true" PackagePath="buildTransitive\" Visible="false" />
+  </ItemGroup>
 </Project>

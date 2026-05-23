@@ -14,6 +14,10 @@ public class Header : BaseComponent<HeaderProps, NoEvents, NoSlots, NoExpose>
 
         return
         [
+            new Img
+            {
+                Props = new ImgProps { Src = new Signal<string>(WwwRoot.Assets_IconPng) },
+            },
             new H1
             {
                 Props = new H1Props(),

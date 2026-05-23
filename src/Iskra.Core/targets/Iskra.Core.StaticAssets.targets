@@ -1,0 +1,12 @@
+<Project>
+
+  <Target Name="_IskraAddStaticAssetManifest"
+          DependsOnTargets="ResolveProjectStaticWebAssets"
+          BeforeTargets="CoreCompile">
+    <ItemGroup>
+      <AdditionalFiles Include="$(IntermediateOutputPath)staticwebassets.build.json"
+                       Condition="Exists('$(IntermediateOutputPath)staticwebassets.build.json')" />
+    </ItemGroup>
+  </Target>
+
+</Project>
