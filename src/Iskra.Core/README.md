@@ -8,10 +8,7 @@ Iskra.Core is the experimental component layer for Iskra. It builds on Iskra.Std
 - [ ] Fix hot reload (`HotReloadManager`) — currently has bugs. It should know if component needs to remount, or whole app to remount. Dotnet sdk do not support hook before apply changes, which would be ideal for unmounting the components.
 
 ### Core features
-- [ ] **Assets** — define a way to use assets like avif, webp, ...
-
-### Router
-- [ ] **Router** — URL-based navigation, route params, guards, nested routes, with both client-side and server-side rendering support
+- [ ] **Tailwind** — implement tailwind support
 
 ## What It Provides
 
