@@ -13,6 +13,7 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
     where TEvents : BaseDomComponentEvents<TElement>
 {
     private IRenderSlot? _slot;
+    private ComposedComponent? _childrenComposed;
     private readonly List<Action> _eventCleanups = [];
 
     protected abstract IComponent[]? GetChildren();
@@ -69,13 +70,8 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
                     childrenRoot.BeginHydration();
                 }
 
-                var prevSlot = childrenRoot.CreateFirstSlot();
-                children[0].Mount(prevSlot);
-                for (var i = 1; i < children.Length; i++)
-                {
-                    prevSlot = prevSlot.CreateSlotAfter();
-                    children[i].Mount(prevSlot);
-                }
+                _childrenComposed = new ComposedComponent(children);
+                _childrenComposed.Mount(childrenRoot.CreateFirstSlot());
 
                 childrenRoot.EndHydration();
             }
@@ -100,10 +96,8 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
             if (!IsVoid && children?.Length > 0)
             {
                 var childrenRoot = new SsrRenderRoot(node);
-                foreach (var child in children)
-                {
-                    child.Mount(childrenRoot.CreateFirstSlot());
-                }
+                _childrenComposed = new ComposedComponent(children);
+                _childrenComposed.Mount(childrenRoot.CreateFirstSlot());
             }
 
             ssrRenderSlot.Populate(node);
@@ -114,8 +108,6 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
 
     public void Unmount()
     {
-        var children = GetChildren();
-
         if (_slot is IDomRenderSlot domRenderSlot)
         {
             if (!OperatingSystem.IsBrowser())
@@ -130,28 +122,14 @@ public abstract class BaseDomComponent<TElement, TProps, TEvents>(string tagName
                 cleanup();
             }
             _eventCleanups.Clear();
-
-            if (!IsVoid && children?.Length > 0)
-            {
-                foreach (var child in Enumerable.Reverse(children))
-                {
-                    child.Unmount();
-                }
-            }
         }
         else if (_slot is ISsrRenderSlot ssrRenderSlot)
         {
             ssrRenderSlot.Empty();
-
-            if (!IsVoid && children?.Length > 0)
-            {
-                foreach (var child in Enumerable.Reverse(children))
-                {
-                    child.Unmount();
-                }
-            }
         }
 
+        _childrenComposed?.Unmount();
+        _childrenComposed = null;
         _slot = null;
     }
 }

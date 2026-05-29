@@ -6,34 +6,36 @@ namespace Iskra.Core.Features.Routing;
 
 /// <summary>
 /// Client-side implementation of <see cref="INavigationFeature"/>.
-/// Listens to the browser Navigation API's <c>currententrychange</c> event
-/// and updates the reactive <see cref="CurrentPath"/> signal on each navigation.
+/// Uses <c>history.pushState</c> for navigation and listens to <c>popstate</c>
+/// to handle back/forward browser buttons.
 /// </summary>
 [SupportedOSPlatform("browser")]
 public sealed class ClientNavigationFeature : INavigationFeature
 {
     private readonly Signal<string> _currentPath;
-    private readonly Navigation _navigation;
+    private readonly Window _window;
 
     public ClientNavigationFeature(Window window)
     {
-        _navigation = window.Navigation;
+        _window = window;
 
-        _currentPath = new Signal<string>(GetPath(_navigation));
+        _currentPath = new Signal<string>(window.Location.Pathname);
 
-        _navigation.AddEventListener("currententrychange", new EventListener((_) =>
+        window.AddEventListener("popstate", new EventListener((_) =>
         {
-            _currentPath.Value = GetPath(_navigation);
+            _currentPath.Value = _window.Location.Pathname;
         }));
     }
 
     public IReadOnlySignal<string> CurrentPath => _currentPath;
 
-    public async Task NavigateAsync(string path) => await _navigation.Navigate(path).Finished;
-
-    private static string GetPath(Navigation navigation)
+    public Task PushAsync(string path)
     {
-        var url = navigation.CurrentEntry?.Url;
-        return url is not null ? new Uri(url).AbsolutePath : "/";
+        if (_currentPath.Value == path)
+            return Task.CompletedTask;
+
+        _window.History.PushState(null, "", path);
+        _currentPath.Value = path;
+        return Task.CompletedTask;
     }
 }

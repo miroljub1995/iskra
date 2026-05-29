@@ -9,16 +9,12 @@ public class StaticAssetsGeneratorTests
 {
     private const string SingleAssetManifest = """
         {
-          "Version": 1,
-          "Source": "MyApp",
           "Assets": [
             {
-              "Identity": "/path/to/wwwroot/assets/icon.png",
               "SourceId": "MyApp",
               "SourceType": "Discovered",
               "RelativePath": "assets/icon#[.{fingerprint}]!.png",
-              "Fingerprint": "txkr4eokca",
-              "ContentRoot": "/path/to/wwwroot/"
+              "Fingerprint": "txkr4eokca"
             }
           ]
         }
@@ -26,24 +22,18 @@ public class StaticAssetsGeneratorTests
 
     private const string MultipleAssetsManifest = """
         {
-          "Version": 1,
-          "Source": "MyApp",
           "Assets": [
             {
-              "Identity": "/path/to/wwwroot/assets/icon.png",
               "SourceId": "MyApp",
               "SourceType": "Discovered",
               "RelativePath": "assets/icon#[.{fingerprint}]!.png",
-              "Fingerprint": "txkr4eokca",
-              "ContentRoot": "/path/to/wwwroot/"
+              "Fingerprint": "txkr4eokca"
             },
             {
-              "Identity": "/path/to/wwwroot/css/app.css",
               "SourceId": "MyApp",
               "SourceType": "Discovered",
               "RelativePath": "css/app#[.{fingerprint}]!.css",
-              "Fingerprint": "abc1234def",
-              "ContentRoot": "/path/to/wwwroot/"
+              "Fingerprint": "abc1234def"
             }
           ]
         }
@@ -51,48 +41,30 @@ public class StaticAssetsGeneratorTests
 
     private const string MixedSourceTypesManifest = """
         {
-          "Version": 1,
-          "Source": "MyApp",
           "Assets": [
             {
-              "Identity": "/path/to/wwwroot/assets/icon.png",
               "SourceId": "MyApp",
               "SourceType": "Discovered",
               "RelativePath": "assets/icon#[.{fingerprint}]!.png",
-              "Fingerprint": "txkr4eokca",
-              "ContentRoot": "/path/to/wwwroot/"
+              "Fingerprint": "txkr4eokca"
             },
             {
-              "Identity": "/path/to/package/lib.js",
               "SourceId": "SomePackage",
               "SourceType": "Package",
               "RelativePath": "_content/SomePackage/lib.js",
-              "Fingerprint": "xyz9876wvu",
-              "ContentRoot": "/path/to/package/"
+              "Fingerprint": "xyz9876wvu"
             },
             {
-              "Identity": "/path/to/computed/dotnet.js",
               "SourceId": "MyApp",
               "SourceType": "Computed",
               "RelativePath": "_framework/dotnet#[.{fingerprint}]?.js",
-              "Fingerprint": "0limxgt2lp",
-              "ContentRoot": "/path/to/bin/"
+              "Fingerprint": "0limxgt2lp"
             },
             {
-              "Identity": "/path/to/computed/dotnet.js.gz",
-              "SourceId": "MyApp",
-              "SourceType": "Computed",
-              "RelativePath": "_framework/dotnet#[.{fingerprint=0limxgt2lp}]?.js.gz",
-              "Fingerprint": "l5widvspcf",
-              "ContentRoot": "/path/to/bin/"
-            },
-            {
-              "Identity": "/path/to/computed/Iskra.Core.wasm",
               "SourceId": "MyApp",
               "SourceType": "Computed",
               "RelativePath": "_framework/Iskra.Core#[.{fingerprint}]!.wasm",
-              "Fingerprint": "hypohbr2ef",
-              "ContentRoot": "/path/to/bin/"
+              "Fingerprint": "hypohbr2ef"
             }
           ]
         }
@@ -115,7 +87,7 @@ public class StaticAssetsGeneratorTests
             options: new CSharpCompilationOptions(OutputKind.DynamicallyLinkedLibrary));
 
         var additionalText = new InMemoryAdditionalText(
-            "obj/Debug/net10.0/staticwebassets.build.json", manifestJson);
+            "obj/Debug/net10.0/iskraassets.json", manifestJson);
 
         return CSharpGeneratorDriver
             .Create(new StaticAssetsGenerator())
@@ -146,16 +118,12 @@ public class StaticAssetsGeneratorTests
     {
         var manifest = """
             {
-              "Version": 1,
-              "Source": "MyApp",
               "Assets": [
                 {
-                  "Identity": "/path/to/package/lib.js",
                   "SourceId": "SomePackage",
                   "SourceType": "Package",
                   "RelativePath": "_content/SomePackage/lib.js",
-                  "Fingerprint": "xyz9876wvu",
-                  "ContentRoot": "/path/to/package/"
+                  "Fingerprint": "xyz9876wvu"
                 }
               ]
             }
@@ -169,16 +137,12 @@ public class StaticAssetsGeneratorTests
     {
         var manifest = """
             {
-              "Version": 1,
-              "Source": "MyApp",
               "Assets": [
                 {
-                  "Identity": "/path/to/wwwroot/favicon.ico",
                   "SourceId": "MyApp",
                   "SourceType": "Discovered",
                   "RelativePath": "favicon.ico",
-                  "Fingerprint": "",
-                  "ContentRoot": "/path/to/wwwroot/"
+                  "Fingerprint": ""
                 }
               ]
             }

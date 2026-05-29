@@ -2,6 +2,7 @@ using System.Text;
 using Iskra.Core;
 using Iskra.Core.Features;
 using Iskra.Core.Features.HydrationState;
+using Iskra.Core.Features.Routing;
 using Iskra.Core.RenderRoot;
 using Iskra.Docs.Components;
 
@@ -11,8 +12,10 @@ var app = builder.Build();
 
 app.MapStaticAssets();
 
-app.MapGet("/", async (httpContext) =>
+app.MapFallback(async (httpContext) =>
 {
+    var requestPath = httpContext.Request.Path.Value ?? "/";
+    var navigation = new ServerNavigationFeature(requestPath);
     var root = new SsrRenderRoot();
     var prefetch = new ServerPrefetchFeature();
 
@@ -20,12 +23,19 @@ app.MapGet("/", async (httpContext) =>
         .UseRootRenderer(root)
         .SetFeature<IServerPrefetchFeature>(prefetch)
         .SetFeature<IServerHydrationStateFeature>(new ServerHydrationStateFeature())
+        .SetFeature<INavigationFeature>(navigation)
         .SetFeature(httpContext)
         .UseRootComponent(() => new DocsPage { Props = new DocsPageProps() })
         .Build()
         .Mount();
 
     await prefetch.WaitForCompletionAsync(httpContext.RequestAborted);
+
+    if (navigation.RedirectLocation is { } location)
+    {
+        httpContext.Response.Redirect(location);
+        return;
+    }
 
     httpContext.Response.Headers.ContentType = "text/html";
     await httpContext.Response.BodyWriter.WriteAsync(Encoding.UTF8.GetBytes("<!DOCTYPE html>"));

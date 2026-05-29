@@ -13,7 +13,7 @@ namespace Iskra.Core.Generators;
 [Generator]
 public class StaticAssetsGenerator : IIncrementalGenerator
 {
-    internal const string ManifestFileName = "staticwebassets.build.json";
+    internal const string ManifestFileName = "iskraassets.json";
     private const string AttributeFullName = "Iskra.Core.GeneratedStaticAssetPathsAttribute";
 
     public void Initialize(IncrementalGeneratorInitializationContext context)
@@ -122,15 +122,11 @@ public class StaticAssetsGenerator : IIncrementalGenerator
             if (assetSourceId != sourceId)
                 continue;
 
-            var relativePath = asset.GetProperty("RelativePath").GetString();
-            if (relativePath == null)
+            if (sourceType != "Discovered")
                 continue;
 
-            var isDiscovered = sourceType == "Discovered";
-            var isDotnetJs = sourceType == "Computed"
-                && Regex.IsMatch(relativePath, @"^_framework/dotnet#.*\.js$");
-
-            if (!isDiscovered && !isDotnetJs)
+            var relativePath = asset.GetProperty("RelativePath").GetString();
+            if (relativePath == null)
                 continue;
 
             var fingerprint = asset.GetProperty("Fingerprint").GetString();

@@ -59,7 +59,7 @@ public class RoutesTests
             .SetFeature<INavigationFeature>(navigation)
             .UseRootComponent(() => new Routes
             {
-                Default = () => routes,
+                Items = routes,
             })
             .Build()
             .Mount();
@@ -128,7 +128,7 @@ public class RoutesTests
 
         await Assert.That(h.Container.TextContent).IsEqualTo("home");
 
-        await h.Navigation.NavigateAsync("/about");
+        await h.Navigation.PushAsync("/about");
 
         await Assert.That(h.Container.TextContent).IsEqualTo("about");
         await Assert.That(h.MountedCounts["home"]).IsEqualTo(1);
@@ -199,7 +199,7 @@ public class RoutesTests
         await Assert.That(h.Container.TextContent).IsEqualTo("user:1");
         await Assert.That(mountCount).IsEqualTo(1);
 
-        await h.Navigation.NavigateAsync("/users/2");
+        await h.Navigation.PushAsync("/users/2");
 
         await Assert.That(h.Container.TextContent).IsEqualTo("user:2");
         await Assert.That(mountCount).IsEqualTo(1);
@@ -239,7 +239,7 @@ public class RoutesTests
 
         await Assert.That(h.Container.TextContent).IsEqualTo("layout:dashboard");
 
-        await h.Navigation.NavigateAsync("/app/settings");
+        await h.Navigation.PushAsync("/app/settings");
 
         await Assert.That(h.Container.TextContent).IsEqualTo("layout:settings");
         await Assert.That(h.MountedCounts["dashboard"]).IsEqualTo(1);
@@ -267,8 +267,8 @@ public class RoutesTests
             },
         ]);
 
-        await h.Navigation.NavigateAsync("/b");
-        await h.Navigation.NavigateAsync("/a");
+        await h.Navigation.PushAsync("/b");
+        await h.Navigation.PushAsync("/a");
 
         await Assert.That(h.Container.TextContent).IsEqualTo("a");
         await Assert.That(h.MountedCounts["a"]).IsEqualTo(2);

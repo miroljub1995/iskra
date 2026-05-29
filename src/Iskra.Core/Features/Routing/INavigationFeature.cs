@@ -20,5 +20,5 @@ public interface INavigationFeature
     /// On the client, this performs a client-side navigation using the browser Navigation API.
     /// On the server, this records the path so the host can return a 302 redirect.
     /// </summary>
-    Task NavigateAsync(string path);
+    Task PushAsync(string path);
 }

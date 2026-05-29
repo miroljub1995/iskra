@@ -14,7 +14,7 @@ namespace Iskra.Core.Features.Routing;
 /// </summary>
 public class Routes : IComponent
 {
-    public required Func<Route[]> Default { get; init; }
+    public required Route[] Items { get; init; }
 
     private ComposedComponent? _composed;
 
@@ -29,7 +29,7 @@ public class Routes : IComponent
                 "INavigationFeature must be registered before mounting Routes. " +
                 "Call builder.SetFeature<INavigationFeature>(...) during host setup.");
 
-        var routes = Default();
+        var routes = Items;
 
         // Single reactive computation that walks the entire route tree
         // and returns a linked chain of RouteMatch, or null if no

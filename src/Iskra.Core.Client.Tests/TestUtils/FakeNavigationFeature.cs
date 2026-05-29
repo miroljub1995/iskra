@@ -14,7 +14,7 @@ public sealed class FakeNavigationFeature : INavigationFeature
 
     public IReadOnlySignal<string> CurrentPath => _currentPath;
 
-    public Task NavigateAsync(string path)
+    public Task PushAsync(string path)
     {
         _currentPath.Value = path;
         return Task.CompletedTask;

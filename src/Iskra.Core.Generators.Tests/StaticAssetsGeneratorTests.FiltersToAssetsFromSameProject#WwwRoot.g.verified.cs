@@ -5,5 +5,4 @@ namespace MyApp;
 public static partial class WwwRoot
 {
     public static string Assets_Icon_Png => "/assets/icon.txkr4eokca.png";
-    public static string Framework_Dotnet_Js => "/_framework/dotnet.0limxgt2lp.js";
 }

@@ -1,6 +1,9 @@
 using Iskra.Core.Components;
 using Iskra.Core.DomComponents;
+using Iskra.Core.Features;
+using Iskra.Core.Features.Routing;
 using Iskra.Signals;
+using Iskra.StdWeb;
 
 namespace Iskra.Docs.Client.Components;
 
@@ -11,6 +14,9 @@ public class DocsApp : BaseComponent<DocsAppProps, NoEvents, NoSlots, NoExpose>
     protected override IComponent[] Setup(out NoExpose exposed)
     {
         exposed = default;
+
+        var navigation = AppFeatures.Features.Get<INavigationFeature>()
+            ?? throw new InvalidOperationException("INavigationFeature is not registered.");
 
         return
         [
@@ -23,10 +29,56 @@ public class DocsApp : BaseComponent<DocsAppProps, NoEvents, NoSlots, NoExpose>
                     {
                         Props = new HeaderProps(),
                     },
-                    new P
+                    new Nav
                     {
-                        Props = new PProps(),
-                        Children = [new DomText { Text = new Signal<string>("Welcome to Iskra — a reactive UI framework for .NET.") }],
+                        Props = new NavProps(),
+                        Children =
+                        [
+                            new A
+                            {
+                                Props = new AProps { Href = new Signal<string>("/") },
+                                Events = new AEvents
+                                {
+                                    OnClick = (e) =>
+                                    {
+                                        if (!OperatingSystem.IsBrowser()) return;
+                                        e.PreventDefault();
+                                        navigation.PushAsync("/");
+                                    },
+                                },
+                                Children = [new DomText { Text = new Signal<string>("Home") }],
+                            },
+                            new A
+                            {
+                                Props = new AProps { Href = new Signal<string>("/about") },
+                                Events = new AEvents
+                                {
+                                    OnClick = (e) =>
+                                    {
+                                        if (!OperatingSystem.IsBrowser()) return;
+                                        e.PreventDefault();
+                                        navigation.PushAsync("/about");
+                                    },
+                                },
+                                Children = [new DomText { Text = new Signal<string>("About") }],
+                            },
+                        ],
+                    },
+                    new Routes
+                    {
+                        Items =
+                        [
+                            new Route
+                            {
+                                Pattern = "/",
+                                Render = () => [new HomePage { Props = new HomePageProps() }],
+                            },
+                            new Route
+                            {
+                                Pattern = "/about",
+                                Render = () => [new AboutPage { Props = new AboutPageProps() }],
+                            },
+                        ],
                     },
                 ],
             },

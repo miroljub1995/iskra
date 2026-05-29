@@ -1,6 +1,7 @@
 using System.Runtime.InteropServices.JavaScript;
 using Iskra.Core;
 using Iskra.Core.Features.HydrationState;
+using Iskra.Core.Features.Routing;
 using Iskra.Core.HotReload;
 using Iskra.Docs.Client.Components;
 using Iskra.JSCore;
@@ -22,6 +23,7 @@ var hydration = new ClientHydrationStateFeature();
 var _ = new IskraHostBuilder()
     .UseRootElement(appElement)
     .SetFeature<IClientHydrationStateFeature>(hydration)
+    .SetFeature<INavigationFeature>(new ClientNavigationFeature(window))
     .UseRootComponent(() => new DocsApp { Props = new DocsAppProps() })
     .UseDefaultHotReloadManager()
     .Build()

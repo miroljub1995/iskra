@@ -1,11 +1,47 @@
 <Project>
 
+  <UsingTask TaskName="_IskraWriteStaticAssetManifest" TaskFactory="RoslynCodeTaskFactory"
+             AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll">
+    <ParameterGroup>
+      <Assets ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />
+      <ManifestPath ParameterType="System.String" Required="true" />
+    </ParameterGroup>
+    <Task>
+      <Code Type="Fragment" Language="cs"><![CDATA[
+        var sb = new System.Text.StringBuilder();
+        sb.Append("{\"Assets\":[");
+        bool first = true;
+        foreach (var asset in Assets)
+        {
+            if (!first) sb.Append(",");
+            first = false;
+            sb.Append("{");
+            sb.AppendFormat("\"SourceType\":\"{0}\",", asset.GetMetadata("SourceType").Replace("\"", "\\\""));
+            sb.AppendFormat("\"SourceId\":\"{0}\",", asset.GetMetadata("SourceId").Replace("\\", "\\\\").Replace("\"", "\\\""));
+            sb.AppendFormat("\"RelativePath\":\"{0}\",", asset.GetMetadata("RelativePath").Replace("\\", "\\\\").Replace("\"", "\\\""));
+            sb.AppendFormat("\"Fingerprint\":\"{0}\"", asset.GetMetadata("Fingerprint").Replace("\"", "\\\""));
+            sb.Append("}");
+        }
+        sb.Append("]}");
+        var dir = System.IO.Path.GetDirectoryName(ManifestPath);
+        if (!System.IO.Directory.Exists(dir)) System.IO.Directory.CreateDirectory(dir);
+        System.IO.File.WriteAllText(ManifestPath, sb.ToString());
+      ]]></Code>
+    </Task>
+  </UsingTask>
+
   <Target Name="_IskraAddStaticAssetManifest"
-          DependsOnTargets="ResolveProjectStaticWebAssets"
+          DependsOnTargets="ResolveCoreStaticWebAssets"
           BeforeTargets="CoreCompile">
+    <PropertyGroup>
+      <_IskraManifestPath>$(IntermediateOutputPath)iskraassets.json</_IskraManifestPath>
+    </PropertyGroup>
+    <_IskraWriteStaticAssetManifest
+      Assets="@(StaticWebAsset)"
+      ManifestPath="$(_IskraManifestPath)" />
     <ItemGroup>
-      <AdditionalFiles Include="$(IntermediateOutputPath)staticwebassets.build.json"
-                       Condition="Exists('$(IntermediateOutputPath)staticwebassets.build.json')" />
+      <AdditionalFiles Include="$(_IskraManifestPath)"
+                       Condition="Exists('$(_IskraManifestPath)')" />
     </ItemGroup>
   </Target>
 

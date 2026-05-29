@@ -2,13 +2,14 @@ using Iskra.Core.Components;
 using Iskra.Core.DomComponents;
 using Iskra.Core.Features.HydrationState;
 using Iskra.Core.HotReload;
-using Iskra.Docs.Client;
 using Iskra.Docs.Client.Components;
 using Iskra.Signals;
 
 namespace Iskra.Docs.Components;
 
-public class DocsPageProps { }
+public class DocsPageProps
+{
+}
 
 public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose>
 {
@@ -41,15 +42,7 @@ public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose
                                 Props = new TitleProps(),
                                 Children = [new DomText { Text = new Signal<string>("Iskra Docs (SSR)") }],
                             },
-                            new Script
-                            {
-                                Props = new ScriptProps { Type = new Signal<string>("module") },
-                                Children = [new DomText { Text = new Signal<string>($$"""
-                                    import { dotnet } from '{{WwwRoot.Framework_Dotnet_Js}}'
-                                    const { runMain } = await dotnet.create();
-                                    await runMain();
-                                    """) }],
-                            },
+                            new MainScript(),
                             new HydrationStateScript(),
                         ],
                     },
