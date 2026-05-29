@@ -1,8 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Iskra.Signals\Iskra.Signals.csproj" />
     <ProjectReference Include="..\Iskra.StdWeb\Iskra.StdWeb.csproj" />
     <!-- Generator: no output reference needed at compile time; bundled into NuGet for consumers -->
