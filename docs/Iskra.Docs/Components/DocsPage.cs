@@ -2,6 +2,7 @@ using Iskra.Core.Components;
 using Iskra.Core.DomComponents;
 using Iskra.Core.Features.HydrationState;
 using Iskra.Core.HotReload;
+using Iskra.Docs.Client;
 using Iskra.Docs.Client.Components;
 using Iskra.Signals;
 
@@ -44,6 +45,11 @@ public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose
                             },
                             new MainScript(),
                             new HydrationStateScript(),
+                            new Style
+                            {
+                                Props = new StyleProps(),
+                                Children = [new DomText { Text = new Signal<string>(Styles.GetCss()) }],
+                            },
                         ],
                     },
                     new Body

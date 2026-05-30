@@ -19,6 +19,9 @@
     <Project Path="src/Iskra.Signals.Tests/Iskra.Signals.Tests.csproj" />
     <Project Path="src/Iskra.Signals/Iskra.Signals.csproj" />
     <Project Path="src/Iskra.StdWeb/Iskra.StdWeb.csproj" />
+    <Project Path="src/Iskra.TailwindCss.Generators/Iskra.TailwindCss.Generators.csproj" />
+    <Project Path="src/Iskra.TailwindCss/Iskra.TailwindCss.csproj" />
+    <Project Path="src/Iskra.TailwindCss.Generators.Tests/Iskra.TailwindCss.Generators.Tests.csproj" />
     <Project Path="src/Iskra.WebIDLGenerator.Tests/Iskra.WebIDLGenerator.Tests.csproj" />
     <Project Path="src/Iskra.WebIDLGenerator/Iskra.WebIDLGenerator.csproj" />
   </Folder>

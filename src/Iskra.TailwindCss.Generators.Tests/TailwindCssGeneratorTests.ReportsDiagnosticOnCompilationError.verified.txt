@@ -1,0 +1,37 @@
+﻿{
+  Diagnostics: [
+    {
+      Message:
+Tailwind CSS compilation failed: tailwind-compiler exited with code 1: 6494 | var input = await Bun.stdin.text();
+6495 | var { css, importMap, candidates } = JSON.parse(input);
+6496 | var compiled = await wf(css, {
+6497 |   loadStylesheet: async (id, base) => {
+6498 |     const content = importMap[id];
+6499 |       throw new Error(`Unknown stylesheet import: '${id}'`);
+                   ^
+error: Unknown stylesheet import: 'nonexistent/module'
+      at loadStylesheet (/$bunfs/root/tailwind-compiler:6499:13)
+      at <anonymous> (/$bunfs/root/tailwind-compiler:5413:25)
+      at <anonymous> (/$bunfs/root/tailwind-compiler:5415:9)
+      at $r (/$bunfs/root/tailwind-compiler:802:30)
+      at I2 (/$bunfs/root/tailwind-compiler:784:30)
+      at tr (/$bunfs/root/tailwind-compiler:5400:12)
+      at Hi (/$bunfs/root/tailwind-compiler:6252:44)
+      at ma (/$bunfs/root/tailwind-compiler:6451:121)
+      at wf (/$bunfs/root/tailwind-compiler:6483:49)
+      at /$bunfs/root/tailwind-compiler:6495:24
+
+Bun v1.3.14 (macOS arm64)
+,
+      Severity: Error,
+      Descriptor: {
+        Id: TWCSS001,
+        Title: Tailwind CSS compilation failed,
+        MessageFormat: Tailwind CSS compilation failed: {0},
+        Category: TailwindCss,
+        DefaultSeverity: Error,
+        IsEnabledByDefault: true
+      }
+    }
+  ]
+}

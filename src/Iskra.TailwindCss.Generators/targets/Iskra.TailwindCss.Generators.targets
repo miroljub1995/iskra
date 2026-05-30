@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <TailwindCssGeneratorRuntimesDir>$([MSBuild]::NormalizePath('$(MSBuildThisFileDirectory)../runtimes'))</TailwindCssGeneratorRuntimesDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <CompilerVisibleProperty Include="TailwindCssGeneratorRuntimesDir" />
+  </ItemGroup>
+</Project>

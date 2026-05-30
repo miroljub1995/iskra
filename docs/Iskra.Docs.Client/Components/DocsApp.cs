@@ -22,7 +22,7 @@ public class DocsApp : BaseComponent<DocsAppProps, NoEvents, NoSlots, NoExpose>
         [
             new Main
             {
-                Props = new MainProps(),
+                Props = new MainProps { Class = new Signal<string>("max-w-4xl mx-auto p-6") },
                 Children =
                 [
                     new Header
