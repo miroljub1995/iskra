@@ -73,36 +73,36 @@ public partial class OnBeforeUnloadEventHandlerNonNull: global::Iskra.JSCore.JSO
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(OnBeforeUnloadEventHandlerNonNullManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_524, __res_529) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0, ___res_5) =>
         {
-            using (__args_524)
-            using (__res_529)
+            using (___args_0)
+            using (___res_5)
             {
                 // Argument 1
-                global::Iskra.StdWeb.Event __arg_526;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_527 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_524, 0);
-                __arg_526 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(__res_527);
+                global::Iskra.StdWeb.Event ___arg_2;
+                global::System.Runtime.InteropServices.JavaScript.JSObject ___res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(___args_0, 0);
+                ___arg_2 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Event>(___res_3);
 
-                string? __managedRes_530 = input(__arg_526);
+                string? ___managedRes_6 = input(___arg_2);
 
-                string? __marshalledValue_531;
-                if (__managedRes_530 is null)
+                string? ___marshalledValue_7;
+                if (___managedRes_6 is null)
                 {
-                    __marshalledValue_531 = null;
+                    ___marshalledValue_7 = null;
                 }
                 else
                 {
-                    string __notNullable_532 = (string)__managedRes_530;
-                    __marshalledValue_531 = __notNullable_532;
+                    string ___notNullable_8 = (string)___managedRes_6;
+                    ___marshalledValue_7 = ___notNullable_8;
                 }
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__res_529, "value", __marshalledValue_531);
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___res_5, "value", ___marshalledValue_7);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_528 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_528, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_4 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_4, input); 
 
-        return __funcObj_528;
+        return ___funcObj_4;
     }
 }
 

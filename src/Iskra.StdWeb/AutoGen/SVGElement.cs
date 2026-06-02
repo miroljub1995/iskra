@@ -765,18 +765,6 @@ public partial class SVGElement: global::Iskra.StdWeb.Element
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.SVGElement? CorrespondingElement
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGElement?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "correspondingElement");
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.SVGUseElement? CorrespondingUseElement
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGUseElement?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "correspondingUseElement");
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.StdWeb.DOMStringMap Dataset
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMStringMap, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "dataset");

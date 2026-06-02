@@ -59,24 +59,24 @@ public partial class UnderlyingSinkCloseCallback: global::Iskra.JSCore.JSObjectP
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(UnderlyingSinkCloseCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_68, __res_71) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0, ___res_3) =>
         {
-            using (__args_68)
-            using (__res_71)
+            using (___args_0)
+            using (___res_3)
             {
 
 
-                global::Iskra.JSCore.Promise __managedRes_72 = input();
+                global::Iskra.JSCore.Promise ___managedRes_4 = input();
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_73 = __managedRes_72.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_71, "value", __propObject_73);
+                global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_5 = ___managedRes_4.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___res_3, "value", ___propObject_5);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_70 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_70, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_2 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_2, input); 
 
-        return __funcObj_70;
+        return ___funcObj_2;
     }
 }
 

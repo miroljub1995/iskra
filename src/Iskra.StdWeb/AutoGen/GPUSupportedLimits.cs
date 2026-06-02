@@ -48,6 +48,12 @@ public partial class GPUSupportedLimits: global::Iskra.JSCore.JSObjectProxy
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public uint MaxImmediateSize
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxImmediateSize");
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public uint MaxBindingsPerBindGroup
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "maxBindingsPerBindGroup");

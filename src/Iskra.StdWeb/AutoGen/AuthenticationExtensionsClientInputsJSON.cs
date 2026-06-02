@@ -53,6 +53,13 @@ public partial class AuthenticationExtensionsClientInputsJSON: global::Iskra.JSC
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AuthenticationExtensionsLargeBlobInputsJSON, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "largeBlob");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AuthenticationExtensionsLargeBlobInputsJSON, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "largeBlob", value);
     }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public string RemoteClientDataJSON
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "remoteClientDataJSON");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "remoteClientDataJSON", value);
+    }
 }
 
 #nullable disable

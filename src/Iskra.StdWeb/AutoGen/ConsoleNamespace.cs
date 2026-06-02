@@ -560,37 +560,7 @@ public partial class PaintWorkletGlobalScope
     public global::Iskra.StdWeb.ConsoleNamespace Console => new global::Iskra.StdWeb.ConsoleNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "console"));
 }
 
-public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope
-{
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.ConsoleNamespace Console => new global::Iskra.StdWeb.ConsoleNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "console"));
-}
-
-public partial class InterestGroupBiddingScriptRunnerGlobalScope
-{
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.ConsoleNamespace Console => new global::Iskra.StdWeb.ConsoleNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "console"));
-}
-
-public partial class InterestGroupScoringScriptRunnerGlobalScope
-{
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.ConsoleNamespace Console => new global::Iskra.StdWeb.ConsoleNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "console"));
-}
-
-public partial class InterestGroupReportingScriptRunnerGlobalScope
-{
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.ConsoleNamespace Console => new global::Iskra.StdWeb.ConsoleNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "console"));
-}
-
 public partial class RTCIdentityProviderGlobalScope
-{
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.ConsoleNamespace Console => new global::Iskra.StdWeb.ConsoleNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "console"));
-}
-
-public partial class SharedStorageWorkletGlobalScope
 {
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.StdWeb.ConsoleNamespace Console => new global::Iskra.StdWeb.ConsoleNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "console"));

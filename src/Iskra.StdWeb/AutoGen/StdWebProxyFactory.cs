@@ -269,8 +269,8 @@ public static partial class StdWebProxyFactory
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GeolocationCoordinates", obj => new GeolocationCoordinates(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "GeolocationPositionError", obj => new GeolocationPositionError(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "WEBGL_compressed_texture_astc", obj => new WEBGL_compressed_texture_astc(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCSFrameSenderTransform", obj => new RTCSFrameSenderTransform(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCSFrameReceiverTransform", obj => new RTCSFrameReceiverTransform(obj));
+        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCRtpSFrameEncrypter", obj => new RTCRtpSFrameEncrypter(obj));
+        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCRtpSFrameDecrypter", obj => new RTCRtpSFrameDecrypter(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SFrameEncrypterStream", obj => new SFrameEncrypterStream(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SFrameDecrypterStream", obj => new SFrameDecrypterStream(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SFrameTransformErrorEvent", obj => new SFrameTransformErrorEvent(obj));
@@ -616,15 +616,6 @@ public static partial class StdWebProxyFactory
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Headers", obj => new Headers(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Response", obj => new Response(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "FetchLaterResult", obj => new FetchLaterResult(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "InterestGroupScriptRunnerGlobalScope", obj => new InterestGroupScriptRunnerGlobalScope(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ProtectedAudienceUtilities", obj => new ProtectedAudienceUtilities(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ForDebuggingOnly", obj => new ForDebuggingOnly(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RealTimeReporting", obj => new RealTimeReporting(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "InterestGroupBiddingAndScoringScriptRunnerGlobalScope", obj => new InterestGroupBiddingAndScoringScriptRunnerGlobalScope(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "InterestGroupBiddingScriptRunnerGlobalScope", obj => new InterestGroupBiddingScriptRunnerGlobalScope(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "InterestGroupScoringScriptRunnerGlobalScope", obj => new InterestGroupScoringScriptRunnerGlobalScope(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "InterestGroupReportingScriptRunnerGlobalScope", obj => new InterestGroupReportingScriptRunnerGlobalScope(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ProtectedAudience", obj => new ProtectedAudience(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PressureObserver", obj => new PressureObserver(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PressureRecord", obj => new PressureRecord(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PerformancePaintTiming", obj => new PerformancePaintTiming(obj));
@@ -640,6 +631,8 @@ public static partial class StdWebProxyFactory
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSScopeRule", obj => new CSSScopeRule(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Translator", obj => new Translator(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "LanguageDetector", obj => new LanguageDetector(obj));
+        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "LanguageModel", obj => new LanguageModel(obj));
+        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "LanguageModelParams", obj => new LanguageModelParams(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PerformanceEventTiming", obj => new PerformanceEventTiming(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "EventCounts", obj => new EventCounts(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PerformanceEntry", obj => new PerformanceEntry(obj));
@@ -692,15 +685,6 @@ public static partial class StdWebProxyFactory
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCIdentityAssertion", obj => new RTCIdentityAssertion(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSStartingStyleRule", obj => new CSSStartingStyleRule(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSTransition", obj => new CSSTransition(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageWorklet", obj => new SharedStorageWorklet(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageWorkletGlobalScope", obj => new SharedStorageWorkletGlobalScope(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageModifierMethod", obj => new SharedStorageModifierMethod(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageSetMethod", obj => new SharedStorageSetMethod(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageAppendMethod", obj => new SharedStorageAppendMethod(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageDeleteMethod", obj => new SharedStorageDeleteMethod(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageClearMethod", obj => new SharedStorageClearMethod(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorage", obj => new SharedStorage(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SharedStorageWorkletNavigator", obj => new SharedStorageWorkletNavigator(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRSystem", obj => new XRSystem(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRSpace", obj => new XRSpace(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XRReferenceSpace", obj => new XRReferenceSpace(obj));
@@ -756,7 +740,6 @@ public static partial class StdWebProxyFactory
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "NDEFReader", obj => new NDEFReader(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "NDEFReadingEvent", obj => new NDEFReadingEvent(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "WEBGL_lose_context", obj => new WEBGL_lose_context(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PrivateAggregation", obj => new PrivateAggregation(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "HTMLModelElement", obj => new HTMLModelElement(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "OES_draw_buffers_indexed", obj => new OES_draw_buffers_indexed(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "FragmentDirective", obj => new FragmentDirective(obj));
@@ -1148,6 +1131,7 @@ public static partial class StdWebProxyFactory
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioWorkletProcessor", obj => new AudioWorkletProcessor(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioPlaybackStats", obj => new AudioPlaybackStats(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MathMLElement", obj => new MathMLElement(obj));
+        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MathMLAnchorElement", obj => new MathMLAnchorElement(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "AudioSession", obj => new AudioSession(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "WEBGL_provoking_vertex", obj => new WEBGL_provoking_vertex(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "ProximitySensor", obj => new ProximitySensor(obj));

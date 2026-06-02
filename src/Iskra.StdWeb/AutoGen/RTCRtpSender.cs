@@ -12,10 +12,10 @@ public partial class RTCRtpSender: global::Iskra.JSCore.JSObjectProxy
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCSFrameSenderTransform, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? Transform
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? Transform
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCSFrameSenderTransform, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "transform");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCSFrameSenderTransform, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "transform", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "transform");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "transform", value);
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

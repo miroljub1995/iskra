@@ -39,6 +39,13 @@ public partial class HTMLTemplateElement: global::Iskra.StdWeb.HTMLElement
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public string ShadowRootSlotAssignment
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootSlotAssignment");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootSlotAssignment", value);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public bool ShadowRootClonable
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "shadowRootClonable");

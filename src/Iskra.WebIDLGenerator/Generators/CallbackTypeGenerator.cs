@@ -69,6 +69,8 @@ public class CallbackTypeGenerator(
 
     private string GetConvertToJS(CallbackType input)
     {
+        using var convertScope = VariableName.CreateScope();
+
         var descriptionToTypeDeclarationGenerator =
             provider.GetRequiredService<IDLTypeDescriptionToTypeDeclarationGenerator>();
         var getPropertyValueGenerator = provider.GetRequiredService<GetPropertyValueGenerator>();

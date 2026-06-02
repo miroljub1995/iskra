@@ -77,6 +77,12 @@ public partial class WheelEvent: global::Iskra.StdWeb.MouseEvent
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "deltaMode");
     }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public bool Momentum
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "momentum");
+    }
 }
 
 #nullable disable

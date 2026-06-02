@@ -59,24 +59,24 @@ public partial class RefillCallback: global::Iskra.JSCore.JSObjectProxy
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(RefillCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_574, __res_577) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0, ___res_3) =>
         {
-            using (__args_574)
-            using (__res_577)
+            using (___args_0)
+            using (___res_3)
             {
 
 
-                global::Iskra.JSCore.Promise __managedRes_578 = input();
+                global::Iskra.JSCore.Promise ___managedRes_4 = input();
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_579 = __managedRes_578.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_577, "value", __propObject_579);
+                global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_5 = ___managedRes_4.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___res_3, "value", ___propObject_5);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_576 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_576, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_2 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_2, input); 
 
-        return __funcObj_576;
+        return ___funcObj_2;
     }
 }
 

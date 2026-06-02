@@ -20,13 +20,6 @@ public partial class RequestInit: global::Iskra.JSCore.JSObjectProxy
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.AttributionReportingRequestOptions AttributionReporting
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AttributionReportingRequestOptions, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "attributionReporting");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AttributionReportingRequestOptions, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "attributionReporting", value);
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.StdWeb.IPAddressSpace TargetAddressSpace
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.IPAddressSpace, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "targetAddressSpace");
@@ -136,20 +129,6 @@ public partial class RequestInit: global::Iskra.JSCore.JSObjectProxy
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "window");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "window", value);
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public bool AdAuctionHeaders
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "adAuctionHeaders");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "adAuctionHeaders", value);
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public bool SharedStorageWritable
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sharedStorageWritable");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sharedStorageWritable", value);
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

@@ -61,29 +61,29 @@ public partial class PressureUpdateCallback: global::Iskra.JSCore.JSObjectProxy
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(PressureUpdateCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_290) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0) =>
         {
-            using (__args_290)
+            using (___args_0)
             {
                 // Argument 1
-                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.PropertyAccessor> __arg_292;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_293;
-                __propObject_293 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_290, 0);
-                __arg_292 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.PropertyAccessor>(__propObject_293);
+                global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.PropertyAccessor> ___arg_2;
+                global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3;
+                ___propObject_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(___args_0, 0);
+                ___arg_2 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.PressureRecord, global::Iskra.StdWeb.PropertyAccessor>(___propObject_3);
 
                 // Argument 2
-                global::Iskra.StdWeb.PressureObserver __arg_294;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_295 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_290, 1);
-                __arg_294 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PressureObserver>(__res_295);
+                global::Iskra.StdWeb.PressureObserver ___arg_4;
+                global::System.Runtime.InteropServices.JavaScript.JSObject ___res_5 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(___args_0, 1);
+                ___arg_4 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PressureObserver>(___res_5);
 
-                input(__arg_292, __arg_294);
+                input(___arg_2, ___arg_4);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_296 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_296, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_6 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_6, input);
 
-        return __funcObj_296;
+        return ___funcObj_6;
     }
 }
 

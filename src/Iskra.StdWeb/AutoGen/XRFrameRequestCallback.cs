@@ -62,28 +62,28 @@ public partial class XRFrameRequestCallback: global::Iskra.JSCore.JSObjectProxy
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(XRFrameRequestCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_345) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0) =>
         {
-            using (__args_345)
+            using (___args_0)
             {
                 // Argument 1
-                double __arg_347;
-                double __res_348 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_345, 0);
-                __arg_347 = __res_348;
+                double ___arg_2;
+                double ___res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(___args_0, 0);
+                ___arg_2 = ___res_3;
 
                 // Argument 2
-                global::Iskra.StdWeb.XRFrame __arg_349;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_350 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_345, 1);
-                __arg_349 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(__res_350);
+                global::Iskra.StdWeb.XRFrame ___arg_4;
+                global::System.Runtime.InteropServices.JavaScript.JSObject ___res_5 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(___args_0, 1);
+                ___arg_4 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRFrame>(___res_5);
 
-                input(__arg_347, __arg_349);
+                input(___arg_2, ___arg_4);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_351 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_351, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_6 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_6, input);
 
-        return __funcObj_351;
+        return ___funcObj_6;
     }
 }
 

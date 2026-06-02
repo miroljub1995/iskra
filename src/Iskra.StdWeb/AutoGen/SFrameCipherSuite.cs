@@ -18,6 +18,9 @@ public sealed partial class SFrameCipherSuite
     public static readonly SFrameCipherSuite AES_128_CTR_HMAC_SHA256_32 = new("AES_128_CTR_HMAC_SHA256_32");
     public static readonly SFrameCipherSuite AES_128_GCM_SHA256_128 = new("AES_128_GCM_SHA256_128");
     public static readonly SFrameCipherSuite AES_256_GCM_SHA512_128 = new("AES_256_GCM_SHA512_128");
+    public static readonly SFrameCipherSuite AES_256_CTR_HMAC_SHA512_80 = new("AES_256_CTR_HMAC_SHA512_80");
+    public static readonly SFrameCipherSuite AES_256_CTR_HMAC_SHA512_64 = new("AES_256_CTR_HMAC_SHA512_64");
+    public static readonly SFrameCipherSuite AES_256_CTR_HMAC_SHA512_32 = new("AES_256_CTR_HMAC_SHA512_32");
 
     public override string ToString() => _value;
 
@@ -28,6 +31,9 @@ public sealed partial class SFrameCipherSuite
         "AES_128_CTR_HMAC_SHA256_32" => AES_128_CTR_HMAC_SHA256_32,
         "AES_128_GCM_SHA256_128" => AES_128_GCM_SHA256_128,
         "AES_256_GCM_SHA512_128" => AES_256_GCM_SHA512_128,
+        "AES_256_CTR_HMAC_SHA512_80" => AES_256_CTR_HMAC_SHA512_80,
+        "AES_256_CTR_HMAC_SHA512_64" => AES_256_CTR_HMAC_SHA512_64,
+        "AES_256_CTR_HMAC_SHA512_32" => AES_256_CTR_HMAC_SHA512_32,
         _ => throw new ArgumentException($"Invalid value \"{value}\" for SFrameCipherSuite", nameof(value)),
     };
 }

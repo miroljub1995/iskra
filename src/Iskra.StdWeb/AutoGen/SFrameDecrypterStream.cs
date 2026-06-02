@@ -12,13 +12,6 @@ public partial class SFrameDecrypterStream: global::Iskra.StdWeb.EventTarget
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatformAttribute("browser")]
-    public static global::Iskra.StdWeb.SFrameDecrypterStream New()
-    {
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SFrameDecrypterStream");
-        return new global::Iskra.StdWeb.SFrameDecrypterStream(___res_2);
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatformAttribute("browser")]
     public static global::Iskra.StdWeb.SFrameDecrypterStream New(global::Iskra.StdWeb.SFrameTransformOptions options)
     {
         int ___argsArrayLength_3 = 1;

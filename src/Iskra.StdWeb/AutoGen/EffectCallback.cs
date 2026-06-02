@@ -74,42 +74,42 @@ public partial class EffectCallback: global::Iskra.JSCore.JSObjectProxy
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(EffectCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_459) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0) =>
         {
-            using (__args_459)
+            using (___args_0)
             {
                 // Argument 1
-                double? __arg_461;
-                double? __res_462 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(__args_459, 0);
-                if (__res_462 is null)
+                double? ___arg_2;
+                double? ___res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2AsNullable(___args_0, 0);
+                if (___res_3 is null)
                 {
-                    __arg_461 = null;
+                    ___arg_2 = null;
                 }
                 else
                 {
-                    double __notNullable_463 = (double)__res_462;
-                    __arg_461 = __notNullable_463;
+                    double ___notNullable_4 = (double)___res_3;
+                    ___arg_2 = ___notNullable_4;
                 }
 
                 // Argument 2
-                global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> __arg_464;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __propObject_465;
-                __propObject_465 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(__args_459, 1);
-                __arg_464 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union>(__propObject_465);
+                global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union> ___arg_5;
+                global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_6;
+                ___propObject_6 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2(___args_0, 1);
+                ___arg_5 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.CSSPseudoElement, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_6);
 
                 // Argument 3
-                global::Iskra.StdWeb.Animation __arg_466;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_467 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_459, 2);
-                __arg_466 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Animation>(__res_467);
+                global::Iskra.StdWeb.Animation ___arg_7;
+                global::System.Runtime.InteropServices.JavaScript.JSObject ___res_8 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(___args_0, 2);
+                ___arg_7 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Animation>(___res_8);
 
-                input(__arg_461, __arg_464, __arg_466);
+                input(___arg_2, ___arg_5, ___arg_7);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_468 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_468, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_9 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_9, input);
 
-        return __funcObj_468;
+        return ___funcObj_9;
     }
 }
 

@@ -360,37 +360,7 @@ public partial class PaintWorkletGlobalScope
     public global::Iskra.StdWeb.WebAssemblyNamespace WebAssembly => new global::Iskra.StdWeb.WebAssemblyNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "WebAssembly"));
 }
 
-public partial class InterestGroupBiddingAndScoringScriptRunnerGlobalScope
-{
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.WebAssemblyNamespace WebAssembly => new global::Iskra.StdWeb.WebAssemblyNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "WebAssembly"));
-}
-
-public partial class InterestGroupBiddingScriptRunnerGlobalScope
-{
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.WebAssemblyNamespace WebAssembly => new global::Iskra.StdWeb.WebAssemblyNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "WebAssembly"));
-}
-
-public partial class InterestGroupScoringScriptRunnerGlobalScope
-{
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.WebAssemblyNamespace WebAssembly => new global::Iskra.StdWeb.WebAssemblyNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "WebAssembly"));
-}
-
-public partial class InterestGroupReportingScriptRunnerGlobalScope
-{
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.WebAssemblyNamespace WebAssembly => new global::Iskra.StdWeb.WebAssemblyNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "WebAssembly"));
-}
-
 public partial class RTCIdentityProviderGlobalScope
-{
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.WebAssemblyNamespace WebAssembly => new global::Iskra.StdWeb.WebAssemblyNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "WebAssembly"));
-}
-
-public partial class SharedStorageWorkletGlobalScope
 {
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.StdWeb.WebAssemblyNamespace WebAssembly => new global::Iskra.StdWeb.WebAssemblyNamespace(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(JSObject, "WebAssembly"));

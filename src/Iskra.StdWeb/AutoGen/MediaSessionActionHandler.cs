@@ -57,23 +57,23 @@ public partial class MediaSessionActionHandler: global::Iskra.JSCore.JSObjectPro
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(MediaSessionActionHandlerManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_5) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0) =>
         {
-            using (__args_5)
+            using (___args_0)
             {
                 // Argument 1
-                global::Iskra.StdWeb.MediaSessionActionDetails __arg_7;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_8 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_5, 0);
-                __arg_7 = new global::Iskra.StdWeb.MediaSessionActionDetails(__res_8);
+                global::Iskra.StdWeb.MediaSessionActionDetails ___arg_2;
+                global::System.Runtime.InteropServices.JavaScript.JSObject ___res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(___args_0, 0);
+                ___arg_2 = new global::Iskra.StdWeb.MediaSessionActionDetails(___res_3);
 
-                input(__arg_7);
+                input(___arg_2);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_9 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_9, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_4 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_4, input);
 
-        return __funcObj_9;
+        return ___funcObj_4;
     }
 }
 

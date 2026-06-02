@@ -70,33 +70,33 @@ public partial class TestCallbackPropertiesNonVoidCallback: global::Iskra.JSCore
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(TestCallbackPropertiesNonVoidCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_15, __res_22) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0, ___res_7) =>
         {
-            using (__args_15)
-            using (__res_22)
+            using (___args_0)
+            using (___res_7)
             {
                 // Argument 1
-                int __arg_17;
-                double __res_18 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_15, 0);
-                __arg_17 = Convert.ToInt32(__res_18);
+                int ___arg_2;
+                double ___res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(___args_0, 0);
+                ___arg_2 = Convert.ToInt32(___res_3);
 
                 // Argument 2
-                int __arg_19;
-                double __res_20 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_15, 1);
-                __arg_19 = Convert.ToInt32(__res_20);
+                int ___arg_4;
+                double ___res_5 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(___args_0, 1);
+                ___arg_4 = Convert.ToInt32(___res_5);
 
-                int __managedRes_23 = input(__arg_17, __arg_19);
+                int ___managedRes_8 = input(___arg_2, ___arg_4);
 
-                double __marshalledValue_24;
-                __marshalledValue_24 = Convert.ToDouble(__managedRes_23);
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(__res_22, "value", __marshalledValue_24);
+                double ___marshalledValue_9;
+                ___marshalledValue_9 = Convert.ToDouble(___managedRes_8);
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsDoubleV2(___res_7, "value", ___marshalledValue_9);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_21 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_21, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_6 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_6, input); 
 
-        return __funcObj_21;
+        return ___funcObj_6;
     }
 }
 

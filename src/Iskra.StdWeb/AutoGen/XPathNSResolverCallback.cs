@@ -81,44 +81,44 @@ public partial class XPathNSResolverCallback: global::Iskra.JSCore.JSObjectProxy
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(XPathNSResolverCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_593, __res_599) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0, ___res_6) =>
         {
-            using (__args_593)
-            using (__res_599)
+            using (___args_0)
+            using (___res_6)
             {
                 // Argument 1
-                string? __arg_595;
-                string? __res_596 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(__args_593, 0);
-                if (__res_596 is null)
+                string? ___arg_2;
+                string? ___res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(___args_0, 0);
+                if (___res_3 is null)
                 {
-                    __arg_595 = null;
+                    ___arg_2 = null;
                 }
                 else
                 {
-                    string __notNullable_597 = (string)__res_596;
-                    __arg_595 = __notNullable_597;
+                    string ___notNullable_4 = (string)___res_3;
+                    ___arg_2 = ___notNullable_4;
                 }
 
-                string? __managedRes_600 = input(__arg_595);
+                string? ___managedRes_7 = input(___arg_2);
 
-                string? __marshalledValue_601;
-                if (__managedRes_600 is null)
+                string? ___marshalledValue_8;
+                if (___managedRes_7 is null)
                 {
-                    __marshalledValue_601 = null;
+                    ___marshalledValue_8 = null;
                 }
                 else
                 {
-                    string __notNullable_602 = (string)__managedRes_600;
-                    __marshalledValue_601 = __notNullable_602;
+                    string ___notNullable_9 = (string)___managedRes_7;
+                    ___marshalledValue_8 = ___notNullable_9;
                 }
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(__res_599, "value", __marshalledValue_601);
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2AsNullable(___res_6, "value", ___marshalledValue_8);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_598 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_598, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_5 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_5, input); 
 
-        return __funcObj_598;
+        return ___funcObj_5;
     }
 }
 

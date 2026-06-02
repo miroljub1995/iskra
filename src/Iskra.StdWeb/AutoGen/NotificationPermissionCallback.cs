@@ -57,23 +57,23 @@ public partial class NotificationPermissionCallback: global::Iskra.JSCore.JSObje
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(NotificationPermissionCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_352) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0) =>
         {
-            using (__args_352)
+            using (___args_0)
             {
                 // Argument 1
-                global::Iskra.StdWeb.NotificationPermission __arg_354;
-                string __res_355 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(__args_352, 0);
-                __arg_354 = global::Iskra.StdWeb.NotificationPermission.Create(__res_355);
+                global::Iskra.StdWeb.NotificationPermission ___arg_2;
+                string ___res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(___args_0, 0);
+                ___arg_2 = global::Iskra.StdWeb.NotificationPermission.Create(___res_3);
 
-                input(__arg_354);
+                input(___arg_2);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_356 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_356, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_4 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_4, input);
 
-        return __funcObj_356;
+        return ___funcObj_4;
     }
 }
 

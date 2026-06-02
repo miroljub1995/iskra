@@ -25,6 +25,13 @@ public partial class ToolAnnotations: global::Iskra.JSCore.JSObjectProxy
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readOnlyHint");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readOnlyHint", value);
     }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public bool UntrustedContentHint
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "untrustedContentHint");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "untrustedContentHint", value);
+    }
 }
 
 #nullable disable

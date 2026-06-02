@@ -4,7 +4,7 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class ModelContext: global::Iskra.JSCore.JSObjectProxy
+public partial class ModelContext: global::Iskra.StdWeb.EventTarget
 {
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public ModelContext(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
@@ -44,6 +44,13 @@ public partial class ModelContext: global::Iskra.JSCore.JSObjectProxy
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "registerTool", JSObject, ___argsArray_0.JSObject);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.EventHandlerNonNull? Ontoolchange
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ontoolchange");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.EventHandlerNonNull?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "ontoolchange", value);
     }
 }
 

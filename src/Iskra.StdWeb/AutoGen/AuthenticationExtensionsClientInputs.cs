@@ -104,6 +104,13 @@ public partial class AuthenticationExtensionsClientInputs: global::Iskra.JSCore.
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public string RemoteClientDataJSON
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "remoteClientDataJSON");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "remoteClientDataJSON", value);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.StdWeb.AuthenticationExtensionsPaymentInputs Payment
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AuthenticationExtensionsPaymentInputs, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "payment");

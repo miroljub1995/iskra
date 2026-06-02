@@ -56,6 +56,45 @@
             "preLaunchTask": "build: Iskra.CanvasExample"
         },
         {
+            "name": "Run: Generate JSCore",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/Iskra.WebIDLGenerator/bin/Debug/net10.0/Iskra.WebIDLGenerator",
+            "args": [
+                "generate",
+                "${workspaceFolder}/src/Iskra.JSCore/gensettings.json"
+            ],
+            "cwd": "${workspaceFolder}/src/Iskra.WebIDLGenerator",
+            "stopAtEntry": false,
+            "preLaunchTask": "build: Iskra.WebIDLGenerator"
+        },
+        {
+            "name": "Run: Generate Std.Web",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/Iskra.WebIDLGenerator/bin/Debug/net10.0/Iskra.WebIDLGenerator",
+            "args": [
+                "generate",
+                "${workspaceFolder}/src/Iskra.StdWeb/gensettings.json"
+            ],
+            "cwd": "${workspaceFolder}/src/Iskra.WebIDLGenerator",
+            "stopAtEntry": false,
+            "preLaunchTask": "build: Iskra.WebIDLGenerator"
+        },
+        {
+            "name": "Run: Generate WebIDLGenerator.Tests",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/Iskra.WebIDLGenerator/bin/Debug/net10.0/Iskra.WebIDLGenerator",
+            "args": [
+                "generate",
+                "${workspaceFolder}/src/Iskra.WebIDLGenerator.Tests/gensettings.json"
+            ],
+            "cwd": "${workspaceFolder}/src/Iskra.WebIDLGenerator",
+            "stopAtEntry": false,
+            "preLaunchTask": "build: Iskra.WebIDLGenerator"
+        },
+        {
             "name": "Run: Iskra.Docs",
             "type": "coreclr",
             "request": "launch",

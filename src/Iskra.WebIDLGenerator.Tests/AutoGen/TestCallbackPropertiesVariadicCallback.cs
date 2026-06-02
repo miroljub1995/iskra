@@ -66,37 +66,37 @@ public partial class TestCallbackPropertiesVariadicCallback: global::Iskra.JSCor
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(TestCallbackPropertiesVariadicCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_5) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0) =>
         {
-            using (__args_5)
+            using (___args_0)
             {
                 // Argument 1
-                long __arg_7;
-                double __res_8 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_5, 0);
-                __arg_7 = Convert.ToInt64(__res_8);
+                long ___arg_2;
+                double ___res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(___args_0, 0);
+                ___arg_2 = Convert.ToInt64(___res_3);
 
                 // Argument 2
-                int __length_6 = global::System.Convert.ToInt32(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_5, "length"));
-                int __paramsLength_10 = __length_6 - 1;
-                int[] __arg_9 = new int[__paramsLength_10];
-                for (int __i_11 = 0; __i_11 < __paramsLength_10; __i_11++)
+                int ___length_1 = global::System.Convert.ToInt32(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(___args_0, "length"));
+                int ___paramsLength_5 = ___length_1 - 1;
+                int[] ___arg_4 = new int[___paramsLength_5];
+                for (int ___i_6 = 0; ___i_6 < ___paramsLength_5; ___i_6++)
                 {
-                    int __paramsItem_12;
+                    int ___paramsItem_7;
 
-                    double __res_13 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(__args_5, 1 + __i_11);
-                    __paramsItem_12 = Convert.ToInt32(__res_13);
+                    double ___res_8 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(___args_0, 1 + ___i_6);
+                    ___paramsItem_7 = Convert.ToInt32(___res_8);
 
-                    __arg_9[__i_11] = __paramsItem_12;
+                    ___arg_4[___i_6] = ___paramsItem_7;
                 }
 
-                input(__arg_7, __arg_9);
+                input(___arg_2, ___arg_4);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_14 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_14, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_9 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_9, input);
 
-        return __funcObj_14;
+        return ___funcObj_9;
     }
 }
 

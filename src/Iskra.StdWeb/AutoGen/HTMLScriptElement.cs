@@ -134,13 +134,6 @@ public partial class HTMLScriptElement: global::Iskra.StdWeb.HTMLElement
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "htmlFor");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "htmlFor", value);
     }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public string AttributionSrc
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "attributionSrc");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "attributionSrc", value);
-    }
 }
 
 #nullable disable

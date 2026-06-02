@@ -603,6 +603,12 @@ public partial class Window: global::Iskra.StdWeb.EventTarget
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public void RequestResize()
+    {
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyVoidFunctionProperty(JSObject, "requestResize", JSObject);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.StdWeb.SpeechSynthesis SpeechSynthesis
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SpeechSynthesis, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "speechSynthesis");
@@ -699,12 +705,6 @@ public partial class Window: global::Iskra.StdWeb.EventTarget
 
         // Return Value
         return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.FileSystemDirectoryHandle, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.SharedStorage? SharedStorage
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SharedStorage?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "sharedStorage");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

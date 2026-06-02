@@ -57,23 +57,23 @@ public partial class RTCSessionDescriptionCallback: global::Iskra.JSCore.JSObjec
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(RTCSessionDescriptionCallbackManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_212) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0) =>
         {
-            using (__args_212)
+            using (___args_0)
             {
                 // Argument 1
-                global::Iskra.StdWeb.RTCSessionDescriptionInit __arg_214;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_215 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(__args_212, 0);
-                __arg_214 = new global::Iskra.StdWeb.RTCSessionDescriptionInit(__res_215);
+                global::Iskra.StdWeb.RTCSessionDescriptionInit ___arg_2;
+                global::System.Runtime.InteropServices.JavaScript.JSObject ___res_3 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(___args_0, 0);
+                ___arg_2 = new global::Iskra.StdWeb.RTCSessionDescriptionInit(___res_3);
 
-                input(__arg_214);
+                input(___arg_2);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_216 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_216, input);
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_4 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_4, input);
 
-        return __funcObj_216;
+        return ___funcObj_4;
     }
 }
 

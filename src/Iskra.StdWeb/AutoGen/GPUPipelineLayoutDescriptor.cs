@@ -25,6 +25,13 @@ public partial class GPUPipelineLayoutDescriptor: global::Iskra.StdWeb.GPUObject
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUBindGroupLayout?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bindGroupLayouts");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.GPUBindGroupLayout?, global::Iskra.StdWeb.PropertyAccessorNullable>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "bindGroupLayouts", value);
     }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public uint ImmediateSize
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "immediateSize");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<uint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "immediateSize", value);
+    }
 }
 
 #nullable disable

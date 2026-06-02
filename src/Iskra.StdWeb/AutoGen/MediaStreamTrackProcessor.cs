@@ -32,6 +32,18 @@ public partial class MediaStreamTrackProcessor: global::Iskra.JSCore.JSObjectPro
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ReadableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readable");
     }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public ulong DiscardedFrames
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "discardedFrames");
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public ulong TotalFrames
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ulong, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "totalFrames");
+    }
 }
 
 #nullable disable

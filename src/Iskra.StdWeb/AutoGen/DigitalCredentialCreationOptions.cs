@@ -20,7 +20,7 @@ public partial class DigitalCredentialCreationOptions: global::Iskra.JSCore.JSOb
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DigitalCredentialCreateRequest, global::Iskra.StdWeb.PropertyAccessor> Requests
+    public required global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DigitalCredentialCreateRequest, global::Iskra.StdWeb.PropertyAccessor> Requests
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DigitalCredentialCreateRequest, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "requests");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.DigitalCredentialCreateRequest, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "requests", value);

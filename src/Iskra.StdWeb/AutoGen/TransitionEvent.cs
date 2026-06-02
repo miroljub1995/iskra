@@ -65,6 +65,12 @@ public partial class TransitionEvent: global::Iskra.StdWeb.Event
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pseudoElement");
     }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.CSSTransition? Animation
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSTransition?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "animation");
+    }
 }
 
 #nullable disable

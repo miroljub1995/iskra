@@ -58,25 +58,25 @@ public partial class CustomElementConstructor: global::Iskra.JSCore.JSObjectProx
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     private static global::System.Runtime.InteropServices.JavaScript.JSObject ToJSObject(CustomElementConstructorManaged input)
     {
-        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (__args_475, __res_478) =>
+        Action<global::System.Runtime.InteropServices.JavaScript.JSObject, global::System.Runtime.InteropServices.JavaScript.JSObject> callback = (___args_0, ___res_3) =>
         {
-            using (__args_475)
-            using (__res_478)
+            using (___args_0)
+            using (___res_3)
             {
 
 
-                global::Iskra.StdWeb.HTMLElement __managedRes_479 = input();
+                global::Iskra.StdWeb.HTMLElement ___managedRes_4 = input();
 
-                global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_480;
-                __marshalledValue_480 = __managedRes_479.JSObject;
-                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__res_478, "value", __marshalledValue_480);
+                global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_5;
+                ___marshalledValue_5 = ___managedRes_4.JSObject;
+                global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___res_3, "value", ___marshalledValue_5);
             }
         };
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject __funcObj_477 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(__funcObj_477, input); 
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___funcObj_2 = global::Iskra.JSCore.Extensions.JSFunctionExtensions.WrapAsNonVoidFunction(callback);
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.StoreManagedFunctionToProperty(___funcObj_2, input); 
 
-        return __funcObj_477;
+        return ___funcObj_2;
     }
 }
 

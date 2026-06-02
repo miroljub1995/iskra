@@ -32,6 +32,13 @@ public partial class SpeechRecognitionOptions: global::Iskra.JSCore.JSObjectProx
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "processLocally");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "processLocally", value);
     }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.SpeechRecognitionQuality Quality
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SpeechRecognitionQuality, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "quality");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.SpeechRecognitionQuality, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "quality", value);
+    }
 }
 
 #nullable disable

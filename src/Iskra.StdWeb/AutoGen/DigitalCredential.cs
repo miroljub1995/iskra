@@ -23,9 +23,9 @@ public partial class DigitalCredential: global::Iskra.StdWeb.Credential
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public string Protocol
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.DigitalCredentialPresentationProtocol, global::Iskra.StdWeb.DigitalCredentialIssuanceProtocol, global::Iskra.StdWeb.GenericMarshaller.Union> Protocol
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "protocol");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.DigitalCredentialPresentationProtocol, global::Iskra.StdWeb.DigitalCredentialIssuanceProtocol, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "protocol");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

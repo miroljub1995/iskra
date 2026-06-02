@@ -65,6 +65,12 @@ public partial class AnimationEvent: global::Iskra.StdWeb.Event
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<string, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "pseudoElement");
     }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.CSSAnimation? Animation
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CSSAnimation?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "animation");
+    }
 }
 
 #nullable disable

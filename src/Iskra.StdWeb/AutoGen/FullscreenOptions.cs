@@ -20,6 +20,13 @@ public partial class FullscreenOptions: global::Iskra.JSCore.JSObjectProxy
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.FullscreenKeyboardLock KeyboardLock
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FullscreenKeyboardLock, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "keyboardLock");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.FullscreenKeyboardLock, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "keyboardLock", value);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.StdWeb.FullscreenNavigationUI NavigationUI
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.FullscreenNavigationUI, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "navigationUI");
