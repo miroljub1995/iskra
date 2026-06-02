@@ -16,12 +16,12 @@ public class Header : BaseComponent<HeaderProps, NoEvents, NoSlots, NoExpose>
         [
             new Img
             {
-                Props = new ImgProps { Src = new Signal<string>(WwwRoot.Assets_Icon_Png) },
+                Props = new ImgProps { Src = WwwRoot.Assets_Icon_Png.ToConstSignal() },
             },
             new H1
             {
                 Props = new H1Props(),
-                Children = [new DomText { Text = new Signal<string>("Iskra Documentation") }],
+                Children = [new DomText { Text = "Iskra Documentation".ToConstSignal() }],
             },
         ];
     }

@@ -22,7 +22,7 @@ public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose
         [
             new Html
             {
-                Props = new HtmlProps { Lang = new Signal<string>("en") },
+                Props = new HtmlProps { Lang = "en".ToConstSignal() },
                 Children =
                 [
                     new Head
@@ -34,21 +34,21 @@ public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose
                             {
                                 Props = new MetaProps
                                 {
-                                    HttpEquiv = new Signal<string>("Content-Type"),
-                                    Content = new Signal<string>("text/html; charset=utf-8"),
+                                    HttpEquiv = "Content-Type".ToConstSignal(),
+                                    Content = "text/html; charset=utf-8".ToConstSignal(),
                                 },
                             },
                             new Title
                             {
                                 Props = new TitleProps(),
-                                Children = [new DomText { Text = new Signal<string>("Iskra Docs (SSR)") }],
+                                Children = [new DomText { Text = "Iskra Docs (SSR)".ToConstSignal() }],
                             },
                             new MainScript(),
                             new HydrationStateScript(),
                             new Style
                             {
                                 Props = new StyleProps(),
-                                Children = [new DomText { Text = new Signal<string>(Styles.GetCss()) }],
+                                Children = [new DomText { Text = Styles.GetCss().ToConstSignal() }],
                             },
                         ],
                     },
@@ -59,7 +59,7 @@ public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose
                         [
                             new Div
                             {
-                                Props = new DivProps { Id = new Signal<string>("app") },
+                                Props = new DivProps { Id = "app".ToConstSignal() },
                                 Children = [new DocsApp { Props = new DocsAppProps() }],
                             },
                             new BrowserRefreshScript(),

@@ -17,12 +17,12 @@ public class HomePage : BaseComponent<HomePageProps, NoEvents, NoSlots, NoExpose
             new H2
             {
                 Props = new H2Props(),
-                Children = [new DomText { Text = new Signal<string>("Home") }],
+                Children = [new DomText { Text = "Home".ToConstSignal() }],
             },
             new P
             {
                 Props = new PProps(),
-                Children = [new DomText { Text = new Signal<string>("Welcome to Iskra — a reactive UI framework for .NET.") }],
+                Children = [new DomText { Text = "Welcome to Iskra — a reactive UI framework for .NET.".ToConstSignal() }],
             },
         ];
     }

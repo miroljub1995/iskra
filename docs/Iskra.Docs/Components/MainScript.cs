@@ -27,12 +27,12 @@ public sealed class MainScript : IComponent
 
         _script = new Script
         {
-            Props = new ScriptProps { Type = new Signal<string>("module") },
-            Children = [new DomText { Text = new Signal<string>($$"""
+            Props = new ScriptProps { Type = "module".ToConstSignal() },
+            Children = [new DomText { Text = $$"""
                 import { dotnet } from '{{dotnetJsPath}}'
                 const { runMain } = await dotnet.create();
                 await runMain();
-                """) }],
+                """.ToConstSignal() }],
         };
 
         _script.Mount(slot);

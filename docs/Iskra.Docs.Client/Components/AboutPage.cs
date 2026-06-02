@@ -17,12 +17,12 @@ public class AboutPage : BaseComponent<AboutPageProps, NoEvents, NoSlots, NoExpo
             new H2
             {
                 Props = new H2Props(),
-                Children = [new DomText { Text = new Signal<string>("About") }],
+                Children = [new DomText { Text = "About".ToConstSignal() }],
             },
             new P
             {
                 Props = new PProps(),
-                Children = [new DomText { Text = new Signal<string>("Iskra is a reactive UI framework for .NET that supports both server-side rendering and client-side interactivity.") }],
+                Children = [new DomText { Text = "Iskra is a reactive UI framework for .NET that supports both server-side rendering and client-side interactivity.".ToConstSignal() }],
             },
         ];
     }

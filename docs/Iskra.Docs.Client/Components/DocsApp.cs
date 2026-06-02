@@ -22,7 +22,7 @@ public class DocsApp : BaseComponent<DocsAppProps, NoEvents, NoSlots, NoExpose>
         [
             new Main
             {
-                Props = new MainProps { Class = new Signal<string>("max-w-4xl mx-auto p-6") },
+                Props = new MainProps { Class = "max-w-4xl mx-auto p-6".ToConstSignal() },
                 Children =
                 [
                     new Header
@@ -36,7 +36,7 @@ public class DocsApp : BaseComponent<DocsAppProps, NoEvents, NoSlots, NoExpose>
                         [
                             new A
                             {
-                                Props = new AProps { Href = new Signal<string>("/") },
+                                Props = new AProps { Href = "/".ToConstSignal() },
                                 Events = new AEvents
                                 {
                                     OnClick = (e) =>
@@ -46,11 +46,11 @@ public class DocsApp : BaseComponent<DocsAppProps, NoEvents, NoSlots, NoExpose>
                                         navigation.PushAsync("/");
                                     },
                                 },
-                                Children = [new DomText { Text = new Signal<string>("Home") }],
+                                Children = [new DomText { Text = "Home".ToConstSignal() }],
                             },
                             new A
                             {
-                                Props = new AProps { Href = new Signal<string>("/about") },
+                                Props = new AProps { Href = "/about".ToConstSignal() },
                                 Events = new AEvents
                                 {
                                     OnClick = (e) =>
@@ -60,7 +60,7 @@ public class DocsApp : BaseComponent<DocsAppProps, NoEvents, NoSlots, NoExpose>
                                         navigation.PushAsync("/about");
                                     },
                                 },
-                                Children = [new DomText { Text = new Signal<string>("About") }],
+                                Children = [new DomText { Text = "About".ToConstSignal() }],
                             },
                         ],
                     },
