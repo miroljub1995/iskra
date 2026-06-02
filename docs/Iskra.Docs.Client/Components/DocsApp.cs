@@ -1,9 +1,7 @@
 using Iskra.Core.Components;
 using Iskra.Core.DomComponents;
-using Iskra.Core.Features;
 using Iskra.Core.Features.Routing;
 using Iskra.Signals;
-using Iskra.StdWeb;
 
 namespace Iskra.Docs.Client.Components;
 
@@ -15,68 +13,48 @@ public class DocsApp : BaseComponent<DocsAppProps, NoEvents, NoSlots, NoExpose>
     {
         exposed = default;
 
-        var navigation = AppFeatures.Features.Get<INavigationFeature>()
-            ?? throw new InvalidOperationException("INavigationFeature is not registered.");
-
         return
         [
-            new Main
+            new AppHeader
             {
-                Props = new MainProps { Class = "max-w-4xl mx-auto p-6".ToConstSignal() },
+                Props = new AppHeaderProps(),
+            },
+            new Div
+            {
+                Props = new DivProps
+                {
+                    Class = "flex min-h-[calc(100vh-4rem)]".ToConstSignal(),
+                },
                 Children =
                 [
-                    new Header
+                    new Sidebar
                     {
-                        Props = new HeaderProps(),
+                        Props = new SidebarProps(),
                     },
-                    new Nav
+                    // Main content
+                    new Main
                     {
-                        Props = new NavProps(),
+                        Props = new MainProps
+                        {
+                            Class = "flex-1 px-4 sm:px-8 py-8 max-w-4xl".ToConstSignal(),
+                        },
                         Children =
                         [
-                            new A
+                            new Routes
                             {
-                                Props = new AProps { Href = "/".ToConstSignal() },
-                                Events = new AEvents
-                                {
-                                    OnClick = (e) =>
+                                Items =
+                                [
+                                    new Route
                                     {
-                                        if (!OperatingSystem.IsBrowser()) return;
-                                        e.PreventDefault();
-                                        navigation.PushAsync("/");
+                                        Pattern = "/",
+                                        Render = () => [new HomePage { Props = new HomePageProps() }],
                                     },
-                                },
-                                Children = [new DomText { Text = "Home".ToConstSignal() }],
-                            },
-                            new A
-                            {
-                                Props = new AProps { Href = "/about".ToConstSignal() },
-                                Events = new AEvents
-                                {
-                                    OnClick = (e) =>
+                                    new Route
                                     {
-                                        if (!OperatingSystem.IsBrowser()) return;
-                                        e.PreventDefault();
-                                        navigation.PushAsync("/about");
+                                        Pattern = "/setup",
+                                        Render = () => [new SetupPage { Props = new SetupPageProps() }],
                                     },
-                                },
-                                Children = [new DomText { Text = "About".ToConstSignal() }],
-                            },
-                        ],
-                    },
-                    new Routes
-                    {
-                        Items =
-                        [
-                            new Route
-                            {
-                                Pattern = "/",
-                                Render = () => [new HomePage { Props = new HomePageProps() }],
-                            },
-                            new Route
-                            {
-                                Pattern = "/about",
-                                Render = () => [new AboutPage { Props = new AboutPageProps() }],
+                                ],
                             },
                         ],
                     },
