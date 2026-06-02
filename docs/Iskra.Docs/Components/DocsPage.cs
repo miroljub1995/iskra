@@ -54,7 +54,10 @@ public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose
                     },
                     new Body
                     {
-                        Props = new BodyProps(),
+                        Props = new BodyProps
+                        {
+                            Class = "bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100".ToConstSignal(),
+                        },
                         Children =
                         [
                             new Div

@@ -4,9 +4,7 @@ using Iskra.Signals;
 
 namespace Iskra.Docs.Client.Components;
 
-public class SidebarProps { }
-
-public class Sidebar : BaseComponent<SidebarProps, NoEvents, NoSlots, NoExpose>
+public class Sidebar : BaseComponent<NoProps, NoEvents, NoSlots, NoExpose>
 {
     protected override IComponent[] Setup(out NoExpose exposed)
     {
@@ -18,7 +16,7 @@ public class Sidebar : BaseComponent<SidebarProps, NoEvents, NoSlots, NoExpose>
             {
                 Props = new NavProps
                 {
-                    Class = "hidden md:flex flex-col gap-1 w-56 shrink-0 border-r border-gray-200 px-4 py-6 bg-gray-50/50".ToConstSignal(),
+                    Class = "hidden md:flex flex-col gap-1 w-56 shrink-0 border-r border-gray-200 dark:border-gray-700 px-4 py-6 bg-gray-50/50 dark:bg-gray-900/50".ToConstSignal(),
                 },
                 Children =
                 [
@@ -26,8 +24,8 @@ public class Sidebar : BaseComponent<SidebarProps, NoEvents, NoSlots, NoExpose>
                     {
                         Props = new NavItemsProps
                         {
-                            LinkClass = "px-3 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors",
-                            ActiveLinkClass = "px-3 py-2 rounded-lg text-sm font-medium text-indigo-600 bg-indigo-50 transition-colors",
+                            LinkClass = "px-3 py-2 rounded-lg text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors",
+                            ActiveLinkClass = "px-3 py-2 rounded-lg text-sm font-medium text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950 transition-colors",
                         },
                     },
                 ],

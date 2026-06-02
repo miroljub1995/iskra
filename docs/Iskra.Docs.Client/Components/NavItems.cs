@@ -25,7 +25,7 @@ public class NavItems : BaseComponent<NavItemsProps, NavItemsEvents, NoSlots, No
     internal static readonly NavItem[] All =
     [
         new("Home", "/"),
-        new("Setup", "/setup"),
+        new("Quick Start", "/quick-start"),
     ];
 
     protected override IComponent[] Setup(out NoExpose exposed)

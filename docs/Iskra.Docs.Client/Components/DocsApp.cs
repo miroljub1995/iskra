@@ -23,13 +23,13 @@ public class DocsApp : BaseComponent<DocsAppProps, NoEvents, NoSlots, NoExpose>
             {
                 Props = new DivProps
                 {
-                    Class = "flex min-h-[calc(100vh-4rem)]".ToConstSignal(),
+                    Class = "flex min-h-[calc(100vh-4rem)] bg-white dark:bg-gray-950".ToConstSignal(),
                 },
                 Children =
                 [
                     new Sidebar
                     {
-                        Props = new SidebarProps(),
+                        Props = new NoProps(),
                     },
                     // Main content
                     new Main
@@ -51,8 +51,8 @@ public class DocsApp : BaseComponent<DocsAppProps, NoEvents, NoSlots, NoExpose>
                                     },
                                     new Route
                                     {
-                                        Pattern = "/setup",
-                                        Render = () => [new SetupPage { Props = new SetupPageProps() }],
+                                        Pattern = "/quick-start",
+                                        Render = () => [new QuickStart { Props = new QuickStartProps() }],
                                     },
                                 ],
                             },

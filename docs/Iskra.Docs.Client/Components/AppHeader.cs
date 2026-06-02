@@ -30,7 +30,7 @@ public class AppHeader : BaseComponent<AppHeaderProps, NoEvents, NoSlots, NoExpo
             {
                 Props = new HeaderProps
                 {
-                    Class = "bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50".ToConstSignal(),
+                    Class = "bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50".ToConstSignal(),
                 },
                 Children =
                 [
@@ -75,7 +75,7 @@ public class AppHeader : BaseComponent<AppHeaderProps, NoEvents, NoSlots, NoExpo
                                     {
                                         Props = new SpanProps
                                         {
-                                            Class = "text-xl font-bold text-gray-900 tracking-tight".ToConstSignal(),
+                                            Class = "text-xl font-bold text-gray-900 dark:text-white tracking-tight".ToConstSignal(),
                                         },
                                         Children = [new DomText { Text = "Iskra".ToConstSignal() }],
                                     },
@@ -86,7 +86,7 @@ public class AppHeader : BaseComponent<AppHeaderProps, NoEvents, NoSlots, NoExpo
                             {
                                 Props = new ButtonProps
                                 {
-                                    Class = "md:hidden inline-flex items-center justify-center rounded-lg p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors".ToConstSignal(),
+                                    Class = "md:hidden inline-flex items-center justify-center rounded-lg p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors".ToConstSignal(),
                                 },
                                 Events = new ButtonEvents
                                 {
@@ -145,8 +145,8 @@ public class AppHeader : BaseComponent<AppHeaderProps, NoEvents, NoSlots, NoExpo
                             {
                                 Props = new NavItemsProps
                                 {
-                                    LinkClass = "block px-3 py-2 rounded-lg text-base font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors",
-                                    ActiveLinkClass = "block px-3 py-2 rounded-lg text-base font-medium text-indigo-600 bg-indigo-50 transition-colors",
+                                    LinkClass = "block px-3 py-2 rounded-lg text-base font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors",
+                                    ActiveLinkClass = "block px-3 py-2 rounded-lg text-base font-medium text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950 transition-colors",
                                 },
                                 Events = new NavItemsEvents
                                 {
