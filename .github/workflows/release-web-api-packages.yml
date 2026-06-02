@@ -1,0 +1,151 @@
+name: Release Web API Packages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  packages: read
+
+jobs:
+  release:
+    name: Release Iskra.JSCore and Iskra.StdWeb
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v5
+        with:
+          global-json-file: global.json
+
+      - name: Resolve release version from StdWeb
+        id: version
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          version=$(dotnet msbuild src/Iskra.StdWeb/Iskra.StdWeb.csproj -nologo -v:q -getProperty:Version | tr -d '\r\n')
+          if [[ -z "$version" ]]; then
+            echo "Failed to resolve Version from src/Iskra.StdWeb/Iskra.StdWeb.csproj"
+            exit 1
+          fi
+
+          tag="stdweb/v${version}"
+
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
+          echo "Resolved version: $version"
+          echo "Release tag: $tag"
+
+      - name: Check if GitHub release already exists
+        id: release_check
+        uses: actions/github-script@v9
+        env:
+          RELEASE_TAG: ${{ steps.version.outputs.tag }}
+        with:
+          script: |
+            const tag = process.env.RELEASE_TAG;
+
+            try {
+              await github.rest.repos.getReleaseByTag({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                tag
+              });
+
+              core.info(`Release already exists for tag ${tag}. Skipping pipeline.`);
+              core.setOutput('exists', 'true');
+            } catch (error) {
+              if (error.status === 404) {
+                core.info(`No release found for tag ${tag}. Continuing.`);
+                core.setOutput('exists', 'false');
+              } else {
+                throw error;
+              }
+            }
+
+      - name: Stop early because release exists
+        if: steps.release_check.outputs.exists == 'true'
+        shell: bash
+        run: |
+          echo "Release ${{ steps.version.outputs.tag }} already exists. Skipping build and publish steps."
+
+      - name: Restore packages
+        if: steps.release_check.outputs.exists != 'true'
+        shell: bash
+        run: |
+          dotnet restore src/Iskra.JSCore/Iskra.JSCore.csproj
+          dotnet restore src/Iskra.StdWeb/Iskra.StdWeb.csproj
+
+      - name: Build packages
+        if: steps.release_check.outputs.exists != 'true'
+        shell: bash
+        run: |
+          dotnet build src/Iskra.JSCore/Iskra.JSCore.csproj -c Release --no-restore
+          dotnet build src/Iskra.StdWeb/Iskra.StdWeb.csproj -c Release --no-restore
+
+      - name: Pack NuGet packages
+        if: steps.release_check.outputs.exists != 'true'
+        shell: bash
+        run: |
+          mkdir -p artifacts/nuget
+
+          dotnet pack src/Iskra.JSCore/Iskra.JSCore.csproj -c Release --no-build -o artifacts/nuget
+          dotnet pack src/Iskra.StdWeb/Iskra.StdWeb.csproj -c Release --no-build -o artifacts/nuget
+
+      - name: Upload package artifacts
+        if: steps.release_check.outputs.exists != 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: nuget-packages-${{ steps.version.outputs.version }}
+          path: artifacts/nuget/*
+
+      - name: Publish packages to NuGet
+        if: steps.release_check.outputs.exists != 'true'
+        env:
+          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          shopt -s nullglob
+          packages=(artifacts/nuget/*.nupkg artifacts/nuget/*.snupkg)
+
+          if [[ ${#packages[@]} -eq 0 ]]; then
+            echo "No packages found to publish."
+            exit 1
+          fi
+
+          for package in "${packages[@]}"; do
+            dotnet nuget push "$package" \
+              --source https://api.nuget.org/v3/index.json \
+              --api-key "$NUGET_API_KEY" \
+              --skip-duplicate
+          done
+
+      - name: Create GitHub release
+        if: steps.release_check.outputs.exists != 'true'
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: ${{ steps.version.outputs.tag }}
+          generate_release_notes: true
+          files: |
+            artifacts/nuget/*.nupkg
+            artifacts/nuget/*.snupkg
+
+      - name: Workflow summary
+        shell: bash
+        run: |
+          {
+            echo "## Release Summary"
+            echo "- Version: ${{ steps.version.outputs.version }}"
+            echo "- Tag: ${{ steps.version.outputs.tag }}"
+            echo "- Release exists: ${{ steps.release_check.outputs.exists }}"
+          } >> "$GITHUB_STEP_SUMMARY"
