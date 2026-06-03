@@ -98,6 +98,19 @@
                 "panel": "shared"
             },
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch: Iskra.Docs",
+            "type": "shell",
+            "command": "dotnet watch run --non-interactive --framework net10.0",
+            "options": {
+                "cwd": "${workspaceFolder}/docs/Iskra.Docs"
+            },
+            "isBackground": true,
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            }
         }
     ]
 }

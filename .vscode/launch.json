@@ -107,25 +107,6 @@
                 "action": "openExternally",
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
             }
-        },
-        {
-            "name": "Watch: Iskra.Docs",
-            "type": "coreclr",
-            "request": "launch",
-            "program": "dotnet",
-            "args": [
-                "watch",
-                "run",
-                "--non-interactive",
-                "--framework",
-                "net10.0"
-            ],
-            "cwd": "${workspaceFolder}/docs/Iskra.Docs",
-            "stopAtEntry": false,
-            "serverReadyAction": {
-                "action": "openExternally",
-                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
-            }
         }
     ]
 }
