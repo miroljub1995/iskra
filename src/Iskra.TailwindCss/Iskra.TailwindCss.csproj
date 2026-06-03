@@ -1,5 +1,28 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup>
+    <!-- NuGet Package Configuration -->
+    <IsPackable>true</IsPackable>
+    <PackageId>Iskra.TailwindCss</PackageId>
+    <Version>$(IskraTailwindVersion)</Version>
+    <Authors>miroljub1995</Authors>
+    <Description>Tailwind CSS integration for Iskra with source generator support for strongly-typed utility usage.</Description>
+    <PackageTags>tailwindcss;css;webassembly;wasm;dotnet;iskra</PackageTags>
+    <PackageProjectUrl>https://github.com/miroljub1995/iskra</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/miroljub1995/iskra</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Iskra.TailwindCss.Generators\Iskra.TailwindCss.Generators.csproj"
                       ReferenceOutputAssembly="false" />
