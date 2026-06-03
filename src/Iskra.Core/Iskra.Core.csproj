@@ -36,7 +36,7 @@
   </ItemGroup>
   <!-- Bundle static asset targets for NuGet consumers -->
   <ItemGroup>
-    <None Include="targets\Iskra.Core.StaticAssets.targets" Pack="true" PackagePath="build\" Visible="false" />
-    <None Include="targets\Iskra.Core.StaticAssets.targets" Pack="true" PackagePath="buildTransitive\" Visible="false" />
+    <None Include="targets\Iskra.Core.StaticAssets.targets" Pack="true" PackagePath="build/Iskra.Core.targets" Visible="false" />
+    <None Include="targets\Iskra.Core.StaticAssets.targets" Pack="true" PackagePath="buildTransitive/Iskra.Core.targets" Visible="false" />
   </ItemGroup>
 </Project>
