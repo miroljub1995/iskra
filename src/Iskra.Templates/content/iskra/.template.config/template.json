@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "miroljub1995",
+  "classifications": [
+    "Web",
+    "WASM",
+    "Iskra",
+    "Tailwind"
+  ],
+  "name": "Iskra Web App",
+  "identity": "Iskra.Templates.WebApp",
+  "shortName": "iskra",
+  "sourceName": "MyIskraApp",
+  "defaultName": "MyIskraApp",
+  "preferNameDirectory": false,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

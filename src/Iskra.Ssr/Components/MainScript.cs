@@ -5,9 +5,10 @@ using Iskra.Core.RenderRoot;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.StaticAssets;
+using Microsoft.Extensions.DependencyInjection;
 using Iskra.Signals;
 
-namespace Iskra.Docs.Components;
+namespace Iskra.Ssr.Components;
 
 public sealed class MainScript : IComponent
 {

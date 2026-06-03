@@ -33,4 +33,18 @@
           Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
   </ItemGroup>
 
+  <!-- Bundle targets so generator runtime path is configured transitively for consumers -->
+  <ItemGroup>
+    <None Include="..\Iskra.TailwindCss.Generators\targets\Iskra.TailwindCss.Generators.targets"
+          Pack="true" PackagePath="build/Iskra.TailwindCss.targets" Visible="false" />
+    <None Include="..\Iskra.TailwindCss.Generators\targets\Iskra.TailwindCss.Generators.targets"
+          Pack="true" PackagePath="buildTransitive/Iskra.TailwindCss.targets" Visible="false" />
+  </ItemGroup>
+
+  <!-- Bundle native Tailwind compiler runtimes consumed by the source generator -->
+  <ItemGroup>
+    <None Include="..\Iskra.TailwindCss.Generators\runtimes\**\*"
+      Pack="true" PackagePath="runtimes/" Visible="false" />
+  </ItemGroup>
+
 </Project>

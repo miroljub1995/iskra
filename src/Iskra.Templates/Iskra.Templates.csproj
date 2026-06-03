@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net10.0</TargetFrameworks>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <!-- Ensure hidden template directories like .template.config are packable. -->
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+
+    <!-- NuGet Package Configuration -->
+    <IsPackable>true</IsPackable>
+    <PackageType>Template</PackageType>
+    <PackageId>Iskra.Templates</PackageId>
+    <Version>$(IskraTemplatesVersion)</Version>
+    <Authors>miroljub1995</Authors>
+    <Description>dotnet new templates for Iskra applications, including a docs-style server + client scaffold with Tailwind CSS.</Description>
+    <PackageTags>template;dotnet-new;iskra;webassembly;wasm;tailwindcss</PackageTags>
+    <PackageProjectUrl>https://github.com/miroljub1995/iskra</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/miroljub1995/iskra</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="content\**\*" Pack="true" PackagePath="content" />
+  </ItemGroup>
+</Project>

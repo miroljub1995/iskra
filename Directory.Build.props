@@ -13,6 +13,7 @@
         <IskraApiVersion Condition="'$(IskraApiVersion)' == ''">0.3.0</IskraApiVersion>
         <IskraCoreVersion Condition="'$(IskraCoreVersion)' == ''">0.1.0</IskraCoreVersion>
         <IskraTailwindVersion Condition="'$(IskraTailwindVersion)' == ''">0.1.0</IskraTailwindVersion>
+        <IskraTemplatesVersion Condition="'$(IskraTemplatesVersion)' == ''">0.1.0</IskraTemplatesVersion>
 
         <!-- By default, don't create NuGet packages for projects -->
         <IsPackable>false</IsPackable>

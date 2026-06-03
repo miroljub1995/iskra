@@ -2,18 +2,18 @@ using Iskra.Core.Components;
 using Iskra.Core.DomComponents;
 using Iskra.Core.Features.HydrationState;
 using Iskra.Core.HotReload;
-using Iskra.Docs.Client;
-using Iskra.Docs.Client.Components;
 using Iskra.Ssr.Components;
+using MyIskraApp.Client;
+using MyIskraApp.Client.Components;
 using Iskra.Signals;
 
-namespace Iskra.Docs.Components;
+namespace MyIskraApp.Components;
 
-public class DocsPageProps
+public class AppPageProps
 {
 }
 
-public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose>
+public class AppPage : BaseComponent<AppPageProps, NoEvents, NoSlots, NoExpose>
 {
     protected override IComponent[] Setup(out NoExpose exposed)
     {
@@ -42,7 +42,7 @@ public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose
                             new Title
                             {
                                 Props = new TitleProps(),
-                                Children = [new DomText { Text = "Iskra Docs (SSR)".ToConstSignal() }],
+                                Children = [new DomText { Text = "MyIskraApp".ToConstSignal() }],
                             },
                             new MainScript(),
                             new HydrationStateScript(),
@@ -64,7 +64,7 @@ public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose
                             new Div
                             {
                                 Props = new DivProps { Id = "app".ToConstSignal() },
-                                Children = [new DocsApp { Props = new DocsAppProps() }],
+                                Children = [new App { Props = new AppProps() }],
                             },
                             new BrowserRefreshScript(),
                         ],

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- NuGet Package Configuration -->
+    <IsPackable>true</IsPackable>
+    <PackageId>Iskra.Ssr</PackageId>
+    <Version>$(IskraCoreVersion)</Version>
+    <Authors>miroljub1995</Authors>
+    <Description>Server-side rendering helpers for Iskra that depend on ASP.NET Core hosting and static assets infrastructure.</Description>
+    <PackageTags>webassembly;wasm;dotnet;ssr;aspnetcore;iskra</PackageTags>
+    <PackageProjectUrl>https://github.com/miroljub1995/iskra</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/miroljub1995/iskra</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Iskra.Core\Iskra.Core.csproj" />
+  </ItemGroup>
+</Project>

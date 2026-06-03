@@ -6,7 +6,8 @@ The repository is split into a few focused projects:
 
 - [src/Iskra.JSCore](src/Iskra.JSCore/) provides the JavaScript proxy system, type marshalling, and low-level interop utilities.
 - [src/Iskra.StdWeb](src/Iskra.StdWeb/) contains generated C# bindings for standard Web APIs such as DOM, Fetch, Canvas, WebGL, and related browser interfaces.
-- [src/Iskra.Core](src/Iskra.Core/) contains the component model, DOM components, render roots, server-side rendering primitives, and feature infrastructure.
+- [src/Iskra.Core](src/Iskra.Core/) contains the component model, DOM components, render roots, and feature infrastructure.
+- [src/Iskra.Ssr](src/Iskra.Ssr/) contains server-side rendering helpers for ASP.NET Core hosted Iskra applications.
 - [src/Iskra.CoreExample](src/Iskra.CoreExample/) is a browser WebAssembly client app that exercises the Core component layer.
 - [src/Iskra.Signals](src/Iskra.Signals/) provides reactive primitives used by the component layer.
 - [src/Iskra.WebIDLGenerator](src/Iskra.WebIDLGenerator/) generates C# bindings from WebIDL definitions.
@@ -45,6 +46,14 @@ document.Body?.AppendChild(div);
 
 See [src/Iskra.StdWeb/README.md](src/Iskra.StdWeb/README.md) for the full StdWeb overview.
 For component-based browser client apps, see [src/Iskra.Core/README.md](src/Iskra.Core/README.md).
+
+You can also bootstrap a docs-style Iskra app (server + client + Tailwind) with the template package:
+
+```bash
+dotnet new install Iskra.Templates
+dotnet new iskra -n MyIskraApp
+dotnet run --project MyIskraApp/MyIskraApp.csproj
+```
 
 ## Examples
 

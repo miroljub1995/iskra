@@ -58,6 +58,34 @@
             "problemMatcher": "$msCompile"
         },
         {
+            "label": "build: Iskra.Ssr",
+            "type": "shell",
+            "command": "dotnet build Iskra.Ssr/Iskra.Ssr.csproj -f net10.0",
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build: Iskra.Templates",
+            "type": "shell",
+            "command": "dotnet build Iskra.Templates/Iskra.Templates.csproj -f net10.0",
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "build: Iskra.TodoExample",
             "type": "shell",
             "command": "dotnet build Iskra.TodoExample.csproj",
