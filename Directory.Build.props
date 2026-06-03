@@ -11,6 +11,7 @@
         <WarningsNotAsErrors>CS8620;CS8625;IL3000</WarningsNotAsErrors>
 
         <IskraApiVersion Condition="'$(IskraApiVersion)' == ''">0.3.0</IskraApiVersion>
+        <IskraCoreVersion Condition="'$(IskraCoreVersion)' == ''">0.1.0</IskraCoreVersion>
 
         <!-- By default, don't create NuGet packages for projects -->
         <IsPackable>false</IsPackable>
