@@ -185,10 +185,6 @@ public static partial class GenericMarshaller
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Path2D>,
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D>,
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Event>,
-        global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Window>,
-        global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.FenceEvent>,
-        global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.AutoKeyword>,
-        global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.ProcessingInstruction>,
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Sanitizer>,
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerConfig>,
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerPresets>,
@@ -196,6 +192,10 @@ public static partial class GenericMarshaller
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerElementNamespace>,
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerProcessingInstruction>,
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerAttributeNamespace>,
+        global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Window>,
+        global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.FenceEvent>,
+        global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.AutoKeyword>,
+        global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.ProcessingInstruction>,
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.IDBObjectStore>,
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.IDBIndex>,
         global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.IDBCursor>,
@@ -6505,7 +6505,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Window>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.Window value)
+        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Sanitizer>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.Sanitizer value)
         {
             double __type_875 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
             if (__type_875 != 7)
@@ -6516,9 +6516,9 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::Iskra.StdWeb.Window __value_876;
+                global::Iskra.StdWeb.Sanitizer __value_876;
                 global::System.Runtime.InteropServices.JavaScript.JSObject __res_877 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
-                __value_876 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__res_877);
+                __value_876 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Sanitizer>(__res_877);
 
                 value = __value_876;
                 return true;
@@ -6531,7 +6531,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Window>.ToJS(global::Iskra.StdWeb.Window input)
+        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Sanitizer>.ToJS(global::Iskra.StdWeb.Sanitizer input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_878 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_879;
@@ -6541,7 +6541,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.FenceEvent>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.FenceEvent value)
+        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerConfig>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerConfig value)
         {
             double __type_880 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
             if (__type_880 != 7)
@@ -6552,9 +6552,9 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::Iskra.StdWeb.FenceEvent __value_881;
+                global::Iskra.StdWeb.SanitizerConfig __value_881;
                 global::System.Runtime.InteropServices.JavaScript.JSObject __res_882 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
-                __value_881 = new global::Iskra.StdWeb.FenceEvent(__res_882);
+                __value_881 = new global::Iskra.StdWeb.SanitizerConfig(__res_882);
 
                 value = __value_881;
                 return true;
@@ -6567,7 +6567,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.FenceEvent>.ToJS(global::Iskra.StdWeb.FenceEvent input)
+        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerConfig>.ToJS(global::Iskra.StdWeb.SanitizerConfig input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_883 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_884;
@@ -6577,7 +6577,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.AutoKeyword>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.AutoKeyword value)
+        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerPresets>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerPresets value)
         {
             double __type_885 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
             if (__type_885 != 7)
@@ -6588,9 +6588,9 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::Iskra.StdWeb.AutoKeyword __value_886;
+                global::Iskra.StdWeb.SanitizerPresets __value_886;
                 string __res_887 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, "value");
-                __value_886 = global::Iskra.StdWeb.AutoKeyword.Create(__res_887);
+                __value_886 = global::Iskra.StdWeb.SanitizerPresets.Create(__res_887);
 
                 value = __value_886;
                 return true;
@@ -6603,7 +6603,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.AutoKeyword>.ToJS(global::Iskra.StdWeb.AutoKeyword input)
+        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerPresets>.ToJS(global::Iskra.StdWeb.SanitizerPresets input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_888 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
             string __marshalledValue_889;
@@ -6613,7 +6613,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.ProcessingInstruction>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.ProcessingInstruction value)
+        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes value)
         {
             double __type_890 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
             if (__type_890 != 7)
@@ -6624,9 +6624,9 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::Iskra.StdWeb.ProcessingInstruction __value_891;
+                global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes __value_891;
                 global::System.Runtime.InteropServices.JavaScript.JSObject __res_892 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
-                __value_891 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ProcessingInstruction>(__res_892);
+                __value_891 = new global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes(__res_892);
 
                 value = __value_891;
                 return true;
@@ -6639,7 +6639,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.ProcessingInstruction>.ToJS(global::Iskra.StdWeb.ProcessingInstruction input)
+        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes>.ToJS(global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_893 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_894;
@@ -6649,7 +6649,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Sanitizer>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.Sanitizer value)
+        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerElementNamespace>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerElementNamespace value)
         {
             double __type_895 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
             if (__type_895 != 7)
@@ -6660,9 +6660,9 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::Iskra.StdWeb.Sanitizer __value_896;
+                global::Iskra.StdWeb.SanitizerElementNamespace __value_896;
                 global::System.Runtime.InteropServices.JavaScript.JSObject __res_897 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
-                __value_896 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Sanitizer>(__res_897);
+                __value_896 = new global::Iskra.StdWeb.SanitizerElementNamespace(__res_897);
 
                 value = __value_896;
                 return true;
@@ -6675,7 +6675,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Sanitizer>.ToJS(global::Iskra.StdWeb.Sanitizer input)
+        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerElementNamespace>.ToJS(global::Iskra.StdWeb.SanitizerElementNamespace input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_898 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_899;
@@ -6685,7 +6685,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerConfig>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerConfig value)
+        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerProcessingInstruction>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerProcessingInstruction value)
         {
             double __type_900 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
             if (__type_900 != 7)
@@ -6696,9 +6696,9 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::Iskra.StdWeb.SanitizerConfig __value_901;
+                global::Iskra.StdWeb.SanitizerProcessingInstruction __value_901;
                 global::System.Runtime.InteropServices.JavaScript.JSObject __res_902 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
-                __value_901 = new global::Iskra.StdWeb.SanitizerConfig(__res_902);
+                __value_901 = new global::Iskra.StdWeb.SanitizerProcessingInstruction(__res_902);
 
                 value = __value_901;
                 return true;
@@ -6711,7 +6711,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerConfig>.ToJS(global::Iskra.StdWeb.SanitizerConfig input)
+        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerProcessingInstruction>.ToJS(global::Iskra.StdWeb.SanitizerProcessingInstruction input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_903 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_904;
@@ -6721,7 +6721,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerPresets>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerPresets value)
+        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerAttributeNamespace>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerAttributeNamespace value)
         {
             double __type_905 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
             if (__type_905 != 7)
@@ -6732,9 +6732,9 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::Iskra.StdWeb.SanitizerPresets __value_906;
-                string __res_907 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, "value");
-                __value_906 = global::Iskra.StdWeb.SanitizerPresets.Create(__res_907);
+                global::Iskra.StdWeb.SanitizerAttributeNamespace __value_906;
+                global::System.Runtime.InteropServices.JavaScript.JSObject __res_907 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
+                __value_906 = new global::Iskra.StdWeb.SanitizerAttributeNamespace(__res_907);
 
                 value = __value_906;
                 return true;
@@ -6747,17 +6747,17 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerPresets>.ToJS(global::Iskra.StdWeb.SanitizerPresets input)
+        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerAttributeNamespace>.ToJS(global::Iskra.StdWeb.SanitizerAttributeNamespace input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_908 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-            string __marshalledValue_909;
-            __marshalledValue_909 = input.ToString();
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__jsUnion_908, "value", __marshalledValue_909);
+            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_909;
+            __marshalledValue_909 = input.JSObject;
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__jsUnion_908, "value", __marshalledValue_909);
             return __jsUnion_908;
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes value)
+        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Window>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.Window value)
         {
             double __type_910 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
             if (__type_910 != 7)
@@ -6768,9 +6768,9 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes __value_911;
+                global::Iskra.StdWeb.Window __value_911;
                 global::System.Runtime.InteropServices.JavaScript.JSObject __res_912 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
-                __value_911 = new global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes(__res_912);
+                __value_911 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Window>(__res_912);
 
                 value = __value_911;
                 return true;
@@ -6783,7 +6783,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes>.ToJS(global::Iskra.StdWeb.SanitizerElementNamespaceWithAttributes input)
+        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.Window>.ToJS(global::Iskra.StdWeb.Window input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_913 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_914;
@@ -6793,7 +6793,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerElementNamespace>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerElementNamespace value)
+        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.FenceEvent>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.FenceEvent value)
         {
             double __type_915 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
             if (__type_915 != 7)
@@ -6804,9 +6804,9 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::Iskra.StdWeb.SanitizerElementNamespace __value_916;
+                global::Iskra.StdWeb.FenceEvent __value_916;
                 global::System.Runtime.InteropServices.JavaScript.JSObject __res_917 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
-                __value_916 = new global::Iskra.StdWeb.SanitizerElementNamespace(__res_917);
+                __value_916 = new global::Iskra.StdWeb.FenceEvent(__res_917);
 
                 value = __value_916;
                 return true;
@@ -6819,7 +6819,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerElementNamespace>.ToJS(global::Iskra.StdWeb.SanitizerElementNamespace input)
+        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.FenceEvent>.ToJS(global::Iskra.StdWeb.FenceEvent input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_918 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_919;
@@ -6829,7 +6829,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerProcessingInstruction>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerProcessingInstruction value)
+        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.AutoKeyword>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.AutoKeyword value)
         {
             double __type_920 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
             if (__type_920 != 7)
@@ -6840,9 +6840,9 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::Iskra.StdWeb.SanitizerProcessingInstruction __value_921;
-                global::System.Runtime.InteropServices.JavaScript.JSObject __res_922 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
-                __value_921 = new global::Iskra.StdWeb.SanitizerProcessingInstruction(__res_922);
+                global::Iskra.StdWeb.AutoKeyword __value_921;
+                string __res_922 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2(input, "value");
+                __value_921 = global::Iskra.StdWeb.AutoKeyword.Create(__res_922);
 
                 value = __value_921;
                 return true;
@@ -6855,17 +6855,17 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerProcessingInstruction>.ToJS(global::Iskra.StdWeb.SanitizerProcessingInstruction input)
+        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.AutoKeyword>.ToJS(global::Iskra.StdWeb.AutoKeyword input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_923 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
-            global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_924;
-            __marshalledValue_924 = input.JSObject;
-            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(__jsUnion_923, "value", __marshalledValue_924);
+            string __marshalledValue_924;
+            __marshalledValue_924 = input.ToString();
+            global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(__jsUnion_923, "value", __marshalledValue_924);
             return __jsUnion_923;
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerAttributeNamespace>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.SanitizerAttributeNamespace value)
+        static bool global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.ProcessingInstruction>.TryToManaged(global::System.Runtime.InteropServices.JavaScript.JSObject input, [global::System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute(false)] out global::Iskra.StdWeb.ProcessingInstruction value)
         {
             double __type_925 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsDoubleV2(input, "type");
             if (__type_925 != 7)
@@ -6876,9 +6876,9 @@ public static partial class GenericMarshaller
 
             try
             {
-                global::Iskra.StdWeb.SanitizerAttributeNamespace __value_926;
+                global::Iskra.StdWeb.ProcessingInstruction __value_926;
                 global::System.Runtime.InteropServices.JavaScript.JSObject __res_927 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2(input, "value");
-                __value_926 = new global::Iskra.StdWeb.SanitizerAttributeNamespace(__res_927);
+                __value_926 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ProcessingInstruction>(__res_927);
 
                 value = __value_926;
                 return true;
@@ -6891,7 +6891,7 @@ public static partial class GenericMarshaller
         }
 
         [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.SanitizerAttributeNamespace>.ToJS(global::Iskra.StdWeb.SanitizerAttributeNamespace input)
+        static global::System.Runtime.InteropServices.JavaScript.JSObject global::Iskra.JSCore.Generics.IUnionTypeMarshaller<global::Iskra.StdWeb.ProcessingInstruction>.ToJS(global::Iskra.StdWeb.ProcessingInstruction input)
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject __jsUnion_928 = ConstructObject(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Object");
             global::System.Runtime.InteropServices.JavaScript.JSObject __marshalledValue_929;

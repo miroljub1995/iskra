@@ -40,6 +40,12 @@ public partial class Document: global::Iskra.StdWeb.Node
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.ModelContext ModelContext
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ModelContext, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "modelContext");
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.StdWeb.Selection? GetSelection()
     {
         using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
@@ -987,6 +993,75 @@ public partial class Document: global::Iskra.StdWeb.Node
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public static global::Iskra.StdWeb.Document ParseHTMLUnsafe(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> html, global::Iskra.StdWeb.SetHTMLUnsafeOptions options)
+    {
+        int ___argsArrayLength_2 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = html.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0, ___propObject_3);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+        ___marshalledValue_4 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document"), "parseHTMLUnsafe", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document"), ___argsArray_0.JSObject, ___resOwner_1.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Document, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public static global::Iskra.StdWeb.Document ParseHTML(string html)
+    {
+        int ___argsArrayLength_2 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
+
+        // Argument 1
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = html;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document"), "parseHTML", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document"), ___argsArray_0.JSObject, ___resOwner_1.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Document, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public static global::Iskra.StdWeb.Document ParseHTML(string html, global::Iskra.StdWeb.SetHTMLOptions options)
+    {
+        int ___argsArrayLength_2 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
+
+        // Argument 1
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = html;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+        ___marshalledValue_4 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
+
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document"), "parseHTML", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document"), ___argsArray_0.JSObject, ___resOwner_1.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Document, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.StdWeb.Location? Location
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Location?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "location");
@@ -1591,51 +1666,6 @@ public partial class Document: global::Iskra.StdWeb.Node
     public global::Iskra.StdWeb.ViewTransition? ActiveViewTransition
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ViewTransition?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "activeViewTransition");
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public static global::Iskra.StdWeb.Document ParseHTML(string html)
-    {
-        int ___argsArrayLength_2 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
-
-        // Argument 1
-        string ___marshalledValue_3;
-        ___marshalledValue_3 = html;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document"), "parseHTML", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document"), ___argsArray_0.JSObject, ___resOwner_1.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Document, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public static global::Iskra.StdWeb.Document ParseHTML(string html, global::Iskra.StdWeb.SetHTMLOptions options)
-    {
-        int ___argsArrayLength_2 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
-
-        // Argument 1
-        string ___marshalledValue_3;
-        ___marshalledValue_3 = html;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
-
-        // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
-        ___marshalledValue_4 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
-
-        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document"), "parseHTML", global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsConstructorProxy(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Document"), ___argsArray_0.JSObject, ___resOwner_1.JSObject);
-
-        // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.Document, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

@@ -1187,6 +1187,41 @@ public partial class Element: global::Iskra.StdWeb.Node
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public void SetHTML(string html)
+    {
+        int ___argsArrayLength_2 = 1;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
+
+        // Argument 1
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = html;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setHTML", JSObject, ___argsArray_0.JSObject);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public void SetHTML(string html, global::Iskra.StdWeb.SetHTMLOptions options)
+    {
+        int ___argsArrayLength_2 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
+
+        // Argument 1
+        string ___marshalledValue_3;
+        ___marshalledValue_3 = html;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+        ___marshalledValue_4 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setHTML", JSObject, ___argsArray_0.JSObject);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public void SetHTMLUnsafe(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> html)
     {
         int ___argsArrayLength_2 = 1;
@@ -1196,6 +1231,25 @@ public partial class Element: global::Iskra.StdWeb.Node
         // Argument 1
         global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = html.JSObject;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0, ___propObject_3);
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setHTMLUnsafe", JSObject, ___argsArray_0.JSObject);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public void SetHTMLUnsafe(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> html, global::Iskra.StdWeb.SetHTMLUnsafeOptions options)
+    {
+        int ___argsArrayLength_2 = 2;
+
+        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
+
+        // Argument 1
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___propObject_3 = html.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsUnion(___argsArray_0.JSObject, 0, ___propObject_3);
+
+        // Argument 2
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
+        ___marshalledValue_4 = options.JSObject;
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setHTMLUnsafe", JSObject, ___argsArray_0.JSObject);
     }
@@ -1298,41 +1352,6 @@ public partial class Element: global::Iskra.StdWeb.Node
     public global::Iskra.StdWeb.ViewTransition? ActiveViewTransition
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ViewTransition?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "activeViewTransition");
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public void SetHTML(string html)
-    {
-        int ___argsArrayLength_2 = 1;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
-
-        // Argument 1
-        string ___marshalledValue_3;
-        ___marshalledValue_3 = html;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setHTML", JSObject, ___argsArray_0.JSObject);
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public void SetHTML(string html, global::Iskra.StdWeb.SetHTMLOptions options)
-    {
-        int ___argsArrayLength_2 = 2;
-
-        using global::Iskra.JSCore.ArgsArrayPool.Owner ___argsArray_0 = global::Iskra.JSCore.ArgsArrayPool.Shared.Rent(___argsArrayLength_2);
-
-        // Argument 1
-        string ___marshalledValue_3;
-        ___marshalledValue_3 = html;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsStringV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
-
-        // Argument 2
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___marshalledValue_4;
-        ___marshalledValue_4 = options.JSObject;
-        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
-
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "setHTML", JSObject, ___argsArray_0.JSObject);
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

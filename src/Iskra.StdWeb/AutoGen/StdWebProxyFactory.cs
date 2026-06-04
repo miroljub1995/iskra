@@ -955,6 +955,7 @@ public static partial class StdWebProxyFactory
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PromiseRejectionEvent", obj => new PromiseRejectionEvent(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "DOMParser", obj => new DOMParser(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "XMLSerializer", obj => new XMLSerializer(obj));
+        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Sanitizer", obj => new Sanitizer(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PluginArray", obj => new PluginArray(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "MimeTypeArray", obj => new MimeTypeArray(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Plugin", obj => new Plugin(obj));
@@ -1020,7 +1021,6 @@ public static partial class StdWebProxyFactory
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSStyleProperties", obj => new CSSStyleProperties(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "OES_texture_float", obj => new OES_texture_float(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "EXT_frag_depth", obj => new EXT_frag_depth(obj));
-        global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "Sanitizer", obj => new Sanitizer(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "CSSPropertyRule", obj => new CSSPropertyRule(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PaymentResponse", obj => new PaymentResponse(obj));
         global::Iskra.JSCore.JSObjectProxyFactory.AddConstructorFromProp(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "PaymentMethodChangeEvent", obj => new PaymentMethodChangeEvent(obj));

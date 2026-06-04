@@ -98,12 +98,6 @@ public partial class Navigator: global::Iskra.JSCore.JSObjectProxy
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.ModelContext ModelContext
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ModelContext, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "modelContext");
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.StdWeb.VirtualKeyboard VirtualKeyboard
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.VirtualKeyboard, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "virtualKeyboard");

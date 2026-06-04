@@ -58,18 +58,6 @@ public partial class XRWebGLSubImage: global::Iskra.StdWeb.XRSubImage
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "depthStencilTextureHeight");
     }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public uint? MotionVectorTextureWidth
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "motionVectorTextureWidth");
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public uint? MotionVectorTextureHeight
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<uint?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "motionVectorTextureHeight");
-    }
 }
 
 #nullable disable
