@@ -24,7 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Iskra.Signals\Iskra.Signals.csproj" />
-    <ProjectReference Include="..\Iskra.StdWeb\Iskra.StdWeb.csproj" />
     <!-- Generator: no output reference needed at compile time; bundled into NuGet for consumers -->
     <ProjectReference Include="..\Iskra.Core.Generators\Iskra.Core.Generators.csproj"
                       ReferenceOutputAssembly="false" />

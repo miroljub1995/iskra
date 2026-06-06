@@ -1,8 +1,6 @@
 using Iskra.Core.Components;
 using Iskra.Core.Features;
 using Iskra.Core.RenderRoot;
-using Iskra.StdWeb;
-using System.Runtime.Versioning;
 
 namespace Iskra.Core;
 
@@ -29,13 +27,6 @@ public sealed class IskraHostBuilder
     public IskraHostBuilder UseRootComponent(Func<IComponent> factory)
     {
         _rootComponentFactory = factory;
-        return this;
-    }
-
-    [SupportedOSPlatform("browser")]
-    public IskraHostBuilder UseRootElement(Element element)
-    {
-        _renderRoot = new DomRenderRoot(element);
         return this;
     }
 

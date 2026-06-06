@@ -1,7 +1,7 @@
 using Iskra.Core.Components;
-using Iskra.Core.DomComponents;
-using Iskra.Core.Features.HydrationState;
-using Iskra.Core.HotReload;
+using Iskra.Dom.Components;
+using Iskra.Ssr.Features.HydrationState;
+using Iskra.Ssr.HotReload;
 using Iskra.Ssr.Components;
 using MyIskraApp.Client;
 using MyIskraApp.Client.Components;

@@ -15,10 +15,12 @@ namespace Iskra.Core.Features;
 /// so their children are rendered consecutively inside the
 /// <c>TeleportSlot</c> region.
 /// </summary>
-public sealed class TeleportFeature : ITeleportFeature
+public sealed class TeleportFeature(bool isClient) : ITeleportFeature
 {
     private readonly Dictionary<Guid, IRenderSlot> _currentSlot = [];
     private readonly Dictionary<Guid, List<Action<IRenderSlot>>> _pending = [];
+
+    public bool IsClient => isClient;
 
     public void SetSlot(Guid uuid, IRenderSlot slot)
     {

@@ -8,16 +8,20 @@
     <Project Path="examples/Iskra.TodoExample/Iskra.TodoExample.csproj" />
   </Folder>
   <Folder Name="/src/">
+    <Project Path="src/Iskra.Browser.Abstractions/Iskra.Browser.Abstractions.csproj" />
+    <Project Path="src/Iskra.Browser/Iskra.Browser.csproj" />
     <Project Path="src/Iskra.BrowserTestsRunner/Iskra.BrowserTestsRunner.csproj" />
-    <Project Path="src/Iskra.Core.Client.Tests/Iskra.Core.Client.Tests.csproj" />
+    <Project Path="src/Iskra.Browser.Tests/Iskra.Browser.Tests.csproj" />
     <Project Path="src/Iskra.Core.Generators.Tests/Iskra.Core.Generators.Tests.csproj" />
     <Project Path="src/Iskra.Core.Generators/Iskra.Core.Generators.csproj" />
-    <Project Path="src/Iskra.Core.Server.Tests/Iskra.Core.Server.Tests.csproj" />
+    <Project Path="src/Iskra.Ssr.Tests/Iskra.Ssr.Tests.csproj" />
     <Project Path="src/Iskra.Core/Iskra.Core.csproj" />
     <Project Path="src/Iskra.CoreExample/Iskra.CoreExample.csproj" />
+    <Project Path="src/Iskra.Dom/Iskra.Dom.csproj" />
     <Project Path="src/Iskra.JSCore/Iskra.JSCore.csproj" />
     <Project Path="src/Iskra.Signals.Tests/Iskra.Signals.Tests.csproj" />
     <Project Path="src/Iskra.Signals/Iskra.Signals.csproj" />
+    <Project Path="src/Iskra.Ssr.Abstractions/Iskra.Ssr.Abstractions.csproj" />
     <Project Path="src/Iskra.Ssr/Iskra.Ssr.csproj" />
     <Project Path="src/Iskra.StdWeb/Iskra.StdWeb.csproj" />
     <Project Path="src/Iskra.TailwindCss.Generators/Iskra.TailwindCss.Generators.csproj" />

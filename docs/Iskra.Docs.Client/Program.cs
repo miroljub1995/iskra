@@ -1,6 +1,10 @@
 using System.Runtime.InteropServices.JavaScript;
+using Iskra.Browser;
+using Iskra.Browser.Components;
+using Iskra.Browser.Features.Routing;
 using Iskra.Core;
-using Iskra.Core.Features.HydrationState;
+using Iskra.Browser.Features.HydrationState;
+using Iskra.Browser.Abstractions.Features.HydrationState;
 using Iskra.Core.Features.Routing;
 using Iskra.Core.HotReload;
 using Iskra.Docs.Client.Components;
@@ -22,9 +26,10 @@ var hydration = new ClientHydrationStateFeature();
 
 var _ = new IskraHostBuilder()
     .UseRootElement(appElement)
+    .UseTeleport()
     .SetFeature<IClientHydrationStateFeature>(hydration)
     .SetFeature<INavigationFeature>(new ClientNavigationFeature(window))
-    .UseRootComponent(() => new DocsApp { Props = new DocsAppProps() })
+    .UseRootComponent(() => new HydrationRoot { Children = [new DocsApp { Props = new DocsAppProps() }] })
     .UseDefaultHotReloadManager()
     .Build()
     .Mount();

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <PackageId>Iskra.Browser.Abstractions</PackageId>
+    <Version>$(IskraCoreVersion)</Version>
+    <Authors>miroljub1995</Authors>
+    <Description>Browser rendering abstractions for Iskra.</Description>
+    <PackageTags>webassembly;wasm;dotnet;browser;abstractions;iskra</PackageTags>
+    <PackageProjectUrl>https://github.com/miroljub1995/iskra</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/miroljub1995/iskra</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Iskra.Core\Iskra.Core.csproj" />
+    <ProjectReference Include="..\Iskra.StdWeb\Iskra.StdWeb.csproj" />
+  </ItemGroup>
+</Project>

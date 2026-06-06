@@ -48,7 +48,15 @@ public sealed class Teleport : IComponent
         var feature = AppFeatures.Features.Get<ITeleportFeature>();
         if (feature is null)
         {
-            feature = new TeleportFeature();
+            var factory = AppFeatures.Features.Get<ITeleportFeatureFactory>();
+            if (factory is null)
+            {
+                throw new InvalidOperationException(
+                    $"{nameof(ITeleportFeatureFactory)} is not registered. " +
+                    "Configure it via UseTeleport() before using Teleport.CreateTeleport().");
+            }
+
+            feature = factory.Create();
             AppFeatures.Features.Set(feature);
         }
 
@@ -73,7 +81,7 @@ public sealed class Teleport : IComponent
 
             var resolvedUuid = Uuid ?? Guid.Empty;
 
-            var shouldRender = new Signal<bool>(!ClientOnly || slot is IDomRenderSlot);
+            var shouldRender = new Signal<bool>(!ClientOnly || feature.IsClient);
             var targetSlot = new Signal<IRenderSlot?>(null);
 
             // Deliver the slot immediately if TeleportSlot is already mounted,

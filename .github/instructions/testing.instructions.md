@@ -1,6 +1,6 @@
 ---
-description: "Use when running, debugging, or writing tests for Iskra.Core.Client.Tests or Iskra.WebIDLGenerator.Tests. Covers how browser-wasm tests must be executed via BrowserTestsRunner."
-applyTo: "src/Iskra.Core.Client.Tests/**,src/Iskra.WebIDLGenerator.Tests/**,src/Iskra.BrowserTestsRunner/**"
+description: "Use when running, debugging, or writing tests for Iskra.Browser.Tests or Iskra.WebIDLGenerator.Tests. Covers how browser-wasm tests must be executed via BrowserTestsRunner."
+applyTo: "src/Iskra.Browser.Tests/**,src/Iskra.WebIDLGenerator.Tests/**,src/Iskra.BrowserTestsRunner/**"
 ---
 
 # Running Browser-WASM Tests
@@ -16,5 +16,5 @@ dotnet run --project src/Iskra.BrowserTestsRunner -f <tfm> --launch-profile <pro
 The `-f` flag is required because `Iskra.BrowserTestsRunner` multi-targets; use the latest .NET version installed on the system.
 
 Available profiles:
-- `Iskra.Core.Client.Tests`
+- `Iskra.Browser.Tests`
 - `Iskra.WebIDLGenerator.Tests`

@@ -1,4 +1,3 @@
-using Iskra.Core.DomComponents;
 using Iskra.Core.Features;
 using Iskra.Core.HotReload;
 using Iskra.Core.RenderRoot;
@@ -64,10 +63,25 @@ public abstract class BaseComponent<TProps, TEvents, TSlots, TExpose> : ICompone
             {
                 var setupResult = Setup(out TExpose exposed);
 
-                var openComment = new DomComment { Data = new Signal<string>("[") };
-                var closeComment = new DomComment { Data = new Signal<string>("]") };
+                var (openBound, closeBound) = slot.CreateComponentBounds();
 
-                composedComponent = new ComposedComponent([openComment, .. setupResult, closeComment]);
+                var extraCount = (openBound is not null ? 1 : 0) + (closeBound is not null ? 1 : 0);
+                var children = new IComponent[setupResult.Length + extraCount];
+                var idx = 0;
+                if (openBound is not null)
+                {
+                    children[idx++] = openBound;
+                }
+
+                setupResult.CopyTo(children, idx);
+                idx += setupResult.Length;
+
+                if (closeBound is not null)
+                {
+                    children[idx] = closeBound;
+                }
+
+                composedComponent = new ComposedComponent(children);
 
 
                 if (Ref is not null)
@@ -85,28 +99,35 @@ public abstract class BaseComponent<TProps, TEvents, TSlots, TExpose> : ICompone
                 AppFeatures.Current = prevFeatures;
             }
 
-            if (slot is IDomRenderSlot)
+            new Effect(onCleanup =>
             {
-                new Effect(onCleanup =>
+                if (slot.AreLifecycleHooksEnabled)
                 {
                     foreach (var callback in _onMountedCallbacks)
                     {
                         callback(OnUnmounted);
                     }
+                }
 
-                    onCleanup(() =>
+                _onMountedCallbacks.Clear();
+
+                onCleanup(() =>
+                {
+                    Events?.Disable();
+
+                    composedComponent.Unmount();
+
+                    if (slot.AreLifecycleHooksEnabled)
                     {
-                        Events?.Disable();
-
-                        composedComponent?.Unmount();
-
                         foreach (var action in _onUnmountedActions)
                         {
                             action();
                         }
-                    });
+                    }
+
+                    _onUnmountedActions.Clear();
                 });
-            }
+            });
         });
     }
 
@@ -119,8 +140,6 @@ public abstract class BaseComponent<TProps, TEvents, TSlots, TExpose> : ICompone
 
         _effectScope.Dispose();
         _effectScope = null;
-        _onMountedCallbacks.Clear();
-        _onUnmountedActions.Clear();
     }
 
     protected abstract IComponent[] Setup(out TExpose exposed);

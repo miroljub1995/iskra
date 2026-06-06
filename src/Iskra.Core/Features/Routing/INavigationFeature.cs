@@ -4,8 +4,7 @@ namespace Iskra.Core.Features.Routing;
 
 /// <summary>
 /// Provides the current navigation path as a reactive signal.
-/// Different implementations exist for SSR (<see cref="ServerNavigationFeature"/>)
-/// and client-side rendering (<see cref="ClientNavigationFeature"/>).
+/// Different implementations exist for SSR and client-side rendering.
 /// </summary>
 public interface INavigationFeature
 {

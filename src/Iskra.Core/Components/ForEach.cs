@@ -1,4 +1,3 @@
-using Iskra.Core.DomComponents;
 using Iskra.Core.Features;
 using Iskra.Core.RenderRoot;
 using Iskra.Signals;
@@ -34,21 +33,20 @@ public class ForEach<TElement, TKey> : IComponent where TKey : notnull
         {
             var orderedItems = new List<ItemState>();
 
-            var openComment = new DomComment { Data = new Signal<string>("[") };
-            var closeComment = new DomComment { Data = new Signal<string>("]") };
+            var (openBound, closeBound) = slot.CreateForEachBounds();
 
             // closeSlot is permanently the last slot — items are inserted before it.
             // Pre-allocating it here (before any items) ensures ClaimOrCreateSlotAfter
             // inserts new item slots between the open comment and this anchor.
             var closeSlot = slot.CreateSlotAfter();
 
-            openComment.Mount(slot);
-            closeComment.Mount(closeSlot);
+            openBound?.Mount(slot);
+            closeBound?.Mount(closeSlot);
 
             new Effect(onCleanup => onCleanup(() =>
             {
-                openComment.Unmount();
-                closeComment.Unmount();
+                openBound?.Unmount();
+                closeBound?.Unmount();
                 closeSlot.Dispose();
             }));
 

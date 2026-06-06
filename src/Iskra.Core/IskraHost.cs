@@ -1,6 +1,5 @@
 using Iskra.Core.Components;
 using Iskra.Core.Features;
-using Iskra.Core.Features.HydrationState;
 using Iskra.Core.RenderRoot;
 
 namespace Iskra.Core;
@@ -25,30 +24,18 @@ public sealed class IskraHost
         {
             var prevFeatures = AppFeatures.Current;
             AppFeatures.Current = _rootFeatures;
+            IComponent rootComponent;
             try
             {
-                if (OperatingSystem.IsBrowser() && _renderRoot is DomRenderRoot domRootBefore)
-                {
-                    var hydrationState = _rootFeatures.Get<IClientHydrationStateFeature>();
-
-                    if (hydrationState is not null
-                        && (bool?)hydrationState.Value["hydrate"] == true)
-                    {
-                        domRootBefore.BeginHydration();
-                    }
-                }
-
-                _rootComponentFactory().Mount(_renderRoot.CreateFirstSlot());
-
-                if (OperatingSystem.IsBrowser() && _renderRoot is DomRenderRoot domRootAfter)
-                {
-                    domRootAfter.EndHydration();
-                }
+                rootComponent = _rootComponentFactory();
+                rootComponent.Mount(_renderRoot.CreateFirstSlot());
             }
             finally
             {
                 AppFeatures.Current = prevFeatures;
             }
+
+            new Signals.Effect(onCleanup => onCleanup(() => rootComponent.Unmount()));
         });
         return scope;
     }

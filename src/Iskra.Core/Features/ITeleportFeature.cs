@@ -4,6 +4,8 @@ namespace Iskra.Core.Features;
 
 public interface ITeleportFeature
 {
+    bool IsClient { get; }
+
     /// <summary>
     /// Called by <c>TeleportSlot</c> when it mounts. Registers the slot at
     /// <paramref name="uuid"/> and immediately delivers it to any

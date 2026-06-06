@@ -11,6 +11,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Iskra.Ssr" Version="0.2.0" />
+        <PackageReference Include="Iskra.Ssr" Version="0.3.0" />
     </ItemGroup>
 </Project>

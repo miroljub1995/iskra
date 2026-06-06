@@ -11,9 +11,9 @@
         <WarningsNotAsErrors>CS8620;CS8625;IL3000</WarningsNotAsErrors>
 
         <IskraApiVersion Condition="'$(IskraApiVersion)' == ''">0.4.0</IskraApiVersion>
-        <IskraCoreVersion Condition="'$(IskraCoreVersion)' == ''">0.2.0</IskraCoreVersion>
+        <IskraCoreVersion Condition="'$(IskraCoreVersion)' == ''">0.3.0</IskraCoreVersion>
         <IskraTailwindVersion Condition="'$(IskraTailwindVersion)' == ''">0.1.0</IskraTailwindVersion>
-        <IskraTemplatesVersion Condition="'$(IskraTemplatesVersion)' == ''">0.1.0</IskraTemplatesVersion>
+        <IskraTemplatesVersion Condition="'$(IskraTemplatesVersion)' == ''">0.2.0</IskraTemplatesVersion>
 
         <!-- By default, don't create NuGet packages for projects -->
         <IsPackable>false</IsPackable>
