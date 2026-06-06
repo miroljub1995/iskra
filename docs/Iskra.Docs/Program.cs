@@ -1,9 +1,15 @@
 using System.Text;
 using Iskra.Core;
 using Iskra.Core.Features;
-using Iskra.Core.Features.HydrationState;
+using Iskra.Ssr;
+using Iskra.Ssr.Abstractions.Features;
+using Iskra.Ssr.Features;
+using Iskra.Ssr.Features.Routing;
+using Iskra.Ssr.Abstractions.Features.HydrationState;
+using Iskra.Ssr.Features.HydrationState;
 using Iskra.Core.Features.Routing;
 using Iskra.Core.RenderRoot;
+using Iskra.Ssr.RenderRoot;
 using Iskra.Docs.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +27,7 @@ app.MapFallback(async (httpContext) =>
 
     using var _ = new IskraHostBuilder()
         .UseRootRenderer(root)
+        .UseTeleport()
         .SetFeature<IServerPrefetchFeature>(prefetch)
         .SetFeature<IServerHydrationStateFeature>(new ServerHydrationStateFeature())
         .SetFeature<INavigationFeature>(navigation)

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <PackageId>Iskra.Browser</PackageId>
+    <Version>$(IskraCoreVersion)</Version>
+    <Authors>miroljub1995</Authors>
+    <Description>Browser render root and browser host integration for Iskra.</Description>
+    <PackageTags>webassembly;wasm;dotnet;browser;rendering;iskra</PackageTags>
+    <PackageProjectUrl>https://github.com/miroljub1995/iskra</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/miroljub1995/iskra</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Iskra.Browser.Abstractions\Iskra.Browser.Abstractions.csproj" />
+    <ProjectReference Include="..\Iskra.Dom\Iskra.Dom.csproj" />
+  </ItemGroup>
+</Project>

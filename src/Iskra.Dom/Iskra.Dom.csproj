@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- NuGet Package Configuration -->
+    <IsPackable>true</IsPackable>
+    <PackageId>Iskra.Dom</PackageId>
+    <Version>$(IskraCoreVersion)</Version>
+    <Authors>miroljub1995</Authors>
+    <Description>DOM components for Iskra with browser and SSR rendering support.</Description>
+    <PackageTags>webassembly;wasm;dotnet;dom;components;ssr;iskra</PackageTags>
+    <PackageProjectUrl>https://github.com/miroljub1995/iskra</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/miroljub1995/iskra</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Iskra.Browser.Abstractions\Iskra.Browser.Abstractions.csproj" />
+    <ProjectReference Include="..\Iskra.Core\Iskra.Core.csproj" />
+    <ProjectReference Include="..\Iskra.Ssr.Abstractions\Iskra.Ssr.Abstractions.csproj" />
+  </ItemGroup>
+</Project>

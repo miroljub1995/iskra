@@ -1,5 +1,5 @@
 using Iskra.Core.Components;
-using Iskra.Core.DomComponents;
+using Iskra.Dom.Components;
 using Iskra.Core.Features;
 using Iskra.Core.Features.Routing;
 using Iskra.Signals;

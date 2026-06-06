@@ -27,6 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Iskra.Core\Iskra.Core.csproj" />
+    <ProjectReference Include="..\Iskra.Dom\Iskra.Dom.csproj" />
   </ItemGroup>
 </Project>

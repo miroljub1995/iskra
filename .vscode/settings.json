@@ -1,6 +1,6 @@
 {
     "chat.tools.terminal.autoApprove": {
         "dotnet test": true,
-        "/dotnet run --project src/Iskra\\.BrowserTestsRunner -f net\\d+\\.\\d+ --launch-profile (Iskra\\.Core\\.Client\\.Tests|Iskra\\.WebIDLGenerator\\.Tests)/": true
+        "/dotnet run --project src/Iskra\\.BrowserTestsRunner -f net\\d+\\.\\d+ --launch-profile (Iskra\\.Browser\\.Tests|Iskra\\.WebIDLGenerator\\.Tests)/": true
     }
 }

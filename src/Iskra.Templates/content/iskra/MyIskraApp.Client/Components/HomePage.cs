@@ -1,5 +1,5 @@
 using Iskra.Core.Components;
-using Iskra.Core.DomComponents;
+using Iskra.Dom.Components;
 using Iskra.Signals;
 
 namespace MyIskraApp.Client.Components;

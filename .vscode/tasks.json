@@ -2,9 +2,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build: Iskra.Core.Client.Tests",
+            "label": "build: Iskra.Browser.Tests",
             "type": "shell",
-            "command": "dotnet build Iskra.Core.Client.Tests/Iskra.Core.Client.Tests.csproj -f net10.0",
+            "command": "dotnet build Iskra.Browser.Tests/Iskra.Browser.Tests.csproj -f net10.0",
             "options": {
                 "cwd": "${workspaceFolder}/src"
             },
