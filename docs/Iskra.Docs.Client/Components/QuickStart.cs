@@ -96,7 +96,32 @@ public class QuickStart : BaseComponent<QuickStartProps, NoEvents, NoSlots, NoEx
                                             },
                                         ],
                                     },
+                                    new Li
+                                    {
+                                        Props = new LiProps(),
+                                        Children =
+                                        [
+                                            new DomText { Text = "Install the ".ToConstSignal() },
+                                            new Code
+                                            {
+                                                Props = new CodeProps
+                                                {
+                                                    Class = "bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm".ToConstSignal(),
+                                                },
+                                                Children = [new DomText { Text = "wasm-tools".ToConstSignal() }],
+                                            },
+                                            new DomText { Text = " workload".ToConstSignal() },
+                                        ],
+                                    },
                                 ],
+                            },
+                        },
+                        new CliCommand
+                        {
+                            Props = new CliCommandProps
+                            {
+                                Label = "Install Iskra template using the following command:".ToConstSignal(),
+                                Command = "dotnet new install Iskra.Templates".ToConstSignal(),
                             },
                         },
                     ],
