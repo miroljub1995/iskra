@@ -18,7 +18,7 @@ jobs:
     name: Release Core Family Packages
     runs-on: ubuntu-latest
     env:
-      ISKRA_API_VERSION: 0.3.0
+      MINIMUM_ISKRA_API_VERSION: 0.3.0
 
     steps:
       - name: Checkout repository
@@ -89,19 +89,19 @@ jobs:
           mkdir -p artifacts/nuget
 
           dotnet pack src/Iskra.Signals/Iskra.Signals.csproj -c Release -o artifacts/nuget \
-            -p:IskraApiVersion=$ISKRA_API_VERSION
+            -p:IskraApiVersion=$MINIMUM_ISKRA_API_VERSION
           dotnet pack src/Iskra.Core/Iskra.Core.csproj -c Release -o artifacts/nuget \
-            -p:IskraApiVersion=$ISKRA_API_VERSION
+            -p:IskraApiVersion=$MINIMUM_ISKRA_API_VERSION
           dotnet pack src/Iskra.Browser.Abstractions/Iskra.Browser.Abstractions.csproj -c Release -o artifacts/nuget \
-            -p:IskraApiVersion=$ISKRA_API_VERSION
+            -p:IskraApiVersion=$MINIMUM_ISKRA_API_VERSION
           dotnet pack src/Iskra.Browser/Iskra.Browser.csproj -c Release -o artifacts/nuget \
-            -p:IskraApiVersion=$ISKRA_API_VERSION
+            -p:IskraApiVersion=$MINIMUM_ISKRA_API_VERSION
           dotnet pack src/Iskra.Dom/Iskra.Dom.csproj -c Release -o artifacts/nuget \
-            -p:IskraApiVersion=$ISKRA_API_VERSION
+            -p:IskraApiVersion=$MINIMUM_ISKRA_API_VERSION
           dotnet pack src/Iskra.Ssr.Abstractions/Iskra.Ssr.Abstractions.csproj -c Release -o artifacts/nuget \
-            -p:IskraApiVersion=$ISKRA_API_VERSION
+            -p:IskraApiVersion=$MINIMUM_ISKRA_API_VERSION
           dotnet pack src/Iskra.Ssr/Iskra.Ssr.csproj -c Release -o artifacts/nuget \
-            -p:IskraApiVersion=$ISKRA_API_VERSION
+            -p:IskraApiVersion=$MINIMUM_ISKRA_API_VERSION
 
       - name: Upload package artifacts
         if: steps.release_check.outputs.exists != 'true'
