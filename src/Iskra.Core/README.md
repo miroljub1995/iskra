@@ -2,9 +2,6 @@
 
 Iskra.Core is the experimental component layer for Iskra. It builds on Iskra.StdWeb and Iskra.Signals to provide components, typed DOM component wrappers, reactive rendering, browser rendering roots, and server-side rendering primitives.
 
-## Bugs
-- [ ] Fix hot reload (`HotReloadManager`) — currently has bugs. It should know if component needs to remount, or whole app to remount. Dotnet sdk do not support hook before apply changes, which would be ideal for unmounting the components.
-
 ## What It Provides
 
 - A component contract through `IComponent` and `BaseComponent<TProps, TEvents, TSlots, TExpose>`.

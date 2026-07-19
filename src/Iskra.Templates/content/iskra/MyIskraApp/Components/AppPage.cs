@@ -67,6 +67,7 @@ public class AppPage : BaseComponent<AppPageProps, NoEvents, NoSlots, NoExpose>
                                 Children = [new App { Props = new AppProps() }],
                             },
                             new BrowserRefreshScript(),
+                            new HotReloadInterceptionScript(),
                         ],
                     },
                 ],

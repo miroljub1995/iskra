@@ -12,6 +12,13 @@ public class HomePage : BaseComponent<HomePageProps, NoEvents, NoSlots, NoExpose
     {
         exposed = default;
 
+        new Effect((onCleanup) =>
+        {
+            var text = "Home page";
+            Console.WriteLine(text);
+            onCleanup(() => Console.WriteLine("Cleanup " + text));
+        });
+
         return
         [
             new H1

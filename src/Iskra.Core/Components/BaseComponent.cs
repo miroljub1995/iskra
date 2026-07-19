@@ -11,7 +11,12 @@ public abstract class BaseComponent<TProps, TEvents, TSlots, TExpose> : ICompone
     where TSlots : notnull
     where TExpose : notnull
 {
+    // The component's reactive scope. With hot reload enabled this is the "hot
+    // reload scope": it hosts the subscription (which must outlive mount teardowns)
+    // plus a mount scope that is recreated on each delta and nested inside it.
+    // With hot reload disabled it is simply the component's mount scope.
     private EffectScope? _effectScope;
+
     private readonly List<Action<Action<Action>>> _onMountedCallbacks = [];
     private readonly List<Action> _onUnmountedActions = [];
 
@@ -43,18 +48,38 @@ public abstract class BaseComponent<TProps, TEvents, TSlots, TExpose> : ICompone
                 "AppFeatures.Current must be set before mounting a component. " +
                 "Components must be mounted via IskraHost.Mount or as a child of another mounting component.");
 
-        // Each component gets its own layer that falls back to the parent's features.
-        // Writes inside Setup land only in this layer, so siblings are isolated.
-        var ownFeatures = new FeatureCollection(parentFeatures);
-
         if (_effectScope is not null)
         {
             throw new InvalidOperationException("Component is already mounted.");
         }
 
-        _effectScope = new();
-        _effectScope.Run(() =>
+        if (!HotReloadManager.IsSupported)
         {
+            // No hot reload: the component scope IS the mount scope.
+            _effectScope = RunMountScope(slot, parentFeatures);
+        }
+        else
+        {
+            // Hot reload: the scope hosts the subscription. The mount scope is created,
+            // disposed, and recreated by the hot reload manager on each delta, nested
+            // under this scope so a real unmount (disposing the scope) tears it down too.
+            _effectScope = new();
+            _effectScope.Run(() =>
+                parentFeatures.SetupComponentHotReload(
+                    this,
+                    () => RunMountScope(slot, parentFeatures)));
+        }
+    }
+
+    private EffectScope RunMountScope(IRenderSlot slot, IFeatureCollection parentFeatures)
+    {
+        var mountScope = new EffectScope();
+        mountScope.Run(() =>
+        {
+            // Each component gets its own layer that falls back to the parent's features.
+            // Writes inside Setup land only in this layer, so siblings are isolated.
+            var ownFeatures = new FeatureCollection(parentFeatures);
+
             ComposedComponent composedComponent;
 
             var prevFeatures = AppFeatures.Current;
@@ -91,8 +116,6 @@ public abstract class BaseComponent<TProps, TEvents, TSlots, TExpose> : ICompone
                 }
 
                 composedComponent.Mount(slot);
-
-                parentFeatures.SetupComponentHotReload(this, slot);
             }
             finally
             {
@@ -129,6 +152,8 @@ public abstract class BaseComponent<TProps, TEvents, TSlots, TExpose> : ICompone
                 });
             });
         });
+
+        return mountScope;
     }
 
     public void Unmount()

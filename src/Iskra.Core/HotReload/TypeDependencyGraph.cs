@@ -46,11 +46,15 @@ public sealed class TypeDependencyGraph
 
                 foreach (var dep in deps)
                 {
-                    if (targets.Contains(dep))
+                    // Arrays/pointers/byrefs are runtime-synthesized and have no
+                    // scannable IL; track their element type instead.
+                    var normalized = Normalize(dep);
+
+                    if (targets.Contains(normalized))
                         return true;
 
-                    if (IsUserType(dep) && visited.Add(dep))
-                        queue.Enqueue(dep);
+                    if (IsUserType(normalized) && visited.Add(normalized))
+                        queue.Enqueue(normalized);
                 }
             }
 
@@ -84,8 +88,23 @@ public sealed class TypeDependencyGraph
 
     private static bool IsUserType(Type type) => IsUserAssembly(type.Assembly);
 
+    private static Type Normalize(Type type)
+    {
+        while (type.IsArray || type.IsPointer || type.IsByRef)
+            type = type.GetElementType()!;
+
+        return type;
+    }
+
     private static HashSet<Type> ScanDirectDependencies(Type type)
     {
+        // Arrays, pointers, byrefs and generic parameters are runtime-synthesized.
+        // Their methods (e.g. an array's ICollection<T> interface stubs) have no
+        // real metadata rows, so calling GetMethodBody on them aborts the mono
+        // runtime under hot reload. Skip them entirely.
+        if (type.IsArray || type.IsPointer || type.IsByRef || type.IsGenericParameter)
+            return new HashSet<Type>();
+
         var ctorTypes = new HashSet<Type>();
         var otherTypes = new HashSet<Type>();
 
@@ -101,9 +120,7 @@ public sealed class TypeDependencyGraph
 
         foreach (var method in methods.Cast<MethodBase>().Concat(ctors))
         {
-            MethodBody? body;
-            try { body = method.GetMethodBody(); }
-            catch { continue; }
+            MethodBody? body = method.GetMethodBody();
 
             if (body is null)
                 continue;
