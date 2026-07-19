@@ -1,7 +1,6 @@
 using Iskra.Core.Components;
 using Iskra.Dom.Components;
 using Iskra.Ssr.Features.HydrationState;
-using Iskra.Ssr.HotReload;
 using Iskra.Ssr.Components;
 using MyIskraApp.Client;
 using MyIskraApp.Client.Components;
@@ -66,7 +65,6 @@ public class AppPage : BaseComponent<AppPageProps, NoEvents, NoSlots, NoExpose>
                                 Props = new DivProps { Id = "app".ToConstSignal() },
                                 Children = [new App { Props = new AppProps() }],
                             },
-                            new BrowserRefreshScript(),
                             new HotReloadInterceptionScript(),
                         ],
                     },

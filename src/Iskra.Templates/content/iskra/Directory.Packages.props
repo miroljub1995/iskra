@@ -1,0 +1,8 @@
+<Project>
+  <!-- Replaced with concrete versions during Iskra.Templates pack. -->
+  <ItemGroup>
+    <PackageVersion Include="Iskra.Browser" Version="__ISKRA_CORE_VERSION__" />
+    <PackageVersion Include="Iskra.Ssr" Version="__ISKRA_CORE_VERSION__" />
+    <PackageVersion Include="Iskra.TailwindCss" Version="__ISKRA_TAILWIND_VERSION__" />
+  </ItemGroup>
+</Project>

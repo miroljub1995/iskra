@@ -66,7 +66,6 @@ public class DocsPage : BaseComponent<DocsPageProps, NoEvents, NoSlots, NoExpose
                                 Props = new DivProps { Id = "app".ToConstSignal() },
                                 Children = [new DocsApp { Props = new DocsAppProps() }],
                             },
-                            // new BrowserRefreshScript(),
                             new HotReloadInterceptionScript(),
                         ],
                     },

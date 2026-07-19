@@ -30,6 +30,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="content\**\*" Pack="true" PackagePath="content" />
+    <Content Include="content\**\*" Exclude="content\iskra\Directory.Packages.props" Pack="true" PackagePath="content" />
   </ItemGroup>
+
+  <Target Name="SyncTemplateDependencyVersions" BeforeTargets="_GetPackageFiles">
+    <PropertyGroup>
+      <_TemplatePackagesProps>$(IntermediateOutputPath)template-Directory.Packages.props</_TemplatePackagesProps>
+    </PropertyGroup>
+    <Copy SourceFiles="content\iskra\Directory.Packages.props" DestinationFiles="$(_TemplatePackagesProps)" />
+    <XmlPoke XmlInputPath="$(_TemplatePackagesProps)" Query="/Project/ItemGroup/PackageVersion[@Include='Iskra.Browser']/@Version" Value="$(IskraCoreVersion)" />
+    <XmlPoke XmlInputPath="$(_TemplatePackagesProps)" Query="/Project/ItemGroup/PackageVersion[@Include='Iskra.Ssr']/@Version" Value="$(IskraCoreVersion)" />
+    <XmlPoke XmlInputPath="$(_TemplatePackagesProps)" Query="/Project/ItemGroup/PackageVersion[@Include='Iskra.TailwindCss']/@Version" Value="$(IskraTailwindVersion)" />
+    <ItemGroup>
+      <None Include="$(_TemplatePackagesProps)" Pack="true" PackagePath="content/iskra/Directory.Packages.props" />
+    </ItemGroup>
+  </Target>
 </Project>
