@@ -12,15 +12,15 @@ public partial class SVGAnimatedRect: global::Iskra.JSCore.JSObjectProxy
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMRect BaseVal
+    public global::Iskra.StdWeb.SVGRect BaseVal
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseVal");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGRect, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "baseVal");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMRectReadOnly AnimVal
+    public global::Iskra.StdWeb.SVGRect AnimVal
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRectReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "animVal");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGRect, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "animVal");
     }
 }
 

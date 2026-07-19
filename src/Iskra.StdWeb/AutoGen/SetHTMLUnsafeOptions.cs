@@ -25,6 +25,13 @@ public partial class SetHTMLUnsafeOptions: global::Iskra.JSCore.JSObjectProxy
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Sanitizer, global::Iskra.StdWeb.SanitizerConfig, global::Iskra.StdWeb.SanitizerPresets, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sanitizer");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Sanitizer, global::Iskra.StdWeb.SanitizerConfig, global::Iskra.StdWeb.SanitizerPresets, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "sanitizer", value);
     }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public bool RunScripts
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "runScripts");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "runScripts", value);
+    }
 }
 
 #nullable disable

@@ -49,7 +49,7 @@ public class PropertyAccessorNullable:
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.XRCamera?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SVGSVGElement?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SVGElement?>,
-    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DOMMatrix?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SVGMatrix?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CSSStyleSheet?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SVGTransform?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CaretPosition?>,
@@ -89,12 +89,12 @@ public class PropertyAccessorNullable:
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ReadableStreamBYOBRequest?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Uint8Array?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<ulong, global::System.Numerics.BigInteger, global::Iskra.StdWeb.GenericMarshaller.Union>?>,
-    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.MediaStreamTrack?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.RTCDtlsTransport?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.RTCRtpCapabilities?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.RTCDTMFSender?>,
-    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<ushort?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<uint?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.XRDOMOverlayInit?>,
@@ -167,6 +167,7 @@ public class PropertyAccessorNullable:
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.DataView?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.UserIdleState?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ScreenIdleState?>,
+    global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.GPUTexture?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.ArrayBuffer?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DeviceMotionEventAcceleration?>,
     global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DeviceMotionEventRotationRate?>,
@@ -3158,9 +3159,9 @@ public class PropertyAccessorNullable:
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static global::Iskra.StdWeb.DOMMatrix? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DOMMatrix?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    static global::Iskra.StdWeb.SVGMatrix? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SVGMatrix?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.DOMMatrix? __element_44;
+        global::Iskra.StdWeb.SVGMatrix? __element_44;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
@@ -3169,15 +3170,15 @@ public class PropertyAccessorNullable:
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_44 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMMatrix>(___notNullable_1);
+            __element_44 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGMatrix>(___notNullable_1);
         }
         return __element_44;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static global::Iskra.StdWeb.DOMMatrix? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DOMMatrix?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    static global::Iskra.StdWeb.SVGMatrix? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SVGMatrix?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.DOMMatrix? __element_44;
+        global::Iskra.StdWeb.SVGMatrix? __element_44;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
@@ -3186,13 +3187,13 @@ public class PropertyAccessorNullable:
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_44 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMMatrix>(___notNullable_1);
+            __element_44 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SVGMatrix>(___notNullable_1);
         }
         return __element_44;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DOMMatrix?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.StdWeb.DOMMatrix? value)
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SVGMatrix?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.StdWeb.SVGMatrix? value)
     {
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_0;
         if (value is null)
@@ -3201,14 +3202,14 @@ public class PropertyAccessorNullable:
         }
         else
         {
-            global::Iskra.StdWeb.DOMMatrix ___notNullable_1 = (global::Iskra.StdWeb.DOMMatrix)value;
+            global::Iskra.StdWeb.SVGMatrix ___notNullable_1 = (global::Iskra.StdWeb.SVGMatrix)value;
             ___marshalledValue_0 = ___notNullable_1.JSObject;
         }
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DOMMatrix?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.StdWeb.DOMMatrix? value)
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SVGMatrix?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.StdWeb.SVGMatrix? value)
     {
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_0;
         if (value is null)
@@ -3217,7 +3218,7 @@ public class PropertyAccessorNullable:
         }
         else
         {
-            global::Iskra.StdWeb.DOMMatrix ___notNullable_1 = (global::Iskra.StdWeb.DOMMatrix)value;
+            global::Iskra.StdWeb.SVGMatrix ___notNullable_1 = (global::Iskra.StdWeb.SVGMatrix)value;
             ___marshalledValue_0 = ___notNullable_1.JSObject;
         }
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(obj, propertyName, ___marshalledValue_0);
@@ -5798,9 +5799,9 @@ public class PropertyAccessorNullable:
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_84;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_84;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
@@ -5809,15 +5810,15 @@ public class PropertyAccessorNullable:
         }
         else
         {
-            __element_84 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_84 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
         return __element_84;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_84;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_84;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
@@ -5826,13 +5827,13 @@ public class PropertyAccessorNullable:
         }
         else
         {
-            __element_84 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_84 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
         return __element_84;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
     {
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         if (value is null)
@@ -5848,7 +5849,7 @@ public class PropertyAccessorNullable:
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameEncryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
     {
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         if (value is null)
@@ -6128,9 +6129,9 @@ public class PropertyAccessorNullable:
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_89;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_89;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
@@ -6139,15 +6140,15 @@ public class PropertyAccessorNullable:
         }
         else
         {
-            __element_89 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_89 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
         return __element_89;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_89;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_89;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
@@ -6156,13 +6157,13 @@ public class PropertyAccessorNullable:
         }
         else
         {
-            __element_89 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_89 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
         return __element_89;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
     {
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         if (value is null)
@@ -6178,7 +6179,7 @@ public class PropertyAccessorNullable:
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecrypter, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCRtpSFrameDecryptor, global::Iskra.StdWeb.RTCRtpScriptTransform, global::Iskra.StdWeb.GenericMarshaller.Union>? value)
     {
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         if (value is null)
@@ -10946,9 +10947,9 @@ public class PropertyAccessorNullable:
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static global::Iskra.JSCore.ArrayBuffer? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.ArrayBuffer?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    static global::Iskra.StdWeb.GPUTexture? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.GPUTexture?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.ArrayBuffer? __element_162;
+        global::Iskra.StdWeb.GPUTexture? __element_162;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
@@ -10957,15 +10958,15 @@ public class PropertyAccessorNullable:
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_162 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(___notNullable_1);
+            __element_162 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUTexture>(___notNullable_1);
         }
         return __element_162;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    static global::Iskra.JSCore.ArrayBuffer? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.ArrayBuffer?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    static global::Iskra.StdWeb.GPUTexture? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.GPUTexture?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.ArrayBuffer? __element_162;
+        global::Iskra.StdWeb.GPUTexture? __element_162;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
@@ -10974,9 +10975,75 @@ public class PropertyAccessorNullable:
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_162 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(___notNullable_1);
+            __element_162 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GPUTexture>(___notNullable_1);
         }
         return __element_162;
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.GPUTexture?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex, global::Iskra.StdWeb.GPUTexture? value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.GPUTexture ___notNullable_1 = (global::Iskra.StdWeb.GPUTexture)value;
+            ___marshalledValue_0 = ___notNullable_1.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(obj, propertyIndex, ___marshalledValue_0);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    static void global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.GPUTexture?>.Set(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName, global::Iskra.StdWeb.GPUTexture? value)
+    {
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___marshalledValue_0;
+        if (value is null)
+        {
+            ___marshalledValue_0 = null;
+        }
+        else
+        {
+            global::Iskra.StdWeb.GPUTexture ___notNullable_1 = (global::Iskra.StdWeb.GPUTexture)value;
+            ___marshalledValue_0 = ___notNullable_1.JSObject;
+        }
+        global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2AsNullable(obj, propertyName, ___marshalledValue_0);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    static global::Iskra.JSCore.ArrayBuffer? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.ArrayBuffer?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
+    {
+        global::Iskra.JSCore.ArrayBuffer? __element_163;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
+        if (___res_0 is null)
+        {
+            __element_163 = null;
+        }
+        else
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
+            __element_163 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(___notNullable_1);
+        }
+        return __element_163;
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    static global::Iskra.JSCore.ArrayBuffer? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.ArrayBuffer?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
+    {
+        global::Iskra.JSCore.ArrayBuffer? __element_163;
+        global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
+        if (___res_0 is null)
+        {
+            __element_163 = null;
+        }
+        else
+        {
+            global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
+            __element_163 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.JSCore.ArrayBuffer>(___notNullable_1);
+        }
+        return __element_163;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11014,35 +11081,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.DeviceMotionEventAcceleration? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DeviceMotionEventAcceleration?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.DeviceMotionEventAcceleration? __element_163;
+        global::Iskra.StdWeb.DeviceMotionEventAcceleration? __element_164;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_163 = null;
+            __element_164 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_163 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(___notNullable_1);
+            __element_164 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(___notNullable_1);
         }
-        return __element_163;
+        return __element_164;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.DeviceMotionEventAcceleration? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DeviceMotionEventAcceleration?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.DeviceMotionEventAcceleration? __element_163;
+        global::Iskra.StdWeb.DeviceMotionEventAcceleration? __element_164;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_163 = null;
+            __element_164 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_163 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(___notNullable_1);
+            __element_164 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventAcceleration>(___notNullable_1);
         }
-        return __element_163;
+        return __element_164;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11080,35 +11147,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.DeviceMotionEventRotationRate? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DeviceMotionEventRotationRate?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.DeviceMotionEventRotationRate? __element_164;
+        global::Iskra.StdWeb.DeviceMotionEventRotationRate? __element_165;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_164 = null;
+            __element_165 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_164 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventRotationRate>(___notNullable_1);
+            __element_165 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventRotationRate>(___notNullable_1);
         }
-        return __element_164;
+        return __element_165;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.DeviceMotionEventRotationRate? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DeviceMotionEventRotationRate?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.DeviceMotionEventRotationRate? __element_164;
+        global::Iskra.StdWeb.DeviceMotionEventRotationRate? __element_165;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_164 = null;
+            __element_165 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_164 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventRotationRate>(___notNullable_1);
+            __element_165 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DeviceMotionEventRotationRate>(___notNullable_1);
         }
-        return __element_164;
+        return __element_165;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11146,35 +11213,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.CanvasPattern? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CanvasPattern?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.CanvasPattern? __element_165;
+        global::Iskra.StdWeb.CanvasPattern? __element_166;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_165 = null;
+            __element_166 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_165 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CanvasPattern>(___notNullable_1);
+            __element_166 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CanvasPattern>(___notNullable_1);
         }
-        return __element_165;
+        return __element_166;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.CanvasPattern? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CanvasPattern?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.CanvasPattern? __element_165;
+        global::Iskra.StdWeb.CanvasPattern? __element_166;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_165 = null;
+            __element_166 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_165 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CanvasPattern>(___notNullable_1);
+            __element_166 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CanvasPattern>(___notNullable_1);
         }
-        return __element_165;
+        return __element_166;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11212,35 +11279,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Touch? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Touch?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.Touch? __element_166;
+        global::Iskra.StdWeb.Touch? __element_167;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_166 = null;
+            __element_167 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_166 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Touch>(___notNullable_1);
+            __element_167 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Touch>(___notNullable_1);
         }
-        return __element_166;
+        return __element_167;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Touch? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Touch?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.Touch? __element_166;
+        global::Iskra.StdWeb.Touch? __element_167;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_166 = null;
+            __element_167 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_166 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Touch>(___notNullable_1);
+            __element_167 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Touch>(___notNullable_1);
         }
-        return __element_166;
+        return __element_167;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11278,35 +11345,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.CSSAnimation? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CSSAnimation?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.CSSAnimation? __element_167;
+        global::Iskra.StdWeb.CSSAnimation? __element_168;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_167 = null;
+            __element_168 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_167 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSAnimation>(___notNullable_1);
+            __element_168 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSAnimation>(___notNullable_1);
         }
-        return __element_167;
+        return __element_168;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.CSSAnimation? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CSSAnimation?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.CSSAnimation? __element_167;
+        global::Iskra.StdWeb.CSSAnimation? __element_168;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_167 = null;
+            __element_168 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_167 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSAnimation>(___notNullable_1);
+            __element_168 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSAnimation>(___notNullable_1);
         }
-        return __element_167;
+        return __element_168;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11344,35 +11411,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.CSSKeyframeRule? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CSSKeyframeRule?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.CSSKeyframeRule? __element_168;
+        global::Iskra.StdWeb.CSSKeyframeRule? __element_169;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_168 = null;
+            __element_169 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_168 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSKeyframeRule>(___notNullable_1);
+            __element_169 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSKeyframeRule>(___notNullable_1);
         }
-        return __element_168;
+        return __element_169;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.CSSKeyframeRule? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CSSKeyframeRule?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.CSSKeyframeRule? __element_168;
+        global::Iskra.StdWeb.CSSKeyframeRule? __element_169;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_168 = null;
+            __element_169 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_168 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSKeyframeRule>(___notNullable_1);
+            __element_169 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSKeyframeRule>(___notNullable_1);
         }
-        return __element_168;
+        return __element_169;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11410,35 +11477,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.CSSRule? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CSSRule?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.CSSRule? __element_169;
+        global::Iskra.StdWeb.CSSRule? __element_170;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_169 = null;
+            __element_170 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_169 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(___notNullable_1);
+            __element_170 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(___notNullable_1);
         }
-        return __element_169;
+        return __element_170;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.CSSRule? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CSSRule?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.CSSRule? __element_169;
+        global::Iskra.StdWeb.CSSRule? __element_170;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_169 = null;
+            __element_170 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_169 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(___notNullable_1);
+            __element_170 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.CSSRule>(___notNullable_1);
         }
-        return __element_169;
+        return __element_170;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11476,35 +11543,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.NodeFilter? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.NodeFilter?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.NodeFilter? __element_170;
+        global::Iskra.StdWeb.NodeFilter? __element_171;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_170 = null;
+            __element_171 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_170 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeFilter>(___notNullable_1);
+            __element_171 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeFilter>(___notNullable_1);
         }
-        return __element_170;
+        return __element_171;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.NodeFilter? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.NodeFilter?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.NodeFilter? __element_170;
+        global::Iskra.StdWeb.NodeFilter? __element_171;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_170 = null;
+            __element_171 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_170 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeFilter>(___notNullable_1);
+            __element_171 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NodeFilter>(___notNullable_1);
         }
-        return __element_170;
+        return __element_171;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11542,35 +11609,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.ReportBody? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ReportBody?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.ReportBody? __element_171;
+        global::Iskra.StdWeb.ReportBody? __element_172;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_171 = null;
+            __element_172 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_171 = new global::Iskra.StdWeb.ReportBody(___notNullable_1);
+            __element_172 = new global::Iskra.StdWeb.ReportBody(___notNullable_1);
         }
-        return __element_171;
+        return __element_172;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.ReportBody? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ReportBody?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.ReportBody? __element_171;
+        global::Iskra.StdWeb.ReportBody? __element_172;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_171 = null;
+            __element_172 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_171 = new global::Iskra.StdWeb.ReportBody(___notNullable_1);
+            __element_172 = new global::Iskra.StdWeb.ReportBody(___notNullable_1);
         }
-        return __element_171;
+        return __element_172;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11608,35 +11675,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.BackgroundFetchRegistration? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.BackgroundFetchRegistration?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.BackgroundFetchRegistration? __element_172;
+        global::Iskra.StdWeb.BackgroundFetchRegistration? __element_173;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_172 = null;
+            __element_173 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_172 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BackgroundFetchRegistration>(___notNullable_1);
+            __element_173 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BackgroundFetchRegistration>(___notNullable_1);
         }
-        return __element_172;
+        return __element_173;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.BackgroundFetchRegistration? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.BackgroundFetchRegistration?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.BackgroundFetchRegistration? __element_172;
+        global::Iskra.StdWeb.BackgroundFetchRegistration? __element_173;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_172 = null;
+            __element_173 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_172 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BackgroundFetchRegistration>(___notNullable_1);
+            __element_173 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.BackgroundFetchRegistration>(___notNullable_1);
         }
-        return __element_172;
+        return __element_173;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11674,35 +11741,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.ContactAddress? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ContactAddress?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.ContactAddress? __element_173;
+        global::Iskra.StdWeb.ContactAddress? __element_174;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_173 = null;
+            __element_174 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_173 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactAddress>(___notNullable_1);
+            __element_174 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactAddress>(___notNullable_1);
         }
-        return __element_173;
+        return __element_174;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.ContactAddress? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ContactAddress?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.ContactAddress? __element_173;
+        global::Iskra.StdWeb.ContactAddress? __element_174;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_173 = null;
+            __element_174 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_173 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactAddress>(___notNullable_1);
+            __element_174 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ContactAddress>(___notNullable_1);
         }
-        return __element_173;
+        return __element_174;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11740,35 +11807,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.PaymentShippingType? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.PaymentShippingType?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.PaymentShippingType? __element_174;
+        global::Iskra.StdWeb.PaymentShippingType? __element_175;
         string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_174 = null;
+            __element_175 = null;
         }
         else
         {
             string ___notNullable_1 = (string)___res_0;
-            __element_174 = global::Iskra.StdWeb.PaymentShippingType.Create(___notNullable_1);
+            __element_175 = global::Iskra.StdWeb.PaymentShippingType.Create(___notNullable_1);
         }
-        return __element_174;
+        return __element_175;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.PaymentShippingType? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.PaymentShippingType?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.PaymentShippingType? __element_174;
+        global::Iskra.StdWeb.PaymentShippingType? __element_175;
         string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_174 = null;
+            __element_175 = null;
         }
         else
         {
             string ___notNullable_1 = (string)___res_0;
-            __element_174 = global::Iskra.StdWeb.PaymentShippingType.Create(___notNullable_1);
+            __element_175 = global::Iskra.StdWeb.PaymentShippingType.Create(___notNullable_1);
         }
-        return __element_174;
+        return __element_175;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11806,35 +11873,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.XRHand? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.XRHand?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.XRHand? __element_175;
+        global::Iskra.StdWeb.XRHand? __element_176;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_175 = null;
+            __element_176 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_175 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRHand>(___notNullable_1);
+            __element_176 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRHand>(___notNullable_1);
         }
-        return __element_175;
+        return __element_176;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.XRHand? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.XRHand?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.XRHand? __element_175;
+        global::Iskra.StdWeb.XRHand? __element_176;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_175 = null;
+            __element_176 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_175 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRHand>(___notNullable_1);
+            __element_176 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRHand>(___notNullable_1);
         }
-        return __element_175;
+        return __element_176;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11872,35 +11939,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.XRSpace? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.XRSpace?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.XRSpace? __element_176;
+        global::Iskra.StdWeb.XRSpace? __element_177;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_176 = null;
+            __element_177 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_176 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(___notNullable_1);
+            __element_177 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(___notNullable_1);
         }
-        return __element_176;
+        return __element_177;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.XRSpace? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.XRSpace?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.XRSpace? __element_176;
+        global::Iskra.StdWeb.XRSpace? __element_177;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_176 = null;
+            __element_177 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_176 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(___notNullable_1);
+            __element_177 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRSpace>(___notNullable_1);
         }
-        return __element_176;
+        return __element_177;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -11938,35 +12005,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.LanguageModelParams? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.LanguageModelParams?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.LanguageModelParams? __element_177;
+        global::Iskra.StdWeb.LanguageModelParams? __element_178;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_177 = null;
+            __element_178 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_177 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LanguageModelParams>(___notNullable_1);
+            __element_178 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LanguageModelParams>(___notNullable_1);
         }
-        return __element_177;
+        return __element_178;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.LanguageModelParams? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.LanguageModelParams?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.LanguageModelParams? __element_177;
+        global::Iskra.StdWeb.LanguageModelParams? __element_178;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_177 = null;
+            __element_178 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_177 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LanguageModelParams>(___notNullable_1);
+            __element_178 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.LanguageModelParams>(___notNullable_1);
         }
-        return __element_177;
+        return __element_178;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12004,35 +12071,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.URL? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.URL?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.URL? __element_178;
+        global::Iskra.StdWeb.URL? __element_179;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_178 = null;
+            __element_179 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_178 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.URL>(___notNullable_1);
+            __element_179 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.URL>(___notNullable_1);
         }
-        return __element_178;
+        return __element_179;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.URL? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.URL?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.URL? __element_178;
+        global::Iskra.StdWeb.URL? __element_179;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_178 = null;
+            __element_179 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_178 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.URL>(___notNullable_1);
+            __element_179 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.URL>(___notNullable_1);
         }
-        return __element_178;
+        return __element_179;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12070,35 +12137,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_179;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_180;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_179 = null;
+            __element_180 = null;
         }
         else
         {
-            __element_179 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_180 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_179;
+        return __element_180;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_179;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_180;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_179 = null;
+            __element_180 = null;
         }
         else
         {
-            __element_179 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_180 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.Blob, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_179;
+        return __element_180;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12136,35 +12203,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.InputDeviceCapabilities? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.InputDeviceCapabilities?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.InputDeviceCapabilities? __element_180;
+        global::Iskra.StdWeb.InputDeviceCapabilities? __element_181;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_180 = null;
+            __element_181 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_180 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.InputDeviceCapabilities>(___notNullable_1);
+            __element_181 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.InputDeviceCapabilities>(___notNullable_1);
         }
-        return __element_180;
+        return __element_181;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.InputDeviceCapabilities? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.InputDeviceCapabilities?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.InputDeviceCapabilities? __element_180;
+        global::Iskra.StdWeb.InputDeviceCapabilities? __element_181;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_180 = null;
+            __element_181 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_180 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.InputDeviceCapabilities>(___notNullable_1);
+            __element_181 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.InputDeviceCapabilities>(___notNullable_1);
         }
-        return __element_180;
+        return __element_181;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12202,35 +12269,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.SpeechSynthesisVoice? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SpeechSynthesisVoice?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.SpeechSynthesisVoice? __element_181;
+        global::Iskra.StdWeb.SpeechSynthesisVoice? __element_182;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_181 = null;
+            __element_182 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_181 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechSynthesisVoice>(___notNullable_1);
+            __element_182 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechSynthesisVoice>(___notNullable_1);
         }
-        return __element_181;
+        return __element_182;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.SpeechSynthesisVoice? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SpeechSynthesisVoice?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.SpeechSynthesisVoice? __element_181;
+        global::Iskra.StdWeb.SpeechSynthesisVoice? __element_182;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_181 = null;
+            __element_182 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_181 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechSynthesisVoice>(___notNullable_1);
+            __element_182 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SpeechSynthesisVoice>(___notNullable_1);
         }
-        return __element_181;
+        return __element_182;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12268,35 +12335,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>? __element_182;
+        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>? __element_183;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_182 = null;
+            __element_183 = null;
         }
         else
         {
-            __element_182 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_183 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_182;
+        return __element_183;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>? __element_182;
+        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>? __element_183;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_182 = null;
+            __element_183 = null;
         }
         else
         {
-            __element_182 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_183 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.XRLayer, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_182;
+        return __element_183;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12334,35 +12401,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.WebGLFramebuffer? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.WebGLFramebuffer?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.WebGLFramebuffer? __element_183;
+        global::Iskra.StdWeb.WebGLFramebuffer? __element_184;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_183 = null;
+            __element_184 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_183 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLFramebuffer>(___notNullable_1);
+            __element_184 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLFramebuffer>(___notNullable_1);
         }
-        return __element_183;
+        return __element_184;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.WebGLFramebuffer? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.WebGLFramebuffer?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.WebGLFramebuffer? __element_183;
+        global::Iskra.StdWeb.WebGLFramebuffer? __element_184;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_183 = null;
+            __element_184 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_183 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLFramebuffer>(___notNullable_1);
+            __element_184 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLFramebuffer>(___notNullable_1);
         }
-        return __element_183;
+        return __element_184;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12400,35 +12467,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.XRViewport? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.XRViewport?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.XRViewport? __element_184;
+        global::Iskra.StdWeb.XRViewport? __element_185;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_184 = null;
+            __element_185 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_184 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRViewport>(___notNullable_1);
+            __element_185 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRViewport>(___notNullable_1);
         }
-        return __element_184;
+        return __element_185;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.XRViewport? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.XRViewport?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.XRViewport? __element_184;
+        global::Iskra.StdWeb.XRViewport? __element_185;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_184 = null;
+            __element_185 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_184 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRViewport>(___notNullable_1);
+            __element_185 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.XRViewport>(___notNullable_1);
         }
-        return __element_184;
+        return __element_185;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12466,35 +12533,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.WritableStream? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.WritableStream?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.WritableStream? __element_185;
+        global::Iskra.StdWeb.WritableStream? __element_186;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_185 = null;
+            __element_186 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_185 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(___notNullable_1);
+            __element_186 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(___notNullable_1);
         }
-        return __element_185;
+        return __element_186;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.WritableStream? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.WritableStream?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.WritableStream? __element_185;
+        global::Iskra.StdWeb.WritableStream? __element_186;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_185 = null;
+            __element_186 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_185 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(___notNullable_1);
+            __element_186 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WritableStream>(___notNullable_1);
         }
-        return __element_185;
+        return __element_186;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12532,35 +12599,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.ServiceWorkerRegistration? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ServiceWorkerRegistration?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.ServiceWorkerRegistration? __element_186;
+        global::Iskra.StdWeb.ServiceWorkerRegistration? __element_187;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_186 = null;
+            __element_187 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_186 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorkerRegistration>(___notNullable_1);
+            __element_187 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorkerRegistration>(___notNullable_1);
         }
-        return __element_186;
+        return __element_187;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.ServiceWorkerRegistration? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ServiceWorkerRegistration?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.ServiceWorkerRegistration? __element_186;
+        global::Iskra.StdWeb.ServiceWorkerRegistration? __element_187;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_186 = null;
+            __element_187 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_186 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorkerRegistration>(___notNullable_1);
+            __element_187 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ServiceWorkerRegistration>(___notNullable_1);
         }
-        return __element_186;
+        return __element_187;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12598,35 +12665,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Client? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Client?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.Client? __element_187;
+        global::Iskra.StdWeb.Client? __element_188;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_187 = null;
+            __element_188 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_187 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Client>(___notNullable_1);
+            __element_188 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Client>(___notNullable_1);
         }
-        return __element_187;
+        return __element_188;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Client? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Client?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.Client? __element_187;
+        global::Iskra.StdWeb.Client? __element_188;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_187 = null;
+            __element_188 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_187 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Client>(___notNullable_1);
+            __element_188 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Client>(___notNullable_1);
         }
-        return __element_187;
+        return __element_188;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12664,35 +12731,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_188;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_189;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_188 = null;
+            __element_189 = null;
         }
         else
         {
-            __element_188 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_189 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_188;
+        return __element_189;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_188;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_189;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_188 = null;
+            __element_189 = null;
         }
         else
         {
-            __element_188 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_189 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Client, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_188;
+        return __element_189;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12730,35 +12797,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Response? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Response?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.Response? __element_189;
+        global::Iskra.StdWeb.Response? __element_190;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_189 = null;
+            __element_190 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_189 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Response>(___notNullable_1);
+            __element_190 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Response>(___notNullable_1);
         }
-        return __element_189;
+        return __element_190;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Response? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Response?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.Response? __element_189;
+        global::Iskra.StdWeb.Response? __element_190;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_189 = null;
+            __element_190 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_189 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Response>(___notNullable_1);
+            __element_190 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Response>(___notNullable_1);
         }
-        return __element_189;
+        return __element_190;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12796,35 +12863,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>? __element_190;
+        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>? __element_191;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_190 = null;
+            __element_191 = null;
         }
         else
         {
-            __element_190 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_191 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_190;
+        return __element_191;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>? __element_190;
+        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>? __element_191;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_190 = null;
+            __element_191 = null;
         }
         else
         {
-            __element_190 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_191 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.NDEFRecord, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_190;
+        return __element_191;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12862,35 +12929,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.PushSubscription? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.PushSubscription?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.PushSubscription? __element_191;
+        global::Iskra.StdWeb.PushSubscription? __element_192;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_191 = null;
+            __element_192 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_191 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscription>(___notNullable_1);
+            __element_192 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscription>(___notNullable_1);
         }
-        return __element_191;
+        return __element_192;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.PushSubscription? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.PushSubscription?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.PushSubscription? __element_191;
+        global::Iskra.StdWeb.PushSubscription? __element_192;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_191 = null;
+            __element_192 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_191 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscription>(___notNullable_1);
+            __element_192 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushSubscription>(___notNullable_1);
         }
-        return __element_191;
+        return __element_192;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12928,35 +12995,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_192;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_193;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_192 = null;
+            __element_193 = null;
         }
         else
         {
-            __element_192 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_193 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_192;
+        return __element_193;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_192;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_193;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_192 = null;
+            __element_193 = null;
         }
         else
         {
-            __element_192 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_193 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Int8Array, global::Iskra.JSCore.Int16Array, global::Iskra.JSCore.Int32Array, global::Iskra.JSCore.Uint8Array, global::Iskra.JSCore.Uint16Array, global::Iskra.JSCore.Uint32Array, global::Iskra.JSCore.Uint8ClampedArray, global::Iskra.JSCore.BigInt64Array, global::Iskra.JSCore.BigUint64Array, global::Iskra.JSCore.Float16Array, global::Iskra.JSCore.Float32Array, global::Iskra.JSCore.Float64Array, global::Iskra.JSCore.DataView, global::Iskra.JSCore.ArrayBuffer, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_192;
+        return __element_193;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -12994,35 +13061,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.PushMessageData? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.PushMessageData?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.PushMessageData? __element_193;
+        global::Iskra.StdWeb.PushMessageData? __element_194;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_193 = null;
+            __element_194 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_193 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushMessageData>(___notNullable_1);
+            __element_194 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushMessageData>(___notNullable_1);
         }
-        return __element_193;
+        return __element_194;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.PushMessageData? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.PushMessageData?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.PushMessageData? __element_193;
+        global::Iskra.StdWeb.PushMessageData? __element_194;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_193 = null;
+            __element_194 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_193 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushMessageData>(___notNullable_1);
+            __element_194 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.PushMessageData>(___notNullable_1);
         }
-        return __element_193;
+        return __element_194;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13060,35 +13127,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Notification? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Notification?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.Notification? __element_194;
+        global::Iskra.StdWeb.Notification? __element_195;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_194 = null;
+            __element_195 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_194 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Notification>(___notNullable_1);
+            __element_195 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Notification>(___notNullable_1);
         }
-        return __element_194;
+        return __element_195;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Notification? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Notification?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.Notification? __element_194;
+        global::Iskra.StdWeb.Notification? __element_195;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_194 = null;
+            __element_195 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_194 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Notification>(___notNullable_1);
+            __element_195 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Notification>(___notNullable_1);
         }
-        return __element_194;
+        return __element_195;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13126,35 +13193,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.USBConfiguration? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.USBConfiguration?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.USBConfiguration? __element_195;
+        global::Iskra.StdWeb.USBConfiguration? __element_196;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_195 = null;
+            __element_196 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_195 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USBConfiguration>(___notNullable_1);
+            __element_196 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USBConfiguration>(___notNullable_1);
         }
-        return __element_195;
+        return __element_196;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.USBConfiguration? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.USBConfiguration?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.USBConfiguration? __element_195;
+        global::Iskra.StdWeb.USBConfiguration? __element_196;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_195 = null;
+            __element_196 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_195 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USBConfiguration>(___notNullable_1);
+            __element_196 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.USBConfiguration>(___notNullable_1);
         }
-        return __element_195;
+        return __element_196;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13192,35 +13259,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.LoadDocumentCallback? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.LoadDocumentCallback?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.LoadDocumentCallback? __element_196;
+        global::Iskra.StdWeb.LoadDocumentCallback? __element_197;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_196 = null;
+            __element_197 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_196 = new global::Iskra.StdWeb.LoadDocumentCallback(___notNullable_1);
+            __element_197 = new global::Iskra.StdWeb.LoadDocumentCallback(___notNullable_1);
         }
-        return __element_196;
+        return __element_197;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.LoadDocumentCallback? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.LoadDocumentCallback?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.LoadDocumentCallback? __element_196;
+        global::Iskra.StdWeb.LoadDocumentCallback? __element_197;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_196 = null;
+            __element_197 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_196 = new global::Iskra.StdWeb.LoadDocumentCallback(___notNullable_1);
+            __element_197 = new global::Iskra.StdWeb.LoadDocumentCallback(___notNullable_1);
         }
-        return __element_196;
+        return __element_197;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13258,35 +13325,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_197;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_198;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_197 = null;
+            __element_198 = null;
         }
         else
         {
-            __element_197 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_198 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_197;
+        return __element_198;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_197;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_198;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_197 = null;
+            __element_198 = null;
         }
         else
         {
-            __element_197 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_198 = new global::Iskra.JSCore.Generics.Union<global::Iskra.JSCore.Generics.Record<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>, string, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_197;
+        return __element_198;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13324,35 +13391,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>? __element_198;
+        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>? __element_199;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_198 = null;
+            __element_199 = null;
         }
         else
         {
-            __element_198 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_199 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_198;
+        return __element_199;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>? __element_198;
+        global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>? __element_199;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_198 = null;
+            __element_199 = null;
         }
         else
         {
-            __element_198 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_199 = new global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.Node, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_198;
+        return __element_199;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13390,35 +13457,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.MediaKeyStatus? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.MediaKeyStatus?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.MediaKeyStatus? __element_199;
+        global::Iskra.StdWeb.MediaKeyStatus? __element_200;
         string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_199 = null;
+            __element_200 = null;
         }
         else
         {
             string ___notNullable_1 = (string)___res_0;
-            __element_199 = global::Iskra.StdWeb.MediaKeyStatus.Create(___notNullable_1);
+            __element_200 = global::Iskra.StdWeb.MediaKeyStatus.Create(___notNullable_1);
         }
-        return __element_199;
+        return __element_200;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.MediaKeyStatus? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.MediaKeyStatus?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.MediaKeyStatus? __element_199;
+        global::Iskra.StdWeb.MediaKeyStatus? __element_200;
         string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_199 = null;
+            __element_200 = null;
         }
         else
         {
             string ___notNullable_1 = (string)___res_0;
-            __element_199 = global::Iskra.StdWeb.MediaKeyStatus.Create(___notNullable_1);
+            __element_200 = global::Iskra.StdWeb.MediaKeyStatus.Create(___notNullable_1);
         }
-        return __element_199;
+        return __element_200;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13456,35 +13523,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.AnimationTriggerBehavior? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.AnimationTriggerBehavior?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.AnimationTriggerBehavior? __element_200;
+        global::Iskra.StdWeb.AnimationTriggerBehavior? __element_201;
         string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_200 = null;
+            __element_201 = null;
         }
         else
         {
             string ___notNullable_1 = (string)___res_0;
-            __element_200 = global::Iskra.StdWeb.AnimationTriggerBehavior.Create(___notNullable_1);
+            __element_201 = global::Iskra.StdWeb.AnimationTriggerBehavior.Create(___notNullable_1);
         }
-        return __element_200;
+        return __element_201;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.AnimationTriggerBehavior? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.AnimationTriggerBehavior?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.AnimationTriggerBehavior? __element_200;
+        global::Iskra.StdWeb.AnimationTriggerBehavior? __element_201;
         string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_200 = null;
+            __element_201 = null;
         }
         else
         {
             string ___notNullable_1 = (string)___res_0;
-            __element_200 = global::Iskra.StdWeb.AnimationTriggerBehavior.Create(___notNullable_1);
+            __element_201 = global::Iskra.StdWeb.AnimationTriggerBehavior.Create(___notNullable_1);
         }
-        return __element_200;
+        return __element_201;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13522,35 +13589,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_201;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_202;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_201 = null;
+            __element_202 = null;
         }
         else
         {
-            __element_201 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_202 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_201;
+        return __element_202;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_201;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_202;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_201 = null;
+            __element_202 = null;
         }
         else
         {
-            __element_201 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_202 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.HTMLCollection, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_201;
+        return __element_202;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13588,35 +13655,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_202;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_203;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_202 = null;
+            __element_203 = null;
         }
         else
         {
-            __element_202 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_203 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_202;
+        return __element_203;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_202;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_203;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_202 = null;
+            __element_203 = null;
         }
         else
         {
-            __element_202 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_203 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RadioNodeList, global::Iskra.StdWeb.Element, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_202;
+        return __element_203;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13654,35 +13721,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.AudioTrack? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.AudioTrack?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.AudioTrack? __element_203;
+        global::Iskra.StdWeb.AudioTrack? __element_204;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_203 = null;
+            __element_204 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_203 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioTrack>(___notNullable_1);
+            __element_204 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioTrack>(___notNullable_1);
         }
-        return __element_203;
+        return __element_204;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.AudioTrack? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.AudioTrack?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.AudioTrack? __element_203;
+        global::Iskra.StdWeb.AudioTrack? __element_204;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_203 = null;
+            __element_204 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_203 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioTrack>(___notNullable_1);
+            __element_204 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioTrack>(___notNullable_1);
         }
-        return __element_203;
+        return __element_204;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13720,35 +13787,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.SourceBuffer? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SourceBuffer?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.SourceBuffer? __element_204;
+        global::Iskra.StdWeb.SourceBuffer? __element_205;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_204 = null;
+            __element_205 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_204 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBuffer>(___notNullable_1);
+            __element_205 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBuffer>(___notNullable_1);
         }
-        return __element_204;
+        return __element_205;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.SourceBuffer? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.SourceBuffer?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.SourceBuffer? __element_204;
+        global::Iskra.StdWeb.SourceBuffer? __element_205;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_204 = null;
+            __element_205 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_204 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBuffer>(___notNullable_1);
+            __element_205 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.SourceBuffer>(___notNullable_1);
         }
-        return __element_204;
+        return __element_205;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13786,35 +13853,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.VideoTrack? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.VideoTrack?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.VideoTrack? __element_205;
+        global::Iskra.StdWeb.VideoTrack? __element_206;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_205 = null;
+            __element_206 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_205 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoTrack>(___notNullable_1);
+            __element_206 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoTrack>(___notNullable_1);
         }
-        return __element_205;
+        return __element_206;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.VideoTrack? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.VideoTrack?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.VideoTrack? __element_205;
+        global::Iskra.StdWeb.VideoTrack? __element_206;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_205 = null;
+            __element_206 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_205 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoTrack>(___notNullable_1);
+            __element_206 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VideoTrack>(___notNullable_1);
         }
-        return __element_205;
+        return __element_206;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13852,35 +13919,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.TextTrack? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.TextTrack?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.TextTrack? __element_206;
+        global::Iskra.StdWeb.TextTrack? __element_207;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_206 = null;
+            __element_207 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_206 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrack>(___notNullable_1);
+            __element_207 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrack>(___notNullable_1);
         }
-        return __element_206;
+        return __element_207;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.TextTrack? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.TextTrack?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.TextTrack? __element_206;
+        global::Iskra.StdWeb.TextTrack? __element_207;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_206 = null;
+            __element_207 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_206 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrack>(___notNullable_1);
+            __element_207 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrack>(___notNullable_1);
         }
-        return __element_206;
+        return __element_207;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13918,35 +13985,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.TextTrackCueList? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.TextTrackCueList?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.TextTrackCueList? __element_207;
+        global::Iskra.StdWeb.TextTrackCueList? __element_208;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_207 = null;
+            __element_208 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_207 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCueList>(___notNullable_1);
+            __element_208 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCueList>(___notNullable_1);
         }
-        return __element_207;
+        return __element_208;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.TextTrackCueList? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.TextTrackCueList?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.TextTrackCueList? __element_207;
+        global::Iskra.StdWeb.TextTrackCueList? __element_208;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_207 = null;
+            __element_208 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_207 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCueList>(___notNullable_1);
+            __element_208 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCueList>(___notNullable_1);
         }
-        return __element_207;
+        return __element_208;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -13984,35 +14051,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.TextTrackCue? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.TextTrackCue?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.TextTrackCue? __element_208;
+        global::Iskra.StdWeb.TextTrackCue? __element_209;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_208 = null;
+            __element_209 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_208 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCue>(___notNullable_1);
+            __element_209 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCue>(___notNullable_1);
         }
-        return __element_208;
+        return __element_209;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.TextTrackCue? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.TextTrackCue?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.TextTrackCue? __element_208;
+        global::Iskra.StdWeb.TextTrackCue? __element_209;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_208 = null;
+            __element_209 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_208 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCue>(___notNullable_1);
+            __element_209 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.TextTrackCue>(___notNullable_1);
         }
-        return __element_208;
+        return __element_209;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14050,35 +14117,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_209;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_210;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_209 = null;
+            __element_210 = null;
         }
         else
         {
-            __element_209 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_210 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_209;
+        return __element_210;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_209;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_210;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_209 = null;
+            __element_210 = null;
         }
         else
         {
-            __element_209 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_210 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.VideoTrack, global::Iskra.StdWeb.AudioTrack, global::Iskra.StdWeb.TextTrack, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_209;
+        return __element_210;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14116,35 +14183,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.HTMLTableCaptionElement? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.HTMLTableCaptionElement?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.HTMLTableCaptionElement? __element_210;
+        global::Iskra.StdWeb.HTMLTableCaptionElement? __element_211;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_210 = null;
+            __element_211 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_210 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLTableCaptionElement>(___notNullable_1);
+            __element_211 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLTableCaptionElement>(___notNullable_1);
         }
-        return __element_210;
+        return __element_211;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.HTMLTableCaptionElement? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.HTMLTableCaptionElement?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.HTMLTableCaptionElement? __element_210;
+        global::Iskra.StdWeb.HTMLTableCaptionElement? __element_211;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_210 = null;
+            __element_211 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_210 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLTableCaptionElement>(___notNullable_1);
+            __element_211 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLTableCaptionElement>(___notNullable_1);
         }
-        return __element_210;
+        return __element_211;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14182,35 +14249,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.HTMLTableSectionElement? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.HTMLTableSectionElement?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.HTMLTableSectionElement? __element_211;
+        global::Iskra.StdWeb.HTMLTableSectionElement? __element_212;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_211 = null;
+            __element_212 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_211 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLTableSectionElement>(___notNullable_1);
+            __element_212 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLTableSectionElement>(___notNullable_1);
         }
-        return __element_211;
+        return __element_212;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.HTMLTableSectionElement? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.HTMLTableSectionElement?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.HTMLTableSectionElement? __element_211;
+        global::Iskra.StdWeb.HTMLTableSectionElement? __element_212;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_211 = null;
+            __element_212 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_211 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLTableSectionElement>(___notNullable_1);
+            __element_212 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLTableSectionElement>(___notNullable_1);
         }
-        return __element_211;
+        return __element_212;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14248,35 +14315,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.HTMLOptionElement? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.HTMLOptionElement?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.HTMLOptionElement? __element_212;
+        global::Iskra.StdWeb.HTMLOptionElement? __element_213;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_212 = null;
+            __element_213 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_212 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLOptionElement>(___notNullable_1);
+            __element_213 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLOptionElement>(___notNullable_1);
         }
-        return __element_212;
+        return __element_213;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.HTMLOptionElement? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.HTMLOptionElement?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.HTMLOptionElement? __element_212;
+        global::Iskra.StdWeb.HTMLOptionElement? __element_213;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_212 = null;
+            __element_213 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_212 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLOptionElement>(___notNullable_1);
+            __element_213 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.HTMLOptionElement>(___notNullable_1);
         }
-        return __element_212;
+        return __element_213;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14314,35 +14381,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_213;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_214;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_213 = null;
+            __element_214 = null;
         }
         else
         {
-            __element_213 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_214 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_213;
+        return __element_214;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_213;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_214;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_213 = null;
+            __element_214 = null;
         }
         else
         {
-            __element_213 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_214 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.OffscreenCanvasRenderingContext2D, global::Iskra.StdWeb.ImageBitmapRenderingContext, global::Iskra.StdWeb.WebGLRenderingContext, global::Iskra.StdWeb.WebGL2RenderingContext, global::Iskra.StdWeb.GPUCanvasContext, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_213;
+        return __element_214;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14380,35 +14447,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.CustomElementConstructor? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CustomElementConstructor?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.CustomElementConstructor? __element_214;
+        global::Iskra.StdWeb.CustomElementConstructor? __element_215;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_214 = null;
+            __element_215 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_214 = new global::Iskra.StdWeb.CustomElementConstructor(___notNullable_1);
+            __element_215 = new global::Iskra.StdWeb.CustomElementConstructor(___notNullable_1);
         }
-        return __element_214;
+        return __element_215;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.CustomElementConstructor? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.CustomElementConstructor?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.CustomElementConstructor? __element_214;
+        global::Iskra.StdWeb.CustomElementConstructor? __element_215;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_214 = null;
+            __element_215 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_214 = new global::Iskra.StdWeb.CustomElementConstructor(___notNullable_1);
+            __element_215 = new global::Iskra.StdWeb.CustomElementConstructor(___notNullable_1);
         }
-        return __element_214;
+        return __element_215;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14446,35 +14513,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.DataTransferItem? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DataTransferItem?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.DataTransferItem? __element_215;
+        global::Iskra.StdWeb.DataTransferItem? __element_216;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_215 = null;
+            __element_216 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_215 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransferItem>(___notNullable_1);
+            __element_216 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransferItem>(___notNullable_1);
         }
-        return __element_215;
+        return __element_216;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.DataTransferItem? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DataTransferItem?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.DataTransferItem? __element_215;
+        global::Iskra.StdWeb.DataTransferItem? __element_216;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_215 = null;
+            __element_216 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_215 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransferItem>(___notNullable_1);
+            __element_216 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DataTransferItem>(___notNullable_1);
         }
-        return __element_215;
+        return __element_216;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14512,35 +14579,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.NavigationHistoryEntry? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.NavigationHistoryEntry?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.NavigationHistoryEntry? __element_216;
+        global::Iskra.StdWeb.NavigationHistoryEntry? __element_217;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_216 = null;
+            __element_217 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_216 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(___notNullable_1);
+            __element_217 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(___notNullable_1);
         }
-        return __element_216;
+        return __element_217;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.NavigationHistoryEntry? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.NavigationHistoryEntry?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.NavigationHistoryEntry? __element_216;
+        global::Iskra.StdWeb.NavigationHistoryEntry? __element_217;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_216 = null;
+            __element_217 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_216 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(___notNullable_1);
+            __element_217 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationHistoryEntry>(___notNullable_1);
         }
-        return __element_216;
+        return __element_217;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14578,35 +14645,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.NavigationTransition? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.NavigationTransition?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.NavigationTransition? __element_217;
+        global::Iskra.StdWeb.NavigationTransition? __element_218;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_217 = null;
+            __element_218 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_217 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationTransition>(___notNullable_1);
+            __element_218 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationTransition>(___notNullable_1);
         }
-        return __element_217;
+        return __element_218;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.NavigationTransition? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.NavigationTransition?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.NavigationTransition? __element_217;
+        global::Iskra.StdWeb.NavigationTransition? __element_218;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_217 = null;
+            __element_218 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_217 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationTransition>(___notNullable_1);
+            __element_218 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationTransition>(___notNullable_1);
         }
-        return __element_217;
+        return __element_218;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14644,35 +14711,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.NavigationActivation? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.NavigationActivation?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.NavigationActivation? __element_218;
+        global::Iskra.StdWeb.NavigationActivation? __element_219;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_218 = null;
+            __element_219 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_218 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationActivation>(___notNullable_1);
+            __element_219 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationActivation>(___notNullable_1);
         }
-        return __element_218;
+        return __element_219;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.NavigationActivation? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.NavigationActivation?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.NavigationActivation? __element_218;
+        global::Iskra.StdWeb.NavigationActivation? __element_219;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_218 = null;
+            __element_219 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_218 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationActivation>(___notNullable_1);
+            __element_219 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.NavigationActivation>(___notNullable_1);
         }
-        return __element_218;
+        return __element_219;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14710,35 +14777,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.FormData? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.FormData?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.FormData? __element_219;
+        global::Iskra.StdWeb.FormData? __element_220;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_219 = null;
+            __element_220 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_219 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FormData>(___notNullable_1);
+            __element_220 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FormData>(___notNullable_1);
         }
-        return __element_219;
+        return __element_220;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.FormData? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.FormData?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.FormData? __element_219;
+        global::Iskra.StdWeb.FormData? __element_220;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_219 = null;
+            __element_220 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_219 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FormData>(___notNullable_1);
+            __element_220 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FormData>(___notNullable_1);
         }
-        return __element_219;
+        return __element_220;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14776,35 +14843,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.NavigationType? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.NavigationType?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.NavigationType? __element_220;
+        global::Iskra.StdWeb.NavigationType? __element_221;
         string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_220 = null;
+            __element_221 = null;
         }
         else
         {
             string ___notNullable_1 = (string)___res_0;
-            __element_220 = global::Iskra.StdWeb.NavigationType.Create(___notNullable_1);
+            __element_221 = global::Iskra.StdWeb.NavigationType.Create(___notNullable_1);
         }
-        return __element_220;
+        return __element_221;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.NavigationType? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.NavigationType?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.NavigationType? __element_220;
+        global::Iskra.StdWeb.NavigationType? __element_221;
         string? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsStringV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_220 = null;
+            __element_221 = null;
         }
         else
         {
             string ___notNullable_1 = (string)___res_0;
-            __element_220 = global::Iskra.StdWeb.NavigationType.Create(___notNullable_1);
+            __element_221 = global::Iskra.StdWeb.NavigationType.Create(___notNullable_1);
         }
-        return __element_220;
+        return __element_221;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14842,35 +14909,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>? __element_221;
+        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>? __element_222;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_221 = null;
+            __element_222 = null;
         }
         else
         {
-            __element_221 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_222 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_221;
+        return __element_222;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>? __element_221;
+        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>? __element_222;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_221 = null;
+            __element_222 = null;
         }
         else
         {
-            __element_221 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_222 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasonDetails, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_221;
+        return __element_222;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14908,35 +14975,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>? __element_222;
+        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>? __element_223;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_222 = null;
+            __element_223 = null;
         }
         else
         {
-            __element_222 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_223 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_222;
+        return __element_223;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>? __element_222;
+        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>? __element_223;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_222 = null;
+            __element_223 = null;
         }
         else
         {
-            __element_222 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_223 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.NotRestoredReasons, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_222;
+        return __element_223;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -14974,35 +15041,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Plugin? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Plugin?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.Plugin? __element_223;
+        global::Iskra.StdWeb.Plugin? __element_224;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_223 = null;
+            __element_224 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_223 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Plugin>(___notNullable_1);
+            __element_224 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Plugin>(___notNullable_1);
         }
-        return __element_223;
+        return __element_224;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Plugin? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Plugin?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.Plugin? __element_223;
+        global::Iskra.StdWeb.Plugin? __element_224;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_223 = null;
+            __element_224 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_223 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Plugin>(___notNullable_1);
+            __element_224 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Plugin>(___notNullable_1);
         }
-        return __element_223;
+        return __element_224;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15040,35 +15107,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.MimeType? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.MimeType?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.MimeType? __element_224;
+        global::Iskra.StdWeb.MimeType? __element_225;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_224 = null;
+            __element_225 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_224 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MimeType>(___notNullable_1);
+            __element_225 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MimeType>(___notNullable_1);
         }
-        return __element_224;
+        return __element_225;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.MimeType? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.MimeType?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.MimeType? __element_224;
+        global::Iskra.StdWeb.MimeType? __element_225;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_224 = null;
+            __element_225 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_224 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MimeType>(___notNullable_1);
+            __element_225 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MimeType>(___notNullable_1);
         }
-        return __element_224;
+        return __element_225;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15106,35 +15173,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_225;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_226;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_225 = null;
+            __element_226 = null;
         }
         else
         {
-            __element_225 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_226 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_225;
+        return __element_226;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_225;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_226;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_225 = null;
+            __element_226 = null;
         }
         else
         {
-            __element_225 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_226 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Window, global::Iskra.StdWeb.MessagePort, global::Iskra.StdWeb.ServiceWorker, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_225;
+        return __element_226;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15172,35 +15239,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Storage? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Storage?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.Storage? __element_226;
+        global::Iskra.StdWeb.Storage? __element_227;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_226 = null;
+            __element_227 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_226 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(___notNullable_1);
+            __element_227 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(___notNullable_1);
         }
-        return __element_226;
+        return __element_227;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.Storage? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.Storage?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.Storage? __element_226;
+        global::Iskra.StdWeb.Storage? __element_227;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_226 = null;
+            __element_227 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_226 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(___notNullable_1);
+            __element_227 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.Storage>(___notNullable_1);
         }
-        return __element_226;
+        return __element_227;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15238,35 +15305,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.GeolocationPosition? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.GeolocationPosition?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.GeolocationPosition? __element_227;
+        global::Iskra.StdWeb.GeolocationPosition? __element_228;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_227 = null;
+            __element_228 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_227 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPosition>(___notNullable_1);
+            __element_228 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPosition>(___notNullable_1);
         }
-        return __element_227;
+        return __element_228;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.GeolocationPosition? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.GeolocationPosition?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.GeolocationPosition? __element_227;
+        global::Iskra.StdWeb.GeolocationPosition? __element_228;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_227 = null;
+            __element_228 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_227 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPosition>(___notNullable_1);
+            __element_228 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPosition>(___notNullable_1);
         }
-        return __element_227;
+        return __element_228;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15304,35 +15371,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.GeolocationPositionError? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.GeolocationPositionError?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.GeolocationPositionError? __element_228;
+        global::Iskra.StdWeb.GeolocationPositionError? __element_229;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_228 = null;
+            __element_229 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_228 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPositionError>(___notNullable_1);
+            __element_229 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPositionError>(___notNullable_1);
         }
-        return __element_228;
+        return __element_229;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.GeolocationPositionError? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.GeolocationPositionError?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.GeolocationPositionError? __element_228;
+        global::Iskra.StdWeb.GeolocationPositionError? __element_229;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_228 = null;
+            __element_229 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_228 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPositionError>(___notNullable_1);
+            __element_229 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.GeolocationPositionError>(___notNullable_1);
         }
-        return __element_228;
+        return __element_229;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15370,35 +15437,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.FencedFrameConfig? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.FencedFrameConfig?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.FencedFrameConfig? __element_229;
+        global::Iskra.StdWeb.FencedFrameConfig? __element_230;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_229 = null;
+            __element_230 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_229 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FencedFrameConfig>(___notNullable_1);
+            __element_230 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FencedFrameConfig>(___notNullable_1);
         }
-        return __element_229;
+        return __element_230;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.FencedFrameConfig? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.FencedFrameConfig?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.FencedFrameConfig? __element_229;
+        global::Iskra.StdWeb.FencedFrameConfig? __element_230;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_229 = null;
+            __element_230 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_229 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FencedFrameConfig>(___notNullable_1);
+            __element_230 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.FencedFrameConfig>(___notNullable_1);
         }
-        return __element_229;
+        return __element_230;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15436,35 +15503,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.WebGLQuery? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.WebGLQuery?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.WebGLQuery? __element_230;
+        global::Iskra.StdWeb.WebGLQuery? __element_231;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_230 = null;
+            __element_231 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_230 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLQuery>(___notNullable_1);
+            __element_231 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLQuery>(___notNullable_1);
         }
-        return __element_230;
+        return __element_231;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.WebGLQuery? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.WebGLQuery?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.WebGLQuery? __element_230;
+        global::Iskra.StdWeb.WebGLQuery? __element_231;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_230 = null;
+            __element_231 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_230 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLQuery>(___notNullable_1);
+            __element_231 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLQuery>(___notNullable_1);
         }
-        return __element_230;
+        return __element_231;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15502,35 +15569,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.WebGLSync? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.WebGLSync?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.WebGLSync? __element_231;
+        global::Iskra.StdWeb.WebGLSync? __element_232;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_231 = null;
+            __element_232 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_231 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLSync>(___notNullable_1);
+            __element_232 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLSync>(___notNullable_1);
         }
-        return __element_231;
+        return __element_232;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.WebGLSync? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.WebGLSync?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.WebGLSync? __element_231;
+        global::Iskra.StdWeb.WebGLSync? __element_232;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_231 = null;
+            __element_232 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_231 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLSync>(___notNullable_1);
+            __element_232 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.WebGLSync>(___notNullable_1);
         }
-        return __element_231;
+        return __element_232;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15568,35 +15635,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>? __element_232;
+        global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>? __element_233;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_232 = null;
+            __element_233 = null;
         }
         else
         {
-            __element_232 = new global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_233 = new global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_232;
+        return __element_233;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>? __element_232;
+        global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>? __element_233;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_232 = null;
+            __element_233 = null;
         }
         else
         {
-            __element_232 = new global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_233 = new global::Iskra.JSCore.Generics.JSArray<uint, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_232;
+        return __element_233;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15634,35 +15701,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.VTTRegion? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.VTTRegion?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.VTTRegion? __element_233;
+        global::Iskra.StdWeb.VTTRegion? __element_234;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_233 = null;
+            __element_234 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_233 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VTTRegion>(___notNullable_1);
+            __element_234 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VTTRegion>(___notNullable_1);
         }
-        return __element_233;
+        return __element_234;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.VTTRegion? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.VTTRegion?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.VTTRegion? __element_233;
+        global::Iskra.StdWeb.VTTRegion? __element_234;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_233 = null;
+            __element_234 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_233 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VTTRegion>(___notNullable_1);
+            __element_234 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.VTTRegion>(___notNullable_1);
         }
-        return __element_233;
+        return __element_234;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15700,35 +15767,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.ViewTransitionUpdateCallback? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ViewTransitionUpdateCallback?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.ViewTransitionUpdateCallback? __element_234;
+        global::Iskra.StdWeb.ViewTransitionUpdateCallback? __element_235;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_234 = null;
+            __element_235 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_234 = new global::Iskra.StdWeb.ViewTransitionUpdateCallback(___notNullable_1);
+            __element_235 = new global::Iskra.StdWeb.ViewTransitionUpdateCallback(___notNullable_1);
         }
-        return __element_234;
+        return __element_235;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.ViewTransitionUpdateCallback? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ViewTransitionUpdateCallback?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.ViewTransitionUpdateCallback? __element_234;
+        global::Iskra.StdWeb.ViewTransitionUpdateCallback? __element_235;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_234 = null;
+            __element_235 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_234 = new global::Iskra.StdWeb.ViewTransitionUpdateCallback(___notNullable_1);
+            __element_235 = new global::Iskra.StdWeb.ViewTransitionUpdateCallback(___notNullable_1);
         }
-        return __element_234;
+        return __element_235;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15766,35 +15833,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_235;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_236;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_235 = null;
+            __element_236 = null;
         }
         else
         {
-            __element_235 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_236 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_235;
+        return __element_236;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_235;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_236;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_235 = null;
+            __element_236 = null;
         }
         else
         {
-            __element_235 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_236 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.Element, global::Iskra.StdWeb.ProcessingInstruction, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_235;
+        return __element_236;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15832,35 +15899,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.MIDIPort? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.MIDIPort?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.MIDIPort? __element_236;
+        global::Iskra.StdWeb.MIDIPort? __element_237;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_236 = null;
+            __element_237 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_236 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIPort>(___notNullable_1);
+            __element_237 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIPort>(___notNullable_1);
         }
-        return __element_236;
+        return __element_237;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.MIDIPort? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.MIDIPort?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.MIDIPort? __element_236;
+        global::Iskra.StdWeb.MIDIPort? __element_237;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_236 = null;
+            __element_237 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_236 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIPort>(___notNullable_1);
+            __element_237 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.MIDIPort>(___notNullable_1);
         }
-        return __element_236;
+        return __element_237;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15898,35 +15965,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>? __element_237;
+        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>? __element_238;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_237 = null;
+            __element_238 = null;
         }
         else
         {
-            __element_237 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_238 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_237;
+        return __element_238;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>? __element_237;
+        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>? __element_238;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_237 = null;
+            __element_238 = null;
         }
         else
         {
-            __element_237 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_238 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.CSSParserRule, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_237;
+        return __element_238;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -15964,35 +16031,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.DOMException? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DOMException?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.DOMException? __element_238;
+        global::Iskra.StdWeb.DOMException? __element_239;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_238 = null;
+            __element_239 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_238 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(___notNullable_1);
+            __element_239 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(___notNullable_1);
         }
-        return __element_238;
+        return __element_239;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.DOMException? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.DOMException?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.DOMException? __element_238;
+        global::Iskra.StdWeb.DOMException? __element_239;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_238 = null;
+            __element_239 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_238 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(___notNullable_1);
+            __element_239 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.DOMException>(___notNullable_1);
         }
-        return __element_238;
+        return __element_239;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -16030,35 +16097,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_239;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_240;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_239 = null;
+            __element_240 = null;
         }
         else
         {
-            __element_239 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_240 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_239;
+        return __element_240;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_239;
+        global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_240;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_239 = null;
+            __element_240 = null;
         }
         else
         {
-            __element_239 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_240 = new global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.IDBObjectStore, global::Iskra.StdWeb.IDBIndex, global::Iskra.StdWeb.IDBCursor, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_239;
+        return __element_240;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -16096,35 +16163,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.IDBTransaction? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.IDBTransaction?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.IDBTransaction? __element_240;
+        global::Iskra.StdWeb.IDBTransaction? __element_241;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_240 = null;
+            __element_241 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_240 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBTransaction>(___notNullable_1);
+            __element_241 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBTransaction>(___notNullable_1);
         }
-        return __element_240;
+        return __element_241;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.IDBTransaction? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.IDBTransaction?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.IDBTransaction? __element_240;
+        global::Iskra.StdWeb.IDBTransaction? __element_241;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_240 = null;
+            __element_241 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_240 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBTransaction>(___notNullable_1);
+            __element_241 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.IDBTransaction>(___notNullable_1);
         }
-        return __element_240;
+        return __element_241;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -16162,35 +16229,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_241;
+        global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_242;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_241 = null;
+            __element_242 = null;
         }
         else
         {
-            __element_241 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_242 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_241;
+        return __element_242;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_241;
+        global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_242;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_241 = null;
+            __element_242 = null;
         }
         else
         {
-            __element_241 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_242 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.Generics.JSArray<string, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_241;
+        return __element_242;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -16228,35 +16295,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.ChildBreakToken? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ChildBreakToken?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.ChildBreakToken? __element_242;
+        global::Iskra.StdWeb.ChildBreakToken? __element_243;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_242 = null;
+            __element_243 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_242 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ChildBreakToken>(___notNullable_1);
+            __element_243 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ChildBreakToken>(___notNullable_1);
         }
-        return __element_242;
+        return __element_243;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.ChildBreakToken? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.ChildBreakToken?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.ChildBreakToken? __element_242;
+        global::Iskra.StdWeb.ChildBreakToken? __element_243;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_242 = null;
+            __element_243 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_242 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ChildBreakToken>(___notNullable_1);
+            __element_243 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.ChildBreakToken>(___notNullable_1);
         }
-        return __element_242;
+        return __element_243;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -16294,35 +16361,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_243;
+        global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_244;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_243 = null;
+            __element_244 = null;
         }
         else
         {
-            __element_243 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_244 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_243;
+        return __element_244;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_243;
+        global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>? __element_244;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsUnionV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_243 = null;
+            __element_244 = null;
         }
         else
         {
-            __element_243 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
+            __element_244 = new global::Iskra.JSCore.Generics.Union<string, global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.GenericMarshaller.Union>(___propObject_0);
         }
-        return __element_243;
+        return __element_244;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -16360,35 +16427,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>? __element_244;
+        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>? __element_245;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___propObject_0 is null)
         {
-            __element_244 = null;
+            __element_245 = null;
         }
         else
         {
-            __element_244 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_245 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_244;
+        return __element_245;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>? __element_244;
+        global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>? __element_245;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___propObject_0;
         ___propObject_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___propObject_0 is null)
         {
-            __element_244 = null;
+            __element_245 = null;
         }
         else
         {
-            __element_244 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
+            __element_245 = new global::Iskra.JSCore.Generics.FrozenArray<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>(___propObject_0);
         }
-        return __element_244;
+        return __element_245;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -16426,35 +16493,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.AudioBuffer? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.AudioBuffer?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.AudioBuffer? __element_245;
+        global::Iskra.StdWeb.AudioBuffer? __element_246;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_245 = null;
+            __element_246 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_245 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(___notNullable_1);
+            __element_246 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(___notNullable_1);
         }
-        return __element_245;
+        return __element_246;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.AudioBuffer? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.AudioBuffer?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.AudioBuffer? __element_245;
+        global::Iskra.StdWeb.AudioBuffer? __element_246;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_245 = null;
+            __element_246 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_245 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(___notNullable_1);
+            __element_246 = global::Iskra.JSCore.JSObjectProxyFactory.GetProxy<global::Iskra.StdWeb.AudioBuffer>(___notNullable_1);
         }
-        return __element_245;
+        return __element_246;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
@@ -16492,35 +16559,35 @@ public class PropertyAccessorNullable:
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.RefillCallback? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.RefillCallback?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, int propertyIndex)
     {
-        global::Iskra.StdWeb.RefillCallback? __element_246;
+        global::Iskra.StdWeb.RefillCallback? __element_247;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyIndex);
         if (___res_0 is null)
         {
-            __element_246 = null;
+            __element_247 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_246 = new global::Iskra.StdWeb.RefillCallback(___notNullable_1);
+            __element_247 = new global::Iskra.StdWeb.RefillCallback(___notNullable_1);
         }
-        return __element_246;
+        return __element_247;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     static global::Iskra.StdWeb.RefillCallback? global::Iskra.JSCore.Generics.IPropertyAccessor<global::Iskra.StdWeb.RefillCallback?>.Get(global::System.Runtime.InteropServices.JavaScript.JSObject obj, string propertyName)
     {
-        global::Iskra.StdWeb.RefillCallback? __element_246;
+        global::Iskra.StdWeb.RefillCallback? __element_247;
         global::System.Runtime.InteropServices.JavaScript.JSObject? ___res_0 = global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.GetPropertyAsJSObjectV2AsNullable(obj, propertyName);
         if (___res_0 is null)
         {
-            __element_246 = null;
+            __element_247 = null;
         }
         else
         {
             global::System.Runtime.InteropServices.JavaScript.JSObject ___notNullable_1 = (global::System.Runtime.InteropServices.JavaScript.JSObject)___res_0;
-            __element_246 = new global::Iskra.StdWeb.RefillCallback(___notNullable_1);
+            __element_247 = new global::Iskra.StdWeb.RefillCallback(___notNullable_1);
         }
-        return __element_246;
+        return __element_247;
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

@@ -1,0 +1,337 @@
+{
+  "idlparsed": {
+    "idlNames": {
+      "SVGRect": {
+        "fragment": "",
+        "type": "interface",
+        "name": "SVGRect",
+        "inheritance": null,
+        "partial": false,
+        "members": [
+          {
+            "type": "attribute",
+            "name": "x",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          },
+          {
+            "type": "attribute",
+            "name": "y",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          },
+          {
+            "type": "attribute",
+            "name": "width",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          },
+          {
+            "type": "attribute",
+            "name": "height",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          }
+        ],
+        "extAttrs": [],
+        "href": "https://www.w3.org/TR/SVG11/coords.html#InterfaceSVGRect"
+      },
+      "SVGPoint": {
+        "fragment": "",
+        "type": "interface",
+        "name": "SVGPoint",
+        "inheritance": null,
+        "partial": false,
+        "members": [
+          {
+            "type": "attribute",
+            "name": "x",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          },
+          {
+            "type": "attribute",
+            "name": "y",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "matrixTransform",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGPoint" },
+            "arguments": [
+              {
+                "name": "matrix",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+                "extAttrs": []
+              }
+            ],
+            "extAttrs": []
+          }
+        ],
+        "extAttrs": [],
+        "href": "https://www.w3.org/TR/SVG11/coords.html#InterfaceSVGPoint"
+      },
+      "SVGMatrix": {
+        "fragment": "",
+        "type": "interface",
+        "name": "SVGMatrix",
+        "inheritance": null,
+        "partial": false,
+        "members": [
+          {
+            "type": "attribute",
+            "name": "a",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          },
+          {
+            "type": "attribute",
+            "name": "b",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          },
+          {
+            "type": "attribute",
+            "name": "c",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          },
+          {
+            "type": "attribute",
+            "name": "d",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          },
+          {
+            "type": "attribute",
+            "name": "e",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          },
+          {
+            "type": "attribute",
+            "name": "f",
+            "special": "",
+            "readonly": false,
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "multiply",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+            "arguments": [
+              {
+                "name": "secondMatrix",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+                "extAttrs": []
+              }
+            ],
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "inverse",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+            "arguments": [],
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "translate",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+            "arguments": [
+              {
+                "name": "x",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+                "extAttrs": []
+              },
+              {
+                "name": "y",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+                "extAttrs": []
+              }
+            ],
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "scale",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+            "arguments": [
+              {
+                "name": "scaleFactor",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+                "extAttrs": []
+              }
+            ],
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "scaleNonUniform",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+            "arguments": [
+              {
+                "name": "scaleFactorX",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+                "extAttrs": []
+              },
+              {
+                "name": "scaleFactorY",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+                "extAttrs": []
+              }
+            ],
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "rotate",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+            "arguments": [
+              {
+                "name": "angle",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+                "extAttrs": []
+              }
+            ],
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "rotateFromVector",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+            "arguments": [
+              {
+                "name": "x",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+                "extAttrs": []
+              },
+              {
+                "name": "y",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+                "extAttrs": []
+              }
+            ],
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "flipX",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+            "arguments": [],
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "flipY",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+            "arguments": [],
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "skewX",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+            "arguments": [
+              {
+                "name": "angle",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+                "extAttrs": []
+              }
+            ],
+            "extAttrs": []
+          },
+          {
+            "type": "operation",
+            "name": "skewY",
+            "special": "",
+            "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "SVGMatrix" },
+            "arguments": [
+              {
+                "name": "angle",
+                "optional": false,
+                "variadic": false,
+                "default": null,
+                "idlType": { "extAttrs": [], "generic": "", "nullable": false, "union": false, "idlType": "float" },
+                "extAttrs": []
+              }
+            ],
+            "extAttrs": []
+          }
+        ],
+        "extAttrs": [],
+        "href": "https://www.w3.org/TR/SVG11/coords.html#InterfaceSVGMatrix"
+      }
+    },
+    "idlExtendedNames": {}
+  }
+}

@@ -77,7 +77,7 @@ public partial class SVGTextContentElement: global::Iskra.StdWeb.SVGGraphicsElem
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMPoint GetStartPositionOfChar(uint charnum)
+    public global::Iskra.StdWeb.SVGPoint GetStartPositionOfChar(uint charnum)
     {
         int ___argsArrayLength_2 = 1;
 
@@ -93,11 +93,11 @@ public partial class SVGTextContentElement: global::Iskra.StdWeb.SVGGraphicsElem
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getStartPositionOfChar", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMPoint GetEndPositionOfChar(uint charnum)
+    public global::Iskra.StdWeb.SVGPoint GetEndPositionOfChar(uint charnum)
     {
         int ___argsArrayLength_2 = 1;
 
@@ -113,11 +113,11 @@ public partial class SVGTextContentElement: global::Iskra.StdWeb.SVGGraphicsElem
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getEndPositionOfChar", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMRect GetExtentOfChar(uint charnum)
+    public global::Iskra.StdWeb.SVGRect GetExtentOfChar(uint charnum)
     {
         int ___argsArrayLength_2 = 1;
 
@@ -133,7 +133,7 @@ public partial class SVGTextContentElement: global::Iskra.StdWeb.SVGGraphicsElem
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getExtentOfChar", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGRect, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

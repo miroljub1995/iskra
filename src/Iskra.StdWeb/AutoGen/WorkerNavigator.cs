@@ -84,6 +84,12 @@ public partial class WorkerNavigator: global::Iskra.JSCore.JSObjectProxy
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.CrossOriginStorageManager CrossOriginStorage
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CrossOriginStorageManager, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "crossOriginStorage");
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.JSCore.Promise SetAppBadge()
     {
         using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();

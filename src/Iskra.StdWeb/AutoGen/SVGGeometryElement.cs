@@ -91,7 +91,7 @@ public partial class SVGGeometryElement: global::Iskra.StdWeb.SVGGraphicsElement
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMPoint GetPointAtLength(float distance)
+    public global::Iskra.StdWeb.SVGPoint GetPointAtLength(float distance)
     {
         int ___argsArrayLength_2 = 1;
 
@@ -107,7 +107,7 @@ public partial class SVGGeometryElement: global::Iskra.StdWeb.SVGGraphicsElement
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getPointAtLength", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 }
 

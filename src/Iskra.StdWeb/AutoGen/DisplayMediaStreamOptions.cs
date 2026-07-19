@@ -74,6 +74,13 @@ public partial class DisplayMediaStreamOptions: global::Iskra.JSCore.JSObjectPro
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.MonitorTypeSurfacesEnum, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "monitorTypeSurfaces");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.MonitorTypeSurfacesEnum, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "monitorTypeSurfaces", value);
     }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.AudioSelectionPreferenceEnum AudioSelection
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AudioSelectionPreferenceEnum, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "audioSelection");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AudioSelectionPreferenceEnum, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "audioSelection", value);
+    }
 }
 
 #nullable disable

@@ -993,7 +993,7 @@ public partial class Document: global::Iskra.StdWeb.Node
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public static global::Iskra.StdWeb.Document ParseHTMLUnsafe(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> html, global::Iskra.StdWeb.SetHTMLUnsafeOptions options)
+    public static global::Iskra.StdWeb.Document ParseHTMLUnsafe(global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.TrustedHTML, string, global::Iskra.StdWeb.GenericMarshaller.Union> html, global::Iskra.StdWeb.ParseHTMLUnsafeOptions options)
     {
         int ___argsArrayLength_2 = 2;
 

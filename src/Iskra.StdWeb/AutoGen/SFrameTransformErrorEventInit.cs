@@ -27,10 +27,10 @@ public partial class SFrameTransformErrorEventInit: global::Iskra.StdWeb.EventIn
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public required global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Frame
+    public required global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCEncodedVideoFrame, global::Iskra.StdWeb.RTCEncodedAudioFrame, global::Iskra.StdWeb.GenericMarshaller.Union> Frame
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "frame");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "frame", value);
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCEncodedVideoFrame, global::Iskra.StdWeb.RTCEncodedAudioFrame, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "frame");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCEncodedVideoFrame, global::Iskra.StdWeb.RTCEncodedAudioFrame, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "frame", value);
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

@@ -164,6 +164,12 @@ public partial class Navigator: global::Iskra.JSCore.JSObjectProxy
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public ushort CpuPerformance
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<ushort, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "cpuPerformance");
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.StdWeb.NavigatorLogin Login
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NavigatorLogin, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "login");
@@ -639,6 +645,12 @@ public partial class Navigator: global::Iskra.JSCore.JSObjectProxy
     public global::Iskra.StdWeb.NetworkInformation Connection
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.NetworkInformation, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "connection");
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.CrossOriginStorageManager CrossOriginStorage
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.CrossOriginStorageManager, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "crossOriginStorage");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

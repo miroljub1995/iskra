@@ -20,20 +20,6 @@ public partial class AuthenticationExtensionsClientOutputs: global::Iskra.JSCore
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public bool HmacCreateSecret
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacCreateSecret");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacCreateSecret", value);
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.HMACGetSecretOutput HmacGetSecret
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HMACGetSecretOutput, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacGetSecret");
-        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.HMACGetSecretOutput, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacGetSecret", value);
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public bool Appid
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "appid");
@@ -80,6 +66,34 @@ public partial class AuthenticationExtensionsClientOutputs: global::Iskra.JSCore
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.AuthenticationExtensionsPaymentOutputs, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "payment");
         set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.AuthenticationExtensionsPaymentOutputs, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "payment", value);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public bool CredBlob
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "credBlob");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "credBlob", value);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.JSCore.ArrayBuffer GetCredBlob
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "getCredBlob");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.JSCore.ArrayBuffer, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "getCredBlob", value);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public bool HmacCreateSecret
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacCreateSecret");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<bool, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacCreateSecret", value);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.HMACGetSecretOutput HmacGetSecret
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.HMACGetSecretOutput, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacGetSecret");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.HMACGetSecretOutput, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "hmacGetSecret", value);
     }
 }
 

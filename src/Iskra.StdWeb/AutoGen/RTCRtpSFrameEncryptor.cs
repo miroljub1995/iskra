@@ -4,15 +4,15 @@ namespace Iskra.StdWeb;
 
 #nullable enable
 
-public partial class SFrameEncrypterStream: global::Iskra.JSCore.JSObjectProxy
+public partial class RTCRtpSFrameEncryptor: global::Iskra.JSCore.JSObjectProxy
 {
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public SFrameEncrypterStream(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
+    public RTCRtpSFrameEncryptor(global::System.Runtime.InteropServices.JavaScript.JSObject obj): base(obj)
     {
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatformAttribute("browser")]
-    public static global::Iskra.StdWeb.SFrameEncrypterStream New(global::Iskra.StdWeb.SFrameTransformOptions options)
+    public static global::Iskra.StdWeb.RTCRtpSFrameEncryptor New(global::Iskra.StdWeb.RTCRtpSFrameEncryptorOptions options)
     {
         int ___argsArrayLength_3 = 1;
 
@@ -23,20 +23,8 @@ public partial class SFrameEncrypterStream: global::Iskra.JSCore.JSObjectProxy
         ___marshalledValue_4 = options.JSObject;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_4);
 
-        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "SFrameEncrypterStream", ___argsArray_0.JSObject);
-        return new global::Iskra.StdWeb.SFrameEncrypterStream(___res_2);
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.ReadableStream Readable
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.ReadableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "readable");
-    }
-
-    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.WritableStream Writable
-    {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.WritableStream, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "writable");
+        global::System.Runtime.InteropServices.JavaScript.JSObject ___res_2 = global::Iskra.JSCore.Extensions.JSConstructorExtensions.ConstructObjectNonEmpty(global::System.Runtime.InteropServices.JavaScript.JSHost.GlobalThis, "RTCRtpSFrameEncryptor", ___argsArray_0.JSObject);
+        return new global::Iskra.StdWeb.RTCRtpSFrameEncryptor(___res_2);
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

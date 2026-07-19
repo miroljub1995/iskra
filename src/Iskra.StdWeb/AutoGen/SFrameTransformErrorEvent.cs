@@ -45,9 +45,9 @@ public partial class SFrameTransformErrorEvent: global::Iskra.StdWeb.Event
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>? Frame
+    public global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCEncodedVideoFrame, global::Iskra.StdWeb.RTCEncodedAudioFrame, global::Iskra.StdWeb.GenericMarshaller.Union> Frame
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<double, global::System.Numerics.BigInteger, string, bool, global::System.Runtime.InteropServices.JavaScript.JSObject, object, global::Iskra.StdWeb.GenericMarshaller.Union>?, global::Iskra.StdWeb.PropertyAccessorNullable>(JSObject, "frame");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.Union<global::Iskra.StdWeb.RTCEncodedVideoFrame, global::Iskra.StdWeb.RTCEncodedAudioFrame, global::Iskra.StdWeb.GenericMarshaller.Union>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "frame");
     }
 }
 

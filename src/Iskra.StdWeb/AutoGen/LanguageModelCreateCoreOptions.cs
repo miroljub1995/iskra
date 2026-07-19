@@ -34,6 +34,13 @@ public partial class LanguageModelCreateCoreOptions: global::Iskra.JSCore.JSObje
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.LanguageModelSamplingMode SamplingMode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.LanguageModelSamplingMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "samplingMode");
+        set => global::Iskra.JSCore.Generics.PropertyAccessor.Set<global::Iskra.StdWeb.LanguageModelSamplingMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "samplingMode", value);
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.LanguageModelExpected, global::Iskra.StdWeb.PropertyAccessor> ExpectedInputs
     {
         get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Generics.JSArray<global::Iskra.StdWeb.LanguageModelExpected, global::Iskra.StdWeb.PropertyAccessor>, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "expectedInputs");

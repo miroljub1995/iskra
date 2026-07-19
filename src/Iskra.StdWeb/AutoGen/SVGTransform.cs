@@ -32,9 +32,9 @@ public partial class SVGTransform: global::Iskra.JSCore.JSObjectProxy
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMMatrix Matrix
+    public global::Iskra.StdWeb.SVGMatrix Matrix
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matrix");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGMatrix, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "matrix");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

@@ -244,6 +244,18 @@ public class GenTypeDescriptors
 
     private IDLTypeDescription ResolveTypedefInIDLTypeDescription(IDLTypeDescription input)
     {
+        if (input is AsyncSequenceTypeDescription asyncSequenceTypeDescription)
+        {
+            // async_sequence has no dedicated managed representation yet, so treat it as `any`
+            // (the type used before the WebIDL definition adopted the async_sequence generic).
+            return new SingleTypeDescription
+            {
+                IdlType = BuiltinTypes.Any,
+                Nullable = asyncSequenceTypeDescription.Nullable,
+                ExtAttrs = asyncSequenceTypeDescription.ExtAttrs,
+            };
+        }
+
         if (input is SingleTypeDescription singleTypeDescription)
         {
             if (TryGet(singleTypeDescription.IdlType, out var desc) && desc.RootType is TypedefType typedefType)

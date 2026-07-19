@@ -35,6 +35,7 @@ public sealed partial class GPUFeatureName
     public static readonly GPUFeatureName Texture_formats_tier2 = new("texture-formats-tier2");
     public static readonly GPUFeatureName Primitive_index = new("primitive-index");
     public static readonly GPUFeatureName Texture_component_swizzle = new("texture-component-swizzle");
+    public static readonly GPUFeatureName Subgroup_size_control = new("subgroup-size-control");
 
     public override string ToString() => _value;
 
@@ -62,6 +63,7 @@ public sealed partial class GPUFeatureName
         "texture-formats-tier2" => Texture_formats_tier2,
         "primitive-index" => Primitive_index,
         "texture-component-swizzle" => Texture_component_swizzle,
+        "subgroup-size-control" => Subgroup_size_control,
         _ => throw new ArgumentException($"Invalid value \"{value}\" for GPUFeatureName", nameof(value)),
     };
 }

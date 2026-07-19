@@ -43,13 +43,13 @@ public partial class SVGSVGElement: global::Iskra.StdWeb.SVGGraphicsElement
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMPointReadOnly CurrentTranslate
+    public global::Iskra.StdWeb.SVGPoint CurrentTranslate
     {
-        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPointReadOnly, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "currentTranslate");
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGPoint, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "currentTranslate");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.NodeList GetIntersectionList(global::Iskra.StdWeb.DOMRectReadOnly rect, global::Iskra.StdWeb.SVGElement? referenceElement)
+    public global::Iskra.StdWeb.NodeList GetIntersectionList(global::Iskra.StdWeb.SVGRect rect, global::Iskra.StdWeb.SVGElement? referenceElement)
     {
         int ___argsArrayLength_2 = 2;
 
@@ -82,7 +82,7 @@ public partial class SVGSVGElement: global::Iskra.StdWeb.SVGGraphicsElement
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.NodeList GetEnclosureList(global::Iskra.StdWeb.DOMRectReadOnly rect, global::Iskra.StdWeb.SVGElement? referenceElement)
+    public global::Iskra.StdWeb.NodeList GetEnclosureList(global::Iskra.StdWeb.SVGRect rect, global::Iskra.StdWeb.SVGElement? referenceElement)
     {
         int ___argsArrayLength_2 = 2;
 
@@ -115,7 +115,7 @@ public partial class SVGSVGElement: global::Iskra.StdWeb.SVGGraphicsElement
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public bool CheckIntersection(global::Iskra.StdWeb.SVGElement element, global::Iskra.StdWeb.DOMRectReadOnly rect)
+    public bool CheckIntersection(global::Iskra.StdWeb.SVGElement element, global::Iskra.StdWeb.SVGRect rect)
     {
         int ___argsArrayLength_2 = 2;
 
@@ -140,7 +140,7 @@ public partial class SVGSVGElement: global::Iskra.StdWeb.SVGGraphicsElement
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public bool CheckEnclosure(global::Iskra.StdWeb.SVGElement element, global::Iskra.StdWeb.DOMRectReadOnly rect)
+    public bool CheckEnclosure(global::Iskra.StdWeb.SVGElement element, global::Iskra.StdWeb.SVGRect rect)
     {
         int ___argsArrayLength_2 = 2;
 
@@ -204,36 +204,36 @@ public partial class SVGSVGElement: global::Iskra.StdWeb.SVGGraphicsElement
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMPoint CreateSVGPoint()
+    public global::Iskra.StdWeb.SVGPoint CreateSVGPoint()
     {
         using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGPoint", JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMMatrix CreateSVGMatrix()
+    public global::Iskra.StdWeb.SVGMatrix CreateSVGMatrix()
     {
         using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGMatrix", JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMMatrix, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGMatrix, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMRect CreateSVGRect()
+    public global::Iskra.StdWeb.SVGRect CreateSVGRect()
     {
         using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
 
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallEmptyNonVoidFunctionProperty(JSObject, "createSVGRect", JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMRect, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGRect, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]

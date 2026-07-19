@@ -30,7 +30,7 @@ public partial class SVGPointList: global::Iskra.JSCore.JSObjectProxy
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMPoint Initialize(global::Iskra.StdWeb.DOMPoint newItem)
+    public global::Iskra.StdWeb.SVGPoint Initialize(global::Iskra.StdWeb.SVGPoint newItem)
     {
         int ___argsArrayLength_2 = 1;
 
@@ -46,11 +46,11 @@ public partial class SVGPointList: global::Iskra.JSCore.JSObjectProxy
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "initialize", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMPoint GetItem(uint index)
+    public global::Iskra.StdWeb.SVGPoint GetItem(uint index)
     {
         int ___argsArrayLength_2 = 1;
 
@@ -66,11 +66,11 @@ public partial class SVGPointList: global::Iskra.JSCore.JSObjectProxy
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "getItem", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMPoint InsertItemBefore(global::Iskra.StdWeb.DOMPoint newItem, uint index)
+    public global::Iskra.StdWeb.SVGPoint InsertItemBefore(global::Iskra.StdWeb.SVGPoint newItem, uint index)
     {
         int ___argsArrayLength_2 = 2;
 
@@ -91,11 +91,11 @@ public partial class SVGPointList: global::Iskra.JSCore.JSObjectProxy
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "insertItemBefore", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMPoint ReplaceItem(global::Iskra.StdWeb.DOMPoint newItem, uint index)
+    public global::Iskra.StdWeb.SVGPoint ReplaceItem(global::Iskra.StdWeb.SVGPoint newItem, uint index)
     {
         int ___argsArrayLength_2 = 2;
 
@@ -116,11 +116,11 @@ public partial class SVGPointList: global::Iskra.JSCore.JSObjectProxy
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "replaceItem", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMPoint RemoveItem(uint index)
+    public global::Iskra.StdWeb.SVGPoint RemoveItem(uint index)
     {
         int ___argsArrayLength_2 = 1;
 
@@ -136,11 +136,11 @@ public partial class SVGPointList: global::Iskra.JSCore.JSObjectProxy
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "removeItem", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public global::Iskra.StdWeb.DOMPoint AppendItem(global::Iskra.StdWeb.DOMPoint newItem)
+    public global::Iskra.StdWeb.SVGPoint AppendItem(global::Iskra.StdWeb.SVGPoint newItem)
     {
         int ___argsArrayLength_2 = 1;
 
@@ -156,11 +156,11 @@ public partial class SVGPointList: global::Iskra.JSCore.JSObjectProxy
         global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "appendItem", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
 
         // Return Value
-        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.DOMPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.SVGPoint, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public void Set(uint index, global::Iskra.StdWeb.DOMPoint newItem)
+    public void Set(uint index, global::Iskra.StdWeb.SVGPoint newItem)
     {
         int ___argsArrayLength_2 = 2;
 

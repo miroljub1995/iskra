@@ -350,6 +350,12 @@ public partial class LanguageModel: global::Iskra.StdWeb.EventTarget
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
+    public global::Iskra.StdWeb.LanguageModelSamplingMode SamplingMode
+    {
+        get => global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.StdWeb.LanguageModelSamplingMode, global::Iskra.StdWeb.PropertyAccessor>(JSObject, "samplingMode");
+    }
+
+    [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
     public global::Iskra.JSCore.Generics.Promise<global::Iskra.StdWeb.LanguageModel, global::Iskra.StdWeb.PropertyAccessor> Clone()
     {
         using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();

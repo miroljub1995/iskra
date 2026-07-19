@@ -12,7 +12,7 @@ public partial class ModelContext: global::Iskra.StdWeb.EventTarget
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public void RegisterTool(global::Iskra.StdWeb.ModelContextTool tool)
+    public global::Iskra.JSCore.Promise RegisterTool(global::Iskra.StdWeb.ModelContextTool tool)
     {
         int ___argsArrayLength_2 = 1;
 
@@ -23,11 +23,16 @@ public partial class ModelContext: global::Iskra.StdWeb.EventTarget
         ___marshalledValue_3 = tool.JSObject;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 0, ___marshalledValue_3);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "registerTool", JSObject, ___argsArray_0.JSObject);
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "registerTool", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
-    public void RegisterTool(global::Iskra.StdWeb.ModelContextTool tool, global::Iskra.StdWeb.ModelContextRegisterToolOptions options)
+    public global::Iskra.JSCore.Promise RegisterTool(global::Iskra.StdWeb.ModelContextTool tool, global::Iskra.StdWeb.ModelContextRegisterToolOptions options)
     {
         int ___argsArrayLength_2 = 2;
 
@@ -43,7 +48,12 @@ public partial class ModelContext: global::Iskra.StdWeb.EventTarget
         ___marshalledValue_4 = options.JSObject;
         global::Iskra.JSCore.Extensions.JSObjectPropertyExtensions.SetPropertyAsJSObjectV2(___argsArray_0.JSObject, 1, ___marshalledValue_4);
 
-        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyVoidFunctionProperty(JSObject, "registerTool", JSObject, ___argsArray_0.JSObject);
+        using global::Iskra.JSCore.FunctionResPool.Owner ___resOwner_1 = global::Iskra.JSCore.FunctionResPool.Shared.Rent();
+
+        global::Iskra.JSCore.Extensions.JSFunctionExtensions.CallNonEmptyNonVoidFunctionProperty(JSObject, "registerTool", JSObject, ___argsArray_0.JSObject, ___resOwner_1.JSObject);
+
+        // Return Value
+        return global::Iskra.JSCore.Generics.PropertyAccessor.Get<global::Iskra.JSCore.Promise, global::Iskra.StdWeb.PropertyAccessor>(___resOwner_1.JSObject, "value");
     }
 
     [global::System.Runtime.Versioning.SupportedOSPlatform("browser")]
